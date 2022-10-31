@@ -3,7 +3,7 @@
   --callout-padding: 16px!important;
   --callout-border-radii: 8px!important;
   --column-spacing: 32px!important;
-  --layout-max-width: 900px!important;
+  --layout-max-width: 1100px!important;
   --color-border-default: #E7E6E6!important;
   --collection-card-gap: 24px!important;
   --header-cover-height: 45vh!important;
@@ -28,6 +28,9 @@
   --picker-hover-text-color: var(--color-text-default)!important;
   --picker-hover-border-color: #f0f0f0!important;
   --collection-card-cover-size-small: 140px!important; }
+
+body:not(#page-index) {
+  layout-max-width: 800px !important;}
 
 body {
   -webkit-font-smoothing: antialiased !important;
