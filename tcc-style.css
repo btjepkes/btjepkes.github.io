@@ -29,9 +29,6 @@
   --picker-hover-border-color: #f0f0f0!important;
   --collection-card-cover-size-small: 140px!important; }
 
-body:not(#page-index) {
-  layout-max-width: 800px !important;}
-
 body {
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
