@@ -281,7 +281,7 @@ h3.notion-heading {
       background: #F8F8F8 !important; }
 
 .super-root:not(.page__index) .notion-header__title {
-  text-align: center !important;
+  text-align: left !important;
   width: 100% !important; }
 
 .super-root:not(.page__index) .notion-dropdown__option-list {
