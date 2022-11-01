@@ -13,7 +13,7 @@
   --color-card-bg: #F8F8F8!important;
   --color-card-bg-hover: #f4f4f4!important;
   --collection-card-cover-height-small: 160px!important;
-  --quote-background: #e2edff!important;
+  --quote-background: #ffffff !important;
   /* Database view picker options */
   /* Active colors */
   --picker-active-bg-color: #f0f0f0!important;
@@ -117,8 +117,8 @@ h3.notion-heading {
 .notion-quote {
   border: 0 !important;
   background: var(--quote-background) !important;
-  border-radius: 7px !important;
-  padding: 24px !important;
+  border-radius: 0px !important;
+  padding: 0px !important;
   font-size: 1.4rem !important;
   letter-spacing: -0.2px !important; }
 
