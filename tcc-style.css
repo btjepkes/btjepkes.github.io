@@ -164,7 +164,7 @@ h3.notion-heading {
 
 .notion-pill {
   font-size: 0.75rem !important;
-  border-radius: 50px !important;
+  border-radius: 30px !important;
   padding: 3px 6px !important; }
 
 .notion-collection-gallery, .notion-collection-list {
@@ -212,7 +212,7 @@ h3.notion-heading {
     flex-direction: row-reverse !important;
     min-height: 420px !important; }
     .notion-collection-gallery.large .notion-collection-card .notion-property__title {
-      font-size: 2.6rem !important;
+      font-size: 2.0rem !important;
       max-width: 600px !important; }
       .notion-collection-gallery.large .notion-collection-card .notion-property__title * {
         line-height: 1 !important;
