@@ -100,7 +100,6 @@ h1.notion-header__title {
     line-height: 1.2 !important; }
 
 h2.notion-heading {
-  color: #ff5a3d !important;
   font-size: 1.8rem !important;
   font-weight: 700 !important;
   letter-spacing: -1px !important;
@@ -110,6 +109,7 @@ h2.notion-heading {
     line-height: 1.2 !important; }
 
 h3.notion-heading {
+  color: #ff5a3d !important;
   font-size: 1.4rem !important;
   font-weight: 700 !important;
   letter-spacing: -0.5px !important;
