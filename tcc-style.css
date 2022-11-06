@@ -381,7 +381,7 @@ h3.notion-heading {
     letter-spacing: -0.3px !important;
     color: var(--picker-text-color) !important; } }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1280px) {
   #page-index .notion-collection-gallery.large .notion-collection-card {
     flex-direction: column !important; }
   #page-index .notion-collection-gallery.medium {
