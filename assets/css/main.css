@@ -198,7 +198,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			h3 {
-				font-size: 1em;
+				font-size: 1.2em;
 				line-height: 1.65em;
 			}
 
