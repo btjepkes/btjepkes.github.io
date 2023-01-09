@@ -3713,7 +3713,8 @@ input, select, textarea {
 			}
 
 				#banner h2 {
-					font-size: 1.25em;
+					font-size: 1.9em;
+					padding: 0.35em 0.2em;
 				}
 
 				#banner br {
