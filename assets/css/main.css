@@ -2604,10 +2604,10 @@ input, select, textarea {
 
 			.features li:before {
 				display: block;
-				color: #ed4933;
+				color: mediumseagreen;
 				position: absolute;
 				left: 1.75em;
-				top: 2.75em;
+				top: 2.4em;
 				font-size: 1.8em;
 			}
 
@@ -3351,7 +3351,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: slategray;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
