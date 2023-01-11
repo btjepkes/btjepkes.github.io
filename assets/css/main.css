@@ -160,6 +160,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		line-height: 2.0em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2488,7 +2489,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: mediumseagreen;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2950,7 +2951,6 @@ input, select, textarea {
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
 				color: #ffffff;
 			}
 
