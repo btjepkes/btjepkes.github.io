@@ -3969,6 +3969,8 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
+		background-image: -moz-linear-gradient(top, #243c54, rgba(0,0,0,0.5)), url("../../images/bg-hexgon.jpg");
+		background-image: linear-gradient(to bottom, #243c54, rgba(0,0,0,0.5)), url("../../images/bg-hexgon.jpg");
 		/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
@@ -3978,7 +3980,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;*/
 		padding-top: 0;
-		background-color: #243c54;
+		/*background-color: #243c54;*/
 	}
 
 	body.landing #footer {
