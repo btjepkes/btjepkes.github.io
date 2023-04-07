@@ -9,13 +9,13 @@ description: Hello, I'm Ben Tjepkes and this is my portfolio detailing my profes
 
 I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
 
-### My Education
+## My Education
 
 MA, Geography | University of Missouri-Columbia | Ant. May 2025
 
 BS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019
 
-### My Highlights
+## My Highlights
 
 
 7+ years of progressive experience in conservation and environmental science.

@@ -7,6 +7,12 @@
 
 h1 {
   font-weight: 900;
+  color: whitesmoke;
+}
+
+h2 {
+  color:whitesmoke;
+  border-bottom: solid 2px #9fc490;
 }
 
 
@@ -44,10 +50,10 @@ padding: 10px 0px;
 /* HEADERS */
 
 .quarto-title-block .description {
-  color: #84c146;
+  color: #9fc490;
   font-size: 22px;
   line-height: 1.1;
-  font-weight: bold;
+  font-weight: 600;
   padding: 10px 0px;
 }
 

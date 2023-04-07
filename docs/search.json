@@ -44,7 +44,7 @@
   {
     "objectID": "gallery.html#education",
     "href": "gallery.html#education",
-    "title": "Gallery",
+    "title": "Project Gallery",
     "section": "Education",
     "text": "Education\n“On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.”"
   },
@@ -116,7 +116,7 @@
     "href": "index.html#in-brief",
     "title": "Welcome & Intros",
     "section": "In Brief",
-    "text": "In Brief\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\n\nMy Education\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019\n\n\nMy Highlights\n7+ years of progressive experience in conservation and environmental science.\nDemonstrated experience with desktop, web, and mobile GIS software (e.g., Esri ArcGIS Pro, ArcGIS Online, ArcGIS Field Maps).\nProficient in working with Microsoft Office (e.g., Word, Excel, Access, Publisher, Outlook).\nWorking knowledge of R to perform statistical analyses, data wrangling, and data visualization.\nFront-end web development experience using HTML and CSS coding languages.\nProficient in managing large dataset using standardized software and methods.\nSkillful in cartographic design using open source and proprietary mapping applications.\nAdept at using R Markdown and Quarto for reproducible reporting."
+    "text": "In Brief\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation."
   },
   {
     "objectID": "index.html#education-1",
@@ -128,8 +128,43 @@
   {
     "objectID": "gallery.html#the-tools-in-my-toolbox",
     "href": "gallery.html#the-tools-in-my-toolbox",
-    "title": "Gallery",
+    "title": "Project Gallery",
     "section": "The Tools in my Toolbox",
-    "text": "The Tools in my Toolbox\n“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?”\n\nGIS — ArcGIS Pro, ArcGIS Online, R-Spatial\n“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?”\n\n\nReporting — R Markdown and Quarto\n“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?”\n\n\nData Visualizations — RStudio and Jupyter Notebooks\n“But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?”\n\n\nWeb Development — Notion, Super, VSCode, and WordPress\n“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.”"
+    "text": "The Tools in my Toolbox\nIntro to how I use tools for workflows.\n\nGIS — ArcGIS Pro, ArcGIS Online, R-Spatial\nTools for GIS\n\n\nReporting — R Markdown and Quarto\nTools for reporting.\n\n\nData Visualizations — RStudio and Jupyter Notebooks\nTools for data vizualization.\n\n\nWeb Development — Notion, Super, VSCode, and WordPress\nTools for web development."
+  },
+  {
+    "objectID": "gallery.html#data-viz-and-reports",
+    "href": "gallery.html#data-viz-and-reports",
+    "title": "Project Gallery",
+    "section": "Data Viz and Reports",
+    "text": "Data Viz and Reports\nThis will be data vizualizations and report examples."
+  },
+  {
+    "objectID": "gallery.html#gis-and-mapping",
+    "href": "gallery.html#gis-and-mapping",
+    "title": "Project Gallery",
+    "section": "GIS and Mapping",
+    "text": "GIS and Mapping\nThis will be maps made in R and GIS."
+  },
+  {
+    "objectID": "gallery.html#writings",
+    "href": "gallery.html#writings",
+    "title": "Project Gallery",
+    "section": "Writings",
+    "text": "Writings\nThis will be a link to TCC."
+  },
+  {
+    "objectID": "index.html#my-education",
+    "href": "index.html#my-education",
+    "title": "Welcome & Intros",
+    "section": "My Education",
+    "text": "My Education\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
+  },
+  {
+    "objectID": "index.html#my-highlights",
+    "href": "index.html#my-highlights",
+    "title": "Welcome & Intros",
+    "section": "My Highlights",
+    "text": "My Highlights\n7+ years of progressive experience in conservation and environmental science.\nDemonstrated experience with desktop, web, and mobile GIS software (e.g., Esri ArcGIS Pro, ArcGIS Online, ArcGIS Field Maps).\nProficient in working with Microsoft Office (e.g., Word, Excel, Access, Publisher, Outlook).\nWorking knowledge of R to perform statistical analyses, data wrangling, and data visualization.\nFront-end web development experience using HTML and CSS coding languages.\nProficient in managing large dataset using standardized software and methods.\nSkillful in cartographic design using open source and proprietary mapping applications.\nAdept at using R Markdown and Quarto for reproducible reporting."
   }
 ]
