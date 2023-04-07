@@ -41,6 +41,6 @@ I will be starting grad school at the University of Missouri -- Columbia in fall
 
 For the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The perfect mixture of art and science is where I shine.
 
-## Blogging & Personal Writings
+## Blogging & Writings
 
-Since around 2021, I have been running a personal blog called The Conservation Companion, which houses posts on ecology, natural science, and anything else I can think of. This space has been an excellent area for me to grow my writing and web development skill set.
+Since around 2021, I have been running a personal blog called [The Conservation Companion](https://conservationcompanion.com), which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.

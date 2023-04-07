@@ -130,14 +130,14 @@
     "href": "gallery.html#the-tools-in-my-toolbox",
     "title": "Project Gallery",
     "section": "The Tools in my Toolbox",
-    "text": "The Tools in my Toolbox\nIntro to how I use tools for workflows.\n\nGIS — ArcGIS Pro, ArcGIS Online, R-Spatial\nTools for GIS\n\n\nReporting — R Markdown and Quarto\nTools for reporting.\n\n\nData Visualizations — RStudio and Jupyter Notebooks\nTools for data vizualization.\n\n\nWeb Development — Notion, Super, VSCode, and WordPress\nTools for web development."
+    "text": "The Tools in my Toolbox\nIntro to how I use tools for workflows.\n\nGIS — ArcGIS Pro, ArcGIS Online, R-Spatial\nTools for GIS\n\n\nReporting — R Markdown and Quarto\nTools for reporting.\n\n\nData Visualizations — RStudio and Jupyter Notebooks\nTools for data visualization.\n\n\nWeb Development — Notion, Super, VSCode, and WordPress\nTools for web development."
   },
   {
     "objectID": "gallery.html#data-viz-and-reports",
     "href": "gallery.html#data-viz-and-reports",
     "title": "Project Gallery",
     "section": "Data Viz and Reports",
-    "text": "Data Viz and Reports\nThis will be data vizualizations and report examples."
+    "text": "Data Viz and Reports\nThis will be data visualizations and report examples."
   },
   {
     "objectID": "gallery.html#gis-and-mapping",
@@ -194,5 +194,33 @@
     "title": "About Me",
     "section": "Experience, Early-career",
     "text": "Experience, Early-career\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present"
+  },
+  {
+    "objectID": "index.html#blogging-writings",
+    "href": "index.html#blogging-writings",
+    "title": "Intro & Welcome",
+    "section": "Blogging & Writings",
+    "text": "Blogging & Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion, which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills."
+  },
+  {
+    "objectID": "gallery.html#photography",
+    "href": "gallery.html#photography",
+    "title": "Project Gallery",
+    "section": "Photography",
+    "text": "Photography"
+  },
+  {
+    "objectID": "gallery.html#blog-writings",
+    "href": "gallery.html#blog-writings",
+    "title": "Project Gallery",
+    "section": "Blog & Writings",
+    "text": "Blog & Writings\nThis will be a link to TCC."
+  },
+  {
+    "objectID": "gallery.html#nature-photography",
+    "href": "gallery.html#nature-photography",
+    "title": "Project Gallery",
+    "section": "Nature Photography",
+    "text": "Nature Photography"
   }
 ]

@@ -1,6 +1,6 @@
 ---
 title: "Project Gallery"
-description: Peruse my creative creations --- data visualiztions, reports, maps, web development, and writings for conservation and beyond.
+description: Peruse my creative creations --- data visualiztions, reports, maps, web development, photography, and writings.
 ---
 
 ![](img-data-viz.jpg)
@@ -19,7 +19,7 @@ Tools for reporting.
 
 ### **Data Visualizations** --- RStudio and Jupyter Notebooks
 
-Tools for data vizualization.
+Tools for data visualization.
 
 ### **Web Development** --- Notion, Super, VSCode, and WordPress
 
@@ -27,7 +27,7 @@ Tools for web development.
 
 ## Data Viz and Reports
 
-This will be data vizualizations and report examples.
+This will be data visualizations and report examples.
 
 
 ## GIS and Mapping
@@ -35,8 +35,10 @@ This will be data vizualizations and report examples.
 This will be maps made in R and GIS.
 
 
-## Writings
+## Blog & Writings
 
 This will be a link to TCC. 
+
+## Nature Photography
 
 
