@@ -8,7 +8,8 @@ website:
     location: navbar
     type: textbox
   open-graph: true
-  
+  repo-url: https://github.com/btjepkes/btjepkes.github.io
+  repo-actions: [issue]
   navbar:
     left:
       - href: index.qmd
@@ -20,55 +21,59 @@ website:
       - href: gallery.qmd
         text: Research
 
-
     right:
       - icon: linkedin
-        href: https://linkedin.com/
-        aria-label: LinkedIn
+        href: https://www.linkedin.com/in/benjamintjepkes/
+        aria-label: LinkedIn Profile
       - icon: github
-        href: https://github.com/
-        aria-label: GitHub
+        href: https://github.com/btjepkeshttps://github.com/
+        aria-label: GitHub Profile
       - icon: instagram
-        href: https://github.com/
-        aria-label: Instagram
+        href: https://instagram.com/ben.tjepkes
+        aria-label: Instagram Profile
       - icon: twitter
-        href: https://github.com/
-        aria-label: Twitter
-
+        href: https://twitter.com/BTjepkes
+        aria-label: Twitter Profile
+            
   page-footer:
-    left: 
-      - text: Proudly made by Benjamin Tjepkes using Quarto.
-    center: 
-      - text: "About"
-        href: about.qmd
-      - text: "License"
-        href: license.qmd
-      - text: "Trademark"
-        href: trademark.qmd
-
-    right:
+    left: "Proudly made by Benjamin Tjepkes under CC-BY." 
+    right: 
       - icon: linkedin
-        href: https://linkedin.com/
-        aria-label: LinkedIn
+        href: https://www.linkedin.com/in/benjamintjepkes/
+        aria-label: LinkedIn Profile
       - icon: github
-        href: https://github.com/
-        aria-label: GitHub
+        href: https://github.com/btjepkeshttps://github.com/
+        aria-label: GitHub Profile
       - icon: instagram
-        href: https://github.com/
-        aria-label: Instagram
+        href: https://instagram.com/ben.tjepkes
+        aria-label: Instagram Profile
       - icon: twitter
-        href: https://github.com/
-        aria-label: Twitter
-      - icon: rss
-        href: https://github.com/
-        aria-label: RSS Feed
-        
+        href: https://twitter.com/BTjepkes
+        aria-label: Twitter Profile
+  
+  sidebar:
+      style: "floating"
+      collapse-level: 1
+      contents:
+      - text: "---"
+      - section: "Gallery Section"
+        contents:
+          - href: gallery.qmd
+          - href: gallery.qmd
+          - href: gallery.qmd
+      - text: "---"
+      - section: "Gallery Section 2"
+        contents:
+          - href: gallery.qmd
+          - href: gallery.qmd
+          - href: gallery.qmd
+      - text: "---"
+      
 format:
   html:
     theme: solar
     css: styles.css
     toc: true
     smooth-scroll: true
-    number-sections: true
-
+    number-sections: false
 
