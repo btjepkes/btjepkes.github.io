@@ -1,0 +1,18 @@
+---
+title: "Resources"
+---
+
+About this site
+
+```{r}
+1 + 1
+```
+
+## Resources for **Wildlife**
+
+
+## Resources for **R**
+### Reproducible Reporting
+### Mapping and Spatial Data
+
+## Resources for **GIS**

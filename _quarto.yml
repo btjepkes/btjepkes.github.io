@@ -1,0 +1,73 @@
+project:
+  type: website
+
+website:
+  title: "B.Tjepkes"
+  search:
+    location: navbar
+    type: textbox
+  open-graph: true
+  
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - resources.qmd
+      - href: gallery.qmd
+        text: Projects
+      - href: gallery.qmd
+        text: Research
+
+
+    right:
+      - icon: linkedin
+        href: https://linkedin.com/
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/
+        aria-label: GitHub
+      - icon: instagram
+        href: https://github.com/
+        aria-label: Instagram
+      - icon: twitter
+        href: https://github.com/
+        aria-label: Twitter
+
+  page-footer:
+    left: 
+      - text: Proudly made by Benjamin Tjepkes using Quarto.
+    center: 
+      - text: "About"
+        href: about.qmd
+      - text: "License"
+        href: license.qmd
+      - text: "Trademark"
+        href: trademark.qmd
+
+    right:
+      - icon: linkedin
+        href: https://linkedin.com/
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/
+        aria-label: GitHub
+      - icon: instagram
+        href: https://github.com/
+        aria-label: Instagram
+      - icon: twitter
+        href: https://github.com/
+        aria-label: Twitter
+      - icon: rss
+        href: https://github.com/
+        aria-label: RSS Feed
+        
+format:
+  html:
+    theme: solar
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    number-sections: true
+
+

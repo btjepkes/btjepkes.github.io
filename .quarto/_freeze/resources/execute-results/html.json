@@ -1,0 +1,14 @@
+{
+  "hash": "0804b1b4d0f24459ab5272ae01227865",
+  "result": {
+    "markdown": "---\ntitle: \"Resources\"\n---\n\n\nAbout this site\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n## Resources for **Wildlife**\n\n\n## Resources for **R**\n### Reproducible Reporting\n### Mapping and Spatial Data\n\n## Resources for **GIS**",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
