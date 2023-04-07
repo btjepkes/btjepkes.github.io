@@ -11,15 +11,20 @@ website:
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   repo-actions: [issue]
   navbar:
+    pinned: true
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - resources.qmd
+      - href: about.qmd
+        text: About
       - href: gallery.qmd
         text: Projects
       - href: gallery.qmd
-        text: Research
+        text: Research        
+      - href: resources.qmd
+        text: Links & Resources
+      - href: gallery.qmd
+        text: Contact        
 
     right:
       - icon: linkedin
@@ -36,7 +41,7 @@ website:
         aria-label: Twitter Profile
             
   page-footer:
-    left: "Proudly made by Benjamin Tjepkes under CC-BY." 
+    left: "Proudly made by B. Tjepkes.<br>Licensed under CC-BY." 
     right: 
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/
@@ -55,20 +60,28 @@ website:
       style: "floating"
       collapse-level: 1
       contents:
-      - text: "---"
-      - section: "Gallery Section"
+      - section: "Site Navigation"      
+      - section: "Gallery Section 1"
         contents:
           - href: gallery.qmd
           - href: gallery.qmd
           - href: gallery.qmd
-      - text: "---"
       - section: "Gallery Section 2"
         contents:
           - href: gallery.qmd
           - href: gallery.qmd
           - href: gallery.qmd
-      - text: "---"
-      
+      - section: "Gallery Section 3"
+        contents:
+          - href: gallery.qmd
+          - href: gallery.qmd
+          - href: gallery.qmd
+      - section: "Gallery Section 4"
+        contents:
+          - href: gallery.qmd
+          - href: gallery.qmd
+          - href: gallery.qmd
+          
 format:
   html:
     theme: solar

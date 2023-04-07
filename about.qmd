@@ -1,8 +1,9 @@
 ---
 title: "About"
+description: Ben Tjepkes is a wildlife ecologist and geospatial practitioner dedicated to creating solutions for natural resource conservation.
 ---
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending  time unicycling and playing with her pet iguana.
+![Ben with an immobilized bear during a den check.](img-ben-with-bear.jpg)
 
 ## Education
 

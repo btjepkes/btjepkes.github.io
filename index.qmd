@@ -1,6 +1,6 @@
 ---
-title: "Welcome to my Portfolio"
-description: This website outlines my experience, creative works, and educational pursuits.
+title: "Welcome & Intros"
+description: Hello, I'm Ben and this is my portfolio. This website outlines my professional experience, creative works, and educational pursuits.
 ---
 
 ![Ben with an immobilized bear during a den check.](img-ben-with-bear.jpg)
@@ -10,15 +10,6 @@ description: This website outlines my experience, creative works, and educationa
 **Finley Malloc** is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending  time unicycling and playing with her pet iguana.
 
 My everyday involves forging solutions for conservation using geospatial technologies and ecological science... **but how did I get here?**
-
-```{mermaid}
-flowchart LR
-  A[Hard edge] --> B(Round edge)
-  B --> C{Decision}
-  C --> D[Result one]
-  C --> E[Result two]
-```
-
 
 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
 
