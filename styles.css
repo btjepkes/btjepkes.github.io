@@ -34,7 +34,14 @@ h1 {
   margin: 0 0 0 -5px;
 }
 
-/* HEADRERS */
+@media (max-width: 991.98px) {
+ul.navbar-nav:nth-child(2) {
+flex-direction: row;
+padding: 10px 0px;
+}
+}
+
+/* HEADERS */
 
 .quarto-title-block .description {
   color: #84c146;

@@ -39,6 +39,7 @@ website:
       - icon: twitter
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
+
             
   page-footer:
     left: "Proudly made by B. Tjepkes.<br>Licensed under CC-BY." 
@@ -60,7 +61,7 @@ website:
       style: "floating"
       collapse-level: 1
       contents:
-      - section: "Site Navigation"      
+      - section: "Navigation"      
       - section: "Gallery Section 1"
         contents:
           - href: gallery.qmd
