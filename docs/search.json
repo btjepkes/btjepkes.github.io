@@ -2,23 +2,23 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
     "text": "Ben with an immobilized bear during a den check."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
-    "title": "About",
+    "title": "About Me",
     "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+    "text": "Education\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
   },
   {
     "objectID": "about.html#experience",
     "href": "about.html#experience",
-    "title": "About",
+    "title": "About Me",
     "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+    "text": "Experience\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Natural History Biologist | MO Department of Conservation | 10/19–08/22\nBiological Science Technician | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19–10/19"
   },
   {
     "objectID": "gallery.html#background",
@@ -51,7 +51,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome & Intros",
+    "title": "Intro & Welcome",
     "section": "",
     "text": "Ben with an immobilized bear during a den check."
   },
@@ -65,21 +65,21 @@
   {
     "objectID": "index.html#active-projects-gallery",
     "href": "index.html#active-projects-gallery",
-    "title": "Welcome & Intros",
+    "title": "Intro & Welcome",
     "section": "Active Projects & Gallery",
     "text": "Active Projects & Gallery\n“But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?”"
   },
   {
     "objectID": "index.html#personal-writings",
     "href": "index.html#personal-writings",
-    "title": "Welcome & Intros",
+    "title": "Intro & Welcome",
     "section": "Personal Writings",
     "text": "Personal Writings\n“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.”"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Welcome & Intros",
+    "title": "Intro & Welcome",
     "section": "Education",
     "text": "Education\n“On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.”"
   },
@@ -88,14 +88,14 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "About this site"
+    "text": "Ben with an immobilized bear during a den check."
   },
   {
     "objectID": "resources.html#resources-for-wildlife",
     "href": "resources.html#resources-for-wildlife",
     "title": "Resources",
     "section": "Resources for Wildlife",
-    "text": "Resources for Wildlife"
+    "text": "Resources for Wildlife\n\nJob Resources for Wildlifers"
   },
   {
     "objectID": "resources.html#resources-for-r",
@@ -109,14 +109,14 @@
     "href": "resources.html#resources-for-gis",
     "title": "Resources",
     "section": "Resources for GIS",
-    "text": "Resources for GIS"
+    "text": "Resources for GIS\n\nArcGIS Modules"
   },
   {
     "objectID": "index.html#in-brief",
     "href": "index.html#in-brief",
-    "title": "Welcome & Intros",
+    "title": "Intro & Welcome",
     "section": "In Brief",
-    "text": "In Brief\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation."
+    "text": "In Brief\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation. Please explore this site to see my current and past projects.\nI will be starting grad school at the University of Missouri – Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work. My interests range from landscape connectivity to GIS application development for conservation."
   },
   {
     "objectID": "index.html#education-1",
@@ -156,15 +156,43 @@
   {
     "objectID": "index.html#my-education",
     "href": "index.html#my-education",
-    "title": "Welcome & Intros",
+    "title": "Intro & Welcome",
     "section": "My Education",
-    "text": "My Education\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
+    "text": "My Education\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
   },
   {
     "objectID": "index.html#my-highlights",
     "href": "index.html#my-highlights",
-    "title": "Welcome & Intros",
+    "title": "Intro & Welcome",
     "section": "My Highlights",
-    "text": "My Highlights\n7+ years of progressive experience in conservation and environmental science.\nDemonstrated experience with desktop, web, and mobile GIS software (e.g., Esri ArcGIS Pro, ArcGIS Online, ArcGIS Field Maps).\nProficient in working with Microsoft Office (e.g., Word, Excel, Access, Publisher, Outlook).\nWorking knowledge of R to perform statistical analyses, data wrangling, and data visualization.\nFront-end web development experience using HTML and CSS coding languages.\nProficient in managing large dataset using standardized software and methods.\nSkillful in cartographic design using open source and proprietary mapping applications.\nAdept at using R Markdown and Quarto for reproducible reporting."
+    "text": "My Highlights\n\n7+ years of progressive experience in conservation and environmental science.\nDemonstrated experience with desktop, web, and mobile GIS software (e.g., Esri ArcGIS Pro, ArcGIS Online, ArcGIS Field Maps).\nProficient in working with Microsoft Office (e.g., Word, Excel, Access, Publisher, Outlook).\nWorking knowledge of R to perform statistical analyses, data wrangling, and data visualization.\nFront-end web development experience using HTML and CSS coding languages.\nProficient in managing large dataset using standardized software and methods.\nSkillful in cartographic design using open source and proprietary mapping applications.\nAdept at using R Markdown and Quarto for reproducible reporting."
+  },
+  {
+    "objectID": "index.html#maps-data-viz-gallery",
+    "href": "index.html#maps-data-viz-gallery",
+    "title": "Intro & Welcome",
+    "section": "Maps & Data Viz Gallery",
+    "text": "Maps & Data Viz Gallery\nFor the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The perfect mixture of art and science is where I shine."
+  },
+  {
+    "objectID": "index.html#blogging-personal-writings",
+    "href": "index.html#blogging-personal-writings",
+    "title": "Intro & Welcome",
+    "section": "Blogging & Personal Writings",
+    "text": "Blogging & Personal Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion, which houses posts on ecology, natural science, and anything else I can think of. This space has been an excellent area for me to grow my writing and web development skill set."
+  },
+  {
+    "objectID": "about.html#experience-post-baccalaureate",
+    "href": "about.html#experience-post-baccalaureate",
+    "title": "About Me",
+    "section": "Experience, Post-baccalaureate",
+    "text": "Experience, Post-baccalaureate\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Natural History Biologist | MO Department of Conservation | 10/19–08/22\nBiological Science Technician | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19–10/19"
+  },
+  {
+    "objectID": "about.html#experience-early-career",
+    "href": "about.html#experience-early-career",
+    "title": "About Me",
+    "section": "Experience, Early-career",
+    "text": "Experience, Early-career\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present"
   }
 ]

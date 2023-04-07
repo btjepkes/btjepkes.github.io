@@ -1,18 +1,16 @@
 ---
 title: "Resources"
+description: Links to my favorite research and reference sources, from data science to web development.
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+![Ben with an immobilized bear during a den check.](img-ben-with-bear.jpg)
 
 ## Resources for **Wildlife**
-
+### Job Resources for Wildlifers
 
 ## Resources for **R**
 ### Reproducible Reporting
 ### Mapping and Spatial Data
 
 ## Resources for **GIS**
+### ArcGIS Modules
