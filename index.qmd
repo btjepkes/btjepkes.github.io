@@ -3,7 +3,7 @@ title: "Intro & Welcome"
 description: Hello, I'm Ben Tjepkes and this is my professional portfolio detailing my career experience, creative projects, and educational pursuits.
 ---
 
-![Ben with an immobilized bear during a den check.](img-ben-with-bear.jpg)
+![Credit: Ben Tjepkes](img-ben-with-bear.jpg)
 
 ## In Brief
 

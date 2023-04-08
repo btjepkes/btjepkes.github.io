@@ -1,9 +1,9 @@
 ---
 title: "Project Gallery"
-description: Peruse my creative creations --- data visualiztions, reports, maps, web development, photography, and writings.
+description: Peruse my creative creations --- maps, data visualiztions, reports, web development, photography, and writings.
 ---
 
-![](img-data-viz.jpg)
+![Credit: Open Source](img-data-viz.jpg)
 
 ## The Tools in my Toolbox
 

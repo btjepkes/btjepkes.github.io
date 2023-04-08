@@ -126,8 +126,9 @@ nav .nav-item.compact .nav-link {
 
 /* FIGURES & IMAGES */
 .figure-caption {
-  margin-top: 0px;
+  margin: -5px 10px 0px 0px;
   font-size: 0.7rem;
+  text-align: right;
 }
 
 .img-fluid,

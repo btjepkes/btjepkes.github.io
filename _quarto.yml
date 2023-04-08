@@ -19,11 +19,11 @@ website:
         text: About
       - href: gallery.qmd
         text: Projects
-      - href: gallery.qmd
+      - href: research.qmd
         text: Research        
       - href: resources.qmd
         text: Links & Resources
-      - href: gallery.qmd
+      - href: contact.qmd
         text: Contact        
 
     right:
@@ -62,7 +62,7 @@ website:
       collapse-level: 1
       contents:
       - section: "Navigation"      
-      - section: "Gallery Section 1"
+      - section: "My Recent Projects"
         contents:
           - href: gallery.qmd
           - href: gallery.qmd

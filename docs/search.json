@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Ben with an immobilized bear during a den check."
+    "text": "Credit: Ben Tjepkes"
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About Me",
     "section": "Education",
-    "text": "Education\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
+    "text": "Education\nMy educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
   },
   {
     "objectID": "about.html#experience",
@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Intro & Welcome",
     "section": "",
-    "text": "Ben with an immobilized bear during a den check."
+    "text": "Credit: Ben Tjepkes"
   },
   {
     "objectID": "index.html#background",
@@ -88,7 +88,7 @@
     "href": "resources.html",
     "title": "Links & Resources",
     "section": "",
-    "text": "Ben with an immobilized bear during a den check."
+    "text": "Credit: Ben Tjepkes"
   },
   {
     "objectID": "resources.html#resources-for-wildlife",
@@ -222,5 +222,54 @@
     "title": "Project Gallery",
     "section": "Nature Photography",
     "text": "Nature Photography"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Project Gallery",
+    "section": "",
+    "text": "Credit: Open Source"
+  },
+  {
+    "objectID": "about.html#experience-post-bacc",
+    "href": "about.html#experience-post-bacc",
+    "title": "About Me",
+    "section": "Experience, Post-bacc",
+    "text": "Experience, Post-bacc\nSince obtaining my degree, I have held a variety of roles within the conservation career space.\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Natural History Biologist | MO Department of Conservation | 10/19–08/22\nBiological Science Technician | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19–10/19"
+  },
+  {
+    "objectID": "about.html#experience-pre-bacc",
+    "href": "about.html#experience-pre-bacc",
+    "title": "About Me",
+    "section": "Experience, Pre-bacc",
+    "text": "Experience, Pre-bacc\nWhile in college, I worked hard to gain high-quality research and management experience.\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present"
+  },
+  {
+    "objectID": "about.html#experience-post-grad",
+    "href": "about.html#experience-post-grad",
+    "title": "About Me",
+    "section": "Experience, Post-grad",
+    "text": "Experience, Post-grad\nSince obtaining my degree, I have held a variety of roles within the conservation career space.\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Natural History Biologist | MO Department of Conservation | 10/19–08/22\nBiological Science Technician | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19–10/19"
+  },
+  {
+    "objectID": "about.html#experience-pre-grad",
+    "href": "about.html#experience-pre-grad",
+    "title": "About Me",
+    "section": "Experience, Pre-grad",
+    "text": "Experience, Pre-grad\nWhile in college, I worked hard to gain high-quality research and management experience.\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Me",
+    "section": "",
+    "text": "Credit: Ben Tjepkes"
   }
 ]

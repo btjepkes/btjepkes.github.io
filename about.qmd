@@ -3,15 +3,19 @@ title: "About Me"
 description: I work as a wildlife ecologist and geospatial practitioner to find solutions for researching and conserving our natural resources.
 ---
 
-![](img-ben-work.png)
+![Credit: Ben Tjepkes](img-ben-work.png)
 
 ## Education
+
+My educational background is primarily in **wildlife conservation science** along with **geographic information systems**. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.
 
 - **MA, Geography** | University of Missouri-Columbia | Ant. May 2025
 
 - **BS, Wildlife Ecology** | University of Wisconsin-Stevens Point | May 2019
 
-## Experience, Post-baccalaureate
+## Experience, Post-grad
+
+Since obtaining my degree, I have held a variety of roles within the conservation career space.
 
 - **Assistant Wildlife Diversity Coordinator** | MO Department of Conservation | 08/22--Present
 
@@ -19,7 +23,9 @@ description: I work as a wildlife ecologist and geospatial practitioner to find 
 
 - **Biological Science Technician** | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19--10/19
 
-## Experience, Early-career
+## Experience, Pre-grad
+
+While in college, I worked hard to gain high-quality research and management experience.
 
 - **Assistant Wildlife Diversity Coordinator** | MO Department of Conservation | 08/22--Present
 
