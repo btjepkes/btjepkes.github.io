@@ -73,7 +73,7 @@ nav .nav-item.compact .nav-link {
 
 .navbar-nav-scroll {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-basis: 50%;
   flex-wrap: wrap;
   justify-content: center;
@@ -81,8 +81,8 @@ nav .nav-item.compact .nav-link {
 }
 
 /* Search Button and Popup*/
-#quarto-search > div > button > div.aa-DetachedSearchButtonIcon::before {
-  content: "Search This Site - ";
+#quarto-search > div > button > div.aa-DetachedSearchButtonIcon::after {
+  content: " - Search Site";
 }
 
 #quarto-search > div > button > div.aa-DetachedSearchButtonIcon {
