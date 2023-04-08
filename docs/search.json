@@ -86,30 +86,30 @@
   {
     "objectID": "resources.html",
     "href": "resources.html",
-    "title": "Resources",
+    "title": "Links & Resources",
     "section": "",
     "text": "Ben with an immobilized bear during a den check."
   },
   {
     "objectID": "resources.html#resources-for-wildlife",
     "href": "resources.html#resources-for-wildlife",
-    "title": "Resources",
+    "title": "Links & Resources",
     "section": "Resources for Wildlife",
-    "text": "Resources for Wildlife\n\nJob Resources for Wildlifers"
+    "text": "Resources for Wildlife\n\nJob Resources\nThe following links are to wildlife job boards and other career resources for those in the field.\n\n\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10\n\n\n\n\n\n\n\nBooks & Guides\n\n\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10"
   },
   {
     "objectID": "resources.html#resources-for-r",
     "href": "resources.html#resources-for-r",
-    "title": "Resources",
+    "title": "Links & Resources",
     "section": "Resources for R",
-    "text": "Resources for R\n\nReproducible Reporting\n\n\nMapping and Spatial Data"
+    "text": "Resources for R\n\nReproducible Reporting\n\n\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10\n\n\n\n\n\n\n\nMapping and Spatial Data\n\n\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10"
   },
   {
     "objectID": "resources.html#resources-for-gis",
     "href": "resources.html#resources-for-gis",
-    "title": "Resources",
+    "title": "Links & Resources",
     "section": "Resources for GIS",
-    "text": "Resources for GIS\n\nArcGIS Modules"
+    "text": "Resources for GIS\n\nArcGIS Learning\n\n\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10\n\n\n\n\n\n\n\nQGIS Learning\n\n\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10"
   },
   {
     "objectID": "index.html#in-brief",
@@ -130,7 +130,7 @@
     "href": "gallery.html#the-tools-in-my-toolbox",
     "title": "Project Gallery",
     "section": "The Tools in my Toolbox",
-    "text": "The Tools in my Toolbox\nIntro to how I use tools for workflows.\n\nGIS — ArcGIS Pro, ArcGIS Online, R-Spatial\nTools for GIS\n\n\nReporting — R Markdown and Quarto\nTools for reporting.\n\n\nData Visualizations — RStudio and Jupyter Notebooks\nTools for data visualization.\n\n\nWeb Development — Notion, Super, VSCode, and WordPress\nTools for web development."
+    "text": "The Tools in my Toolbox\nLike any good handy person, my toolbox contains a variety of tools that I can use for their intended purpose. Though sometimes I do hammer with a wrench from time to time in a pinch.\nHere are some of my favorite programs and software that I use almost every day:\n\nGIS — ArcGIS Pro, ArcGIS Online, and RStudio\nReporting — R Markdown and Quarto\nData Visualizations — RStudio and Jupyter Notebooks\nWeb Development — Notion, Super, VSCode, and WordPress"
   },
   {
     "objectID": "gallery.html#data-viz-and-reports",
@@ -158,7 +158,7 @@
     "href": "index.html#my-education",
     "title": "Intro & Welcome",
     "section": "My Education",
-    "text": "My Education\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
+    "text": "My Education\nMy educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
   },
   {
     "objectID": "index.html#my-highlights",

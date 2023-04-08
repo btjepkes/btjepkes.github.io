@@ -1,16 +1,73 @@
 ---
-title: "Resources"
-description: Links to my favorite research and reference sources, from data science to web development.
+title: "Links & Resources"
+description: Peruse my favorite research and reference sources, from wildlife science to GIS to web development.
 ---
 
 ![Ben with an immobilized bear during a den check.](img-ben-with-bear.jpg)
 
 ## Resources for **Wildlife**
-### Job Resources for Wildlifers
+### Job Resources
+The following links are to wildlife job boards and other career resources for those in the field.
+```{r}
+#| echo: false
+#| warning: false
+#| tbl-colwidths: [50,50]
+
+library(knitr)
+kable(head(cars))
+```
+
+### Books & Guides
+
+```{r}
+#| echo: false
+#| warning: false
+#| tbl-colwidths: [50,50]
+
+library(knitr)
+kable(head(cars))
+```
 
 ## Resources for **R**
+
 ### Reproducible Reporting
+```{r}
+#| echo: false
+#| warning: false
+#| tbl-colwidths: [50,50]
+
+library(knitr)
+kable(head(cars))
+```
+
 ### Mapping and Spatial Data
+```{r}
+#| echo: false
+#| warning: false
+#| tbl-colwidths: [50,50]
+
+library(knitr)
+kable(head(cars))
+```
 
 ## Resources for **GIS**
-### ArcGIS Modules
+
+### ArcGIS Learning
+```{r}
+#| echo: false
+#| warning: false
+#| tbl-colwidths: [50,50]
+
+library(knitr)
+kable(head(cars))
+```
+
+### QGIS Learning
+```{r}
+#| echo: false
+#| warning: false
+#| tbl-colwidths: [50,50]
+
+library(knitr)
+kable(head(cars))
+```

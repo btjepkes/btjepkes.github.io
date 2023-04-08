@@ -7,23 +7,18 @@ description: Peruse my creative creations --- data visualiztions, reports, maps,
 
 ## The Tools in my Toolbox
 
-Intro to how I use tools for workflows.
+Like any good handy person, my toolbox contains a variety of tools that I can use for their intended purpose. *Though sometimes I do hammer with a wrench from time to time in a pinch.*
 
-### **GIS** --- ArcGIS Pro, ArcGIS Online, R-Spatial
+Here are some of my favorite programs and software that I use almost every day:
 
-Tools for GIS
+- **GIS** --- ArcGIS Pro, ArcGIS Online, and RStudio
 
-### **Reporting** --- R Markdown and Quarto
+- **Reporting** --- R Markdown and Quarto
 
-Tools for reporting.
+- **Data Visualizations** --- RStudio and Jupyter Notebooks
 
-### **Data Visualizations** --- RStudio and Jupyter Notebooks
+- **Web Development** --- Notion, Super, VSCode, and WordPress
 
-Tools for data visualization.
-
-### **Web Development** --- Notion, Super, VSCode, and WordPress
-
-Tools for web development.
 
 ## Data Viz and Reports
 
