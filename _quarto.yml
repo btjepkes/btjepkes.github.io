@@ -7,6 +7,7 @@ website:
   search:
     location: navbar
     type: textbox
+    copy-button: true
   open-graph: true
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   repo-actions: [issue]

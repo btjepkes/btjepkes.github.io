@@ -97,7 +97,20 @@ nav .nav-item.compact .nav-link {
     margin: 0 auto;
     max-width: 850px;
     position: absolute;
-    top: 260px;
+    top: 40px;
+}
+
+.aa-DetachedOverlay {
+  background-color: rgba(79, 99, 119, 0.77);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  z-index: 1100;
 }
 
 }
