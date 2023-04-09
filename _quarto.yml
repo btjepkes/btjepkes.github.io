@@ -68,17 +68,12 @@ website:
           - href: gallery.qmd
           - href: gallery.qmd
           - href: gallery.qmd
-      - section: "Gallery Section 2"
+      - section: "My Latest Research"
         contents:
           - href: gallery.qmd
           - href: gallery.qmd
           - href: gallery.qmd
-      - section: "Gallery Section 3"
-        contents:
-          - href: gallery.qmd
-          - href: gallery.qmd
-          - href: gallery.qmd
-      - section: "Gallery Section 4"
+      - section: "Links & Resources"
         contents:
           - href: gallery.qmd
           - href: gallery.qmd

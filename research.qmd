@@ -1,6 +1,6 @@
 ---
 title: "Research"
-description: My scientific research works throughout the years, with a focus on spatial ecology, wildlife movements, and habitat use.
+description: My scientific research focuses on spatial ecology, wildlife habitat use, and using geospatial tools for conservation.
 ---
 
 ![Credit: Ben Tjepkes](img-ben-with-bear.jpg)

@@ -88,7 +88,7 @@
     "href": "resources.html",
     "title": "Links & Resources",
     "section": "",
-    "text": "Credit: Ben Tjepkes"
+    "text": "Credit: Ben Tjepkes\nI think everyone has certain websites and other reference material they always come back to. This page outlines those on my list — feel free to bookmark these for your use as well. If you have suggestions on additions, please reach out."
   },
   {
     "objectID": "resources.html#resources-for-wildlife",
@@ -116,7 +116,7 @@
     "href": "index.html#in-brief",
     "title": "Intro & Welcome",
     "section": "In Brief",
-    "text": "In Brief\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation. Please explore this site to see my current and past projects.\nI will be starting grad school at the University of Missouri – Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work. My interests range from landscape connectivity to GIS application development for conservation."
+    "text": "In Brief\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nI currently work as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation, where my primary duties related to the implementation and data reporting of the Missouri Bat Habitat Conservation Plan."
   },
   {
     "objectID": "index.html#education-1",
@@ -130,7 +130,7 @@
     "href": "gallery.html#the-tools-in-my-toolbox",
     "title": "Project Gallery",
     "section": "The Tools in my Toolbox",
-    "text": "The Tools in my Toolbox\nLike any good handy person, my toolbox contains a variety of tools that I can use for their intended purpose. Though sometimes I do hammer with a wrench from time to time in a pinch.\nHere are some of my favorite programs and software that I use almost every day:\n\nGIS — ArcGIS Pro, ArcGIS Online, and RStudio\nReporting — R Markdown and Quarto\nData Visualizations — RStudio and Jupyter Notebooks\nWeb Development — Notion, Super, VSCode, and WordPress"
+    "text": "The Tools in my Toolbox\nLike any good handy person, my toolbox contains a variety of tools that I can use for their intended purpose. Though I have hammered with a wrench in a pinch. I think it is quite exciting to experiment with software and programming packages to adapt my workflows through time.\nHere are some of my favorite programs and software that I use almost every day:\n\nGIS & Spatial Analysis — ArcGIS Pro, ArcGIS Online, and RStudio\nWriting & Reporting — R Markdown, Quarto, and MS Word\nData Management — RStudio, Excel, Access, and MySQL\nData Visualizations — RStudio and Jupyter Notebooks\nWeb Development — Notion, Super, VSCode, and WordPress"
   },
   {
     "objectID": "gallery.html#data-viz-and-reports",
@@ -158,7 +158,7 @@
     "href": "index.html#my-education",
     "title": "Intro & Welcome",
     "section": "My Education",
-    "text": "My Education\nMy educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
+    "text": "My Education\nMy educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019\n\n\nI will be starting grad school at the University of Missouri – Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work."
   },
   {
     "objectID": "index.html#my-highlights",
@@ -172,7 +172,7 @@
     "href": "index.html#maps-data-viz-gallery",
     "title": "Intro & Welcome",
     "section": "Maps & Data Viz Gallery",
-    "text": "Maps & Data Viz Gallery\nFor the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The perfect mixture of art and science is where I shine."
+    "text": "Maps & Data Viz Gallery\nFor the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine."
   },
   {
     "objectID": "index.html#blogging-personal-writings",
@@ -200,7 +200,7 @@
     "href": "index.html#blogging-writings",
     "title": "Intro & Welcome",
     "section": "Blogging & Writings",
-    "text": "Blogging & Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion, which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills."
+    "text": "Blogging & Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion, which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.\nHere are some of my recent blog posts:\n\nHow Scientists Use GIS to Study Wildlife\nHow to Become a Contemporary Naturalist\nJob Boards To Find An Impactful Career in Nature"
   },
   {
     "objectID": "gallery.html#photography",
@@ -271,5 +271,47 @@
     "title": "Contact Me",
     "section": "",
     "text": "Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "index.html#my-interests",
+    "href": "index.html#my-interests",
+    "title": "Intro & Welcome",
+    "section": "My Interests",
+    "text": "My Interests\nMy professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
+  },
+  {
+    "objectID": "resources.html#resources-for-wildlifers",
+    "href": "resources.html#resources-for-wildlifers",
+    "title": "Links & Resources",
+    "section": "Resources for Wildlifers",
+    "text": "Resources for Wildlifers\n\nJob Resources\n\nBlog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
+  },
+  {
+    "objectID": "resources.html#resources-for-r-users",
+    "href": "resources.html#resources-for-r-users",
+    "title": "Links & Resources",
+    "section": "Resources for R Users",
+    "text": "Resources for R Users\n\nLearning R and RStudio\nComing Soon!\n\n\nReproducible Reporting\n\nWebsite ~ Quarto from Posit\n\n\n\nMapping and Spatial Data\n\nWebsite ~ RSpatial: Spatial Data Science in R"
+  },
+  {
+    "objectID": "resources.html#resources-for-gis-users",
+    "href": "resources.html#resources-for-gis-users",
+    "title": "Links & Resources",
+    "section": "Resources for GIS Users",
+    "text": "Resources for GIS Users\n\nLearning ArcGIS\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
+  },
+  {
+    "objectID": "about.html#experience-post-degree",
+    "href": "about.html#experience-post-degree",
+    "title": "About Me",
+    "section": "Experience, Post-Degree",
+    "text": "Experience, Post-Degree\nSince obtaining my degree, I have held a variety of roles within the conservation career space.\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Natural History Biologist | MO Department of Conservation | 10/19–08/22\nBiological Science Technician | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19–10/19"
+  },
+  {
+    "objectID": "about.html#experience-pre-degree",
+    "href": "about.html#experience-pre-degree",
+    "title": "About Me",
+    "section": "Experience, Pre-Degree",
+    "text": "Experience, Pre-Degree\nWhile in college, I worked hard to gain high-quality research and management experience.\n\nStudent Teaching Assistant - Ungulate Ecology | UWSP | 01/19–05/19\nStudent Project Assistant | Wisconsin Center for Wildlife | 12/17–05/19"
   }
 ]

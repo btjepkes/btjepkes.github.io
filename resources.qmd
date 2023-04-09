@@ -1,73 +1,39 @@
 ---
 title: "Links & Resources"
-description: Peruse my favorite research and reference sources, from wildlife science to GIS to web development.
+description: Peruse my favorite research and reference sources on ecological science, GIS, coding in R, and much more.
 ---
 
 ![Credit: Ben Tjepkes](img-ben-with-bear.jpg)
 
-## Resources for **Wildlife**
+I think everyone has certain websites and other reference material they always come back to. This page outlines those on my list --- feel free to bookmark these for your use as well. If you have suggestions on additions, please reach out.
+
+## Resources for **Wildlifers**
 ### Job Resources
-The following links are to wildlife job boards and other career resources for those in the field.
-```{r}
-#| echo: false
-#| warning: false
-#| tbl-colwidths: [50,50]
 
-library(knitr)
-kable(head(cars))
-```
+- [Blog Post ~ Job Boards To Find An Impactful Career in Nature](https://conservationcompanion.com/blog/job-boards-to-find-an-impactful-career-in-nature)
+- [Website ~ Careers in Conservation Job Board List](https://diversityinconservationjobs.org/jobs/)
 
-### Books & Guides
 
-```{r}
-#| echo: false
-#| warning: false
-#| tbl-colwidths: [50,50]
+## Resources for **R Users**
 
-library(knitr)
-kable(head(cars))
-```
+### Learning R and RStudio
 
-## Resources for **R**
+Coming Soon!
 
 ### Reproducible Reporting
-```{r}
-#| echo: false
-#| warning: false
-#| tbl-colwidths: [50,50]
 
-library(knitr)
-kable(head(cars))
-```
+- [Website ~ Quarto from Posit](https://quarto.org/)
 
 ### Mapping and Spatial Data
-```{r}
-#| echo: false
-#| warning: false
-#| tbl-colwidths: [50,50]
 
-library(knitr)
-kable(head(cars))
-```
+- [Website ~ RSpatial: Spatial Data Science in R](https://rspatial.org/)
 
-## Resources for **GIS**
+## Resources for **GIS Users**
 
-### ArcGIS Learning
-```{r}
-#| echo: false
-#| warning: false
-#| tbl-colwidths: [50,50]
+### Learning ArcGIS
 
-library(knitr)
-kable(head(cars))
-```
+- [Website ~ Esri Academy Online Learning](https://www.esri.com/training/)
 
-### QGIS Learning
-```{r}
-#| echo: false
-#| warning: false
-#| tbl-colwidths: [50,50]
+### Learning QGIS
 
-library(knitr)
-kable(head(cars))
-```
+- [YouTube Channel ~ DMAD QGIS Lessons](https://www.youtube.com/c/DMADMarineMammalsResearchAssociation)

@@ -7,10 +7,33 @@ description: Hello, I'm Ben Tjepkes and this is my professional portfolio detail
 
 ## In Brief
 
-I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation. Please explore this site to see my current and past projects.
+I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
 
-I will be starting grad school at the University of Missouri -- Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work. My interests range from landscape connectivity to GIS application development for conservation.
+I currently work as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation, where my primary duties related to the implementation and data reporting of the [Missouri Bat Habitat Conservation Plan](https://research.mdc.mo.gov/project/missouri-bat-habitat-conservation-plan).
 
+## My Interests
+
+My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Applied Conservation Science
+- Spatial and Movement Ecology
+- Imperiled Species Conservation
+
+:::
+
+::: {.column width="50%"}
+
+- Landscape Connectivity & Planning
+- Web and Cartographic Design
+- Open Source Programming
+
+:::
+
+::::
 
 ## My Education
 
@@ -20,8 +43,9 @@ My educational background is primarily in wildlife conservation science along wi
 
 - **BS, Wildlife Ecology** | University of Wisconsin-Stevens Point | May 2019
 
-## My Highlights
+> I will be starting grad school at the University of Missouri -- Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work.
 
+## My Highlights
 
 - 7+ years of progressive experience in conservation and environmental science.
 
@@ -42,8 +66,16 @@ My educational background is primarily in wildlife conservation science along wi
 
 ## Maps & Data Viz Gallery
 
-For the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The perfect mixture of art and science is where I shine.
+For the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine.
 
 ## Blogging & Writings
 
 Since around 2021, I have been running a personal blog called [The Conservation Companion](https://conservationcompanion.com), which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.
+
+**Here are some of my recent blog posts:**
+
+- [How Scientists Use GIS to Study Wildlife](https://conservationcompanion.com/blog/how-scientists-use-gis-to-study-wildlife)
+
+- [How to Become a Contemporary Naturalist](https://conservationcompanion.com/blog/how-to-become-a-contemporary-naturalist)
+
+- [Job Boards To Find An Impactful Career in Nature](https://conservationcompanion.com/blog/job-boards-to-find-an-impactful-career-in-nature)
