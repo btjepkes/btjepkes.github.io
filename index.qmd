@@ -68,7 +68,34 @@ In my 7+ years of progressive experience in conservation, geospatial, and enviro
 
 ## Maps & Data Viz Gallery
 
-For the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine.
+For the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. [Explore my project gallery ->](gallery.qmd)
+
+:::: {.columns}
+
+::: {.column width="47.5%"}
+
+![Credit: Ben Tjepkes](img-map-1.jpg)
+
+![Credit: Ben Tjepkes](img-map-3.jpg)
+
+:::
+
+::: {.column width="5%"}
+
+
+
+:::
+
+::: {.column width="47.5%"}
+
+![Credit: Ben Tjepkes](img-map-2.jpg)
+
+![Credit: Ben Tjepkes](img-map-4.jpg)
+
+:::
+
+::::
+
 
 ## Blogging & Writings
 
