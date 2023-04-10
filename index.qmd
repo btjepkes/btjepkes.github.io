@@ -1,6 +1,6 @@
 ---
 title: "Intro & Welcome"
-description: Hello, I'm Ben Tjepkes and this is my portfolio. Use this site to explore my career experience, creative projects, and educational pursuits.
+description: Hello, I'm Ben Tjepkes and this is my professional portfolio. Here you can explore my career experience, creative projects, and educational pursuits.
 ---
 
 ![Credit: Ben Tjepkes](img-ben-with-bear.jpg)
