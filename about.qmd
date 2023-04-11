@@ -1,6 +1,8 @@
 ---
 title: "About Me"
 description: I work as a wildlife ecologist and geospatial practitioner to find solutions for researching and conserving our natural resources.
+author: Benjamin Tjepkes
+date-modified: 04/11/2023
 ---
 
 ![Credit: Ben Tjepkes](img-ben-work.png)

@@ -1,6 +1,8 @@
 ---
 title: "Links & Resources"
-description: Peruse my favorite research and reference sources on ecological science, GIS, coding in R, and much more.
+description: My favorite research and reference sources on ecological science, GIS, coding in R, and much more.
+author: Benjamin Tjepkes
+date-modified: 04/11/2023
 ---
 
 ![Credit: Ben Tjepkes](img-ben-with-bear.jpg)
@@ -30,9 +32,11 @@ Coming Soon!
 
 ## Resources for **GIS Users**
 
-### Learning ArcGIS
+### ArcGIS - Learning
 
 - [Website ~ Esri Academy Online Learning](https://www.esri.com/training/)
+
+### ArcGIS - Spatial Analysis
 
 ### Learning QGIS
 

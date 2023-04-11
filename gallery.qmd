@@ -1,6 +1,5 @@
 ---
 title: "Project Gallery"
-title-block-banner: true
 description: Peruse my creative creations --- maps, data visualiztions, reports, web development, photography, and writings.
 author: Benjamin Tjepkes
 date-modified: 04/11/2023

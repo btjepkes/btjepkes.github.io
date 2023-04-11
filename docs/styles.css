@@ -118,6 +118,7 @@ nav .nav-item.compact .nav-link {
 
 /* HEADERS */
 
+.abstract,
 .quarto-title-block .description {
   color: #9fc490;
   font-size: 22px;
