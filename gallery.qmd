@@ -29,13 +29,15 @@ This will be data visualizations and report examples.
 
 ## GIS and Mapping
 
+The following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.
+
 :::: {.columns}
 
 ::: {.column width="47.5%"}
 
 ![Credit: Ben Tjepkes](img-map-1.jpg)
 
-![Credit: Ben Tjepkes](img-map-3.jpg)
+![Credit: Ben Tjepkes](img-map-4.jpg)
 
 ![Credit: Ben Tjepkes](img-map-5.jpg)
 
@@ -51,7 +53,7 @@ This will be data visualizations and report examples.
 
 ![Credit: Ben Tjepkes](img-map-2.jpg)
 
-![Credit: Ben Tjepkes](img-map-4.jpg)
+![Credit: Ben Tjepkes](img-map-3.jpg)
 
 ![Credit: Ben Tjepkes](img-map-6.jpg)
 

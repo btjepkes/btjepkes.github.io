@@ -144,7 +144,7 @@
     "href": "gallery.html#gis-and-mapping",
     "title": "Project Gallery",
     "section": "GIS and Mapping",
-    "text": "GIS and Mapping\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes"
+    "text": "GIS and Mapping\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes"
   },
   {
     "objectID": "gallery.html#writings",
@@ -312,7 +312,7 @@
     "href": "about.html#experience-pre-degree",
     "title": "About Me",
     "section": "Experience, Pre-Degree",
-    "text": "Experience, Pre-Degree\nWhile in college, I worked hard to gain high-quality research and management experience.\n\nStudent Teaching Assistant - Ungulate Ecology | UWSP | 01/19–05/19\nStudent Project Assistant | Wisconsin Center for Wildlife | 12/17–05/19"
+    "text": "Experience, Pre-Degree\nWhile in college, I gained high-quality research and management experience.\n\nUngulate Ecology Student Teaching Assistant | UWSP | 01/19–05/19\nStudent Project Assistant | Wisconsin Center for Wildlife | 12/17–05/19"
   },
   {
     "objectID": "contact.html#how-to-contact-me",
@@ -320,5 +320,19 @@
     "title": "Contact Me",
     "section": "How To Contact Me",
     "text": "How To Contact Me\nPlease contact me via email or through my LinkedIn profile with any inquiries."
+  },
+  {
+    "objectID": "about.html#education-formal",
+    "href": "about.html#education-formal",
+    "title": "About Me",
+    "section": "Education, Formal",
+    "text": "Education, Formal\nMy educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
+  },
+  {
+    "objectID": "about.html#education-continued",
+    "href": "about.html#education-continued",
+    "title": "About Me",
+    "section": "Education, Continued",
+    "text": "Education, Continued\nI pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software."
   }
 ]

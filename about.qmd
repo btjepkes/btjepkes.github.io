@@ -5,13 +5,17 @@ description: I work as a wildlife ecologist and geospatial practitioner to find 
 
 ![Credit: Ben Tjepkes](img-ben-work.png)
 
-## Education
+## Education, Formal
 
 My educational background is primarily in **wildlife conservation science** along with **geographic information systems**. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.
 
 - **MA, Geography** | University of Missouri-Columbia | Ant. May 2025
 
 - **BS, Wildlife Ecology** | University of Wisconsin-Stevens Point | May 2019
+
+## Education, Continued
+
+I pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software.
 
 ## Experience, Post-Degree
 
@@ -25,9 +29,9 @@ Since obtaining my degree, I have held a variety of roles within the conservatio
 
 ## Experience, Pre-Degree
 
-While in college, I worked hard to gain high-quality research and management experience.
+While in college, I gained high-quality research and management experience.
 
-- **Student Teaching Assistant - Ungulate Ecology** | UWSP | 01/19--05/19
+- **Ungulate Ecology Student Teaching Assistant** | UWSP | 01/19--05/19
 
 - **Student Project Assistant** | Wisconsin Center for Wildlife | 12/17--05/19
 
