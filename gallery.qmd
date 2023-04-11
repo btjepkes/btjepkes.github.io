@@ -29,7 +29,35 @@ This will be data visualizations and report examples.
 
 ## GIS and Mapping
 
-This will be maps made in R and GIS.
+:::: {.columns}
+
+::: {.column width="47.5%"}
+
+![Credit: Ben Tjepkes](img-map-1.jpg)
+
+![Credit: Ben Tjepkes](img-map-3.jpg)
+
+![Credit: Ben Tjepkes](img-map-5.jpg)
+
+:::
+
+::: {.column width="5%"}
+
+
+
+:::
+
+::: {.column width="47.5%"}
+
+![Credit: Ben Tjepkes](img-map-2.jpg)
+
+![Credit: Ben Tjepkes](img-map-4.jpg)
+
+![Credit: Ben Tjepkes](img-map-6.jpg)
+
+:::
+
+::::
 
 
 ## Blog & Writings

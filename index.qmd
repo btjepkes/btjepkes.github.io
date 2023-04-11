@@ -11,7 +11,7 @@ I am a dedicated **wildlife ecologist** and **geospatial practitioner** interest
 
 I currently work as the **Assistant Wildlife Diversity Coordinator** for the Missouri Department of Conservation, where my primary duties relate to the implementation and data reporting of the [Missouri Bat Habitat Conservation Plan](https://research.mdc.mo.gov/project/missouri-bat-habitat-conservation-plan).
 
-I will be starting grad school at the University of Missouri -- Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work.
+I will be starting grad school at the University of Missouri -- Columbia in fall 2023. Please [reach out](contact.qmd) if you would like to collaborate on my thesis project or other ancillary work.
 
 ## My Interests
 
@@ -68,7 +68,7 @@ In my 7+ years of progressive experience in conservation, geospatial, and enviro
 
 ## Maps & Data Viz Gallery
 
-For the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. [Explore my gallery](gallery.qmd)
+For the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. [Explore my entire gallery.](gallery.qmd)
 
 :::: {.columns}
 
