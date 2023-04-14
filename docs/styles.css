@@ -27,6 +27,11 @@ ol, ul {
   padding-left: 1.5rem;
 }
 
+.blockquote p {
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
 
 /* NAVIGATION */
 .navbar-brand span {

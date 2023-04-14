@@ -1,129 +1,87 @@
 [
   {
+    "objectID": "about-test.html",
+    "href": "about-test.html",
+    "title": "About - Ben Tjepkes",
+    "section": "",
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
+  },
+  {
+    "objectID": "about-test.html#education",
+    "href": "about-test.html#education",
+    "title": "About - Ben Tjepkes",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "about-test.html#experience",
+    "href": "about-test.html#experience",
+    "title": "About - Ben Tjepkes",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
+    "text": "I work as a wildlife ecologist and geospatial practitioner to find solutions for researching and conserving our natural resources."
+  },
+  {
+    "objectID": "about.html#my-interests",
+    "href": "about.html#my-interests",
+    "title": "About Me",
+    "section": "My Interests",
+    "text": "My Interests\nMy professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
+  },
+  {
+    "objectID": "about.html#education-formal",
+    "href": "about.html#education-formal",
+    "title": "About Me",
+    "section": "Education, Formal",
+    "text": "Education, Formal\nMy educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
+  },
+  {
+    "objectID": "about.html#education-continued",
+    "href": "about.html#education-continued",
+    "title": "About Me",
+    "section": "Education, Continued",
+    "text": "Education, Continued\nI pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software."
+  },
+  {
+    "objectID": "about.html#experience-post-degree",
+    "href": "about.html#experience-post-degree",
+    "title": "About Me",
+    "section": "Experience, Post-Degree",
+    "text": "Experience, Post-Degree\nSince obtaining my degree, I have held a variety of roles within the conservation career space.\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Natural History Biologist | MO Department of Conservation | 10/19–08/22\nBiological Science Technician | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19–10/19"
+  },
+  {
+    "objectID": "about.html#experience-pre-degree",
+    "href": "about.html#experience-pre-degree",
+    "title": "About Me",
+    "section": "Experience, Pre-Degree",
+    "text": "Experience, Pre-Degree\nWhile in college, I gained high-quality research and management experience.\n\nUngulate Ecology Student Teaching Assistant | UWSP | 01/19–05/19\nStudent Project Assistant | Wisconsin Center for Wildlife | 12/17–05/19"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Me",
+    "section": "",
     "text": "Credit: Ben Tjepkes"
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About Me",
-    "section": "Education",
-    "text": "Education\nMy educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
+    "objectID": "contact.html#how-to-contact-me",
+    "href": "contact.html#how-to-contact-me",
+    "title": "Contact Me",
+    "section": "How To Contact Me",
+    "text": "How To Contact Me\nPlease contact me via email or through my LinkedIn profile with any inquiries."
   },
   {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "About Me",
-    "section": "Experience",
-    "text": "Experience\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Natural History Biologist | MO Department of Conservation | 10/19–08/22\nBiological Science Technician | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19–10/19"
-  },
-  {
-    "objectID": "gallery.html#background",
-    "href": "gallery.html#background",
-    "title": "Gallery",
-    "section": "Background",
-    "text": "Background\n“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?”\n\nMy Early Career\n“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?”\n\n\nMy Early Career\n“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?”"
-  },
-  {
-    "objectID": "gallery.html#active-projects-gallery",
-    "href": "gallery.html#active-projects-gallery",
-    "title": "Gallery",
-    "section": "Active Projects & Gallery",
-    "text": "Active Projects & Gallery\n“But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?”"
-  },
-  {
-    "objectID": "gallery.html#personal-writings",
-    "href": "gallery.html#personal-writings",
-    "title": "Gallery",
-    "section": "Personal Writings",
-    "text": "Personal Writings\n“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.”"
-  },
-  {
-    "objectID": "gallery.html#education",
-    "href": "gallery.html#education",
+    "objectID": "gallery.html",
+    "href": "gallery.html",
     "title": "Project Gallery",
-    "section": "Education",
-    "text": "Education\n“On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.”"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hello, I’m Ben Tjepkes",
     "section": "",
-    "text": "Credit: Ben Tjepkes"
-  },
-  {
-    "objectID": "index.html#background",
-    "href": "index.html#background",
-    "title": "Welcome & Intros",
-    "section": "Background",
-    "text": "Background\nMy everyday involves forging solutions for conservation using geospatial technologies and ecological science… but how did I get here?\n“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?”\nlibrary(tidyverse)\nlibrary(palmerpenguins)\npenguins |>                                      # <1>\n  mutate(                                        # <2>\n    bill_ratio = bill_depth_mm / bill_length_mm, # <2>\n    bill_area  = bill_depth_mm * bill_length_mm  # <2>\n  )                                              # <2>\n\nTake penguins, and then,\nadd new columns for the bill ratio and bill area.\n\n\nMy Early Career\n“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?”\n\n\nMy Early Career\n“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?”"
-  },
-  {
-    "objectID": "index.html#active-projects-gallery",
-    "href": "index.html#active-projects-gallery",
-    "title": "Intro & Welcome",
-    "section": "Active Projects & Gallery",
-    "text": "Active Projects & Gallery\n“But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?”"
-  },
-  {
-    "objectID": "index.html#personal-writings",
-    "href": "index.html#personal-writings",
-    "title": "Intro & Welcome",
-    "section": "Personal Writings",
-    "text": "Personal Writings\n“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.”"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Intro & Welcome",
-    "section": "Education",
-    "text": "Education\n“On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.”"
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Links & Resources",
-    "section": "",
-    "text": "Credit: Ben Tjepkes\nI think everyone has certain websites and other reference material they always come back to. This page outlines those on my list — feel free to bookmark these for your use as well. If you have suggestions on additions, please reach out."
-  },
-  {
-    "objectID": "resources.html#resources-for-wildlife",
-    "href": "resources.html#resources-for-wildlife",
-    "title": "Links & Resources",
-    "section": "Resources for Wildlife",
-    "text": "Resources for Wildlife\n\nJob Resources\nThe following links are to wildlife job boards and other career resources for those in the field.\n\n\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10\n\n\n\n\n\n\n\nBooks & Guides\n\n\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10"
-  },
-  {
-    "objectID": "resources.html#resources-for-r",
-    "href": "resources.html#resources-for-r",
-    "title": "Links & Resources",
-    "section": "Resources for R",
-    "text": "Resources for R\n\nReproducible Reporting\n\n\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10\n\n\n\n\n\n\n\nMapping and Spatial Data\n\n\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10"
-  },
-  {
-    "objectID": "resources.html#resources-for-gis",
-    "href": "resources.html#resources-for-gis",
-    "title": "Links & Resources",
-    "section": "Resources for GIS",
-    "text": "Resources for GIS\n\nArcGIS Learning\n\n\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10\n\n\n\n\n\n\n\nQGIS Learning\n\n\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10"
-  },
-  {
-    "objectID": "index.html#in-brief",
-    "href": "index.html#in-brief",
-    "title": "Welcome",
-    "section": "In Brief",
-    "text": "In Brief\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\n\nMy Career\nI currently work as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation, where my primary duties relate to the implementation and data reporting of the Missouri Bat Habitat Conservation Plan.\nI will be starting grad school at the University of Missouri – Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work."
-  },
-  {
-    "objectID": "index.html#education-1",
-    "href": "index.html#education-1",
-    "title": "Welcome & Intros",
-    "section": "Education",
-    "text": "Education\n“On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.”"
+    "text": "Credit: Open Source"
   },
   {
     "objectID": "gallery.html#the-tools-in-my-toolbox",
@@ -147,74 +105,11 @@
     "text": "GIS and Mapping\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes"
   },
   {
-    "objectID": "gallery.html#writings",
-    "href": "gallery.html#writings",
+    "objectID": "gallery.html#blogging-writings",
+    "href": "gallery.html#blogging-writings",
     "title": "Project Gallery",
-    "section": "Writings",
-    "text": "Writings\nThis will be a link to TCC."
-  },
-  {
-    "objectID": "index.html#my-education",
-    "href": "index.html#my-education",
-    "title": "Welcome",
-    "section": "My Education",
-    "text": "My Education\nMy educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
-  },
-  {
-    "objectID": "index.html#my-highlights",
-    "href": "index.html#my-highlights",
-    "title": "Welcome",
-    "section": "My Highlights",
-    "text": "My Highlights\nIn my 7+ years of progressive experience in conservation, geospatial, and environmental science, I have acquired a diverse range of expertise across multiple disciplines, which includes the following competencies.\n\nDemonstrated experience with desktop, web, and mobile GIS software (e.g., Esri ArcGIS Pro, ArcGIS Online, ArcGIS Field Maps).\nProficient in working with Microsoft Office (e.g., Word, Excel, Access, Publisher, Outlook).\nWorking knowledge of R to perform statistical analyses, data wrangling, and data visualization.\nFront-end web development experience using HTML and CSS coding languages.\nProficient in managing large dataset using standardized software and methods.\nSkillful in cartographic design using open source and proprietary mapping applications.\nAdept at using R Markdown and Quarto for reproducible reporting."
-  },
-  {
-    "objectID": "index.html#maps-data-viz-gallery",
-    "href": "index.html#maps-data-viz-gallery",
-    "title": "Welcome",
-    "section": "Maps & Data Viz Gallery",
-    "text": "Maps & Data Viz Gallery\nFor the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. Explore my entire gallery.\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes"
-  },
-  {
-    "objectID": "index.html#blogging-personal-writings",
-    "href": "index.html#blogging-personal-writings",
-    "title": "Intro & Welcome",
-    "section": "Blogging & Personal Writings",
-    "text": "Blogging & Personal Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion, which houses posts on ecology, natural science, and anything else I can think of. This space has been an excellent area for me to grow my writing and web development skill set."
-  },
-  {
-    "objectID": "about.html#experience-post-baccalaureate",
-    "href": "about.html#experience-post-baccalaureate",
-    "title": "About Me",
-    "section": "Experience, Post-baccalaureate",
-    "text": "Experience, Post-baccalaureate\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Natural History Biologist | MO Department of Conservation | 10/19–08/22\nBiological Science Technician | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19–10/19"
-  },
-  {
-    "objectID": "about.html#experience-early-career",
-    "href": "about.html#experience-early-career",
-    "title": "About Me",
-    "section": "Experience, Early-career",
-    "text": "Experience, Early-career\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present"
-  },
-  {
-    "objectID": "index.html#blogging-writings",
-    "href": "index.html#blogging-writings",
-    "title": "Welcome",
     "section": "Blogging & Writings",
     "text": "Blogging & Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion, which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.\nHere are some of my recent blog posts:\n\nHow Scientists Use GIS to Study Wildlife\nHow to Become a Contemporary Naturalist\nJob Boards To Find An Impactful Career in Nature"
-  },
-  {
-    "objectID": "gallery.html#photography",
-    "href": "gallery.html#photography",
-    "title": "Project Gallery",
-    "section": "Photography",
-    "text": "Photography"
-  },
-  {
-    "objectID": "gallery.html#blog-writings",
-    "href": "gallery.html#blog-writings",
-    "title": "Project Gallery",
-    "section": "Blog & Writings",
-    "text": "Blog & Writings\nThis will be a link to TCC."
   },
   {
     "objectID": "gallery.html#nature-photography",
@@ -224,39 +119,25 @@
     "text": "Nature Photography"
   },
   {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Project Gallery",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my portfolio…",
     "section": "",
-    "text": "Credit: Open Source"
+    "text": "My name is Ben Tjepkes and this is my professional portfolio and technical blog site where I talk about conservation, data, and geospatial."
   },
   {
-    "objectID": "about.html#experience-post-bacc",
-    "href": "about.html#experience-post-bacc",
-    "title": "About Me",
-    "section": "Experience, Post-bacc",
-    "text": "Experience, Post-bacc\nSince obtaining my degree, I have held a variety of roles within the conservation career space.\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Natural History Biologist | MO Department of Conservation | 10/19–08/22\nBiological Science Technician | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19–10/19"
+    "objectID": "index.html#a-brief-introduction",
+    "href": "index.html#a-brief-introduction",
+    "title": "Welcome to my portfolio…",
+    "section": "A Brief Introduction",
+    "text": "A Brief Introduction\n\nMy Career\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nI currently work as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation, where my primary duties relate to the implementation and data reporting of the Missouri Bat Habitat Conservation Plan.\n\n\nMy Education\nI hold a Bachelors degree in Wildlife Ecology and Management from the University of Wisconsin–Stevens Point, where I also minored in Geographic Information Systems & Spatial Analysis.\nI will be starting grad school at the University of Missouri–Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work.\n\n\nMy Highlights\nIn my 7+ years of progressive experience in conservation, geospatial, and environmental science, I have acquired a diverse range of expertise across multiple disciplines, which includes the following competencies.\n\nDemonstrated experience with desktop, web, and mobile GIS software.\nWorking knowledge of R to perform statistical analyses, data wrangling, and data visualization.\nFront-end web development experience using HTML and CSS coding languages.\nProficient in managing large datasets using standardized software and methods.\nSkillful in cartographic design using open source and proprietary mapping applications.\nAdept at using R Markdown and Quarto for reproducible reporting."
   },
   {
-    "objectID": "about.html#experience-pre-bacc",
-    "href": "about.html#experience-pre-bacc",
-    "title": "About Me",
-    "section": "Experience, Pre-bacc",
-    "text": "Experience, Pre-bacc\nWhile in college, I worked hard to gain high-quality research and management experience.\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present"
-  },
-  {
-    "objectID": "about.html#experience-post-grad",
-    "href": "about.html#experience-post-grad",
-    "title": "About Me",
-    "section": "Experience, Post-grad",
-    "text": "Experience, Post-grad\nSince obtaining my degree, I have held a variety of roles within the conservation career space.\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Natural History Biologist | MO Department of Conservation | 10/19–08/22\nBiological Science Technician | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19–10/19"
-  },
-  {
-    "objectID": "about.html#experience-pre-grad",
-    "href": "about.html#experience-pre-grad",
-    "title": "About Me",
-    "section": "Experience, Pre-grad",
-    "text": "Experience, Pre-grad\nWhile in college, I worked hard to gain high-quality research and management experience.\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present"
+    "objectID": "index.html#exploring-my-portfolio",
+    "href": "index.html#exploring-my-portfolio",
+    "title": "Welcome to my portfolio…",
+    "section": "Exploring My Portfolio",
+    "text": "Exploring My Portfolio\nFor the last several years, I have been expanding my experience with cartography, data visualization, and more. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. Explore my entire gallery.\n\n\n\n\n\n\n\nCartography & GIS\nMaps and other spatial works.\n\n\n\n\n\n\n\n\n\n\nCartography & GIS\nMaps and other spatial works.\n\n\n\n\n\n\n\n\n\n\nCartography & GIS\nMaps and other spatial works."
   },
   {
     "objectID": "research.html",
@@ -264,90 +145,6 @@
     "title": "Research",
     "section": "",
     "text": "Credit: Ben Tjepkes"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Me",
-    "section": "",
-    "text": "Credit: Ben Tjepkes"
-  },
-  {
-    "objectID": "index.html#my-interests",
-    "href": "index.html#my-interests",
-    "title": "Welcome",
-    "section": "My Interests",
-    "text": "My Interests\nMy professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
-  },
-  {
-    "objectID": "resources.html#resources-for-wildlifers",
-    "href": "resources.html#resources-for-wildlifers",
-    "title": "Links & Resources",
-    "section": "Resources for Wildlifers",
-    "text": "Resources for Wildlifers\n\nJob Resources\n\nBlog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
-  },
-  {
-    "objectID": "resources.html#resources-for-r-users",
-    "href": "resources.html#resources-for-r-users",
-    "title": "Links & Resources",
-    "section": "Resources for R Users",
-    "text": "Resources for R Users\n\nLearning R and RStudio\nComing Soon!\n\n\nReproducible Reporting\n\nWebsite ~ Quarto from Posit\n\n\n\nMapping and Spatial Data\n\nWebsite ~ RSpatial: Spatial Data Science in R"
-  },
-  {
-    "objectID": "resources.html#resources-for-gis-users",
-    "href": "resources.html#resources-for-gis-users",
-    "title": "Links & Resources",
-    "section": "Resources for GIS Users",
-    "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
-  },
-  {
-    "objectID": "about.html#experience-post-degree",
-    "href": "about.html#experience-post-degree",
-    "title": "About Me",
-    "section": "Experience, Post-Degree",
-    "text": "Experience, Post-Degree\nSince obtaining my degree, I have held a variety of roles within the conservation career space.\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Natural History Biologist | MO Department of Conservation | 10/19–08/22\nBiological Science Technician | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19–10/19"
-  },
-  {
-    "objectID": "about.html#experience-pre-degree",
-    "href": "about.html#experience-pre-degree",
-    "title": "About Me",
-    "section": "Experience, Pre-Degree",
-    "text": "Experience, Pre-Degree\nWhile in college, I gained high-quality research and management experience.\n\nUngulate Ecology Student Teaching Assistant | UWSP | 01/19–05/19\nStudent Project Assistant | Wisconsin Center for Wildlife | 12/17–05/19"
-  },
-  {
-    "objectID": "contact.html#how-to-contact-me",
-    "href": "contact.html#how-to-contact-me",
-    "title": "Contact Me",
-    "section": "How To Contact Me",
-    "text": "How To Contact Me\nPlease contact me via email or through my LinkedIn profile with any inquiries."
-  },
-  {
-    "objectID": "about.html#education-formal",
-    "href": "about.html#education-formal",
-    "title": "About Me",
-    "section": "Education, Formal",
-    "text": "Education, Formal\nMy educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
-  },
-  {
-    "objectID": "about.html#education-continued",
-    "href": "about.html#education-continued",
-    "title": "About Me",
-    "section": "Education, Continued",
-    "text": "Education, Continued\nI pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software."
-  },
-  {
-    "objectID": "about.html#my-interests",
-    "href": "about.html#my-interests",
-    "title": "About Me",
-    "section": "My Interests",
-    "text": "My Interests\nMy professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
-  },
-  {
-    "objectID": "gallery.html#blogging-writings",
-    "href": "gallery.html#blogging-writings",
-    "title": "Project Gallery",
-    "section": "Blogging & Writings",
-    "text": "Blogging & Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion, which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.\nHere are some of my recent blog posts:\n\nHow Scientists Use GIS to Study Wildlife\nHow to Become a Contemporary Naturalist\nJob Boards To Find An Impactful Career in Nature"
   },
   {
     "objectID": "research.html#research-item-1",
@@ -371,17 +168,31 @@
     "text": "Research Item 3"
   },
   {
-    "objectID": "index.html#a-brief-introduction",
-    "href": "index.html#a-brief-introduction",
-    "title": "Hello, I’m Ben Tjepkes",
-    "section": "A Brief Introduction",
-    "text": "A Brief Introduction\n\nMy Career\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nI currently work as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation, where my primary duties relate to the implementation and data reporting of the Missouri Bat Habitat Conservation Plan.\n\n\nMy Education\nI hold a Bachelors degree in Wildlife Ecology and Management from the University of Wisconsin–Stevens Point, where I also minored in Geographic Information Systems & Spatial Analysis.\nI will be starting grad school at the University of Missouri–Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work.\n\n\nMy Highlights\nIn my 7+ years of progressive experience in conservation, geospatial, and environmental science, I have acquired a diverse range of expertise across multiple disciplines, which includes the following competencies.\n\nDemonstrated experience with desktop, web, and mobile GIS software.\nWorking knowledge of R to perform statistical analyses, data wrangling, and data visualization.\nFront-end web development experience using HTML and CSS coding languages.\nProficient in managing large datasets using standardized software and methods.\nSkillful in cartographic design using open source and proprietary mapping applications.\nAdept at using R Markdown and Quarto for reproducible reporting."
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Links & Resources",
+    "section": "",
+    "text": "Credit: Ben Tjepkes\nI think everyone has certain websites and other reference material they always come back to. This page outlines those on my list — feel free to bookmark these for your use as well. If you have suggestions on additions, please reach out."
   },
   {
-    "objectID": "index.html#exploring-my-portfolio",
-    "href": "index.html#exploring-my-portfolio",
-    "title": "Hello, I’m Ben Tjepkes",
-    "section": "Exploring My Portfolio",
-    "text": "Exploring My Portfolio\nFor the last several years, I have been expanding my experience with cartography, data visualization, and more. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. Explore my entire gallery.\n\n\n\n\n\n\n\nCartography & GIS\nMaps and other spatial works.\n\n\n\n\n\n\n\n\n\n\nCartography & GIS\nMaps and other spatial works.\n\n\n\n\n\n\n\n\n\n\nCartography & GIS\nMaps and other spatial works."
+    "objectID": "resources.html#resources-for-wildlifers",
+    "href": "resources.html#resources-for-wildlifers",
+    "title": "Links & Resources",
+    "section": "Resources for Wildlifers",
+    "text": "Resources for Wildlifers\n\nJob Resources\n\nBlog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
+  },
+  {
+    "objectID": "resources.html#resources-for-r-users",
+    "href": "resources.html#resources-for-r-users",
+    "title": "Links & Resources",
+    "section": "Resources for R Users",
+    "text": "Resources for R Users\n\nLearning R and RStudio\nComing Soon!\n\n\nReproducible Reporting\n\nWebsite ~ Quarto from Posit\n\n\n\nMapping and Spatial Data\n\nWebsite ~ RSpatial: Spatial Data Science in R"
+  },
+  {
+    "objectID": "resources.html#resources-for-gis-users",
+    "href": "resources.html#resources-for-gis-users",
+    "title": "Links & Resources",
+    "section": "Resources for GIS Users",
+    "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
   }
 ]
