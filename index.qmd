@@ -1,6 +1,6 @@
 ---
-title: "Welcome"
-description: Hello, I'm Ben Tjepkes and this is my portfolio. Here you can explore my career experience, creative projects, and educational pursuits.
+title: "Hello, I'm Ben Tjepkes"
+description: Welcome to my portfolio website. Here you can explore my career experience, creative projects, and educational pursuits.
 ---
 
 ![Credit: Ben Tjepkes](img-ben-with-bear.jpg)
@@ -57,13 +57,12 @@ For the last several years, I have been expanding my experience with cartography
 
 ### Cartography & GIS
 
-Making maps and other spatial works.
+Maps and other spatial works.
 
 :::
 
 ::::
 
-----
 
 :::: {.columns}
 
@@ -82,13 +81,12 @@ Making maps and other spatial works.
 
 ### Cartography & GIS
 
-Making maps and other spatial works.
+Maps and other spatial works.
 
 :::
 
 ::::
 
-----
 
 :::: {.columns}
 
@@ -107,9 +105,8 @@ Making maps and other spatial works.
 
 ### Cartography & GIS
 
-Making maps and other spatial works.
+Maps and other spatial works.
 
 :::
 
 ::::
-
