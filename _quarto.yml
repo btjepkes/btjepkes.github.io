@@ -4,6 +4,7 @@ project:
 
 website:
   title: "B.Tjepkes"
+  page-navigation: true
   search:
     location: navbar
     type: textbox
@@ -12,7 +13,7 @@ website:
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   repo-actions: [issue]
   navbar:
-    pinned: true
+    pinned: false
     left:
       - href: index.qmd
         text: Home
@@ -60,19 +61,24 @@ website:
   
   sidebar:
       style: "floating"
-      collapse-level: 1
       contents:
       - section: "Navigation"      
       - section: "My Recent Projects"
         contents:
-          - href: gallery.qmd
-          - href: gallery.qmd
-          - href: gallery.qmd
+          - text: "Data Viz & Reports"
+            href: gallery.qmd#data-viz-and-reports
+          - text: "GIS & Mapping"
+            href: gallery.qmd#gis-and-mapping
+          - text: "Blogging & Writing"
+            href: gallery.qmd#blog-writings
       - section: "My Latest Research"
         contents:
-          - href: gallery.qmd
-          - href: gallery.qmd
-          - href: gallery.qmd
+          - text: Data Viz & Reports
+            href: gallery.qmd#data-viz-and-reports
+          - text: GIS & Mapping
+            href: gallery.qmd#gis-and-mapping
+          - text: Blogging & Writing
+            href: gallery.qmd#blog-writings
       - section: "Links & Resources"
         contents:
           - href: gallery.qmd

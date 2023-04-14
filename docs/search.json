@@ -51,7 +51,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Intro & Welcome",
+    "title": "Welcome",
     "section": "",
     "text": "Credit: Ben Tjepkes"
   },
@@ -114,9 +114,9 @@
   {
     "objectID": "index.html#in-brief",
     "href": "index.html#in-brief",
-    "title": "Intro & Welcome",
+    "title": "Welcome",
     "section": "In Brief",
-    "text": "In Brief\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nI currently work as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation, where my primary duties relate to the implementation and data reporting of the Missouri Bat Habitat Conservation Plan.\nI will be starting grad school at the University of Missouri – Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work."
+    "text": "In Brief\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\n\nMy Career\nI currently work as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation, where my primary duties relate to the implementation and data reporting of the Missouri Bat Habitat Conservation Plan.\nI will be starting grad school at the University of Missouri – Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work."
   },
   {
     "objectID": "index.html#education-1",
@@ -156,21 +156,21 @@
   {
     "objectID": "index.html#my-education",
     "href": "index.html#my-education",
-    "title": "Intro & Welcome",
+    "title": "Welcome",
     "section": "My Education",
     "text": "My Education\nMy educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019"
   },
   {
     "objectID": "index.html#my-highlights",
     "href": "index.html#my-highlights",
-    "title": "Intro & Welcome",
+    "title": "Welcome",
     "section": "My Highlights",
     "text": "My Highlights\nIn my 7+ years of progressive experience in conservation, geospatial, and environmental science, I have acquired a diverse range of expertise across multiple disciplines, which includes the following competencies.\n\nDemonstrated experience with desktop, web, and mobile GIS software (e.g., Esri ArcGIS Pro, ArcGIS Online, ArcGIS Field Maps).\nProficient in working with Microsoft Office (e.g., Word, Excel, Access, Publisher, Outlook).\nWorking knowledge of R to perform statistical analyses, data wrangling, and data visualization.\nFront-end web development experience using HTML and CSS coding languages.\nProficient in managing large dataset using standardized software and methods.\nSkillful in cartographic design using open source and proprietary mapping applications.\nAdept at using R Markdown and Quarto for reproducible reporting."
   },
   {
     "objectID": "index.html#maps-data-viz-gallery",
     "href": "index.html#maps-data-viz-gallery",
-    "title": "Intro & Welcome",
+    "title": "Welcome",
     "section": "Maps & Data Viz Gallery",
     "text": "Maps & Data Viz Gallery\nFor the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. Explore my entire gallery.\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes"
   },
@@ -198,7 +198,7 @@
   {
     "objectID": "index.html#blogging-writings",
     "href": "index.html#blogging-writings",
-    "title": "Intro & Welcome",
+    "title": "Welcome",
     "section": "Blogging & Writings",
     "text": "Blogging & Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion, which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.\nHere are some of my recent blog posts:\n\nHow Scientists Use GIS to Study Wildlife\nHow to Become a Contemporary Naturalist\nJob Boards To Find An Impactful Career in Nature"
   },
@@ -275,7 +275,7 @@
   {
     "objectID": "index.html#my-interests",
     "href": "index.html#my-interests",
-    "title": "Intro & Welcome",
+    "title": "Welcome",
     "section": "My Interests",
     "text": "My Interests\nMy professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
   },
@@ -334,5 +334,54 @@
     "title": "About Me",
     "section": "Education, Continued",
     "text": "Education, Continued\nI pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software."
+  },
+  {
+    "objectID": "about.html#my-interests",
+    "href": "about.html#my-interests",
+    "title": "About Me",
+    "section": "My Interests",
+    "text": "My Interests\nMy professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
+  },
+  {
+    "objectID": "gallery.html#blogging-writings",
+    "href": "gallery.html#blogging-writings",
+    "title": "Project Gallery",
+    "section": "Blogging & Writings",
+    "text": "Blogging & Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion, which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.\nHere are some of my recent blog posts:\n\nHow Scientists Use GIS to Study Wildlife\nHow to Become a Contemporary Naturalist\nJob Boards To Find An Impactful Career in Nature"
+  },
+  {
+    "objectID": "research.html#research-item-1",
+    "href": "research.html#research-item-1",
+    "title": "Research",
+    "section": "Research Item 1",
+    "text": "Research Item 1"
+  },
+  {
+    "objectID": "research.html#research-item-2",
+    "href": "research.html#research-item-2",
+    "title": "Research",
+    "section": "Research Item 2",
+    "text": "Research Item 2"
+  },
+  {
+    "objectID": "research.html#research-item-3",
+    "href": "research.html#research-item-3",
+    "title": "Research",
+    "section": "Research Item 3",
+    "text": "Research Item 3"
+  },
+  {
+    "objectID": "index.html#a-brief-introduction",
+    "href": "index.html#a-brief-introduction",
+    "title": "Welcome",
+    "section": "A Brief Introduction",
+    "text": "A Brief Introduction\n\nMy Career\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nI currently work as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation, where my primary duties relate to the implementation and data reporting of the Missouri Bat Habitat Conservation Plan.\n\n\nMy Education\nI hold a Bachelors degree in Wildlife Ecology and Management from the University of Wisconsin–Stevens Point, where I also minored in Geographic Information Systems & Spatial Analysis.\nI will be starting grad school at the University of Missouri–Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work.\n\n\nMy Highlights\nIn my 7+ years of progressive experience in conservation, geospatial, and environmental science, I have acquired a diverse range of expertise across multiple disciplines, which includes the following competencies.\n\nDemonstrated experience with desktop, web, and mobile GIS software.\nWorking knowledge of R to perform statistical analyses, data wrangling, and data visualization.\nFront-end web development experience using HTML and CSS coding languages.\nProficient in managing large datasets using standardized software and methods.\nSkillful in cartographic design using open source and proprietary mapping applications.\nAdept at using R Markdown and Quarto for reproducible reporting."
+  },
+  {
+    "objectID": "index.html#exploring-my-portfolio",
+    "href": "index.html#exploring-my-portfolio",
+    "title": "Welcome",
+    "section": "Exploring My Portfolio",
+    "text": "Exploring My Portfolio\nFor the last several years, I have been expanding my experience with cartography, data visualization, and more. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. Explore my entire gallery.\n\n\n\n\n\n\n\nCartography & GIS\nMaking maps and other spatial works.\n\n\n\n\n\n\n\n\n\n\n\nCartography & GIS\nMaking maps and other spatial works.\n\n\n\n\n\n\n\n\n\n\n\nCartography & GIS\nMaking maps and other spatial works."
   }
 ]

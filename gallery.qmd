@@ -64,9 +64,17 @@ The following projects are my creations using various GIS software. The bulk of 
 ::::
 
 
-## Blog & Writings
+## Blogging & Writings
 
-This will be a link to TCC. 
+Since around 2021, I have been running a personal blog called [The Conservation Companion](https://conservationcompanion.com), which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.
+
+**Here are some of my recent blog posts:**
+
+- [How Scientists Use GIS to Study Wildlife](https://conservationcompanion.com/blog/how-scientists-use-gis-to-study-wildlife)
+
+- [How to Become a Contemporary Naturalist](https://conservationcompanion.com/blog/how-to-become-a-contemporary-naturalist)
+
+- [Job Boards To Find An Impactful Career in Nature](https://conservationcompanion.com/blog/job-boards-to-find-an-impactful-career-in-nature)
 
 ## Nature Photography
 

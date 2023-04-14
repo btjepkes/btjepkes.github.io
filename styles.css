@@ -17,6 +17,12 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  color: whitesmoke;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
 ol, ul {
   padding-left: 1.5rem;
 }
@@ -150,6 +156,10 @@ nav .nav-item.compact .nav-link {
 .img-fluid,
 .figure-img {
   border-radius: 4px;
+}
+
+.padded-img {
+  padding-top: 2rem;
 }
 
 /*.quarto-container {

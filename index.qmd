@@ -1,112 +1,115 @@
 ---
-title: "Intro & Welcome"
+title: "Welcome"
 description: Hello, I'm Ben Tjepkes and this is my portfolio. Here you can explore my career experience, creative projects, and educational pursuits.
-author: Benjamin Tjepkes
-date-modified: 04/11/2023
 ---
 
 ![Credit: Ben Tjepkes](img-ben-with-bear.jpg)
 
-## In Brief
+## A Brief Introduction
 
-I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
+### My Career
+I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing natural resource conservation. My [work](gallery.qmd) focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
 
 I currently work as the **Assistant Wildlife Diversity Coordinator** for the Missouri Department of Conservation, where my primary duties relate to the implementation and data reporting of the [Missouri Bat Habitat Conservation Plan](https://research.mdc.mo.gov/project/missouri-bat-habitat-conservation-plan).
 
-I will be starting grad school at the University of Missouri -- Columbia in fall 2023. Please [reach out](contact.qmd) if you would like to collaborate on my thesis project or other ancillary work.
+### My Education
 
-## My Interests
+I hold a Bachelors degree in Wildlife Ecology and Management from the University of Wisconsin--Stevens Point, where I also minored in Geographic Information Systems & Spatial Analysis.
 
-My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-- Applied Conservation Science
-- Spatial and Movement Ecology
-- Imperiled Species Conservation
-
-:::
-
-::: {.column width="50%"}
-
-- Landscape Connectivity & Planning
-- Web and Cartographic Design
-- Open Source Programming
-
-:::
-
-::::
-
-## My Education
-
-My educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.
-
-- **MA, Geography** | University of Missouri-Columbia | Ant. May 2025
-
-- **BS, Wildlife Ecology** | University of Wisconsin-Stevens Point | May 2019
+I will be starting grad school at the University of Missouri--Columbia in fall 2023. Please [reach out](contact.qmd) if you would like to collaborate on my thesis project or other ancillary work.
 
 
-
-## My Highlights
+### My Highlights
 
 In my 7+ years of progressive experience in conservation, geospatial, and environmental science, I have acquired a diverse range of expertise across multiple disciplines, which includes the following competencies.
 
-- Demonstrated experience with desktop, web, and mobile GIS software (e.g., Esri ArcGIS Pro, ArcGIS Online, ArcGIS Field Maps).
-
-- Proficient in working with Microsoft Office (e.g., Word, Excel, Access, Publisher, Outlook).
+- Demonstrated experience with desktop, web, and mobile GIS software.
 
 - Working knowledge of R to perform statistical analyses, data wrangling, and data visualization.
 
 - Front-end web development experience using HTML and CSS coding languages.
 
-- Proficient in managing large dataset using standardized software and methods.
+- Proficient in managing large datasets using standardized software and methods.
 
 - Skillful in cartographic design using open source and proprietary mapping applications.
 
 - Adept at using R Markdown and Quarto for reproducible reporting.
 
 
-## Maps & Data Viz Gallery
+## Exploring My Portfolio
 
-For the last several years, I have been experimenting with cartography and data visualization. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. [Explore my entire gallery.](gallery.qmd)
+For the last several years, I have been expanding my experience with cartography, data visualization, and more. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. [Explore my entire gallery.](gallery.qmd)
 
 :::: {.columns}
 
-::: {.column width="47.5%"}
+::: {.column .padded-img width="25%"}
 
-![Credit: Ben Tjepkes](img-map-1.jpg)
 
-![Credit: Ben Tjepkes](img-map-3.jpg)
+![](img-map-2.jpg)
 
 :::
 
 ::: {.column width="5%"}
 
-
-
 :::
 
-::: {.column width="47.5%"}
+::: {.column width="70%"}
 
-![Credit: Ben Tjepkes](img-map-2.jpg)
+### Cartography & GIS
 
-![Credit: Ben Tjepkes](img-map-4.jpg)
+Making maps and other spatial works.
 
 :::
 
 ::::
 
+----
 
-## Blogging & Writings
+:::: {.columns}
 
-Since around 2021, I have been running a personal blog called [The Conservation Companion](https://conservationcompanion.com), which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.
+::: {.column .padded-img width="25%"}
 
-**Here are some of my recent blog posts:**
 
-- [How Scientists Use GIS to Study Wildlife](https://conservationcompanion.com/blog/how-scientists-use-gis-to-study-wildlife)
+![](img-map-2.jpg)
 
-- [How to Become a Contemporary Naturalist](https://conservationcompanion.com/blog/how-to-become-a-contemporary-naturalist)
+:::
 
-- [Job Boards To Find An Impactful Career in Nature](https://conservationcompanion.com/blog/job-boards-to-find-an-impactful-career-in-nature)
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="70%"}
+
+### Cartography & GIS
+
+Making maps and other spatial works.
+
+:::
+
+::::
+
+----
+
+:::: {.columns}
+
+::: {.column .padded-img width="25%"}
+
+
+![](img-map-2.jpg)
+
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="70%"}
+
+### Cartography & GIS
+
+Making maps and other spatial works.
+
+:::
+
+::::
+

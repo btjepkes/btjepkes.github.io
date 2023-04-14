@@ -7,6 +7,30 @@ date-modified: 04/11/2023
 
 ![Credit: Ben Tjepkes](img-ben-work.png)
 
+## My Interests
+
+My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Applied Conservation Science
+- Spatial and Movement Ecology
+- Imperiled Species Conservation
+
+:::
+
+::: {.column width="50%"}
+
+- Landscape Connectivity & Planning
+- Web and Cartographic Design
+- Open Source Programming
+
+:::
+
+::::
+
 ## Education, Formal
 
 My educational background is primarily in **wildlife conservation science** along with **geographic information systems**. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.
