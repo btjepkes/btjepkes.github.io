@@ -155,6 +155,15 @@ nav .nav-item.compact .nav-link {
   font-size: 20px;
 }
 
+/* POST SEARCH */
+
+.quarto-listing-filter {
+  margin-bottom: 2em;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* FIGURES & IMAGES */
 
 .figure-caption {

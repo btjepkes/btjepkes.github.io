@@ -43,11 +43,3 @@ In my 7+ years of progressive experience in conservation, geospatial, and enviro
 ## Exploring My Portfolio
 
 For the last several years, I have been expanding my experience with cartography, data visualization, and more. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. [Explore my entire gallery.](gallery.qmd)
-
-### Cartography & GIS
-
-Maps and other spatial works.
-
-### Data Viz & Reporting
-
-Graphs, charts, and reports.
