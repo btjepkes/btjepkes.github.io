@@ -22,5 +22,17 @@
   },
   "about-test.qmd": {
     "about-test.html": "11e30774"
+  },
+  "posts/post-one.qmd": {
+    "post-one.html": "8aac5ee0"
+  },
+  "blog-posts.qmd": {
+    "blog-posts.html": "e30c3d59"
+  },
+  "posts.qmd": {
+    "posts.html": "9c5f991a"
+  },
+  "posts/post-two.qmd": {
+    "post-two.html": "e132dab3"
   }
 }

@@ -52,7 +52,7 @@ ol, ul {
   text-transform: uppercase;
   font-family: monaco, Monospace;
   font-size: 18px;
-  padding: 2px 8px;
+  padding: 2.5px 8px 2px 8px;
   border: solid white 2px;
   margin: 0 0 0 -5px;
 }

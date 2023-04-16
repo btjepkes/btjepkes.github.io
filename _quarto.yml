@@ -25,8 +25,8 @@ website:
         text: Research        
       - href: resources.qmd
         text: Links & Resources
-      - href: contact.qmd
-        text: Contact        
+      - href: posts.qmd
+        text: Blog      
 
     right:
       - icon: linkedin

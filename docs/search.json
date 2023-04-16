@@ -63,18 +63,11 @@
     "text": "Experience, Pre-Degree\nWhile in college, I gained high-quality research and management experience.\n\nUngulate Ecology Student Teaching Assistant | UWSP | 01/19–05/19\nStudent Project Assistant | Wisconsin Center for Wildlife | 12/17–05/19"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Me",
-    "section": "",
-    "text": "Credit: Ben Tjepkes"
-  },
-  {
-    "objectID": "contact.html#how-to-contact-me",
-    "href": "contact.html#how-to-contact-me",
-    "title": "Contact Me",
+    "objectID": "about.html#how-to-contact-me",
+    "href": "about.html#how-to-contact-me",
+    "title": "About Me",
     "section": "How To Contact Me",
-    "text": "How To Contact Me\nPlease contact me via email or through my LinkedIn profile with any inquiries."
+    "text": "How To Contact Me\nInterested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
   },
   {
     "objectID": "gallery.html",
@@ -116,7 +109,7 @@
     "href": "gallery.html#nature-photography",
     "title": "Project Gallery",
     "section": "Nature Photography",
-    "text": "Nature Photography"
+    "text": "Nature Photography\nComing soon!"
   },
   {
     "objectID": "index.html",
@@ -152,6 +145,13 @@
     "title": "Introductions",
     "section": "Exploring My Portfolio",
     "text": "Exploring My Portfolio\nFor the last several years, I have been expanding my experience with cartography, data visualization, and more. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. Explore my entire gallery.\n\nCartography & GIS\nMaps and other spatial works.\n\n\nData Viz & Reporting\nGraphs, charts, and reports."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog Posts",
+    "section": "",
+    "text": "Sample Blog Post\n\n\n\nTesting\n\n\n\nPost description\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nSample Blog Post 2\n\n\n\nTesting Also\n\n\n\nPost description\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
