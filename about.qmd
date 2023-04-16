@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 description: Portfolio of B. Tjepkes -- Wildlife Ecologist & Geospatial Practitioner
-title-block-banner: rgba(79, 99, 119, 0.4)
+title-block-banner: rgba(0, 0, 0, 0.4)
 image: img-ben-with-bear.jpg
 abstract: I work as a wildlife ecologist and geospatial practitioner to find solutions for researching and conserving our natural resources.
 abstract-title: ""

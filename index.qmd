@@ -1,9 +1,9 @@
 ---
 title: "Introductions"
 description: Portfolio of B. Tjepkes -- Wildlife Ecologist & Geospatial Practitioner
-title-block-banner: rgba(79, 99, 119, 0.4)
+title-block-banner: rgba(0, 0, 0, 0.4)
 image: img-ben-with-bear.jpg
-abstract: Hello, my name is Ben Tjepkes and this is my professional portfolio and technical blog site where I showcase and talk about my work in conservation and geospatial. Have a look around to learn about my career experience, creative projects, and educational pursuits.
+abstract: Hello, my name is Ben Tjepkes and this is my professional portfolio and technical blog site showcasing my work in conservation and geospatial.
 abstract-title: ""
 ---
 
@@ -44,73 +44,10 @@ In my 7+ years of progressive experience in conservation, geospatial, and enviro
 
 For the last several years, I have been expanding my experience with cartography, data visualization, and more. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. [Explore my entire gallery.](gallery.qmd)
 
-:::: {.columns}
-
-::: {.column .padded-img width="25%"}
-
-
-![](img-map-2.jpg)
-
-:::
-
-::: {.column width="5%"}
-
-:::
-
-::: {.column width="70%"}
-
 ### Cartography & GIS
 
 Maps and other spatial works.
 
-:::
+### Data Viz & Reporting
 
-::::
-
-
-:::: {.columns}
-
-::: {.column .padded-img width="25%"}
-
-
-![](img-map-2.jpg)
-
-:::
-
-::: {.column width="5%"}
-
-:::
-
-::: {.column width="70%"}
-
-### Cartography & GIS
-
-Maps and other spatial works.
-
-:::
-
-::::
-
-
-:::: {.columns}
-
-::: {.column .padded-img width="25%"}
-
-
-![](img-map-2.jpg)
-
-:::
-
-::: {.column width="5%"}
-
-:::
-
-::: {.column width="70%"}
-
-### Cartography & GIS
-
-Maps and other spatial works.
-
-:::
-
-::::
+Graphs, charts, and reports.
