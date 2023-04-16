@@ -1,30 +1,29 @@
 ---
-title: "My Portfolio"
-description: Explore my career experience, creative projects, and educational pursuits.
+title: "Introductions"
+description: Portfolio of B. Tjepkes -- Wildlife Ecologist & Geospatial Practitioner
 title-block-banner: rgba(79, 99, 119, 0.4)
 image: img-ben-with-bear.jpg
+abstract: Hello, my name is Ben Tjepkes and this is my professional portfolio and technical blog site where I showcase and talk about my work in conservation and geospatial. Have a look around to learn about my career experience, creative projects, and educational pursuits.
+abstract-title: ""
 ---
-
-> My name is Ben Tjepkes and this is my professional portfolio and technical blog site where I talk about conservation and geospatial.
 
 
 ![Credit: Ben Tjepkes](img-ben-with-bear.jpg)
 
-## A Brief Introduction
 
-### My Career
+## My Career
 I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing natural resource conservation. My [work](gallery.qmd) focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
 
 I currently work as the **Assistant Wildlife Diversity Coordinator** for the Missouri Department of Conservation, where my primary duties relate to the implementation and data reporting of the [Missouri Bat Habitat Conservation Plan](https://research.mdc.mo.gov/project/missouri-bat-habitat-conservation-plan).
 
-### My Education
+## My Education
 
 I hold a Bachelors degree in Wildlife Ecology and Management from the University of Wisconsin--Stevens Point, where I also minored in Geographic Information Systems & Spatial Analysis.
 
 I will be starting grad school at the University of Missouri--Columbia in fall 2023. Please [reach out](contact.qmd) if you would like to collaborate on my thesis project or other ancillary work.
 
 
-### My Highlights
+## My Highlights
 
 In my 7+ years of progressive experience in conservation, geospatial, and environmental science, I have acquired a diverse range of expertise across multiple disciplines, which includes the following competencies.
 

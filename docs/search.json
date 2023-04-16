@@ -25,7 +25,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I work as a wildlife ecologist and geospatial practitioner to find solutions for researching and conserving our natural resources."
+    "text": "Credit: Ben Tjepkes"
   },
   {
     "objectID": "about.html#my-interests",
@@ -121,49 +121,63 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "My Portfolio",
+    "title": "Introductions",
     "section": "",
-    "text": "My name is Ben Tjepkes and this is my professional portfolio and technical blog site where I talk about conservation and geospatial."
+    "text": "Credit: Ben Tjepkes"
   },
   {
-    "objectID": "index.html#a-brief-introduction",
-    "href": "index.html#a-brief-introduction",
-    "title": "My Portfolio",
-    "section": "A Brief Introduction",
-    "text": "A Brief Introduction\n\nMy Career\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nI currently work as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation, where my primary duties relate to the implementation and data reporting of the Missouri Bat Habitat Conservation Plan.\n\n\nMy Education\nI hold a Bachelors degree in Wildlife Ecology and Management from the University of Wisconsin–Stevens Point, where I also minored in Geographic Information Systems & Spatial Analysis.\nI will be starting grad school at the University of Missouri–Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work.\n\n\nMy Highlights\nIn my 7+ years of progressive experience in conservation, geospatial, and environmental science, I have acquired a diverse range of expertise across multiple disciplines, which includes the following competencies.\n\nDemonstrated experience with desktop, web, and mobile GIS software.\nWorking knowledge of R to perform statistical analyses, data wrangling, and data visualization.\nFront-end web development experience using HTML and CSS coding languages.\nProficient in managing large datasets using standardized software and methods.\nSkillful in cartographic design using open source and proprietary mapping applications.\nAdept at using R Markdown and Quarto for reproducible reporting."
+    "objectID": "index.html#my-career",
+    "href": "index.html#my-career",
+    "title": "Introductions",
+    "section": "My Career",
+    "text": "My Career\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nI currently work as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation, where my primary duties relate to the implementation and data reporting of the Missouri Bat Habitat Conservation Plan."
+  },
+  {
+    "objectID": "index.html#my-education",
+    "href": "index.html#my-education",
+    "title": "Introductions",
+    "section": "My Education",
+    "text": "My Education\nI hold a Bachelors degree in Wildlife Ecology and Management from the University of Wisconsin–Stevens Point, where I also minored in Geographic Information Systems & Spatial Analysis.\nI will be starting grad school at the University of Missouri–Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work."
+  },
+  {
+    "objectID": "index.html#my-highlights",
+    "href": "index.html#my-highlights",
+    "title": "Introductions",
+    "section": "My Highlights",
+    "text": "My Highlights\nIn my 7+ years of progressive experience in conservation, geospatial, and environmental science, I have acquired a diverse range of expertise across multiple disciplines, which includes the following competencies.\n\nDemonstrated experience with desktop, web, and mobile GIS software.\nWorking knowledge of R to perform statistical analyses, data wrangling, and data visualization.\nFront-end web development experience using HTML and CSS coding languages.\nProficient in managing large datasets using standardized software and methods.\nSkillful in cartographic design using open source and proprietary mapping applications.\nAdept at using R Markdown and Quarto for reproducible reporting."
   },
   {
     "objectID": "index.html#exploring-my-portfolio",
     "href": "index.html#exploring-my-portfolio",
-    "title": "My Portfolio",
+    "title": "Introductions",
     "section": "Exploring My Portfolio",
     "text": "Exploring My Portfolio\nFor the last several years, I have been expanding my experience with cartography, data visualization, and more. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. Explore my entire gallery.\n\n\n\n\n\n\n\nCartography & GIS\nMaps and other spatial works.\n\n\n\n\n\n\n\n\n\n\nCartography & GIS\nMaps and other spatial works.\n\n\n\n\n\n\n\n\n\n\nCartography & GIS\nMaps and other spatial works."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Research",
+    "title": "My Research",
     "section": "",
     "text": "Credit: Ben Tjepkes"
   },
   {
     "objectID": "research.html#research-item-1",
     "href": "research.html#research-item-1",
-    "title": "Research",
+    "title": "My Research",
     "section": "Research Item 1",
     "text": "Research Item 1"
   },
   {
     "objectID": "research.html#research-item-2",
     "href": "research.html#research-item-2",
-    "title": "Research",
+    "title": "My Research",
     "section": "Research Item 2",
     "text": "Research Item 2"
   },
   {
     "objectID": "research.html#research-item-3",
     "href": "research.html#research-item-3",
-    "title": "Research",
+    "title": "My Research",
     "section": "Research Item 3",
     "text": "Research Item 3"
   },

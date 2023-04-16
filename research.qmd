@@ -1,9 +1,13 @@
 ---
-title: "Research"
-description: My research focuses on spatial ecology, wildlife habitat-use, and using geospatial tools for conservation.
+title: "My Research"
+description: Portfolio of B. Tjepkes -- Wildlife Ecologist & Geospatial Practitioner
+title-block-banner: rgba(79, 99, 119, 0.4)
+image: img-ben-with-bear.jpg
+abstract: My research focuses on spatial ecology, wildlife habitat-use, and using geospatial tools for conservation.
+abstract-title: ""
 ---
 
-![Credit: Ben Tjepkes](img-ben-with-bear.jpg)
+![Credit: Ben Tjepkes](img-ben-work.png)
 
 ## Research Item 1
 
