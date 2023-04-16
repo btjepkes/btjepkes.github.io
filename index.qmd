@@ -1,7 +1,6 @@
 ---
 title: "Introductions"
-description: Portfolio of B. Tjepkes -- Wildlife Ecologist & Geospatial Practitioner
-title-block-banner: rgba(0, 0, 0, 0.4)
+description: Part of the Portfolio of B. Tjepkes
 image: img-ben-with-bear.jpg
 abstract: Hello, my name is Ben Tjepkes and this is my professional portfolio and technical blog site showcasing my work in ecology and geospatial.
 abstract-title: ""

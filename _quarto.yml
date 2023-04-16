@@ -4,7 +4,6 @@ project:
 
 website:
   title: "B.Tjepkes"
-  page-navigation: true
   search:
     location: navbar
     type: textbox
@@ -45,6 +44,7 @@ website:
             
   page-footer:
     left: "Proudly made by B. Tjepkes.<br>Licensed under CC-BY." 
+    background: rgb(7,54,66)
     right: 
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/
@@ -61,6 +61,8 @@ website:
   
   sidebar:
       style: "floating"
+      background: rgb(0,26,32)
+      collapse-level: 1
       contents:
       - section: "Navigation"      
       - section: "My Recent Projects"
@@ -92,4 +94,9 @@ format:
     toc: true
     smooth-scroll: true
     number-sections: false
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 2.5rem
 

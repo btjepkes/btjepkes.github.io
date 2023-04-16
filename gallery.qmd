@@ -1,7 +1,6 @@
 ---
 title: "Project Gallery"
-description: Portfolio of B. Tjepkes -- Wildlife Ecologist & Geospatial Practitioner
-title-block-banner: rgba(0, 0, 0, 0.4)
+description: Created by B. Tjepkes -- Wildlife Ecologist & Geospatial Practitioner
 image: img-ben-with-bear.jpg
 abstract: Peruse my creative creations --- including my maps, data visualiztions, data reports, nature photography, and blog writings.
 abstract-title: ""

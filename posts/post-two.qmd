@@ -3,11 +3,10 @@ title: "Sample Blog Post 2"
 description: "Post description"
 author: "Benjamin Tjepkes"
 date: "4/16/2023"
+abstract: This is a test abstract for the sample blog post two.
+abstract-title: ""
 categories:
   - Testing Also
-image: img-computer.png
-image-height: 100%
-image-width: 100%
 ---
 
 ## This is an H2
