@@ -5,4 +5,9 @@ author: "Benjamin Tjepkes"
 date: "4/16/2023"
 categories:
   - Testing Also
+image: img-computer.png
+image-height: 100%
+image-width: 100%
 ---
+
+## This is an H2

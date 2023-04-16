@@ -151,7 +151,7 @@
     "href": "posts.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Sample Blog Post\n\n\n\nTesting\n\n\n\nPost description\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nSample Blog Post 2\n\n\n\nTesting Also\n\n\n\nPost description\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Sample Blog Post\n\n\n\nTesting\n\n\n\nPost description\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSample Blog Post 2\n\n\n\nTesting Also\n\n\n\nPost description\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
@@ -208,5 +208,19 @@
     "title": "Links & Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
+  },
+  {
+    "objectID": "posts/post-two.html",
+    "href": "posts/post-two.html",
+    "title": "Sample Blog Post 2",
+    "section": "",
+    "text": "This is an image of a computer."
+  },
+  {
+    "objectID": "posts/post-two.html#this-is-an-h2",
+    "href": "posts/post-two.html#this-is-an-h2",
+    "title": "Sample Blog Post 2",
+    "section": "This is an H2",
+    "text": "This is an H2"
   }
 ]

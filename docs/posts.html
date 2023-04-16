@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -320,6 +320,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="g-col-1" data-index="0" data-categories="Testing" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1681671615376" data-listing-reading-time-sort="0.005">
 <a href="./posts/post-one.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<div class="card-img-bg" style="height: 150px;">
+&nbsp;
+</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Sample Blog Post
@@ -344,9 +347,12 @@ Apr 16, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Testing Also" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1681672277299" data-listing-reading-time-sort="0.005">
+<div class="g-col-1" data-index="1" data-categories="Testing Also" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1681678214499" data-listing-reading-time-sort="0.005">
 <a href="./posts/post-two.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/img-computer.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Sample Blog Post 2

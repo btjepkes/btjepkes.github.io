@@ -28,7 +28,7 @@ Here are some of my favorite programs and software that I use almost every day:
 
 ## Data Viz and Reports
 
-This will be data visualizations and report examples.
+Coming soon!
 
 
 ## GIS and Mapping
