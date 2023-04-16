@@ -34,7 +34,9 @@ My professional interests are at the intersection of geospatial and ecological s
 
 ::::
 
-## Education, Formal
+## Education
+
+### Formal Learning
 
 My educational background is primarily in **wildlife conservation science** along with **geographic information systems**. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.
 
@@ -42,11 +44,17 @@ My educational background is primarily in **wildlife conservation science** alon
 
 - **BS, Wildlife Ecology** | University of Wisconsin-Stevens Point | May 2019
 
-## Education, Continued
+### Continued Learning
 
 I pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software.
 
-## Experience, Post-Degree
+- Esri MOOC (Massive Open Online Courses), including Spatial Data Science and Cartography.
+
+- LinkedIn Learning, including a variety of modules on data science, coding in R, and creating maps pragmatically.
+
+## Work Experience
+
+### Post-Degree
 
 Since obtaining my degree, I have held a variety of roles within the conservation career space.
 
@@ -56,13 +64,23 @@ Since obtaining my degree, I have held a variety of roles within the conservatio
 
 - **Biological Science Technician** | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19--10/19
 
-## Experience, Pre-Degree
+### Pre-Degree
 
 While in college, I gained high-quality research and management experience.
 
 - **Ungulate Ecology Student Teaching Assistant** | UWSP | 01/19--05/19
 
 - **Student Project Assistant** | Wisconsin Center for Wildlife | 12/17--05/19
+
+## Professional Organizations
+
+### The Wildlife Society
+
+The Wildlife Society (TWS) has been my primary professional organization since my freshman year of college. I have held several leadership roles within TWS during this time.
+
+### Society for Conservation GIS
+
+The Society for Conservation GIS (SCGIS) is a relatively new addition to my professional involvement.
 
 ## How To Contact Me
 

@@ -88,7 +88,7 @@
     "href": "gallery.html#data-viz-and-reports",
     "title": "Project Gallery",
     "section": "Data Viz and Reports",
-    "text": "Data Viz and Reports\nThis will be data visualizations and report examples."
+    "text": "Data Viz and Reports\nComing soon!"
   },
   {
     "objectID": "gallery.html#gis-and-mapping",
@@ -222,5 +222,54 @@
     "title": "Sample Blog Post 2",
     "section": "This is an H2",
     "text": "This is an H2"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\nFormal Learning\nMy educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019\n\n\n\nContinued Learning\nI pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software.\n\nEsri MOOC (Massive Open Online Courses), including Spatial Data Science and Cartography.\nLinkedIn Learning, including a variety of modules on data science, coding in R, and creating maps pragmatically."
+  },
+  {
+    "objectID": "about.html#work-experience",
+    "href": "about.html#work-experience",
+    "title": "About Me",
+    "section": "Work Experience",
+    "text": "Work Experience\n\nPost-Degree\nSince obtaining my degree, I have held a variety of roles within the conservation career space.\n\nAssistant Wildlife Diversity Coordinator | MO Department of Conservation | 08/22–Present\nAssistant Natural History Biologist | MO Department of Conservation | 10/19–08/22\nBiological Science Technician | Agassiz NWR, U.S. Fish and Wildlife Service | 05/19–10/19\n\n\n\nPre-Degree\nWhile in college, I gained high-quality research and management experience.\n\nUngulate Ecology Student Teaching Assistant | UWSP | 01/19–05/19\nStudent Project Assistant | Wisconsin Center for Wildlife | 12/17–05/19"
+  },
+  {
+    "objectID": "about.html#professional-organizations",
+    "href": "about.html#professional-organizations",
+    "title": "About Me",
+    "section": "Professional Organizations",
+    "text": "Professional Organizations\n\nThe Wildlife Society\nThe Wildlife Society (TWS) has been my primary professional organization since my freshman year of college. I have held several leadership roles within TWS during this time.\n\n\nSociety for Conservation GIS\nThe Society for Conservation GIS (SCGIS) is a relatively new addition to my professional involvement."
+  },
+  {
+    "objectID": "research.html#bald-eagle-nest-site-selection",
+    "href": "research.html#bald-eagle-nest-site-selection",
+    "title": "My Research",
+    "section": "Bald Eagle Nest-Site Selection",
+    "text": "Bald Eagle Nest-Site Selection\nMore information coming soon!"
+  },
+  {
+    "objectID": "research.html#small-mammal-response-to-prescribed-fire",
+    "href": "research.html#small-mammal-response-to-prescribed-fire",
+    "title": "My Research",
+    "section": "Small Mammal Response to Prescribed Fire",
+    "text": "Small Mammal Response to Prescribed Fire\nMore information coming soon!"
+  },
+  {
+    "objectID": "research.html#raccoon-habitat-use-and-selection",
+    "href": "research.html#raccoon-habitat-use-and-selection",
+    "title": "My Research",
+    "section": "Raccoon Habitat-Use and Selection",
+    "text": "Raccoon Habitat-Use and Selection\nMore information coming soon!"
+  },
+  {
+    "objectID": "research.html#ruffed-grouse-drumming-log-selection",
+    "href": "research.html#ruffed-grouse-drumming-log-selection",
+    "title": "My Research",
+    "section": "Ruffed Grouse Drumming Log Selection",
+    "text": "Ruffed Grouse Drumming Log Selection\nMore information coming soon!"
   }
 ]
