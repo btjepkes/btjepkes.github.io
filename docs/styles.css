@@ -113,7 +113,7 @@ nav .nav-item.compact .nav-link {
 }
 
 .aa-DetachedOverlay {
-  background-color: rgba(79, 99, 119, 0.77);
+  background-color: #1f414f;
   backdrop-filter: blur(10px);
   position: fixed;
   left: 0;
