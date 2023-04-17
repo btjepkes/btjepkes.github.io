@@ -1,43 +1,26 @@
 ---
-title: "Introductions"
-image: img-ben-with-bear.jpg
+title: "Benjamin Tjepkes, BSc."
 abstract: Hello, my name is Ben Tjepkes and this is my professional portfolio and technical blog site showcasing my work in ecology and geospatial.
 abstract-title: ""
+about:
+  template: solana
+  image: img-ben-with-bear.jpg
+  image-shape: round
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/BTjepkes
+    - icon: github
+      text: Github
+      href: https://github.com/btjepkes
+    - icon: instagram
+      text: Instagram
+      href: https://instagram.com/ben.tjepkes
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/benjamintjepkes/ 
 ---
 
-
-![Credit: Ben Tjepkes](img-ben-with-bear.jpg)
-
-
-## My Career
 I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing natural resource conservation. My [work](gallery.qmd) focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
 
-I currently work as the **Assistant Wildlife Diversity Coordinator** for the Missouri Department of Conservation, where my primary duties relate to the implementation and data reporting of the [Missouri Bat Habitat Conservation Plan](https://research.mdc.mo.gov/project/missouri-bat-habitat-conservation-plan).
-
-## My Education
-
-I hold a Bachelors degree in Wildlife Ecology and Management from the University of Wisconsin--Stevens Point, where I also minored in Geographic Information Systems & Spatial Analysis.
-
-I will be starting grad school at the University of Missouri--Columbia in fall 2023. Please reach out if you would like to collaborate on my thesis project or other ancillary work.
-
-
-## My Highlights
-
-In my 7+ years of progressive experience in conservation, geospatial, and environmental science, I have acquired a diverse range of expertise across multiple disciplines, which includes the following competencies.
-
-- Demonstrated experience with desktop, web, and mobile GIS software.
-
-- Working knowledge of R to perform statistical analyses, data wrangling, and data visualization.
-
-- Front-end web development experience using HTML and CSS coding languages.
-
-- Proficient in managing large datasets using standardized software and methods.
-
-- Skillful in cartographic design using open source and proprietary mapping applications.
-
-- Adept at using R Markdown and Quarto for reproducible reporting.
-
-
-## Exploring My Portfolio
-
-For the last several years, I have been expanding my experience with cartography, data visualization, and more. Whether for work or play, this has always been an area of excitement for me. The melding of art and science is a true passion of mine. [Explore my entire gallery.](gallery.qmd)
+[Learn More About Me &rarr;](about.qmd)

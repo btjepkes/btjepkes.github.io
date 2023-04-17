@@ -31,6 +31,24 @@ My professional interests are at the intersection of geospatial and ecological s
 
 ::::
 
+## My Highlights
+
+In my 7+ years of progressive experience in conservation, geospatial, and environmental science, I have acquired a diverse range of expertise across multiple disciplines, which includes the following competencies.
+
+- Demonstrated experience with desktop, web, and mobile GIS software.
+
+- Working knowledge of R to perform statistical analyses, data wrangling, and data visualization.
+
+- Front-end web development experience using HTML and CSS coding languages.
+
+- Proficient in managing large datasets using standardized software and methods.
+
+- Skillful in cartographic design using open source and proprietary mapping applications.
+
+- Adept at using R Markdown and Quarto for reproducible reporting.
+
+
+
 ## Education
 
 ### Formal Learning

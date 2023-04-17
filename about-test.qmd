@@ -1,29 +1,26 @@
 ---
-title: "About - Ben Tjepkes"
+title: "Benjamin Tjepkes, BSc."
+abstract: Hello, my name is Ben Tjepkes and this is my professional portfolio and technical blog site showcasing my work in ecology and geospatial.
+abstract-title: ""
 about:
-  template: jolla
+  template: solana
   image: img-ben-with-bear.jpg
+  image-shape: round
   links:
     - icon: twitter
-      text: twitter
+      text: Twitter
       href: https://twitter.com
     - icon: github
       text: Github
       href: https://github.com
+    - icon: instagram
+      text: Instagram
+      href: https://instagram.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com  
 ---
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending  time unicycling and playing with her pet iguana.
+I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing natural resource conservation. My [work](gallery.qmd) focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
 
-## Education
-
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
-
-Macalester College | St. Paul MA
-B.A in Economics | Sept 2007 - June 2011
-
-## Experience
-
-Wengo Analytics | Head Data Scientist | April 2018 - present
-
-GeoScynce | Chief Analyst | Spet 2012 - April 2018
+[Learn More About Me &rarr;](about.qmd)
