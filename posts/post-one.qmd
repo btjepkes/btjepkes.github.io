@@ -1,8 +1,15 @@
 ---
-title: "Sample Blog Post"
-description: "Post description"
+title: "Creating Wonderful Thematic Maps Using the `tmap` Package in R"
 author: "Benjamin Tjepkes"
 date: "4/16/2023"
+abstract: There are several R packages for map creation, but `tmap` allows you to easily develop a thematic map in minutes.
+abstract-title: ""
 categories:
   - Testing
+  - R
+  - Cartography
 ---
+
+## Indroduction
+
+## The `tmap` Package

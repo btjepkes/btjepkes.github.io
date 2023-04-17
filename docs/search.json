@@ -151,7 +151,7 @@
     "href": "posts.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Sample Blog Post\n\n\n\nTesting\n\n\n\nPost description\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Parameterized Reports in R\n\n\n\nR\n\n\nQuarto\n\n\nData Reporting\n\n\n\nIf you’ve ever found yourself manually updating the same report with different inputs over and over again, parameterized reports in R can help.\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Creating Wonderful Thematic Maps Using the tmap Package in R\n\n\n\nTesting\n\n\nR\n\n\nCartography\n\n\n\nThere are several R packages for map creation, but tmap allows you to easily develop a thematic map in minutes.\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Parameterized Reports in R\n\n\n\nR\n\n\nQuarto\n\n\nData Reporting\n\n\n\nIf you’ve ever found yourself manually updating the same report with different inputs over and over again, parameterized reports in R can help.\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
@@ -271,5 +271,12 @@
     "title": "My Research",
     "section": "Ruffed Grouse Drumming Log Selection",
     "text": "Ruffed Grouse Drumming Log Selection\nMore information coming soon!"
+  },
+  {
+    "objectID": "posts/post-one.html#the-tmap-package",
+    "href": "posts/post-one.html#the-tmap-package",
+    "title": "Creating Wonderful Thematic Maps Using the tmap Package in R",
+    "section": "The tmap Package",
+    "text": "The tmap Package"
   }
 ]
