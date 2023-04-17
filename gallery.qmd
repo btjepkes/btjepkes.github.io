@@ -1,7 +1,5 @@
 ---
 title: "Project Gallery"
-description: Created by B. Tjepkes -- Wildlife Ecologist & Geospatial Practitioner
-image: img-ben-with-bear.jpg
 abstract: Peruse my creative creations --- including my maps, data visualiztions, data reports, nature photography, and blog writings.
 abstract-title: ""
 ---

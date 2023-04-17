@@ -1,12 +1,12 @@
 ---
 title: "Sample Blog Post 2"
-description: "Post description"
 author: "Benjamin Tjepkes"
 date: "4/16/2023"
-abstract: This is a test abstract for the sample blog post two.
+abstract: This is the testing abstract content.
 abstract-title: ""
 categories:
   - Testing Also
+  - Testing
 ---
 
 ## This is an H2

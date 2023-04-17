@@ -23,7 +23,7 @@ website:
       - href: research.qmd
         text: Research        
       - href: resources.qmd
-        text: Links & Resources
+        text: Resources
       - href: posts.qmd
         text: Blog      
 
@@ -65,7 +65,7 @@ website:
       collapse-level: 1
       contents:
       - section: "Navigation"      
-      - section: "My Recent Projects"
+      - section: "Recent Projects"
         contents:
           - text: "Data Viz & Reports"
             href: gallery.qmd#data-viz-and-reports
@@ -73,7 +73,7 @@ website:
             href: gallery.qmd#gis-and-mapping
           - text: "Blogging & Writing"
             href: gallery.qmd#blog-writings
-      - section: "My Latest Research"
+      - section: "Latest Research"
         contents:
           - text: Data Viz & Reports
             href: gallery.qmd#data-viz-and-reports
@@ -81,11 +81,16 @@ website:
             href: gallery.qmd#gis-and-mapping
           - text: Blogging & Writing
             href: gallery.qmd#blog-writings
-      - section: "Links & Resources"
+      - section: "Favorite Resources"
         contents:
           - href: gallery.qmd
           - href: gallery.qmd
           - href: gallery.qmd
+      - section: "Top Blog Posts"
+        contents:
+          - href: gallery.qmd
+          - href: gallery.qmd
+          - href: gallery.qmd          
           
 format:
   html:
@@ -94,9 +99,4 @@ format:
     toc: true
     smooth-scroll: true
     number-sections: false
-    grid:
-      sidebar-width: 300px
-      body-width: 900px
-      margin-width: 300px
-      gutter-width: 2.5rem
 

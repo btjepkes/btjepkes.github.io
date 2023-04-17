@@ -1,15 +1,10 @@
 ---
 title: "Links & Resources"
-description: Portfolio of B. Tjepkes -- Wildlife Ecologist & Geospatial Practitioner
-title-block-banner: rgba(0, 0, 0, 0.4)
-image: img-ben-with-bear.jpg
-abstract: My favorite research and reference sources on ecological science, GIS, coding in R, and much more.
+abstract: These are my favorite research and reference sources on ecological science, GIS, coding in R, and much more.
 abstract-title: ""
 ---
 
-![Credit: Ben Tjepkes](img-ben-with-bear.jpg)
-
-I think everyone has certain websites and other reference material they always come back to. This page outlines those on my list --- feel free to bookmark these for your use as well. If you have suggestions on additions, please reach out.
+I think everyone has certain websites and other reference material they always come back to. This page outlines those on my list. Feel free to bookmark these for your use as well. If you have suggestions on additions, please reach out.
 
 ## Resources for **Wildlifers**
 ### Job Resources

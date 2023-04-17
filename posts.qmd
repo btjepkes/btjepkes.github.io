@@ -1,7 +1,5 @@
 ---
 title: "Blog Posts"
-description: Portfolio of B. Tjepkes -- Wildlife Ecologist & Geospatial Practitioner
-title-block-banner: rgba(0, 0, 0, 0.4)
 abstract: Explore my writings on ecological and geospatial data science, including R, Python, and GIS.
 abstract-title: ""
 listing:
