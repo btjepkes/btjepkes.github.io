@@ -1,12 +1,13 @@
 ---
-title: "Sample Blog Post 2"
+title: "Streamlining Your Reporting Workflow with Parameterized Reports in R"
 author: "Benjamin Tjepkes"
 date: "4/16/2023"
-abstract: This is the testing abstract content.
+abstract: If you've ever found yourself manually updating the same report with different inputs over and over again, parameterized reports in R can help.
 abstract-title: ""
 categories:
-  - Testing Also
-  - Testing
+  - R
+  - Quarto
+  - Data Reporting
 ---
 
 ## This is an H2
