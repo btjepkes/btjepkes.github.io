@@ -124,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./gallery.html" aria-current="page">
+    <a class="nav-link" href="./gallery.html">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -136,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html">
+    <a class="nav-link active" href="./posts.html" aria-current="page">
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -261,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">Top Blog Posts</a>
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">Top Blog Topics</a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -269,17 +269,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./gallery.html" class="sidebar-item-text sidebar-link">Project Gallery</a>
+  <a href="./posts.html#category=R" class="sidebar-item-text sidebar-link">R Programming</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./gallery.html" class="sidebar-item-text sidebar-link">Project Gallery</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./gallery.html" class="sidebar-item-text sidebar-link">Project Gallery</a>
+  <a href="./posts.html#category=Data Reporting" class="sidebar-item-text sidebar-link">Data Reporting</a>
   </div>
 </li>
       </ul>
@@ -290,7 +285,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Cartography">Cartography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Reporting">Data Reporting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Testing">Testing <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Cartography">Cartography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Reporting">Data Reporting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Testing">Testing <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -329,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Testing,R,Cartography" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1681701696779" data-listing-reading-time-sort="0.02">
+<div class="g-col-1" data-index="0" data-categories="Testing,R,Cartography" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1681872395106" data-listing-reading-time-sort="0.02">
 <a href="./posts/post-one.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -362,7 +357,7 @@ Apr 16, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="R,Quarto,Data Reporting" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1681699728892" data-listing-reading-time-sort="0.005">
+<div class="g-col-1" data-index="1" data-categories="R,Quarto,Data Reporting,Testing" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1681872350624" data-listing-reading-time-sort="0.02">
 <a href="./posts/post-two.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -378,6 +373,9 @@ Quarto
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('Data Reporting'); return false;">
 Data Reporting
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Testing'); return false;">
+Testing
 </div>
 </div>
 <div class="card-text listing-description">

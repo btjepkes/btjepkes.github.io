@@ -89,11 +89,12 @@ website:
             href: resources.qmd#resources-for-r-users
           - text: GIS & Spatial Analysis
             href: resources.qmd#resources-for-gis-users
-      - section: "Top Blog Posts"
+      - section: "Top Blog Topics"
         contents:
-          - href: gallery.qmd
-          - href: gallery.qmd
-          - href: gallery.qmd          
+          - text: R Programming
+            href: posts.qmd#category=R
+          - text: Data Reporting
+            href: posts.qmd#category=Data Reporting    
           
 format:
   html:

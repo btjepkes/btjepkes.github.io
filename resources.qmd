@@ -4,7 +4,7 @@ abstract: These are my favorite research and reference sources on ecological sci
 abstract-title: ""
 ---
 
-I think everyone has certain websites and other reference material they always come back to. This page outlines those on my list. Feel free to bookmark these for your use as well. If you have suggestions on additions, please reach out.
+Everyone has certain websites and other reference material they always come back to. This page outlines those on my list. Feel free to bookmark these for your use as well. If you have suggestions on additions, please reach out.
 
 ## Resources for **Wildlifers**
 ### Job Resources
