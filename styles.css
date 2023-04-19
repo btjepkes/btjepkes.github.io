@@ -32,6 +32,13 @@ ol, ul {
   color: #FFFFFF;
 }
 
+/* ICONS */
+
+div.quarto-about-solana .about-entity .about-links {
+  display: flex;
+  justify-content: left;
+  padding-bottom: 2.5em;
+}
 
 /* NAVIGATION */
 .navbar-brand span {

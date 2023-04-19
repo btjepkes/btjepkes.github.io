@@ -88,7 +88,7 @@
     "href": "gallery.html#blogging-writings",
     "title": "Project Gallery",
     "section": "Blogging & Writings",
-    "text": "Blogging & Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion, which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.\nHere are some of my recent blog posts:\n\nHow Scientists Use GIS to Study Wildlife\nHow to Become a Contemporary Naturalist\nJob Boards To Find An Impactful Career in Nature"
+    "text": "Blogging & Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion (TCC), which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.\nHere are some of my recent TCC blog posts:\n\nHow Scientists Use GIS to Study Wildlife\nHow to Become a Contemporary Naturalist\nJob Boards To Find An Impactful Career in Nature\n\nI also have several blog posts on the technical aspects of spatial analysis, data visualization, and reporting workflows. Explore these posts here."
   },
   {
     "objectID": "gallery.html#nature-photography",
@@ -102,7 +102,7 @@
     "href": "index.html",
     "title": "Benjamin Tjepkes, BSc.",
     "section": "",
-    "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nLearn More About Me →"
+    "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nAbout Me | My Gallery | Blog Posts"
   },
   {
     "objectID": "posts/post-one.html#the-tmap-package",

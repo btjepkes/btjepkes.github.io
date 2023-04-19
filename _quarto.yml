@@ -75,17 +75,20 @@ website:
             href: gallery.qmd#blog-writings
       - section: "Latest Research"
         contents:
-          - text: Data Viz & Reports
-            href: gallery.qmd#data-viz-and-reports
-          - text: GIS & Mapping
-            href: gallery.qmd#gis-and-mapping
-          - text: Blogging & Writing
-            href: gallery.qmd#blog-writings
+          - text: Bald Eagle Nesting
+            href: research.qmd#bald-eagle-nest-site-selection
+          - text: Small Mammals & Fire
+            href: research.qmd#small-mammal-response-to-prescribed-fire
+          - text: Raccoon Space-Use
+            href: research.qmd#raccoon-habitat-use-and-selection
       - section: "Favorite Resources"
         contents:
-          - href: gallery.qmd
-          - href: gallery.qmd
-          - href: gallery.qmd
+          - text: Wildlife Professionals
+            href: resources.qmd#resources-for-wildlifers
+          - text: R Programming
+            href: resources.qmd#resources-for-r-users
+          - text: GIS & Spatial Analysis
+            href: resources.qmd#resources-for-gis-users
       - section: "Top Blog Posts"
         contents:
           - href: gallery.qmd
