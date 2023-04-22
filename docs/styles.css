@@ -197,8 +197,33 @@ nav .nav-item.compact .nav-link {
   padding-top: 2rem;
 }
 
+/* ABOUT IMAGE on Index */
 .about-image {
-  border: solid #9fc490;
+  border: solid #9fc490 5px;
+  animation: pulsate 1s ease-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+
+.about-img::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 16em;
+  height: 16em;
+  border-radius: 50%;
+  border: solid 5px red;
 }
 
 /*.quarto-container {

@@ -14,13 +14,6 @@
     "text": "My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
   },
   {
-    "objectID": "about.html#my-interests",
-    "href": "about.html#my-interests",
-    "title": "About Me",
-    "section": "My Interests",
-    "text": "My Interests\nMy professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
-  },
-  {
     "objectID": "about.html#my-highlights",
     "href": "about.html#my-highlights",
     "title": "About Me",
@@ -63,13 +56,6 @@
     "text": "Like any good handy person, my toolbox contains a variety of tools that I can use for their intended purpose. Though I have hammered with a wrench in a pinch. I think it is quite exciting to experiment with software and programming packages to adapt my workflows through time.\nHere are some of my favorite programs and software that I use almost every day:\n\nGIS & Spatial Analysis — ArcGIS Pro, ArcGIS Online, and RStudio\nWriting & Reporting — R Markdown, Quarto, and MS Word\nData Management — RStudio, Excel, Access, and MySQL\nData Visualizations — RStudio and Jupyter Notebooks\nWeb Development — Notion, Super, VSCode, and WordPress"
   },
   {
-    "objectID": "gallery.html#the-tools-in-my-toolbox",
-    "href": "gallery.html#the-tools-in-my-toolbox",
-    "title": "Project Gallery",
-    "section": "The Tools in my Toolbox",
-    "text": "The Tools in my Toolbox\nLike any good handy person, my toolbox contains a variety of tools that I can use for their intended purpose. Though I have hammered with a wrench in a pinch. I think it is quite exciting to experiment with software and programming packages to adapt my workflows through time.\nHere are some of my favorite programs and software that I use almost every day:\n\nGIS & Spatial Analysis — ArcGIS Pro, ArcGIS Online, and RStudio\nWriting & Reporting — R Markdown, Quarto, and MS Word\nData Management — RStudio, Excel, Access, and MySQL\nData Visualizations — RStudio and Jupyter Notebooks\nWeb Development — Notion, Super, VSCode, and WordPress"
-  },
-  {
     "objectID": "gallery.html#data-viz-and-reports",
     "href": "gallery.html#data-viz-and-reports",
     "title": "Project Gallery",
@@ -102,7 +88,7 @@
     "href": "index.html",
     "title": "Benjamin Tjepkes, BSc.",
     "section": "",
-    "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nAbout Me | My Gallery | Blog Posts"
+    "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nAbout Me || My Gallery || Blog Posts"
   },
   {
     "objectID": "posts/post-one.html",
@@ -133,25 +119,11 @@
     "text": "More information coming soon!\n\n\n\nMore information coming soon!\n\n\n\nMore information coming soon!\n\n\n\nMore information coming soon!"
   },
   {
-    "objectID": "research.html#undergraduate-research",
-    "href": "research.html#undergraduate-research",
-    "title": "My Research",
-    "section": "Undergraduate Research",
-    "text": "Undergraduate Research\n\nBald Eagle Nest-Site Selection\nMore information coming soon!\n\n\nSmall Mammal Response to Prescribed Fire\nMore information coming soon!\n\n\nRaccoon Space-Use and Homeranges\nMore information coming soon!\n\n\nRuffed Grouse Drumming Log Selection\nMore information coming soon!"
-  },
-  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Links & Resources",
     "section": "",
     "text": "Blog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
-  },
-  {
-    "objectID": "resources.html#resources-for-wildlifers",
-    "href": "resources.html#resources-for-wildlifers",
-    "title": "Links & Resources",
-    "section": "Resources for Wildlifers",
-    "text": "Resources for Wildlifers\n\nJob Resources\n\nBlog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
   },
   {
     "objectID": "resources.html#resources-for-r-users",
