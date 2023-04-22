@@ -11,6 +11,6 @@ categories:
   - Testing
 ---
 
-## This is post is pending.
+## This post is pending.
 
 Please check back soon!

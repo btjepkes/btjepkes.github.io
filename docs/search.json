@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Credit: Ben Tjepkes"
+    "text": "My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
   },
   {
     "objectID": "about.html#my-interests",
@@ -32,7 +32,7 @@
     "href": "about.html#education",
     "title": "About Me",
     "section": "Education",
-    "text": "Education\n\nFormal Learning\nMy educational background is primarily in wildlife conservation science along with geographic information systems. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\nMA, Geography | University of Missouri-Columbia | Ant. May 2025\nBS, Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019\n\n\n\nContinued Learning\nI pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software.\n\nEsri MOOC (Massive Open Online Courses), including Spatial Data Science and Cartography.\nLinkedIn Learning, including a variety of modules on data science, coding in R, and creating maps pragmatically."
+    "text": "Education\n\nFormal Learning\nMy formal education is in wildlife conservation science and geographic information systems.\n\nM.A., Geography | University of Missouri-Columbia | Ant. May 2025\nB.S., Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019\n\nMy college coursework expanded into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\n\nContinued Learning\nI pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software.\n\nEsri MOOC (Massive Open Online Courses), including Spatial Data Science and Cartography.\nLinkedIn Learning, including a variety of modules on data science, coding in R, and creating maps pragmatically."
   },
   {
     "objectID": "about.html#work-experience",
@@ -60,7 +60,7 @@
     "href": "gallery.html",
     "title": "Project Gallery",
     "section": "",
-    "text": "Credit: Open Source"
+    "text": "Like any good handy person, my toolbox contains a variety of tools that I can use for their intended purpose. Though I have hammered with a wrench in a pinch. I think it is quite exciting to experiment with software and programming packages to adapt my workflows through time.\nHere are some of my favorite programs and software that I use almost every day:\n\nGIS & Spatial Analysis — ArcGIS Pro, ArcGIS Online, and RStudio\nWriting & Reporting — R Markdown, Quarto, and MS Word\nData Management — RStudio, Excel, Access, and MySQL\nData Visualizations — RStudio and Jupyter Notebooks\nWeb Development — Notion, Super, VSCode, and WordPress"
   },
   {
     "objectID": "gallery.html#the-tools-in-my-toolbox",
@@ -130,7 +130,7 @@
     "href": "research.html",
     "title": "My Research",
     "section": "",
-    "text": "Credit: Ben Tjepkes"
+    "text": "More information coming soon!\n\n\n\nMore information coming soon!\n\n\n\nMore information coming soon!\n\n\n\nMore information coming soon!"
   },
   {
     "objectID": "research.html#undergraduate-research",
@@ -144,7 +144,7 @@
     "href": "resources.html",
     "title": "Links & Resources",
     "section": "",
-    "text": "Everyone has certain websites and other reference material they always come back to. This page outlines those on my list. Feel free to bookmark these for your use as well. If you have suggestions on additions, please reach out."
+    "text": "Blog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
   },
   {
     "objectID": "resources.html#resources-for-wildlifers",
@@ -158,7 +158,7 @@
     "href": "resources.html#resources-for-r-users",
     "title": "Links & Resources",
     "section": "Resources for R Users",
-    "text": "Resources for R Users\n\nLearning R and RStudio\nComing Soon!\n\n\nReproducible Reporting\n\nWebsite ~ Quarto from Posit\n\n\n\nMapping and Spatial Data\n\nWebsite ~ RSpatial: Spatial Data Science in R"
+    "text": "Resources for R Users\n\nLearning R and RStudio\n\n\nStatistics in R\n\nPDF ~ An R Companion for the Handbook of Biological Statistics\n\n\n\nReproducible Reporting\n\nWebsite ~ Quarto from Posit\n\n\n\nMapping and Spatial Data\n\nWebsite ~ RSpatial: Spatial Data Science in R"
   },
   {
     "objectID": "resources.html#resources-for-gis-users",

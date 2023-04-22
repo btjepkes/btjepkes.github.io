@@ -4,8 +4,6 @@ abstract: Peruse my creative creations --- including my maps, data visualiztions
 abstract-title: ""
 ---
 
-![Credit: Open Source](img-data-viz.jpg)
-
 ## The Tools in my Toolbox
 
 Like any good handy person, my toolbox contains a variety of tools that I can use for their intended purpose. *Though I have hammered with a wrench in a pinch.* I think it is quite exciting to experiment with software and programming packages to adapt my workflows through time. 

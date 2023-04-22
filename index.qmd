@@ -23,4 +23,4 @@ about:
 
 I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
 
-[About Me](about.qmd) | [My Gallery](gallery.qmd) | [Blog Posts](posts.qmd)
+[About Me](about.qmd)  |  [My Gallery](gallery.qmd)  |  [Blog Posts](posts.qmd)

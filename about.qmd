@@ -4,9 +4,6 @@ abstract: I work as a wildlife ecologist and geospatial practitioner to find sol
 abstract-title: ""
 ---
 
-
-![Credit: Ben Tjepkes](img-ben-work.png)
-
 ## My Interests
 
 My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.
@@ -53,12 +50,14 @@ In my 7+ years of progressive experience in conservation, geospatial, and enviro
 
 ### Formal Learning
 
-My educational background is primarily in **wildlife conservation science** along with **geographic information systems**. My college coursework spread into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.
+My formal education is in wildlife conservation science and geographic information systems.
 
-- **MA, Geography** | University of Missouri-Columbia | Ant. May 2025
+- **M.A., Geography** | University of Missouri-Columbia | Ant. May 2025
 
-- **BS, Wildlife Ecology** | University of Wisconsin-Stevens Point | May 2019
+- **B.S., Wildlife Ecology** | University of Wisconsin-Stevens Point | May 2019
 
+My college coursework expanded into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.
+ 
 ### Continued Learning
 
 I pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software.

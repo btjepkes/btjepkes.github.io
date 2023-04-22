@@ -4,8 +4,6 @@ abstract: These are my favorite research and reference sources on ecological sci
 abstract-title: ""
 ---
 
-Everyone has certain websites and other reference material they always come back to. This page outlines those on my list. Feel free to bookmark these for your use as well. If you have suggestions on additions, please reach out.
-
 ## Resources for **Wildlifers**
 ### Job Resources
 
@@ -17,7 +15,9 @@ Everyone has certain websites and other reference material they always come back
 
 ### Learning R and RStudio
 
-Coming Soon!
+### Statistics in R
+
+- [PDF ~ An R Companion for the Handbook of Biological Statistics](http://rcompanion.org/documents/RCompanionBioStatistics.pdf)
 
 ### Reproducible Reporting
 

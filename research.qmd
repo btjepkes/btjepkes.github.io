@@ -1,10 +1,8 @@
 ---
 title: "My Research"
-abstract: Focusing on spatial ecology, wildlife habitat-use, and geospatial for conservation.
+abstract: Focusing on spatial ecology, wildlife habitat-use, and geospatial data science for conservation.
 abstract-title: ""
 ---
-
-![Credit: Ben Tjepkes](img-ben-work.png)
 
 ## Undergraduate Research
 
