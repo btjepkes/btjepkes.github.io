@@ -105,11 +105,18 @@
     "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nAbout Me | My Gallery | Blog Posts"
   },
   {
-    "objectID": "posts/post-one.html#the-tmap-package",
-    "href": "posts/post-one.html#the-tmap-package",
+    "objectID": "posts/post-one.html",
+    "href": "posts/post-one.html",
     "title": "Creating Wonderful Thematic Maps Using the tmap Package in R",
-    "section": "The tmap Package",
-    "text": "The tmap Package"
+    "section": "",
+    "text": "Please check back soon!"
+  },
+  {
+    "objectID": "posts/post-two.html",
+    "href": "posts/post-two.html",
+    "title": "Streamlining Your Reporting Workflow with Parameterized Reports in R",
+    "section": "",
+    "text": "Please check back soon!"
   },
   {
     "objectID": "posts.html",
@@ -126,32 +133,11 @@
     "text": "Credit: Ben Tjepkes"
   },
   {
-    "objectID": "research.html#bald-eagle-nest-site-selection",
-    "href": "research.html#bald-eagle-nest-site-selection",
+    "objectID": "research.html#undergraduate-research",
+    "href": "research.html#undergraduate-research",
     "title": "My Research",
-    "section": "Bald Eagle Nest-Site Selection",
-    "text": "Bald Eagle Nest-Site Selection\nMore information coming soon!"
-  },
-  {
-    "objectID": "research.html#small-mammal-response-to-prescribed-fire",
-    "href": "research.html#small-mammal-response-to-prescribed-fire",
-    "title": "My Research",
-    "section": "Small Mammal Response to Prescribed Fire",
-    "text": "Small Mammal Response to Prescribed Fire\nMore information coming soon!"
-  },
-  {
-    "objectID": "research.html#raccoon-habitat-use-and-selection",
-    "href": "research.html#raccoon-habitat-use-and-selection",
-    "title": "My Research",
-    "section": "Raccoon Habitat-Use and Selection",
-    "text": "Raccoon Habitat-Use and Selection\nMore information coming soon!"
-  },
-  {
-    "objectID": "research.html#ruffed-grouse-drumming-log-selection",
-    "href": "research.html#ruffed-grouse-drumming-log-selection",
-    "title": "My Research",
-    "section": "Ruffed Grouse Drumming Log Selection",
-    "text": "Ruffed Grouse Drumming Log Selection\nMore information coming soon!"
+    "section": "Undergraduate Research",
+    "text": "Undergraduate Research\n\nBald Eagle Nest-Site Selection\nMore information coming soon!\n\n\nSmall Mammal Response to Prescribed Fire\nMore information coming soon!\n\n\nRaccoon Space-Use and Homeranges\nMore information coming soon!\n\n\nRuffed Grouse Drumming Log Selection\nMore information coming soon!"
   },
   {
     "objectID": "resources.html",
@@ -180,19 +166,5 @@
     "title": "Links & Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
-  },
-  {
-    "objectID": "posts/post-two.html",
-    "href": "posts/post-two.html",
-    "title": "Streamlining Your Reporting Workflow with Parameterized Reports in R",
-    "section": "",
-    "text": "Please check back soon!"
-  },
-  {
-    "objectID": "posts/post-one.html",
-    "href": "posts/post-one.html",
-    "title": "Creating Wonderful Thematic Maps Using the tmap Package in R",
-    "section": "",
-    "text": "Please check back soon!"
   }
 ]

@@ -1,23 +1,25 @@
 ---
 title: "My Research"
-abstract: My research focuses on spatial ecology, wildlife habitat-use, and using geospatial tools for conservation.
+abstract: Focusing on spatial ecology, wildlife habitat-use, and geospatial for conservation.
 abstract-title: ""
 ---
 
 ![Credit: Ben Tjepkes](img-ben-work.png)
 
-## Bald Eagle Nest-Site Selection
+## Undergraduate Research
+
+### Bald Eagle Nest-Site Selection
 
 More information coming soon!
 
-## Small Mammal Response to Prescribed Fire
+### Small Mammal Response to Prescribed Fire
 
 More information coming soon!
 
-## Raccoon Habitat-Use and Selection
+### Raccoon Space-Use and Homeranges
 
 More information coming soon!
 
-## Ruffed Grouse Drumming Log Selection
+### Ruffed Grouse Drumming Log Selection
 
 More information coming soon!
