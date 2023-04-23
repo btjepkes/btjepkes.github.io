@@ -185,6 +185,12 @@ nav .nav-item.compact .nav-link {
   padding-top: 10px;
 }
 
+.quarto-grid-item .card-title {
+  color: whitesmoke;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
 /* FIGURES & IMAGES */
 
 .figure-caption {

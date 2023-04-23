@@ -94,7 +94,9 @@ website:
           - text: R Programming
             href: posts.qmd#category=R
           - text: Data Reporting
-            href: posts.qmd#category=Data Reporting    
+            href: posts.qmd#category=Data Reporting
+          - text: Maps & Cartography
+            href: posts.qmd#category=Cartography
           
 format:
   html:

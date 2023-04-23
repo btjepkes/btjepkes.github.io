@@ -98,6 +98,13 @@
     "text": "Please check back soon!\nlibrary(ggplot2)"
   },
   {
+    "objectID": "posts/post-three.html",
+    "href": "posts/post-three.html",
+    "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
+    "section": "",
+    "text": "Please check back soon!"
+  },
+  {
     "objectID": "posts/post-two.html",
     "href": "posts/post-two.html",
     "title": "Streamlining Your Reporting Workflow with Parameterized Reports in R",
@@ -109,7 +116,7 @@
     "href": "posts.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Creating Wonderful Thematic Maps Using the tmap Package in R\n\n\n\nTesting\n\n\nR\n\n\nCartography\n\n\n\nThere are several R packages for map creation, but tmap allows you to easily develop a thematic map in minutes.\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Parameterized Reports in R\n\n\n\nTesting\n\n\nR\n\n\nQuarto\n\n\nReporting\n\n\n\nIf you’ve ever found yourself manually updating the same report with different inputs over and over again, parameterized reports in R can help.\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\n\nTesting\n\n\nR\n\n\nForest\n\n\nCartography\n\n\n\nMapping data from Global Forest Watch on landscapes with intact forest large enough to retain all native biodiversity.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Creating Wonderful Thematic Maps Using the tmap Package in R\n\n\n\nTesting\n\n\nR\n\n\nCartography\n\n\n\nThere are several R packages for map creation, but tmap allows you to easily develop a thematic map in minutes.\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Parameterized Reports in R\n\n\n\nTesting\n\n\nR\n\n\nQuarto\n\n\nReporting\n\n\n\nIf you find yourself manually updating the same report with different inputs, parameterized reports in R can help.\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\n\nTesting\n\n\nR\n\n\nForest\n\n\nCartography\n\n\n\nMapping data from Global Forest Watch on North America’s landscapes with intact forest large enough to retain all native biodiversity.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
@@ -138,12 +145,5 @@
     "title": "Links & Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
-  },
-  {
-    "objectID": "posts/post-three.html",
-    "href": "posts/post-three.html",
-    "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
-    "section": "",
-    "text": "Please check back soon!"
   }
 ]
