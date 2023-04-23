@@ -13,3 +13,9 @@ categories:
 ## This post is pending.
 
 Please check back soon!
+
+
+```r
+library(ggplot2)
+```
+

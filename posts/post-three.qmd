@@ -1,0 +1,16 @@
+---
+title: "Mapping Changes in Unfragmented Forest Landscapes Using R"
+author: "Benjamin Tjepkes"
+date: "4/22/2023"
+abstract: Mapping data from Global Forest Watch on landscapes with intact forest large enough to retain all native biodiversity.
+abstract-title: ""
+categories:
+  - Testing
+  - R
+  - Forest
+  - Cartography
+---
+
+## This post is pending.
+
+Please check back soon!

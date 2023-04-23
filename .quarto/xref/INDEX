@@ -34,5 +34,8 @@
   },
   "posts/post-two.qmd": {
     "post-two.html": "e132dab3"
+  },
+  "posts/post-three.qmd": {
+    "post-three.html": "7f91d916"
   }
 }
