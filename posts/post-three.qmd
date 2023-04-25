@@ -1,8 +1,9 @@
 ---
 title: "Mapping Changes in Unfragmented Forest Landscapes Using R"
+subtitle: "Vizualizing Global Forest Watch data on intact forests in North America."
 author: "Benjamin Tjepkes"
 date: "4/22/2023"
-abstract: Mapping data from Global Forest Watch on North America's landscapes with intact forest large enough to retain all native biodiversity.
+abstract: In this post, we will demonstrate how to visualize expansive amounts of geographic data using R. We will use an example that involves mapping data from Global Forest Watch, which focuses on North America's landscapes that have intact forests large enough to preserve all native biodiversity.
 abstract-title: ""
 categories:
   - Testing

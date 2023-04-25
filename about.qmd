@@ -52,19 +52,19 @@ In my 7+ years of progressive experience in conservation, geospatial, and enviro
 
 My formal education is in wildlife conservation science and geographic information systems.
 
-- **M.A., Geography** | University of Missouri-Columbia | Ant. May 2025
+- **M.A., Geography** | University of Missouri-Columbia | Expect. May 2025
 
 - **B.S., Wildlife Ecology** | University of Wisconsin-Stevens Point | May 2019
 
-My college coursework expanded into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.
+My college coursework expanded into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows my work to be interdisciplinary.
  
 ### Continued Learning
 
 I pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software.
 
-- Esri MOOC (Massive Open Online Courses), including Spatial Data Science and Cartography.
+- **Esri MOOC** (Massive Open Online Courses), including Spatial Data Science and Cartography.
 
-- LinkedIn Learning, including a variety of modules on data science, coding in R, and creating maps pragmatically.
+- **LinkedIn Learning**, including a variety of modules on data science, coding in R, and creating maps programmatically.
 
 ## Work Experience
 
@@ -94,7 +94,7 @@ The Wildlife Society (TWS) has been my primary professional organization since m
 
 ### Society for Conservation GIS
 
-The Society for Conservation GIS (SCGIS) is a relatively new addition to my professional involvement.
+The Society for Conservation GIS (SCGIS) is a relatively new addition to my professional involvement. I am excited to learn new ways to volunteer with this wonderful organization.
 
 ## How To Contact Me
 

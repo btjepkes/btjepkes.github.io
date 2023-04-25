@@ -25,7 +25,7 @@
     "href": "about.html#education",
     "title": "About Me",
     "section": "Education",
-    "text": "Education\n\nFormal Learning\nMy formal education is in wildlife conservation science and geographic information systems.\n\nM.A., Geography | University of Missouri-Columbia | Ant. May 2025\nB.S., Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019\n\nMy college coursework expanded into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows me to be multidisciplinary.\n\n\nContinued Learning\nI pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software.\n\nEsri MOOC (Massive Open Online Courses), including Spatial Data Science and Cartography.\nLinkedIn Learning, including a variety of modules on data science, coding in R, and creating maps pragmatically."
+    "text": "Education\n\nFormal Learning\nMy formal education is in wildlife conservation science and geographic information systems.\n\nM.A., Geography | University of Missouri-Columbia | Expect. May 2025\nB.S., Wildlife Ecology | University of Wisconsin-Stevens Point | May 2019\n\nMy college coursework expanded into several adjacent topics (e.g., soil science, watershed management, statistics, and forestry) which allows my work to be interdisciplinary.\n\n\nContinued Learning\nI pride myself on being someone who seeks out continuous learning. Be it at my work or during my free time, I love learning new techniques, workflows, and software.\n\nEsri MOOC (Massive Open Online Courses), including Spatial Data Science and Cartography.\nLinkedIn Learning, including a variety of modules on data science, coding in R, and creating maps programmatically."
   },
   {
     "objectID": "about.html#work-experience",
@@ -39,7 +39,7 @@
     "href": "about.html#professional-organizations",
     "title": "About Me",
     "section": "Professional Organizations",
-    "text": "Professional Organizations\n\nThe Wildlife Society\nThe Wildlife Society (TWS) has been my primary professional organization since my freshman year of college. I have held several leadership roles within TWS during this time.\n\n\nSociety for Conservation GIS\nThe Society for Conservation GIS (SCGIS) is a relatively new addition to my professional involvement."
+    "text": "Professional Organizations\n\nThe Wildlife Society\nThe Wildlife Society (TWS) has been my primary professional organization since my freshman year of college. I have held several leadership roles within TWS during this time.\n\n\nSociety for Conservation GIS\nThe Society for Conservation GIS (SCGIS) is a relatively new addition to my professional involvement. I am excited to learn new ways to volunteer with this wonderful organization."
   },
   {
     "objectID": "about.html#how-to-contact-me",
@@ -95,7 +95,7 @@
     "href": "posts/post-one.html",
     "title": "Creating Wonderful Thematic Maps Using the tmap Package in R",
     "section": "",
-    "text": "Please check back soon!\nlibrary(ggplot2)"
+    "text": "Please check back soon!"
   },
   {
     "objectID": "posts/post-three.html",
@@ -107,7 +107,7 @@
   {
     "objectID": "posts/post-two.html",
     "href": "posts/post-two.html",
-    "title": "Streamlining Your Reporting Workflow with Parameterized Reports in R",
+    "title": "Streamlining Your Reporting Workflow with Quarto in R",
     "section": "",
     "text": "Please check back soon!"
   },
@@ -116,7 +116,7 @@
     "href": "posts.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Creating Wonderful Thematic Maps Using the tmap Package in R\n\n\n\nTesting\n\n\nR\n\n\nCartography\n\n\n\nThere are several R packages for map creation, but tmap allows you to easily develop a thematic map in minutes.\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Parameterized Reports in R\n\n\n\nTesting\n\n\nR\n\n\nQuarto\n\n\nReporting\n\n\n\nIf you find yourself manually updating the same report with different inputs, parameterized reports in R can help.\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\n\nTesting\n\n\nR\n\n\nForest\n\n\nCartography\n\n\n\nMapping data from Global Forest Watch on North America’s landscapes with intact forest large enough to retain all native biodiversity.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Creating Wonderful Thematic Maps Using the tmap Package in R\n\n\n\nTesting\n\n\nR\n\n\nCartography\n\n\n\nIn this post, we talk about making thematic maps in R, specifically with the tmap package. There are several R packages for map creation, but tmap allows you to easily…\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto in R\n\n\n\nTesting\n\n\nR\n\n\nQuarto\n\n\nReporting\n\n\n\nIn this post, we talk about how to make your reporting workflows WAY easier. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing…\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\n\nTesting\n\n\nR\n\n\nForest\n\n\nCartography\n\n\n\nIn this post, we will demonstrate how to visualize expansive amounts of geographic data using R. We will use an example that involves mapping data from Global Forest Watch…\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
@@ -137,7 +137,7 @@
     "href": "resources.html#resources-for-r-users",
     "title": "Links & Resources",
     "section": "Resources for R Users",
-    "text": "Resources for R Users\n\nLearning R and RStudio\n\n\nStatistics in R\n\nPDF ~ An R Companion for the Handbook of Biological Statistics\n\n\n\nReproducible Reporting\n\nWebsite ~ Quarto from Posit\n\n\n\nMapping and Spatial Data\n\nWebsite ~ RSpatial: Spatial Data Science in R"
+    "text": "Resources for R Users\n\nLearning R and RStudio\n\n\nStatistics in R\n\nPDF ~ An R Companion for the Handbook of Biological Statistics\n\n\n\nReproducible Reporting\n\nWebsite ~ Quarto from Posit\n\n\n\nMapping and Spatial Data\n\nWebsite ~ Spatial Data Science in R"
   },
   {
     "objectID": "resources.html#resources-for-gis-users",
