@@ -1,8 +1,9 @@
 ---
 title: "About Me"
-abstract: I work as a wildlife ecologist and geospatial practitioner to find solutions for researching and conserving our natural resources.
-abstract-title: ""
+subtitle: "My professional curriculum vitae."
 ---
+
+I work as a wildlife ecologist and geospatial practitioner to find solutions for researching and conserving our natural resources.
 
 ## My Interests
 

@@ -11,7 +11,14 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
+    "text": "I work as a wildlife ecologist and geospatial practitioner to find solutions for researching and conserving our natural resources."
+  },
+  {
+    "objectID": "about.html#my-interests",
+    "href": "about.html#my-interests",
+    "title": "About Me",
+    "section": "My Interests",
+    "text": "My Interests\nMy professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
   },
   {
     "objectID": "about.html#my-highlights",
@@ -60,7 +67,7 @@
     "href": "gallery.html#data-viz-and-reports",
     "title": "Project Gallery",
     "section": "Data Viz and Reports",
-    "text": "Data Viz and Reports\nComing soon!"
+    "text": "Data Viz and Reports\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes"
   },
   {
     "objectID": "gallery.html#gis-and-mapping",
@@ -74,21 +81,14 @@
     "href": "gallery.html#blogging-writings",
     "title": "Project Gallery",
     "section": "Blogging & Writings",
-    "text": "Blogging & Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion (TCC), which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.\nHere are some of my recent TCC blog posts:\n\nHow Scientists Use GIS to Study Wildlife\nHow to Become a Contemporary Naturalist\nJob Boards To Find An Impactful Career in Nature\n\nI also have several blog posts on the technical aspects of spatial analysis, data visualization, and reporting workflows. Explore these posts here."
-  },
-  {
-    "objectID": "gallery.html#nature-photography",
-    "href": "gallery.html#nature-photography",
-    "title": "Project Gallery",
-    "section": "Nature Photography",
-    "text": "Nature Photography\nComing soon!"
+    "text": "Blogging & Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion (TCC), which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.\nI also have several blog posts on the technical aspects of spatial analysis, data visualization, and reporting workflows. Explore these posts here."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Benjamin Tjepkes, BSc.",
     "section": "",
-    "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nAbout Me || My Gallery || Blog Posts"
+    "text": "Hello, my name is Ben Tjepkes and this is my professional portfolio and technical blog site showcasing my work in ecology and geospatial.\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nGraduation Cap About Me // Graduation Cap My Gallery // Graduation Cap Blog Posts"
   },
   {
     "objectID": "posts/post-one.html",

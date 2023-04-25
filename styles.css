@@ -11,8 +11,8 @@ h1 {
 }
 
 h2 {
-  color: #9fc490;
-  border-bottom: solid 3px #9fc490;
+  color: #9fc490; /* #9fc490*/
+  border-bottom: solid 2px #9fc490;
   margin-top: 3rem;
   font-weight: 700;
 }
@@ -141,6 +141,11 @@ nav .nav-item.compact .nav-link {
 
 /* HEADERS */
 
+.quarto-title-banner {
+  background-image: url(bg-pine-blue.png);
+}
+
+/*
 .quarto-title-block .description {
   color: #9fc490;
   font-size: 22px;
@@ -154,7 +159,7 @@ nav .nav-item.compact .nav-link {
   color: whitesmoke;
   line-height: 1.3;
   margin: 40px 0px;
-}
+} */
 
 .header-section-number {
   margin-right: 20px;
@@ -191,6 +196,12 @@ nav .nav-item.compact .nav-link {
   margin-bottom: 10px;
 }
 
+.quarto-category {
+  background: azure;
+  color: black;
+  opacity: 1.0;
+}
+
 /* FIGURES & IMAGES */
 
 .figure-caption {
@@ -210,8 +221,8 @@ nav .nav-item.compact .nav-link {
 
 /* ABOUT IMAGE on Index */
 .about-image {
-  border: solid #9fc490 5px;
-  animation: pulsate 1s ease-out;
+  border: solid #2aaa56 5px;
+  animation: pulsate 0.5s ease-out;
   animation-iteration-count: 1;
 }
 
