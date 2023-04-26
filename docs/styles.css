@@ -125,7 +125,7 @@ nav .nav-item.compact .nav-link {
 }
 
 .aa-DetachedOverlay {
-  background-color: #1f414f;
+  background-color: #1f414f44;
   backdrop-filter: blur(10px);
   position: fixed;
   left: 0;
@@ -212,8 +212,16 @@ nav .nav-item.compact .nav-link {
 }
 
 /* ABOUT IMAGE on Index */
+
+@media (max-width: 991.98px) {
+  .about-image {
+    margin-top: -50px;
+  }
+  
+}
+
 .about-image {
-  border: solid #2aaa56 5px;
+  border: solid #4c837d 5px;
   animation: pulsate 0.5s ease-out;
   animation-iteration-count: 1;
 }

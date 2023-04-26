@@ -1,6 +1,6 @@
 ---
 title: "Benjamin Tjepkes, BSc."
-subtitle: "Hello, my name is Ben Tjepkes and this is my professional portfolio and technical blog site showcasing my work in ecology and geospatial."
+subtitle: "Welcome to my professional portfolio showcasing my work in ecology and geospatial."
 about:
   template: solana
   image: img-ben-with-bear.jpg
