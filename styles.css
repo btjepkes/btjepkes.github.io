@@ -145,21 +145,13 @@ nav .nav-item.compact .nav-link {
   background-image: url(bg-pine-blue.png);
 }
 
-/*
-.quarto-title-block .description {
-  color: #9fc490;
-  font-size: 22px;
-  line-height: 1.1;
+.subtitle {
+  color: black;
   font-weight: 600;
+  line-height: 1.1;
   padding: 10px 0px;
 }
 
-.abstract {
-  font-size: 22px;
-  color: whitesmoke;
-  line-height: 1.3;
-  margin: 40px 0px;
-} */
 
 .header-section-number {
   margin-right: 20px;
@@ -237,16 +229,6 @@ nav .nav-item.compact .nav-link {
 }
 
 
-.about-img::before {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  width: 16em;
-  height: 16em;
-  border-radius: 50%;
-  border: solid 5px red;
-}
 
 /*.quarto-container {
   background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><defs><linearGradient id='grad'><stop offset='0%' stop-color='rgba(255,255,255,0.3)' /><stop offset='50%' stop-color='rgba(255,255,255,0.5)' /><stop offset='100%' stop-color='rgba(255,255,255,0.8)' /></linearGradient></defs><rect width='100%' height='100%' fill='url(%23grad)' /><g transform='translate(50,50)'><path d='M 50 0 L 150 0 L 200 87 L 150 174 L 50 174 L 0 87 Z' fill='rgba(255,255,255,0.1)' /></g><g transform='translate(100,125)'><path d='M 50 0 L 150 0 L 200 87 L 150 174 L 50 174 L 0 87 Z' fill='rgba(255,255,255,0.2)' /></g><g transform='translate(50,200)'><path d='M 50 0 L 150 0 L 200 87 L 150 174 L 50 174 L 0 87 Z' fill='rgba(255,255,255,0.3)' /></g><g transform='translate(-50,125)'><path d='M 50 0 L 150 0 L 200 87 L 150 174 L 50 174 L 0 87 Z' fill='rgba(255,255,255,0.4)' /></g><g transform='translate(0,62)'><path d='M 50 0 L 150 0 L 200 87 L 150 174 L 50 174 L 0 87 Z' fill='rgba(255,255,255,0.5)' /></g></svg>");

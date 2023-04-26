@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I work as a wildlife ecologist and geospatial practitioner to find solutions for researching and conserving our natural resources."
+    "text": "My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
   },
   {
     "objectID": "about.html#my-interests",
@@ -88,7 +88,7 @@
     "href": "index.html",
     "title": "Benjamin Tjepkes, BSc.",
     "section": "",
-    "text": "Hello, my name is Ben Tjepkes and this is my professional portfolio and technical blog site showcasing my work in ecology and geospatial.\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nGraduation Cap About Me // Graduation Cap My Gallery // Graduation Cap Blog Posts"
+    "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nThrough this website, you can discover how I leverage the power of data and geospatial technologies to conduct thorough analyses, produce compelling visualizations, and communicate critical information through reports, figures, and maps. I take great pride in my ability to bridge the gap between scientific research and practical conservation efforts.\nGraduation Cap About Me // Graduation Cap My Gallery // Graduation Cap Blog Posts"
   },
   {
     "objectID": "posts/post-one.html",
@@ -123,7 +123,7 @@
     "href": "research.html",
     "title": "My Research",
     "section": "",
-    "text": "More information coming soon!\n\n\n\nMore information coming soon!\n\n\n\nMore information coming soon!\n\n\n\nMore information coming soon!"
+    "text": "I will be starting my Masters Program in the Geography Department at the University of Missouri in fall 2023. More updates on my thesis project coming soon!"
   },
   {
     "objectID": "resources.html",
@@ -145,5 +145,12 @@
     "title": "Links & Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
+  },
+  {
+    "objectID": "research.html#undergraduate-research",
+    "href": "research.html#undergraduate-research",
+    "title": "My Research",
+    "section": "Undergraduate Research",
+    "text": "Undergraduate Research\n\nBald Eagle Nest-Site Selection\nMore information coming soon!\n\n\nSmall Mammal Response to Prescribed Fire\nMore information coming soon!\n\n\nRaccoon Space-Use and Homeranges\nMore information coming soon!\n\n\nRuffed Grouse Drumming Log Selection\nMore information coming soon!"
   }
 ]

@@ -1,9 +1,6 @@
 ---
 title: "Project Gallery"
-subtitle: "Maps, data viz, reports, and writings."
-subject: Projects
-abstract: Peruse my creative creations --- including my maps, data visualiztions, data reports, nature photography, and blog writings.
-abstract-title: ""
+subtitle: "Peruse my creative creations, including maps, data visualiztions, data reports, nature photography, and blog writings."
 ---
 
 ## The Tools in my Toolbox

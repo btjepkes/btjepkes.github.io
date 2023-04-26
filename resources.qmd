@@ -1,7 +1,6 @@
 ---
 title: "Links & Resources"
-abstract: These are my favorite research and reference sources on ecological science, GIS, coding in R, and much more.
-abstract-title: ""
+subtitle: My favorite references for ecological science, GIS, coding in R, and much more.
 ---
 
 ## Resources for **Wildlifers**

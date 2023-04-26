@@ -1,8 +1,11 @@
 ---
 title: "My Research"
-abstract: Focusing on spatial ecology, wildlife habitat-use, and geospatial data science for conservation.
-abstract-title: ""
+subtitle: Spatial ecology, wildlife habitat-use, and geospatial data science for conservation.
 ---
+
+## Graduate Research
+
+I will be starting my Masters Program in the Geography Department at the University of Missouri in fall 2023. More updates on my thesis project coming soon!
 
 ## Undergraduate Research
 
