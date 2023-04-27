@@ -3,6 +3,7 @@
     "listing": "/gallery.html",
     "items": [
       "/gallery/gallery-one.html",
+      "/gallery/gallery-three.html",
       "/gallery/gallery-two.html"
     ]
   },
@@ -13,6 +14,14 @@
       "/posts/post-three.html",
       "/posts/post-one.html",
       "/posts/post-two.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/about.html",
+      "/posts.html",
+      "/gallery.html"
     ]
   }
 ]

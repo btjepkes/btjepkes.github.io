@@ -65,28 +65,28 @@
   {
     "objectID": "gallery.html",
     "href": "gallery.html",
-    "title": "Project Gallery",
+    "title": "My Gallery",
     "section": "",
     "text": "Like any good handy person, my toolbox contains a variety of tools that I can use for their intended purpose. Though I have hammered with a wrench in a pinch. I think it is quite exciting to experiment with software and programming packages to adapt my workflows through time.\nHere are some of my favorite programs and software that I use almost every day:\n\nGIS & Spatial Analysis — ArcGIS Pro, ArcGIS Online, and RStudio\nWriting & Reporting — R Markdown, Quarto, and MS Word\nData Management — RStudio, Excel, Access, and MySQL\nData Visualizations — RStudio and Jupyter Notebooks\nWeb Development — Notion, Super, VSCode, and WordPress"
   },
   {
     "objectID": "gallery.html#data-viz-and-reports",
     "href": "gallery.html#data-viz-and-reports",
-    "title": "Project Gallery",
+    "title": "My Gallery",
     "section": "Data Viz and Reports",
-    "text": "Data Viz and Reports\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\n\n\nExample Gallery One\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nExample Gallery Two\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Data Viz and Reports\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\n\n \n\n\n\nExample Gallery One\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Gallery Three\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nExample Gallery Two\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery.html#gis-and-mapping",
     "href": "gallery.html#gis-and-mapping",
-    "title": "Project Gallery",
+    "title": "My Gallery",
     "section": "GIS and Mapping",
-    "text": "GIS and Mapping\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes"
+    "text": "GIS and Mapping\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\n\n \n\n\n\nExample Gallery One\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Gallery Three\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nExample Gallery Two\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery.html#blogging-writings",
     "href": "gallery.html#blogging-writings",
-    "title": "Project Gallery",
+    "title": "My Gallery",
     "section": "Blogging & Writings",
     "text": "Blogging & Writings\nSince around 2021, I have been running a personal blog called The Conservation Companion (TCC), which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.\nI also have several blog posts on the technical aspects of spatial analysis, data visualization, and reporting workflows. Explore these posts here."
   },
@@ -95,7 +95,7 @@
     "href": "index.html",
     "title": "Benjamin Tjepkes, BSc.",
     "section": "",
-    "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\n\nAbout Me →\nLearn about my education, experience, and interests.\n\n\nMy Gallery →\nExplore my creative works in cartography and data viz.\n\n\nBlog Posts →\nRead my posts on R, GIS, and Python."
+    "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\n\n\n\n\n\n\n\n \n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n \n\n\n\nMy Gallery\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-four.html",
@@ -166,5 +166,12 @@
     "title": "Links & Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
+  },
+  {
+    "objectID": "gallery/gallery-three.html",
+    "href": "gallery/gallery-three.html",
+    "title": "Example Gallery Three",
+    "section": "",
+    "text": "Please check back soon!"
   }
 ]

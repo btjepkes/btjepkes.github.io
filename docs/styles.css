@@ -142,7 +142,7 @@ nav .nav-item.compact .nav-link {
 
 .quarto-title-banner {
   background-image: url(bg-pine-blue.png);
-  background-color: #1bcffd;
+  background-color: #4eb6d0;
 }
 
 .title {
@@ -150,7 +150,7 @@ nav .nav-item.compact .nav-link {
 }
 
 .subtitle {
-  color: black;
+  color: #073642;
   font-weight: 600;
   line-height: 1.1;
   padding: 10px 0px;
@@ -240,7 +240,6 @@ nav .nav-item.compact .nav-link {
   }
 }
 
-@media (max-width: 991.98px) {
-.about-entity {
-  text-align: left !important;
-}}
+#listing-site-listings {
+  margin-top: 2em;
+}
