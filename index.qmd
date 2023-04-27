@@ -1,6 +1,6 @@
 ---
 title: "Benjamin Tjepkes, BSc."
-subtitle: "Welcome to my professional portfolio showcasing my work in ecology and geospatial."
+subtitle: "Welcome to my portfolio showcasing my work in ecology and geospatial."
 about:
   template: solana
   image: img-ben-with-bear.jpg
@@ -22,37 +22,16 @@ about:
 
 I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
 
-Through this website, you can discover how I leverage the power of open-source technologies to conduct thorough analyses, produce compelling visualizations, and communicate critical information through reports, figures, and maps. I take great pride in my ability to bridge the gap between scientific research and practical conservation efforts.
 
-:::: {.columns}
-
-::: {.column width="50%"}
-
-#### `r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")`  About Me
+#### [About Me &#8594;](about.qmd)
 
 Learn about my education, experience, and interests.
 
-#### `r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")`  About Me
+#### [My Gallery &#8594;](gallery.qmd)
 
-Learn about my education, experience, and interests.
+Explore my creative works in cartography and data viz.
 
+#### [Blog Posts &#8594;](posts.qmd)
 
-:::
-
-::: {.column width="50%"}
-
-#### `r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")`  About Me
-
-Learn about my education, experience, and interests.
-
-#### `r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")`  About Me
-
-Learn about my education, experience, and interests.
-
-:::
-
-::::
-
-
-[`r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` About Me](about.qmd) // [`r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` My Gallery](gallery.qmd) // [`r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` Blog Posts](posts.qmd)
+Read my posts on R, GIS, and Python.
 
