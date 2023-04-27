@@ -67,7 +67,7 @@
     "href": "gallery.html#data-viz-and-reports",
     "title": "Project Gallery",
     "section": "Data Viz and Reports",
-    "text": "Data Viz and Reports\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes\n\n\n\n\n\nCredit: Ben Tjepkes"
+    "text": "Data Viz and Reports\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\n\n\nExample Gallery One\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nExample Gallery Two\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery.html#gis-and-mapping",
@@ -116,7 +116,7 @@
     "href": "posts.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Creating Wonderful Thematic Maps Using the tmap Package in R\n\n\n\nTesting\n\n\nR\n\n\nCartography\n\n\n\nIn this post, we talk about making thematic maps in R, specifically with the tmap package. There are several R packages for map creation, but tmap allows you to easily…\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto in R\n\n\n\nTesting\n\n\nR\n\n\nQuarto\n\n\nReporting\n\n\n\nIn this post, we talk about how to make your reporting workflows WAY easier. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing…\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\n\nTesting\n\n\nR\n\n\nForest\n\n\nCartography\n\n\n\nIn this post, we will demonstrate how to visualize expansive amounts of geographic data using R. We will use an example that involves mapping data from Global Forest Watch…\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences in R\n\n\n\nTesting\n\n\nR\n\n\nWildlife\n\n\nCartography\n\n\n\nIn this blog post, we demonstrate how to use the rgbif package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and…\n\n\n\nBenjamin Tjepkes\n\n\nApr 26, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Creating an Interactive Heatmap of GBIF Occurrences in R\n\n\n\nTesting\n\n\nR\n\n\nWildlife\n\n\nCartography\n\n\n\nIn this blog post, we demonstrate how to use the rgbif package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and…\n\n\n\nBenjamin Tjepkes\n\n\nApr 26, 2023\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\n\nTesting\n\n\nR\n\n\nForest\n\n\nCartography\n\n\n\nIn this post, we will demonstrate how to visualize expansive amounts of geographic data using R. We will use an example that involves mapping data from Global Forest Watch…\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\n\n\n\nCreating Wonderful Thematic Maps Using the tmap Package in R\n\n\n\nTesting\n\n\nR\n\n\nCartography\n\n\n\nIn this post, we talk about making thematic maps in R, specifically with the tmap package. There are several R packages for map creation, but tmap allows you to easily…\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto in R\n\n\n\nTesting\n\n\nR\n\n\nQuarto\n\n\nReporting\n\n\n\nIn this post, we talk about how to make your reporting workflows WAY easier. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing…\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
@@ -159,5 +159,33 @@
     "title": "Creating an Interactive Heatmap of GBIF Occurrences in R",
     "section": "",
     "text": "Please check back soon!\n\n\ninstall.packages(\"rgbif\")   # for accessing GBIF data\ninstall.packages(\"leaflet\") # for mapping data\nlibrary(rgbif)\nlibrary(leaflet)\n\n\n\nwyoming <- name_backbone(\"Centrocercus urophasianus\",\n                          country = \"US\",\n                          hasCoordinate = TRUE,\n                          stateProvince = \"Wyoming\")\n\n\n\nwyoming_coords <- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n\nleaflet(wyoming_coords) %>% \n  addTiles() %>%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
+  },
+  {
+    "objectID": "about.html#connect-with-me",
+    "href": "about.html#connect-with-me",
+    "title": "About Me",
+    "section": "Connect with Me",
+    "text": "Connect with Me\nInterested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
+  },
+  {
+    "objectID": "about.html#connecting-with-me",
+    "href": "about.html#connecting-with-me",
+    "title": "About Me",
+    "section": "Connecting with Me",
+    "text": "Connecting with Me\nInterested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
+  },
+  {
+    "objectID": "gallery/gallery-one.html",
+    "href": "gallery/gallery-one.html",
+    "title": "Example Gallery One",
+    "section": "",
+    "text": "Please check back soon!"
+  },
+  {
+    "objectID": "gallery/gallery-two.html",
+    "href": "gallery/gallery-two.html",
+    "title": "Example Gallery Two",
+    "section": "",
+    "text": "Please check back soon!"
   }
 ]

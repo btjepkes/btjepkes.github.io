@@ -2,10 +2,17 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/post-one.html",
-      "/posts/post-two.html",
+      "/posts/post-four.html",
       "/posts/post-three.html",
-      "/posts/post-four.html"
+      "/posts/post-one.html",
+      "/posts/post-two.html"
+    ]
+  },
+  {
+    "listing": "/gallery.html",
+    "items": [
+      "/gallery/gallery-one.html",
+      "/gallery/gallery-two.html"
     ]
   }
 ]

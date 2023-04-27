@@ -1,6 +1,10 @@
 ---
 title: "Project Gallery"
-subtitle: "Peruse my creative creations, including maps, data visualiztions, data reports, nature photography, and blog writings."
+subtitle: "Peruse my creative creations -- maps, data visualiztions, reports, and writings."
+listing: 
+  id: gallery-all
+  contents: gallery
+  type: grid
 ---
 
 ## The Tools in my Toolbox
@@ -24,35 +28,8 @@ Here are some of my favorite programs and software that I use almost every day:
 
 The following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.
 
-:::: {.columns}
-
-::: {.column width="47.5%"}
-
-![Credit: Ben Tjepkes](img-map-1.jpg)
-
-![Credit: Ben Tjepkes](img-map-4.jpg)
-
-![Credit: Ben Tjepkes](img-map-5.jpg)
-
+::: {#gallery-all}
 :::
-
-::: {.column width="5%"}
-
-
-
-:::
-
-::: {.column width="47.5%"}
-
-![Credit: Ben Tjepkes](img-map-2.jpg)
-
-![Credit: Ben Tjepkes](img-map-3.jpg)
-
-![Credit: Ben Tjepkes](img-map-6.jpg)
-
-:::
-
-::::
 
 
 ## GIS and Mapping

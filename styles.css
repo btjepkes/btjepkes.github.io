@@ -19,7 +19,6 @@ h2 {
 
 h3 {
   color: whitesmoke;
-  font-weight: 600;
   margin-top: 2rem;
 }
 
@@ -143,6 +142,11 @@ nav .nav-item.compact .nav-link {
 
 .quarto-title-banner {
   background-image: url(bg-pine-blue.png);
+  
+}
+
+.title {
+  text-shadow: 4px 2px 3px #0000005c;
 }
 
 .subtitle {

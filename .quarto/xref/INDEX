@@ -40,5 +40,11 @@
   },
   "posts/post-four.qmd": {
     "post-four.html": "dc606f59"
+  },
+  "gallery/gallery-one.qmd": {
+    "gallery-one.html": "5234e51c"
+  },
+  "gallery/gallery-two.qmd": {
+    "gallery-two.html": "c4cced6b"
   }
 }

@@ -18,6 +18,9 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/benjamintjepkes/ 
+    - icon: link-45deg
+      text: All Links
+      href: resources.qmd
 ---
 
 I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
