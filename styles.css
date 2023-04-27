@@ -142,7 +142,7 @@ nav .nav-item.compact .nav-link {
 
 .quarto-title-banner {
   background-image: url(bg-pine-blue.png);
-  
+  background-color: #1bcffd;
 }
 
 .title {
@@ -239,3 +239,8 @@ nav .nav-item.compact .nav-link {
     transform: scale(1.0);
   }
 }
+
+@media (max-width: 991.98px) {
+.about-entity {
+  text-align: left !important;
+}}

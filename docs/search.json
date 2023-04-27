@@ -14,13 +14,6 @@
     "text": "My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
   },
   {
-    "objectID": "about.html#my-interests",
-    "href": "about.html#my-interests",
-    "title": "About Me",
-    "section": "My Interests",
-    "text": "My Interests\nMy professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\n\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\n\n\n\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
-  },
-  {
     "objectID": "about.html#my-highlights",
     "href": "about.html#my-highlights",
     "title": "About Me",
@@ -49,11 +42,25 @@
     "text": "Professional Organizations\n\nThe Wildlife Society\nThe Wildlife Society (TWS) has been my primary professional organization since my freshman year of college. I have held several leadership roles within TWS during this time.\n\n\nSociety for Conservation GIS\nThe Society for Conservation GIS (SCGIS) is a relatively new addition to my professional involvement. I am excited to learn new ways to volunteer with this wonderful organization."
   },
   {
-    "objectID": "about.html#how-to-contact-me",
-    "href": "about.html#how-to-contact-me",
+    "objectID": "about.html#connecting-with-me",
+    "href": "about.html#connecting-with-me",
     "title": "About Me",
-    "section": "How To Contact Me",
-    "text": "How To Contact Me\nInterested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
+    "section": "Connecting with Me",
+    "text": "Connecting with Me\nInterested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
+  },
+  {
+    "objectID": "gallery/gallery-one.html",
+    "href": "gallery/gallery-one.html",
+    "title": "Example Gallery One",
+    "section": "",
+    "text": "Please check back soon!"
+  },
+  {
+    "objectID": "gallery/gallery-two.html",
+    "href": "gallery/gallery-two.html",
+    "title": "Example Gallery Two",
+    "section": "",
+    "text": "Please check back soon!"
   },
   {
     "objectID": "gallery.html",
@@ -91,6 +98,13 @@
     "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\n\nAbout Me →\nLearn about my education, experience, and interests.\n\n\nMy Gallery →\nExplore my creative works in cartography and data viz.\n\n\nBlog Posts →\nRead my posts on R, GIS, and Python."
   },
   {
+    "objectID": "posts/post-four.html",
+    "href": "posts/post-four.html",
+    "title": "Creating an Interactive Heatmap of GBIF Occurrences in R",
+    "section": "",
+    "text": "Please check back soon!\n\n\ninstall.packages(\"rgbif\")   # for accessing GBIF data\ninstall.packages(\"leaflet\") # for mapping data\nlibrary(rgbif)\nlibrary(leaflet)\n\n\n\nwyoming <- name_backbone(\"Centrocercus urophasianus\",\n                          country = \"US\",\n                          hasCoordinate = TRUE,\n                          stateProvince = \"Wyoming\")\n\n\n\nwyoming_coords <- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n\nleaflet(wyoming_coords) %>% \n  addTiles() %>%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
+  },
+  {
     "objectID": "posts/post-one.html",
     "href": "posts/post-one.html",
     "title": "Creating Wonderful Thematic Maps Using the tmap Package in R",
@@ -126,6 +140,13 @@
     "text": "I will be starting my Masters Program in the Geography Department at the University of Missouri in fall 2023. More updates on my thesis project coming soon!"
   },
   {
+    "objectID": "research.html#undergraduate-research",
+    "href": "research.html#undergraduate-research",
+    "title": "My Research",
+    "section": "Undergraduate Research",
+    "text": "Undergraduate Research\n\nBald Eagle Nest-Site Selection\nMore information coming soon!\n\n\nSmall Mammal Response to Prescribed Fire\nMore information coming soon!\n\n\nRaccoon Space-Use and Homeranges\nMore information coming soon!\n\n\nRuffed Grouse Drumming Log Selection\nMore information coming soon!"
+  },
+  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Links & Resources",
@@ -145,47 +166,5 @@
     "title": "Links & Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
-  },
-  {
-    "objectID": "research.html#undergraduate-research",
-    "href": "research.html#undergraduate-research",
-    "title": "My Research",
-    "section": "Undergraduate Research",
-    "text": "Undergraduate Research\n\nBald Eagle Nest-Site Selection\nMore information coming soon!\n\n\nSmall Mammal Response to Prescribed Fire\nMore information coming soon!\n\n\nRaccoon Space-Use and Homeranges\nMore information coming soon!\n\n\nRuffed Grouse Drumming Log Selection\nMore information coming soon!"
-  },
-  {
-    "objectID": "posts/post-four.html",
-    "href": "posts/post-four.html",
-    "title": "Creating an Interactive Heatmap of GBIF Occurrences in R",
-    "section": "",
-    "text": "Please check back soon!\n\n\ninstall.packages(\"rgbif\")   # for accessing GBIF data\ninstall.packages(\"leaflet\") # for mapping data\nlibrary(rgbif)\nlibrary(leaflet)\n\n\n\nwyoming <- name_backbone(\"Centrocercus urophasianus\",\n                          country = \"US\",\n                          hasCoordinate = TRUE,\n                          stateProvince = \"Wyoming\")\n\n\n\nwyoming_coords <- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n\nleaflet(wyoming_coords) %>% \n  addTiles() %>%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
-  },
-  {
-    "objectID": "about.html#connect-with-me",
-    "href": "about.html#connect-with-me",
-    "title": "About Me",
-    "section": "Connect with Me",
-    "text": "Connect with Me\nInterested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
-  },
-  {
-    "objectID": "about.html#connecting-with-me",
-    "href": "about.html#connecting-with-me",
-    "title": "About Me",
-    "section": "Connecting with Me",
-    "text": "Connecting with Me\nInterested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
-  },
-  {
-    "objectID": "gallery/gallery-one.html",
-    "href": "gallery/gallery-one.html",
-    "title": "Example Gallery One",
-    "section": "",
-    "text": "Please check back soon!"
-  },
-  {
-    "objectID": "gallery/gallery-two.html",
-    "href": "gallery/gallery-two.html",
-    "title": "Example Gallery Two",
-    "section": "",
-    "text": "Please check back soon!"
   }
 ]
