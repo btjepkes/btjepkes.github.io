@@ -3,7 +3,7 @@ title: "Benjamin W. Tjepkes, BSc."
 subtitle: "A professional portfolio showcasing my work in ecology and geospatial."
 about:
   template: solana
-  image: img-ben-port-2.jpg
+  image: img-ben-portrait.jpg
   image-shape: round
   links:
     - icon: twitter
