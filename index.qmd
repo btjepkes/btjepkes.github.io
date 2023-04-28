@@ -27,10 +27,11 @@ listing:
     - "about.qmd"
     - "gallery.qmd"
     - "posts.qmd"
+    - "research.qmd"
+    - "resources.qmd"    
   type: grid
   fields: 
     - title
-    - image
 ---
 
 Hi, my name is Ben Tjepkes and I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
