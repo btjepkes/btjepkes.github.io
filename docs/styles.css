@@ -42,14 +42,23 @@ div.quarto-about-solana .about-entity .about-links {
 }
 
 /* NAVIGATION */
+
+.headroom-target, header.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+  transition: all 200ms linear;
+}
+
+
 .navbar-brand span {
   font-weight: 600;
-  color: #073642;
-  background: white;
-  padding:1px 12px;
+  color: white;
+  background: transparent;
+  padding:2px 12px;
   border-radius: 0.25rem;
   text-transform: uppercase;
   font-family: monaco, Monospace;
+  border: solid white 2px;
 }
 
 

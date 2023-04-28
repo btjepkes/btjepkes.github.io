@@ -2,9 +2,9 @@
   {
     "listing": "/gallery.html",
     "items": [
-      "/gallery/gallery-one.html",
       "/gallery/gallery-three.html",
-      "/gallery/gallery-two.html"
+      "/gallery/gallery-two.html",
+      "/gallery/gallery-map-one.html"
     ]
   },
   {

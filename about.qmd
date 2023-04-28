@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 subtitle: "I work as a wildlife ecologist and geospatial practitioner to find solutions for researching and conserving our natural resources."
-image: img-ben-with-bear.jpg
+image: bg-pinecone.jpg
 ---
 
 ## My Interests
