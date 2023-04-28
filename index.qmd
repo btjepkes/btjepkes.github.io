@@ -1,6 +1,6 @@
 ---
-title: "Benjamin Tjepkes, BSc."
-subtitle: "Welcome to my portfolio showcasing my work in ecology and geospatial."
+title: "Benjamin W. Tjepkes, BSc."
+subtitle: "A professional portfolio showcasing my work in ecology and geospatial."
 about:
   template: solana
   image: img-ben-with-bear.jpg
@@ -17,7 +17,7 @@ about:
       href: https://instagram.com/ben.tjepkes
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/benjamintjepkes/ 
+      href: https://www.linkedin.com/in/benjamintjepkes/
     - icon: link-45deg
       text: All Links
       href: resources.qmd
@@ -33,7 +33,7 @@ listing:
     - image
 ---
 
-I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
+Hi, my name is Ben Tjepkes and I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
 
 ::: {#site-listings}
 :::

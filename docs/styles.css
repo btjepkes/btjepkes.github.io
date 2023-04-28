@@ -1,8 +1,5 @@
 /* css styles */
 
-
-
-
 /* TYPOGRAPHY */
 
 h1 {
@@ -49,24 +46,12 @@ div.quarto-about-solana .about-entity .about-links {
   font-weight: 600;
   color: #073642;
   background: white;
-  padding: 4px 6px 4px 8px;
+  padding: 4px 12px;
+  border-radius: 0.25rem;
   text-transform: uppercase;
   font-family: monaco, Monospace;
-  font-size: 18px;
 }
 
-.navbar-brand::after {
-  content: "Portfolio";
-  font-weight: 600;
-  color: white;
-  background: #073642;
-  text-transform: uppercase;
-  font-family: monaco, Monospace;
-  font-size: 18px;
-  padding: 2px 8px 2px 8px;
-  border: solid white 2px;
-  margin: 0 0 0 -5px;
-}
 
 @media (max-width: 991.98px) {
 ul.navbar-nav:nth-child(2) {
@@ -142,7 +127,7 @@ nav .nav-item.compact .nav-link {
 
 .quarto-title-banner {
   background-image: url(bg-pine-blue.png);
-  background-color: #4eb6d0;
+  background-color: #9fc490;
 }
 
 .title {

@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "B.Tjepkes"
+  title: "B.W.Tjepkes"
   search:
     location: navbar
     type: textbox

@@ -8,20 +8,20 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/about.html",
+      "/posts.html",
+      "/gallery.html"
+    ]
+  },
+  {
     "listing": "/posts.html",
     "items": [
       "/posts/post-four.html",
       "/posts/post-three.html",
       "/posts/post-one.html",
       "/posts/post-two.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/about.html",
-      "/posts.html",
-      "/gallery.html"
     ]
   }
 ]

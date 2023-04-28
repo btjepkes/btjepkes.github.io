@@ -56,6 +56,13 @@
     "text": "Please check back soon!"
   },
   {
+    "objectID": "gallery/gallery-three.html",
+    "href": "gallery/gallery-three.html",
+    "title": "Example Gallery Three",
+    "section": "",
+    "text": "Please check back soon!"
+  },
+  {
     "objectID": "gallery/gallery-two.html",
     "href": "gallery/gallery-two.html",
     "title": "Example Gallery Two",
@@ -93,9 +100,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Benjamin Tjepkes, BSc.",
+    "title": "Benjamin W. Tjepkes, BSc.",
     "section": "",
-    "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\n\n\n\n\n\n\n\n \n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n \n\n\n\nMy Gallery\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Hi, my name is Ben Tjepkes and I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\n\n\n\n\n\n\n\n \n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n \n\n\n\nMy Gallery\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-four.html",
@@ -166,12 +173,5 @@
     "title": "Links & Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
-  },
-  {
-    "objectID": "gallery/gallery-three.html",
-    "href": "gallery/gallery-three.html",
-    "title": "Example Gallery Three",
-    "section": "",
-    "text": "Please check back soon!"
   }
 ]

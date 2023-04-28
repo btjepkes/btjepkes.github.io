@@ -1,6 +1,6 @@
 ---
 title: "Blog Posts"
-subtitle: Explore my writings on ecological and geospatial data science, including R, Python, and GIS.
+subtitle: Explore my writings on ecological and geospatial data science.
 listing:
   contents: posts
   type: grid
