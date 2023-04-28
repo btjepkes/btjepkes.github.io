@@ -46,7 +46,7 @@ div.quarto-about-solana .about-entity .about-links {
   font-weight: 600;
   color: #073642;
   background: white;
-  padding: 4px 12px;
+  padding:1px 12px;
   border-radius: 0.25rem;
   text-transform: uppercase;
   font-family: monaco, Monospace;
