@@ -49,27 +49,6 @@
     "text": "Connecting with Me\nInterested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
   },
   {
-    "objectID": "gallery/gallery-one.html",
-    "href": "gallery/gallery-one.html",
-    "title": "Example Gallery One",
-    "section": "",
-    "text": "Please check back soon!"
-  },
-  {
-    "objectID": "gallery/gallery-three.html",
-    "href": "gallery/gallery-three.html",
-    "title": "Example Gallery Three",
-    "section": "",
-    "text": "Please check back soon!"
-  },
-  {
-    "objectID": "gallery/gallery-two.html",
-    "href": "gallery/gallery-two.html",
-    "title": "Example Gallery Two",
-    "section": "",
-    "text": "Please check back soon!"
-  },
-  {
     "objectID": "gallery.html",
     "href": "gallery.html",
     "title": "My Gallery",
@@ -81,14 +60,14 @@
     "href": "gallery.html#data-viz-and-reports",
     "title": "My Gallery",
     "section": "Data Viz and Reports",
-    "text": "Data Viz and Reports\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\n\n\n\n\n\nExample Gallery Three\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nExample Gallery Two\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability\n\n\nThis was an assignment for one of my university GIS courses.\n\n\n\nBenjamin Tjepkes\n\n\nJan 1, 2019\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Data Viz and Reports\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\n\n\n\n\n\nExample Gallery Three\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Gallery Three\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Gallery Three\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Gallery Two\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability\n\n\nThis was an assignment for one of my university GIS courses.\n\n\n\nBenjamin Tjepkes\n\n\nJan 1, 2019\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery.html#gis-and-mapping",
     "href": "gallery.html#gis-and-mapping",
     "title": "My Gallery",
     "section": "GIS and Mapping",
-    "text": "GIS and Mapping\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\n\n\n\n\n\nExample Gallery Three\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nExample Gallery Two\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability\n\n\nThis was an assignment for one of my university GIS courses.\n\n\n\nBenjamin Tjepkes\n\n\nJan 1, 2019\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "GIS and Mapping\nThe following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.\n\n\n\n\n\n\n\n\n\n\nExample Gallery Three\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Gallery Three\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Gallery Three\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample Gallery Two\n\n\n\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability\n\n\nThis was an assignment for one of my university GIS courses.\n\n\n\nBenjamin Tjepkes\n\n\nJan 1, 2019\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery.html#blogging-writings",
@@ -102,7 +81,7 @@
     "href": "index.html",
     "title": "Benjamin W. Tjepkes, BSc.",
     "section": "",
-    "text": "Hi, my name is Ben Tjepkes and I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\n\n\n\n\n\n\n\nAbout Me\n\n\n\n\n\n\n\n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n\nLinks & Resources\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Hi, my name is Ben Tjepkes and I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\n\n\n\n\n\n\n\nAbout Me\n\n\n\n\n\n\n\n\n\n\nBlog Posts\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-four.html",
@@ -156,29 +135,22 @@
   {
     "objectID": "resources.html",
     "href": "resources.html",
-    "title": "Links & Resources",
+    "title": "Resources",
     "section": "",
     "text": "Blog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
   },
   {
     "objectID": "resources.html#resources-for-r-users",
     "href": "resources.html#resources-for-r-users",
-    "title": "Links & Resources",
+    "title": "Resources",
     "section": "Resources for R Users",
     "text": "Resources for R Users\n\nLearning R and RStudio\n\n\nStatistics in R\n\nPDF ~ An R Companion for the Handbook of Biological Statistics\n\n\n\nReproducible Reporting\n\nWebsite ~ Quarto from Posit\n\n\n\nMapping and Spatial Data\n\nWebsite ~ Spatial Data Science in R"
   },
   {
     "objectID": "resources.html#resources-for-gis-users",
     "href": "resources.html#resources-for-gis-users",
-    "title": "Links & Resources",
+    "title": "Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
-  },
-  {
-    "objectID": "gallery/gallery-map-one.html#this-post-is-pending.",
-    "href": "gallery/gallery-map-one.html#this-post-is-pending.",
-    "title": "Vineyard and Winery Location Suitability",
-    "section": "This post is pending.",
-    "text": "This post is pending.\nPlease check back soon!"
   }
 ]

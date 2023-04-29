@@ -52,5 +52,17 @@
   },
   "gallery/gallery-map-one.qmd": {
     "gallery-map-one.html": "bc5f438d"
+  },
+  "gallery/gallery-map-two.qmd": {
+    "gallery-map-two.html": "d0afd51b"
+  },
+  "gallery/gallery-map-three.qmd": {
+    "gallery-map-three.html": "d103c25c"
+  },
+  "gallery/gallery-map-four.qmd": {
+    "gallery-map-four.html": "74a2116c"
+  },
+  "gallery/gallery-map-five.qmd": {
+    "gallery-map-five.html": "b1f6a9e9"
   }
 }

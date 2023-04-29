@@ -2,8 +2,10 @@
   {
     "listing": "/gallery.html",
     "items": [
-      "/gallery/gallery-three.html",
-      "/gallery/gallery-two.html",
+      "/gallery/gallery-map-five.html",
+      "/gallery/gallery-map-four.html",
+      "/gallery/gallery-map-three.html",
+      "/gallery/gallery-map-two.html",
       "/gallery/gallery-map-one.html"
     ]
   },
@@ -12,7 +14,6 @@
     "items": [
       "/about.html",
       "/posts.html",
-      "/resources.html",
       "/gallery.html",
       "/research.html"
     ]

@@ -1,5 +1,5 @@
 ---
-title: "Links & Resources"
+title: "Resources"
 subtitle: My favorite references for ecological science, GIS, coding in R, and much more.
 ---
 

@@ -5,10 +5,9 @@ author: "Benjamin Tjepkes"
 date: "4/16/2023"
 categories:
   - Testing
+  - Map Gallery
 ---
 
-## This post is pending.
-
-Please check back soon!
+![](../gallery/img-map-2.jpg)
 
 

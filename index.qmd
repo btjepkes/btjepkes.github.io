@@ -1,6 +1,6 @@
 ---
 title: "Benjamin W. Tjepkes, BSc."
-subtitle: "A professional portfolio showcasing my work in ecology and geospatial."
+subtitle: "This is a professional portfolio showcasing my work in ecology and geospatial."
 about:
   template: solana
   image: img-ben-portrait.jpg
@@ -28,7 +28,6 @@ listing:
     - "gallery.qmd"
     - "posts.qmd"
     - "research.qmd"
-    - "resources.qmd"    
   type: grid
   fields: 
     - title

@@ -1,6 +1,6 @@
 ---
 title: "My Research"
-subtitle: Spatial ecology, wildlife habitat-use, and geospatial data science for conservation.
+subtitle: Focusing on spatial ecology, wildlife habitat-use, and geospatial data science.
 ---
 
 ## Graduate Research

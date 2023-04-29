@@ -52,7 +52,8 @@ div.quarto-about-solana .about-entity .about-links {
 
 .navbar-brand span {
   font-weight: 600;
-  color: white;
+  letter-spacing: 0.07em;
+  color: #9fc490;
   background: transparent;
   padding:2px 12px;
   border-radius: 0.25rem;
