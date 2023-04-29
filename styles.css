@@ -28,6 +28,10 @@ code {
   padding: 0.08rem 0.25rem;
 }
 
+b, strong {
+color: #dbe2e8;
+}
+
 .blockquote p {
   font-size: 22px;
   color: #FFFFFF;
