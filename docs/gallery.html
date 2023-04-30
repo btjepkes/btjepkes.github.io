@@ -63,48 +63,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery-data-viz .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery-data-viz'] = new List('listing-gallery-data-viz', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery-gis .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery-gis'] = new List('listing-gallery-gis', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -123,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="B.W.Tjepkes - My Gallery">
-<meta property="og:description" content="Peruse my creative creations -- maps, data visualiztions, reports, and writings.">
+<meta property="og:description" content="Peruse my creative creations -- maps, data visualiztions, and reports.">
 <meta property="og:image" content="bg-pinecone.jpg">
 <meta property="og:site-name" content="B.W.Tjepkes">
 </head>
@@ -201,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">My Gallery</h1>
-            <p class="subtitle lead">Peruse my creative creations – maps, data visualiztions, reports, and writings.</p>
+            <p class="subtitle lead">Peruse my creative creations – maps, data visualiztions, and reports.</p>
                       </div>
   </div>
     
@@ -218,39 +190,25 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#the-tools-in-my-toolbox" id="toc-the-tools-in-my-toolbox" class="nav-link active" data-scroll-target="#the-tools-in-my-toolbox">The Tools in my Toolbox</a></li>
-  <li><a href="#data-viz-and-reports" id="toc-data-viz-and-reports" class="nav-link" data-scroll-target="#data-viz-and-reports">Data Viz and Reports</a></li>
-  <li><a href="#gis-and-mapping" id="toc-gis-and-mapping" class="nav-link" data-scroll-target="#gis-and-mapping">GIS and Mapping</a></li>
-  <li><a href="#blogging-writings" id="toc-blogging-writings" class="nav-link" data-scroll-target="#blogging-writings">Blogging &amp; Writings</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/btjepkes/btjepkes.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Map Gallery">Map Gallery <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Testing">Testing <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<section id="the-tools-in-my-toolbox" class="level2">
-<h2 class="anchored" data-anchor-id="the-tools-in-my-toolbox">The Tools in my Toolbox</h2>
-<p>Like any good handy person, my toolbox contains a variety of tools that I can use for their intended purpose. <em>Though I have hammered with a wrench in a pinch.</em> I think it is quite exciting to experiment with software and programming packages to adapt my workflows through time.</p>
-<p>Here are some of my favorite programs and software that I use almost every day:</p>
-<ul>
-<li><p><strong>GIS &amp; Spatial Analysis</strong> — ArcGIS Pro, ArcGIS Online, and RStudio</p></li>
-<li><p><strong>Writing &amp; Reporting</strong> — R Markdown, Quarto, and MS Word</p></li>
-<li><p><strong>Data Management</strong> — RStudio, Excel, Access, and MySQL</p></li>
-<li><p><strong>Data Visualizations</strong> — RStudio and Jupyter Notebooks</p></li>
-<li><p><strong>Web Development</strong> — Notion, Super, VSCode, and WordPress</p></li>
-</ul>
-</section>
-<section id="data-viz-and-reports" class="level2">
-<h2 class="anchored" data-anchor-id="data-viz-and-reports">Data Viz and Reports</h2>
-<p>The following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.</p>
-<div id="listing-gallery-data-viz" class="quarto-listing quarto-listing-container-grid">
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="Testing,Map Gallery" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1682780822641" data-listing-reading-time-sort="0.005">
 <a href="./gallery/gallery-map-five.html" class="quarto-grid-link">
@@ -262,16 +220,8 @@ ul.task-list li input[type="checkbox"] {
 <h5 class="no-anchor card-title listing-title">
 Example Gallery Five
 </h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Apr 16, 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+This is a test gallery post.
 </div>
 </div>
 </div>
@@ -287,16 +237,8 @@ Apr 16, 2023
 <h5 class="no-anchor card-title listing-title">
 Example Gallery Four
 </h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Apr 16, 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+This is a test gallery post.
 </div>
 </div>
 </div>
@@ -312,16 +254,8 @@ Apr 16, 2023
 <h5 class="no-anchor card-title listing-title">
 Example Gallery Three
 </h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Apr 16, 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+This is a test gallery post.
 </div>
 </div>
 </div>
@@ -337,16 +271,8 @@ Apr 16, 2023
 <h5 class="no-anchor card-title listing-title">
 Example Gallery Two
 </h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Apr 16, 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+This is a test gallery post.
 </div>
 </div>
 </div>
@@ -362,16 +288,8 @@ Apr 16, 2023
 <h5 class="no-anchor card-title listing-title">
 Vineyard and Winery Location Suitability
 </h5>
-<div class="card-text listing-description">
-This was an assignment for one of my university GIS courses.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Jan 1, 2019
-</div>
+<div class="card-subtitle listing-subtitle">
+Optimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin.
 </div>
 </div>
 </div>
@@ -381,154 +299,7 @@ Jan 1, 2019
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-</section>
-<section id="gis-and-mapping" class="level2">
-<h2 class="anchored" data-anchor-id="gis-and-mapping">GIS and Mapping</h2>
-<p>The following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.</p>
-<div id="listing-gallery-gis" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Testing,Map Gallery" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1682780822641" data-listing-reading-time-sort="0.005">
-<a href="./gallery/gallery-map-five.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/img-map-6.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Example Gallery Five
-</h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Apr 16, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Testing,Map Gallery" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1682780813563" data-listing-reading-time-sort="0.005">
-<a href="./gallery/gallery-map-four.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/img-map-5.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Example Gallery Four
-</h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Apr 16, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Testing,Map Gallery" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1682774848372" data-listing-reading-time-sort="0.005">
-<a href="./gallery/gallery-map-three.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/img-map-4.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Example Gallery Three
-</h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Apr 16, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Testing,Map Gallery" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1682774820087" data-listing-reading-time-sort="0.005">
-<a href="./gallery/gallery-map-two.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/img-map-2.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Example Gallery Two
-</h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Apr 16, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Testing,Map Gallery" data-listing-date-sort="1546322400000" data-listing-file-modified-sort="1682684981987" data-listing-reading-time-sort="0.005">
-<a href="./gallery/gallery-map-one.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/img-map-1.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Vineyard and Winery Location Suitability
-</h5>
-<div class="card-text listing-description">
-This was an assignment for one of my university GIS courses.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Jan 1, 2019
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="blogging-writings" class="level2">
-<h2 class="anchored" data-anchor-id="blogging-writings">Blogging &amp; Writings</h2>
-<p>Since around 2021, I have been running a personal blog called <a href="https://conservationcompanion.com">The Conservation Companion (TCC)</a>, which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.</p>
-<p>I also have several blog posts on the technical aspects of spatial analysis, data visualization, and reporting workflows. <a href="./posts.html">Explore these posts here.</a></p>
-
-
-
-</section>
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -660,6 +431,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

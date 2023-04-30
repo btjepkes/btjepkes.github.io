@@ -1,51 +1,15 @@
 ---
 title: "My Gallery"
-subtitle: "Peruse my creative creations -- maps, data visualiztions, reports, and writings."
+subtitle: "Peruse my creative creations -- maps, data visualiztions, and reports."
 image: bg-pinecone.jpg
 listing: 
-  - id: gallery-data-viz
-    contents: gallery
-    type: grid
-  - id: gallery-gis
-    contents: gallery
-    type: grid
+  contents: gallery
+  type: grid
+  categories: numbered
+  sort: "date desc"
+  filter-ui: true  
+  fields: 
+    - image
+    - title
+    - subtitle
 ---
-
-## The Tools in my Toolbox
-
-Like any good handy person, my toolbox contains a variety of tools that I can use for their intended purpose. *Though I have hammered with a wrench in a pinch.* I think it is quite exciting to experiment with software and programming packages to adapt my workflows through time. 
-
-Here are some of my favorite programs and software that I use almost every day:
-
-- **GIS & Spatial Analysis** --- ArcGIS Pro, ArcGIS Online, and RStudio
-
-- **Writing & Reporting** --- R Markdown, Quarto, and MS Word
-
-- **Data Management** --- RStudio, Excel, Access, and MySQL
-
-- **Data Visualizations** --- RStudio and Jupyter Notebooks
-
-- **Web Development** --- Notion, Super, VSCode, and WordPress
-
-
-## Data Viz and Reports
-
-The following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.
-
-::: {#gallery-data-viz}
-:::
-
-
-## GIS and Mapping
-
-The following projects are my creations using various GIS software. The bulk of my maps were created within the ArcGIS environment, but I have been expanding into the R-based spatial world.
-
-::: {#gallery-gis}
-:::
-
-
-## Blogging & Writings
-
-Since around 2021, I have been running a personal blog called [The Conservation Companion (TCC)](https://conservationcompanion.com), which contains posts on ecology, the natural sciences, and anything else I can think of. This space has been an excellent area for me to grow my writing and coding (HTML/CSS) skills.
-
-I also have several blog posts on the technical aspects of spatial analysis, data visualization, and reporting workflows. [Explore these posts here.](posts.qmd)

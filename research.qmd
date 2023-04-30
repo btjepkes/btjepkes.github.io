@@ -1,6 +1,7 @@
 ---
 title: "My Research"
 subtitle: Focusing on spatial ecology, wildlife habitat-use, and geospatial data science.
+image: bg-pinecone.jpg
 listing:
   contents: research
   type: grid
@@ -8,6 +9,7 @@ listing:
   sort: "date desc"
   filter-ui: true  
   fields: 
+    - image
     - title
     - subtitle
 ---

@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -214,6 +214,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1682777637512" data-listing-reading-time-sort="2.795">
 <a href="./about.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./bg-pinecone.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 About Me
@@ -222,9 +225,12 @@ About Me
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1682686536465" data-listing-reading-time-sort="1.235">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1682878778806" data-listing-reading-time-sort="0.005">
 <a href="./gallery.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./bg-pinecone.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Gallery
@@ -233,9 +239,12 @@ My Gallery
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1682873922011" data-listing-reading-time-sort="0.005">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1682878455424" data-listing-reading-time-sort="0.005">
 <a href="./research.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./bg-pinecone.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Research
@@ -382,6 +391,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
