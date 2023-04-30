@@ -53,17 +53,26 @@ div.quarto-about-solana .about-entity .about-links {
   transition: all 200ms linear;
 }
 
+.navbar {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
 
 .navbar-brand span {
-  font-weight: 600;
+  font-weight: 900;
+  font-size: 1.2em;
   letter-spacing: 0.07em;
-  color: #9fc490;
+  color: white;
   background: transparent;
   padding:2px 12px;
-  border-radius: 0.25rem;
   text-transform: uppercase;
   font-family: monaco, Monospace;
-  border: solid white 2px;
+  border-top: solid white 2px;
+  border-bottom: solid white 2px;  
+}
+
+.navbar-nav .nav-item {
+  font-weight: 600;
 }
 
 

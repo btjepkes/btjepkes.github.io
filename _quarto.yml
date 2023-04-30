@@ -4,6 +4,7 @@ project:
 
 website:
   title: "B.W.Tjepkes"
+  favicon: logo-1.png
   search:
     location: navbar
     type: textbox

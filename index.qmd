@@ -27,6 +27,7 @@ listing:
     - "about.qmd"
     - "gallery.qmd"
     - "research.qmd"
+    - "posts.qmd"
   type: grid
   fields: 
     - image
