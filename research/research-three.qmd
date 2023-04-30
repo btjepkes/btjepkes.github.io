@@ -1,0 +1,9 @@
+---
+title: "Raccoon Space-Use and Home Ranges"
+subtitle: "Determining sex-specific space-use for raccoons in Laramie, Wyoming."
+author: "Benjamin Tjepkes"
+date: "4/29/2023"
+categories:
+  - Testing
+  - Research
+---

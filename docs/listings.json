@@ -25,5 +25,14 @@
       "/posts/post-one.html",
       "/posts/post-two.html"
     ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/research-one.html",
+      "/research/research-three.html",
+      "/research/research-four.html",
+      "/research/research-two.html"
+    ]
   }
 ]

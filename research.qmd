@@ -1,26 +1,10 @@
 ---
 title: "My Research"
 subtitle: Focusing on spatial ecology, wildlife habitat-use, and geospatial data science.
+listing:
+  contents: research
+  type: grid
+  fields: 
+    - title
+    - subtitle
 ---
-
-## Graduate Research
-
-I will be starting my Masters Program in the Geography Department at the University of Missouri in fall 2023. More updates on my thesis project coming soon!
-
-## Undergraduate Research
-
-### Bald Eagle Nest-Site Selection
-
-More information coming soon!
-
-### Small Mammal Response to Prescribed Fire
-
-More information coming soon!
-
-### Raccoon Space-Use and Homeranges
-
-More information coming soon!
-
-### Ruffed Grouse Drumming Log Selection
-
-More information coming soon!

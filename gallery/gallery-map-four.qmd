@@ -1,5 +1,5 @@
 ---
-title: "Example Gallery Three"
+title: "Example Gallery Four"
 subtitle: "This is a test gallery post."
 author: "Benjamin Tjepkes"
 date: "4/16/2023"

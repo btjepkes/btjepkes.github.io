@@ -1,0 +1,9 @@
+---
+title: "Small Mammal Response to Prescribed Fire"
+subtitle: "An assessment of small mammals in Schmeekle Reserve, Wisconsin."
+author: "Benjamin Tjepkes"
+date: "4/29/2023"
+categories:
+  - Testing
+  - Research
+---

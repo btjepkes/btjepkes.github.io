@@ -64,5 +64,17 @@
   },
   "gallery/gallery-map-five.qmd": {
     "gallery-map-five.html": "b1f6a9e9"
+  },
+  "research/research-one.qmd": {
+    "research-one.html": "313e2633"
+  },
+  "research/research-two.qmd": {
+    "research-two.html": "cdafd881"
+  },
+  "research/research-three.qmd": {
+    "research-three.html": "cb980bf3"
+  },
+  "research/research-four.qmd": {
+    "research-four.html": "818de520"
   }
 }

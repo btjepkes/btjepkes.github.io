@@ -1,0 +1,9 @@
+---
+title: "Bald Eagle Nest-Site Selection"
+subtitle: "An assessment of bald eagles along the Upper Mississippi River, 1990-2012."
+author: "Benjamin Tjepkes"
+date: "4/29/2023"
+categories:
+  - Testing
+  - Research
+---

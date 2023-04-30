@@ -1,0 +1,9 @@
+---
+title: "Ruffed Grouse Drumming Log Selection"
+subtitle: "An assessment of ruffed grouse reproductive habitat in Northern Wisconsin."
+author: "Benjamin Tjepkes"
+date: "4/29/2023"
+categories:
+  - Testing
+  - Research
+---
