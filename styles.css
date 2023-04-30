@@ -144,6 +144,10 @@ nav .nav-item.compact .nav-link {
   z-index: 1100;
 }
 
+div.quarto-about-solana .about-contents {
+  padding-right: 0;
+}
+
 }
 
 /* HEADERS */
