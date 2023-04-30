@@ -4,6 +4,9 @@ subtitle: Focusing on spatial ecology, wildlife habitat-use, and geospatial data
 listing:
   contents: research
   type: grid
+  categories: numbered
+  sort: "date desc"
+  filter-ui: true  
   fields: 
     - title
     - subtitle
