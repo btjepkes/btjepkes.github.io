@@ -1,11 +1,12 @@
 ---
-title: "Example Gallery Three"
-subtitle: "This is a test gallery post."
+title: "Shoreline Structure Setback Compliance"
+subtitle: "Digitized structures and OHWM for three lakes in Portage County, Wisconsin."
 author: "Benjamin Tjepkes"
-date: "4/16/2023"
+date-modified: "4/16/2023"
 categories:
   - Testing
   - Map Gallery
+  - Wisconsin
 ---
 
 ![](../gallery/img-map-4.jpg)

@@ -8,6 +8,8 @@ abstract-title: ""
 categories:
   - Testing
   - Map Gallery
+  - Wisconsin
+  - Location Suitability
 ---
 
 ![](../gallery/img-map-1.jpg)

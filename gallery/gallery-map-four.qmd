@@ -1,11 +1,13 @@
 ---
-title: "Example Gallery Four"
-subtitle: "This is a test gallery post."
+title: "Choropleth of Missouri Bear Sightings in 2020"
+subtitle: "County-based counts of reported bear sightings in Missouri."
 author: "Benjamin Tjepkes"
-date: "4/16/2023"
+date-modified: "4/16/2023"
 categories:
   - Testing
   - Map Gallery
+  - Missouri
+  - Choropleth
 ---
 
 ![](../gallery/img-map-5.jpg)

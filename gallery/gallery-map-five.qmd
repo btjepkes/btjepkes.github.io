@@ -1,11 +1,13 @@
 ---
-title: "Example Gallery Five"
-subtitle: "This is a test gallery post."
+title: "Overlaying Public Lands with BMZs"
+subtitle: "State and federal lands within Bear Management Zones in Missouri."
 author: "Benjamin Tjepkes"
-date: "4/16/2023"
+date-modified: "5-1-2023"
 categories:
   - Testing
   - Map Gallery
+  - Missouri
+  - Overlay
 ---
 
 ![](../gallery/img-map-6.jpg)

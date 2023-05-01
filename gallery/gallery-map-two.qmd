@@ -1,11 +1,13 @@
 ---
-title: "Example Gallery Two"
-subtitle: "This is a test gallery post."
+title: "Navigation Map for Field Research Station"
+subtitle: "Road navigation map for the Northern Aquaculture Demonstration Facility."
 author: "Benjamin Tjepkes"
-date: "4/16/2023"
+date-modified: "4/16/2023"
 categories:
   - Testing
   - Map Gallery
+  - Wisconsin
+  - Navigation
 ---
 
 ![](../gallery/img-map-2.jpg)
