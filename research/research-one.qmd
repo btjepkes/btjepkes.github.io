@@ -6,4 +6,9 @@ date: "4/29/2023"
 categories:
   - Testing
   - Research
+  - Avian
+  - Geospatial
+  - Wildlife
 ---
+
+![](../research/eagle-poster.jpg)

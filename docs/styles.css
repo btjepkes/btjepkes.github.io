@@ -144,6 +144,10 @@ nav .nav-item.compact .nav-link {
   z-index: 1100;
 }
 
+.about-contents {
+  padding-right: 0px !important;
+}
+
 }
 
 /* HEADERS */
@@ -249,5 +253,5 @@ nav .nav-item.compact .nav-link {
 }
 
 #listing-site-listings {
-  margin-top: 2.5em;
+  margin-top: 1.5em;
 }

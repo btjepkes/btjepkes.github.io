@@ -6,7 +6,7 @@ listing:
   contents: research
   type: grid
   categories: numbered
-  sort: "date desc"
+  sort: "title"
   filter-ui: true  
   fields: 
     - image
