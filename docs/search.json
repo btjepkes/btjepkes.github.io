@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "My professional background is in wildlife ecology and management, where I have spent the past 7+ years building my career. During this time, I have worked on a variety of projects researching and managing wildlife and their habitats.\n\n\n\nAs I advanced in my wildlife career, I began to recognize that location was a linking factor for nearly all ecological data. This realization developed into a fascination in spatial ecology and geospatial technologies."
+    "text": "My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\nApplied Conservation Science — My work aims to inform on-the-ground management and decisions through applied research in conservation.\nSpatial and Movement Ecology — I am fascinated by all aspects of wildlife space use, resource selection, and spatial ecology.\nImperiled Species Conservation — Our most imperiled species need immediate attention and sound science to support recovery and protection efforts.\nLandscape Connectivity & Planning — Much of my interest in GIS relates to the use of those technologies for researching the ecological relationships of species and the landscape.\nWeb and Cartographic Design — My passion for web and cartographic design satisfies my artistic inclination, whether I’m delving into the intricacies of CSS code for a website or honing my skills in crafting visually appealing and effective map designs.\nOpen Source Programming — While I also use proprietary software, I am a big proponent of using and supporting open source projects like Posit and QGIS."
   },
   {
     "objectID": "about.html#my-interests",
@@ -152,5 +152,26 @@
     "title": "Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
+  },
+  {
+    "objectID": "index.html#trained-as-a-biologist.",
+    "href": "index.html#trained-as-a-biologist.",
+    "title": "Benjamin W. Tjepkes, BSc.",
+    "section": "Trained as a biologist.",
+    "text": "Trained as a biologist.\nMy professional background is based in wildlife ecology and management, where I spent the past 7+ years building my career. During this time, I worked on a variety of projects researching and managing wildlife and their habitats."
+  },
+  {
+    "objectID": "index.html#drawn-to-geospatial.",
+    "href": "index.html#drawn-to-geospatial.",
+    "title": "Benjamin W. Tjepkes, BSc.",
+    "section": "Drawn to geospatial.",
+    "text": "Drawn to geospatial.\nAs I advanced in my wildlife career, I began to recognize that location was a linking factor for nearly all ecological data. This realization developed into a fascination in spatial ecology and geospatial technologies."
+  },
+  {
+    "objectID": "index.html#embracing-geography.",
+    "href": "index.html#embracing-geography.",
+    "title": "Benjamin W. Tjepkes, BSc.",
+    "section": "Embracing geography.",
+    "text": "Embracing geography.\nI will be pursuing my Masters in Geography beginning fall 2023."
   }
 ]

@@ -44,15 +44,15 @@ Hi, my name is Ben Tjepkes and I am a dedicated **wildlife ecologist** and **geo
 
 ![](img-ben-work.png)
 
-## Trained as a wildlife biologist. {.intro-heading}
+## Trained as a biologist. {.intro-heading}
 
-My professional background is in wildlife ecology and management, where I have spent the past 7+ years building my career. During this time, I have worked on a variety of projects researching and managing wildlife and their habitats.
+My professional background is based in wildlife ecology and management, where I spent the past 7+ years building my career. During this time, I worked on a variety of projects researching and managing wildlife and their habitats.
 
-## Drawn to the world of geospatial. {.intro-heading}
-
-As I advanced in my wildlife career, I began to recognize that location was a linking factor for nearly all ecological data. This realization developed into a fascination in spatial ecology and geospatial technologies.
-
-## Embracing geographic inquiry. {.intro-heading}
+## Drawn to geospatial. {.intro-heading}
 
 As I advanced in my wildlife career, I began to recognize that location was a linking factor for nearly all ecological data. This realization developed into a fascination in spatial ecology and geospatial technologies.
+
+## Embracing geography. {.intro-heading}
+
+I will be pursuing my Masters in Geography beginning fall 2023.
 

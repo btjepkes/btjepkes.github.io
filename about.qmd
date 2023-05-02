@@ -4,16 +4,6 @@ subtitle: "I work as a wildlife ecologist and geospatial practitioner to find so
 image: bg-pinecone.jpg
 ---
 
-## My Path
-
-### Trained as a wildlife conservation biologist.
-
-My professional background is in wildlife ecology and management, where I have spent the past 7+ years building my career. During this time, I have worked on a variety of projects researching and managing wildlife and their habitats.
-
-### Drawn to the world of geospatial inquiry.
-
-As I advanced in my wildlife career, I began to recognize that location was a linking factor for nearly all ecological data. This realization developed into a fascination in spatial ecology and geospatial technologies.
-
 
 ## My Interests
 
