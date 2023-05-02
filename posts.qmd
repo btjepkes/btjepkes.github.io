@@ -1,5 +1,5 @@
 ---
-title: "Blog Posts"
+title: "My Blog Posts"
 subtitle: Explore my writings on ecological and geospatial data science.
 image: bg-pinecone.jpg
 listing:
