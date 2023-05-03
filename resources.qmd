@@ -1,7 +1,20 @@
 ---
 title: "Resources"
 subtitle: My favorite references for ecological science, GIS, coding in R, and much more.
+
+listing:
+  id: resource-listings
+  contents:
+    - resources.yml
+  type: grid
+  categories: numbered
+  filter-ui: true
+    
 ---
+
+::: {#resource-listings}
+:::
+
 
 ## Resources for **Wildlifers**
 ### Job Resources

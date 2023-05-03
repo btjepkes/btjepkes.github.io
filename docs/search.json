@@ -130,7 +130,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Blog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
+    "text": "for web publishing\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/html/html.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfor high quality print\n\n\n\n\n\nhref\n\n\nhttps://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfor Office workflows\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources.html#resources-for-r-users",
@@ -145,5 +145,19 @@
     "title": "Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
+  },
+  {
+    "objectID": "resources.html#resources-for-wildlifers",
+    "href": "resources.html#resources-for-wildlifers",
+    "title": "Resources",
+    "section": "Resources for Wildlifers",
+    "text": "Resources for Wildlifers\n\nJob Resources\n\nBlog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
+  },
+  {
+    "objectID": "about.html#my-interests",
+    "href": "about.html#my-interests",
+    "title": "About Me",
+    "section": "My Interests",
+    "text": "My Interests\nMy professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\nApplied Conservation Science — My work aims to inform on-the-ground management and decisions through applied research in conservation.\nSpatial and Movement Ecology — I am fascinated by all aspects of wildlife space use, resource selection, and spatial ecology.\nImperiled Species Conservation — Our most imperiled species need immediate attention and sound science to support recovery and protection efforts.\nLandscape Connectivity & Planning — Much of my interest in GIS relates to the use of those technologies for researching the ecological relationships of species and the landscape.\nWeb and Cartographic Design — My passion for web and cartographic design satisfies my artistic inclination, whether I’m delving into the intricacies of CSS code for a website or honing my skills in crafting visually appealing and effective map designs.\nOpen Source Programming — While I also use proprietary software, I am a big proponent of using and supporting open source projects like Posit and QGIS."
   }
 ]
