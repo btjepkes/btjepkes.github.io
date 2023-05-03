@@ -1,6 +1,6 @@
 ---
 title: "My Research"
-subtitle: Focusing on spatial ecology, wildlife habitat-use, and geospatial data science.
+subtitle: Focusing on spatial ecology and geographic information systems.
 image: bg-pinecone.jpg
 listing:
   contents: research

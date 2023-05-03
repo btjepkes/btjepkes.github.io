@@ -1,6 +1,6 @@
 ---
 title: "Benjamin W. Tjepkes, BSc."
-subtitle: "This is a professional portfolio showcasing my work in ecology and geospatial."
+subtitle: "Dedicated professional with a passion for ecological and geospatial science."
 about:
   id: about-id
   template: solana
@@ -31,6 +31,7 @@ listing:
   type: grid
   fields: 
     - title
+    - subtitle
 ---
 
 ::: {#about-id}
@@ -55,5 +56,5 @@ As I advanced in my wildlife career, I began to recognize that location was a li
 
 ## 03. Embracing geography. {.intro-heading}
 
-I will be pursuing my Masters in Geography beginning fall 2023.
+To gain a better understanding of geographic thought and spatial inquiry, I will be pursuing my Masters in Geography in late 2023. This opportunity will allow me to research the underlying spatial theory behind the techniques I have used in ecological studies.
 

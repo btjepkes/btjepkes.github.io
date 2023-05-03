@@ -192,6 +192,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   padding-top: 10px;
 }
 
+
+.quarto-grid-item .card-title::after {
+  content: "";
+  display: block;
+  width: 15%;
+  border-top: solid 2px #9fc490;
+  margin-top: 15px;
+}
+
 .quarto-grid-item .card-title {
   color: whitesmoke;
   font-weight: 600;
