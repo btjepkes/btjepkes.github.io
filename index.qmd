@@ -1,6 +1,6 @@
 ---
 title: "Benjamin W. Tjepkes, BSc."
-subtitle: "Dedicated professional with a passion for ecological and geospatial science."
+subtitle: "Dedicated professional with a passion for conservation and geospatial science."
 about:
   id: about-id
   template: solana
@@ -54,7 +54,7 @@ My professional background is based in wildlife ecology and management, where I 
 
 As I advanced in my wildlife career, I began to recognize that location was a linking factor for nearly all ecological data. This realization developed into a fascination in spatial ecology and geospatial technologies.
 
-## 03. Embracing geography. {.intro-heading}
+## 03. Exploring geo-science. {.intro-heading}
 
-To gain a better understanding of geographic thought and spatial inquiry, I will be pursuing my Masters in Geography in late 2023. This opportunity will allow me to research the underlying spatial theory behind the techniques I have used in ecological studies.
+To gain a better understanding of geographic thought, I will be pursuing my Masters in Geography in late 2023. This opportunity will allow me to research the underlying spatial theory behind the techniques I have used in ecological studies.
 
