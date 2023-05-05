@@ -1,8 +1,8 @@
 ---
 title: "Creating Wonderful Thematic Maps Using the `tmap` Package in R"
-subtitle: "Publication-ready maps minutes."
+subtitle: "Publication-ready maps in minutes."
 author:
-  - name: Benjamin Tjepkes
+  - name: Benjamin Tjepkes  
     url: about.qmd
     orcid: 0009-0002-5524-2675
 date: "4/16/2023"
@@ -12,6 +12,7 @@ categories:
   - Testing
   - R
   - Cartography
+image: bg-pine-blue.jpg
 ---
 
 ## This post is pending.

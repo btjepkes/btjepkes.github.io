@@ -1,15 +1,19 @@
 ---
 title: "Creating an Interactive Heatmap of GBIF Occurrences in R"
-subtitle: "Exploring concentrations of grouse records in Wyoming."
-author: "Benjamin Tjepkes"
+subtitle: "Exploring concentrations of sage grouse records."
+author:
+  - name: Benjamin Tjepkes  
+    url: about.qmd
+    orcid: 0009-0002-5524-2675
 date: "4/26/2023"
-abstract: In this blog post, we demonstrate how to use the `rgbif` package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap of the species' distribution in Wyoming using Leaflet.
+abstract: In this blog post, we demonstrate how to use the `rgbif` package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap of the species' distribution using Leaflet.
 abstract-title: ""
 categories:
   - Testing
   - R
   - Wildlife
   - Cartography
+image: bg-pine-blue.jpg
 ---
 
 ## This post is pending.
@@ -18,7 +22,7 @@ Please check back soon!
 
 <br>
 
-### 1. Install and load the necessary packages:
+### 1. Install Packages
 
 ``` r
 install.packages("rgbif")   # for accessing GBIF data
@@ -26,7 +30,7 @@ install.packages("leaflet") # for mapping data
 library(rgbif)
 library(leaflet)
 ```
-### 2. Search GBIF for sage grouse occurrences in Wyoming:
+### 2. Search GBIF
 
 ``` r
 wyoming <- name_backbone("Centrocercus urophasianus",
@@ -35,13 +39,13 @@ wyoming <- name_backbone("Centrocercus urophasianus",
                           stateProvince = "Wyoming")
 ```
 
-### 3. Extract latitude and longitude coordinates:
+### 3. Extract Locations
 
 ``` r
 wyoming_coords <- wyoming$data[, c("decimalLatitude", "decimalLongitude")]
 ```
 
-### 4. Create an interactive heatmap using Leaflet:
+### 4. Create Heatmap
 
 ``` r
 leaflet(wyoming_coords) %>% 
