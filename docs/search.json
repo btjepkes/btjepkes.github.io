@@ -77,11 +77,11 @@
     "text": "02. Drawn to geospatial.\nAs I advanced in my wildlife career, I began to recognize that location was a linking factor for nearly all ecological data. This realization developed into a fascination in spatial ecology and geospatial technologies."
   },
   {
-    "objectID": "index.html#embracing-geography.",
-    "href": "index.html#embracing-geography.",
+    "objectID": "index.html#mastering-biogeography.",
+    "href": "index.html#mastering-biogeography.",
     "title": "Benjamin W. Tjepkes, BSc.",
-    "section": "03. Embracing geography.",
-    "text": "03. Embracing geography.\nTo gain a better understanding of geographic thought and spatial inquiry, I will be pursuing my Masters in Geography in late 2023. This opportunity will allow me to research the underlying spatial theory behind the techniques I have used in ecological studies."
+    "section": "03. Mastering biogeography.",
+    "text": "03. Mastering biogeography.\nTo gain a better understanding of geographic thought, I will be pursuing my Masters in Geography in late 2023. This opportunity will allow me to research the underlying spatial theory behind the techniques I have used in ecological studies."
   },
   {
     "objectID": "posts/post-four.html",
@@ -89,6 +89,13 @@
     "title": "Creating an Interactive Heatmap of GBIF Occurrences in R",
     "section": "",
     "text": "The Greater sage grouse (Centrocercus urophasianus) is a bird species that is native to the western United States. These grouse are an important species for the ecosystems they inhabit, as they plays a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes. However, the sage grouse population has declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species.\n\n\n\nGreater sage grouse at Little Sand Draw lek. Photo: Pat Hnilicka\n\n\n\n\n\nGBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
+  },
+  {
+    "objectID": "posts/post-four.html#workflow",
+    "href": "posts/post-four.html#workflow",
+    "title": "Creating an Interactive Heatmap of GBIF Occurrences in R",
+    "section": "Workflow",
+    "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\ninstall.packages(\"rgbif\")   # for accessing GBIF data\ninstall.packages(\"leaflet\") # for mapping data\nlibrary(rgbif)\nlibrary(leaflet)\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States.\nwyoming <- name_backbone(\"Centrocercus urophasianus\",\n                          country = \"US\",\n                          hasCoordinate = TRUE,\n                          stateProvince = \"Wyoming\")\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords <- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nleaflet(wyoming_coords) %>% \n  addTiles() %>%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
   },
   {
     "objectID": "posts/post-one.html",
@@ -116,7 +123,7 @@
     "href": "posts.html",
     "title": "My Blog Posts",
     "section": "",
-    "text": "Creating an Interactive Heatmap of GBIF Occurrences in R\n\n\n\nTesting\n\n\nR\n\n\nWildlife\n\n\nCartography\n\n\n\nIn this blog post, we demonstrate how to use the rgbif package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and…\n\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\n\nTesting\n\n\nR\n\n\nForest\n\n\nCartography\n\n\n\nIn this post, we will demonstrate how to visualize expansive amounts of geographic data using R. We will use an example that involves mapping data from Global Forest Watch…\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Wonderful Thematic Maps Using the tmap Package in R\n\n\n\nTesting\n\n\nR\n\n\nCartography\n\n\n\nIn this post, we talk about making thematic maps in R, specifically with the tmap package. There are several R packages for map creation, but tmap allows you to easily…\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto in R\n\n\n\nTesting\n\n\nR\n\n\nQuarto\n\n\nReporting\n\n\n\nIn this post, we talk about how to make your reporting workflows WAY easier. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing…\n\n\n\nBenjamin Tjepkes\n\n\nApr 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Creating an Interactive Heatmap of GBIF Occurrences in R\n\n\nExploring concentrations of sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Wonderful Thematic Maps Using the tmap Package in R\n\n\nPublication-ready maps in minutes.\n\n\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto in R\n\n\nStop manually updating the same report with different inputs.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
@@ -133,6 +140,13 @@
     "text": "for web publishing\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/html/html.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfor high quality print\n\n\n\n\n\nhref\n\n\nhttps://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfor Office workflows\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "resources.html#resources-for-wildlifers",
+    "href": "resources.html#resources-for-wildlifers",
+    "title": "Resources",
+    "section": "Resources for Wildlifers",
+    "text": "Resources for Wildlifers\n\nJob Resources\n\nBlog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
+  },
+  {
     "objectID": "resources.html#resources-for-r-users",
     "href": "resources.html#resources-for-r-users",
     "title": "Resources",
@@ -145,40 +159,5 @@
     "title": "Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
-  },
-  {
-    "objectID": "resources.html#resources-for-wildlifers",
-    "href": "resources.html#resources-for-wildlifers",
-    "title": "Resources",
-    "section": "Resources for Wildlifers",
-    "text": "Resources for Wildlifers\n\nJob Resources\n\nBlog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
-  },
-  {
-    "objectID": "about.html#my-interests",
-    "href": "about.html#my-interests",
-    "title": "About Me",
-    "section": "My Interests",
-    "text": "My Interests\nMy professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\nApplied Conservation Science — My work aims to inform on-the-ground management and decisions through applied research in conservation.\nSpatial and Movement Ecology — I am fascinated by all aspects of wildlife space use, resource selection, and spatial ecology.\nImperiled Species Conservation — Our most imperiled species need immediate attention and sound science to support recovery and protection efforts.\nLandscape Connectivity & Planning — Much of my interest in GIS relates to the use of those technologies for researching the ecological relationships of species and the landscape.\nWeb and Cartographic Design — My passion for web and cartographic design satisfies my artistic inclination, whether I’m delving into the intricacies of CSS code for a website or honing my skills in crafting visually appealing and effective map designs.\nOpen Source Programming — While I also use proprietary software, I am a big proponent of using and supporting open source projects like Posit and QGIS."
-  },
-  {
-    "objectID": "index.html#exploring-geo-science.",
-    "href": "index.html#exploring-geo-science.",
-    "title": "Benjamin W. Tjepkes, BSc.",
-    "section": "03. Exploring geo-science.",
-    "text": "03. Exploring geo-science.\nTo gain a better understanding of geographic thought, I will be pursuing my Masters in Geography in late 2023. This opportunity will allow me to research the underlying spatial theory behind the techniques I have used in ecological studies."
-  },
-  {
-    "objectID": "posts/post-four.html#workflow",
-    "href": "posts/post-four.html#workflow",
-    "title": "Creating an Interactive Heatmap of GBIF Occurrences in R",
-    "section": "Workflow",
-    "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\ninstall.packages(\"rgbif\")   # for accessing GBIF data\ninstall.packages(\"leaflet\") # for mapping data\nlibrary(rgbif)\nlibrary(leaflet)\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States.\nwyoming <- name_backbone(\"Centrocercus urophasianus\",\n                          country = \"US\",\n                          hasCoordinate = TRUE,\n                          stateProvince = \"Wyoming\")\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords <- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nleaflet(wyoming_coords) %>% \n  addTiles() %>%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
-  },
-  {
-    "objectID": "posts/post-four.html#background",
-    "href": "posts/post-four.html#background",
-    "title": "Creating an Interactive Heatmap of GBIF Occurrences in R",
-    "section": "Background",
-    "text": "Background\n\nSage Grouse\nThe Greater sage grouse (Centrocercus urophasianus) is a bird species that is native to the western United States. These grouse are an important species for the ecosystems they inhabit, as they plays a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes. However, the sage grouse population has declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species.\n\n\nData Sources\nGBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
   }
 ]

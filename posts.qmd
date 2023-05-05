@@ -8,5 +8,9 @@ listing:
   categories: numbered
   sort: "date desc"
   filter-ui: true
+  fields: 
+    - image
+    - title
+    - subtitle
 ---
 

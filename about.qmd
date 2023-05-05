@@ -4,7 +4,6 @@ subtitle: "Working to find solutions for conservation."
 image: bg-pinecone.jpg
 ---
 
-![](img-places.png)
 
 ## My Interests
 

@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
@@ -221,27 +221,8 @@ ul.task-list li input[type="checkbox"] {
 <h5 class="no-anchor card-title listing-title">
 Creating an Interactive Heatmap of GBIF Occurrences in R
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Testing'); return false;">
-Testing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Wildlife'); return false;">
-Wildlife
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Cartography'); return false;">
-Cartography
-</div>
-</div>
-<div class="card-text listing-description">
-In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
+<div class="card-subtitle listing-subtitle">
+Exploring concentrations of sage grouse records.
 </div>
 </div>
 </div>
@@ -257,30 +238,8 @@ Benjamin Tjepkes
 <h5 class="no-anchor card-title listing-title">
 Mapping Changes in Unfragmented Forest Landscapes Using R
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Testing'); return false;">
-Testing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Forest'); return false;">
-Forest
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Cartography'); return false;">
-Cartography
-</div>
-</div>
-<div class="card-text listing-description">
-In this post, we will demonstrate how to visualize expansive amounts of geographic data using R. We will use an example that involves mapping data from Global Forest Watch…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Apr 22, 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+Vizualizing Global Forest Watch data on North American forests.
 </div>
 </div>
 </div>
@@ -296,27 +255,8 @@ Apr 22, 2023
 <h5 class="no-anchor card-title listing-title">
 Creating Wonderful Thematic Maps Using the <code>tmap</code> Package in R
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Testing'); return false;">
-Testing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Cartography'); return false;">
-Cartography
-</div>
-</div>
-<div class="card-text listing-description">
-In this post, we talk about making thematic maps in R, specifically with the tmap package. There are several R packages for map creation, but <code>tmap</code> allows you to easily…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Apr 16, 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+Publication-ready maps in minutes.
 </div>
 </div>
 </div>
@@ -332,30 +272,8 @@ Apr 16, 2023
 <h5 class="no-anchor card-title listing-title">
 Streamlining Your Reporting Workflow with Quarto in R
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Testing'); return false;">
-Testing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
-Quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Reporting'); return false;">
-Reporting
-</div>
-</div>
-<div class="card-text listing-description">
-In this post, we talk about how to make your reporting workflows WAY easier. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Benjamin Tjepkes
-</div>
-<div class="listing-date">
-Apr 16, 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+Stop manually updating the same report with different inputs.
 </div>
 </div>
 </div>
