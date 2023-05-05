@@ -5,7 +5,7 @@ author:
   - name: Benjamin Tjepkes  
     url: about.qmd
     orcid: 0009-0002-5524-2675
-date: "4/26/2023"
+date-modified: "5/5/2023"
 abstract: In this blog post, we demonstrate how to use the `rgbif` package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap of the species' distribution using Leaflet.
 abstract-title: ""
 categories:
@@ -13,16 +13,26 @@ categories:
   - R
   - Wildlife
   - Cartography
-image: bg-pine-blue.jpg
+image: img-sage-grouse.jpg
 ---
 
-## This post is pending.
+## Background
 
-Please check back soon!
+### Sage Grouse
 
-<br>
+The Greater sage grouse (*Centrocercus urophasianus*) is a bird species that is native to the western United States. These grouse are an important species for the ecosystems they inhabit, as they plays a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes. However, the sage grouse population has declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species.
 
-### 1. Install Packages
+![Greater sage grouse at Little Sand Draw lek. Photo: Pat Hnilicka](img-sage-grouse.jpg)
+
+### Data Sources
+
+GBIF is a database of species occurrence records from sources all over the globe. `rgbif`is an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data.
+
+## Workflow
+
+### 1. Load Packages
+
+Our first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the `install.packages()` function.
 
 ``` r
 install.packages("rgbif")   # for accessing GBIF data
@@ -32,6 +42,8 @@ library(leaflet)
 ```
 ### 2. Search GBIF
 
+Now that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States.
+
 ``` r
 wyoming <- name_backbone("Centrocercus urophasianus",
                           country = "US",
@@ -40,6 +52,8 @@ wyoming <- name_backbone("Centrocercus urophasianus",
 ```
 
 ### 3. Extract Locations
+
+As we explore our newly loaded dataframe, you will see there are two columns
 
 ``` r
 wyoming_coords <- wyoming$data[, c("decimalLatitude", "decimalLongitude")]

@@ -7,7 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
-<meta name="dcterms.date" content="2023-04-26">
 
 <title>B.W.Tjepkes - Creating an Interactive Heatmap of GBIF Occurrences in R</title>
 <style>
@@ -130,7 +129,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="B.W.Tjepkes - Creating an Interactive Heatmap of GBIF Occurrences in R">
 <meta property="og:description" content="In this blog post, we demonstrate how to use the `rgbif` package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap…">
-<meta property="og:image" content="bg-pine-blue.jpg">
+<meta property="og:image" content="img-sage-grouse.jpg">
 <meta property="og:site-name" content="B.W.Tjepkes">
 </head>
 
@@ -227,13 +226,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             </div>
     </div>
       
+    
       <div>
-      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 26, 2023</p>
+        <p class="date-modified">May 5, 2023</p>
       </div>
     </div>
-    
       
     </div>
     
@@ -252,12 +251,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#this-post-is-pending." id="toc-this-post-is-pending." class="nav-link active" data-scroll-target="#this-post-is-pending.">This post is pending.</a>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a>
   <ul class="collapse">
-  <li><a href="#install-and-load-the-necessary-packages" id="toc-install-and-load-the-necessary-packages" class="nav-link" data-scroll-target="#install-and-load-the-necessary-packages">1. Install and load the necessary packages:</a></li>
-  <li><a href="#search-gbif-for-sage-grouse-occurrences-in-wyoming" id="toc-search-gbif-for-sage-grouse-occurrences-in-wyoming" class="nav-link" data-scroll-target="#search-gbif-for-sage-grouse-occurrences-in-wyoming">2. Search GBIF for sage grouse occurrences in Wyoming:</a></li>
-  <li><a href="#extract-latitude-and-longitude-coordinates" id="toc-extract-latitude-and-longitude-coordinates" class="nav-link" data-scroll-target="#extract-latitude-and-longitude-coordinates">3. Extract latitude and longitude coordinates:</a></li>
-  <li><a href="#create-an-interactive-heatmap-using-leaflet" id="toc-create-an-interactive-heatmap-using-leaflet" class="nav-link" data-scroll-target="#create-an-interactive-heatmap-using-leaflet">4. Create an interactive heatmap using Leaflet:</a></li>
+  <li><a href="#sage-grouse" id="toc-sage-grouse" class="nav-link" data-scroll-target="#sage-grouse">Sage Grouse</a></li>
+  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">Data Sources</a></li>
+  </ul></li>
+  <li><a href="#workflow" id="toc-workflow" class="nav-link" data-scroll-target="#workflow">Workflow</a>
+  <ul class="collapse">
+  <li><a href="#load-packages" id="toc-load-packages" class="nav-link" data-scroll-target="#load-packages">1. Load Packages</a></li>
+  <li><a href="#search-gbif" id="toc-search-gbif" class="nav-link" data-scroll-target="#search-gbif">2. Search GBIF</a></li>
+  <li><a href="#extract-locations" id="toc-extract-locations" class="nav-link" data-scroll-target="#extract-locations">3. Extract Locations</a></li>
+  <li><a href="#create-heatmap" id="toc-create-heatmap" class="nav-link" data-scroll-target="#create-heatmap">4. Create Heatmap</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/btjepkes/btjepkes.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -268,30 +272,48 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-<section id="this-post-is-pending." class="level2">
-<h2 class="anchored" data-anchor-id="this-post-is-pending.">This post is pending.</h2>
-<p>Please check back soon!</p>
-<p><br></p>
-<section id="install-and-load-the-necessary-packages" class="level3">
-<h3 class="anchored" data-anchor-id="install-and-load-the-necessary-packages">1. Install and load the necessary packages:</h3>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<section id="sage-grouse" class="level3">
+<h3 class="anchored" data-anchor-id="sage-grouse">Sage Grouse</h3>
+<p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a bird species that is native to the western United States. These grouse are an important species for the ecosystems they inhabit, as they plays a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes. However, the sage grouse population has declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img-sage-grouse.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Greater sage grouse at Little Sand Draw lek. Photo: Pat Hnilicka</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="data-sources" class="level3">
+<h3 class="anchored" data-anchor-id="data-sources">Data Sources</h3>
+<p>GBIF is a database of species occurrence records from sources all over the globe. <code>rgbif</code>is an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data.</p>
+</section>
+</section>
+<section id="workflow" class="level2">
+<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
+<section id="load-packages" class="level3">
+<h3 class="anchored" data-anchor-id="load-packages">1. Load Packages</h3>
+<p>Our first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the <code>install.packages()</code> function.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"rgbif"</span>)   <span class="co"># for accessing GBIF data</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"leaflet"</span>) <span class="co"># for mapping data</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rgbif)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="search-gbif-for-sage-grouse-occurrences-in-wyoming" class="level3">
-<h3 class="anchored" data-anchor-id="search-gbif-for-sage-grouse-occurrences-in-wyoming">2. Search GBIF for sage grouse occurrences in Wyoming:</h3>
+<section id="search-gbif" class="level3">
+<h3 class="anchored" data-anchor-id="search-gbif">2. Search GBIF</h3>
+<p>Now that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>wyoming <span class="ot">&lt;-</span> <span class="fu">name_backbone</span>(<span class="st">"Centrocercus urophasianus"</span>,</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>                          <span class="at">country =</span> <span class="st">"US"</span>,</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>                          <span class="at">hasCoordinate =</span> <span class="cn">TRUE</span>,</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>                          <span class="at">stateProvince =</span> <span class="st">"Wyoming"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="extract-latitude-and-longitude-coordinates" class="level3">
-<h3 class="anchored" data-anchor-id="extract-latitude-and-longitude-coordinates">3. Extract latitude and longitude coordinates:</h3>
+<section id="extract-locations" class="level3">
+<h3 class="anchored" data-anchor-id="extract-locations">3. Extract Locations</h3>
+<p>As we explore our newly loaded dataframe, you will see there are two columns</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>wyoming_coords <span class="ot">&lt;-</span> wyoming<span class="sc">$</span>data[, <span class="fu">c</span>(<span class="st">"decimalLatitude"</span>, <span class="st">"decimalLongitude"</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="create-an-interactive-heatmap-using-leaflet" class="level3">
-<h3 class="anchored" data-anchor-id="create-an-interactive-heatmap-using-leaflet">4. Create an interactive heatmap using Leaflet:</h3>
+<section id="create-heatmap" class="level3">
+<h3 class="anchored" data-anchor-id="create-heatmap">4. Create Heatmap</h3>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">leaflet</span>(wyoming_coords) <span class="sc">%&gt;%</span> </span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addTiles</span>() <span class="sc">%&gt;%</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addHeatmap</span>(<span class="at">lng =</span> <span class="sc">~</span>decimalLongitude,</span>
