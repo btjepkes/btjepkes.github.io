@@ -123,14 +123,14 @@
     "href": "posts.html",
     "title": "My Blog Posts",
     "section": "",
-    "text": "Creating an Interactive Heatmap of GBIF Occurrences in R\n\n\nExploring concentrations of sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Wonderful Thematic Maps Using the tmap Package in R\n\n\nPublication-ready maps in minutes.\n\n\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto in R\n\n\nStop manually updating the same report with different inputs.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Brownian Bridge Movement Models in R\n\n\nExploring concentrations of sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences in R\n\n\nExploring concentrations of sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Wonderful Thematic Maps Using the tmap Package in R\n\n\nPublication-ready maps in minutes.\n\n\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto in R\n\n\nStop manually updating the same report with different inputs.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "My Research",
     "section": "",
-    "text": "Bald Eagle Nest-Site Selection\n\n\nAssessing bald eagle nests along the Upper Mississippi River, 1990-2012.\n\n\n\n\n\n\n\n\n\n \n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nDetermining sex-specific space-use for raccoons in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n \n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nAn assessment of ruffed grouse reproductive habitat in Northern Wisconsin.\n\n\n\n\n\n\n\n\n\n \n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nAn assessment of small mammals in Schmeekle Reserve, Wisconsin.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Bald Eagle Nest-Site Selection\n\n\nAssessing bald eagle nests along the Upper Mississippi River, 1990-2012.\n\n\n\n\n\n\n\n\n\n \n\n\n\nBeaver-Impacted Water Control Structures\n\n\nAssessing the need for flow devices on wetlands in Northeast Wisconsin.\n\n\n\n\n\n\n\n\n\n \n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nDetermining sex-specific space-use for raccoons in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n \n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nAn assessment of ruffed grouse reproductive habitat in Northern Wisconsin.\n\n\n\n\n\n\n\n\n\n \n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nAn assessment of small mammals in Schmeekle Reserve, Wisconsin.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources.html",
@@ -159,5 +159,19 @@
     "title": "Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
+  },
+  {
+    "objectID": "posts/post-five.html",
+    "href": "posts/post-five.html",
+    "title": "Brownian Bridge Movement Models in R",
+    "section": "",
+    "text": "The Brownian Bridge Movement Model (BBMM) is a commonly used method in movement ecology to estimate the most likely path of an animal’s movement between consecutive locations based on the assumption that the movement is a random walk process.\n\n\nThe BBMM method was originally developed in the field of stochastic calculus and probability theory. The method was first introduced by the French mathematician Paul Lévy in 1938 as a means of modeling the continuous motion of particles in a fluid.\nThe term “Brownian Bridge” refers to the fact that the model is based on Brownian motion, which is a type of random walk process that was first studied by the Scottish botanist Robert Brown in 1827. Brown observed the erratic movement of pollen particles in water and concluded that their motion was caused by the thermal energy of the water molecules, which led to the random movement of the pollen particles.\nThe Brownian Bridge Movement Model was later adapted for use in movement ecology and has become increasingly popular in recent years, as advances in tracking technology have enabled researchers to collect high-resolution movement data for a wide range of animal species.\n\n\n\nThe standard BBMM assumes that an animal’s movement is stationary, meaning that the variance of the movement process is constant over time. However, this assumption may not hold in many cases where an animal’s movement is influenced by external factors such as weather conditions, resource availability, or social interactions.\n\n\n\nTo address this limitation, the Dynamic Brownian Bridge Movement Model (dBBMM) was developed. The dBBMM is an extension of the standard BBMM that allows for non-stationary movement, where the variance of the movement process changes over time. In the dBBMM, the variance of the movement process is modeled as a function of time or other covariates, allowing for a more realistic representation of animal movement.\nThe dBBMM has several advantages over the standard BBMM:\n\nIt can provide a more accurate estimate of the animal’s movement path by incorporating time-varying movement patterns.\nIt can help identify the factors that influence animal movement, such as changes in environmental conditions.\nIt can provide insights into the mechanisms that drive animal movement, such as foraging or mating behavior."
+  },
+  {
+    "objectID": "posts/post-five.html#workflows",
+    "href": "posts/post-five.html#workflows",
+    "title": "Brownian Bridge Movement Models in R",
+    "section": "Workflows",
+    "text": "Workflows\n\nR Packages for BBMM\n\nadehabitatLT: This package provides functions for the analysis of animal movement data, including functions for calculating home ranges and implementing the BBMM. It also includes tools for visualizing movement data and conducting statistical tests.\nmove: This package provides functions for handling and analyzing movement data, including functions for preprocessing, filtering, and visualizing movement data. It also includes functions for implementing the BBMM and other movement models.\nctmm: This package provides functions for analyzing animal movement data using continuous-time movement models, including the BBMM and other models. It also includes tools for visualizing movement data and conducting statistical tests.\ntrip: This package provides functions for handling and analyzing GPS data, including functions for calculating distances and speeds, and implementing the BBMM and other movement models.\nmomentuHMM: This package provides functions for analyzing animal movement data using hidden Markov models (HMMs), including the BBMM and other models. It also includes tools for visualizing movement data and conducting statistical tests.\n\n\n\nData Sources\nWalter Lab GitHub"
   }
 ]

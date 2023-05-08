@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
+<meta name="dcterms.date" content="2023-05-08">
 
-<title>B.W.Tjepkes - Brownian Bridge Movement Models in R</title>
+<title>B.W.Tjepkes - Beaver-Impacted Water Control Structures</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,9 +65,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="B.W.Tjepkes - Brownian Bridge Movement Models in R">
-<meta property="og:description" content="In this blog post, we demonstrate how to use the `rgbif` package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap…">
-<meta property="og:image" content="bg-pine-blue.jpg">
+<meta property="og:title" content="B.W.Tjepkes - Beaver-Impacted Water Control Structures">
+<meta property="og:description" content="Assessing the need for flow devices on wetlands in Northeast Wisconsin.">
 <meta property="og:site-name" content="B.W.Tjepkes">
 </head>
 
@@ -142,13 +142,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Brownian Bridge Movement Models in R</h1>
-            <p class="subtitle lead">Exploring concentrations of sage grouse records.</p>
+      <h1 class="title">Beaver-Impacted Water Control Structures</h1>
+            <p class="subtitle lead">Assessing the need for flow devices on wetlands in Northeast Wisconsin.</p>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Testing</div>
-                <div class="quarto-category">R</div>
-                <div class="quarto-category">Wildlife</div>
-                <div class="quarto-category">Cartography</div>
+                <div class="quarto-category">Research</div>
               </div>
                   </div>
   </div>
@@ -159,48 +157,26 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Benjamin Tjepkes <a href="https://orcid.org/0009-0002-5524-2675" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+               <p>Benjamin Tjepkes </p>
             </div>
     </div>
       
-    
       <div>
-      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">May 5, 2023</p>
+        <p class="date">May 8, 2023</p>
       </div>
     </div>
+    
       
     </div>
     
-  <div>
-    <div class="abstract">
-      <div class="abstract-title"></div>
-      In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap of the species’ distribution using Leaflet.
-    </div>
-  </div>
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a>
-  <ul class="collapse">
-  <li><a href="#origin-story" id="toc-origin-story" class="nav-link" data-scroll-target="#origin-story">Origin Story</a></li>
-  <li><a href="#standard-bbmm" id="toc-standard-bbmm" class="nav-link" data-scroll-target="#standard-bbmm">Standard BBMM</a></li>
-  <li><a href="#dynamic-bbmm" id="toc-dynamic-bbmm" class="nav-link" data-scroll-target="#dynamic-bbmm">Dynamic BBMM</a></li>
-  </ul></li>
-  <li><a href="#workflows" id="toc-workflows" class="nav-link" data-scroll-target="#workflows">Workflows</a>
-  <ul class="collapse">
-  <li><a href="#r-packages-for-bbmm" id="toc-r-packages-for-bbmm" class="nav-link" data-scroll-target="#r-packages-for-bbmm">R Packages for BBMM</a></li>
-  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">Data Sources</a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/btjepkes/btjepkes.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -208,49 +184,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>The Brownian Bridge Movement Model (BBMM) is a commonly used method in movement ecology to estimate the most likely path of an animal’s movement between consecutive locations based on the assumption that the movement is a random walk process.</p>
-<section id="origin-story" class="level3">
-<h3 class="anchored" data-anchor-id="origin-story">Origin Story</h3>
-<p>The BBMM method was originally developed in the field of stochastic calculus and probability theory. The method was first introduced by the French mathematician Paul Lévy in 1938 as a means of modeling the continuous motion of particles in a fluid.</p>
-<p>The term “Brownian Bridge” refers to the fact that the model is based on Brownian motion, which is a type of random walk process that was first studied by the Scottish botanist Robert Brown in 1827. Brown observed the erratic movement of pollen particles in water and concluded that their motion was caused by the thermal energy of the water molecules, which led to the random movement of the pollen particles.</p>
-<p>The Brownian Bridge Movement Model was later adapted for use in movement ecology and has become increasingly popular in recent years, as advances in tracking technology have enabled researchers to collect high-resolution movement data for a wide range of animal species.</p>
-</section>
-<section id="standard-bbmm" class="level3">
-<h3 class="anchored" data-anchor-id="standard-bbmm">Standard BBMM</h3>
-<p>The standard BBMM assumes that an animal’s movement is stationary, meaning that the variance of the movement process is constant over time. However, this assumption may not hold in many cases where an animal’s movement is influenced by external factors such as weather conditions, resource availability, or social interactions.</p>
-</section>
-<section id="dynamic-bbmm" class="level3">
-<h3 class="anchored" data-anchor-id="dynamic-bbmm">Dynamic BBMM</h3>
-<p>To address this limitation, the Dynamic Brownian Bridge Movement Model (dBBMM) was developed. The dBBMM is an extension of the standard BBMM that allows for non-stationary movement, where the variance of the movement process changes over time. In the dBBMM, the variance of the movement process is modeled as a function of time or other covariates, allowing for a more realistic representation of animal movement.</p>
-<p>The dBBMM has several advantages over the standard BBMM:</p>
-<ol type="1">
-<li>It can provide a more accurate estimate of the animal’s movement path by incorporating time-varying movement patterns.</li>
-<li>It can help identify the factors that influence animal movement, such as changes in environmental conditions.</li>
-<li>It can provide insights into the mechanisms that drive animal movement, such as foraging or mating behavior.</li>
-</ol>
-</section>
-</section>
-<section id="workflows" class="level2">
-<h2 class="anchored" data-anchor-id="workflows">Workflows</h2>
-<section id="r-packages-for-bbmm" class="level3">
-<h3 class="anchored" data-anchor-id="r-packages-for-bbmm">R Packages for BBMM</h3>
-<ul>
-<li><p><code>adehabitatLT</code>: This package provides functions for the analysis of animal movement data, including functions for calculating home ranges and implementing the BBMM. It also includes tools for visualizing movement data and conducting statistical tests.</p></li>
-<li><p><code>move</code>: This package provides functions for handling and analyzing movement data, including functions for preprocessing, filtering, and visualizing movement data. It also includes functions for implementing the BBMM and other movement models.</p></li>
-<li><p><code>ctmm</code>: This package provides functions for analyzing animal movement data using continuous-time movement models, including the BBMM and other models. It also includes tools for visualizing movement data and conducting statistical tests.</p></li>
-<li><p><code>trip</code>: This package provides functions for handling and analyzing GPS data, including functions for calculating distances and speeds, and implementing the BBMM and other movement models.</p></li>
-<li><p><code>momentuHMM</code>: This package provides functions for analyzing animal movement data using hidden Markov models (HMMs), including the BBMM and other models. It also includes tools for visualizing movement data and conducting statistical tests.</p></li>
-</ul>
-</section>
-<section id="data-sources" class="level3">
-<h3 class="anchored" data-anchor-id="data-sources">Data Sources</h3>
-<p><a href="https://github.com/walterASEL/Walter-Datasets">Walter Lab GitHub</a></p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
