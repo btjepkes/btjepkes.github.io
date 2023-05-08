@@ -14,7 +14,7 @@ categories:
   - Wildlife
   - Cartography
 image: bg-pine-blue.jpg
-draft: FALSE
+draft: TRUE
 ---
 
 ## Background
