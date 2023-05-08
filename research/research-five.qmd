@@ -1,6 +1,6 @@
 ---
 title: "Beaver-Impacted Water Control Structures"
-subtitle: "Assessing the need for flow devices on wetlands in Northeast Wisconsin."
+subtitle: "Assessing the need for flow devices on wetlands in NE Wisconsin."
 author: "Benjamin Tjepkes"
 date: "5/8/2023"
 categories:

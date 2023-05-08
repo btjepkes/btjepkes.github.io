@@ -153,7 +153,7 @@ nav .nav-item.compact .nav-link {
 /* HEADERS */
 
 .quarto-title-banner {
-  border-bottom: solid #294e51 1px;
+  border-bottom: 5px solid;
   padding-top: 2em;
   padding-bottom: 1.6em;
   background-color: #1e434a;

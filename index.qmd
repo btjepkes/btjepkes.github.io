@@ -1,6 +1,6 @@
 ---
 title: "Benjamin W. Tjepkes, BSc."
-subtitle: "Dedicated professional with a passion for conservation and geospatial science."
+subtitle: "Dedicated ecologist and geographer with a passion for conservation and geospatial."
 about:
   id: about-id
   template: solana
