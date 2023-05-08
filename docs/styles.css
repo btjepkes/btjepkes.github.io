@@ -194,6 +194,12 @@ nav .nav-item.compact .nav-link {
 }
 
 
+
+.quarto-grid-item:hover .card-title::after {
+  border-top: solid 2px orange;
+  width: 18%;
+}
+
 .quarto-grid-item .card-title::after {
   content: "";
   display: block;
