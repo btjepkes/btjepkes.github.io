@@ -1,6 +1,6 @@
 ---
 title: "Benjamin W. Tjepkes, BSc."
-subtitle: "Wildlife ecologist and budding geographer with a passion for conservation."
+subtitle: "Wildlife ecologist and budding geographer with a passion for applied conservation."
 about:
   id: about-id
   template: solana

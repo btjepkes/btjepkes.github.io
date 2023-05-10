@@ -1,12 +1,12 @@
 ---
 title: "Creating an Interactive Heatmap of GBIF Occurrences in R"
-subtitle: "Exploring concentrations of sage grouse records."
+subtitle: "Exploring concentrations of Greater sage grouse records."
 author:
   - name: Benjamin Tjepkes  
     url: about.qmd
     orcid: 0009-0002-5524-2675
 date-modified: "5/5/2023"
-abstract: In this blog post, we demonstrate how to use the `rgbif` package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap of the species' distribution using Leaflet.
+abstract: In this blog post, we demonstrate how to use the `rgbif` package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap using Leaflet.
 abstract-title: ""
 categories:
   - Testing
@@ -18,15 +18,18 @@ image: img-sage-grouse.jpg
 
 ## Background
 
-### Sage Grouse
+### Sage Grouse - An Icon of the West
 
-The Greater sage grouse (*Centrocercus urophasianus*) is a bird species that is native to the western United States. These grouse are an important species for the ecosystems they inhabit, as they plays a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes. However, the sage grouse population has declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species.
+The Greater sage grouse (*Centrocercus urophasianus*) is a bird species native to portions of the western United States. They are important species for the ecosystems they inhabit and play a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes.
 
-![Greater sage grouse at Little Sand Draw lek. Photo: Pat Hnilicka](img-sage-grouse.jpg)
+![Greater sage grouse at lek. Photo: Pat Hnilicka](img-sage-grouse.jpg)
+
+Sage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.
+
 
 ### Data Sources
 
-GBIF is a database of species occurrence records from sources all over the globe. `rgbif`is an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data.
+Today, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. `rgbif`is an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data.
 
 ## Workflow
 
@@ -45,10 +48,7 @@ library(leaflet)
 Now that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States.
 
 ``` r
-wyoming <- name_backbone("Centrocercus urophasianus",
-                          country = "US",
-                          hasCoordinate = TRUE,
-                          stateProvince = "Wyoming")
+grouse_info <- name_backbone("Centrocercus urophasianus")
 ```
 
 ### 3. Extract Locations

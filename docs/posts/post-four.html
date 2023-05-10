@@ -206,7 +206,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Creating an Interactive Heatmap of GBIF Occurrences in R</h1>
-            <p class="subtitle lead">Exploring concentrations of sage grouse records.</p>
+            <p class="subtitle lead">Exploring concentrations of Greater sage grouse records.</p>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Testing</div>
                 <div class="quarto-category">R</div>
@@ -239,7 +239,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <div>
     <div class="abstract">
       <div class="abstract-title"></div>
-      In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap of the species’ distribution using Leaflet.
+      In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap using Leaflet.
     </div>
   </div>
   
@@ -253,7 +253,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <ul>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a>
   <ul class="collapse">
-  <li><a href="#sage-grouse" id="toc-sage-grouse" class="nav-link" data-scroll-target="#sage-grouse">Sage Grouse</a></li>
+  <li><a href="#sage-grouse---an-icon-of-the-west" id="toc-sage-grouse---an-icon-of-the-west" class="nav-link" data-scroll-target="#sage-grouse---an-icon-of-the-west">Sage Grouse - An Icon of the West</a></li>
   <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">Data Sources</a></li>
   </ul></li>
   <li><a href="#workflow" id="toc-workflow" class="nav-link" data-scroll-target="#workflow">Workflow</a>
@@ -274,19 +274,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
-<section id="sage-grouse" class="level3">
-<h3 class="anchored" data-anchor-id="sage-grouse">Sage Grouse</h3>
-<p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a bird species that is native to the western United States. These grouse are an important species for the ecosystems they inhabit, as they plays a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes. However, the sage grouse population has declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species.</p>
+<section id="sage-grouse---an-icon-of-the-west" class="level3">
+<h3 class="anchored" data-anchor-id="sage-grouse---an-icon-of-the-west">Sage Grouse - An Icon of the West</h3>
+<p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a bird species native to portions of the western United States. They are important species for the ecosystems they inhabit and play a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img-sage-grouse.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Greater sage grouse at Little Sand Draw lek. Photo: Pat Hnilicka</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Greater sage grouse at lek. Photo: Pat Hnilicka</figcaption><p></p>
 </figure>
 </div>
+<p>Sage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.</p>
 </section>
 <section id="data-sources" class="level3">
 <h3 class="anchored" data-anchor-id="data-sources">Data Sources</h3>
-<p>GBIF is a database of species occurrence records from sources all over the globe. <code>rgbif</code>is an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data.</p>
+<p>Today, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. <code>rgbif</code>is an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data.</p>
 </section>
 </section>
 <section id="workflow" class="level2">
@@ -302,10 +303,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="search-gbif" class="level3">
 <h3 class="anchored" data-anchor-id="search-gbif">2. Search GBIF</h3>
 <p>Now that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>wyoming <span class="ot">&lt;-</span> <span class="fu">name_backbone</span>(<span class="st">"Centrocercus urophasianus"</span>,</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>                          <span class="at">country =</span> <span class="st">"US"</span>,</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>                          <span class="at">hasCoordinate =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>                          <span class="at">stateProvince =</span> <span class="st">"Wyoming"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>grouse_info <span class="ot">&lt;-</span> <span class="fu">name_backbone</span>(<span class="st">"Centrocercus urophasianus"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="extract-locations" class="level3">
 <h3 class="anchored" data-anchor-id="extract-locations">3. Extract Locations</h3>
