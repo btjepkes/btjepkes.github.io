@@ -20,7 +20,7 @@ website:
       - href: about.qmd
         text: About
       - href: gallery.qmd
-        text: Projects
+        text: Gallery
       - href: research.qmd
         text: Research        
       - href: resources.qmd
