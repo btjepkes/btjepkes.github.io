@@ -10,6 +10,7 @@ categories:
   - Avian
   - Geospatial
   - Wildlife
+image: img-eagle-nesting.jpg
 ---
 
 ![](../research/eagle-poster.jpg)

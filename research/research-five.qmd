@@ -4,6 +4,9 @@ subtitle: "Assessing the need for flow devices on wetlands in NE Wisconsin."
 author: "Benjamin Tjepkes"
 date: "5/8/2023"
 categories:
-  - Testing
-  - Research
+  - Undergraduate
+  - Mammal
+  - Wildlife
 ---
+
+![](../research/img-beaver-impacted-wcs.jpg)
