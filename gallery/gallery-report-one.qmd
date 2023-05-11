@@ -4,7 +4,9 @@ subtitle: "FY2021 Annual Report on Furbearer Harvest, Status, and Program Activi
 author: "Benjamin Tjepkes"
 date-modified: "5-10-2023"
 categories:
-  - Testing
+  - Report
+  - Missouri
+  - Furbearers
 ---
 
 ![](../gallery/img-2021-mdc-furbearer-report.jpg)

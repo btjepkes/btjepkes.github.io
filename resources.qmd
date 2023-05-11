@@ -7,13 +7,10 @@ listing:
   contents:
     - resources.yml
   type: grid
-  categories: numbered
-  filter-ui: true
+  categories: false
+  filter-ui: false
     
 ---
-
-::: {#resource-listings}
-:::
 
 
 ## Resources for **Wildlifers**
@@ -50,3 +47,7 @@ listing:
 ### Learning QGIS
 
 - [YouTube Channel ~ DMAD QGIS Lessons](https://www.youtube.com/c/DMADMarineMammalsResearchAssociation)
+
+## Additional Resources
+::: {#resource-listings}
+:::

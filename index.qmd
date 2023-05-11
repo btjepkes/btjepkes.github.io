@@ -43,14 +43,12 @@ Hi, my name is Ben Tjepkes and I am a dedicated **wildlife ecologist** and **geo
 ::: {#site-listings}
 :::
 
-![](img-ben-work.png)
 
 ## 01. Trained as a biologist. {.intro-heading}
 
 My expertise lies in wildlife ecology and management, which has been the focal point of my professional pursuits for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.
 
 My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I complemented my academic knowledge through internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.
-
 
 ## 02. Drawn to geospatial. {.intro-heading}
 

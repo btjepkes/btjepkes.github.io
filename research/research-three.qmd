@@ -2,8 +2,17 @@
 title: "Raccoon Space-Use and Home Ranges"
 subtitle: "Determining sex-specific space-use for raccoons in Laramie, Wyoming."
 author: "Benjamin Tjepkes"
-date: "4/29/2023"
+date: "5/11/2023"
 categories:
-  - Testing
-  - Research
+  - Undergraduate
+  - Mammal
+  - Wyoming
+image: img-raccoon-hr.jpg
+abstract: This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.
+abstract-title: ""
 ---
+
+## Project Presentations & Outcomes
+
+**Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (*Procyon lotor*) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.**
+

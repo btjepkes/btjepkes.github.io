@@ -1,6 +1,6 @@
 ---
 title: "My Gallery"
-subtitle: "Maps, data visualiztions, reports, and other creative creations."
+subtitle: "Maps, data visualiztions, reports, posters, and presentations."
 image: bg-pinecone.jpg
 listing: 
   contents: gallery

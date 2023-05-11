@@ -126,25 +126,25 @@
     "text": "Creating an Interactive Heatmap of GBIF Occurrences in R\n\n\nExploring concentrations of Greater sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Wonderful Thematic Maps Using the tmap Package in R\n\n\nPublication-ready maps in minutes.\n\n\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto in R\n\n\nStop manually updating the same report with different inputs.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "research/research-three.html",
+    "href": "research/research-three.html",
+    "title": "Raccoon Space-Use and Home Ranges",
+    "section": "",
+    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "My Research",
     "section": "",
-    "text": "Bald Eagle Nest-Site Selection\n\n\nAssessing bald eagle nests along the Upper Mississippi River, 1990-2012.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nAssessing the need for flow devices on wetlands in NE Wisconsin.\n\n\n\n\n\n\n\n\n\n \n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nDetermining sex-specific space-use for raccoons in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n \n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nAn assessment of ruffed grouse reproductive habitat in Northern Wisconsin.\n\n\n\n\n\n\n\n\n\n \n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nAn assessment of small mammals in Schmeekle Reserve, Wisconsin.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Bald Eagle Nest-Site Selection\n\n\nAssessing bald eagle nests along the Upper Mississippi River, 1990-2012.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nAssessing the need for flow devices on wetlands in NE Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nDetermining sex-specific space-use for raccoons in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n \n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nAn assessment of ruffed grouse reproductive habitat in Northern Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nAn assessment of small mammals in Schmeekle Reserve, Wisconsin.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "for web publishing\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/html/html.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfor high quality print\n\n\n\n\n\nhref\n\n\nhttps://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfor Office workflows\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "resources.html#resources-for-wildlifers",
-    "href": "resources.html#resources-for-wildlifers",
-    "title": "Resources",
-    "section": "Resources for Wildlifers",
-    "text": "Resources for Wildlifers\n\nJob Resources\n\nBlog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
+    "text": "Blog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
   },
   {
     "objectID": "resources.html#resources-for-r-users",
@@ -159,5 +159,12 @@
     "title": "Resources",
     "section": "Resources for GIS Users",
     "text": "Resources for GIS Users\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
+  },
+  {
+    "objectID": "resources.html#additional-resources",
+    "href": "resources.html#additional-resources",
+    "title": "Resources",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\n\n\n\n\n\n\nHTML\n\n\nfor web publishing\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/html/html.html\n\n\n\n\n\n\n\n\n\n\n\n\n\nPDF\n\n\nfor high quality print\n\n\n\n\n\nhref\n\n\nhttps://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf\n\n\n\n\n\n\n\n\n\n\n\n\n\nMS Word\n\n\nfor Office workflows\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx\n\n\n\n\n\n\n\n\n\n\n\n\n\nHTML\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html\n\n\n\n\n\n\n\n\n\n\n\n\n\nPDF\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
