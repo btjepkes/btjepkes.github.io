@@ -189,6 +189,11 @@ body {
   margin-left: auto;
 }
 
+.quarto-grid-item {
+  border: solid 2px;
+}
+
+
 .quarto-grid-item .listing-categories {
   display: flex;
   flex-wrap: wrap;
@@ -256,14 +261,6 @@ body {
   margin-top: -2em;
 }
 
-
-@media (max-width: 991.98px) {
-  .about-image {
-    margin-top: -50px;
-  }
-  
-}
-
 .about-image {
   border: solid #9fc490 7px;
   animation: pulsate 0.5s ease-out;
@@ -277,7 +274,7 @@ body {
   }
   100% {
     transform: scale(1.0);
-    opacity: 0.8;
+    opacity: 0.6;
   }
 }
 
