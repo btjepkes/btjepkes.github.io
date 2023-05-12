@@ -154,8 +154,7 @@ nav .nav-item.compact .nav-link {
   color: black;
   background: #ffffff66;
   text-align: center;
-  padding-bottom: 0px;
-  margin-bottom: -20px;
+  margin-bottom: 0px;
 }
 
 body {
@@ -190,7 +189,7 @@ body {
 }
 
 .quarto-grid-item {
-  border: solid 2px;
+  border: solid 1px;
 }
 
 
@@ -238,6 +237,11 @@ body {
   opacity: 1.0;
 }
 
+.quarto-title .quarto-categories {
+    display: flex;
+    justify-content: center;
+}
+
 /* FIGURES & IMAGES */
 
 .figure-caption {
@@ -258,7 +262,7 @@ body {
 /* ABOUT on Index */
 
 .quarto-about-solana {
-  margin-top: -2em;
+  margin-top: -5em;
 }
 
 .about-image {

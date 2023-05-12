@@ -44,60 +44,7 @@ website:
 
             
   page-footer:
-    left: "Proudly made by B. Tjepkes.<br>Licensed under CC-BY." 
-    background: rgb(7,54,66)
-    right: 
-      - icon: linkedin
-        href: https://www.linkedin.com/in/benjamintjepkes/
-        aria-label: LinkedIn Profile
-      - icon: github
-        href: https://github.com/btjepkes
-        aria-label: GitHub Profile
-      - icon: instagram
-        href: https://instagram.com/ben.tjepkes
-        aria-label: Instagram Profile
-      - icon: twitter
-        href: https://twitter.com/BTjepkes
-        aria-label: Twitter Profile
-  
-  # sidebar:
-  #     style: "floating"
-  #     background: rgb(0,26,32)
-  #     collapse-level: 1
-  #     contents:
-  #     - section: "Navigation"      
-  #     - section: "Recent Projects"
-  #       contents:
-  #         - text: "Data Viz & Reports"
-  #           href: gallery.qmd#data-viz-and-reports
-  #         - text: "GIS & Mapping"
-  #           href: gallery.qmd#gis-and-mapping
-  #         - text: "Blogging & Writing"
-  #           href: gallery.qmd#blog-writings
-  #     - section: "Latest Research"
-  #       contents:
-  #         - text: Bald Eagle Nesting
-  #           href: research.qmd#bald-eagle-nest-site-selection
-  #         - text: Small Mammals & Fire
-  #           href: research.qmd#small-mammal-response-to-prescribed-fire
-  #         - text: Raccoon Space-Use
-  #           href: research.qmd#raccoon-habitat-use-and-selection
-  #     - section: "Favorite Resources"
-  #       contents:
-  #         - text: Wildlife Professionals
-  #           href: resources.qmd#resources-for-wildlifers
-  #         - text: R Programming
-  #           href: resources.qmd#resources-for-r-users
-  #         - text: GIS & Spatial Analysis
-  #           href: resources.qmd#resources-for-gis-users
-  #     - section: "Top Blog Topics"
-  #       contents:
-  #         - text: R Programming
-  #           href: posts.qmd#category=R
-  #         - text: Data Reporting
-  #           href: posts.qmd#category=Data Reporting
-  #         - text: Maps & Cartography
-  #           href: posts.qmd#category=Cartography
+    center: "Proudly made by B. Tjepkes using Quarto.<br>Licensed under CC-BY."
           
 format:
   html:
