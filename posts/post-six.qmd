@@ -1,0 +1,23 @@
+---
+title: "Using Data from the USA National Phenology Network in R"
+subtitle: "Exploring phenological records."
+author:
+  - name: Benjamin Tjepkes  
+    url: about.qmd
+    orcid: 0009-0002-5524-2675
+date-modified: "5/11/2023"
+abstract: This post is pending.
+abstract-title: ""
+categories:
+  - Testing
+  - R
+  - phenology
+image: bg-pine-blue.jpg
+draft: TRUE
+---
+
+This post is pending.
+
+## Data Sources
+
+[Real World Data Science](https://realworlddatascience.net/ideas/tutorials/posts/2023/04/13/flowers.html)

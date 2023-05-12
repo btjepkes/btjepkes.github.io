@@ -101,7 +101,7 @@ website:
           
 format:
   html:
-    theme: solar
+    theme: lumen
     css: styles.css
     toc: true
     smooth-scroll: true
