@@ -41,7 +41,21 @@ website:
 
             
   page-footer:
-    center: "Proudly made by B. Tjepkes using Quarto."
+    left: "Proudly made by B. Tjepkes<br>using Quarto and RStudio."
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/benjamintjepkes/
+        aria-label: LinkedIn Profile
+      - icon: github
+        href: https://github.com/btjepkes
+        aria-label: GitHub Profile
+      - icon: instagram
+        href: https://instagram.com/ben.tjepkes
+        aria-label: Instagram Profile
+      - icon: twitter
+        href: https://twitter.com/BTjepkes
+        aria-label: Twitter Profile
+
           
 format:
   html:

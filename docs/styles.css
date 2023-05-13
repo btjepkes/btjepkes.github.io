@@ -8,12 +8,12 @@ h1 {
 
 h2 {
   border-bottom: solid 4px #6ba2bd;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   font-weight: 700;
 }
 
 h3 {
-  margin-top: 2rem;
+  font-weight: 500;
 }
 
 ol, ul {
@@ -21,7 +21,8 @@ ol, ul {
 }
 
 code {
-  color: #9fc490;
+  color: #344757;
+  background-color: white;
   padding: 0.08rem 0.25rem;
 }
 
@@ -172,6 +173,9 @@ body {
 .subtitle {
   font-weight: 400;
   line-height: 1.4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #6BA2BD;
 }
 
 
@@ -197,7 +201,9 @@ body {
   padding-top: 10px;
 }
 
-
+.quarto-grid-item {
+  background: white;
+}
 
 .quarto-grid-item:hover .card-title::after {
   border-top: solid 4px orange;
@@ -266,7 +272,6 @@ body {
 }
 
 .about-image {
-  border: solid #9fc490 7px;
   animation: pulsate 0.5s ease-out;
   animation-iteration-count: 1;
 }
@@ -290,5 +295,3 @@ body {
 .intro-heading h2 {
   margin-top: 1em !important;
 }
-
-

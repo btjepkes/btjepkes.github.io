@@ -18,7 +18,7 @@ image: img-sage-grouse.jpg
 
 ## Background
 
-### Sage Grouse - An Icon of the West
+### Focal Species = Sage Grouse
 
 The Greater sage grouse (*Centrocercus urophasianus*) is a bird species native to portions of the western United States. They are important species for the ecosystems they inhabit and play a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes.
 
