@@ -173,8 +173,8 @@ body {
 .subtitle {
   font-weight: 400;
   line-height: 1.4;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 8px;
   color: #6BA2BD;
 }
 
@@ -264,7 +264,7 @@ body {
 /* ABOUT on Index */
 
 .quarto-about-solana {
-  margin-top: -5em;
+  margin-top: -4em;
 }
 
 .about-link {
