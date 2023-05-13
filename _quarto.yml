@@ -5,10 +5,7 @@ project:
 website:
   title: "B.W.Tjepkes"
   favicon: logo-1.png
-  search:
-    location: navbar
-    type: textbox
-    copy-button: true
+  search: false
   open-graph: true
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   repo-actions: [issue]
@@ -44,7 +41,7 @@ website:
 
             
   page-footer:
-    center: "Proudly made by B. Tjepkes using Quarto.<br>Licensed under CC-BY."
+    center: "Proudly made by B. Tjepkes using Quarto."
           
 format:
   html:
