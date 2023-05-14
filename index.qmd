@@ -1,5 +1,5 @@
 ---
-title: "Benjamin W. Tjepkes, BSc."
+title: "Benjamin W. Tjepkes"
 subtitle: "Wildlife ecologist and budding geographer with a passion for applied science."
 toc: false
 about:

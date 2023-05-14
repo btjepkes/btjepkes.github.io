@@ -6,10 +6,10 @@ website:
   title: "B.W.Tjepkes"
   favicon: logo-1.png
   back-to-top-navigation: true
-  search: false
+  search: true
   open-graph: true
   repo-url: https://github.com/btjepkes/btjepkes.github.io
-  repo-actions: [issue]
+
   navbar:
     pinned: false
     left:
@@ -42,7 +42,7 @@ website:
 
             
   page-footer:
-    left: "Proudly made by B. Tjepkes<br>using Quarto and RStudio."
+    left: "Proudly made by B. Tjepkes."
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/

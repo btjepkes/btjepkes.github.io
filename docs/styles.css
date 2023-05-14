@@ -111,14 +111,14 @@ nav .nav-item.compact .nav-link {
   margin: auto;
 }
 
-/* Search Button and Popup*/
+/* Search Button and Popup
 #quarto-search > div > button > div.aa-DetachedSearchButtonIcon::after {
   content: " - Search Site";
 }
 
 #quarto-search > div > button > div.aa-DetachedSearchButtonIcon {
   font-size: 18px;
-  padding-bottom: 20px}
+  padding-bottom: 20px}*/
   
 .aa-DetachedContainer--modal {
     border-radius: 6px;
@@ -294,4 +294,10 @@ body {
 
 .intro-heading h2 {
   margin-top: 1em !important;
+}
+
+
+#quarto-back-to-top {
+bottom: 100px;
+left: 90%;
 }
