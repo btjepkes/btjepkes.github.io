@@ -4,11 +4,18 @@
     "href": "about-test.html",
     "title": "Benjamin Tjepkes, BSc.",
     "section": "",
-    "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nLearn More About Me →"
+    "text": "I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nLearn More About Me →\n\n\n Back to top"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\nApplied Conservation Science — My work aims to inform on-the-ground management and decisions through applied research in conservation.\nSpatial and Movement Ecology — I am fascinated by all aspects of wildlife space use, resource selection, and spatial ecology.\nImperiled Species Conservation — Our most imperiled species need immediate attention and sound science to support recovery and protection efforts.\nLandscape Connectivity & Planning — Much of my interest in GIS relates to the use of those technologies for researching the ecological relationships of species and the landscape.\nWeb and Cartographic Design — My passion for web and cartographic design satisfies my artistic inclination, whether I’m delving into the intricacies of CSS code for a website or honing my skills in crafting visually appealing and effective map designs.\nOpen Source Programming — While I also use proprietary software, I am a big proponent of using and supporting open source projects like Posit and QGIS."
+  },
+  {
+    "objectID": "about.html#my-interests",
+    "href": "about.html#my-interests",
     "title": "About Me",
     "section": "",
     "text": "My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\nApplied Conservation Science — My work aims to inform on-the-ground management and decisions through applied research in conservation.\nSpatial and Movement Ecology — I am fascinated by all aspects of wildlife space use, resource selection, and spatial ecology.\nImperiled Species Conservation — Our most imperiled species need immediate attention and sound science to support recovery and protection efforts.\nLandscape Connectivity & Planning — Much of my interest in GIS relates to the use of those technologies for researching the ecological relationships of species and the landscape.\nWeb and Cartographic Design — My passion for web and cartographic design satisfies my artistic inclination, whether I’m delving into the intricacies of CSS code for a website or honing my skills in crafting visually appealing and effective map designs.\nOpen Source Programming — While I also use proprietary software, I am a big proponent of using and supporting open source projects like Posit and QGIS."
@@ -49,11 +56,53 @@
     "text": "Connecting with Me\nInterested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
   },
   {
+    "objectID": "gallery/gallery-map-five.html",
+    "href": "gallery/gallery-map-five.html",
+    "title": "Overlaying Public Lands with BMZs",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "gallery/gallery-map-four.html",
+    "href": "gallery/gallery-map-four.html",
+    "title": "Choropleth of Missouri Bear Sightings in 2020",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "gallery/gallery-map-one.html",
+    "href": "gallery/gallery-map-one.html",
+    "title": "Vineyard and Winery Location Suitability",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "gallery/gallery-map-three.html",
+    "href": "gallery/gallery-map-three.html",
+    "title": "Shoreline Structure Setback Compliance",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "gallery/gallery-map-two.html",
+    "href": "gallery/gallery-map-two.html",
+    "title": "Navigation Map for Field Research Station",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "gallery/gallery-report-one.html",
+    "href": "gallery/gallery-report-one.html",
+    "title": "Annual Report for MDC Furbearer Program",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
     "objectID": "gallery.html",
     "href": "gallery.html",
     "title": "My Gallery",
     "section": "",
-    "text": "Overlaying Public Lands with BMZs\n\n\nState and federal lands within Bear Management Zones in Missouri.\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings in 2020\n\n\nCounty-based counts of reported bear sightings in Missouri.\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\nDigitized structures and OHWM for three lakes in Portage County, Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNavigation Map for Field Research Station\n\n\nRoad navigation map for the Northern Aquaculture Demonstration Facility.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\nFY2021 Annual Report on Furbearer Harvest, Status, and Program Activities.\n\n\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability\n\n\nOptimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Overlaying Public Lands with BMZs\n\n\nState and federal lands within Bear Management Zones in Missouri.\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings in 2020\n\n\nCounty-based counts of reported bear sightings in Missouri.\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\nDigitized structures and OHWM for three lakes in Portage County, Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\nNavigation Map for Field Research Station\n\n\nRoad navigation map for the Northern Aquaculture Demonstration Facility.\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\nFY2021 Annual Report on Furbearer Harvest, Status, and Program Activities.\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability\n\n\nOptimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -91,15 +140,29 @@
     "text": "The Greater sage grouse (Centrocercus urophasianus) is a bird species native to portions of the western United States. They are important species for the ecosystems they inhabit and play a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes.\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\n\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
   },
   {
+    "objectID": "posts/post-four.html#background",
+    "href": "posts/post-four.html#background",
+    "title": "Creating an Interactive Heatmap of GBIF Occurrences in R",
+    "section": "",
+    "text": "The Greater sage grouse (Centrocercus urophasianus) is a bird species native to portions of the western United States. They are important species for the ecosystems they inhabit and play a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes.\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\n\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
+  },
+  {
     "objectID": "posts/post-four.html#workflow",
     "href": "posts/post-four.html#workflow",
     "title": "Creating an Interactive Heatmap of GBIF Occurrences in R",
     "section": "Workflow",
-    "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\ninstall.packages(\"rgbif\")   # for accessing GBIF data\ninstall.packages(\"leaflet\") # for mapping data\nlibrary(rgbif)\nlibrary(leaflet)\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States.\ngrouse_info <- name_backbone(\"Centrocercus urophasianus\")\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords <- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nleaflet(wyoming_coords) %>% \n  addTiles() %>%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
+    "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\ninstall.packages(\"rgbif\")   # for accessing GBIF data\ninstall.packages(\"leaflet\") # for mapping data\nlibrary(rgbif)\nlibrary(leaflet)\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States.\ngrouse_info &lt;- name_backbone(\"Centrocercus urophasianus\")\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords &lt;- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nleaflet(wyoming_coords) %&gt;% \n  addTiles() %&gt;%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
   },
   {
     "objectID": "posts/post-one.html",
     "href": "posts/post-one.html",
+    "title": "Creating Wonderful Thematic Maps Using the tmap Package in R",
+    "section": "",
+    "text": "Please check back soon!"
+  },
+  {
+    "objectID": "posts/post-one.html#this-post-is-pending.",
+    "href": "posts/post-one.html#this-post-is-pending.",
     "title": "Creating Wonderful Thematic Maps Using the tmap Package in R",
     "section": "",
     "text": "Please check back soon!"
@@ -112,8 +175,22 @@
     "text": "Please check back soon!"
   },
   {
+    "objectID": "posts/post-three.html#this-post-is-pending.",
+    "href": "posts/post-three.html#this-post-is-pending.",
+    "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
+    "section": "",
+    "text": "Please check back soon!"
+  },
+  {
     "objectID": "posts/post-two.html",
     "href": "posts/post-two.html",
+    "title": "Streamlining Your Reporting Workflow with Quarto in R",
+    "section": "",
+    "text": "Please check back soon!"
+  },
+  {
+    "objectID": "posts/post-two.html#this-post-is-pending.",
+    "href": "posts/post-two.html#this-post-is-pending.",
     "title": "Streamlining Your Reporting Workflow with Quarto in R",
     "section": "",
     "text": "Please check back soon!"
@@ -123,7 +200,28 @@
     "href": "posts.html",
     "title": "My Blog Posts",
     "section": "",
-    "text": "Creating an Interactive Heatmap of GBIF Occurrences in R\n\n\nExploring concentrations of Greater sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Wonderful Thematic Maps Using the tmap Package in R\n\n\nPublication-ready maps in minutes.\n\n\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto in R\n\n\nStop manually updating the same report with different inputs.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Creating an Interactive Heatmap of GBIF Occurrences in R\n\n\nExploring concentrations of Greater sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Wonderful Thematic Maps Using the tmap Package in R\n\n\nPublication-ready maps in minutes.\n\n\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto in R\n\n\nStop manually updating the same report with different inputs.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "research/research-five.html",
+    "href": "research/research-five.html",
+    "title": "Beaver-Impacted Water Control Structures",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "research/research-four.html",
+    "href": "research/research-four.html",
+    "title": "Ruffed Grouse Drumming Log Selection",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "research/research-one.html",
+    "href": "research/research-one.html",
+    "title": "Bald Eagle Nest-Site Selection",
+    "section": "",
+    "text": "Back to top"
   },
   {
     "objectID": "research/research-three.html",
@@ -133,15 +231,36 @@
     "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
   },
   {
+    "objectID": "research/research-three.html#project-presentations-outcomes",
+    "href": "research/research-three.html#project-presentations-outcomes",
+    "title": "Raccoon Space-Use and Home Ranges",
+    "section": "",
+    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+  },
+  {
+    "objectID": "research/research-two.html",
+    "href": "research/research-two.html",
+    "title": "Small Mammal Response to Prescribed Fire",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "My Research",
     "section": "",
-    "text": "Bald Eagle Nest-Site Selection\n\n\nAssessing bald eagle nests along the Upper Mississippi River, 1990-2012.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nAssessing the need for flow devices on wetlands in NE Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nDetermining sex-specific space-use for raccoons in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n \n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nAn assessment of ruffed grouse reproductive habitat in Northern Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nAn assessment of small mammals in Schmeekle Reserve, Wisconsin.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Bald Eagle Nest-Site Selection\n\n\nAssessing bald eagle nests along the Upper Mississippi River, 1990-2012.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nAssessing the need for flow devices on wetlands in NE Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nDetermining sex-specific space-use for raccoons in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nAn assessment of ruffed grouse reproductive habitat in Northern Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nAn assessment of small mammals in Schmeekle Reserve, Wisconsin.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "resources.html",
     "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Blog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
+  },
+  {
+    "objectID": "resources.html#resources-for-wildlifers",
+    "href": "resources.html#resources-for-wildlifers",
     "title": "Resources",
     "section": "",
     "text": "Blog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"

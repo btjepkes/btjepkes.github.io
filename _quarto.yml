@@ -5,6 +5,7 @@ project:
 website:
   title: "B.W.Tjepkes"
   favicon: logo-1.png
+  back-to-top-navigation: true
   search: false
   open-graph: true
   repo-url: https://github.com/btjepkes/btjepkes.github.io
