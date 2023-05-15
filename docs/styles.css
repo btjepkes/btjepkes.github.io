@@ -4,6 +4,7 @@
 
 h1 {
   font-weight: 900;
+  font-size: 2rem !important;
 }
 
 h2 {
@@ -296,6 +297,6 @@ body {
 
 
 #quarto-back-to-top {
-bottom: 120px;
+bottom: 10px;
 left: 15%;
 }

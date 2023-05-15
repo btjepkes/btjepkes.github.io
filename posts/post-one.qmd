@@ -3,7 +3,7 @@ title: "Creating Wonderful Thematic Maps Using the `tmap` Package in R"
 subtitle: "Publication-ready maps in minutes."
 author:
   - name: Benjamin Tjepkes  
-    url: about.qmd
+    url: //about.qmd
     orcid: 0009-0002-5524-2675
 date: "4/16/2023"
 abstract: In this post, we talk about making thematic maps in R, specifically with the tmap package. There are several R packages for map creation, but `tmap` allows you to easily develop a thematic map in minutes.

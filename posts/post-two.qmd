@@ -3,7 +3,7 @@ title: "Streamlining Your Reporting Workflow with Quarto in R"
 subtitle: "Stop manually updating the same report with different inputs."
 author:
   - name: Benjamin Tjepkes  
-    url: about.qmd
+    url: //about.qmd
     orcid: 0009-0002-5524-2675
 date: "4/16/2023"
 abstract: "In this post, we talk about how to make your reporting workflows WAY easier. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing reports using Quarto in the R environment."
