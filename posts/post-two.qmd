@@ -1,5 +1,5 @@
 ---
-title: "Streamlining Your Reporting Workflow with Quarto in R"
+title: "Streamlining Your Reporting Workflow with Quarto"
 subtitle: "Stop manually updating the same report with different inputs."
 author:
   - name: Benjamin Tjepkes  
