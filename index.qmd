@@ -6,7 +6,7 @@ about:
   id: about-id
   template: solana
   image: img-ben-portrait.jpg
-  image-shape: round
+  image-shape: rectangle
   links:
     - icon: twitter
       text: Twitter
