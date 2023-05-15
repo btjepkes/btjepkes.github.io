@@ -35,9 +35,11 @@ listing:
     - subtitle
 ---
 
+Hi, my name is **Ben Tjepkes** and this is my professional portfolio and technical blog site showcasing my work in ecology and geospatial. Have a look around this site to explore my past and current work.
+
 ::: {#about-id}
 
-Hi, my name is Ben Tjepkes and I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation. Have a look around this site to explore my past and current work.
+I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.
 
 :::
 
