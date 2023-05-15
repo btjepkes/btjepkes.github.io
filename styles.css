@@ -4,7 +4,7 @@
 
 h1 {
   font-weight: 900;
-  font-size: 2.8em;
+  font-size: 2em;
 }
 
 h2 {
@@ -58,10 +58,6 @@ div.quarto-about-solana .about-entity .about-links {
   border: none;
 }
 
-.navbar > .container-fluid {
-  display: flex;
-  flex-direction: row-reverse;
-}
 
 .navbar-brand span {
   font-weight: 900;
@@ -304,6 +300,6 @@ body {
 
 
 #quarto-back-to-top {
-bottom: 100px;
-left: 90%;
+bottom: 120px;
+left: 85%;
 }
