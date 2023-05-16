@@ -298,12 +298,11 @@ body {
 
 
 #quarto-back-to-top {
-bottom: 100px;
+bottom: 20px;
 left: 50%;
 }
 
 
-.nav-footer .nav-footer-center {
+.nav-footer .nav-footer {
   margin-top: 1em;
-  margin-bottom: 1em;
 }

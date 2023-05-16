@@ -196,11 +196,11 @@
     "text": "Creating an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Wonderful Thematic Maps Using the tmap Package in R\n\n\nPublication-ready maps in minutes.\n\n\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto\n\n\nStop manually updating the same report with different inputs.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "research/research-five.html",
-    "href": "research/research-five.html",
+    "objectID": "research/research-five.html#project-reports",
+    "href": "research/research-five.html#project-reports",
     "title": "Beaver-Impacted Water Control Structures",
-    "section": "",
-    "text": "Back to top"
+    "section": "Project Reports",
+    "text": "Project Reports\nTjepkes, B.W. 2017. Assessing the need for flow devices on beaver impacted flowages. Unpublished report."
   },
   {
     "objectID": "research/research-four.html",
@@ -210,11 +210,18 @@
     "text": "Back to top"
   },
   {
-    "objectID": "research/research-one.html",
-    "href": "research/research-one.html",
+    "objectID": "research/research-one.html#project-presentations",
+    "href": "research/research-one.html#project-presentations",
     "title": "Bald Eagle Nest-Site Selection",
-    "section": "",
-    "text": "Back to top"
+    "section": "Project Presentations",
+    "text": "Project Presentations\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, B.J. Stemper, and S.L. Winter. 2019. Bald eagle nest-site selection along the Upper Mississippi River, 1990-2012. [Poster] UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2019. Bald eagle nest monitoring on the upper Mississippi River, 1990-2012. [Talk] Mississippi River Research Consortium, La Crosse, WI."
+  },
+  {
+    "objectID": "research/research-one.html#project-reports-datasets",
+    "href": "research/research-one.html#project-reports-datasets",
+    "title": "Bald Eagle Nest-Site Selection",
+    "section": "Project Reports & Datasets",
+    "text": "Project Reports & Datasets\nFetherston, S.C., B.W. Tjepkes, S.E. Hygnstrom, and S.L. Winter. 2020. Final Report: Bald Eagle Nest Monitoring on the Upper Mississippi River, 1990–2012. USFWS Technical Report.\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2020. Bald Eagle Nest Monitoring on the Upper Mississippi River, 1990-2012. USFWS Geospatial Dataset."
   },
   {
     "objectID": "research/research-three.html",
