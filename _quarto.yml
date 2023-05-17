@@ -44,8 +44,10 @@ website:
             
   page-footer:
     left:
+      - text: "Proudly made by Benjamin Tjepkes."
+    center:
       - icon: c-circle
-        text: "2023 - Proudly made by Benjamin Tjepkes."
+        text: "Copyright 2023"      
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/

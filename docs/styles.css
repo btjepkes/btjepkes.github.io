@@ -306,3 +306,9 @@ left: 50%;
 .nav-footer .nav-footer {
   margin-top: 1em;
 }
+
+@media (max-width: 767.98px) {
+.nav-footer-center {
+  margin-bottom: 5em;
+  margin-top: 0;
+}}
