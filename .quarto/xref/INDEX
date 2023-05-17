@@ -88,5 +88,8 @@
   },
   "posts/post-six.qmd": {
     "post-six.html": "aeaba98e"
+  },
+  "gallery/gallery-poster-one.qmd": {
+    "gallery-poster-one.html": "3fb2177d"
   }
 }
