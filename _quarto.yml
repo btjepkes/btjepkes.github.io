@@ -45,7 +45,7 @@ website:
   page-footer:
     left:
       - icon: c-circle
-        text: "Copyright 2023 - B.W. Tjepkes"
+        text: "2023 - B.W. Tjepkes"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/

@@ -1,6 +1,6 @@
 ---
 title: "Turkey Harvest Maps by County and Season"
-subtitle: "Missouri turkey harvest maps for fall 2021 and spring 2022."
+subtitle: "Missouri turkey harvest maps for the fall 2021 and spring 2022 seasons."
 author: "Benjamin Tjepkes"
 date-modified: "5-18-2023"
 categories:
