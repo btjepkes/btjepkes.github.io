@@ -18,11 +18,11 @@ image: img-sage-grouse.jpg
 
 ## Background
 
-### Focal Species = Sage Grouse
+### Focal Species
 
 The Greater sage grouse (*Centrocercus urophasianus*) is a bird species native to portions of the western United States. They are important species for the ecosystems they inhabit and play a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes.
 
-![Greater sage grouse at lek. Photo: Pat Hnilicka](img-sage-grouse.jpg)
+![Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS](img-sage-grouse.jpg)
 
 Sage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.
 
@@ -38,11 +38,16 @@ Today, we will pull records of sage grouse occurrences from the Global Biodivers
 Our first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the `install.packages()` function.
 
 ``` r
-install.packages("rgbif")   # for accessing GBIF data
-install.packages("leaflet") # for mapping data
-library(rgbif)
-library(leaflet)
+install.packages("rgbif")   # <1>
+library(rgbif)  # <1>
+
+install.packages("leaflet") # <2>
+library(leaflet) # <2>
 ```
+1. For accessing GBIF data
+2. For mapping data interactively
+
+
 ### 2. Search GBIF
 
 Now that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States.

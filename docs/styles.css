@@ -262,6 +262,12 @@ body {
 
 /* ABOUT on Index */
 
+@media (max-width: 991.98px) {
+.centered {
+  text-align: center;
+}
+}
+
 .quarto-about-solana {
   margin-top: -2em;
 }
@@ -290,10 +296,6 @@ body {
 #listing-site-listings {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-}
-
-.intro-heading h2 {
-  margin-top: 1em !important;
 }
 
 
