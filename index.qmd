@@ -30,7 +30,8 @@ listing:
     - "posts.qmd"
     - "gallery.qmd"
     - "research.qmd"
-    - "resources.qmd"    
+    - "resources.qmd" 
+    - "contact.qmd"  
   type: grid
   fields: 
     - title
@@ -38,8 +39,9 @@ listing:
 ---
 
 ::: {.centered}
-Hi, my name is Ben Tjepkes and this is my **professional portfolio** and **technical blog** site showcasing my work in ecology and geospatial.
+Hi, my name is Ben Tjepkes and this is my **professional portfolio** and **technical blog** site showcasing my work in ecology and geospatial. Thank you for stopping by and checking out my work.
 :::
+
 
 ::: {#about-id}
 
@@ -49,4 +51,3 @@ I am a dedicated **wildlife ecologist** and **geospatial practitioner** interest
 
 ::: {#site-listings}
 :::
-

@@ -17,6 +17,7 @@
     "listing": "/index.html",
     "items": [
       "/about.html",
+      "/contact.html",
       "/posts.html",
       "/gallery.html",
       "/research.html",
