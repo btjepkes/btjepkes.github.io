@@ -4,7 +4,7 @@ project:
 
 website:
   title: "B.W.Tjepkes"
-  favicon: logo-1.png
+  favicon: site-logo-green.png
   back-to-top-navigation: true
   search:
     type: textbox
@@ -45,7 +45,7 @@ website:
   page-footer:
     left:
       - icon: c-circle
-        text: "Copyright 2023 - Benjamin W. Tjepkes"
+        text: "Copyright 2023 - Ben W. Tjepkes"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/

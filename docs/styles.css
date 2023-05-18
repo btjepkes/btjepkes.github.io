@@ -54,7 +54,7 @@ div.quarto-about-solana .about-entity .about-links {
 }
 
 .navbar {
-  background-color: #344757; /*#137ea7*/
+  background-color: #20595d; /*#344757*/
   border: none;
 }
 
@@ -153,7 +153,7 @@ nav .nav-item.compact .nav-link {
 
 /* HEADERS */
 .quarto-title-banner {
-  color: #344757;
+  color: black;
   text-align: center;
   background: white; /*#9dcbe1*/
   padding-top: 40px;
@@ -171,7 +171,7 @@ body {
   font-weight: 400;
   line-height: 1.2;
   padding-top: 20px;
-  padding-bottom: 6px;
+  padding-bottom: 12px;
   color: #696867;
 }
 
