@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-subtitle: My favorite references for ecological science, GIS, coding in R, and much more.
+subtitle: My favorite references for ecological science, GIS, R, Python, and more.
 
 listing:
   id: resource-listings

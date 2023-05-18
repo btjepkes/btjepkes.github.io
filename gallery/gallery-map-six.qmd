@@ -1,0 +1,21 @@
+---
+title: "Turkey Harvest Maps by County and Season"
+subtitle: "Missouri turkey harvest maps for fall 2021 and spring 2022."
+author: "Benjamin Tjepkes"
+date-modified: "5-18-2023"
+categories:
+  - Testing
+  - Map Gallery
+  - Missouri
+  - Choropleth
+abstract-title: ""
+abstract: "These maps were produced as public-facing visualizations for presentations by the Turkey and Grouse Program with the Missouri Department of Conservation."
+---
+
+![](../gallery/img-turkey-harvest-maps.png)
+
+## Tools & Workflow
+
+- Harvest data were prepped using `tidyverse` operations in the **RStudio** environment.
+
+- Map creation was completed in **ArcGIS Pro 2.9**.

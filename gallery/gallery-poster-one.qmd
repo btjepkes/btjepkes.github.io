@@ -4,7 +4,7 @@ subtitle: "Research poster on bald eagle nest-site selection modeling."
 author: "Benjamin Tjepkes"
 date-modified: "5-16-2023"
 categories:
-  - Poster
+  - Poster Gallery
   - Mississippi River
   - Avian
 abstract-title: ""
