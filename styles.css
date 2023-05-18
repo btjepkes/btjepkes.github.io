@@ -266,6 +266,14 @@ body {
 .centered {
   text-align: center;
 }
+
+.about-links {
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  column-gap: 0.8em;
+  justify-content: center !important;
+  margin-top: 20px;
+}
 }
 
 .quarto-about-solana {
