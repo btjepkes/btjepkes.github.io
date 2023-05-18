@@ -39,7 +39,7 @@ listing:
 ---
 
 ::: {.centered}
-Hi, my name is Ben Tjepkes and this is my **professional portfolio** and **technical blog** site showcasing my work in ecology and geospatial. Thank you for stopping by and checking out my work.
+Hi, my name is Ben Tjepkes and this is my **professional portfolio** and **technical blog** site showcasing my work in ecology and geospatial. Thank you for stopping by and checking out my projects and posts.
 :::
 
 
