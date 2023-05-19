@@ -5,6 +5,10 @@
 h1 {
   font-weight: 900;
   font-size: 2rem !important;
+  background-image: url(data.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 40%;
 }
 
 h2 {
