@@ -74,7 +74,7 @@
     "href": "contact.html",
     "title": "Links & Contact",
     "section": "",
-    "text": "You may want to try searching to find the page’s new location or check out these popular pages:"
+    "text": "Interested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
   },
   {
     "objectID": "contact.html#theres-more-to-discover",
@@ -88,14 +88,14 @@
     "href": "gallery/gallery-map-five.html",
     "title": "Overlaying Public Lands with BMZs",
     "section": "",
-    "text": "Back to top"
+    "text": "Map Credit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/gallery-map-four.html",
     "href": "gallery/gallery-map-four.html",
     "title": "Choropleth of Missouri Bear Sightings in 2020",
     "section": "",
-    "text": "Back to top"
+    "text": "Map Credit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/gallery-map-one.html",
@@ -210,25 +210,11 @@
     "text": "Please check back soon!"
   },
   {
-    "objectID": "posts/post-two.html",
-    "href": "posts/post-two.html",
-    "title": "Streamlining Your Reporting Workflow with Quarto",
-    "section": "",
-    "text": "Please check back soon!"
-  },
-  {
-    "objectID": "posts/post-two.html#this-post-is-pending.",
-    "href": "posts/post-two.html#this-post-is-pending.",
-    "title": "Streamlining Your Reporting Workflow with Quarto",
-    "section": "",
-    "text": "Please check back soon!"
-  },
-  {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "My Blog Posts",
     "section": "",
-    "text": "Creating an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Wonderful Thematic Maps Using the tmap Package in R\n\n\nPublication-ready maps in minutes.\n\n\n\n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto\n\n\nStop manually updating the same report with different inputs.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Creating an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Wonderful Thematic Maps Using the tmap Package in R\n\n\nPublication-ready maps in minutes.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "research/research-five.html#project-reports",
@@ -320,5 +306,33 @@
     "title": "Resources",
     "section": "Additional Resources",
     "text": "Additional Resources\n\n\n\n\n\n\n\nHTML\n\n\nfor web publishing\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/html/html.html\n\n\n\n\n\n\n\n\n\n\n\n\n\nPDF\n\n\nfor high quality print\n\n\n\n\n\nhref\n\n\nhttps://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf\n\n\n\n\n\n\n\n\n\n\n\n\n\nMS Word\n\n\nfor Office workflows\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx\n\n\n\n\n\n\n\n\n\n\n\n\n\nHTML\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html\n\n\n\n\n\n\n\n\n\n\n\n\n\nPDF\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "gallery/gallery-map-five.html#map-tools-workflow",
+    "href": "gallery/gallery-map-five.html#map-tools-workflow",
+    "title": "Overlaying Public Lands with BMZs",
+    "section": "Map Tools & Workflow",
+    "text": "Map Tools & Workflow\n\nMap Data — All data came from internally-maintained geodatabases.\nMap Creation — Map creation was completed in ArcGIS Pro 2.9."
+  },
+  {
+    "objectID": "gallery/gallery-map-four.html#map-tools-workflow",
+    "href": "gallery/gallery-map-four.html#map-tools-workflow",
+    "title": "Choropleth of Missouri Bear Sightings in 2020",
+    "section": "Map Tools & Workflow",
+    "text": "Map Tools & Workflow\n\nMap Data — All data came from internally-maintained geodatabases.\nMap Creation — Map creation was completed in ArcGIS Pro."
+  },
+  {
+    "objectID": "about.html#the-wildlife-society",
+    "href": "about.html#the-wildlife-society",
+    "title": "About Me",
+    "section": "The wildlife Society",
+    "text": "The wildlife Society\nThe Wildlife Society (TWS) has been my primary professional organization since my freshman year of college. I have held several leadership roles within TWS during this time.\n\nSociety for Conservation GIS\nThe Society for Conservation GIS (SCGIS) is a relatively new addition to my professional involvement. I am excited to learn new ways to volunteer with this wonderful organization."
+  },
+  {
+    "objectID": "contact.html#connecting-with-me",
+    "href": "contact.html#connecting-with-me",
+    "title": "Links & Contact",
+    "section": "",
+    "text": "Interested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
   }
 ]

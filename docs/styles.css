@@ -186,6 +186,9 @@ body {
   margin-right: 20px;
 }
 
+
+
+
 /* POSTS */
 
 .quarto-listing-filter {
@@ -234,6 +237,11 @@ body {
 .quarto-grid-item .card-title {
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.quarto-grid-item p.card-img-top>img {
+    object-fit: cover;
+    object-position: top;
 }
 
 .quarto-category {

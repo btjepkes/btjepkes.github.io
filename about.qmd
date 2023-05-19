@@ -104,19 +104,8 @@ While in college, I gained high-quality research and management experience.
 
 The Wildlife Society (TWS) has been my primary professional organization since my freshman year of college. I have held several leadership roles within TWS during this time.
 
+
 ### Society for Conservation GIS
 
 The Society for Conservation GIS (SCGIS) is a relatively new addition to my professional involvement. I am excited to learn new ways to volunteer with this wonderful organization.
-
-## Connecting with Me
-
-Interested in working on a project together or wondering if I still have the code for a past project?
-
-Please contact me via [email](mailto:benjamin.tjepkes+websitecontact@gmail.com) or through my [LinkedIn profile](https://www.linkedin.com/in/benjamintjepkes/) with any inquiries.
-
-::: {.callout-caution collapse="true"}
-## Expand To Learn About Collapse
-
-This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
-:::
 

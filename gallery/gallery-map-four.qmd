@@ -12,7 +12,11 @@ abstract: "This choropleth map was created as a public-facing visualization to s
 ---
 
 
-![](../gallery/img-map-5.jpg)
+![Map Credit: Benjamin Tjepkes](../gallery/img-map-5.jpg)
 
+## Map Tools & Workflow
 
+- **Map Data** --- All data came from internally-maintained geodatabases.
+
+- **Map Creation** --- Map creation was completed in ArcGIS Pro.
 

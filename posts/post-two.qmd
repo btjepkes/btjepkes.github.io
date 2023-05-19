@@ -14,6 +14,7 @@ categories:
   - Quarto
   - Reporting
 image: bg-pine-blue.jpg
+draft: TRUE
 ---
 
 ## This post is pending.
