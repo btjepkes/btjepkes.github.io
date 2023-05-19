@@ -1,0 +1,17 @@
+---
+title: "Bald Eagle Nest Monitoring Data Report"
+subtitle: "A final report provided to the USFWS on the Upper Mississippi population."
+author: "Benjamin Tjepkes"
+date-modified: "5-19-2023"
+categories:
+  - Report
+  - Mississippi River
+  - Avian
+abstract-title: ""
+abstract: "This data and monitoring report was developed with the Wisconsin Center for Wildlife for the U.S. Fish and Wildlife Service outlining 23 years of bald eagle nest monitoring along the Upper Mississippi River."
+---
+
+![Photo Credit: Wisconsin Center for Wildlife/USFWS](../gallery/img-eagle-report.png)
+
+
+
