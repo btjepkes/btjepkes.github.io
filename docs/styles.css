@@ -8,8 +8,10 @@ h1 {
   background-image: url(data.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
+  padding-bottom: 20px;
   background-size: 40%;
 }
+
 
 h2 {
   border-bottom: solid 4px #6ba2bd;
