@@ -67,14 +67,14 @@
     "href": "contact.html",
     "title": "Links & Contact",
     "section": "",
-    "text": "Interested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
+    "text": "Interested in working on a collaborative project together, wondering if I still have the code for a past project, or just want to connect? Please contact me via email or through my LinkedIn profile with any inquiries."
   },
   {
     "objectID": "contact.html#connecting-with-me",
     "href": "contact.html#connecting-with-me",
     "title": "Links & Contact",
     "section": "",
-    "text": "Interested in working on a project together or wondering if I still have the code for a past project?\nPlease contact me via email or through my LinkedIn profile with any inquiries."
+    "text": "Interested in working on a collaborative project together, wondering if I still have the code for a past project, or just want to connect? Please contact me via email or through my LinkedIn profile with any inquiries."
   },
   {
     "objectID": "gallery/gallery-map-five.html",
@@ -165,7 +165,7 @@
     "href": "gallery.html",
     "title": "My Gallery",
     "section": "",
-    "text": "Overlaying Public Lands with BMZs\n\n\nState and federal lands within Bear Management Zones in Missouri.\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings in 2020\n\n\nCounty-based counts of reported bear sightings in Missouri.\n\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Maps by County and Season\n\n\nMissouri turkey harvest maps for the fall 2021 and spring 2022 seasons.\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\nDigitized structures and OHWM for three lakes in Portage County, Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\nNavigation Map for Field Research Station\n\n\nRoad navigation map for the Northern Aquaculture Demonstration Facility.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\nResearch poster on bald eagle nest-site selection modeling.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bat Habitat Conservation Plan in Missouri\n\n\nInformational poster on the Missouri Bat Habitat Conservation Plan.\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\nFY2021 annual report on furbearer harvest, status, and program activities.\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Data Report\n\n\nA final report provided to the USFWS on the Upper Mississippi population.\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability\n\n\nOptimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Overlaying Public Lands with BMZs\n\n\nState and federal lands within Bear Management Zones in Missouri.\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings in 2020\n\n\nCounty-based counts of reported bear sightings in Missouri.\n\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Maps by County and Season\n\n\nMissouri turkey harvest maps for the fall 2021 and spring 2022 seasons.\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\nDigitized structures and OHWM for three lakes in Portage County, Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\nNavigation Map for Field Research Station\n\n\nRoad navigation map for the Northern Aquaculture Demonstration Facility.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\nResearch poster on bald eagle nest-site selection modeling.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bat Habitat Conservation Plan in Missouri\n\n\nInformational poster on the Missouri Bat Habitat Conservation Plan.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Spatial Patterns and Home Ranges\n\n\nResearch oral presentation on sex-specific space-use of raccoons in Laramie, WY.\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\nFY2021 annual report on furbearer harvest, status, and program activities.\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Data Report\n\n\nA final report provided to the USFWS on the Upper Mississippi population.\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability\n\n\nOptimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -263,7 +263,7 @@
     "href": "research/research-three.html",
     "title": "Raccoon Space-Use and Home Ranges",
     "section": "",
-    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+    "text": "Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the adehabitatHR package in the RStudio environment."
   },
   {
     "objectID": "research/research-three.html#project-presentations-outcomes",
@@ -320,5 +320,26 @@
     "title": "Resources",
     "section": "Additional Resources",
     "text": "Additional Resources\n\n\n\n\n\n\n\nHTML\n\n\nfor web publishing\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/html/html.html\n\n\n\n\n\n\n\n\n\n\n\n\n\nPDF\n\n\nfor high quality print\n\n\n\n\n\nhref\n\n\nhttps://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf\n\n\n\n\n\n\n\n\n\n\n\n\n\nMS Word\n\n\nfor Office workflows\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx\n\n\n\n\n\n\n\n\n\n\n\n\n\nHTML\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html\n\n\n\n\n\n\n\n\n\n\n\n\n\nPDF\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/research-three.html#project-presentations",
+    "href": "research/research-three.html#project-presentations",
+    "title": "Raccoon Space-Use and Home Ranges",
+    "section": "Project Presentations",
+    "text": "Project Presentations\nTjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+  },
+  {
+    "objectID": "research/research-three.html#project-methods",
+    "href": "research/research-three.html#project-methods",
+    "title": "Raccoon Space-Use and Home Ranges",
+    "section": "",
+    "text": "Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the adehabitatHR package in the RStudio environment."
+  },
+  {
+    "objectID": "gallery/gallery-presentation-one.html",
+    "href": "gallery/gallery-presentation-one.html",
+    "title": "Raccoon Spatial Patterns and Home Ranges",
+    "section": "",
+    "text": "Back to top"
   }
 ]
