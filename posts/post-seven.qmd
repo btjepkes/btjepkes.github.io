@@ -1,0 +1,30 @@
+---
+title: "Seven R Tips from a Non-Programmer Who Codes"
+subtitle: "How to make your R coding experience more tolerable, perhaps enjoyable."
+author:
+  - name: Benjamin Tjepkes  
+    url: //about.qmd
+    orcid: 0009-0002-5524-2675
+date-modified: "5/20/2023"
+abstract: This post is pending.
+abstract-title: ""
+categories:
+  - Testing
+  - R
+  - phenology
+image: bg-pine-blue.jpg
+draft: TRUE
+---
+
+## My R Tips
+
+### 01. Adjust your global options.
+
+### 02. Start with visualizations.
+
+### 03. Learn and use the `tidyverse`.
+
+### 04. Use data you know.
+
+### 05. Learn to Google errors.
+
