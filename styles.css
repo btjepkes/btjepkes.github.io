@@ -212,7 +212,7 @@ body {
 }
 
 .quarto-grid-item:hover .card-title::after {
-  border-top: solid 4px orange;
+  border-top: solid 4px #f5c25c;
   width: 18%;
   animation: border-anim 0.2s ease-out forwards;
 }
