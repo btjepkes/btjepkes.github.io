@@ -112,11 +112,11 @@
     "text": "Back to top"
   },
   {
-    "objectID": "gallery/gallery-map-six.html#tools-workflow",
-    "href": "gallery/gallery-map-six.html#tools-workflow",
+    "objectID": "gallery/gallery-map-six.html",
+    "href": "gallery/gallery-map-six.html",
     "title": "Turkey Harvest Maps by County and Season",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\n\nHarvest data were prepped using tidyverse operations in the RStudio environment.\nMap creation was completed in ArcGIS Pro 2.9."
+    "section": "",
+    "text": "Turkey harvest maps. Credit: Ben Tjepkes\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "gallery/gallery-map-three.html",
