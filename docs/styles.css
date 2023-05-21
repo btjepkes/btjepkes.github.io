@@ -342,3 +342,14 @@ left: 50%;
   background-color: #f5c25c;
   color: black;
 }
+
+
+.navbar-nav li:hover::before {
+  content: "\2022";
+  display: block;
+  position: relative;
+  top: -5px;
+  left: 50%;
+  margin-bottom: -25px;
+  color: #f5c25c;
+}

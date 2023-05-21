@@ -44,7 +44,7 @@ website:
             
   page-footer:
     left:
-      - text: "Made by B.W.Tjepkes"
+      - text: "Proudly made by B.W. Tjepkes"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/
