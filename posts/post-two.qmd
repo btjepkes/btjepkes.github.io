@@ -6,7 +6,7 @@ author:
     url: //about.qmd
     orcid: 0009-0002-5524-2675
 date: "4/16/2023"
-abstract: "In this post, we talk about how to make your reporting workflows WAY easier. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing reports using Quarto in the R environment."
+abstract: "In this post, we talk about how to make your reporting workflows way easier by using reproducible formats. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing reports using Quarto in the RStudio and Jupyter Notebook environments."
 abstract-title: ""
 categories:
   - Testing 

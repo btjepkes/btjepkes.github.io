@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -148,7 +182,6 @@ ul.task-list li input[type="checkbox"] {
       <h1 class="title">Mapping Changes in Unfragmented Forest Landscapes Using R</h1>
             <p class="subtitle lead">Vizualizing Global Forest Watch data on North American forests.</p>
                                 <div class="quarto-categories">
-                <div class="quarto-category">Testing</div>
                 <div class="quarto-category">R</div>
                 <div class="quarto-category">Forest</div>
                 <div class="quarto-category">Cartography</div>
@@ -191,7 +224,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#this-post-is-pending." id="toc-this-post-is-pending." class="nav-link active" data-scroll-target="#this-post-is-pending.">This post is pending.</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a>
+  <ul class="collapse">
+  <li><a href="#forest-ecosystems" id="toc-forest-ecosystems" class="nav-link" data-scroll-target="#forest-ecosystems">Forest Ecosystems</a></li>
+  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">Data Sources</a></li>
+  </ul></li>
+  <li><a href="#workflow" id="toc-workflow" class="nav-link" data-scroll-target="#workflow">Workflow</a>
+  <ul class="collapse">
+  <li><a href="#get-ifl-data" id="toc-get-ifl-data" class="nav-link" data-scroll-target="#get-ifl-data">1. Get IFL Data</a></li>
+  <li><a href="#load-packages." id="toc-load-packages." class="nav-link" data-scroll-target="#load-packages.">2. Load Packages.</a></li>
+  <li><a href="#load-data-in-r" id="toc-load-data-in-r" class="nav-link" data-scroll-target="#load-data-in-r">3. Load Data in R</a></li>
+  <li><a href="#visualize-data" id="toc-visualize-data" class="nav-link" data-scroll-target="#visualize-data">4. Visualize Data</a></li>
+  <li><a href="#customize-map" id="toc-customize-map" class="nav-link" data-scroll-target="#customize-map">5. Customize Map</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -201,11 +246,62 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="this-post-is-pending." class="level2">
-<h2 class="anchored" data-anchor-id="this-post-is-pending.">This post is pending.</h2>
-<p>Please check back soon!</p>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<section id="forest-ecosystems" class="level3">
+<h3 class="anchored" data-anchor-id="forest-ecosystems">Forest Ecosystems</h3>
+<p>Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.</p>
+</section>
+<section id="data-sources" class="level3">
+<h3 class="anchored" data-anchor-id="data-sources">Data Sources</h3>
+<p><strong>Global Forest Watch</strong> (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world’s forests.</p>
+</section>
+</section>
+<section id="workflow" class="level2">
+<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
+<section id="get-ifl-data" class="level3">
+<h3 class="anchored" data-anchor-id="get-ifl-data">1. Get IFL Data</h3>
+<p>Visit the Global Forest Watch website (https://www.globalforestwatch.org/). Navigate to the “Data” section and select “Intact Forest Landscapes.” Download the IFL dataset in the desired format (e.g., shapefile, geopackage).</p>
+</section>
+<section id="load-packages." class="level3">
+<h3 class="anchored" data-anchor-id="load-packages.">2. Load Packages.</h3>
+<p>To follow along with this tutorial, you will need to have R and the following packages installed: <code>sf</code>, <code>tmap</code>, and <code>dplyr</code>. You can install these packages using the <code>install.packages()</code> function in R.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sf)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="load-data-in-r" class="level3">
+<h3 class="anchored" data-anchor-id="load-data-in-r">3. Load Data in R</h3>
+<p>Let’s assume you have downloaded the IFL data in shapefile format and saved it as “ifl.shp” in your working directory. We will now load and prepare the data for visualization.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Read the IFL shapefile</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>ifl <span class="ot">&lt;-</span> <span class="fu">st_read</span>(<span class="st">"ifl.shp"</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Examine the data structure</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(ifl)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(ifl)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="visualize-data" class="level3">
+<h3 class="anchored" data-anchor-id="visualize-data">4. Visualize Data</h3>
+<p>We will use the tmap package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the tmap package</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tmap)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a basic map of the IFL polygons</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">tm_shape</span>(ifl) <span class="sc">+</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tm_polygons</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="customize-map" class="level3">
+<h3 class="anchored" data-anchor-id="customize-map">5. Customize Map</h3>
+<p>We can modify the map’s appearance by changing colors, adding a background, adjusting labels, and more.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a more visually appealing map with customization</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tm_shape</span>(ifl) <span class="sc">+</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tm_fill</span>(<span class="at">col =</span> <span class="st">"green"</span>, <span class="at">alpha =</span> <span class="fl">0.6</span>) <span class="sc">+</span>  <span class="co"># Set polygon color and transparency</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tm_borders</span>(<span class="at">col =</span> <span class="st">"black"</span>) <span class="sc">+</span>  <span class="co"># Add border color</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tm_layout</span>(<span class="at">legend.position =</span> <span class="fu">c</span>(<span class="st">"left"</span>, <span class="st">"bottom"</span>),  <span class="co"># Adjust legend position</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">legend.bg.color =</span> <span class="st">"white"</span>,  <span class="co"># Set legend background color</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>            <span class="at">title =</span> <span class="st">"Intact Forest Landscapes"</span>)  <span class="co"># Add map title</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -462,9 +558,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-      <i class="bi bi-c-circle" role="img">
-</i> 
- 2023 - B.W. Tjepkes
+ Made by B.W.Tjepkes
   </li>  
 </ul>
     </div>   

@@ -203,39 +203,32 @@
     "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\n1install.packages(\"rgbif\")\nlibrary(rgbif)\n2install.packages(\"leaflet\")\nlibrary(leaflet)\n\n1\n\nFor accessing GBIF data.\n\n2\n\nFor mapping data interactively.\n\n\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States.\n1grouse_info &lt;- name_backbone(\"Centrocercus urophasianus\")\n2grouse_info\n\n1\n\nThis function allows us to see the taxonomic information for our focal species.\n\n2\n\nThis prints that information to the console.\n\n\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords &lt;- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nleaflet(wyoming_coords) %&gt;% \n  addTiles() %&gt;%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
   },
   {
-    "objectID": "posts/post-one.html",
-    "href": "posts/post-one.html",
-    "title": "Creating Wonderful Thematic Maps Using the tmap Package in R",
-    "section": "",
-    "text": "Please check back soon!"
-  },
-  {
-    "objectID": "posts/post-one.html#this-post-is-pending.",
-    "href": "posts/post-one.html#this-post-is-pending.",
-    "title": "Creating Wonderful Thematic Maps Using the tmap Package in R",
-    "section": "",
-    "text": "Please check back soon!"
-  },
-  {
     "objectID": "posts/post-three.html",
     "href": "posts/post-three.html",
     "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
     "section": "",
-    "text": "Please check back soon!"
+    "text": "Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.\n\n\n\nGlobal Forest Watch (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world’s forests."
   },
   {
-    "objectID": "posts/post-three.html#this-post-is-pending.",
-    "href": "posts/post-three.html#this-post-is-pending.",
+    "objectID": "posts/post-three.html#background",
+    "href": "posts/post-three.html#background",
     "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
     "section": "",
-    "text": "Please check back soon!"
+    "text": "Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.\n\n\n\nGlobal Forest Watch (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world’s forests."
+  },
+  {
+    "objectID": "posts/post-three.html#workflow",
+    "href": "posts/post-three.html#workflow",
+    "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
+    "section": "Workflow",
+    "text": "Workflow\n\n1. Get IFL Data\nVisit the Global Forest Watch website (https://www.globalforestwatch.org/). Navigate to the “Data” section and select “Intact Forest Landscapes.” Download the IFL dataset in the desired format (e.g., shapefile, geopackage).\n\n\n2. Load Packages.\nTo follow along with this tutorial, you will need to have R and the following packages installed: sf, tmap, and dplyr. You can install these packages using the install.packages() function in R.\nlibrary(sf)\nlibrary(dplyr)\n\n\n3. Load Data in R\nLet’s assume you have downloaded the IFL data in shapefile format and saved it as “ifl.shp” in your working directory. We will now load and prepare the data for visualization.\n# Read the IFL shapefile\nifl &lt;- st_read(\"ifl.shp\")\n\n# Examine the data structure\nhead(ifl)\nsummary(ifl)\n\n\n4. Visualize Data\nWe will use the tmap package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.\n# Load the tmap package\nlibrary(tmap)\n\n# Create a basic map of the IFL polygons\ntm_shape(ifl) +\n  tm_polygons()\n\n\n5. Customize Map\nWe can modify the map’s appearance by changing colors, adding a background, adjusting labels, and more.\n# Create a more visually appealing map with customization\ntm_shape(ifl) +\n  tm_fill(col = \"green\", alpha = 0.6) +  # Set polygon color and transparency\n  tm_borders(col = \"black\") +  # Add border color\n  tm_layout(legend.position = c(\"left\", \"bottom\"),  # Adjust legend position\n            legend.bg.color = \"white\",  # Set legend background color\n            title = \"Intact Forest Landscapes\")  # Add map title"
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "My Blog Posts",
     "section": "",
-    "text": "Creating an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Wonderful Thematic Maps Using the tmap Package in R\n\n\nPublication-ready maps in minutes.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Creating an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "research/research-five.html#project-reports",

@@ -9,13 +9,76 @@ date: "4/22/2023"
 abstract: In this post, we will demonstrate how to visualize expansive amounts of geographic data using R. We will use an example that involves mapping data from Global Forest Watch, which focuses on North America's landscapes that have intact forests large enough to preserve all native biodiversity.
 abstract-title: ""
 categories:
-  - Testing
   - R
   - Forest
   - Cartography
 image: bg-pine-blue.jpg
 ---
 
-## This post is pending.
+## Background
 
-Please check back soon!
+### Forest Ecosystems
+
+Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.
+
+### Data Sources
+
+**Global Forest Watch** (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world's forests.
+
+
+## Workflow
+
+### 1. Get IFL Data
+
+Visit the Global Forest Watch website (https://www.globalforestwatch.org/). Navigate to the "Data" section and select "Intact Forest Landscapes." Download the IFL dataset in the desired format (e.g., shapefile, geopackage).
+
+### 2. Load Packages.
+
+To follow along with this tutorial, you will need to have R and the following packages installed: `sf`, `tmap`, and `dplyr`. You can install these packages using the `install.packages()` function in R.
+
+``` r
+library(sf)
+library(dplyr)
+```
+
+### 3. Load Data in R
+
+Let's assume you have downloaded the IFL data in shapefile format and saved it as "ifl.shp" in your working directory. We will now load and prepare the data for visualization.
+
+``` r
+# Read the IFL shapefile
+ifl <- st_read("ifl.shp")
+
+# Examine the data structure
+head(ifl)
+summary(ifl)
+```
+
+### 4. Visualize Data
+
+We will use the tmap package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.
+
+``` r
+# Load the tmap package
+library(tmap)
+
+# Create a basic map of the IFL polygons
+tm_shape(ifl) +
+  tm_polygons()
+```
+
+### 5. Customize Map
+
+We can modify the map's appearance by changing colors, adding a background, adjusting labels, and more.
+
+``` r
+# Create a more visually appealing map with customization
+tm_shape(ifl) +
+  tm_fill(col = "green", alpha = 0.6) +  # Set polygon color and transparency
+  tm_borders(col = "black") +  # Add border color
+  tm_layout(legend.position = c("left", "bottom"),  # Adjust legend position
+            legend.bg.color = "white",  # Set legend background color
+            title = "Intact Forest Landscapes")  # Add map title
+```
+
+
