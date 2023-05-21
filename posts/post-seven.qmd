@@ -1,6 +1,6 @@
 ---
-title: "Seven R Tips from a Non-Programmer Who Codes"
-subtitle: "How to make your R coding experience more tolerable, perhaps enjoyable."
+title: "R Coding Tips from a Non-Programmer"
+subtitle: "How to make your R learning experience more tolerable, perhaps enjoyable."
 author:
   - name: Benjamin Tjepkes  
     url: //about.qmd

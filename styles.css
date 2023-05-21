@@ -8,13 +8,13 @@ h1 {
   background-image: url(/data.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   background-size: 300px;
 }
 
 
 h2 {
-  border-bottom: solid 4px #6ba2bd;
+  border-bottom: solid 4px #bccdce; /*#6ba2bd*/
   margin-top: 2.5rem;
   font-weight: 700;
 }
@@ -29,8 +29,8 @@ ol, ul {
 
 code {
   color: #344757;
-  background-color: white;
-  padding: 0.08rem 0.25rem;
+  background-color: #f5c25c66;
+  padding: 0.08rem 0.3rem;
 }
 
 
@@ -334,6 +334,11 @@ left: 50%;
 
 @media (max-width: 767.98px) {
 .nav-footer-center {
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   margin-top: 0;
 }}
+
+#quarto-back-to-top {
+  background-color: #f5c25c;
+  color: black;
+}

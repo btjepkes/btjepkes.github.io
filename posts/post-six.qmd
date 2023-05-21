@@ -1,5 +1,5 @@
 ---
-title: "Using Data from the USA National Phenology Network in R"
+title: "Mapping USA National Phenology Network Data in R"
 subtitle: "Exploring phenological records."
 author:
   - name: Benjamin Tjepkes  

@@ -147,6 +147,13 @@
     "text": "Tools and Workflow\n\nMap creation was performed using tmap and sf packages in the RStudio environment.\nPoster compilation was performed in Microsoft Publisher."
   },
   {
+    "objectID": "gallery/gallery-presentation-one.html",
+    "href": "gallery/gallery-presentation-one.html",
+    "title": "Raccoon Spatial Patterns and Home Ranges",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
     "objectID": "gallery/gallery-report-one.html",
     "href": "gallery/gallery-report-one.html",
     "title": "Annual Report for MDC Furbearer Program",
@@ -266,11 +273,18 @@
     "text": "Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the adehabitatHR package in the RStudio environment."
   },
   {
-    "objectID": "research/research-three.html#project-presentations-outcomes",
-    "href": "research/research-three.html#project-presentations-outcomes",
+    "objectID": "research/research-three.html#project-methods",
+    "href": "research/research-three.html#project-methods",
     "title": "Raccoon Space-Use and Home Ranges",
     "section": "",
-    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+    "text": "Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the adehabitatHR package in the RStudio environment."
+  },
+  {
+    "objectID": "research/research-three.html#project-presentations",
+    "href": "research/research-three.html#project-presentations",
+    "title": "Raccoon Space-Use and Home Ranges",
+    "section": "Project Presentations",
+    "text": "Project Presentations\nTjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
   },
   {
     "objectID": "research/research-two.html",
@@ -320,26 +334,5 @@
     "title": "Resources",
     "section": "Additional Resources",
     "text": "Additional Resources\n\n\n\n\n\n\n\nHTML\n\n\nfor web publishing\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/html/html.html\n\n\n\n\n\n\n\n\n\n\n\n\n\nPDF\n\n\nfor high quality print\n\n\n\n\n\nhref\n\n\nhttps://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf\n\n\n\n\n\n\n\n\n\n\n\n\n\nMS Word\n\n\nfor Office workflows\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx\n\n\n\n\n\n\n\n\n\n\n\n\n\nHTML\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html\n\n\n\n\n\n\n\n\n\n\n\n\n\nPDF\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/research-three.html#project-presentations",
-    "href": "research/research-three.html#project-presentations",
-    "title": "Raccoon Space-Use and Home Ranges",
-    "section": "Project Presentations",
-    "text": "Project Presentations\nTjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
-  },
-  {
-    "objectID": "research/research-three.html#project-methods",
-    "href": "research/research-three.html#project-methods",
-    "title": "Raccoon Space-Use and Home Ranges",
-    "section": "",
-    "text": "Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the adehabitatHR package in the RStudio environment."
-  },
-  {
-    "objectID": "gallery/gallery-presentation-one.html",
-    "href": "gallery/gallery-presentation-one.html",
-    "title": "Raccoon Spatial Patterns and Home Ranges",
-    "section": "",
-    "text": "Back to top"
   }
 ]
