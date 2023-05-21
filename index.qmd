@@ -1,5 +1,5 @@
 ---
-title: "Benjamin W. Tjepkes"
+title: "Benjamin W. Tjepkes' Online Portfolio"
 subtitle: "Wildlife ecologist and budding geographer with a passion for conservation science."
 toc: false
 about:
