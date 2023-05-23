@@ -1,0 +1,15 @@
+---
+title: "Endangered Species Stamp Collection Map"
+subtitle: "Nationwide map showing ranges of a subset of ESA-listed species."
+author: "Benjamin Tjepkes"
+date-modified: "5-23-2023"
+categories:
+  - Map Gallery
+  - United States
+  - Endangered Species
+abstract-title: ""
+abstract: This map was produced as a creative project in celebration of the 50th anniversery of the U.S. Endangered Species Act. It shows a few of the limited edition endangered species stamps from the USPS and where the USFWS-determined ranges of those species are located. Map creation was performed in ArcGIS Pro 3.1.
+toc: false
+---
+
+![Credit: Ben Tjepkes](../gallery/img-map-7.jpg)
