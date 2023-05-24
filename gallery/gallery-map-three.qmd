@@ -4,12 +4,13 @@ subtitle: "Digitized structures and OHWM for three lakes in Portage County, Wisc
 author: "Benjamin Tjepkes"
 date-modified: "4/16/2023"
 categories:
-  - Testing
   - Map Gallery
   - Wisconsin
+abstract-title: ""
+abstract: "This map visualizes shoreline structure setback compliance (in accordance with Wisconsin NR 115.05(1)(b)) for Mud, Penny, and Tree Lakes in Portage County, Wisconsin. Using the ordinary high water mark as a reference, all near structures were outlined using heads-up digitizing techniques."
 ---
 
-![](../gallery/img-map-4.jpg)
+![Map Credit: Benjamin Tjepkes](../gallery/img-map-4.jpg)
 
 
 

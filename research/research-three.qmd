@@ -12,12 +12,9 @@ categories:
 image: img-raccoon-hr.jpg
 
 abstract-title: ""
-abstract: This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.
+abstract: This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming. Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the `adehabitatHR` package in the RStudio environment.
 
 ---
-## Project Methods
-
-Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the `adehabitatHR` package in the RStudio environment.
 
 ## Project Presentations
 

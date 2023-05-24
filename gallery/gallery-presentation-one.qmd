@@ -1,6 +1,6 @@
 ---
 title: "Raccoon Spatial Patterns and Home Ranges"
-subtitle: "Research oral presentation on sex-specific space-use of raccoons in Laramie, WY."
+subtitle: "Research presentation on sex-specific space-use of raccoons in Laramie, WY."
 author: "Benjamin Tjepkes"
 date-modified: "5-20-2023"
 categories:
@@ -8,7 +8,7 @@ categories:
   - Wyoming
   - Mammal
 abstract-title: ""
-abstract: "This research talk [here](https://btjepkes.github.io/research.html) was presented at the UWSP College of Natural Resources Undergraduate Research Symposium."
+abstract: "This talk outlines my research on the spatial patterns and home ranges of raccoons (*Procyon lotor*) in Laramie, Wyoming. It was presented at the UWSP College of Natural Resources Undergraduate Research Symposium and was in collaboration with the [Wyoming Raccoon Project](https://www.animalcognitionlab.org/wyoming-raccoon-project)."
 image: /bg-pine-blue.jpg
 ---
 

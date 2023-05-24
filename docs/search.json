@@ -84,25 +84,11 @@
     "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "gallery/gallery-map-five.html#map-tools-workflow",
-    "href": "gallery/gallery-map-five.html#map-tools-workflow",
-    "title": "Overlaying Public Lands with BMZs",
-    "section": "Map Tools & Workflow",
-    "text": "Map Tools & Workflow\n\nMap Data — All data came from internally-maintained geodatabases.\nMap Creation — Map creation was completed in ArcGIS Pro 2.9."
-  },
-  {
     "objectID": "gallery/gallery-map-four.html",
     "href": "gallery/gallery-map-four.html",
     "title": "Choropleth of Missouri Bear Sightings in 2020",
     "section": "",
-    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "gallery/gallery-map-four.html#map-tools-workflow",
-    "href": "gallery/gallery-map-four.html#map-tools-workflow",
-    "title": "Choropleth of Missouri Bear Sightings in 2020",
-    "section": "Map Tools & Workflow",
-    "text": "Map Tools & Workflow\n\nMap Data — All data came from internally-maintained geodatabases.\nMap Creation — Map creation was completed in ArcGIS Pro."
+    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "gallery/gallery-map-one.html",
@@ -110,6 +96,13 @@
     "title": "Vineyard and Winery Location Suitability",
     "section": "",
     "text": "Back to top"
+  },
+  {
+    "objectID": "gallery/gallery-map-seven.html",
+    "href": "gallery/gallery-map-seven.html",
+    "title": "Endangered Species Stamp Collection Map",
+    "section": "",
+    "text": "Credit: Ben Tjepkes\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "gallery/gallery-map-six.html",
@@ -123,7 +116,7 @@
     "href": "gallery/gallery-map-three.html",
     "title": "Shoreline Structure Setback Compliance",
     "section": "",
-    "text": "Back to top"
+    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "gallery/gallery-map-two.html",
@@ -172,14 +165,14 @@
     "href": "gallery.html",
     "title": "My Gallery",
     "section": "",
-    "text": "Overlaying Public Lands with BMZs\n\n\nState and federal lands within Bear Management Zones in Missouri.\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings in 2020\n\n\nCounty-based counts of reported bear sightings in Missouri.\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Collection Map\n\n\nNationwide map showing ranges of a subset of ESA-listed species.\n\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Maps by County and Season\n\n\nMissouri turkey harvest maps for the fall 2021 and spring 2022 seasons.\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\nDigitized structures and OHWM for three lakes in Portage County, Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\nNavigation Map for Field Research Station\n\n\nRoad navigation map for the Northern Aquaculture Demonstration Facility.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\nResearch poster on bald eagle nest-site selection modeling.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bat Habitat Conservation Plan in Missouri\n\n\nInformational poster on the Missouri Bat Habitat Conservation Plan.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Spatial Patterns and Home Ranges\n\n\nResearch oral presentation on sex-specific space-use of raccoons in Laramie, WY.\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\nFY2021 annual report on furbearer harvest, status, and program activities.\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Data Report\n\n\nA final report provided to the USFWS on the Upper Mississippi population.\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability\n\n\nOptimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Overlaying Public Lands with BMZs\n\n\nState and federal lands within Bear Management Zones in Missouri.\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings in 2020\n\n\nCounty-based counts of reported bear sightings in Missouri.\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Collection Map\n\n\nNationwide map showing ranges of a subset of ESA-listed species.\n\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Maps by County and Season\n\n\nMissouri turkey harvest maps for the fall 2021 and spring 2022 seasons.\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\nDigitized structures and OHWM for three lakes in Portage County, Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\nNavigation Map for Field Research Station\n\n\nRoad navigation map for the Northern Aquaculture Demonstration Facility.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\nResearch poster on bald eagle nest-site selection modeling.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bat Habitat Conservation Plan in Missouri\n\n\nInformational poster on the Missouri Bat Habitat Conservation Plan.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Spatial Patterns and Home Ranges\n\n\nResearch presentation on sex-specific space-use of raccoons in Laramie, WY.\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\nFY2021 annual report on furbearer harvest, status, and program activities.\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Data Report\n\n\nA final report provided to the USFWS on the Upper Mississippi population.\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability\n\n\nOptimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hello, my name is Benjamin W. Tjepkes",
     "section": "",
-    "text": "This is my professional portfolio and technical blog site showcasing my work in ecology and geospatial. Thank you for stopping by and checking out my projects, posts, and research.\n\n\n  \n    \n       \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Instagram\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     ORCID ID\n  \n\n      \nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation. In my current role, I serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. Have a look around this site to explore examples of my past and current work.\n\n    \n    \n  \n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my professional interests, experience, and highlights.\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires or connect on my social profiles.\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, data visualiztions, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\n\n\n\nResources\n\n\nMy favorite references for ecological science, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nA snapshot of my wildlife work. Photos: Ben Tjepkes\n\n\n\n\n\n\n\n Back to top"
+    "text": "This is my professional portfolio and technical blog site showcasing my work in ecology and geospatial. Thank you for stopping by and checking out my projects, posts, and research.\n\n\n  \n    \n       \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Instagram\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     ORCID iD\n  \n\n      \nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation. In my current role, I serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. Have a look around this site to explore examples of my past and current work.\n\n    \n    \n  \n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my professional interests, experience, and highlights.\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires or connect on my social profiles.\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, data visualiztions, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\n\n\n\nResources\n\n\nMy favorite references for ecological science, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nA snapshot of my wildlife work. Photos: Ben Tjepkes\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "posts/post-four.html",
@@ -263,21 +256,14 @@
     "href": "research/research-three.html",
     "title": "Raccoon Space-Use and Home Ranges",
     "section": "",
-    "text": "Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the adehabitatHR package in the RStudio environment."
-  },
-  {
-    "objectID": "research/research-three.html#project-methods",
-    "href": "research/research-three.html#project-methods",
-    "title": "Raccoon Space-Use and Home Ranges",
-    "section": "",
-    "text": "Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the adehabitatHR package in the RStudio environment."
+    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
   },
   {
     "objectID": "research/research-three.html#project-presentations",
     "href": "research/research-three.html#project-presentations",
     "title": "Raccoon Space-Use and Home Ranges",
-    "section": "Project Presentations",
-    "text": "Project Presentations\nTjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+    "section": "",
+    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
   },
   {
     "objectID": "research/research-two.html",
@@ -327,12 +313,5 @@
     "title": "Resources",
     "section": "Additional Resources",
     "text": "Additional Resources\n\n\n\n\n\n\n\nHTML\n\n\nfor web publishing\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/html/html.html\n\n\n\n\n\n\n\n\n\n\n\n\n\nPDF\n\n\nfor high quality print\n\n\n\n\n\nhref\n\n\nhttps://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf\n\n\n\n\n\n\n\n\n\n\n\n\n\nMS Word\n\n\nfor Office workflows\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx\n\n\n\n\n\n\n\n\n\n\n\n\n\nHTML\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html\n\n\n\n\n\n\n\n\n\n\n\n\n\nPDF\n\n\nwith advanced layout\n\n\n\n\n\nhref\n\n\nhttps://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "gallery/gallery-map-seven.html",
-    "href": "gallery/gallery-map-seven.html",
-    "title": "Endangered Species Stamp Collection Map",
-    "section": "",
-    "text": "Credit: Ben Tjepkes\n\n\n\n\n\n Back to top"
   }
 ]

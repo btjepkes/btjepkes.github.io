@@ -21,7 +21,7 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/benjamintjepkes/
     - icon: link-45deg
-      text: ORCID ID
+      text: ORCID iD
       href: https://orcid.org/0009-0002-5524-2675
 listing:
   id: site-listings
