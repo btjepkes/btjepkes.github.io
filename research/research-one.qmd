@@ -13,8 +13,6 @@ categories:
 image: img-eagle-nesting.jpg
 ---
 
-![](../research/eagle-poster.jpg)
-
 
 ## Project Presentations
 

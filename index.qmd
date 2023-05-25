@@ -39,7 +39,7 @@ listing:
 ---
 
 ::: {.centered}
-This is my **professional portfolio** and **technical blog** site showcasing my work in ecology and geospatial. Thank you for stopping by and checking out my projects, posts, and research.
+This is my **professional portfolio** and **technical blog site** showcasing my work in ecology and geospatial. Thank you for stopping by and checking out my projects, posts, and research.
 :::
 
 

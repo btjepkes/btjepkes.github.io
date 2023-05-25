@@ -8,11 +8,11 @@ categories:
   - Mississippi River
   - Avian
 abstract-title: ""
-abstract: "This poster was presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium."
+abstract: "This poster provides an overview of my research on bald eagle nest-site selection for the Upper Mississippi River population. Details on this project can be found [here](/research/research-one.html). This poster was presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium."
 image: img-eagle-poster.jpg
 ---
 
-![](../gallery/img-eagle-poster.jpg)
+![Credit: Benjamin Tjepkes](../gallery/img-eagle-poster.jpg)
 
 
 

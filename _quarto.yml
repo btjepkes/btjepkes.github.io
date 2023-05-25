@@ -44,7 +44,7 @@ website:
             
   page-footer:
     left:
-      - text: Proudly made by B.W. Tjepkes using Quarto.
+      - text: Made with Quarto by B.W. Tjepkes.
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/
