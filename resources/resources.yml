@@ -1,0 +1,110 @@
+- category: Job Resources for Wildlifers
+  description: |
+    Natual resource job boards, resume/CV advice pages, and other career resources.
+  tiles:
+    - title: HTML
+      subtitle: for web publishing
+      href: https://quarto-dev.github.io/quarto-gallery/articles/html/html.html
+      code: https://github.com/quarto-dev/quarto-gallery/blob/main/articles/html/html.qmd
+      thumbnail: bg-pine-blue.png
+    - title: PDF
+      subtitle: for high quality print
+      href: https://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf
+      code: https://github.com/nmfs-opensci/quarto_titlepages/blob/main/example_1.qmd
+      thumbnail: bg-pine-blue.png
+    - title: MS Word
+      subtitle: for Office workflows
+      href: https://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx
+      code:  https://github.com/quarto-dev/quarto-gallery/blob/main/articles/msword/msword.qmd
+      thumbnail: bg-pine-blue.png
+    - title: HTML
+      subtitle: with advanced layout
+      href: https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html
+      code: https://github.com/quarto-dev/quarto-gallery/blob/main/page-layout/tufte.qmd
+      thumbnail: bg-pine-blue.png
+    - title: PDF
+      subtitle: with advanced layout
+      href: https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf
+      code: https://github.com/quarto-dev/quarto-gallery/blob/main/page-layout/tufte.qmd
+      thumbnail: bg-pine-blue.png
+
+
+- category: R Learning Resources for Ecologists
+  description: |
+    Engage readers and deliver more insights with interactive documents.
+  tiles:
+    - title: Observable
+      subtitle: reactive JavaScript
+      href: ../interactive/ojs/examples/penguins.html
+      code: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/ojs/examples/penguins.qmd
+      thumbnail: bg-pine-blue.png
+    - title: Shiny
+      subtitle: web framework for R
+      href: https://jjallaire.shinyapps.io/diamonds-explorer/
+      code: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd
+      thumbnail: bg-pine-blue.png
+    - title: Jupyter 
+      subtitle: interactive widgets
+      href: ../interactive/widgets/jupyter.html
+      code: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/widgets/jupyter.qmd
+      thumbnail: bg-pine-blue.png
+  
+- category: Reproducible Reporting Resources in R and Python
+  description: |
+    Engage readers and deliver more insights with interactive documents.
+  tiles:
+    - title: Observable
+      subtitle: reactive JavaScript
+      href: ../interactive/ojs/examples/penguins.html
+      code: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/ojs/examples/penguins.qmd
+      thumbnail: bg-pine-blue.png
+    - title: Shiny
+      subtitle: web framework for R
+      href: https://jjallaire.shinyapps.io/diamonds-explorer/
+      code: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd
+      thumbnail: bg-pine-blue.png
+    - title: Jupyter 
+      subtitle: interactive widgets
+      href: ../interactive/widgets/jupyter.html
+      code: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/widgets/jupyter.qmd
+      thumbnail: bg-pine-blue.png
+      
+- category: Spatial Data Resources for R
+  description: |
+    Engage readers and deliver more insights with interactive documents.
+  tiles:
+    - title: Observable
+      subtitle: reactive JavaScript
+      href: ../interactive/ojs/examples/penguins.html
+      code: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/ojs/examples/penguins.qmd
+      thumbnail: bg-pine-blue.png
+    - title: Shiny
+      subtitle: web framework for R
+      href: https://jjallaire.shinyapps.io/diamonds-explorer/
+      code: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd
+      thumbnail: bg-pine-blue.png
+    - title: Jupyter 
+      subtitle: interactive widgets
+      href: ../interactive/widgets/jupyter.html
+      code: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/widgets/jupyter.qmd
+      thumbnail: bg-pine-blue.png
+      
+- category: Learning Resources for ArcGIS
+  description: |
+    Engage readers and deliver more insights with interactive documents.
+  tiles:
+    - title: Observable
+      subtitle: reactive JavaScript
+      href: ../interactive/ojs/examples/penguins.html
+      code: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/ojs/examples/penguins.qmd
+      thumbnail: bg-pine-blue.png
+    - title: Shiny
+      subtitle: web framework for R
+      href: https://jjallaire.shinyapps.io/diamonds-explorer/
+      code: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd
+      thumbnail: bg-pine-blue.png
+    - title: Jupyter 
+      subtitle: interactive widgets
+      href: ../interactive/widgets/jupyter.html
+      code: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/widgets/jupyter.qmd
+      thumbnail: bg-pine-blue.png

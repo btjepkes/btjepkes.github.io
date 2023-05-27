@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-href',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-category','listing-description','listing-tiles',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-subtitle","listing-href"],
+      searchColumns: ["listing-category","listing-description","listing-tiles"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -98,6 +98,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="B.W.Tjepkes - Resources">
 <meta property="og:description" content="My favorite references for ecological science, GIS, R, Python, and more.">
+<meta property="og:image" content="bg-pine-blue.png">
 <meta property="og:site-name" content="B.W.Tjepkes">
 </head>
 
@@ -214,7 +215,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#arcgis---spatial-analysis" id="toc-arcgis---spatial-analysis" class="nav-link" data-scroll-target="#arcgis---spatial-analysis">ArcGIS - Spatial Analysis</a></li>
   <li><a href="#learning-qgis" id="toc-learning-qgis" class="nav-link" data-scroll-target="#learning-qgis">Learning QGIS</a></li>
   </ul></li>
-  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -270,146 +270,256 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="arcgis---spatial-analysis">ArcGIS - Spatial Analysis</h3>
 </section>
 <section id="learning-qgis" class="level3">
-<h3 class="anchored" data-anchor-id="learning-qgis">Learning QGIS</h3>
+<h3 class="anchored">Learning QGIS</h3>
 <ul>
 <li><a href="https://www.youtube.com/c/DMADMarineMammalsResearchAssociation">YouTube Channel ~ DMAD QGIS Lessons</a></li>
 </ul>
-</section>
-</section>
-<section id="additional-resources" class="level2">
-<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
-<div id="listing-resource-listings" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-HTML
-</h5>
-<div class="card-subtitle listing-subtitle">
-for web publishing
+<div id="listing-resource-listings" class="quarto-listing quarto-listing-container-custom">
+<h2 class="anchored" data-anchor-id="learning-qgis">Job Resources for Wildlifers</h2>
+<p>Natual resource job boards, resume/CV advice pages, and other career resources.
+</p>
+<div class="list grid" style="column-gap: 10px;">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="0">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://quarto-dev.github.io/quarto-gallery/articles/html/html.html" class="listing-title">HTML</a> <span class="text-muted listing-subtitle">for web publishing</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-gallery/blob/main/articles/html/html.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="https://quarto-dev.github.io/quarto-gallery/articles/html/html.html">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf" class="listing-title">PDF</a> <span class="text-muted listing-subtitle">for high quality print</span>
+      </small>
+      <a href="https://github.com/nmfs-opensci/quarto_titlepages/blob/main/example_1.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="https://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx" class="listing-title">MS Word</a> <span class="text-muted listing-subtitle">for Office workflows</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-gallery/blob/main/articles/msword/msword.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="https://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="3">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html" class="listing-title">HTML</a> <span class="text-muted listing-subtitle">with advanced layout</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-gallery/blob/main/page-layout/tufte.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="4">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf" class="listing-title">PDF</a> <span class="text-muted listing-subtitle">with advanced layout</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-gallery/blob/main/page-layout/tufte.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
 </div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-href
-</td>
-<td class="href">
-https://quarto-dev.github.io/quarto-gallery/articles/html/html.html
-</td>
-</tr>
-
-</tbody></table>
+<h2 class="anchored">R Learning Resources for Ecologists</h2>
+<p>Engage readers and deliver more insights with interactive documents.
+</p>
+<div class="list grid" style="column-gap: 10px;">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="5">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="../interactive/ojs/examples/penguins.html" class="listing-title">Observable</a> <span class="text-muted listing-subtitle">reactive JavaScript</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/ojs/examples/penguins.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="../interactive/ojs/examples/penguins.html">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="6">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://jjallaire.shinyapps.io/diamonds-explorer/" class="listing-title">Shiny</a> <span class="text-muted listing-subtitle">web framework for R</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="https://jjallaire.shinyapps.io/diamonds-explorer/">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="7">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="../interactive/widgets/jupyter.html" class="listing-title">Jupyter</a> <span class="text-muted listing-subtitle">interactive widgets</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/widgets/jupyter.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="../interactive/widgets/jupyter.html">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
 </div>
+<h2 class="anchored">Reproducible Reporting Resources in R and Python</h2>
+<p>Engage readers and deliver more insights with interactive documents.
+</p>
+<div class="list grid" style="column-gap: 10px;">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="8">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="../interactive/ojs/examples/penguins.html" class="listing-title">Observable</a> <span class="text-muted listing-subtitle">reactive JavaScript</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/ojs/examples/penguins.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="../interactive/ojs/examples/penguins.html">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="9">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://jjallaire.shinyapps.io/diamonds-explorer/" class="listing-title">Shiny</a> <span class="text-muted listing-subtitle">web framework for R</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="https://jjallaire.shinyapps.io/diamonds-explorer/">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="10">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="../interactive/widgets/jupyter.html" class="listing-title">Jupyter</a> <span class="text-muted listing-subtitle">interactive widgets</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/widgets/jupyter.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="../interactive/widgets/jupyter.html">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
 </div>
-</a>
+<h2 class="anchored">Spatial Data Resources for R</h2>
+<p>Engage readers and deliver more insights with interactive documents.
+</p>
+<div class="list grid" style="column-gap: 10px;">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="11">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="../interactive/ojs/examples/penguins.html" class="listing-title">Observable</a> <span class="text-muted listing-subtitle">reactive JavaScript</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/ojs/examples/penguins.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="../interactive/ojs/examples/penguins.html">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="12">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://jjallaire.shinyapps.io/diamonds-explorer/" class="listing-title">Shiny</a> <span class="text-muted listing-subtitle">web framework for R</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="https://jjallaire.shinyapps.io/diamonds-explorer/">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="13">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="../interactive/widgets/jupyter.html" class="listing-title">Jupyter</a> <span class="text-muted listing-subtitle">interactive widgets</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/widgets/jupyter.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="../interactive/widgets/jupyter.html">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
 </div>
-<div class="g-col-1" data-index="1">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-PDF
-</h5>
-<div class="card-subtitle listing-subtitle">
-for high quality print
-</div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-href
-</td>
-<td class="href">
-https://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-MS Word
-</h5>
-<div class="card-subtitle listing-subtitle">
-for Office workflows
-</div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-href
-</td>
-<td class="href">
-https://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-HTML
-</h5>
-<div class="card-subtitle listing-subtitle">
-with advanced layout
-</div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-href
-</td>
-<td class="href">
-https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-PDF
-</h5>
-<div class="card-subtitle listing-subtitle">
-with advanced layout
-</div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-href
-</td>
-<td class="href">
-https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
+<h2 class="anchored">Learning Resources for ArcGIS</h2>
+<p>Engage readers and deliver more insights with interactive documents.
+</p>
+<div class="list grid" style="column-gap: 10px;">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="14">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="../interactive/ojs/examples/penguins.html" class="listing-title">Observable</a> <span class="text-muted listing-subtitle">reactive JavaScript</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/ojs/examples/penguins.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="../interactive/ojs/examples/penguins.html">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="15">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="https://jjallaire.shinyapps.io/diamonds-explorer/" class="listing-title">Shiny</a> <span class="text-muted listing-subtitle">web framework for R</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="https://jjallaire.shinyapps.io/diamonds-explorer/">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="16">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text text-nowrap inline-block">
+        <a href="../interactive/widgets/jupyter.html" class="listing-title">Jupyter</a> <span class="text-muted listing-subtitle">interactive widgets</span>
+      </small>
+      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/widgets/jupyter.qmd" title="View source code" class="source-code card-text float-end inline-block">
+        <i class="bi-code-slash"></i>
+      </a>
+    </div>
+    <a href="../interactive/widgets/jupyter.html">
+      <img src="bg-pine-blue.png" alt="" class="card-img-top">
+    </a>
+  </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -418,6 +528,7 @@ No matching items
 
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

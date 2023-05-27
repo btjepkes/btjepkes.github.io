@@ -4,8 +4,8 @@ subtitle: My favorite references for ecological science, GIS, R, Python, and mor
 
 listing:
   id: resource-listings
-  contents:
-    - resources.yml
+  template: resources/resources.ejs
+  contents: resources/resources.yml
   type: grid
   categories: false
   filter-ui: false
@@ -48,6 +48,6 @@ listing:
 
 - [YouTube Channel ~ DMAD QGIS Lessons](https://www.youtube.com/c/DMADMarineMammalsResearchAssociation)
 
-## Additional Resources
+
 ::: {#resource-listings}
 :::
