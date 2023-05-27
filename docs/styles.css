@@ -211,11 +211,12 @@ body {
   background: white;
 }
 
+@media (min-width: 991.98px) {
 .quarto-grid-item:hover .card-title::after {
   border-top: solid 4px #f5c25c;
   width: 18%;
   animation: border-anim 0.2s ease-out forwards;
-}
+}}
 
 .quarto-grid-item .card-title::after {
   content: "";
@@ -275,6 +276,7 @@ body {
 
 
 /* ABOUT on Index */
+
 
 @media (max-width: 991.98px) {
 .centered {
@@ -339,7 +341,7 @@ left: 50%;
 }}
 
 #quarto-back-to-top {
-  background-color: #f5c25c;
+  background-color: #f1f1f1;
   color: black;
 }
 
