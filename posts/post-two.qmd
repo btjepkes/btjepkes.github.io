@@ -6,10 +6,9 @@ author:
     url: //about.qmd
     orcid: 0009-0002-5524-2675
 date-modified: "5/28/2023"
-abstract: "In this post, we talk about how to make your reporting workflows much easier by using reproducible formats. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing reports using Quarto in the RStudio environment."
+abstract: In this post, we talk about how to make your reporting workflows much easier by using reproducible formats. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing reports using Quarto in the RStudio environment.
 abstract-title: ""
 categories:
-  - Testing 
   - R
   - Quarto
   - Reporting
@@ -17,7 +16,7 @@ image: bg-pine-blue.jpg
 draft: TRUE
 ---
 
-::: {.callout-tip .intro-callout}
+::: {.callout-tip collapse="true" .intro-callout}
 ## Article Learning Outcomes
 
 - Learn how to use Quarto documents within the RStudio environment.
@@ -27,7 +26,7 @@ draft: TRUE
 :::
 
 
-## This post is pending.
+## Background
 
-Please check back soon!
+### Data Sources
 

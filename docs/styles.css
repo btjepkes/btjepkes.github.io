@@ -249,7 +249,9 @@ body {
 .quarto-grid-item p.card-img-top>img {
     object-fit: cover;
     object-position: top;
+    border-radius: 5px 5px 0 0 ;
 }
+
 
 .quarto-category {
   background: azure;

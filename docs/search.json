@@ -179,7 +179,7 @@
     "href": "posts/post-four.html",
     "title": "Creating an Interactive Heatmap of GBIF Occurrences",
     "section": "",
-    "text": "Article Learning Outcomes\n\n\n\n\nLearn how to work with GBIF data within the RStudio environment.\nLearn how to use the leaflet package to make interactive maps.\nLearn how to clean data using basic tidyverse verbs."
+    "text": "Article Learning Outcomes\n\n\n\n\n\n\nLearn how to work with GBIF data within the RStudio environment.\nLearn how to use the leaflet package to make interactive maps.\nLearn how to clean data using basic tidyverse verbs."
   },
   {
     "objectID": "posts/post-four.html#background",
