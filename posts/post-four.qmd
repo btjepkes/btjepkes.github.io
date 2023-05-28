@@ -16,6 +16,15 @@ categories:
 image: img-sage-grouse.jpg
 ---
 
+::: {.callout-tip .intro-callout}
+## Article Learning Outcomes
+
+- Learn how to work with GBIF data within the RStudio environment.
+- Learn how to use the `leaflet` package to make interactive maps. 
+- Learn how to clean data using basic tidyverse verbs.
+
+:::
+
 ## Background
 
 ### Focal Species

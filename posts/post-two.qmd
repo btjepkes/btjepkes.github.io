@@ -1,12 +1,12 @@
 ---
 title: "Streamlining Your Reporting Workflow with Quarto"
-subtitle: "Stop manually updating the same report with different inputs."
+subtitle: "Manually updating reports is old news, start producing reproducible documents."
 author:
   - name: Benjamin Tjepkes  
     url: //about.qmd
     orcid: 0009-0002-5524-2675
-date: "4/16/2023"
-abstract: "In this post, we talk about how to make your reporting workflows way easier by using reproducible formats. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing reports using Quarto in the RStudio and Jupyter Notebook environments."
+date-modified: "5/28/2023"
+abstract: "In this post, we talk about how to make your reporting workflows much easier by using reproducible formats. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing reports using Quarto in the RStudio environment."
 abstract-title: ""
 categories:
   - Testing 
@@ -17,6 +17,17 @@ image: bg-pine-blue.jpg
 draft: TRUE
 ---
 
+::: {.callout-tip .intro-callout}
+## Article Learning Outcomes
+
+- Learn how to use Quarto documents within the RStudio environment.
+- Learn how to load in TidyTuesday data using a dedicated R package.
+- Learn how to make basic visualizations and maps.
+
+:::
+
+
 ## This post is pending.
 
 Please check back soon!
+

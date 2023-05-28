@@ -191,6 +191,12 @@ body {
 
 /* POSTS */
 
+/* Callout block at start of blog*/
+.intro-callout {
+  margin-top: 0;
+  background: white;
+}
+
 .quarto-listing-filter {
   margin-bottom: 2em;
   width: 100%;
