@@ -2,6 +2,7 @@
 title: "Hello, my name is Benjamin W. Tjepkes"
 subtitle: "Wildlife ecologist and budding geographer with a passion for conservation science."
 toc: false
+page-layout: article
 about:
   id: about-id
   template: solana
@@ -49,20 +50,9 @@ This is my **professional portfolio** and **technical blog site** showcasing my 
 
 :::
 
+# Start Exploring!
+
 
 ::: {.column-page-inset #site-listings}
 :::
-
-::: {layout="[[1,1], [1], [1,1]]"}
-![Example.](bg-pine-blue.png)
-
-![Example.](bg-pine-blue.png)
-
-![Example.](img-ben-work.png)
-
-![Example.](bg-pine-blue.png)
-
-![Example.](img-ben-with-bear.jpg)
-:::
-
 

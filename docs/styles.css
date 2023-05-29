@@ -3,6 +3,7 @@
 /* TYPOGRAPHY */
 
 h1 {
+  text-align: center;
   font-weight: 900;
   font-size: 2rem !important;
   background-image: url(data.svg);
@@ -219,7 +220,6 @@ body {
 @media (min-width: 991.98px) {
 .quarto-grid-item:hover .card-title::after {
   border-top: solid 4px #f5c25c;
-  width: 18%;
   animation: border-anim 0.2s ease-out forwards;
 }}
 
@@ -229,15 +229,6 @@ body {
   width: 15%;
   border-top: solid 4px #20595d;
   margin-top: 15px;
-}
-
-@keyframes border-anim {
-  0% {
-    width: 15%;
-  }
-  100% {
-    width: 50%;
-  }
 }
 
 .quarto-grid-item .card-title {
