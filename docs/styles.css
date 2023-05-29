@@ -6,11 +6,6 @@ h1 {
   text-align: center;
   font-weight: 900;
   font-size: 2rem !important;
-  background-image: url(data.svg);
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  padding-bottom: 25px;
-  background-size: 300px;
 }
 
 
@@ -170,6 +165,14 @@ nav .nav-item.compact .nav-link {
 body {
   backdrop-filter: blur(1px);
   background-color: #f7f5f4;
+}
+
+.title {
+  background-image: url(data.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: 25px;
+  background-size: 300px;
 }
 
 

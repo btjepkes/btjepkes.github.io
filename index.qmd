@@ -46,7 +46,7 @@ This is my **professional portfolio** and **technical blog site** showcasing my 
 
 ::: {#about-id}
 
-<span style="color: #f55c5c; font-size: 20px; font-weight: 600;">My Biography</span> --- I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform **landscape and endangered resource conservation**. In my current role, I serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. Please explore this site or my [CV](about.qmd) to learn more about my work.
+<span style="color: #f55c5c; font-size: 20px; font-weight: 600;">My Biography</span> --- I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform **landscape and endangered resource conservation**. In my current role, I serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. Peruse this site or my [CV](about.qmd) to learn more about my work.
 
 :::
 
@@ -56,3 +56,18 @@ This is my **professional portfolio** and **technical blog site** showcasing my 
 ::: {.column-page-inset #site-listings}
 :::
 
+![](img-computer.png)
+
+
+# My Latest Work
+
+::: {.column-page-inset layout-nrow=1}
+
+![](img-computer.png)
+
+![](img-computer.png)
+
+![](img-computer.png)
+
+![](img-computer.png)
+:::
