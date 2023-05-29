@@ -53,5 +53,20 @@ This is my **professional portfolio** and **technical blog site** showcasing my 
 ::: {#site-listings}
 :::
 
-![A snapshot of my wildlife work. Photos: Ben Tjepkes](img-ben-work.png)
+::: {layout="[[1,1], [1], [1,1]]"}
+![Example.](bg-pine-blue.png)
+
+![Example.](bg-pine-blue.png)
+
+![Example.](img-ben-work.png)
+
+![Example.](bg-pine-blue.png)
+
+![Example.](img-ben-with-bear.jpg)
+:::
+
+
+
+
+
 

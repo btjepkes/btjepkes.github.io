@@ -36,7 +36,6 @@ code {
 
 .blockquote p {
   font-size: 22px;
-  color: #FFFFFF;
 }
 
 pre.sourceCode {
@@ -286,6 +285,15 @@ body {
 /* ABOUT on Index */
 
 
+/* Image gallery on index */
+
+
+#index .quarto-layout-cell {
+  position: relative;
+  margin-right: 0;
+}
+
+
 @media (max-width: 991.98px) {
 .centered {
   text-align: center;
@@ -363,3 +371,4 @@ left: 50%;
   margin-bottom: -25.5px;
   color: #f5c25c;
 }
+
