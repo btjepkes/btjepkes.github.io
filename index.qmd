@@ -50,24 +50,13 @@ This is my **professional portfolio** and **technical blog site** showcasing my 
 
 :::
 
-# Start Exploring!
+
 
 
 ::: {.column-page-inset #site-listings}
+
 :::
 
-![](img-computer.png)
 
+# Thank you for visiting!
 
-# My Latest Work
-
-::: {.column-page-inset layout-nrow=1}
-
-![](img-computer.png)
-
-![](img-computer.png)
-
-![](img-computer.png)
-
-![](img-computer.png)
-:::

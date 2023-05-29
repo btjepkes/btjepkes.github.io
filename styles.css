@@ -114,14 +114,6 @@ nav .nav-item.compact .nav-link {
   margin: auto;
 }
 
-/* Search Button and Popup
-#quarto-search > div > button > div.aa-DetachedSearchButtonIcon::after {
-  content: " - Search Site";
-}
-
-#quarto-search > div > button > div.aa-DetachedSearchButtonIcon {
-  font-size: 18px;
-  padding-bottom: 20px}*/
   
 .aa-DetachedContainer--modal {
     border-radius: 6px;
@@ -312,20 +304,7 @@ body {
 }
 
 .about-image {
-  animation: pulsate 0.5s ease-out;
-  animation-iteration-count: 1;
   border-radius: 6px;
-}
-
-@keyframes pulsate {
-  0% {
-    transform: scale(0.6);
-    opacity: 0.7;
-  }
-  100% {
-    transform: scale(1.0);
-    opacity: 0.6;
-  }
 }
 
 #listing-site-listings {
