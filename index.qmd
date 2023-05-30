@@ -67,12 +67,12 @@ library(ggplot2)
 
 # Create a sample data frame
 data <- data.frame(
-  Highlight = c("Cartographic Design",
+  C1 = c("Cartographic Design",
            "Data Viz & Reporting",
            "Web Development",
            "Data Management",
            "Project Management"),
-  Description = c("Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps, with a comprehensive understanding of cartographic design fundamentals.",
+  C2 = c("Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps, with a comprehensive understanding of cartographic design fundamentals.",
                   "Proficient in data vizualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.",
                   "Employ front-end web development languages such as HTML and CSS to design functional and beautiful websites.",
                   "Use programs like Microsoft Access, Microsoft SQL Server, and ArcGIS Pro to manipulate and maintain high-quality data in relational databases.",
@@ -86,12 +86,17 @@ tbl <- gt(data)
 tbl <- tbl %>%
   
   cols_label(
-    Highlight = "Skill",
-    Description = "Experience") %>% 
+    C1 = "",
+    C2 = "") %>% 
   
   cols_align(
     align = "center",
-    columns = Highlight
+    columns = C1
+  ) %>% 
+  
+  cols_width(
+    C1 ~ pct(35),
+    C2 ~ pct(65)
   ) %>% 
   
   tab_header(
