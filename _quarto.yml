@@ -68,5 +68,5 @@ format:
     number-sections: false
     title-block-banner: true
     link-external-newwindow: true
-    code-overflow: wrap
+    code-overflow: scroll
 

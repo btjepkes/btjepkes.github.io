@@ -53,10 +53,7 @@ This is my **professional portfolio** and **technical blog site** showcasing my 
 
 
 
-::: {.column-page-inset #site-listings}
+::: {#site-listings}
 
 :::
-
-
-# Thank you for visiting!
 
