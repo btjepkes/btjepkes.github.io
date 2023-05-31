@@ -40,7 +40,7 @@ listing:
 ---
 
 ::: {.centered}
-Welcome! This is my **professional portfolio** and **technical blog** site showcasing my work in ecology and geospatial. Thank you for stopping by and checking out my projects, posts, and research.
+Welcome! This is my **professional portfolio** and **technical blog** site showcasing my work in ecology and geospatial. Thank you for stopping by to check out my projects and posts.
 :::
 
 
@@ -56,6 +56,8 @@ Welcome! This is my **professional portfolio** and **technical blog** site showc
 ::: {#site-listings}
 
 :::
+
+
 
 ```{r}
 #| echo: false
@@ -111,5 +113,33 @@ tbl <- tbl %>%
 # Print the table
 tbl
 
+```
+
+```{r}
+#| echo: false
+#| warning: false
+
+
+# libraries:
+library(ggplot2)
+library(gganimate)
+library(ggthemes)
+ 
+# Make 2 basic states and concatenate them:
+a <- data.frame(group=c("A","B","C"), values=c(3,2,4), frame=rep('a',3))
+b <- data.frame(group=c("A","B","C"), values=c(5,3,7), frame=rep('b',3))
+data <- rbind(a,b)  
+ 
+# Make a ggplot, but add frame=year: one image per year
+ggplot(data, aes(x=group, y=values, fill=group)) + 
+  geom_bar(stat='identity') +
+  theme_wsj() +
+  # gganimate specific bits:
+  transition_states(
+    frame,
+    transition_length = 2,
+    state_length = 1
+  ) +
+  ease_aes('sine-in-out')
 ```
 
