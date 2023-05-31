@@ -124,29 +124,33 @@ library(gganimate)
 library(ggthemes)
  
 # Make 2 basic states and concatenate them:
-a <- data.frame(group=c("Arcade","Python","CSS","HTML","R"),
-                values=c(0.2,0.2,0.2,0.2,0.2),
-                frame=rep('a',5),
-                Proficiency=c("Web Dev", "Web Dev","Data", "GIS", "Data"))
+a <- data.frame(group=c("Arcade","Python","CSS","HTML","R","SQL"),
+                values=c(0.2,0.2,0.2,0.2,0.2,0.2),
+                frame=rep('a',6),
+                Proficiency=c("GIS", "Data + GIS","Web Dev", "Web Dev", "Data + GIS","Data"))
 
-b <- data.frame(group=c("Arcade","Python","CSS","HTML","R"),
-                values=c(1,2,4,4,5),
-                frame=rep('b',5),
-                Proficiency=c("Web Dev", "Web Dev", "Data", "GIS", "Data"))
+b <- data.frame(group=c("Arcade","Python","CSS","HTML","R","SQL"),
+                values=c(2,3,4,4,5,2),
+                frame=rep('b',6),
+                Proficiency=c("GIS", "Data + GIS","Web Dev", "Web Dev", "Data + GIS","Data"))
 
 data <- rbind(a,b)  
  
 # Make a ggplot, but add frame=year: one image per year
 ggplot(data, aes(x=group, y=values, fill=Proficiency)) + 
   geom_bar(stat='identity') +
-  labs(title = "Language Proficiencies",
+  labs(title = "Coding Language Skills",
+       subtitle = "My Relative Proficiency",
        fill = NULL) +
   theme_wsj() +
+  
+  theme(plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) +
   
   transition_states(
     frame,
     transition_length = 0.4,
-    state_length = 0.5) +
+    state_length = 0.2) +
   
   ease_aes('sine-in-out')
 ```
