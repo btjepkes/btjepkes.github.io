@@ -51,8 +51,6 @@ Welcome! This is my **professional portfolio** and **technical blog** site showc
 :::
 
 
-
-
 ::: {#site-listings}
 
 :::
@@ -126,20 +124,30 @@ library(gganimate)
 library(ggthemes)
  
 # Make 2 basic states and concatenate them:
-a <- data.frame(group=c("A","B","C"), values=c(3,2,4), frame=rep('a',3))
-b <- data.frame(group=c("A","B","C"), values=c(5,3,7), frame=rep('b',3))
+a <- data.frame(group=c("Arcade","Python","CSS","HTML","R"),
+                values=c(0.2,0.2,0.2,0.2,0.2),
+                frame=rep('a',5),
+                Proficiency=c("Web Dev", "Web Dev","Data", "GIS", "Data"))
+
+b <- data.frame(group=c("Arcade","Python","CSS","HTML","R"),
+                values=c(1,2,4,4,5),
+                frame=rep('b',5),
+                Proficiency=c("Web Dev", "Web Dev", "Data", "GIS", "Data"))
+
 data <- rbind(a,b)  
  
 # Make a ggplot, but add frame=year: one image per year
-ggplot(data, aes(x=group, y=values, fill=group)) + 
+ggplot(data, aes(x=group, y=values, fill=Proficiency)) + 
   geom_bar(stat='identity') +
+  labs(title = "Language Proficiencies",
+       fill = NULL) +
   theme_wsj() +
-  # gganimate specific bits:
+  
   transition_states(
     frame,
-    transition_length = 2,
-    state_length = 1
-  ) +
+    transition_length = 0.4,
+    state_length = 0.5) +
+  
   ease_aes('sine-in-out')
 ```
 
