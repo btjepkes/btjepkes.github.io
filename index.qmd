@@ -127,14 +127,16 @@ library(ggthemes)
 a <- data.frame(group=c("Arcade","Python","CSS","HTML","R","SQL"),
                 values=c(0.2,0.2,0.2,0.2,0.2,0.2),
                 frame=rep('a',6),
-                Proficiency=c("GIS", "Data + GIS","Web Dev", "Web Dev", "Data + GIS","Data"))
+                Proficiency=c("GIS", "Data + GIS","Web", "Web", "Data + GIS","Data"))
 
 b <- data.frame(group=c("Arcade","Python","CSS","HTML","R","SQL"),
                 values=c(2,3,4,4,5,2),
                 frame=rep('b',6),
-                Proficiency=c("GIS", "Data + GIS","Web Dev", "Web Dev", "Data + GIS","Data"))
+                Proficiency=c("GIS", "Data + GIS","Web", "Web", "Data + GIS","Data"))
 
 data <- rbind(a,b)  
+
+color_pal <- c("Data" = "red", "Data + GIS" = "blue", "GIS" = "green", "Web Dev" = "pink")
  
 # Make a ggplot, but add frame=year: one image per year
 ggplot(data, aes(x=group, y=values, fill=Proficiency)) + 
@@ -142,15 +144,18 @@ ggplot(data, aes(x=group, y=values, fill=Proficiency)) +
   labs(title = "Coding Language Skills",
        subtitle = "My Relative Proficiency",
        fill = NULL) +
-  theme_wsj() +
   
   theme(plot.title = element_text(hjust = 0.5),
         plot.subtitle = element_text(hjust = 0.5)) +
   
+  scale_fill_economist() +
+  
+  theme_wsj() +
+  
   transition_states(
     frame,
-    transition_length = 0.4,
-    state_length = 0.2) +
+    transition_length = 2,
+    state_length = 0.01) +
   
   ease_aes('sine-in-out')
 ```
