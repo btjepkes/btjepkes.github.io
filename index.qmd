@@ -104,7 +104,7 @@ tbl <- tbl %>%
   
     tab_row_group(label = md("**Data Management**"), rows = 5, id = "data-mgmnt") %>% 
   
-    tab_row_group(label = md("**Research Methods**"), rows = 8, id = "research") %>% 
+    tab_row_group(label = md("**Research Methods**"), rows = 7:8, id = "research") %>% 
   
   gt_fa_column(C4) %>% 
   
@@ -120,8 +120,8 @@ tbl <- tbl %>%
   
   cols_width(
     C2 ~ pct(60),
-    C3 ~ pct(30),
-    C4 ~ pct(10)
+    C3 ~ pct(22),
+    C4 ~ pct(18)
   ) %>% 
   
   tab_header(
@@ -129,7 +129,7 @@ tbl <- tbl %>%
   
   tab_options(
     table.width = pct(100),
-    heading.padding = px(20),
+    heading.padding = px(30),
     heading.background.color = "#20595d",
     data_row.padding = px(16),
     data_row.padding.horizontal = px(14)
@@ -137,7 +137,7 @@ tbl <- tbl %>%
     tab_style(
     style = list(
       cell_fill(color = "#d8d8d8"),
-      cell_text(size = "larger")
+      cell_text(size = "medium")
     ),
     locations = cells_row_groups(groups = c("gis", "data", "web", "data-mgmnt", "research"))
     )
