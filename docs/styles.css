@@ -168,9 +168,6 @@ nav .nav-item.compact .nav-link {
   z-index: -1;
 }*/
 
-#quarto-content > * {
-  padding-top: 10px;
-}
 
 body {
   backdrop-filter: blur(1px);
