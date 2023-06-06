@@ -24,6 +24,8 @@ website:
         text: Research        
       - href: resources.qmd
         text: Resources
+      - href: contact.qmd
+        text: Contact        
       - href: posts.qmd
         text: Blog      
 

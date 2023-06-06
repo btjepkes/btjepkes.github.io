@@ -6,7 +6,7 @@ page-layout: article
 about:
   id: about-id
   template: solana
-  image: img-ben-portrait-1.jpg
+  image: img-ben-portrait-2.jpg
   image-shape: rectangle
   links:
     - icon: twitter
