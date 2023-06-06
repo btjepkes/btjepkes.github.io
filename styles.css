@@ -340,6 +340,7 @@ body {
 .nav-footer {
   padding-top: 1em;
   background-color: #20595d;
+  color: white !important;
 }
 
 @media (max-width: 767.98px) {
@@ -369,9 +370,4 @@ left: 50%;
 /* Table styling */
 .gt_col_headings {
   display: none;
-}
-
-#hiibuluvqv .gt_center {
-  text-align: center;
-  font-weight: bold;
 }

@@ -63,6 +63,7 @@ Welcome! This is my **professional portfolio** and **technical blog** site showc
 
 # Load the required libraries
 library(gt)
+library(gtExtras)
 library(ggplot2)
 
 # Create a sample data frame
@@ -80,7 +81,8 @@ data <- data.frame(
                   "Use programs like Microsoft Access and Microsoft SQL Server to manipulate and maintain high-quality data in relational databases.",
                   "Use tools like Microsoft Teams, SharePoint, and Lists to manage complex projects and collaborate with team members efficiently.",
          "Experience using radio telemetry, standardized field sampling, and wildlife capture and marking techniques to perofrm well in the field.",
-         "Proficiency in the scientific method and strong research project development skills, enabling me to undertake investigations with a methodical and precise approach.")
+         "Proficiency in the scientific method and strong research project development skills, enabling me to undertake investigations with a methodical and precise approach."),
+  C3 = c(1,2,3,4,5,6,7)
 )
 
 # Create a gt table
@@ -89,18 +91,21 @@ tbl <- gt(data)
 # Set column labels
 tbl <- tbl %>%
   
+  gt_plt_bar_pct(column = C3, fill = "red", background = "lightgray") %>% 
+  
   cols_label(
     C1 = "",
     C2 = "") %>% 
   
   cols_align(
     align = "center",
-    columns = C1
+    columns = c(C1, C3)
   ) %>% 
   
   cols_width(
-    C1 ~ pct(35),
-    C2 ~ pct(65)
+    C1 ~ pct(25),
+    C2 ~ pct(45),
+    C3 ~ pct(30)
   ) %>% 
   
   tab_header(
@@ -109,7 +114,9 @@ tbl <- tbl %>%
   tab_options(
     table.width = pct(100),
     heading.padding = px(20),
-    heading.background.color = "#20595d"
+    heading.background.color = "#20595d",
+    data_row.padding = px(16),
+    data_row.padding.horizontal = px(14)
   )
 
 # Print the table
