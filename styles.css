@@ -366,6 +366,12 @@ left: 50%;
   color: #f5c25c;
 }
 
+/* Table styling */
 .gt_col_headings {
   display: none;
+}
+
+#hiibuluvqv .gt_center {
+  text-align: center;
+  font-weight: bold;
 }

@@ -6,7 +6,6 @@ listing:
   id: resource-listings
   template: resources/resources.ejs
   contents: resources/resources.yml
-  type: grid
   categories: false
   filter-ui: false
     
