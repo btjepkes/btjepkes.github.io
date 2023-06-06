@@ -6,7 +6,7 @@ page-layout: article
 about:
   id: about-id
   template: solana
-  image: img-ben-portrait.jpg
+  image: img-ben-portrait-1.jpg
   image-shape: rectangle
   links:
     - icon: twitter
@@ -104,12 +104,11 @@ tbl <- tbl %>%
   ) %>% 
   
   tab_header(
-    title = md("**Continuously Improving**"),
-    subtitle = "My diverse background has developed my unique, multidisciplinary skillset.") %>% 
+    title = md("**Continuously Improving My Multidisciplinary Skillset**")) %>% 
   
   tab_options(
     table.width = pct(100),
-    heading.padding = px(10),
+    heading.padding = px(20),
     heading.background.color = "#20595d"
   )
 

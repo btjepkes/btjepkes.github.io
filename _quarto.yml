@@ -12,7 +12,7 @@ website:
   repo-url: https://github.com/btjepkes/btjepkes.github.io
 
   navbar:
-    pinned: false
+    pinned: true
     left:
       - href: index.qmd
         text: Home
