@@ -89,14 +89,14 @@ data <- data.frame(
 )
 
 # Create a gt table
-tbl <- gt(data %>% select(C4, C2, C3))
+tbl <- gt(data %>% select(C4, C2))
 
 # Set column labels
 tbl <- tbl %>%
   
   # gt_plt_bar_pct(column = C3, fill = "#f5c25c", background = "lightgray") %>% 
   
-  gt_fa_rating(column = C3, max_rating = 5) %>% 
+  # gt_fa_rating(column = C3, max_rating = 5) %>% 
   
   tab_row_group(label = md("**Spatial Analysis & Cartographic Design**"), rows = 1, id = "gis") %>% 
   
@@ -111,19 +111,17 @@ tbl <- tbl %>%
   gt_fa_column(C4, height = "40px", palette = "#20595d") %>% 
   
   cols_label(
-    C2 = "Skill-Related Experiences",
-    C3 = "Relative Proficiency",
+    C2 = "",
     C4 = "") %>% 
   
   cols_align(
     align = "center",
-    columns = c(C4, C3)
+    columns = c(C4)
   ) %>% 
   
   cols_width(
-    C2 ~ pct(60),
-    C3 ~ pct(22),
-    C4 ~ pct(18)
+    C2 ~ pct(75),
+    C4 ~ pct(25)
   ) %>% 
   
   tab_header(
@@ -133,7 +131,7 @@ tbl <- tbl %>%
     table.width = pct(100),
     heading.padding = px(30),
     heading.background.color = "#20595d",
-    data_row.padding = px(16),
+    data_row.padding = px(24),
     data_row.padding.horizontal = px(14)
   ) %>% 
     tab_style(
