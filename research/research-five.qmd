@@ -12,9 +12,6 @@ abstract-title: ""
 abstract: "This undergraduate research project was aimed at assessing the need for beaver flow devices on water control strutures owned by the Wisconsin Department of Natural Resources. From these results, I designed a specialized flow device for the structures most impacted by beavers in the study area."
 ---
 
-![](../research/img-beaver-impacted-wcs.jpg)
-
-
 ## Project Reports
 
 **Tjepkes, B.W.** 2017. Assessing the need for flow devices on beaver impacted flowages. Unpublished report.

@@ -165,7 +165,7 @@
     "href": "gallery.html",
     "title": "My Gallery",
     "section": "",
-    "text": "Overlaying Public Lands with BMZs\n\n\nState and federal lands within Bear Management Zones in Missouri.\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings in 2020\n\n\nCounty-based counts of reported bear sightings in Missouri.\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Collection Map\n\n\nNationwide map showing ranges of a subset of ESA-listed species.\n\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Maps by County and Season\n\n\nMissouri turkey harvest maps for the fall 2021 and spring 2022 seasons.\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\nDigitized structures and OHWM for three lakes in Portage County, Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\nNavigation Map for Field Research Station\n\n\nRoad navigation map for the Northern Aquaculture Demonstration Facility.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\nResearch poster on bald eagle nest-site selection modeling.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bat Habitat Conservation Plan in Missouri\n\n\nInformational poster on the Missouri Bat Habitat Conservation Plan.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Spatial Patterns and Home Ranges\n\n\nResearch presentation on sex-specific space-use of raccoons in Laramie, WY.\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\nFY2021 annual report on furbearer harvest, status, and program activities.\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Data Report\n\n\nA final report provided to the USFWS on the Upper Mississippi population.\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability\n\n\nOptimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Overlaying Public Lands with BMZs\n\n\nState and federal lands within Bear Management Zones in Missouri.\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings in 2020\n\n\nCounty-based counts of reported bear sightings in Missouri.\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Collection Map\n\n\nNationwide map showing ranges of a subset of ESA-listed species.\n\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Maps by County and Season\n\n\nMissouri turkey harvest maps for the fall 2021 and spring 2022 seasons.\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\nDigitized structures and OHWM for three lakes in Portage County, Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\nNavigation Map for Field Research Station\n\n\nRoad navigation map for the Northern Aquaculture Demonstration Facility.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\nResearch poster on bald eagle nest-site selection modeling.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bat Habitat Conservation Plan in Missouri\n\n\nInformational poster on the Missouri Bat Habitat Conservation Plan.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Spatial Patterns and Home Ranges\n\n\nResearch presentation on sex-specific space-use of raccoons in Laramie, WY.\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\nFY2021 annual report on furbearer harvest, status, and program activities.\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Data Report\n\n\nA final report provided to the USFWS on the Upper Mississippi population.\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability\n\n\nOptimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -227,8 +227,8 @@
     "objectID": "research/research-five.html#project-reports",
     "href": "research/research-five.html#project-reports",
     "title": "Beaver-Impacted Water Control Structures",
-    "section": "Project Reports",
-    "text": "Project Reports\nTjepkes, B.W. 2017. Assessing the need for flow devices on beaver impacted flowages. Unpublished report."
+    "section": "",
+    "text": "Tjepkes, B.W. 2017. Assessing the need for flow devices on beaver impacted flowages. Unpublished report."
   },
   {
     "objectID": "research/research-four.html",
@@ -320,5 +320,12 @@
     "title": "Hello, my name is Benjamin W. Tjepkes",
     "section": "My Interests",
     "text": "My Interests\nMy professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.\n\nApplied Conservation Science\nSpatial and Movement Ecology\nImperiled Species Conservation\nLandscape Connectivity & Planning\nWeb and Cartographic Design\nOpen Source Programming"
+  },
+  {
+    "objectID": "research/research-five.html",
+    "href": "research/research-five.html",
+    "title": "Beaver-Impacted Water Control Structures",
+    "section": "",
+    "text": "Tjepkes, B.W. 2017. Assessing the need for flow devices on beaver impacted flowages. Unpublished report."
   }
 ]
