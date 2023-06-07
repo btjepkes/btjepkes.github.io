@@ -10,7 +10,7 @@ categories:
 abstract-title: ""
 abstract: This map was produced as a creative project in celebration of the [50th anniversery of the U.S. Endangered Species Act](https://www.fws.gov/esa50). It shows a few of the limited edition endangered species stamps from the USPS and where the USFWS-determined ranges of those species are located. Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas.
 toc: false
-image: img-map-endangeredstamps-preview.png
+image: img-thumbnail-3.jpg
 ---
 
 ![Map Credit: Ben Tjepkes](../gallery/img-map-endangeredstamps.png)

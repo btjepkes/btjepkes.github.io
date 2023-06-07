@@ -49,11 +49,6 @@ div.quarto-about-solana .about-entity .about-links {
 
 /* NAVIGATION */
 
-/*.headroom-target, header.headroom {
-  will-change: transform;
-  transition: transform 200ms linear;
-  transition: all 200ms linear;
-}*/
 
 .navbar {
   background-color: #20595d; /*#344757*/
@@ -173,6 +168,10 @@ nav .nav-item.compact .nav-link {
 body {
   backdrop-filter: blur(1px);
   background-color: #f7f5f4;
+}
+
+.quarto-header {
+  min-height: none !important;
 }
 
 .title {
@@ -339,6 +338,10 @@ body {
   padding-top: 1em;
   background-color: #20595d;
   color: white !important;
+}
+
+.nav-footer a {
+  color: white;
 }
 
 @media (max-width: 767.98px) {

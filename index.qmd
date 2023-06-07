@@ -75,7 +75,8 @@ data <- data.frame(
            "Data Management",
            "Project Management",
          "Field Techniques",
-         "Research Methods"),
+         "Research Methods",
+         "Applied Conservation Science"),
   C2 = c("Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps and mapping applications.",
                   "Proficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.",
          "Proficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.",
@@ -83,9 +84,10 @@ data <- data.frame(
                   "Use programs like Microsoft Access and Microsoft SQL Server to manipulate and maintain high-quality data in relational databases.",
                   "Use tools like Microsoft Teams, SharePoint, and Lists to manage complex projects and collaborate with team members efficiently.",
          "Experience using radio telemetry, standardized field sampling, and wildlife capture and marking techniques to perofrm well in the field.",
-         "Proficiency in the scientific method and strong research project development skills, enabling me to undertake investigations with a methodical and precise approach."),
-  C3 = c(4,2,3,4,5,3,4,4),
-  C4 = c("bar-chart","check","file-code","pie-chart","database","gear","binoculars","microscope")
+         "Proficiency in the scientific method and strong research project development skills, enabling me to undertake investigations with a methodical and precise approach.",
+         "Applied Conservation Science, Spatial and Movement Ecology, Imperiled Species Conservation, and Landscape Connectivity & Planning"),
+  C3 = c(4,2,3,4,5,3,4,4,5),
+  C4 = c("bar-chart","check","file-code","pie-chart","database","gear","paw","microscope", "binoculars")
 )
 
 # Create a gt table
@@ -106,9 +108,11 @@ tbl <- tbl %>%
   
     tab_row_group(label = md("**Data Management**"), rows = 5, id = "data-mgmnt") %>% 
   
-    tab_row_group(label = md("**Research Methods**"), rows = 7:8, id = "research") %>% 
+    tab_row_group(label = md("**Research Methods**"), rows = 8, id = "research") %>% 
   
     tab_row_group(label = md("**Project Management**"), rows = 6, id = "project") %>% 
+  
+    tab_row_group(label = md("**Applied Conservation Science**"), rows = c(7,9), id = "conservation") %>% 
   
   gt_fa_column(C4, height = "40px", palette = "#bccdce") %>% 
   
@@ -127,7 +131,7 @@ tbl <- tbl %>%
   ) %>% 
   
   tab_header(
-    title = md("**Continuously Improving My Multidisciplinary Skillset**")) %>% 
+    title = md("**My Multidisciplinary Skillset & Professional Interests**")) %>% 
   
   tab_options(
     table.width = pct(100),
@@ -141,7 +145,7 @@ tbl <- tbl %>%
       cell_fill(color = "#d8d8d8"),
       cell_text(size = "medium")
     ),
-    locations = cells_row_groups(groups = c("gis", "data", "web", "data-mgmnt", "research", "project"))
+    locations = cells_row_groups(groups = c("gis", "data", "web", "data-mgmnt", "research", "project", "conservation"))
     )
 
 # Print the table
@@ -149,67 +153,3 @@ tbl
 
 ```
 
-```{r}
-#| echo: false
-#| warning: false
-#| include: false
-#| eval: false
-
-
-# libraries:
-library(ggplot2)
-library(gganimate)
-library(ggthemes)
- 
-# Make 2 basic states and concatenate them:
-a <- data.frame(group=c("Arcade","Python","CSS","HTML","R","SQL"),
-                values=c(0.2,0.2,0.2,0.2,0.2,0.2),
-                frame=rep('a',6),
-                Proficiency=c("GIS", "Data + GIS","Web", "Web", "Data + GIS","Data"))
-
-b <- data.frame(group=c("Arcade","Python","CSS","HTML","R","SQL"),
-                values=c(2,3,4,4,5,2),
-                frame=rep('b',6),
-                Proficiency=c("GIS", "Data + GIS","Web", "Web", "Data + GIS","Data"))
-
-data <- rbind(a,b)  
-
-color_pal <- c("Data" = "red", "Data + GIS" = "blue", "GIS" = "green", "Web Dev" = "pink")
- 
-# Make a ggplot, but add frame=year: one image per year
-ggplot(data, aes(x=group, y=values, fill=Proficiency)) + 
-  geom_bar(stat='identity') +
-  labs(title = "Coding Language Skills",
-       subtitle = "My Relative Proficiency",
-       fill = NULL) +
-  
-  theme(plot.title = element_text(hjust = 0.5),
-        plot.subtitle = element_text(hjust = 0.5)) +
-  
-  scale_fill_economist() +
-  
-  theme_wsj() +
-  
-  transition_states(
-    frame,
-    transition_length = 2,
-    state_length = 0.01) +
-  
-  ease_aes('sine-in-out')
-```
-
-## My Interests
-
-My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.
-
-- **Applied Conservation Science**
-
-- **Spatial and Movement Ecology**
-
-- **Imperiled Species Conservation**
-
-- **Landscape Connectivity & Planning**
-
-- **Web and Cartographic Design**
-
-- **Open Source Programming**
