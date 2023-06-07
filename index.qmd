@@ -108,7 +108,9 @@ tbl <- tbl %>%
   
     tab_row_group(label = md("**Research Methods**"), rows = 7:8, id = "research") %>% 
   
-  gt_fa_column(C4, height = "40px", palette = "#20595d") %>% 
+    tab_row_group(label = md("**Project Management**"), rows = 6, id = "project") %>% 
+  
+  gt_fa_column(C4, height = "40px", palette = "#bccdce") %>% 
   
   cols_label(
     C2 = "",
@@ -139,7 +141,7 @@ tbl <- tbl %>%
       cell_fill(color = "#d8d8d8"),
       cell_text(size = "medium")
     ),
-    locations = cells_row_groups(groups = c("gis", "data", "web", "data-mgmnt", "research"))
+    locations = cells_row_groups(groups = c("gis", "data", "web", "data-mgmnt", "research", "project"))
     )
 
 # Print the table
@@ -196,3 +198,18 @@ ggplot(data, aes(x=group, y=values, fill=Proficiency)) +
   ease_aes('sine-in-out')
 ```
 
+## My Interests
+
+My professional interests are at the intersection of geospatial and ecological science, particularly projects using GIS to inform conservation efforts.
+
+- **Applied Conservation Science**
+
+- **Spatial and Movement Ecology**
+
+- **Imperiled Species Conservation**
+
+- **Landscape Connectivity & Planning**
+
+- **Web and Cartographic Design**
+
+- **Open Source Programming**

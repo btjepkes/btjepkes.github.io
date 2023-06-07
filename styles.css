@@ -367,7 +367,7 @@ left: 50%;
 
 /* Table styling */
 .gt_col_headings {
-  display: ;
+  display: none;
 }
 
 .gt_group_heading {
