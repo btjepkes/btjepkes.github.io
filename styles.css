@@ -367,5 +367,9 @@ left: 50%;
 
 /* Table styling */
 .gt_col_headings {
-  display: none;
+  display: ;
+}
+
+.gt_group_heading {
+  text-align: center !important;
 }

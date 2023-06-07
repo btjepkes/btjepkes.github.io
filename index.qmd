@@ -94,7 +94,9 @@ tbl <- gt(data %>% select(C4, C2, C3))
 # Set column labels
 tbl <- tbl %>%
   
-  gt_plt_bar_pct(column = C3, fill = "#f5c25c", background = "lightgray") %>% 
+  # gt_plt_bar_pct(column = C3, fill = "#f5c25c", background = "lightgray") %>% 
+  
+  gt_fa_rating(column = C3, max_rating = 5) %>% 
   
   tab_row_group(label = md("**Spatial Analysis & Cartographic Design**"), rows = 1, id = "gis") %>% 
   
@@ -106,11 +108,11 @@ tbl <- tbl %>%
   
     tab_row_group(label = md("**Research Methods**"), rows = 7:8, id = "research") %>% 
   
-  gt_fa_column(C4) %>% 
+  gt_fa_column(C4, height = "40px", palette = "#20595d") %>% 
   
   cols_label(
     C2 = "Skill-Related Experiences",
-    C3 = "My Relative Proficiency",
+    C3 = "Relative Proficiency",
     C4 = "") %>% 
   
   cols_align(
