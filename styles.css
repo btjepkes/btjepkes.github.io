@@ -56,6 +56,16 @@ div.quarto-about-solana .about-entity .about-links {
   color: white;
 }
 
+.navbar-nav li:hover::before {
+  content: "\2022";
+  display: block;
+  position: relative;
+  top: -5px;
+  left: 50%;
+  margin-bottom: -25.5px;
+  color: #f5c25c;
+}
+
 
 .navbar-brand span {
   font-weight: 900;
@@ -170,8 +180,9 @@ body {
   background-color: #f7f5f4;
 }
 
-.quarto-header {
-  min-height: none !important;
+.quarto-container,
+#quarto-content {
+  min-height: 0 !important;
 }
 
 .title {
@@ -251,6 +262,12 @@ body {
     object-fit: fit;
     object-position: top;
     border-radius: 14px 14px 0 0 ;
+}
+
+@media (max-width: 991.98px) {
+  p.card-img-top>img {
+    height: 200px !important;
+}
 }
 
 
@@ -358,15 +375,7 @@ left: 50%;
 }
 
 
-.navbar-nav li:hover::before {
-  content: "\2022";
-  display: block;
-  position: relative;
-  top: -5px;
-  left: 50%;
-  margin-bottom: -25.5px;
-  color: #f5c25c;
-}
+/* TABLES */
 
 /* Table styling */
 .gt_col_headings {

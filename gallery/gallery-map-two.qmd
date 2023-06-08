@@ -8,8 +8,13 @@ categories:
   - Map Gallery
   - Wisconsin
   - Navigation
+
+abstract: "This map was created for the Northern Aquaculture Demonstration Facility in northern Bayfield County, WI. The purpose of this visualization was to provide visitors driving directions and general location information for naviagating to the facility."
+abstract-title: ""
+
+image: img-thumbnail-6.jpg
 ---
 
-![](../gallery/img-map-2.jpg)
+![Map credit: Benjamin Tjepkes](../gallery/img-map-2.jpg)
 
 
