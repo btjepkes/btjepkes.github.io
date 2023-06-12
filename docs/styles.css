@@ -158,21 +158,8 @@ nav .nav-item.compact .nav-link {
   background: white; /*#9dcbe1*/
   padding-top: 40px;
   padding-bottom: 30px;
-  box-shadow: 0 0 2px;
+  border-bottom: double 30px #f7f5f4;
 }
-
-/*.quarto-title-banner::before {
-  position: absolute;
-  content: "";
-  bottom: -40px;
-  left: 0px;
-  right: 0px;
-  height: 100px;
-  background-image: url(bg-white-tear.png);
-  background-size: cover;
-  filter: brightness(0) invert(1);
-  z-index: -1;
-}*/
 
 
 body {
@@ -371,7 +358,8 @@ body {
   background-color: #f1f1f1;
   color: black;
   bottom: 20px;
-left: 50%;
+  left: 50%;
+  box-shadow: none;
 }
 
 

@@ -8,3 +8,62 @@ search: false
 
 Interested in working on a collaborative project together, wondering if I still have the code for a past project, or just want to connect? Please contact me via [email](mailto:benjamin.tjepkes+websitecontact@gmail.com) or through my [LinkedIn profile](https://www.linkedin.com/in/benjamintjepkes/) with any inquiries.
 
+```{r}
+#| echo: false
+#| warning: false
+
+# Load the required libraries
+library(gt)
+library(gtExtras)
+
+# Create a sample data frame
+data <- data.frame(
+  c1 = c("bar-chart","check","file-code"),
+  c2 = c("https://www.linkedin.com/in/benjamintjepkes/",
+         "https://www.linkedin.com/in/benjamintjepkes/",
+         "https://www.linkedin.com/in/benjamintjepkes/"))
+
+# Create a gt table
+tbl <- gt(data)
+
+# Set column labels
+tbl <- tbl %>%
+  
+  gt_theme_nytimes() %>% 
+  
+  gt_fa_column(c1, height = "40px", palette = "black") %>% 
+  
+  cols_label(
+    c1 = "",
+    c2 = "") %>% 
+  
+  cols_align(
+    align = "center",
+    columns = c(c1)
+  ) %>% 
+  
+  # cols_width(
+  #   C2 ~ pct(75),
+  #   C4 ~ pct(25)
+  # ) %>% 
+  
+  tab_header(
+    title = md("**My Online Profiles**")) %>% 
+  
+  tab_options(
+    table.width = pct(100)
+  ) 
+    
+    
+    # tab_style(
+    # style = list(
+    #   cell_fill(color = "#d8d8d8"),
+    #   cell_text(size = "medium")
+    # ),
+    # locations = cells_row_groups(groups = c("gis", "data", "web", "data-mgmnt", "research", "project", "conservation"))
+    # )
+
+# Print the table
+tbl
+
+```

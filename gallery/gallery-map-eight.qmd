@@ -1,5 +1,5 @@
 ---
-title: "Central Parks' 2018 Squirrel Census Map"
+title: "Map of the 2018 Squirrel Census in Central Park"
 subtitle: "Kernel density map of squirrel sightings in Central Park."
 author: "Benjamin Tjepkes"
 date-modified: "6-12-2023"
@@ -8,7 +8,7 @@ categories:
   - New York
   - Mammal
 abstract-title: ""
-abstract: This map was produced as part of the 2023 Tidy Tuesday.
+abstract: This map was produced as part of the **2023 Tidy Tuesday**. Map creation was performed in R using the RStudio environment and data were pulled from public repositories.
 toc: false
 image: img-map-001.png
 ---
