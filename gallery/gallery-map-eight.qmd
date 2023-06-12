@@ -1,0 +1,16 @@
+---
+title: "Central Parks' 2018 Squirrel Census Map"
+subtitle: "Kernel density map of squirrel sightings in Central Park."
+author: "Benjamin Tjepkes"
+date-modified: "6-12-2023"
+categories:
+  - Map Gallery
+  - New York
+  - Mammal
+abstract-title: ""
+abstract: This map was produced as part of the 2023 Tidy Tuesday.
+toc: false
+image: img-map-001.png
+---
+
+![Map Credit: Ben Tjepkes](../gallery/img-map-001.png)
