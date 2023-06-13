@@ -252,11 +252,12 @@ body {
     padding-top: 8px;
 }
 
+/*
 @media (max-width: 991.98px) {
   p.card-img-top>img {
     height: 200px !important;
 }
-}
+}*/
 
 
 .quarto-category {
@@ -377,8 +378,7 @@ body {
 
 
 .quarto-listing-cols-3 > * {
-    display: flex;
-    flex-direction: column;
-    break-inside: avoid;
+    display: flex !important;
+    flex-direction: column !important;
+    break-inside: avoid !important;
 }
-
