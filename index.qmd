@@ -40,7 +40,7 @@ listing:
 ---
 
 ::: {.centered}
-Welcome! This is my **professional portfolio** and **technical blog** site showcasing my work in ecology and geospatial. Thank you for stopping by to check out my projects and posts.
+<span style="color: #f55c5c; font-size: 20px; font-weight: 600;">Welcome!</span> --- This is my **professional portfolio** and **technical blog** site showcasing my work in ecology and geospatial. Thank you for stopping by to check out my projects and posts.
 :::
 
 

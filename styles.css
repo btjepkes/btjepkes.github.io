@@ -248,7 +248,8 @@ body {
 .quarto-grid-item p.card-img-top>img {
     object-fit: fit;
     object-position: top;
-    border-radius: 14px 14px 0 0 ;
+    border-radius: 0;
+    padding-top: 8px;
 }
 
 @media (max-width: 991.98px) {
@@ -373,3 +374,11 @@ body {
 .gt_group_heading {
   text-align: center !important;
 }
+
+
+.quarto-listing-cols-3 > * {
+    display: flex;
+    flex-direction: column;
+    break-inside: avoid;
+}
+
