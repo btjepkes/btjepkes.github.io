@@ -4,6 +4,7 @@ project:
 
 website:
   title: "B.W.Tjepkes"
+  site-url: https://btjepkes.github.io/
   favicon: site-logo-green.png
   back-to-top-navigation: true
   search:
@@ -71,4 +72,11 @@ format:
     title-block-banner: true
     link-external-newwindow: true
     code-overflow: scroll
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 2rem
 
+    
+    

@@ -66,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="B.W.Tjepkes - Vineyard and Winery Location Suitability">
 <meta property="og:description" content="This was an assignment for one of my university GIS courses.">
-<meta property="og:image" content="../gallery/img-map-1.jpg">
+<meta property="og:image" content="https://btjepkes.github.io/gallery/img-map-1.jpg">
 <meta property="og:site-name" content="B.W.Tjepkes">
 </head>
 
@@ -435,7 +435,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/btjepkes\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

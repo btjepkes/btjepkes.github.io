@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="B.W.Tjepkes - Annual Report for MDC Furbearer Program">
 <meta property="og:description" content="This fiscal year annual report was created for the Missouri Department of Conservation Furbearer Program to summarize furbearer harvest, status, and other activities during FY21. Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources. The full report document can be viewed here.">
-<meta property="og:image" content="../gallery/img-2021-mdc-furbearer-report.jpg">
+<meta property="og:image" content="https://btjepkes.github.io/gallery/img-2021-mdc-furbearer-report.jpg">
 <meta property="og:site-name" content="B.W.Tjepkes">
 </head>
 
@@ -433,7 +433,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/btjepkes\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="B.W.Tjepkes - Beaver-Impacted Water Control Structures">
 <meta property="og:description" content="This undergraduate research project was aimed at assessing the need for beaver flow devices on water control strutures owned by the Wisconsin Department of Natural Resources. From these results, I designed a specialized flow device for the structures most impacted by beavers in the study area.">
-<meta property="og:image" content="img-beaver-impacted-wcs.jpg">
+<meta property="og:image" content="https://btjepkes.github.io/research/img-beaver-impacted-wcs.jpg">
 <meta property="og:site-name" content="B.W.Tjepkes">
 </head>
 
@@ -442,7 +442,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/btjepkes\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

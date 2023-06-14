@@ -59,12 +59,23 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.1.1/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.1.1/leaflet-providers-plugin.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="B.W.Tjepkes - About Me">
-<meta property="og:description" content="Learn about my professional interests, experience, and highlights.">
-<meta property="og:image" content="bg-pinecone.jpg">
+<meta property="og:description" content="Learn about my professional interests and experience.">
+<meta property="og:image" content="https://btjepkes.github.io/bg-pinecone.jpg">
 <meta property="og:site-name" content="B.W.Tjepkes">
 </head>
 
@@ -147,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">About Me</h1>
-            <p class="subtitle lead">Learn about my professional interests, experience, and highlights.</p>
+            <p class="subtitle lead">Learn about my professional interests and experience.</p>
                       </div>
   </div>
     
@@ -171,6 +182,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#trained-as-a-biologist." id="toc-trained-as-a-biologist." class="nav-link active" data-scroll-target="#trained-as-a-biologist.">01. Trained as a biologist.</a></li>
   <li><a href="#drawn-to-geospatial." id="toc-drawn-to-geospatial." class="nav-link" data-scroll-target="#drawn-to-geospatial.">02. Drawn to geospatial.</a></li>
   <li><a href="#mastering-biogeography." id="toc-mastering-biogeography." class="nav-link" data-scroll-target="#mastering-biogeography.">03. Mastering biogeography.</a></li>
+  <li><a href="#my-professional-travels" id="toc-my-professional-travels" class="nav-link" data-scroll-target="#my-professional-travels">My Professional Travels</a></li>
   </ul>
 </nav>
     </div>
@@ -200,6 +212,15 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="intro-heading anchored" data-anchor-id="mastering-biogeography.">03. Mastering biogeography.</h2>
 <p>With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my forthcoming pursuit of a <strong>Master’s degree in Geography</strong> in late 2023. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.</p>
 <p>Through my Master’s program, I will have the opportunity to study a range of topics that span physical, human, and environmental geography, including spatial analysis, remote sensing, and cartography. I am particularly excited to delve deeper into the theoretical underpinnings of these topics, to analyze complex spatial relationships, and to explore the implications of geographic research for society and the environment. Ultimately, my goal is to synthesize my practical experience in wildlife ecology and management with the theoretical concepts I will gain in my Master’s program to continue to advance conservation efforts and contribute to the broader field of geography.</p>
+</section>
+<section id="my-professional-travels" class="level2">
+<h2 class="anchored" data-anchor-id="my-professional-travels">My Professional Travels</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-86b8722ba33e8ca0f086" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-86b8722ba33e8ca0f086">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[38.89,-92.286,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[38.89,38.89],"lng":[-92.286,-92.286]},"setView":[[38.89,-92.286],10,[]]},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
 </section>
@@ -437,7 +458,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/btjepkes\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

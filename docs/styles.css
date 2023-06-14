@@ -179,6 +179,7 @@ body {
   background-position: center bottom;
   padding-bottom: 25px;
   background-size: 300px;
+  font-weight: 700 !important;
 }
 
 
@@ -188,7 +189,7 @@ body {
   padding-top: 20px;
   padding-bottom: 12px;
   color: #696867;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   letter-spacing: -0.02em;
 }
 
@@ -382,6 +383,7 @@ body {
 }
 
 
+.quarto-listing-cols-2 > *,
 .quarto-listing-cols-3 > * {
     display: flex !important;
     flex-direction: column !important;

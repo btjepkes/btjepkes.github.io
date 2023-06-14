@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="B.W.Tjepkes - Choropleth of Missouri Bear Sightings in 2020">
 <meta property="og:description" content="This choropleth map was created as a public-facing visualization to show the number of black bear sightings in each Missouri county during 2020. It was featured in the February 2021 issue of the Missouri Conservationist for an article about Missouri’s black bear population. Map creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases.">
-<meta property="og:image" content="img-test-2.jpg">
+<meta property="og:image" content="https://btjepkes.github.io/gallery/img-test-2.jpg">
 <meta property="og:site-name" content="B.W.Tjepkes">
 </head>
 
@@ -444,7 +444,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/btjepkes\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

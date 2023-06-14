@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="B.W.Tjepkes - Brownian Bridge Movement Models in R">
 <meta property="og:description" content="In this blog post, we demonstrate how to use the rgbif package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap of the species’ distribution using Leaflet.">
-<meta property="og:image" content="bg-pine-blue.jpg">
+<meta property="og:image" content="https://btjepkes.github.io/posts/bg-pine-blue.jpg">
 <meta property="og:site-name" content="B.W.Tjepkes">
 </head>
 
@@ -490,7 +490,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/btjepkes\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

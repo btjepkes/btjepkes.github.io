@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="B.W.Tjepkes - My Blog Posts">
 <meta property="og:description" content="Explore my writings on ecological and geospatial data science.">
-<meta property="og:image" content="bg-pinecone.jpg">
+<meta property="og:image" content="https://btjepkes.github.io/bg-pinecone.jpg">
 <meta property="og:site-name" content="B.W.Tjepkes">
 </head>
 
@@ -216,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list grid quarto-listing-cols-3">
+<div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-categories="R,Wildlife,Cartography" data-listing-file-modified-sort="1685414478347" data-listing-reading-time-sort="3">
 <a href="./posts/post-four.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
@@ -488,7 +488,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/btjepkes\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
