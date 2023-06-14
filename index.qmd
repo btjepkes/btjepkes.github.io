@@ -1,6 +1,6 @@
 ---
 title: "Hello, my name is Benjamin W. Tjepkes"
-subtitle: "Wildlife ecologist and budding geographer with a passion for conservation science."
+subtitle: "Wildlife ecologist, geographer, and budding data scientist."
 toc: false
 page-layout: article
 about:
@@ -40,7 +40,10 @@ listing:
 ---
 
 ::: {.centered}
-<span style="color: #f55c5c; font-size: 20px; font-weight: 600;">Welcome!</span> --- This is my **professional portfolio** and **technical blog** site showcasing my work in ecology and geospatial. Thank you for stopping by to check out my projects and posts.
+
+<span style="color: #20595d; font-size: 35px; font-weight: 600;">A Warm Welcome!</span>
+
+This is my **professional portfolio** and **technical blog** site showcasing my work in ecology and geospatial. Thank you for stopping by to check out my [projects](gallery.qmd) and [posts](posts.qmd).
 :::
 
 

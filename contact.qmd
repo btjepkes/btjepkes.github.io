@@ -11,6 +11,7 @@ Interested in working on a collaborative project together, wondering if I still 
 ```{r}
 #| echo: false
 #| warning: false
+#| eval: false
 
 # Load the required libraries
 library(gt)

@@ -158,7 +158,7 @@ nav .nav-item.compact .nav-link {
   background: white; /*#9dcbe1*/
   padding-top: 40px;
   padding-bottom: 30px;
-  border-bottom: double 30px #f7f5f4;
+  border-bottom: solid 1px #696867;
 }
 
 
@@ -167,9 +167,10 @@ body {
   background-color: #f7f5f4;
 }
 
+
 .quarto-container,
 #quarto-content {
-  min-height: 0 !important;
+  min-height: 0vh !important;
 }
 
 .title {
@@ -187,6 +188,8 @@ body {
   padding-top: 20px;
   padding-bottom: 12px;
   color: #696867;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
 }
 
 
@@ -223,7 +226,7 @@ body {
 
 .quarto-grid-item {
   background: white;
-  border-radius: 14px;
+  border-radius: 0px 0px 14px 14px;
 }
 
 @media (min-width: 991.98px) {
@@ -249,7 +252,9 @@ body {
     object-fit: fit;
     object-position: top;
     border-radius: 0;
-    padding-top: 8px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 /*
