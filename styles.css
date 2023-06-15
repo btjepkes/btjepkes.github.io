@@ -3,7 +3,6 @@
 /* TYPOGRAPHY */
 
 h1 {
-  text-align: center;
   font-weight: 900;
   font-size: 2rem !important;
 }
@@ -47,11 +46,14 @@ div.quarto-about-solana .about-entity .about-links {
   padding-bottom: 2.5em;
 }
 
+
+
+
 /* NAVIGATION */
 
 
 .navbar {
-  background-color: #20595d; /*#344757*/
+  background-color: #20595d;
   border: none;
   color: white;
 }
@@ -68,16 +70,15 @@ div.quarto-about-solana .about-entity .about-links {
 
 
 .navbar-brand span {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.2em;
   letter-spacing: 0.07em;
   color: white;
   background: transparent;
   padding:2px 12px;
   text-transform: uppercase;
-  /*font-family: monaco, Monospace;*/
   border-top: solid white 1px;
-  border-bottom: solid white 1px;  
+  border-bottom: solid white 1px;
 }
 
 .navbar-nav .nav-item {
@@ -98,7 +99,7 @@ nav .nav-item.compact .nav-link {
     font-size: 1.5rem;
 }
 
-
+/*
 .navbar-collapse {
   display: flex;
   flex-basis: 100%;
@@ -119,9 +120,9 @@ nav .nav-item.compact .nav-link {
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-}
+}*/
 
-  
+  /*
 .aa-DetachedContainer--modal {
     border-radius: 6px;
     bottom: inherit;
@@ -143,7 +144,7 @@ nav .nav-item.compact .nav-link {
   padding: 0;
   height: 100vh;
   z-index: 1100;
-}
+}*/
 
 .about-contents {
   padding-right: 0px !important;
@@ -151,10 +152,11 @@ nav .nav-item.compact .nav-link {
 
 }
 
+
+
 /* HEADERS */
 .quarto-title-banner {
   color: black;
-  text-align: center;
   background: white; /*#9dcbe1*/
   padding-top: 40px;
   padding-bottom: 30px;

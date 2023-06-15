@@ -2,6 +2,8 @@
 title: "About Me"
 subtitle: "Learn about my professional interests and experience."
 image: bg-pinecone.jpg
+
+keywords: about, about me
 ---
 
 ![A snapshot of my wildlife work.](img-ben-work.png)
@@ -31,6 +33,7 @@ Through my Master's program, I will have the opportunity to study a range of top
 ```{r}
 #| echo: false
 #| warning: false
+#| eval: false
 library(leaflet)
 leaflet() %>%
   addProviderTiles("CartoDB.Positron") %>% 
@@ -38,3 +41,12 @@ leaflet() %>%
   setView(lng=-92.286, lat=38.890, zoom = 10)
 ```
 
+
+## Photos
+::: {layout="[[1, 1], [1]]"}
+![A Lovely Image](bg-pinecone.jpg){group="my-gallery"}
+
+![Another Lovely Image](img-computer.png){group="my-gallery"}
+
+![The Last Lovely Image](img-data-viz.jpg){group="my-gallery"}
+:::

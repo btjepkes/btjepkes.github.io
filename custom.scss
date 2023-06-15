@@ -1,0 +1,309 @@
+
+//
+// Color system
+//
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #373a3c !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #2780e3 !default;
+$indigo:  #6610f2 !default;
+$purple:  #613d7c !default;
+$pink:    #e83e8c !default;
+$red:     #ff0039 !default;
+$orange:  #f0ad4e !default;
+$yellow:  #ff7518 !default;
+$green:   #3fb618 !default;
+$teal:    #20c997 !default;
+$cyan:    #9954bb !default;
+$dark-green: #20595d !default;
+$tan: #e6e67b !default;
+
+$primary:       $dark-green !default;
+$secondary:     $white !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$min-contrast-ratio:   2.6 !default;
+
+// Options
+
+$enable-rounded: false !default;
+
+// Body
+
+$body-color:    $gray-900 !default;
+
+// Fonts
+
+// stylelint-disable-next-line value-keyword-case
+$font-family-sans-serif:    "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+$headings-font-weight:      400 !default;
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+// $font-size-base affects the font size of the body text
+$font-size-root:              null !default;
+$font-size-base:              1.1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-lg:                $font-size-base * 1.20 !default;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
+$font-weight-semibold:        600 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-weight-base:            $font-weight-normal !default;
+
+$line-height-base:            1.5 !default;
+$line-height-sm:              1.25 !default;
+$line-height-lg:              2 !default;
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+// scss-docs-end font-variables
+
+
+// Navbar
+
+$navbar-dark-hover-color:       rgba($white, 1) !default;
+$navbar-light-hover-color:      rgba($black, .9) !default;
+
+
+// $navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 12H21M9 18H21M3 6H15'/></svg>") !default;
+
+
+
+// Alerts
+
+$alert-border-width:            0 !default;
+
+// Progress bars
+
+$progress-height:               .5rem !default;
+
+
+
+/*-- scss:rules --*/
+
+
+// Variables
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+// Typography
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  color: $tan;
+}
+
+
+
+// Indicators
+
+.badge {
+  &.bg-light {
+    color: $tan;
+  }
+}
+
+// Progress bars
+
+.progress {
+  @include box-shadow(none);
+
+  .progress-bar {
+    font-size: 8px;
+    line-height: 8px;
+  }
+}
+
+// Navbar
+
+.navbar {
+  border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* POSTS */
+
+/* Callout block at start of blog*/
+.intro-callout {
+  margin-top: 0;
+  background: white;
+}
+
+.quarto-listing-filter {
+  margin-bottom: 2em;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.quarto-grid-item .listing-categories {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+  gap: 5px;
+  padding-top: 10px;
+}
+
+.quarto-grid-item {
+  background: white;
+  border-radius: 0px 0px 14px 14px;
+}
+
+@media (min-width: 991.98px) {
+.quarto-grid-item:hover .card-title::after {
+  border-top: solid 4px #f5c25c;
+  animation: border-anim 0.2s ease-out forwards;
+}}
+
+.quarto-grid-item .card-title::after {
+  content: "";
+  display: block;
+  width: 15%;
+  border-top: solid 4px #bccdce;
+  margin-top: 15px;
+}
+
+.quarto-grid-item .card-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.quarto-grid-item p.card-img-top>img {
+    object-fit: fit;
+    object-position: top;
+    border-radius: 0;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/*
+@media (max-width: 991.98px) {
+  p.card-img-top>img {
+    height: 200px !important;
+}
+}*/
+
+
+.quarto-category {
+  background: azure;
+  color: black;
+  opacity: 1.0;
+}
+
+.quarto-title .quarto-categories {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* FIGURES & IMAGES */
+
+.figure-caption {
+  margin: -5px 10px 0px 0px;
+  font-size: 0.7rem;
+  text-align: right;
+}
+
+.img-fluid,
+.figure-img {
+  border-radius: 4px;
+}
+
+.padded-img {
+  padding-top: 2rem;
+}
+
+
+
+/* ABOUT on Index */
+
+
+/* Image gallery on index */
+
+
+#index .quarto-layout-cell {
+  position: relative;
+  margin-right: 0;
+}
+
+
+@media (max-width: 991.98px) {
+.centered {
+  text-align: center;
+}
+
+.about-links {
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  column-gap: 0.8em;
+  justify-content: center !important;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+}
+
+.quarto-about-solana {
+  margin-top: -2em;
+}
+
+.about-link {
+  background: white;
+}
+
+.about-image {
+  border-radius: 6px;
+}
+
+#listing-site-listings {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}

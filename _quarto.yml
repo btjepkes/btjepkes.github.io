@@ -13,7 +13,9 @@ website:
   repo-url: https://github.com/btjepkes/btjepkes.github.io
 
   navbar:
-    pinned: true
+    collapse: true
+    collapse-below: xl
+    pinned: false
     left:
       - href: index.qmd
         text: Home
@@ -64,8 +66,8 @@ website:
           
 format:
   html:
-    theme: lumen
-    css: styles.css
+    theme: custom.scss
+    backgroundcolor: "#FFFFFF"
     toc: true
     smooth-scroll: true
     number-sections: false
@@ -77,6 +79,8 @@ format:
       body-width: 900px
       margin-width: 300px
       gutter-width: 2rem
-
+    filters: 
+      - lightbox
+    lightbox: auto
     
     
