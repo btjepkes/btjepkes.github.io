@@ -91,9 +91,6 @@ $navbar-dark-hover-color:       rgba($white, 1) !default;
 $navbar-light-hover-color:      rgba($black, .9) !default;
 
 
-// $navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 12H21M9 18H21M3 6H15'/></svg>") !default;
-
-
 
 // Alerts
 
@@ -155,18 +152,6 @@ h1 {
   box-shadow: 0 0 2px lightgray;
 }
 
-.quarto-title-banner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent);
-  transform: rotate(45deg);
-  background-size: 40px 40px;
-  z-index: 9999;
-}
 
 .navbar-brand span {
   font-weight: 700;
@@ -187,9 +172,23 @@ h1 {
 .quarto-title-banner {
   padding-top: 2.5em;
   padding-bottom: 2.5em;
+  overflow: hidden;
 }
 
-
+@media (min-width: 991.98px) {
+.quarto-title-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent);
+  transform: rotate(45deg);
+  background-size: 25px 25px;
+  z-index: 9999;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), 20px 100%, 0 calc(100% - 20px));
+}}
 
 
 
@@ -204,13 +203,13 @@ h1 {
 
 .quarto-listing-filter {
   margin-bottom: 2em;
-  width: 45%;
+  width: 75%;
   margin-left: auto;
 }
 
 .quarto-listing-sort {
   margin-bottom: 2em;
-  width: 45%;
+  width: 24%;
   margin-right: auto;
 }
 

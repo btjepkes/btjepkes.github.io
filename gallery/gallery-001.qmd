@@ -1,0 +1,16 @@
+---
+title: "Work-Based Mapping Products"
+subtitle: "Various maps made for work-related projects."
+author: "Benjamin Tjepkes"
+date-modified: "6-15-2023"
+categories:
+  - Map Gallery
+abstract-title: ""
+abstract: ""
+toc: TRUE
+image: img-cover-work-products.png
+---
+
+![Map Credit: Ben Tjepkes](../gallery/img-cover-work-products.png)
+
+## This will be a heading 

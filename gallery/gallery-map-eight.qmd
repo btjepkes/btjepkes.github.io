@@ -11,6 +11,7 @@ abstract-title: ""
 abstract: This map was produced as part of the **2023 Tidy Tuesday**. Map creation was performed in R using the RStudio environment and data were pulled from public repositories.
 toc: false
 image: img-map-001.png
+draft: true
 ---
 
 ![Map Credit: Ben Tjepkes](../gallery/img-map-001.png)
