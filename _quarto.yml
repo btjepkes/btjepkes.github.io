@@ -76,7 +76,7 @@ format:
     code-overflow: scroll
     grid:
       sidebar-width: 300px
-      body-width: 900px
+      body-width: 1100px
       margin-width: 300px
       gutter-width: 2rem
     filters: 

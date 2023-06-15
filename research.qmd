@@ -5,6 +5,7 @@ image: bg-pinecone.jpg
 listing:
   contents: research
   type: grid
+  grid-columns: 2
   categories: numbered
   sort: "title"
   filter-ui: true  
