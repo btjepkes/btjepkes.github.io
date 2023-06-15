@@ -65,8 +65,35 @@
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Map Gallery</category>
   <guid>https://btjepkes.github.io/gallery/gallery-001.html</guid>
-  <pubDate>Thu, 15 Jun 2023 19:58:58 GMT</pubDate>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-work-products.png" medium="image" type="image/png" height="86" width="144"/>
+</item>
+<item>
+  <title>Course-Based Mapping Products</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/gallery/gallery-002.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../gallery/img-cover-course-products.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Map Credit: Ben Tjepkes"><img src="https://btjepkes.github.io/gallery/img-cover-course-products.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Map Credit: Ben Tjepkes</figcaption>
+</figure>
+</div>
+<section id="this-will-be-a-heading" class="level2">
+<h2 class="anchored" data-anchor-id="this-will-be-a-heading">This will be a heading</h2>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Map Gallery</category>
+  <guid>https://btjepkes.github.io/gallery/gallery-002.html</guid>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/gallery/img-cover-course-products.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 <item>
   <title>Overlaying Public Lands with BMZs</title>
@@ -108,7 +135,7 @@
   <category>Missouri</category>
   <category>Overlay</category>
   <guid>https://btjepkes.github.io/gallery/gallery-map-five.html</guid>
-  <pubDate>Thu, 15 Jun 2023 19:58:58 GMT</pubDate>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-thumbnail-001.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -140,7 +167,7 @@
   <category>Missouri</category>
   <category>Choropleth</category>
   <guid>https://btjepkes.github.io/gallery/gallery-map-four.html</guid>
-  <pubDate>Thu, 15 Jun 2023 19:58:58 GMT</pubDate>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-test-2.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -166,7 +193,7 @@
   <category>United States</category>
   <category>Endangered Species</category>
   <guid>https://btjepkes.github.io/gallery/gallery-map-seven.html</guid>
-  <pubDate>Thu, 15 Jun 2023 19:58:58 GMT</pubDate>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-thumbnail-3.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -193,7 +220,7 @@
   <category>Missouri</category>
   <category>Choropleth</category>
   <guid>https://btjepkes.github.io/gallery/gallery-map-six.html</guid>
-  <pubDate>Thu, 15 Jun 2023 19:58:58 GMT</pubDate>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-thumbnail-4.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -218,7 +245,7 @@
   <category>Map Gallery</category>
   <category>Wisconsin</category>
   <guid>https://btjepkes.github.io/gallery/gallery-map-three.html</guid>
-  <pubDate>Thu, 15 Jun 2023 19:58:58 GMT</pubDate>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-thumbnail-5.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -245,7 +272,7 @@
   <category>Wisconsin</category>
   <category>Navigation</category>
   <guid>https://btjepkes.github.io/gallery/gallery-map-two.html</guid>
-  <pubDate>Thu, 15 Jun 2023 19:58:58 GMT</pubDate>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-thumbnail-6.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -271,7 +298,7 @@
   <category>Mississippi River</category>
   <category>Avian</category>
   <guid>https://btjepkes.github.io/gallery/gallery-poster-one.html</guid>
-  <pubDate>Thu, 15 Jun 2023 19:58:58 GMT</pubDate>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-eagle-poster.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -303,7 +330,7 @@
   <category>Missouri</category>
   <category>Mammal</category>
   <guid>https://btjepkes.github.io/gallery/gallery-poster-two.html</guid>
-  <pubDate>Thu, 15 Jun 2023 19:58:58 GMT</pubDate>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-bat-hcp-poster.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -323,7 +350,7 @@
   <category>Wyoming</category>
   <category>Mammal</category>
   <guid>https://btjepkes.github.io/gallery/gallery-presentation-one.html</guid>
-  <pubDate>Thu, 15 Jun 2023 19:58:58 GMT</pubDate>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/bg-pine-blue.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -348,7 +375,7 @@
   <category>Missouri</category>
   <category>Furbearers</category>
   <guid>https://btjepkes.github.io/gallery/gallery-report-one.html</guid>
-  <pubDate>Thu, 15 Jun 2023 19:58:58 GMT</pubDate>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
 </item>
 <item>
   <title>Bald Eagle Nest Monitoring Data Report</title>
@@ -373,7 +400,7 @@
   <category>Mississippi River</category>
   <category>Avian</category>
   <guid>https://btjepkes.github.io/gallery/gallery-report-two.html</guid>
-  <pubDate>Thu, 15 Jun 2023 19:58:58 GMT</pubDate>
+  <pubDate>Thu, 15 Jun 2023 20:24:09 GMT</pubDate>
 </item>
 </channel>
 </rss>

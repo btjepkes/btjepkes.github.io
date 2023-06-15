@@ -1,0 +1,16 @@
+---
+title: "Course-Based Mapping Products"
+subtitle: "Various maps made for course-related assignements and projects."
+author: "Benjamin Tjepkes"
+date-modified: "6-15-2023"
+categories:
+  - Map Gallery
+abstract-title: ""
+abstract: ""
+toc: TRUE
+image: img-cover-course-products.png
+---
+
+![Map Credit: Ben Tjepkes](../gallery/img-cover-course-products.png)
+
+## This will be a heading 
