@@ -13,6 +13,7 @@ abstract: "This map was created for the Northern Aquaculture Demonstration Facil
 abstract-title: ""
 
 image: img-thumbnail-6.jpg
+draft: TRUE
 ---
 
 ![Map credit: Benjamin Tjepkes](../gallery/img-map-2.jpg)

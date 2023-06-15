@@ -10,6 +10,7 @@ categories:
   - Map Gallery
   - Wisconsin
   - Location Suitability
+draft: TRUE
 ---
 
 ![](../gallery/img-map-1.jpg)

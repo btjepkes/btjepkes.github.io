@@ -1,0 +1,16 @@
+---
+title: "Personal Mapping & Data Viz Products"
+subtitle: "Various maps and other data visualizations made for personal and creative projects."
+author: "Benjamin Tjepkes"
+date-modified: "6-15-2023"
+categories:
+  - Map Gallery
+abstract-title: ""
+abstract: ""
+toc: TRUE
+image: img-cover-personal-products.png
+---
+
+![Map Credit: Ben Tjepkes](../gallery/img-cover-personal-products.png)
+
+## This will be a heading 
