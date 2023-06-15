@@ -225,6 +225,7 @@ h1 {
 .quarto-grid-item {
   background: white;
   border-radius: 0px 0px 14px 14px;
+  border: solid 2px darkgray;
 }
 
 @media (min-width: 991.98px) {
@@ -250,9 +251,9 @@ h1 {
     object-fit: fit;
     object-position: top;
     border-radius: 0;
-    padding-top: 4px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 /*
