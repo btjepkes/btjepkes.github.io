@@ -336,3 +336,37 @@ h1 {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
+
+
+// FOOTER
+
+/* FOOTER */
+
+
+.nav-footer {
+  padding-top: 1em;
+  background-color: #20595d;
+  color: white !important;
+}
+
+.nav-footer a {
+  color: white;
+}
+
+@media (max-width: 767.98px) {
+.nav-footer-center {
+  margin-bottom: 1em;
+  margin-top: 0;
+}}
+
+
+
+#quarto-back-to-top {
+  background-color: #ffffff;
+  color: black;
+  bottom: 20px;
+  left: 50%;
+  box-shadow: none;
+  border: solid #20595d 2px;
+  z-index: 99999;
+}
