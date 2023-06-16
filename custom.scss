@@ -127,6 +127,15 @@ h1 {
   color: $tan;
 }
 
+h1::after {
+  content: "";
+  position: relative;
+  display: block;
+  border-top: solid 8px $light-green;
+  margin-top: 20px;
+  width: 70%;
+}
+
 .subtitle {
   font-weight: 500;
   line-height: 1.2em;
@@ -274,13 +283,6 @@ h1 {
     padding-left: 8px;
     padding-right: 8px;
 }
-
-/*
-@media (max-width: 991.98px) {
-  p.card-img-top>img {
-    height: 200px !important;
-}
-}*/
 
 
 .quarto-category {

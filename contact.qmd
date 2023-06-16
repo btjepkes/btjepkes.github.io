@@ -2,6 +2,7 @@
 title: "Links & Contact"
 subtitle: "Reach out to me with inquires or connect on my social profiles."
 search: false
+image: site-logo-green.png
 ---
 
 ## Connecting with Me
@@ -11,7 +12,7 @@ Interested in working on a collaborative project together, wondering if I still 
 ```{r}
 #| echo: false
 #| warning: false
-#| eval: false
+#| eval: true
 
 # Load the required libraries
 library(gt)
@@ -48,12 +49,11 @@ tbl <- tbl %>%
   #   C4 ~ pct(25)
   # ) %>% 
   
-  tab_header(
-    title = md("**My Online Profiles**")) %>% 
-  
   tab_options(
     table.width = pct(100)
-  ) 
+  ) %>% 
+  
+  opt_table_lines(extent = c("none"))
     
     
     # tab_style(

@@ -1,6 +1,7 @@
 ---
 title: "Resources"
 subtitle: My favorite references for ecology, GIS, R, Python, and more.
+image: site-logo-green.png
 
 listing:
   id: resource-listings
@@ -47,6 +48,3 @@ listing:
 
 - [YouTube Channel ~ DMAD QGIS Lessons](https://www.youtube.com/c/DMADMarineMammalsResearchAssociation)
 
-
-::: {#resource-listings}
-:::

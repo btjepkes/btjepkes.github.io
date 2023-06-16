@@ -1,7 +1,7 @@
 ---
 title: "My Research"
 subtitle: Focusing on spatial ecology and geographic information systems.
-image: bg-pinecone.jpg
+image: site-logo-green.png
 listing:
   contents: research
   type: grid
@@ -9,6 +9,7 @@ listing:
   categories: numbered
   sort: "title"
   filter-ui: true  
+  sort-ui: true
   fields: 
     - image
     - title

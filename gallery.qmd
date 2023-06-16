@@ -1,9 +1,13 @@
 ---
 title: "My Gallery"
 subtitle: "Maps, data visualiztions, reports, posters, and presentations."
-image: bg-pinecone.jpg
+image: site-logo-green.png
 listing: 
-  contents: gallery
+  contents:
+    - "gallery-001.qmd"
+    - "gallery-002.qmd"
+    - "gallery-003.qmd"
+    - "gallery-004.qmd"
   feed: TRUE
   type: grid
   grid-columns: 2

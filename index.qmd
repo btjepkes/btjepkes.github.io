@@ -35,6 +35,7 @@ listing:
     - "contact.qmd"  
   type: grid
   fields: 
+    - image
     - title
     - subtitle
 ---

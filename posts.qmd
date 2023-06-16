@@ -1,7 +1,7 @@
 ---
 title: "My Blog Posts"
 subtitle: Explore my writings on ecological and geospatial data science.
-image: bg-pinecone.jpg
+image: site-logo-green.png
 listing:
   contents: posts
   type: grid

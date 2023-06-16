@@ -50,7 +50,7 @@ website:
             
   page-footer:
     left:
-      - text: Made with Quarto by B.W. Tjepkes.
+      - text: "Design: B.W. TJEPKES"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/

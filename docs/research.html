@@ -97,8 +97,10 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="B.W.Tjepkes - My Research">
 <meta property="og:description" content="Focusing on spatial ecology and geographic information systems.">
-<meta property="og:image" content="https://btjepkes.github.io/bg-pinecone.jpg">
+<meta property="og:image" content="https://btjepkes.github.io/site-logo-green.png">
 <meta property="og:site-name" content="B.W.Tjepkes">
+<meta property="og:image:height" content="718">
+<meta property="og:image:width" content="717">
 </head>
 
 <body class="nav-fixed">
@@ -211,6 +213,16 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
@@ -558,7 +570,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- Made with Quarto by B.W. Tjepkes.
+ Design: B.W. TJEPKES
   </li>  
 </ul>
     </div>   
