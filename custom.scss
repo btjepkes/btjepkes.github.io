@@ -172,11 +172,6 @@ h1::after {
   border-bottom: solid 2px $gray-400;
 }
 
-#quarto-header > nav {
-  padding-left: 0.25em !important;
-  padding-right: 0.25em !important;
-}
-
 
 @media (min-width: 991.98px) {
   .navbar {
@@ -191,6 +186,13 @@ h1::after {
   padding-right: 4px;
   margin-top: 6px;
 }
+
+
+.nav-brand-container {
+  margin-left: -10px;
+}
+
+
 
 .navbar-brand span {
   font-weight: 700;
