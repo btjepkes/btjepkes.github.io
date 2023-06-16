@@ -1,0 +1,16 @@
+---
+title: "Professional Posters and Presentations"
+subtitle: "Various posters and powerpoint presentations from research symposia and other venues."
+author: "Benjamin Tjepkes"
+date-modified: "6-15-2023"
+categories:
+  - Poster Gallery
+abstract-title: ""
+abstract: ""
+toc: TRUE
+image: img-cover-posters-presentations.png
+---
+
+![Map Credit: Ben Tjepkes](../gallery/img-cover-posters-presentations.png)
+
+## This will be a heading 

@@ -39,13 +39,9 @@ listing:
     - subtitle
 ---
 
-::: {.centered}
-
 ## Welcome to my Portfolio
 
 This site contains my **professional portfolio** and **technical blog** to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my [CV](about.qmd) to learn about my past and current endeavors. Thank you for stopping by!
-
-:::
 
 
 ::: {#about-id}
@@ -66,7 +62,6 @@ This site contains my **professional portfolio** and **technical blog** to showc
 # Load the required libraries
 library(gt)
 library(gtExtras)
-library(ggplot2)
 
 # Create a sample data frame
 data <- data.frame(

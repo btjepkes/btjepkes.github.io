@@ -26,6 +26,7 @@ $green:   #3fb618 !default;
 $teal:    #20c997 !default;
 $cyan:    #9954bb !default;
 $dark-green: #20595d !default;
+$light-green: #2b6165 !default;
 $tan: #e6e67b !default;
 
 $primary:       $dark-green !default;
@@ -86,6 +87,10 @@ $h6-font-size:                $font-size-base !default;
 
 
 // Navbar
+
+
+$navbar-bg: $light-green;
+$navbar-fg: $gray-100;
 
 $navbar-dark-hover-color:       rgba($white, 1) !default;
 $navbar-light-hover-color:      rgba($black, .9) !default;
@@ -149,20 +154,23 @@ h1 {
 // Navbar
 
 .navbar {
-  box-shadow: 0 0 2px lightgray;
+  font-weight: 500;
+  z-index: 999999;
+  border-bottom: dotted 4px $gray-400;
+  height: 80px;
 }
 
 
 .navbar-brand span {
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1.6em;
   letter-spacing: 0.07em;
-  color: white;
   background: transparent;
   padding:2px 12px;
   text-transform: uppercase;
-  border-top: solid white 1px;
-  border-bottom: solid white 1px;
+  /*border-top: solid 2px;
+  border-bottom: solid 2px;*/
+  color: $gray-100;
 }
 
 
@@ -170,9 +178,11 @@ h1 {
 // BANNER
 
 .quarto-title-banner {
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
   overflow: hidden;
+  background: $dark-green;
+  color: white;
 }
 
 @media (min-width: 991.98px) {
@@ -186,7 +196,7 @@ h1 {
   background: linear-gradient(45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent);
   transform: rotate(45deg);
   background-size: 25px 25px;
-  z-index: 9999;
+  z-index: 1;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), 20px 100%, 0 calc(100% - 20px));
 }}
 
@@ -320,9 +330,10 @@ h1 {
 }
 }
 
+/*
 .quarto-about-solana {
   margin-top: -2em;
-}
+}*/
 
 .about-link {
   background: white;
@@ -339,8 +350,6 @@ h1 {
 
 
 // FOOTER
-
-/* FOOTER */
 
 
 .nav-footer {
