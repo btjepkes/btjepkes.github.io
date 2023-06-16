@@ -223,8 +223,6 @@ nav .nav-item.compact .nav-link {
 // BANNER
 
 .quarto-title-banner {
-  padding-top: 2em;
-  padding-bottom: 2em;
   overflow: hidden;
   background: $dark-purple;
   color: white;
@@ -319,7 +317,7 @@ nav .nav-item.compact .nav-link {
 }
 
 .quarto-categories::before {
-  content: "Topics:";
+  content: "Topics Discussed:";
   display: "block";
 }
 
