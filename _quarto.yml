@@ -16,7 +16,8 @@ website:
     collapse: true
     collapse-below: xl
     pinned: false
-    left:
+    
+    tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/
         aria-label: LinkedIn Profile
@@ -29,13 +30,9 @@ website:
       - icon: twitter
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
-      - href: posts.qmd
-        text: Blog Posts
-  
 
-    right:
-      - href: index.qmd
-        text: Home
+
+    left:
       - href: about.qmd
         text: About
       - href: gallery.qmd
@@ -45,12 +42,13 @@ website:
       - href: resources.qmd
         text: Resources
       - href: contact.qmd
-        text: Contact        
-  
+        text: Contact    
+      - href: posts.qmd
+        text: Blog Posts
             
   page-footer:
     left:
-      - text: "Design: B.W. TJEPKES"
+      -  text: "Copyright 2023"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/
