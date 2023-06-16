@@ -167,9 +167,10 @@ h1::after {
 
 // Navbar
 
-.navbar {
+#quarto-header > nav {
   font-weight: 500;
   border-bottom: solid 2px $gray-400;
+  padding-left: 0.5em;
 }
 
 
@@ -183,7 +184,7 @@ h1::after {
 .navbar-logo {
   max-height: 40px;
   width: auto;
-  padding-right: 4px;
+  padding-right: 8px;
   margin-top: 6px;
 }
 
@@ -209,7 +210,7 @@ h1::after {
 
 
 .navbar-brand span::after {
-  content: "Ecology - GIS - Data";
+  content: "Ecology - GIS - Data Viz";
   display: block;
   font-size: 10px;
   margin-top: -6px;
@@ -219,19 +220,6 @@ h1::after {
 .navbar-collapse {
   background: $light-green;
 }
-
-
-nav .nav-item.compact .nav-link {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    font-size: 1.5rem;
-}
-
-
-
-
-
-
 
 
 
