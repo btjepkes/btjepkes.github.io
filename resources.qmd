@@ -3,48 +3,59 @@ title: "Resources"
 subtitle: My favorite references for ecology, GIS, R, Python, and more.
 image: site-logo-green.png
 
-listing:
-  id: resource-listings
-  template: resources/resources.ejs
-  contents: resources/resources.yml
-  categories: false
-  filter-ui: false
+# listing:
+#   id: resource-listings
+#   template: resources/resources.ejs
+#   contents: resources/resources.yml
+#   categories: false
+#   filter-ui: false
     
 ---
 
 
-## Resources for **Wildlifers**
-### Job Resources
+## {{< fa paw size=1x >}} -- Resources for **Wildlifers**
+
+These resources are for folks in or thinking about joining in the wildlife biology career path.
+
+#### Job Resources
 
 - [Blog Post ~ Job Boards To Find An Impactful Career in Nature](https://conservationcompanion.com/blog/job-boards-to-find-an-impactful-career-in-nature)
 - [Website ~ Careers in Conservation Job Board List](https://diversityinconservationjobs.org/jobs/)
 
 
-## Resources for **R Users**
+## {{< fa code size=1x >}} -- Resources for **R Users**
 
-### Learning R and RStudio
+These resources are for folks in the process of learning R and the RStudio IDE.
 
-### Statistics in R
+#### Learning R and RStudio
+
+- [eBook ~ R for Fledglings](https://www.uvm.edu/~tdonovan/RforFledglings/)
+
+#### Statistics in R
 
 - [PDF ~ An R Companion for the Handbook of Biological Statistics](http://rcompanion.org/documents/RCompanionBioStatistics.pdf)
 
-### Reproducible Reporting
+#### Reproducible Reporting
 
 - [Website ~ Quarto from Posit](https://quarto.org/)
 
-### Mapping and Spatial Data
+#### Mapping and Spatial Data
 
 - [Website ~ Spatial Data Science in R](https://rspatial.org/)
 
-## Resources for **GIS Users**
+## {{< fa layer-group size=1x >}} -- Resources for **GIS Users**
 
-### ArcGIS - Learning
+These resources are for the sorry souls in the process of learning GIS, including open source GIS.
+
+#### ArcGIS - Learning
 
 - [Website ~ Esri Academy Online Learning](https://www.esri.com/training/)
 
-### ArcGIS - Spatial Analysis
+#### ArcGIS - Spatial Analysis
 
-### Learning QGIS
+- [Website ~ The Power of Spatial Analysis](https://gisgeography.com/spatial-analysis/)
+
+#### Learning QGIS
 
 - [YouTube Channel ~ DMAD QGIS Lessons](https://www.youtube.com/c/DMADMarineMammalsResearchAssociation)
 

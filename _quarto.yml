@@ -6,7 +6,7 @@ website:
   title: "B.W.Tjepkes"
   site-url: https://btjepkes.github.io/
   favicon: site-logo-green.png
-  back-to-top-navigation: true
+  back-to-top-navigation: false
   search:
     type: overlay
   open-graph: true
@@ -25,9 +25,6 @@ website:
       - icon: github
         href: https://github.com/btjepkes
         aria-label: GitHub Profile
-      - icon: instagram
-        href: https://instagram.com/ben.tjepkes
-        aria-label: Instagram Profile
       - icon: twitter
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
@@ -48,6 +45,8 @@ website:
         text: Blog Posts
             
   page-footer:
+    center:
+      -  text: "Designed and created by B.W.TJEPKES."
     left:
       -  text: "Copyright 2023"
     right:
@@ -57,9 +56,6 @@ website:
       - icon: github
         href: https://github.com/btjepkes
         aria-label: GitHub Profile
-      - icon: instagram
-        href: https://instagram.com/ben.tjepkes
-        aria-label: Instagram Profile
       - icon: twitter
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile

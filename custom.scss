@@ -399,8 +399,8 @@ h1::after {
 }
 
 #listing-site-listings {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 3em;
+  margin-bottom: 0em;
 }
 
 
@@ -433,6 +433,12 @@ h1::after {
   box-shadow: none;
   border: solid #20595d 2px;
   z-index: 99999;
+}
+
+// ICONS
+
+.fa-solid {
+  color: $dark-green;
 }
 
 

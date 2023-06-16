@@ -1,16 +1,20 @@
 ---
 title: "Work-Based Mapping Products"
-subtitle: "Various maps made for work-related projects."
+subtitle: "Maps and mapping products made for various work-related projects."
 author: "Benjamin Tjepkes"
 date-modified: "6-15-2023"
 categories:
-  - Map Gallery
+  - Mapping
+  - Choropleth
+  - RStudio
+  - ArcGIS Pro
+abstract: "This section showcases maps created using ArcGIS Pro and RStudio for various work-based projects. The primary focus of these maps is the visualization of wildlife-related topics, particularly the quantification of species-specific harvests. These cartographic representations combine technical expertise and creativity to convey information effectively, facilitating informed decision-making."
 abstract-title: ""
-abstract: ""
+
 toc: TRUE
 image: img-cover-work-products.png
 ---
 
 ![Map Credit: Ben Tjepkes](../gallery/img-cover-work-products.png)
 
-## This will be a heading 
+## More content coming soon! 

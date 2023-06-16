@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./site-logo-green.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,6 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,39 +61,8 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-resource-listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-category','listing-description','listing-tiles',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-category","listing-description","listing-tiles"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-resource-listings'] = new List('listing-resource-listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <meta property="og:title" content="B.W.Tjepkes - Resources">
 <meta property="og:description" content="My favorite references for ecology, GIS, R, Python, and more.">
@@ -151,7 +120,6 @@ ul.task-list li input[type="checkbox"] {
             <div class="quarto-navbar-tools ms-auto tools-wide">
     <a href="https://www.linkedin.com/in/benjamintjepkes/" title="" class="quarto-navigation-tool px-1" aria-label="LinkedIn Profile"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/btjepkes" title="" class="quarto-navigation-tool px-1" aria-label="GitHub Profile"><i class="bi bi-github"></i></a>
-    <a href="https://instagram.com/ben.tjepkes" title="" class="quarto-navigation-tool px-1" aria-label="Instagram Profile"><i class="bi bi-instagram"></i></a>
     <a href="https://twitter.com/BTjepkes" title="" class="quarto-navigation-tool px-1" aria-label="Twitter Profile"><i class="bi bi-twitter"></i></a>
 </div>
           </div> <!-- /navcollapse -->
@@ -184,23 +152,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#resources-for-wildlifers" id="toc-resources-for-wildlifers" class="nav-link active" data-scroll-target="#resources-for-wildlifers">Resources for <strong>Wildlifers</strong></a>
-  <ul class="collapse">
-  <li><a href="#job-resources" id="toc-job-resources" class="nav-link" data-scroll-target="#job-resources">Job Resources</a></li>
-  </ul></li>
-  <li><a href="#resources-for-r-users" id="toc-resources-for-r-users" class="nav-link" data-scroll-target="#resources-for-r-users">Resources for <strong>R Users</strong></a>
-  <ul class="collapse">
-  <li><a href="#learning-r-and-rstudio" id="toc-learning-r-and-rstudio" class="nav-link" data-scroll-target="#learning-r-and-rstudio">Learning R and RStudio</a></li>
-  <li><a href="#statistics-in-r" id="toc-statistics-in-r" class="nav-link" data-scroll-target="#statistics-in-r">Statistics in R</a></li>
-  <li><a href="#reproducible-reporting" id="toc-reproducible-reporting" class="nav-link" data-scroll-target="#reproducible-reporting">Reproducible Reporting</a></li>
-  <li><a href="#mapping-and-spatial-data" id="toc-mapping-and-spatial-data" class="nav-link" data-scroll-target="#mapping-and-spatial-data">Mapping and Spatial Data</a></li>
-  </ul></li>
-  <li><a href="#resources-for-gis-users" id="toc-resources-for-gis-users" class="nav-link" data-scroll-target="#resources-for-gis-users">Resources for <strong>GIS Users</strong></a>
-  <ul class="collapse">
-  <li><a href="#arcgis---learning" id="toc-arcgis---learning" class="nav-link" data-scroll-target="#arcgis---learning">ArcGIS - Learning</a></li>
-  <li><a href="#arcgis---spatial-analysis" id="toc-arcgis---spatial-analysis" class="nav-link" data-scroll-target="#arcgis---spatial-analysis">ArcGIS - Spatial Analysis</a></li>
-  <li><a href="#learning-qgis" id="toc-learning-qgis" class="nav-link" data-scroll-target="#learning-qgis">Learning QGIS</a></li>
-  </ul></li>
+  <li><a href="#fa-paw-size1x-resources-for-wildlifers" id="toc-fa-paw-size1x-resources-for-wildlifers" class="nav-link active" data-scroll-target="#fa-paw-size1x-resources-for-wildlifers"><i class="fa-solid fa-paw fa-1x" aria-label="paw"></i> – Resources for <strong>Wildlifers</strong></a></li>
+  <li><a href="#fa-code-size1x-resources-for-r-users" id="toc-fa-code-size1x-resources-for-r-users" class="nav-link" data-scroll-target="#fa-code-size1x-resources-for-r-users"><i class="fa-solid fa-code fa-1x" aria-label="code"></i> – Resources for <strong>R Users</strong></a></li>
+  <li><a href="#fa-layer-group-size1x-resources-for-gis-users" id="toc-fa-layer-group-size1x-resources-for-gis-users" class="nav-link" data-scroll-target="#fa-layer-group-size1x-resources-for-gis-users"><i class="fa-solid fa-layer-group fa-1x" aria-label="layer-group"></i> – Resources for <strong>GIS Users</strong></a></li>
   </ul>
 </nav>
     </div>
@@ -210,313 +164,71 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="resources-for-wildlifers" class="level2">
-<h2 class="anchored" data-anchor-id="resources-for-wildlifers">Resources for <strong>Wildlifers</strong></h2>
-<section id="job-resources" class="level3">
-<h3 class="anchored" data-anchor-id="job-resources">Job Resources</h3>
+<section id="fa-paw-size1x-resources-for-wildlifers" class="level2">
+<h2 class="anchored" data-anchor-id="fa-paw-size1x-resources-for-wildlifers"><i class="fa-solid fa-paw fa-1x" aria-label="paw"></i> – Resources for <strong>Wildlifers</strong></h2>
+<p>These resources are for folks in or thinking about joining in the wildlife biology career path.</p>
+<section id="job-resources" class="level4">
+<h4 class="anchored" data-anchor-id="job-resources">Job Resources</h4>
 <ul>
 <li><a href="https://conservationcompanion.com/blog/job-boards-to-find-an-impactful-career-in-nature">Blog Post ~ Job Boards To Find An Impactful Career in Nature</a></li>
 <li><a href="https://diversityinconservationjobs.org/jobs/">Website ~ Careers in Conservation Job Board List</a></li>
 </ul>
 </section>
 </section>
-<section id="resources-for-r-users" class="level2">
-<h2 class="anchored" data-anchor-id="resources-for-r-users">Resources for <strong>R Users</strong></h2>
-<section id="learning-r-and-rstudio" class="level3">
-<h3 class="anchored" data-anchor-id="learning-r-and-rstudio">Learning R and RStudio</h3>
+<section id="fa-code-size1x-resources-for-r-users" class="level2">
+<h2 class="anchored" data-anchor-id="fa-code-size1x-resources-for-r-users"><i class="fa-solid fa-code fa-1x" aria-label="code"></i> – Resources for <strong>R Users</strong></h2>
+<p>These resources are for folks in the process of learning R and the RStudio IDE.</p>
+<section id="learning-r-and-rstudio" class="level4">
+<h4 class="anchored" data-anchor-id="learning-r-and-rstudio">Learning R and RStudio</h4>
+<ul>
+<li><a href="https://www.uvm.edu/~tdonovan/RforFledglings/">eBook ~ R for Fledglings</a></li>
+</ul>
 </section>
-<section id="statistics-in-r" class="level3">
-<h3 class="anchored" data-anchor-id="statistics-in-r">Statistics in R</h3>
+<section id="statistics-in-r" class="level4">
+<h4 class="anchored" data-anchor-id="statistics-in-r">Statistics in R</h4>
 <ul>
 <li><a href="http://rcompanion.org/documents/RCompanionBioStatistics.pdf">PDF ~ An R Companion for the Handbook of Biological Statistics</a></li>
 </ul>
 </section>
-<section id="reproducible-reporting" class="level3">
-<h3 class="anchored" data-anchor-id="reproducible-reporting">Reproducible Reporting</h3>
+<section id="reproducible-reporting" class="level4">
+<h4 class="anchored" data-anchor-id="reproducible-reporting">Reproducible Reporting</h4>
 <ul>
 <li><a href="https://quarto.org/">Website ~ Quarto from Posit</a></li>
 </ul>
 </section>
-<section id="mapping-and-spatial-data" class="level3">
-<h3 class="anchored" data-anchor-id="mapping-and-spatial-data">Mapping and Spatial Data</h3>
+<section id="mapping-and-spatial-data" class="level4">
+<h4 class="anchored" data-anchor-id="mapping-and-spatial-data">Mapping and Spatial Data</h4>
 <ul>
 <li><a href="https://rspatial.org/">Website ~ Spatial Data Science in R</a></li>
 </ul>
 </section>
 </section>
-<section id="resources-for-gis-users" class="level2">
-<h2 class="anchored" data-anchor-id="resources-for-gis-users">Resources for <strong>GIS Users</strong></h2>
-<section id="arcgis---learning" class="level3">
-<h3 class="anchored" data-anchor-id="arcgis---learning">ArcGIS - Learning</h3>
+<section id="fa-layer-group-size1x-resources-for-gis-users" class="level2">
+<h2 class="anchored" data-anchor-id="fa-layer-group-size1x-resources-for-gis-users"><i class="fa-solid fa-layer-group fa-1x" aria-label="layer-group"></i> – Resources for <strong>GIS Users</strong></h2>
+<p>These resources are for the sorry souls in the process of learning GIS, including open source GIS.</p>
+<section id="arcgis---learning" class="level4">
+<h4 class="anchored" data-anchor-id="arcgis---learning">ArcGIS - Learning</h4>
 <ul>
 <li><a href="https://www.esri.com/training/">Website ~ Esri Academy Online Learning</a></li>
 </ul>
 </section>
-<section id="arcgis---spatial-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="arcgis---spatial-analysis">ArcGIS - Spatial Analysis</h3>
+<section id="arcgis---spatial-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="arcgis---spatial-analysis">ArcGIS - Spatial Analysis</h4>
+<ul>
+<li><a href="https://gisgeography.com/spatial-analysis/">Website ~ The Power of Spatial Analysis</a></li>
+</ul>
 </section>
-<section id="learning-qgis" class="level3">
-<h3 class="anchored" data-anchor-id="learning-qgis">Learning QGIS</h3>
+<section id="learning-qgis" class="level4">
+<h4 class="anchored" data-anchor-id="learning-qgis">Learning QGIS</h4>
 <ul>
 <li><a href="https://www.youtube.com/c/DMADMarineMammalsResearchAssociation">YouTube Channel ~ DMAD QGIS Lessons</a></li>
 </ul>
 
 
-
 </section>
 </section>
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-resource-listings">
-<h2 class="anchored">Job Resources for Wildlifers</h2>
-<p>Natual resource job boards, resume/CV advice pages, and other career resources.
-</p>
-<div class="list grid" style="column-gap: 10px;">
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="0">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="https://quarto-dev.github.io/quarto-gallery/articles/html/html.html" class="listing-title">HTML</a> <span class="text-muted listing-subtitle">for web publishing</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-gallery/blob/main/articles/html/html.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="https://quarto-dev.github.io/quarto-gallery/articles/html/html.html">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="https://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf" class="listing-title">PDF</a> <span class="text-muted listing-subtitle">for high quality print</span>
-      </small>
-      <a href="https://github.com/nmfs-opensci/quarto_titlepages/blob/main/example_1.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="https://nmfs-opensci.github.io/quarto_titlepages/titlepages/bg-image/article.pdf">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="https://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx" class="listing-title">MS Word</a> <span class="text-muted listing-subtitle">for Office workflows</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-gallery/blob/main/articles/msword/msword.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="https://quarto-dev.github.io/quarto-gallery/articles/msword/msword.docx">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="3">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html" class="listing-title">HTML</a> <span class="text-muted listing-subtitle">with advanced layout</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-gallery/blob/main/page-layout/tufte.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="4">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf" class="listing-title">PDF</a> <span class="text-muted listing-subtitle">with advanced layout</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-gallery/blob/main/page-layout/tufte.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.pdf">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-</div>
-<h2 class="anchored">R Learning Resources for Ecologists</h2>
-<p>Engage readers and deliver more insights with interactive documents.
-</p>
-<div class="list grid" style="column-gap: 10px;">
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="5">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="../interactive/ojs/examples/penguins.html" class="listing-title">Observable</a> <span class="text-muted listing-subtitle">reactive JavaScript</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/ojs/examples/penguins.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="../interactive/ojs/examples/penguins.html">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="6">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="https://jjallaire.shinyapps.io/diamonds-explorer/" class="listing-title">Shiny</a> <span class="text-muted listing-subtitle">web framework for R</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="https://jjallaire.shinyapps.io/diamonds-explorer/">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="7">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="../interactive/widgets/jupyter.html" class="listing-title">Jupyter</a> <span class="text-muted listing-subtitle">interactive widgets</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/widgets/jupyter.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="../interactive/widgets/jupyter.html">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-</div>
-<h2 class="anchored">Reproducible Reporting Resources in R and Python</h2>
-<p>Engage readers and deliver more insights with interactive documents.
-</p>
-<div class="list grid" style="column-gap: 10px;">
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="8">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="../interactive/ojs/examples/penguins.html" class="listing-title">Observable</a> <span class="text-muted listing-subtitle">reactive JavaScript</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/ojs/examples/penguins.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="../interactive/ojs/examples/penguins.html">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="9">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="https://jjallaire.shinyapps.io/diamonds-explorer/" class="listing-title">Shiny</a> <span class="text-muted listing-subtitle">web framework for R</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="https://jjallaire.shinyapps.io/diamonds-explorer/">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="10">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="../interactive/widgets/jupyter.html" class="listing-title">Jupyter</a> <span class="text-muted listing-subtitle">interactive widgets</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/widgets/jupyter.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="../interactive/widgets/jupyter.html">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-</div>
-<h2 class="anchored">Spatial Data Resources for R</h2>
-<p>Engage readers and deliver more insights with interactive documents.
-</p>
-<div class="list grid" style="column-gap: 10px;">
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="11">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="../interactive/ojs/examples/penguins.html" class="listing-title">Observable</a> <span class="text-muted listing-subtitle">reactive JavaScript</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/ojs/examples/penguins.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="../interactive/ojs/examples/penguins.html">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="12">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="https://jjallaire.shinyapps.io/diamonds-explorer/" class="listing-title">Shiny</a> <span class="text-muted listing-subtitle">web framework for R</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="https://jjallaire.shinyapps.io/diamonds-explorer/">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="13">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="../interactive/widgets/jupyter.html" class="listing-title">Jupyter</a> <span class="text-muted listing-subtitle">interactive widgets</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/widgets/jupyter.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="../interactive/widgets/jupyter.html">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-</div>
-<h2 class="anchored">Learning Resources for ArcGIS</h2>
-<p>Engage readers and deliver more insights with interactive documents.
-</p>
-<div class="list grid" style="column-gap: 10px;">
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="14">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="../interactive/ojs/examples/penguins.html" class="listing-title">Observable</a> <span class="text-muted listing-subtitle">reactive JavaScript</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/ojs/examples/penguins.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="../interactive/ojs/examples/penguins.html">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="15">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="https://jjallaire.shinyapps.io/diamonds-explorer/" class="listing-title">Shiny</a> <span class="text-muted listing-subtitle">web framework for R</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/diamonds/shiny-diamonds.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="https://jjallaire.shinyapps.io/diamonds-explorer/">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="16">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text text-nowrap inline-block">
-        <a href="../interactive/widgets/jupyter.html" class="listing-title">Jupyter</a> <span class="text-muted listing-subtitle">interactive widgets</span>
-      </small>
-      <a href="https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/widgets/jupyter.qmd" title="View source code" class="source-code card-text float-end inline-block">
-        <i class="bi-code-slash"></i>
-      </a>
-    </div>
-    <a href="../interactive/widgets/jupyter.html">
-      <img src="bg-pine-blue.png" alt="" class="card-img-top">
-    </a>
-  </div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -775,7 +487,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>   
     <div class="nav-footer-center">
-      &nbsp;
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ Designed and created by B.W.TJEPKES.
+  </li>  
+</ul>
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
@@ -788,12 +504,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/btjepkes">
       <i class="bi bi-github" role="img" aria-label="GitHub Profile">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://instagram.com/ben.tjepkes">
-      <i class="bi bi-instagram" role="img" aria-label="Instagram Profile">
 </i> 
     </a>
   </li>  
