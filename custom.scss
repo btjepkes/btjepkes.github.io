@@ -192,7 +192,9 @@ h1::after {
   margin-left: -10px;
 }
 
-
+.navbar-brand {
+  margin: 0 !important;
+}
 
 .navbar-brand span {
   font-weight: 700;
