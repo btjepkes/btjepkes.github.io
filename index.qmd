@@ -14,7 +14,7 @@ about:
   id: about-id
   template: trestles
   image: img-ben-portrait-2.jpg
-  image-shape: rectangle
+  image-shape: round
   links:
     - icon: github
       text: Github
@@ -43,11 +43,9 @@ listing:
 
 ::: {#about-id}
 
-#### A Little About Me...
+## My Biography
 
 I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform **landscape** and **endangered resource conservation**. I will be pursing a Masters in Geography starting fall 2023, so please [reach out](contact.qmd) if you would like to collaborate on my thesis work.
-
-#### Exploring My Creations...
 
 This site contains my **professional portfolio** and **technical blog** to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my [CV](about.qmd) to learn about my endeavors.
 :::
@@ -58,45 +56,10 @@ This site contains my **professional portfolio** and **technical blog** to showc
 :::
 
 
-## Some of My Experience...
-
-```{=html}
-
-<div class="services">
-  <div class="card-1">
-  <div class="card-header-1"><h3 class="anchored">Ecological Science</h3>
-      <img src="logo-1.png" alt="Data Audit Icon"></div>
-    <div class="card-body-1">
-      <p>Experience using radio telemetry, standardized field sampling, and wildlife capture and marking techniques to perofrm well in the field. Focus areas: Applied Conservation Science, Spatial and Movement Ecology, Imperiled Species Conservation, and Landscape Connectivity & Planning.</p>
-    </div>
-  </div>
-  <div class="card-1">
-  <div class="card-header-1"><h3 class="anchored">Data Visualization</h3><img src="logo-1.png" alt="Visualization Icon"></div>
-    <div class="card-body-1">
-      <p>Includes static visualizations fit for print and interactive graphics optimized for web. I apply information design best practices to synthesize your data and highlight key insights. Use cases: pitch decks, white papers, internal reports, website development.</p>
-    </div>
-  </div>
-  <div class="card-1">
-  <div class="card-header-1"><h3 class="anchored">Reports &amp; Dashboards</h3><img src="logo-1.png" alt="Report Automation Icon"></div>
-    <div class="card-body-1">
-      <p>I help improve operational efficiency by streamlining data analytics workflows. Whether it’s streamlining canned reports, creating dashboards, or setting up a business intelligence tool, I’ll automate routine processes so your team can focus on other projects.</p>
-    </div>
-  </div>
-  <div class="card-1">
-  <div class="card-header-1"><h3 class="anchored">Workshops &amp; Training</h3><img src="logo-1.png" alt="Workshops Icon"></div>
-    <div class="card-body-1">
-      <p>I work with teams to build data-driven cultures by providing one-on-one coaching and group workshops. This includes hands-on training for data practitioners looking to elevate their visualization skills, as well as non-technical training to help business professionals improve data literacy.</p>
-    </div>
-  </div>
-</div>
-```
-
-
-
-
 ```{r}
 #| echo: false
 #| warning: false
+#| eval: false
 
 # Load the required libraries
 library(gt)

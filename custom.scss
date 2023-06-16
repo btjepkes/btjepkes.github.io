@@ -377,7 +377,7 @@ h1::after {
 .about-links {
   flex-direction: row !important;
   flex-wrap: wrap;
-  column-gap: 0.8em;
+  column-gap: 0.4em;
   justify-content: center !important;
   margin-top: 20px;
   font-size: 0.8em;
@@ -386,15 +386,16 @@ h1::after {
 
 
 .quarto-about-trestles {
-  margin-top: -2.5em;
+  margin-top: -2em;
 }
 
 .about-link {
   background: white;
 }
 
-.about-image {
-  border-radius: 6px;
+
+.about-contents {
+  padding-right: 0px !important;
 }
 
 #listing-site-listings {
