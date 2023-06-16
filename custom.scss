@@ -142,6 +142,7 @@ h1::after {
   line-height: 1.3em;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 1.1em;
 }
 
 
@@ -222,8 +223,8 @@ nav .nav-item.compact .nav-link {
 // BANNER
 
 .quarto-title-banner {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   overflow: hidden;
   background: $dark-purple;
   color: white;
@@ -317,7 +318,10 @@ nav .nav-item.compact .nav-link {
   opacity: 1.0;
 }
 
-
+.quarto-categories::before {
+  content: "Topics:";
+  display: "block";
+}
 
 
 

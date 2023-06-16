@@ -7,7 +7,9 @@ categories:
   - GIS
   - Conservation
   - Data Science
-  - Web & Data Viz
+  - Data Viz
+  - Web Dev
+  - Ecology
 about:
   id: about-id
   template: solana
