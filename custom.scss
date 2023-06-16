@@ -175,7 +175,7 @@ h1::after {
 
 @media (min-width: 991.98px) {
   .navbar {
-    height: 50px;
+    height: 70px;
   }
   
 }
@@ -184,11 +184,12 @@ h1::after {
   max-height: 40px;
   width: auto;
   padding-right: 4px;
+  margin-top: 6px;
 }
 
 .navbar-brand span {
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1.1em;
   letter-spacing: 0.07em;
   background: transparent;
   text-transform: uppercase;
