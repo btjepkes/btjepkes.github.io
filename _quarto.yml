@@ -13,6 +13,7 @@ website:
   repo-url: https://github.com/btjepkes/btjepkes.github.io
 
   navbar:
+    logo: img-ben-portrait-round.png
     collapse: true
     collapse-below: xl
     pinned: false
