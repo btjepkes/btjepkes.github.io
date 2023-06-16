@@ -172,6 +172,11 @@ h1::after {
   border-bottom: solid 2px $gray-400;
 }
 
+#quarto-header > nav {
+  padding-left: 0.25em !important;
+  padding-right: 0.25em !important;
+}
+
 
 @media (min-width: 991.98px) {
   .navbar {
@@ -200,7 +205,7 @@ h1::after {
 
 
 .navbar-brand span::after {
-  content: "Data - GIS - Ecology";
+  content: "Ecology - GIS - Data";
   display: block;
   font-size: 10px;
   margin-top: -6px;
