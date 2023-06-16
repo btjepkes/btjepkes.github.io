@@ -14,5 +14,7 @@ listing:
     - image
     - title
     - subtitle
+    - author
+    - date
 ---
 

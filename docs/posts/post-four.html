@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
+<meta name="dcterms.date" content="2023-05-05">
 
-<title>B.W.Tjepkes - Creating an Interactive Heatmap of GBIF Occurrences</title>
+<title>B.W.Tjepkes - Creating an Interactive Heatmap of GBIF Occurrences Using R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -100,7 +101,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="B.W.Tjepkes - Creating an Interactive Heatmap of GBIF Occurrences">
+<meta property="og:title" content="B.W.Tjepkes - Creating an Interactive Heatmap of GBIF Occurrences Using R">
 <meta property="og:description" content="In this blog post, we demonstrate how to use the rgbif package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap using Leaflet.">
 <meta property="og:image" content="https://btjepkes.github.io/posts/img-sage-grouse.jpg">
 <meta property="og:site-name" content="B.W.Tjepkes">
@@ -165,8 +166,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Creating an Interactive Heatmap of GBIF Occurrences</h1>
-            <p class="subtitle lead">Exploring concentrations of Greater sage grouse records.</p>
+      <h1 class="title">Creating an Interactive Heatmap of GBIF Occurrences Using R</h1>
+            <p class="subtitle lead">Exploring concentrations of Greater sage grouse records in the western United States using Leaflet.</p>
                                 <div class="quarto-categories">
                 <div class="quarto-category">R</div>
                 <div class="quarto-category">Wildlife</div>
@@ -185,13 +186,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             </div>
     </div>
       
-    
       <div>
-      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">May 5, 2023</p>
+        <p class="date">May 5, 2023</p>
       </div>
     </div>
+    
       
     </div>
     
@@ -242,8 +243,8 @@ Article Takeaways
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>Querying species occurrence data from the GBIF API using <code>rgbif</code> within the RStudio environment.</li>
-<li>Using the <code>leaflet</code> package to make interactive maps, including an adaptive heatmap.</li>
+<li>Querying species occurrence data from the GBIF API using <code>rgbif</code> within RStudio.</li>
+<li>Using the <code>leaflet</code> package to make interactive maps, including heatmaps.</li>
 <li>Cleaning data using basic <code>tidyverse</code> verbs.</li>
 </ul>
 </div>
@@ -278,11 +279,11 @@ Article Takeaways
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-1" data-code-lines="1,2" data-code-annotation="1">For accessing GBIF data.</span>
+<span data-code-cell="annotated-cell-1" data-code-annotation="1" data-code-lines="1,2">For accessing GBIF data.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-cell="annotated-cell-1" data-code-lines="3,4" data-code-annotation="2">For mapping data interactively.</span>
+<span data-code-cell="annotated-cell-1" data-code-annotation="2" data-code-lines="3,4">For mapping data interactively.</span>
 </dd>
 </dl>
 </section>
@@ -294,11 +295,11 @@ Article Takeaways
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-lines="1" data-code-annotation="1">This function allows us to see the taxonomic information for our focal species.</span>
+<span data-code-cell="annotated-cell-2" data-code-annotation="1" data-code-lines="1">This function allows us to see the taxonomic information for our focal species.</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-lines="2" data-code-annotation="2">This prints that information to the console.</span>
+<span data-code-cell="annotated-cell-2" data-code-annotation="2" data-code-lines="2">This prints that information to the console.</span>
 </dd>
 </dl>
 </section>
@@ -611,7 +612,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":true,"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":true,"openEffect":"zoom"});</script>
 
 
 

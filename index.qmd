@@ -12,19 +12,13 @@ categories:
   - Ecology
 about:
   id: about-id
-  template: solana
+  template: trestles
   image: img-ben-portrait-2.jpg
   image-shape: rectangle
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/BTjepkes
     - icon: github
       text: Github
       href: https://github.com/btjepkes
-    - icon: instagram
-      text: Instagram
-      href: https://instagram.com/ben.tjepkes
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/benjamintjepkes/
@@ -46,20 +40,20 @@ listing:
     - subtitle
 ---
 
-## Exploring My Creations...
-
-This site contains my **professional portfolio** and **technical blog** to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my [CV](about.qmd) to learn about my past and current endeavors. Thank you for stopping by!
-
-::: {#site-listings}
-
-:::
-
-
-## A Little About Me...
 
 ::: {#about-id}
 
-<span style="color: #f55c5c; font-size: 20px; font-weight: 600;">My Biography</span> --- I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform **landscape** and **endangered resource conservation**. In my current role, I serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. I will be pursing a Masters in Geography starting fall 2023, so please [reach out](contact.qmd) if you would like to collaborate on a geospatial project.
+#### A Little About Me...
+
+I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform **landscape** and **endangered resource conservation**. I will be pursing a Masters in Geography starting fall 2023, so please [reach out](contact.qmd) if you would like to collaborate on my thesis work.
+
+#### Exploring My Creations...
+
+This site contains my **professional portfolio** and **technical blog** to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my [CV](about.qmd) to learn about my endeavors.
+:::
+
+
+::: {#site-listings}
 
 :::
 

@@ -151,21 +151,7 @@
     "href": "index.html",
     "title": "Hi there, my name is Benjamin Tjepkes.",
     "section": "",
-    "text": "This site contains my professional portfolio and technical blog to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my CV to learn about my past and current endeavors. Thank you for stopping by!\n\n\n\n\n\n\n\n\nLearn about my professional interests and experience.\n\n\n\n\n\n\n\n\n\n\n\nReach out to me with inquires or connect on my social profiles.\n\n\n\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, data visualiztions, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\n\n\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#exploring-my-creations",
-    "href": "index.html#exploring-my-creations",
-    "title": "Hi there, my name is Benjamin Tjepkes.",
-    "section": "",
-    "text": "This site contains my professional portfolio and technical blog to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my CV to learn about my past and current endeavors. Thank you for stopping by!\n\n\n\n\n\n\n\n\nLearn about my professional interests and experience.\n\n\n\n\n\n\n\n\n\n\n\nReach out to me with inquires or connect on my social profiles.\n\n\n\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, data visualiztions, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\n\n\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#a-little-about-me",
-    "href": "index.html#a-little-about-me",
-    "title": "Hi there, my name is Benjamin Tjepkes.",
-    "section": "A Little About Me…",
-    "text": "A Little About Me…\n\n  \n    \n       \n  \n    \n     Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Instagram\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     ORCID iD\n  \n\n      \nMy Biography — I am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation. In my current role, I serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. I will be pursing a Masters in Geography starting fall 2023, so please reach out if you would like to collaborate on a geospatial project."
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     ORCID iD\n  \n\n  \n  \n\n\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation. I will be pursing a Masters in Geography starting fall 2023, so please reach out if you would like to collaborate on my thesis work.\n\n\n\nThis site contains my professional portfolio and technical blog to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my CV to learn about my endeavors."
   },
   {
     "objectID": "index.html#some-of-my-experience",
@@ -177,21 +163,21 @@
   {
     "objectID": "posts/post-four.html",
     "href": "posts/post-four.html",
-    "title": "Creating an Interactive Heatmap of GBIF Occurrences",
+    "title": "Creating an Interactive Heatmap of GBIF Occurrences Using R",
     "section": "",
-    "text": "Article Takeaways\n\n\n\n\nQuerying species occurrence data from the GBIF API using rgbif within the RStudio environment.\nUsing the leaflet package to make interactive maps, including an adaptive heatmap.\nCleaning data using basic tidyverse verbs."
+    "text": "Article Takeaways\n\n\n\n\nQuerying species occurrence data from the GBIF API using rgbif within RStudio.\nUsing the leaflet package to make interactive maps, including heatmaps.\nCleaning data using basic tidyverse verbs."
   },
   {
     "objectID": "posts/post-four.html#background",
     "href": "posts/post-four.html#background",
-    "title": "Creating an Interactive Heatmap of GBIF Occurrences",
+    "title": "Creating an Interactive Heatmap of GBIF Occurrences Using R",
     "section": "Background",
     "text": "Background\n\nFocal Species\nThe Greater sage grouse (Centrocercus urophasianus) is a bird species native to portions of the western United States. They are important species for the ecosystems they inhabit and play a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes.\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka/USFWS\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\nData Sources\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
   },
   {
     "objectID": "posts/post-four.html#workflow",
     "href": "posts/post-four.html#workflow",
-    "title": "Creating an Interactive Heatmap of GBIF Occurrences",
+    "title": "Creating an Interactive Heatmap of GBIF Occurrences Using R",
     "section": "Workflow",
     "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\n1install.packages(\"rgbif\")\nlibrary(rgbif)\n2install.packages(\"leaflet\")\nlibrary(leaflet)\n\n1\n\nFor accessing GBIF data.\n\n2\n\nFor mapping data interactively.\n\n\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States.\n1grouse_info &lt;- name_backbone(\"Centrocercus urophasianus\")\n2grouse_info\n\n1\n\nThis function allows us to see the taxonomic information for our focal species.\n\n2\n\nThis prints that information to the console.\n\n\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords &lt;- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nleaflet(wyoming_coords) %&gt;% \n  addTiles() %&gt;%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
   },
@@ -221,7 +207,7 @@
     "href": "posts.html",
     "title": "My Blog Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences Using R\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\nBenjamin Tjepkes\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "research/research-five.html",

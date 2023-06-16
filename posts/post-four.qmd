@@ -1,11 +1,11 @@
 ---
-title: "Creating an Interactive Heatmap of GBIF Occurrences"
-subtitle: "Exploring concentrations of Greater sage grouse records."
+title: "Creating an Interactive Heatmap of GBIF Occurrences Using R"
+subtitle: "Exploring concentrations of Greater sage grouse records in the western United States using Leaflet."
 author:
   - name: Benjamin Tjepkes  
     url: //about.qmd
     orcid: 0009-0002-5524-2675
-date-modified: "5/5/2023"
+date: "5/5/2023"
 abstract: In this blog post, we demonstrate how to use the `rgbif` package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap using Leaflet.
 abstract-title: ""
 categories:
@@ -18,8 +18,8 @@ image: img-sage-grouse.jpg
 ::: {.callout-tip .intro-callout}
 ## Article Takeaways
 
-- Querying species occurrence data from the GBIF API using `rgbif` within the RStudio environment.
-- Using the `leaflet` package to make interactive maps, including an adaptive heatmap. 
+- Querying species occurrence data from the GBIF API using `rgbif` within RStudio.
+- Using the `leaflet` package to make interactive maps, including heatmaps. 
 - Cleaning data using basic `tidyverse` verbs.
 
 :::
