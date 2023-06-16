@@ -8,7 +8,7 @@ website:
   favicon: site-logo-green.png
   back-to-top-navigation: true
   search:
-    type: textbox
+    type: overlay
   open-graph: true
   repo-url: https://github.com/btjepkes/btjepkes.github.io
 
@@ -17,22 +17,6 @@ website:
     collapse-below: xl
     pinned: false
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - href: gallery.qmd
-        text: Gallery
-      - href: research.qmd
-        text: Research        
-      - href: resources.qmd
-        text: Resources
-      - href: contact.qmd
-        text: Contact        
-      - href: posts.qmd
-        text: Blog      
-
-    right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/
         aria-label: LinkedIn Profile
@@ -45,6 +29,24 @@ website:
       - icon: twitter
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
+      - href: posts.qmd
+        text: Blog Posts
+  
+
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: gallery.qmd
+        text: Gallery
+      - href: research.qmd
+        text: Research        
+      - href: resources.qmd
+        text: Resources
+      - href: contact.qmd
+        text: Contact        
+  
             
   page-footer:
     left:

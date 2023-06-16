@@ -1,6 +1,6 @@
 ---
-title: "Hello, my name is Benjamin W. Tjepkes"
-subtitle: "Wildlife ecologist, geographer, and budding data scientist."
+title: "Hi, my name is Ben T."
+subtitle: "I'm a wildlife ecologist, geographer, and budding data scientist."
 toc: false
 page-layout: article
 about:
