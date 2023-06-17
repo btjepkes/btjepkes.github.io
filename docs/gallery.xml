@@ -5,19 +5,19 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Ben Tjepkes</title>
+<title>Benjamin Tjepkes</title>
 <link>https://btjepkes.github.io/gallery.html</link>
 <atom:link href="https://btjepkes.github.io/gallery.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
 <url>https://btjepkes.github.io/site-logo-green.png</url>
-<title>Ben Tjepkes</title>
+<title>Benjamin Tjepkes</title>
 <link>https://btjepkes.github.io/gallery.html</link>
 <height>144</height>
 <width>144</width>
 </image>
 <generator>quarto-1.3.353</generator>
-<lastBuildDate>Sat, 17 Jun 2023 03:26:55 GMT</lastBuildDate>
+<lastBuildDate>Sat, 17 Jun 2023 03:40:09 GMT</lastBuildDate>
 <item>
   <title>Work-Based Mapping Products</title>
   <dc:creator>Benjamin Tjepkes</dc:creator>
@@ -29,7 +29,7 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-cover-work-products.png" class="lightbox" title="Map Credit: Ben Tjepkes" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/gallery/img-cover-work-products.png" class="img-fluid figure-img"></a></p>
+<p><a href="../gallery/img-cover-work-products.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Map Credit: Ben Tjepkes"><img src="https://btjepkes.github.io/gallery/img-cover-work-products.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Map Credit: Ben Tjepkes</figcaption>
 </figure>
 </div>
@@ -45,7 +45,7 @@
   <category>RStudio</category>
   <category>ArcGIS Pro</category>
   <guid>https://btjepkes.github.io/gallery/gallery-001.html</guid>
-  <pubDate>Sat, 17 Jun 2023 03:26:55 GMT</pubDate>
+  <pubDate>Sat, 17 Jun 2023 03:40:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-work-products.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 <item>
@@ -59,7 +59,7 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-cover-course-products.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Map Credit: Ben Tjepkes"><img src="https://btjepkes.github.io/gallery/img-cover-course-products.png" class="img-fluid figure-img"></a></p>
+<p><a href="../gallery/img-cover-course-products.png" class="lightbox" title="Map Credit: Ben Tjepkes" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/gallery/img-cover-course-products.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Map Credit: Ben Tjepkes</figcaption>
 </figure>
 </div>
@@ -72,7 +72,7 @@
  ]]></description>
   <category>Map Gallery</category>
   <guid>https://btjepkes.github.io/gallery/gallery-002.html</guid>
-  <pubDate>Sat, 17 Jun 2023 03:26:55 GMT</pubDate>
+  <pubDate>Sat, 17 Jun 2023 03:40:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-course-products.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 <item>
@@ -99,7 +99,7 @@
  ]]></description>
   <category>Map Gallery</category>
   <guid>https://btjepkes.github.io/gallery/gallery-003.html</guid>
-  <pubDate>Sat, 17 Jun 2023 03:26:55 GMT</pubDate>
+  <pubDate>Sat, 17 Jun 2023 03:40:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-personal-products.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 <item>
@@ -126,7 +126,7 @@
  ]]></description>
   <category>Poster Gallery</category>
   <guid>https://btjepkes.github.io/gallery/gallery-004.html</guid>
-  <pubDate>Sat, 17 Jun 2023 03:26:55 GMT</pubDate>
+  <pubDate>Sat, 17 Jun 2023 03:40:09 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-posters-presentations.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 </channel>
