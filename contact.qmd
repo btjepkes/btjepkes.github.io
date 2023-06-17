@@ -5,6 +5,11 @@ search: false
 image: site-logo-green.png
 ---
 
+## My Links
+
+
+
+
 ## Connecting with Me
 
 Interested in working on a collaborative project together, wondering if I still have the code for a past project, or just want to connect? Please contact me via the below form, [email](mailto:benjamin.tjepkes+websitecontact@gmail.com), or through my [LinkedIn profile](https://www.linkedin.com/in/benjamintjepkes/) with any inquiries.
