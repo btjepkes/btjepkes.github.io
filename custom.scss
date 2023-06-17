@@ -192,6 +192,10 @@ h1::after {
 .navbar-brand-container {
   max-width: 100%;
 }
+
+.navbar-brand {
+  margin-right: 0;
+}
   
 #quarto-header > nav {
   padding-left: 0.5em;
