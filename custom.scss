@@ -183,9 +183,15 @@ h1::after {
 .navbar-logo {
   max-height: 45px;
   width: auto;
-  padding-right: 4px;
+  padding-right: 6px;
   margin-top: 6px;
 }
+
+
+.navbar-brand-container {
+  margin-top: -6px;
+}
+
 
 /*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
@@ -202,10 +208,6 @@ h1::after {
 .navbar-brand {
   margin-right: 0;
 }
-  
-#quarto-header > nav {
-  padding-left: 0.5em;
-}  
   
 
 .navbar-collapse {
