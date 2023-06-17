@@ -182,7 +182,7 @@ h1::after {
 .navbar-logo {
   max-height: 45px;
   width: auto;
-  padding-right: 8px;
+  padding-right: 4px;
   margin-top: 6px;
 }
 
@@ -276,7 +276,9 @@ h1::after {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), 20px 100%, 0 calc(100% - 20px));
 }}
 
-
+.quarto-title .quarto-categories {
+    margin-top: 20px;
+}
 
 
 /* POSTS */
@@ -348,12 +350,6 @@ h1::after {
   background: azure;
   color: black;
   opacity: 1.0;
-}
-
-.quarto-categories::before {
-  content: "Topics Covered:";
-  display: "block";
-  color: #a0aaae;
 }
 
 
