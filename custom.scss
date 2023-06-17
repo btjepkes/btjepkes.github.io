@@ -141,7 +141,6 @@ h1::after {
   font-weight: 700;
   line-height: 1.3em;
   padding-top: 20px;
-  padding-bottom: 20px;
   font-size: 1.1em;
 }
 
@@ -169,7 +168,7 @@ h1::after {
 
 #quarto-header > nav {
   font-weight: 500;
-  border-bottom: solid 2px $gray-400;
+  border-bottom: solid 2px $gray-500;
 }
 
 
@@ -181,26 +180,45 @@ h1::after {
 }
 
 .navbar-logo {
-  max-height: 40px;
+  max-height: 45px;
   width: auto;
   padding-right: 8px;
   margin-top: 6px;
 }
 
+/*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
+  
 .navbar-brand-container {
-  margin-left: -30px;
+  max-width: 100%;
 }
   
 #quarto-header > nav {
   padding-left: 0.5em;
 }  
   
+
+.navbar-collapse {
+  display: flex;
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  align-items: center;
+  -webkit-align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
 }
 
-.navbar-brand {
-  margin: 0 !important;
+.about-contents {
+  padding-right: 0px !important;
 }
+
+}
+
+/*** MOBILE ONLY - stop ***/
+
 
 .navbar-brand span {
   font-weight: 700;
@@ -208,14 +226,12 @@ h1::after {
   letter-spacing: 0.07em;
   background: transparent;
   text-transform: uppercase;
- /* border-top: solid 2px $gray-400;
-  border-bottom: solid 2px;*/
   color: $gray-100;
 }
 
 
 .navbar-brand span::after {
-  content: "Ecology - GIS - Data Viz";
+  content: "Ecology - Geospatial - Data Science";
   display: block;
   font-size: 10px;
   margin-top: -6px;
@@ -237,8 +253,8 @@ h1::after {
   overflow: hidden;
   background: $dark-purple;
   color: white;
-  padding-top: 2.8em;
-  padding-bottom: 2.8em;
+  padding-top: 2.4em;
+  padding-bottom: 2.4em;
 }
 
 @media (min-width: 991.98px) {
@@ -360,13 +376,6 @@ h1::after {
 /* ABOUT on Index */
 
 
-/* Image gallery on index */
-
-
-#index .quarto-layout-cell {
-  position: relative;
-  margin-right: 0;
-}
 
 
 @media (max-width: 991.98px) {
@@ -386,7 +395,7 @@ h1::after {
 
 
 .quarto-about-trestles {
-  margin-top: -2em;
+  margin-top: 0em;
 }
 
 .about-link {
@@ -394,9 +403,7 @@ h1::after {
 }
 
 
-.about-contents {
-  padding-right: 0px !important;
-}
+
 
 #listing-site-listings {
   margin-top: 3em;

@@ -2,19 +2,12 @@
 title: "Hi there, my name is Benjamin Tjepkes."
 subtitle: "I'm a wildlife ecologist and budding geospatial data scientist."
 toc: false
-page-layout: article
-categories:
-  - GIS
-  - Conservation
-  - Data Science
-  - Data Viz
-  - Web Dev
-  - Ecology
 about:
   id: about-id
   template: trestles
   image: img-ben-portrait-2.jpg
   image-shape: round
+  image-width: 300px
   links:
     - icon: github
       text: Github
