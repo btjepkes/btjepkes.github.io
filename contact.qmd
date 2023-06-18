@@ -7,7 +7,9 @@ image: site-logo-green.png
 
 ## My Links
 
+If you would like to follow my work, I have active accounts on these platforms:
 
+[{{< fa brands linkedin size=3x >}}](https://www.linkedin.com/in/benjamintjepkes/) [{{< fa brands github size=3x >}}](https://github.com/btjepkes) [{{< fa brands twitter size=3x >}}](https://twitter.com/BTjepkes) [{{< fa brands researchgate size=3x >}}](https://www.researchgate.net/profile/Benjamin-Tjepkes) [{{< fa brands orcid size=3x >}}](https://orcid.org/0009-0002-5524-2675)
 
 
 ## Connecting with Me

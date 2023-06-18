@@ -32,7 +32,7 @@
     "href": "contact.html",
     "title": "Links & Contact",
     "section": "",
-    "text": "Interested in working on a collaborative project together, wondering if I still have the code for a past project, or just want to connect? Please contact me via the below form, email, or through my LinkedIn profile with any inquiries."
+    "text": "If you would like to follow my work, I have active accounts on these platforms:"
   },
   {
     "objectID": "contact.html#connecting-with-me",
@@ -278,5 +278,33 @@
     "title": "Resources",
     "section": " – Resources for GIS Users",
     "text": "– Resources for GIS Users\nThese resources are for the sorry souls in the process of learning GIS, including open source GIS.\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\nWebsite ~ The Power of Spatial Analysis\n\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
+  },
+  {
+    "objectID": "contact.html#my-links",
+    "href": "contact.html#my-links",
+    "title": "Links & Contact",
+    "section": "",
+    "text": "If you would like to follow my work, I have active accounts on these platforms:"
+  },
+  {
+    "objectID": "resources.html#fa-paw-size1x-natural-resources",
+    "href": "resources.html#fa-paw-size1x-natural-resources",
+    "title": "Resources",
+    "section": "",
+    "text": "These resources are for folks in or thinking about joining in the wildlife biology career path.\n\n\n\nBlog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
+  },
+  {
+    "objectID": "resources.html#fa-code-size1x-r-rstudio",
+    "href": "resources.html#fa-code-size1x-r-rstudio",
+    "title": "Resources",
+    "section": " – R & RStudio",
+    "text": "– R & RStudio\nThese resources are for folks in the process of learning R and the RStudio IDE.\n\nLearning R and RStudio\n\neBook ~ R for Fledglings\n\n\n\nStatistics in R\n\nPDF ~ An R Companion for the Handbook of Biological Statistics\n\n\n\nReproducible Reporting\n\nWebsite ~ Quarto from Posit\n\n\n\nMapping and Spatial Data\n\nWebsite ~ Spatial Data Science in R"
+  },
+  {
+    "objectID": "resources.html#fa-layer-group-size1x-gis-spatial-analysis",
+    "href": "resources.html#fa-layer-group-size1x-gis-spatial-analysis",
+    "title": "Resources",
+    "section": " – GIS & Spatial Analysis",
+    "text": "– GIS & Spatial Analysis\nThese resources are for the sorry souls in the process of learning GIS, including open source GIS.\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\nWebsite ~ The Power of Spatial Analysis\n\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
   }
 ]

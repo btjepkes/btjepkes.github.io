@@ -13,7 +13,7 @@ image: site-logo-green.png
 ---
 
 
-## {{< fa paw size=1x >}} -- Resources for **Wildlifers**
+## {{< fa paw size=1x >}} -- Natural Resources
 
 These resources are for folks in or thinking about joining in the wildlife biology career path.
 
@@ -23,7 +23,7 @@ These resources are for folks in or thinking about joining in the wildlife biolo
 - [Website ~ Careers in Conservation Job Board List](https://diversityinconservationjobs.org/jobs/)
 
 
-## {{< fa code size=1x >}} -- Resources for **R Users**
+## {{< fa code size=1x >}} -- R & RStudio
 
 These resources are for folks in the process of learning R and the RStudio IDE.
 
@@ -43,7 +43,7 @@ These resources are for folks in the process of learning R and the RStudio IDE.
 
 - [Website ~ Spatial Data Science in R](https://rspatial.org/)
 
-## {{< fa layer-group size=1x >}} -- Resources for **GIS Users**
+## {{< fa layer-group size=1x >}} -- GIS & Spatial Analysis
 
 These resources are for the sorry souls in the process of learning GIS, including open source GIS.
 
