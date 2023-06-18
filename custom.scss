@@ -196,6 +196,16 @@ h1::after {
 /*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
   
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23f8f9fa' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h15M4 23h22'/%3e%3c/svg%3e");
+}
+  
+.navbar .navbar-toggler {
+  order: -1;
+  margin-right: 0em;
+} 
+  
+  
 .navbar-container {
   flex-direction: row-reverse;
 }
@@ -438,7 +448,18 @@ h1::after {
 .nav-footer-center {
   margin-bottom: 1em;
   margin-top: 0;
-}}
+}
+
+.nav-footer .nav-footer-right {
+  font-size: 1.5em;
+}
+  
+.nav-footer {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+  
+}
 
 
 

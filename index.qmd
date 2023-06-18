@@ -1,6 +1,6 @@
 ---
 title: "Hi there, my name is Benjamin Tjepkes."
-subtitle: "I'm a wildlife ecologist and budding geospatial scientist with a passion for conservation."
+subtitle: "I'm a wildlife ecologist and budding geographer with a passion for data and conservation science."
 toc: false
 about:
   id: about-id

@@ -51,7 +51,8 @@ website:
     center:
       -  text: "Proudly created by Benjamin Tjepkes."
     left:
-      -  text: "Copyright 2023"
+      - icon:  c-circle
+        text: "Copyright 2023"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/
