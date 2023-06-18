@@ -66,6 +66,8 @@ website:
       - icon: twitter
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
+      - icon: chat-square-dots-fill
+        href: contact.html
           
 format:
   html:
