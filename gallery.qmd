@@ -9,6 +9,7 @@ listing:
     - "gallery-003.qmd"
     - "gallery-004.qmd"
   type: grid
+  feed: true
   grid-columns: 2
   image-height: 100%
   categories: numbered

@@ -196,6 +196,13 @@ h1::after {
 /*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
   
+  
+/* Menu icons */
+.navbar .quarto-navbar-tools i {
+  font-size: 25px;
+}
+  
+ /* Toggle icon*/ 
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23f8f9fa' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h15M4 23h22'/%3e%3c/svg%3e");
 }
@@ -214,10 +221,10 @@ h1::after {
   max-width: 100%;
   margin-top: -6px;
 }
-
+/*
 .navbar-brand {
   margin-right: 0;
-}
+}*/
   
 
 .navbar-collapse {
@@ -445,6 +452,7 @@ h1::after {
 }
 
 @media (max-width: 767.98px) {
+  
 .nav-footer-center {
   margin-bottom: 1em;
   margin-top: 0;
