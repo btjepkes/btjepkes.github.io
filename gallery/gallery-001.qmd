@@ -8,13 +8,27 @@ categories:
   - Choropleth
   - RStudio
   - ArcGIS Pro
-abstract: "This section showcases maps created using ArcGIS Pro and RStudio for various work-based projects. The primary focus of these maps is the visualization of wildlife-related topics, particularly the quantification of species-specific harvests. These cartographic representations combine technical expertise and creativity to convey information effectively, facilitating informed decision-making."
+abstract: "This section showcases maps created for various work-based projects, mostly using ArcGIS Pro and RStudio. These cartographic representations combine technical expertise and creativity to convey information effectively for reports, presentations, or other work-related products."
 abstract-title: ""
 
 toc: TRUE
 image: img-cover-work-products.png
 ---
 
-![Map Credit: Ben Tjepkes](../gallery/img-cover-work-products.png)
+## Wildlife Maps
 
-## More content coming soon! 
+The primary focus of these maps is the visualization of wildlife-related topics, including quantification of species-specific harvests. While many of my GIS applications for wildlife contain protected species information so I cannot share, these shown here contain publicly-available data.
+
+::: {.gallery}
+
+![](../gallery/img-map-5.jpg){group="elsewhere"
+description="**Missouri Black Bear Sightings Map** -- this shows the number of reported sightings by county in 2020."}
+
+![](../gallery/img-map-8.jpg){group="elsewhere"
+description="**Public Hunting Lands in BMZs Map** -- this shows the locations of state and federal lands within the three Bear Management Zones."}
+
+![](../gallery/img-turkey-harvest-maps.png){group="elsewhere"
+description="**Turkey Harvest Map** -- this shows the density of turkey harvested."}
+
+
+:::
