@@ -1,10 +1,10 @@
 ---
 title: "Work-Based Mapping Products"
-subtitle: "Maps and mapping products made for various work-related projects."
+subtitle: "Mapping products made for various work-related projects, technical reports, and publications."
 author: "Benjamin Tjepkes"
 date-modified: "6-15-2023"
 categories:
-  - Mapping
+  - Maps
   - Choropleth
   - RStudio
   - ArcGIS Pro

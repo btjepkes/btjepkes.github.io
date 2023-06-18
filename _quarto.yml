@@ -5,6 +5,7 @@ project:
 website:
   title: "Benjamin Tjepkes"
   site-url: https://btjepkes.github.io/
+  description: "A professional portfolio and technical blog for Benjamin Tjepkes."
   favicon: site-logo-green.png
   back-to-top-navigation: false
   search: false
@@ -25,6 +26,9 @@ website:
       - icon: twitter
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
+      - icon: rss-fill
+        href: posts.xml
+        aria-label: RSS feed
 
 
     left:

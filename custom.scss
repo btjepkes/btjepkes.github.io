@@ -270,6 +270,7 @@ h1::after {
   padding-bottom: 2.4em;
 }
 
+/*
 @media (min-width: 991.98px) {
 .quarto-title-banner::before {
   content: "";
@@ -283,7 +284,7 @@ h1::after {
   background-size: 25px 25px;
   z-index: 1;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), 20px 100%, 0 calc(100% - 20px));
-}}
+}}*/
 
 .quarto-title .quarto-categories {
     margin-top: 20px;

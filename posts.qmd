@@ -4,6 +4,7 @@ subtitle: Explore my writings on ecological and geospatial data science.
 image: site-logo-green.png
 listing:
   contents: posts
+  feed: true
   type: grid
   grid-columns: 2
   categories: numbered

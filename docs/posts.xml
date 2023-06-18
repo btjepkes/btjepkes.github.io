@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Benjamin Tjepkes</title>
+<link>https://btjepkes.github.io/posts.html</link>
+<atom:link href="https://btjepkes.github.io/posts.xml" rel="self" type="application/rss+xml"/>
+<description>A professional portfolio and technical blog for Benjamin Tjepkes.</description>
+<image>
+<url>https://btjepkes.github.io/site-logo-green.png</url>
+<title>Benjamin Tjepkes</title>
+<link>https://btjepkes.github.io/posts.html</link>
+<height>144</height>
+<width>144</width>
+</image>
+<generator>quarto-1.3.353</generator>
+<lastBuildDate>Fri, 05 May 2023 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Creating an Interactive Heatmap of GBIF Occurrences Using R</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/post-four.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="intro-callout callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Article Takeaways
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Querying species occurrence data from the GBIF API using <code>rgbif</code> within RStudio.</li>
+<li>Using the <code>leaflet</code> package to make interactive maps, including heatmaps.</li>
+<li>Cleaning data using basic <code>tidyverse</code> verbs.</li>
+</ul>
+</div>
+</div>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<section id="focal-species" class="level3">
+<h3 class="anchored" data-anchor-id="focal-species">Focal Species</h3>
+<p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a bird species native to portions of the western United States. They are important species for the ecosystems they inhabit and play a key role in controlling insect populations and serves as a food source for predators such as eagles and coyotes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img-sage-grouse.jpg" class="lightbox" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/img-sage-grouse.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
+</figure>
+</div>
+<p>Sage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.</p>
+</section>
+<section id="data-sources" class="level3">
+<h3 class="anchored" data-anchor-id="data-sources">Data Sources</h3>
+<p>Today, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. <code>rgbif</code>is an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data.</p>
+</section>
+</section>
+<section id="workflow" class="level2">
+<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
+<section id="load-packages" class="level3">
+<h3 class="anchored" data-anchor-id="load-packages">1. Load Packages</h3>
+<p>Our first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the <code>install.packages()</code> function.</p>
+<div class="sourceCode" id="annotated-cell-1" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-1-1" class="code-annotation-target"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"rgbif"</span>)</span>
+<span id="annotated-cell-1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(rgbif)</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-1-3" class="code-annotation-target"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"leaflet"</span>)</span>
+<span id="annotated-cell-1-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(leaflet)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="1,2" data-code-annotation="1">For accessing GBIF data.</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="3,4" data-code-annotation="2">For mapping data interactively.</span>
+</dd>
+</dl>
+</section>
+<section id="search-gbif" class="level3">
+<h3 class="anchored" data-anchor-id="search-gbif">2. Search GBIF</h3>
+<p>Now that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States.</p>
+<div class="sourceCode" id="annotated-cell-2" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-2-1" class="code-annotation-target">grouse_info <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">name_backbone</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Centrocercus urophasianus"</span>)</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-2-2" class="code-annotation-target">grouse_info</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="1" data-code-annotation="1">This function allows us to see the taxonomic information for our focal species.</span>
+</dd>
+<dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="2" data-code-annotation="2">This prints that information to the console.</span>
+</dd>
+</dl>
+</section>
+<section id="extract-locations" class="level3">
+<h3 class="anchored" data-anchor-id="extract-locations">3. Extract Locations</h3>
+<p>As we explore our newly loaded dataframe, you will see there are two columns</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">wyoming_coords <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> wyoming<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>data[, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"decimalLatitude"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"decimalLongitude"</span>)]</span></code></pre></div>
+</section>
+<section id="create-heatmap" class="level3">
+<h3 class="anchored" data-anchor-id="create-heatmap">4. Create Heatmap</h3>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">leaflet</span>(wyoming_coords) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> </span>
+<span id="cb2-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">addTiles</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">addHeatmap</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">lng =</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span>decimalLongitude,</span>
+<span id="cb2-4">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">lat =</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span>decimalLatitude,</span>
+<span id="cb2-5">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">blur =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>,</span>
+<span id="cb2-6">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">max =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>)</span></code></pre></div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Wildlife</category>
+  <category>Cartography</category>
+  <guid>https://btjepkes.github.io/posts/post-four.html</guid>
+  <pubDate>Fri, 05 May 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/posts/img-sage-grouse.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Mapping Changes in Unfragmented Forest Landscapes Using R</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/post-three.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<section id="forest-ecosystems" class="level3">
+<h3 class="anchored" data-anchor-id="forest-ecosystems">Forest Ecosystems</h3>
+<p>Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.</p>
+</section>
+<section id="data-sources" class="level3">
+<h3 class="anchored" data-anchor-id="data-sources">Data Sources</h3>
+<p><strong>Global Forest Watch</strong> (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world’s forests.</p>
+</section>
+</section>
+<section id="workflow" class="level2">
+<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
+<section id="get-ifl-data" class="level3">
+<h3 class="anchored" data-anchor-id="get-ifl-data">1. Get IFL Data</h3>
+<p>Visit the Global Forest Watch website (https://www.globalforestwatch.org/). Navigate to the “Data” section and select “Intact Forest Landscapes.” Download the IFL dataset in the desired format (e.g., shapefile, geopackage).</p>
+</section>
+<section id="load-packages." class="level3">
+<h3 class="anchored" data-anchor-id="load-packages.">2. Load Packages.</h3>
+<p>To follow along with this tutorial, you will need to have R and the following packages installed: <code>sf</code>, <code>tmap</code>, and <code>dplyr</code>. You can install these packages using the <code>install.packages()</code> function in R.</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(sf)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(dplyr)</span></code></pre></div>
+</section>
+<section id="load-data-in-r" class="level3">
+<h3 class="anchored" data-anchor-id="load-data-in-r">3. Load Data in R</h3>
+<p>Let’s assume you have downloaded the IFL data in shapefile format and saved it as “ifl.shp” in your working directory. We will now load and prepare the data for visualization.</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Read the IFL shapefile</span></span>
+<span id="cb2-2">ifl <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_read</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ifl.shp"</span>)</span>
+<span id="cb2-3"></span>
+<span id="cb2-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Examine the data structure</span></span>
+<span id="cb2-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>(ifl)</span>
+<span id="cb2-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">summary</span>(ifl)</span></code></pre></div>
+</section>
+<section id="visualize-data" class="level3">
+<h3 class="anchored" data-anchor-id="visualize-data">4. Visualize Data</h3>
+<p>We will use the tmap package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.</p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Load the tmap package</span></span>
+<span id="cb3-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tmap)</span>
+<span id="cb3-3"></span>
+<span id="cb3-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Create a basic map of the IFL polygons</span></span>
+<span id="cb3-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm_shape</span>(ifl) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb3-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm_polygons</span>()</span></code></pre></div>
+</section>
+<section id="customize-map" class="level3">
+<h3 class="anchored" data-anchor-id="customize-map">5. Customize Map</h3>
+<p>We can modify the map’s appearance by changing colors, adding a background, adjusting labels, and more.</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Create a more visually appealing map with customization</span></span>
+<span id="cb4-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm_shape</span>(ifl) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm_fill</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">col =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"green"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">alpha =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.6</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Set polygon color and transparency</span></span>
+<span id="cb4-4">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm_borders</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">col =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Add border color</span></span>
+<span id="cb4-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm_layout</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">legend.position =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"left"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bottom"</span>),  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Adjust legend position</span></span>
+<span id="cb4-6">            <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">legend.bg.color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"white"</span>,  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Set legend background color</span></span>
+<span id="cb4-7">            <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Intact Forest Landscapes"</span>)  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Add map title</span></span></code></pre></div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Forest</category>
+  <category>Cartography</category>
+  <guid>https://btjepkes.github.io/posts/post-three.html</guid>
+  <pubDate>Sat, 22 Apr 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/posts/bg-pine-blue.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
