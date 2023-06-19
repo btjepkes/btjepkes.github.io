@@ -8,16 +8,12 @@ categories:
   - Choropleth
   - RStudio
   - ArcGIS Pro
-abstract: "This section showcases maps created for various work-based projects, mostly using ArcGIS Pro and RStudio. These cartographic representations combine technical expertise and creativity to convey information effectively for reports, presentations, or other work-related products."
+abstract: "This section showcases maps created for various work-based projects, mostly using ArcGIS Pro and RStudio. These cartographic representations combine technical expertise and creativity to convey information effectively for reports, presentations, or other work-related products. The primary focus of these maps is the visualization of wildlife-related topics, including quantification of species-specific harvests. While many of my GIS applications for wildlife contain protected species information so I cannot share, these shown here contain publicly-available data."
 abstract-title: ""
 
 toc: TRUE
-image: img-cover-work-products.png
+image: img-cover-work-products-sm.png
 ---
-
-## Wildlife Maps
-
-The primary focus of these maps is the visualization of wildlife-related topics, including quantification of species-specific harvests. While many of my GIS applications for wildlife contain protected species information so I cannot share, these shown here contain publicly-available data.
 
 ::: {.gallery}
 

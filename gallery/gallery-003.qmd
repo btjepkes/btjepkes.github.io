@@ -9,7 +9,7 @@ abstract-title: ""
 abstract: "This section showcases maps and data visualizations made as part of my personal and creative projects. These include my collections for TidyTuesday, MapPromptMonday, and the 30DayMapChallenge. Most visualizations are created using either ArcGIS Pro or R/RStudio."
 
 toc: TRUE
-image: img-cover-personal-products.png
+image: img-cover-personal-products-sm.png
 ---
 
 

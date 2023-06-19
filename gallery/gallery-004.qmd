@@ -9,7 +9,7 @@ abstract-title: ""
 abstract: "This section showcases my professional posters and presentations for research symnposia or other technical venues."
 
 toc: TRUE
-image: img-cover-posters-presentations.png
+image: img-cover-posters-presentations-sm.png
 ---
 
 

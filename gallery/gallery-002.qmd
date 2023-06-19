@@ -9,7 +9,7 @@ abstract-title: ""
 abstract: "This section showcases maps created for my university GIS courses, mostly using ArcMap and ArcGIS Pro. The goal of these maps was to learn about cartographic design and techniques."
 
 toc: TRUE
-image: img-cover-course-products.png
+image: img-cover-course-products-sm.png
 ---
 
 
