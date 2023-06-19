@@ -6,11 +6,25 @@ date-modified: "6-15-2023"
 categories:
   - Map Gallery
 abstract-title: ""
-abstract: ""
+abstract: "This section showcases maps and data visualizations made as part of my personal and creative projects. These include my collections for TidyTuesday, MapPromptMonday, and the 30DayMapChallenge. Most visualizations are created using either ArcGIS Pro or R/RStudio."
+
 toc: TRUE
 image: img-cover-personal-products.png
 ---
 
-![Map Credit: Ben Tjepkes](../gallery/img-cover-personal-products.png)
 
-## This will be a heading 
+::: {.gallery}
+
+![](../gallery/img-map-001.png){group="personal-projects"
+description="2018 Squirrel Census Sighting Density Map"}
+
+![](../gallery/img-map-endangeredstamps.png){group="personal-projects"
+description="Endangered Species Stamps Range Map"}
+
+
+![](../gallery/img-table-001.png){group="personal-projects"
+description="2018 Squirrel Census Sighting Table"}
+
+
+
+:::

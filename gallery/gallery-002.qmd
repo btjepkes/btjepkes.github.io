@@ -4,13 +4,26 @@ subtitle: "Various maps made for course-related assignements and projects."
 author: "Benjamin Tjepkes"
 date-modified: "6-15-2023"
 categories:
-  - Map Gallery
+  - Maps
 abstract-title: ""
-abstract: ""
+abstract: "This section showcases maps created for my university GIS courses, mostly using ArcMap and ArcGIS Pro. The goal of these maps was to learn about cartographic design and techniques."
+
 toc: TRUE
 image: img-cover-course-products.png
 ---
 
-![Map Credit: Ben Tjepkes](../gallery/img-cover-course-products.png)
 
-## This will be a heading 
+
+::: {.gallery}
+
+![](../gallery/img-map-1.jpg){group="course-maps"
+description="Vineyard and Winery Location Suitability"}
+
+![](../gallery/img-map-2.jpg){group="course-maps"
+description="Navigation Map for Aquaculture Demonstration Facility"}
+
+![](../gallery/img-map-4.jpg){group="course-maps"
+description="Ordinary High-Water Mark Compliance"}
+
+
+:::

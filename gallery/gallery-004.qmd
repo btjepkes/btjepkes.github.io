@@ -6,11 +6,19 @@ date-modified: "6-15-2023"
 categories:
   - Poster Gallery
 abstract-title: ""
-abstract: ""
+abstract: "This section showcases my professional posters and presentations for research symnposia or other technical venues."
+
 toc: TRUE
 image: img-cover-posters-presentations.png
 ---
 
-![Map Credit: Ben Tjepkes](../gallery/img-cover-posters-presentations.png)
 
-## This will be a heading 
+::: {.gallery}
+
+![](../gallery/img-bat-hcp-poster.jpg){group="presentations"
+description="Missouri Bat Habitat Conservation Plan Poster"}
+
+![](../gallery/img-eagle-poster.jpg){group="presentations"
+description="Bald Eagel Nest-Site Selection Poster"}
+
+:::
