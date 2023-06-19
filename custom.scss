@@ -421,8 +421,9 @@ h1::after {
 }
 
 
-.quarto-about-trestles {
-  margin-top: 0em;
+div.quarto-about-trestles {
+  padding-top: 0em !important;
+  padding-bottom: 0em !important;
 }
 
 .about-link {
@@ -433,7 +434,7 @@ h1::after {
 
 
 #listing-site-listings {
-  margin-top: 3em;
+  margin-top: 2em;
   margin-bottom: 0em;
 }
 
@@ -464,6 +465,7 @@ h1::after {
   padding: 2px 20px;
   border-radius: 20px;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
   
 .nav-footer {

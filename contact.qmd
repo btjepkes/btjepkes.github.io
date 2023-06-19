@@ -2,7 +2,7 @@
 title: "Links & Contact"
 subtitle: "Reach out to me with inquires or connect on my social profiles."
 search: false
-image: site-logo-green.png
+image: assets/bg-pines-links-green-sm.png
 ---
 
 ## My Links

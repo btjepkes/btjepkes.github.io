@@ -1,7 +1,7 @@
 ---
 title: "My Gallery"
 subtitle: "Maps, data visualiztions, reports, posters, and presentations."
-image: site-logo-green.png
+image: assets/bg-pines-gallery-yellow-sm.png
 listing: 
   contents:
     - "gallery-001.qmd"

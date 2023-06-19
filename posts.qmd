@@ -1,7 +1,7 @@
 ---
 title: "My Blog Posts"
 subtitle: Explore my writings on ecological and geospatial data science.
-image: site-logo-green.png
+image: assets/bg-pines-blog-orange-sm.png
 listing:
   contents: posts
   feed: true
