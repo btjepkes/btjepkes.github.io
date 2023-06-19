@@ -16,6 +16,10 @@ image: img-cover-course-products.png
 
 ::: {.gallery}
 
+![](../gallery/img-map-9.jpg){group="course-maps"
+description="gvSIG Mobile Survey Development"}
+
+
 ![](../gallery/img-map-1.jpg){group="course-maps"
 description="Vineyard and Winery Location Suitability"}
 

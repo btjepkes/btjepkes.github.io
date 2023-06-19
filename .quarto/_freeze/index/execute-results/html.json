@@ -2,9 +2,7 @@
   "hash": "5e84509bfe4e4ee4b951945660043ec7",
   "result": {
     "markdown": "---\ntitle: \"Hi there, my name is Benjamin Tjepkes.\"\nsubtitle: \"I'm a wildlife ecologist and budding geographer with a passion for data and conservation science.\"\ntoc: false\nabout:\n  id: about-id\n  template: trestles\n  image: img-ben-portrait-2.jpg\n  image-shape: round\n  image-width: 300px\n  links:\n    - icon: github\n      text: Github\n      href: https://github.com/btjepkes\n    - icon: linkedin\n      text: LinkedIn\n      href: https://www.linkedin.com/in/benjamintjepkes/\n    - icon: link-45deg\n      text: ORCID iD\n      href: https://orcid.org/0009-0002-5524-2675\nlisting:\n  id: site-listings\n  contents:\n    - \"about.qmd\"    \n    - \"posts.qmd\"\n    - \"gallery.qmd\"\n    - \"research.qmd\"\n    - \"resources.qmd\" \n    - \"contact.qmd\"  \n  type: grid\n  fields: \n    - image\n    - title\n    - subtitle\n---\n\n\n\n::: {#about-id}\n\n### My Biography\n\nI am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform **landscape** and **endangered resource conservation**. I currently serve as the Assistant Wildlife Diversity Coordinator for MDC and will be pursing my Masters in Geography starting fall 2023. Please [reach out](contact.qmd) if you would like to collaborate.\n\nThis site contains my **professional portfolio** and **technical blog** to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my [CV](about.qmd) to learn about my endeavors.\n:::\n\n\n::: {#site-listings}\n\n:::\n\n\n\n::: {.cell}\n\n:::\n",
-    "supporting": [
-      "index_files"
-    ],
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
