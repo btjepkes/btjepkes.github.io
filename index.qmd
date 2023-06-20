@@ -56,7 +56,7 @@ This site contains my **professional portfolio** and **technical blog** to showc
 ::: {.features}
 
 ::: {.feature}
-### Cartographic Design
+### {{< fa square-check size=0.5x >}} Cartographic Design
 Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps and mapping applications.
 
 ::: {.learn-more}
@@ -65,7 +65,7 @@ Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic map
 :::
 
 ::: {.feature}
-### Data Visualization
+### {{< fa square-check size=0.5x >}} Data Visualization
 Proficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.
 
 ::: {.learn-more}
@@ -74,7 +74,7 @@ Proficient in data visualization and reproducible reporting using Quarto, R Mark
 :::
 
 ::: {.feature}
-### Research Methodology
+### {{< fa square-check size=0.5x >}} Research Methodology
 Knowledge of the scientific method, research project development, and technical report development process.
 
 ::: {.learn-more}
@@ -83,7 +83,7 @@ Knowledge of the scientific method, research project development, and technical 
 :::
 
 ::: {.feature}
-### Web Development
+### {{< fa square-check size=0.5x >}} Web Development
 Employ front-end web development languages such as HTML and CSS to design functional and beautiful websites.
 
 ::: {.learn-more}
@@ -92,7 +92,7 @@ Employ front-end web development languages such as HTML and CSS to design functi
 :::
 
 ::: {.feature}
-### Applied Conservation
+### {{< fa square-check size=0.5x >}} Applied Conservation
 Experience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.
 
 ::: {.learn-more}
@@ -101,7 +101,7 @@ Experience using radio telemetry, standardized field sampling, and wildlife capt
 :::
 
 ::: {.feature}
-### Data Management
+### {{< fa square-check size=0.5x >}} Data Management
 Use programs like Microsoft Access and Microsoft SQL Server to maintain high-quality data in relational databases.
 
 ::: {.learn-more}
