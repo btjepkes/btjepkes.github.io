@@ -93,7 +93,7 @@ Employ front-end web development languages such as HTML and CSS to design functi
 
 ::: {.feature}
 ### Applied Conservation
-Experience using radio telemetry, standardized field sampling, and wildlife capture and marking technique in the field.
+Experience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.
 
 ::: {.learn-more}
 **Skills:** *Field Surveys, Species Monitoring*

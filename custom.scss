@@ -421,11 +421,12 @@ h1::after {
 }
 }
 
-
+@media (min-width: 991.98px) {
 div.quarto-about-trestles {
   padding-top: 0em !important;
   padding-bottom: 0em !important;
-}
+  flex-direction: row-reverse;
+}}
 
 
 #listing-site-listings {
@@ -438,8 +439,8 @@ div.quarto-about-trestles {
   content: "";
   position: absolute;
   top: -5%;
-  left: -25vw;
-  width: 100vw;
+  left: -10%;
+  width: 120%;
   height: 110%;
   background-color: #e9ecef;
   z-index: -1;
@@ -507,7 +508,7 @@ div.quarto-about-trestles {
 }
 
 .learn-more {
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding-top: 10px;
 }
 
