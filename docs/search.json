@@ -49,20 +49,6 @@
     "text": "Connecting with Me\nInterested in working on a collaborative project together, wondering if I still have the code for a past project, or just want to connect? Please contact me via the below form, email, or through my LinkedIn profile with any inquiries."
   },
   {
-    "objectID": "gallery/gallery-001.html",
-    "href": "gallery/gallery-001.html",
-    "title": "Work-Based Mapping Products",
-    "section": "",
-    "text": "The primary focus of these maps is the visualization of wildlife-related topics, including quantification of species-specific harvests. While many of my GIS applications for wildlife contain protected species information so I cannot share, these shown here contain publicly-available data."
-  },
-  {
-    "objectID": "gallery/gallery-001.html#wildlife-maps",
-    "href": "gallery/gallery-001.html#wildlife-maps",
-    "title": "Work-Based Mapping Products",
-    "section": "",
-    "text": "The primary focus of these maps is the visualization of wildlife-related topics, including quantification of species-specific harvests. While many of my GIS applications for wildlife contain protected species information so I cannot share, these shown here contain publicly-available data."
-  },
-  {
     "objectID": "gallery/gallery-map-seven.html",
     "href": "gallery/gallery-map-seven.html",
     "title": "Endangered Species Stamp Collection Map",
@@ -102,7 +88,14 @@
     "href": "index.html",
     "title": "Hi there, my name is Benjamin Tjepkes.",
     "section": "",
-    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     ORCID iD\n  \n\n  \n  \n\nMy Biography\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation. I currently serve as the Assistant Wildlife Diversity Coordinator for MDC and will be pursing my Masters in Geography starting fall 2023. Please reach out if you would like to collaborate.\nThis site contains my professional portfolio and technical blog to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my CV to learn about my endeavors.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my professional interests and experience.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires or connect on my social profiles.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, data visualiztions, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\n\n\n\n\n\n\nResources\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     ORCID iD\n  \n\n  \n  \n\n\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation. I currently serve as the Assistant Wildlife Diversity Coordinator for MDC and will be pursing my Masters in Geography starting fall 2023. Please reach out if you would like to collaborate.\nThis site contains my professional portfolio and technical blog to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my CV to learn about my endeavors."
+  },
+  {
+    "objectID": "index.html#my-professional-experience-interests",
+    "href": "index.html#my-professional-experience-interests",
+    "title": "Hi there, my name is Benjamin Tjepkes.",
+    "section": "My Professional Experience & Interests",
+    "text": "My Professional Experience & Interests\n\n\nCartogrphic Design\nAdept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps and mapping applications.\n\nLearn more »\n\n\n\nData Visualization\nProficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.\n\nLearn more »\n\n\n\nResearch Methodology\nProficiency in the scientific method and strong research project development skills, enabling me to undertake investigations with a methodical and precise approach.\n\nLearn more »\n\n\n\nWeb Development\nEmploy front-end web development languages such as HTML and CSS to design functional and beautiful websites.\n\nLearn more »\n\n\n\nApplied Conservation\nExperience using radio telemetry, standardized field sampling, and wildlife capture and marking techniques to perofrm well in the field.\n\nLearn more »\n\n\n\nData Management\nUse programs like Microsoft Access and Microsoft SQL Server to manipulate and maintain high-quality data in relational databases.\n\nLearn more »"
   },
   {
     "objectID": "posts/post-four.html",
@@ -151,7 +144,7 @@
     "href": "posts.html",
     "title": "My Blog Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences Using R\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\nBenjamin Tjepkes\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences Using R\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\nBenjamin Tjepkes\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/research-five.html",

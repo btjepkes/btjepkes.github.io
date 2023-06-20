@@ -49,101 +49,78 @@ This site contains my **professional portfolio** and **technical blog** to showc
 
 :::
 
+::: {.content-block}
 
-```{r}
-#| echo: false
-#| warning: false
-#| eval: false
+## My Professional Experience & Interests
 
-# Load the required libraries
-library(gt)
-library(gtExtras)
+::: {.features}
 
-# Create a sample data frame
-data <- data.frame(
-  C1 = c("Cartographic Design",
-           "Data Viz",
-            "Data Viz",
-           "Web Development",
-           "Data Management",
-           "Project Management",
-         "Field Techniques",
-         "Research Methods",
-         "Applied Conservation Science"),
-  C2 = c("Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps and mapping applications.",
-                  "Proficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.",
-         "Proficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.",
-                  "Employ front-end web development languages such as HTML and CSS to design functional and beautiful websites.",
-                  "Use programs like Microsoft Access and Microsoft SQL Server to manipulate and maintain high-quality data in relational databases.",
-                  "Use tools like Microsoft Teams, SharePoint, and Lists to manage complex projects and collaborate with team members efficiently.",
-         "Experience using radio telemetry, standardized field sampling, and wildlife capture and marking techniques to perofrm well in the field.",
-         "Proficiency in the scientific method and strong research project development skills, enabling me to undertake investigations with a methodical and precise approach.",
-         "Applied Conservation Science, Spatial and Movement Ecology, Imperiled Species Conservation, and Landscape Connectivity & Planning"),
-  C3 = c(4,2,3,4,5,3,4,4,5),
-  C4 = c("bar-chart","check","file-code","pie-chart","database","gear","paw","microscope", "binoculars")
-)
+::: {.feature}
+### Cartogrphic Design
+Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps and mapping applications.
 
-# Create a gt table
-tbl <- gt(data %>% select(C4, C2))
+::: {.learn-more}
+[Learn more »](about.qmd)
+:::
+:::
 
-# Set column labels
-tbl <- tbl %>%
-  
-  # gt_plt_bar_pct(column = C3, fill = "#f5c25c", background = "lightgray") %>% 
-  
-  # gt_fa_rating(column = C3, max_rating = 5) %>% 
-  
-  tab_row_group(label = md("**Spatial Analysis & Cartographic Design**"), rows = 1, id = "gis") %>% 
-  
-    tab_row_group(label = md("**Data Visualization & Reporting**"), rows = 2:3, id = "data") %>% 
-  
-    tab_row_group(label = md("**Web Development**"), rows = 4, id = "web") %>% 
-  
-    tab_row_group(label = md("**Data Management**"), rows = 5, id = "data-mgmnt") %>% 
-  
-    tab_row_group(label = md("**Research Methods**"), rows = 8, id = "research") %>% 
-  
-    tab_row_group(label = md("**Project Management**"), rows = 6, id = "project") %>% 
-  
-    tab_row_group(label = md("**Applied Conservation Science**"), rows = c(7,9), id = "conservation") %>% 
-  
-  gt_fa_column(C4, height = "40px", palette = "#bccdce") %>% 
-  
-  cols_label(
-    C2 = "",
-    C4 = "") %>% 
-  
-  cols_align(
-    align = "center",
-    columns = c(C4)
-  ) %>% 
-  
-  cols_width(
-    C2 ~ pct(75),
-    C4 ~ pct(25)
-  ) %>% 
-  
-  tab_header(
-    title = md("**My Multidisciplinary Skillset & Professional Interests**")) %>% 
-  
-  tab_options(
-    table.width = pct(100),
-    heading.padding = px(30),
-    heading.background.color = "#20595d",
-    data_row.padding = px(24),
-    data_row.padding.horizontal = px(14)
-  ) %>% 
-    tab_style(
-    style = list(
-      cell_fill(color = "#d8d8d8"),
-      cell_text(size = "medium")
-    ),
-    locations = cells_row_groups(groups = c("gis", "data", "web", "data-mgmnt", "research", "project", "conservation"))
-    )
+::: {.feature}
+### Data Visualization
+Proficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.
 
-# Print the table
-tbl
+::: {.learn-more}
+[Learn more »](about.qmd)
+:::
+:::
 
-```
+::: {.feature}
+### Research Methodology
+Proficiency in the scientific method and strong research project development skills, enabling me to undertake investigations with a methodical and precise approach.
+
+::: {.learn-more}
+[Learn more »](about.qmd)
+:::
+:::
+
+::: {.feature}
+### Web Development
+Employ front-end web development languages such as HTML and CSS to design functional and beautiful websites.
+
+::: {.learn-more}
+[Learn more »](about.qmd)
+:::
+:::
+
+::: {.feature}
+### Applied Conservation
+Experience using radio telemetry, standardized field sampling, and wildlife capture and marking techniques to perofrm well in the field.
+
+::: {.learn-more}
+[Learn more »](about.qmd)
+:::
+:::
+
+::: {.feature}
+### Data Management
+Use programs like Microsoft Access and Microsoft SQL Server to manipulate and maintain high-quality data in relational databases.
+
+::: {.learn-more}
+[Learn more »](about.qmd)
+:::
+:::
+
+:::
+:::
 
 
+::: {.get-started .alt-background}
+::: {.content-block}
+
+#### **Need assistance?**
+
+I offer freelance services in the realms of conservation planning, data management, and geospatial consulting.
+
+[My Services](https://www.upwork.com/freelancers/~016f69e22f5247fd31){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"} [Contact Me](contact.qmd){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"}
+
+:::
+:::

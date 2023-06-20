@@ -1,0 +1,20 @@
+---
+title: "Using Citation Managers with Quarto Docs"
+subtitle: "How to streamline bibliography creation in your technical documents with R."
+author:
+  - name: Benjamin Tjepkes  
+    url: //about.qmd
+    orcid: 0009-0002-5524-2675
+date: "5/20/2023"
+abstract: This post is pending.
+abstract-title: ""
+categories:
+  - Testing
+  - R
+  - Bibliography
+image: bg-pine-blue.jpg
+draft: TRUE
+---
+
+
+

@@ -9,8 +9,8 @@ listing:
   grid-columns: 2
   categories: numbered
   sort: "date desc"
-  filter-ui: true
-  sort-ui: true
+  filter-ui: [title, subtitle, description, category]
+  sort-ui: [title, date]
   fields: 
     - image
     - title
