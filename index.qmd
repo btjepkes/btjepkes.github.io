@@ -96,7 +96,7 @@ Employ front-end web development languages such as HTML and CSS to design functi
 Experience using radio telemetry, standardized field sampling, and wildlife capture and marking technique in the field.
 
 ::: {.learn-more}
-**Skills:** *Auditory/Visual Surveys, Habitat Management*
+**Skills:** *Field Surveys, Species Monitoring*
 :::
 :::
 

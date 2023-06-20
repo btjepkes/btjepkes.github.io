@@ -441,7 +441,7 @@ div.quarto-about-trestles {
   left: -25vw;
   width: 100vw;
   height: 110%;
-  background-color: $light-green;
+  background-color: #e9ecef;
   z-index: -1;
 }
 
@@ -449,17 +449,21 @@ div.quarto-about-trestles {
   #listing-site-listings::before {
     top: -2.5%;
     left: -50vw;
-    width: 200vw;
+    width: 140vw;
     height: 105%;
   }
+}
+
+#listing-site-listings .quarto-grid-item {
+  background: $white;
 }
 
 
 /* INDEX features */
 
 .content-block {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .features {
@@ -494,11 +498,18 @@ div.quarto-about-trestles {
   color: rgb(84, 85, 85);
 }
 
+.feature p {
+  padding-left: 0.25em;
+}
+
 .content-block h2 {
   text-align: center;
 }
 
-
+.learn-more {
+  font-size: 0.8em;
+  padding-top: 10px;
+}
 
 
 
@@ -566,6 +577,9 @@ div.quarto-about-trestles {
   background-color: $light-green;
   border: none;
 }
+
+
+
 
 
 // TEMP !!!
@@ -1051,17 +1065,4 @@ display:none;
 .get-started h3 {
    margin-top: 1rem;
    margin-bottom: 2rem;
-}
-
-nav.page-navigation {
-  display: none;
-}
-
-.nav-footer {
-  border-top: none !important; 
-}
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  color: #fff;
-  background-color: #ff7518;
 }
