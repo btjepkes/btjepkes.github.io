@@ -44,7 +44,6 @@ listing:
       - subtitle
       - image
       - date
-      - author
 
 ---
 
@@ -63,9 +62,9 @@ I currently serve as the **Assistant Wildlife Diversity Coordinator** for the Mi
 ::: {.bg-banner-1}
 
 
-## {{< fa binoculars size=2x >}} Exploring This Site
+## {{< fa binoculars size=2x >}} Start Exploring
 
-This site houses my professional portfolio and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my [CV](about.qmd) to learn more. Thank you for visiting!
+This site houses my professional portfolio and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my [CV](about.qmd) to learn more. Thank you!
 
 ::: {#site-listings}
 
@@ -84,7 +83,7 @@ This site houses my professional portfolio and technical blog to showcase my exp
 Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps and mapping applications.
 
 ::: {.learn-more}
-**Skills:** *R/RStudio, ArcGIS Pro, ArcGIS Online, QGIS*
+**Skills:** *R/RStudio, ArcGIS Pro/Online, QGIS*
 :::
 :::
 
@@ -93,7 +92,7 @@ Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic map
 Proficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.
 
 ::: {.learn-more}
-**Skills:** *Quarto, R/R Markdown, Jupyter Notebooks*
+**Skills:** *Quarto, R/Rmd, Jupyter Notebooks*
 :::
 :::
 

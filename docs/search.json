@@ -109,7 +109,7 @@
     "href": "index.html#my-professional-experience-interests",
     "title": "Hi there, my name is Benjamin Tjepkes.",
     "section": "My Professional Experience & Interests",
-    "text": "My Professional Experience & Interests\n\n\n Cartographic Design\nAdept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps and mapping applications.\n\nSkills: R/RStudio, ArcGIS Pro, ArcGIS Online, QGIS\n\n\n\n Data Visualization\nProficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.\n\nSkills: Quarto, R/R Markdown, Jupyter Notebooks\n\n\n\n Research Methodology\nKnowledge of the scientific method, research project development, and technical report development process.\n\nSkills: Mendeley, Zotero, OSF\n\n\n\n Web Development\nEmploy front-end web development languages such as HTML and CSS to design functional and beautiful websites.\n\nSkills: HTML, CSS, WordPress, Git/GitHub\n\n\n\n Applied Conservation\nExperience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.\n\nSkills: Field Surveys, Species Monitoring\n\n\n\n Data Management\nUse programs like Microsoft Access to maintain high-quality data in relational databases.\n\nSkills: Microsoft Access, SQL Server, Excel"
+    "text": "My Professional Experience & Interests\n\n\n Cartographic Design\nAdept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps and mapping applications.\n\nSkills: R/RStudio, ArcGIS Pro/Online, QGIS\n\n\n\n Data Visualization\nProficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.\n\nSkills: Quarto, R/Rmd, Jupyter Notebooks\n\n\n\n Research Methodology\nKnowledge of the scientific method, research project development, and technical report development process.\n\nSkills: Mendeley, Zotero, OSF\n\n\n\n Web Development\nEmploy front-end web development languages such as HTML and CSS to design functional and beautiful websites.\n\nSkills: HTML, CSS, WordPress, Git/GitHub\n\n\n\n Applied Conservation\nExperience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.\n\nSkills: Field Surveys, Species Monitoring\n\n\n\n Data Management\nUse programs like Microsoft Access to maintain high-quality data in relational databases.\n\nSkills: Microsoft Access, SQL Server, Excel"
   },
   {
     "objectID": "posts/post-four.html",
@@ -249,6 +249,13 @@
     "href": "index.html#my-latest-works",
     "title": "Hi there, my name is Benjamin Tjepkes.",
     "section": "My Latest Works",
-    "text": "My Latest Works\n\n\n\n\n  \n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences Using R\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\nApr 22, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\nNo matching items"
+    "text": "My Latest Works\n\n\n\n\n  \n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences Using R\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on North American forests.\n\n\n\n\n\n\nApr 22, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#fa-binoculars-size2x-start-exploring",
+    "href": "index.html#fa-binoculars-size2x-start-exploring",
+    "title": "Hi there, my name is Benjamin Tjepkes.",
+    "section": " Start Exploring",
+    "text": "Start Exploring\nThis site houses my professional portfolio and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my CV to learn more. Thank you!\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my professional interests and experience.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, data visualiztions, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
