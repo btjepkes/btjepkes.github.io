@@ -142,7 +142,6 @@ h1::after {
   line-height: 1.3em;
   padding-top: 15px;
   font-size: 1.1em;
-  letter-spacing: 0.012em;
 }
 
 
@@ -277,7 +276,6 @@ h1::after {
   margin-right: auto !important;
   margin-left: auto;
   text-align: center;
-  font-weight: 600;
 }
 
 
@@ -408,7 +406,20 @@ h1::after {
 
 /* ABOUT on Index */
 
+  @media (min-width: 992px) {
+div.quarto-about-trestles .about-contents {
+  border-left: none;
+  padding-left: 0;
+}}
 
+
+#about-id h3 {
+  background: $light-green;
+  color: $white;
+  padding: 0.25em;
+  margin-bottom: 1rem;
+  margin-top: 0.5em;
+}
 
 
 @media (max-width: 991.98px) {
@@ -434,32 +445,34 @@ div.quarto-about-trestles {
 }}
 
 
-#listing-site-listings {
-  margin-top: 6em;
-  margin-bottom: 2em;
+.bg-banner {
   position: relative;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
-#listing-site-listings::before {
+.bg-banner::before {
   content: "";
   position: absolute;
-  top: -5%;
-  left: -10%;
-  width: 120%;
-  height: 110%;
-  background-color: #e9ecef;
+  top: 0;
+  left: calc(-50vw + 50%);
+  width: 100vw;
+  height: 100%;
+  background-color: #efece9;
   z-index: -1;
 }
 
-@media (max-width: 768px) {
-  #listing-site-listings::before {
-    top: -2.5%;
-    left: -50vw;
-    width: 140vw;
-    height: 105%;
-  }
+
+#listing-site-listings,
+#listing-site-listings-2 {
+  position: relative;
 }
 
+
+
+#listing-site-listings-2 .quarto-listing-table,
 #listing-site-listings .quarto-grid-item {
   background: $white;
 }
@@ -469,7 +482,6 @@ div.quarto-about-trestles {
 
 .content-block {
   padding-top: 2em;
-  padding-bottom: 2em;
 }
 
 .features {
@@ -1070,6 +1082,7 @@ display:none;
 .get-started {
    text-align: center;
    padding-bottom: 1rem;
+   margin-top: 3em;
 }
 
 .get-started h3 {

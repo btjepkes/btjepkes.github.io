@@ -12,11 +12,11 @@
     "listing": "/index.html",
     "items": [
       "/about.html",
-      "/contact.html",
       "/posts.html",
       "/gallery.html",
       "/research.html",
-      "/resources.html"
+      "/posts/post-four.html",
+      "/gallery/gallery-001.html"
     ]
   },
   {

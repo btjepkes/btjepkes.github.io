@@ -19,19 +19,28 @@ about:
       text: ORCID iD
       href: https://orcid.org/0009-0002-5524-2675
 listing:
-  id: site-listings
-  contents:
-    - "about.qmd"    
-    - "posts.qmd"
-    - "gallery.qmd"
-    - "research.qmd"
-    - "resources.qmd" 
-    - "contact.qmd"  
-  type: grid
-  fields: 
-    - image
-    - title
-    - subtitle
+  - id: site-listings
+    contents:
+      - "about.qmd"    
+      - "posts.qmd"
+      - "gallery.qmd"
+      - "research.qmd"
+    type: grid
+    grid-columns: 4
+    fields: 
+      - image
+      - title
+      - subtitle
+  - id: site-listings-2
+    contents:
+      - "post-four.qmd"
+      - "gallery-001.qmd"
+    type: table
+    filter-ui: false
+    sort-ui: false
+    fields: 
+      - title
+      - subtitle
 ---
 
 
@@ -39,15 +48,24 @@ listing:
 
 ### My Biography
 
-I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform **landscape** and **endangered resource conservation**. I currently serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation and will be pursing my Masters in Geography starting fall 2023. Please [reach out](contact.qmd) if you would like to collaborate.
+I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform **landscape** and **endangered resource conservation**.
 
-This site contains my **professional portfolio** and **technical blog** to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my [CV](about.qmd) to learn about my endeavors.
+I currently serve as the **Assistant Wildlife Diversity Coordinator** for the Missouri Department of Conservation. Starting fall 2023, I will be pursing my **Masters in Geography** at the University of Missouri. Please [reach out](contact.qmd) if you would like to collaborate or have other inquires. 
+
 :::
 
+
+::: {.bg-banner}
+
+### Exploring This Site
+
+Please have a look around this site or peruse my [CV](about.qmd) to learn more about my work.
 
 ::: {#site-listings}
 
 :::
+:::
+
 
 ::: {.content-block}
 
@@ -56,7 +74,7 @@ This site contains my **professional portfolio** and **technical blog** to showc
 ::: {.features}
 
 ::: {.feature}
-### {{< fa square-check size=0.5x >}} Cartographic Design
+### {{< fa square-check size=1x >}} Cartographic Design
 Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps and mapping applications.
 
 ::: {.learn-more}
@@ -112,6 +130,16 @@ Use programs like Microsoft Access and Microsoft SQL Server to maintain high-qua
 :::
 :::
 
+::: {.bg-banner}
+
+### My Latest Work
+
+Including blog posts, maps, and other projects.
+
+::: {#site-listings-2}
+
+:::
+:::
 
 ::: {.get-started .alt-background}
 ::: {.content-block}

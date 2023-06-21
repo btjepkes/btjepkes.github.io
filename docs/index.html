@@ -80,6 +80,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-site-listings-2 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-site-listings-2'] = new List('listing-site-listings-2', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
@@ -203,14 +231,17 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents"><div id="about-id">
 <section id="my-biography" class="level3">
 <h3 data-anchor-id="my-biography">My Biography</h3>
-<p>I am a dedicated <strong>wildlife ecologist</strong> and <strong>geospatial practitioner</strong> interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform <strong>landscape</strong> and <strong>endangered resource conservation</strong>. I currently serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation and will be pursing my Masters in Geography starting fall 2023. Please <a href="./contact.html">reach out</a> if you would like to collaborate.</p>
-<p>This site contains my <strong>professional portfolio</strong> and <strong>technical blog</strong> to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my <a href="./about.html">CV</a> to learn about my endeavors.</p>
+<p>I am a dedicated <strong>wildlife ecologist</strong> and <strong>geospatial practitioner</strong> interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform <strong>landscape</strong> and <strong>endangered resource conservation</strong>.</p>
+<p>I currently serve as the <strong>Assistant Wildlife Diversity Coordinator</strong> for the Missouri Department of Conservation. Starting fall 2023, I will be pursing my <strong>Masters in Geography</strong> at the University of Missouri. Please <a href="./contact.html">reach out</a> if you would like to collaborate or have other inquires.</p>
 </section>
 </div></div>
 </div>
 
+<section id="exploring-this-site" class="level3 bg-banner">
+<h3 data-anchor-id="exploring-this-site">Exploring This Site</h3>
+<p>Please have a look around this site or peruse my <a href="./about.html">CV</a> to learn more about my work.</p>
 <div id="listing-site-listings" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
+<div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1687190542231" data-listing-reading-time-sort="3">
 <a href="./about.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
@@ -228,24 +259,7 @@ Learn about my professional interests and experience.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1687190713085" data-listing-reading-time-sort="1">
-<a href="./contact.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./assets/bg-pines-links-green-sm.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Links &amp; Contact
-</h5>
-<div class="card-subtitle listing-subtitle">
-Reach out to me with inquires or connect on my social profiles.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1687223214763" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1687223214763" data-listing-reading-time-sort="1">
 <a href="./posts.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -262,7 +276,7 @@ Explore my writings on ecological and geospatial data science.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1687191040203" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1687191040203" data-listing-reading-time-sort="1">
 <a href="./gallery.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -279,7 +293,7 @@ Maps, data visualiztions, reports, posters, and presentations.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1687191269486" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1687191269486" data-listing-reading-time-sort="1">
 <a href="./research.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -296,33 +310,17 @@ Focusing on spatial ecology and geographic information systems.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1687191364364" data-listing-reading-time-sort="1">
-<a href="./resources.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./assets/bg-pines-resources-purple-sm.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Resources
-</h5>
-<div class="card-subtitle listing-subtitle">
-My favorite references for ecology, GIS, R, Python, and more.
-</div>
-</div>
-</div>
-</a>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
+</section>
 <section id="my-professional-experience-interests" class="level2 content-block">
 <h2 data-anchor-id="my-professional-experience-interests">My Professional Experience &amp; Interests</h2>
 <div class="features">
-<section id="fa-square-check-size0.5x-cartographic-design" class="level3 feature">
-<h3 data-anchor-id="fa-square-check-size0.5x-cartographic-design"><i class="fa-solid fa-square-check fa-0.5x" aria-label="square-check"></i> Cartographic Design</h3>
+<section id="fa-square-check-size1x-cartographic-design" class="level3 feature">
+<h3 data-anchor-id="fa-square-check-size1x-cartographic-design"><i class="fa-solid fa-square-check fa-1x" aria-label="square-check"></i> Cartographic Design</h3>
 <p>Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps and mapping applications.</p>
 <div class="learn-more">
 <p><strong>Skills:</strong> <em>R/RStudio, ArcGIS Pro, ArcGIS Online, QGIS</em></p>
@@ -363,6 +361,47 @@ No matching items
 <p><strong>Skills:</strong> <em>Microsoft Access, SQL Server, Excel</em></p>
 </div>
 </section>
+</div>
+</section>
+<section id="my-latest-work" class="level3 bg-banner">
+<h3 data-anchor-id="my-latest-work">My Latest Work</h3>
+<p>Including blog posts, maps, and other projects.</p>
+<div id="listing-site-listings-2" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Subtitle
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="R,Wildlife,Cartography" data-listing-date-sort="1683262800000" data-listing-file-modified-sort="1687145266174" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Creating an Interactive Heatmap of GBIF Occurrences Using R" data-listing-filename-sort="post-four.qmd">
+<td>
+<a href="./posts/post-four.html" class="title listing-title">Creating an Interactive Heatmap of GBIF Occurrences Using R</a>
+</td>
+<td>
+<span class="listing-subtitle">Exploring concentrations of Greater sage grouse records in the western United States using Leaflet.</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Maps,Choropleth,RStudio,ArcGIS Pro" data-listing-file-modified-sort="1687199931947" data-listing-reading-time-sort="1" data-listing-title-sort="Work-Based Mapping Products" data-listing-filename-sort="gallery-001.qmd">
+<td>
+<a href="./gallery/gallery-001.html" class="title listing-title">Work-Based Mapping Products</a>
+</td>
+<td>
+<span class="listing-subtitle">Mapping products made for various work-related projects, technical reports, and publications.</span>
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 </section>
 <div class="get-started alt-background">
