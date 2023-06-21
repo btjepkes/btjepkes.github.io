@@ -149,6 +149,8 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 ::: {.get-started .alt-background}
 ::: {.content-block}
 
+{{< fa circle-question size=3x >}}
+
 #### **Need assistance?**
 
 I offer freelance services in the realms of conservation, data, and geospatial consulting.
