@@ -1,6 +1,6 @@
 ---
 title: "Mapping Changes in Unfragmented Forest Landscapes Using R"
-subtitle: "Vizualizing Global Forest Watch data on North American forests."
+subtitle: "Vizualizing Global Forest Watch data on intact North American forests over time."
 author:
   - name: Benjamin Tjepkes  
     url: //about.qmd

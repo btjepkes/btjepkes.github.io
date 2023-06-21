@@ -35,6 +35,7 @@ listing:
     contents:
       - "post-four.qmd"
       - "post-three.qmd"
+      - "post-two.qmd"
     type: default
     filter-ui: false
     sort-ui: false

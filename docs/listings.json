@@ -16,12 +16,14 @@
       "/gallery.html",
       "/research.html",
       "/posts/post-four.html",
-      "/posts/post-three.html"
+      "/posts/post-three.html",
+      "/posts/post-two.html"
     ]
   },
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/post-two.html",
       "/posts/post-four.html",
       "/posts/post-three.html"
     ]
