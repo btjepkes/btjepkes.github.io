@@ -435,6 +435,7 @@ div.quarto-about-trestles .about-contents {
   column-gap: 0.4em;
   justify-content: center !important;
   margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 0.8em;
 }
 }
@@ -447,7 +448,7 @@ div.quarto-about-trestles {
 }}
 
 
-.bg-banner {
+.bg-banner-1 {
   position: relative;
   margin-top: 3em;
   margin-bottom: 1em;
@@ -455,17 +456,41 @@ div.quarto-about-trestles {
   padding-bottom: 30px;
 }
 
-.bg-banner::before {
+.bg-banner-1::before {
   content: "";
   position: absolute;
   top: 0;
   left: calc(-50vw + 50%);
   width: 100vw;
   height: 100%;
-  background-color: #f8f8f8;
+  background: linear-gradient(to bottom, #fff, #adb5bd 95%, #fff);
   z-index: -1;
 }
 
+
+.bg-banner-2 {
+  position: relative;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.bg-banner-2 p,
+.bg-banner-2 h3 {
+  color: white;
+}
+
+.bg-banner-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+  width: 100vw;
+  height: 100%;
+  background: $dark-purple;
+  z-index: -1;
+}
 
 #listing-site-listings,
 #listing-site-listings-2 {
@@ -473,11 +498,11 @@ div.quarto-about-trestles {
 }
 
 
-
 #listing-site-listings-2 .quarto-listing-table,
 #listing-site-listings .quarto-grid-item {
   background: $white;
 }
+
 
 
 /* INDEX features */

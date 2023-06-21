@@ -57,7 +57,7 @@ I currently serve as the **Assistant Wildlife Diversity Coordinator** for the Mi
 :::
 
 
-::: {.bg-banner}
+::: {.bg-banner-1}
 
 ### Exploring This Site
 
@@ -132,9 +132,9 @@ Use programs like Microsoft Access and Microsoft SQL Server to maintain high-qua
 :::
 :::
 
-::: {.bg-banner}
+::: {.bg-banner-2}
 
-### My Latest Work
+### My Latest Works
 
 Blog posts, maps, and other projects.
 
