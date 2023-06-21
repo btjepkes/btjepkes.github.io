@@ -204,7 +204,7 @@ h1::after {
   
  /* Toggle icon*/ 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23f8f9fa' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h15M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23f8f9fa' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h15M4 23h25'/%3e%3c/svg%3e");
 }
   
 .navbar .navbar-toggler {
@@ -215,6 +215,8 @@ h1::after {
   
 .navbar-container {
   flex-direction: row-reverse;
+  justify-content: space-around !important;
+  -webkit-justify-content: space-around !important;
 }
   
 .navbar-brand-container {
@@ -1023,7 +1025,7 @@ display:none;
 
 
 .alt-background {
-  background-color: rgb(247,249,251);
+  background-color: #f8f8f8;
   border-top: 1px solid #dee2e6;
   border-bottom: 1px solid #dee2e6;
 }
