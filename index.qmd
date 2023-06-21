@@ -35,14 +35,17 @@ listing:
     contents:
       - "post-four.qmd"
       - "post-three.qmd"
-      - "gallery-001.qmd"
-      - "gallery-003.qmd"
-    type: table
+    type: default
     filter-ui: false
     sort-ui: false
+    image-align: left
     fields: 
       - title
       - subtitle
+      - image
+      - date
+      - author
+
 ---
 
 
@@ -59,9 +62,10 @@ I currently serve as the **Assistant Wildlife Diversity Coordinator** for the Mi
 
 ::: {.bg-banner-1}
 
-### Exploring This Site
 
-Please have a look around this site or peruse my [CV](about.qmd) to learn more.
+## {{< fa binoculars size=2x >}} Exploring This Site
+
+This site houses my professional portfolio and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my [CV](about.qmd) to learn more. Thank you for visiting!
 
 ::: {#site-listings}
 
@@ -107,7 +111,7 @@ Knowledge of the scientific method, research project development, and technical 
 Employ front-end web development languages such as HTML and CSS to design functional and beautiful websites.
 
 ::: {.learn-more}
-**Skills:** *HTML, CSS, JSON, WordPress, Git/GitHub*
+**Skills:** *HTML, CSS, WordPress, Git/GitHub*
 :::
 :::
 
@@ -122,7 +126,7 @@ Experience using radio telemetry, standardized field sampling, and wildlife capt
 
 ::: {.feature}
 ### {{< fa square-check size=0.5x >}} Data Management
-Use programs like Microsoft Access and Microsoft SQL Server to maintain high-quality data in relational databases.
+Use programs like Microsoft Access to maintain high-quality data in relational databases.
 
 ::: {.learn-more}
 **Skills:** *Microsoft Access, SQL Server, Excel*
@@ -134,9 +138,8 @@ Use programs like Microsoft Access and Microsoft SQL Server to maintain high-qua
 
 ::: {.bg-banner-2}
 
-### My Latest Works
+## My Latest Works
 
-Blog posts, maps, and other projects.
 
 ::: {#site-listings-2}
 

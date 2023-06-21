@@ -450,7 +450,7 @@ div.quarto-about-trestles {
 
 .bg-banner-1 {
   position: relative;
-  margin-top: 3em;
+  margin-top: -2em;
   margin-bottom: 1em;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -476,9 +476,27 @@ div.quarto-about-trestles {
   padding-bottom: 30px;
 }
 
-.bg-banner-2 p,
+
+.bg-banner-2 h2 {
+  color: $tan;
+}
+
 .bg-banner-2 h3 {
+  color: $tan;
+  font-size: 1.5em;
+}
+
+.bg-banner-2 div {
   color: white;
+}
+
+.bg-banner-2 p, {
+  color: white;
+}
+
+.bg-banner-1 .fa-solid {
+  padding-left: 40px;
+  padding-right: 10px;
 }
 
 .bg-banner-2::before {
@@ -548,7 +566,7 @@ div.quarto-about-trestles {
 }
 
 .feature p {
-  padding-left: 0.25em;
+  padding-left: 40px;
 }
 
 .content-block h2 {

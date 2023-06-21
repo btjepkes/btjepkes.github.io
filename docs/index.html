@@ -90,9 +90,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -237,9 +237,9 @@ ul.task-list li input[type="checkbox"] {
 </div></div>
 </div>
 
-<section id="exploring-this-site" class="level3 bg-banner-1">
-<h3 data-anchor-id="exploring-this-site">Exploring This Site</h3>
-<p>Please have a look around this site or peruse my <a href="./about.html">CV</a> to learn more.</p>
+<section id="fa-binoculars-size2x-exploring-this-site" class="level2 bg-banner-1">
+<h2 data-anchor-id="fa-binoculars-size2x-exploring-this-site"><i class="fa-solid fa-binoculars fa-2x" aria-label="binoculars"></i> Exploring This Site</h2>
+<p>This site houses my professional portfolio and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my <a href="./about.html">CV</a> to learn more. Thank you for visiting!</p>
 <div id="listing-site-listings" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1687190542231" data-listing-reading-time-sort="3">
@@ -344,7 +344,7 @@ No matching items
 <h3 data-anchor-id="fa-square-check-size0.5x-web-development"><i class="fa-solid fa-square-check fa-0.5x" aria-label="square-check"></i> Web Development</h3>
 <p>Employ front-end web development languages such as HTML and CSS to design functional and beautiful websites.</p>
 <div class="learn-more">
-<p><strong>Skills:</strong> <em>HTML, CSS, JSON, WordPress, Git/GitHub</em></p>
+<p><strong>Skills:</strong> <em>HTML, CSS, WordPress, Git/GitHub</em></p>
 </div>
 </section>
 <section id="fa-square-check-size0.5x-applied-conservation" class="level3 feature">
@@ -356,65 +356,68 @@ No matching items
 </section>
 <section id="fa-square-check-size0.5x-data-management" class="level3 feature">
 <h3 data-anchor-id="fa-square-check-size0.5x-data-management"><i class="fa-solid fa-square-check fa-0.5x" aria-label="square-check"></i> Data Management</h3>
-<p>Use programs like Microsoft Access and Microsoft SQL Server to maintain high-quality data in relational databases.</p>
+<p>Use programs like Microsoft Access to maintain high-quality data in relational databases.</p>
 <div class="learn-more">
 <p><strong>Skills:</strong> <em>Microsoft Access, SQL Server, Excel</em></p>
 </div>
 </section>
 </div>
 </section>
-<section id="my-latest-works" class="level3 bg-banner-2">
-<h3 data-anchor-id="my-latest-works">My Latest Works</h3>
-<p>Blog posts, maps, and other projects.</p>
-<div id="listing-site-listings-2" class="quarto-listing quarto-listing-container-table">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Subtitle
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="R,Wildlife,Cartography" data-listing-date-sort="1683262800000" data-listing-file-modified-sort="1687145266174" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Creating an Interactive Heatmap of GBIF Occurrences Using R" data-listing-filename-sort="post-four.qmd">
-<td>
-<a href="./posts/post-four.html" class="title listing-title">Creating an Interactive Heatmap of GBIF Occurrences Using R</a>
-</td>
-<td>
-<span class="listing-subtitle">Exploring concentrations of Greater sage grouse records in the western United States using Leaflet.</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="R,Forest,Cartography" data-listing-date-sort="1682139600000" data-listing-file-modified-sort="1686950051124" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Mapping Changes in Unfragmented Forest Landscapes Using R" data-listing-filename-sort="post-three.qmd">
-<td>
-<a href="./posts/post-three.html" class="title listing-title">Mapping Changes in Unfragmented Forest Landscapes Using R</a>
-</td>
-<td>
-<span class="listing-subtitle">Vizualizing Global Forest Watch data on North American forests.</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="Map Gallery" data-listing-file-modified-sort="1687199967750" data-listing-reading-time-sort="1" data-listing-title-sort="Personal Mapping &amp; Data Viz Products" data-listing-filename-sort="gallery-003.qmd">
-<td>
-<a href="./gallery/gallery-003.html" class="title listing-title">Personal Mapping &amp; Data Viz Products</a>
-</td>
-<td>
-<span class="listing-subtitle">Various maps and other data visualizations made for personal and creative projects.</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="Maps,Choropleth,RStudio,ArcGIS Pro" data-listing-file-modified-sort="1687199931947" data-listing-reading-time-sort="1" data-listing-title-sort="Work-Based Mapping Products" data-listing-filename-sort="gallery-001.qmd">
-<td>
-<a href="./gallery/gallery-001.html" class="title listing-title">Work-Based Mapping Products</a>
-</td>
-<td>
-<span class="listing-subtitle">Mapping products made for various work-related projects, technical reports, and publications.</span>
-</td>
-</tr>
-</tbody>
-
-</table>
+<section id="my-latest-works" class="level2 bg-banner-2">
+<h2 data-anchor-id="my-latest-works">My Latest Works</h2>
+<div id="listing-site-listings-2" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-categories="R,Wildlife,Cartography" data-listing-date-sort="1683262800000" data-listing-file-modified-sort="1687145266174" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/post-four.html"> <img src="./posts/img-sage-grouse.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/post-four.html">
+<h3 class="no-anchor listing-title">
+Creating an Interactive Heatmap of GBIF Occurrences Using R
+</h3>
+<div class="listing-subtitle">
+Exploring concentrations of Greater sage grouse records in the western United States using Leaflet.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/post-four.html">
+<div class="listing-date">
+May 5, 2023
+</div>
+<div class="listing-author">
+Benjamin Tjepkes
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-categories="R,Forest,Cartography" data-listing-date-sort="1682139600000" data-listing-file-modified-sort="1686950051124" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/post-three.html"> <img src="./posts/bg-pine-blue.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/post-three.html">
+<h3 class="no-anchor listing-title">
+Mapping Changes in Unfragmented Forest Landscapes Using R
+</h3>
+<div class="listing-subtitle">
+Vizualizing Global Forest Watch data on North American forests.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/post-three.html">
+<div class="listing-date">
+Apr 22, 2023
+</div>
+<div class="listing-author">
+Benjamin Tjepkes
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
