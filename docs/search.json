@@ -95,7 +95,7 @@
     "href": "index.html",
     "title": "Hi there, my name is Benjamin Tjepkes.",
     "section": "",
-    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     ORCID iD\n  \n\n  \n  \n\n\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nI currently serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. Starting fall 2023, I will be pursuing my Masters in Geography at the University of Missouri. Please reach out if you would like to collaborate or have other inquires."
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     ORCID iD\n  \n\n  \n  \n\n\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nI currently serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. Starting in fall 2023, I will be pursuing my Masters in Geography at the University of Missouri. Please reach out if you would like to collaborate or have other inquires."
   },
   {
     "objectID": "index.html#fa-binoculars-size2x-exploring-this-site",
@@ -109,7 +109,7 @@
     "href": "index.html#my-professional-experience-interests",
     "title": "Hi there, my name is Benjamin Tjepkes.",
     "section": "My Professional Experience & Interests",
-    "text": "My Professional Experience & Interests\n\n\n Cartographic Design\nAdept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps and mapping applications.\n\nSkills: R/RStudio, ArcGIS Pro/Online, QGIS\n\n\n\n Data Visualization\nProficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.\n\nSkills: Quarto, R/Rmd, Jupyter Notebooks\n\n\n\n Research Methodology\nKnowledge of the scientific method, research project development, and technical report development process.\n\nSkills: Mendeley, Zotero, OSF\n\n\n\n Web Development\nEmploy front-end web development languages such as HTML and CSS to design functional and beautiful websites.\n\nSkills: HTML, CSS, WordPress, Git/GitHub\n\n\n\n Applied Conservation\nExperience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.\n\nSkills: Field Surveys, Species Monitoring\n\n\n\n Data Management\nUse programs like Microsoft Access to maintain high-quality data in relational databases.\n\nSkills: Microsoft Access, SQL Server, Excel"
+    "text": "My Professional Experience & Interests\n\n\n Cartographic Design\nAdept as using open source and proprietary software to create static and dynamic map products.\n\nSkills: R/RStudio, ArcGIS Pro/Online, QGIS\n\n\n\n Data Visualization\nProficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.\n\nSkills: Quarto, R/Rmd, Jupyter Notebooks\n\n\n\n Research Methodology\nKnowledge of the scientific method, research project development, and technical reporting.\n\nSkills: Mendeley, Zotero, OSF\n\n\n\n Web Development\nEmploy front-end web development techniques to design functional and beautiful websites.\n\nSkills: HTML, CSS, WordPress, Git/GitHub\n\n\n\n Applied Conservation\nExperience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.\n\nSkills: Field Surveys, Species Monitoring\n\n\n\n Data Management\nUse programs like Microsoft Access to maintain high-quality data in relational databases.\n\nSkills: Microsoft Access, SQL Server, Excel"
   },
   {
     "objectID": "posts/post-four.html",
@@ -285,5 +285,12 @@
     "title": "Streamlining Your Reporting Workflow with Quarto",
     "section": "In Conclusion",
     "text": "In Conclusion\nBy leveraging Quarto and its capabilities for reproducible reporting, you can transform your reporting workflow from manual and error-prone to automated and efficient. Parameterizing reports allows you to easily update and regenerate them based on changing data or analysis requirements.\nReproducible documents not only save time but also enhance collaboration and ensure the accuracy and integrity of your reports. Give Quarto a try in the RStudio environment and experience the power of streamlining your reporting workflow.\nStart producing reproducible documents today and say goodbye to the hassles of manual report updates!\nHappy reporting with Quarto!"
+  },
+  {
+    "objectID": "index.html#my-latest-writings",
+    "href": "index.html#my-latest-writings",
+    "title": "Hi there, my name is Benjamin Tjepkes.",
+    "section": "My Latest Writings",
+    "text": "My Latest Writings\n\n\n\n\n  \n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences Using R\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\n\n\n\n\n  \n\n\n\n\nStreamlining Your Reporting Workflow with Quarto\n\n\nManually updating reports is old news, start producing reproducible documents.\n\n\n\n\n\n\nMay 28, 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]

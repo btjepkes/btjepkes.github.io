@@ -55,7 +55,7 @@ listing:
 
 I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform **landscape** and **endangered resource conservation**.
 
-I currently serve as the **Assistant Wildlife Diversity Coordinator** for the Missouri Department of Conservation. Starting fall 2023, I will be pursuing my **Masters in Geography** at the University of Missouri. Please [reach out](contact.qmd) if you would like to collaborate or have other inquires. 
+I currently serve as the **Assistant Wildlife Diversity Coordinator** for the Missouri Department of Conservation. Starting in fall 2023, I will be pursuing my **Masters in Geography** at the University of Missouri. Please [reach out](contact.qmd) if you would like to collaborate or have other inquires. 
 
 :::
 
@@ -81,7 +81,7 @@ This site houses my professional portfolio and technical blog to showcase my exp
 
 ::: {.feature}
 ### {{< fa square-check size=1x >}} Cartographic Design
-Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps and mapping applications.
+Adept as using open source and proprietary software to create static and dynamic map products.
 
 ::: {.learn-more}
 **Skills:** *R/RStudio, ArcGIS Pro/Online, QGIS*
@@ -99,7 +99,7 @@ Proficient in data visualization and reproducible reporting using Quarto, R Mark
 
 ::: {.feature}
 ### {{< fa square-check size=0.5x >}} Research Methodology
-Knowledge of the scientific method, research project development, and technical report development process.
+Knowledge of the scientific method, research project development, and technical reporting.
 
 ::: {.learn-more}
 **Skills:** *Mendeley, Zotero, OSF*
@@ -108,7 +108,7 @@ Knowledge of the scientific method, research project development, and technical 
 
 ::: {.feature}
 ### {{< fa square-check size=0.5x >}} Web Development
-Employ front-end web development languages such as HTML and CSS to design functional and beautiful websites.
+Employ front-end web development techniques to design functional and beautiful websites.
 
 ::: {.learn-more}
 **Skills:** *HTML, CSS, WordPress, Git/GitHub*
@@ -138,7 +138,7 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 ::: {.bg-banner-2}
 
-## My Latest Works
+## My Latest Writings
 
 
 ::: {#site-listings-2}
@@ -151,7 +151,7 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 {{< fa circle-question size=3x >}}
 
-#### **Need assistance?**
+#### **Looking for help?**
 
 I offer freelance services in the realms of conservation, data, and geospatial consulting.
 
