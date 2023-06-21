@@ -273,7 +273,12 @@ h1::after {
   background: $light-green;
 }
 
-
+.me-auto {
+  margin-right: auto !important;
+  margin-left: auto;
+  text-align: center;
+  font-weight: 600;
+}
 
 
 
@@ -492,6 +497,10 @@ div.quarto-about-trestles {
 .feature h3 {
   margin-top: 0.5em;
   color: $dark-green;
+}
+
+.feature .fa-solid {
+  padding-right: 6px;
 }
 
 .feature p:first-of-type {

@@ -39,7 +39,7 @@ listing:
 
 ### My Biography
 
-I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform **landscape** and **endangered resource conservation**. I currently serve as a Assistant Wildlife Diversity Coordinator and will be pursing my Masters in Geography starting fall 2023. Please [reach out](contact.qmd) if you would like to collaborate.
+I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform **landscape** and **endangered resource conservation**. I currently serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation and will be pursing my Masters in Geography starting fall 2023. Please [reach out](contact.qmd) if you would like to collaborate.
 
 This site contains my **professional portfolio** and **technical blog** to showcase my work in ecological and geospatial science. Please have a look around this site or peruse my [CV](about.qmd) to learn about my endeavors.
 :::
@@ -69,7 +69,7 @@ Adept as using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic map
 Proficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.
 
 ::: {.learn-more}
-**Skills:** *Quarto, R Markdown, Jupyter Notebooks*
+**Skills:** *Quarto, R/R Markdown, Jupyter Notebooks*
 :::
 :::
 
@@ -105,7 +105,7 @@ Experience using radio telemetry, standardized field sampling, and wildlife capt
 Use programs like Microsoft Access and Microsoft SQL Server to maintain high-quality data in relational databases.
 
 ::: {.learn-more}
-**Skills:** *MS Access, SQL Server, Excel*
+**Skills:** *Microsoft Access, SQL Server, Excel*
 :::
 :::
 
