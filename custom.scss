@@ -295,8 +295,8 @@ h1::after {
   overflow: hidden;
  /* background: $dark-purple;*/
   color: white;
-  padding-top: calc(4vh + 20px);
-  padding-bottom: calc(4vh + 20px);
+  padding-top: 2.45em;
+  padding-bottom: 2.45em;
   background:
 		linear-gradient(90deg, $dark-purple ($dot-space - $dot-size), transparent 1%) center,
 		linear-gradient($dark-purple ($dot-space - $dot-size), transparent 1%) center,
