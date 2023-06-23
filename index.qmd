@@ -153,7 +153,7 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 #### **Looking for help?**
 
-I offer many freelance services through UpWork, including technical reporting, data entry & management, GIS management & map creation, and much more!
+I offer many freelance services through UpWork, including technical reporting, data entry, data management, GIS management, map creation, and much more!
 
 [My Services](https://www.upwork.com/freelancers/~016f69e22f5247fd31){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"} [Contact Me](contact.qmd){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"}
 
