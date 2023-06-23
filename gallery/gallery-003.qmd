@@ -6,7 +6,7 @@ date-modified: "6-15-2023"
 categories:
   - Map Gallery
 abstract-title: ""
-abstract: "This section showcases maps and data visualizations made as part of my personal and creative projects. These include my collections for TidyTuesday, MapPromptMonday, and the 30DayMapChallenge. Most visualizations are created using either ArcGIS Pro or R/RStudio."
+abstract: "This section showcases maps and data visualizations made as part of my personal and creative projects. These includes any of my contributions to Tidy Tuesday, Map Prompt Monday, and the 30 Day Map Challenge. Most visualizations are created using ArcGIS Pro, R/RStudio, or QGIS."
 
 toc: TRUE
 image: img-cover-personal-products-sm.png
