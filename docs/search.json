@@ -98,11 +98,11 @@
     "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     ORCID iD\n  \n\n  \n  \n\n\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using data science and geospatial techniques to research and inform landscape and endangered resource conservation.\nI currently serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. Starting in fall 2023, I will be pursuing my Masters in Geography at the University of Missouri. Please reach out if you would like to collaborate or have other inquires."
   },
   {
-    "objectID": "index.html#fa-binoculars-size2x-exploring-this-site",
-    "href": "index.html#fa-binoculars-size2x-exploring-this-site",
+    "objectID": "index.html#fa-binoculars-size2x-start-exploring",
+    "href": "index.html#fa-binoculars-size2x-start-exploring",
     "title": "Hi there, my name is Benjamin Tjepkes.",
-    "section": " Exploring This Site",
-    "text": "Exploring This Site\nThis site houses my professional portfolio and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my CV to learn more. Thank you for visiting!\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my professional interests and experience.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, data visualiztions, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
+    "section": " Start Exploring",
+    "text": "Start Exploring\nThis site houses my professional portfolio and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my CV to learn more. Thank you!\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my professional interests and experience.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, data visualiztions, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#my-professional-experience-interests",
@@ -110,6 +110,13 @@
     "title": "Hi there, my name is Benjamin Tjepkes.",
     "section": "My Professional Experience & Interests",
     "text": "My Professional Experience & Interests\n\n\n Cartographic Design\nAdept as using open source and proprietary software to create static and dynamic map products.\n\nSkills: R/RStudio, ArcGIS Pro/Online, QGIS\n\n\n\n Data Visualization\nProficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.\n\nSkills: Quarto, R/Rmd, Jupyter Notebooks\n\n\n\n Research Methodology\nKnowledge of the scientific method, research project development, and technical reporting.\n\nSkills: Mendeley, Zotero, OSF\n\n\n\n Web Development\nEmploy front-end web development techniques to design functional and beautiful websites.\n\nSkills: HTML, CSS, WordPress, Git/GitHub\n\n\n\n Applied Conservation\nExperience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.\n\nSkills: Field Surveys, Species Monitoring\n\n\n\n Data Management\nUse programs like Microsoft Access to maintain high-quality data in relational databases.\n\nSkills: Microsoft Access, SQL Server, Excel"
+  },
+  {
+    "objectID": "index.html#my-latest-writings",
+    "href": "index.html#my-latest-writings",
+    "title": "Hi there, my name is Benjamin Tjepkes.",
+    "section": "My Latest Writings",
+    "text": "My Latest Writings\n\n\n\n\n  \n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences Using R\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\n\n\n\n\n  \n\n\n\n\nStreamlining Your Reporting Workflow with Quarto\n\n\nManually updating reports is old news, start producing reproducible documents.\n\n\n\n\n\n\nMay 28, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-four.html",
@@ -152,6 +159,34 @@
     "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
     "section": "Workflow",
     "text": "Workflow\n\n1. Get IFL Data\nVisit the Global Forest Watch website (https://www.globalforestwatch.org/). Navigate to the “Data” section and select “Intact Forest Landscapes.” Download the IFL dataset in the desired format (e.g., shapefile, geopackage).\n\n\n2. Load Packages.\nTo follow along with this tutorial, you will need to have R and the following packages installed: sf, tmap, and dplyr. You can install these packages using the install.packages() function in R.\nlibrary(sf)\nlibrary(dplyr)\n\n\n3. Load Data in R\nLet’s assume you have downloaded the IFL data in shapefile format and saved it as “ifl.shp” in your working directory. We will now load and prepare the data for visualization.\n# Read the IFL shapefile\nifl &lt;- st_read(\"ifl.shp\")\n\n# Examine the data structure\nhead(ifl)\nsummary(ifl)\n\n\n4. Visualize Data\nWe will use the tmap package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.\n# Load the tmap package\nlibrary(tmap)\n\n# Create a basic map of the IFL polygons\ntm_shape(ifl) +\n  tm_polygons()\n\n\n5. Customize Map\nWe can modify the map’s appearance by changing colors, adding a background, adjusting labels, and more.\n# Create a more visually appealing map with customization\ntm_shape(ifl) +\n  tm_fill(col = \"green\", alpha = 0.6) +  # Set polygon color and transparency\n  tm_borders(col = \"black\") +  # Add border color\n  tm_layout(legend.position = c(\"left\", \"bottom\"),  # Adjust legend position\n            legend.bg.color = \"white\",  # Set legend background color\n            title = \"Intact Forest Landscapes\")  # Add map title"
+  },
+  {
+    "objectID": "posts/post-two.html",
+    "href": "posts/post-two.html",
+    "title": "Streamlining Your Reporting Workflow with Quarto",
+    "section": "",
+    "text": "Article Learning Outcomes\n\n\n\n\nLearn how to use Quarto documents within the RStudio environment.\nLearn how to load in TidyTuesday data using a dedicated R package.\nLearn how to make basic visualizations and maps.\nIn today’s data-driven world, reporting and communicating data insights play a vital role in decision-making processes. However, manual updates and formatting can be time-consuming and error-prone. In this blog post, we will explore how to streamline your reporting workflow by leveraging reproducible formats. We will demonstrate this using Quarto in the RStudio environment, taking a practical example of parameterizing reports using birdfeeder visitation data from FeederWatch. By adopting reproducible practices, you can save time, increase efficiency, and ensure the accuracy of your reports."
+  },
+  {
+    "objectID": "posts/post-two.html#background",
+    "href": "posts/post-two.html#background",
+    "title": "Streamlining Your Reporting Workflow with Quarto",
+    "section": "Background",
+    "text": "Background\n\nWhat is Quarto?\nQuarto is an open-source document framework built for reproducibility. It integrates seamlessly with RStudio, allowing you to combine code, text, and visualizations in a single document. With Quarto, you can automate the process of report generation, making it easier to update and reproduce documents as your data or analysis changes.\n\n\nData Sources"
+  },
+  {
+    "objectID": "posts/post-two.html#workflow",
+    "href": "posts/post-two.html#workflow",
+    "title": "Streamlining Your Reporting Workflow with Quarto",
+    "section": "Workflow",
+    "text": "Workflow\nTo demonstrate how Quarto can streamline your reporting workflow, let’s work with birdfeeder visitation data from FeederWatch. We will parameterize our reports to automatically update based on different filters or date ranges.\nHere’s the R code to get started:\n# Step 1: Install and load necessary packages\ninstall.packages(\"quarto\")\nlibrary(quarto)\n\n# Step 2: Load birdfeeder visitation data\ndata &lt;- read.csv(\"birdfeeder_data.csv\")\n\n# Step 3: Parameterize your report\nreport_title &lt;- \"Birdfeeder Visitation Report\"\ndate_range &lt;- c(\"2023-01-01\", \"2023-06-30\")\n\n# Step 4: Create a Quarto document\nquarto_document(\"birdfeeder_report.Rmd\",\n  title = report_title,\n  params = list(date_range = date_range),\n  output = \"birdfeeder_report.html\"\n) %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"library(ggplot2)\") %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"filtered_data &lt;- subset(data, Date &gt;= date_range[1] & Date &lt;= date_range[2])\") %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"ggplot(filtered_data, aes(x = Date, y = Visits)) + geom_line()\") %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"ggsave('birdfeeder_plot.png')\")\nIn the code above, we start by installing and loading the quarto package. Then, we load the birdfeeder visitation data from a CSV file. Next, we define the parameters for our report, such as the report title and the desired date range for filtering the data.\nWe create a Quarto document using the quarto_document() function, specifying the input R Markdown file, report title, parameter list, and desired output format (in this case, HTML). We then use the quarto_chunk() and quarto_code() functions to add code chunks to our document.\nThe code chunks contain R code for filtering the data based on the specified date range and creating a line plot using ggplot2. Finally, we save the generated plot as a PNG file using ggsave()."
+  },
+  {
+    "objectID": "posts/post-two.html#in-conclusion",
+    "href": "posts/post-two.html#in-conclusion",
+    "title": "Streamlining Your Reporting Workflow with Quarto",
+    "section": "In Conclusion",
+    "text": "In Conclusion\nBy leveraging Quarto and its capabilities for reproducible reporting, you can transform your reporting workflow from manual and error-prone to automated and efficient. Parameterizing reports allows you to easily update and regenerate them based on changing data or analysis requirements.\nReproducible documents not only save time but also enhance collaboration and ensure the accuracy and integrity of your reports. Give Quarto a try in the RStudio environment and experience the power of streamlining your reporting workflow.\nStart producing reproducible documents today and say goodbye to the hassles of manual report updates!\nHappy reporting with Quarto!"
   },
   {
     "objectID": "posts.html",
@@ -243,54 +278,5 @@
     "title": "Resources",
     "section": " – GIS & Spatial Analysis",
     "text": "– GIS & Spatial Analysis\nThese resources are for the sorry souls in the process of learning GIS, including open source GIS.\n\nArcGIS - Learning\n\nWebsite ~ Esri Academy Online Learning\n\n\n\nArcGIS - Spatial Analysis\n\nWebsite ~ The Power of Spatial Analysis\n\n\n\nLearning QGIS\n\nYouTube Channel ~ DMAD QGIS Lessons"
-  },
-  {
-    "objectID": "index.html#my-latest-works",
-    "href": "index.html#my-latest-works",
-    "title": "Hi there, my name is Benjamin Tjepkes.",
-    "section": "My Latest Works",
-    "text": "My Latest Works\n\n\n\n\n  \n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences Using R\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\n\n\n\n\n  \n\n\n\n\nStreamlining Your Reporting Workflow with Quarto\n\n\nManually updating reports is old news, start producing reproducible documents.\n\n\n\n\n\n\nMay 28, 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#fa-binoculars-size2x-start-exploring",
-    "href": "index.html#fa-binoculars-size2x-start-exploring",
-    "title": "Hi there, my name is Benjamin Tjepkes.",
-    "section": " Start Exploring",
-    "text": "Start Exploring\nThis site houses my professional portfolio and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my CV to learn more. Thank you!\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my professional interests and experience.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, data visualiztions, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/post-two.html",
-    "href": "posts/post-two.html",
-    "title": "Streamlining Your Reporting Workflow with Quarto",
-    "section": "",
-    "text": "Article Learning Outcomes\n\n\n\n\nLearn how to use Quarto documents within the RStudio environment.\nLearn how to load in TidyTuesday data using a dedicated R package.\nLearn how to make basic visualizations and maps.\nIn today’s data-driven world, reporting and communicating data insights play a vital role in decision-making processes. However, manual updates and formatting can be time-consuming and error-prone. In this blog post, we will explore how to streamline your reporting workflow by leveraging reproducible formats. We will demonstrate this using Quarto in the RStudio environment, taking a practical example of parameterizing reports using birdfeeder visitation data from FeederWatch. By adopting reproducible practices, you can save time, increase efficiency, and ensure the accuracy of your reports."
-  },
-  {
-    "objectID": "posts/post-two.html#background",
-    "href": "posts/post-two.html#background",
-    "title": "Streamlining Your Reporting Workflow with Quarto",
-    "section": "Background",
-    "text": "Background\n\nWhat is Quarto?\nQuarto is an open-source document framework built for reproducibility. It integrates seamlessly with RStudio, allowing you to combine code, text, and visualizations in a single document. With Quarto, you can automate the process of report generation, making it easier to update and reproduce documents as your data or analysis changes.\n\n\nData Sources"
-  },
-  {
-    "objectID": "posts/post-two.html#workflow",
-    "href": "posts/post-two.html#workflow",
-    "title": "Streamlining Your Reporting Workflow with Quarto",
-    "section": "Workflow",
-    "text": "Workflow\nTo demonstrate how Quarto can streamline your reporting workflow, let’s work with birdfeeder visitation data from FeederWatch. We will parameterize our reports to automatically update based on different filters or date ranges.\nHere’s the R code to get started:\n# Step 1: Install and load necessary packages\ninstall.packages(\"quarto\")\nlibrary(quarto)\n\n# Step 2: Load birdfeeder visitation data\ndata &lt;- read.csv(\"birdfeeder_data.csv\")\n\n# Step 3: Parameterize your report\nreport_title &lt;- \"Birdfeeder Visitation Report\"\ndate_range &lt;- c(\"2023-01-01\", \"2023-06-30\")\n\n# Step 4: Create a Quarto document\nquarto_document(\"birdfeeder_report.Rmd\",\n  title = report_title,\n  params = list(date_range = date_range),\n  output = \"birdfeeder_report.html\"\n) %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"library(ggplot2)\") %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"filtered_data &lt;- subset(data, Date &gt;= date_range[1] & Date &lt;= date_range[2])\") %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"ggplot(filtered_data, aes(x = Date, y = Visits)) + geom_line()\") %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"ggsave('birdfeeder_plot.png')\")\nIn the code above, we start by installing and loading the quarto package. Then, we load the birdfeeder visitation data from a CSV file. Next, we define the parameters for our report, such as the report title and the desired date range for filtering the data.\nWe create a Quarto document using the quarto_document() function, specifying the input R Markdown file, report title, parameter list, and desired output format (in this case, HTML). We then use the quarto_chunk() and quarto_code() functions to add code chunks to our document.\nThe code chunks contain R code for filtering the data based on the specified date range and creating a line plot using ggplot2. Finally, we save the generated plot as a PNG file using ggsave()."
-  },
-  {
-    "objectID": "posts/post-two.html#in-conclusion",
-    "href": "posts/post-two.html#in-conclusion",
-    "title": "Streamlining Your Reporting Workflow with Quarto",
-    "section": "In Conclusion",
-    "text": "In Conclusion\nBy leveraging Quarto and its capabilities for reproducible reporting, you can transform your reporting workflow from manual and error-prone to automated and efficient. Parameterizing reports allows you to easily update and regenerate them based on changing data or analysis requirements.\nReproducible documents not only save time but also enhance collaboration and ensure the accuracy and integrity of your reports. Give Quarto a try in the RStudio environment and experience the power of streamlining your reporting workflow.\nStart producing reproducible documents today and say goodbye to the hassles of manual report updates!\nHappy reporting with Quarto!"
-  },
-  {
-    "objectID": "index.html#my-latest-writings",
-    "href": "index.html#my-latest-writings",
-    "title": "Hi there, my name is Benjamin Tjepkes.",
-    "section": "My Latest Writings",
-    "text": "My Latest Writings\n\n\n\n\n  \n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences Using R\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\n\n\n\n\n  \n\n\n\n\nStreamlining Your Reporting Workflow with Quarto\n\n\nManually updating reports is old news, start producing reproducible documents.\n\n\n\n\n\n\nMay 28, 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]

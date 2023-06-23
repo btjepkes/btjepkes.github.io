@@ -12,7 +12,7 @@ categories:
   - R
   - Wildlife
   - Cartography
-image: img-sage-grouse.jpg
+image: bg-pine-blue.jpg
 ---
 
 ::: {.callout-tip .intro-callout}
