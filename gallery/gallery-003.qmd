@@ -15,7 +15,7 @@ image: img-cover-personal-products-sm.png
 
 ::: {.gallery}
 
-![](../gallery/img-map-001.png){group="personal-projects"
+![](../gallery/img-map-001v2.png){group="personal-projects"
 description="2018 Squirrel Census Sighting Density Map"}
 
 ![](../gallery/img-map-endangeredstamps.png){group="personal-projects"
