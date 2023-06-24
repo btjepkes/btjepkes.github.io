@@ -25,6 +25,7 @@ description="Endangered Species Stamps Range Map"}
 ![](../gallery/img-table-001.png){group="personal-projects"
 description="2018 Squirrel Census Sighting Table"}
 
-
+![](../gallery/img-map-10.jpg){group="personal-projects"
+description="Missouri Tree Canopy Density Map"}
 
 :::
