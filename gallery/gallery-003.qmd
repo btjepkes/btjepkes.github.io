@@ -28,4 +28,8 @@ description="2018 Squirrel Census Sighting Table"}
 ![](../gallery/img-map-10.jpg){group="personal-projects"
 description="Missouri Tree Canopy Density Map"}
 
+![](../gallery/img-map-11.jpg){group="personal-projects"
+description="Great Lakes Watershed Map"}
+
+
 :::
