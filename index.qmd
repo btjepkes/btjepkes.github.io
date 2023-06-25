@@ -6,7 +6,7 @@ about:
   id: about-id
   template: trestles
   image: img-ben-portrait-2.jpg
-  image-shape: round
+  image-shape: rounded
   image-width: 300px
   links:
     - icon: github
