@@ -473,10 +473,10 @@ div.quarto-about-trestles {
 
 .bg-banner-1 {
   position: relative;
-  margin-top: 0em;
+  margin-top: -2em;
   margin-bottom: 0em;
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .bg-banner-1::before {
@@ -488,11 +488,11 @@ div.quarto-about-trestles {
   height: 100%;
   z-index: -1;
   overflow-x: hidden;
-  opacity: 0.5;
+  opacity: 0.7;
   
   /* Create a gradient pattern */
-  background-image: linear-gradient(to bottom, #fff, #bdc3c9 50%, #fff),
-    url('./bg-pinecone.jpg');
+  background-image: linear-gradient(to bottom, #fff, #bdc3c9 99.9%, #fff),
+    url('./bg-pine-blue.png');
   background-repeat: repeat;
 
   /* Blend the gradient and pattern */
@@ -546,6 +546,7 @@ div.quarto-about-trestles {
 #listing-site-listings,
 #listing-site-listings-2 {
   position: relative;
+  padding-top: 14px;
 }
 
 
