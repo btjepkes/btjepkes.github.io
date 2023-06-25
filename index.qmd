@@ -62,9 +62,9 @@ I currently serve as the **Assistant Wildlife Diversity Coordinator** for the Mi
 ::: {.bg-banner-1}
 
 
-## {{< fa binoculars size=2x >}} Start Exploring
+## {{< fa binoculars size=2x >}} Start Exploring My Portfolio
 
-This site houses my professional portfolio and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my [CV](about.qmd) to learn more. Thank you!
+This site houses my **professional gallery** and **technical blog** to showcase my experience in ecological and geospatial science. Please have a look around or peruse my [CV](about.qmd) to learn more. Thank you!
 
 ::: {#site-listings}
 
@@ -154,7 +154,7 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 I offer many freelance services through UpWork, including technical reporting, data entry, data management, GIS management, map creation, and much more!
 
-[My Services](https://www.upwork.com/freelancers/~016f69e22f5247fd31){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"} [Contact Me](contact.qmd){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"}
+[My Services](https://www.upwork.com/freelancers/~016f69e22f5247fd31){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"} [Contact Me](contact.qmd){.btn-action-secondary  .btn-action .btn .btn-success-alt .btn-lg role="button" style="margin-top: 1em;"}
 
 :::
 :::
