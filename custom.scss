@@ -180,7 +180,7 @@ h1::after {
 
 @media (min-width: 991.98px) {
   #quarto-header > nav {
-    height: 55px;
+    height: 58px;
   }
   
   
@@ -619,6 +619,7 @@ div.quarto-about-trestles {
   padding-top: 1em;
   background-color: #20595d;
   color: white !important;
+  border-bottom: solid $gray-500 4px;
 }
 
 .nav-footer a {
