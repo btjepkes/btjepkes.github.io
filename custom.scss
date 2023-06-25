@@ -34,7 +34,7 @@ $dark-purple: #282a36 !default;
 $bg-color: hsl(256,33,10);
 $dot-color: #556b6c;
 $dot-size: 1px;
-$dot-space: 32px;
+$dot-space: 16px;
 
 $primary:       $dark-green !default;
 $secondary:     $white !default;
@@ -179,8 +179,8 @@ h1::after {
 
 
 @media (min-width: 991.98px) {
-  .navbar {
-    height: 70px;
+  #quarto-header > nav {
+    height: 80px;
   }
   
   
@@ -268,8 +268,8 @@ h1::after {
 
 
 .navbar-brand span::after {
-  content: "Ecology - Geospatial - Data Science";
-  letter-spacing: 0.08em;
+  content: "Ecology • Geospatial • Data Science";
+  letter-spacing: 0.1em;
   display: block;
   font-size: 10px;
   margin-top: -6px;
@@ -280,11 +280,13 @@ h1::after {
   background: $light-green;
 }
 
+
+@media (max-width: 991.98px) {
 .me-auto {
   margin-right: auto !important;
   margin-left: auto;
   text-align: center;
-}
+}}
 
 
 
@@ -295,30 +297,39 @@ h1::after {
   overflow: hidden;
  /* background: $dark-purple;*/
   color: white;
-  padding-top: 2.8em;
-  padding-bottom: 2.8em;
+  padding-top: 3.2em;
+  padding-bottom: 3.2em;
   background:
 		linear-gradient(90deg, $dark-purple ($dot-space - $dot-size), transparent 1%) center,
-		linear-gradient($dark-purple ($dot-space - $dot-size), transparent 1%) center,
-		$dot-color;
+		linear-gradient($dark-purple ($dot-space - $dot-size), transparent 1%) center,	$dot-color;
 	background-size: $dot-space $dot-space;
 }
 
-/*
-@media (min-width: 991.98px) {
-.quarto-title-banner::before {
-  content: "";
+.quarto-title-banner::after {
+  content: '';
   position: absolute;
-  top: 0;
-  left: 50%;
+  bottom: -22px;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: $gray-500;
+  transform: skewY(-3deg);
+  transform-origin: bottom left;
+  z-index: -1;
+}
+
+.quarto-title-banner::before {
+  content: '';
+  position: absolute;
+  bottom: -22px;
   right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent);
-  transform: rotate(45deg);
-  background-size: 25px 25px;
-  z-index: 1;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), 20px 100%, 0 calc(100% - 20px));
-}}*/
+  width: 100%;
+  height: 40px;
+  background-color: $gray-500;
+  transform: skewY(3deg);
+  transform-origin: bottom right;
+  z-index: -1;
+}
 
 .quarto-title .quarto-categories {
     margin-top: 20px;
@@ -474,20 +485,16 @@ div.quarto-about-trestles {
   left: calc(-50vw + 50%);
   width: 99.4vw;
   height: 100%;
-  /*background: linear-gradient(to bottom, #fff, #bdc3c9 98%, #fff);*/
   z-index: -1;
   overflow-x: hidden;
   
-  
   /* Create a gradient pattern */
-  background-image: linear-gradient(to bottom, #fff, #bdc3c9 99.9%, #fff),
+  background-image: linear-gradient(to bottom, #fff, #fff 50% ,#bdc3c9 99.9%),
     url('./bg-pine-blue.png');
   background-repeat: repeat;
 
   /* Blend the gradient and pattern */
   background-blend-mode: screen;
-  
-  
 
 }
 

@@ -28,7 +28,6 @@ listing:
     type: grid
     grid-columns: 4
     fields: 
-      - image
       - title
       - subtitle
   - id: site-listings-2
