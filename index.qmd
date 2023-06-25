@@ -24,12 +24,12 @@ listing:
       - "about.qmd"    
       - "posts.qmd"
       - "gallery.qmd"
-      - "research.qmd"
     type: grid
-    grid-columns: 4
+    grid-columns: 3
     fields: 
       - title
       - subtitle
+      - image
   - id: site-listings-2
     contents:
       - "post-four.qmd"

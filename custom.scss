@@ -473,7 +473,7 @@ div.quarto-about-trestles {
 
 .bg-banner-1 {
   position: relative;
-  margin-top: -2em;
+  margin-top: 0em;
   margin-bottom: 0em;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -488,10 +488,11 @@ div.quarto-about-trestles {
   height: 100%;
   z-index: -1;
   overflow-x: hidden;
+  opacity: 0.5;
   
   /* Create a gradient pattern */
-  background-image: linear-gradient(to bottom, #fff, #fff 50% ,#bdc3c9 99.9%),
-    url('./bg-pine-blue.png');
+  background-image: linear-gradient(to bottom, #fff, #bdc3c9 50%, #fff),
+    url('./bg-pinecone.jpg');
   background-repeat: repeat;
 
   /* Blend the gradient and pattern */
