@@ -476,7 +476,7 @@ div.quarto-about-trestles {
   position: relative;
   margin-top: 2em;
   margin-bottom: 0em;
-  padding-top: 8px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
@@ -500,9 +500,7 @@ div.quarto-about-trestles {
 
 .bg-banner-1 p {
   font-size: 1.2em;
-  
 }
-
 
 
 .bg-banner-2 {
@@ -573,6 +571,8 @@ div.quarto-about-trestles {
 
 .feature {
   margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
 @media (min-width: 800px) { 
@@ -954,8 +954,8 @@ div.quarto-about-trestles {
 
 .alt-background {
   background-color: #f8f8f8;
-  border-top: 1px solid #dee2e6;
-  border-bottom: 1px solid #dee2e6;
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
 }
 
 .hello-quarto {
