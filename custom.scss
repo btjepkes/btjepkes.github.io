@@ -447,6 +447,9 @@ div.quarto-about-trestles .about-contents {
   margin-top: 0em;
 }
 
+#about-id p {
+  font-size: 1.05em;
+}
 
 @media (max-width: 991.98px) {
 .centered {
@@ -474,10 +477,10 @@ div.quarto-about-trestles {
 
 .bg-banner-1 {
   position: relative;
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 0em;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .bg-banner-1::before {
