@@ -269,7 +269,7 @@ h1::after {
 
 .navbar-brand span::after {
   content: "Ecology • Geospatial • Data Science";
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   display: block;
   font-size: 10px;
   margin-top: -6px;
@@ -297,14 +297,14 @@ h1::after {
   overflow: hidden;
  /* background: $dark-purple;*/
   color: white;
-  padding-top: 3.2em;
-  padding-bottom: 3.2em;
+  padding-top: 3.0em;
+  padding-bottom: 3.0em;
   background:
 		linear-gradient(90deg, $dark-purple ($dot-space - $dot-size), transparent 1%) center,
 		linear-gradient($dark-purple ($dot-space - $dot-size), transparent 1%) center,	$dot-color;
 	background-size: $dot-space $dot-space;
 }
-
+/*
 .quarto-title-banner::after {
   content: '';
   position: absolute;
@@ -329,7 +329,7 @@ h1::after {
   transform: skewY(3deg);
   transform-origin: bottom right;
   z-index: -1;
-}
+}*/
 
 .quarto-title .quarto-categories {
     margin-top: 20px;
