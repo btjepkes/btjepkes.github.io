@@ -180,14 +180,14 @@ h1::after {
 
 @media (min-width: 991.98px) {
   #quarto-header > nav {
-    height: 80px;
+    height: 55px;
   }
   
   
 }
 
 .navbar-logo {
-  max-height: 45px;
+  max-height: 40px;
   width: auto;
   padding-right: 6px;
   margin-top: 6px;
@@ -259,7 +259,7 @@ h1::after {
 
 .navbar-brand span {
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 1.09em;
   letter-spacing: 0.01em;
   background: transparent;
   text-transform: uppercase;
@@ -303,6 +303,7 @@ h1::after {
 		linear-gradient(90deg, $dark-purple ($dot-space - $dot-size), transparent 1%) center,
 		linear-gradient($dark-purple ($dot-space - $dot-size), transparent 1%) center,	$dot-color;
 	background-size: $dot-space $dot-space;
+	border-bottom: $gray-500 solid 1px;
 }
 /*
 .quarto-title-banner::after {
