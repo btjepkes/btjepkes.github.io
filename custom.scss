@@ -187,10 +187,10 @@ h1::after {
 }
 
 .navbar-logo {
-  max-height: 45px;
+  max-height: 48px;
   width: auto;
   padding-right: 6px;
-  margin-top: 6px;
+  margin-top: 4px;
 }
 
 
@@ -506,6 +506,13 @@ div.quarto-about-trestles {
   padding-bottom: 40px;
 }
 
+
+.bg-banner-1 svg{
+  fill: red;
+}
+
+
+
 .bg-banner-1::before {
   content: "";
   position: absolute;
@@ -515,13 +522,30 @@ div.quarto-about-trestles {
   height: 100%;
   z-index: -1;
   overflow-x: hidden;
-  background: $dark-purple;
-  opacity: 0.05;
-  /*
-  background-image: linear-gradient(to bottom, #fff, #bdc3c9 50%, #bdc3c9 99.9%, #fff),
-    url('./bg-pine-blue.png');
-  background-repeat: repeat;
-  background-blend-mode: screen;*/
+  background-image: url(vector-green-trees.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  background-color: white;
+  opacity: 0.10;
+  transform: scaleX(-1);
+}
+
+.bg-banner-1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+  width: 99.4vw;
+  height: 100%;
+  z-index: -1;
+  overflow-x: hidden;
+  background-image: url(vector-green-trees.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  background-color: white;
+  opacity: 0.09;
 }
 
 .bg-banner-1 p {
@@ -649,10 +673,10 @@ div.quarto-about-trestles {
 
 
 .nav-footer {
-  padding-top: 1em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
   background-color: #20595d;
   color: white !important;
-  border-bottom: solid $gray-500 4px;
 }
 
 .nav-footer a {
