@@ -522,13 +522,14 @@ div.quarto-about-trestles {
   height: 100%;
   z-index: -1;
   overflow-x: hidden;
-  background-image: url(vector-green-trees.svg);
+  background: #f8f8f8;
+/*  background-image: url(vector-green-trees.svg);
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
   background-color: white;
   opacity: 0.10;
-  transform: scaleX(-1);
+  transform: scaleX(-1);*/
 }
 
 .bg-banner-1::after {
@@ -546,6 +547,7 @@ div.quarto-about-trestles {
   background-size: cover;
   background-color: white;
   opacity: 0.09;
+  transform: scaleX(-1);
 }
 
 .bg-banner-1 p {
