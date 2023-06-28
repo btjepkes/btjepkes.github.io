@@ -187,9 +187,9 @@ h1::after {
 }
 
 .navbar-logo {
-  max-height: 42px;
+  max-height: 45px;
   width: auto;
-  padding-right: 4px;
+  padding-right: 6px;
   margin-top: 6px;
 }
 
@@ -199,8 +199,30 @@ h1::after {
 }
 
 
+.navbar-nav li:hover::before {
+  content: "\2022";
+  display: block;
+  position: relative;
+  top: -10px;
+  left: 50%;
+  margin-bottom: -25.5px;
+  color: #f5c25c;
+}
+
+
+
 /*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
+  
+  
+ul.navbar-nav:nth-child(1) {
+flex-direction: row;
+padding: 10px 0px;
+margin: auto;
+flex-wrap: wrap;
+justify-content: center;
+}
+  
   
   
 /* Menu icons */
