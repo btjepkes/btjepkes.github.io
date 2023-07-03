@@ -52,9 +52,9 @@ website:
         
   page-footer:
     center:
-      - text: "This site was proudly made using R and Quarto."
+      - text: "This site was proudly made by Ben Tjepkes using Quarto."
     left:
-      - text: "Copyright 2023 - Benjamin Tjepkes"
+      - text: "&copy; Copyright 2023 - Benjamin Tjepkes"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/

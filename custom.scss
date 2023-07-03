@@ -463,9 +463,9 @@ div.quarto-about-trestles .about-contents {
 }
 
 #about-id {
-  border: solid 2px;
-  padding: 12px;
-  border-radius: 16px;
+  border: solid 2px $gray-500;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 #about-id h3 {
@@ -476,7 +476,7 @@ div.quarto-about-trestles .about-contents {
 }
 
 #about-id p {
-  font-size: 1.05em;
+  font-size: 1.02em;
 }
 
 @media (max-width: 991.98px) {

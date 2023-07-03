@@ -24,7 +24,7 @@ listing:
     - subtitle
 ---
 
-## Recent Works
+## My Recent Works
 
 ::: {.gallery}
 
@@ -46,4 +46,4 @@ description="Great Lakes Watershed Map"}
 
 :::
 
-## Work by Category
+## My Work by Category

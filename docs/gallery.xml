@@ -17,7 +17,7 @@
 <width>144</width>
 </image>
 <generator>quarto-1.3.353</generator>
-<lastBuildDate>Mon, 03 Jul 2023 14:05:23 GMT</lastBuildDate>
+<lastBuildDate>Mon, 03 Jul 2023 14:25:14 GMT</lastBuildDate>
 <item>
   <title>Work-Based Mapping Products</title>
   <dc:creator>Benjamin Tjepkes</dc:creator>
@@ -125,7 +125,7 @@ harvested." data-gallery="elsewhere"><img src="https://btjepkes.github.io/galler
   <category>RStudio</category>
   <category>ArcGIS Pro</category>
   <guid>https://btjepkes.github.io/gallery/gallery-001.html</guid>
-  <pubDate>Mon, 03 Jul 2023 14:05:23 GMT</pubDate>
+  <pubDate>Mon, 03 Jul 2023 14:25:14 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-work-products-sm.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 <item>
@@ -195,7 +195,7 @@ Compliance"><img src="https://btjepkes.github.io/gallery/img-map-4.jpg" class="i
  ]]></description>
   <category>Maps</category>
   <guid>https://btjepkes.github.io/gallery/gallery-002.html</guid>
-  <pubDate>Mon, 03 Jul 2023 14:05:23 GMT</pubDate>
+  <pubDate>Mon, 03 Jul 2023 14:25:14 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-course-products-sm.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 <item>
@@ -210,7 +210,7 @@ Compliance"><img src="https://btjepkes.github.io/gallery/img-map-4.jpg" class="i
 <div class="gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-001v2.png" class="lightbox" data-gallery="personal-projects" data-description="2018
+<p><a href="../gallery/img-map-001v2.png" class="lightbox" data-description="2018
 
 Squirrel
 
@@ -220,12 +220,12 @@ Sighting
 
 Density
 
-Map"><img src="https://btjepkes.github.io/gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects"><img src="https://btjepkes.github.io/gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-endangeredstamps.png" class="lightbox" data-gallery="personal-projects" data-description="Endangered
+<p><a href="../gallery/img-map-endangeredstamps.png" class="lightbox" data-description="Endangered
 
 Species
 
@@ -233,12 +233,12 @@ Stamps
 
 Range
 
-Map"><img src="https://btjepkes.github.io/gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects"><img src="https://btjepkes.github.io/gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-table-001.png" class="lightbox" data-gallery="personal-projects" data-description="2018
+<p><a href="../gallery/img-table-001.png" class="lightbox" data-description="2018
 
 Squirrel
 
@@ -246,12 +246,12 @@ Census
 
 Sighting
 
-Table"><img src="https://btjepkes.github.io/gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
+Table" data-gallery="personal-projects"><img src="https://btjepkes.github.io/gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-10.jpg" class="lightbox" data-gallery="personal-projects" data-description="Missouri
+<p><a href="../gallery/img-map-10.jpg" class="lightbox" data-description="Missouri
 
 Tree
 
@@ -259,18 +259,18 @@ Canopy
 
 Density
 
-Map"><img src="https://btjepkes.github.io/gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects"><img src="https://btjepkes.github.io/gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-11.jpg" class="lightbox" data-gallery="personal-projects" data-description="Great
+<p><a href="../gallery/img-map-11.jpg" class="lightbox" data-description="Great
 
 Lakes
 
 Watershed
 
-Map"><img src="https://btjepkes.github.io/gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects"><img src="https://btjepkes.github.io/gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </div>
@@ -280,7 +280,7 @@ Map"><img src="https://btjepkes.github.io/gallery/img-map-11.jpg" class="img-flu
  ]]></description>
   <category>Map Gallery</category>
   <guid>https://btjepkes.github.io/gallery/gallery-003.html</guid>
-  <pubDate>Mon, 03 Jul 2023 14:05:23 GMT</pubDate>
+  <pubDate>Mon, 03 Jul 2023 14:25:14 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-personal-products-sm.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 <item>
@@ -295,7 +295,7 @@ Map"><img src="https://btjepkes.github.io/gallery/img-map-11.jpg" class="img-flu
 <div class="gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-bat-hcp-poster.jpg" class="lightbox" data-description="Missouri
+<p><a href="../gallery/img-bat-hcp-poster.jpg" class="lightbox" data-gallery="presentations" data-description="Missouri
 
 Bat
 
@@ -305,12 +305,12 @@ Conservation
 
 Plan
 
-Poster" data-gallery="presentations"><img src="https://btjepkes.github.io/gallery/img-bat-hcp-poster.jpg" class="img-fluid figure-img"></a></p>
+Poster"><img src="https://btjepkes.github.io/gallery/img-bat-hcp-poster.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-eagle-poster.jpg" class="lightbox" data-description="Bald
+<p><a href="../gallery/img-eagle-poster.jpg" class="lightbox" data-gallery="presentations" data-description="Bald
 
 Eagel
 
@@ -318,7 +318,7 @@ Nest-Site
 
 Selection
 
-Poster" data-gallery="presentations"><img src="https://btjepkes.github.io/gallery/img-eagle-poster.jpg" class="img-fluid figure-img"></a></p>
+Poster"><img src="https://btjepkes.github.io/gallery/img-eagle-poster.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </div>
@@ -328,7 +328,7 @@ Poster" data-gallery="presentations"><img src="https://btjepkes.github.io/galler
  ]]></description>
   <category>Poster Gallery</category>
   <guid>https://btjepkes.github.io/gallery/gallery-004.html</guid>
-  <pubDate>Mon, 03 Jul 2023 14:05:23 GMT</pubDate>
+  <pubDate>Mon, 03 Jul 2023 14:25:14 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-posters-presentations-sm.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 </channel>
