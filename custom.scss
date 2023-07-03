@@ -198,7 +198,7 @@ h1::after {
   margin-top: -6px;
 }
 
-
+@media (min-width: 991.98px) {
 .navbar-nav li:hover::before {
   content: "\2022";
   display: block;
@@ -207,7 +207,7 @@ h1::after {
   left: 50%;
   margin-bottom: -25.5px;
   color: #f5c25c;
-}
+}}
 
 
 
@@ -243,8 +243,8 @@ justify-content: center;
   
 .navbar-container {
   flex-direction: row-reverse;
-  justify-content: space-around !important;
-  -webkit-justify-content: space-around !important;
+/*  justify-content: space-around !important;
+  -webkit-justify-content: space-around !important;*/
 }
   
 .navbar-brand-container {
@@ -462,10 +462,15 @@ div.quarto-about-trestles .about-contents {
   padding-right: 0 !important;
 }
 
+#about-id {
+  border: solid 2px;
+  padding: 12px;
+  border-radius: 16px;
+}
+
 #about-id h3 {
-  background: $light-green;
-  color: $white;
-  padding: 0.25em;
+  color: $dark-green;
+  font-size: 2.0em;
   margin-bottom: 1rem;
   margin-top: 0em;
 }

@@ -2,7 +2,9 @@
 title: "My Gallery"
 subtitle: "Maps, data visualiztions, reports, posters, and presentations."
 image: assets/bg-pines-gallery-yellow-sm.png
+toc: false
 listing: 
+  id: galleries
   contents:
     - "gallery-001.qmd"
     - "gallery-002.qmd"
@@ -21,3 +23,27 @@ listing:
     - title
     - subtitle
 ---
+
+## Recent Works
+
+::: {.gallery}
+
+![](../gallery/img-map-001v2.png){group="personal-projects"
+description="2018 Squirrel Census Sighting Density Map"}
+
+![](../gallery/img-map-endangeredstamps.png){group="personal-projects"
+description="Endangered Species Stamps Range Map"}
+
+![](../gallery/img-table-001.png){group="personal-projects"
+description="2018 Squirrel Census Sighting Table"}
+
+![](../gallery/img-map-10.jpg){group="personal-projects"
+description="Missouri Tree Canopy Density Map"}
+
+![](../gallery/img-map-11.jpg){group="personal-projects"
+description="Great Lakes Watershed Map"}
+
+
+:::
+
+## Work by Category

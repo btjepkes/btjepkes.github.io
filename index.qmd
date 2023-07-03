@@ -15,8 +15,9 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/benjamintjepkes/
-    - text: "{{< fa brands orcid >}} ORCiD"
-      href: https://orcid.org/0009-0002-5524-2675
+    - icon: link-45-deg
+      text: All My Links
+      href: contact.qmd
 listing:
   - id: site-listings
     contents:
@@ -65,7 +66,7 @@ Please [reach out](contact.qmd) if you have any inquires or would like to collab
 
 ## My Portfolio {{< fa star size=small >}} {{< fa star size=small >}} {{< fa star size=small >}}
 
-**Let's explore...** This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my [CV](about.qmd) to learn more. Thank you!
+This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my [CV](about.qmd) to learn more. Thank you!
 
 ::: {#site-listings}
 

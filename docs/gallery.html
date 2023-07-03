@@ -38,6 +38,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -54,7 +57,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-galleries .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -67,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-galleries'] = new List('listing-galleries', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -183,7 +186,6 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ArcGIS Pro">ArcGIS Pro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Choropleth">Choropleth <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Map Gallery">Map Gallery <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Maps">Maps <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Poster Gallery">Poster Gallery <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RStudio">RStudio <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -191,15 +193,88 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="recent-works" class="level2">
+<h2 class="anchored" data-anchor-id="recent-works">Recent Works</h2>
+<div class="gallery">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../gallery/img-map-001v2.png" class="lightbox" data-gallery="personal-projects" data-description="2018
+
+Squirrel
+
+Census
+
+Sighting
+
+Density
+
+Map"><img src="../gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../gallery/img-map-endangeredstamps.png" class="lightbox" data-gallery="personal-projects" data-description="Endangered
+
+Species
+
+Stamps
+
+Range
+
+Map"><img src="../gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../gallery/img-table-001.png" class="lightbox" data-gallery="personal-projects" data-description="2018
+
+Squirrel
+
+Census
+
+Sighting
+
+Table"><img src="../gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../gallery/img-map-10.jpg" class="lightbox" data-gallery="personal-projects" data-description="Missouri
+
+Tree
+
+Canopy
+
+Density
+
+Map"><img src="../gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../gallery/img-map-11.jpg" class="lightbox" data-gallery="personal-projects" data-description="Great
+
+Lakes
+
+Watershed
+
+Map"><img src="../gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="work-by-category" class="level2">
+<h2 class="anchored" data-anchor-id="work-by-category">Work by Category</h2>
 
 
 
+</section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-galleries">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-galleries-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-galleries'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-title" data-direction="asc">
@@ -580,6 +655,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":true,"selector":".lightbox","openEffect":"zoom"});</script>
 
 
 
