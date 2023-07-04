@@ -80,7 +80,7 @@ format:
     code-overflow: scroll
     grid:
       sidebar-width: 300px
-      body-width: 1000px
+      body-width: 1200px
       margin-width: 300px
       gutter-width: 2rem
     filters: 

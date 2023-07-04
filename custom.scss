@@ -58,14 +58,14 @@ $body-color:    $gray-900 !default;
 // Fonts
 
 // stylelint-disable-next-line value-keyword-case
-$font-family-sans-serif:    "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-sans-serif:  "Overpass"  ,"Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
 $headings-font-weight:      400 !default;
 
 // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
 // $font-size-base affects the font size of the body text
 $font-size-root:              null !default;
-$font-size-base:              1.05rem !default; // Assumes the browser default, typically `16px`
+$font-size-base:              1.08rem !default; // Assumes the browser default, typically `16px`
 $font-size-sm:                $font-size-base * .875 !default;
 $font-size-lg:                $font-size-base * 1.20 !default;
 
@@ -79,7 +79,7 @@ $font-weight-bolder:          bolder !default;
 
 $font-weight-base:            $font-weight-normal !default;
 
-$line-height-base:            1.5 !default;
+$line-height-base:            1.6 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
@@ -119,7 +119,7 @@ $progress-height:               .5rem !default;
 
 // Variables
 
-$web-font-path: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" !default;
+$web-font-path: "https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700&display=swap" !default;
 @if $web-font-path {
   @import url($web-font-path);
 }
@@ -180,7 +180,7 @@ h1::after {
 
 @media (min-width: 991.98px) {
   #quarto-header > nav {
-    height: 64px;
+    height: 68px;
   }
   
   
@@ -198,16 +198,6 @@ h1::after {
   margin-top: -6px;
 }
 
-@media (min-width: 991.98px) {
-.navbar-nav li:hover::before {
-  content: "\2022";
-  display: block;
-  position: relative;
-  top: -10px;
-  left: 50%;
-  margin-bottom: -25.5px;
-  color: #f5c25c;
-}}
 
 
 
@@ -229,6 +219,7 @@ justify-content: center;
 .navbar .quarto-navbar-tools i {
   font-size: 25px;
 }
+
   
  /* Toggle icon*/ 
 .navbar-dark .navbar-toggler-icon {
@@ -304,10 +295,11 @@ justify-content: center;
 
 
 @media (max-width: 991.98px) {
-.me-auto {
+.ms-auto {
   margin-right: auto !important;
   margin-left: auto;
   text-align: center;
+  margin-bottom: 2em;
 }}
 
 
@@ -320,11 +312,12 @@ justify-content: center;
   color: white;
   padding-top: 2.5em;
   padding-bottom: 2.5em;
-  background:
+  /*background:
 		linear-gradient(90deg, $dark-purple ($dot-space - $dot-size), transparent 1%) center,
 		linear-gradient($dark-purple ($dot-space - $dot-size), transparent 1%) center,	$dot-color;
-	background-size: $dot-space $dot-space;
+	background-size: $dot-space $dot-space;*/
 	border-bottom: $gray-500 solid 1px;
+	background-image: linear-gradient($dark-purple, $gray-700);
 }
 /*
 .quarto-title-banner::after {
@@ -555,9 +548,6 @@ div.quarto-about-trestles {
   transform: scaleX(-1);
 }
 
-.bg-banner-1 p {
-  font-size: 1.2em;
-}
 
 .bg-banner-1 .fa-solid {
   padding-right: 0 !important;

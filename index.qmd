@@ -64,7 +64,7 @@ Please [reach out](contact.qmd) if you have any inquires or would like to collab
 ::: {.bg-banner-1}
 
 
-## My Portfolio {{< fa star size=small >}} {{< fa star size=small >}} {{< fa star size=small >}}
+## Exploring My Portfolio
 
 This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my [CV](about.qmd) to learn more. Thank you!
 
