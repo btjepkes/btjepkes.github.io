@@ -49,7 +49,6 @@ listing:
 
 ::: {.bg-banner-1}
 
-
 ## Exploring My Portfolio
 
 This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my [CV](about.qmd) to learn more. Thank you!

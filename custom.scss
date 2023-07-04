@@ -509,26 +509,27 @@ div.quarto-about-trestles {
 
 
 
-.bg-banner-1::before {
+/*.bg-banner-1::after {
   content: "";
   position: absolute;
-  top: 0;
+  bottom: -60;
   left: calc(-50vw + 50%);
   width: 99.4vw;
-  height: 100%;
+  height: 130%;
   z-index: -1;
   overflow-x: hidden;
   background: #fff;
-/*  background-image: url(vector-green-trees.svg);
+  background-image: url(vector-green-trees.svg);
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
   background-color: white;
-  opacity: 0.10;
-  transform: scaleX(-1);*/
-}
+  opacity: 0.19;
+  transform: scaleY(-1) scaleX(1);
+  margin-top: 40px;
+}*/
 
-.bg-banner-1::after {
+.bg-banner-1::before {
   content: "";
   position: absolute;
   top: -30%;
