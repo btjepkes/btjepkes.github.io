@@ -181,7 +181,7 @@ h1::after {
 
 @media (min-width: 991.98px) {
   #quarto-header > nav {
-    height: 68px;
+    height: 65px;
   }
   
   
@@ -279,9 +279,10 @@ nav .nav-item:not(.compact) {
 
 .navbar-brand span::after {
   content: "Ecology • Geospatial • Data Science";
+  font-weight: 400;
   letter-spacing: 0.01em;
   display: block;
-  font-size: 10px;
+  font-size: 11px;
   margin-top: -6px;
   color: $tan;
 }
@@ -452,11 +453,13 @@ div.quarto-about-trestles .about-contents {
   padding-right: 0 !important;
 }
 
-#about {
-  border: solid 4px $gray-500;
+.about {
+  border: solid 6px $light-green;
   padding: 20px;
   border-radius: 8px;
-  margin-top: 3em;
+  background: $gray-100;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 #about-id h3 {
@@ -620,8 +623,8 @@ div.quarto-about-trestles {
 
 .feature {
   margin-top: 20px;
-  padding-left: 20px;
-  padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 0px;
 }
 
 @media (min-width: 800px) { 
@@ -742,28 +745,18 @@ div.quarto-about-trestles {
 // TEMP !!!
 
 
-.consultant-section {
-  display: flex;
-  margin-bottom: 30px;
-  margin-left: 0px;
-}
 
 .consultant-info {
-  display: flex;
-  align-items: flex-start;
   margin-right: 20px;
-  margin-top: 40px;
 }
 
 .headshot {
-  width:220px !important;
-  margin-right: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 
 @media screen and (max-width: 600px) {
-  .consultant-section {
+  .about {
     flex-direction: column;
   }
 }
