@@ -233,7 +233,7 @@ justify-content: center;
   
 .navbar-brand-container {
   max-width: 100%;
-  margin-top: -6px;
+  margin-top: 4px;
 }
 /*
 .navbar-brand {
@@ -260,6 +260,11 @@ justify-content: center;
 
 }
 
+nav .nav-item:not(.compact) {
+    padding-top: 6px;
+}
+
+
 /*** MOBILE ONLY - stop ***/
 
 
@@ -274,7 +279,7 @@ justify-content: center;
 
 .navbar-brand span::after {
   content: "Ecology • Geospatial • Data Science";
-  letter-spacing: 0.06em;
+  letter-spacing: 0.01em;
   display: block;
   font-size: 10px;
   margin-top: -6px;
@@ -447,10 +452,11 @@ div.quarto-about-trestles .about-contents {
   padding-right: 0 !important;
 }
 
-#about-id {
-  border: solid 2px $gray-500;
+#about {
+  border: solid 4px $gray-500;
   padding: 20px;
   border-radius: 8px;
+  margin-top: 3em;
 }
 
 #about-id h3 {
