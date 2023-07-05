@@ -139,7 +139,7 @@ h1::after {
   content: "";
   position: relative;
   display: block;
-  border-top: solid 8px $gray-100;
+  border-top: solid 4px $gray-100;
   margin-top: 30px;
   width: 20%;
 }
@@ -262,7 +262,7 @@ justify-content: center;
 }
 
 nav .nav-item:not(.compact) {
-    padding-top: 6px;
+    padding-top: 3px;
 }
 
 
@@ -316,7 +316,7 @@ nav .nav-item:not(.compact) {
 		linear-gradient($dark-purple ($dot-space - $dot-size), transparent 1%) center,	$dot-color;
 	background-size: $dot-space $dot-space;*/
 	border-bottom: $gray-500 solid 1px;
-	background: $blue-1;
+	background: $dark-purple;
 	
 }
 /*
@@ -457,24 +457,31 @@ div.quarto-about-trestles .about-contents {
 }
 
 .about {
-  border: solid 10px $dark-green; /*#ecefee*/
-  padding: 10px;
-  border-radius: 8px;
-  background: $dark-green;
-  color: white;
   display: flex;
   flex-direction: row-reverse;
-  box-shadow: 0 0 5px 2px $gray-500;
 }
 
+/*.about::before {
+  content: "";
+  background: $dark-green;
+  position: absolute;
+  bottom: 0;
+  left: calc(-50vw + 50%);
+  width: 60vw;
+  height: 50%;
+  overflow-x: hidden;
+  z-index: -1;
+}*/
+
+
 .about h3 {
-  color: white;
   font-size: 2.0em;
   margin-bottom: 1rem;
 }
 
+.about p,
 .about a {
-  color: $tan;
+  background: white;
 }
 
 
@@ -519,17 +526,17 @@ div.quarto-about-trestles {
 .bg-banner-1::before {
   content: "";
   position: absolute;
-  top: -65%;
+  top: -80%;
   left: calc(-50vw + 50%);
   width: 99.4vw;
-  height: 160%;
+  height: 180%;
   z-index: -1;
   overflow-x: hidden;
-  background-image: url(vector-green-trees.svg);
+  background-image: url(mountains.svg);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-  opacity: 0.09;
+  opacity: 0.9;
   transform: scaleX(-1);
 }
 
