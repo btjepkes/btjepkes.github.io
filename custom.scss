@@ -468,10 +468,12 @@ div.quarto-about-trestles .about-contents {
   
 }
 
+.bg-banner-1 p,
 .about p {
-  background: white;
-  padding: 0px 8px;
-  border-radius: 4px;}
+  background: rgba(255,255,255,0.7);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
 
 .headshot-img {
   box-shadow: 12px 16px $light-green;
@@ -519,17 +521,34 @@ div.quarto-about-trestles {
 .bg-banner-1::before {
   content: "";
   position: absolute;
-  top: -80%;
+  top: -50%;
   left: calc(-50vw + 50%);
   width: 99.4vw;
-  height: 180%;
+  height: 150%;
   z-index: -1;
   overflow-x: hidden;
   background-image: url(mountains.svg);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 1.0;
+  transform: scaleX(-1);
+}
+
+.bg-banner-1::after {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: calc(-50vw + 50%);
+  width: 99.4vw;
+  height: 200%;
+  z-index: -1;
+  overflow-x: hidden;
+  background-image: url(mountains.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  opacity: 1.0;
   transform: scaleX(-1);
 }
 
