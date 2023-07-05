@@ -13,24 +13,11 @@ My expertise lies in **wildlife ecology and management**, which has been the foc
 
 ::: {.consultant-section}
 
-::: {.headshot}
-{{< fa graduation-cap size=3x >}}
-:::
-
 ::: {.consultant-info}
 
-My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree.
+- My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree.
 
-:::
-
-
-::: {.headshot}
-{{< fa person-digging size=3x >}}
-:::
-
-::: {.consultant-info}
-
-Additionally, I complemented my academic knowledge through internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.
+- Additionally, I complemented my academic knowledge through internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.
 
 :::
 
@@ -46,24 +33,11 @@ As I delved further into my wildlife career, I came to the realization that loca
 
 ::: {.consultant-section}
 
-::: {.headshot}
-{{< fa satellite-dish size=3x >}}
-:::
-
 ::: {.consultant-info}
 
-Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work.
+- Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work.
 
-:::
-
-
-::: {.headshot}
-{{< fa certificate size=3x >}}
-:::
-
-::: {.consultant-info}
-
-I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.
+- I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.
 
 :::
 
@@ -78,26 +52,14 @@ With a fervent desire to deepen my knowledge of the fundamental principles of ge
 
 ::: {.consultant-section}
 
-::: {.headshot}
-{{< fa book-atlas size=3x >}}
-:::
-
 ::: {.consultant-info}
 
-Through my Master's program, I will have the opportunity to study a broad range of topics spanning physical, human, and environmental geography.
+- Through my Master's program, I will have the opportunity to study a broad range of topics spanning physical, human, and environmental geography.
+
+- My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master's program.
 
 :::
 
-
-::: {.headshot}
-{{< fa circle-nodes size=3x >}}
-:::
-
-::: {.consultant-info}
-
-My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master's program.
-
-:::
 
 :::
 
