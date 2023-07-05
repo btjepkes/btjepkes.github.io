@@ -51,7 +51,7 @@ listing:
 
 ::: {.headshot}
 
-![](img-ben-portrait-2.jpg)
+![](img-ben-portrait-2.jpg){.nolightbox .headshot-img}
 
 :::
 
@@ -69,7 +69,7 @@ Please [reach out](contact.qmd) if you have any inquires or would like to collab
 
 ::: {.bg-banner-1}
 
-#### Exploring My Portfolio
+#### **Exploring My Portfolio**
 
 This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my [CV](about.qmd) to learn more. Thank you!
 

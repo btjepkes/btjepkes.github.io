@@ -461,27 +461,20 @@ div.quarto-about-trestles .about-contents {
   flex-direction: row-reverse;
 }
 
-/*.about::before {
-  content: "";
-  background: $dark-green;
-  position: absolute;
-  bottom: 0;
-  left: calc(-50vw + 50%);
-  width: 60vw;
-  height: 50%;
-  overflow-x: hidden;
-  z-index: -1;
-}*/
-
 
 .about h3 {
   font-size: 2.0em;
   margin-bottom: 1rem;
+  
 }
 
-.about p,
-.about a {
+.about p {
   background: white;
+  padding: 0px 8px;
+  border-radius: 4px;}
+
+.headshot-img {
+  box-shadow: 12px 16px $light-green;
 }
 
 
