@@ -30,13 +30,14 @@ $dark-green: #20595d !default;
 $light-green: #2b6165 !default;
 $tan: #e6e67b !default;
 $dark-purple: #282a36 !default;
+$blue-1: #193048 !default;
 
 $bg-color: hsl(256,33,10);
 $dot-color: #556b6c;
 $dot-size: 1px;
 $dot-space: 16px;
 
-$primary:       $dark-green !default;
+$primary:       $blue-1 !default;
 $secondary:     $white !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -96,7 +97,7 @@ $h6-font-size:                $font-size-base !default;
 // Navbar
 
 
-$navbar-bg: $light-green;
+$navbar-bg: $blue-1;
 $navbar-fg: $gray-100;
 
 $navbar-dark-hover-color:       rgba($white, 1) !default;
@@ -138,7 +139,7 @@ h1::after {
   content: "";
   position: relative;
   display: block;
-  border-top: solid 8px $light-green;
+  border-top: solid 8px $gray-100;
   margin-top: 30px;
   width: 20%;
 }
@@ -288,7 +289,7 @@ nav .nav-item:not(.compact) {
 }
 
 .navbar-collapse {
-  background: $light-green;
+  background: $blue-1;
 }
 
 
@@ -315,7 +316,8 @@ nav .nav-item:not(.compact) {
 		linear-gradient($dark-purple ($dot-space - $dot-size), transparent 1%) center,	$dot-color;
 	background-size: $dot-space $dot-space;*/
 	border-bottom: $gray-500 solid 1px;
-	background-image: linear-gradient($dark-purple, $gray-700);
+	background: $blue-1;
+	
 }
 /*
 .quarto-title-banner::after {
@@ -454,24 +456,26 @@ div.quarto-about-trestles .about-contents {
 }
 
 .about {
-  border: solid 6px #ecefee;
-  padding: 20px;
+  border: solid 10px $dark-green; /*#ecefee*/
+  padding: 10px;
   border-radius: 8px;
-  background: $gray-100;
+  background: $dark-green;
+  color: white;
   display: flex;
   flex-direction: row-reverse;
+  box-shadow: 0 0 5px 2px $gray-500;
 }
 
-#about-id h3 {
-  color: $dark-green;
+.about h3 {
+  color: white;
   font-size: 2.0em;
   margin-bottom: 1rem;
-  margin-top: 0em;
 }
 
-#about-id p {
-  font-size: 1.02em;
+.about a {
+  color: $tan;
 }
+
 
 @media (max-width: 991.98px) {
 .centered {
@@ -511,45 +515,22 @@ div.quarto-about-trestles {
 }
 
 
-
-/*.bg-banner-1::after {
-  content: "";
-  position: absolute;
-  bottom: -60;
-  left: calc(-50vw + 50%);
-  width: 99.4vw;
-  height: 130%;
-  z-index: -1;
-  overflow-x: hidden;
-  background: #fff;
-  background-image: url(vector-green-trees.svg);
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-size: cover;
-  background-color: white;
-  opacity: 0.19;
-  transform: scaleY(-1) scaleX(1);
-  margin-top: 40px;
-}*/
-
 .bg-banner-1::before {
   content: "";
   position: absolute;
-  top: -30%;
+  top: -65%;
   left: calc(-50vw + 50%);
   width: 99.4vw;
-  height: 130%;
+  height: 160%;
   z-index: -1;
   overflow-x: hidden;
   background-image: url(vector-green-trees.svg);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-  background-color: white;
   opacity: 0.09;
   transform: scaleX(-1);
 }
-
 
 .bg-banner-1 .fa-solid {
   padding-right: 0 !important;
