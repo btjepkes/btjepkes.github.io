@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
-<meta name="dcterms.date" content="2023-05-05">
+<meta name="dcterms.date" content="2023-03-26">
 
-<title>Benjamin Tjepkes - Creating an Interactive Heatmap of GBIF Occurrences Using R</title>
+<title>Benjamin Tjepkes - How Scientists Use GIS to Study Wildlife</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -72,9 +38,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -91,8 +54,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="Benjamin Tjepkes - Creating an Interactive Heatmap of GBIF Occurrences Using R">
-<meta property="og:description" content="In this blog post, we demonstrate how to use the rgbif package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap using Leaflet.">
+<meta property="og:title" content="Benjamin Tjepkes - How Scientists Use GIS to Study Wildlife">
+<meta property="og:description" content="In this post, we explore the fascinating ways that geospatial technologies are being used in the realm of wildlife research. From tracking animal movements and habitat use to assessing the impact of disease on ecosystems, we explore how spatial methods and technologies are playing an increasingly important role in solving some of the most pressing problems facing the planet.">
 <meta property="og:image" content="https://btjepkes.github.io/posts/bg-pine-blue.jpg">
 <meta property="og:site-name" content="Benjamin Tjepkes">
 </head>
@@ -169,12 +132,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Creating an Interactive Heatmap of GBIF Occurrences Using R</h1>
-            <p class="subtitle lead">Exploring concentrations of Greater sage grouse records in the western United States using Leaflet.</p>
+      <h1 class="title">How Scientists Use GIS to Study Wildlife</h1>
+            <p class="subtitle lead">Exploring use cases of geospatial technologies in wildlife conservation.</p>
                                 <div class="quarto-categories">
-                <div class="quarto-category">R</div>
                 <div class="quarto-category">Wildlife</div>
-                <div class="quarto-category">Cartography</div>
+                <div class="quarto-category">GIS</div>
               </div>
                   </div>
   </div>
@@ -192,7 +154,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 5, 2023</p>
+        <p class="date">March 26, 2023</p>
       </div>
     </div>
     
@@ -202,7 +164,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div>
     <div class="abstract">
       <div class="abstract-title"></div>
-      In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap using Leaflet.
+      In this post, we explore the fascinating ways that geospatial technologies are being used in the realm of wildlife research. From tracking animal movements and habitat use to assessing the impact of disease on ecosystems, we explore how spatial methods and technologies are playing an increasingly important role in solving some of the most pressing problems facing the planet.
     </div>
   </div>
   
@@ -214,18 +176,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a>
+  <li><a href="#the-spatial-revolution-is-now" id="toc-the-spatial-revolution-is-now" class="nav-link active" data-scroll-target="#the-spatial-revolution-is-now">The Spatial Revolution Is Now</a>
   <ul class="collapse">
-  <li><a href="#focal-species" id="toc-focal-species" class="nav-link" data-scroll-target="#focal-species">Focal Species</a></li>
-  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">Data Sources</a></li>
+  <li><a href="#what-is-gis" id="toc-what-is-gis" class="nav-link" data-scroll-target="#what-is-gis">What is GIS?</a></li>
+  <li><a href="#what-are-the-components" id="toc-what-are-the-components" class="nav-link" data-scroll-target="#what-are-the-components">What are the components?</a></li>
+  <li><a href="#what-are-the-general-applications" id="toc-what-are-the-general-applications" class="nav-link" data-scroll-target="#what-are-the-general-applications">What are the general applications?</a></li>
   </ul></li>
-  <li><a href="#workflow" id="toc-workflow" class="nav-link" data-scroll-target="#workflow">Workflow</a>
+  <li><a href="#providing-solutions-to-study-wildlife" id="toc-providing-solutions-to-study-wildlife" class="nav-link" data-scroll-target="#providing-solutions-to-study-wildlife">Providing Solutions to Study Wildlife</a>
   <ul class="collapse">
-  <li><a href="#load-packages" id="toc-load-packages" class="nav-link" data-scroll-target="#load-packages">1. Load Packages</a></li>
-  <li><a href="#search-gbif" id="toc-search-gbif" class="nav-link" data-scroll-target="#search-gbif">2. Search GBIF</a></li>
-  <li><a href="#extract-locations" id="toc-extract-locations" class="nav-link" data-scroll-target="#extract-locations">3. Extract Locations</a></li>
-  <li><a href="#create-heatmap" id="toc-create-heatmap" class="nav-link" data-scroll-target="#create-heatmap">4. Create Heatmap</a></li>
+  <li><a href="#surveying-wildlife" id="toc-surveying-wildlife" class="nav-link" data-scroll-target="#surveying-wildlife">#1 - Surveying wildlife</a></li>
+  <li><a href="#habitat-analysis" id="toc-habitat-analysis" class="nav-link" data-scroll-target="#habitat-analysis">#2 - Habitat analysis</a></li>
+  <li><a href="#movement-patterns" id="toc-movement-patterns" class="nav-link" data-scroll-target="#movement-patterns">#3 - Movement patterns</a></li>
+  <li><a href="#disease-mapping" id="toc-disease-mapping" class="nav-link" data-scroll-target="#disease-mapping">#4 - Disease mapping</a></li>
   </ul></li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
   </ul>
 </nav>
     </div>
@@ -235,100 +199,67 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div class="intro-callout callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Article Takeaways
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<section id="the-spatial-revolution-is-now" class="level2">
+<h2 class="anchored" data-anchor-id="the-spatial-revolution-is-now">The Spatial Revolution Is Now</h2>
+<p>Advancements in geospatial technologies are revolutionizing the field of wildlife research and conservation, providing new and innovative ways to collect and analyze data. Among these technologies, Geographic Information Systems (GIS) have emerged as a powerful tool for understanding the spatial relationships between wildlife, their habitat, and the environment in which they live. By combining maps and other location-based tools, GIS can help conservationists and biologists make informed decisions and take targeted actions to preserve biodiversity and protect threatened species.</p>
+<section id="what-is-gis" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-gis">What is GIS?</h3>
+<p>Geographic Information Systems (GIS) is a technology that enables the collection, management, analysis, and visualization of spatial data. Essentially, it’s a computer-based tool that allows users to create and work with maps and other location-based data. It can range from desktop GIS software used to design maps to GPS-enabled mobile devices that collect location information of physical objects in the field.</p>
+</section>
+<section id="what-are-the-components" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-the-components">What are the components?</h3>
+<p>Sometimes it can be helpful to discuss GIS in the terms of its discrete elements, which all work together to form the system. These components include hardware, software, data, and people.</p>
 <ul>
-<li>Querying species occurrence data from the GBIF API using <code>rgbif</code> within RStudio.</li>
-<li>Using the <code>leaflet</code> package to make interactive maps, including heatmaps.</li>
-<li>Cleaning data using basic <code>tidyverse</code> verbs.</li>
+<li><p>The <strong>hardware component</strong> of GIS typically includes GPS receivers and other mobile devices that can be used to collect spatial data in the field. For example, biologists might use GPS-equipped collars to track the movements of individual animals, or drones to map remote and inaccessible terrain.</p></li>
+<li><p>The <strong>software component</strong> of GIS encompasses a variety of tools for processing and analyzing spatial data. Some of the most popular GIS software programs include ArcGIS, QGIS, and Google Earth. These programs allow users to create maps, perform spatial analysis, and visualize data in a variety of ways. They can also integrate data from a range of sources, including satellite imagery, aerial photography, and field surveys.</p></li>
+<li><p>The <strong>data component</strong> of GIS includes a vast array of information, from digital maps and satellite imagery to climate data and biological inventories. To be useful, this data must be organized, standardized, and stored in a way that can be easily accessed and analyzed by GIS software.</p></li>
+<li><p>Finally, the <strong>people component</strong> of GIS includes the scientists, technicians, and other professionals who use the technology to collect, manage, and interpret spatial data. These people have the expertise to collect, organize, and present spatial data accurately and in accordance with project goals.</p></li>
 </ul>
-</div>
-</div>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>Let’s first run through the species of focus and the data sources for this post.</p>
-<section id="focal-species" class="level3">
-<h3 class="anchored" data-anchor-id="focal-species">Focal Species</h3>
-<p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS" data-gallery="quarto-lightbox-gallery-1"><img src="img-sage-grouse.jpg" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption">Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
-</figure>
-</div>
-<p>Sage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.</p>
+<p>With the right combination of hardware, software, data, and expertise, GIS can be an incredibly powerful tool for advancing our understanding of the natural world and developing effective conservation strategies.</p>
 </section>
-<section id="data-sources" class="level3">
-<h3 class="anchored" data-anchor-id="data-sources">Data Sources</h3>
-<p>Today, we will pull records of sage grouse occurrences from the <a href="https://www.gbif.org/">Global Biodiversity Information Facility</a>. GBIF is a database of species occurrence records from sources all over the globe. <code>rgbif</code>is an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data.</p>
+<section id="what-are-the-general-applications" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-the-general-applications">What are the general applications?</h3>
+<p>GIS has numerous applications, from helping urban planners optimize city layouts to assisting epidemiologists in tracking disease outbreaks. With its adaptive and always-evolving set of tools, GIS is beneficial to an unlimited number of occupations, including these:</p>
+<ul>
+<li>Business Analysis</li>
+<li>Landscape and Civil Engineering</li>
+<li>Watershed Management</li>
+<li>Land Surveying</li>
+<li>Emergency Management</li>
+</ul>
+<p>In the context of wildlife research and conservation, GIS is a powerful tool that allows scientists to gain insights into the spatial relationships between different ecological variables, such as habitat types, climate patterns, and animal movements.</p>
 </section>
 </section>
-<section id="workflow" class="level2">
-<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
-<section id="load-packages" class="level3">
-<h3 class="anchored" data-anchor-id="load-packages">1. Load Packages</h3>
-<p>Our first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the <code>install.packages()</code> function.</p>
-<div class="sourceCode" id="annotated-cell-1"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-1-1" class="code-annotation-target"><a href="#annotated-cell-1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("rgbif")</span></span>
-<span id="annotated-cell-1-2"><a href="#annotated-cell-1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rgbif)</span>
-<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-1-3" class="code-annotation-target"><a href="#annotated-cell-1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("leaflet")</span></span>
-<span id="annotated-cell-1-4"><a href="#annotated-cell-1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span>
-<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-1-5" class="code-annotation-target"><a href="#annotated-cell-1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("leaflet.extras")</span></span>
-<span id="annotated-cell-1-6"><a href="#annotated-cell-1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet.extras)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<dl class="code-annotation-container-grid">
-<dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
-<dd>
-<span data-code-lines="1,2" data-code-cell="annotated-cell-1" data-code-annotation="1">For accessing GBIF data. Install if necessary.</span>
-</dd>
-<dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
-<dd>
-<span data-code-lines="3,4" data-code-cell="annotated-cell-1" data-code-annotation="2">For mapping data interactively. Install if necessary.</span>
-</dd>
-<dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
-<dd>
-<span data-code-lines="5,6" data-code-cell="annotated-cell-1" data-code-annotation="3">For the heatmap functionality. Install if necessary.</span>
-</dd>
-</dl>
+<section id="providing-solutions-to-study-wildlife" class="level2">
+<h2 class="anchored" data-anchor-id="providing-solutions-to-study-wildlife">Providing Solutions to Study Wildlife</h2>
+<p>Geographic information systems (GIS) have revolutionized wildlife research by providing tools to manage, analyze, and visualize spatial data. <strong>Here are four ways wildlife researchers use GIS to study wildlife and their habitats:</strong></p>
+<section id="surveying-wildlife" class="level3">
+<h3 class="anchored" data-anchor-id="surveying-wildlife">#1 - Surveying wildlife</h3>
+<p>One of the main aims of biologists that need to manage wildlife populations is getting an estimate of density (i.e., animals per unit area), sex ratio (i.e., number of females vs.&nbsp;number of males), and age structure (i.e., the distribution of age classes within a population).</p>
+<p>Population metrics like these and many others are often the result of data collected during field surveys, where biologists count the number of individuals they see or hear along a specified survey route (in most cases). GIS technologies, like those discussed in the below video, are used by biologists to navigate and collect data during surveys.</p>
 </section>
-<section id="search-gbif" class="level3">
-<h3 class="anchored" data-anchor-id="search-gbif">2. Search GBIF</h3>
-<p>Now that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States. Using the taxonomic name for the species, we can double check the metadata before moving forward.</p>
-<div class="sourceCode" id="annotated-cell-2"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-2-1" class="code-annotation-target"><a href="#annotated-cell-2-1" aria-hidden="true" tabindex="-1"></a>grouse_info <span class="ot">&lt;-</span> <span class="fu">name_backbone</span>(<span class="st">"Centrocercus urophasianus"</span>)</span>
-<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-2-2" class="code-annotation-target"><a href="#annotated-cell-2-2" aria-hidden="true" tabindex="-1"></a>grouse_info</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<dl class="code-annotation-container-grid">
-<dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
-<dd>
-<span data-code-lines="1" data-code-cell="annotated-cell-2" data-code-annotation="1">This function allows us to see the taxonomic information for our focal species.</span>
-</dd>
-<dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
-<dd>
-<span data-code-lines="2" data-code-cell="annotated-cell-2" data-code-annotation="2">This prints that information to the console.</span>
-</dd>
-</dl>
+<section id="habitat-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="habitat-analysis">#2 - Habitat analysis</h3>
+<p>GIS can be used to map and analyze wildlife habitat by collecting data on environmental variables that have been supported by studies to impact the use of that area by wildlife. These metrics could include habitat elements like vegetation type, topographic features, water availability, and other factors that influence habitat quality. This information helps researchers understand the spatial distribution of wildlife species and identify areas that may be important for conservation.</p>
+<p>The mapping capabilities of GIS allow researchers to understand the impact of humans on wildlife, especially when it comes to the fragmentation and reduction of habitat. By mapping and analyzing the size, shape, and connectivity of different habitat patches, they can identify areas where habitat fragmentation is a problem and develop strategies to address it.</p>
 </section>
-<section id="extract-locations" class="level3">
-<h3 class="anchored" data-anchor-id="extract-locations">3. Extract Locations</h3>
-<p>As we explore our newly loaded dataframe, you will see there are two columns</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>wyoming_coords <span class="ot">&lt;-</span> wyoming<span class="sc">$</span>data[, <span class="fu">c</span>(<span class="st">"decimalLatitude"</span>, <span class="st">"decimalLongitude"</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="movement-patterns" class="level3">
+<h3 class="anchored" data-anchor-id="movement-patterns">#3 - Movement patterns</h3>
+<p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
+<p>Biologists use GIS to create models of animal movement, which can help them understand how animals use different habitats and how they move across the landscape. These models combine data on animal behavior, habitat characteristics, and environmental variables. This can be used to identify areas where animals are most likely to be found, as well as areas where targeted conservation efforts would be fruitful.</p>
 </section>
-<section id="create-heatmap" class="level3">
-<h3 class="anchored" data-anchor-id="create-heatmap">4. Create Heatmap</h3>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">leaflet</span>(wyoming_coords) <span class="sc">%&gt;%</span> </span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addTiles</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addHeatmap</span>(<span class="at">lng =</span> <span class="sc">~</span>decimalLongitude,</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>             <span class="at">lat =</span> <span class="sc">~</span>decimalLatitude,</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>             <span class="at">blur =</span> <span class="dv">20</span>,</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>             <span class="at">max =</span> <span class="fl">0.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="disease-mapping" class="level3">
+<h3 class="anchored" data-anchor-id="disease-mapping">#4 - Disease mapping</h3>
+<p>Wildlife disease ecologists use GIS to track the spread of diseases within and among wildlife populations. Spatial analysis tools are used within a GIS to identify disease hotspots, clustering, and spatial trends. By mapping disease outbreaks and analyzing the spatial patterns of infections, researchers can identify areas that may be at high risk and develop targeted interventions to prevent the spread of disease.</p>
+<p>GIS can also be used to model the spread of diseases in wildlife populations. By simulating the movement of animals across the landscape and the transmission of the disease, researchers can predict the likelihood and spread of disease outbreaks. This allows wildlife managers to control the spread of certain diseases by targeting certain high-risk areas.</p>
+</section>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
+<p>Overall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.</p>
+<p>Until next time, Ben</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -585,7 +516,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- © Copyright 2023 - Benjamin Tjepkes
+ © Copyright 2021-2023 • Benjamin Tjepkes
   </li>  
 </ul>
     </div>   
@@ -626,7 +557,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","loop":true,"selector":".lightbox"});</script>
 
 
 

@@ -13,8 +13,6 @@
 <url>https://btjepkes.github.io/assets/bg-pines-blog-orange-sm.png</url>
 <title>Benjamin Tjepkes</title>
 <link>https://btjepkes.github.io/posts.html</link>
-<height>43</height>
-<width>144</width>
 </image>
 <generator>quarto-1.3.353</generator>
 <lastBuildDate>Sun, 28 May 2023 05:00:00 GMT</lastBuildDate>
@@ -265,15 +263,15 @@ font-style: inherit;">library</span>(leaflet.extras)</span><div class="code-anno
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-1" data-code-annotation="1" data-code-lines="1,2">For accessing GBIF data. Install if necessary.</span>
+<span data-code-lines="1,2" data-code-cell="annotated-cell-1" data-code-annotation="1">For accessing GBIF data. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-cell="annotated-cell-1" data-code-annotation="2" data-code-lines="3,4">For mapping data interactively. Install if necessary.</span>
+<span data-code-lines="3,4" data-code-cell="annotated-cell-1" data-code-annotation="2">For mapping data interactively. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
 <dd>
-<span data-code-cell="annotated-cell-1" data-code-annotation="3" data-code-lines="5,6">For the heatmap functionality. Install if necessary.</span>
+<span data-code-lines="5,6" data-code-cell="annotated-cell-1" data-code-annotation="3">For the heatmap functionality. Install if necessary.</span>
 </dd>
 </dl>
 </section>
@@ -291,11 +289,11 @@ font-style: inherit;">"Centrocercus urophasianus"</span>)</span>
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-annotation="1" data-code-lines="1">This function allows us to see the taxonomic information for our focal species.</span>
+<span data-code-lines="1" data-code-cell="annotated-cell-2" data-code-annotation="1">This function allows us to see the taxonomic information for our focal species.</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-annotation="2" data-code-lines="2">This prints that information to the console.</span>
+<span data-code-lines="2" data-code-cell="annotated-cell-2" data-code-annotation="2">This prints that information to the console.</span>
 </dd>
 </dl>
 </section>
@@ -518,6 +516,85 @@ font-style: inherit;"># Add map title</span></span></code></pre></div>
   <category>Cartography</category>
   <guid>https://btjepkes.github.io/posts/post-three.html</guid>
   <pubDate>Sat, 22 Apr 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/posts/bg-pine-blue.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>How Scientists Use GIS to Study Wildlife</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/post-nine.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="the-spatial-revolution-is-now" class="level2">
+<h2 class="anchored" data-anchor-id="the-spatial-revolution-is-now">The Spatial Revolution Is Now</h2>
+<p>Advancements in geospatial technologies are revolutionizing the field of wildlife research and conservation, providing new and innovative ways to collect and analyze data. Among these technologies, Geographic Information Systems (GIS) have emerged as a powerful tool for understanding the spatial relationships between wildlife, their habitat, and the environment in which they live. By combining maps and other location-based tools, GIS can help conservationists and biologists make informed decisions and take targeted actions to preserve biodiversity and protect threatened species.</p>
+<section id="what-is-gis" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-gis">What is GIS?</h3>
+<p>Geographic Information Systems (GIS) is a technology that enables the collection, management, analysis, and visualization of spatial data. Essentially, it’s a computer-based tool that allows users to create and work with maps and other location-based data. It can range from desktop GIS software used to design maps to GPS-enabled mobile devices that collect location information of physical objects in the field.</p>
+</section>
+<section id="what-are-the-components" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-the-components">What are the components?</h3>
+<p>Sometimes it can be helpful to discuss GIS in the terms of its discrete elements, which all work together to form the system. These components include hardware, software, data, and people.</p>
+<ul>
+<li><p>The <strong>hardware component</strong> of GIS typically includes GPS receivers and other mobile devices that can be used to collect spatial data in the field. For example, biologists might use GPS-equipped collars to track the movements of individual animals, or drones to map remote and inaccessible terrain.</p></li>
+<li><p>The <strong>software component</strong> of GIS encompasses a variety of tools for processing and analyzing spatial data. Some of the most popular GIS software programs include ArcGIS, QGIS, and Google Earth. These programs allow users to create maps, perform spatial analysis, and visualize data in a variety of ways. They can also integrate data from a range of sources, including satellite imagery, aerial photography, and field surveys.</p></li>
+<li><p>The <strong>data component</strong> of GIS includes a vast array of information, from digital maps and satellite imagery to climate data and biological inventories. To be useful, this data must be organized, standardized, and stored in a way that can be easily accessed and analyzed by GIS software.</p></li>
+<li><p>Finally, the <strong>people component</strong> of GIS includes the scientists, technicians, and other professionals who use the technology to collect, manage, and interpret spatial data. These people have the expertise to collect, organize, and present spatial data accurately and in accordance with project goals.</p></li>
+</ul>
+<p>With the right combination of hardware, software, data, and expertise, GIS can be an incredibly powerful tool for advancing our understanding of the natural world and developing effective conservation strategies.</p>
+</section>
+<section id="what-are-the-general-applications" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-the-general-applications">What are the general applications?</h3>
+<p>GIS has numerous applications, from helping urban planners optimize city layouts to assisting epidemiologists in tracking disease outbreaks. With its adaptive and always-evolving set of tools, GIS is beneficial to an unlimited number of occupations, including these:</p>
+<ul>
+<li>Business Analysis</li>
+<li>Landscape and Civil Engineering</li>
+<li>Watershed Management</li>
+<li>Land Surveying</li>
+<li>Emergency Management</li>
+</ul>
+<p>In the context of wildlife research and conservation, GIS is a powerful tool that allows scientists to gain insights into the spatial relationships between different ecological variables, such as habitat types, climate patterns, and animal movements.</p>
+</section>
+</section>
+<section id="providing-solutions-to-study-wildlife" class="level2">
+<h2 class="anchored" data-anchor-id="providing-solutions-to-study-wildlife">Providing Solutions to Study Wildlife</h2>
+<p>Geographic information systems (GIS) have revolutionized wildlife research by providing tools to manage, analyze, and visualize spatial data. <strong>Here are four ways wildlife researchers use GIS to study wildlife and their habitats:</strong></p>
+<section id="surveying-wildlife" class="level3">
+<h3 class="anchored" data-anchor-id="surveying-wildlife">#1 - Surveying wildlife</h3>
+<p>One of the main aims of biologists that need to manage wildlife populations is getting an estimate of density (i.e., animals per unit area), sex ratio (i.e., number of females vs.&nbsp;number of males), and age structure (i.e., the distribution of age classes within a population).</p>
+<p>Population metrics like these and many others are often the result of data collected during field surveys, where biologists count the number of individuals they see or hear along a specified survey route (in most cases). GIS technologies, like those discussed in the below video, are used by biologists to navigate and collect data during surveys.</p>
+</section>
+<section id="habitat-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="habitat-analysis">#2 - Habitat analysis</h3>
+<p>GIS can be used to map and analyze wildlife habitat by collecting data on environmental variables that have been supported by studies to impact the use of that area by wildlife. These metrics could include habitat elements like vegetation type, topographic features, water availability, and other factors that influence habitat quality. This information helps researchers understand the spatial distribution of wildlife species and identify areas that may be important for conservation.</p>
+<p>The mapping capabilities of GIS allow researchers to understand the impact of humans on wildlife, especially when it comes to the fragmentation and reduction of habitat. By mapping and analyzing the size, shape, and connectivity of different habitat patches, they can identify areas where habitat fragmentation is a problem and develop strategies to address it.</p>
+</section>
+<section id="movement-patterns" class="level3">
+<h3 class="anchored" data-anchor-id="movement-patterns">#3 - Movement patterns</h3>
+<p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
+<p>Biologists use GIS to create models of animal movement, which can help them understand how animals use different habitats and how they move across the landscape. These models combine data on animal behavior, habitat characteristics, and environmental variables. This can be used to identify areas where animals are most likely to be found, as well as areas where targeted conservation efforts would be fruitful.</p>
+</section>
+<section id="disease-mapping" class="level3">
+<h3 class="anchored" data-anchor-id="disease-mapping">#4 - Disease mapping</h3>
+<p>Wildlife disease ecologists use GIS to track the spread of diseases within and among wildlife populations. Spatial analysis tools are used within a GIS to identify disease hotspots, clustering, and spatial trends. By mapping disease outbreaks and analyzing the spatial patterns of infections, researchers can identify areas that may be at high risk and develop targeted interventions to prevent the spread of disease.</p>
+<p>GIS can also be used to model the spread of diseases in wildlife populations. By simulating the movement of animals across the landscape and the transmission of the disease, researchers can predict the likelihood and spread of disease outbreaks. This allows wildlife managers to control the spread of certain diseases by targeting certain high-risk areas.</p>
+</section>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
+<p>Overall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.</p>
+<p>Until next time, Ben</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Wildlife</category>
+  <category>GIS</category>
+  <guid>https://btjepkes.github.io/posts/post-nine.html</guid>
+  <pubDate>Sun, 26 Mar 2023 05:00:00 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/posts/bg-pine-blue.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
