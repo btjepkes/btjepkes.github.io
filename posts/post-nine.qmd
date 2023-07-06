@@ -11,7 +11,7 @@ abstract-title: ""
 categories:
   - Wildlife
   - GIS
-image: bg-pine-blue.jpg
+image: img-001.svg
 ---
 
 ## The Spatial Revolution Is Now

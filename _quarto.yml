@@ -52,7 +52,7 @@ website:
         
   page-footer:
     center:
-      - text: "This site was proudly made using RStudio and Quarto."
+      - text: "Proudly made using RStudio and Quarto."
     left:
       - text: "&copy; Copyright 2021-2023 - B.W. Tjepkes"
     right:

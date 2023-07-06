@@ -507,6 +507,10 @@ div.quarto-about-trestles {
   fill: red;
 }
 
+.bg-banner-1 h4 {
+  padding-left: 8px;
+}
+
 
 .bg-banner-1::before {
   content: "";
@@ -575,6 +579,7 @@ div.quarto-about-trestles {
 
 .bg-banner-2 img {
   border-radius: 8px;
+  max-height: 150px;
 }
 
 
@@ -676,7 +681,7 @@ div.quarto-about-trestles {
 }
 
 .footer::before {
-  content: "Thank you for visiting the portfolio of Benjamin Tjepkes.";
+  content: "Thank you for visiting the website of Benjamin Tjepkes.";
   display: block;
   color: $tan;
   font-size: 1.2em;
