@@ -310,21 +310,11 @@ nav .nav-item:not(.compact) {
 
 // BANNER
 
-
-@media (max-width: 991.98px) {
-  
-  .quarto-title-banner {
-      padding-top: 2.5em;
-      padding-bottom: 2.5em;
-  }
-  
-}
-
 .quarto-title-banner {
   overflow: hidden;
   color: white;
-  padding-top: 3.2em;
-  padding-bottom: 3.2em;
+  padding-top: 2.4em;
+  padding-bottom: 2.4em;
 	background-size: $dot-space $dot-space;
 	border-bottom: $gray-500 solid 1px;
 	background-color: $blue-3;
@@ -416,9 +406,11 @@ nav .nav-item:not(.compact) {
 
 
 .quarto-category {
-  background: azure;
+  background: white;
   color: black;
   opacity: 1.0;
+  padding: 0.75em 0.75em 0.5em 0.75em !important;
+  line-height: 0.75em;
 }
 
 
@@ -684,13 +676,12 @@ div.quarto-about-trestles {
 }
 
 .footer::before {
-  content: "Thank you for visiting!";
+  content: "Thank you for visiting the portfolio of Benjamin Tjepkes.";
   display: block;
-  color: white;
+  color: $tan;
   font-size: 1.2em;
-  font-weight: bold;
-  background: $blue-2;
-  padding: 24px;
+  background: $blue-1;
+  padding: 20px;
   text-align: center;
 }
 
@@ -718,6 +709,7 @@ div.quarto-about-trestles {
 .nav-footer {
   flex-direction: column-reverse;
   align-items: center;
+  padding-bottom: 2em;
 }
   
 }
