@@ -52,7 +52,7 @@ website:
         
   page-footer:
     center:
-      - text: "This site was proudly made by Ben Tjepkes using Quarto.<br>Some content was transferred from The Conservation Companion."
+      - text: "This site was proudly made by Ben Tjepkes using Quarto."
     left:
       - text: "&copy; Copyright 2021-2023 - B.W. Tjepkes"
     right:

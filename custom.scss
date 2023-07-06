@@ -31,13 +31,16 @@ $light-green: #2b6165 !default;
 $tan: #e6e67b !default;
 $dark-purple: #282a36 !default;
 $blue-1: #193048 !default;
+$blue-2: #161d30 !default;
+$blue-3: #262939 !default;
+$blue-4: #06214e !default;
 
 $bg-color: hsl(256,33,10);
 $dot-color: #556b6c;
 $dot-size: 1px;
 $dot-space: 16px;
 
-$primary:       $blue-1 !default;
+$primary:       $blue-4 !default;
 $secondary:     $white !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -140,7 +143,7 @@ h1::after {
   position: relative;
   display: block;
   border-top: solid 4px $gray-100;
-  margin-top: 10px;
+  margin-top: 25px;
   width: 20%;
 }
 
@@ -192,6 +195,7 @@ h1::after {
   max-height: 48px;
   width: auto;
   padding-right: 6px;
+  margin-top: -3px;
 }
 
 
@@ -323,25 +327,21 @@ nav .nav-item:not(.compact) {
   padding-bottom: 3.2em;
 	background-size: $dot-space $dot-space;
 	border-bottom: $gray-500 solid 1px;
-	background-color: $dark-purple;
+	background-color: $blue-3;
 	box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
 }
 
-
-
-/*
-.quarto-title-banner::after {
+/*.quarto-title-banner::before {
   content: '';
   position: absolute;
-  bottom: -22px;
+  bottom: 8%;
   left: 0;
   width: 100%;
   height: 40px;
-  background-color: $gray-500;
-  transform: skewY(-3deg);
-  transform-origin: bottom left;
-  z-index: -1;
+  background-image: url(curve.svg);
+  transform: scaleY(1);
+  background-color: transparent;
 }*/
 
 .quarto-title .quarto-categories {
@@ -469,7 +469,7 @@ div.quarto-about-trestles .about-contents {
 .bg-banner-1 p,
 .about p {
   background: rgba(255,255,255,0.7);
-  padding: 3px 8px;
+  padding: 14px 10px;
   border-radius: 4px;
 }
 
@@ -581,6 +581,11 @@ div.quarto-about-trestles {
   color: white;
 }
 
+.bg-banner-2 img {
+  border-radius: 8px;
+}
+
+
 .bg-banner-1 .fa-solid {
   padding-right: 10px;
 }
@@ -672,11 +677,23 @@ div.quarto-about-trestles {
 
 
 .nav-footer {
-  padding-top: 1.2em;
-  padding-bottom: 1.2em;
+  padding-top: 0.5em;
+  padding-bottom: 0em;
   background-color: #20595d;
   color: white !important;
 }
+
+.footer::before {
+  content: "Thank you for visiting!";
+  display: block;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  background: $blue-2;
+  padding: 24px;
+  text-align: center;
+}
+
 
 .nav-footer a {
   color: white;
@@ -707,15 +724,7 @@ div.quarto-about-trestles {
 
 
 
-#quarto-back-to-top {
-  background-color: #ffffff;
-  color: black;
-  bottom: 20px;
-  left: 50%;
-  box-shadow: none;
-  border: solid #20595d 2px;
-  z-index: 99999;
-}
+
 
 // ICONS & Buttons
 
