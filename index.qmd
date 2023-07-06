@@ -160,7 +160,9 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 ::: {.bg-banner-3}
 
-## My Visualizations & Maps
+## Latest Visualizations
+
+Here are some of my recent maps and data visualizations. My work uses R, QGIS, or ArcGIS Pro for most projects.
 
 ::: {.gallery}
 
