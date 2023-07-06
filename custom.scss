@@ -140,7 +140,7 @@ h1::after {
   position: relative;
   display: block;
   border-top: solid 4px $gray-100;
-  margin-top: 30px;
+  margin-top: 10px;
   width: 20%;
 }
 
@@ -316,8 +316,9 @@ nav .nav-item:not(.compact) {
 		linear-gradient($dark-purple ($dot-space - $dot-size), transparent 1%) center,	$dot-color;
 	background-size: $dot-space $dot-space;*/
 	border-bottom: $gray-500 solid 1px;
-	background: $dark-purple;
-	
+	background: $dark-green;
+	box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
+	0px 6.4px 14.4px rgba(0,0,0,0.132);
 }
 /*
 .quarto-title-banner::after {
