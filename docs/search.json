@@ -123,7 +123,7 @@
     "href": "index.html#my-latest-writings",
     "title": "Hi there, my name is Benjamin Tjepkes.",
     "section": "My Latest Writings",
-    "text": "My Latest Writings\n\n\n\n\n  \n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences Using R\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\nMar 26, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\n\n\n\n\n  \n\n\n\n\nStreamlining Your Reporting Workflow with Quarto\n\n\nManually updating reports is old news, start producing reproducible documents.\n\n\n\n\n\n\nMay 28, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "My Latest Writings\n\n\n\n\n  \n\n\n\n\nCreating an Interactive Heatmap of GBIF Occurrences Using R\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\nMar 26, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-four.html",
@@ -348,5 +348,12 @@
     "title": "Resources",
     "section": "Data Sources",
     "text": "Data Sources\nWebsite ~ Open Data Network"
+  },
+  {
+    "objectID": "index.html#my-visualizations-maps",
+    "href": "index.html#my-visualizations-maps",
+    "title": "Hi there, my name is Benjamin Tjepkes.",
+    "section": "My Visualizations & Maps",
+    "text": "My Visualizations & Maps\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Stamp Map"
   }
 ]

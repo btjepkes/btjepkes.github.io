@@ -599,6 +599,29 @@ div.quarto-about-trestles {
   overflow-x: hidden;
 }
 
+.bg-banner-3 {
+  position: relative;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.bg-banner-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+  width: 99.4vw;
+  height: 100%;
+  background-image: url(vector-green-trees.svg);
+  background-size: cover;
+  z-index: -1;
+  overflow-x: hidden;
+  opacity: 0.1;
+}
+
+
+
 #listing-site-listings,
 #listing-site-listings-2 {
   position: relative;
@@ -644,7 +667,7 @@ div.quarto-about-trestles {
 }
 
 .feature h3 {
-  margin-top: 0.5em;
+  margin-top: 5%;
   color: $dark-green;
 }
 
@@ -683,8 +706,8 @@ div.quarto-about-trestles {
 .footer::before {
   content: "Thank you for visiting the website of Benjamin Tjepkes.";
   display: block;
-  color: $tan;
-  font-size: 1.2em;
+  color: $gray-100;
+  font-size: 1.05em;
   background: $blue-1;
   padding: 20px;
   text-align: center;
@@ -755,6 +778,11 @@ div.quarto-about-trestles {
 .consultant-info {
   margin-right: 20px;
 }
+
+.consultant-info h3 {
+  padding-left: 8px;
+}
+
 
 .headshot {
   margin-top: 20px;

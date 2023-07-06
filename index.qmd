@@ -34,7 +34,6 @@ listing:
     contents:
       - "post-four.qmd"
       - "post-three.qmd"
-      - "post-two.qmd"
       - "post-nine.qmd"
     type: default
     filter-ui: false
@@ -156,6 +155,35 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 :::
 :::
+
+
+
+::: {.bg-banner-3}
+
+## My Visualizations & Maps
+
+::: {.gallery}
+
+![Squirrel Census Density Map](../gallery/img-map-001v2.png){group="personal-projects"
+description="2018 Squirrel Census Sighting Density Map"}
+
+![Endangered Species Stamp Map](../gallery/img-map-endangeredstamps.png){group="personal-projects"
+description="Endangered Species Stamps Range Map"}
+
+![](../gallery/img-table-001.png){group="personal-projects"
+description="2018 Squirrel Census Sighting Table"}
+
+![](../gallery/img-map-10.jpg){group="personal-projects"
+description="Missouri Tree Canopy Density Map"}
+
+![](../gallery/img-map-11.jpg){group="personal-projects"
+description="Great Lakes Watershed Map"}
+
+
+:::
+
+:::
+
 
 ::: {.get-started .alt-background}
 ::: {.content-block}
