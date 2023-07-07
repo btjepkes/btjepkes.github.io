@@ -706,10 +706,10 @@ div.quarto-about-trestles {
 .footer::before {
   content: "Thank you for visiting the website of Benjamin Tjepkes.";
   display: block;
-  color: $gray-100;
+  color: $blue-1;
   font-size: 1.05em;
-  background: $blue-1;
-  padding: 20px;
+  background: $gray-200;
+  padding: 12px 8px 8px 8px;
   text-align: center;
 }
 
@@ -800,7 +800,7 @@ div.quarto-about-trestles {
 // GALLERY 
 
 
-.gallery {
+/*.gallery {
     line-height:0;
     -webkit-column-count: 2;
     -webkit-column-gap:   20px;
@@ -808,12 +808,24 @@ div.quarto-about-trestles {
     -moz-column-gap:      20px;
     column-count:         2;
     column-gap:           20px;
+}*/
+
+
+
+.gallery {
+    line-height:0;
+    -webkit-column-count: 3;
+    -webkit-column-gap:   20px;
+    -moz-column-count:    3;
+    -moz-column-gap:      20px;
+    column-count:         3;
+    column-gap:           20px;
 }
 
 .gallery img {
     width: 100% !important;
     height: auto !important;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     transition: filter 2s;
     border: 2px $dark-green solid;
     border-radius: 0;
