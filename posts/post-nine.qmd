@@ -14,7 +14,7 @@ categories:
 image: img-001.svg
 ---
 
-## The Spatial Revolution Is Now
+## The Spatial Revolution Is Happening Now
 
 Advancements in geospatial technologies are revolutionizing the field of wildlife research and conservation, providing new and innovative ways to collect and analyze data. Among these technologies, Geographic Information Systems (GIS) have emerged as a powerful tool for understanding the spatial relationships between wildlife, their habitat, and the environment in which they live. By combining maps and other location-based tools, GIS can help conservationists and biologists make informed decisions and take targeted actions to preserve biodiversity and protect threatened species.
 
@@ -56,6 +56,8 @@ Geographic information systems (GIS) have revolutionized wildlife research by pr
 
 One of the main aims of biologists that need to manage wildlife populations is getting an estimate of density (i.e., animals per unit area), sex ratio (i.e., number of females vs. number of males), and age structure (i.e., the distribution of age classes within a population).
 
+{{< video https://youtu.be/FggpvO8J-P8 >}}
+
 Population metrics like these and many others are often the result of data collected during field surveys, where biologists count the number of individuals they see or hear along a specified survey route (in most cases). GIS technologies, like those discussed in the below video, are used by biologists to navigate and collect data during surveys.
 
 
@@ -69,6 +71,8 @@ The mapping capabilities of GIS allow researchers to understand the impact of hu
 
 When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.
 
+![A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.](https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg)
+
 Biologists use GIS to create models of animal movement, which can help them understand how animals use different habitats and how they move across the landscape. These models combine data on animal behavior, habitat characteristics, and environmental variables. This can be used to identify areas where animals are most likely to be found, as well as areas where targeted conservation efforts would be fruitful.
 
 ### #4 - Disease mapping
@@ -81,5 +85,6 @@ GIS can also be used to model the spread of diseases in wildlife populations. By
 
 Overall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.
 
-Until next time,
-Ben
+Until next time, Ben
+
+*Note: This post was originally part of The Conservation Companion, but is now archived here.*
