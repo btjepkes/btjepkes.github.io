@@ -460,8 +460,8 @@ div.quarto-about-trestles .about-contents {
 
 .bg-banner-1 p,
 .about p {
-  background: rgba(255,255,255,0.7);
-  padding: 14px 10px;
+  background: $white;
+  padding: 12px 10px;
   border-radius: 4px;
 }
 
@@ -704,12 +704,12 @@ div.quarto-about-trestles {
 }
 
 .footer::before {
-  content: "Thank you for visiting the website of Benjamin Tjepkes.";
+  content: "Thank you for visiting the website of Benjamin W. Tjepkes.";
   display: block;
   color: $blue-1;
   font-size: 1.05em;
-  background: $gray-200;
-  padding: 12px 8px 8px 8px;
+  background: $tan;
+  padding: 14px 24px 10px 24px;
   text-align: center;
 }
 
@@ -825,7 +825,7 @@ div.quarto-about-trestles {
 .gallery img {
     width: 100% !important;
     height: auto !important;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     transition: filter 2s;
     border: 2px $dark-green solid;
     border-radius: 0;
