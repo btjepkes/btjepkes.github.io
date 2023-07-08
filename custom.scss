@@ -467,7 +467,7 @@ div.quarto-about-trestles .about-contents {
 }
 
 .headshot-img {
-  box-shadow: 12px 16px $light-green;
+  box-shadow: 12px 14px $light-green;
   border-radius: 16px;
   max-width: 300px;
 }
@@ -776,10 +776,12 @@ div.quarto-about-trestles {
 
 // TEMP !!!
 
-
+.sign-img img{
+  background: none !important;
+}
 
 .consultant-info {
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .consultant-info h3 {
