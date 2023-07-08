@@ -1,0 +1,17 @@
+---
+title: "Curriculum vitae"
+subtitle: An interactive look at my education and professional experience.
+image: assets/bg-pines-resources-purple-sm.png
+
+# listing:
+#   id: resource-listings
+#   template: resources/resources.ejs
+#   contents: resources/resources.yml
+#   categories: false
+#   filter-ui: false
+    
+---
+
+This page is currently under construction. Please check back soon.
+
+Return [home](index.qmd)

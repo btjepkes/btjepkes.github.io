@@ -133,5 +133,8 @@
   },
   "posts/post-ten.qmd": {
     "post-ten.html": "e28dd888"
+  },
+  "cv.qmd": {
+    "cv.html": "afdf0040"
   }
 }
