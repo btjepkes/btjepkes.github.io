@@ -26,7 +26,9 @@ listing:
 
 ## My Recent Works
 
-These are some of my latest maps and data visualizations from personal creative projects, including any of my contributions to Tidy Tuesday, Map Prompt Monday, and the 30 Day Map Challenge. Most visualizations are created using ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.
+These are some of my latest maps and data visualizations from personal creative projects, including any of my contributions to Tidy Tuesday, Map Prompt Monday, and the 30 Day Map Challenge.
+
+Most visualizations are created using ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.
 
 ::: {.gallery}
 
