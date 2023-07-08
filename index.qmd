@@ -57,7 +57,7 @@ listing:
 
 
 ::: {.consultant-info}
-### My Brief Biography
+### My Biography
 
 I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform natural resource conservation. I currently serve as the **Assistant Wildlife Diversity Coordinator** for the Missouri Department of Conservation.
 

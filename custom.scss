@@ -155,6 +155,10 @@ h1::after {
   letter-spacing: 0.01em;
 }
 
+.abstract a {
+  color: $green;
+}
+
 
 // Indicators
 
@@ -449,6 +453,8 @@ div.quarto-about-trestles .about-contents {
 .about {
   display: flex;
   flex-direction: row-reverse;
+  gap: 40px;
+  align-items: center;
 }
 
 
@@ -466,10 +472,9 @@ div.quarto-about-trestles .about-contents {
 }
 
 .headshot-img {
-  box-shadow: 12px 14px $light-green;
+  box-shadow: 16px 14px $light-green;
   border-radius: 16px;
-  max-width: 300px;
-  margin-top: 30px;
+  max-width: 320px;
 }
 
 
@@ -788,7 +793,7 @@ div.quarto-about-trestles {
 }
 
 .consultant-info {
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .consultant-info h3 {

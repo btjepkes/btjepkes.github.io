@@ -30,19 +30,19 @@ These are some of my latest maps and data visualizations from personal creative 
 
 ::: {.gallery}
 
-![Squirrel Census Density Map](../gallery/img-map-001v2.png){group="personal-projects"
+![](./gallery/img-map-001v2.png){group="personal-projects"
 description="2018 Squirrel Census Sighting Density Map"}
 
-![Endangered Species Stamp Map](../gallery/img-map-endangeredstamps.png){group="personal-projects"
-description="Endangered Species Stamps Range Map"}
+![](./gallery/img-map-endangeredstamps.png){group="personal-projects"
+description="Endangered Species Stamps Range Map - [See Details](gallery/gallery-map-seven.html)"}
 
-![](../gallery/img-table-001.png){group="personal-projects"
+![](./gallery/img-table-001.png){group="personal-projects"
 description="2018 Squirrel Census Sighting Table"}
 
-![](../gallery/img-map-10.jpg){group="personal-projects"
+![](./gallery/img-map-10.jpg){group="personal-projects"
 description="Missouri Tree Canopy Density Map"}
 
-![](../gallery/img-map-11.jpg){group="personal-projects"
+![](./gallery/img-map-11.jpg){group="personal-projects"
 description="Great Lakes Watershed Map"}
 
 
