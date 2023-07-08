@@ -1,6 +1,6 @@
 ---
 title: "My Gallery"
-subtitle: "Maps, data visualiztions, reports, posters, and presentations."
+subtitle: "Maps, data visualizations, reports, posters, and presentations."
 image: assets/bg-pines-gallery-yellow-sm.png
 toc: false
 listing: 
