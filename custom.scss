@@ -228,8 +228,8 @@ justify-content: center;
   
  /* Toggle icon*/ 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23f8f9fa' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M0 15h15M4 23h25'/%3e%3c/svg%3e");
-  filter: invert(100%);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23466393' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M0 15h15M4 23h25'/%3e%3c/svg%3e");
+  /*filter: invert(100%);*/
 }
   
 .navbar .navbar-toggler {
@@ -294,13 +294,13 @@ nav .nav-item:not(.compact) {
 
 
 .navbar-brand span::after {
-  content: "Ecology • Geospatial • Data Sci";
+  content: "Ecology • Geospatial • Analytics";
   font-weight: 600;
   letter-spacing: 0.01em;
   display: block;
-  font-size: 12px;
+  font-size: 11.5px;
   margin-top: -6px;
-  color: #0ea2bd;
+  color: #338a94;
 }
 
 @media (max-width: 991.98px) {
@@ -723,10 +723,10 @@ div.quarto-about-trestles {
 .footer::before {
   content: "Thank you for visiting the website of Benjamin W. Tjepkes.";
   display: block;
-  color: $blue-1;
+  color: white;
   font-size: 1.05em;
-  background: $tan;
-  padding: 10px 24px 6px 24px;
+  background: $blue-6;
+  padding: 12px 24px 8px 24px;
   text-align: center;
 }
 
