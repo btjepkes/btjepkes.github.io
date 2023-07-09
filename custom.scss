@@ -298,7 +298,7 @@ nav .nav-item:not(.compact) {
   font-weight: 600;
   letter-spacing: 0.01em;
   display: block;
-  font-size: 11.5px;
+  font-size: 11px;
   margin-top: -6px;
   color: #338a94;
 }
@@ -738,16 +738,14 @@ div.quarto-about-trestles {
 @media (max-width: 767.98px) {
   
 .nav-footer-center {
-  margin-bottom: 1em;
+  margin-bottom: 3em;
   margin-top: 0;
 }
 
-.nav-footer .nav-footer-right{
+.nav-footer .nav-footer-right {
   font-size: 1.5em;
-  background: $light-green;
   padding: 2px 20px;
-  border-radius: 20px;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   margin-top: 1em;
 }
   
