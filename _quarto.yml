@@ -53,6 +53,7 @@ website:
   page-footer:
     center:
       - text: "Proudly made using RStudio and Quarto."
+        href: https://quarto.org/
     left:
       - text: "&copy; Copyright 2021-2023 - B.W. Tjepkes"
     right:

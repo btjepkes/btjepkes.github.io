@@ -35,11 +35,15 @@ Most visualizations are created using ArcGIS Pro, R/RStudio, QGIS, or Python/Jup
 ![](./gallery/img-map-001v2.png){group="personal-projects"
 description="2018 Squirrel Census Sighting Density Map"}
 
+![](./gallery/img-calendar.jpeg){group="personal-projects"}
+
 ![](./gallery/img-map-endangeredstamps.png){group="personal-projects"
 description="Endangered Species Stamps Range Map - [See Details](gallery/gallery-map-seven.html)"}
 
 ![](./gallery/img-table-001.png){group="personal-projects"
 description="2018 Squirrel Census Sighting Table"}
+
+![](./gallery/img-html-missouri-map.png){group="personal-projects"}
 
 ![](./gallery/img-map-10.jpg){group="personal-projects"
 description="Missouri Tree Canopy Density Map"}
