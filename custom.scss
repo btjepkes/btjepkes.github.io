@@ -45,7 +45,7 @@ $dot-space: 16px;
 
 $primary:       $blue-4 !default;
 $secondary:     $white !default;
-$success:       $green !default;
+$success:       $blue-1 !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
@@ -229,7 +229,7 @@ justify-content: center;
  /* Toggle icon*/ 
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23466393' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M0 15h15M4 23h25'/%3e%3c/svg%3e");
-  /*filter: invert(100%);*/
+  padding-top: 3px;
 }
   
 .navbar .navbar-toggler {
@@ -240,18 +240,12 @@ justify-content: center;
   
 .navbar-container {
   flex-direction: row-reverse;
-/*  justify-content: space-around !important;
-  -webkit-justify-content: space-around !important;*/
 }
   
 .navbar-brand-container {
   max-width: 100%;
   margin-top: 4px;
 }
-/*
-.navbar-brand {
-  margin-right: 0;
-}*/
   
 
 .navbar-collapse {
@@ -273,12 +267,13 @@ justify-content: center;
 
 }
 
-nav .nav-item:not(.compact) {
-    padding-top: 3px;
-}
-
 
 /*** MOBILE ONLY - stop ***/
+
+
+nav .nav-item:not(.compact) {
+    padding-top: 5px;
+}
 
 .navbar-collapse {
   padding: 0 10px;
