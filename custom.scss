@@ -35,6 +35,9 @@ $blue-2: #161d30 !default;
 $blue-3: #262939 !default;
 $blue-4: #06214e !default;
 
+$blue-5: #2d405f !default;
+$blue-6: #466393 !default;
+
 $bg-color: hsl(256,33,10);
 $dot-color: #556b6c;
 $dot-size: 1px;
@@ -100,8 +103,8 @@ $h6-font-size:                $font-size-base !default;
 // Navbar
 
 
-$navbar-bg: $blue-1;
-$navbar-fg: $gray-100;
+$navbar-bg: $white;
+$navbar-fg: $blue-5;
 
 $navbar-dark-hover-color:       rgba($white, 1) !default;
 $navbar-light-hover-color:      rgba($black, .9) !default;
@@ -183,7 +186,6 @@ h1::after {
 
 #quarto-header > nav {
   font-weight: 500;
-  border-bottom: solid 2px $gray-500;
 }
 
 
@@ -276,6 +278,9 @@ nav .nav-item:not(.compact) {
 
 /*** MOBILE ONLY - stop ***/
 
+.navbar-collapse {
+  padding: 0 10px;
+  border-radius: 15px;}
 
 .navbar-brand span {
   font-weight: 900;
@@ -287,19 +292,14 @@ nav .nav-item:not(.compact) {
 
 
 .navbar-brand span::after {
-  content: "Ecology • Geospatial • Data Science";
-  font-weight: 400;
+  content: "Ecology • Geospatial • Data Sci";
+  font-weight: 600;
   letter-spacing: 0.01em;
   display: block;
-  font-size: 11px;
+  font-size: 12px;
   margin-top: -6px;
-  color: $tan;
+  color: #0ea2bd;
 }
-
-.navbar-collapse {
-  background: $blue-1;
-}
-
 
 @media (max-width: 991.98px) {
 .ms-auto {
@@ -321,7 +321,7 @@ nav .nav-item:not(.compact) {
   padding-bottom: 2.4em;
 	background-size: $dot-space $dot-space;
 	border-bottom: $gray-500 solid 1px;
-	background-color: $blue-3;
+	background-color: $blue-5;
 	box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
 }
@@ -472,7 +472,7 @@ div.quarto-about-trestles .about-contents {
 }
 
 .headshot-img {
-  box-shadow: 16px 14px $light-green;
+  box-shadow: 16px 14px $blue-6;
   border-radius: 16px;
   max-width: 320px;
 }
@@ -714,7 +714,7 @@ div.quarto-about-trestles {
 .nav-footer {
   padding-top: 0.5em;
   padding-bottom: 0em;
-  background-color: #20595d;
+  background-color: #3a4753;
   color: white !important;
 }
 
