@@ -107,26 +107,31 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../contact.html" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-updates" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Updates</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-updates">    
+        <li>
+    <a class="dropdown-item" href="../cv.html" rel="" target="">
+ <span class="dropdown-text">My Latest Endeavours</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../gallery.xml" rel="" target="">
+ <span class="dropdown-text">Gallery RSS Feed</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../posts.xml" rel="" target="">
+ <span class="dropdown-text">Blog RSS Feed</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <div class="quarto-navbar-tools ms-auto tools-wide">
     <a href="https://www.linkedin.com/in/benjamintjepkes/" title="" class="quarto-navigation-tool px-1" aria-label="LinkedIn Profile"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/btjepkes" title="" class="quarto-navigation-tool px-1" aria-label="GitHub Profile"><i class="bi bi-github"></i></a>
     <a href="https://twitter.com/BTjepkes" title="" class="quarto-navigation-tool px-1" aria-label="Twitter Profile"><i class="bi bi-twitter"></i></a>
-    <div class="dropdown">
-      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-rss-fill"></i></a>
-      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="../gallery.xml">
-            Gallery RSS Feed
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="../posts.xml">
-            Blog RSS Feed
-            </a>
-          </li>
-      </ul>
-    </div>
+    <a href="../contact.html" title="" class="quarto-navigation-tool px-1" aria-label="contact page"><i class="bi bi-chat-dots-fill"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -186,18 +191,18 @@ ul.task-list li input[type="checkbox"] {
 <div class="gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-9.jpg" class="lightbox" data-gallery="course-maps" data-description="gvSIG
+<p><a href="../gallery/img-map-9.jpg" class="lightbox" data-description="gvSIG
 
 Mobile
 
 Survey
 
-Development"><img src="../gallery/img-map-9.jpg" class="img-fluid figure-img"></a></p>
+Development" data-gallery="course-maps"><img src="../gallery/img-map-9.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-1.jpg" class="lightbox" data-gallery="course-maps" data-description="Vineyard
+<p><a href="../gallery/img-map-1.jpg" class="lightbox" data-description="Vineyard
 
 and
 
@@ -205,12 +210,12 @@ Winery
 
 Location
 
-Suitability"><img src="../gallery/img-map-1.jpg" class="img-fluid figure-img"></a></p>
+Suitability" data-gallery="course-maps"><img src="../gallery/img-map-1.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-2.jpg" class="lightbox" data-gallery="course-maps" data-description="Navigation
+<p><a href="../gallery/img-map-2.jpg" class="lightbox" data-description="Navigation
 
 Map
 
@@ -220,18 +225,18 @@ Aquaculture
 
 Demonstration
 
-Facility"><img src="../gallery/img-map-2.jpg" class="img-fluid figure-img"></a></p>
+Facility" data-gallery="course-maps"><img src="../gallery/img-map-2.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-4.jpg" class="lightbox" data-gallery="course-maps" data-description="Ordinary
+<p><a href="../gallery/img-map-4.jpg" class="lightbox" data-description="Ordinary
 
 High-Water
 
 Mark
 
-Compliance"><img src="../gallery/img-map-4.jpg" class="img-fluid figure-img"></a></p>
+Compliance" data-gallery="course-maps"><img src="../gallery/img-map-4.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </div>
@@ -525,7 +530,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="../contact.html">
-      <i class="bi bi-chat-dots-fill" role="img">
+      <i class="bi bi-chat-dots-fill" role="img" aria-label="contact page">
 </i> 
     </a>
   </li>  
@@ -533,7 +538,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":true,"openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":true,"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox"});</script>
 
 
 

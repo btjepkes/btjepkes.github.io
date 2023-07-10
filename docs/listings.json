@@ -1,14 +1,5 @@
 [
   {
-    "listing": "/gallery.html",
-    "items": [
-      "/gallery/gallery-001.html",
-      "/gallery/gallery-002.html",
-      "/gallery/gallery-003.html",
-      "/gallery/gallery-004.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/about.html",

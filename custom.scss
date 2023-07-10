@@ -206,6 +206,13 @@ h1::after {
 }
 
 
+/* Menu icons */
+.navbar .quarto-navbar-tools i {
+  font-size: 23px;
+  color: $blue-6;
+}
+
+
 /*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
   
@@ -217,13 +224,7 @@ margin: auto;
 flex-wrap: wrap;
 justify-content: center;
 }
-  
-  
-  
-/* Menu icons */
-.navbar .quarto-navbar-tools i {
-  font-size: 25px;
-}
+
 
   
  /* Toggle icon*/ 
@@ -660,8 +661,8 @@ div.quarto-about-trestles {
 
 .feature {
   margin-top: 20px;
-  padding-left: 10px;
-  padding-right: 0px;
+  padding: 10px 20px 20px 20px;
+  background: #d8e1e3;
 }
 
 @media (min-width: 800px) { 

@@ -3,39 +3,38 @@ title: "My Gallery"
 subtitle: "Maps, visualizations, reports, posters, and presentations."
 image: assets/bg-pines-gallery-yellow-sm.png
 toc: false
-listing: 
-  id: galleries
-  contents:
-    - "gallery-001.qmd"
-    - "gallery-002.qmd"
-    - "gallery-003.qmd"
-    - "gallery-004.qmd"
-  type: grid
-  feed: true
-  grid-columns: 2
-  image-height: 100%
-  categories: numbered
-  sort: "date desc"
-  filter-ui: true
-  sort-ui: true
-  fields:
-    - image
-    - title
-    - subtitle
+# listing: 
+#   id: galleries
+#   contents:
+#     - "gallery-001.qmd"
+#     - "gallery-002.qmd"
+#     - "gallery-003.qmd"
+#     - "gallery-004.qmd"
+#   type: grid
+#   feed: true
+#   grid-columns: 2
+#   image-height: 100%
+#   categories: numbered
+#   sort: "date desc"
+#   filter-ui: true
+#   sort-ui: true
+#   fields:
+#     - image
+#     - title
+#     - subtitle
 ---
 
 ## My Recent Works
 
 These are some of my latest maps and data visualizations from personal creative projects, including any of my contributions to Tidy Tuesday, Map Prompt Monday, and the 30 Day Map Challenge.
 
-Most visualizations are created using ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.
 
 ::: {.gallery}
 
 ![](./gallery/img-map-001v2.png){group="personal-projects"
 description="2018 Squirrel Census Sighting Density Map"}
 
-![](./gallery/img-calendar.jpeg){group="personal-projects"}
+
 
 ![](./gallery/img-map-endangeredstamps.png){group="personal-projects"
 description="Endangered Species Stamps Range Map - [See Details](gallery/gallery-map-seven.html)"}
@@ -43,15 +42,17 @@ description="Endangered Species Stamps Range Map - [See Details](gallery/gallery
 ![](./gallery/img-table-001.png){group="personal-projects"
 description="2018 Squirrel Census Sighting Table"}
 
-![](./gallery/img-html-missouri-map.png){group="personal-projects"}
-
 ![](./gallery/img-map-10.jpg){group="personal-projects"
 description="Missouri Tree Canopy Density Map"}
 
 ![](./gallery/img-map-11.jpg){group="personal-projects"
 description="Great Lakes Watershed Map"}
 
+![](./gallery/img-calendar.jpeg){group="personal-projects"}
 
 :::
 
-## My Work by Category
+
+## My Toolbox
+
+Most of my visualizations are created using ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.
