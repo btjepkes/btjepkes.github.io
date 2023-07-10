@@ -43,14 +43,14 @@ website:
         text: Resources
       - href: contact.qmd
         text: Contact    
-      - text: Updates
-        menu:
-          - text: My Latest Endeavours
-            href: cv.qmd        
-          - text: Gallery RSS Feed
-            href: gallery.xml
-          - text: Blog RSS Feed
-            href: posts.xml 
+      # - text: Updates
+      #   menu:
+      #     - text: My Latest Endeavours
+      #       href: cv.qmd        
+      #     - text: Gallery RSS Feed
+      #       href: gallery.xml
+      #     - text: Blog RSS Feed
+      #       href: posts.xml 
 
 
         

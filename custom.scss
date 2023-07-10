@@ -377,6 +377,13 @@ nav .nav-item:not(.compact) {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
+#index .quarto-grid-item {
+  display: none !important;
+}
+
+
+
 @media (min-width: 991.98px) {
 .quarto-grid-item:hover .card-title::after {
   border-top: solid 4px #f5c25c;
@@ -662,8 +669,29 @@ div.quarto-about-trestles {
 .feature {
   margin-top: 20px;
   padding: 10px 20px 20px 20px;
-  background: #d8e1e3;
+  background: #eaedec;
+  border-radius: 12px;
 }
+
+/* SLIDE IN ANIMATION */
+
+.slide-in {
+  opacity: 0; /* Initially hidden */
+  transform: translateX(-100%); /* Initially off-screen */
+  animation: slideIn 1s forwards; /* Animation duration and fill mode */
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0; /* Start with opacity 0 */
+    transform: translateX(-100%); /* Start off-screen */
+  }
+  100% {
+    opacity: 1; /* End with opacity 1 */
+    transform: translateX(0); /* Slide in to 0px from left */
+  }
+}
+
 
 @media (min-width: 800px) { 
 .features {

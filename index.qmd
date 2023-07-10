@@ -85,7 +85,7 @@ This site houses my professional gallery and technical blog to showcase my exper
 
 ::: {.features}
 
-::: {.feature}
+::: {.feature .slide-in}
 ### {{< fa square-check size=1x >}} GIS & Cartography
 Adept as using open source and proprietary software to create static and dynamic map products.
 
