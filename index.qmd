@@ -122,7 +122,7 @@ Employ front-end web development techniques to design functional and beautiful w
 :::
 
 ::: {.feature}
-### {{< fa square-check size=0.5x >}} Applied Conservation
+### {{< fa square-check size=0.5x >}} Applied Ecology
 Experience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.
 
 ::: {.learn-more}
