@@ -93,7 +93,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <meta property="og:title" content="Benjamin Tjepkes - Using R to Create an Interactive Heatmap of GBIF Occurrences">
 <meta property="og:description" content="In this blog post, we demonstrate how to use the rgbif package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap using Leaflet.">
-<meta property="og:image" content="https://btjepkes.github.io/posts/bg-pine-blue.jpg">
+<meta property="og:image" content="https://btjepkes.github.io/posts/img-sage-grouse.jpg">
 <meta property="og:site-name" content="Benjamin Tjepkes">
 </head>
 
@@ -140,25 +140,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="../contact.html" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-updates" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Updates</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-updates">    
-        <li>
-    <a class="dropdown-item" href="../cv.html" rel="" target="">
- <span class="dropdown-text">My Latest Endeavours</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../gallery.xml" rel="" target="">
- <span class="dropdown-text">Gallery RSS Feed</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../posts.xml" rel="" target="">
- <span class="dropdown-text">Blog RSS Feed</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
             <div class="quarto-navbar-tools ms-auto tools-wide">
     <a href="https://www.linkedin.com/in/benjamintjepkes/" title="" class="quarto-navigation-tool px-1" aria-label="LinkedIn Profile"><i class="bi bi-linkedin"></i></a>
@@ -290,15 +271,15 @@ Article Takeaways
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-lines="1,2" data-code-cell="annotated-cell-1" data-code-annotation="1">For accessing GBIF data. Install if necessary.</span>
+<span data-code-cell="annotated-cell-1" data-code-annotation="1" data-code-lines="1,2">For accessing GBIF data. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-lines="3,4" data-code-cell="annotated-cell-1" data-code-annotation="2">For mapping data interactively. Install if necessary.</span>
+<span data-code-cell="annotated-cell-1" data-code-annotation="2" data-code-lines="3,4">For mapping data interactively. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
 <dd>
-<span data-code-lines="5,6" data-code-cell="annotated-cell-1" data-code-annotation="3">For the heatmap functionality. Install if necessary.</span>
+<span data-code-cell="annotated-cell-1" data-code-annotation="3" data-code-lines="5,6">For the heatmap functionality. Install if necessary.</span>
 </dd>
 </dl>
 </section>
@@ -310,11 +291,11 @@ Article Takeaways
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-lines="1" data-code-cell="annotated-cell-2" data-code-annotation="1">This function allows us to see the taxonomic information for our focal species.</span>
+<span data-code-cell="annotated-cell-2" data-code-annotation="1" data-code-lines="1">This function allows us to see the taxonomic information for our focal species.</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-lines="2" data-code-cell="annotated-cell-2" data-code-annotation="2">This prints that information to the console.</span>
+<span data-code-cell="annotated-cell-2" data-code-annotation="2" data-code-lines="2">This prints that information to the console.</span>
 </dd>
 </dl>
 </section>
@@ -597,7 +578,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://creativecommons.org/licenses/by-nc/4.0/">Proudly made using RStudio and Quarto under a CC-BY-NC 4.0 license.</a>
+    <a class="nav-link" href="https://creativecommons.org/licenses/by-nc/4.0/">Proudly made using RStudio and Quarto under a CC BY-NC 4.0 International license.</a>
   </li>  
 </ul>
     </div>
@@ -631,7 +612,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":true,"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"loop":true,"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});</script>
 
 
 
