@@ -56,7 +56,7 @@ website:
         
   page-footer:
     center:
-      - text: "Proudly made using RStudio and Quarto under a CC BY-NC 4.0 International license."
+      - text: "Proudly made using RStudio and Quarto under a CC BY-NC 4.0 license."
         href: https://creativecommons.org/licenses/by-nc/4.0/      
     left:
       - text: "&copy; Copyright 2021-2023 - B.W. Tjepkes"
@@ -73,6 +73,9 @@ website:
       - icon: chat-dots-fill
         href: contact.html
         aria-label: contact page
+      - icon: house-fill
+        href: index.html
+        aria-label: home page        
           
 format:
   html:

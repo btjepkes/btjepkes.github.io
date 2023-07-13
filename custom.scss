@@ -470,20 +470,20 @@ div.quarto-about-trestles .about-contents {
 .about h3 {
   font-size: 2.0em;
   margin-bottom: 1rem;
-  
+  border-bottom: solid indianred;
+  padding-bottom: 5px;
+  width: 80%;
 }
 
-.about p:nth-child(n+2):nth-child(-n+4) {
-  background: $white;
-  padding: 12px 14px;
-  border-radius: 4px;
-  box-shadow: 0px 0px 6px $gray-300;
-}
+
 
 .headshot-img {
-  box-shadow: 16px 18px $blue-6;
+  /*box-shadow: 16px 18px $blue-6;*/
   border-radius: 16px;
   max-width: 320px;
+  filter:
+    drop-shadow(-16px -16px 0 $tan)
+    drop-shadow(16px 16px 0 $blue-6);
 }
 
 
@@ -513,9 +513,9 @@ div.quarto-about-trestles {
 
 .bg-banner-1 {
   position: relative;
-  margin-top: 0em;
+  margin-top: 5em;
   margin-bottom: 0em;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 
@@ -538,22 +538,23 @@ div.quarto-about-trestles {
 .bg-banner-1::before {
   content: "";
   position: absolute;
-  top: -50%;
+  top: 0;
   left: calc(-50vw + 50%);
   width: 99.4vw;
-  height: 150%;
+  height: 100%;
   z-index: -1;
   overflow-x: hidden;
+  background-color: $dark-purple;
   background-image: url(mountains.svg);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-  opacity: 1.0;
-  transform: scaleX(-1);
+  opacity: 0.1;
+  transform: scaleX(1);
   border-bottom: solid 1px $gray-100;
 }
 
-.bg-banner-1::after {
+/*.bg-banner-1::after {
   content: "";
   position: absolute;
   top: -120%;
@@ -568,11 +569,7 @@ div.quarto-about-trestles {
   background-size: cover;
   opacity: 1.0;
   transform: scaleX(1);
-}
-
-.bg-banner-1 .fa-solid {
-  padding-right: 0 !important;
-}
+}*/
 
 .bg-banner-2 {
   position: relative;
@@ -606,10 +603,6 @@ div.quarto-about-trestles {
 }
 
 
-.bg-banner-1 .fa-solid {
-  padding-right: 10px;
-}
-
 .bg-banner-2::before {
   content: "";
   position: absolute;
@@ -641,7 +634,6 @@ div.quarto-about-trestles {
   z-index: -1;
   overflow-x: hidden;
   opacity: 0.1;
-  border-bottom: solid 4px khaki;
 }
 
 
@@ -672,7 +664,7 @@ div.quarto-about-trestles {
 
 .feature {
   margin-top: 20px;
-  padding: 10px 20px 20px 20px;
+  padding: 10px 10px 20px 30px;
   background: #eaedec;
   border-radius: 12px;
 }
@@ -724,6 +716,7 @@ div.quarto-about-trestles {
 
 .feature .fa-solid {
   padding-right: 6px;
+  color: #e67b85;
 }
 
 .feature p:first-of-type {
