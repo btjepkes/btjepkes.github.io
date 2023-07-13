@@ -66,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -225,6 +225,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1688614207560" data-listing-reading-time-sort="2">
 <a href="./about.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/bg-pines-about-blue-sm.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 About Me
@@ -239,6 +242,9 @@ Learn about my career path and professional interests.
 <div class="g-col-1" data-index="1" data-listing-file-modified-sort="1687223214763" data-listing-reading-time-sort="1">
 <a href="./posts.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/bg-pines-blog-orange-sm.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Blog Posts
@@ -253,6 +259,9 @@ Explore my writings on ecological and geospatial data science.
 <div class="g-col-1" data-index="2" data-listing-file-modified-sort="1688996657271" data-listing-reading-time-sort="1">
 <a href="./gallery.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/bg-pines-gallery-yellow-sm.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Gallery
@@ -267,6 +276,9 @@ Maps, visualizations, reports, posters, and presentations.
 <div class="g-col-1" data-index="3" data-listing-file-modified-sort="1687191269486" data-listing-reading-time-sort="1">
 <a href="./research.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/bg-pines-research-gray-sm.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Research
@@ -296,7 +308,7 @@ No matching items
 </section>
 <section id="fa-square-check-size0.5x-data-visualization" class="level3 feature">
 <h3 class="anchored" data-anchor-id="fa-square-check-size0.5x-data-visualization"><i class="fa-solid fa-square-check fa-0.5x" aria-label="square-check"></i> Data Visualization</h3>
-<p>Proficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.</p>
+<p>Proficient in data visualization and reproducible reporting for technical and creative projects.</p>
 <div class="learn-more">
 <p><strong>Skills:</strong> <em>Quarto, R/Rmd, Jupyter Notebooks</em></p>
 </div>
@@ -443,7 +455,7 @@ Map" data-gallery="personal-projects" title="Endangered Species Stamp Map"><img 
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-table-001.png" class="lightbox" data-description="2018
+<p><a href="../gallery/img-table-001.png" class="lightbox" data-gallery="personal-projects" data-description="2018
 
 Squirrel
 
@@ -451,12 +463,12 @@ Census
 
 Sighting
 
-Table" data-gallery="personal-projects"><img src="../gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
+Table"><img src="../gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-10.jpg" class="lightbox" data-description="Missouri
+<p><a href="../gallery/img-map-10.jpg" class="lightbox" data-gallery="personal-projects" data-description="Missouri
 
 Tree
 
@@ -464,18 +476,18 @@ Canopy
 
 Density
 
-Map" data-gallery="personal-projects"><img src="../gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
+Map"><img src="../gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-11.jpg" class="lightbox" data-description="Great
+<p><a href="../gallery/img-map-11.jpg" class="lightbox" data-gallery="personal-projects" data-description="Great
 
 Lakes
 
 Watershed
 
-Map" data-gallery="personal-projects"><img src="../gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
+Map"><img src="../gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </div>
@@ -795,7 +807,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":true,"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","loop":true,"closeEffect":"zoom","openEffect":"zoom"});</script>
 
 
 

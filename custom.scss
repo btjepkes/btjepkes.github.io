@@ -472,7 +472,6 @@ div.quarto-about-trestles .about-contents {
   margin-bottom: 1rem;
   border-bottom: solid indianred;
   padding-bottom: 5px;
-  width: 80%;
 }
 
 
@@ -525,13 +524,11 @@ div.quarto-about-trestles {
 }
 
 
-.bg-banner-1 svg{
-  fill: red;
-}
-
 .bg-banner-1 h4 {
-  padding-left: 0px;
-  color: $blue-6;
+  padding: 14px 8px;
+  background-color: $blue-6;
+  color: white;
+  margin-bottom: 20px;
 }
 
 

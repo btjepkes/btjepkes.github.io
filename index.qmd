@@ -28,6 +28,7 @@ listing:
     type: grid
     grid-columns: 4
     fields: 
+      - image
       - title
       - subtitle
   - id: site-listings-2
@@ -98,7 +99,7 @@ Adept as using open source and proprietary software to create static and dynamic
 
 ::: {.feature}
 ### {{< fa square-check size=0.5x >}} Data Visualization
-Proficient in data visualization and reproducible reporting using Quarto, R Markdown, and Jupyter Notebooks.
+Proficient in data visualization and reproducible reporting for technical and creative projects.
 
 ::: {.learn-more}
 **Skills:** *Quarto, R/Rmd, Jupyter Notebooks*
