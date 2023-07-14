@@ -538,7 +538,7 @@ div.quarto-about-trestles {
   z-index: -1;
   overflow-x: hidden;
   background-color: $light-green;
-  background-image: url(mountains.svg);
+  /*background-image: url(mountains.svg);*/
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
@@ -547,22 +547,24 @@ div.quarto-about-trestles {
   border-bottom: solid 1px $gray-100;
 }
 
-/*.bg-banner-1::after {
+.bg-banner-1::after {
   content: "";
   position: absolute;
-  top: -120%;
+  top: 0;
   left: calc(-50vw + 50%);
   width: 99.4vw;
-  height: 220%;
+  height: 100%;
   z-index: -1;
   overflow-x: hidden;
   background-image: url(mountains.svg);
+  background-color: linear-gradient(to bottom, #ffffff, #000000);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-  opacity: 1.0;
+  opacity: 0.4;
   transform: scaleX(1);
-}*/
+  border-bottom: solid 1px $gray-100;
+}
 
 .bg-banner-2 {
   position: relative;
