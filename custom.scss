@@ -477,11 +477,10 @@ div.quarto-about-trestles .about-contents {
 
 
 .headshot-img {
-  /*box-shadow: 16px 18px $blue-6;*/
   border-radius: 16px;
   max-width: 320px;
   filter:
-    drop-shadow(-16px -16px 0 $tan)
+    drop-shadow(-16px -16px 0 #338a94)
     drop-shadow(16px 16px 0 $blue-6);
 }
 
@@ -514,19 +513,16 @@ div.quarto-about-trestles {
   position: relative;
   margin-top: 5em;
   margin-bottom: 0em;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
 }
 
 .bg-banner-1 p {
-  color: $blue-1;
+  color: white;
   font-weight: 600;
 }
 
-
 .bg-banner-1 h4 {
-  padding: 14px 8px;
-  background-color: $blue-6;
   color: white;
   margin-bottom: 20px;
 }
@@ -541,12 +537,12 @@ div.quarto-about-trestles {
   height: 100%;
   z-index: -1;
   overflow-x: hidden;
-  background-color: $dark-purple;
+  background-color: $light-green;
   background-image: url(mountains.svg);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-  opacity: 0.1;
+  opacity: 1.0;
   transform: scaleX(1);
   border-bottom: solid 1px $gray-100;
 }
@@ -713,7 +709,7 @@ div.quarto-about-trestles {
 
 .feature .fa-solid {
   padding-right: 6px;
-  color: #e67b85;
+  color: $blue-5;
 }
 
 .feature p:first-of-type {

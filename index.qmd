@@ -24,11 +24,10 @@ listing:
       - "about.qmd"    
       - "posts.qmd"
       - "gallery.qmd"
-      - "research.qmd"      
+      - "cv.qmd"     
     type: grid
     grid-columns: 4
     fields: 
-      - image
       - title
       - subtitle
   - id: site-listings-2
@@ -74,7 +73,7 @@ In fall 2023, I will be pursuing my **Masters in Geography** at the University o
 
 #### **Exploring My Portfolio**
 
-This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my [CV](cv.qmd) to learn more. Thank you!
+This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around to learn more. Thank you!
 
 ::: {#site-listings}
 

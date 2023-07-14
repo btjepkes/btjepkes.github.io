@@ -66,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -219,15 +219,12 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="exploring-my-portfolio" class="level4 bg-banner-1">
 <h4 class="anchored" data-anchor-id="exploring-my-portfolio"><strong>Exploring My Portfolio</strong></h4>
-<p>This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around or peruse my <a href="./cv.html">CV</a> to learn more. Thank you!</p>
+<p>This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around to learn more. Thank you!</p>
 <div id="listing-site-listings" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1688614207560" data-listing-reading-time-sort="2">
 <a href="./about.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./assets/bg-pines-about-blue-sm.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 About Me
@@ -239,12 +236,23 @@ Learn about my career path and professional interests.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1687223214763" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1688823493807" data-listing-reading-time-sort="1">
+<a href="./cv.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Curriculum vitae
+</h5>
+<div class="card-subtitle listing-subtitle">
+An interactive look at my education and professional experience.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1687223214763" data-listing-reading-time-sort="1">
 <a href="./posts.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./assets/bg-pines-blog-orange-sm.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Blog Posts
@@ -256,35 +264,15 @@ Explore my writings on ecological and geospatial data science.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1688996657271" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1688996657271" data-listing-reading-time-sort="1">
 <a href="./gallery.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./assets/bg-pines-gallery-yellow-sm.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Gallery
 </h5>
 <div class="card-subtitle listing-subtitle">
 Maps, visualizations, reports, posters, and presentations.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1687191269486" data-listing-reading-time-sort="1">
-<a href="./research.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./assets/bg-pines-research-gray-sm.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Research
-</h5>
-<div class="card-subtitle listing-subtitle">
-Focusing on spatial ecology and geographic information systems.
 </div>
 </div>
 </div>
@@ -455,7 +443,7 @@ Map" data-gallery="personal-projects" title="Endangered Species Stamp Map"><img 
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-table-001.png" class="lightbox" data-gallery="personal-projects" data-description="2018
+<p><a href="../gallery/img-table-001.png" class="lightbox" data-description="2018
 
 Squirrel
 
@@ -463,12 +451,12 @@ Census
 
 Sighting
 
-Table"><img src="../gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
+Table" data-gallery="personal-projects"><img src="../gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-10.jpg" class="lightbox" data-gallery="personal-projects" data-description="Missouri
+<p><a href="../gallery/img-map-10.jpg" class="lightbox" data-description="Missouri
 
 Tree
 
@@ -476,18 +464,18 @@ Canopy
 
 Density
 
-Map"><img src="../gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects"><img src="../gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-11.jpg" class="lightbox" data-gallery="personal-projects" data-description="Great
+<p><a href="../gallery/img-map-11.jpg" class="lightbox" data-description="Great
 
 Lakes
 
 Watershed
 
-Map"><img src="../gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects"><img src="../gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </div>
@@ -807,7 +795,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","loop":true,"closeEffect":"zoom","openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":true});</script>
 
 
 
