@@ -322,24 +322,15 @@ nav .nav-item a:hover {
   color: white;
   padding-top: 2.4em;
   padding-bottom: 2.4em;
-	background-size: $dot-space $dot-space;
 	border-bottom: $gray-500 solid 1px;
 	background-color: $blue-5;
 	box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
 }
 
-/*.quarto-title-banner::before {
-  content: '';
-  position: absolute;
-  bottom: 8%;
-  left: 0;
-  width: 100%;
-  height: 40px;
-  background-image: url(curve.svg);
-  transform: scaleY(1);
-  background-color: transparent;
-}*/
+
+
+
 
 .quarto-title .quarto-categories {
     margin-top: 20px;
@@ -447,17 +438,47 @@ nav .nav-item a:hover {
 
 
 
-/* ABOUT on Index */
+/* Index */
 
-  @media (min-width: 992px) {
-div.quarto-about-trestles .about-contents {
-  border-left: none;
-  padding-left: 0;
-}}
-
-.about-entity {
-  padding-right: 0 !important;
+:root #title-block-header {
+  display: none;
 }
+
+
+.intro-banner {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: center;
+  margin-top: -2em;
+  margin-bottom: 2em;
+  padding-top: 4em;
+  padding-bottom: 3em;
+}
+
+.intro-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+  width: 99.4vw;
+  right: 0;
+  height: 100%;
+  background-size: auto 100%;
+  background-color: $blue-5;
+  z-index: -1;
+}
+
+.intro-content p {
+  color: white;
+  font-weight: 700;
+  line-height: 1.3em;
+  padding-top: 15px;
+  font-size: 1.05em;
+  letter-spacing: .01em;
+}
+
 
 .about {
   display: flex;
@@ -477,11 +498,13 @@ div.quarto-about-trestles .about-contents {
 
 
 .headshot-img {
-  border-radius: 16px;
+  background: white;
+  padding: 0.2em;
+  border-radius: 0px;
   max-width: 320px;
   filter:
-    drop-shadow(-16px -16px 0 #338a94)
-    drop-shadow(16px 16px 0 $blue-6);
+    drop-shadow(-1em -1em 0 teal)
+    drop-shadow(1em 1em 0 teal);
 }
 
 
@@ -511,7 +534,7 @@ div.quarto-about-trestles {
 
 .bg-banner-1 {
   position: relative;
-  margin-top: 5em;
+  margin-top: 3em;
   margin-bottom: 0em;
   padding-top: 20px;
   padding-bottom: 40px;
@@ -829,6 +852,7 @@ div.quarto-about-trestles {
 
 
 @media screen and (max-width: 600px) {
+  .intro-banner,
   .about {
     flex-direction: column;
   }
@@ -1143,6 +1167,9 @@ div.quarto-about-trestles {
    padding-right: 2rem;
    margin-top: 3em;
    list-style-position: inside;
+   border-width: 10px; /* Adjust the width as needed */
+    border-style: solid;
+    border-image: linear-gradient(to right, $blue-6, $light-green, $blue-6) 1;
 }
 
 .get-started h3 {

@@ -47,13 +47,25 @@ listing:
 
 ---
 
-::: {.about}
+::: {.intro-banner}
 
-::: {.headshot}
+::: {.intro-headshot}
 
 ![](img-ben-portrait-2.jpg){.nolightbox .headshot-img}
 
 :::
+
+
+::: {.intro-content}
+# Hi, my name is Ben Tjepkes and this is *meum portfolium*.
+
+I’m a wildlife ecologist and budding geographer with a passion for data and conservation science. This is my professional portfolio site.
+
+:::
+:::
+
+
+::: {.about}
 
 
 ::: {.consultant-info}
