@@ -279,6 +279,7 @@ nav .nav-item:not(.compact) {
 
 nav .nav-item a:hover {
   text-decoration: $tan wavy underline;
+  font-weight: bold;
 }
 
 .navbar-collapse {
@@ -440,9 +441,13 @@ nav .nav-item a:hover {
 
 /* Index */
 
-:root #title-block-header {
+
+body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner,
+body.root .quarto-title-banner {
   display: none;
 }
+
+
 
 
 .intro-banner {

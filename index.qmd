@@ -18,6 +18,7 @@ toc: false
 #     - icon: link-45-deg
 #       text: All My Links
 #       href: contact.qmd
+pagetitle: homepage
 listing:
   - id: site-listings
     contents:
