@@ -1,6 +1,6 @@
 ---
-title: "Hi there, my name is Benjamin Tjepkes."
-subtitle: "I'm a wildlife ecologist and budding geographer with a passion for data and conservation science."
+title: ""
+subtitle: ""
 toc: false
 # about:
 #   id: about-id
@@ -18,7 +18,7 @@ toc: false
 #     - icon: link-45-deg
 #       text: All My Links
 #       href: contact.qmd
-pagetitle: homepage
+pagetitle: "B.W. Tjepkes - Portfolio Home"
 listing:
   - id: site-listings
     contents:

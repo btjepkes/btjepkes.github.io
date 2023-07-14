@@ -114,28 +114,28 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hi there, my name is Benjamin Tjepkes.",
+    "title": "Hi, my name is Ben Tjepkes and this is meum portfolium.",
     "section": "",
     "text": "I’m a wildlife ecologist and budding geographer with a passion for data and conservation science. This is my professional portfolio site."
   },
   {
     "objectID": "index.html#my-professional-experience-interests",
     "href": "index.html#my-professional-experience-interests",
-    "title": "Hi there, my name is Benjamin Tjepkes.",
+    "title": "Hi, my name is Ben Tjepkes and this is meum portfolium.",
     "section": "My Professional Experience & Interests",
     "text": "My Professional Experience & Interests\n\n\n GIS & Cartography\nAdept as using open source and proprietary software to create static and dynamic map products.\n\nSkills: R/RStudio, ArcGIS Pro/Online, QGIS\n\n\n\n Data Visualization\nProficient in data visualization and reproducible reporting for technical and creative projects.\n\nSkills: Quarto, R/Rmd, Jupyter Notebooks\n\n\n\n Research Methods\nKnowledge of the scientific method, research project development, and technical reporting.\n\nSkills: Mendeley, Zotero, OSF\n\n\n\n Web Development\nEmploy front-end web development techniques to design functional and beautiful websites.\n\nSkills: HTML, CSS, WordPress, Git/GitHub\n\n\n\n Applied Ecology\nExperience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.\n\nSkills: Field Surveys, Species Monitoring\n\n\n\n Data Management\nUse programs like Microsoft Access to maintain high-quality data in relational databases.\n\nSkills: Microsoft Access, SQL Server, Excel"
   },
   {
     "objectID": "index.html#my-latest-writings",
     "href": "index.html#my-latest-writings",
-    "title": "Hi there, my name is Benjamin Tjepkes.",
+    "title": "Hi, my name is Ben Tjepkes and this is meum portfolium.",
     "section": "My Latest Writings",
     "text": "My Latest Writings\n\n\n\n\n  \n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\nMar 26, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\n\n\n\n\n  \n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#latest-visualizations",
     "href": "index.html#latest-visualizations",
-    "title": "Hi there, my name is Benjamin Tjepkes.",
+    "title": "Hi, my name is Ben Tjepkes and this is meum portfolium.",
     "section": "Latest Visualizations",
     "text": "Latest Visualizations\nHere are some of my recent maps and data visualizations. My work uses R, QGIS, or ArcGIS Pro for most projects.\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Stamp Map"
   },

@@ -441,12 +441,11 @@ nav .nav-item a:hover {
 
 /* Index */
 
-
-body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner,
-body.root .quarto-title-banner {
+/*
+body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
   display: none;
 }
-
+*/
 
 
 
@@ -484,6 +483,9 @@ body.root .quarto-title-banner {
   letter-spacing: .01em;
 }
 
+.intro-content h1 {
+  margin-top: 0;
+}
 
 .about {
   display: flex;
@@ -856,7 +858,7 @@ div.quarto-about-trestles {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .intro-banner,
   .about {
     flex-direction: column;
