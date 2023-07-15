@@ -18,16 +18,15 @@ toc: false
 #     - icon: link-45-deg
 #       text: All My Links
 #       href: contact.qmd
-pagetitle: "B.W. Tjepkes - Portfolio Home"
+pagetitle: "B.W. Tjepkes - Portfolio"
 listing:
   - id: site-listings
     contents:
       - "about.qmd"    
       - "posts.qmd"
       - "gallery.qmd"
-      - "cv.qmd"     
     type: grid
-    grid-columns: 4
+    grid-columns: 3
     fields: 
       - title
       - subtitle
@@ -39,10 +38,11 @@ listing:
     type: default
     filter-ui: false
     sort-ui: false
-    image-align: left
+    image-align: right
     fields: 
       - title
       - subtitle
+      - author
       - image
       - date
 
@@ -60,7 +60,7 @@ listing:
 ::: {.intro-content}
 # Hi, my name is Ben Tjepkes and this is *meum portfolium*.
 
-I’m a wildlife ecologist and budding geographer with a passion for data and conservation science. This is my professional portfolio site.
+I’m a wildlife ecologist and budding geographer with a passion for geospatial, data, and conservation science. Welcome to my professional portfolio site.
 
 :::
 :::
@@ -96,7 +96,7 @@ This site houses my professional gallery and technical blog to showcase my exper
 
 ::: {.content-block}
 
-## My Professional Experience & Interests
+## Experience & Interests
 
 ::: {.features}
 

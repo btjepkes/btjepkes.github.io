@@ -42,7 +42,9 @@ website:
       - href: resources.qmd
         text: Resources
       - href: contact.qmd
-        text: Contact    
+        text: Contact   
+      - href: cv.qmd
+        text: CV        
       # - text: Updates
       #   menu:
       #     - text: My Latest Endeavours
