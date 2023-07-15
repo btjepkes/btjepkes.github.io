@@ -25,6 +25,9 @@ listing:
       - "about.qmd"    
       - "posts.qmd"
       - "gallery.qmd"
+      - "cv.qmd"
+      - "resources.qmd"
+      - "contact.qmd"
     type: grid
     grid-columns: 3
     fields: 
@@ -60,7 +63,7 @@ listing:
 ::: {.intro-content}
 # Hi, my name is Ben Tjepkes and this is *meum portfolium*.
 
-I’m a wildlife ecologist and budding geographer with a passion for geospatial and ecological science.
+I’m a wildlife ecologist and budding geographer with a passion for applied sciences.
 
 :::
 :::
