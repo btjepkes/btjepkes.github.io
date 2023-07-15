@@ -60,7 +60,7 @@ listing:
 ::: {.intro-content}
 # Hi, my name is Ben Tjepkes and this is *meum portfolium*.
 
-I’m a wildlife ecologist and budding geographer with a passion for geospatial, data, and conservation science. Welcome to my professional portfolio site.
+I’m a wildlife ecologist and budding geographer with a passion for geospatial and ecological science.
 
 :::
 :::

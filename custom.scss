@@ -216,6 +216,12 @@ h1::after {
 /*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
   
+.navbar .quarto-navbar-tools i {
+  font-size: 30px;
+  color: $blue-6;
+}  
+  
+  
   
 ul.navbar-nav:nth-child(1) {
 flex-direction: row;
@@ -895,6 +901,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 // GALLERY 
+
+
+.glightbox-mobile .glightbox-container .gslide-desc a {
+  color: black !important;
+  font-weight: 700;
+}
+
+.glightbox-mobile .glightbox-container .gslide-title {
+color: black !important;
+}
+.glightbox-clean .gslide-title {
+margin-bottom: 0 !important;
+}
 
 
 /*.gallery {
