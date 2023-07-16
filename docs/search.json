@@ -53,7 +53,7 @@
     "href": "cv.html",
     "title": "Curriculum vitae",
     "section": "",
-    "text": "This page is currently under construction. Please check back soon.\nReturn home"
+    "text": "This page is currently under construction. Please check back soon.\nReturn home\n\n\nviewof billLengthMin = Inputs.range(\n  [32, 50], \n  { value: 35, step: 1, label: \"Bill length (min):\" }\n)\n\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], label: \"Islands:\" }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata = FileAttachment(\"palmer-penguins.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return penguin.bill_length &gt; billLengthMin && islands.includes(penguin.island)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
   },
   {
     "objectID": "gallery/gallery-map-four.html",
@@ -103,6 +103,13 @@
     "title": "My Gallery",
     "section": "",
     "text": "These are some of my latest maps and data visualizations from personal creative projects, including any of my contributions to Tidy Tuesday, Map Prompt Monday, and the 30 Day Map Challenge."
+  },
+  {
+    "objectID": "gallery.html#my-past-works",
+    "href": "gallery.html#my-past-works",
+    "title": "My Gallery",
+    "section": "My Past Works",
+    "text": "My Past Works\nComing soon!"
   },
   {
     "objectID": "gallery.html#my-toolbox",
@@ -382,7 +389,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Warning: package 'reactable' was built under R version 4.1.3"
+    "text": "viewof billLengthMin = Inputs.range(\n  [32, 50], \n  { value: 35, step: 1, label: \"Bill length (min):\" }\n)\n\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], label: \"Islands:\" }\n)\ndata = FileAttachment(\"palmer-penguins.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return penguin.bill_length &gt; billLengthMin && islands.includes(penguin.island)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
   },
   {
     "objectID": "resources.html#natural-resources",
@@ -411,26 +418,5 @@
     "title": "Resources",
     "section": "Data Sources",
     "text": "Data Sources\nWebsite ~ Open Data Network"
-  },
-  {
-    "objectID": "gallery.html#my-past-works",
-    "href": "gallery.html#my-past-works",
-    "title": "My Gallery",
-    "section": "My Past Works",
-    "text": "My Past Works\nComing soon!"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum vitae",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "resources.html#a-table",
-    "href": "resources.html#a-table",
-    "title": "Resources",
-    "section": "",
-    "text": "Warning: package 'reactable' was built under R version 4.1.3"
   }
 ]

@@ -3,6 +3,11 @@ title: "Resources"
 subtitle: My favorite references for ecology, GIS, R, Python, and more.
 image: assets/bg-pines-resources-purple-sm.png
 
+format:
+  html:
+    echo: false
+    warning: false
+    
 # listing:
 #   id: resource-listings
 #   template: resources/resources.ejs
@@ -12,14 +17,48 @@ image: assets/bg-pines-resources-purple-sm.png
     
 ---
 
+```{ojs}
+//| panel: input
+viewof billLengthMin = Inputs.range(
+  [32, 50], 
+  { value: 35, step: 1, label: "Bill length (min):" }
+)
+
+viewof islands = Inputs.checkbox(
+  ["Torgersen", "Biscoe", "Dream"], 
+  { value: ["Torgersen", "Biscoe"], label: "Islands:" }
+)
+```
+
+```{ojs}
+//| include: false
+data = FileAttachment("palmer-penguins.csv").csv({ typed: true })
+
+filtered = data.filter(penguin => {
+  return penguin.bill_length > billLengthMin && islands.includes(penguin.island)
+})
+
+// Update table data when filtered data changes
+Reactable.setData('tbl', filtered)
+```
+
 ```{r}
-#| echo: false
-#| warning: false
 library(reactable)
 
-reactable(iris, groupBy = "Species")
+data <- read.csv("palmer-penguins.csv")
 
+reactable(
+  data,
+  wrap = FALSE,
+  resizable = TRUE,
+  searchable = TRUE,
+  striped = TRUE,
+  defaultPageSize = 20,
+  minRows = 10,
+  elementId = "tbl"
+)
 ```
+
 
 
 ## Natural Resources
