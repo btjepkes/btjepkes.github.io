@@ -12,6 +12,14 @@ image: assets/bg-pines-resources-purple-sm.png
     
 ---
 
+```{r}
+#| echo: false
+#| warning: false
+library(reactable)
+
+reactable(iris, groupBy = "Species")
+
+```
 
 
 ## Natural Resources

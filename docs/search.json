@@ -382,14 +382,14 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "These resources are for folks in or thinking about joining in the wildlife biology career path.\n\n\n\nBlog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
+    "text": "Warning: package 'reactable' was built under R version 4.1.3"
   },
   {
     "objectID": "resources.html#natural-resources",
     "href": "resources.html#natural-resources",
     "title": "Resources",
-    "section": "",
-    "text": "These resources are for folks in or thinking about joining in the wildlife biology career path.\n\n\n\nBlog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
+    "section": "Natural Resources",
+    "text": "Natural Resources\nThese resources are for folks in or thinking about joining in the wildlife biology career path.\n\nJob Resources\n\nBlog Post ~ Job Boards To Find An Impactful Career in Nature\nWebsite ~ Careers in Conservation Job Board List"
   },
   {
     "objectID": "resources.html#r-rstudio",
@@ -418,5 +418,19 @@
     "title": "My Gallery",
     "section": "My Past Works",
     "text": "My Past Works\nComing soon!"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum vitae",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "resources.html#a-table",
+    "href": "resources.html#a-table",
+    "title": "Resources",
+    "section": "",
+    "text": "Warning: package 'reactable' was built under R version 4.1.3"
   }
 ]
