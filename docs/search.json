@@ -123,7 +123,7 @@
     "href": "index.html",
     "title": "Hi, my name is Ben Tjepkes and this is meum portfolium.",
     "section": "",
-    "text": "I’m a wildlife ecologist and budding geographer with a passion for applied sciences."
+    "text": "I’m a wildlife ecologist and budding geographer with a passion for applied science. Please explore my works on this site for a look at my experience in ecology and geospatial."
   },
   {
     "objectID": "index.html#experience-interests",
@@ -389,7 +389,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "viewof species = Inputs.checkbox(\n  [\"Adelie\", \"Chinstrap\", \"Gentoo\"], \n  { value: [\"Adelie\"], label: \"Species:\" }\n)\n\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], label: \"Islands:\" }\n)\ndata = FileAttachment(\"palmer-penguins.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return species.includes(penguin.species) && islands.includes(penguin.island)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
+    "text": "Use the filter/search options below to explore my collated resources. You can also download this information as a table here.\n\nviewof islands = Inputs.checkbox(\n  [\"R\", \"Job Search\", \"QGIS\"], \n  { value: [\"R\"], label: \"Categories:\" }\n)\n\n&lt;!-- viewof islands = Inputs.checkbox( --&gt;\n&lt;!--   [\"Torgersen\", \"Biscoe\", \"Dream\"],  --&gt;\n&lt;!--   { value: [\"Torgersen\", \"Biscoe\"], label: \"Islands:\" } --&gt;\n&lt;!-- ) --&gt;\n\n\n\n\n\n\n\ndata = FileAttachment(\"resources.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return islands.includes(penguin.Category)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
   },
   {
     "objectID": "resources.html#natural-resources",
@@ -418,5 +418,19 @@
     "title": "Resources",
     "section": "Data Sources",
     "text": "Data Sources\nWebsite ~ Open Data Network"
+  },
+  {
+    "objectID": "resources.html#searchable-database",
+    "href": "resources.html#searchable-database",
+    "title": "Resources",
+    "section": "",
+    "text": "viewof species = Inputs.checkbox(\n  [\"Adelie\", \"Chinstrap\", \"Gentoo\"], \n  { value: [\"Adelie\"], label: \"Species:\" }\n)\n\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], label: \"Islands:\" }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata = FileAttachment(\"palmer-penguins.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return species.includes(penguin.species) && islands.includes(penguin.island)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
+  },
+  {
+    "objectID": "resources.html#resource-database",
+    "href": "resources.html#resource-database",
+    "title": "Resources",
+    "section": "",
+    "text": "Use the filter/search options below to explore my collated resources. You can also download this information as a table here.\n\nviewof islands = Inputs.checkbox(\n  [\"R\", \"Job Search\", \"QGIS\"], \n  { value: [\"R\"], label: \"Categories:\" }\n)\n\n&lt;!-- viewof islands = Inputs.checkbox( --&gt;\n&lt;!--   [\"Torgersen\", \"Biscoe\", \"Dream\"],  --&gt;\n&lt;!--   { value: [\"Torgersen\", \"Biscoe\"], label: \"Islands:\" } --&gt;\n&lt;!-- ) --&gt;\n\n\n\n\n\n\n\ndata = FileAttachment(\"resources.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return islands.includes(penguin.Category)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
   }
 ]

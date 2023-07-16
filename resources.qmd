@@ -2,7 +2,7 @@
 title: "Resources"
 subtitle: My favorite references for ecology, GIS, R, Python, and more.
 image: assets/bg-pines-resources-purple-sm.png
-
+toc: FALSE
 format:
   html:
     echo: false
@@ -17,30 +17,44 @@ format:
     
 ---
 
+## Resource Database
+
+Use the filter/search options below to explore my collated resources. You can also download this information as a table here.
+
+```{r}
+library(tidyverse)
+
+data <- read.csv("resources.csv")
+
+data_cat <- data %>% pull(Category)
+
+data_type <- data %>% pull(Type)
+
+
+```
+
+
+
 ```{ojs}
 //| panel: input
-<!-- viewof billLengthMin = Inputs.range( -->
-<!--   [32, 50],  -->
-<!--   { value: 35, step: 1, label: "Bill length (min):" } -->
+viewof islands = Inputs.checkbox(
+  ["R", "Job Search", "QGIS"], 
+  { value: ["R"], label: "Categories:" }
+)
+
+<!-- viewof islands = Inputs.checkbox( -->
+<!--   ["Torgersen", "Biscoe", "Dream"],  -->
+<!--   { value: ["Torgersen", "Biscoe"], label: "Islands:" } -->
 <!-- ) -->
 
-viewof species = Inputs.checkbox(
-  ["Adelie", "Chinstrap", "Gentoo"], 
-  { value: ["Adelie"], label: "Species:" }
-)
-
-viewof islands = Inputs.checkbox(
-  ["Torgersen", "Biscoe", "Dream"], 
-  { value: ["Torgersen", "Biscoe"], label: "Islands:" }
-)
 ```
 
 ```{ojs}
 //| include: false
-data = FileAttachment("palmer-penguins.csv").csv({ typed: true })
+data = FileAttachment("resources.csv").csv({ typed: true })
 
 filtered = data.filter(penguin => {
-  return species.includes(penguin.species) && islands.includes(penguin.island)
+  return islands.includes(penguin.Category)
 })
 
 // Update table data when filtered data changes
@@ -50,69 +64,19 @@ Reactable.setData('tbl', filtered)
 ```{r}
 library(reactable)
 
-data <- read.csv("palmer-penguins.csv")
+data <- read.csv("resources.csv")
 
 reactable(
   data,
-  wrap = FALSE,
+  wrap = TRUE,
   resizable = TRUE,
   searchable = TRUE,
   striped = TRUE,
   defaultPageSize = 20,
   paginationType = "simple",
+  showPageInfo = FALSE,
   minRows = 1,
   elementId = "tbl"
 )
 ```
 
-
-
-## Natural Resources
-
-These resources are for folks in or thinking about joining in the wildlife biology career path.
-
-#### Job Resources
-
-- [Blog Post ~ Job Boards To Find An Impactful Career in Nature](https://conservationcompanion.com/blog/job-boards-to-find-an-impactful-career-in-nature)
-- [Website ~ Careers in Conservation Job Board List](https://diversityinconservationjobs.org/jobs/)
-
-
-## R & RStudio
-
-These resources are for folks in the process of learning R and the RStudio IDE.
-
-#### Learning R and RStudio
-
-- [eBook ~ R for Fledglings](https://www.uvm.edu/~tdonovan/RforFledglings/)
-
-#### Statistics in R
-
-- [PDF ~ An R Companion for the Handbook of Biological Statistics](http://rcompanion.org/documents/RCompanionBioStatistics.pdf)
-
-#### Reproducible Reporting
-
-- [Website ~ Quarto from Posit](https://quarto.org/)
-
-#### Mapping and Spatial Data
-
-- [Website ~ Spatial Data Science in R](https://rspatial.org/)
-
-## GIS & Spatial Analysis
-
-These resources are for the sorry souls in the process of learning GIS, including open source GIS.
-
-#### ArcGIS - Learning
-
-- [Website ~ Esri Academy Online Learning](https://www.esri.com/training/)
-
-#### ArcGIS - Spatial Analysis
-
-- [Website ~ The Power of Spatial Analysis](https://gisgeography.com/spatial-analysis/)
-
-#### Learning QGIS
-
-- [YouTube Channel ~ DMAD QGIS Lessons](https://www.youtube.com/c/DMADMarineMammalsResearchAssociation)
-
-## Data Sources
-
-[Website ~ Open Data Network](https://www.opendatanetwork.com/)

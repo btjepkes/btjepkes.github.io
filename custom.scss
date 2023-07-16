@@ -347,12 +347,17 @@ nav .nav-item a:hover {
 /* TABLES */
 
 .rt-search {
-  width: 100%;
-  margin-top: 1.5em;
+  width: 100% !important;
+  margin-top: 1.0em !important;
+  margin-bottom: 1.5em !important;
   border: solid 1px $blue-5 !important;
+  background: #e6e67b3d !important;
 }
 
-
+.rt-no-data {
+  color: red !important;
+  left: 5% !important;
+}
 
 
 
@@ -1241,7 +1246,8 @@ margin-bottom: 0 !important;
    list-style-position: inside;
    border-width: 16px; /* Adjust the width as needed */
     border-style: solid;
-    border-image: linear-gradient(to bottom, $blue-6, $light-green) 1;
+    border-color: $light-green;
+    /*border-image: linear-gradient(to bottom, $light-green) 1;*/
 }
 
 .get-started h3 {
