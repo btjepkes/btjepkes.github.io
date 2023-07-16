@@ -19,9 +19,14 @@ format:
 
 ```{ojs}
 //| panel: input
-viewof billLengthMin = Inputs.range(
-  [32, 50], 
-  { value: 35, step: 1, label: "Bill length (min):" }
+<!-- viewof billLengthMin = Inputs.range( -->
+<!--   [32, 50],  -->
+<!--   { value: 35, step: 1, label: "Bill length (min):" } -->
+<!-- ) -->
+
+viewof species = Inputs.checkbox(
+  ["Adelie", "Chinstrap", "Gentoo"], 
+  { value: ["Adelie"], label: "Species:" }
 )
 
 viewof islands = Inputs.checkbox(
@@ -35,7 +40,7 @@ viewof islands = Inputs.checkbox(
 data = FileAttachment("palmer-penguins.csv").csv({ typed: true })
 
 filtered = data.filter(penguin => {
-  return penguin.bill_length > billLengthMin && islands.includes(penguin.island)
+  return species.includes(penguin.species) && islands.includes(penguin.island)
 })
 
 // Update table data when filtered data changes
@@ -54,7 +59,8 @@ reactable(
   searchable = TRUE,
   striped = TRUE,
   defaultPageSize = 20,
-  minRows = 10,
+  paginationType = "simple",
+  minRows = 1,
   elementId = "tbl"
 )
 ```

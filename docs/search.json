@@ -389,7 +389,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "viewof billLengthMin = Inputs.range(\n  [32, 50], \n  { value: 35, step: 1, label: \"Bill length (min):\" }\n)\n\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], label: \"Islands:\" }\n)\ndata = FileAttachment(\"palmer-penguins.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return penguin.bill_length &gt; billLengthMin && islands.includes(penguin.island)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
+    "text": "viewof species = Inputs.checkbox(\n  [\"Adelie\", \"Chinstrap\", \"Gentoo\"], \n  { value: [\"Adelie\"], label: \"Species:\" }\n)\n\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], label: \"Islands:\" }\n)\ndata = FileAttachment(\"palmer-penguins.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return species.includes(penguin.species) && islands.includes(penguin.island)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
   },
   {
     "objectID": "resources.html#natural-resources",
