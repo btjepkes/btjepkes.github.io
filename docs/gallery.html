@@ -26,6 +26,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <link href="./site-logo-green.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -52,10 +54,41 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-galleries .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-galleries'] = new List('listing-galleries', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Benjamin Tjepkes - My Gallery">
+<link rel="alternate" type="application/rss+xml" title="Benjamin Tjepkes" href="gallery.xml"><meta property="og:title" content="Benjamin Tjepkes - My Gallery">
 <meta property="og:description" content="Maps, visualizations, reports, posters, and presentations.">
 <meta property="og:image" content="https://btjepkes.github.io/assets/bg-pines-gallery-yellow-sm.png">
 <meta property="og:site-name" content="Benjamin Tjepkes">
@@ -231,11 +264,86 @@ Map" data-gallery="personal-projects"><img src="./gallery/img-map-11.jpg" class=
 </section>
 <section id="my-past-works" class="level2">
 <h2 class="anchored" data-anchor-id="my-past-works">My Past Works</h2>
-<p>Coming soon!</p>
+<div id="listing-galleries" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Maps,Choropleth,RStudio,ArcGIS Pro" data-listing-file-modified-sort="1687199931947" data-listing-reading-time-sort="1">
+<a href="./gallery/gallery-001.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./gallery/img-cover-work-products-sm.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Work-Based Mapping Products
+</h5>
+<div class="card-subtitle listing-subtitle">
+Mapping products made for various work-related projects, technical reports, and publications.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Maps" data-listing-file-modified-sort="1687199955784" data-listing-reading-time-sort="1">
+<a href="./gallery/gallery-002.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./gallery/img-cover-course-products-sm.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Course-Based Mapping Products
+</h5>
+<div class="card-subtitle listing-subtitle">
+Various maps made for course-related assignements and projects.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Map Gallery" data-listing-file-modified-sort="1687668674719" data-listing-reading-time-sort="1">
+<a href="./gallery/gallery-003.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./gallery/img-cover-personal-products-sm.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Personal Mapping &amp; Data Viz Products
+</h5>
+<div class="card-subtitle listing-subtitle">
+Various maps and other data visualizations made for personal and creative projects.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Poster Gallery" data-listing-file-modified-sort="1687199981145" data-listing-reading-time-sort="1">
+<a href="./gallery/gallery-004.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./gallery/img-cover-posters-presentations-sm.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Professional Posters and Presentations
+</h5>
+<div class="card-subtitle listing-subtitle">
+Various posters and powerpoint presentations from research symposia and other venues.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
 <section id="my-toolbox" class="level2">
 <h2 class="anchored" data-anchor-id="my-toolbox">My Toolbox</h2>
 <p>Most of my visualizations are created using ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.</p>
+
 
 
 </section>
@@ -541,7 +649,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","loop":true,"descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","loop":true,"selector":".lightbox"});</script>
 
 
 

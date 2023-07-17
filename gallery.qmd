@@ -3,25 +3,25 @@ title: "My Gallery"
 subtitle: "Maps, visualizations, reports, posters, and presentations."
 image: assets/bg-pines-gallery-yellow-sm.png
 toc: false
-# listing: 
-#   id: galleries
-#   contents:
-#     - "gallery-001.qmd"
-#     - "gallery-002.qmd"
-#     - "gallery-003.qmd"
-#     - "gallery-004.qmd"
-#   type: grid
-#   feed: true
-#   grid-columns: 2
-#   image-height: 100%
-#   categories: numbered
-#   sort: "date desc"
-#   filter-ui: true
-#   sort-ui: true
-#   fields:
-#     - image
-#     - title
-#     - subtitle
+listing:
+  id: galleries
+  contents:
+    - "gallery-001.qmd"
+    - "gallery-002.qmd"
+    - "gallery-003.qmd"
+    - "gallery-004.qmd"
+  type: grid
+  feed: true
+  grid-columns: 2
+  image-height: 100%
+  categories: false
+  sort: "date desc"
+  filter-ui: false
+  sort-ui: false
+  fields:
+    - image
+    - title
+    - subtitle
 ---
 
 ## My Recent Works
@@ -55,8 +55,8 @@ description="Great Lakes Watershed Map"}
 
 ## My Past Works
 
-Coming soon!
-
+:::{#galleries}
+:::
 
 
 ## My Toolbox

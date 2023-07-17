@@ -19,7 +19,7 @@ format:
 
 ## Resource Database
 
-Use the filter/search options below to explore my collated resources. You can also download this information as a table here.
+Use the filter/search options below to explore my collated resources.
 
 ```{r}
 library(tidyverse)
@@ -39,13 +39,13 @@ data_type <- data %>% pull(Type)
 //| panel: input
 viewof islands = Inputs.checkbox(
   ["R", "Job Search", "QGIS"], 
-  { value: ["R"], label: "Categories:" }
+  { value: ["R", "Job Search", "QGIS"], label: "Categories:" }
 )
 
-<!-- viewof islands = Inputs.checkbox( -->
-<!--   ["Torgersen", "Biscoe", "Dream"],  -->
-<!--   { value: ["Torgersen", "Biscoe"], label: "Islands:" } -->
-<!-- ) -->
+viewof types = Inputs.checkbox(
+  ["Website", "eBook", "YouTube"],
+  { value: ["Website", "eBook", "YouTube"], label: "Types:" }
+)
 
 ```
 
@@ -54,7 +54,7 @@ viewof islands = Inputs.checkbox(
 data = FileAttachment("resources.csv").csv({ typed: true })
 
 filtered = data.filter(penguin => {
-  return islands.includes(penguin.Category)
+  return islands.includes(penguin.Category) && types.includes(penguin.Type)
 })
 
 // Update table data when filtered data changes
@@ -68,7 +68,7 @@ data <- read.csv("resources.csv")
 
 reactable(
   data,
-  wrap = TRUE,
+  wrap = FALSE,
   resizable = TRUE,
   searchable = TRUE,
   striped = TRUE,

@@ -1,0 +1,104 @@
+---
+title: "TEST"
+subtitle: Testing area.
+image: assets/bg-pines-resources-purple-sm.png
+toc: false
+draft: TRUE
+
+format:
+  html:
+    echo: false
+    warning: false
+    
+---
+
+## My Education
+
+I have been fortunate to have experienced higher education at several colleges and universities in the United States.
+
+```{r}
+library(crosstalk)
+library(leaflet)
+library(dplyr)
+library(reactable)
+
+# A SpatialPointsDataFrame for the map.
+# Set a group name to share data points with the table.
+brew_sp <- SharedData$new(breweries91, group = "breweries")
+
+# A regular data frame (without coordinates) for the table.
+# Use the same group name as the map data.
+brew_data <- as_tibble(breweries91) %>%
+  select(brewery, address) %>%
+  head() %>% 
+  SharedData$new(group = "breweries")
+
+map <- leaflet(brew_sp) %>%
+  addTiles(options = tileOptions(minZoom = 8)) %>%
+  addMarkers()
+
+tbl <- reactable(
+  brew_data,
+  selection = "multiple",
+  onClick = "select",
+  rowStyle = list(cursor = "pointer"),
+  minRows = 1,
+  
+)
+
+htmltools::browsable(
+  htmltools::tagList(
+    htmltools::div(
+      style = "display: flex;",
+      htmltools::div(style = "flex: 1;", tbl),
+      htmltools::div(style = "flex: 1;", map)
+    )
+  )
+)
+
+```
+
+
+## Where I've Worked
+
+```{r}
+library(crosstalk)
+library(leaflet)
+library(dplyr)
+library(reactable)
+
+# A SpatialPointsDataFrame for the map.
+# Set a group name to share data points with the table.
+brew_sp <- SharedData$new(breweries91, group = "breweries_2")
+
+# A regular data frame (without coordinates) for the table.
+# Use the same group name as the map data.
+brew_data <- as_tibble(breweries91) %>%
+  select(brewery, village) %>%
+  head() %>% 
+  SharedData$new(group = "breweries_2")
+
+map <- leaflet(brew_sp) %>%
+  addTiles(options = tileOptions(minZoom = 8)) %>%
+  addMarkers()
+
+tbl <- reactable(
+  brew_data,
+  selection = "multiple",
+  onClick = "select",
+  rowStyle = list(cursor = "pointer"),
+  minRows = 1,
+  
+)
+
+htmltools::browsable(
+  htmltools::tagList(
+    htmltools::div(
+      style = "display: flex;",
+      htmltools::div(style = "flex: 1;", tbl),
+      htmltools::div(style = "flex: 1;", map)
+    )
+  )
+)
+
+```

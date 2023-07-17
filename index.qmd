@@ -53,14 +53,14 @@ listing:
 
 ::: {.intro-banner}
 
-::: {.intro-headshot}
+::: {.intro-headshot .slide-in}
 
 ![](img-ben-portrait-2.jpg){.nolightbox .headshot-img}
 
 :::
 
 
-::: {.intro-content}
+::: {.intro-content .slide-in}
 # Hi, my name is Ben Tjepkes and this is *meum portfolium*.
 
 I’m a wildlife ecologist and budding geographer with a passion for applied science. Please explore my works on this site for a look at my experience in ecology and geospatial.
