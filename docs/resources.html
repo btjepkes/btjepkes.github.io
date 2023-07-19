@@ -193,40 +193,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="resource-database" class="level2">
 <h2 class="anchored" data-anchor-id="resource-database">Resource Database</h2>
 <p>Use the filter/search options below to explore my collated resources.</p>
-<div class="cell panel-input card bg-light p-2">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="40" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 39;"><span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>viewof islands <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">checkbox</span>(</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"R"</span><span class="op">,</span> <span class="st">"Job Search"</span><span class="op">,</span> <span class="st">"QGIS"</span>]<span class="op">,</span> </span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>  { <span class="dt">value</span><span class="op">:</span> [<span class="st">"R"</span><span class="op">,</span> <span class="st">"Job Search"</span><span class="op">,</span> <span class="st">"QGIS"</span>]<span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Categories:"</span> }</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>viewof types <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">checkbox</span>(</span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"Website"</span><span class="op">,</span> <span class="st">"eBook"</span><span class="op">,</span> <span class="st">"YouTube"</span>]<span class="op">,</span></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>  { <span class="dt">value</span><span class="op">:</span> [<span class="st">"Website"</span><span class="op">,</span> <span class="st">"eBook"</span><span class="op">,</span> <span class="st">"YouTube"</span>]<span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Types:"</span> }</span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-1" data-nodetype="declaration">
+<p><em>Example Search Terms: “R”, “book”, “GIS”</em></p>
+<div class="cell panel-input card bg-light p-2" data-include="false">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="42" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 41;"><span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>viewof islands <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>(</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>  [<span class="st">"R"</span><span class="op">,</span> <span class="st">"Job Search"</span><span class="op">,</span> <span class="st">"QGIS"</span>]<span class="op">,</span> </span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>  { <span class="dt">value</span><span class="op">:</span> [<span class="st">"R"</span>]<span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Categories:"</span> }</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display hidden">
+<div id="ojs-cell-1" data-nodetype="declaration">
 
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-2" data-nodetype="declaration">
-
-</div>
 </div>
 </div>
 </div>
 <div class="cell" data-include="false">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="54" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 53;"><span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"resources.csv"</span>)<span class="op">.</span><span class="fu">csv</span>({ <span class="dt">typed</span><span class="op">:</span> <span class="kw">true</span> })</span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>filtered <span class="op">=</span> data<span class="op">.</span><span class="fu">filter</span>(penguin <span class="kw">=&gt;</span> {</span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> islands<span class="op">.</span><span class="fu">includes</span>(penguin<span class="op">.</span><span class="at">Category</span>) <span class="op">&amp;&amp;</span> types<span class="op">.</span><span class="fu">includes</span>(penguin<span class="op">.</span><span class="at">Type</span>)</span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>})</span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="co">// Update table data when filtered data changes</span></span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>Reactable<span class="op">.</span><span class="fu">setData</span>(<span class="st">'tbl'</span><span class="op">,</span> filtered)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="52" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 51;"><span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"resources.csv"</span>)<span class="op">.</span><span class="fu">csv</span>({ <span class="dt">typed</span><span class="op">:</span> <span class="kw">true</span> })</span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>filtered <span class="op">=</span> data<span class="op">.</span><span class="fu">filter</span>(penguin <span class="kw">=&gt;</span> {</span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> islands<span class="op">.</span><span class="fu">includes</span>(penguin<span class="op">.</span><span class="at">Category</span>)</span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="co">// Update table data when filtered data changes</span></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>Reactable<span class="op">.</span><span class="fu">setData</span>(<span class="st">'tbl'</span><span class="op">,</span> filtered)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display hidden">
 <div>
 <div id="ojs-cell-2-1" data-nodetype="declaration">
@@ -253,7 +240,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output-display">
 
 <div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="tbl" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="tbl">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Name":["Careers in Conservation Job Board List","R for Fledglings","DMAD QGIS Lessons"],"Category":["Job Search","R","QGIS"],"Type":["Website","eBook","YouTube"],"Description":["Directory of conservation job boards.","Informative ebook with tutorials about coding in R.","Excellent YouTube channel with a series on QGIS, with a focus on ecology and science."],"Link":["https://diversityinconservationjobs.org/jobs/","https://www.uvm.edu/~tdonovan/RforFledglings/","https://www.youtube.com/c/DMADMarineMammalsResearchAssociation"]},"columns":[{"id":"Name","name":"Name","type":"character"},{"id":"Category","name":"Category","type":"character"},{"id":"Type","name":"Type","type":"character"},{"id":"Description","name":"Description","type":"character"},{"id":"Link","name":"Link","type":"character"}],"resizable":true,"searchable":true,"defaultPageSize":20,"paginationType":"simple","showPageInfo":false,"minRows":1,"striped":true,"nowrap":true,"elementId":"tbl","dataKey":"8ffaa9ea71d5bf669929effee6c5e191"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="tbl">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Name":["Careers in Conservation Job Board List","R for Fledglings","DMAD QGIS Lessons"],"Category":["Job Search","R","QGIS"],"Type":["Website","eBook","YouTube"],"Description":["Directory of conservation job boards.","Informative ebook with tutorials about coding in R.","Excellent YouTube channel with a series on QGIS, with a focus on ecology and science."],"Link":["https://diversityinconservationjobs.org/jobs/","https://www.uvm.edu/~tdonovan/RforFledglings/","https://www.youtube.com/c/DMADMarineMammalsResearchAssociation"]},"columns":[{"id":"Name","name":"Name","type":"character","cell":[{"name":"div","attribs":{},"children":[{"name":"div","attribs":{"style":{"font-weight":"600"}},"children":["Careers in Conservation Job Board List"]},{"name":"div","attribs":{"style":{"font-size":"0.75rem"}},"children":["Directory of conservation job boards."]}]},{"name":"div","attribs":{},"children":[{"name":"div","attribs":{"style":{"font-weight":"600"}},"children":["R for Fledglings"]},{"name":"div","attribs":{"style":{"font-size":"0.75rem"}},"children":["Informative ebook with tutorials about coding in R."]}]},{"name":"div","attribs":{},"children":[{"name":"div","attribs":{"style":{"font-weight":"600"}},"children":["DMAD QGIS Lessons"]},{"name":"div","attribs":{"style":{"font-size":"0.75rem"}},"children":["Excellent YouTube channel with a series on QGIS, with a focus on ecology and science."]}]}],"width":600},{"id":"Category","name":"Category","type":"character"},{"id":"Type","name":"Type","type":"character"},{"id":"Description","name":"Description","type":"character","show":false},{"id":"Link","name":"Link","type":"character","cell":[{"name":"a","attribs":{"href":"https://diversityinconservationjobs.org/jobs/","target":"_blank"},"children":["Link"]},{"name":"a","attribs":{"href":"https://www.uvm.edu/~tdonovan/RforFledglings/","target":"_blank"},"children":["Link"]},{"name":"a","attribs":{"href":"https://www.youtube.com/c/DMADMarineMammalsResearchAssociation","target":"_blank"},"children":["Link"]}]}],"resizable":true,"searchable":true,"defaultPageSize":20,"paginationType":"simple","showPageInfo":false,"minRows":1,"striped":true,"elementId":"tbl","dataKey":"6fe5c9f8280608dfacdab7b1a28c0729"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 
@@ -263,7 +250,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </main> <!-- /main -->
 
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"viewof islands = Inputs.checkbox(\n  [\"R\", \"Job Search\", \"QGIS\"], \n  { value: [\"R\", \"Job Search\", \"QGIS\"], label: \"Categories:\" }\n)\n\nviewof types = Inputs.checkbox(\n  [\"Website\", \"eBook\", \"YouTube\"],\n  { value: [\"Website\", \"eBook\", \"YouTube\"], label: \"Types:\" }\n)\n\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"data = FileAttachment(\"resources.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin => {\n  return islands.includes(penguin.Category) && types.includes(penguin.Type)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)\n"},{"methodName":"interpretQuiet","source":"shinyInput('islands')"},{"methodName":"interpretQuiet","source":"shinyInput('types')"}]}
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"viewof islands = Inputs.radio(\n  [\"R\", \"Job Search\", \"QGIS\"], \n  { value: [\"R\"], label: \"Categories:\" }\n)\n\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"data = FileAttachment(\"resources.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin => {\n  return islands.includes(penguin.Category)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)\n"},{"methodName":"interpretQuiet","source":"shinyInput('islands')"}]}
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

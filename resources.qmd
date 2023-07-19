@@ -21,6 +21,8 @@ format:
 
 Use the filter/search options below to explore my collated resources.
 
+*Example Search Terms: "R", "book", "GIS"*
+
 ```{r}
 library(tidyverse)
 
@@ -37,14 +39,10 @@ data_type <- data %>% pull(Type)
 
 ```{ojs}
 //| panel: input
-viewof islands = Inputs.checkbox(
+//| include: false
+viewof islands = Inputs.radio(
   ["R", "Job Search", "QGIS"], 
-  { value: ["R", "Job Search", "QGIS"], label: "Categories:" }
-)
-
-viewof types = Inputs.checkbox(
-  ["Website", "eBook", "YouTube"],
-  { value: ["Website", "eBook", "YouTube"], label: "Types:" }
+  { value: ["R"], label: "Categories:" }
 )
 
 ```
@@ -54,7 +52,7 @@ viewof types = Inputs.checkbox(
 data = FileAttachment("resources.csv").csv({ typed: true })
 
 filtered = data.filter(penguin => {
-  return islands.includes(penguin.Category) && types.includes(penguin.Type)
+  return islands.includes(penguin.Category)
 })
 
 // Update table data when filtered data changes
@@ -63,12 +61,14 @@ Reactable.setData('tbl', filtered)
 
 ```{r}
 library(reactable)
+library(tidyverse)
+library(htmltools)
 
 data <- read.csv("resources.csv")
 
 reactable(
   data,
-  wrap = FALSE,
+  wrap = TRUE,
   resizable = TRUE,
   searchable = TRUE,
   striped = TRUE,
@@ -76,7 +76,25 @@ reactable(
   paginationType = "simple",
   showPageInfo = FALSE,
   minRows = 1,
-  elementId = "tbl"
+  elementId = "tbl",
+  columns = list(
+    Name = colDef(
+      cell = function(value, index) {
+        Description <- data$Description[index]
+        Description <- if (!is.na(Description)) Description else "Unknown"
+        div(
+          div(style = "font-weight: 600", value),
+          div(style = "font-size: 0.75rem", Description)
+          
+        )
+      }, width = 600
+    ),
+    Description = colDef(show = FALSE),
+    Link = colDef(cell = function(value) {
+      tags$a(href = value, target = "_blank", "Link")
+    }
+    )
+  )
 )
 ```
 

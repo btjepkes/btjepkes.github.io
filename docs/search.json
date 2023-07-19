@@ -389,13 +389,13 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Use the filter/search options below to explore my collated resources.\n\nviewof islands = Inputs.checkbox(\n  [\"R\", \"Job Search\", \"QGIS\"], \n  { value: [\"R\", \"Job Search\", \"QGIS\"], label: \"Categories:\" }\n)\n\nviewof types = Inputs.checkbox(\n  [\"Website\", \"eBook\", \"YouTube\"],\n  { value: [\"Website\", \"eBook\", \"YouTube\"], label: \"Types:\" }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata = FileAttachment(\"resources.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return islands.includes(penguin.Category) && types.includes(penguin.Type)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
+    "text": "Use the filter/search options below to explore my collated resources.\nExample Search Terms: “R”, “book”, “GIS”\n\nviewof islands = Inputs.radio(\n  [\"R\", \"Job Search\", \"QGIS\"], \n  { value: [\"R\"], label: \"Categories:\" }\n)\n\n\n\n\n\n\n\ndata = FileAttachment(\"resources.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return islands.includes(penguin.Category)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
   },
   {
     "objectID": "resources.html#resource-database",
     "href": "resources.html#resource-database",
     "title": "Resources",
     "section": "",
-    "text": "Use the filter/search options below to explore my collated resources.\n\nviewof islands = Inputs.checkbox(\n  [\"R\", \"Job Search\", \"QGIS\"], \n  { value: [\"R\", \"Job Search\", \"QGIS\"], label: \"Categories:\" }\n)\n\nviewof types = Inputs.checkbox(\n  [\"Website\", \"eBook\", \"YouTube\"],\n  { value: [\"Website\", \"eBook\", \"YouTube\"], label: \"Types:\" }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata = FileAttachment(\"resources.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return islands.includes(penguin.Category) && types.includes(penguin.Type)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
+    "text": "Use the filter/search options below to explore my collated resources.\nExample Search Terms: “R”, “book”, “GIS”\n\nviewof islands = Inputs.radio(\n  [\"R\", \"Job Search\", \"QGIS\"], \n  { value: [\"R\"], label: \"Categories:\" }\n)\n\n\n\n\n\n\n\ndata = FileAttachment(\"resources.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return islands.includes(penguin.Category)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
   }
 ]
