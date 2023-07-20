@@ -99,7 +99,7 @@ This site houses my professional gallery and technical blog to showcase my exper
 
 ::: {.content-block}
 
-## Experience & Interests
+## Skills & Interests
 
 ::: {.features}
 
@@ -178,7 +178,7 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 ::: {.bg-banner-3}
 
-## Latest Visualizations
+## Data Visualizations
 
 Here are some of my recent maps and data visualizations. My work uses R, QGIS, or ArcGIS Pro for most projects.
 

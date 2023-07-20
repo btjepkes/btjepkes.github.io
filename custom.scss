@@ -415,6 +415,9 @@ div.quarto-post {
   box-shadow: 4px 4px 8px rgba(0,0,0,.2);
 }
 
+.quarto-grid-link:hover {
+  margin-bottom: 10px;}
+
 
 #index .quarto-grid-item {
   display: none !important;
@@ -707,7 +710,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   opacity: 0.1;
 }
 
+.bg-banner-3 h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
 
+.bg-banner-3 h2::before {
+  content: "My Latest";
+  display: block;
+  font-size: 0.8em;
+  text-transform: none;
+  color: $blue-6;
+}
 
 #listing-site-listings,
 #listing-site-listings-2 {

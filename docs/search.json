@@ -425,5 +425,19 @@
     "title": "Hi, my name is Ben Tjepkes and this is meum portfolium.",
     "section": "Biography & Status",
     "text": "Biography & Status\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform natural resource conservation.\nI currently serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. My main duties revolve around implementing the Missouri Bat Habitat Conservation Plan to help conserve imperiled bat species.\nIn fall 2023, I will be pursuing my Masters in Geography at the University of Missouri. I plan to provide updates on my thesis work as that progresses. Please reach out if you have any inquires or would like to collaborate on any ecological or geospatial projects."
+  },
+  {
+    "objectID": "index.html#skills-interests",
+    "href": "index.html#skills-interests",
+    "title": "Hi, my name is Ben Tjepkes and this is meum portfolium.",
+    "section": "Skills & Interests",
+    "text": "Skills & Interests\n\n\n GIS & Cartography\nAdept as using open source and proprietary software to create static and dynamic map products.\n\nSkills: R/RStudio, ArcGIS Pro/Online, QGIS\n\n\n\n Data Visualization\nProficient in data visualization and reproducible reporting for technical and creative projects.\n\nSkills: Quarto, R/Rmd, Jupyter Notebooks\n\n\n\n Research Methods\nKnowledge of the scientific method, research project development, and technical reporting.\n\nSkills: Mendeley, Zotero, OSF\n\n\n\n Web Development\nEmploy front-end web development techniques to design functional and beautiful websites.\n\nSkills: HTML, CSS, WordPress, Git/GitHub\n\n\n\n Applied Ecology\nExperience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.\n\nSkills: Field Surveys, Species Monitoring\n\n\n\n Data Management\nUse programs like Microsoft Access to maintain high-quality data in relational databases.\n\nSkills: Microsoft Access, SQL Server, Excel"
+  },
+  {
+    "objectID": "index.html#data-visualizations",
+    "href": "index.html#data-visualizations",
+    "title": "Hi, my name is Ben Tjepkes and this is meum portfolium.",
+    "section": "Data Visualizations",
+    "text": "Data Visualizations\nHere are some of my recent maps and data visualizations. My work uses R, QGIS, or ArcGIS Pro for most projects.\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Stamp Map"
   }
 ]
