@@ -73,7 +73,7 @@ I’m a wildlife ecologist and budding geographer with a passion for applied sci
 
 
 ::: {.consultant-info}
-### My Biography
+## Biography & Status
 
 I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform natural resource conservation.
 

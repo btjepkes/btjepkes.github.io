@@ -87,6 +87,7 @@ format:
     smooth-scroll: true
     number-sections: false
     title-block-banner: true
+    anchor-sections: false
     link-external-newwindow: true
     code-overflow: scroll
     grid:

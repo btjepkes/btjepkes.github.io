@@ -397,5 +397,33 @@
     "title": "Resources",
     "section": "",
     "text": "Use the filter/search options below to explore my collated resources.\nExample Search Terms: “R”, “book”, “GIS”\n\nviewof islands = Inputs.radio(\n  [\"R\", \"Job Search\", \"QGIS\"], \n  { value: [\"R\"], label: \"Categories:\" }\n)\n\n\n\n\n\n\n\ndata = FileAttachment(\"resources.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return islands.includes(penguin.Category)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
+  },
+  {
+    "objectID": "index.html#my-biography",
+    "href": "index.html#my-biography",
+    "title": "Hi, my name is Ben Tjepkes and this is meum portfolium.",
+    "section": "My Biography",
+    "text": "My Biography\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform natural resource conservation.\nI currently serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. My main duties revolve around implementing the Missouri Bat Habitat Conservation Plan to help conserve imperiled bat species.\nIn fall 2023, I will be pursuing my Masters in Geography at the University of Missouri. I plan to provide updates on my thesis work as that progresses. Please reach out if you have any inquires or would like to collaborate on any ecological or geospatial projects."
+  },
+  {
+    "objectID": "index.html#my-brief-bio",
+    "href": "index.html#my-brief-bio",
+    "title": "Hi, my name is Ben Tjepkes and this is meum portfolium.",
+    "section": "My Brief Bio",
+    "text": "My Brief Bio\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform natural resource conservation.\nI currently serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. My main duties revolve around implementing the Missouri Bat Habitat Conservation Plan to help conserve imperiled bat species.\nIn fall 2023, I will be pursuing my Masters in Geography at the University of Missouri. I plan to provide updates on my thesis work as that progresses. Please reach out if you have any inquires or would like to collaborate on any ecological or geospatial projects."
+  },
+  {
+    "objectID": "index.html#biography-current-status",
+    "href": "index.html#biography-current-status",
+    "title": "Hi, my name is Ben Tjepkes and this is meum portfolium.",
+    "section": "Biography & Current Status",
+    "text": "Biography & Current Status\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform natural resource conservation.\nI currently serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. My main duties revolve around implementing the Missouri Bat Habitat Conservation Plan to help conserve imperiled bat species.\nIn fall 2023, I will be pursuing my Masters in Geography at the University of Missouri. I plan to provide updates on my thesis work as that progresses. Please reach out if you have any inquires or would like to collaborate on any ecological or geospatial projects."
+  },
+  {
+    "objectID": "index.html#biography-status",
+    "href": "index.html#biography-status",
+    "title": "Hi, my name is Ben Tjepkes and this is meum portfolium.",
+    "section": "Biography & Status",
+    "text": "Biography & Status\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform natural resource conservation.\nI currently serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. My main duties revolve around implementing the Missouri Bat Habitat Conservation Plan to help conserve imperiled bat species.\nIn fall 2023, I will be pursuing my Masters in Geography at the University of Missouri. I plan to provide updates on my thesis work as that progresses. Please reach out if you have any inquires or would like to collaborate on any ecological or geospatial projects."
   }
 ]

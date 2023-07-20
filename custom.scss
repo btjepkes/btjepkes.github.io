@@ -901,16 +901,29 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 // TEMP !!!
 
+.consultant-info h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.consultant-info h2::before {
+  content: "About Me";
+  display: block;
+  font-size: 0.8em;
+  text-transform: none;
+  color: $blue-6;
+}
+
+
+
+
 .sign-img img{
   background: none !important;
 }
 
 .consultant-info {
   margin-right: 0px;
-}
-
-.consultant-info h3 {
-  padding-left: 8px;
 }
 
 
