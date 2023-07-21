@@ -17,7 +17,7 @@
 <width>144</width>
 </image>
 <generator>quarto-1.3.353</generator>
-<lastBuildDate>Fri, 21 Jul 2023 15:04:29 GMT</lastBuildDate>
+<lastBuildDate>Fri, 21 Jul 2023 18:23:14 GMT</lastBuildDate>
 <item>
   <title>Work-Based Mapping Products</title>
   <dc:creator>Benjamin Tjepkes</dc:creator>
@@ -30,7 +30,7 @@
 <div class="gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-5.jpg" class="lightbox" data-gallery="elsewhere" data-description="<strong>Missouri Black Bear Sightings Map</strong>
+<p><a href="../gallery/img-map-5.jpg" class="lightbox" data-description="<strong>Missouri Black Bear Sightings Map</strong>
 
 –
 
@@ -54,12 +54,12 @@ county
 
 in
 
-2020."><img src="https://btjepkes.github.io/gallery/img-map-5.jpg" class="img-fluid figure-img"></a></p>
+2020." data-gallery="elsewhere"><img src="https://btjepkes.github.io/gallery/img-map-5.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-8.jpg" class="lightbox" data-gallery="elsewhere" data-description="<strong>Public Hunting Lands in BMZs Map</strong>
+<p><a href="../gallery/img-map-8.jpg" class="lightbox" data-description="<strong>Public Hunting Lands in BMZs Map</strong>
 
 –
 
@@ -91,12 +91,12 @@ Bear
 
 Management
 
-Zones."><img src="https://btjepkes.github.io/gallery/img-map-8.jpg" class="img-fluid figure-img"></a></p>
+Zones." data-gallery="elsewhere"><img src="https://btjepkes.github.io/gallery/img-map-8.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-turkey-harvest-maps.png" class="lightbox" data-gallery="elsewhere" data-description="<strong>Turkey Harvest Map</strong>
+<p><a href="../gallery/img-turkey-harvest-maps.png" class="lightbox" data-description="<strong>Turkey Harvest Map</strong>
 
 –
 
@@ -112,7 +112,7 @@ of
 
 turkey
 
-harvested."><img src="https://btjepkes.github.io/gallery/img-turkey-harvest-maps.png" class="img-fluid figure-img"></a></p>
+harvested." data-gallery="elsewhere"><img src="https://btjepkes.github.io/gallery/img-turkey-harvest-maps.png" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </div>
@@ -125,7 +125,7 @@ harvested."><img src="https://btjepkes.github.io/gallery/img-turkey-harvest-maps
   <category>RStudio</category>
   <category>ArcGIS Pro</category>
   <guid>https://btjepkes.github.io/gallery/gallery-001.html</guid>
-  <pubDate>Fri, 21 Jul 2023 15:04:29 GMT</pubDate>
+  <pubDate>Fri, 21 Jul 2023 18:23:14 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-work-products-sm.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 <item>
@@ -195,7 +195,7 @@ Compliance"><img src="https://btjepkes.github.io/gallery/img-map-4.jpg" class="i
  ]]></description>
   <category>Maps</category>
   <guid>https://btjepkes.github.io/gallery/gallery-002.html</guid>
-  <pubDate>Fri, 21 Jul 2023 15:04:29 GMT</pubDate>
+  <pubDate>Fri, 21 Jul 2023 18:23:14 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-course-products-sm.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 <item>
@@ -210,7 +210,7 @@ Compliance"><img src="https://btjepkes.github.io/gallery/img-map-4.jpg" class="i
 <div class="gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-001v2.png" class="lightbox" data-description="2018
+<p><a href="../gallery/img-map-001v2.png" class="lightbox" data-gallery="personal-projects" data-description="2018
 
 Squirrel
 
@@ -220,12 +220,12 @@ Sighting
 
 Density
 
-Map" data-gallery="personal-projects"><img src="https://btjepkes.github.io/gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
+Map"><img src="https://btjepkes.github.io/gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-endangeredstamps.png" class="lightbox" data-description="Endangered
+<p><a href="../gallery/img-map-endangeredstamps.png" class="lightbox" data-gallery="personal-projects" data-description="Endangered
 
 Species
 
@@ -233,12 +233,12 @@ Stamps
 
 Range
 
-Map" data-gallery="personal-projects"><img src="https://btjepkes.github.io/gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
+Map"><img src="https://btjepkes.github.io/gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-table-001.png" class="lightbox" data-description="2018
+<p><a href="../gallery/img-table-001.png" class="lightbox" data-gallery="personal-projects" data-description="2018
 
 Squirrel
 
@@ -246,12 +246,12 @@ Census
 
 Sighting
 
-Table" data-gallery="personal-projects"><img src="https://btjepkes.github.io/gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
+Table"><img src="https://btjepkes.github.io/gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-10.jpg" class="lightbox" data-description="Missouri
+<p><a href="../gallery/img-map-10.jpg" class="lightbox" data-gallery="personal-projects" data-description="Missouri
 
 Tree
 
@@ -259,18 +259,18 @@ Canopy
 
 Density
 
-Map" data-gallery="personal-projects"><img src="https://btjepkes.github.io/gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
+Map"><img src="https://btjepkes.github.io/gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../gallery/img-map-11.jpg" class="lightbox" data-description="Great
+<p><a href="../gallery/img-map-11.jpg" class="lightbox" data-gallery="personal-projects" data-description="Great
 
 Lakes
 
 Watershed
 
-Map" data-gallery="personal-projects"><img src="https://btjepkes.github.io/gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
+Map"><img src="https://btjepkes.github.io/gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </div>
@@ -280,7 +280,7 @@ Map" data-gallery="personal-projects"><img src="https://btjepkes.github.io/galle
  ]]></description>
   <category>Map Gallery</category>
   <guid>https://btjepkes.github.io/gallery/gallery-003.html</guid>
-  <pubDate>Fri, 21 Jul 2023 15:04:29 GMT</pubDate>
+  <pubDate>Fri, 21 Jul 2023 18:23:14 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-personal-products-sm.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 <item>
@@ -328,7 +328,7 @@ Poster"><img src="https://btjepkes.github.io/gallery/img-eagle-poster.jpg" class
  ]]></description>
   <category>Poster Gallery</category>
   <guid>https://btjepkes.github.io/gallery/gallery-004.html</guid>
-  <pubDate>Fri, 21 Jul 2023 15:04:29 GMT</pubDate>
+  <pubDate>Fri, 21 Jul 2023 18:23:14 GMT</pubDate>
   <media:content url="https://btjepkes.github.io/gallery/img-cover-posters-presentations-sm.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 </channel>

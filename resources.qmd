@@ -37,28 +37,6 @@ data_type <- data %>% pull(Type)
 
 
 
-```{ojs}
-//| panel: input
-//| include: false
-viewof islands = Inputs.radio(
-  ["R", "Job Search", "QGIS"], 
-  { value: ["R"], label: "Categories:" }
-)
-
-```
-
-```{ojs}
-//| include: false
-data = FileAttachment("resources.csv").csv({ typed: true })
-
-filtered = data.filter(penguin => {
-  return islands.includes(penguin.Category)
-})
-
-// Update table data when filtered data changes
-Reactable.setData('tbl', filtered)
-```
-
 ```{r}
 library(reactable)
 library(tidyverse)
