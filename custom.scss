@@ -781,9 +781,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .feature {
   margin-top: 20px;
   padding: 10px 10px 20px 30px;
-  background: #eaedec;
+  background: white;
   border-radius: 12px;
-  box-shadow: 0 0 3px 0px teal;
+  box-shadow: 0 0 5px 0px teal;
 }
 
 /* SLIDE IN ANIMATION */
@@ -946,6 +946,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   font-family: system-ui;
 }
 
+.index-h2 h2::after {
+  content: "";
+  display: block;
+  border-bottom: solid indianred 5px;
+  padding-top: 12px;
+  width: 50px;
+  margin: auto;
+}
+
 .index-h4 h4 {
   font-size: 1.2em;
   color: $blue-6;
@@ -1044,6 +1053,22 @@ margin-bottom: 0 !important;
         -moz-column-count:    2;
         -webkit-column-count: 2;
         column-count:         2;
+      -webkit-column-gap:   10px;
+      -moz-column-gap:      10px;
+      column-gap:           10px;
+    }
+    
+    .gallery img {
+      width: 100% !important;
+      height: auto !important;
+      margin-bottom: 0px;
+      transition: filter 2s;
+      border: 1px $dark-green solid;
+      border-radius: 0;
+                  }
+                  
+    .gallery .figure-caption {
+      display: none;
     }
 }
 /*@media (max-width: 700px) {
