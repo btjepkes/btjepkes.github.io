@@ -418,5 +418,19 @@
     "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "Technical Skills",
     "text": "Technical Skills\n\n\n GIS & Cartography\nAdept as using open source and proprietary software to create static and dynamic map products.\n\nSkills: R/RStudio, ArcGIS Pro/Online, QGIS\n\n\n\n Data Visualization\nProficient in data visualization and reproducible reporting for technical and creative projects.\n\nSkills: Quarto, R/Rmd, Jupyter Notebooks\n\n\n\n Research Methods\nKnowledge of the scientific method, research project development, and technical reporting.\n\nSkills: Mendeley, Zotero, OSF\n\n\n\n Web Development\nEmploy front-end web development techniques to design functional and beautiful websites.\n\nSkills: HTML, CSS, WordPress, Git/GitHub\n\n\n\n Applied Ecology\nExperience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.\n\nSkills: Field Surveys, Species Monitoring\n\n\n\n Data Management\nUse programs like Microsoft Access to maintain high-quality data in relational databases.\n\nSkills: Microsoft Access, SQL Server, Excel"
+  },
+  {
+    "objectID": "index.html#exploring-my-portfolio",
+    "href": "index.html#exploring-my-portfolio",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
+    "section": "Exploring My Portfolio",
+    "text": "Exploring My Portfolio\nThis site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around to learn more. Thank you!\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nAn interactive look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires or connect on my social profiles.\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nResources\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#posts-writings",
+    "href": "index.html#posts-writings",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
+    "section": "Posts & Writings",
+    "text": "Posts & Writings\nMy personal blog covers a wide range of topics spanning ecological and geospatial science.\n\n\n\n\n  \n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\nMar 26, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\nNo matching items"
   }
 ]

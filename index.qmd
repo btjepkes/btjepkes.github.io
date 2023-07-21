@@ -89,7 +89,7 @@ I’m a wildlife ecologist and budding geographer with a passion for applied sci
 
 ::: {.bg-banner-1}
 
-#### **Exploring My Portfolio**
+## Exploring My Portfolio {.index-h2-alt}
 
 This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around to learn more. Thank you!
 
@@ -169,8 +169,9 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 ::: {.bg-banner-2}
 
-## My Latest Writings
+## Posts & Writings {.index-h2-alt}
 
+My personal blog covers a wide range of topics spanning ecological and geospatial science.
 
 ::: {#site-listings-2}
 

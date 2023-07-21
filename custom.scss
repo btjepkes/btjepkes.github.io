@@ -372,7 +372,7 @@ div.quarto-post {
   margin-bottom: 1.5em;
   border-bottom: none;
   background: #f5f5f514;
-  padding: 12px;
+  padding: 20px;
   border-radius: 8px;
 }
 
@@ -636,6 +636,7 @@ div.quarto-about-trestles {
 .bg-banner-1 p {
   color: white;
   font-weight: 600;
+  text-align: center;
 }
 
 .bg-banner-1 h4 {
@@ -706,6 +707,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .bg-banner-2 p, {
   color: white;
+  text-align: center;
 }
 
 .bg-banner-2 img {
@@ -758,6 +760,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 #listing-site-listings-2 {
   position: relative;
   padding-top: 14px;
+  margin-right: 0 !important;
 }
 
 
@@ -955,12 +958,33 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   margin: auto;
 }
 
+.index-h2-alt h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 30px;
+  border-bottom: none;
+  font-family: system-ui;
+  color: white;
+  opacity: 1.0;
+}
+
+.index-h2-alt h2::after {
+  content: "";
+  display: block;
+  border-bottom: solid $tan 5px;
+  padding-top: 12px;
+  width: 50px;
+  margin: auto;
+}
+
 .index-h4 h4 {
   font-size: 1.2em;
   color: $blue-6;
   text-align: center;
   font-weight: 900;
 }
+
 
 .consultant-info li::marker {
   color: indianred;
