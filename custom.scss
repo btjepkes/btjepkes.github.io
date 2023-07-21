@@ -536,6 +536,14 @@ body {
   margin-top: 0;
 }
 
+.intro-content h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 1.05em;
+  letter-spacing: .01em;
+  margin-top: 0;
+}
+
 .about {
   display: flex;
   flex-direction: row-reverse;
@@ -552,15 +560,15 @@ body {
 }
 
 
-
 .headshot-img {
   background: white;
-  padding: 0.2em;
-  border-radius: 0px;
-  max-width: 285px;
-  filter:
+  border: teal solid 8px;
+  padding: 0.1em;
+  border-radius: 50%;
+  max-width: 320px;
+  /*filter:
     drop-shadow(-0.8em -0.8em 0 teal)
-    drop-shadow(0.8em 0.8em 0 teal);
+    drop-shadow(0.8em 0.8em 0 teal);*/
 }
 
 
@@ -920,17 +928,27 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
+  margin-top: 0px;
+  border-bottom: none;
+  font-family: system-ui;
 }
 
-.consultant-info h2::before {
-  content: "About Me";
-  display: block;
-  font-size: 0.8em;
-  text-transform: none;
+.consultant-info h4 {
+  font-size: 1.2em;
   color: $blue-6;
+  text-align: center;
+  font-weight: 900;
 }
 
+.consultant-info li::marker {
+  color: indianred;
+  font-weight: 900;
+  font-size: 1.2em;
+}
 
+.consultant-info ol {
+  padding-left: 1em !important;
+}
 
 
 .sign-img img{
