@@ -62,9 +62,9 @@ listing:
 
 ::: {.intro-content .slide-in}
 #### Hello there,
-# My name is Ben Tjepkes and this is *meum portfolium*.
+# My name is Benjamin Tjepkes and this is *meum portfolium*.
 
-I’m a wildlife ecologist and budding geographer with a passion for applied science. Please explore this site for a look at my experience in ecology and geospatial.
+I’m a wildlife ecologist and budding geographer with a passion for applied science. Please explore this site for a look at my professional work.
 
 :::
 :::

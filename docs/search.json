@@ -121,35 +121,35 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "My name is Ben Tjepkes and this is meum portfolium.",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "",
-    "text": "I’m a wildlife ecologist and budding geographer with a passion for applied science. Please explore this site for a look at my experience in ecology and geospatial."
+    "text": "I’m a wildlife ecologist and budding geographer with a passion for applied science. Please explore this site for a look at my professional work."
   },
   {
     "objectID": "index.html#biography-status",
     "href": "index.html#biography-status",
-    "title": "My name is Ben Tjepkes and this is meum portfolium.",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "Biography & Status",
     "text": "Biography & Status\n\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform natural resource conservation.\nI currently serve as the Assistant Wildlife Diversity Coordinator for the Missouri Department of Conservation. My main duties revolve around implementing the Missouri Bat Habitat Conservation Plan to help conserve imperiled bat species.\nIn fall 2023, I will be pursuing my Masters in Geography at the University of Missouri. I plan to provide updates on my thesis work as that progresses. Please reach out if you have any inquires or would like to collaborate on any ecological or geospatial projects."
   },
   {
     "objectID": "index.html#skills-interests",
     "href": "index.html#skills-interests",
-    "title": "My name is Ben Tjepkes and this is meum portfolium.",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "Skills & Interests",
     "text": "Skills & Interests\n\n\n GIS & Cartography\nAdept as using open source and proprietary software to create static and dynamic map products.\n\nSkills: R/RStudio, ArcGIS Pro/Online, QGIS\n\n\n\n Data Visualization\nProficient in data visualization and reproducible reporting for technical and creative projects.\n\nSkills: Quarto, R/Rmd, Jupyter Notebooks\n\n\n\n Research Methods\nKnowledge of the scientific method, research project development, and technical reporting.\n\nSkills: Mendeley, Zotero, OSF\n\n\n\n Web Development\nEmploy front-end web development techniques to design functional and beautiful websites.\n\nSkills: HTML, CSS, WordPress, Git/GitHub\n\n\n\n Applied Ecology\nExperience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.\n\nSkills: Field Surveys, Species Monitoring\n\n\n\n Data Management\nUse programs like Microsoft Access to maintain high-quality data in relational databases.\n\nSkills: Microsoft Access, SQL Server, Excel"
   },
   {
     "objectID": "index.html#my-latest-writings",
     "href": "index.html#my-latest-writings",
-    "title": "My name is Ben Tjepkes and this is meum portfolium.",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "My Latest Writings",
     "text": "My Latest Writings\n\n\n\n\n  \n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\nMar 26, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#creative-figures-maps",
     "href": "index.html#creative-figures-maps",
-    "title": "My name is Ben Tjepkes and this is meum portfolium.",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "Creative Figures & Maps",
     "text": "Creative Figures & Maps\nHere are some of my recent maps and data visualizations. My work uses R, QGIS, or ArcGIS Pro for most projects.\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Stamp Map"
   },
