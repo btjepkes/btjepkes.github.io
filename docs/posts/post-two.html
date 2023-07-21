@@ -66,7 +66,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -236,17 +235,17 @@ Article Learning Outcomes
 </div>
 <p>In today’s data-driven world, reporting and communicating data insights play a vital role in decision-making processes. However, manual updates and formatting can be time-consuming and error-prone. In this blog post, we will explore how to streamline your reporting workflow by leveraging reproducible formats. We will demonstrate this using Quarto in the RStudio environment, taking a practical example of parameterizing reports using birdfeeder visitation data from FeederWatch. By adopting reproducible practices, you can save time, increase efficiency, and ensure the accuracy of your reports.</p>
 <section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
+<h2 data-anchor-id="background">Background</h2>
 <section id="what-is-quarto" class="level3">
-<h3 class="anchored" data-anchor-id="what-is-quarto">What is Quarto?</h3>
+<h3 data-anchor-id="what-is-quarto">What is Quarto?</h3>
 <p>Quarto is an open-source document framework built for reproducibility. It integrates seamlessly with RStudio, allowing you to combine code, text, and visualizations in a single document. With Quarto, you can automate the process of report generation, making it easier to update and reproduce documents as your data or analysis changes.</p>
 </section>
 <section id="data-sources" class="level3">
-<h3 class="anchored" data-anchor-id="data-sources">Data Sources</h3>
+<h3 data-anchor-id="data-sources">Data Sources</h3>
 </section>
 </section>
 <section id="workflow" class="level2">
-<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
+<h2 data-anchor-id="workflow">Workflow</h2>
 <p>To demonstrate how Quarto can streamline your reporting workflow, let’s work with birdfeeder visitation data from FeederWatch. We will parameterize our reports to automatically update based on different filters or date ranges.</p>
 <p>Here’s the R code to get started:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Install and load necessary packages</span></span>
@@ -279,7 +278,7 @@ Article Learning Outcomes
 <p>The code chunks contain R code for filtering the data based on the specified date range and creating a line plot using ggplot2. Finally, we save the generated plot as a PNG file using ggsave().</p>
 </section>
 <section id="in-conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="in-conclusion">In Conclusion</h2>
+<h2 data-anchor-id="in-conclusion">In Conclusion</h2>
 <p>By leveraging Quarto and its capabilities for reproducible reporting, you can transform your reporting workflow from manual and error-prone to automated and efficient. Parameterizing reports allows you to easily update and regenerate them based on changing data or analysis requirements.</p>
 <p>Reproducible documents not only save time but also enhance collaboration and ensure the accuracy and integrity of your reports. Give Quarto a try in the RStudio environment and experience the power of streamlining your reporting workflow.</p>
 <p>Start producing reproducible documents today and say goodbye to the hassles of manual report updates!</p>
@@ -309,13 +308,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

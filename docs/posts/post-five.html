@@ -31,7 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -188,20 +187,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
+<h2 data-anchor-id="background">Background</h2>
 <p>The Brownian Bridge Movement Model (BBMM) is a commonly used method in movement ecology to estimate the most likely path of an animal’s movement between consecutive locations based on the assumption that the movement is a random walk process.</p>
 <section id="origin-story" class="level3">
-<h3 class="anchored" data-anchor-id="origin-story">Origin Story</h3>
+<h3 data-anchor-id="origin-story">Origin Story</h3>
 <p>The BBMM method was originally developed in the field of stochastic calculus and probability theory. The method was first introduced by the French mathematician Paul Lévy in 1938 as a means of modeling the continuous motion of particles in a fluid.</p>
 <p>The term “Brownian Bridge” refers to the fact that the model is based on Brownian motion, which is a type of random walk process that was first studied by the Scottish botanist Robert Brown in 1827. Brown observed the erratic movement of pollen particles in water and concluded that their motion was caused by the thermal energy of the water molecules, which led to the random movement of the pollen particles.</p>
 <p>The Brownian Bridge Movement Model was later adapted for use in movement ecology and has become increasingly popular in recent years, as advances in tracking technology have enabled researchers to collect high-resolution movement data for a wide range of animal species.</p>
 </section>
 <section id="standard-bbmm" class="level3">
-<h3 class="anchored" data-anchor-id="standard-bbmm">Standard BBMM</h3>
+<h3 data-anchor-id="standard-bbmm">Standard BBMM</h3>
 <p>The standard BBMM assumes that an animal’s movement is stationary, meaning that the variance of the movement process is constant over time. However, this assumption may not hold in many cases where an animal’s movement is influenced by external factors such as weather conditions, resource availability, or social interactions.</p>
 </section>
 <section id="dynamic-bbmm" class="level3">
-<h3 class="anchored" data-anchor-id="dynamic-bbmm">Dynamic BBMM</h3>
+<h3 data-anchor-id="dynamic-bbmm">Dynamic BBMM</h3>
 <p>To address this limitation, the Dynamic Brownian Bridge Movement Model (dBBMM) was developed. The dBBMM is an extension of the standard BBMM that allows for non-stationary movement, where the variance of the movement process changes over time. In the dBBMM, the variance of the movement process is modeled as a function of time or other covariates, allowing for a more realistic representation of animal movement.</p>
 <p>The dBBMM has several advantages over the standard BBMM:</p>
 <ol type="1">
@@ -212,9 +211,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 <section id="workflows" class="level2">
-<h2 class="anchored" data-anchor-id="workflows">Workflows</h2>
+<h2 data-anchor-id="workflows">Workflows</h2>
 <section id="r-packages-for-bbmm" class="level3">
-<h3 class="anchored" data-anchor-id="r-packages-for-bbmm">R Packages for BBMM</h3>
+<h3 data-anchor-id="r-packages-for-bbmm">R Packages for BBMM</h3>
 <ul>
 <li><p><code>adehabitatLT</code>: This package provides functions for the analysis of animal movement data, including functions for calculating home ranges and implementing the BBMM. It also includes tools for visualizing movement data and conducting statistical tests.</p></li>
 <li><p><code>move</code>: This package provides functions for handling and analyzing movement data, including functions for preprocessing, filtering, and visualizing movement data. It also includes functions for implementing the BBMM and other movement models.</p></li>
@@ -224,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <section id="data-sources" class="level3">
-<h3 class="anchored" data-anchor-id="data-sources">Data Sources</h3>
+<h3 data-anchor-id="data-sources">Data Sources</h3>
 <p><a href="https://github.com/walterASEL/Walter-Datasets">Walter Lab GitHub</a></p>
 
 
@@ -252,13 +251,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

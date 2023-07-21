@@ -66,7 +66,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -224,30 +223,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
+<h2 data-anchor-id="background">Background</h2>
 <section id="forest-ecosystems" class="level3">
-<h3 class="anchored" data-anchor-id="forest-ecosystems">Forest Ecosystems</h3>
+<h3 data-anchor-id="forest-ecosystems">Forest Ecosystems</h3>
 <p>Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.</p>
 </section>
 <section id="data-sources" class="level3">
-<h3 class="anchored" data-anchor-id="data-sources">Data Sources</h3>
+<h3 data-anchor-id="data-sources">Data Sources</h3>
 <p><strong>Global Forest Watch</strong> (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world’s forests.</p>
 </section>
 </section>
 <section id="workflow" class="level2">
-<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
+<h2 data-anchor-id="workflow">Workflow</h2>
 <section id="get-ifl-data" class="level3">
-<h3 class="anchored" data-anchor-id="get-ifl-data">1. Get IFL Data</h3>
+<h3 data-anchor-id="get-ifl-data">1. Get IFL Data</h3>
 <p>Visit the Global Forest Watch website (https://www.globalforestwatch.org/). Navigate to the “Data” section and select “Intact Forest Landscapes.” Download the IFL dataset in the desired format (e.g., shapefile, geopackage).</p>
 </section>
 <section id="load-packages." class="level3">
-<h3 class="anchored" data-anchor-id="load-packages.">2. Load Packages.</h3>
+<h3 data-anchor-id="load-packages.">2. Load Packages.</h3>
 <p>To follow along with this tutorial, you will need to have R and the following packages installed: <code>sf</code>, <code>tmap</code>, and <code>dplyr</code>. You can install these packages using the <code>install.packages()</code> function in R.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sf)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="load-data-in-r" class="level3">
-<h3 class="anchored" data-anchor-id="load-data-in-r">3. Load Data in R</h3>
+<h3 data-anchor-id="load-data-in-r">3. Load Data in R</h3>
 <p>Let’s assume you have downloaded the IFL data in shapefile format and saved it as “ifl.shp” in your working directory. We will now load and prepare the data for visualization.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Read the IFL shapefile</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>ifl <span class="ot">&lt;-</span> <span class="fu">st_read</span>(<span class="st">"ifl.shp"</span>)</span>
@@ -257,7 +256,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(ifl)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="visualize-data" class="level3">
-<h3 class="anchored" data-anchor-id="visualize-data">4. Visualize Data</h3>
+<h3 data-anchor-id="visualize-data">4. Visualize Data</h3>
 <p>We will use the tmap package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the tmap package</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tmap)</span>
@@ -267,7 +266,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tm_polygons</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="customize-map" class="level3">
-<h3 class="anchored" data-anchor-id="customize-map">5. Customize Map</h3>
+<h3 data-anchor-id="customize-map">5. Customize Map</h3>
 <p>We can modify the map’s appearance by changing colors, adding a background, adjusting labels, and more.</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a more visually appealing map with customization</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tm_shape</span>(ifl) <span class="sc">+</span></span>
@@ -302,13 +301,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

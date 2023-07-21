@@ -32,7 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -183,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="my-recent-works" class="level2">
-<h2 class="anchored" data-anchor-id="my-recent-works">My Recent Works</h2>
+<h2 data-anchor-id="my-recent-works">My Recent Works</h2>
 <p>These are some of my latest maps and data visualizations from personal creative projects, including any of my contributions to Tidy Tuesday, Map Prompt Monday, and the 30 Day Map Challenge.</p>
 <div class="gallery">
 <div class="quarto-figure quarto-figure-center">
@@ -263,7 +262,7 @@ Map"><img src="./gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
 </div>
 </section>
 <section id="my-past-works" class="level2">
-<h2 class="anchored" data-anchor-id="my-past-works">My Past Works</h2>
+<h2 data-anchor-id="my-past-works">My Past Works</h2>
 <div id="listing-galleries" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-categories="Maps,Choropleth,RStudio,ArcGIS Pro" data-listing-file-modified-sort="1687199931947" data-listing-reading-time-sort="1">
@@ -341,7 +340,7 @@ No matching items
 </div>
 </section>
 <section id="my-toolbox" class="level2">
-<h2 class="anchored" data-anchor-id="my-toolbox">My Toolbox</h2>
+<h2 data-anchor-id="my-toolbox">My Toolbox</h2>
 <p>Most of my visualizations are created using ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.</p>
 
 
@@ -369,13 +368,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -649,7 +641,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":true,"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":true,"descPosition":"bottom","openEffect":"zoom"});</script>
 
 
 
