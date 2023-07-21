@@ -404,5 +404,12 @@
     "title": "Resources",
     "section": "",
     "text": "Use the filter/search options below to explore my collated resources.\nExample Search Terms: “R”, “book”, “GIS”\n\nviewof islands = Inputs.radio(\n  [\"R\", \"Job Search\", \"QGIS\"], \n  { value: [\"R\"], label: \"Categories:\" }\n)\n\n\n\n\n\n\n\ndata = FileAttachment(\"resources.csv\").csv({ typed: true })\n\nfiltered = data.filter(penguin =&gt; {\n  return islands.includes(penguin.Category)\n})\n\n// Update table data when filtered data changes\nReactable.setData('tbl', filtered)"
+  },
+  {
+    "objectID": "index.html#data-visualizations",
+    "href": "index.html#data-visualizations",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
+    "section": "Data Visualizations",
+    "text": "Data Visualizations\nHere are some of my recent maps and data visualizations. My work uses R, QGIS, or ArcGIS Pro for most projects.\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Stamp Map"
   }
 ]

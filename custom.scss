@@ -568,10 +568,16 @@ body {
   max-width: 320px;
 }
 
+.intro-headshot {
+  position: relative;
+  z-index: 999;
+}
+
+
 @media (max-width: 700px) {
 .headshot-img {
   background: white;
-  border: teal solid 2px;
+  border: teal solid 4px;
   padding: 0.1em;
   border-radius: 50%;
   max-width: 120px;
@@ -747,13 +753,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   font-weight: 900;
 }
 
-.bg-banner-3 h2::before {
-  content: "My Latest";
-  display: block;
-  font-size: 0.8em;
-  text-transform: none;
-  color: $blue-6;
-}
 
 #listing-site-listings,
 #listing-site-listings-2 {
@@ -850,13 +849,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   font-weight: 900;
 }
 
-.content-block h2::before {
-  content: "My Professional";
-  display: block;
-  font-size: 0.8em;
-  text-transform: none;
-  color: $blue-6;
-}
 
 .learn-more {
   font-size: 0.8em;
@@ -945,7 +937,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 
-.consultant-info h2 {
+.index-h2 h2 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
@@ -954,7 +946,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   font-family: system-ui;
 }
 
-.consultant-info h4 {
+.index-h4 h4 {
   font-size: 1.2em;
   color: $blue-6;
   text-align: center;
@@ -1012,17 +1004,6 @@ margin-bottom: 0 !important;
 }
 
 
-/*.gallery {
-    line-height:0;
-    -webkit-column-count: 2;
-    -webkit-column-gap:   20px;
-    -moz-column-count:    2;
-    -moz-column-gap:      20px;
-    column-count:         2;
-    column-gap:           20px;
-}*/
-
-
 
 .gallery {
     line-height:0;
@@ -1065,7 +1046,7 @@ margin-bottom: 0 !important;
         column-count:         2;
     }
 }
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
     .gallery {
         -moz-column-count:    1;
         -webkit-column-count: 1;
@@ -1078,7 +1059,7 @@ margin-bottom: 0 !important;
         -webkit-column-count: 1;
         column-count:         1;
     }
-}
+}*/
 
 
 

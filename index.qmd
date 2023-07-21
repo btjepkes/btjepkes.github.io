@@ -75,7 +75,7 @@ I’m a wildlife ecologist and budding geographer with a passion for applied sci
 
 ::: {.consultant-info}
 #### About Me {.index-h4}
-## Biography & Status
+## Biography & Status {.index-h2}
 
 1. I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform natural resource conservation.
 
@@ -101,7 +101,8 @@ This site houses my professional gallery and technical blog to showcase my exper
 
 ::: {.content-block}
 
-## Skills & Interests
+#### Professional {.index-h4}
+## Skills & Interests {.index-h2}
 
 ::: {.features}
 
@@ -180,7 +181,8 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 ::: {.bg-banner-3}
 
-## Creative Figures & Maps
+#### My Latest {.index-h4}
+## Data Visualizations {.index-h2}
 
 Here are some of my recent maps and data visualizations. My work uses R, QGIS, or ArcGIS Pro for most projects.
 
