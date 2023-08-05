@@ -731,7 +731,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .bg-banner-3 {
   position: relative;
   margin-top: 3em;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   padding-top: 0px;
   padding-bottom: 40px;
 }
@@ -753,6 +753,29 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
+}
+
+
+.bg-banner-4 {
+  position: relative;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: white;
+}
+
+.bg-banner-4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+  width: 100vw;
+  height: 100%;
+  background: indianred;
+  z-index: -1;
+  overflow-x: hidden;
 }
 
 
@@ -788,6 +811,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   border-radius: 12px;
   box-shadow: 0 0 5px 0px teal;
 }
+
+@media (hover: hover) {
+.quarto-grid-item:hover {
+    transform: scale(1.01);
+    color: inherit;
+    transition: transform .1s ease;
+}}
+
 
 /* SLIDE IN ANIMATION */
 

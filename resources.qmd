@@ -56,7 +56,7 @@ reactable(
   minRows = 1,
   elementId = "tbl",
   columns = list(
-    Name = colDef(
+    Title = colDef(
       cell = function(value, index) {
         Description <- data$Description[index]
         Description <- if (!is.na(Description)) Description else "Unknown"

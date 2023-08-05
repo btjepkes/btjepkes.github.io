@@ -9,20 +9,6 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/about.html",
-      "/cv.html",
-      "/contact.html",
-      "/posts.html",
-      "/gallery.html",
-      "/resources.html",
-      "/posts/post-nine.html",
-      "/posts/post-three.html",
-      "/posts/post-four.html"
-    ]
-  },
-  {
     "listing": "/posts.html",
     "items": [
       "/posts/post-two.html",
@@ -41,6 +27,20 @@
       "/research/research-three.html",
       "/research/research-four.html",
       "/research/research-two.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/about.html",
+      "/cv.html",
+      "/contact.html",
+      "/posts.html",
+      "/gallery.html",
+      "/resources.html",
+      "/posts/post-nine.html",
+      "/posts/post-three.html",
+      "/posts/post-four.html"
     ]
   }
 ]
