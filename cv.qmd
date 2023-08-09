@@ -18,8 +18,22 @@ format:
     
 ---
 
-This page is currently under construction. Please check back soon.
+## Summary
 
-Return [home](index.qmd)
+I am a dedicated wildlife ecologist and budding geographer interested in advancing and informing natural resource management and research using data science and geospatial technologies. Click [here](https://www.linkedin.com/in/benjamintjepkes/) to view my LinkedIn profile.
+
+## Education
+
+- **Master's Degree**, Geography - University of Missouri (2023-2025)
+- **Bachelor's Degree**, Wildlife Ecology & Management - University of Wisconsin-Stevens Point (2015-2019)
+
+## Work Experience
+
+- **Graduate Teaching Assistant**, Geography Department - University of Missouri (2023-Present)
+- **Assistant Wildlife Diversity Coordinator**, Wildlife Diversity Program - Missouri Department of Conservation (2022-2023)
+- **Wildlife Biologist**, Furbearer Program - Missouri Department of Conservation (2022-2022)
+- **Assistant Natural History Biologist**, Black Bear Program - Missouri Department of Conservation (2020-2022)
+- **Assistant Natural History Biologist**, Deer Program - Missouri Department of Conservation (2019-2020)
 
 
+<!-- {{< pdf resume-example.pdf width=100% height=600 border=2 >}} -->

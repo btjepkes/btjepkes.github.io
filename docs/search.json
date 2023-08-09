@@ -53,7 +53,28 @@
     "href": "cv.html",
     "title": "Curriculum vitae",
     "section": "",
-    "text": "This page is currently under construction. Please check back soon.\nReturn home"
+    "text": "I am a dedicated wildlife ecologist and budding geographer interested in advancing and informing natural resource management and research using data science and geospatial technologies. Click here to view my LinkedIn profile."
+  },
+  {
+    "objectID": "cv.html#summary",
+    "href": "cv.html#summary",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "I am a dedicated wildlife ecologist and budding geographer interested in advancing and informing natural resource management and research using data science and geospatial technologies. Click here to view my LinkedIn profile."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum vitae",
+    "section": "Education",
+    "text": "Education\n\nMaster’s Degree, Geography - University of Missouri (2023-2025)\nBachelor’s Degree, Wildlife Ecology & Management - University of Wisconsin-Stevens Point (2015-2019)"
+  },
+  {
+    "objectID": "cv.html#work-experience",
+    "href": "cv.html#work-experience",
+    "title": "Curriculum vitae",
+    "section": "Work Experience",
+    "text": "Work Experience\n\nGraduate Teaching Assistant, Geography Department - University of Missouri (2023-Present)\nAssistant Wildlife Diversity Coordinator, Wildlife Diversity Program - Missouri Department of Conservation (2022-2023)\nWildlife Biologist, Furbearer Program - Missouri Department of Conservation (2022-2022)\nAssistant Natural History Biologist, Black Bear Program - Missouri Department of Conservation (2020-2022)\nAssistant Natural History Biologist, Deer Program - Missouri Department of Conservation (2019-2020)"
   },
   {
     "objectID": "gallery/gallery-map-four.html",
@@ -130,14 +151,14 @@
     "href": "index.html#biography-status",
     "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "Biography & Status",
-    "text": "Biography & Status\n\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform natural resource conservation.\nI have over 7 years of progressive conservation and environmental science experience working with government, academic, and private entities. My professional tasks have included everything from writing technical reports to immobilizing black bears in dens.\nIn fall 2023, I will be pursuing my Masters in Geography at the University of Missouri. I will provide updates on my thesis work as I begin progress on my project. Please reach out if you have any inquires or would like to collaborate on any ecological or geospatial projects."
+    "text": "Biography & Status\n\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform the natural world.\nI have over 7 years of progressive experience with government, academic, and private entities in the conservation and environmental science sector. My diverse professional tasks have included everything from technical reporting and spatial modeling to immobilizing wild black bears.\nI am currently pursuing my Masters in Geography at the University of Missouri. I will provide updates on my thesis work as I begin progress on my project. Please reach out if you have any inquires or would like to collaborate on any ecological or geospatial projects."
   },
   {
-    "objectID": "index.html#exploring-my-portfolio",
-    "href": "index.html#exploring-my-portfolio",
+    "objectID": "index.html#exploring-my-work",
+    "href": "index.html#exploring-my-work",
     "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "Exploring My Portfolio",
-    "text": "Exploring My Portfolio\nThis site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around to learn more. Thank you!\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nAn interactive look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires or connect on my social profiles.\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nResources\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items"
+    "section": "Exploring My Work",
+    "text": "Exploring My Work\nThis site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around to learn more. Thank you!\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nAn interactive look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires or connect on my social profiles.\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nResources\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#technical-skills",

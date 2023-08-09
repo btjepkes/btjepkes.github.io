@@ -265,15 +265,15 @@ font-style: inherit;">library</span>(leaflet.extras)</span><div class="code-anno
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-lines="1,2" data-code-annotation="1" data-code-cell="annotated-cell-1">For accessing GBIF data. Install if necessary.</span>
+<span data-code-annotation="1" data-code-lines="1,2" data-code-cell="annotated-cell-1">For accessing GBIF data. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-lines="3,4" data-code-annotation="2" data-code-cell="annotated-cell-1">For mapping data interactively. Install if necessary.</span>
+<span data-code-annotation="2" data-code-lines="3,4" data-code-cell="annotated-cell-1">For mapping data interactively. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
 <dd>
-<span data-code-lines="5,6" data-code-annotation="3" data-code-cell="annotated-cell-1">For the heatmap functionality. Install if necessary.</span>
+<span data-code-annotation="3" data-code-lines="5,6" data-code-cell="annotated-cell-1">For the heatmap functionality. Install if necessary.</span>
 </dd>
 </dl>
 </section>
@@ -291,11 +291,11 @@ font-style: inherit;">"Centrocercus urophasianus"</span>)</span>
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-lines="1" data-code-annotation="1" data-code-cell="annotated-cell-2">This function allows us to see the taxonomic information for our focal species.</span>
+<span data-code-annotation="1" data-code-lines="1" data-code-cell="annotated-cell-2">This function allows us to see the taxonomic information for our focal species.</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-lines="2" data-code-annotation="2" data-code-cell="annotated-cell-2">This prints that information to the console.</span>
+<span data-code-annotation="2" data-code-lines="2" data-code-cell="annotated-cell-2">This prints that information to the console.</span>
 </dd>
 </dl>
 </section>

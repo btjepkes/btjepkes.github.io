@@ -77,11 +77,12 @@ I’m a wildlife ecologist and budding geographer with a passion for applied sci
 #### About Me {.index-h4}
 ## Biography & Status {.index-h2}
 
-1. I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform natural resource conservation.
+1. I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform the natural world.
 
-2. I have over 7 years of progressive **conservation and environmental science** experience working with government, academic, and private entities. My professional tasks have included everything from writing technical reports to immobilizing black bears in dens.
+2. I have over 7 years of progressive experience with government, academic, and private entities in the **conservation and environmental science** sector. My diverse professional tasks have included everything from technical reporting and spatial modeling to immobilizing wild black bears.
 
-3. In fall 2023, I will be pursuing my **Masters in Geography** at the University of Missouri. I will provide updates on my thesis work as I begin progress on my project. Please [reach out](contact.qmd) if you have any inquires or would like to collaborate on any ecological or geospatial projects.
+3. I am currently pursuing my **Masters in Geography** at the University of Missouri. I will provide updates on my thesis work as I begin progress on my project. Please [reach out](contact.qmd) if you have any inquires or would like to collaborate on any ecological or geospatial projects.
+
 
 :::
 :::
@@ -89,7 +90,7 @@ I’m a wildlife ecologist and budding geographer with a passion for applied sci
 
 ::: {.bg-banner-1}
 
-## Exploring My Portfolio {.index-h2-alt}
+## Exploring My Work {.index-h2-alt}
 
 This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around to learn more. Thank you!
 
