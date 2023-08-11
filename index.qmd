@@ -10,8 +10,9 @@ listing:
       - "posts.qmd"
       - "gallery.qmd"
       - "resources.qmd"
+      - "cv.qmd"
     type: grid
-    grid-columns: 3
+    grid-columns: 4
     fields: 
       - title
       - subtitle
@@ -47,7 +48,7 @@ listing:
 #### Hello there,
 # My name is Benjamin Tjepkes and this is *meum portfolium*.
 
-I’m a wildlife ecologist and biogeographer with a passion for applied science.
+Proficient in wildlife ecology, delving into geography, and actively practicing data science, my passion lies in the realm of applied science.
 
 [»» Learn About My Career](about.qmd){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
 
