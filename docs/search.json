@@ -116,35 +116,21 @@
     "href": "gallery.html",
     "title": "My Gallery",
     "section": "",
-    "text": "These are some of my latest maps and data visualizations from personal creative projects, including any of my contributions to Tidy Tuesday, Map Prompt Monday, and the 30 Day Map Challenge."
+    "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, 30 Day Map Challenge, and other social media contests. Most of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nBat HCP Poster\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
   },
   {
-    "objectID": "gallery.html#my-recent-works",
-    "href": "gallery.html#my-recent-works",
+    "objectID": "gallery.html#recent-works",
+    "href": "gallery.html#recent-works",
     "title": "My Gallery",
     "section": "",
-    "text": "These are some of my latest maps and data visualizations from personal creative projects, including any of my contributions to Tidy Tuesday, Map Prompt Monday, and the 30 Day Map Challenge."
-  },
-  {
-    "objectID": "gallery.html#my-past-works",
-    "href": "gallery.html#my-past-works",
-    "title": "My Gallery",
-    "section": "My Past Works",
-    "text": "My Past Works\n\n\n\n\n\n\n\n\n\n\nWork-Based Mapping Products\n\n\nMapping products made for various work-related projects, technical reports, and publications.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCourse-Based Mapping Products\n\n\nVarious maps made for course-related assignements and projects.\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonal Mapping & Data Viz Products\n\n\nVarious maps and other data visualizations made for personal and creative projects.\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfessional Posters and Presentations\n\n\nVarious posters and powerpoint presentations from research symposia and other venues.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "gallery.html#my-toolbox",
-    "href": "gallery.html#my-toolbox",
-    "title": "My Gallery",
-    "section": "My Toolbox",
-    "text": "My Toolbox\nMost of my visualizations are created using ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks."
+    "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, 30 Day Map Challenge, and other social media contests. Most of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nBat HCP Poster\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "",
-    "text": "I’m a wildlife ecologist and budding geographer with a passion for applied science. Please explore this site for a look at my professional work."
+    "text": "I’m a wildlife ecologist and biogeographer with a passion for applied science.\nMy Career Path Curriculum vitae"
   },
   {
     "objectID": "index.html#biography-status",
@@ -158,7 +144,7 @@
     "href": "index.html#exploring-my-work",
     "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "Exploring My Work",
-    "text": "Exploring My Work\nThis site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around to learn more. Thank you!\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nAn interactive look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires or connect on my social profiles.\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nResources\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Exploring My Work\nThis site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science.\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nResources\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#technical-skills",
@@ -172,14 +158,14 @@
     "href": "index.html#posts-writings",
     "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "Posts & Writings",
-    "text": "Posts & Writings\nMy personal blog covers a wide range of topics spanning ecology and geospatial.\n\n\n\n\n  \n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\nMar 26, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\nNo matching items"
+    "text": "Posts & Writings\nMy personal blog covers a wide range of topics spanning ecology and geospatial.\n\n\n\n\n  \n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\nMar 26, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\n\n\n\nOct 18, 2022\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#data-visualizations",
     "href": "index.html#data-visualizations",
     "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "Data Visualizations",
-    "text": "Data Visualizations\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Stamp Map"
+    "text": "Data Visualizations\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGreat Lakes Watershed Map\n\n\n\n\n\nTurkey Harvest Map\n\n\n\n\n\nWork Hours Calendar Chart\n\n\n\n\n\nBlack Bear Sighting Choropleth"
   },
   {
     "objectID": "posts/post-eleven.html",
@@ -424,13 +410,13 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Use the filter/search options below to explore my collated resources.\nExample Search Terms: “R”, “book”, “GIS”"
+    "text": "Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions."
   },
   {
     "objectID": "resources.html#resource-database",
     "href": "resources.html#resource-database",
     "title": "Resources",
     "section": "",
-    "text": "Use the filter/search options below to explore my collated resources.\nExample Search Terms: “R”, “book”, “GIS”"
+    "text": "Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions."
   }
 ]

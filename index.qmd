@@ -22,12 +22,9 @@ pagetitle: "B.W. Tjepkes - Portfolio"
 listing:
   - id: site-listings
     contents:
-      - "about.qmd"    
       - "posts.qmd"
       - "gallery.qmd"
-      - "cv.qmd"
       - "resources.qmd"
-      - "contact.qmd"
     type: grid
     grid-columns: 3
     fields: 
@@ -38,6 +35,7 @@ listing:
       - "post-four.qmd"
       - "post-three.qmd"
       - "post-nine.qmd"
+      - "post-ten.qmd"
     type: default
     filter-ui: false
     sort-ui: false
@@ -64,7 +62,9 @@ listing:
 #### Hello there,
 # My name is Benjamin Tjepkes and this is *meum portfolium*.
 
-I’m a wildlife ecologist and budding geographer with a passion for applied science. Please explore this site for a look at my professional work.
+I’m a wildlife ecologist and biogeographer with a passion for applied science.
+
+[My Career Path](about.qmd){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"} [Curriculum vitae](cv.qmd){.btn-action-secondary  .btn-action .btn .btn-success-alt-2 .btn-lg role="button" style="margin-top: 1em;"}
 
 :::
 :::
@@ -85,6 +85,7 @@ I’m a wildlife ecologist and budding geographer with a passion for applied sci
 
 
 :::
+
 :::
 
 
@@ -92,7 +93,7 @@ I’m a wildlife ecologist and budding geographer with a passion for applied sci
 
 ## Exploring My Work {.index-h2-alt}
 
-This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science. Please have a look around to learn more. Thank you!
+This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science.
 
 ::: {#site-listings}
 
@@ -165,6 +166,20 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 :::
 :::
 
+::: {.get-started}
+::: {.content-block}
+
+{{< fa circle-question size=3x >}}
+
+#### **Looking for help?**
+
+I offer many freelance services through Upwork, including technical reporting, data entry, data management, GIS management, map creation, and much more!
+
+[My Services](https://www.upwork.com/freelancers/~016f69e22f5247fd31){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"} [Contact Me](contact.qmd){.btn-action-secondary  .btn-action .btn .btn-success-alt .btn-lg role="button" style="margin-top: 1em;"}
+
+:::
+:::
+
 
 
 
@@ -189,44 +204,32 @@ My personal blog covers a wide range of topics spanning ecology and geospatial.
 
 ::: {.gallery}
 
-![Squirrel Census Density Map](../gallery/img-map-001v2.png){group="personal-projects"
+![Squirrel Census Density Map](./gallery/img-map-001v2.png){group="personal-projects"
 description="2018 Squirrel Census Sighting Density Map"}
 
-![Endangered Species Stamp Map](../gallery/img-map-endangeredstamps.png){group="personal-projects"
+![Endangered Species Stamp Map](./gallery/img-map-endangeredstamps.png){group="personal-projects"
 description="Endangered Species Stamps Range Map"}
 
-![](../gallery/img-table-001.png){group="personal-projects"
+![Squirrel Census Chart](./gallery/img-table-001.png){group="personal-projects"
 description="2018 Squirrel Census Sighting Table"}
 
-![](../gallery/img-map-10.jpg){group="personal-projects"
+![Forest Canopy Density Map](./gallery/img-map-10.jpg){group="personal-projects"
 description="Missouri Tree Canopy Density Map"}
 
-![](../gallery/img-map-11.jpg){group="personal-projects"
+![Great Lakes Watershed Map](./gallery/img-map-11.jpg){group="personal-projects"
 description="Great Lakes Watershed Map"}
 
+![Turkey Harvest Map](./gallery/img-turkey-harvest-maps.png){group="personal-projects"
+}
+
+![Work Hours Calendar Chart](./gallery/img-calendar.jpeg){group="personal-projects"
+}
+
+![Black Bear Sighting Choropleth](./gallery/img-map-5.jpg){group="personal-projects"
+}
+
 
 :::
 
 :::
 
-::: {.bg-banner-4}
-
-**Data Visualization Tools:** RStudio, ArcGIS Pro, QGIS, Jupyter Notebooks, reveal.js
-
-
-:::
-
-
-::: {.get-started .alt-background}
-::: {.content-block}
-
-{{< fa circle-question size=3x >}}
-
-#### **Looking for help?**
-
-I offer many freelance services through Upwork, including technical reporting, data entry, data management, GIS management, map creation, and much more!
-
-[My Services](https://www.upwork.com/freelancers/~016f69e22f5247fd31){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"} [Contact Me](contact.qmd){.btn-action-secondary  .btn-action .btn .btn-success-alt .btn-lg role="button" style="margin-top: 1em;"}
-
-:::
-:::

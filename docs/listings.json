@@ -1,23 +1,12 @@
 [
   {
-    "listing": "/gallery.html",
-    "items": [
-      "/gallery/gallery-001.html",
-      "/gallery/gallery-002.html",
-      "/gallery/gallery-003.html",
-      "/gallery/gallery-004.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
-      "/about.html",
-      "/cv.html",
-      "/contact.html",
       "/posts.html",
       "/gallery.html",
       "/resources.html",
       "/posts/post-nine.html",
+      "/posts/post-ten.html",
       "/posts/post-three.html",
       "/posts/post-four.html"
     ]

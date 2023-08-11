@@ -26,8 +26,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <link href="./site-logo-green.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -53,41 +51,10 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-galleries .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-galleries'] = new List('listing-galleries', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="alternate" type="application/rss+xml" title="Benjamin Tjepkes" href="gallery.xml"><meta property="og:title" content="Benjamin Tjepkes - My Gallery">
+<meta property="og:title" content="Benjamin Tjepkes - My Gallery">
 <meta property="og:description" content="Maps, visualizations, reports, posters, and presentations.">
 <meta property="og:image" content="https://btjepkes.github.io/assets/bg-pines-gallery-yellow-sm.png">
 <meta property="og:site-name" content="Benjamin Tjepkes">
@@ -95,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:image:width" content="1000">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -174,20 +141,34 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#recent-works" id="toc-recent-works" class="nav-link active" data-scroll-target="#recent-works">Recent Works</a>
+  <ul class="collapse">
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2023</a></li>
+  <li><a href="#pre-2023" id="toc-pre-2023" class="nav-link" data-scroll-target="#pre-2023">Pre-2023</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<section id="my-recent-works" class="level2">
-<h2 data-anchor-id="my-recent-works">My Recent Works</h2>
-<p>These are some of my latest maps and data visualizations from personal creative projects, including any of my contributions to Tidy Tuesday, Map Prompt Monday, and the 30 Day Map Challenge.</p>
+<section id="recent-works" class="level2">
+<h2 data-anchor-id="recent-works">Recent Works</h2>
+<p>These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, 30 Day Map Challenge, and other social media contests. Most of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.</p>
+<section id="section" class="level3">
+<h3 data-anchor-id="section">2023</h3>
 <div class="gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-001v2.png" class="lightbox" data-description="2018
+<p><a href="./gallery/img-map-001v2.png" class="lightbox" title="Squirrel Census Density Map" data-gallery="2023-projects" data-description="2018
 
 Squirrel
 
@@ -197,12 +178,13 @@ Sighting
 
 Density
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
+Map"><img src="./gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Squirrel Census Density Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-endangeredstamps.png" class="lightbox" data-description="Endangered
+<p><a href="./gallery/img-map-endangeredstamps.png" class="lightbox" title="Endangered Species Range Map" data-gallery="2023-projects" data-description="Endangered
 
 Species
 
@@ -214,12 +196,19 @@ Map
 
 -
 
-<a href=&quot;gallery/gallery-map-seven.html&quot;>See Details</a>" data-gallery="personal-projects"><img src="./gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
+<a href=&quot;gallery/gallery-map-seven.html&quot;>See Details</a>"><img src="./gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Endangered Species Range Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-table-001.png" class="lightbox" data-description="2018
+<p><a href="./gallery/img-bat-hcp-poster.jpg" class="lightbox" title="Bat HCP Poster" data-gallery="personal-projects" data-description="Needed"><img src="./gallery/img-bat-hcp-poster.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Bat HCP Poster</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./gallery/img-table-001.png" class="lightbox" title="Squirrel Census Chart" data-gallery="2023-projects" data-description="2018
 
 Squirrel
 
@@ -227,12 +216,13 @@ Census
 
 Sighting
 
-Table" data-gallery="personal-projects"><img src="./gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
+Table"><img src="./gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Squirrel Census Chart</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-10.jpg" class="lightbox" data-description="Missouri
+<p><a href="./gallery/img-map-10.jpg" class="lightbox" title="Forest Canopy Density Map" data-gallery="2023-projects" data-description="Missouri
 
 Tree
 
@@ -240,111 +230,91 @@ Canopy
 
 Density
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
+Map"><img src="./gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Forest Canopy Density Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-11.jpg" class="lightbox" data-description="Great
+<p><a href="./gallery/img-map-11.jpg" class="lightbox" title="GL Watershed Map" data-gallery="2023-projects" data-description="Great
 
 Lakes
 
 Watershed
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
+Map"><img src="./gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">GL Watershed Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-calendar.jpeg" class="lightbox" data-gallery="personal-projects"><img src="./gallery/img-calendar.jpeg" class="img-fluid figure-img"></a></p>
+<p><a href="./gallery/img-calendar.jpeg" class="lightbox" title="Working Hours Calendar" data-gallery="2023-projects"><img src="./gallery/img-calendar.jpeg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Working Hours Calendar</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./gallery/img-australia-pub-map.png" class="lightbox" title="Australian Publication Map" data-gallery="2023-projects"><img src="./gallery/img-australia-pub-map.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Australian Publication Map</figcaption>
 </figure>
 </div>
 </div>
 </section>
-<section id="my-past-works" class="level2">
-<h2 data-anchor-id="my-past-works">My Past Works</h2>
-<div id="listing-galleries" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Maps,Choropleth,RStudio,ArcGIS Pro" data-listing-file-modified-sort="1687199931947" data-listing-reading-time-sort="1">
-<a href="./gallery/gallery-001.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/img-cover-work-products-sm.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Work-Based Mapping Products
-</h5>
-<div class="card-subtitle listing-subtitle">
-Mapping products made for various work-related projects, technical reports, and publications.
+<section id="pre-2023" class="level3">
+<h3 data-anchor-id="pre-2023">Pre-2023</h3>
+<div class="gallery">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./gallery/img-turkey-harvest-maps.png" class="lightbox" title="Turkey Harvest Choropleth Map" data-gallery="personal-projects" data-description="Needed"><img src="./gallery/img-turkey-harvest-maps.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Turkey Harvest Choropleth Map</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./gallery/img-map-1.jpg" class="lightbox" title="Vineyard Suitability Map" data-gallery="personal-projects" data-description="Needed"><img src="./gallery/img-map-1.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Vineyard Suitability Map</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./gallery/img-map-5.jpg" class="lightbox" title="Bear Sighting Reports Map" data-gallery="personal-projects" data-description="Needed"><img src="./gallery/img-map-5.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Bear Sighting Reports Map</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./gallery/img-map-4.jpg" class="lightbox" title="OHWM Compliance Map" data-gallery="personal-projects" data-description="Needed"><img src="./gallery/img-map-4.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">OHWM Compliance Map</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./gallery/img-eagle-poster.jpg" class="lightbox" title="Eagle Nest Selection Poster" data-gallery="personal-projects" data-description="Needed"><img src="./gallery/img-eagle-poster.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Eagle Nest Selection Poster</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./gallery/img-map-9.jpg" class="lightbox" title="Mobile Geo-Survey Development" data-gallery="personal-projects" data-description="Needed"><img src="./gallery/img-map-9.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Mobile Geo-Survey Development</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./gallery/img-html-missouri-map.png" class="lightbox" title="Interactive HTML Leaflet Map" data-gallery="personal-projects" data-description="Needed"><img src="./gallery/img-html-missouri-map.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Interactive HTML Leaflet Map</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./gallery/img-map-2.jpg" class="lightbox" title="Facility Naviagation Map" data-gallery="personal-projects" data-description="Needed"><img src="./gallery/img-map-2.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Facility Naviagation Map</figcaption>
+</figure>
 </div>
 </div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Maps" data-listing-file-modified-sort="1687199955784" data-listing-reading-time-sort="1">
-<a href="./gallery/gallery-002.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/img-cover-course-products-sm.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Course-Based Mapping Products
-</h5>
-<div class="card-subtitle listing-subtitle">
-Various maps made for course-related assignements and projects.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Map Gallery" data-listing-file-modified-sort="1687668674719" data-listing-reading-time-sort="1">
-<a href="./gallery/gallery-003.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/img-cover-personal-products-sm.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Personal Mapping &amp; Data Viz Products
-</h5>
-<div class="card-subtitle listing-subtitle">
-Various maps and other data visualizations made for personal and creative projects.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Poster Gallery" data-listing-file-modified-sort="1687199981145" data-listing-reading-time-sort="1">
-<a href="./gallery/gallery-004.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/img-cover-posters-presentations-sm.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Professional Posters and Presentations
-</h5>
-<div class="card-subtitle listing-subtitle">
-Various posters and powerpoint presentations from research symposia and other venues.
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+
+
 </section>
-<section id="my-toolbox" class="level2">
-<h2 data-anchor-id="my-toolbox">My Toolbox</h2>
-<p>Most of my visualizations are created using ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.</p>
-
-
-
 </section>
 
 </main> <!-- /main -->
@@ -641,7 +611,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","loop":true,"selector":".lightbox"});</script>
+<script>var lightboxQuarto = GLightbox({"loop":true,"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","selector":".lightbox"});</script>
 
 
 
