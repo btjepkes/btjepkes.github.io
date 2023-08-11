@@ -130,7 +130,7 @@
     "href": "index.html",
     "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "",
-    "text": "I’m a wildlife ecologist and biogeographer with a passion for applied science.\nMore about me View my CV"
+    "text": "I’m a wildlife ecologist and biogeographer with a passion for applied science.\nAbout My Career My Resume"
   },
   {
     "objectID": "index.html#biography-status",
@@ -158,7 +158,7 @@
     "href": "index.html#posts-writings",
     "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
     "section": "Posts & Writings",
-    "text": "Posts & Writings\nMy personal blog covers a wide range of topics spanning ecology and geospatial.\n\n\n\n\n  \n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\nMar 26, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\n\n\n\nOct 18, 2022\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n  \n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\nNo matching items"
+    "text": "Posts & Writings\n\n\n\n\n  \n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\nMar 26, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\n\n\n\nOct 18, 2022\n\n\n\n\n\n\n  \n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n\n\nApr 22, 2023\n\n\n\n\n\n\n  \n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n\n\nMay 5, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#data-visualizations",
@@ -418,5 +418,12 @@
     "title": "Resources",
     "section": "",
     "text": "Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions."
+  },
+  {
+    "objectID": "index.html#data-visualizations-1",
+    "href": "index.html#data-visualizations-1",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
+    "section": "Data Visualizations",
+    "text": "Data Visualizations\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGreat Lakes Watershed Map\n\n\n\n\n\nTurkey Harvest Map\n\n\n\n\n\nWork Hours Calendar Chart\n\n\n\n\n\nBlack Bear Sighting Choropleth"
   }
 ]
