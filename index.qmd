@@ -64,7 +64,7 @@ listing:
 
 I’m a wildlife ecologist and biogeographer with a passion for applied science.
 
-[My Career Path](about.qmd){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"} [Curriculum vitae](cv.qmd){.btn-action-secondary  .btn-action .btn .btn-success-alt-2 .btn-lg role="button" style="margin-top: 1em;"}
+[More about me](about.qmd){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"} [View my CV](cv.qmd){.btn-action-secondary  .btn-action .btn .btn-success-alt-2 .btn-lg role="button" style="margin-top: 1em;"}
 
 :::
 :::
