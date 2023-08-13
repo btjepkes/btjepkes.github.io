@@ -522,6 +522,7 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
   background-color: #2d405f;
   /*background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23466393' fill-opacity='0.25'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");*/
   background-image: url("assets/bg-topo-white.png");
+  background-position: center center;
   background-attachment: fixed;
   z-index: -1;
 }
@@ -774,7 +775,7 @@ div.quarto-post .metadata {
 }
 
 
-#listing-site-listings-2 .quarto-listing-table,
+#listing-site-listings-2 .quarto-grid-item,
 #listing-site-listings .quarto-grid-item,
 #listing-site-menu-2 .quarto-grid-item{
   background: $white;
@@ -1002,6 +1003,12 @@ div.quarto-post .metadata {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 799px) { 
+.index-h2 h2 {
+  font-size: 1.5rem;
+}
+}
+
 .index-h2-line {
   width: 100%;
   height: 3px;
@@ -1040,10 +1047,8 @@ div.quarto-post .metadata {
 .index-h4 h4 {
   margin-top: 0;
   margin-bottom: 0.4em;
-  margin-left: 0.2em;
   color: #b21b2b;
-  font-weight: 600;
-  /*font-style: italic;*/
+  font-weight: 300;
 }
 
 
@@ -1051,7 +1056,6 @@ div.quarto-post .metadata {
 
 .index-list p {
   opacity: 0.8;
-  margin-left: 0.4em;
 }
 .index-list li::marker {
   list-style-type: square;
