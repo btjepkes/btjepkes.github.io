@@ -25,7 +25,8 @@ listing:
       - "post-three.qmd"
       - "post-nine.qmd"
       - "post-ten.qmd"
-    type: default
+      - "post-eleven.qmd"
+    type: grid
     filter-ui: false
     sort-ui: false
     image-align: left
@@ -52,6 +53,24 @@ Experienced in ecology, delving into geography, and actively practicing geospati
 :::
 :::
 
+::: {.index-section-heading}
+## Updates {.index-h2}
+
+
+::: {.index-h2-line}
+:::
+:::
+
+#### My latest annoucements. {.index-h4}
+
+:::{.index-list}
+I recently started my **Masters Degree** within the [Geography Department](https://geography.missouri.edu/) at the University of Missouri. I am in the process of developing my thesis project, so stay tuned for more. Please [reach out](contact.qmd) if you have any inquires or would like to collaborate on any ecological or geospatial projects.
+
+**My Next Conference:** [posit::conf(2023)](https://posit.co/conference/) - Sept 17-20 - Virtual
+
+
+
+:::
 
 ::: {.about}
 
@@ -70,7 +89,7 @@ Experienced in ecology, delving into geography, and actively practicing geospati
 
 :::{.index-list}
 
-I am a **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform the natural world. I have over 7 years of progressive experience in the **conservation and environmental science** sector. I am currently pursuing my **Masters in Geography** at the University of Missouri. Updates on my thesis work are coming soon! Please [reach out](contact.qmd) if you have any inquires or would like to collaborate on any ecological or geospatial projects.
+I am a **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research the natural world. I have over 7 years of progressive experience with governmental, private, and academic entities in the **conservation and environmental science** sector.
 
 :::
 
