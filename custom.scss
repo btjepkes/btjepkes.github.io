@@ -533,7 +533,7 @@ body {
 
 .intro-content p {
   color: white;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.3em;
   padding-top: 15px;
   font-size: 1.05em;
@@ -572,7 +572,7 @@ body {
   background: white;
   border: teal solid 8px;
   padding: 0.1em;
-  border-radius: 20% 20% 40% 40%;
+  border-radius: 20%;
   max-width: 320px;
 }
 
@@ -630,8 +630,8 @@ body {
   position: relative;
   margin-top: 3em;
   margin-bottom: 0em;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .bg-banner-1 p {
@@ -655,7 +655,8 @@ body {
   height: 100%;
   z-index: -1;
   overflow-x: hidden;
-  background-color: #2b6165;
+  background-color: #3a4753; /*#dee2e6*/
+  background-blend-mode: difference;
   background-image: url("assets/bg-topo-white.png");
   background-attachment: fixed;
   background-size: cover;
@@ -729,12 +730,12 @@ body {
 
 .bg-banner-3 {
   position: relative;
-  margin-top: 3em;
+  margin-top: 0em;
   margin-bottom: 0em;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.bg-banner-3::before {
+/*.bg-banner-3::before {
   content: "";
   position: absolute;
   top: 0;
@@ -747,7 +748,7 @@ body {
   background-image: url("assets/bg-topo-white.png");
   background-attachment: fixed;
   background-size: cover;
-}
+}*/
 
 .bg-banner-3 h2 {
   text-align: center;
@@ -766,7 +767,8 @@ div.quarto-post .metadata {
 }
 
 #listing-site-listings,
-#listing-site-listings-2 {
+#listing-site-listings-2,
+#listing-site-menu-2 {
   position: relative;
   padding-top: 14px;
   margin-right: 0 !important;
@@ -774,9 +776,11 @@ div.quarto-post .metadata {
 
 
 #listing-site-listings-2 .quarto-listing-table,
-#listing-site-listings .quarto-grid-item {
+#listing-site-listings .quarto-grid-item,
+#listing-site-menu-2 .quarto-grid-item{
   background: $white;
 }
+
 
 
 
@@ -942,6 +946,8 @@ div.quarto-post .metadata {
 .btn {
   padding-top: 8px;
   padding-bottom: 8px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0px #008080;
 }
 
 
@@ -972,49 +978,40 @@ div.quarto-post .metadata {
 }
 
 
-.index-h2 h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 900;
-  margin-top: 0px;
-  border-bottom: none;
-  font-family: system-ui;
+.index-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
 }
 
-.index-h2 h2::after {
-  content: "";
-  display: block;
-  border-bottom: solid indianred 5px;
-  padding-top: 12px;
-  width: 50px;
-  margin: auto;
+.index-h2 h2 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-bottom: none;
+  font-family: system-ui;
+  font-size: 2.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
+
+.index-h2-line {
+  width: 100%;
+  height: 3px;
+  background: #466393;
+}
+
 
 .index-h2-alt h2 {
-  text-align: center;
+  text-align: right;
+  color: white;
   text-transform: uppercase;
-  font-weight: 700;
-  margin-top: 30px;
+  font-weight: 900;
   border-bottom: none;
   font-family: system-ui;
-  color: white;
-  opacity: 1.0;
-}
-
-.index-h2-alt h2::after {
-  content: "";
-  display: block;
-  border-bottom: solid $tan 5px;
-  padding-top: 12px;
-  width: 50px;
-  margin: auto;
-}
-
-.index-h4 h4 {
-  font-size: 1.2em;
-  color: $blue-6;
-  text-align: center;
-  font-weight: 900;
+  font-size: 2.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 

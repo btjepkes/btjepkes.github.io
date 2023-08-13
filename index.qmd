@@ -7,12 +7,22 @@ pagetitle: "B.W. Tjepkes - Portfolio"
 listing:
   - id: site-listings
     contents:
-      - "posts.qmd"
-      - "gallery.qmd"
+      - "about.qmd"
       - "research.qmd"
       - "cv.qmd"
     type: grid
-    grid-columns: 4
+    grid-columns: 3
+    fields: 
+      - title
+      - subtitle
+      
+  - id: site-menu-2
+    contents:
+      - "posts.qmd"
+      - "gallery.qmd"
+      - "resources.qmd"
+    type: grid
+    grid-columns: 3
     fields: 
       - title
       - subtitle
@@ -46,9 +56,11 @@ listing:
 #### Hello there,
 # My name is Benjamin Tjepkes and this is *meum portfolium*.
 
-Proficient in wildlife ecology, delving into geography, and actively practicing data science, my passion lies in the realm of applied science.
+Experienced in ecology, delving into geography, and actively practicing geospatial -- my passion lies in the realm of applied science.
 
-[»» About My Career Path](about.qmd){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
+<!-- [»» About My Career Path](about.qmd) -->
+
+<!-- {.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"} -->
 
 :::
 :::
@@ -56,10 +68,15 @@ Proficient in wildlife ecology, delving into geography, and actively practicing 
 
 ::: {.about}
 
-
 ::: {.consultant-info}
-#### About Me {.index-h4}
-## Biography & Status {.index-h2}
+
+
+::: {.index-section-heading}
+## Biography {.index-h2}
+
+::: {.index-h2-line}
+:::
+:::
 
 1. I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform the natural world.
 
@@ -75,10 +92,6 @@ Proficient in wildlife ecology, delving into geography, and actively practicing 
 
 ::: {.bg-banner-1}
 
-## Exploring My Work {.index-h2-alt}
-
-This site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science.
-
 ::: {#site-listings}
 
 :::
@@ -87,7 +100,15 @@ This site houses my professional gallery and technical blog to showcase my exper
 
 ::: {.content-block}
 
-## Technical Skills {.index-h2}
+
+::: {.index-section-heading}
+## Proficiencies {.index-h2}
+
+::: {.index-h2-line}
+:::
+:::
+
+
 
 ::: {.features}
 
@@ -149,10 +170,23 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 :::
 :::
 
+::: {.bg-banner-1}
+
+::: {#site-menu-2}
+
+:::
+:::
+
+
 
 ::: {.bg-banner-3}
 
-## Data Visualizations {.index-h2-alt}
+::: {.index-section-heading}
+## Visualizations {.index-h2}
+
+::: {.index-h2-line}
+:::
+:::
 
 
 ::: {.gallery}
@@ -188,7 +222,12 @@ description="Great Lakes Watershed Map"}
 
 ::: {.bg-banner-2}
 
-## Posts & Writings {.index-h2}
+::: {.index-section-heading}
+## Writings {.index-h2}
+
+::: {.index-h2-line}
+:::
+:::
 
 ::: {#site-listings-2}
 
