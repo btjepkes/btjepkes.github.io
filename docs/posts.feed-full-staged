@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Benjamin Tjepkes</title>
+<link>https://btjepkes.github.io/posts.html</link>
+<atom:link href="https://btjepkes.github.io/posts.xml" rel="self" type="application/rss+xml"/>
+<description>A professional portfolio and technical blog for Benjamin Tjepkes.</description>
+<image>
+<url>https://btjepkes.github.io/assets/bg-pines-blog-orange-sm.png</url>
+<title>Benjamin Tjepkes</title>
+<link>https://btjepkes.github.io/posts.html</link>
+<height>43</height>
+<width>144</width>
+</image>
+<generator>quarto-1.3.353</generator>
+<lastBuildDate>Sun, 28 May 2023 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/posts/post-two.html}</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/post-two.html</link>
+  <description>{B4F502887207:/posts/post-two.html}</description>
+  <category>R</category>
+  <category>Quarto</category>
+  <category>Reporting</category>
+  <guid>https://btjepkes.github.io/posts/post-two.html</guid>
+  <pubDate>Sun, 28 May 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/posts/bg-pine-blue.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/post-four.html}</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/post-four.html</link>
+  <description>{B4F502887207:/posts/post-four.html}</description>
+  <category>R</category>
+  <category>Wildlife</category>
+  <category>Cartography</category>
+  <guid>https://btjepkes.github.io/posts/post-four.html</guid>
+  <pubDate>Fri, 05 May 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/posts/img-sage-grouse.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/post-three.html}</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/post-three.html</link>
+  <description>{B4F502887207:/posts/post-three.html}</description>
+  <category>R</category>
+  <category>Forest</category>
+  <category>Cartography</category>
+  <guid>https://btjepkes.github.io/posts/post-three.html</guid>
+  <pubDate>Sat, 22 Apr 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://content.globalforestwatch.org/wp-content/uploads/2023/05/model_output_4km_aggregation_tcd30_model_v1.2.3_20230407_for_pres_with_legend__net_flux-2048x968.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/post-nine.html}</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/post-nine.html</link>
+  <description>{B4F502887207:/posts/post-nine.html}</description>
+  <category>Wildlife</category>
+  <category>GIS</category>
+  <guid>https://btjepkes.github.io/posts/post-nine.html</guid>
+  <pubDate>Sun, 26 Mar 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/posts/img-001.svg" medium="image" type="image/svg+xml"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/post-ten.html}</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/post-ten.html</link>
+  <description>{B4F502887207:/posts/post-ten.html}</description>
+  <category>Nature</category>
+  <category>Education</category>
+  <guid>https://btjepkes.github.io/posts/post-ten.html</guid>
+  <pubDate>Tue, 18 Oct 2022 05:00:00 GMT</pubDate>
+  <media:content url="https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80" medium="image"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/post-eleven.html}</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/post-eleven.html</link>
+  <description>{B4F502887207:/posts/post-eleven.html}</description>
+  <category>Nature</category>
+  <category>Education</category>
+  <guid>https://btjepkes.github.io/posts/post-eleven.html</guid>
+  <pubDate>Sun, 16 Oct 2022 05:00:00 GMT</pubDate>
+  <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934" medium="image"/>
+</item>
+</channel>
+</rss>

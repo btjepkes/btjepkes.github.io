@@ -1,0 +1,38 @@
+library(reactable)
+library(tidyverse)
+library(htmltools)
+
+data <- read.csv("resources.csv") %>% 
+  select(Title:Link) %>% 
+  arrange(Title)
+
+reactable(
+  data,
+  wrap = TRUE,
+  resizable = TRUE,
+  searchable = TRUE,
+  striped = TRUE,
+  defaultPageSize = 20,
+  paginationType = "simple",
+  showPageInfo = FALSE,
+  minRows = 1,
+  elementId = "tbl",
+  columns = list(
+    Title = colDef(
+      cell = function(value, index) {
+        Description <- data$Description[index]
+        Description <- if (!is.na(Description)) Description else "Unknown"
+        div(
+          div(style = "font-weight: 600", value),
+          div(style = "font-size: 0.75rem", Description)
+          
+        )
+      }, width = 600
+    ),
+    Description = colDef(show = FALSE),
+    Link = colDef(cell = function(value) {
+      tags$a(href = value, target = "_blank", "Link")
+    }
+    )
+  )
+)

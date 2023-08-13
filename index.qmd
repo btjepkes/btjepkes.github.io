@@ -27,9 +27,8 @@ listing:
     image-height: 200px
     filter-ui: false
     sort-ui: false
-    image-align: right
+    image-align: left
     fields: 
-      - date
       - title
       - subtitle
       - image
@@ -39,7 +38,7 @@ listing:
 
 ::: {.intro-headshot .slide-in}
 
-![](img-ben-portrait-2.jpg){.nolightbox .headshot-img}
+![](assets/img-ben-portrait-2.jpg){.nolightbox .headshot-img}
 
 :::
 
@@ -155,8 +154,7 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 ::: {.bg-banner-3}
 
-#### Beautifully-Made {.index-h4}
-## Data Visualizations {.index-h2}
+## Data Visualizations {.index-h2-alt}
 
 
 ::: {.gallery}
@@ -192,7 +190,7 @@ description="Great Lakes Watershed Map"}
 
 ::: {.bg-banner-2}
 
-#### Artfully-Precise {.index-h4}
+#### Creatively-Artful {.index-h4}
 ## Posts & Writings {.index-h2}
 
 ::: {#site-listings-2}

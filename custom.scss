@@ -366,7 +366,8 @@ nav .nav-item a:hover {
 
 div.quarto-post {
   display: flex;
-  gap: 2em;
+  flex: 0 0 50%;
+  scroll-snap-align: start;
   margin-bottom: 1.5em;
   border: none;
   background-color: $gray-300;
@@ -730,8 +731,8 @@ body {
   position: relative;
   margin-top: 3em;
   margin-bottom: 0em;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .bg-banner-3::before {
   content: "";
@@ -742,7 +743,10 @@ body {
   height: 100%;
   z-index: -1;
   overflow-x: hidden;
-  opacity: 0.1;
+  background-color: #3a4753;
+  background-image: url("assets/bg-topo-white.png");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .bg-banner-3 h2 {
@@ -751,6 +755,11 @@ body {
   font-weight: 900;
 }
 
+.quarto-listing-default {
+  display: flex;
+  scroll-snap-type: x mandatory;
+  overflow: auto;
+}
 
 
 #listing-site-listings,

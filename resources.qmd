@@ -3,6 +3,7 @@ title: "Resources"
 subtitle: My favorite references for ecology, GIS, R, Python, and more.
 image: assets/bg-pines-resources-purple-sm.png
 toc: FALSE
+draft: true
 format:
   html:
     echo: false
@@ -22,25 +23,13 @@ format:
 Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions.
 
 ```{r}
-library(tidyverse)
-
-data <- read.csv("resources.csv")
-
-data_cat <- data %>% pull(Category)
-
-data_type <- data %>% pull(Type)
-
-
-```
-
-
-
-```{r}
 library(reactable)
 library(tidyverse)
 library(htmltools)
 
-data <- read.csv("resources.csv")
+data <- read.csv("resources.csv") %>% 
+  select(Title:Link) %>% 
+  arrange(Title)
 
 reactable(
   data,
@@ -52,25 +41,7 @@ reactable(
   paginationType = "simple",
   showPageInfo = FALSE,
   minRows = 1,
-  elementId = "tbl",
-  columns = list(
-    Title = colDef(
-      cell = function(value, index) {
-        Description <- data$Description[index]
-        Description <- if (!is.na(Description)) Description else "Unknown"
-        div(
-          div(style = "font-weight: 600", value),
-          div(style = "font-size: 0.75rem", Description)
-          
-        )
-      }, width = 600
-    ),
-    Description = colDef(show = FALSE),
-    Link = colDef(cell = function(value) {
-      tags$a(href = value, target = "_blank", "Link")
-    }
-    )
-  )
+  elementId = "tbl"
 )
 ```
 

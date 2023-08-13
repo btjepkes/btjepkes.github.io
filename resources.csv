@@ -1,36 +1,38 @@
-Title,Category,Type,Description,Link
-From Data to Viz,Data Visualization,Website,Decision trees for determining which chart type best fits your data and objectives.,https://www.data-to-viz.com/
-DMAD QGIS Lessons,QGIS,Tutorials,"Excellent YouTube channel with a series on QGIS, with a focus on ecology and science.",https://www.youtube.com/c/DMADMarineMammalsResearchAssociation
-R for Fledglings,R,eBook,Informative ebook with tutorials about coding in R.,https://www.uvm.edu/~tdonovan/RforFledglings/
-Careers in Conservation Job Board List,Job Search,Website,Directory of conservation job boards.,https://diversityinconservationjobs.org/jobs/
-Coding Club Tutorials,"Javascript, Python, R",Tutorials,"Collection of coding, data science and statistics tutorials with examples in R, Python, and JavaScript.",https://ourcodingclub.github.io/tutorials.html
-Quantitative Methods for Population Dynamics in R - 2023 Edition,R,Tutorials,"Recording of population dynamics workshop, with a focus on modeling in R.",https://www.youtube.com/playlist?list=PL5CiXbb9zgjSP_KeorqJIBh7iH5GkC38-
-Bivariate Choropleth Maps: A How-To Guide,"GIS, Mapping, QGIS",Website,"Blog post about creating bivariate choropleth maps, including some example legends.",https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/
-The R Graph Gallery,"Data Visualization, R",Website,"Gallery of hundreds of charts made in R, with a focus on the ggplot2 package.",https://r-graph-gallery.com/index.html
-basemaps R Package,"Mapping, R",R Package,R package to download and cache spatial basemaps.,https://jakob.schwalb-willmann.de/basemaps/
-R Packages for Visualizing Spatial Data,"Mapping, R",Website,Blog post detailing several R packages to visualize spatial data in R.,https://nrennie.rbind.io/blog/2022-12-17-r-packages-for-visualising-spatial-data/
-Hexagon and Fishnet Spatial Grids,"GIS, Mapping, R",Website,"Blog post about several types of tesselations, including example R code.",https://strimas.com/post/hexagonal-grids/
-Cedric Scherer,"Data Visualization, R",Personal Website,"Personal blog site with excellent posts about data visualization in R, especially ggplot2.",https://www.cedricscherer.com/
-Matt Strimas-Mackey,"Data Visualization, R",Personal Website,Personal blog site with excellent posts about data analysis and visualization in R and Python.,https://strimas.com/
-Reference Guide for R Data Wrangling Functions,R,Website,Reference guide for commonly used functions in data wrangling for research.,https://github.com/Cghlewis/data-wrangling-functions/wiki/
-Creating Heat Maps From Coordinates in R,"Mapping, R",Website,Blog post about creating heat maps in R using coordinate data.,https://axelhodler.medium.com/creating-a-heat-map-from-coordinates-using-r-780db4901075
-Creating Square and Hexagon Tessellation in R,"GIS, R",Tutorials,Blog post about creating fishnet and hexagon spatial grids in R.,https://urbandatapalette.com/post/2021-08-tessellation-sf/
-Urban Data Palette,"GIS, R",Personal Website,"Personal blog site with excellent posts about data visualization, especially map creation and design.",https://urbandatapalette.com/
-R as GIS for Economists,"GIS, R",eBook,"Free online book focusing on spatial data processing for econometric projects, including example R code.",https://tmieno2.github.io/R-as-GIS-for-Economists/
-Using Spatial Data for Biodiversity,"GIS, Geospatial",Tutorials,Free micro-course about using remote sensing and other spatial data to inform nature conservation.,https://www.learningfornature.org/en/courses/using-spatial-data-for-biodiversity/
-Communicating the Value of Biodiversity,Conservation,Tutorials,Free micro-course on communicating the importance of biodiversity.,https://www.learningfornature.org/en/courses/communicating-the-value-of-biodiversity/
-Storytelling with Data Chart Guide,Data Visualization,Website,Reference guide on what types of charts to best visualize certain types of data.,https://www.storytellingwithdata.com/chart-guide
-Biodiversity Data Science,Geospatial,Tutorials,YouTube channel with videos about data science for ecology and evolutionary biology.,https://www.youtube.com/@biodiversitydatascience
-Extract Values from a Raster in R,"GIS, Geospatial, R",Tutorials,NSF NEON blog post about extracting data from a raster in R.,https://www.neonscience.org/resources/learning-hub/tutorials/extract-values-rasters-r
-Geographic Data Science with R,"GIS, Geospatial, R",eBook,Free online book about visualizing and analyzing environmental change in R.,https://www.neonscience.org/resources/learning-hub/tutorials/extract-values-rasters-r
-Spatial Data Science with R and “terra”,"Geospatial, R",eBook,"Free online book about spatial data manipulation, analysis, and modeling.",https://rspatial.org/index.html
-Landscape Genetic Data Analysis in R,"Geospatial, R",eBook,Free online documentation for environmental genetics graduate course.,https://bookdown.org/hhwagner1/LandGenCourse_book/
-The Epidemiologist R Handbook,"Data Science, R",eBook,"Exceptional and free online book covering several topics in R, including data analysis, manipulation, and visualization.",https://epirhandbook.com/en/index.html
-Guide to Using Colors in Data Visualizations,Data Visualization,Website,Datawrapper blog post discussing the proper use of colors when designing data visualizations.,https://blog.datawrapper.de/colors-for-data-vis-style-guides/
-Making Inset Maps Using ggplot2 in R,"Data Visualization, Mapping, R",Website,Blog post showing a simple way to make inset maps using the ggplot2 package in R.,https://blog.devgenius.io/making-publication-quality-inset-maps-in-r-using-ggplot2-85359c492ac8
-Classed and Unclassed Color Scales,Data Visualization,Website,Datawrapper blog post discussing when to use classed and unclassed color scales in data visualizations.,https://blog.datawrapper.de/classed-vs-unclassed-color-scales/
-Choosing Interpolation Methods for Choropleth Maps,"Data Visualization, GIS, Geospatial, Mapping",Website,Datawrapper blog post discussing the different methods of legend interpolation methods for choropleth maps.,https://blog.datawrapper.de/interpolation-for-color-scales-and-maps/
-Introduction to Data Visualization with ggplot2 in R,"Data Visualization, R",Website,Blog post about making data visualizations with the ggplot2 package in R.,http://jdobr.es/blog/data-vis-with-ggplot/
-Making Slides in Quarto with reveal.js,"Data Visualization, R",Tutorials,Blog post about making interactive presentation slides with Quarto in R.,https://meghan.rbind.io/blog/quarto-slides/
-Luke Morris,"Data Science, Data Visualization, R",Personal Website,Personal blog with excellent posts about ggplot and Quarto.,https://lukesmorris.com/
-Bivariate Maps with ggplot2 and sf in R,"Data Visualization, GIS, Mapping, R",Tutorials,Blog post about making bivariate maps using the ggplot and sf packages in R.,https://timogrossenbacher.ch/bivariate-maps-with-ggplot2-and-sf/
+Title,Category,Type,Description,Link,Comments
+Joshua Stevens,"Data Visualization, GIS",Personal Website,Excellent blog posts and examples of cartography.,https://www.joshuastevens.net/,
+From Data to Viz,Data Visualization,Website,Decision trees for determining which chart type best fits your data and objectives.,https://www.data-to-viz.com/,
+DMAD QGIS Lessons,QGIS,Tutorials,"Excellent YouTube channel with a series on QGIS, with a focus on ecology and science.",https://www.youtube.com/c/DMADMarineMammalsResearchAssociation,
+R for Fledglings,R,eBook,Informative ebook with tutorials about coding in R.,https://www.uvm.edu/~tdonovan/RforFledglings/,
+Careers in Conservation Job Board List,Job Search,Website,Directory of conservation job boards.,https://diversityinconservationjobs.org/jobs/,
+Coding Club Tutorials,"Javascript, Python, R",Tutorials,"Collection of coding, data science and statistics tutorials with examples in R, Python, and JavaScript.",https://ourcodingclub.github.io/tutorials.html,
+Quantitative Methods for Population Dynamics in R - 2023 Edition,R,Tutorials,"Recording of population dynamics workshop, with a focus on modeling in R.",https://www.youtube.com/playlist?list=PL5CiXbb9zgjSP_KeorqJIBh7iH5GkC38-,
+Bivariate Choropleth Maps: A How-To Guide,"GIS, Mapping, QGIS",Website,"Blog post about creating bivariate choropleth maps, including some example legends.",https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/,
+The R Graph Gallery,"Data Visualization, R",Website,"Gallery of hundreds of charts made in R, with a focus on the ggplot2 package.",https://r-graph-gallery.com/index.html,
+basemaps R Package,"Mapping, R",R Package,R package to download and cache spatial basemaps.,https://jakob.schwalb-willmann.de/basemaps/,"download and cache spatial basemaps from open sources such as OpenStreetMap, Stamen, Thunderforest, Carto, Mapbox and others. Retrieved basemaps are translated into and returned as classes of choice, such as raster, stars, terra, ggplot, mapview, magick, or as files, such as png or geotif."
+R Packages for Visualizing Spatial Data,"Mapping, R",Website,Blog post detailing several R packages to visualize spatial data in R.,https://nrennie.rbind.io/blog/2022-12-17-r-packages-for-visualising-spatial-data/,
+Hexagon and Fishnet Spatial Grids,"GIS, Mapping, R",Website,"Blog post about several types of tesselations, including example R code.",https://strimas.com/post/hexagonal-grids/,
+Cedric Scherer,"Data Visualization, R",Personal Website,"Personal blog site with excellent posts about data visualization in R, especially ggplot2.",https://www.cedricscherer.com/,
+Matt Strimas-Mackey,"Data Visualization, R",Personal Website,Personal blog site with excellent posts about data analysis and visualization in R and Python.,https://strimas.com/,
+Reference Guide for R Data Wrangling Functions,R,Website,Reference guide for commonly used functions in data wrangling for research.,https://github.com/Cghlewis/data-wrangling-functions/wiki/,
+Creating Heat Maps From Coordinates in R,"Mapping, R",Website,Blog post about creating heat maps in R using coordinate data.,https://axelhodler.medium.com/creating-a-heat-map-from-coordinates-using-r-780db4901075,
+Creating Square and Hexagon Tessellation in R,"GIS, R",Tutorials,Blog post about creating fishnet and hexagon spatial grids in R.,https://urbandatapalette.com/post/2021-08-tessellation-sf/,
+Urban Data Palette,"GIS, R",Personal Website,"Personal blog site with excellent posts about data visualization, especially map creation and design.",https://urbandatapalette.com/,
+R as GIS for Economists,"GIS, R",eBook,"Free online book focusing on spatial data processing for econometric projects, including example R code.",https://tmieno2.github.io/R-as-GIS-for-Economists/,
+Using Spatial Data for Biodiversity,"GIS, Geospatial",Tutorials,Free micro-course about using remote sensing and other spatial data to inform nature conservation.,https://www.learningfornature.org/en/courses/using-spatial-data-for-biodiversity/,
+Communicating the Value of Biodiversity,Conservation,Tutorials,Free micro-course on communicating the importance of biodiversity.,https://www.learningfornature.org/en/courses/communicating-the-value-of-biodiversity/,
+Storytelling with Data Chart Guide,Data Visualization,Website,Reference guide on what types of charts to best visualize certain types of data.,https://www.storytellingwithdata.com/chart-guide,
+Biodiversity Data Science,Geospatial,Tutorials,YouTube channel with videos about data science for ecology and evolutionary biology.,https://www.youtube.com/@biodiversitydatascience,
+Extract Values from a Raster in R,"GIS, Geospatial, R",Tutorials,NSF NEON blog post about extracting data from a raster in R.,https://www.neonscience.org/resources/learning-hub/tutorials/extract-values-rasters-r,
+Geographic Data Science with R,"GIS, Geospatial, R",eBook,Free online book about visualizing and analyzing environmental change in R.,https://www.neonscience.org/resources/learning-hub/tutorials/extract-values-rasters-r,
+Spatial Data Science with R and terra,"Geospatial, R",eBook,"Free online book about spatial data manipulation, analysis, and modeling.",https://rspatial.org/index.html,
+Landscape Genetic Data Analysis in R,"Geospatial, R",eBook,Free online documentation for environmental genetics graduate course.,https://bookdown.org/hhwagner1/LandGenCourse_book/,
+The Epidemiologist R Handbook,"Data Science, R",eBook,"Exceptional and free online book covering several topics in R, including data analysis, manipulation, and visualization.",https://epirhandbook.com/en/index.html,
+Guide to Using Colors in Data Visualizations,Data Visualization,Website,Datawrapper blog post discussing the proper use of colors when designing data visualizations.,https://blog.datawrapper.de/colors-for-data-vis-style-guides/,
+Making Inset Maps Using ggplot2 in R,"Data Visualization, Mapping, R",Website,Blog post showing a simple way to make inset maps using the ggplot2 package in R.,https://blog.devgenius.io/making-publication-quality-inset-maps-in-r-using-ggplot2-85359c492ac8,
+Classed and Unclassed Color Scales,Data Visualization,Website,Datawrapper blog post discussing when to use classed and unclassed color scales in data visualizations.,https://blog.datawrapper.de/classed-vs-unclassed-color-scales/,
+Choosing Interpolation Methods for Choropleth Maps,"Data Visualization, GIS, Geospatial, Mapping",Website,Datawrapper blog post discussing the different methods of legend interpolation methods for choropleth maps.,https://blog.datawrapper.de/interpolation-for-color-scales-and-maps/,
+Introduction to Data Visualization with ggplot2 in R,"Data Visualization, R",Website,Blog post about making data visualizations with the ggplot2 package in R.,http://jdobr.es/blog/data-vis-with-ggplot/,
+Making Slides in Quarto with reveal.js,"Data Visualization, R",Tutorials,Blog post about making interactive presentation slides with Quarto in R.,https://meghan.rbind.io/blog/quarto-slides/,
+Luke Morris,"Data Science, Data Visualization, R",Personal Website,Personal blog with excellent posts about ggplot and Quarto.,https://lukesmorris.com/,
+Bivariate Maps with ggplot2 and sf in R,"Data Visualization, GIS, Mapping, R",Tutorials,Blog post about making bivariate maps using the ggplot and sf packages in R.,https://timogrossenbacher.ch/bivariate-maps-with-ggplot2-and-sf/,
+Manual of Applied Spatial Ecology,"Conservation, Geospatial, R","Tutorials, eBook",Outstanding source of example R scripts on managing and modeling environmental data.,https://ecosystems.psu.edu/research/labs/walter-lab/manual,Excellent source of example R scripts of wildlife modeling.
