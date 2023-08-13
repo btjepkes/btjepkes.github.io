@@ -5,6 +5,7 @@ subtitle: "Learn about my career path and professional interests."
 image: assets/bg-pines-about-blue-sm.png
 
 keywords: about, about me
+
 ---
 
 ## Trained as a biologist. {.intro-heading}

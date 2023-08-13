@@ -9,7 +9,7 @@ listing:
     contents:
       - "posts.qmd"
       - "gallery.qmd"
-      - "resources.qmd"
+      - "research.qmd"
       - "cv.qmd"
     type: grid
     grid-columns: 4
@@ -23,15 +23,14 @@ listing:
       - "post-three.qmd"
       - "post-nine.qmd"
       - "post-ten.qmd"
+      - "post-eleven.qmd"
     type: default
-    image-height: 200px
     filter-ui: false
     sort-ui: false
     image-align: left
     fields: 
       - title
       - subtitle
-      - image
 ---
 
 ::: {.intro-banner}
@@ -49,7 +48,7 @@ listing:
 
 Proficient in wildlife ecology, delving into geography, and actively practicing data science, my passion lies in the realm of applied science.
 
-[»» Learn About My Career](about.qmd){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
+[»» About My Career Path](about.qmd){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
 
 :::
 :::
@@ -88,7 +87,6 @@ This site houses my professional gallery and technical blog to showcase my exper
 
 ::: {.content-block}
 
-#### Cutting-Edge {.index-h4}
 ## Technical Skills {.index-h2}
 
 ::: {.features}
@@ -190,7 +188,6 @@ description="Great Lakes Watershed Map"}
 
 ::: {.bg-banner-2}
 
-#### Creatively-Artful {.index-h4}
 ## Posts & Writings {.index-h2}
 
 ::: {#site-listings-2}

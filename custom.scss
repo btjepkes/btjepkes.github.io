@@ -572,7 +572,7 @@ body {
   background: white;
   border: teal solid 8px;
   padding: 0.1em;
-  border-radius: 50%;
+  border-radius: 20% 20% 40% 40%;
   max-width: 320px;
 }
 
@@ -759,8 +759,11 @@ body {
   display: flex;
   scroll-snap-type: x mandatory;
   overflow: auto;
+  flex-wrap: wrap;
 }
-
+div.quarto-post .metadata {
+  display: none;
+}
 
 #listing-site-listings,
 #listing-site-listings-2 {
