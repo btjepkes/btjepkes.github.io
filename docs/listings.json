@@ -2,11 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
+      "/about.html",
       "/cv.html",
       "/posts.html",
       "/gallery.html",
       "/research.html",
-      "/posts/post-eleven.html",
+      "/resources.html",
       "/posts/post-nine.html",
       "/posts/post-ten.html",
       "/posts/post-three.html",
@@ -22,6 +23,16 @@
       "/posts/post-nine.html",
       "/posts/post-ten.html",
       "/posts/post-eleven.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/research-one.html",
+      "/research/research-five.html",
+      "/research/research-three.html",
+      "/research/research-four.html",
+      "/research/research-two.html"
     ]
   }
 ]

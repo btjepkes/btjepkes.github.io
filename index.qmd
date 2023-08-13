@@ -10,14 +10,6 @@ listing:
       - "about.qmd"
       - "research.qmd"
       - "cv.qmd"
-    type: grid
-    grid-columns: 3
-    fields: 
-      - title
-      - subtitle
-      
-  - id: site-menu-2
-    contents:
       - "posts.qmd"
       - "gallery.qmd"
       - "resources.qmd"
@@ -33,7 +25,6 @@ listing:
       - "post-three.qmd"
       - "post-nine.qmd"
       - "post-ten.qmd"
-      - "post-eleven.qmd"
     type: default
     filter-ui: false
     sort-ui: false
@@ -58,10 +49,6 @@ listing:
 
 Experienced in ecology, delving into geography, and actively practicing geospatial -- my passion lies in the realm of applied science.
 
-<!-- [»» About My Career Path](about.qmd) -->
-
-<!-- {.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"} -->
-
 :::
 :::
 
@@ -74,28 +61,28 @@ Experienced in ecology, delving into geography, and actively practicing geospati
 ::: {.index-section-heading}
 ## Biography {.index-h2}
 
+
 ::: {.index-h2-line}
 :::
 :::
 
-1. I am a dedicated **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform the natural world.
+#### Dedicated to applied science. {.index-h4}
 
-2. I have over 7 years of progressive experience with government, academic, and private entities in the **conservation and environmental science** sector. My diverse professional tasks have included everything from technical reporting and spatial modeling to immobilizing wild black bears.
+:::{.index-list}
 
-3. I am currently pursuing my **Masters in Geography** at the University of Missouri. I will provide updates on my thesis work as I begin progress on my project. Please [reach out](contact.qmd) if you have any inquires or would like to collaborate on any ecological or geospatial projects.
-
-
-:::
+I am a **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform the natural world. I have over 7 years of progressive experience in the **conservation and environmental science** sector. I am currently pursuing my **Masters in Geography** at the University of Missouri. Updates on my thesis work are coming soon! Please [reach out](contact.qmd) if you have any inquires or would like to collaborate on any ecological or geospatial projects.
 
 :::
-
-
-::: {.bg-banner-1}
 
 ::: {#site-listings}
 
 :::
+
 :::
+
+:::
+
+
 
 
 ::: {.content-block}
@@ -108,7 +95,13 @@ Experienced in ecology, delving into geography, and actively practicing geospati
 :::
 :::
 
+#### Dedicated to lifelong learning. {.index-h4}
 
+:::{.index-list}
+
+Whether in a professional setting, during my academic pursuits, or through personal exploration, I consistently engage in a process of ongoing learning. I have actively pursued various independent educational modules aimed at **enhancing my proficiency** in the geospatial, ecological, and analytical sciences. See how I use these skills [here](gallery.qmd) or read about them [here](posts.qmd).
+
+:::
 
 ::: {.features}
 
@@ -170,24 +163,24 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 :::
 :::
 
-::: {.bg-banner-1}
-
-::: {#site-menu-2}
-
-:::
-:::
-
-
 
 ::: {.bg-banner-3}
 
 ::: {.index-section-heading}
-## Visualizations {.index-h2}
+## Designs {.index-h2}
 
 ::: {.index-h2-line}
 :::
 :::
 
+#### Dedicated to technical creativity. {.index-h4}
+
+
+:::{.index-list}
+
+My professional work often involves deep dives into data and data wrangling, so I try to make some fun visuals? Most of my creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like MapPromptMonday and TidyTuesday. Find the entirety of my gallery [here](gallery.qmd).
+
+:::
 
 ::: {.gallery}
 
@@ -227,6 +220,15 @@ description="Great Lakes Watershed Map"}
 
 ::: {.index-h2-line}
 :::
+:::
+
+#### Dedicated to sharing information. {.index-h4}
+
+
+:::{.index-list}
+
+My blog posts cover a vast range of information in the **ecological and geospatial sciences**. You can find everything from quick map breakdowns to full tutorials on data wrangling and visualization. View the entire archive of my posts [here](posts.qmd).
+
 :::
 
 ::: {#site-listings-2}

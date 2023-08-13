@@ -3,7 +3,6 @@ title: "Resources"
 subtitle: My favorite references for ecology, GIS, R, Python, and more.
 image: assets/bg-pines-resources-purple-sm.png
 toc: FALSE
-draft: true
 format:
   html:
     echo: false
@@ -31,7 +30,7 @@ data <- read.csv("resources.csv") %>%
   select(Title:Link) %>% 
   arrange(Title)
 
-reactable(
+table <- reactable(
   data,
   wrap = TRUE,
   resizable = TRUE,

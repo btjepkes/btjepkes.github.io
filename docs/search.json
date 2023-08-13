@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "",
-    "text": "Proficient in wildlife ecology, delving into geography, and actively practicing data science, my passion lies in the realm of applied science.\n»» About My Career Path"
-  },
-  {
-    "objectID": "index.html#biography-status",
-    "href": "index.html#biography-status",
-    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "Biography & Status",
-    "text": "Biography & Status\n\nI am a dedicated wildlife ecologist and geospatial practitioner interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research and inform the natural world.\nI have over 7 years of progressive experience with government, academic, and private entities in the conservation and environmental science sector. My diverse professional tasks have included everything from technical reporting and spatial modeling to immobilizing wild black bears.\nI am currently pursuing my Masters in Geography at the University of Missouri. I will provide updates on my thesis work as I begin progress on my project. Please reach out if you have any inquires or would like to collaborate on any ecological or geospatial projects."
-  },
-  {
-    "objectID": "index.html#exploring-my-work",
-    "href": "index.html#exploring-my-work",
-    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "Exploring My Work",
-    "text": "Exploring My Work\nThis site houses my professional gallery and technical blog to showcase my experience in ecological and geospatial science.\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nAn interactive look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#technical-skills",
-    "href": "index.html#technical-skills",
-    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\n\n GIS & Cartography\nAdept as using open source and proprietary software to create static and dynamic map products.\n\nSkills: R/RStudio, ArcGIS Pro/Online, QGIS\n\n\n\n Data Visualization\nProficient in data visualization and reproducible reporting for technical and creative projects.\n\nSkills: Quarto, R/Rmd, Jupyter Notebooks\n\n\n\n Research Methods\nKnowledge of the scientific method, research project development, and technical reporting.\n\nSkills: Mendeley, Zotero, OSF\n\n\n\n Web Development\nEmploy front-end web development techniques to design functional and beautiful websites.\n\nSkills: HTML, CSS, WordPress, Git/GitHub\n\n\n\n Applied Ecology\nExperience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.\n\nSkills: Field Surveys, Species Monitoring\n\n\n\n Data Management\nUse programs like Microsoft Access to maintain high-quality data in relational databases.\n\nSkills: Microsoft Access, SQL Server, Excel"
-  },
-  {
-    "objectID": "index.html#data-visualizations",
-    "href": "index.html#data-visualizations",
-    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "Data Visualizations",
-    "text": "Data Visualizations\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGreat Lakes Watershed Map\n\n\n\n\n\nTurkey Harvest Map\n\n\n\n\n\nWork Hours Calendar Chart\n\n\n\n\n\nBlack Bear Sighting Choropleth"
-  },
-  {
-    "objectID": "index.html#posts-writings",
-    "href": "index.html#posts-writings",
-    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "Posts & Writings",
-    "text": "Posts & Writings\n\n\n\n\n\n\nCan You Naturally Protect Shores From Erosion?\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\n\n \n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n \n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\n\n \n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\n\n \n\n\n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
@@ -68,27 +26,6 @@
     "title": "About Me",
     "section": "Mastering geography.",
     "text": "Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my forthcoming pursuit of a Master’s degree in Geography in late 2023. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\n\n\n\nThrough my Master’s program, I will have the opportunity to study a broad range of topics spanning physical, human, and environmental geography.\nMy goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "My Blog Posts",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto\n\n\nManually updating reports is old news, start producing reproducible documents.\n\n\n\nBenjamin Tjepkes\n\n\nMay 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\nBenjamin Tjepkes\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\nBenjamin Tjepkes\n\n\nMar 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\nBenjamin Tjepkes\n\n\nOct 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCan You Naturally Protect Shores From Erosion?\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\nBenjamin Tjepkes\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "My Gallery",
-    "section": "",
-    "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, 30 Day Map Challenge, and other social media contests. Most of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nBat HCP Poster\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
-  },
-  {
-    "objectID": "gallery.html#recent-works",
-    "href": "gallery.html#recent-works",
-    "title": "My Gallery",
-    "section": "",
-    "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, 30 Day Map Challenge, and other social media contests. Most of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nBat HCP Poster\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
   },
   {
     "objectID": "contact.html",
@@ -138,5 +75,341 @@
     "title": "Curriculum vitae",
     "section": "Work Experience",
     "text": "Work Experience\n\nGraduate Teaching Assistant, Geography Department - University of Missouri (2023-Present)\nAssistant Wildlife Diversity Coordinator, Wildlife Diversity Program - Missouri Department of Conservation (2022-2023)\nWildlife Biologist, Furbearer Program - Missouri Department of Conservation (2022-2022)\nAssistant Natural History Biologist, Black Bear Program - Missouri Department of Conservation (2020-2022)\nAssistant Natural History Biologist, Deer Program - Missouri Department of Conservation (2019-2020)"
+  },
+  {
+    "objectID": "gallery/gallery-map-four.html",
+    "href": "gallery/gallery-map-four.html",
+    "title": "Choropleth of Missouri Bear Sightings in 2020",
+    "section": "",
+    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
+  },
+  {
+    "objectID": "gallery/gallery-map-seven.html",
+    "href": "gallery/gallery-map-seven.html",
+    "title": "Endangered Species Stamp Collection Map",
+    "section": "",
+    "text": "Map Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/gallery-poster-one.html",
+    "href": "gallery/gallery-poster-one.html",
+    "title": "Poster on Bald Eagle Nest Selection Research",
+    "section": "",
+    "text": "Credit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "gallery/gallery-poster-two.html#tools-and-workflow",
+    "href": "gallery/gallery-poster-two.html#tools-and-workflow",
+    "title": "Poster on Bat Habitat Conservation Plan in Missouri",
+    "section": "Tools and Workflow",
+    "text": "Tools and Workflow\n\nMap creation was performed using tmap and sf packages in the RStudio environment.\nPoster compilation was performed in Microsoft Publisher."
+  },
+  {
+    "objectID": "gallery/gallery-report-two.html",
+    "href": "gallery/gallery-report-two.html",
+    "title": "Bald Eagle Nest Monitoring Data Report",
+    "section": "",
+    "text": "Photo Credit: Wisconsin Center for Wildlife/USFWS"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "My Gallery",
+    "section": "",
+    "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, 30 Day Map Challenge, and other social media contests. Most of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nBat HCP Poster\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
+  },
+  {
+    "objectID": "gallery.html#recent-works",
+    "href": "gallery.html#recent-works",
+    "title": "My Gallery",
+    "section": "",
+    "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, 30 Day Map Challenge, and other social media contests. Most of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nBat HCP Poster\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
+    "section": "",
+    "text": "Experienced in ecology, delving into geography, and actively practicing geospatial – my passion lies in the realm of applied science."
+  },
+  {
+    "objectID": "index.html#biography",
+    "href": "index.html#biography",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
+    "section": "Biography",
+    "text": "Biography"
+  },
+  {
+    "objectID": "index.html#proficiencies",
+    "href": "index.html#proficiencies",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
+    "section": "Proficiencies",
+    "text": "Proficiencies"
+  },
+  {
+    "objectID": "index.html#designs",
+    "href": "index.html#designs",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
+    "section": "Designs",
+    "text": "Designs"
+  },
+  {
+    "objectID": "index.html#writings",
+    "href": "index.html#writings",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
+    "section": "Writings",
+    "text": "Writings"
+  },
+  {
+    "objectID": "posts/post-eleven.html",
+    "href": "posts/post-eleven.html",
+    "title": "Can You Naturally Protect Shores From Erosion?",
+    "section": "",
+    "text": "Shoreline erosion is a common problem faced by thousands of waterfront property owners. Many of whom view erosion issues as an inevitable consequence of living near the water. However, it is important to recognize that human actions can significantly contribute to and exacerbate erosion, and that there are steps we can take to prevent or reduce it.\nOur shorelines serve as the conversion zone between land and water. This is an extremely tough and very important job. With the many forces acting on them, our shores need to be maintained for the health of our natural systems and the security of our infrastructure.\nThe problem is that these forces are relentless. Wave action in the summer and ice push in the winter both nick away soil along the water’s edge. Run-off from streets and the upheaving frost action degrade shorelines from the land side. All while the wind erodes the ground from both sides.\nIn general, lakes are considered depositional features, and rivers as erosional features. There are some differences between these classifications but both mean that a great deal of energy is acting on your shoreline every moment. Erosional forces already push coasts to their structural limit. Then we as humans come along and intensify those forces to the detriment of both parties."
+  },
+  {
+    "objectID": "posts/post-eleven.html#erosion-is-a-two-sided-story",
+    "href": "posts/post-eleven.html#erosion-is-a-two-sided-story",
+    "title": "Can You Naturally Protect Shores From Erosion?",
+    "section": "",
+    "text": "Shoreline erosion is a common problem faced by thousands of waterfront property owners. Many of whom view erosion issues as an inevitable consequence of living near the water. However, it is important to recognize that human actions can significantly contribute to and exacerbate erosion, and that there are steps we can take to prevent or reduce it.\nOur shorelines serve as the conversion zone between land and water. This is an extremely tough and very important job. With the many forces acting on them, our shores need to be maintained for the health of our natural systems and the security of our infrastructure.\nThe problem is that these forces are relentless. Wave action in the summer and ice push in the winter both nick away soil along the water’s edge. Run-off from streets and the upheaving frost action degrade shorelines from the land side. All while the wind erodes the ground from both sides.\nIn general, lakes are considered depositional features, and rivers as erosional features. There are some differences between these classifications but both mean that a great deal of energy is acting on your shoreline every moment. Erosional forces already push coasts to their structural limit. Then we as humans come along and intensify those forces to the detriment of both parties."
+  },
+  {
+    "objectID": "posts/post-eleven.html#human-activities-are-impactful",
+    "href": "posts/post-eleven.html#human-activities-are-impactful",
+    "title": "Can You Naturally Protect Shores From Erosion?",
+    "section": "Human Activities Are Impactful",
+    "text": "Human Activities Are Impactful\nUnfortunately, many of the activities we partake in as humans make conditions worse for our water features. We do not set out to intentionally harm these systems, rather the impacts are a by-product of other pursuits.\n\nReducing the Amount of Shoreline Vegetation\nFor one reason or another, many waterfront property owners like to clear the vegetation along their shoreline. Terrestrial plants (those on land) get torn out to create a clear view of the water and provide direct access to the shore. Then aquatic plants (those in the water) are removed to open up areas for docks and swimming. This essentially removes a large portion of the soil’s structural support system.\nIf you think of the soil as concrete, the root systems of plants are comparable to the rebar latticework placed by masons to reinforce the cement. Take all that away, and you open up your shoreline to erosional forces and even collapse. Not a good situation.\n\n\nIncreasing the Amount of Impervious Surfaces\nThe copious amounts of water are another serious issue. Increased development around bodies of water has led to a considerable spike in the number of impervious surfaces. These areas, such as paved driveways, parking lots, and roads, do not allow water to seep into the ground during storm events. Instead, mass amounts of water combine and run off into the water, carrying soil with it."
+  },
+  {
+    "objectID": "posts/post-eleven.html#this-has-system-wide-effects",
+    "href": "posts/post-eleven.html#this-has-system-wide-effects",
+    "title": "Can You Naturally Protect Shores From Erosion?",
+    "section": "This Has System-Wide Effects",
+    "text": "This Has System-Wide Effects\nShoreline degradation is harmful to landowners, the water, and the plants and animals that occupy these areas. Increases in soil erosion cause a dramatic influx of minerals and nutrients into waterways. Now you might be thinking this is a good thing. Pedialyte for the plants to grow big and strong, right? While some nutrients in this runoff promote plant growth, the issue lies in volumes being emptied into the water.\n\nEutrophication\nPlants and other photosynthesizing organisms are limited by certain chemicals, namely nitrogen and phosphorus. Accelerated runoff introduces these chemicals at an unnatural rate. Once this happens, a process known as eutrophication is sure to follow.\nThe immediate release of nutrients in runoff allows plants and algae to grow prolifically. Large sheets of algae then cover the entire surface of the water. Since this prevents the sun’s rays from penetrating the surface, most submergent plants cannot photosynthesize. Over time, the plants produce less and less oxygen. This leads to a poor supply of dissolved oxygen available for aquatic invertebrates and fish.\n\n\nIncreased Turbidity\nEven when eutrophication does not occur, the rapidly eroding soil makes the water more turbid (cloudy). This increase in suspended particles blocks the sun’s rays from getting to aquatic plants under the water. The same negative result as before."
+  },
+  {
+    "objectID": "posts/post-eleven.html#common-solutions",
+    "href": "posts/post-eleven.html#common-solutions",
+    "title": "Can You Naturally Protect Shores From Erosion?",
+    "section": "Common Solutions",
+    "text": "Common Solutions\nSpend any amount of time on a developed lake, and you will get an idea of how many waterfront property owners choose to protect their shorelines. Rip-rap and seawalls.\nThese two methods are often promoted heavily by contractors as the only available option to protect your shoreline. Both of these approaches do have some applicability in some situations. However, it would be in your and your ecosystem’s best interest to consider these options only as a last resort.\n\nRip-Rap\nRiprap is a technique that uses loose angular rock to stabilize slopes and protect shorelines from wave action. Rip-rap removes and prevents most plant life at the initial 10 to 20 feet of your shoreline. This functionally eliminates all the quality habitats for fish, wildlife, and invertebrates in this range.\n\n\nSeawalls\nSeawalls are large barriers, typically constructed of concrete, positioned between the shore and the water to block waves from contacting the coast. Seawalls likewise remove essential habitats but have additional impacts.\nIn many cases, seawalls actually increase the amount of erosion. When waves hit the wall, they are generally reflected laterally and downward. This movement causes the scouring of sediment in front of the seawall and also pushes water towards surrounding properties. Essentially, seawalls only protect the shoreline immediately behind them. Which is not a viable solution when thinking about shorelines along an entire water system."
+  },
+  {
+    "objectID": "posts/post-eleven.html#natural-solutions",
+    "href": "posts/post-eleven.html#natural-solutions",
+    "title": "Can You Naturally Protect Shores From Erosion?",
+    "section": "Natural Solutions",
+    "text": "Natural Solutions\nIf we want to preserve the biological integrity and health of our aquatic systems, we need to re-think how we build along our shorelines. The best way to begin is to picture how an undeveloped shoreline would look…\nPlants sprawled from the water’s edge to above the high water mark on the shore. The uneven structure of vegetation and fallen branches almost make it appear messy. Damselflies, turtles, and frogs abound. Fish darting from shady log to shady log. — That’s the goal.\nSo you might be wondering, can I mimic a natural shoreline while maintaining a good aesthetic? Yes, you definitely can! Let us discuss the solutions of how to protect your shoreline naturally.\n\nSolution #1: Use Native Plants to Improve Shoreline Integrity\nUsing native plants to act as a buffer between land and water is an excellent method to help reduce erosional forces and pollution. The key to making these plants effective is placing them in suitable areas and arrangements.\nTake some time to research how each species grows and how deep its roots typically go. Look for plants that will establish while fully saturated and some that will do well along the bank. Like other native plantings, shoreline plants will generally take 1-5 years to fully mature and form a stable root arrangement.\n\n\nSolution #2: Install Coir Logs to Encourage Plant Establishment\nCoir, a biodegradable fiber made from the outer husks of coconuts, makes an excellent material to use near and in water. Placing natural coir logs along your shoreline protects the sediment from wave action. Coir logs are strong enough to stand up against years of wave action and the occasional storm if installed correctly. There is no risk of potential chemical contamination, and the fiber will break down after just 2 to 5 years.\n\n\nSolution #3: Place Erosion Control Fabric to Stabilize Bank\nErosion control fabric is a type of geotextile material that is used to stabilize soil and prevent erosion on slopes and banks. These sheets of fabric are made of natural materials, such as coconut fiber or jute, and are designed to hold the soil in place while allowing water to pass through.\nErosion control fabric comes into play when dealing with any slope of the bank. This is usually slopes of at least 3:1 (3 feet of horizontal distance for every 1 foot of vertical drop). You should also consider the type of soil and vegetation that are present at the site, as well as the climate and weather conditions.\nTo install erosion control fabric, you will need to clear any taller vegetation or debris from the site and lay the fabric over the slope. The fabric should be secured to the ground using stakes or grass plugs, which will help to anchor it in place. You can then plant grass or other vegetation on top of the fabric to help hold it in place and provide additional structure to the soil.\nErosion control fabric is a simple and effective solution for stabilizing banks and preventing erosion. It is durable and long-lasting, and can help to protect your property from the damaging effects of water and wind erosion.\n\n\nSolution #4: Slow Down Water Flow Using Rain Gardens\nRain gardens are designed to mimic the natural hydrology of a site and can be an effective tool for slowing down the flow of water and reducing soil erosion. They work by collecting and temporarily storing excess rainwater, allowing it to infiltrate into the soil rather than running off the surface. Rain gardens can be used to manage runoff from a variety of sources, including roofs, driveways, and sidewalks.\nTo create a rain garden, you will need to select a site that is located in a low-lying area of your yard and has good drainage. The garden should be at least 10 feet away from the foundation of your home and any other structures. The size and shape of the garden will depend on the amount of runoff that you are trying to manage and the slope of the site. You should also choose plants that are well-suited to your region and don’t mind having their roots intermittently wet.\nRain gardens can provide a number of benefits in addition to slowing down water flow and reducing soil erosion. They can also help to improve water quality by filtering pollutants from runoff, provide habitat for wildlife, and add beauty to your yard. Overall, rain gardens can be an effective and sustainable solution for managing water runoff and protecting your yard from erosion."
+  },
+  {
+    "objectID": "posts/post-eleven.html#final-thoughts",
+    "href": "posts/post-eleven.html#final-thoughts",
+    "title": "Can You Naturally Protect Shores From Erosion?",
+    "section": "Final Thoughts",
+    "text": "Final Thoughts\nThe techniques I mentioned above are best when used in concert with one another. Together they form a healthy and resilient shoreline that looks beautiful. If you have some waterfront property, please consider using some of these methods to protect your shore.\nIn some locations, there might also be cost-share programs through local soil and water conservation entities you can take advantage of.\nUntil next time, Ben\nNote: This post was originally written for The Conservation Companion, but is now archived here."
+  },
+  {
+    "objectID": "posts/post-four.html",
+    "href": "posts/post-four.html",
+    "title": "Using R to Create an Interactive Heatmap of GBIF Occurrences",
+    "section": "",
+    "text": "Article Takeaways\n\n\n\n\nQuerying species occurrence data from the GBIF API using rgbif within RStudio.\nUsing the leaflet package to make interactive maps, including heatmaps.\nCleaning data using basic tidyverse verbs."
+  },
+  {
+    "objectID": "posts/post-four.html#background",
+    "href": "posts/post-four.html#background",
+    "title": "Using R to Create an Interactive Heatmap of GBIF Occurrences",
+    "section": "Background",
+    "text": "Background\nLet’s first run through the species of focus and the data sources for this post.\n\nFocal Species\nThe Greater sage grouse (Centrocercus urophasianus) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka/USFWS\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\nData Sources\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
+  },
+  {
+    "objectID": "posts/post-four.html#workflow",
+    "href": "posts/post-four.html#workflow",
+    "title": "Using R to Create an Interactive Heatmap of GBIF Occurrences",
+    "section": "Workflow",
+    "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\n1# install.packages(\"rgbif\")\nlibrary(rgbif)\n2# install.packages(\"leaflet\")\nlibrary(leaflet)\n3# install.packages(\"leaflet.extras\")\nlibrary(leaflet.extras)\n\n1\n\nFor accessing GBIF data. Install if necessary.\n\n2\n\nFor mapping data interactively. Install if necessary.\n\n3\n\nFor the heatmap functionality. Install if necessary.\n\n\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States. Using the taxonomic name for the species, we can double check the metadata before moving forward.\n1grouse_info &lt;- name_backbone(\"Centrocercus urophasianus\")\n2grouse_info\n\n1\n\nThis function allows us to see the taxonomic information for our focal species.\n\n2\n\nThis prints that information to the console.\n\n\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords &lt;- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nleaflet(wyoming_coords) %&gt;% \n  addTiles() %&gt;%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
+  },
+  {
+    "objectID": "posts/post-nine.html",
+    "href": "posts/post-nine.html",
+    "title": "How Scientists Use GIS to Study Wildlife",
+    "section": "",
+    "text": "Advancements in geospatial technologies are revolutionizing the field of wildlife research and conservation, providing new and innovative ways to collect and analyze data. Among these technologies, Geographic Information Systems (GIS) have emerged as a powerful tool for understanding the spatial relationships between wildlife, their habitat, and the environment in which they live. By combining maps and other location-based tools, GIS can help conservationists and biologists make informed decisions and take targeted actions to preserve biodiversity and protect threatened species.\n\n\nGeographic Information Systems (GIS) is a technology that enables the collection, management, analysis, and visualization of spatial data. Essentially, it’s a computer-based tool that allows users to create and work with maps and other location-based data. It can range from desktop GIS software used to design maps to GPS-enabled mobile devices that collect location information of physical objects in the field.\n\n\n\nSometimes it can be helpful to discuss GIS in the terms of its discrete elements, which all work together to form the system. These components include hardware, software, data, and people.\n\nThe hardware component of GIS typically includes GPS receivers and other mobile devices that can be used to collect spatial data in the field. For example, biologists might use GPS-equipped collars to track the movements of individual animals, or drones to map remote and inaccessible terrain.\nThe software component of GIS encompasses a variety of tools for processing and analyzing spatial data. Some of the most popular GIS software programs include ArcGIS, QGIS, and Google Earth. These programs allow users to create maps, perform spatial analysis, and visualize data in a variety of ways. They can also integrate data from a range of sources, including satellite imagery, aerial photography, and field surveys.\nThe data component of GIS includes a vast array of information, from digital maps and satellite imagery to climate data and biological inventories. To be useful, this data must be organized, standardized, and stored in a way that can be easily accessed and analyzed by GIS software.\nFinally, the people component of GIS includes the scientists, technicians, and other professionals who use the technology to collect, manage, and interpret spatial data. These people have the expertise to collect, organize, and present spatial data accurately and in accordance with project goals.\n\nWith the right combination of hardware, software, data, and expertise, GIS can be an incredibly powerful tool for advancing our understanding of the natural world and developing effective conservation strategies.\n\n\n\nGIS has numerous applications, from helping urban planners optimize city layouts to assisting epidemiologists in tracking disease outbreaks. With its adaptive and always-evolving set of tools, GIS is beneficial to an unlimited number of occupations, including these:\n\nBusiness Analysis\nLandscape and Civil Engineering\nWatershed Management\nLand Surveying\nEmergency Management\n\nIn the context of wildlife research and conservation, GIS is a powerful tool that allows scientists to gain insights into the spatial relationships between different ecological variables, such as habitat types, climate patterns, and animal movements."
+  },
+  {
+    "objectID": "posts/post-nine.html#the-spatial-revolution-is-happening-now",
+    "href": "posts/post-nine.html#the-spatial-revolution-is-happening-now",
+    "title": "How Scientists Use GIS to Study Wildlife",
+    "section": "",
+    "text": "Advancements in geospatial technologies are revolutionizing the field of wildlife research and conservation, providing new and innovative ways to collect and analyze data. Among these technologies, Geographic Information Systems (GIS) have emerged as a powerful tool for understanding the spatial relationships between wildlife, their habitat, and the environment in which they live. By combining maps and other location-based tools, GIS can help conservationists and biologists make informed decisions and take targeted actions to preserve biodiversity and protect threatened species.\n\n\nGeographic Information Systems (GIS) is a technology that enables the collection, management, analysis, and visualization of spatial data. Essentially, it’s a computer-based tool that allows users to create and work with maps and other location-based data. It can range from desktop GIS software used to design maps to GPS-enabled mobile devices that collect location information of physical objects in the field.\n\n\n\nSometimes it can be helpful to discuss GIS in the terms of its discrete elements, which all work together to form the system. These components include hardware, software, data, and people.\n\nThe hardware component of GIS typically includes GPS receivers and other mobile devices that can be used to collect spatial data in the field. For example, biologists might use GPS-equipped collars to track the movements of individual animals, or drones to map remote and inaccessible terrain.\nThe software component of GIS encompasses a variety of tools for processing and analyzing spatial data. Some of the most popular GIS software programs include ArcGIS, QGIS, and Google Earth. These programs allow users to create maps, perform spatial analysis, and visualize data in a variety of ways. They can also integrate data from a range of sources, including satellite imagery, aerial photography, and field surveys.\nThe data component of GIS includes a vast array of information, from digital maps and satellite imagery to climate data and biological inventories. To be useful, this data must be organized, standardized, and stored in a way that can be easily accessed and analyzed by GIS software.\nFinally, the people component of GIS includes the scientists, technicians, and other professionals who use the technology to collect, manage, and interpret spatial data. These people have the expertise to collect, organize, and present spatial data accurately and in accordance with project goals.\n\nWith the right combination of hardware, software, data, and expertise, GIS can be an incredibly powerful tool for advancing our understanding of the natural world and developing effective conservation strategies.\n\n\n\nGIS has numerous applications, from helping urban planners optimize city layouts to assisting epidemiologists in tracking disease outbreaks. With its adaptive and always-evolving set of tools, GIS is beneficial to an unlimited number of occupations, including these:\n\nBusiness Analysis\nLandscape and Civil Engineering\nWatershed Management\nLand Surveying\nEmergency Management\n\nIn the context of wildlife research and conservation, GIS is a powerful tool that allows scientists to gain insights into the spatial relationships between different ecological variables, such as habitat types, climate patterns, and animal movements."
+  },
+  {
+    "objectID": "posts/post-nine.html#providing-solutions-to-study-wildlife",
+    "href": "posts/post-nine.html#providing-solutions-to-study-wildlife",
+    "title": "How Scientists Use GIS to Study Wildlife",
+    "section": "Providing Solutions to Study Wildlife",
+    "text": "Providing Solutions to Study Wildlife\nGeographic information systems (GIS) have revolutionized wildlife research by providing tools to manage, analyze, and visualize spatial data. Here are four ways wildlife researchers use GIS to study wildlife and their habitats:\n\n#1 - Surveying wildlife\nOne of the main aims of biologists that need to manage wildlife populations is getting an estimate of density (i.e., animals per unit area), sex ratio (i.e., number of females vs. number of males), and age structure (i.e., the distribution of age classes within a population).\n\nPopulation metrics like these and many others are often the result of data collected during field surveys, where biologists count the number of individuals they see or hear along a specified survey route (in most cases). GIS technologies, like those discussed in the below video, are used by biologists to navigate and collect data during surveys.\n\n\n#2 - Habitat analysis\nGIS can be used to map and analyze wildlife habitat by collecting data on environmental variables that have been supported by studies to impact the use of that area by wildlife. These metrics could include habitat elements like vegetation type, topographic features, water availability, and other factors that influence habitat quality. This information helps researchers understand the spatial distribution of wildlife species and identify areas that may be important for conservation.\nThe mapping capabilities of GIS allow researchers to understand the impact of humans on wildlife, especially when it comes to the fragmentation and reduction of habitat. By mapping and analyzing the size, shape, and connectivity of different habitat patches, they can identify areas where habitat fragmentation is a problem and develop strategies to address it.\n\n\n#3 - Movement patterns\nWhen it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.\n\n\n\nA researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.\n\n\nBiologists use GIS to create models of animal movement, which can help them understand how animals use different habitats and how they move across the landscape. These models combine data on animal behavior, habitat characteristics, and environmental variables. This can be used to identify areas where animals are most likely to be found, as well as areas where targeted conservation efforts would be fruitful.\n\n\n#4 - Disease mapping\nWildlife disease ecologists use GIS to track the spread of diseases within and among wildlife populations. Spatial analysis tools are used within a GIS to identify disease hotspots, clustering, and spatial trends. By mapping disease outbreaks and analyzing the spatial patterns of infections, researchers can identify areas that may be at high risk and develop targeted interventions to prevent the spread of disease.\nGIS can also be used to model the spread of diseases in wildlife populations. By simulating the movement of animals across the landscape and the transmission of the disease, researchers can predict the likelihood and spread of disease outbreaks. This allows wildlife managers to control the spread of certain diseases by targeting certain high-risk areas."
+  },
+  {
+    "objectID": "posts/post-nine.html#final-thoughts",
+    "href": "posts/post-nine.html#final-thoughts",
+    "title": "How Scientists Use GIS to Study Wildlife",
+    "section": "Final Thoughts",
+    "text": "Final Thoughts\nOverall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here."
+  },
+  {
+    "objectID": "posts/post-ten.html",
+    "href": "posts/post-ten.html",
+    "title": "How to Become a Contemporary Naturalist",
+    "section": "",
+    "text": "Everyone has an inherent connection to nature. You might not recognize it without intentionally looking for it, but it is there. While some venture into a science career and dedicate much of their time to seeking a better understanding of the natural world, not everyone needs to do so. Furthering your appreciation and understanding for the environment can be simple, fun, and worthwhile.\n\n\nContemporary naturalists are individuals who are interested in exploring and studying the natural world around them. The focus could be any aspect of nature, such as plants, animals, or general environmental awareness. Whether you are a scientist, a hobbyist, or simply someone who loves being outside, there are many ways you can become a contemporary naturalist.\n\n\n\nIt is easier than ever to get involved in conservation today. International travel is not required to make an impact worldwide. There is also plenty to be done right in your community. You don’t need a fancy college degree to discuss ecological topics. Nor do you need to be independently wealthy, as much can be done for free, at very little cost, or for just a snippet of your time."
+  },
+  {
+    "objectID": "posts/post-ten.html#naturalists-of-today",
+    "href": "posts/post-ten.html#naturalists-of-today",
+    "title": "How to Become a Contemporary Naturalist",
+    "section": "",
+    "text": "Everyone has an inherent connection to nature. You might not recognize it without intentionally looking for it, but it is there. While some venture into a science career and dedicate much of their time to seeking a better understanding of the natural world, not everyone needs to do so. Furthering your appreciation and understanding for the environment can be simple, fun, and worthwhile.\n\n\nContemporary naturalists are individuals who are interested in exploring and studying the natural world around them. The focus could be any aspect of nature, such as plants, animals, or general environmental awareness. Whether you are a scientist, a hobbyist, or simply someone who loves being outside, there are many ways you can become a contemporary naturalist.\n\n\n\nIt is easier than ever to get involved in conservation today. International travel is not required to make an impact worldwide. There is also plenty to be done right in your community. You don’t need a fancy college degree to discuss ecological topics. Nor do you need to be independently wealthy, as much can be done for free, at very little cost, or for just a snippet of your time."
+  },
+  {
+    "objectID": "posts/post-ten.html#getting-started",
+    "href": "posts/post-ten.html#getting-started",
+    "title": "How to Become a Contemporary Naturalist",
+    "section": "Getting Started",
+    "text": "Getting Started\nWith a bit of guidance, you can continue your path to becoming a contemporary naturalist. The following action items will help you along this journey as you learn about and connect more with nature.\n\nLearn common bird calls around your neighborhood.\nMany birds enjoy making their presence known through song. This allows us to identify individuals down to the species without laying eyes on them. Common birds, like the American robin (Turdus migratorius), can usually be heard readily in most yards. Why not just learn how to identify them by sight? Well, that’s certainly something to work on too, but oftentimes you will only be able to hear the birds and not see them. This is especially true for birds that spend most of their time in the tree canopy.\n\n\n\nAlong with a keen ear, a good set of binoculars are an excellent compliment when birding.\n\n\nThere are countless ways to begin learning the different sounds and songs of these species. One of my favorite ways is by playing games on Larkwire, an app for mastering bird sounds and visual identification. There is a whole set of common bird songs you can access for free, while more advanced ones can be purchased as add-ons inside the app. The popular eBird mobile app can also help you identify birds by simply recording their songs. The app will automatically search the eBird sound database and return suggested IDs. I am also a huge fan of surfing YouTube to find videos on bird identification.\n\n\nDiscover and explore your watershed.\nEvery location on land, including where you live and work, is part of a watershed. These large swaths of land funnel a large portion of available water to an outlet, such as a stream or bay. One way I think of it is that every drop of water is just trying to get back to the ocean. Take some time to identify the boundaries of your watershed (this USGS tool can help you with that). Remember, a single property might even be within multiple watersheds.\nExploring your watershed both on the ground and via maps can give you a complete view. Think about what goes on throughout this area and whether you would like to be downstream of it. As you can imagine, local influences have a collective effect along this pathway, whether positive or negative. This snowballing potential is the exact reason why land managers need to think on a landscape scale. It also highlights the importance of entire community conservation efforts.\n\n\nUse mobile apps to explore nature around you.\nWhether you are ordering pizza or trying to identify an unknown plant, there is an app out there for you. Most popular apps are available on both iOS and Android, so accessing them should not be much trouble. Some even have the ability to download content for offline use, so you can still use the app while away from cell service.\n\n\n\nMany apps provide ways of capturing data offline, then uploading once connected again.\n\n\nThe following apps are some of my favorites when it comes to recording nature observations and getting help with an ID.\n\niNaturalist — a social network for sharing biodiversity information with other naturalists in your region and conservation scientists around the world. iNaturalist can help you identify unknown plants and animals through AI image recognition and a community of contributors.\nMerlin Bird ID — helps you identify birds you see and hear by referencing data on eBird, the world’s largest database of bird sightings, sounds, and photos. Merlin Bird ID can use deep learning to provide ID suggestions based on photos and sound recordings.\neBird Mobile — allows you to record your bird observations while in the field and link those records to their worldwide database for you and scientists to reference. eBird Mobile allows you to build checklists based on your location and includes scientific and common names for birds around the world.\nNature’s Notebook — a program for observing and recording plant and animal life cycle events, like flowering and bird migration. Nature’s Notebook connects your observations to the databases of the USA National Phenology Network.\n\n\n\nCollect and identify local plants electronically.\nThe wealth of plant diversity is mind-blowing when you first set off. It can be hard to imagine how anyone might begin exploring this world of wonderment. While some choose to dive straight into the plant taxonomy literature, that might lead to jargon overload and eventual dismissal. I usually suggest that folks start with a general survey of the plants around them.\nTake a walk through your property or local natural area and stop if you see a plant you are not familiar with. Examine how the specimen is positioned in its surroundings and what the conditions are where it is growing. If local laws and regulations allow you to do so, consider collecting this plant so you can examine it once you are out of the field. In some situations, it might be preferable to collect the plant digitally via your cell phone. Consider using an app like iNaturalist to submit a new record, or simply take several photos of the plant to reference later on.\nNote: Many natural areas, state parks, and other designations have specific laws preventing the collection of plant material without the proper permit, so be sure to check with local authorities before heading into the field.\n\n\nRead nature books and ecology articles.\nThere are lots of high-quality ecology books out there. Some writings can be technical, while others are on the light reading side. I try to include a good mixture of both throughout my reading selection. If you are just beginning your naturalist journey, consider reading introductory texts or flipping through a descriptive field guide.\nRemember that building with all the books in it? You should really take advantage of your local library resources! I did a quick search on the website of my library for ecology and it returned over fifty books on the subject. Librarians are also some of the best people in the world and can often point you in the right direction.\nThere are also thousands of free online books on conservation, ecology, and many other topics. Most of these are publications put out by research groups or universities across the country. A simple web search of “topic + filetype:pdf” will usually provide you with some nice options to peruse.\n\n\nVolunteer for a local nonprofit conservation group.\nEnjoy doing great work for nature? Great to hear! Local conservation groups need dedicated people like you to achieve their missions. Land trusts, natural study societies, conservation organizations, and many other groups rely on support from local citizens to keep their entities running.\nIt’s not all pulling weeds and applying herbicide either. Fundraising, clerical work, social media content creation, website maintenance, education, and bookkeeping are the common tasks needed by many organizations.\n\n\nTake a master naturalist class.\nCommunity education classes, like the Master Naturalist program, are a perfect way to gain exposure to different science topics. These programs typically operate out of University extension offices in cooperation with other organizations and focus on conservation education.\nCommunity education classes are both an excellent way to learn about nature and meet like-minded conservationists in your neighborhood. Participants learn about the ecology of their local environment and the importance of protecting biodiversity. They also get the opportunity to develop a deeper understanding of the natural world, through hands-on field trips and activities.\n\n\nLook through threatened and endangered species lists.\nMost states and regions have a designated list of threatened and endangered (T&E) resources. Most can be found online through your state’s natural resources agency. These lists are not something a species wants to be on. Inclusion typically means that local levels for that species or subspecies are way lower than they should be to maintain a healthy population.\nLearning about T&E species in your area can be pretty eye-opening. Even we biologists need to brief ourselves occasionally on new species of concern. Find a listed species you do not know much about, then research the known life history and reason(s) for listing. More often than not, the two are linked. Look into the primary threats and how to mitigate them."
+  },
+  {
+    "objectID": "posts/post-ten.html#final-thoughts",
+    "href": "posts/post-ten.html#final-thoughts",
+    "title": "How to Become a Contemporary Naturalist",
+    "section": "Final Thoughts",
+    "text": "Final Thoughts\nWhile this is neither a required list nor a comprehensive one, I hope you are able to try some of these activities and begin to share them with family and friends. I happily welcome comments from readers with more suggestions.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here."
+  },
+  {
+    "objectID": "posts/post-three.html",
+    "href": "posts/post-three.html",
+    "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
+    "section": "",
+    "text": "Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.\n\n\n\nGlobal Forest Watch (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world’s forests."
+  },
+  {
+    "objectID": "posts/post-three.html#background",
+    "href": "posts/post-three.html#background",
+    "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
+    "section": "",
+    "text": "Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.\n\n\n\nGlobal Forest Watch (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world’s forests."
+  },
+  {
+    "objectID": "posts/post-three.html#workflow",
+    "href": "posts/post-three.html#workflow",
+    "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
+    "section": "Workflow",
+    "text": "Workflow\n\n1. Get IFL Data\nVisit the Global Forest Watch website (https://www.globalforestwatch.org/). Navigate to the “Data” section and select “Intact Forest Landscapes.” Download the IFL dataset in the desired format (e.g., shapefile, geopackage).\n\n\n2. Load Packages.\nTo follow along with this tutorial, you will need to have R and the following packages installed: sf, tmap, and dplyr. You can install these packages using the install.packages() function in R.\nlibrary(sf)\nlibrary(dplyr)\n\n\n3. Load Data in R\nLet’s assume you have downloaded the IFL data in shapefile format and saved it as “ifl.shp” in your working directory. We will now load and prepare the data for visualization.\n# Read the IFL shapefile\nifl &lt;- st_read(\"ifl.shp\")\n\n# Examine the data structure\nhead(ifl)\nsummary(ifl)\n\n\n4. Visualize Data\nWe will use the tmap package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.\n# Load the tmap package\nlibrary(tmap)\n\n# Create a basic map of the IFL polygons\ntm_shape(ifl) +\n  tm_polygons()\n\n\n5. Customize Map\nWe can modify the map’s appearance by changing colors, adding a background, adjusting labels, and more.\n# Create a more visually appealing map with customization\ntm_shape(ifl) +\n  tm_fill(col = \"green\", alpha = 0.6) +  # Set polygon color and transparency\n  tm_borders(col = \"black\") +  # Add border color\n  tm_layout(legend.position = c(\"left\", \"bottom\"),  # Adjust legend position\n            legend.bg.color = \"white\",  # Set legend background color\n            title = \"Intact Forest Landscapes\")  # Add map title"
+  },
+  {
+    "objectID": "posts/post-two.html",
+    "href": "posts/post-two.html",
+    "title": "Streamlining Your Reporting Workflow with Quarto",
+    "section": "",
+    "text": "Article Learning Outcomes\n\n\n\n\nLearn how to use Quarto documents within the RStudio environment.\nLearn how to load in TidyTuesday data using a dedicated R package.\nLearn how to make basic visualizations and maps.\nIn today’s data-driven world, reporting and communicating data insights play a vital role in decision-making processes. However, manual updates and formatting can be time-consuming and error-prone. In this blog post, we will explore how to streamline your reporting workflow by leveraging reproducible formats. We will demonstrate this using Quarto in the RStudio environment, taking a practical example of parameterizing reports using birdfeeder visitation data from FeederWatch. By adopting reproducible practices, you can save time, increase efficiency, and ensure the accuracy of your reports."
+  },
+  {
+    "objectID": "posts/post-two.html#background",
+    "href": "posts/post-two.html#background",
+    "title": "Streamlining Your Reporting Workflow with Quarto",
+    "section": "Background",
+    "text": "Background\n\nWhat is Quarto?\nQuarto is an open-source document framework built for reproducibility. It integrates seamlessly with RStudio, allowing you to combine code, text, and visualizations in a single document. With Quarto, you can automate the process of report generation, making it easier to update and reproduce documents as your data or analysis changes.\n\n\nData Sources"
+  },
+  {
+    "objectID": "posts/post-two.html#workflow",
+    "href": "posts/post-two.html#workflow",
+    "title": "Streamlining Your Reporting Workflow with Quarto",
+    "section": "Workflow",
+    "text": "Workflow\nTo demonstrate how Quarto can streamline your reporting workflow, let’s work with birdfeeder visitation data from FeederWatch. We will parameterize our reports to automatically update based on different filters or date ranges.\nHere’s the R code to get started:\n# Step 1: Install and load necessary packages\ninstall.packages(\"quarto\")\nlibrary(quarto)\n\n# Step 2: Load birdfeeder visitation data\ndata &lt;- read.csv(\"birdfeeder_data.csv\")\n\n# Step 3: Parameterize your report\nreport_title &lt;- \"Birdfeeder Visitation Report\"\ndate_range &lt;- c(\"2023-01-01\", \"2023-06-30\")\n\n# Step 4: Create a Quarto document\nquarto_document(\"birdfeeder_report.Rmd\",\n  title = report_title,\n  params = list(date_range = date_range),\n  output = \"birdfeeder_report.html\"\n) %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"library(ggplot2)\") %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"filtered_data &lt;- subset(data, Date &gt;= date_range[1] & Date &lt;= date_range[2])\") %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"ggplot(filtered_data, aes(x = Date, y = Visits)) + geom_line()\") %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"ggsave('birdfeeder_plot.png')\")\nIn the code above, we start by installing and loading the quarto package. Then, we load the birdfeeder visitation data from a CSV file. Next, we define the parameters for our report, such as the report title and the desired date range for filtering the data.\nWe create a Quarto document using the quarto_document() function, specifying the input R Markdown file, report title, parameter list, and desired output format (in this case, HTML). We then use the quarto_chunk() and quarto_code() functions to add code chunks to our document.\nThe code chunks contain R code for filtering the data based on the specified date range and creating a line plot using ggplot2. Finally, we save the generated plot as a PNG file using ggsave()."
+  },
+  {
+    "objectID": "posts/post-two.html#in-conclusion",
+    "href": "posts/post-two.html#in-conclusion",
+    "title": "Streamlining Your Reporting Workflow with Quarto",
+    "section": "In Conclusion",
+    "text": "In Conclusion\nBy leveraging Quarto and its capabilities for reproducible reporting, you can transform your reporting workflow from manual and error-prone to automated and efficient. Parameterizing reports allows you to easily update and regenerate them based on changing data or analysis requirements.\nReproducible documents not only save time but also enhance collaboration and ensure the accuracy and integrity of your reports. Give Quarto a try in the RStudio environment and experience the power of streamlining your reporting workflow.\nStart producing reproducible documents today and say goodbye to the hassles of manual report updates!\nHappy reporting with Quarto!"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog Posts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto\n\n\nManually updating reports is old news, start producing reproducible documents.\n\n\n\nBenjamin Tjepkes\n\n\nMay 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\nBenjamin Tjepkes\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\nBenjamin Tjepkes\n\n\nMar 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\nBenjamin Tjepkes\n\n\nOct 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCan You Naturally Protect Shores From Erosion?\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\nBenjamin Tjepkes\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/research-five.html",
+    "href": "research/research-five.html",
+    "title": "Beaver-Impacted Water Control Structures",
+    "section": "",
+    "text": "Tjepkes, B.W. 2017. Assessing the need for flow devices on beaver impacted flowages. Unpublished report."
+  },
+  {
+    "objectID": "research/research-five.html#project-reports",
+    "href": "research/research-five.html#project-reports",
+    "title": "Beaver-Impacted Water Control Structures",
+    "section": "",
+    "text": "Tjepkes, B.W. 2017. Assessing the need for flow devices on beaver impacted flowages. Unpublished report."
+  },
+  {
+    "objectID": "research/research-one.html",
+    "href": "research/research-one.html",
+    "title": "Bald Eagle Nest-Site Selection",
+    "section": "",
+    "text": "Tjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, B.J. Stemper, and S.L. Winter. 2019. Bald eagle nest-site selection along the Upper Mississippi River, 1990-2012. [Poster] UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2019. Bald eagle nest monitoring on the upper Mississippi River, 1990-2012. [Talk] Mississippi River Research Consortium, La Crosse, WI."
+  },
+  {
+    "objectID": "research/research-one.html#project-presentations",
+    "href": "research/research-one.html#project-presentations",
+    "title": "Bald Eagle Nest-Site Selection",
+    "section": "",
+    "text": "Tjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, B.J. Stemper, and S.L. Winter. 2019. Bald eagle nest-site selection along the Upper Mississippi River, 1990-2012. [Poster] UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2019. Bald eagle nest monitoring on the upper Mississippi River, 1990-2012. [Talk] Mississippi River Research Consortium, La Crosse, WI."
+  },
+  {
+    "objectID": "research/research-one.html#project-reports-datasets",
+    "href": "research/research-one.html#project-reports-datasets",
+    "title": "Bald Eagle Nest-Site Selection",
+    "section": "Project Reports & Datasets",
+    "text": "Project Reports & Datasets\nFetherston, S.C., B.W. Tjepkes, S.E. Hygnstrom, and S.L. Winter. 2020. Final Report: Bald Eagle Nest Monitoring on the Upper Mississippi River, 1990–2012. USFWS Technical Report.\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2020. Bald Eagle Nest Monitoring on the Upper Mississippi River, 1990-2012. USFWS Geospatial Dataset."
+  },
+  {
+    "objectID": "research/research-three.html",
+    "href": "research/research-three.html",
+    "title": "Raccoon Space-Use and Home Ranges",
+    "section": "",
+    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+  },
+  {
+    "objectID": "research/research-three.html#project-presentations",
+    "href": "research/research-three.html#project-presentations",
+    "title": "Raccoon Space-Use and Home Ranges",
+    "section": "",
+    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "My Research",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest-Site Selection\n\n\nAssessing bald eagle nests along the Upper Mississippi River, 1990-2012.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nAssessing the need for flow devices on wetlands in NE Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nDetermining sex-specific space-use for raccoons in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nAn assessment of ruffed grouse reproductive habitat in Northern Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nAn assessment of small mammals in Schmeekle Reserve, Wisconsin.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions."
+  },
+  {
+    "objectID": "resources.html#resource-database",
+    "href": "resources.html#resource-database",
+    "title": "Resources",
+    "section": "",
+    "text": "Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions."
   }
 ]
