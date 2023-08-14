@@ -26,6 +26,7 @@ listing:
       - "post-nine.qmd"
       - "post-ten.qmd"
       - "post-eleven.qmd"
+      - "post-two.qmd"
     type: grid
     filter-ui: false
     sort-ui: false
@@ -53,9 +54,11 @@ Experienced in ecology, delving into geography, and actively practicing geospati
 :::
 :::
 
-::: {.index-section-heading}
-## Updates {.index-h2}
+#### Latest updates. {.index-h4}
 
+::: {.index-section-heading}
+
+## Annoucements {.index-h2}
 
 ::: {.index-h2-line}
 :::
@@ -66,22 +69,24 @@ Experienced in ecology, delving into geography, and actively practicing geospati
 
 :::
 
-#### My latest annoucements. {.index-h4}
-
 :::{.index-list}
 I recently started my **Masters Degree** within the [Geography Department](https://geography.missouri.edu/) at the University of Missouri. I am in the process of developing my thesis project, so stay tuned for more. Please [reach out](contact.qmd) if you have any inquires or would like to collaborate on any ecological or geospatial projects.
 
 My next conference will be the **Posit Conference** in September 2023, where I will be attending virtually. More info on [posit::conf(2023)](https://posit.co/conference/).
 
 
+My map, **Stamped in History: 50 Years of Imperiled Species Conservation**, recently won 2nd place in the [2023 GISCI Map Contest](https://www.gisci.org/News/Issues-News-Policy/gisci-announces-2023-map-contest-winners).
 
 :::
+
+
+
 
 ::: {.about}
 
 ::: {.consultant-info}
 
-
+#### Dedicated scientist. {.index-h4}
 ::: {.index-section-heading}
 ## Biography {.index-h2}
 
@@ -95,7 +100,7 @@ My next conference will be the **Posit Conference** in September 2023, where I w
 
 :::
 
-#### Dedicated to applied science. {.index-h4}
+
 
 :::{.index-list}
 
@@ -116,7 +121,7 @@ I am a **wildlife ecologist** and **geospatial practitioner** interested in adva
 
 ::: {.content-block}
 
-
+#### A life-long learner. {.index-h4}
 ::: {.index-section-heading}
 ## Proficiencies {.index-h2}
 
@@ -129,7 +134,7 @@ I am a **wildlife ecologist** and **geospatial practitioner** interested in adva
 
 :::
 
-#### Dedicated to lifelong learning. {.index-h4}
+
 
 :::{.index-list}
 
@@ -198,10 +203,54 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 :::
 
 
-::: {.bg-banner-3}
+
+
+
+
+::: {.bg-banner-2}
+
+#### Organized thoughts. {.index-h4}
 
 ::: {.index-section-heading}
-## Designs {.index-h2}
+## Ramblings {.index-h2}
+
+::: {.index-h2-line}
+:::
+
+::: {.index-h2-icon}
+{{< fa angles-left size=3x >}}
+:::
+
+
+:::
+
+
+
+
+:::{.index-list}
+
+My blog posts cover a vast range of information in the **ecological and geospatial sciences**. You can find everything from quick map breakdowns to full tutorials on data wrangling and visualization. View the entire archive of my posts [here](posts.qmd).
+
+:::
+
+::: {#site-listings-2}
+
+:::
+:::
+
+
+
+
+
+
+
+
+::: {.bg-banner-3}
+
+#### Technically creative. {.index-h4}
+
+::: {.index-section-heading}
+## Visualizations {.index-h2}
 
 ::: {.index-h2-line}
 :::
@@ -212,7 +261,7 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 :::
 
-#### Dedicated to technical creativity. {.index-h4}
+
 
 
 :::{.index-list}
@@ -252,31 +301,3 @@ description="Great Lakes Watershed Map"}
 
 :::
 
-::: {.bg-banner-2}
-
-::: {.index-section-heading}
-## Writings {.index-h2}
-
-::: {.index-h2-line}
-:::
-
-::: {.index-h2-icon}
-{{< fa angles-left size=3x >}}
-:::
-
-
-:::
-
-#### Dedicated to sharing information. {.index-h4}
-
-
-:::{.index-list}
-
-My blog posts cover a vast range of information in the **ecological and geospatial sciences**. You can find everything from quick map breakdowns to full tutorials on data wrangling and visualization. View the entire archive of my posts [here](posts.qmd).
-
-:::
-
-::: {#site-listings-2}
-
-:::
-:::
