@@ -59,6 +59,11 @@ Experienced in ecology, delving into geography, and actively practicing geospati
 
 ::: {.index-h2-line}
 :::
+
+::: {.index-h2-icon}
+{{< fa angles-left size=3x >}}
+:::
+
 :::
 
 #### My latest annoucements. {.index-h4}
@@ -83,6 +88,11 @@ My next conference will be the **Posit Conference** in September 2023, where I w
 
 ::: {.index-h2-line}
 :::
+
+::: {.index-h2-icon}
+{{< fa angles-left size=3x >}}
+:::
+
 :::
 
 #### Dedicated to applied science. {.index-h4}
@@ -112,6 +122,11 @@ I am a **wildlife ecologist** and **geospatial practitioner** interested in adva
 
 ::: {.index-h2-line}
 :::
+
+::: {.index-h2-icon}
+{{< fa angles-left size=3x >}}
+:::
+
 :::
 
 #### Dedicated to lifelong learning. {.index-h4}
@@ -190,6 +205,11 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 ::: {.index-h2-line}
 :::
+
+::: {.index-h2-icon}
+{{< fa angles-left size=3x >}}
+:::
+
 :::
 
 #### Dedicated to technical creativity. {.index-h4}
@@ -239,6 +259,12 @@ description="Great Lakes Watershed Map"}
 
 ::: {.index-h2-line}
 :::
+
+::: {.index-h2-icon}
+{{< fa angles-left size=3x >}}
+:::
+
+
 :::
 
 #### Dedicated to sharing information. {.index-h4}

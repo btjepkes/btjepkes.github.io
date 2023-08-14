@@ -505,7 +505,7 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
   gap: 60px;
   align-items: center;
   margin-top: -2em;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   padding-top: 4em;
   padding-bottom: 3em;
 }
@@ -988,7 +988,7 @@ div.quarto-post .metadata {
 .index-section-heading {
   display: flex;
   align-items: center;
-  gap: 1.2rem;
+  gap: 1.0rem;
   margin-top: 2em;
 }
 
@@ -1003,6 +1003,7 @@ div.quarto-post .metadata {
   margin-bottom: 1rem;
 }
 
+
 @media (max-width: 799px) { 
 .index-h2 h2 {
   font-size: 1.5rem;
@@ -1015,14 +1016,12 @@ div.quarto-post .metadata {
   background: #d3d3d3;
 }
 
-.findex-h2-line::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 50px; /* Adjust the width as needed */
-  background-color: #000; /* Adjust the color as needed */
+.index-h2-icon p {
+  margin-bottom: 0;
+}
+
+.index-h2-icon i {
+  color: teal !important;
 }
 
 .index-h2-line-alt {
@@ -1045,10 +1044,11 @@ div.quarto-post .metadata {
 
 
 .index-h4 h4 {
-  margin-top: 0;
+  margin-top: 0em;
   margin-bottom: 0.4em;
   color: #b21b2b;
   font-weight: 300;
+  text-align: left;
 }
 
 
