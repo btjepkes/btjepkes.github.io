@@ -912,6 +912,25 @@ div.quarto-post .metadata {
 
 // FOOTER
 
+
+@media (max-width: 767.98px) {
+#footer-tab .columns {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2em;
+}
+  
+  #footer-tab .column {
+  width: 100%;
+}
+}
+
+#footer-tab .columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 #footer-tab {
   position: relative;
   margin-top: 3em;

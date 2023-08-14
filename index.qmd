@@ -72,9 +72,9 @@ Experienced in ecology, delving into geography, and actively practicing geospati
 :::{.index-list}
 I recently started my **Masters Degree** within the [Geography Department](https://geography.missouri.edu/) at the University of Missouri. I am in the process of developing my thesis project, so stay tuned for more. Please [reach out](contact.qmd) if you have any inquires or would like to collaborate on any ecological or geospatial projects.
 
-I am excited to have registered for my next conference, the **Posit Conference** in September 2023, where I will be attending virtually. Looking forward to learning more about open source data science. More info on posit::conf(2023) [here](https://posit.co/conference/).
+I am excited to have registered for the **Posit 2023 Conference** in September, where I will be attending virtually. Looking forward to learning more about open source data science. More info on posit::conf(2023) [here](https://posit.co/conference/).
 
-One of my latest maps, **Stamped in History: 50 Years of Imperiled Species Conservation**, recently won 2nd place in the [2023 GISCI Map Contest](https://www.gisci.org/News/Issues-News-Policy/gisci-announces-2023-map-contest-winners) within the Professional category.
+One of my latest maps, **Stamped in History: 50 Years of Imperiled Species Conservation**, recently won 2nd place in the 2023 GIS Certification Institute (GISCI) [Map Contest](https://www.gisci.org/News/Issues-News-Policy/gisci-announces-2023-map-contest-winners) within the Professional category.
 
 :::
 

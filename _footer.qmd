@@ -7,12 +7,12 @@ title: ""
 :::: {.columns}
 
 
-::: {.column width="25%"}
+::: {.column}
 ![](img-nav-logo-11.svg){.nolightbox}
 :::
 
 
-::: {.column width="25%"}
+::: {.column}
 
 ### Quick Menu
 
@@ -27,7 +27,7 @@ title: ""
 :::
 
 
-::: {.column width="25%"}
+::: {.column}
 
 ### Trending Links
 
@@ -41,7 +41,7 @@ title: ""
 
 :::
 
-::: {.column width="25%"}
+::: {.column}
 
 ### Trending Links
 
