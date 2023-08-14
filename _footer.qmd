@@ -1,0 +1,59 @@
+---
+title: ""
+---
+
+:::{#footer-tab .column-page-inset}
+
+:::: {.columns}
+
+
+::: {.column width="25%"}
+![](img-nav-logo-11.svg){.nolightbox}
+:::
+
+
+::: {.column width="25%"}
+
+### Quick Menu
+
+[About Me](about.qmd)
+
+[Curriculum Vitae](cv.qmd)
+
+[About Me](about.qmd)
+
+[Curriculum Vitae](cv.qmd)
+
+:::
+
+
+::: {.column width="25%"}
+
+### Trending Links
+
+[About Me](about.qmd)
+
+[Curriculum Vitae](cv.qmd)
+
+[About Me](about.qmd)
+
+[Curriculum Vitae](cv.qmd)
+
+:::
+
+::: {.column width="25%"}
+
+### Trending Links
+
+[About Me](about.qmd)
+
+[Curriculum Vitae](cv.qmd)
+
+[About Me](about.qmd)
+
+[Curriculum Vitae](cv.qmd)
+
+:::
+
+::::
+:::

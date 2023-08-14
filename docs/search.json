@@ -133,6 +133,13 @@
     "text": "Experienced in ecology, delving into geography, and actively practicing geospatial – my passion lies in the realm of applied science."
   },
   {
+    "objectID": "index.html#annoucements",
+    "href": "index.html#annoucements",
+    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
+    "section": "Annoucements",
+    "text": "Annoucements"
+  },
+  {
     "objectID": "index.html#biography",
     "href": "index.html#biography",
     "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
@@ -147,18 +154,18 @@
     "text": "Proficiencies"
   },
   {
-    "objectID": "index.html#designs",
-    "href": "index.html#designs",
+    "objectID": "index.html#ramblings",
+    "href": "index.html#ramblings",
     "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "Designs",
-    "text": "Designs"
+    "section": "Ramblings",
+    "text": "Ramblings"
   },
   {
-    "objectID": "index.html#writings",
-    "href": "index.html#writings",
+    "objectID": "index.html#visualizations",
+    "href": "index.html#visualizations",
     "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "Writings",
-    "text": "Writings"
+    "section": "Visualizations",
+    "text": "Visualizations"
   },
   {
     "objectID": "posts/post-eleven.html",
@@ -411,33 +418,5 @@
     "title": "Resources",
     "section": "",
     "text": "Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions."
-  },
-  {
-    "objectID": "index.html#updates",
-    "href": "index.html#updates",
-    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "Updates",
-    "text": "Updates"
-  },
-  {
-    "objectID": "index.html#annoucements",
-    "href": "index.html#annoucements",
-    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "Annoucements",
-    "text": "Annoucements"
-  },
-  {
-    "objectID": "index.html#ramblings",
-    "href": "index.html#ramblings",
-    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "Ramblings",
-    "text": "Ramblings"
-  },
-  {
-    "objectID": "index.html#visualizations",
-    "href": "index.html#visualizations",
-    "title": "My name is Benjamin Tjepkes and this is meum portfolium.",
-    "section": "Visualizations",
-    "text": "Visualizations"
   }
 ]
