@@ -8,46 +8,33 @@ title: ""
 
 
 ::: {.column}
-![](img-nav-logo-11.svg){.nolightbox}
-:::
 
-
-::: {.column}
-
-### Quick Menu
+### About Me
 
 [About Me](about.qmd)
 
-[Curriculum Vitae](cv.qmd)
+[My CV](cv.qmd)
 
-[About Me](about.qmd)
-
-[Curriculum Vitae](cv.qmd)
+[Contact](contact.qmd)
 
 :::
 
 
 ::: {.column}
 
-### Trending Links
+### My Work
 
-[About Me](about.qmd)
+[Blog Posts](posts.qmd)
 
-[Curriculum Vitae](cv.qmd)
+[Work Gallery](gallery.qmd)
 
-[About Me](about.qmd)
-
-[Curriculum Vitae](cv.qmd)
+[My Research](research.qmd)
 
 :::
 
 ::: {.column}
 
-### Trending Links
-
-[About Me](about.qmd)
-
-[Curriculum Vitae](cv.qmd)
+### More Exploration
 
 [About Me](about.qmd)
 

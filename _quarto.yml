@@ -6,7 +6,7 @@ website:
   title: "Benjamin Tjepkes"
   site-url: https://btjepkes.github.io/
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
-  favicon: site-logo-green.png
+  favicon: img-nav-logo-11.svg
   back-to-top-navigation: false
   search: false
   open-graph: true
@@ -16,7 +16,7 @@ website:
     logo: img-nav-logo-11.svg
     pinned: false
     
-    tools:
+    right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/
         aria-label: LinkedIn Profile
@@ -33,6 +33,8 @@ website:
     left:
       - href: about.qmd
         text: About
+      - href: cv.qmd
+        text: CV          
       - href: gallery.qmd
         text: Gallery
       - href: posts.qmd
@@ -43,19 +45,7 @@ website:
         text: Resources
       - href: contact.qmd
         text: Contact   
-      - href: cv.qmd
-        text: CV        
-      # - text: Updates
-      #   menu:
-      #     - text: My Latest Endeavours
-      #       href: cv.qmd        
-      #     - text: Gallery RSS Feed
-      #       href: gallery.xml
-      #     - text: Blog RSS Feed
-      #       href: posts.xml 
 
-
-        
   page-footer:
     center:
       - text: "Proudly made using Quarto under a CC BY-NC 4.0  International license."

@@ -209,7 +209,7 @@ h1::after {
 /* Menu icons */
 .navbar .quarto-navbar-tools i {
   font-size: 23px;
-  color: $blue-6;
+  margin-top: 4px;
 }
 
 
@@ -218,7 +218,6 @@ h1::after {
   
 .navbar .quarto-navbar-tools i {
   font-size: 30px;
-  color: $blue-6;
 }  
   
   
@@ -576,7 +575,8 @@ body {
   background-attachment: scroll;
   background-size: cover;
   background-position: center 30%;
-  opacity: 0.45;
+  opacity: 0.8;
+  box-shadow: 0 0 5px #f9f9f9;
 }
 
 
@@ -750,7 +750,8 @@ body {
   background-attachment: scroll;
   background-size: cover;
   background-position: center 30%;
-  opacity: 0.45;
+  opacity: 0.8;
+  box-shadow: 0 0 5px #f4f4f4;
 }
 
 .bg-banner-3 {
@@ -792,8 +793,7 @@ div.quarto-post .metadata {
 }
 
 #listing-site-listings,
-#listing-site-listings-2,
-#listing-site-menu-2 {
+#listing-site-listings-2 {
   position: relative;
   padding-top: 14px;
   margin-right: 0 !important;
@@ -801,8 +801,7 @@ div.quarto-post .metadata {
 
 
 #listing-site-listings-2 .quarto-grid-item,
-#listing-site-listings .quarto-grid-item,
-#listing-site-menu-2 .quarto-grid-item{
+#listing-site-listings .quarto-grid-item{
   background: $white;
 }
 
@@ -936,7 +935,7 @@ div.quarto-post .metadata {
   margin-top: 3em;
   margin-bottom: -4.5em;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -1121,7 +1120,6 @@ div.quarto-post .metadata {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
 
 .index-h4 h4 {
   margin-top: 2em;

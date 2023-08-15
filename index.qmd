@@ -34,6 +34,7 @@ listing:
     fields: 
       - title
       - subtitle
+
 ---
 
 ::: {.intro-banner}
@@ -300,5 +301,3 @@ description="Great Lakes Watershed Map"}
 
 :::
 
-
-{{< include _footer.qmd >}}
