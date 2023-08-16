@@ -34,10 +34,21 @@ listing:
     fields: 
       - title
       - subtitle
+      
+  - id: site-listings-3
+    contents:
+      - "research.qmd"
+      - "posts.qmd"
+      - "gallery.qmd"
+      - "resources.qmd"      
+    type: grid
+    grid-columns: 4
+    fields: 
+      - title
 
 ---
 
-::: {.intro-banner}
+::: {.intro-banner .slide-in .column-page-inset}
 
 ::: {.intro-headshot .slide-in}
 
@@ -48,9 +59,9 @@ listing:
 
 ::: {.intro-content .slide-in}
 #### Hello there,
-# My name is Benjamin Tjepkes and this is *meum portfolium*.
+# My name is Benjamin Tjepkes and this is my professional portfolio.
 
-Experienced in ecology, delving into geography, and actively practicing geospatial -- my passion lies in the realm of applied science.
+I'm an experienced wildlife ecologist studying geography with a focus on applied geospatial science.
 
 :::
 :::
@@ -266,7 +277,7 @@ My blog posts cover a vast range of information in the **ecological and geospati
 
 :::{.index-list}
 
-My professional work often involves deep dives into data and data wrangling, so I try to make some fun visuals? Most of my creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like MapPromptMonday and TidyTuesday. Find the entirety of my gallery [here](gallery.qmd).
+My day-to-day work often involves deep dives into data and data wrangling, so I try to make some fun visuals when given the opportunity. Most of my creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like MapPromptMonday and TidyTuesday. Find the entirety of my gallery [here](gallery.qmd).
 
 :::
 
@@ -301,3 +312,12 @@ description="Great Lakes Watershed Map"}
 
 :::
 
+:::{.get-started}
+
+### ~ Start Exploring ~ {.index-h3}
+
+::: {#site-listings-3}
+
+:::
+
+:::

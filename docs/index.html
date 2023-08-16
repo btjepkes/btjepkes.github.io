@@ -111,6 +111,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-site-listings-3 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-site-listings-3'] = new List('listing-site-listings-3', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
@@ -205,11 +233,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
-<div class="intro-banner">
+<div class="intro-banner slide-in column-page-inset">
 <div class="intro-headshot slide-in">
 <p><img src="assets/img-ben-portrait-2.jpg" class="nolightbox headshot-img img-fluid"></p>
 </div>
@@ -217,9 +245,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="hello-there" class="level4">
 <h4 data-anchor-id="hello-there">Hello there,</h4>
 </section>
-<section id="my-name-is-benjamin-tjepkes-and-this-is-meum-portfolium." class="level1">
-<h1>My name is Benjamin Tjepkes and this is <em>meum portfolium</em>.</h1>
-<p>Experienced in ecology, delving into geography, and actively practicing geospatial – my passion lies in the realm of applied science.</p>
+<section id="my-name-is-benjamin-tjepkes-and-this-is-my-professional-portfolio." class="level1">
+<h1>My name is Benjamin Tjepkes and this is my professional portfolio.</h1>
+<p>I’m an experienced wildlife ecologist studying geography with a focus on applied geospatial science.</p>
 </section>
 </div>
 </div>
@@ -315,7 +343,7 @@ Maps, visualizations, reports, posters, and presentations.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1687191269486" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1692139473903" data-listing-reading-time-sort="1">
 <a href="./research.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -533,12 +561,12 @@ No matching items
 </div>
 </section>
 <div class="index-list">
-<p>My professional work often involves deep dives into data and data wrangling, so I try to make some fun visuals? Most of my creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like MapPromptMonday and TidyTuesday. Find the entirety of my gallery <a href="./gallery.html">here</a>.</p>
+<p>My day-to-day work often involves deep dives into data and data wrangling, so I try to make some fun visuals when given the opportunity. Most of my creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like MapPromptMonday and TidyTuesday. Find the entirety of my gallery <a href="./gallery.html">here</a>.</p>
 </div>
 <div class="gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-001v2.png" class="lightbox" title="Squirrel Census Density Map" data-description="2018
+<p><a href="./gallery/img-map-001v2.png" class="lightbox" data-description="2018
 
 Squirrel
 
@@ -548,13 +576,13 @@ Sighting
 
 Density
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
+Map" title="Squirrel Census Density Map" data-gallery="personal-projects"><img src="./gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Squirrel Census Density Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-endangeredstamps.png" class="lightbox" title="Endangered Species Stamp Map" data-description="Endangered
+<p><a href="./gallery/img-map-endangeredstamps.png" class="lightbox" data-description="Endangered
 
 Species
 
@@ -562,13 +590,13 @@ Stamps
 
 Range
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
+Map" title="Endangered Species Stamp Map" data-gallery="personal-projects"><img src="./gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Endangered Species Stamp Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-table-001.png" class="lightbox" title="Squirrel Census Chart" data-description="2018
+<p><a href="./gallery/img-table-001.png" class="lightbox" data-description="2018
 
 Squirrel
 
@@ -576,13 +604,13 @@ Census
 
 Sighting
 
-Table" data-gallery="personal-projects"><img src="./gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
+Table" title="Squirrel Census Chart" data-gallery="personal-projects"><img src="./gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Squirrel Census Chart</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-10.jpg" class="lightbox" title="Forest Canopy Density Map" data-description="Missouri
+<p><a href="./gallery/img-map-10.jpg" class="lightbox" data-description="Missouri
 
 Tree
 
@@ -590,19 +618,19 @@ Canopy
 
 Density
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
+Map" title="Forest Canopy Density Map" data-gallery="personal-projects"><img src="./gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Forest Canopy Density Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-11.jpg" class="lightbox" title="Great Lakes Watershed Map" data-description="Great
+<p><a href="./gallery/img-map-11.jpg" class="lightbox" data-description="Great
 
 Lakes
 
 Watershed
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
+Map" title="Great Lakes Watershed Map" data-gallery="personal-projects"><img src="./gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Great Lakes Watershed Map</figcaption>
 </figure>
 </div>
@@ -626,6 +654,60 @@ Map" data-gallery="personal-projects"><img src="./gallery/img-map-11.jpg" class=
 </div>
 </div>
 </div>
+<section id="start-exploring" class="level3 index-h3 get-started">
+<h3 class="index-h3" data-anchor-id="start-exploring">~ Start Exploring ~</h3>
+<div id="listing-site-listings-3" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1687223214763" data-listing-reading-time-sort="1">
+<a href="./posts.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Blog Posts
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1691764402211" data-listing-reading-time-sort="1">
+<a href="./gallery.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Gallery
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1692139473903" data-listing-reading-time-sort="1">
+<a href="./research.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Research
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1692020117971" data-listing-reading-time-sort="1">
+<a href="./resources.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Resources
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
 
 
 
@@ -924,7 +1006,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","loop":true,"descPosition":"bottom","closeEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","loop":true,"openEffect":"zoom"});</script>
 
 
 

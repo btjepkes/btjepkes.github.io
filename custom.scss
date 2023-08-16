@@ -138,14 +138,14 @@ body {
 }
 
 h1 {
-  color: $tan;
+  color: $white;
 }
 
 h1::after {
   content: "";
   position: relative;
   display: block;
-  border-top: solid 4px $gray-100;
+  border-top: solid 4px $tan;
   margin-top: 25px;
   width: 20%;
 }
@@ -842,20 +842,22 @@ div.quarto-post .metadata {
 
 .slide-in {
   opacity: 0; /* Initially hidden */
-  transform: translateX(-100%); /* Initially off-screen */
-  animation: slideIn 1s forwards; /* Animation duration and fill mode */
+  transform: translateY(-100%); /* Initially off-screen from the top */
+  animation: slideIn 700ms forwards; /* Animation duration and fill mode */
 }
 
 @keyframes slideIn {
   0% {
     opacity: 0; /* Start with opacity 0 */
-    transform: translateX(-100%); /* Start off-screen */
+    transform: translateY(-100%); /* Start off-screen from the top */
   }
+  
   100% {
     opacity: 1; /* End with opacity 1 */
-    transform: translateX(0); /* Slide in to 0px from left */
+    transform: translateY(0); /* Slide in to 0px from the top */
   }
 }
+
 
 
 @media (min-width: 800px) { 
@@ -1121,6 +1123,11 @@ div.quarto-post .metadata {
   margin-bottom: 1rem;
 }
 
+.index-h3 h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .index-h4 h4 {
   margin-top: 2em;
   margin-bottom: 0em;
@@ -1128,8 +1135,6 @@ div.quarto-post .metadata {
   font-weight: 300;
   text-align: left;
 }
-
-
 
 
 .index-list p {
@@ -1492,10 +1497,11 @@ margin-bottom: 0 !important;
 
 .get-started {
    text-align: center;
+   padding-top: 1rem;
    padding-bottom: 1rem;
    padding-left: 2rem;
    padding-right: 2rem;
-   margin-top: 0em;
+   margin-top: 3em;
    list-style-position: inside;
    background: #fff;
    border-radius: 0px;
@@ -1507,3 +1513,4 @@ margin-bottom: 0 !important;
    margin-top: 1rem;
    margin-bottom: 2rem;
 }
+
