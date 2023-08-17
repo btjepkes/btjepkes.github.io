@@ -142,5 +142,8 @@
   },
   "test.qmd": {
     "test.html": "67879417"
+  },
+  "gallery/endangered-species-stamp-collection-map.qmd": {
+    "endangered-species-stamp-collection-map.html": "884844b9"
   }
 }

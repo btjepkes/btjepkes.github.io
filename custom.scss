@@ -139,6 +139,7 @@ body {
 
 h1 {
   color: $white;
+  opacity: 1.0;
 }
 
 h1::after {
@@ -263,8 +264,9 @@ justify-content: center;
   align-items: center;
   -webkit-align-items: center;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 20px;
+  gap: 0px;
+  background: #d2eaf2;
+  margin: 10px auto;
 }
 
 .about-contents {
@@ -315,8 +317,17 @@ nav .nav-item a:hover {
   margin-right: auto !important;
   margin-left: auto;
   text-align: center;
-  margin-bottom: 2em;
-}}
+  margin-bottom: 0em;
+  flex-direction: row;
+}
+  
+  nav .nav-item.compact .nav-link {
+  padding-left: .7rem;
+  padding-right: .7rem;
+  font-size: 1.5rem;
+}
+  
+}
 
 
 
@@ -334,6 +345,9 @@ nav .nav-item a:hover {
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
 	background-image: url("assets/bg-topo-white.png");
   background-attachment: fixed;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(-100%); /* Initially off-screen from the top */
+  animation: slideIn 700ms forwards; /* Animation duration and fill mode */
 }
 
 .quarto-title .quarto-categories {
@@ -1126,6 +1140,7 @@ div.quarto-post .metadata {
 .index-h3 h3 {
   text-align: center;
   text-transform: uppercase;
+  font-size: 1.45rem;
 }
 
 .index-h4 h4 {
@@ -1137,13 +1152,10 @@ div.quarto-post .metadata {
 }
 
 
-.index-list p {
-  opacity: 0.8;
-}
 .index-list li::marker {
   list-style-type: square;
   color: indianred;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .index-list li {
   font-size: 1.1em;
@@ -1460,7 +1472,8 @@ margin-bottom: 0 !important;
 }
 }
 
-.hello-quarto-banner .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.hello-quarto-banner .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
   border: none;
   border-bottom: 2px solid #39729E !important;
   color: #39729E;

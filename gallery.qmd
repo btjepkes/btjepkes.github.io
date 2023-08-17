@@ -22,6 +22,11 @@ description="2018 Squirrel Census Sighting Density Map"}
 ![Endangered Species Range Map](./gallery/img-map-endangeredstamps.png){group="2023-projects"
 description="Endangered Species Stamps Range Map - [See Details](gallery/gallery-map-seven.html)"}
 
+
+![Relative Skills Barchart](./gallery/img-relative-skills-animation.gif){group="personal-projects"
+description="Needed"}
+
+
 ![Bat HCP Poster](./gallery/img-bat-hcp-poster.jpg){group="personal-projects"
 description="Needed"}
 

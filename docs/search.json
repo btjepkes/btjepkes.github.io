@@ -46,7 +46,7 @@
     "href": "contact.html#connecting-with-me",
     "title": "Links & Contact",
     "section": "Connecting with Me",
-    "text": "Connecting with Me\nInterested in working on a collaborative project together, wondering if I still have the code for a past project, or just want to connect? Please contact me via the below form, email, or through my LinkedIn profile with any inquiries."
+    "text": "Connecting with Me\nInterested in working on a collaborative project together, wondering if I still have the code for a past project, or just want to connect? Please contact me via the below form or through my LinkedIn profile with any inquiries."
   },
   {
     "objectID": "cv.html",
@@ -56,18 +56,18 @@
     "text": "Unable to display PDF file. Download instead."
   },
   {
+    "objectID": "gallery/endangered-species-stamp-collection-map.html",
+    "href": "gallery/endangered-species-stamp-collection-map.html",
+    "title": "Endangered Species Stamp Collection Map",
+    "section": "",
+    "text": "Map Credit: Ben Tjepkes"
+  },
+  {
     "objectID": "gallery/gallery-map-four.html",
     "href": "gallery/gallery-map-four.html",
     "title": "Choropleth of Missouri Bear Sightings in 2020",
     "section": "",
     "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
-  },
-  {
-    "objectID": "gallery/gallery-map-seven.html",
-    "href": "gallery/gallery-map-seven.html",
-    "title": "Endangered Species Stamp Collection Map",
-    "section": "",
-    "text": "Map Credit: Ben Tjepkes"
   },
   {
     "objectID": "gallery/gallery-poster-one.html",
@@ -95,14 +95,14 @@
     "href": "gallery.html",
     "title": "My Gallery",
     "section": "",
-    "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, 30 Day Map Challenge, and other social media contests. Most of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nBat HCP Poster\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
+    "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, 30 Day Map Challenge, and other social media contests. Most of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nRelative Skills Barchart\n\n\n\n\n\nBat HCP Poster\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
   },
   {
     "objectID": "gallery.html#recent-works",
     "href": "gallery.html#recent-works",
     "title": "My Gallery",
     "section": "",
-    "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, 30 Day Map Challenge, and other social media contests. Most of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nBat HCP Poster\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
+    "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, 30 Day Map Challenge, and other social media contests. Most of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nRelative Skills Barchart\n\n\n\n\n\nBat HCP Poster\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
   },
   {
     "objectID": "index.html",
