@@ -111,34 +111,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-site-listings-3 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-site-listings-3'] = new List('listing-site-listings-3', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
@@ -233,12 +205,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="intro-banner slide-in column-page-inset">
-<div class="intro-headshot slide-in">
+<div class="intro-banner slide-in">
+<div class="intro-headshot">
 <p><img src="assets/img-ben-portrait-2.jpg" class="nolightbox headshot-img img-fluid"></p>
 </div>
 <div class="intro-content slide-in">
@@ -247,29 +219,26 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="my-name-is-benjamin-tjepkes-and-this-is-my-professional-portfolio." class="level1">
 <h1>My name is Benjamin Tjepkes and this is my professional portfolio.</h1>
-<p>I’m an experienced wildlife ecologist studying geography with a focus on applied geospatial science.</p>
+<p>I’m an experienced wildlife ecologist and geography graduate student with a focus on applied geospatial and conservation science.</p>
 </section>
 </div>
 </div>
-<section id="latest-updates." class="level4 index-h4">
-<h4 class="index-h4" data-anchor-id="latest-updates.">Latest updates.</h4>
-</section>
-<section id="annoucements" class="level2 index-h2 index-section-heading">
-<h2 class="index-h2" data-anchor-id="annoucements">Annoucements</h2>
-<div class="index-h2-line">
-
-</div>
-<div class="index-h2-icon">
-<p><i class="fa-solid fa-angles-left fa-3x" aria-label="angles-left"></i></p>
-</div>
-</section>
-<div class="index-list">
-<ul>
-<li><p>I recently started my <strong>Masters Degree</strong> within the <a href="https://geography.missouri.edu/">Geography Department</a> at the University of Missouri. I am in the process of developing my thesis project, so stay tuned for more. Please <a href="./contact.html">reach out</a> if you would like to collaborate on any geospatial projects.</p></li>
-<li><p>I am excited to have registered for the <strong>Posit 2023 Conference</strong> in September, where I will be attending virtually. Looking forward to learning more about open source data science. More info on posit::conf(2023) <a href="https://posit.co/conference/">here</a>.</p></li>
-<li><p>One of my latest maps, <strong>Stamped in History: 50 Years of Imperiled Species Conservation</strong>, recently won 2nd place in the 2023 GIS Certification Institute (GISCI) <a href="https://www.gisci.org/News/Issues-News-Policy/gisci-announces-2023-map-contest-winners">Map Contest</a> within the Professional category.</p></li>
-</ul>
-</div>
+<!-- #### Latest updates. {.index-h4} -->
+<!-- ::: {.index-section-heading} -->
+<!-- ## Announcements {.index-h2} -->
+<!-- ::: {.index-h2-line} -->
+<!-- ::: -->
+<!-- ::: {.index-h2-icon} -->
+<!--  -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- :::{.index-list} -->
+<!-- ::: {.callout-note collapse=true title="Latest Annoucements"} -->
+<!-- I recently started my **Masters Degree** within the [Geography Department](https://geography.missouri.edu/) at the University of Missouri. I am in the process of developing my thesis project, so stay tuned for more. Please [reach out](contact.qmd) if you would like to collaborate on any geospatial projects. -->
+<!-- I am excited to have registered for the **Posit 2023 Conference** in September, where I will be attending virtually. Looking forward to learning more about open source data science. More info on posit::conf(2023) [here](https://posit.co/conference/). -->
+<!-- One of my latest maps, **Stamped in History: 50 Years of Imperiled Species Conservation**, recently won 2nd place in the 2023 GIS Certification Institute (GISCI) [Map Contest](https://www.gisci.org/News/Issues-News-Policy/gisci-announces-2023-map-contest-winners) within the Professional category. -->
+<!-- ::: -->
+<!-- ::: -->
 <div class="about">
 <div class="consultant-info">
 <section id="dedicated-scientist." class="level4 index-h4">
@@ -376,6 +345,23 @@ My favorite references for ecology, GIS, R, Python, and more.
 </div>
 <div class="listing-no-matching d-none">
 No matching items
+</div>
+</div>
+<div class="intro-callout callout callout-style-default callout-important callout-titled" title="Latest Annoucements">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Latest Annoucements
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>I recently started my <strong>Masters Degree</strong> within the <a href="https://geography.missouri.edu/">Geography Department</a> at the University of Missouri. I am in the process of developing my thesis project, so stay tuned for more. Please <a href="./contact.html">reach out</a> if you would like to collaborate on any geospatial projects.</p></li>
+<li><p>I am excited to have registered for the <strong>Posit 2023 Conference</strong> in September, where I will be attending virtually. Looking forward to learning more about open source data science. More info on posit::conf(2023) <a href="https://posit.co/conference/">here</a>.</p></li>
+<li><p>One of my latest maps, <strong>Stamped in History: 50 Years of Imperiled Species Conservation</strong>, recently won 2nd place in the 2023 GIS Certification Institute (GISCI) <a href="https://www.gisci.org/News/Issues-News-Policy/gisci-announces-2023-map-contest-winners">Map Contest</a> within the Professional category.</p></li>
+</ul>
 </div>
 </div>
 </div>
@@ -568,7 +554,7 @@ No matching items
 <div class="gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-001v2.png" class="lightbox" title="Squirrel Census Density Map" data-description="2018
+<p><a href="./gallery/img-map-001v2.png" class="lightbox" data-gallery="personal-projects" data-description="2018
 
 Squirrel
 
@@ -578,13 +564,13 @@ Sighting
 
 Density
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
+Map" title="Squirrel Census Density Map"><img src="./gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Squirrel Census Density Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-endangeredstamps.png" class="lightbox" title="Endangered Species Stamp Map" data-description="Endangered
+<p><a href="./gallery/img-map-endangeredstamps.png" class="lightbox" data-gallery="personal-projects" data-description="Endangered
 
 Species
 
@@ -592,13 +578,13 @@ Stamps
 
 Range
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
+Map" title="Endangered Species Stamp Map"><img src="./gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Endangered Species Stamp Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-table-001.png" class="lightbox" title="Squirrel Census Chart" data-description="2018
+<p><a href="./gallery/img-table-001.png" class="lightbox" data-gallery="personal-projects" data-description="2018
 
 Squirrel
 
@@ -606,13 +592,13 @@ Census
 
 Sighting
 
-Table" data-gallery="personal-projects"><img src="./gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
+Table" title="Squirrel Census Chart"><img src="./gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Squirrel Census Chart</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-10.jpg" class="lightbox" title="Forest Canopy Density Map" data-description="Missouri
+<p><a href="./gallery/img-map-10.jpg" class="lightbox" data-gallery="personal-projects" data-description="Missouri
 
 Tree
 
@@ -620,96 +606,45 @@ Canopy
 
 Density
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
+Map" title="Forest Canopy Density Map"><img src="./gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Forest Canopy Density Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-11.jpg" class="lightbox" title="Great Lakes Watershed Map" data-description="Great
+<p><a href="./gallery/img-map-11.jpg" class="lightbox" data-gallery="personal-projects" data-description="Great
 
 Lakes
 
 Watershed
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
+Map" title="Great Lakes Watershed Map"><img src="./gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Great Lakes Watershed Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-turkey-harvest-maps.png" class="lightbox" title="Turkey Harvest Map" data-gallery="personal-projects"><img src="./gallery/img-turkey-harvest-maps.png" class="img-fluid figure-img"></a></p>
+<p><a href="./gallery/img-turkey-harvest-maps.png" class="lightbox" data-gallery="personal-projects" title="Turkey Harvest Map"><img src="./gallery/img-turkey-harvest-maps.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Turkey Harvest Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-calendar.jpeg" class="lightbox" title="Work Hours Calendar Chart" data-gallery="personal-projects"><img src="./gallery/img-calendar.jpeg" class="img-fluid figure-img"></a></p>
+<p><a href="./gallery/img-calendar.jpeg" class="lightbox" data-gallery="personal-projects" title="Work Hours Calendar Chart"><img src="./gallery/img-calendar.jpeg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Work Hours Calendar Chart</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-5.jpg" class="lightbox" title="Black Bear Sighting Choropleth" data-gallery="personal-projects"><img src="./gallery/img-map-5.jpg" class="img-fluid figure-img"></a></p>
+<p><a href="./gallery/img-map-5.jpg" class="lightbox" data-gallery="personal-projects" title="Black Bear Sighting Choropleth"><img src="./gallery/img-map-5.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Black Bear Sighting Choropleth</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<section id="exploring-this-site" class="level3 index-h3 get-started">
-<h3 class="index-h3" data-anchor-id="exploring-this-site">Exploring this site</h3>
-<div id="listing-site-listings-3" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1692281870837" data-listing-reading-time-sort="1">
-<a href="./posts.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Blog Posts
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1692280948544" data-listing-reading-time-sort="1">
-<a href="./gallery.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Gallery
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1692139473903" data-listing-reading-time-sort="1">
-<a href="./research.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Research
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1692020117971" data-listing-reading-time-sort="1">
-<a href="./resources.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Resources
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
+<!-- :::{.get-started} -->
+<!-- ### Exploring this site {.index-h3} -->
+<!-- ::: -->
 
 
 
@@ -1008,7 +943,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":true,"openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":true});</script>
 
 
 
