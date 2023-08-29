@@ -8,9 +8,19 @@ keywords: about, about me
 
 ---
 
+::: {.callout-important title="Latest Announcements" .intro-callout}
+
+- I recently started my **Masters Degree** within the [Geography Department](https://geography.missouri.edu/) at the University of Missouri. I am in the process of developing my thesis project, so stay tuned for more. Please [reach out](contact.qmd) if you would like to collaborate on any geospatial projects.
+
+- I am excited to have registered for the **Posit 2023 Conference** in September, where I will be attending virtually. Looking forward to learning more about open source data science. More info on posit::conf(2023) [here](https://posit.co/conference/).
+
+- One of my latest maps, **Stamped in History: 50 Years of Imperiled Species Conservation**, recently won 2nd place in the 2023 GIS Certification Institute (GISCI) [Map Contest](https://www.gisci.org/News/Issues-News-Policy/gisci-announces-2023-map-contest-winners) within the Professional category.
+:::
+
+
 ## Trained as a biologist. {.intro-heading}
 
-My expertise lies in **wildlife ecology and management**, which has been the focal point of my professional pursuits for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.
+My professional career is based in **wildlife ecology and management**, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.
 
 ::: {.consultant-section}
 
@@ -18,7 +28,7 @@ My expertise lies in **wildlife ecology and management**, which has been the foc
 
 - My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree.
 
-- Additionally, I complemented my academic knowledge through internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.
+- Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.
 
 :::
 
@@ -48,7 +58,7 @@ As I delved further into my wildlife career, I came to the realization that loca
 
 ## Mastering geography. {.intro-heading}
 
-With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my forthcoming pursuit of a **Master's degree in Geography** in late 2023. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.
+With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a **Master's degree in Geography** at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.
 
 
 ::: {.consultant-section}
