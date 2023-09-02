@@ -105,7 +105,7 @@ I'm an experienced wildlife ecologist and geography graduate student with a focu
 
 :::{.index-list}
 
-I am a **wildlife ecologist** and **geospatial practitioner** interested in advancing the science behind natural resource conservation. My work focuses on using a variety of data science and geospatial tools to research the natural world. I have over 7 years of progressive experience with governmental, private, and academic entities in the **conservation and environmental science** sector.
+I have over 7 years of progressive experience with governmental, private, and academic entities in the **conservation and environmental science** sector. My work focuses on using a variety of data science and geospatial tools to research the natural world. 
 
 :::
 
@@ -140,7 +140,7 @@ I am a **wildlife ecologist** and **geospatial practitioner** interested in adva
 
 :::{.index-list}
 
-Whether in a professional setting, during my academic pursuits, or through personal exploration, I consistently engage in a process of ongoing learning. I have actively pursued various independent educational modules aimed at **enhancing my proficiency** in the geospatial, ecological, and analytical sciences. See how I use these skills [here](gallery.qmd) or read about them [here](posts.qmd).
+I consistently engage in a process of ongoing learning. I have actively pursued various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery.qmd) or read about them [here](posts.qmd).
 
 :::
 
@@ -268,7 +268,7 @@ My blog posts cover a vast range of information in the **ecological and geospati
 
 :::{.index-list}
 
-My day-to-day work often involves deep dives into data and data wrangling, so I try to make some fun visuals when given the opportunity. Most of my creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like MapPromptMonday and TidyTuesday. Find the entirety of my gallery [here](gallery.qmd).
+My creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like MapPromptMonday and TidyTuesday. Find the entirety of my gallery [here](gallery.qmd).
 
 :::
 

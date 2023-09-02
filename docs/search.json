@@ -112,13 +112,6 @@
     "text": "I’m an experienced wildlife ecologist and geography graduate student with a focus on applied geospatial and conservation science."
   },
   {
-    "objectID": "index.html#annoucements",
-    "href": "index.html#annoucements",
-    "title": "My name is Benjamin Tjepkes and this is my professional portfolio.",
-    "section": "Annoucements",
-    "text": "Annoucements"
-  },
-  {
     "objectID": "index.html#biography",
     "href": "index.html#biography",
     "title": "My name is Benjamin Tjepkes and this is my professional portfolio.",
@@ -275,21 +268,21 @@
   {
     "objectID": "posts/post-three.html",
     "href": "posts/post-three.html",
-    "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
+    "title": "Mapping Unfragmented Forest Landscapes Using R",
     "section": "",
     "text": "Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.\n\n\n\nGlobal Forest Watch (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world’s forests."
   },
   {
     "objectID": "posts/post-three.html#background",
     "href": "posts/post-three.html#background",
-    "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
+    "title": "Mapping Unfragmented Forest Landscapes Using R",
     "section": "",
     "text": "Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.\n\n\n\nGlobal Forest Watch (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world’s forests."
   },
   {
     "objectID": "posts/post-three.html#workflow",
     "href": "posts/post-three.html#workflow",
-    "title": "Mapping Changes in Unfragmented Forest Landscapes Using R",
+    "title": "Mapping Unfragmented Forest Landscapes Using R",
     "section": "Workflow",
     "text": "Workflow\n\n1. Get IFL Data\nVisit the Global Forest Watch website (https://www.globalforestwatch.org/). Navigate to the “Data” section and select “Intact Forest Landscapes.” Download the IFL dataset in the desired format (e.g., shapefile, geopackage).\n\n\n2. Load Packages.\nTo follow along with this tutorial, you will need to have R and the following packages installed: sf, tmap, and dplyr. You can install these packages using the install.packages() function in R.\nlibrary(sf)\nlibrary(dplyr)\n\n\n3. Load Data in R\nLet’s assume you have downloaded the IFL data in shapefile format and saved it as “ifl.shp” in your working directory. We will now load and prepare the data for visualization.\n# Read the IFL shapefile\nifl &lt;- st_read(\"ifl.shp\")\n\n# Examine the data structure\nhead(ifl)\nsummary(ifl)\n\n\n4. Visualize Data\nWe will use the tmap package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.\n# Load the tmap package\nlibrary(tmap)\n\n# Create a basic map of the IFL polygons\ntm_shape(ifl) +\n  tm_polygons()\n\n\n5. Customize Map\nWe can modify the map’s appearance by changing colors, adding a background, adjusting labels, and more.\n# Create a more visually appealing map with customization\ntm_shape(ifl) +\n  tm_fill(col = \"green\", alpha = 0.6) +  # Set polygon color and transparency\n  tm_borders(col = \"black\") +  # Add border color\n  tm_layout(legend.position = c(\"left\", \"bottom\"),  # Adjust legend position\n            legend.bg.color = \"white\",  # Set legend background color\n            title = \"Intact Forest Landscapes\")  # Add map title"
   },
@@ -326,7 +319,7 @@
     "href": "posts.html",
     "title": "My Blog Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto\n\n\nManually updating reports is old news, start producing reproducible documents.\n\n\n\nBenjamin Tjepkes\n\n\nMay 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western United States using Leaflet.\n\n\n\nBenjamin Tjepkes\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Changes in Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\nBenjamin Tjepkes\n\n\nMar 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\nBenjamin Tjepkes\n\n\nOct 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCan You Naturally Protect Shores From Erosion?\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\nBenjamin Tjepkes\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto\n\n\nManually updating reports is old news, start producing reproducible documents.\n\n\n\nBenjamin Tjepkes\n\n\nMay 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western US.\n\n\n\nBenjamin Tjepkes\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\nBenjamin Tjepkes\n\n\nMar 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\nBenjamin Tjepkes\n\n\nOct 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCan You Naturally Protect Shores From Erosion?\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\nBenjamin Tjepkes\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/research-five.html",
@@ -397,12 +390,5 @@
     "title": "Resources",
     "section": "",
     "text": "Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions."
-  },
-  {
-    "objectID": "index.html#my_biography",
-    "href": "index.html#my_biography",
-    "title": "My name is Benjamin Tjepkes and this is my professional portfolio.",
-    "section": "My_Biography",
-    "text": "My_Biography"
   }
 ]

@@ -1,6 +1,6 @@
 ---
 title: "Using R to Create an Interactive Heatmap of GBIF Occurrences"
-subtitle: "Exploring concentrations of Greater sage grouse records in the western United States using Leaflet."
+subtitle: "Exploring concentrations of Greater sage grouse records in the western US."
 author:
   - name: Benjamin Tjepkes  
     url: //about.qmd

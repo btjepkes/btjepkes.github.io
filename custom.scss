@@ -183,6 +183,9 @@ h1::after {
   }
 }
 
+
+
+
 // Navbar
 
 #quarto-header > nav {
@@ -195,9 +198,7 @@ h1::after {
   #quarto-header > nav {
     height: 60px;
   }
-  
-  
-}
+    }
 
 .navbar-logo {
   max-height: 48px;
@@ -207,15 +208,11 @@ h1::after {
 }
 
 
-/* Menu icons */
-.navbar .quarto-navbar-tools i {
-  font-size: 23px;
-  margin-top: 4px;
-}
-
-
 /*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
+  
+  
+  
   
 .navbar .quarto-navbar-tools i {
   font-size: 30px;
@@ -273,10 +270,18 @@ justify-content: center;
   padding-right: 0px !important;
 }
 
+} /*** MOBILE ONLY - stop ***/
+
+
+nav .nav-item {
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0.75;
 }
 
-
-/*** MOBILE ONLY - stop ***/
+.nav-link.active {
+    color: #3a4753 !important;
+}
 
 
 nav .nav-item:not(.compact) {
@@ -286,7 +291,6 @@ nav .nav-item:not(.compact) {
 
 nav .nav-item a:hover {
   text-decoration: $tan wavy underline;
-  font-weight: bold;
 }
 
 
@@ -309,6 +313,7 @@ nav .nav-item a:hover {
   color: #338a94;
 }
 
+
 @media (max-width: 991.98px) {
 .ms-auto {
   margin-right: auto !important;
@@ -325,8 +330,6 @@ nav .nav-item a:hover {
 }
   
 }
-
-
 
 
 // BANNER
@@ -990,6 +993,7 @@ div.quarto-post .metadata {
   color: white !important;
 }
 
+/*
 .footer::before {
   content: "Thank you for visiting the website of Benjamin W. Tjepkes.";
   display: block;
@@ -998,7 +1002,7 @@ div.quarto-post .metadata {
   background: $blue-6;
   padding: 12px 24px 8px 24px;
   text-align: center;
-}
+}*/
 
 
 .nav-footer a {
