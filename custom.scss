@@ -289,9 +289,6 @@ nav .nav-item a:hover {
   font-weight: bold;
 }
 
-.navbar-collapse {
-  padding: 0 10px;
-  border-radius: 15px;}
 
 .navbar-brand span {
   font-weight: 900;
@@ -831,7 +828,7 @@ div.quarto-post .metadata {
 .feature {
   margin-top: 20px;
   padding: 10px 10px 20px 30px;
-  border-radius: 0px;
+  border-radius: 20px;
   box-shadow: 0 0 5px 0px whitesmoke;
   border: solid teal 6px;
   align-items: center;
@@ -896,7 +893,6 @@ div.quarto-post .metadata {
 
 .feature h3 {
   margin-top: 5%;
-  color: $dark-green;
 }
 
 .feature .fa-solid {

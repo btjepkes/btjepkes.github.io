@@ -16,21 +16,21 @@ website:
     logo: img-nav-logo-11.svg
     pinned: false
     
-    right:
-      - icon: linkedin
-        href: https://www.linkedin.com/in/benjamintjepkes/
-        aria-label: LinkedIn Profile
-      - icon: github
-        href: https://github.com/btjepkes
-        aria-label: GitHub Profile
-      - icon: twitter
-        href: https://twitter.com/BTjepkes
-        aria-label: Twitter Profile
-      - icon: chat-dots-fill
-        href: contact.html
-        aria-label: contact page
+    # right:
+    #   - icon: linkedin
+    #     href: https://www.linkedin.com/in/benjamintjepkes/
+    #     aria-label: LinkedIn Profile
+    #   - icon: github
+    #     href: https://github.com/btjepkes
+    #     aria-label: GitHub Profile
+    #   - icon: twitter
+    #     href: https://twitter.com/BTjepkes
+    #     aria-label: Twitter Profile
+    #   - icon: chat-dots-fill
+    #     href: contact.html
+    #     aria-label: contact page
         
-    left:
+    right:
       - href: about.qmd
         text: About
       - href: cv.qmd

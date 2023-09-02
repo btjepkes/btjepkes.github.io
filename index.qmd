@@ -46,7 +46,7 @@ listing:
 :::
 
 
-::: {.intro-content .slide-in}
+::: {.intro-content }
 #### Hello there,
 # My name is Benjamin Tjepkes and this is my professional portfolio.
 
@@ -147,7 +147,7 @@ Whether in a professional setting, during my academic pursuits, or through perso
 ::: {.features}
 
 ::: {.feature}
-### {{< fa square-check size=1x >}} GIS & Cartography
+### GIS & Cartography
 Adept as using open source and proprietary software to create static and dynamic map products.
 
 ::: {.learn-more}
@@ -156,7 +156,7 @@ Adept as using open source and proprietary software to create static and dynamic
 :::
 
 ::: {.feature}
-### {{< fa square-check size=0.5x >}} Data Visualization
+### Data Visualization
 Proficient in data visualization and reproducible reporting for technical and creative projects.
 
 ::: {.learn-more}
@@ -165,7 +165,7 @@ Proficient in data visualization and reproducible reporting for technical and cr
 :::
 
 ::: {.feature}
-### {{< fa square-check size=0.5x >}} Research Methods
+### Research Methods
 Knowledge of the scientific method, research project development, and technical reporting.
 
 ::: {.learn-more}
@@ -174,7 +174,7 @@ Knowledge of the scientific method, research project development, and technical 
 :::
 
 ::: {.feature}
-### {{< fa square-check size=0.5x >}} Web Development
+### Web Development
 Employ front-end web development techniques to design functional and beautiful websites.
 
 ::: {.learn-more}
@@ -183,7 +183,7 @@ Employ front-end web development techniques to design functional and beautiful w
 :::
 
 ::: {.feature}
-### {{< fa square-check size=0.5x >}} Applied Ecology
+### Applied Ecology
 Experience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.
 
 ::: {.learn-more}
@@ -192,7 +192,7 @@ Experience using radio telemetry, standardized field sampling, and wildlife capt
 :::
 
 ::: {.feature}
-### {{< fa square-check size=0.5x >}} Data Management
+### Data Management
 Use programs like Microsoft Access to maintain high-quality data in relational databases.
 
 ::: {.learn-more}
