@@ -37,6 +37,7 @@ listing:
     image-align: left
     fields: 
       - title
+      - subtitle
 
 ---
 

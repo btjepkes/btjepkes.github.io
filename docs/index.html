@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
@@ -155,6 +155,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./posts.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./resources.html" rel="" target="">
@@ -233,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="listing-site-listings" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1693316836280" data-listing-reading-time-sort="3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1693776671186" data-listing-reading-time-sort="2">
 <a href="./about.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -261,7 +265,7 @@ A full look at my education, professional experience, and achievements.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1692281870837" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1693776369371" data-listing-reading-time-sort="1">
 <a href="./posts.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -289,7 +293,7 @@ Maps, visualizations, reports, posters, and presentations.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1692139473903" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1693776433325" data-listing-reading-time-sort="1">
 <a href="./research.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -410,6 +414,9 @@ No matching items
 <h5 class="no-anchor card-title listing-title">
 Can You Naturally Protect Shores From Erosion?
 </h5>
+<div class="card-subtitle listing-subtitle">
+Using native plants and natural materials to prevent erosion.
+</div>
 </div>
 </div>
 </a>
@@ -421,6 +428,9 @@ Can You Naturally Protect Shores From Erosion?
 <h5 class="no-anchor card-title listing-title">
 How Scientists Use GIS to Study Wildlife
 </h5>
+<div class="card-subtitle listing-subtitle">
+Exploring use cases of geospatial technologies in wildlife conservation.
+</div>
 </div>
 </div>
 </a>
@@ -432,6 +442,9 @@ How Scientists Use GIS to Study Wildlife
 <h5 class="no-anchor card-title listing-title">
 How to Become a Contemporary Naturalist
 </h5>
+<div class="card-subtitle listing-subtitle">
+Understanding the environment is the first step to appreciating it.
+</div>
 </div>
 </div>
 </a>
@@ -443,6 +456,9 @@ How to Become a Contemporary Naturalist
 <h5 class="no-anchor card-title listing-title">
 Mapping Unfragmented Forest Landscapes Using R
 </h5>
+<div class="card-subtitle listing-subtitle">
+Vizualizing Global Forest Watch data on intact North American forests over time.
+</div>
 </div>
 </div>
 </a>
@@ -454,17 +470,23 @@ Mapping Unfragmented Forest Landscapes Using R
 <h5 class="no-anchor card-title listing-title">
 Streamlining Your Reporting Workflow with Quarto
 </h5>
+<div class="card-subtitle listing-subtitle">
+Manually updating reports is old news, start producing reproducible documents.
+</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="R,Wildlife,Cartography" data-listing-date-sort="1683262800000" data-listing-file-modified-sort="1693758773207" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="g-col-1" data-index="5" data-categories="R,Wildlife,Cartography" data-listing-date-sort="1683262800000" data-listing-file-modified-sort="1693776875116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <a href="./posts/post-four.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Using R to Create an Interactive Heatmap of GBIF Occurrences
 </h5>
+<div class="card-subtitle listing-subtitle">
+Exploring concentrations of Greater sage grouse records in the western US.
+</div>
 </div>
 </div>
 </a>
@@ -494,7 +516,7 @@ No matching items
 <div class="gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-001v2.png" class="lightbox" title="Squirrel Census Density Map" data-description="2018
+<p><a href="./gallery/img-map-001v2.png" class="lightbox" data-description="2018
 
 Squirrel
 
@@ -504,13 +526,13 @@ Sighting
 
 Density
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects" title="Squirrel Census Density Map"><img src="./gallery/img-map-001v2.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Squirrel Census Density Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-endangeredstamps.png" class="lightbox" title="Endangered Species Stamp Map" data-description="Endangered
+<p><a href="./gallery/img-map-endangeredstamps.png" class="lightbox" data-description="Endangered
 
 Species
 
@@ -518,13 +540,13 @@ Stamps
 
 Range
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects" title="Endangered Species Stamp Map"><img src="./gallery/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Endangered Species Stamp Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-table-001.png" class="lightbox" title="Squirrel Census Chart" data-description="2018
+<p><a href="./gallery/img-table-001.png" class="lightbox" data-description="2018
 
 Squirrel
 
@@ -532,13 +554,13 @@ Census
 
 Sighting
 
-Table" data-gallery="personal-projects"><img src="./gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
+Table" data-gallery="personal-projects" title="Squirrel Census Chart"><img src="./gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Squirrel Census Chart</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-10.jpg" class="lightbox" title="Forest Canopy Density Map" data-description="Missouri
+<p><a href="./gallery/img-map-10.jpg" class="lightbox" data-description="Missouri
 
 Tree
 
@@ -546,37 +568,37 @@ Canopy
 
 Density
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects" title="Forest Canopy Density Map"><img src="./gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Forest Canopy Density Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-11.jpg" class="lightbox" title="Great Lakes Watershed Map" data-description="Great
+<p><a href="./gallery/img-map-11.jpg" class="lightbox" data-description="Great
 
 Lakes
 
 Watershed
 
-Map" data-gallery="personal-projects"><img src="./gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects" title="Great Lakes Watershed Map"><img src="./gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Great Lakes Watershed Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-turkey-harvest-maps.png" class="lightbox" title="Turkey Harvest Map" data-gallery="personal-projects"><img src="./gallery/img-turkey-harvest-maps.png" class="img-fluid figure-img"></a></p>
+<p><a href="./gallery/img-turkey-harvest-maps.png" class="lightbox" data-gallery="personal-projects" title="Turkey Harvest Map"><img src="./gallery/img-turkey-harvest-maps.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Turkey Harvest Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-calendar.jpeg" class="lightbox" title="Work Hours Calendar Chart" data-gallery="personal-projects"><img src="./gallery/img-calendar.jpeg" class="img-fluid figure-img"></a></p>
+<p><a href="./gallery/img-calendar.jpeg" class="lightbox" data-gallery="personal-projects" title="Work Hours Calendar Chart"><img src="./gallery/img-calendar.jpeg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Work Hours Calendar Chart</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-5.jpg" class="lightbox" title="Black Bear Sighting Choropleth" data-gallery="personal-projects"><img src="./gallery/img-map-5.jpg" class="img-fluid figure-img"></a></p>
+<p><a href="./gallery/img-map-5.jpg" class="lightbox" data-gallery="personal-projects" title="Black Bear Sighting Choropleth"><img src="./gallery/img-map-5.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Black Bear Sighting Choropleth</figcaption>
 </figure>
 </div>
@@ -843,7 +865,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://creativecommons.org/licenses/by-nc/4.0/">Proudly made using Quarto under a CC BY-NC 4.0 license.</a>
+    <a class="nav-link" href="https://creativecommons.org/licenses/by-nc/4.0/">Proudly made using Quarto under a CC BY-NC 4.0 International license.</a>
   </li>  
 </ul>
     </div>
@@ -883,7 +905,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":true,"closeEffect":"zoom","descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":true,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});</script>
 
 
 

@@ -103,7 +103,7 @@ $h6-font-size:                $font-size-base !default;
 // Navbar
 
 
-$navbar-bg: rgba($white, 0.98);
+$navbar-bg: rgba($white, 1.00);
 $navbar-fg: $blue-5;
 
 $navbar-dark-hover-color:       rgba($white, 1) !default;
@@ -131,7 +131,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;
   @import url($web-font-path);
 }*/
 
-$web-font-path: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" !default;
+$web-font-path: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" !default;
 @if $web-font-path {
   @import url($web-font-path);
 }
@@ -196,7 +196,7 @@ h1::after {
 // Navbar
 
 #quarto-header > nav {
-  border-bottom: solid #abb2bf 2px;
+  border-bottom: solid #2d405f 1px;
 }
 
 
@@ -217,77 +217,70 @@ h1::after {
 /*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
   
+    .navbar .quarto-navbar-tools i {
+      font-size: 30px;
+    }  
   
-  
-  
-.navbar .quarto-navbar-tools i {
-  font-size: 30px;
-}  
-  
-  
+    ul.navbar-nav:nth-child(1) {
+    flex-direction: row;
+    padding: 10px 0px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: right;
+    overflow-x: scroll;
+    }
 
-ul.navbar-nav:nth-child(1) {
-flex-direction: row;
-padding: 10px 0px;
-margin: auto;
-flex-wrap: wrap;
-justify-content: right;
-overflow-x: scroll;
-}
+     /* Toggle icon*/ 
+    .navbar-dark .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23466393' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M26 7H4M30 15H15M26 23H1'/%3e%3c/svg%3e");
+      padding-top: 3px;
+    }
+  
+    .navbar .navbar-toggler {
+      order: -1;
+      margin-right: 0em;
+    } 
+  
+    .navbar-container {
+      flex-direction: row-reverse;
+    }
+      
+    .navbar-brand-container {
+      max-width: 100%;
+      margin-top: 4px;
+    }
+  
+    /*
+    .navbar-collapse {
+      display: flex;
+      flex-basis: 100%;
+      -webkit-flex-basis: 100%;
+      flex-grow: 1;
+      -webkit-flex-grow: 1;
+      align-items: center;
+      -webkit-align-items: center;
+      flex-direction: column;
+      gap: 0px;
+      background: #d2eaf2;
+      margin: 10px auto;
+    }*/
 
-
-  
- /* Toggle icon*/ 
-.navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23466393' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M0 15h15M4 23h25'/%3e%3c/svg%3e");
-  padding-top: 3px;
-}
-  
-.navbar .navbar-toggler {
-  order: -1;
-  margin-right: 0em;
-} 
-  
-  
-.navbar-container {
-  flex-direction: row-reverse;
-}
-  
-.navbar-brand-container {
-  max-width: 100%;
-  margin-top: 4px;
-}
-  
-/*
-.navbar-collapse {
-  display: flex;
-  flex-basis: 100%;
-  -webkit-flex-basis: 100%;
-  flex-grow: 1;
-  -webkit-flex-grow: 1;
-  align-items: center;
-  -webkit-align-items: center;
-  flex-direction: column;
-  gap: 0px;
-  background: #d2eaf2;
-  margin: 10px auto;
-}*/
-
-.about-contents {
-  padding-right: 0px !important;
-}
+    .about-contents {
+      padding-right: 0px !important;
+    }
 
 } /*** MOBILE ONLY - stop ***/
 
 
 nav .nav-item {
-  font-weight: 500;
+  font-weight: 700;
+  opacity: 0.9;
   text-transform: uppercase;
 }
 
 
 nav .nav-item:not(.compact) {
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 
@@ -299,9 +292,10 @@ nav .nav-item a:hover {
 .navbar-brand span {
   font-weight: 1000;
   font-size: 1.04em;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   background: transparent;
   text-transform: uppercase;
+  line-height: 1em;
 }
 
 
@@ -635,7 +629,7 @@ body {
   top: 90px;
   left: 0;
   width: 100%; 
-  height: 60px;
+  height: 48px;
   background-color: teal;
   transform: translateY(-50%);
 }
@@ -834,7 +828,7 @@ div.quarto-post .metadata {
   padding: 10px 10px 20px 30px;
   border-radius: 20px;
   box-shadow: 0 0 5px 0px whitesmoke;
-  border: solid teal 6px;
+  border: solid teal 4px;
   align-items: center;
   background-color: #ffffff;
   background-image: url("assets/bg-topo-white.png");
@@ -896,7 +890,7 @@ div.quarto-post .metadata {
 }
 
 .feature h3 {
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
 .feature .fa-solid {
@@ -1160,6 +1154,11 @@ div.quarto-post .metadata {
   color: indianred;
   font-size: 1.2em;
 }
+
+.index-list ul {
+  padding-left: 1rem;
+}
+
 .index-list li {
   font-size: 1.1em;
   opacity: 0.8;

@@ -5,7 +5,7 @@ image: assets/bg-pines-research-gray-sm.png
 listing:
   contents: research
   type: grid
-  grid-columns: 3
+  grid-columns: 2
   categories: numbered
   sort: "title"
   filter-ui: true  

@@ -5,10 +5,7 @@ subtitle: "Exploring concentrations of Greater sage grouse records in the wester
 date: "5/5/2023"
 abstract: In this blog post, we demonstrate how to use the `rgbif` package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap using Leaflet.
 abstract-title: ""
-categories:
-  - R
-  - Wildlife
-  - Cartography
+categories: [R, Wildlife, Cartography]
 image: img-sage-grouse.jpg
 
 ---
