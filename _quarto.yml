@@ -15,40 +15,22 @@ website:
   navbar:
     logo: img-nav-logo-11.svg
     pinned: false
-    
-    # right:
-    #   - icon: linkedin
-    #     href: https://www.linkedin.com/in/benjamintjepkes/
-    #     aria-label: LinkedIn Profile
-    #   - icon: github
-    #     href: https://github.com/btjepkes
-    #     aria-label: GitHub Profile
-    #   - icon: twitter
-    #     href: https://twitter.com/BTjepkes
-    #     aria-label: Twitter Profile
-    #   - icon: chat-dots-fill
-    #     href: contact.html
-    #     aria-label: contact page
         
     right:
       - href: about.qmd
         text: About
-      - href: cv.qmd
-        text: CV          
       - href: gallery.qmd
         text: Gallery
       - href: posts.qmd
         text: Blog
-      - href: research.qmd
-        text: Research        
       - href: resources.qmd
         text: Resources
       - href: contact.qmd
-        text: Contact   
+        text: Contact 
 
   page-footer:
     center:
-      - text: "Proudly made using Quarto under a CC BY-NC 4.0  International license."
+      - text: "Proudly made using Quarto under a CC BY-NC 4.0 license."
         href: https://creativecommons.org/licenses/by-nc/4.0/      
     left:
       - text: "&copy; Copyright 2021-2023 - B.W. Tjepkes"
@@ -68,23 +50,27 @@ website:
       - icon: house-fill
         href: index.html
         aria-label: home page        
-          
+execute:
+  freeze: true
+
 format:
   html:
     theme: custom.scss
     backgroundcolor: "#FFFFFF"
+    include-in-header: html/seo.html
     toc: true
     smooth-scroll: true
     number-sections: false
     title-block-banner: true
     anchor-sections: false
+    highlight-style: github
     link-external-newwindow: true
     code-overflow: scroll
     grid:
-      sidebar-width: 300px
-      body-width: 1150px
-      margin-width: 300px
-      gutter-width: 2rem
+      sidebar-width: 250px
+      body-width: 800px
+      margin-width: 250px
+      gutter-width: 2.5rem
     filters: 
       - lightbox
     lightbox: auto

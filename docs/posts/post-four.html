@@ -8,6 +8,7 @@
 
 <meta name="author" content="Benjamin Tjepkes">
 <meta name="dcterms.date" content="2023-05-05">
+<meta name="description" content="<strong>?meta:description</strong>">
 
 <title>Benjamin Tjepkes - Using R to Create an Interactive Heatmap of GBIF Occurrences</title>
 <style>
@@ -88,6 +89,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<!--<meta name="description" content="?meta:website.description">-->
+<meta name="author" content="?meta:authorname">
 
 
 <meta property="og:title" content="Benjamin Tjepkes - Using R to Create an Interactive Heatmap of GBIF Occurrences">
@@ -120,20 +123,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv.html" rel="" target="">
- <span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../gallery.html" rel="" target="">
  <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../posts.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../research.html" rel="" target="">
- <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../resources.html" rel="" target="">
@@ -196,7 +191,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Contents</h2>
    
   <ul>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a>
@@ -220,23 +215,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div class="intro-callout callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Article Takeaways
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Querying species occurrence data from the GBIF API using <code>rgbif</code> within RStudio.</li>
-<li>Using the <code>leaflet</code> package to make interactive maps, including heatmaps.</li>
-<li>Cleaning data using basic <code>tidyverse</code> verbs.</li>
-</ul>
-</div>
-</div>
 <section id="background" class="level2">
 <h2 data-anchor-id="background">Background</h2>
 <p>Let’s first run through the species of focus and the data sources for this post.</p>
@@ -270,15 +248,15 @@ Article Takeaways
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-1" data-code-annotation="1" data-code-lines="1,2">For accessing GBIF data. Install if necessary.</span>
+<span data-code-cell="annotated-cell-1" data-code-lines="1,2" data-code-annotation="1">For accessing GBIF data. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-cell="annotated-cell-1" data-code-annotation="2" data-code-lines="3,4">For mapping data interactively. Install if necessary.</span>
+<span data-code-cell="annotated-cell-1" data-code-lines="3,4" data-code-annotation="2">For mapping data interactively. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
 <dd>
-<span data-code-cell="annotated-cell-1" data-code-annotation="3" data-code-lines="5,6">For the heatmap functionality. Install if necessary.</span>
+<span data-code-cell="annotated-cell-1" data-code-lines="5,6" data-code-annotation="3">For the heatmap functionality. Install if necessary.</span>
 </dd>
 </dl>
 </section>
@@ -290,11 +268,11 @@ Article Takeaways
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-annotation="1" data-code-lines="1">This function allows us to see the taxonomic information for our focal species.</span>
+<span data-code-cell="annotated-cell-2" data-code-lines="1" data-code-annotation="1">This function allows us to see the taxonomic information for our focal species.</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-annotation="2" data-code-lines="2">This prints that information to the console.</span>
+<span data-code-cell="annotated-cell-2" data-code-lines="2" data-code-annotation="2">This prints that information to the console.</span>
 </dd>
 </dl>
 </section>
@@ -570,7 +548,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://creativecommons.org/licenses/by-nc/4.0/">Proudly made using Quarto under a CC BY-NC 4.0 International license.</a>
+    <a class="nav-link" href="https://creativecommons.org/licenses/by-nc/4.0/">Proudly made using Quarto under a CC BY-NC 4.0 license.</a>
   </li>  
 </ul>
     </div>
@@ -610,7 +588,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":true});</script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":true,"openEffect":"zoom"});</script>
 
 
 

@@ -65,7 +65,7 @@ $body-color:    $gray-900 !default;
 // Fonts
 
 // stylelint-disable-next-line value-keyword-case
-$font-family-sans-serif:  "Overpass"  ,"Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-sans-serif:  "Lato", "Overpass"  ,"Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
 $headings-font-weight:      400 !default;
 
@@ -90,7 +90,7 @@ $line-height-base:            1.6 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
-$h1-font-size:                $font-size-base * 2.8 !default;
+$h1-font-size:                $font-size-base * 2.4 !default;
 $h2-font-size:                $font-size-base * 2 !default;
 $h3-font-size:                $font-size-base * 1.75 !default;
 $h4-font-size:                $font-size-base * 1.5 !default;
@@ -125,11 +125,17 @@ $progress-height:               .5rem !default;
 
 
 // Variables
-
+/*
 $web-font-path: "https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700&display=swap" !default;
 @if $web-font-path {
   @import url($web-font-path);
+}*/
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" !default;
+@if $web-font-path {
+  @import url($web-font-path);
 }
+
 
 // Typography
 
@@ -150,6 +156,7 @@ h1::after {
   margin-top: 25px;
   width: 20%;
 }
+
 
 .subtitle {
   font-weight: 700;
@@ -189,8 +196,7 @@ h1::after {
 // Navbar
 
 #quarto-header > nav {
-  font-weight: 500;
-  border-bottom: solid #abb2bf 1.2px;
+  border-bottom: solid #abb2bf 2px;
 }
 
 
@@ -219,13 +225,14 @@ h1::after {
 }  
   
   
-  
+
 ul.navbar-nav:nth-child(1) {
 flex-direction: row;
 padding: 10px 0px;
 margin: auto;
 flex-wrap: wrap;
-justify-content: center;
+justify-content: right;
+overflow-x: scroll;
 }
 
 
@@ -251,7 +258,7 @@ justify-content: center;
   margin-top: 4px;
 }
   
-
+/*
 .navbar-collapse {
   display: flex;
   flex-basis: 100%;
@@ -264,7 +271,7 @@ justify-content: center;
   gap: 0px;
   background: #d2eaf2;
   margin: 10px auto;
-}
+}*/
 
 .about-contents {
   padding-right: 0px !important;
@@ -274,13 +281,8 @@ justify-content: center;
 
 
 nav .nav-item {
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
-  opacity: 0.75;
-}
-
-.nav-link.active {
-    color: #3a4753 !important;
 }
 
 
@@ -295,7 +297,7 @@ nav .nav-item a:hover {
 
 
 .navbar-brand span {
-  font-weight: 900;
+  font-weight: 1000;
   font-size: 1.04em;
   letter-spacing: 0.01em;
   background: transparent;
@@ -518,8 +520,8 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
   align-items: center;
   margin-top: calc(-1em - 14px);
   margin-bottom: 0em;
-  padding-top: 4em;
-  padding-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
 }
 
 .intro-banner::before {
@@ -572,7 +574,7 @@ body {
   align-items: center;
   position: relative;
   padding-bottom: 2em;
-  margin-top: 0;
+  margin-top: 3em;
 }
 
 .about::before {
@@ -630,14 +632,13 @@ body {
 .intro-content::after {
   content: "";
   position: absolute;
-  top: -70px;
+  top: 90px;
   left: 0;
   width: 100%; 
   height: 60px;
   background-color: teal;
   transform: translateY(-50%);
 }
-
 
 }
 
@@ -1149,7 +1150,7 @@ div.quarto-post .metadata {
   margin-top: 2em;
   margin-bottom: 0em;
   color: #b21b2b;
-  font-weight: 300;
+  font-weight: 400;
   text-align: left;
 }
 

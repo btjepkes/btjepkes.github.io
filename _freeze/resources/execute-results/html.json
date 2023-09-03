@@ -1,0 +1,14 @@
+{
+  "hash": "77fcf27c8abd2e20d626f3271ba6e0c1",
+  "result": {
+    "markdown": "---\ntitle: \"Resources\"\nsubtitle: My favorite references for ecology, GIS, R, Python, and more.\nimage: assets/bg-pines-resources-purple-sm.png\ntoc: FALSE\nformat:\n  html:\n    echo: false\n    warning: false\n    \n# listing:\n#   id: resource-listings\n#   template: resources/resources.ejs\n#   contents: resources/resources.yml\n#   categories: false\n#   filter-ui: false\n    \n---\n\n\n## Resource Database\n\nUse the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions.\n\n\n::: {.cell}\n\n:::\n\n\n<iframe style=\"width:100%; height:800px; padding:0px;\" src=\"example_resources_table.html\"></iframe>\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

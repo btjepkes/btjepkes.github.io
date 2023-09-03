@@ -1,2 +1,14 @@
 execute: 
   freeze: auto
+description-meta: "{{< meta description >}}"
+
+# Default for table of contents
+toc: true
+toc-title: Contents
+toc-location: right
+
+# Default author
+author:
+  - name: Benjamin Tjepkes  
+    url: //about.qmd
+    orcid: 0009-0002-5524-2675
