@@ -1,0 +1,28 @@
+---
+title: "My Blog Posts"
+subtitle: Explore my writings on ecological and geospatial data science.
+author: ""
+
+description-meta: "Blog Posts - Explore my writings on ecological and geospatial data science."
+
+image: assets/bg-pines-blog-orange-sm.png
+format: 
+  html: 
+    page-layout: full
+listing:
+  contents: "*.qmd"
+  feed: true
+  type: grid
+  grid-columns: 3
+  categories: numbered
+  sort: "date desc"
+  filter-ui: [title, subtitle, description, category]
+  sort-ui: [title, date]
+  fields: 
+    - image
+    - title
+    - subtitle
+    - author
+    - date
+---
+

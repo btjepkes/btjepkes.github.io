@@ -14,8 +14,8 @@ listing:
       - "about.qmd"
       - "research.qmd"
       - "cv.qmd"
-      - "posts.qmd"
-      - "gallery.qmd"
+      - "posts/index.qmd"
+      - "gallery/index.qmd"
       - "resources.qmd"
     type: grid
     grid-columns: 3
@@ -25,12 +25,12 @@ listing:
 
   - id: site-listings-2
     contents:
-      - "post-four.qmd"
-      - "post-three.qmd"
-      - "post-nine.qmd"
-      - "post-ten.qmd"
-      - "post-eleven.qmd"
-      - "post-two.qmd"
+      - "posts/can-you-naturally-protect-shores-from-erosion"
+      - "posts/how-to-become-a-contemporary-naturalist"
+      - "posts/how-scientists-use-gis-to-study-wildlife"
+      - "posts/mapping-unfragmented-forest-landscapes-using-r"
+      - "posts/interactive-heatmap-of-gbif-occurrences"
+      - "posts/streamlining-your-reporting-workflow-with-quarto"
     type: grid
     filter-ui: false
     sort-ui: false
@@ -142,7 +142,7 @@ I have over 7 years of progressive experience with governmental, private, and ac
 
 :::{.index-list}
 
-I consistently engage in a process of ongoing learning. I have actively pursued various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery.qmd) or read about them [here](posts.qmd).
+I consistently engage in a process of ongoing learning. I have actively pursued various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery.qmd) or read about them [here](posts/index.qmd).
 
 :::
 

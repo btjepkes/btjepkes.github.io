@@ -4,27 +4,27 @@
     "items": [
       "/about.html",
       "/cv.html",
-      "/posts.html",
-      "/gallery.html",
+      "/posts/index.html",
+      "/gallery/index.html",
       "/research.html",
       "/resources.html",
-      "/posts/post-eleven.html",
-      "/posts/post-nine.html",
-      "/posts/post-ten.html",
-      "/posts/post-three.html",
-      "/posts/post-two.html",
-      "/posts/post-four.html"
+      "/posts/can-you-naturally-protect-shores-from-erosion/index.html",
+      "/posts/how-scientists-use-gis-to-study-wildlife/index.html",
+      "/posts/how-to-become-a-contemporary-naturalist/index.html",
+      "/posts/mapping-unfragmented-forest-landscapes-using-r/index.html",
+      "/posts/streamlining-your-reporting-workflow-with-quarto/index.html",
+      "/posts/interactive-heatmap-of-gbif-occurrences/index.html"
     ]
   },
   {
-    "listing": "/posts.html",
+    "listing": "/posts/index.html",
     "items": [
-      "/posts/post-two.html",
-      "/posts/post-four.html",
-      "/posts/post-three.html",
-      "/posts/post-nine.html",
-      "/posts/post-ten.html",
-      "/posts/post-eleven.html"
+      "/posts/streamlining-your-reporting-workflow-with-quarto/index.html",
+      "/posts/interactive-heatmap-of-gbif-occurrences/index.html",
+      "/posts/mapping-unfragmented-forest-landscapes-using-r/index.html",
+      "/posts/how-scientists-use-gis-to-study-wildlife/index.html",
+      "/posts/how-to-become-a-contemporary-naturalist/index.html",
+      "/posts/can-you-naturally-protect-shores-from-erosion/index.html"
     ]
   },
   {

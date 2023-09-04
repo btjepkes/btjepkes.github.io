@@ -19,9 +19,9 @@ website:
     right:
       - href: about.qmd
         text: About
-      - href: gallery.qmd
+      - href: gallery/index.qmd
         text: Gallery
-      - href: posts.qmd
+      - href: posts/index.qmd
         text: Blog
       - href: research.qmd
         text: Research        

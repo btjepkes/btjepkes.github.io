@@ -145,5 +145,47 @@
   },
   "gallery/endangered-species-stamp-collection-map.qmd": {
     "endangered-species-stamp-collection-map.html": "884844b9"
+  },
+  "posts/index.qmd": {
+    "index.html": "a320b014"
+  },
+  "posts/streamlining-your-reporting-workflow-with-quarto/post-two.qmd": {
+    "post-two.html": "2f384a0c"
+  },
+  "posts/streamlining-your-reporting-workflow-with-quarto/index.qmd": {
+    "index.html": "aa3299e8"
+  },
+  "posts/interactive-heatmap-of-gbif-occurrences/index.qmd": {
+    "index.html": "71fd6fad"
+  },
+  "posts/mapping-unfragmented-forest-landscapes-using-r/index.qmd": {
+    "index.html": "2f604544"
+  },
+  "posts/can-you-naturally-protect-shores-from-erosion/index.qmd": {
+    "index.html": "3f4b3a57"
+  },
+  "posts/how-scientists-use-gis-to-study-wildlife/index.qmd": {
+    "index.html": "95d73a50"
+  },
+  "posts/how-to-become-a-contemporary-naturalist/index.qmd": {
+    "index.html": "154f55de"
+  },
+  "posts/brownian-bridge-movement-models-in-r/index.qmd": {
+    "index.html": "52d8ae02"
+  },
+  "posts/creating-wonderful-thematic-maps-in-r/index.qmd": {
+    "index.html": "e6845bb7"
+  },
+  "posts/r-coding-tips-from-a-non-programmer/index.qmd": {
+    "index.html": "57b39933"
+  },
+  "posts/using-citation-managers-with-quarto/index.qmd": {
+    "index.html": "697075c5"
+  },
+  "posts/visualizing-usa-national-phenology-network-data-in-r/index.qmd": {
+    "index.html": "2dc277d6"
+  },
+  "gallery/index.qmd": {
+    "index.html": "c98d8f7e"
   }
 }

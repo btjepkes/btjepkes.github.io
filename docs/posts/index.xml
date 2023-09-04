@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Benjamin Tjepkes</title>
+<link>https://btjepkes.github.io/posts/index.html</link>
+<atom:link href="https://btjepkes.github.io/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description>A professional portfolio and technical blog for Benjamin Tjepkes.</description>
+<image>
+<url>https://btjepkes.github.io/assets/bg-pines-blog-orange-sm.png</url>
+<title>Benjamin Tjepkes</title>
+<link>https://btjepkes.github.io/posts/index.html</link>
+</image>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Sun, 28 May 2023 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Streamlining Your Reporting Workflow with Quarto</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/streamlining-your-reporting-workflow-with-quarto/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="background" class="level2">
+<h2 data-anchor-id="background">Background</h2>
+<section id="learning-outcomes" class="level3">
+<h3 data-anchor-id="learning-outcomes">Learning Outcomes</h3>
+<p>In today’s data-driven world, reporting and communicating data insights play a vital role in decision-making processes. However, manual updates and formatting can be time-consuming and error-prone. By adopting reproducible practices, you can save time, increase efficiency, and ensure the accuracy of your reports. Our learning outcomes for this post include the following: - Learn how to use Quarto documents within the RStudio environment. - Learn how to load in TidyTuesday data using a dedicated R package. - Learn how to make basic visualizations and maps.</p>
+</section>
+<section id="what-is-quarto" class="level3">
+<h3 data-anchor-id="what-is-quarto">What is Quarto?</h3>
+<p>Quarto is an open-source document framework built for reproducibility. It integrates seamlessly with RStudio, allowing you to combine code, text, and visualizations in a single document. With Quarto, you can automate the process of report generation, making it easier to update and reproduce documents as your data or analysis changes.</p>
+</section>
+<section id="data-sources" class="level3">
+<h3 data-anchor-id="data-sources">Data Sources</h3>
+</section>
+</section>
+<section id="workflow" class="level2">
+<h2 data-anchor-id="workflow">Workflow</h2>
+<p>To demonstrate how Quarto can streamline your reporting workflow, let’s work with birdfeeder visitation data from FeederWatch. We will parameterize our reports to automatically update based on different filters or date ranges.</p>
+<p>Here’s the R code to get started:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Step 1: Install and load necessary packages</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"quarto"</span>)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(quarto)</span>
+<span id="cb1-4"></span>
+<span id="cb1-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Step 2: Load birdfeeder visitation data</span></span>
+<span id="cb1-6">data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"birdfeeder_data.csv"</span>)</span>
+<span id="cb1-7"></span>
+<span id="cb1-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Step 3: Parameterize your report</span></span>
+<span id="cb1-9">report_title <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Birdfeeder Visitation Report"</span></span>
+<span id="cb1-10">date_range <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"2023-01-01"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"2023-06-30"</span>)</span>
+<span id="cb1-11"></span>
+<span id="cb1-12"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Step 4: Create a Quarto document</span></span>
+<span id="cb1-13"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_document</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"birdfeeder_report.Rmd"</span>,</span>
+<span id="cb1-14">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> report_title,</span>
+<span id="cb1-15">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">params =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">date_range =</span> date_range),</span>
+<span id="cb1-16">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">output =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"birdfeeder_report.html"</span></span>
+<span id="cb1-17">) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-18">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_chunk</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-19">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_code</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"library(ggplot2)"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-20">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_chunk</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-21">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_code</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"filtered_data &lt;- subset(data, Date &gt;= date_range[1] &amp; Date &lt;= date_range[2])"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-22">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_chunk</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-23">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_code</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ggplot(filtered_data, aes(x = Date, y = Visits)) + geom_line()"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-24">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_chunk</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-25">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_code</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ggsave('birdfeeder_plot.png')"</span>)</span></code></pre></div>
+<p>In the code above, we start by installing and loading the quarto package. Then, we load the birdfeeder visitation data from a CSV file. Next, we define the parameters for our report, such as the report title and the desired date range for filtering the data.</p>
+<p>We create a Quarto document using the quarto_document() function, specifying the input R Markdown file, report title, parameter list, and desired output format (in this case, HTML). We then use the quarto_chunk() and quarto_code() functions to add code chunks to our document.</p>
+<p>The code chunks contain R code for filtering the data based on the specified date range and creating a line plot using ggplot2. Finally, we save the generated plot as a PNG file using ggsave().</p>
+</section>
+<section id="in-conclusion" class="level2">
+<h2 data-anchor-id="in-conclusion">In Conclusion</h2>
+<p>By leveraging Quarto and its capabilities for reproducible reporting, you can transform your reporting workflow from manual and error-prone to automated and efficient. Parameterizing reports allows you to easily update and regenerate them based on changing data or analysis requirements.</p>
+<p>Reproducible documents not only save time but also enhance collaboration and ensure the accuracy and integrity of your reports. Give Quarto a try in the RStudio environment and experience the power of streamlining your reporting workflow.</p>
+<p>Start producing reproducible documents today and say goodbye to the hassles of manual report updates!</p>
+<p>Happy reporting with Quarto!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Quarto</category>
+  <category>Reporting</category>
+  <guid>https://btjepkes.github.io/posts/streamlining-your-reporting-workflow-with-quarto/index.html</guid>
+  <pubDate>Sun, 28 May 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/posts/streamlining-your-reporting-workflow-with-quarto/bg-pine-blue.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Using R to Create an Interactive Heatmap of GBIF Occurrences</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="background" class="level2">
+<h2 data-anchor-id="background">Background</h2>
+<p>Let’s first run through the species of focus and the data sources for this post.</p>
+<section id="focal-species" class="level3">
+<h3 data-anchor-id="focal-species">Focal Species</h3>
+<p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
+</figure>
+</div>
+<p>Sage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.</p>
+</section>
+<section id="data-sources" class="level3">
+<h3 data-anchor-id="data-sources">Data Sources</h3>
+<p>Today, we will pull records of sage grouse occurrences from the <a href="https://www.gbif.org/">Global Biodiversity Information Facility</a>. GBIF is a database of species occurrence records from sources all over the globe. <code>rgbif</code>is an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data.</p>
+</section>
+</section>
+<section id="workflow" class="level2">
+<h2 data-anchor-id="workflow">Workflow</h2>
+<section id="load-packages" class="level3">
+<h3 data-anchor-id="load-packages">1. Load Packages</h3>
+<p>Our first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the <code>install.packages()</code> function.</p>
+<div class="sourceCode" id="annotated-cell-1" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-1-1" class="code-annotation-target"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># install.packages("rgbif")</span></span>
+<span id="annotated-cell-1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(rgbif)</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-1-3" class="code-annotation-target"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># install.packages("leaflet")</span></span>
+<span id="annotated-cell-1-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(leaflet)</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-1-5" class="code-annotation-target"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># install.packages("leaflet.extras")</span></span>
+<span id="annotated-cell-1-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(leaflet.extras)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-annotation="1" data-code-cell="annotated-cell-1" data-code-lines="1,2">For accessing GBIF data. Install if necessary.</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-annotation="2" data-code-cell="annotated-cell-1" data-code-lines="3,4">For mapping data interactively. Install if necessary.</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
+<dd>
+<span data-code-annotation="3" data-code-cell="annotated-cell-1" data-code-lines="5,6">For the heatmap functionality. Install if necessary.</span>
+</dd>
+</dl>
+</section>
+<section id="search-gbif" class="level3">
+<h3 data-anchor-id="search-gbif">2. Search GBIF</h3>
+<p>Now that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States. Using the taxonomic name for the species, we can double check the metadata before moving forward.</p>
+<div class="sourceCode" id="annotated-cell-2" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-2-1" class="code-annotation-target">grouse_info <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">name_backbone</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Centrocercus urophasianus"</span>)</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-2-2" class="code-annotation-target">grouse_info</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-annotation="1" data-code-cell="annotated-cell-2" data-code-lines="1">This function allows us to see the taxonomic information for our focal species.</span>
+</dd>
+<dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-annotation="2" data-code-cell="annotated-cell-2" data-code-lines="2">This prints that information to the console.</span>
+</dd>
+</dl>
+</section>
+<section id="extract-locations" class="level3">
+<h3 data-anchor-id="extract-locations">3. Extract Locations</h3>
+<p>As we explore our newly loaded dataframe, you will see there are two columns</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">wyoming_coords <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> wyoming<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>data[, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"decimalLatitude"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"decimalLongitude"</span>)]</span></code></pre></div>
+</section>
+<section id="create-heatmap" class="level3">
+<h3 data-anchor-id="create-heatmap">4. Create Heatmap</h3>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">leaflet</span>(wyoming_coords) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> </span>
+<span id="cb2-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">addTiles</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">addHeatmap</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">lng =</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span>decimalLongitude,</span>
+<span id="cb2-4">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">lat =</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span>decimalLatitude,</span>
+<span id="cb2-5">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">blur =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>,</span>
+<span id="cb2-6">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">max =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>)</span></code></pre></div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Wildlife</category>
+  <category>Cartography</category>
+  <guid>https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/index.html</guid>
+  <pubDate>Fri, 05 May 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Mapping Unfragmented Forest Landscapes Using R</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/mapping-unfragmented-forest-landscapes-using-r/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="background" class="level2">
+<h2 data-anchor-id="background">Background</h2>
+<section id="forest-ecosystems" class="level3">
+<h3 data-anchor-id="forest-ecosystems">Forest Ecosystems</h3>
+<p>Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.</p>
+</section>
+<section id="data-sources" class="level3">
+<h3 data-anchor-id="data-sources">Data Sources</h3>
+<p><strong>Global Forest Watch</strong> (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world’s forests.</p>
+</section>
+</section>
+<section id="workflow" class="level2">
+<h2 data-anchor-id="workflow">Workflow</h2>
+<section id="get-ifl-data" class="level3">
+<h3 data-anchor-id="get-ifl-data">1. Get IFL Data</h3>
+<p>Visit the Global Forest Watch website (https://www.globalforestwatch.org/). Navigate to the “Data” section and select “Intact Forest Landscapes.” Download the IFL dataset in the desired format (e.g., shapefile, geopackage).</p>
+</section>
+<section id="load-packages." class="level3">
+<h3 data-anchor-id="load-packages.">2. Load Packages.</h3>
+<p>To follow along with this tutorial, you will need to have R and the following packages installed: <code>sf</code>, <code>tmap</code>, and <code>dplyr</code>. You can install these packages using the <code>install.packages()</code> function in R.</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(sf)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(dplyr)</span></code></pre></div>
+</section>
+<section id="load-data-in-r" class="level3">
+<h3 data-anchor-id="load-data-in-r">3. Load Data in R</h3>
+<p>Let’s assume you have downloaded the IFL data in shapefile format and saved it as “ifl.shp” in your working directory. We will now load and prepare the data for visualization.</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Read the IFL shapefile</span></span>
+<span id="cb2-2">ifl <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_read</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ifl.shp"</span>)</span>
+<span id="cb2-3"></span>
+<span id="cb2-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Examine the data structure</span></span>
+<span id="cb2-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">head</span>(ifl)</span>
+<span id="cb2-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">summary</span>(ifl)</span></code></pre></div>
+</section>
+<section id="visualize-data" class="level3">
+<h3 data-anchor-id="visualize-data">4. Visualize Data</h3>
+<p>We will use the tmap package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.</p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Load the tmap package</span></span>
+<span id="cb3-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tmap)</span>
+<span id="cb3-3"></span>
+<span id="cb3-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Create a basic map of the IFL polygons</span></span>
+<span id="cb3-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm_shape</span>(ifl) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb3-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm_polygons</span>()</span></code></pre></div>
+</section>
+<section id="customize-map" class="level3">
+<h3 data-anchor-id="customize-map">5. Customize Map</h3>
+<p>We can modify the map’s appearance by changing colors, adding a background, adjusting labels, and more.</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Create a more visually appealing map with customization</span></span>
+<span id="cb4-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm_shape</span>(ifl) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm_fill</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">col =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"green"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">alpha =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.6</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Set polygon color and transparency</span></span>
+<span id="cb4-4">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm_borders</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">col =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Add border color</span></span>
+<span id="cb4-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm_layout</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">legend.position =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"left"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bottom"</span>),  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Adjust legend position</span></span>
+<span id="cb4-6">            <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">legend.bg.color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"white"</span>,  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Set legend background color</span></span>
+<span id="cb4-7">            <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Intact Forest Landscapes"</span>)  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Add map title</span></span></code></pre></div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Forest</category>
+  <category>Cartography</category>
+  <guid>https://btjepkes.github.io/posts/mapping-unfragmented-forest-landscapes-using-r/index.html</guid>
+  <pubDate>Sat, 22 Apr 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://content.globalforestwatch.org/wp-content/uploads/2023/05/model_output_4km_aggregation_tcd30_model_v1.2.3_20230407_for_pres_with_legend__net_flux-2048x968.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>How Scientists Use GIS to Study Wildlife</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="the-spatial-revolution-is-happening-now" class="level2">
+<h2 data-anchor-id="the-spatial-revolution-is-happening-now">The Spatial Revolution Is Happening Now</h2>
+<p>Advancements in geospatial technologies are revolutionizing the field of wildlife research and conservation, providing new and innovative ways to collect and analyze data. Among these technologies, Geographic Information Systems (GIS) have emerged as a powerful tool for understanding the spatial relationships between wildlife, their habitat, and the environment in which they live. By combining maps and other location-based tools, GIS can help conservationists and biologists make informed decisions and take targeted actions to preserve biodiversity and protect threatened species.</p>
+<section id="what-is-gis" class="level3">
+<h3 data-anchor-id="what-is-gis">What is GIS?</h3>
+<p>Geographic Information Systems (GIS) is a technology that enables the collection, management, analysis, and visualization of spatial data. Essentially, it’s a computer-based tool that allows users to create and work with maps and other location-based data. It can range from desktop GIS software used to design maps to GPS-enabled mobile devices that collect location information of physical objects in the field.</p>
+</section>
+<section id="what-are-the-components" class="level3">
+<h3 data-anchor-id="what-are-the-components">What are the components?</h3>
+<p>Sometimes it can be helpful to discuss GIS in the terms of its discrete elements, which all work together to form the system. These components include hardware, software, data, and people.</p>
+<ul>
+<li><p>The <strong>hardware component</strong> of GIS typically includes GPS receivers and other mobile devices that can be used to collect spatial data in the field. For example, biologists might use GPS-equipped collars to track the movements of individual animals, or drones to map remote and inaccessible terrain.</p></li>
+<li><p>The <strong>software component</strong> of GIS encompasses a variety of tools for processing and analyzing spatial data. Some of the most popular GIS software programs include ArcGIS, QGIS, and Google Earth. These programs allow users to create maps, perform spatial analysis, and visualize data in a variety of ways. They can also integrate data from a range of sources, including satellite imagery, aerial photography, and field surveys.</p></li>
+<li><p>The <strong>data component</strong> of GIS includes a vast array of information, from digital maps and satellite imagery to climate data and biological inventories. To be useful, this data must be organized, standardized, and stored in a way that can be easily accessed and analyzed by GIS software.</p></li>
+<li><p>Finally, the <strong>people component</strong> of GIS includes the scientists, technicians, and other professionals who use the technology to collect, manage, and interpret spatial data. These people have the expertise to collect, organize, and present spatial data accurately and in accordance with project goals.</p></li>
+</ul>
+<p>With the right combination of hardware, software, data, and expertise, GIS can be an incredibly powerful tool for advancing our understanding of the natural world and developing effective conservation strategies.</p>
+</section>
+<section id="what-are-the-general-applications" class="level3">
+<h3 data-anchor-id="what-are-the-general-applications">What are the general applications?</h3>
+<p>GIS has numerous applications, from helping urban planners optimize city layouts to assisting epidemiologists in tracking disease outbreaks. With its adaptive and always-evolving set of tools, GIS is beneficial to an unlimited number of occupations, including these:</p>
+<ul>
+<li>Business Analysis</li>
+<li>Landscape and Civil Engineering</li>
+<li>Watershed Management</li>
+<li>Land Surveying</li>
+<li>Emergency Management</li>
+</ul>
+<p>In the context of wildlife research and conservation, GIS is a powerful tool that allows scientists to gain insights into the spatial relationships between different ecological variables, such as habitat types, climate patterns, and animal movements.</p>
+</section>
+</section>
+<section id="providing-solutions-to-study-wildlife" class="level2">
+<h2 data-anchor-id="providing-solutions-to-study-wildlife">Providing Solutions to Study Wildlife</h2>
+<p>Geographic information systems (GIS) have revolutionized wildlife research by providing tools to manage, analyze, and visualize spatial data. <strong>Here are four ways wildlife researchers use GIS to study wildlife and their habitats:</strong></p>
+<section id="surveying-wildlife" class="level3">
+<h3 data-anchor-id="surveying-wildlife">#1 - Surveying wildlife</h3>
+<p>One of the main aims of biologists that need to manage wildlife populations is getting an estimate of density (i.e., animals per unit area), sex ratio (i.e., number of females vs.&nbsp;number of males), and age structure (i.e., the distribution of age classes within a population).</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/FggpvO8J-P8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Population metrics like these and many others are often the result of data collected during field surveys, where biologists count the number of individuals they see or hear along a specified survey route (in most cases). GIS technologies, like those discussed in the below video, are used by biologists to navigate and collect data during surveys.</p>
+</section>
+<section id="habitat-analysis" class="level3">
+<h3 data-anchor-id="habitat-analysis">#2 - Habitat analysis</h3>
+<p>GIS can be used to map and analyze wildlife habitat by collecting data on environmental variables that have been supported by studies to impact the use of that area by wildlife. These metrics could include habitat elements like vegetation type, topographic features, water availability, and other factors that influence habitat quality. This information helps researchers understand the spatial distribution of wildlife species and identify areas that may be important for conservation.</p>
+<p>The mapping capabilities of GIS allow researchers to understand the impact of humans on wildlife, especially when it comes to the fragmentation and reduction of habitat. By mapping and analyzing the size, shape, and connectivity of different habitat patches, they can identify areas where habitat fragmentation is a problem and develop strategies to address it.</p>
+</section>
+<section id="movement-patterns" class="level3">
+<h3 data-anchor-id="movement-patterns">#3 - Movement patterns</h3>
+<p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC." data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife/https:/upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
+</figure>
+</div>
+<p>Biologists use GIS to create models of animal movement, which can help them understand how animals use different habitats and how they move across the landscape. These models combine data on animal behavior, habitat characteristics, and environmental variables. This can be used to identify areas where animals are most likely to be found, as well as areas where targeted conservation efforts would be fruitful.</p>
+</section>
+<section id="disease-mapping" class="level3">
+<h3 data-anchor-id="disease-mapping">#4 - Disease mapping</h3>
+<p>Wildlife disease ecologists use GIS to track the spread of diseases within and among wildlife populations. Spatial analysis tools are used within a GIS to identify disease hotspots, clustering, and spatial trends. By mapping disease outbreaks and analyzing the spatial patterns of infections, researchers can identify areas that may be at high risk and develop targeted interventions to prevent the spread of disease.</p>
+<p>GIS can also be used to model the spread of diseases in wildlife populations. By simulating the movement of animals across the landscape and the transmission of the disease, researchers can predict the likelihood and spread of disease outbreaks. This allows wildlife managers to control the spread of certain diseases by targeting certain high-risk areas.</p>
+</section>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
+<p>Overall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.</p>
+<p>Until next time, Ben</p>
+<p><em>Note: This post was originally part of The Conservation Companion, but is now archived here.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Wildlife</category>
+  <category>GIS</category>
+  <guid>https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife/index.html</guid>
+  <pubDate>Sun, 26 Mar 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife/img-001.svg" medium="image" type="image/svg+xml"/>
+</item>
+<item>
+  <title>How to Become a Contemporary Naturalist</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="naturalists-of-today" class="level2">
+<h2 data-anchor-id="naturalists-of-today">Naturalists of Today</h2>
+<p>Everyone has an inherent connection to nature. You might not recognize it without intentionally looking for it, but it is there. While some venture into a science career and dedicate much of their time to seeking a better understanding of the natural world, not everyone needs to do so. Furthering your appreciation and understanding for the environment can be simple, fun, and worthwhile.</p>
+<section id="are-naturalists-still-around" class="level3">
+<h3 data-anchor-id="are-naturalists-still-around">Are naturalists still around?</h3>
+<p>Contemporary naturalists are individuals who are interested in exploring and studying the natural world around them. The focus could be any aspect of nature, such as plants, animals, or general environmental awareness. Whether you are a scientist, a hobbyist, or simply someone who loves being outside, there are many ways you can become a contemporary naturalist.</p>
+</section>
+<section id="can-i-become-a-naturalist" class="level3">
+<h3 data-anchor-id="can-i-become-a-naturalist">Can I become a naturalist?</h3>
+<p>It is easier than ever to get involved in conservation today. International travel is not required to make an impact worldwide. There is also plenty to be done right in your community. You don’t need a fancy college degree to discuss ecological topics. Nor do you need to be independently wealthy, as much can be done for free, at very little cost, or for just a snippet of your time.</p>
+</section>
+</section>
+<section id="getting-started" class="level2">
+<h2 data-anchor-id="getting-started">Getting Started</h2>
+<p>With a bit of guidance, you can continue your path to becoming a contemporary naturalist. The following action items will help you along this journey as you learn about and connect more with nature.</p>
+<section id="learn-common-bird-calls-around-your-neighborhood." class="level3">
+<h3 data-anchor-id="learn-common-bird-calls-around-your-neighborhood.">Learn common bird calls around your neighborhood.</h3>
+<p>Many birds enjoy making their presence known through song. This allows us to identify individuals down to the species without laying eyes on them. Common birds, like the American robin (Turdus migratorius), can usually be heard readily in most yards. Why not just learn how to identify them by sight? Well, that’s certainly something to work on too, but oftentimes you will only be able to hear the birds and not see them. This is especially true for birds that spend most of their time in the tree canopy.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding." data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist/https:/images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Along with a keen ear, a good set of binoculars are an excellent compliment when birding.</figcaption>
+</figure>
+</div>
+<p>There are countless ways to begin learning the different sounds and songs of these species. One of my favorite ways is by playing games on Larkwire, an app for mastering bird sounds and visual identification. There is a whole set of common bird songs you can access for free, while more advanced ones can be purchased as add-ons inside the app. The popular eBird mobile app can also help you identify birds by simply recording their songs. The app will automatically search the eBird sound database and return suggested IDs. I am also a huge fan of surfing YouTube to find videos on bird identification.</p>
+</section>
+<section id="discover-and-explore-your-watershed." class="level3">
+<h3 data-anchor-id="discover-and-explore-your-watershed.">Discover and explore your watershed.</h3>
+<p>Every location on land, including where you live and work, is part of a watershed. These large swaths of land funnel a large portion of available water to an outlet, such as a stream or bay. One way I think of it is that every drop of water is just trying to get back to the ocean. Take some time to identify the boundaries of your watershed (this USGS tool can help you with that). Remember, a single property might even be within multiple watersheds.</p>
+<p>Exploring your watershed both on the ground and via maps can give you a complete view. Think about what goes on throughout this area and whether you would like to be downstream of it. As you can imagine, local influences have a collective effect along this pathway, whether positive or negative. This snowballing potential is the exact reason why land managers need to think on a landscape scale. It also highlights the importance of entire community conservation efforts.</p>
+</section>
+<section id="use-mobile-apps-to-explore-nature-around-you." class="level3">
+<h3 data-anchor-id="use-mobile-apps-to-explore-nature-around-you.">Use mobile apps to explore nature around you.</h3>
+<p>Whether you are ordering pizza or trying to identify an unknown plant, there is an app out there for you. Most popular apps are available on both iOS and Android, so accessing them should not be much trouble. Some even have the ability to download content for offline use, so you can still use the app while away from cell service.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" title="Many apps provide ways of capturing data offline, then uploading once connected again." data-gallery="quarto-lightbox-gallery-2"><img src="https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist/https:/images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Many apps provide ways of capturing data offline, then uploading once connected again.</figcaption>
+</figure>
+</div>
+<p>The following apps are some of my favorites when it comes to recording nature observations and getting help with an ID.</p>
+<ul>
+<li><strong>iNaturalist</strong> — a social network for sharing biodiversity information with other naturalists in your region and conservation scientists around the world. iNaturalist can help you identify unknown plants and animals through AI image recognition and a community of contributors.</li>
+<li><strong>Merlin Bird ID</strong> — helps you identify birds you see and hear by referencing data on eBird, the world’s largest database of bird sightings, sounds, and photos. Merlin Bird ID can use deep learning to provide ID suggestions based on photos and sound recordings.</li>
+<li><strong>eBird Mobile</strong> — allows you to record your bird observations while in the field and link those records to their worldwide database for you and scientists to reference. eBird Mobile allows you to build checklists based on your location and includes scientific and common names for birds around the world.</li>
+<li><strong>Nature’s Notebook</strong> — a program for observing and recording plant and animal life cycle events, like flowering and bird migration. Nature’s Notebook connects your observations to the databases of the USA National Phenology Network.</li>
+</ul>
+</section>
+<section id="collect-and-identify-local-plants-electronically." class="level3">
+<h3 data-anchor-id="collect-and-identify-local-plants-electronically.">Collect and identify local plants electronically.</h3>
+<p>The wealth of plant diversity is mind-blowing when you first set off. It can be hard to imagine how anyone might begin exploring this world of wonderment. While some choose to dive straight into the plant taxonomy literature, that might lead to jargon overload and eventual dismissal. I usually suggest that folks start with a general survey of the plants around them.</p>
+<p>Take a walk through your property or local natural area and stop if you see a plant you are not familiar with. Examine how the specimen is positioned in its surroundings and what the conditions are where it is growing. If local laws and regulations allow you to do so, consider collecting this plant so you can examine it once you are out of the field. In some situations, it might be preferable to collect the plant digitally via your cell phone. Consider using an app like iNaturalist to submit a new record, or simply take several photos of the plant to reference later on.</p>
+<p><em>Note: Many natural areas, state parks, and other designations have specific laws preventing the collection of plant material without the proper permit, so be sure to check with local authorities before heading into the field.</em></p>
+</section>
+<section id="read-nature-books-and-ecology-articles." class="level3">
+<h3 data-anchor-id="read-nature-books-and-ecology-articles.">Read nature books and ecology articles.</h3>
+<p>There are lots of high-quality ecology books out there. Some writings can be technical, while others are on the light reading side. I try to include a good mixture of both throughout my reading selection. If you are just beginning your naturalist journey, consider reading introductory texts or flipping through a descriptive field guide.</p>
+<p>Remember that building with all the books in it? You should really take advantage of your local library resources! I did a quick search on the website of my library for ecology and it returned over fifty books on the subject. Librarians are also some of the best people in the world and can often point you in the right direction.</p>
+<p>There are also thousands of free online books on conservation, ecology, and many other topics. Most of these are publications put out by research groups or universities across the country. A simple web search of “topic + filetype:pdf” will usually provide you with some nice options to peruse.</p>
+</section>
+<section id="volunteer-for-a-local-nonprofit-conservation-group." class="level3">
+<h3 data-anchor-id="volunteer-for-a-local-nonprofit-conservation-group.">Volunteer for a local nonprofit conservation group.</h3>
+<p>Enjoy doing great work for nature? Great to hear! Local conservation groups need dedicated people like you to achieve their missions. Land trusts, natural study societies, conservation organizations, and many other groups rely on support from local citizens to keep their entities running.</p>
+<p>It’s not all pulling weeds and applying herbicide either. Fundraising, clerical work, social media content creation, website maintenance, education, and bookkeeping are the common tasks needed by many organizations.</p>
+</section>
+<section id="take-a-master-naturalist-class." class="level3">
+<h3 data-anchor-id="take-a-master-naturalist-class.">Take a master naturalist class.</h3>
+<p>Community education classes, like the Master Naturalist program, are a perfect way to gain exposure to different science topics. These programs typically operate out of University extension offices in cooperation with other organizations and focus on conservation education.</p>
+<p>Community education classes are both an excellent way to learn about nature and meet like-minded conservationists in your neighborhood. Participants learn about the ecology of their local environment and the importance of protecting biodiversity. They also get the opportunity to develop a deeper understanding of the natural world, through hands-on field trips and activities.</p>
+</section>
+<section id="look-through-threatened-and-endangered-species-lists." class="level3">
+<h3 data-anchor-id="look-through-threatened-and-endangered-species-lists.">Look through threatened and endangered species lists.</h3>
+<p>Most states and regions have a designated list of threatened and endangered (T&amp;E) resources. Most can be found online through your state’s natural resources agency. These lists are not something a species wants to be on. Inclusion typically means that local levels for that species or subspecies are way lower than they should be to maintain a healthy population.</p>
+<p>Learning about T&amp;E species in your area can be pretty eye-opening. Even we biologists need to brief ourselves occasionally on new species of concern. Find a listed species you do not know much about, then research the known life history and reason(s) for listing. More often than not, the two are linked. Look into the primary threats and how to mitigate them.</p>
+</section>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
+<p>While this is neither a required list nor a comprehensive one, I hope you are able to try some of these activities and begin to share them with family and friends. I happily welcome comments from readers with more suggestions.</p>
+<p>Until next time, Ben</p>
+<p><em>Note: This post was originally part of The Conservation Companion, but is now archived here.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Nature</category>
+  <category>Education</category>
+  <guid>https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist/index.html</guid>
+  <pubDate>Tue, 18 Oct 2022 05:00:00 GMT</pubDate>
+  <media:content url="https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80" medium="image"/>
+</item>
+<item>
+  <title>Can You Naturally Protect Shores From Erosion?</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="erosion-is-a-two-sided-story" class="level2">
+<h2 data-anchor-id="erosion-is-a-two-sided-story">Erosion Is A Two-Sided Story</h2>
+<p>Shoreline erosion is a common problem faced by thousands of waterfront property owners. Many of whom view erosion issues as an inevitable consequence of living near the water. However, it is important to recognize that human actions can significantly contribute to and exacerbate erosion, and that there are steps we can take to prevent or reduce it.</p>
+<p>Our shorelines serve as the conversion zone between land and water. This is an extremely tough and very important job. With the many forces acting on them, our shores need to be maintained for the health of our natural systems and the security of our infrastructure.</p>
+<p>The problem is that these forces are relentless. Wave action in the summer and ice push in the winter both nick away soil along the water’s edge. Run-off from streets and the upheaving frost action degrade shorelines from the land side. All while the wind erodes the ground from both sides.</p>
+<p>In general, lakes are considered depositional features, and rivers as erosional features. There are some differences between these classifications but both mean that a great deal of energy is acting on your shoreline every moment. Erosional forces already push coasts to their structural limit. Then we as humans come along and intensify those forces to the detriment of both parties.</p>
+</section>
+<section id="human-activities-are-impactful" class="level2">
+<h2 data-anchor-id="human-activities-are-impactful">Human Activities Are Impactful</h2>
+<p>Unfortunately, many of the activities we partake in as humans make conditions worse for our water features. We do not set out to intentionally harm these systems, rather the impacts are a by-product of other pursuits.</p>
+<section id="reducing-the-amount-of-shoreline-vegetation" class="level3">
+<h3 data-anchor-id="reducing-the-amount-of-shoreline-vegetation">Reducing the Amount of Shoreline Vegetation</h3>
+<p>For one reason or another, many waterfront property owners like to clear the vegetation along their shoreline. Terrestrial plants (those on land) get torn out to create a clear view of the water and provide direct access to the shore. Then aquatic plants (those in the water) are removed to open up areas for docks and swimming. This essentially removes a large portion of the soil’s structural support system.</p>
+<p>If you think of the soil as concrete, the root systems of plants are comparable to the rebar latticework placed by masons to reinforce the cement. Take all that away, and you open up your shoreline to erosional forces and even collapse. Not a good situation.</p>
+</section>
+<section id="increasing-the-amount-of-impervious-surfaces" class="level3">
+<h3 data-anchor-id="increasing-the-amount-of-impervious-surfaces">Increasing the Amount of Impervious Surfaces</h3>
+<p>The copious amounts of water are another serious issue. Increased development around bodies of water has led to a considerable spike in the number of impervious surfaces. These areas, such as paved driveways, parking lots, and roads, do not allow water to seep into the ground during storm events. Instead, mass amounts of water combine and run off into the water, carrying soil with it.</p>
+</section>
+</section>
+<section id="this-has-system-wide-effects" class="level2">
+<h2 data-anchor-id="this-has-system-wide-effects">This Has System-Wide Effects</h2>
+<p>Shoreline degradation is harmful to landowners, the water, and the plants and animals that occupy these areas. Increases in soil erosion cause a dramatic influx of minerals and nutrients into waterways. Now you might be thinking this is a good thing. Pedialyte for the plants to grow big and strong, right? While some nutrients in this runoff promote plant growth, the issue lies in volumes being emptied into the water.</p>
+<section id="eutrophication" class="level3">
+<h3 data-anchor-id="eutrophication">Eutrophication</h3>
+<p>Plants and other photosynthesizing organisms are limited by certain chemicals, namely nitrogen and phosphorus. Accelerated runoff introduces these chemicals at an unnatural rate. Once this happens, a process known as eutrophication is sure to follow.</p>
+<p>The immediate release of nutrients in runoff allows plants and algae to grow prolifically. Large sheets of algae then cover the entire surface of the water. Since this prevents the sun’s rays from penetrating the surface, most submergent plants cannot photosynthesize. Over time, the plants produce less and less oxygen. This leads to a poor supply of dissolved oxygen available for aquatic invertebrates and fish.</p>
+</section>
+<section id="increased-turbidity" class="level3">
+<h3 data-anchor-id="increased-turbidity">Increased Turbidity</h3>
+<p>Even when eutrophication does not occur, the rapidly eroding soil makes the water more turbid (cloudy). This increase in suspended particles blocks the sun’s rays from getting to aquatic plants under the water. The same negative result as before.</p>
+</section>
+</section>
+<section id="common-solutions" class="level2">
+<h2 data-anchor-id="common-solutions">Common Solutions</h2>
+<p>Spend any amount of time on a developed lake, and you will get an idea of how many waterfront property owners choose to protect their shorelines. Rip-rap and seawalls.</p>
+<p>These two methods are often promoted heavily by contractors as the only available option to protect your shoreline. Both of these approaches do have some applicability in some situations. However, it would be in your and your ecosystem’s best interest to consider these options only as a last resort.</p>
+<section id="rip-rap" class="level3">
+<h3 data-anchor-id="rip-rap">Rip-Rap</h3>
+<p>Riprap is a technique that uses loose angular rock to stabilize slopes and protect shorelines from wave action. Rip-rap removes and prevents most plant life at the initial 10 to 20 feet of your shoreline. This functionally eliminates all the quality habitats for fish, wildlife, and invertebrates in this range.</p>
+</section>
+<section id="seawalls" class="level3">
+<h3 data-anchor-id="seawalls">Seawalls</h3>
+<p>Seawalls are large barriers, typically constructed of concrete, positioned between the shore and the water to block waves from contacting the coast. Seawalls likewise remove essential habitats but have additional impacts.</p>
+<p>In many cases, seawalls actually increase the amount of erosion. When waves hit the wall, they are generally reflected laterally and downward. This movement causes the scouring of sediment in front of the seawall and also pushes water towards surrounding properties. Essentially, seawalls only protect the shoreline immediately behind them. Which is not a viable solution when thinking about shorelines along an entire water system.</p>
+</section>
+</section>
+<section id="natural-solutions" class="level2">
+<h2 data-anchor-id="natural-solutions">Natural Solutions</h2>
+<p>If we want to preserve the biological integrity and health of our aquatic systems, we need to re-think how we build along our shorelines. The best way to begin is to picture how an undeveloped shoreline would look…</p>
+<p>Plants sprawled from the water’s edge to above the high water mark on the shore. The uneven structure of vegetation and fallen branches almost make it appear messy. Damselflies, turtles, and frogs abound. Fish darting from shady log to shady log. — That’s the goal.</p>
+<p>So you might be wondering, can I mimic a natural shoreline while maintaining a good aesthetic? Yes, you definitely can! Let us discuss the solutions of how to protect your shoreline naturally.</p>
+<section id="solution-1-use-native-plants-to-improve-shoreline-integrity" class="level3">
+<h3 data-anchor-id="solution-1-use-native-plants-to-improve-shoreline-integrity">Solution #1: Use Native Plants to Improve Shoreline Integrity</h3>
+<p>Using native plants to act as a buffer between land and water is an excellent method to help reduce erosional forces and pollution. The key to making these plants effective is placing them in suitable areas and arrangements.</p>
+<p>Take some time to research how each species grows and how deep its roots typically go. Look for plants that will establish while fully saturated and some that will do well along the bank. Like other native plantings, shoreline plants will generally take 1-5 years to fully mature and form a stable root arrangement.</p>
+</section>
+<section id="solution-2-install-coir-logs-to-encourage-plant-establishment" class="level3">
+<h3 data-anchor-id="solution-2-install-coir-logs-to-encourage-plant-establishment">Solution #2: Install Coir Logs to Encourage Plant Establishment</h3>
+<p>Coir, a biodegradable fiber made from the outer husks of coconuts, makes an excellent material to use near and in water. Placing natural coir logs along your shoreline protects the sediment from wave action. Coir logs are strong enough to stand up against years of wave action and the occasional storm if installed correctly. There is no risk of potential chemical contamination, and the fiber will break down after just 2 to 5 years.</p>
+</section>
+<section id="solution-3-place-erosion-control-fabric-to-stabilize-bank" class="level3">
+<h3 data-anchor-id="solution-3-place-erosion-control-fabric-to-stabilize-bank">Solution #3: Place Erosion Control Fabric to Stabilize Bank</h3>
+<p>Erosion control fabric is a type of geotextile material that is used to stabilize soil and prevent erosion on slopes and banks. These sheets of fabric are made of natural materials, such as coconut fiber or jute, and are designed to hold the soil in place while allowing water to pass through.</p>
+<p>Erosion control fabric comes into play when dealing with any slope of the bank. This is usually slopes of at least 3:1 (3 feet of horizontal distance for every 1 foot of vertical drop). You should also consider the type of soil and vegetation that are present at the site, as well as the climate and weather conditions.</p>
+<p>To install erosion control fabric, you will need to clear any taller vegetation or debris from the site and lay the fabric over the slope. The fabric should be secured to the ground using stakes or grass plugs, which will help to anchor it in place. You can then plant grass or other vegetation on top of the fabric to help hold it in place and provide additional structure to the soil.</p>
+<p>Erosion control fabric is a simple and effective solution for stabilizing banks and preventing erosion. It is durable and long-lasting, and can help to protect your property from the damaging effects of water and wind erosion.</p>
+</section>
+<section id="solution-4-slow-down-water-flow-using-rain-gardens" class="level3">
+<h3 data-anchor-id="solution-4-slow-down-water-flow-using-rain-gardens">Solution #4: Slow Down Water Flow Using Rain Gardens</h3>
+<p>Rain gardens are designed to mimic the natural hydrology of a site and can be an effective tool for slowing down the flow of water and reducing soil erosion. They work by collecting and temporarily storing excess rainwater, allowing it to infiltrate into the soil rather than running off the surface. Rain gardens can be used to manage runoff from a variety of sources, including roofs, driveways, and sidewalks.</p>
+<p>To create a rain garden, you will need to select a site that is located in a low-lying area of your yard and has good drainage. The garden should be at least 10 feet away from the foundation of your home and any other structures. The size and shape of the garden will depend on the amount of runoff that you are trying to manage and the slope of the site. You should also choose plants that are well-suited to your region and don’t mind having their roots intermittently wet.</p>
+<p>Rain gardens can provide a number of benefits in addition to slowing down water flow and reducing soil erosion. They can also help to improve water quality by filtering pollutants from runoff, provide habitat for wildlife, and add beauty to your yard. Overall, rain gardens can be an effective and sustainable solution for managing water runoff and protecting your yard from erosion.</p>
+</section>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
+<p>The techniques I mentioned above are best when used in concert with one another. Together they form a healthy and resilient shoreline that looks beautiful. If you have some waterfront property, please consider using some of these methods to protect your shore.</p>
+<p>In some locations, there might also be cost-share programs through local soil and water conservation entities you can take advantage of.</p>
+<p>Until next time, Ben</p>
+<p><em>Note: This post was originally written for The Conservation Companion, but is now archived here.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Nature</category>
+  <category>Education</category>
+  <guid>https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion/index.html</guid>
+  <pubDate>Sun, 16 Oct 2022 05:00:00 GMT</pubDate>
+  <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934" medium="image"/>
+</item>
+</channel>
+</rss>

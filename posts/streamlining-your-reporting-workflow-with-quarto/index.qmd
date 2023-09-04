@@ -1,0 +1,84 @@
+---
+title: "Streamlining Your Reporting Workflow with Quarto"
+subtitle: "Manually updating reports is old news, start producing reproducible documents."
+author:
+  - name: Benjamin Tjepkes  
+    url: //about.qmd
+    orcid: 0009-0002-5524-2675
+date: "5/28/2023"
+abstract: In this post, we talk about how to make your reporting workflows much easier by using reproducible formats. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing reports using Quarto in the RStudio environment.
+abstract-title: ""
+categories:
+  - R
+  - Quarto
+  - Reporting
+image: bg-pine-blue.jpg
+draft: FALSE
+aliases: 
+  - /posts/post-two.html
+---
+
+## Background
+
+### Learning Outcomes
+
+In today's data-driven world, reporting and communicating data insights play a vital role in decision-making processes. However, manual updates and formatting can be time-consuming and error-prone. By adopting reproducible practices, you can save time, increase efficiency, and ensure the accuracy of your reports. Our learning outcomes for this post include the following:
+- Learn how to use Quarto documents within the RStudio environment.
+- Learn how to load in TidyTuesday data using a dedicated R package.
+- Learn how to make basic visualizations and maps.
+
+### What is Quarto?
+
+Quarto is an open-source document framework built for reproducibility. It integrates seamlessly with RStudio, allowing you to combine code, text, and visualizations in a single document. With Quarto, you can automate the process of report generation, making it easier to update and reproduce documents as your data or analysis changes.
+
+### Data Sources
+
+## Workflow
+
+To demonstrate how Quarto can streamline your reporting workflow, let's work with birdfeeder visitation data from FeederWatch. We will parameterize our reports to automatically update based on different filters or date ranges.
+
+Here's the R code to get started:
+
+```r
+# Step 1: Install and load necessary packages
+install.packages("quarto")
+library(quarto)
+
+# Step 2: Load birdfeeder visitation data
+data <- read.csv("birdfeeder_data.csv")
+
+# Step 3: Parameterize your report
+report_title <- "Birdfeeder Visitation Report"
+date_range <- c("2023-01-01", "2023-06-30")
+
+# Step 4: Create a Quarto document
+quarto_document("birdfeeder_report.Rmd",
+  title = report_title,
+  params = list(date_range = date_range),
+  output = "birdfeeder_report.html"
+) %>%
+  quarto_chunk() %>%
+  quarto_code("library(ggplot2)") %>%
+  quarto_chunk() %>%
+  quarto_code("filtered_data <- subset(data, Date >= date_range[1] & Date <= date_range[2])") %>%
+  quarto_chunk() %>%
+  quarto_code("ggplot(filtered_data, aes(x = Date, y = Visits)) + geom_line()") %>%
+  quarto_chunk() %>%
+  quarto_code("ggsave('birdfeeder_plot.png')")
+```
+
+In the code above, we start by installing and loading the quarto package. Then, we load the birdfeeder visitation data from a CSV file. Next, we define the parameters for our report, such as the report title and the desired date range for filtering the data.
+
+We create a Quarto document using the quarto_document() function, specifying the input R Markdown file, report title, parameter list, and desired output format (in this case, HTML). We then use the quarto_chunk() and quarto_code() functions to add code chunks to our document.
+
+The code chunks contain R code for filtering the data based on the specified date range and creating a line plot using ggplot2. Finally, we save the generated plot as a PNG file using ggsave().
+
+## In Conclusion
+
+By leveraging Quarto and its capabilities for reproducible reporting, you can transform your reporting workflow from manual and error-prone to automated and efficient. Parameterizing reports allows you to easily update and regenerate them based on changing data or analysis requirements.
+
+Reproducible documents not only save time but also enhance collaboration and ensure the accuracy and integrity of your reports. Give Quarto a try in the RStudio environment and experience the power of streamlining your reporting workflow.
+
+Start producing reproducible documents today and say goodbye to the hassles of manual report updates!
+
+Happy reporting with Quarto!

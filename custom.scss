@@ -170,6 +170,9 @@ h1::after {
   color: $green;
 }
 
+.abstract {
+  color: $light-green;
+}
 
 // Indicators
 
@@ -196,7 +199,9 @@ h1::after {
 // Navbar
 
 #quarto-header > nav {
-  border-bottom: solid #2d405f 1px;
+  border-bottom: solid #2d405f 0px;
+  box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
+	0px 6.4px 14.4px rgba(0,0,0,0.132);
 }
 
 
@@ -227,18 +232,18 @@ h1::after {
     margin: auto;
     flex-wrap: wrap;
     justify-content: right;
-    overflow-x: scroll;
     }
 
      /* Toggle icon*/ 
-    .navbar-dark .navbar-toggler-icon {
+    /*.navbar-dark .navbar-toggler-icon {
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23466393' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M26 7H4M30 15H15M26 23H1'/%3e%3c/svg%3e");
       padding-top: 3px;
-    }
+    }*/
   
     .navbar .navbar-toggler {
       order: -1;
       margin-right: 0em;
+      padding-right: 0;
     } 
   
     .navbar-container {
@@ -335,10 +340,10 @@ nav .nav-item a:hover {
   color: white;
   padding-top: 2.4em;
   padding-bottom: 2.4em;
-	border-bottom: $gray-500 solid 1px;
+	border-bottom: $gray-500 solid 0px;
 	background-color: $blue-5;
-	box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
-	0px 6.4px 14.4px rgba(0,0,0,0.132);
+	/*box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
+	0px 6.4px 14.4px rgba(0,0,0,0.132);*/
 	background-image: url("assets/bg-topo-white.png");
   background-attachment: fixed;
   opacity: 0; /* Initially hidden */
@@ -828,7 +833,7 @@ div.quarto-post .metadata {
   padding: 10px 10px 20px 30px;
   border-radius: 20px;
   box-shadow: 0 0 5px 0px whitesmoke;
-  border: solid teal 4px;
+  border: solid teal 3px;
   align-items: center;
   background-color: #ffffff;
   background-image: url("assets/bg-topo-white.png");
@@ -1160,7 +1165,6 @@ div.quarto-post .metadata {
 }
 
 .index-list li {
-  font-size: 1.1em;
   opacity: 0.8;
 }
 .index-list strong {
