@@ -45,14 +45,14 @@ listing:
 
 ::: {.intro-headshot}
 
-![](assets/img-ben-portrait-2.jpg){.nolightbox .headshot-img}
+![](assets/img-ben-with-bear-2.jpg){.nolightbox .headshot-img}
 
 :::
 
 
 ::: {.intro-content }
 #### Wildlife Ecologist & Geographer
-# Studying nature through scientfic inqury and geospatial technologies.
+# Exploring our natural world through data and geospatial technologies.
 
 Welcome to my professional portfolio. I'm an experienced wildlife ecologist and geography graduate student with a focus on applied geospatial and conservation science.
 
