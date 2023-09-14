@@ -207,7 +207,7 @@ h1::after {
 
 @media (min-width: 991.98px) {
   #quarto-header > nav {
-    height: 60px;
+    height: 65px;
   }
     }
 
@@ -280,7 +280,7 @@ h1::after {
 nav .nav-item {
   font-weight: 700;
   opacity: 0.9;
-  text-transform: uppercase;
+  font-size: 1.2em;
 }
 
 
@@ -305,13 +305,14 @@ nav .nav-item a:hover {
 
 
 .navbar-brand span::after {
-  content: "Ecology • Geospatial • Analytics";
+  content: "Ecology - Geospatial - Analytics";
   font-weight: 600;
   letter-spacing: 0.01em;
   display: block;
-  font-size: 11px;
+  font-size: 14px;
   margin-top: -6px;
   color: #338a94;
+  text-transform: none;
 }
 
 
@@ -519,8 +520,8 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
   align-items: center;
   margin-top: calc(-1em - 14px);
   margin-bottom: 0em;
-  padding-top: 2em;
-  padding-bottom: 1.5em;
+  padding-top: 2.5em;
+  padding-bottom: 2em;
 }
 
 .intro-banner::before {
@@ -831,9 +832,8 @@ div.quarto-post .metadata {
 .feature {
   margin-top: 20px;
   padding: 10px 10px 20px 30px;
-  border-radius: 20px;
-  box-shadow: 0 0 5px 0px whitesmoke;
-  border: solid teal 3px;
+  border-radius: 0px;
+  box-shadow: 0 0 5px 0px teal;
   align-items: center;
   background-color: #ffffff;
   background-image: url("assets/bg-topo-white.png");

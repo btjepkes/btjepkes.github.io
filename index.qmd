@@ -51,10 +51,10 @@ listing:
 
 
 ::: {.intro-content }
-#### Hello there,
-# My name is Benjamin Tjepkes and this is my professional portfolio.
+#### Wildlife Ecologist & Geographer
+# Studying nature through scientfic inqury and geospatial technologies.
 
-I'm an experienced wildlife ecologist and geography graduate student with a focus on applied geospatial and conservation science.
+My name is Ben and this is my professional portfolio. I'm an experienced wildlife ecologist and geography graduate student with a focus on applied geospatial and conservation science.
 
 :::
 :::
@@ -63,7 +63,7 @@ I'm an experienced wildlife ecologist and geography graduate student with a focu
 
 ::: {.index-section-heading}
 
-## Announcements {.index-h2}
+## Updates {.index-h2}
 
 ::: {.index-h2-line}
 :::
@@ -142,7 +142,7 @@ I have over 7 years of progressive experience with governmental, private, and ac
 
 :::{.index-list}
 
-I consistently engage in a process of ongoing learning. I have actively pursued various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery.qmd) or read about them [here](posts/index.qmd).
+I consistently engage in a process of ongoing learning. I have actively pursued various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery/index.qmd) or read about them [here](posts/index.qmd).
 
 :::
 
@@ -233,7 +233,7 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 :::{.index-list}
 
-My blog posts cover a vast range of information in the **ecological and geospatial sciences**. You can find everything from quick map breakdowns to full tutorials on data wrangling and visualization. View the entire archive of my posts [here](posts.qmd).
+My blog posts cover a vast range of information in the **ecological and geospatial sciences**. You can find everything from quick map breakdowns to full tutorials on data wrangling and visualization. View the entire archive of my posts [here](posts/index.qmd).
 
 :::
 
@@ -251,10 +251,10 @@ My blog posts cover a vast range of information in the **ecological and geospati
 
 ::: {.bg-banner-3}
 
-#### Technically creative. {.index-h4}
+#### Visualization. {.index-h4}
 
 ::: {.index-section-heading}
-## Visualizations {.index-h2}
+## Gallery {.index-h2}
 
 ::: {.index-h2-line}
 :::
@@ -270,7 +270,7 @@ My blog posts cover a vast range of information in the **ecological and geospati
 
 :::{.index-list}
 
-My creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like MapPromptMonday and TidyTuesday. Find the entirety of my gallery [here](gallery.qmd).
+My creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like MapPromptMonday and TidyTuesday. Find the entirety of my gallery [here](gallery/index.qmd).
 
 :::
 
