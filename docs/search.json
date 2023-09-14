@@ -112,6 +112,13 @@
     "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, 30 Day Map Challenge, and other social media contests.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nRelative Skills Barchart\n\n\n\n\n\nBat HCP Poster\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
   },
   {
+    "objectID": "gallery/index.html#tools-in-my-toolbox",
+    "href": "gallery/index.html#tools-in-my-toolbox",
+    "title": "My Gallery",
+    "section": "Tools In My Toolbox",
+    "text": "Tools In My Toolbox\nMost of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks."
+  },
+  {
     "objectID": "gallery/gallery-poster-two.html#tools-and-workflow",
     "href": "gallery/gallery-poster-two.html#tools-and-workflow",
     "title": "Poster on Bat Habitat Conservation Plan in Missouri",
@@ -184,44 +191,44 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Exploring our natural world through data and geospatial technologies.",
+    "title": "Integrating science, data, and geospatial.",
     "section": "",
     "text": "Welcome to my professional portfolio. I’m an experienced wildlife ecologist and geography graduate student with a focus on applied geospatial and conservation science."
   },
   {
-    "objectID": "index.html#announcements",
-    "href": "index.html#announcements",
-    "title": "Studying nature through scientfic inqury and geospatial technologies.",
-    "section": "Announcements",
-    "text": "Announcements"
+    "objectID": "index.html#updates",
+    "href": "index.html#updates",
+    "title": "Integrating science, data, and geospatial.",
+    "section": "Updates",
+    "text": "Updates"
   },
   {
     "objectID": "index.html#biography",
     "href": "index.html#biography",
-    "title": "Exploring our natural world through data and geospatial technologies.",
+    "title": "Integrating science, data, and geospatial.",
     "section": "Biography",
     "text": "Biography"
   },
   {
     "objectID": "index.html#proficiencies",
     "href": "index.html#proficiencies",
-    "title": "Exploring our natural world through data and geospatial technologies.",
+    "title": "Integrating science, data, and geospatial.",
     "section": "Proficiencies",
     "text": "Proficiencies"
   },
   {
     "objectID": "index.html#ramblings",
     "href": "index.html#ramblings",
-    "title": "Exploring our natural world through data and geospatial technologies.",
+    "title": "Integrating science, data, and geospatial.",
     "section": "Ramblings",
     "text": "Ramblings"
   },
   {
-    "objectID": "index.html#visualizations",
-    "href": "index.html#visualizations",
-    "title": "Studying nature through scientfic inqury and geospatial technologies.",
-    "section": "Visualizations",
-    "text": "Visualizations"
+    "objectID": "index.html#gallery",
+    "href": "index.html#gallery",
+    "title": "Integrating science, data, and geospatial.",
+    "section": "Gallery",
+    "text": "Gallery"
   },
   {
     "objectID": "posts/can-you-naturally-protect-shores-from-erosion/index.html",
@@ -376,33 +383,5 @@
     "title": "My Research",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest-Site Selection\n\n\nAssessing bald eagle nests along the Upper Mississippi River, 1990-2012.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nAssessing the need for flow devices on wetlands in NE Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nDetermining sex-specific space-use for raccoons in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nAn assessment of ruffed grouse reproductive habitat in Northern Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nAn assessment of small mammals in Schmeekle Reserve, Wisconsin.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "gallery/index.html#tools-in-my-toolbox",
-    "href": "gallery/index.html#tools-in-my-toolbox",
-    "title": "My Gallery",
-    "section": "Tools In My Toolbox",
-    "text": "Tools In My Toolbox\nMost of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks."
-  },
-  {
-    "objectID": "index.html#updates",
-    "href": "index.html#updates",
-    "title": "Exploring our natural world through data and geospatial technologies.",
-    "section": "Updates",
-    "text": "Updates"
-  },
-  {
-    "objectID": "index.html#data-viz",
-    "href": "index.html#data-viz",
-    "title": "Studying nature through scientfic inqury and geospatial technologies.",
-    "section": "Data-Viz",
-    "text": "Data-Viz"
-  },
-  {
-    "objectID": "index.html#gallery",
-    "href": "index.html#gallery",
-    "title": "Exploring our natural world through data and geospatial technologies.",
-    "section": "Gallery",
-    "text": "Gallery"
   }
 ]

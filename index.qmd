@@ -52,7 +52,7 @@ listing:
 
 ::: {.intro-content }
 #### Wildlife Ecologist & Geographer
-# Exploring our natural world through data and geospatial technologies.
+# Integrating science, data, and geospatial.
 
 Welcome to my professional portfolio. I'm an experienced wildlife ecologist and geography graduate student with a focus on applied geospatial and conservation science.
 
