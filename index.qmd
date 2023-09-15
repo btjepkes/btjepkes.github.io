@@ -52,9 +52,9 @@ listing:
 
 ::: {.intro-content }
 #### Wildlife Ecologist & Geographer
-# Integrating science, data, and geospatial.
+# Integrating data science and geospatial to understand nature.
 
-Welcome to my professional portfolio. I'm an experienced wildlife ecologist and geography graduate student with a focus on applied geospatial and conservation science.
+Welcome to my portfolio. I'm Ben, an experienced wildlife ecologist and geography graduate student with a focus on applied geospatial and conservation science.
 
 :::
 :::
