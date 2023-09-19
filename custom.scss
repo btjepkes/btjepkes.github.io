@@ -520,8 +520,8 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
   align-items: center;
   margin-top: calc(-1em - 14px);
   margin-bottom: 0em;
-  padding-top: 2.5em;
-  padding-bottom: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .intro-banner::before {
@@ -608,7 +608,7 @@ body {
   background: white;
   border: teal solid 8px;
   padding: 0.1em;
-  border-radius: 20%;
+  border-radius: 45% 55% 72% 28% / 49% 43% 57% 51%;
   max-width: 320px;
 }
 
@@ -623,7 +623,7 @@ body {
   background: white;
   border: teal solid 4px;
   padding: 0.1em;
-  border-radius: 20%;
+  border-radius: 50%;
   max-width: 120px;
   margin-bottom: -40px;
   margin-left: 60%;
@@ -826,6 +826,7 @@ div.quarto-post .metadata {
 /* INDEX features */
 
 .features {
+  padding-top: 1em;
   padding-bottom: 2em;
 }
 
@@ -833,7 +834,7 @@ div.quarto-post .metadata {
   margin-top: 20px;
   padding: 10px 10px 20px 30px;
   border-radius: 0px;
-  border: solid 3px #24334c;
+  border: solid 2px #24334c;
   align-items: center;
   background-color: #ffffff;
   background-image: url("assets/bg-topo-white.png");
