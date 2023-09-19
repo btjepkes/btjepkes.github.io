@@ -54,7 +54,7 @@ listing:
 #### Wildlife Ecologist & Geographer
 # Integrating data science and geospatial to understand nature.
 
-Welcome to my portfolio. I'm Ben, an experienced wildlife ecologist and geography graduate student with a focus on applied geospatial and conservation science.
+Welcome to my portfolio! I'm Ben, an experienced wildlife ecologist and geography graduate student focusing on applied geospatial and conservation science.
 
 :::
 :::
@@ -76,11 +76,9 @@ Welcome to my portfolio. I'm Ben, an experienced wildlife ecologist and geograph
 
 :::{.index-list}
 
-- **August 2023** -- I recently started my Masters Degree within the [Geography Department](https://geography.missouri.edu/) at the University of Missouri and am in the process of developing my thesis project. Please [reach out](contact.qmd) if you would like to collaborate on any geospatial projects.
+**August 2023** -- I recently started my Masters Degree within the [Geography Department](https://geography.missouri.edu/) at the University of Missouri with a focus on biogeography and geographic information systems. I am currently in the process of developing my thesis project. Please [reach out](contact.qmd) if you would like to collaborate on geospatial research related to climate change, landscape ecology, or biogeography.
 
-- **July 2023** -- I am excited to have registered for [Posit 2023 Conference](https://posit.co/conference/), where I will be attending virtually. Looking forward to learning more about open source data science and how I can expand my work in Python and R.
-
-- **July 2023** -- One of my latest maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, recently won 2nd place in the GIS Certification Institute (GISCI) [2023 Map Contest](https://www.gisci.org/News/Issues-News-Policy/gisci-announces-2023-map-contest-winners) within the Professional category.
+**July 2023** -- I am excited to have registered for [Posit 2023 Conference](https://posit.co/conference/), where I will be attending virtually. Looking forward to learning more about open source data science and how I can expand my work in Python and R. Also, one of my latest maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, recently won 2nd place in the GIS Certification Institute (GISCI) [2023 Map Contest](https://www.gisci.org/News/Issues-News-Policy/gisci-announces-2023-map-contest-winners) within the Professional category.
 
 :::
 

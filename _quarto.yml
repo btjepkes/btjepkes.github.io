@@ -64,15 +64,17 @@ format:
     smooth-scroll: true
     number-sections: false
     title-block-banner: true
+    title-block-categories: true
     anchor-sections: false
     highlight-style: github
     link-external-newwindow: true
     code-overflow: scroll
+    mainfont: Sen
     grid:
       sidebar-width: 250px
       body-width: 800px
       margin-width: 300px
-      gutter-width: 2.5rem
+      gutter-width: 1.5rem
     filters: 
       - lightbox
     lightbox: auto

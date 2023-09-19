@@ -152,9 +152,9 @@ h1::after {
   content: "";
   position: relative;
   display: block;
-  border-top: solid 4px $tan;
+  border-top: solid 6px $tan;
   margin-top: 25px;
-  width: 20%;
+  width: 10%;
 }
 
 
@@ -472,11 +472,11 @@ div.quarto-post {
 
 
 .quarto-category {
-  background: white;
-  color: black;
-  opacity: 1.0;
-  padding: 0.75em 0.75em 0.5em 0.75em !important;
-  line-height: 0.75em;
+  background: transparent;
+  color: white;
+  opacity: 0.6;
+  padding: 0.75em 0.75em 0.75em 0.75em !important;
+  line-height: 1em;
 }
 
 
@@ -833,7 +833,7 @@ div.quarto-post .metadata {
   margin-top: 20px;
   padding: 10px 10px 20px 30px;
   border-radius: 0px;
-  box-shadow: 0 0 5px 0px teal;
+  border: solid 3px #24334c;
   align-items: center;
   background-color: #ffffff;
   background-image: url("assets/bg-topo-white.png");

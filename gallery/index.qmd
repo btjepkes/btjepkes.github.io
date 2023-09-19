@@ -2,7 +2,7 @@
 title: "My Gallery"
 subtitle: "Maps, visualizations, reports, posters, and presentations."
 image: assets/bg-pines-gallery-yellow-sm.png
-toc: true
+toc: false
 format: 
   html: 
     page-layout: full

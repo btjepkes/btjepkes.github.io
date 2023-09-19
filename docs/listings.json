@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/about.html",
+    "items": [
+      "/posts/index.html",
+      "/gallery/index.html",
+      "/research.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/about.html",
