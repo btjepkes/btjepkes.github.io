@@ -3,7 +3,8 @@ title: ""
 subtitle: ""
 toc: false
 pagetitle: "B.W. Tjepkes - Portfolio"
-
+author-meta: Benjamin Tjepkes
+description-meta: "This is the porfolio and professional website of Benjamin Tjepkes."
 format: 
   html:
     page-layout: full
