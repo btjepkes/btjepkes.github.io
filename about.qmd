@@ -3,6 +3,8 @@ title: "About Me"
 subtitle: "Learn about my career path and professional interests."
 image: assets/bg-pines-about-blue-sm.png
 keywords: about, about me
+author-meta: Benjamin Tjepkes
+description-meta: "Learn about my career path and professional interests."
 listing:
   - id: site-listings
     contents:
@@ -64,7 +66,7 @@ With a fervent desire to deepen my knowledge of the fundamental principles of ge
 
 ::: {.consultant-info}
 
-Through my Master's program, I will have the opportunity to study a broad range of topics spanning physical, human, and environmental geography.
+Through my Master's program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography.
 
 My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master's program.
 
@@ -74,7 +76,7 @@ My goal is to synthesize my practical experience in wildlife ecology with the th
 
 ## Exploring my work. {.intro-heading}
 
-Please have a look at some of my blog posts, research overviews, and visualizations.
+Please have a look at some of my blog posts, research overviews, and visualization gallery.
 
 ::: {#site-listings}
 
