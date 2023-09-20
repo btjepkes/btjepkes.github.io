@@ -1,6 +1,6 @@
 ---
 title: "Visualizing USA National Phenology Network Data in R"
-subtitle: "Exploring phenological records."
+subtitle: "Exploring phenological records through time."
 author:
   - name: Benjamin Tjepkes  
     url: //about.qmd
@@ -9,9 +9,9 @@ date-modified: "5/11/2023"
 abstract: This post is pending.
 abstract-title: ""
 categories:
-  - Testing
   - R
   - phenology
+  - mapping
 image: bg-pine-blue.jpg
 draft: TRUE
 ---

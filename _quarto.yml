@@ -15,7 +15,6 @@ website:
   navbar:
     logo: img-nav-logo-11.svg
     pinned: false
-        
     right:
       - href: about.qmd
         text: About
@@ -29,7 +28,7 @@ website:
         text: Resources
       - href: contact.qmd
         text: Contact 
-        
+       
   page-footer:
     center:
       - text: "Proudly made using Quarto under a CC BY-NC 4.0 International license."

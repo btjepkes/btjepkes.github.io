@@ -55,7 +55,7 @@ listing:
 #### Wildlife Ecologist & Geographer
 # Integrating data science and geospatial to understand nature.
 
-Welcome to my portfolio! I'm Ben, an experienced wildlife ecologist and geography graduate student focusing on applied geospatial and conservation science.
+Welcome to my portfolio! I'm Ben, an experienced wildlife ecologist and geography graduate student studying geospatial and conservation science.
 
 :::
 :::
@@ -141,7 +141,7 @@ I have over 7 years of progressive experience with governmental, private, and ac
 
 :::{.index-list}
 
-I consistently engage in a process of ongoing learning. I have actively pursued various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery/index.qmd) or read about them [here](posts/index.qmd).
+I engage in a process of ongoing learning, pursuing various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery/index.qmd) or read about them [here](posts/index.qmd).
 
 :::
 

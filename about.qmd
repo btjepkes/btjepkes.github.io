@@ -18,7 +18,6 @@ listing:
       - subtitle
 ---
 
-
 ## Trained as a biologist. {.intro-heading}
 
 My professional career is based in **wildlife ecology and management**, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.
@@ -76,7 +75,7 @@ My goal is to synthesize my practical experience in wildlife ecology with the th
 
 ## Exploring my work. {.intro-heading}
 
-Please have a look at some of my blog posts, research overviews, and visualization gallery.
+Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV can be found [here](cv.qmd).
 
 ::: {#site-listings}
 
