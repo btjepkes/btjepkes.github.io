@@ -295,7 +295,7 @@ nav .nav-item a:hover {
 
 
 .navbar-brand span {
-  font-weight: 1000;
+  font-weight: 800;
   font-size: 1.04em;
   letter-spacing: 0.02em;
   background: transparent;
@@ -608,7 +608,7 @@ body {
   background: white;
   border: teal solid 8px;
   padding: 0.1em;
-  border-radius: 45% 55% 72% 38% / 49% 43% 57% 51%;
+  border-radius: 4%;
   max-width: 320px;
 }
 
@@ -624,8 +624,8 @@ body {
   border: teal solid 4px;
   padding: 0.1em;
   max-width: 140px;
-  margin-bottom: -40px;
-  margin-left: 25%;
+  margin-bottom: -45px;
+  margin-left: 60%;
 }
 
 .intro-content::after {

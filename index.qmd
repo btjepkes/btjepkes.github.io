@@ -53,7 +53,7 @@ listing:
 
 ::: {.intro-content }
 #### Wildlife Ecologist & Geographer
-# Integrating data science and geospatial to understand nature.
+# Integrating data and geospatial science to understand nature.
 
 Welcome to my portfolio! I'm Ben, an experienced wildlife ecologist and geography graduate student studying geospatial and conservation science.
 
@@ -77,9 +77,12 @@ Welcome to my portfolio! I'm Ben, an experienced wildlife ecologist and geograph
 
 :::{.index-list}
 
-**August 2023** -- I recently started my Masters Degree within the [Geography Department](https://geography.missouri.edu/) at the University of Missouri with a focus on biogeography and geographic information systems. I am currently in the process of developing my thesis project. Please [reach out](contact.qmd) if you would like to collaborate on geospatial research related to climate change, landscape ecology, or biogeography.
+**Sep 2023** -- I virtually attended the [2023 Posit Conference](https://posit.co/conference/) and was amazed by the diversity of talks across the field of data science. Looking forward to the ripple of blog posts from attendees on all the neat capabilities of open-source R and Python.
 
-**July 2023** -- I am excited to have registered for [Posit 2023 Conference](https://posit.co/conference/), where I will be attending virtually. Looking forward to learning more about open source data science and how I can expand my work in Python and R. Also, one of my latest maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, recently won 2nd place in the GIS Certification Institute (GISCI) [2023 Map Contest](https://www.gisci.org/News/Issues-News-Policy/gisci-announces-2023-map-contest-winners) within the Professional category.
+
+**Aug 2023** -- I recently started my Masters Degree within the [Geography Department](https://geography.missouri.edu/) at the University of Missouri with a focus on biogeography and geographic information systems. I am currently in the process of developing my thesis project. Please [reach out](contact.qmd) if you would like to collaborate on geospatial research related to climate change, landscape ecology, or biogeography.
+
+**Jul 2023** -- One of my latest maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, recently won 2nd place in the GIS Certification Institute (GISCI) [2023 Map Contest](https://www.gisci.org/News/Issues-News-Policy/gisci-announces-2023-map-contest-winners) within the Professional category.
 
 :::
 
@@ -269,7 +272,7 @@ My blog posts cover a vast range of information in the **ecological and geospati
 
 :::{.index-list}
 
-My creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like MapPromptMonday and TidyTuesday. Find the entirety of my gallery [here](gallery/index.qmd).
+My creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like Map Prompt Monday and Tidy Tuesday. Find the entirety of my gallery [here](gallery/index.qmd).
 
 :::
 

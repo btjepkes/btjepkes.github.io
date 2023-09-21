@@ -187,5 +187,14 @@
   },
   "gallery/index.qmd": {
     "index.html": "c98d8f7e"
+  },
+  "posts/exploring-highcharter-in-r/index.qmd": {
+    "index.html": "dadec9da"
+  },
+  "posts/posit-conf-2023-key-takeaways/index.qmd": {
+    "index.html": "b48e262e"
+  },
+  "posts/key-takeaways-from-posit-conf-2023/index.qmd": {
+    "index.html": "fa0124d9"
   }
 }
