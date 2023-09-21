@@ -222,10 +222,6 @@ h1::after {
 /*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
   
-    .navbar .quarto-navbar-tools i {
-      font-size: 30px;
-    }  
-  
     ul.navbar-nav:nth-child(1) {
     flex-direction: row;
     padding: 10px 0px;
@@ -233,12 +229,6 @@ h1::after {
     flex-wrap: wrap;
     justify-content: right;
     }
-
-     /* Toggle icon*/ 
-    /*.navbar-dark .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23466393' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M26 7H4M30 15H15M26 23H1'/%3e%3c/svg%3e");
-      padding-top: 3px;
-    }*/
   
     .navbar .navbar-toggler {
       order: -1;
@@ -255,7 +245,7 @@ h1::after {
       margin-top: 4px;
     }
   
-    /*
+
     .navbar-collapse {
       display: flex;
       flex-basis: 100%;
@@ -268,10 +258,14 @@ h1::after {
       gap: 0px;
       background: #d2eaf2;
       margin: 10px auto;
-    }*/
+    }
 
     .about-contents {
       padding-right: 0px !important;
+    }
+    
+    .quarto-navbar-tools {
+      display: none !important;
     }
 
 } /*** MOBILE ONLY - stop ***/
@@ -625,7 +619,7 @@ body {
   padding: 0.1em;
   max-width: 140px;
   margin-bottom: -45px;
-  margin-left: 60%;
+  margin-left: 50%;
 }
 
 .intro-content::after {
