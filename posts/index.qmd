@@ -2,27 +2,53 @@
 title: "My Blog Posts"
 subtitle: Explore my writings on ecological and geospatial data science.
 author: ""
-
 description-meta: "Blog Posts - Explore my writings on ecological and geospatial data science."
-
+toc: false
 image: assets/bg-pines-blog-orange-sm.png
 format: 
   html: 
     page-layout: full
 listing:
-  contents: "*.qmd"
-  feed: true
-  type: grid
-  grid-columns: 3
-  categories: numbered
-  sort: "date desc"
-  filter-ui: [title, subtitle, description, category]
-  sort-ui: [title, date]
-  fields: 
-    - image
-    - title
-    - subtitle
-    - author
-    - date
+  - id: main-posts
+    contents: "*.qmd"
+    exclude:
+      keywords: The Conservation Companion
+    feed: true
+    type: grid
+    grid-columns: 3
+    categories: numbered
+    sort: "date desc"
+    filter-ui: [title, subtitle, description, category]
+    sort-ui: [title, date]
+    fields: 
+      - image
+      - title
+      - subtitle
+      - author
+      - date
+  - id: tcc-posts
+    contents: "*.qmd"
+    include:
+      keywords: The Conservation Companion
+    feed: true
+    type: table
+    sort: "date desc"
+    filter-ui: false
+    sort-ui: false
+    fields: 
+      - date
+      - title
 ---
+
+::: {#main-posts}
+:::
+
+## TCC Archive
+
+One of my personal projects over the last several years was the development of a conservation-focused blog called, **The Conservation Companion**. While I am continuing to develop content for TCC when I can, I was unable to maintain the web hosting service since starting grad school.
+
+*Most of those posts are archived here for the time being.*
+
+::: {#tcc-posts}
+:::
 

@@ -8,6 +8,7 @@ author:
 date: "10/18/2022"
 abstract: This blog post will provide you with some simple and cost-effective ways to help you start your journey as a contemporary naturalist. Through these tips, you will be able to gain a deeper appreciation and understanding of the environment. We will explore ways to learn common bird calls, discover your local watershed, use mobile apps to explore nature around you, and much more. Let’s get started!
 abstract-title: ""
+keywords: The Conservation Companion
 categories:
   - Nature
   - Education

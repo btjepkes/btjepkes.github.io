@@ -319,7 +319,7 @@
     "href": "posts/index.html",
     "title": "My Blog Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nStreamlining Your Reporting Workflow with Quarto\n\n\nManually updating reports is old news, start producing reproducible documents.\n\n\n\nBenjamin Tjepkes\n\n\nMay 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing R to Create an Interactive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in the western US.\n\n\n\nBenjamin Tjepkes\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Unfragmented Forest Landscapes Using R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\nBenjamin Tjepkes\n\n\nMar 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\nBenjamin Tjepkes\n\n\nOct 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCan You Naturally Protect Shores From Erosion?\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\nBenjamin Tjepkes\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nManually updating reports is old news, start producing reproducible documents.\n\n\n\nBenjamin Tjepkes\n\n\nMay 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring concentrations of Greater sage grouse records in the western US.\n\n\n\nBenjamin Tjepkes\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/mapping-unfragmented-forest-landscapes-using-r/index.html",
@@ -390,5 +390,19 @@
     "title": "My Research",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest-Site Selection\n\n\nAssessing bald eagle nests along the Upper Mississippi River, 1990-2012.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nAssessing the need for flow devices on wetlands in NE Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nDetermining sex-specific space-use for raccoons in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nAn assessment of ruffed grouse reproductive habitat in Northern Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nAn assessment of small mammals in Schmeekle Reserve, Wisconsin.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/index.html#the-conservation-companion",
+    "href": "posts/index.html#the-conservation-companion",
+    "title": "My Blog Posts",
+    "section": "The Conservation Companion",
+    "text": "The Conservation Companion"
+  },
+  {
+    "objectID": "posts/index.html#tcc-archive",
+    "href": "posts/index.html#tcc-archive",
+    "title": "My Blog Posts",
+    "section": "TCC Archive",
+    "text": "TCC Archive\nOne of my personal projects over the last several years was the development of a conservation-focused blog called, The Conservation Companion. While I am continuing to develop content for TCC when I can, I was unable to maintain the web hosting service since starting grad school.\nMost of those posts are archived here for the time being.\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nMar 26, 2023\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\n\n\nOct 18, 2022\n\n\nHow to Become a Contemporary Naturalist\n\n\n\n\nOct 16, 2022\n\n\nCan You Naturally Protect Shores From Erosion?\n\n\n\n\n\n\nNo matching items"
   }
 ]

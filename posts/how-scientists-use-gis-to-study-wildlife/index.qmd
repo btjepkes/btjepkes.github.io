@@ -8,6 +8,7 @@ author:
 date: "3/26/2023"
 abstract: In this post, we explore the fascinating ways that geospatial technologies are being used in the realm of wildlife research. From tracking animal movements and habitat use to assessing the impact of disease on ecosystems, we explore how spatial methods and technologies are playing an increasingly important role in solving some of the most pressing problems facing the planet.
 abstract-title: ""
+keywords: The Conservation Companion
 categories:
   - Wildlife
   - GIS
