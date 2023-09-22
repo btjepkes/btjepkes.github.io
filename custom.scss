@@ -256,7 +256,6 @@ h1::after {
       -webkit-align-items: center;
       flex-direction: column;
       gap: 0px;
-      background: #d2eaf2;
       margin: 10px auto;
     }
 
@@ -621,10 +620,12 @@ body {
 @media (max-width: 991.98px) {
 .headshot-img {
   background: white;
-  border: teal solid 4px;
+  border: teal solid;
+  border-width: 8px 8px;
+  border-radius: 20%;
   padding: 0.1em;
-  max-width: 140px;
-  margin-bottom: -45px;
+  max-width: 145px;
+  margin-bottom: -35px;
   margin-left: 50%;
 }
 
@@ -634,7 +635,7 @@ body {
   top: 120px;
   left: 0;
   width: 100%; 
-  height: 48px;
+  height: 64px;
   background-color: teal;
   transform: translateY(-50%);
 }
