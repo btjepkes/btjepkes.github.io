@@ -30,10 +30,6 @@ description="Endangered Species Stamps Range Map - [See Details](gallery-map-sev
 description="Needed"}
 
 
-![Bat HCP Poster](img-bat-hcp-poster.jpg){group="2023-projects"
-description="Needed"}
-
-
 ![Squirrel Census Chart](img-table-001.png){group="2023-projects"
 description="2018 Squirrel Census Sighting Table"}
 
