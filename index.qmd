@@ -63,15 +63,32 @@ Welcome to my portfolio! I'm Ben, an experienced wildlife ecologist and geograph
 ::: {.intro-icons}
 
 ::: {.icon-col}
-### Ecology
+
+
+::: {icon-col-icon}
+{{< fa tree size=Huge >}}
+:::
+
+Ecology
+
 :::
 
 ::: {.icon-col}
-### Geospatial
+
+::: {icon-col-icon}
+{{< fa layer-group size=Huge >}}
+:::
+
+Geospatial
 :::
 
 ::: {.icon-col}
-### Analytics
+
+::: {icon-col-icon}
+{{< fa chart-column size=Huge >}}
+:::
+
+Analytics
 :::
 
 :::

@@ -647,15 +647,23 @@ body {
 
 .intro-icons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 5%;
-  margin-top: 2.5em;
+  gap: 2.5%;
+  margin-top: 3em;
 }
 
 .icon-col {
   flex: 1;
+  min-width: 200px;
   text-align: center;
   background: #e8f9ff;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: solid 5px #e0f5fd;
 }
 
 
