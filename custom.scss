@@ -643,6 +643,22 @@ body {
 }
 
 
+/* Intro Icon Columns */
+
+.intro-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  margin-top: 2.5em;
+}
+
+.icon-col {
+  flex: 1;
+  text-align: center;
+  background: #e8f9ff;
+}
+
+
 
 @media (max-width: 991.98px) {
 .centered {

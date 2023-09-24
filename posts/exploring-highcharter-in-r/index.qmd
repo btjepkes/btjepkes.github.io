@@ -1,0 +1,19 @@
+---
+title: "Exploring Highcharter in R"
+subtitle: "Interactive plots and maps using the Highcharter JS library."
+author:
+  - name: Benjamin Tjepkes  
+    url: //about.qmd
+    orcid: 0009-0002-5524-2675
+date: "9/20/2023"
+abstract: This post is pending.
+abstract-title: ""
+categories:
+  - visualization
+  - R
+image: bg-pine-blue.jpg
+draft: TRUE
+---
+
+https://jkunst.com/highcharter/articles/maps.html
+

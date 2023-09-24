@@ -1,0 +1,49 @@
+---
+title: "Key Takeaways from posit::conf(2023)"
+subtitle: "An awesome conference of diverse topics and professional expertise."
+description-meta: ""
+date: "9-21-2023"
+abstract-title: ""
+abstract: "This year, I was fortunate to attend the 2023 Posit Conference. Though my schedule only allowed for virtual attendence instead of being in Chicago, I was excited to meet people and learn about data science. In this post, I outline the main insights that I took away from this event."
+categories:
+  - conference
+image: img-001.svg
+draft: true
+---
+
+## New Conference, New Perspectives
+
+Prior to a couple years ago, I would have never seen myself attending a data science conference. I was a lowly field biologist, not a programmer after all. However, now that I had a taste of the 2023 Posit Conference, I am sure glad I did! This event served as a great introduction to the professional community of open source data science.
+
+Though my participation was limited to virtual means, I garnered a significant amount of knowledge and, potentially more importantly, a different perspective. As a result, I thought it would be beneficial to consolidate these insights in a blog post, primarily to streamline my thoughts but also to share them with a wider audience.
+
+**The following items are some of my core insights from this conference.**
+
+### Data Scientists Are Everywhere
+
+I'm not sure why, but my biased brain imagined a room full of dull data nerds, mostly of the same professional background, as the typical scene at a data science conference. This couldn't be further from the truth at this conference (except maybe the nerdy part).
+
+The diversity of backgrounds, expertise, and workplace at posit::conf(2023) was mind-blowing. There were people from healthcare, mathematics departments, biological research centers, computer and data science industries, engineering firms, and a suite of environmental organizations.
+
+### Quarto Is the Future
+
+I have used R Markdown documents for several years now. Mostly for technical reporting and workflow documentation. Needless to say, I was used to filling in YAML headers. Jupyter Notebooks were also spread across my work, but .R and .Rmd files for sure dominated.
+
+I had recently switched several of my projects over to Quarto in hopes that this new format would catch on. Boy did it! I think I watched over ten presentations specifically focusing on the capabilities of Quarto.
+
+### Interactivity Is Key
+
+Proficiency in Shiny app development has always been on my to-do list.
+
+### Design With Time In Mind
+
+As a self-prescribed continuous theme-changer, I can appreciate the dedication to boundary setting when it comes to design.
+
+### The Community Is Growing
+
+
+
+## Closing Remarks
+
+I would like to end this post by thanking Posit for hosting this wonderful conference and for opening the virtual attendance option up to academics free of charge (*grad students silently rejoice*). It was a great experience and I hope to join in-person in the future.
+

@@ -1,5 +1,5 @@
 ---
-title: "Endangered Species Stamp Collection Map"
+title: "Endangered Species Stamp Map"
 subtitle: "Nationwide map showing ranges of a subset of ESA-listed species."
 author: "Benjamin Tjepkes"
 date-modified: "5-23-2023"
