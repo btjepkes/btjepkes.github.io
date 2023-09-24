@@ -657,7 +657,7 @@ body {
   flex: 1;
   min-width: 200px;
   text-align: center;
-  background: #e8f9ff;
+  background: #e8f9ff; /*#e8f9ff*/
   box-sizing: border-box;
   padding: 20px;
   font-size: 1.4em;
@@ -666,6 +666,9 @@ body {
   border: solid 5px #e0f5fd;
 }
 
+.icon-col i {
+  color: indianred;
+}
 
 
 @media (max-width: 991.98px) {
