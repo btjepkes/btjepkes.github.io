@@ -65,30 +65,46 @@ Welcome to my portfolio! I'm Ben, an experienced wildlife ecologist and geograph
 ::: {.icon-col}
 
 
-::: {icon-col-icon}
+::: {.icon-col-icon}
 {{< fa tree size=Huge >}}
 :::
 
+::: {.icon-col-heading}
 Ecology
+:::
+
+Years of experience in wildlife conservation and ecological research.
+
 
 :::
 
 ::: {.icon-col}
 
-::: {icon-col-icon}
+::: {.icon-col-icon}
 {{< fa layer-group size=Huge >}}
 :::
 
+::: {.icon-col-heading}
 Geospatial
+:::
+
+Proficiency in geospatial technologies across multiple sectors and software.
+
+
 :::
 
 ::: {.icon-col}
 
-::: {icon-col-icon}
+::: {.icon-col-icon}
 {{< fa chart-column size=Huge >}}
 :::
 
+::: {.icon-col-heading}
 Analytics
+:::
+
+Growing knowledge of data management and visualization systems.
+
 :::
 
 :::

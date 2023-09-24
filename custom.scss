@@ -659,15 +659,18 @@ body {
   text-align: center;
   background: #e8f9ff; /*#e8f9ff*/
   box-sizing: border-box;
-  padding: 20px;
-  font-size: 1.4em;
-  text-transform: uppercase;
-  font-weight: 600;
+  padding: 20px 10px;
   border: solid 5px #e0f5fd;
 }
 
 .icon-col i {
-  color: indianred;
+  color: #24334c;
+}
+
+.icon-col-heading {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 
