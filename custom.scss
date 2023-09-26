@@ -650,7 +650,8 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 2.5%;
-  margin-top: 3em;
+  margin-top: 1em;
+  margin-bottom: -1em;
 }
 
 .icon-col {
@@ -661,6 +662,7 @@ body {
   box-sizing: border-box;
   padding: 20px 10px;
   border: solid 5px #e0f5fd;
+  margin-bottom: 1em;
 }
 
 .icon-col i {
@@ -669,7 +671,6 @@ body {
 
 .icon-col-heading {
   font-size: 1.8em;
-  text-transform: uppercase;
   font-weight: 600;
 }
 
@@ -1096,7 +1097,7 @@ div.quarto-post .metadata {
   border-bottom: none;
   font-family: system-ui;
   font-size: 2.2rem;
-  margin-top: 0rem;
+  margin-top: 0rem !important;
   margin-bottom: 1rem;
 }
 
@@ -1130,14 +1131,13 @@ div.quarto-post .metadata {
 }
 
 .index-h2-alt h2 {
-  text-align: right;
-  color: white;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 900;
   border-bottom: none;
   font-family: system-ui;
   font-size: 2.2rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
 }
 
