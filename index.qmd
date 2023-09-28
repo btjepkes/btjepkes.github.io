@@ -63,7 +63,10 @@ Welcome to my portfolio! I'm Ben, an experienced wildlife ecologist and geograph
 ::: {.index-intro-start}
 
 ::: {.index-intro-start-text}
-I have over 7 years of progressive experience with governmental, private, and academic entities in the **conservation and environmental science** sector. My work focuses on using a variety of data science and geospatial tools to research the natural world.
+
+## Brief Biography
+
+I am currently a graduate student at the University of Missouri studying geography. I have over 7 years of progressive experience as a biologist with governmental, private, and academic entities in the environmental sector. My work focuses on using a variety of data science and geospatial tools to research the natural world.
 :::
 
 ::: {.index-intro-start-icons}
@@ -181,26 +184,26 @@ Knowledgeable in data management, analysis, and visualization systems.
 
 ::: {.content-block}
 
-#### A life-long learner. {.index-h4}
-::: {.index-section-heading}
-## Proficiencies {.index-h2}
+<!-- #### A life-long learner. {.index-h4} -->
+<!-- ::: {.index-section-heading} -->
+<!-- ## Proficiencies {.index-h2} -->
 
-::: {.index-h2-line}
-:::
+<!-- ::: {.index-h2-line} -->
+<!-- ::: -->
 
-::: {.index-h2-icon}
-{{< fa angles-left size=3x >}}
-:::
+<!-- ::: {.index-h2-icon} -->
+<!-- {{< fa angles-left size=3x >}} -->
+<!-- ::: -->
 
-:::
+<!-- ::: -->
 
 
 
-:::{.index-list}
+<!-- :::{.index-list} -->
 
-I engage in a process of ongoing learning, pursuing various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery/index.qmd) or read about them [here](posts/index.qmd).
+<!-- I engage in a process of ongoing learning, pursuing various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery/index.qmd) or read about them [here](posts/index.qmd). -->
 
-:::
+<!-- ::: -->
 
 ::: {.features}
 
