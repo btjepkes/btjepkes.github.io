@@ -133,39 +133,39 @@
     "text": "Unable to display PDF file. Download instead."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
     "title": "About Me",
     "section": "",
     "text": "My professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\n\n\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree.\nAdditionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year."
   },
   {
-    "objectID": "about.html#trained-as-a-biologist.",
-    "href": "about.html#trained-as-a-biologist.",
+    "objectID": "about/index.html#trained-as-a-biologist.",
+    "href": "about/index.html#trained-as-a-biologist.",
     "title": "About Me",
     "section": "",
     "text": "My professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\n\n\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree.\nAdditionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year."
   },
   {
-    "objectID": "about.html#drawn-to-geospatial.",
-    "href": "about.html#drawn-to-geospatial.",
+    "objectID": "about/index.html#drawn-to-geospatial.",
+    "href": "about/index.html#drawn-to-geospatial.",
     "title": "About Me",
     "section": "Drawn to geospatial.",
     "text": "Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\n\n\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work.\nI enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management."
   },
   {
-    "objectID": "about.html#mastering-geography.",
-    "href": "about.html#mastering-geography.",
+    "objectID": "about/index.html#mastering-geography.",
+    "href": "about/index.html#mastering-geography.",
     "title": "About Me",
     "section": "Mastering geography.",
     "text": "Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\n\n\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography.\nMy goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program."
   },
   {
-    "objectID": "about.html#exploring-my-work.",
-    "href": "about.html#exploring-my-work.",
+    "objectID": "about/index.html#exploring-my-work.",
+    "href": "about/index.html#exploring-my-work.",
     "title": "About Me",
     "section": "Exploring my work.",
-    "text": "Exploring my work.\nPlease have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV can be found here.\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Exploring my work.\nPlease have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV can be found here.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery/endangered-species-stamp-collection-map.html",
@@ -196,18 +196,18 @@
     "text": "Welcome to my portfolio! I’m Ben, an experienced wildlife ecologist and geography graduate student studying geospatial and conservation science."
   },
   {
+    "objectID": "index.html#brief-biography",
+    "href": "index.html#brief-biography",
+    "title": "Integrating data and geospatial science to understand nature.",
+    "section": "Brief Biography",
+    "text": "Brief Biography\nI am currently a graduate student at the University of Missouri studying geography. I have over 7 years of progressive experience as a biologist with governmental, private, and academic entities in the environmental sector. My work focuses on using a variety of data science and geospatial tools to research the natural world."
+  },
+  {
     "objectID": "index.html#focalareas",
     "href": "index.html#focalareas",
     "title": "Integrating data and geospatial science to understand nature.",
     "section": "Focal•Areas",
     "text": "Focal•Areas"
-  },
-  {
-    "objectID": "index.html#proficiencies",
-    "href": "index.html#proficiencies",
-    "title": "Integrating data and geospatial science to understand nature.",
-    "section": "Proficiencies",
-    "text": "Proficiencies"
   },
   {
     "objectID": "index.html#blogposts",
@@ -390,19 +390,5 @@
     "title": "My Research",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest-Site Selection\n\n\nAssessing bald eagle nests along the Upper Mississippi River, 1990-2012.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nAssessing the need for flow devices on wetlands in NE Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nDetermining sex-specific space-use for raccoons in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nAn assessment of ruffed grouse reproductive habitat in Northern Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nAn assessment of small mammals in Schmeekle Reserve, Wisconsin.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#biography",
-    "href": "index.html#biography",
-    "title": "Integrating data and geospatial science to understand nature.",
-    "section": "Biography",
-    "text": "Biography\nI have over 7 years of progressive experience as a biologist with governmental, private, and academic entities in the environmental sector. My work focuses on using a variety of data science and geospatial tools to research the natural world. I am currently a graduate student at the University of Missouri studying geography."
-  },
-  {
-    "objectID": "index.html#brief-biography",
-    "href": "index.html#brief-biography",
-    "title": "Integrating data and geospatial science to understand nature.",
-    "section": "Brief Biography",
-    "text": "Brief Biography\nI am currently a graduate student at the University of Missouri studying geography. I have over 7 years of progressive experience as a biologist with governmental, private, and academic entities in the environmental sector. My work focuses on using a variety of data science and geospatial tools to research the natural world."
   }
 ]

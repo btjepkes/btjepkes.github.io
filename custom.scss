@@ -652,6 +652,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 2.5%;
+  margin-top: 1em;
 }
 
 .icon-col {
@@ -661,7 +662,7 @@ body {
   background: transparent; /*#e8f9ff #e8f9ff*/
   box-sizing: border-box;
   padding: 20px 10px;
-  border: solid 5px #d3d3d3;
+  border: solid 5px teal;
   margin-bottom: 1em;
 }
 
@@ -857,7 +858,7 @@ div.quarto-post .metadata {
 /* INDEX features */
 
 .features {
-  padding-top: 1em;
+  padding-top: 0em;
   padding-bottom: 2em;
 }
 
@@ -1087,7 +1088,7 @@ div.quarto-post .metadata {
   align-items: center;
   display: flex;
   flex-direction: row;
-  gap: 2em;
+  gap: 2.5em;
 }
 
 .index-intro-start-text {

@@ -16,7 +16,7 @@ website:
     logo: img-nav-logo-11.svg
     pinned: false
     right:
-      - href: about.qmd
+      - href: about/index.qmd
         text: About
       - href: gallery/index.qmd
         text: Gallery

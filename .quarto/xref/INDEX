@@ -196,5 +196,8 @@
   },
   "posts/key-takeaways-from-posit-conf-2023/index.qmd": {
     "index.html": "fa0124d9"
+  },
+  "about/index.qmd": {
+    "index.html": "7e0f6661"
   }
 }

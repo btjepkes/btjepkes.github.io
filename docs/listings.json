@@ -11,17 +11,13 @@
     ]
   },
   {
-    "listing": "/about.html",
-    "items": [
-      "/posts/index.html",
-      "/gallery/index.html",
-      "/research.html"
-    ]
+    "listing": "/about/index.html",
+    "items": []
   },
   {
     "listing": "/index.html",
     "items": [
-      "/about.html",
+      "/about/index.html",
       "/cv.html",
       "/posts/index.html",
       "/gallery/index.html",

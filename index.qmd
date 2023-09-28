@@ -12,7 +12,7 @@ format:
 listing:
   - id: site-listings
     contents:
-      - "about.qmd"
+      - "about/index.qmd"
       - "research.qmd"
       - "cv.qmd"
       - "posts/index.qmd"
