@@ -1,10 +1,6 @@
 ---
-title: "R Coding Tips from a Non-Programmer"
-subtitle: "How to make your R learning experience more tolerable, perhaps enjoyable."
-author:
-  - name: Benjamin Tjepkes  
-    url: //about.qmd
-    orcid: 0009-0002-5524-2675
+title: "R Coding Tips from a Biologist & GISer"
+subtitle: "How to make your R learning experience more tolerable, perhaps even enjoyable."
 date: "5/20/2023"
 abstract: This post is pending.
 abstract-title: ""
@@ -15,6 +11,10 @@ categories:
 image: bg-pine-blue.jpg
 draft: TRUE
 ---
+
+## My R Journey
+
+My first exposure to R was met with complete and utter confusion.
 
 ## My R Tips
 

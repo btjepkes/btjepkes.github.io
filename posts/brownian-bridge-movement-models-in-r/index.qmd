@@ -1,12 +1,12 @@
 ---
 title: "Brownian Bridge Movement Models in R"
-subtitle: "Exploring concentrations of sage grouse records."
+subtitle: "Movement ecology and modeling."
 author:
   - name: Benjamin Tjepkes  
     url: //about.qmd
     orcid: 0009-0002-5524-2675
 date-modified: "5/5/2023"
-abstract: In this blog post, we demonstrate how to use the `rgbif` package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap of the species' distribution using Leaflet.
+abstract: In this blog post, we explore Brownian Bridge Movement Models using R.
 abstract-title: ""
 categories:
   - Testing
@@ -44,8 +44,6 @@ The dBBMM has several advantages over the standard BBMM:
   3. It can provide insights into the mechanisms that drive animal movement, such as foraging or mating behavior.
 
 
-## Workflows
-
 ### R Packages for BBMM
 
 - `adehabitatLT`: This package provides functions for the analysis of animal movement data, including functions for calculating home ranges and implementing the BBMM. It also includes tools for visualizing movement data and conducting statistical tests.
@@ -61,3 +59,6 @@ The dBBMM has several advantages over the standard BBMM:
 ### Data Sources
 
 [Walter Lab GitHub](https://github.com/walterASEL/Walter-Datasets)
+
+## Workflows
+

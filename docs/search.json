@@ -95,14 +95,21 @@
     "href": "gallery/index.html",
     "title": "My Gallery",
     "section": "",
-    "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, and other social media contests.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nRelative Skills Barchart\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
+    "text": "Squirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nRelative Skills Barchart\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map"
   },
   {
-    "objectID": "gallery/index.html#recent-works",
-    "href": "gallery/index.html#recent-works",
+    "objectID": "gallery/index.html#section",
+    "href": "gallery/index.html#section",
     "title": "My Gallery",
     "section": "",
-    "text": "These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, and other social media contests.\n\n\n\n\n\n\nSquirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nRelative Skills Barchart\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
+    "text": "Squirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nRelative Skills Barchart\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map"
+  },
+  {
+    "objectID": "gallery/index.html#pre-2023",
+    "href": "gallery/index.html#pre-2023",
+    "title": "My Gallery",
+    "section": "Pre-2023",
+    "text": "Pre-2023\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
   },
   {
     "objectID": "gallery/index.html#tools-in-my-toolbox",
@@ -200,7 +207,7 @@
     "href": "index.html#brief-biography",
     "title": "Integrating data and geospatial science to understand nature.",
     "section": "Brief Biography",
-    "text": "Brief Biography\nI am currently a graduate student at the University of Missouri studying geography. I have over 7 years of progressive experience as a biologist with governmental, private, and academic entities in the environmental sector. My work focuses on using a variety of data science and geospatial tools to research the natural world."
+    "text": "Brief Biography\nI am currently a graduate student at the University of Missouri studying geographic information systems (GIS) and geography. I possess more than seven years of continuous professional development with governmental, private, and academic entities in the environmental sector. My work focuses on using a variety of data science and geospatial technologies to research the natural world, specifically for wildlife conservation."
   },
   {
     "objectID": "index.html#focalareas",

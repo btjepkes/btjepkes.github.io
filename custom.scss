@@ -425,10 +425,11 @@ div.quarto-post {
 
 .quarto-grid-item {
   background: #e9ecef;
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 3px;
   border: 1px solid #46639355;
   -webkit-box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
   box-shadow: 4px 4px 4px rgba(0,0,0,.1);
+  flex-direction: row-reverse;
 }
 
 .quarto-grid-link:hover {
@@ -463,9 +464,7 @@ div.quarto-post {
 .quarto-grid-item p.card-img-top>img {
     object-fit: fit;
     border-radius: 0;
-    padding-top: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     min-height: 200px;
 }
 
@@ -652,7 +651,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 2.5%;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .icon-col {
@@ -838,6 +837,7 @@ body {
 div.quarto-post .metadata {
   display: none;
 }
+
 
 #listing-site-listings,
 #listing-site-listings-2 {
@@ -1091,6 +1091,10 @@ div.quarto-post .metadata {
   gap: 2.5em;
 }
 
+.index-intro-start h2 {
+  margin-top: 0;
+}
+
 .index-intro-start-text {
   font-size: 1.4em;
   color: hsl(217, 36%, 22%);
@@ -1109,8 +1113,8 @@ div.quarto-post .metadata {
 
 .index-intro-start-icons {
   flex-grow: 1;
-  flex-basis: 50%;
-  background: $gray-100;
+  flex-basis: 10%;
+  background: #00808017;
   text-align: center;
   padding: 10px;
   border-radius: 24px;
@@ -1197,24 +1201,14 @@ div.quarto-post .metadata {
   text-align: left;
 }
 
-
-.index-list li::marker {
-  list-style-type: square;
-  color: indianred;
-  font-size: 1.2em;
+.index-section-text {
+  background: #e8f9ff;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 5px;
+  margin-bottom: 1.5em;
 }
-
-.index-list ul {
-  padding-left: 1rem;
-}
-
-.index-list li {
-  opacity: 0.8;
-}
-.index-list strong {
-  opacity: 1.0;
-}
-
 
 .consultant-info {
   margin-right: 0px;
@@ -1255,6 +1249,7 @@ margin-bottom: 0 !important;
 
 
 .gallery {
+    margin-top: 2em;
     line-height:0;
     -webkit-column-count: 3;
     -webkit-column-gap:   28px;

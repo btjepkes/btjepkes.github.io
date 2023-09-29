@@ -3,16 +3,14 @@ title: "My Gallery"
 subtitle: "Maps, visualizations, reports, posters, and presentations."
 image: assets/bg-pines-gallery-yellow-sm.png
 toc: false
+abstract-title: ""
+abstract: These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, and other social media contests.
 format: 
   html: 
     page-layout: full
 ---
 
-## Recent Works
-
-These are some of my latest maps and data visualizations from personal creative projects, work-related reports, and other academic assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, and other social media contests.
-
-### 2023
+## 2023
 
 
 ::: {.gallery}
@@ -47,7 +45,7 @@ description="Great Lakes Watershed Map"}
 
 :::
 
-### Pre-2023
+## Pre-2023
 
 ::: {.gallery}
 

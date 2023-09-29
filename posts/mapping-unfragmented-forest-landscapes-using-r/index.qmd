@@ -1,10 +1,6 @@
 ---
 title: "Mapping Unfragmented Forest Landscapes Using R"
 subtitle: "Vizualizing Global Forest Watch data on intact North American forests over time."
-author:
-  - name: Benjamin Tjepkes  
-    url: //about.qmd
-    orcid: 0009-0002-5524-2675
 date: "4/22/2023"
 abstract: In this post, we will demonstrate how to visualize expansive amounts of geographic data using R. We will use an example that involves mapping data from Global Forest Watch, which focuses on North America's landscapes that have intact forests large enough to preserve all native biodiversity.
 abstract-title: ""

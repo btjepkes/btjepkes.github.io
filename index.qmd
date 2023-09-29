@@ -66,12 +66,12 @@ Welcome to my portfolio! I'm Ben, an experienced wildlife ecologist and geograph
 
 ## Brief Biography
 
-I am currently a graduate student at the University of Missouri studying geography. I have over 7 years of progressive experience as a biologist with governmental, private, and academic entities in the environmental sector. My work focuses on using a variety of data science and geospatial tools to research the natural world.
+I am currently a graduate student at the University of Missouri studying geographic information systems (GIS) and geography. I possess more than seven years of continuous professional development with governmental, private, and academic entities in the environmental sector. My work focuses on using a variety of data science and geospatial technologies to research the natural world, specifically for wildlife conservation.
 :::
 
 ::: {.index-intro-start-icons}
 
-[{{< fa brands linkedin size=3x >}}](https://www.linkedin.com/in/benjamintjepkes/) [{{< fa brands github size=3x >}}](https://github.com/btjepkes) [{{< fa brands twitter size=3x >}}](https://twitter.com/BTjepkes) [{{< fa brands researchgate size=3x >}}](https://www.researchgate.net/profile/Benjamin-Tjepkes) [{{< fa brands orcid size=3x >}}](https://orcid.org/0009-0002-5524-2675)
+[{{< fa brands linkedin size=3x >}}](https://www.linkedin.com/in/benjamintjepkes/) [{{< fa brands github size=3x >}}](https://github.com/btjepkes) [{{< fa brands twitter size=3x >}}](https://twitter.com/BTjepkes) [{{< fa brands researchgate size=3x >}}](https://www.researchgate.net/profile/Benjamin-Tjepkes)
 :::
 
 :::
@@ -101,7 +101,11 @@ I am currently a graduate student at the University of Missouri studying geograp
 
 :::
 
+:::{.index-section-text}
 
+I engage in a process of ongoing learning, pursuing various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery/index.qmd) or read about them [here](posts/index.qmd).
+
+:::
 
 ::: {.intro-icons}
 
@@ -199,11 +203,7 @@ Knowledgeable in data management, analysis, and visualization systems.
 
 
 
-<!-- :::{.index-list} -->
 
-<!-- I engage in a process of ongoing learning, pursuing various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery/index.qmd) or read about them [here](posts/index.qmd). -->
-
-<!-- ::: -->
 
 ::: {.features}
 
@@ -290,7 +290,7 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 
 
-:::{.index-list}
+:::{.index-section-text}
 
 My blog posts cover a vast range of information in the **ecological and geospatial sciences**. You can find everything from quick map breakdowns to full tutorials on data wrangling and visualization. View the entire archive of my posts [here](posts/index.qmd).
 
@@ -327,7 +327,7 @@ My blog posts cover a vast range of information in the **ecological and geospati
 
 
 
-:::{.index-list}
+:::{.index-section-text}
 
 My creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like Map Prompt Monday and Tidy Tuesday. Find the entirety of my gallery [here](gallery/index.qmd).
 

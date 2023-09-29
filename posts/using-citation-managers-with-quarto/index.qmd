@@ -1,5 +1,5 @@
 ---
-title: "Using Citation Managers with Quarto Docs"
+title: "Using Citation Managers with Quarto"
 subtitle: "How to streamline bibliography creation in your technical documents with R."
 author:
   - name: Benjamin Tjepkes  
