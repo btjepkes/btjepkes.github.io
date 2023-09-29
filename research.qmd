@@ -2,13 +2,12 @@
 title: "My Research"
 subtitle: Focusing on spatial ecology and geographic information systems.
 image: assets/bg-pines-research-gray-sm.png
-format: 
-  html: 
-    page-layout: full
+abstract-title: ""
+abstract: "My research has been an area of expansion for me."
 listing:
   contents: research
   type: grid
-  grid-columns: 3
+  grid-columns: 1
   categories: numbered
   sort: "title"
   filter-ui: true  

@@ -1,0 +1,14 @@
+---
+title: "2018 Squirrel Census Sighting Map"
+subtitle: "Pending."
+author: "Benjamin Tjepkes"
+date-modified: "5-23-2023"
+categories:
+  - Map Gallery
+abstract-title: ""
+abstract: Pending
+toc: false
+image: img-map-001v2.png
+---
+
+![Map Credit: Ben Tjepkes](img-map-001v2.png)

@@ -112,13 +112,6 @@
     "text": "Pre-2023\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
   },
   {
-    "objectID": "gallery/index.html#tools-in-my-toolbox",
-    "href": "gallery/index.html#tools-in-my-toolbox",
-    "title": "My Gallery",
-    "section": "Tools In My Toolbox",
-    "text": "Tools In My Toolbox\nMost of my visualization workflows use ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks."
-  },
-  {
     "objectID": "gallery/gallery-poster-two.html#tools-and-workflow",
     "href": "gallery/gallery-poster-two.html#tools-and-workflow",
     "title": "Poster on Bat Habitat Conservation Plan in Missouri",
@@ -133,11 +126,11 @@
     "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum vitae",
+    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
+    "href": "gallery/2018-squirrel-census-sighting-map/index.html",
+    "title": "2018 Squirrel Census Sighting Map",
     "section": "",
-    "text": "Unable to display PDF file. Download instead."
+    "text": "Map Credit: Ben Tjepkes"
   },
   {
     "objectID": "about/index.html",
@@ -175,8 +168,15 @@
     "text": "Exploring my work.\nPlease have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV can be found here.\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "gallery/endangered-species-stamp-collection-map.html",
-    "href": "gallery/endangered-species-stamp-collection-map.html",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Unable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
+    "href": "gallery/endangered-species-stamp-collection-map/index.html",
     "title": "Endangered Species Stamp Map",
     "section": "",
     "text": "Map Credit: Ben Tjepkes"

@@ -432,14 +432,30 @@ div.quarto-post {
   flex-direction: row-reverse;
 }
 
+    @media (max-width: 700px) {
+      .quarto-grid-item {
+        flex-direction: column;
+      }
+    }
+
 .quarto-grid-link:hover {
   margin-bottom: 10px;}
 
 
-#index .quarto-grid-item {
-  display: none !important;
+.listings-gallery .grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  align-items: center;
 }
 
+
+.listings-gallery .quarto-grid-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+  height: auto !important;
+}
 
 
 @media (min-width: 991.98px) {
@@ -1202,7 +1218,7 @@ div.quarto-post .metadata {
 }
 
 .index-section-text {
-  background: #e8f9ff;
+  background: beige;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 1em;

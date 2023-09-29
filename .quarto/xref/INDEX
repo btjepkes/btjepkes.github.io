@@ -199,5 +199,11 @@
   },
   "about/index.qmd": {
     "index.html": "7e0f6661"
+  },
+  "gallery/endangered-species-stamp-collection-map/index.qmd": {
+    "index.html": "33d452e8"
+  },
+  "gallery/2018-squirrel-census-sighting-map/index.qmd": {
+    "index.html": "a14d2949"
   }
 }
