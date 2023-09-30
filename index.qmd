@@ -15,11 +15,11 @@ listing:
       - "about/index.qmd"
       - "research.qmd"
       - "cv.qmd"
-      - "posts/index.qmd"
-      - "gallery/index.qmd"
-      - "resources.qmd"
+      # - "posts/index.qmd"
+      # - "gallery/index.qmd"
+      # - "resources.qmd"
     type: grid
-    grid-columns: 3
+    grid-columns: 1
     fields: 
       - title
       - subtitle
@@ -64,48 +64,26 @@ Welcome to my portfolio! I'm Ben, an experienced wildlife ecologist and geograph
 
 ::: {.index-intro-start-text}
 
-## Brief Biography
+## My Brief Biography
 
-I am currently a graduate student at the University of Missouri studying geographic information systems (GIS) and geography. I possess more than seven years of continuous professional development with governmental, private, and academic entities in the environmental sector. My work focuses on using a variety of data science and geospatial technologies to research the natural world, specifically for wildlife conservation.
-:::
+My work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at wildlife conservation. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. I have over seven years of continuous professional development with governmental, private, and academic entities in the environmental sector. <span style="color:indianred;">Explore this site for more info!</span>
 
 ::: {.index-intro-start-icons}
-
-[{{< fa brands linkedin size=3x >}}](https://www.linkedin.com/in/benjamintjepkes/) [{{< fa brands github size=3x >}}](https://github.com/btjepkes) [{{< fa brands twitter size=3x >}}](https://twitter.com/BTjepkes) [{{< fa brands researchgate size=3x >}}](https://www.researchgate.net/profile/Benjamin-Tjepkes)
+[{{< fa brands linkedin size=2x >}}](https://www.linkedin.com/in/benjamintjepkes/) [{{< fa brands github size=2x >}}](https://github.com/btjepkes) [{{< fa brands twitter size=2x >}}](https://twitter.com/BTjepkes) [{{< fa brands researchgate size=2x >}}](https://www.researchgate.net/profile/Benjamin-Tjepkes) [{{< fa brands orcid size=2x >}}](https://orcid.org/0009-0002-5524-2675)
+:::
 :::
 
-:::
-
-::: {.about}
+::: {.index-intro-start-buttons}
 
 ::: {#site-listings}
 
 :::
 
-
-:::
-
-
-### Expertise & Interests {.index-h3}
-
-::: {.index-section-heading}
-
-## Focal&#x2022;Areas {.index-h2}
-
-::: {.index-h2-line}
-:::
-
-::: {.index-h2-icon}
-{{< fa angles-left size=3x >}}
 :::
 
 :::
 
-:::{.index-section-text}
-
-I engage in a process of ongoing learning, pursuing various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery/index.qmd) or read about them [here](posts/index.qmd).
-
-:::
+::: {.about}
 
 ::: {.intro-icons}
 
@@ -157,7 +135,29 @@ Knowledgeable in data management, analysis, and visualization systems.
 :::
 
 
+:::
 
+
+### Expertise & Interests {.index-h3}
+
+::: {.index-section-heading}
+
+## Proficiency&#x2022;Areas {.index-h2}
+
+::: {.index-h2-line}
+:::
+
+::: {.index-h2-icon}
+{{< fa angles-left size=3x >}}
+:::
+
+:::
+
+:::{.index-section-text}
+
+I engage in a process of ongoing learning, pursuing various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery/index.qmd) or read about them [here](posts/index.qmd).
+
+:::
 
 <!-- #### Happenings {.index-h4} -->
 
@@ -270,9 +270,7 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 
 
 
-::: {.bg-banner-2}
-
-#### Writings {.index-h4}
+#### Writings & Ramblings {.index-h4}
 
 ::: {.index-section-heading}
 ## Blog&#x2022;Posts {.index-h2}
@@ -283,12 +281,7 @@ Use programs like Microsoft Access to maintain high-quality data in relational d
 ::: {.index-h2-icon}
 {{< fa angles-left size=3x >}}
 :::
-
-
 :::
-
-
-
 
 :::{.index-section-text}
 
@@ -296,12 +289,10 @@ My blog posts cover a vast range of information in the **ecological and geospati
 
 :::
 
+
 ::: {#site-listings-2}
 
 :::
-:::
-
-
 
 
 
@@ -321,11 +312,7 @@ My blog posts cover a vast range of information in the **ecological and geospati
 ::: {.index-h2-icon}
 {{< fa angles-left size=3x >}}
 :::
-
 :::
-
-
-
 
 :::{.index-section-text}
 
@@ -333,12 +320,13 @@ My creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jup
 
 :::
 
+
 ::: {.gallery}
 
-![Squirrel Census Density Map](./gallery/img-map-001v2.png){group="personal-projects"
+![Squirrel Census Density Map](./gallery/2018-squirrel-census-sighting-map/img-map-001v2.png){group="personal-projects"
 description="2018 Squirrel Census Sighting Density Map"}
 
-![Endangered Species Stamp Map](./gallery/img-map-endangeredstamps.png){group="personal-projects"
+![Endangered Species Stamp Map](./gallery/endangered-species-stamp-collection-map/img-map-endangeredstamps.png){group="personal-projects"
 description="Endangered Species Stamps Range Map"}
 
 ![Squirrel Census Chart](./gallery/img-table-001.png){group="personal-projects"

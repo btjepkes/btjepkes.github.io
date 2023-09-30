@@ -590,7 +590,7 @@ body {
   margin-top: 3em;
   margin-bottom: 3em;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 .about::before {
@@ -674,11 +674,12 @@ body {
   flex-grow: 1;
   flex-basis: 250px;
   text-align: center;
-  background: transparent; /*#e8f9ff #e8f9ff*/
+  background: #ffffff99;
   box-sizing: border-box;
   padding: 20px 10px;
   border: solid 5px teal;
-  margin-bottom: 1em;
+  border-radius: 20px;
+  margin-top: 1em;
 }
 
 .icon-col i {
@@ -1104,7 +1105,7 @@ div.quarto-post .metadata {
   align-items: center;
   display: flex;
   flex-direction: row;
-  gap: 2.5em;
+  gap: 2.8em;
 }
 
 .index-intro-start h2 {
@@ -1114,6 +1115,7 @@ div.quarto-post .metadata {
 .index-intro-start-text {
   font-size: 1.4em;
   color: hsl(217, 36%, 22%);
+  text-align: justify;
 }
 
     @media (max-width: 799px) { 
@@ -1128,18 +1130,20 @@ div.quarto-post .metadata {
     }
 
 .index-intro-start-icons {
+  margin-top: 30px;
+}
+
+.index-intro-start-buttons {
   flex-grow: 1;
-  flex-basis: 10%;
+  min-width: 425px;
   background: #00808017;
-  text-align: center;
-  padding: 10px;
-  border-radius: 24px;
+  padding: 10px 25px 10px 20px;
+  border-radius: 8px;
 }
 
-.index-intro-start-icons p {
-  margin-top: 1em;
-}
-
+    #site-listings .quarto-grid-item {
+      flex-direction: row !important;
+    }
 
 .index-section-heading {
   display: flex;
