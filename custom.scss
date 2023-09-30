@@ -424,7 +424,7 @@ div.quarto-post {
 }
 
 .quarto-grid-item {
-  background: #e9ecef;
+  background: white;
   border-radius: 3px;
   border: 1px solid #46639355;
   -webkit-box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
@@ -438,8 +438,8 @@ div.quarto-post {
       }
     }
 
-.quarto-grid-link:hover {
-  margin-bottom: 10px;}
+/*.quarto-grid-link:hover {
+  margin-bottom: 10px;}*/
 
 
 .listings-gallery .grid {
@@ -457,12 +457,12 @@ div.quarto-post {
   height: auto !important;
 }
 
-
+/*
 @media (min-width: 991.98px) {
 .quarto-grid-item:hover .card-title::after {
-  border-top: solid 4px #f5c25c;
+  border-top: solid 6px #f5c25c;
   animation: border-anim 0.2s ease-out forwards;
-}}
+}}*/
 
 .quarto-grid-item .card-title::after {
   content: "";
@@ -562,10 +562,14 @@ body {
 }
 
 .intro-content {
-  max-width: 80%;
   margin: auto;
 }
 
+@media (min-width: 991.98px) {
+  .intro-content {
+  max-width: 80%;
+      }
+}
 
 .intro-content p {
   color: white;
@@ -639,7 +643,7 @@ body {
   z-index: 999;
 }
 
-
+/*
 @media (max-width: 991.98px) {
 .headshot-img {
   background: white;
@@ -663,7 +667,7 @@ body {
   transform: translateY(-50%);
 }
 
-}
+}*/
 
 
 /* Intro Icon Columns */
@@ -905,7 +909,7 @@ div.quarto-post .metadata {
 .quarto-grid-item:hover {
     transform: scale(1.02);
     color: inherit;
-    transition: transform .1s ease;
+    transition: width, height, 0.3s ease-in-out;
     -webkit-box-shadow: 6px 6px 6px 0 rgba(0,0,0,.08);
     box-shadow: 6px 6px 6px rgba(0,0,0,.08);
 }}
@@ -1283,11 +1287,11 @@ margin-bottom: 0 !important;
 .gallery {
     margin-top: 2em;
     line-height:0;
-    -webkit-column-count: 3;
+    -webkit-column-count: 2;
     -webkit-column-gap:   28px;
-    -moz-column-count:    3;
+    -moz-column-count:    2;
     -moz-column-gap:      28px;
-    column-count:         3;
+    column-count:         2;
     column-gap:           28px;
 }
 

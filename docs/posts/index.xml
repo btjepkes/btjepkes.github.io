@@ -10,7 +10,7 @@
 <atom:link href="https://btjepkes.github.io/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description>A professional portfolio and technical blog for Benjamin Tjepkes.</description>
 <image>
-<url>https://btjepkes.github.io/assets/bg-pines-blog-orange-sm.png</url>
+<url>https://btjepkes.github.io/../assets/bg-pines-blog-orange-sm.png</url>
 <title>Benjamin Tjepkes</title>
 <link>https://btjepkes.github.io/posts/index.html</link>
 </image>

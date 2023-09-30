@@ -21,6 +21,7 @@ listing:
     type: grid
     grid-columns: 3
     fields:
+      - image
       - title
       - subtitle
 # 

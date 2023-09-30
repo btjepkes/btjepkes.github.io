@@ -3,7 +3,7 @@ title: "My Research"
 subtitle: Focusing on spatial ecology and geographic information systems.
 image: assets/bg-pines-research-gray-sm.png
 abstract-title: ""
-abstract: "My research has been an area of expansion for me."
+abstract: "My research has expanded both my technical skillset and my appreciation for science. Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques."
 listing:
   contents: research
   type: grid
