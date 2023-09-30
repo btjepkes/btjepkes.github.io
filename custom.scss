@@ -582,15 +582,11 @@ body {
 }
 
 .about {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 40px;
-  align-items: center;
   position: relative;
   margin-top: 3em;
-  margin-bottom: 3em;
-  padding-top: 30px;
-  padding-bottom: 60px;
+  margin-bottom: 2em;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 .about::before {
@@ -609,14 +605,6 @@ body {
   background-position: center 30%;
   opacity: 0.8;
   box-shadow: 0 0 5px #f9f9f9;
-}
-
-
-.about h3 {
-  font-size: 2.0em;
-  margin-bottom: 1rem;
-  border-bottom: solid indianred;
-  padding-bottom: 5px;
 }
 
 
@@ -677,9 +665,9 @@ body {
   background: #ffffff99;
   box-sizing: border-box;
   padding: 20px 10px;
-  border: solid 5px teal;
-  border-radius: 20px;
-  margin-top: 1em;
+  border: solid 6px teal;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 
 .icon-col i {
@@ -1116,6 +1104,7 @@ div.quarto-post .metadata {
   font-size: 1.4em;
   color: hsl(217, 36%, 22%);
   text-align: justify;
+  line-height: 1.2;
 }
 
     @media (max-width: 799px) { 
@@ -1135,10 +1124,9 @@ div.quarto-post .metadata {
 
 .index-intro-start-buttons {
   flex-grow: 1;
-  min-width: 425px;
+  min-width: 35%;
   background: #00808017;
   padding: 10px 25px 10px 20px;
-  border-radius: 8px;
 }
 
     #site-listings .quarto-grid-item {
@@ -1214,7 +1202,7 @@ div.quarto-post .metadata {
 }
 
 .index-h4 h4 {
-  margin-top: 2em;
+  margin-top: 0em;
   margin-bottom: 0em;
   color: #b21b2b;
   font-weight: 400;
@@ -1222,12 +1210,10 @@ div.quarto-post .metadata {
 }
 
 .index-section-text {
-  background: beige;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
-  padding-bottom: 5px;
   margin-bottom: 1.5em;
+  font-size: 22px;
+  text-align: justify;
+  line-height: 1.2;
 }
 
 .consultant-info {
