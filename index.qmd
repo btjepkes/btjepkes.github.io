@@ -15,33 +15,45 @@ listing:
       - "about/index.qmd"
       - "research.qmd"
       - "cv.qmd"
-      # - "posts/index.qmd"
-      # - "gallery/index.qmd"
-      # - "resources.qmd"
+      - "posts/index.qmd"
+      - "gallery/index.qmd"
+      - "resources.qmd"
     type: grid
-    grid-columns: 1
-    fields: 
-      - title
-
-  - id: site-listings-2
-    contents:
-      - "posts/can-you-naturally-protect-shores-from-erosion"
-      - "posts/how-to-become-a-contemporary-naturalist"
-      - "posts/how-scientists-use-gis-to-study-wildlife"
-      - "posts/mapping-unfragmented-forest-landscapes-using-r"
-      - "posts/interactive-heatmap-of-gbif-occurrences"
-      - "posts/streamlining-your-reporting-workflow-with-quarto"
-    type: grid
-    filter-ui: false
-    sort-ui: false
-    image-align: left
-    fields: 
+    grid-columns: 3
+    fields:
       - title
       - subtitle
+# 
+#   - id: site-listings-2
+#     contents:
+#       - "posts/can-you-naturally-protect-shores-from-erosion"
+#       - "posts/how-to-become-a-contemporary-naturalist"
+#       - "posts/how-scientists-use-gis-to-study-wildlife"
+#       - "posts/mapping-unfragmented-forest-landscapes-using-r"
+#       - "posts/interactive-heatmap-of-gbif-occurrences"
+#       - "posts/streamlining-your-reporting-workflow-with-quarto"
+#     type: grid
+#     filter-ui: false
+#     sort-ui: false
+#     image-align: left
+#     fields: 
+#       - title
+#       - subtitle
 
 ---
 
 ::: {.intro-banner .slide-in }
+
+::: {.intro-content }
+#### Wildlife Ecologist & Geographer
+# Integrating data and geospatial science for the conservation of nature.
+
+Welcome to my portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and graduate student studying geospatial and conservation science.
+
+:::
+:::
+
+::: {.index-intro-start}
 
 ::: {.intro-headshot}
 
@@ -49,17 +61,9 @@ listing:
 
 :::
 
-
-::: {.intro-content }
-#### Wildlife Ecologist & Geographer
-# Integrating data and geospatial science to understand nature.
-
-Welcome to my portfolio! I'm Ben, an experienced wildlife ecologist and geography graduate student studying geospatial and conservation science.
-
+::: {.index-intro-start-icons}
+[{{< fa brands linkedin size=2x >}}](https://www.linkedin.com/in/benjamintjepkes/) [{{< fa brands github size=2x >}}](https://github.com/btjepkes) [{{< fa brands twitter size=2x >}}](https://twitter.com/BTjepkes) [{{< fa brands researchgate size=2x >}}](https://www.researchgate.net/profile/Benjamin-Tjepkes) [{{< fa brands orcid size=2x >}}](https://orcid.org/0009-0002-5524-2675)
 :::
-:::
-
-::: {.index-intro-start}
 
 ::: {.index-intro-start-text}
 
@@ -67,227 +71,223 @@ Welcome to my portfolio! I'm Ben, an experienced wildlife ecologist and geograph
 
 My work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at wildlife conservation. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. I have over seven years of continuous professional development with governmental, private, and academic entities in the environmental sector. <span style="color:indianred;">Explore this site for more info!</span>
 
-::: {.index-intro-start-icons}
-[{{< fa brands linkedin size=2x >}}](https://www.linkedin.com/in/benjamintjepkes/) [{{< fa brands github size=2x >}}](https://github.com/btjepkes) [{{< fa brands twitter size=2x >}}](https://twitter.com/BTjepkes) [{{< fa brands researchgate size=2x >}}](https://www.researchgate.net/profile/Benjamin-Tjepkes) [{{< fa brands orcid size=2x >}}](https://orcid.org/0009-0002-5524-2675)
 :::
 :::
-
-::: {.index-intro-start-buttons}
 
 ::: {#site-listings}
-
-:::
-
-:::
-
 :::
 
 
-:::{.about}
+<!-- <!-- ::: {.index-intro-start-buttons} -->
 
-#### Expertise & Interests {.index-h4}
-::: {.index-section-heading}
-## Proficiency&#x2022;Areas {.index-h2}
-::: {.index-h2-line}
-:::
-::: {.index-h2-icon}
-{{< fa angles-left size=3x >}}
-:::
-:::
-:::
+<!-- <!-- [Career Path](quiz.qmd){.btn .btn-outline-primary role="button" data-toggle="tooltip" title="Here's a tooltip"} [Blog Posts](quiz.qmd){.btn .btn-outline-primary role="button" data-toggle="tooltip" title="Here's a tooltip"} [Explore Gallery](quiz.qmd){.btn .btn-outline-primary role="button" data-toggle="tooltip" title="Here's a tooltip"} [My Research](quiz.qmd){.btn .btn-outline-primary role="button" data-toggle="tooltip" title="Here's a tooltip"} -->
 
-:::{.index-section-text}
-I engage in a process of ongoing learning, pursuing various independent educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery/index.qmd) or read about them [here](posts/index.qmd).
-:::
+<!-- <!-- ::: -->
 
-::: {.intro-icons}
-::: {.icon-col}
-::: {.icon-col-icon}
-{{< fa tree size=Huge >}}
-:::
-::: {.icon-col-heading}
-Ecology
-:::
-Experienced in wildlife conservation and applied ecological research.
-:::
-::: {.icon-col}
-::: {.icon-col-icon}
-{{< fa layer-group size=Huge >}}
-:::
-::: {.icon-col-heading}
-Geospatial
-:::
-Proficient in geospatial technologies across multiple sectors and software.
-:::
-::: {.icon-col}
-::: {.icon-col-icon}
-{{< fa chart-column size=Huge >}}
-:::
-::: {.icon-col-heading}
-Analytics
-:::
-Knowledgeable in data management, analysis, and visualization systems.
-:::
-:::
+<!-- :::{.about} -->
 
+<!-- #### Expertise & Interests {.index-h4} -->
+<!-- ::: {.index-section-heading} -->
+<!-- ## Proficiency&#x2022;Areas {.index-h2} -->
+<!-- ::: {.index-h2-line} -->
+<!-- ::: -->
+<!-- ::: {.index-h2-icon} -->
+<!-- {{< fa angles-left size=3x >}} -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: {.content-block}
+<!-- :::{.index-section-text} -->
+<!-- I engage in a process of ongoing learning, pursuing educational modules aimed at **enhancing my proficiency** in the geospatial and ecological sciences. See how I use these skills [here](gallery/index.qmd) or read about them [here](posts/index.qmd). -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: {.features}
+<!-- ::: {.intro-icons} -->
+<!-- ::: {.icon-col} -->
+<!-- ::: {.icon-col-icon} -->
+<!-- {{< fa tree size=Huge >}} -->
+<!-- ::: -->
+<!-- ::: {.icon-col-heading} -->
+<!-- Ecology -->
+<!-- ::: -->
+<!-- Experienced in wildlife conservation and applied ecological research. -->
+<!-- ::: -->
+<!-- ::: {.icon-col} -->
+<!-- ::: {.icon-col-icon} -->
+<!-- {{< fa layer-group size=Huge >}} -->
+<!-- ::: -->
+<!-- ::: {.icon-col-heading} -->
+<!-- Geospatial -->
+<!-- ::: -->
+<!-- Proficient in geospatial technologies across multiple sectors and software. -->
+<!-- ::: -->
+<!-- ::: {.icon-col} -->
+<!-- ::: {.icon-col-icon} -->
+<!-- {{< fa chart-column size=Huge >}} -->
+<!-- ::: -->
+<!-- ::: {.icon-col-heading} -->
+<!-- Analytics -->
+<!-- ::: -->
+<!-- Knowledgeable in data management, analysis, and visualization systems. -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: {.feature}
+<!-- ::: {.content-block} -->
 
-### GIS & Cartography
+<!-- ::: {.features} -->
 
-Adept as using open source and proprietary software to create static and dynamic map products.
+<!-- ::: {.feature} -->
 
-::: {.learn-more}
+<!-- ### GIS & Cartography -->
 
-**Skills:** *R/RStudio, ArcGIS Pro/Online, QGIS*
+<!-- Adept as using open source and proprietary software to create static and dynamic map products. -->
 
-:::
-:::
-::: {.feature}
+<!-- ::: {.learn-more} -->
 
-### Data Visualization
+<!-- **Skills:** *R/RStudio, ArcGIS Pro/Online, QGIS* -->
 
-Proficient in data visualization and reproducible reporting for technical and creative projects.
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.feature} -->
 
-::: {.learn-more}
+<!-- ### Data Visualization -->
 
-**Skills:** *Quarto, R/Rmd, Jupyter Notebooks*
-:::
-:::
-::: {.feature}
+<!-- Proficient in data visualization and reproducible reporting for technical and creative projects. -->
 
-### Research Methods
+<!-- ::: {.learn-more} -->
 
-Knowledge of the scientific method, research project development, and technical reporting.
+<!-- **Skills:** *Quarto, R/Rmd, Jupyter Notebooks* -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.feature} -->
 
-::: {.learn-more}
+<!-- ### Research Methods -->
 
-**Skills:** *Mendeley, Zotero, OSF*
-:::
-:::
-::: {.feature}
+<!-- Knowledge of the scientific method, research project development, and technical reporting. -->
 
-### Web Development
+<!-- ::: {.learn-more} -->
 
-Employ front-end web development techniques to design functional and beautiful websites.
+<!-- **Skills:** *Mendeley, Zotero, OSF* -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.feature} -->
 
-::: {.learn-more}
+<!-- ### Web Development -->
 
-**Skills:** *HTML, CSS, WordPress, Git/GitHub*
-:::
-:::
-::: {.feature}
+<!-- Employ front-end web development techniques to design functional and beautiful websites. -->
 
-### Applied Ecology
+<!-- ::: {.learn-more} -->
 
-Experience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques.
+<!-- **Skills:** *HTML, CSS, WordPress, Git/GitHub* -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.feature} -->
 
-::: {.learn-more}
+<!-- ### Applied Ecology -->
 
-**Skills:** *Field Surveys, Species Monitoring*
-:::
-:::
-::: {.feature}
+<!-- Experience using radio telemetry, standardized field sampling, and wildlife capture/marking techniques. -->
 
-### Data Management
+<!-- ::: {.learn-more} -->
 
-Use programs like Microsoft Access to maintain high-quality data in relational databases.
+<!-- **Skills:** *Field Surveys, Species Monitoring* -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.feature} -->
 
-::: {.learn-more}
+<!-- ### Data Management -->
 
-**Skills:** *Microsoft Access, SQL Server, Excel*
-:::
-:::
-:::
-:::
+<!-- Use programs like Microsoft Access to maintain high-quality data in relational databases. -->
 
-::: {.about}
+<!-- ::: {.learn-more} -->
 
-#### Writings & Ramblings {.index-h4}
+<!-- **Skills:** *Microsoft Access, SQL Server, Excel* -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: {.index-section-heading}
-## Blog&#x2022;Posts {.index-h2}
+<!-- ::: {.about} -->
 
-::: {.index-h2-line}
-:::
+<!-- #### Writings & Ramblings {.index-h4} -->
 
-::: {.index-h2-icon}
-{{< fa angles-left size=3x >}}
-:::
-:::
+<!-- ::: {.index-section-heading} -->
+<!-- ## Blog&#x2022;Posts {.index-h2} -->
 
-:::
+<!-- ::: {.index-h2-line} -->
+<!-- ::: -->
 
-:::{.index-section-text}
+<!-- ::: {.index-h2-icon} -->
+<!-- {{< fa angles-left size=3x >}} -->
+<!-- ::: -->
+<!-- ::: -->
 
-My blog posts cover a vast range of information in the **ecological and geospatial sciences**. You can find everything from quick map breakdowns to full tutorials on data wrangling and visualization. View the entire archive of my posts [here](posts/index.qmd).
+<!-- ::: -->
 
-:::
+<!-- :::{.index-section-text} -->
 
+<!-- My blog posts cover a vast range of information in the **ecological and geospatial sciences**. You can find everything from quick map breakdowns to full tutorials on data wrangling and visualization. View the entire archive of my posts [here](posts/index.qmd). -->
 
-::: {#site-listings-2}
+<!-- ::: -->
 
-:::
 
+<!-- ::: {#site-listings-2} -->
 
+<!-- ::: -->
 
 
 
 
-::: {.about}
 
-#### Maps & Data Viz {.index-h4}
 
-::: {.index-section-heading}
-## Creative&#x2022;Gallery {.index-h2}
+<!-- ::: {.about} -->
 
-::: {.index-h2-line}
-:::
+<!-- #### Maps & Data Viz {.index-h4} -->
 
-::: {.index-h2-icon}
-{{< fa angles-left size=3x >}}
-:::
-:::
+<!-- ::: {.index-section-heading} -->
+<!-- ## Creative&#x2022;Gallery {.index-h2} -->
 
-:::
+<!-- ::: {.index-h2-line} -->
+<!-- ::: -->
 
-:::{.index-section-text}
+<!-- ::: {.index-h2-icon} -->
+<!-- {{< fa angles-left size=3x >}} -->
+<!-- ::: -->
+<!-- ::: -->
 
-My creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like Map Prompt Monday and Tidy Tuesday. Find the entirety of my gallery [here](gallery/index.qmd).
+<!-- ::: -->
 
-:::
+<!-- :::{.index-section-text} -->
 
+<!-- My creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like Map Prompt Monday and Tidy Tuesday. Find the entirety of my gallery [here](gallery/index.qmd). -->
 
-::: {.gallery}
+<!-- ::: -->
 
-![Squirrel Census Density Map](./gallery/2018-squirrel-census-sighting-map/img-map-001v2.png){group="personal-projects"
-description="2018 Squirrel Census Sighting Density Map"}
 
-![Endangered Species Stamp Map](./gallery/endangered-species-stamp-collection-map/img-map-endangeredstamps.png){group="personal-projects"
-description="Endangered Species Stamps Range Map"}
+<!-- ::: {.gallery} -->
 
-![Squirrel Census Chart](./gallery/img-table-001.png){group="personal-projects"
-description="2018 Squirrel Census Sighting Table"}
+<!-- ![Squirrel Census Density Map](./gallery/2018-squirrel-census-sighting-map/img-map-001v2.png){group="personal-projects" -->
+<!-- description="2018 Squirrel Census Sighting Density Map"} -->
 
-![Forest Canopy Density Map](./gallery/img-map-10.jpg){group="personal-projects"
-description="Missouri Tree Canopy Density Map"}
+<!-- ![Endangered Species Stamp Map](./gallery/endangered-species-stamp-collection-map/img-map-endangeredstamps.png){group="personal-projects" -->
+<!-- description="Endangered Species Stamps Range Map"} -->
 
-![Great Lakes Watershed Map](./gallery/img-map-11.jpg){group="personal-projects"
-description="Great Lakes Watershed Map"}
+<!-- ![Squirrel Census Chart](./gallery/img-table-001.png){group="personal-projects" -->
+<!-- description="2018 Squirrel Census Sighting Table"} -->
 
-![Turkey Harvest Map](./gallery/img-turkey-harvest-maps.png){group="personal-projects"
-}
+<!-- ![Forest Canopy Density Map](./gallery/img-map-10.jpg){group="personal-projects" -->
+<!-- description="Missouri Tree Canopy Density Map"} -->
 
-![Work Hours Calendar Chart](./gallery/img-calendar.jpeg){group="personal-projects"
-}
+<!-- ![Great Lakes Watershed Map](./gallery/img-map-11.jpg){group="personal-projects" -->
+<!-- description="Great Lakes Watershed Map"} -->
 
-![Black Bear Sighting Choropleth](./gallery/img-map-5.jpg){group="personal-projects"
-}
+<!-- ![Turkey Harvest Map](./gallery/img-turkey-harvest-maps.png){group="personal-projects" -->
+<!-- } -->
 
+<!-- ![Work Hours Calendar Chart](./gallery/img-calendar.jpeg){group="personal-projects" -->
+<!-- } -->
 
-:::
+<!-- ![Black Bear Sighting Choropleth](./gallery/img-map-5.jpg){group="personal-projects" -->
+<!-- } -->
+
+
+<!-- ::: -->
 

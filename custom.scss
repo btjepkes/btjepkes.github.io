@@ -125,11 +125,11 @@ $progress-height:               .5rem !default;
 
 
 // Variables
-/*
-$web-font-path: "https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700&display=swap" !default;
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" !default;
 @if $web-font-path {
   @import url($web-font-path);
-}*/
+}
 
 $web-font-path: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900;1000&display=swap" !default;
 @if $web-font-path {
@@ -468,7 +468,7 @@ div.quarto-post {
   content: "";
   display: block;
   width: 15%;
-  border-top: solid 4px #008080;
+  border-top: solid 6px #008080;
   margin-top: 15px;
 }
 
@@ -531,6 +531,7 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
   display: flex;
   flex-direction: row;
   gap: 60px;
+  text-align: center;
   align-items: center;
   margin-top: calc(-1em - 14px);
   margin-bottom: 3em;
@@ -560,6 +561,12 @@ body {
   overflow-x: hidden;
 }
 
+.intro-content {
+  max-width: 80%;
+  margin: auto;
+}
+
+
 .intro-content p {
   color: white;
   font-weight: 500;
@@ -571,6 +578,17 @@ body {
 
 .intro-content h1 {
   margin-top: 0;
+}
+
+
+.intro-content h1::after { content: "";
+  position: relative;
+  display: block;
+  border-top: solid 6px $tan;
+  margin-top: 25px;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro-content h4 {
@@ -585,8 +603,8 @@ body {
   position: relative;
   margin-top: 3em;
   margin-bottom: 2em;
-  padding-top: 20px;
-  padding-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .about::before {
@@ -603,7 +621,7 @@ body {
   background-attachment: scroll;
   background-size: cover;
   background-position: center 30%;
-  opacity: 0.8;
+  opacity: 0.5;
   box-shadow: 0 0 5px #f9f9f9;
 }
 
@@ -666,8 +684,11 @@ body {
   box-sizing: border-box;
   padding: 20px 10px;
   border: solid 6px teal;
+  border-radius: 20px;
   margin-top: 0em;
   margin-bottom: 0em;
+  -webkit-box-shadow: 6px 6px 6px 0 rgba(0,0,0,.12);
+  box-shadow: 6px 6px 6px rgba(0,0,0,.12);
 }
 
 .icon-col i {
@@ -1075,6 +1096,11 @@ div.quarto-post .metadata {
 
 // ICONS & Buttons
 
+.btn {
+  box-shadow: 3px 4px 0px indianred;
+  font-weight: 600;
+}
+
 .fa-solid {
   color: $dark-green;
 }
@@ -1124,7 +1150,8 @@ div.quarto-post .metadata {
 
 .index-intro-start-buttons {
   flex-grow: 1;
-  min-width: 35%;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
     #site-listings .quarto-grid-item {
@@ -1208,9 +1235,11 @@ div.quarto-post .metadata {
 }
 
 .index-section-text {
-  margin-bottom: 1.5em;
   font-size: 22px;
   line-height: 1.3;
+  font-family: Sen;
+  background: white;
+  color: #24334c;
 }
 
 .consultant-info {

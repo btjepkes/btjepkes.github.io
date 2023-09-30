@@ -19,13 +19,10 @@
     "items": [
       "/about/index.html",
       "/cv.html",
+      "/posts/index.html",
+      "/gallery/index.html",
       "/research.html",
-      "/posts/can-you-naturally-protect-shores-from-erosion/index.html",
-      "/posts/how-scientists-use-gis-to-study-wildlife/index.html",
-      "/posts/how-to-become-a-contemporary-naturalist/index.html",
-      "/posts/mapping-unfragmented-forest-landscapes-using-r/index.html",
-      "/posts/streamlining-your-reporting-workflow-with-quarto/index.html",
-      "/posts/interactive-heatmap-of-gbif-occurrences/index.html"
+      "/resources.html"
     ]
   },
   {
