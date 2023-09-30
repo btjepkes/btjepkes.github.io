@@ -13,7 +13,7 @@ listing:
   - id: site-listings
     contents:
       - "about/index.qmd"
-      # - "research.qmd"
+      - "research.qmd"
       - "cv.qmd"
       # - "posts/index.qmd"
       # - "gallery/index.qmd"
@@ -22,7 +22,6 @@ listing:
     grid-columns: 1
     fields: 
       - title
-      - subtitle
 
   - id: site-listings-2
     contents:
@@ -74,9 +73,6 @@ My work focuses on using a variety of data science and geospatial technologies t
 :::
 
 ::: {.index-intro-start-buttons}
-
-
-
 
 ::: {#site-listings}
 

@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -220,9 +220,6 @@ ul.task-list li input[type="checkbox"] {
 <h5 class="no-anchor card-title listing-title">
 About Me
 </h5>
-<div class="card-subtitle listing-subtitle">
-Learn about my career path and professional interests.
-</div>
 </div>
 </div>
 </a>
@@ -234,9 +231,17 @@ Learn about my career path and professional interests.
 <h5 class="no-anchor card-title listing-title">
 Curriculum vitae
 </h5>
-<div class="card-subtitle listing-subtitle">
-A full look at my education, professional experience, and achievements.
 </div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1696012241011" data-listing-reading-time-sort="1">
+<a href="./research.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Research
+</h5>
 </div>
 </div>
 </a>
@@ -468,7 +473,7 @@ No matching items
 <div class="gallery">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/2018-squirrel-census-sighting-map/img-map-001v2.png" class="lightbox" data-description="2018
+<p><a href="./gallery/2018-squirrel-census-sighting-map/img-map-001v2.png" class="lightbox" title="Squirrel Census Density Map" data-description="2018
 
 Squirrel
 
@@ -478,13 +483,13 @@ Sighting
 
 Density
 
-Map" title="Squirrel Census Density Map" data-gallery="personal-projects"><img src="./gallery/2018-squirrel-census-sighting-map/img-map-001v2.png" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects"><img src="./gallery/2018-squirrel-census-sighting-map/img-map-001v2.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Squirrel Census Density Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/endangered-species-stamp-collection-map/img-map-endangeredstamps.png" class="lightbox" data-description="Endangered
+<p><a href="./gallery/endangered-species-stamp-collection-map/img-map-endangeredstamps.png" class="lightbox" title="Endangered Species Stamp Map" data-description="Endangered
 
 Species
 
@@ -492,13 +497,13 @@ Stamps
 
 Range
 
-Map" title="Endangered Species Stamp Map" data-gallery="personal-projects"><img src="./gallery/endangered-species-stamp-collection-map/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects"><img src="./gallery/endangered-species-stamp-collection-map/img-map-endangeredstamps.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Endangered Species Stamp Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-table-001.png" class="lightbox" data-description="2018
+<p><a href="./gallery/img-table-001.png" class="lightbox" title="Squirrel Census Chart" data-description="2018
 
 Squirrel
 
@@ -506,13 +511,13 @@ Census
 
 Sighting
 
-Table" title="Squirrel Census Chart" data-gallery="personal-projects"><img src="./gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
+Table" data-gallery="personal-projects"><img src="./gallery/img-table-001.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Squirrel Census Chart</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-10.jpg" class="lightbox" data-description="Missouri
+<p><a href="./gallery/img-map-10.jpg" class="lightbox" title="Forest Canopy Density Map" data-description="Missouri
 
 Tree
 
@@ -520,19 +525,19 @@ Canopy
 
 Density
 
-Map" title="Forest Canopy Density Map" data-gallery="personal-projects"><img src="./gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects"><img src="./gallery/img-map-10.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Forest Canopy Density Map</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./gallery/img-map-11.jpg" class="lightbox" data-description="Great
+<p><a href="./gallery/img-map-11.jpg" class="lightbox" title="Great Lakes Watershed Map" data-description="Great
 
 Lakes
 
 Watershed
 
-Map" title="Great Lakes Watershed Map" data-gallery="personal-projects"><img src="./gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
+Map" data-gallery="personal-projects"><img src="./gallery/img-map-11.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Great Lakes Watershed Map</figcaption>
 </figure>
 </div>
@@ -853,7 +858,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":true,"descPosition":"bottom","openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"loop":true,"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","closeEffect":"zoom"});</script>
 
 
 
