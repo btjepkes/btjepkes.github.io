@@ -2,89 +2,27 @@
 title: "My Gallery"
 subtitle: "Maps, visualizations, reports, posters, and presentations."
 image: ../assets/bg-pines-gallery-yellow-sm.png
-toc: true
+toc: false
 abstract-title: ""
 abstract: These are some of my latest maps and data visualizations from personal creative projects and work-related assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, and similar.
-# listing:
-#   - id: gallery-listings
-#     contents:
-#       - "*.qmd"
-#     type: grid
-#     grid-columns: 2
-#     categories: numbered
-#     image-height: 100%
-#     fields: 
-#         - image
+listing:
+  - id: gallery-listings
+    contents:
+      - "*.qmd"
+    type: grid
+    grid-columns: 3
+    grid-item-border: true
+    categories: numbered
+    sort: date
+    image-height: 250px
+    fields:
+        - image
+        - title
 # format: 
 #   html: 
 #     page-layout: full
 ---
 
-<!-- ::: {#gallery-listings .listings-gallery} -->
-
-<!-- ::: -->
-
-## 2023
-
-
-::: {.gallery}
-
-![Squirrel Census Density Map](2018-squirrel-census-sighting-map/img-map-001v2.png){group="2023-projects"
-description="2018 Squirrel Census Sighting Density Map"}
-
-
-
-![Endangered Species Range Map](endangered-species-stamp-collection-map/img-map-endangeredstamps.png){group="2023-projects"
-description="Endangered Species Stamps Range Map - [See Details](gallery-map-seven.html)"}
-
-
-![Relative Skills Barchart](img-relative-skills-animation.gif){group="2023-projects"
-description="Needed"}
-
-
-![Squirrel Census Chart](img-table-001.png){group="2023-projects"
-description="2018 Squirrel Census Sighting Table"}
-
-![Forest Canopy Density Map](img-map-10.jpg){group="2023-projects"
-description="Missouri Tree Canopy Density Map"}
-
-![GL Watershed Map](img-map-11.jpg){group="2023-projects"
-description="Great Lakes Watershed Map"}
-
-![Working Hours Calendar](img-calendar.jpeg){group="2023-projects"}
-
-![Australian Publication Map](img-australia-pub-map.png){group="2023-projects"
-}
-
-
-:::
-
-## Pre-2023
-
-::: {.gallery}
-
-![Turkey Harvest Choropleth Map](img-turkey-harvest-maps.png){group="personal-projects"
-description="Needed"}
-
-![Vineyard Suitability Map](img-map-1.jpg){group="personal-projects"
-description="Needed"}
-
-![Bear Sighting Reports Map](img-map-5.jpg){group="personal-projects"
-description="Needed"}
-
-![OHWM Compliance Map](img-map-4.jpg){group="personal-projects"
-description="Needed"}
-
-![Eagle Nest Selection Poster](img-eagle-poster.jpg){group="personal-projects"
-description="Needed"}
-
-![Mobile Geo-Survey Development](img-map-9.jpg){group="personal-projects"
-description="Needed"}
-
-![Interactive HTML Leaflet Map](img-html-missouri-map.png){group="personal-projects"
-description="Needed"}
-
-![Facility Naviagation Map](img-map-2.jpg){group="personal-projects"
-description="Needed"}
+::: {#gallery-listings .listings-gallery}
 
 :::

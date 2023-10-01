@@ -91,39 +91,32 @@
     "text": "Final Thoughts\nOverall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here."
   },
   {
+    "objectID": "gallery/missouri-bear-sighting-map/index.html",
+    "href": "gallery/missouri-bear-sighting-map/index.html",
+    "title": "Choropleth of Missouri Bear Sightings",
+    "section": "",
+    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
+  },
+  {
     "objectID": "gallery/index.html",
     "href": "gallery/index.html",
     "title": "My Gallery",
     "section": "",
-    "text": "Squirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nRelative Skills Barchart\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map"
+    "text": "2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bat Habitat Conservation Plan in Missouri\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Data Report\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nWork Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "gallery/index.html#section",
-    "href": "gallery/index.html#section",
-    "title": "My Gallery",
+    "objectID": "gallery/gallery-report-two.html",
+    "href": "gallery/gallery-report-two.html",
+    "title": "Bald Eagle Nest Monitoring Data Report",
     "section": "",
-    "text": "Squirrel Census Density Map\n\n\n\n\n\nEndangered Species Range Map\n\n\n\n\n\nRelative Skills Barchart\n\n\n\n\n\nSquirrel Census Chart\n\n\n\n\n\nForest Canopy Density Map\n\n\n\n\n\nGL Watershed Map\n\n\n\n\n\nWorking Hours Calendar\n\n\n\n\n\nAustralian Publication Map"
+    "text": "Photo Credit: Wisconsin Center for Wildlife/USFWS"
   },
   {
-    "objectID": "gallery/index.html#pre-2023",
-    "href": "gallery/index.html#pre-2023",
-    "title": "My Gallery",
-    "section": "Pre-2023",
-    "text": "Pre-2023\n\n\n\n\nTurkey Harvest Choropleth Map\n\n\n\n\n\nVineyard Suitability Map\n\n\n\n\n\nBear Sighting Reports Map\n\n\n\n\n\nOHWM Compliance Map\n\n\n\n\n\nEagle Nest Selection Poster\n\n\n\n\n\nMobile Geo-Survey Development\n\n\n\n\n\nInteractive HTML Leaflet Map\n\n\n\n\n\nFacility Naviagation Map"
-  },
-  {
-    "objectID": "gallery/gallery-poster-two.html#tools-and-workflow",
-    "href": "gallery/gallery-poster-two.html#tools-and-workflow",
-    "title": "Poster on Bat Habitat Conservation Plan in Missouri",
-    "section": "Tools and Workflow",
-    "text": "Tools and Workflow\n\nMap creation was performed using tmap and sf packages in the RStudio environment.\nPoster compilation was performed in Microsoft Publisher."
-  },
-  {
-    "objectID": "gallery/gallery-map-four.html",
-    "href": "gallery/gallery-map-four.html",
-    "title": "Choropleth of Missouri Bear Sightings in 2020",
+    "objectID": "gallery/gallery-poster-one.html",
+    "href": "gallery/gallery-poster-one.html",
+    "title": "Poster on Bald Eagle Nest Selection Research",
     "section": "",
-    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
+    "text": "Credit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
@@ -133,18 +126,11 @@
     "text": "Map Credit: Ben Tjepkes"
   },
   {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About Me",
-    "section": "",
-    "text": "My professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\n\n\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree.\nAdditionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year."
-  },
-  {
     "objectID": "about/index.html#trained-as-a-biologist.",
     "href": "about/index.html#trained-as-a-biologist.",
     "title": "About Me",
-    "section": "",
-    "text": "My professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\n\n\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree.\nAdditionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year."
+    "section": "Trained as a biologist.",
+    "text": "Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\n\n\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree.\nAdditionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year."
   },
   {
     "objectID": "about/index.html#drawn-to-geospatial.",
@@ -165,7 +151,7 @@
     "href": "about/index.html#exploring-my-work.",
     "title": "About Me",
     "section": "Exploring my work.",
-    "text": "Exploring my work.\nPlease have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV can be found here.\n\n\n\n\n\nNo matching items"
+    "text": "Exploring my work.\nPlease have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV can be found here.\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv.html",
@@ -182,53 +168,32 @@
     "text": "Map Credit: Ben Tjepkes"
   },
   {
-    "objectID": "gallery/gallery-poster-one.html",
-    "href": "gallery/gallery-poster-one.html",
-    "title": "Poster on Bald Eagle Nest Selection Research",
-    "section": "",
-    "text": "Credit: Benjamin Tjepkes"
+    "objectID": "gallery/gallery-poster-two.html#tools-and-workflow",
+    "href": "gallery/gallery-poster-two.html#tools-and-workflow",
+    "title": "Poster on Bat Habitat Conservation Plan in Missouri",
+    "section": "Tools and Workflow",
+    "text": "Tools and Workflow\n\nMap creation was performed using tmap and sf packages in the RStudio environment.\nPoster compilation was performed in Microsoft Publisher."
   },
   {
-    "objectID": "gallery/gallery-report-two.html",
-    "href": "gallery/gallery-report-two.html",
-    "title": "Bald Eagle Nest Monitoring Data Report",
+    "objectID": "gallery/great-lakes-watershed-map/index.html",
+    "href": "gallery/great-lakes-watershed-map/index.html",
+    "title": "Great Lakes Watersheds",
     "section": "",
-    "text": "Photo Credit: Wisconsin Center for Wildlife/USFWS"
+    "text": "Map Credit: Ben Tjepkes"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Integrating data and geospatial science for the conservation of nature.",
+    "title": "Integrating data and geospatial science for nature conservation.",
     "section": "",
-    "text": "Welcome to my portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and graduate student studying geospatial and conservation science."
+    "text": "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and graduate student studying geospatial and conservation science."
   },
   {
-    "objectID": "index.html#brief-biography",
-    "href": "index.html#brief-biography",
-    "title": "Integrating data and geospatial science to understand nature.",
-    "section": "Brief Biography",
-    "text": "Brief Biography\nI am currently a graduate student at the University of Missouri studying geographic information systems (GIS) and geography. I possess more than seven years of continuous professional development with governmental, private, and academic entities in the environmental sector. My work focuses on using a variety of data science and geospatial technologies to research the natural world, specifically for wildlife conservation."
-  },
-  {
-    "objectID": "index.html#focalareas",
-    "href": "index.html#focalareas",
-    "title": "Integrating data and geospatial science to understand nature.",
-    "section": "Focal•Areas",
-    "text": "Focal•Areas"
-  },
-  {
-    "objectID": "index.html#blogposts",
-    "href": "index.html#blogposts",
-    "title": "Integrating data and geospatial science for the conservation of nature.",
-    "section": "Blog•Posts",
-    "text": "Blog•Posts"
-  },
-  {
-    "objectID": "index.html#creativegallery",
-    "href": "index.html#creativegallery",
-    "title": "Integrating data and geospatial science for the conservation of nature.",
-    "section": "Creative•Gallery",
-    "text": "Creative•Gallery"
+    "objectID": "index.html#my-brief-biography",
+    "href": "index.html#my-brief-biography",
+    "title": "Integrating data and geospatial science for nature conservation.",
+    "section": "My Brief Biography",
+    "text": "My Brief Biography\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at wildlife conservation. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. I have over seven years of continuous professional development with governmental, private, and academic entities in the environmental sector. Explore this site for more info!"
   },
   {
     "objectID": "posts/can-you-naturally-protect-shores-from-erosion/index.html",
@@ -397,19 +362,5 @@
     "title": "My Research",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest-Site Selection\n\n\nAssessing bald eagle nests along the Upper Mississippi River, 1990-2012.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nAssessing the need for flow devices on wetlands in NE Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nDetermining sex-specific space-use for raccoons in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nAn assessment of ruffed grouse reproductive habitat in Northern Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nAn assessment of small mammals in Schmeekle Reserve, Wisconsin.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#my-brief-biography",
-    "href": "index.html#my-brief-biography",
-    "title": "Integrating data and geospatial science for the conservation of nature.",
-    "section": "My Brief Biography",
-    "text": "My Brief Biography\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at wildlife conservation. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. I have over seven years of continuous professional development with governmental, private, and academic entities in the environmental sector. Explore this site for more info!"
-  },
-  {
-    "objectID": "index.html#proficiencyareas",
-    "href": "index.html#proficiencyareas",
-    "title": "Integrating data and geospatial science for the conservation of nature.",
-    "section": "Proficiency•Areas",
-    "text": "Proficiency•Areas"
   }
 ]

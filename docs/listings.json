@@ -11,8 +11,27 @@
     ]
   },
   {
+    "listing": "/gallery/index.html",
+    "items": [
+      "/gallery/2018-squirrel-census-sighting-map/index.html",
+      "/gallery/endangered-species-stamp-collection-map/index.html",
+      "/gallery/gallery-poster-one.html",
+      "/gallery/gallery-poster-two.html",
+      "/gallery/gallery-report-two.html",
+      "/gallery/great-lakes-watershed-map/index.html",
+      "/gallery/mdc-furbearer-program-annual-report-2021/index.html",
+      "/gallery/missouri-bear-sighting-map/index.html",
+      "/gallery/relative-coding-proficiency-chart/index.html",
+      "/gallery/work-commitments-calendar/index.html"
+    ]
+  },
+  {
     "listing": "/about/index.html",
-    "items": []
+    "items": [
+      "/posts/index.html",
+      "/gallery/index.html",
+      "/research.html"
+    ]
   },
   {
     "listing": "/index.html",

@@ -1,0 +1,12 @@
+---
+title: "Relative Coding Proficiency Charts"
+subtitle: ""
+author: "Benjamin Tjepkes"
+date-modified: "9-30-2023"
+categories:
+  - Chart Gallery
+abstract-title: ""
+abstract: Pending
+toc: false
+image: img-relative-skills-animation.gif
+---

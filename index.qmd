@@ -2,7 +2,7 @@
 title: ""
 subtitle: ""
 toc: false
-pagetitle: "B.W. Tjepkes - Portfolio"
+pagetitle: "Benjamin W. Tjepkes - Portfolio"
 author-meta: Benjamin Tjepkes
 description-meta: "This is the porfolio and professional website of Benjamin Tjepkes."
 format: 
@@ -19,37 +19,18 @@ listing:
       - "gallery/index.qmd"
       - "resources.qmd"
     type: grid
-    grid-columns: 3
     fields:
-      - image
       - title
       - subtitle
-# 
-#   - id: site-listings-2
-#     contents:
-#       - "posts/can-you-naturally-protect-shores-from-erosion"
-#       - "posts/how-to-become-a-contemporary-naturalist"
-#       - "posts/how-scientists-use-gis-to-study-wildlife"
-#       - "posts/mapping-unfragmented-forest-landscapes-using-r"
-#       - "posts/interactive-heatmap-of-gbif-occurrences"
-#       - "posts/streamlining-your-reporting-workflow-with-quarto"
-#     type: grid
-#     filter-ui: false
-#     sort-ui: false
-#     image-align: left
-#     fields: 
-#       - title
-#       - subtitle
-
 ---
 
 ::: {.intro-banner .slide-in }
 
 ::: {.intro-content }
 #### Wildlife Ecologist & Geographer
-# Integrating data and geospatial science for the conservation of nature.
+# Integrating data and geospatial science for nature conservation.
 
-Welcome to my portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and graduate student studying geospatial and conservation science.
+Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and graduate student studying geospatial and conservation science.
 
 :::
 :::

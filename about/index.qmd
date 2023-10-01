@@ -10,15 +10,17 @@ abstract: "I am currently a graduate student at the University of Missouri study
 listing:
   - id: site-listings
     contents:
-      - "./research.qmd"
-      - "./posts/index.qmd"
-      - "./gallery/index.qmd"
+      - "../research.qmd"
+      - "../posts/index.qmd"
+      - "../gallery/index.qmd"
     type: grid
     grid-columns: 3
     fields: 
       - title
       - subtitle
 ---
+
+![](../assets/img-ben-work.png)
 
 ## Trained as a biologist. {.intro-heading}
 
@@ -77,7 +79,7 @@ My goal is to synthesize my practical experience in wildlife ecology with the th
 
 ## Exploring my work. {.intro-heading}
 
-Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV can be found [here](cv.qmd).
+Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV can be found [here](../cv.qmd).
 
 ::: {#site-listings}
 
