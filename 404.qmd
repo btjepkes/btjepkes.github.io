@@ -11,6 +11,6 @@ toc: false
 Check out these popular pages:
 
 - [Homepage](index.qmd)
-- [About Me](about.qmd)
+- [About Me](about/index.qmd)
 - [Project Gallery](gallery/index.qmd)
 - [Blog Posts](posts/index.qmd)

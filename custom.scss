@@ -335,8 +335,9 @@ nav .nav-item a:hover {
   padding-top: 2.5em;
 }
 
-.quarto-title-meta {
-  color: white;
+.quarto-title-meta,
+.quarto-title-meta a {
+  color: white !important;
 }
 
 // BANNER
@@ -346,15 +347,9 @@ nav .nav-item a:hover {
   color: white;
   padding-top: 2.2em;
   padding-bottom: 2.2em;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: lighten;
-	/*background-color: hsl(217, 36%, 22%); /*#2d405f*/
-	/*background-image: url("assets/bg-topo-white.png");
-  background-attachment: fixed;
-  opacity: 0; /* Initially hidden */
-  /*transform: translateY(-100%); /* Initially off-screen from the top */
-  /*animation: slideIn 700ms forwards; /* Animation duration and fill mode */
-  animation: fadeIn 2s;
+  animation: fadeIn 2.5s;
 }
 
       @keyframes fadeIn {
@@ -408,9 +403,9 @@ div.quarto-post {
 
 
 
-/* Callout block at start of blog*/
-.intro-callout {
-  background: white;
+/* Callout block */
+.callout li {
+  margin-top: 1em;
 }
 
 .quarto-listing-filter {
