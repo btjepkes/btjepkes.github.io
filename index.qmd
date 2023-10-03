@@ -63,8 +63,9 @@ My work focuses on using a variety of data science and geospatial technologies t
 ## Expand To See My Latest Updates
 
 - **Sept 2023 --** I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.
-- **Aug 2023 --** I have started graduate school in the University of Missouri Department of Geography. Updates on my thesis work coming soon!
-
+- **Aug 2023 --** I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!
+- **July 2023 --** One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest.
+- **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.
 :::
 
 

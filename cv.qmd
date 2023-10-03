@@ -2,21 +2,26 @@
 title: "Curriculum vitae"
 subtitle: A full look at my education, professional experience, and achievements.
 image: assets/bg-pines-resources-purple-sm.png
-toc: false
+toc: true
 
 format:
   html:
     echo: false
     warning: false
-
-# listing:
-#   id: resource-listings
-#   template: resources/resources.ejs
-#   contents: resources/resources.yml
-#   categories: false
-#   filter-ui: false
-    
 ---
 
+**This page is under construction.** Please see my [LinkedIn](https://www.linkedin.com/in/benjamintjepkes/) for my full profile.
 
-{{< pdf resume-example.pdf width=100% height=600 border=2 >}}
+<!-- {{< pdf resume-example.pdf width=100% height=600 border=2 >}} -->
+
+## Education
+
+- **MA - Geography**, University of Missouri
+- **BS - Wildlife Ecology & Mgmnt**, University of Wisconsin-Stevens Point
+
+## Experience
+
+- **Graduate Teaching Assistant**, University of Missouri
+- **Assistant Wildlife Diversity Coordinator**, Missouri Department of Conservation
+- **Wildlife Biologist**, Missouri Department of Conservation
+- **Assistant Natural Heritage Biologist**, Missouri Department of Conservation
