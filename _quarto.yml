@@ -11,6 +11,9 @@ website:
   search: false
   open-graph: true
   repo-url: https://github.com/btjepkes/btjepkes.github.io
+  google-analytics: 
+    tracking-id: "G-ESKNL9H1KZ"
+    version: 4
 
   navbar:
     logo: img-nav-logo-11.svg
