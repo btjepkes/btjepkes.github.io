@@ -539,6 +539,11 @@ div.quarto-post {
 
 /* FIGURES & IMAGES */
 
+.image-bordered {
+  border-radius: 0px !important;
+  border: solid 1px black;
+}
+
 .figure-caption {
   margin: -5px 10px 0px 0px;
   font-size: 0.7rem;
@@ -1174,7 +1179,7 @@ div.quarto-post .metadata {
 }
 
 .index-intro-start-text {
-  font-size: 1.4em;
+  font-size: 1.29em;
   color: hsl(217, 36%, 22%);
   text-align: justify;
   line-height: 1.2;

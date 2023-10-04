@@ -390,7 +390,7 @@ font-style: inherit;">summary</span>(ifl)</span></code></pre></div>
 </section>
 <section id="visualize-data" class="level3">
 <h3 data-anchor-id="visualize-data">4. Visualize Data</h3>
-<p>We will use the tmap package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.</p>
+<p>We will use the <code>tmap</code> package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.</p>
 <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Load the tmap package</span></span>

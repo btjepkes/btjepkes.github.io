@@ -15,6 +15,8 @@ listing:
     categories: numbered
     sort: date
     image-height: 250px
+    sort-ui: [title, date]
+    filter-ui: [title, subtitle, categories, abstract]
     fields:
         - image
         - title

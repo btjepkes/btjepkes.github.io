@@ -60,9 +60,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-subtitle","listing-categories","listing-abstract"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -181,7 +181,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Avian">Avian <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Chart Gallery">Chart Gallery <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Choropleth">Choropleth <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Endangered Species">Endangered Species <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Furbearers">Furbearers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mammal">Mammal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Map Gallery">Map Gallery <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Mississippi River">Mississippi River <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Missouri">Missouri <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Poster Gallery">Poster Gallery <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Report">Report <span class="quarto-category-count">(2)</span></div><div class="category" data-category="United States">United States <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="ArcGIS Pro">ArcGIS Pro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Avian">Avian <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Chart Gallery">Chart Gallery <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Choropleth">Choropleth <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Endangered Species">Endangered Species <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Furbearers">Furbearers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Hexagons">Hexagons <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mammal">Mammal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Map Gallery">Map Gallery <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Mississippi River">Mississippi River <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Missouri">Missouri <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Poster Gallery">Poster Gallery <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Report">Report <span class="quarto-category-count">(2)</span></div><div class="category" data-category="United States">United States <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -189,6 +189,22 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 
 <div id="listing-gallery-listings" class="listings-gallery quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-gallery-listings-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-gallery-listings'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="Map Gallery" data-listing-file-modified-sort="1696011857001" data-listing-reading-time-sort="1">
 <a href="../gallery/2018-squirrel-census-sighting-map/index.html" class="quarto-grid-link">
@@ -258,7 +274,7 @@ Bald Eagle Nest Monitoring Data Report
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery" data-listing-file-modified-sort="1696117470256" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery" data-listing-file-modified-sort="1696433610969" data-listing-reading-time-sort="1">
 <a href="../gallery/great-lakes-watershed-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -266,7 +282,7 @@ Bald Eagle Nest Monitoring Data Report
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Great Lakes Watersheds
+Map of Great Lakes Watersheds
 </h5>
 </div>
 </div>
@@ -298,7 +314,19 @@ Choropleth of Missouri Bear Sightings
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Chart Gallery" data-listing-file-modified-sort="1696116139849" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Hexagons,ArcGIS Pro" data-listing-file-modified-sort="1696433952617" data-listing-reading-time-sort="1">
+<a href="../gallery/missouri-forest-canopy-density/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="missouri-forest-canopy-density\img-map-10.jpg" style="height: 250px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Map of Missouri Forest Canopy Density
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="Chart Gallery" data-listing-file-modified-sort="1696116139849" data-listing-reading-time-sort="1">
 <a href="../gallery/relative-coding-proficiency-chart/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -312,7 +340,7 @@ Relative Coding Proficiency Charts
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1696119785410" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1696119785410" data-listing-reading-time-sort="1">
 <a href="../gallery/work-commitments-calendar/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">

@@ -30,7 +30,7 @@ listing:
 #### Wildlife Ecologist & Geographer
 # Integrating data and geospatial science for nature conservation.
 
-Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and graduate student studying geospatial and conservation science.
+Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and graduate student studying geospatial data science.
 
 :::
 :::
@@ -60,7 +60,7 @@ My work focuses on using a variety of data science and geospatial technologies t
 :::
 
 ::: {.callout-important collapse="true" }
-## Expand To See My Latest Updates
+## My Latest Professional Updates
 
 - **Sept 2023 --** I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.
 - **Aug 2023 --** I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!

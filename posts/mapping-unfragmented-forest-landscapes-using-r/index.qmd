@@ -2,7 +2,7 @@
 title: "Mapping Unfragmented Forest Landscapes Using R"
 subtitle: "Vizualizing Global Forest Watch data on intact North American forests over time."
 date: "4/22/2023"
-abstract: In this post, we will demonstrate how to visualize expansive amounts of geographic data using R. We will use an example that involves mapping data from Global Forest Watch, which focuses on North America's landscapes that have intact forests large enough to preserve all native biodiversity.
+abstract: In this post, we will demonstrate how to visualize expansive amounts of geographic data using R. We will use example data from Global Forest Watch, which focuses on North America's landscapes that have intact forests large enough to preserve all native biodiversity.
 abstract-title: ""
 categories:
   - R
@@ -10,6 +10,7 @@ categories:
   - Cartography
 image: https://content.globalforestwatch.org/wp-content/uploads/2023/05/model_output_4km_aggregation_tcd30_model_v1.2.3_20230407_for_pres_with_legend__net_flux-2048x968.jpg
 ---
+
 
 ## Background
 
@@ -52,7 +53,7 @@ summary(ifl)
 
 ### 4. Visualize Data
 
-We will use the tmap package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.
+We will use the `tmap` package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.
 
 ``` r
 # Load the tmap package

@@ -1,0 +1,9 @@
+---
+title: "Map of Missouri Forest Canopy Density"
+categories:
+  - Map Gallery
+  - Hexagons
+  - ArcGIS Pro
+---
+
+![](img-map-10.jpg){.image-bordered}
