@@ -1,10 +1,6 @@
 ---
 title: "Brownian Bridge Movement Models in R"
 subtitle: "Movement ecology and modeling."
-author:
-  - name: Benjamin Tjepkes  
-    url: //about.qmd
-    orcid: 0009-0002-5524-2675
 date-modified: "5/5/2023"
 abstract: In this blog post, we explore Brownian Bridge Movement Models using R.
 abstract-title: ""

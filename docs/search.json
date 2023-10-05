@@ -91,39 +91,46 @@
     "text": "Final Thoughts\nOverall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here."
   },
   {
-    "objectID": "gallery/missouri-bear-sighting-map/index.html",
-    "href": "gallery/missouri-bear-sighting-map/index.html",
-    "title": "Choropleth of Missouri Bear Sightings",
-    "section": "",
-    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
-  },
-  {
-    "objectID": "gallery/index.html",
-    "href": "gallery/index.html",
-    "title": "My Gallery",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bat Habitat Conservation Plan in Missouri\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Data Report\n\n\n\n\n\n\n\n\n\n\n\n\n\nMap of Great Lakes Watersheds\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\nMap of Missouri Forest Canopy Density\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nWork Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "gallery/gallery-report-two.html",
-    "href": "gallery/gallery-report-two.html",
-    "title": "Bald Eagle Nest Monitoring Data Report",
-    "section": "",
-    "text": "Photo Credit: Wisconsin Center for Wildlife/USFWS"
-  },
-  {
-    "objectID": "gallery/gallery-poster-one.html",
-    "href": "gallery/gallery-poster-one.html",
-    "title": "Poster on Bald Eagle Nest Selection Research",
-    "section": "",
-    "text": "Credit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
-    "href": "gallery/2018-squirrel-census-sighting-map/index.html",
-    "title": "2018 Squirrel Census Sighting Map",
+    "objectID": "gallery/great-lakes-watershed-map/index.html",
+    "href": "gallery/great-lakes-watershed-map/index.html",
+    "title": "Map of Great Lakes Watersheds",
     "section": "",
     "text": "Map Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/gallery-poster-two.html#tools-and-workflow",
+    "href": "gallery/gallery-poster-two.html#tools-and-workflow",
+    "title": "Poster on Bat Habitat Conservation Plan in Missouri",
+    "section": "Tools and Workflow",
+    "text": "Tools and Workflow\n\nMap creation was performed using tmap and sf packages in the RStudio environment.\nPoster compilation was performed in Microsoft Publisher."
+  },
+  {
+    "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
+    "href": "gallery/endangered-species-stamp-collection-map/index.html",
+    "title": "Endangered Species Stamp Map",
+    "section": "",
+    "text": "Map Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "This page is under construction. Please see my LinkedIn for my full profile."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum vitae",
+    "section": "Education",
+    "text": "Education\n\nMA - Geography, University of Missouri\nBS - Wildlife Ecology & Mgmnt, University of Wisconsin-Stevens Point"
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "Curriculum vitae",
+    "section": "Experience",
+    "text": "Experience\n\nGraduate Teaching Assistant, University of Missouri\nAssistant Wildlife Diversity Coordinator, Missouri Department of Conservation\nWildlife Biologist, Missouri Department of Conservation\nAssistant Natural Heritage Biologist, Missouri Department of Conservation"
   },
   {
     "objectID": "about/index.html#trained-as-a-biologist.",
@@ -154,46 +161,39 @@
     "text": "Exploring my work.\nPlease have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV can be found here.\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum vitae",
-    "section": "",
-    "text": "This page is under construction. Please see my LinkedIn for my full profile."
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum vitae",
-    "section": "Education",
-    "text": "Education\n\nMA - Geography, University of Missouri\nBS - Wildlife Ecology & Mgmnt, University of Wisconsin-Stevens Point"
-  },
-  {
-    "objectID": "cv.html#experience",
-    "href": "cv.html#experience",
-    "title": "Curriculum vitae",
-    "section": "Experience",
-    "text": "Experience\n\nGraduate Teaching Assistant, University of Missouri\nAssistant Wildlife Diversity Coordinator, Missouri Department of Conservation\nWildlife Biologist, Missouri Department of Conservation\nAssistant Natural Heritage Biologist, Missouri Department of Conservation"
-  },
-  {
-    "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
-    "href": "gallery/endangered-species-stamp-collection-map/index.html",
-    "title": "Endangered Species Stamp Map",
+    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
+    "href": "gallery/2018-squirrel-census-sighting-map/index.html",
+    "title": "2018 Squirrel Census Sighting Map",
     "section": "",
     "text": "Map Credit: Ben Tjepkes"
   },
   {
-    "objectID": "gallery/gallery-poster-two.html#tools-and-workflow",
-    "href": "gallery/gallery-poster-two.html#tools-and-workflow",
-    "title": "Poster on Bat Habitat Conservation Plan in Missouri",
-    "section": "Tools and Workflow",
-    "text": "Tools and Workflow\n\nMap creation was performed using tmap and sf packages in the RStudio environment.\nPoster compilation was performed in Microsoft Publisher."
+    "objectID": "gallery/gallery-poster-one.html",
+    "href": "gallery/gallery-poster-one.html",
+    "title": "Poster on Bald Eagle Nest Selection Research",
+    "section": "",
+    "text": "Credit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/great-lakes-watershed-map/index.html",
-    "href": "gallery/great-lakes-watershed-map/index.html",
-    "title": "Map of Great Lakes Watersheds",
+    "objectID": "gallery/gallery-report-two.html",
+    "href": "gallery/gallery-report-two.html",
+    "title": "Bald Eagle Nest Monitoring Data Report",
     "section": "",
-    "text": "Map Credit: Ben Tjepkes"
+    "text": "Photo Credit: Wisconsin Center for Wildlife/USFWS"
+  },
+  {
+    "objectID": "gallery/index.html",
+    "href": "gallery/index.html",
+    "title": "My Gallery",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bat Habitat Conservation Plan in Missouri\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Data Report\n\n\n\n\n\n\n\n\n\n\n\n\n\nMap of Great Lakes Watersheds\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\nMap of Missouri Forest Canopy Density\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nWork Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "gallery/missouri-bear-sighting-map/index.html",
+    "href": "gallery/missouri-bear-sighting-map/index.html",
+    "title": "Choropleth of Missouri Bear Sightings",
+    "section": "",
+    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
   },
   {
     "objectID": "index.html",

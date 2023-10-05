@@ -11,6 +11,14 @@
     ]
   },
   {
+    "listing": "/about/index.html",
+    "items": [
+      "/posts/index.html",
+      "/gallery/index.html",
+      "/research.html"
+    ]
+  },
+  {
     "listing": "/gallery/index.html",
     "items": [
       "/gallery/2018-squirrel-census-sighting-map/index.html",
@@ -24,14 +32,6 @@
       "/gallery/missouri-forest-canopy-density/index.html",
       "/gallery/relative-coding-proficiency-chart/index.html",
       "/gallery/work-commitments-calendar/index.html"
-    ]
-  },
-  {
-    "listing": "/about/index.html",
-    "items": [
-      "/posts/index.html",
-      "/gallery/index.html",
-      "/research.html"
     ]
   },
   {
