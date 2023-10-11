@@ -2,6 +2,7 @@
 title: "Links & Contact"
 subtitle: "Reach out to me with inquires or connect on my social profiles."
 search: false
+pagetitle: "Contact ~ Benjamin W. Tjepkes"
 image: assets/bg-pines-links-green-sm.png
 ---
 

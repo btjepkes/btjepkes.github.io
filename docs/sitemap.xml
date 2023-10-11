@@ -2,122 +2,142 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://btjepkes.github.io/resources.html</loc>
-    <lastmod>2023-10-11T03:36:02.282Z</lastmod>
+    <lastmod>2023-10-11T18:49:12.360Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/research/research-two.html</loc>
-    <lastmod>2023-10-11T03:35:59.995Z</lastmod>
+    <lastmod>2023-10-11T18:49:10.473Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/research/research-one.html</loc>
-    <lastmod>2023-10-11T03:35:58.199Z</lastmod>
+    <lastmod>2023-10-11T18:49:09.061Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/research/research-five.html</loc>
-    <lastmod>2023-10-11T03:35:56.669Z</lastmod>
+    <lastmod>2023-10-11T18:49:07.729Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/posts/index.html</loc>
-    <lastmod>2023-10-11T13:52:06.285Z</lastmod>
+    <lastmod>2023-10-11T18:49:00.869Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife/index.html</loc>
-    <lastmod>2023-10-11T03:35:46.239Z</lastmod>
+    <lastmod>2023-10-11T18:48:58.249Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/gallery/work-commitments-calendar/index.html</loc>
-    <lastmod>2023-10-11T03:35:39.416Z</lastmod>
+    <lastmod>2023-10-11T18:48:52.634Z</lastmod>
   </url>
   <url>
-    <loc>https://btjepkes.github.io/gallery/missouri-forest-canopy-density/index.html</loc>
-    <lastmod>2023-10-11T03:35:37.991Z</lastmod>
-  </url>
-  <url>
-    <loc>https://btjepkes.github.io/gallery/mdc-furbearer-program-annual-report-2021/index.html</loc>
-    <lastmod>2023-10-11T03:35:36.473Z</lastmod>
-  </url>
-  <url>
-    <loc>https://btjepkes.github.io/gallery/great-lakes-watershed-map/index.html</loc>
-    <lastmod>2023-10-11T03:35:34.236Z</lastmod>
-  </url>
-  <url>
-    <loc>https://btjepkes.github.io/gallery/gallery-poster-two.html</loc>
-    <lastmod>2023-10-11T03:35:32.519Z</lastmod>
-  </url>
-  <url>
-    <loc>https://btjepkes.github.io/gallery/endangered-species-stamp-collection-map/index.html</loc>
-    <lastmod>2023-10-11T03:35:25.979Z</lastmod>
-  </url>
-  <url>
-    <loc>https://btjepkes.github.io/cv.html</loc>
-    <lastmod>2023-10-11T03:35:24.193Z</lastmod>
-  </url>
-  <url>
-    <loc>https://btjepkes.github.io/about/index.html</loc>
-    <lastmod>2023-10-11T03:35:22.598Z</lastmod>
-  </url>
-  <url>
-    <loc>https://btjepkes.github.io/contact.html</loc>
-    <lastmod>2023-10-11T03:35:23.469Z</lastmod>
-  </url>
-  <url>
-    <loc>https://btjepkes.github.io/gallery/2018-squirrel-census-sighting-map/index.html</loc>
-    <lastmod>2023-10-11T03:35:25.013Z</lastmod>
-  </url>
-  <url>
-    <loc>https://btjepkes.github.io/gallery/gallery-poster-one.html</loc>
-    <lastmod>2023-10-11T03:35:31.568Z</lastmod>
-  </url>
-  <url>
-    <loc>https://btjepkes.github.io/gallery/gallery-report-two.html</loc>
-    <lastmod>2023-10-11T03:35:33.385Z</lastmod>
-  </url>
-  <url>
-    <loc>https://btjepkes.github.io/gallery/index.html</loc>
-    <lastmod>2023-10-11T13:52:44.554Z</lastmod>
-  </url>
-  <url>
-    <loc>https://btjepkes.github.io/gallery/missouri-bear-sighting-map/index.html</loc>
-    <lastmod>2023-10-11T03:35:37.321Z</lastmod>
+    <loc>https://btjepkes.github.io/gallery/turkey-harvest-maps-by-county/index.html</loc>
+    <lastmod>2023-10-11T18:48:51.496Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/gallery/relative-coding-proficiency-chart/index.html</loc>
-    <lastmod>2023-10-11T03:35:38.675Z</lastmod>
+    <lastmod>2023-10-11T18:48:50.072Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/overlaying-public-lands-with-bmzs/index.html</loc>
+    <lastmod>2023-10-11T18:48:48.805Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/missouri-bear-sighting-map/index.html</loc>
+    <lastmod>2023-10-11T18:48:47.507Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/mdc-furbearer-program-annual-report-2021/index.html</loc>
+    <lastmod>2023-10-11T18:48:46.187Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/great-lakes-watershed-map/index.html</loc>
+    <lastmod>2023-10-11T18:48:44.237Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/bald-eagle-nest-selection-poster/index.html</loc>
+    <lastmod>2023-10-11T18:48:42.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/australia-publication-map-figure/index.html</loc>
+    <lastmod>2023-10-11T18:48:41.564Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/cv.html</loc>
+    <lastmod>2023-10-11T18:48:40.259Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/about/index.html</loc>
+    <lastmod>2023-10-11T18:48:38.919Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/contact.html</loc>
+    <lastmod>2023-10-11T18:48:39.638Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/2018-squirrel-census-sighting-map/index.html</loc>
+    <lastmod>2023-10-11T18:48:40.936Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/bald-eagle-nest-monitoring-report/index.html</loc>
+    <lastmod>2023-10-11T18:48:42.194Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/endangered-species-stamp-collection-map/index.html</loc>
+    <lastmod>2023-10-11T18:48:43.512Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/index.html</loc>
+    <lastmod>2023-10-11T18:48:45.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/missouri-bat-hcp-poster/index.html</loc>
+    <lastmod>2023-10-11T18:48:46.870Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/missouri-forest-canopy-density/index.html</loc>
+    <lastmod>2023-10-11T18:48:48.088Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/shoreline-structure-setback-compliance-map/index.html</loc>
+    <lastmod>2023-10-11T18:48:50.776Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/gallery/vineyard-and-winery-location-suitability-map/index.html</loc>
+    <lastmod>2023-10-11T18:48:52.111Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/index.html</loc>
-    <lastmod>2023-10-11T13:50:51.398Z</lastmod>
+    <lastmod>2023-10-11T18:48:53.903Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion/index.html</loc>
-    <lastmod>2023-10-11T03:35:43.339Z</lastmod>
+    <lastmod>2023-10-11T18:48:55.767Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist/index.html</loc>
-    <lastmod>2023-10-11T03:35:47.484Z</lastmod>
+    <lastmod>2023-10-11T18:48:59.408Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/index.html</loc>
-    <lastmod>2023-10-11T03:35:50.358Z</lastmod>
+    <lastmod>2023-10-11T18:49:02.071Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/posts/mapping-unfragmented-forest-landscapes-using-r/index.html</loc>
-    <lastmod>2023-10-11T03:35:52.414Z</lastmod>
+    <lastmod>2023-10-11T18:49:03.975Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/posts/streamlining-your-reporting-workflow-with-quarto/index.html</loc>
-    <lastmod>2023-10-11T03:35:54.312Z</lastmod>
+    <lastmod>2023-10-11T18:49:05.805Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/research/research-four.html</loc>
-    <lastmod>2023-10-11T03:35:57.445Z</lastmod>
+    <lastmod>2023-10-11T18:49:08.360Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/research/research-three.html</loc>
-    <lastmod>2023-10-11T03:35:59.093Z</lastmod>
+    <lastmod>2023-10-11T18:49:09.784Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/research.html</loc>
-    <lastmod>2023-10-11T03:36:01.297Z</lastmod>
+    <lastmod>2023-10-11T18:49:11.437Z</lastmod>
   </url>
 </urlset>

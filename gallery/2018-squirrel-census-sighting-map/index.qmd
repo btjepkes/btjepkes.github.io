@@ -1,14 +1,22 @@
 ---
 title: "2018 Squirrel Census Sighting Map"
-subtitle: "Pending."
+subtitle: "Density-based map of squirrel sightings in Central Park."
 author: "Benjamin Tjepkes"
 date-modified: "5-23-2023"
 categories:
   - Map Gallery
 abstract-title: ""
-abstract: Pending
+abstract: This map was produced as part of the **2023 Tidy Tuesday**. Map creation was performed in R using the RStudio environment and data were pulled from public repositories.
 toc: false
 image: img-map-001v2.png
 ---
 
+::: {layout-ncol=2}
+
 ![Map Credit: Ben Tjepkes](img-map-001v2.png)
+
+![Map Credit: Ben Tjepkes](img-map-001.png)
+
+:::
+
+

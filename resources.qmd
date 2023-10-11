@@ -2,12 +2,13 @@
 title: "Resources"
 subtitle: My favorite references for ecology, GIS, R, Python, and more.
 image: assets/bg-pines-resources-purple-sm.png
+pagetitle: "Resources ~ Benjamin W. Tjepkes"
 toc: false
 execute:
   echo: false
   warning: false
-format: 
-  html: 
+format:
+  html:
     page-layout: full
 ---
 

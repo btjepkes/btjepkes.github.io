@@ -223,5 +223,32 @@
   },
   "gallery/missouri-forest-canopy-density/index.qmd": {
     "index.html": "d56a5b25"
+  },
+  "gallery/bald-eagle-nest-monitoring-report/index.qmd": {
+    "index.html": "84800d9e"
+  },
+  "gallery/australia-publication-map-figure/index.qmd": {
+    "index.html": "dab6a47e"
+  },
+  "gallery/overlaying-public-lands-with-bmzs/index.qmd": {
+    "index.html": "69e442f2"
+  },
+  "gallery/vineyard-and-winery-location-suitability-map/index.qmd": {
+    "index.html": "74882777"
+  },
+  "gallery/turkey-harvest-maps-by-county/index.qmd": {
+    "index.html": "27818198"
+  },
+  "gallery/shoreline-structure-setback-compliance-map/index.qmd": {
+    "index.html": "9a038cf1"
+  },
+  "gallery/bald-eagle-nest-selection-poster/index.qmd": {
+    "index.html": "8068e651"
+  },
+  "gallery/missouri-bat-hcp-poster/index.qmd": {
+    "index.html": "d6c70ab7"
+  },
+  "gallery/raccoon-spatial-patterns-and-home-ranges/index.qmd": {
+    "index.html": "9e26d29b"
   }
 }

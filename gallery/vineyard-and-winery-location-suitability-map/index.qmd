@@ -1,0 +1,21 @@
+---
+title: "Vineyard and Winery Location Suitability"
+subtitle: "Optimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin."
+author: "Benjamin Tjepkes"
+date: "Pre-2019"
+abstract: "This was an assignment for one of my university GIS courses."
+aliases: 
+  - gallery/gallery-map-one.html
+abstract-title: ""
+categories:
+  - Map Gallery
+  - Wisconsin
+  - Location Suitability
+image: img-map-1.jpg
+---
+
+![](img-map-1.jpg)
+
+
+
+

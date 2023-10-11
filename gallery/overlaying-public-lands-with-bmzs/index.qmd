@@ -1,0 +1,24 @@
+---
+title: "Overlaying Public Lands with BMZs"
+subtitle: "State and federal lands within Bear Management Zones in Missouri."
+author: "Benjamin Tjepkes"
+date-modified: "5-1-2023"
+aliases: 
+  - gallery/gallery-map-five.html
+categories:
+  - Testing
+  - Map Gallery
+  - Missouri
+  - Overlay
+abstract-title: ""
+abstract: This overlay map was created for the Missouri Black Bear Program to present during public talks on bear hunting across the three designated Bear Management Zones, indicating where public hunting lands are located. All data were pulled from internally-maintained geodatabases. Map creation was performed in ArcGIS Pro 2.9.
+image: img-map-6.jpg
+---
+
+![Map Credit: Benjamin Tjepkes](img-map-6.jpg)
+
+::: {layout-ncol=2}
+![Variation 1. Map Credit: Benjamin Tjepkes](img-map-7.jpg)
+
+![Variation 2. Map Credit: Benjamin Tjepkes](img-map-8.jpg)
+:::
