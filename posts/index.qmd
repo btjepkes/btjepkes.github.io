@@ -1,6 +1,7 @@
 ---
 title: "My Blog Posts"
 subtitle: Explore my writings on ecological and geospatial data science.
+pagetitle: "Posts ~ Benjamin W. Tjepkes"
 author: ""
 description-meta: "Blog Posts - Explore my writings on ecological and geospatial data science."
 toc: false

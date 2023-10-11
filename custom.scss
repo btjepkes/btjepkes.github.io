@@ -347,15 +347,15 @@ nav .nav-item a:hover {
   color: white;
   padding-top: 2.2em;
   padding-bottom: 2.2em;
-  background-color: rgba(96, 164, 171, 0.35);
+  background-color: rgba(94, 109, 132, 0.35);
   background-blend-mode: lighten;
   animation: fadeIn 2.5s;
 }
 
-      @keyframes fadeIn {
+/*      @keyframes fadeIn {
         0% { opacity: 0; }
         100% { opacity: 1; }
-      }
+      }*/
 
 .quarto-title .quarto-categories {
     margin-top: 20px;
@@ -520,10 +520,11 @@ div.quarto-post {
 }
 
 .quarto-grid-item p.card-img-top>img {
-    object-fit: fit;
     border-radius: 0;
-    padding: 8px;
+    padding: 4px;
     min-height: 200px;
+    overflow-clip-margin: unset;
+    overflow: hidden;
 }
 
 
