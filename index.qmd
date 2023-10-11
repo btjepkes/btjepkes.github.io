@@ -8,7 +8,6 @@ description-meta: "This is the porfolio and professional website of Benjamin Tje
 format: 
   html:
     page-layout: full
-    
 listing:
   - id: site-listings
     contents:
@@ -59,7 +58,7 @@ My work focuses on using a variety of data science and geospatial technologies t
 ::: {#site-listings}
 :::
 
-::: {.callout-important collapse="false" }
+::: {.callout-important collapse="true" }
 ## My Latest Professional Updates
 
 - **Sept 2023 --** I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.

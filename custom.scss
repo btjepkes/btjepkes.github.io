@@ -521,7 +521,7 @@ div.quarto-post {
 
 .quarto-grid-item p.card-img-top>img {
     border-radius: 0;
-    padding: 4px;
+    padding: 4px !important;
     min-height: 200px;
     overflow-clip-margin: unset;
     overflow: hidden;
@@ -1186,7 +1186,7 @@ div.quarto-post .metadata {
   line-height: 1.2;
 }
 
-    @media (max-width: 1080px) { 
+    @media (max-width: 900px) { 
     .index-intro-start-text {
       font-size: 1.2em!important;
       text-align: center;
