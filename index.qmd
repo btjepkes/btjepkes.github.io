@@ -16,7 +16,7 @@ listing:
       - "cv.qmd"
       - "posts/index.qmd"
       - "gallery/index.qmd"
-      - "resources.qmd"
+      - "resources/index.qmd"
     type: grid
     fields:
       - title

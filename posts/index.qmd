@@ -17,6 +17,7 @@ listing:
     exclude:
       keywords: The Conservation Companion
     feed: true
+    page-size: 10
     type: grid
     grid-columns: 1
     categories: numbered

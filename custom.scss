@@ -610,6 +610,11 @@ body {
   overflow-x: hidden;
 }
 
+#quarto-content {
+  min-height: auto !important;
+}
+
+
 .intro-content {
   margin: auto;
 }
@@ -1125,8 +1130,8 @@ div.quarto-post .metadata {
 @media (max-width: 767.98px) {
   
 .nav-footer-center {
-  margin-bottom: 3em;
-  margin-top: 0;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .nav-footer .nav-footer-right {

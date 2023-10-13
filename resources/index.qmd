@@ -1,0 +1,86 @@
+---
+title: "Resources"
+subtitle: My favorite references for ecology, GIS, R, Python, and more.
+image: assets/bg-pines-resources-purple-sm.png
+pagetitle: "Resources ~ Benjamin W. Tjepkes"
+toc: false
+execute:
+  echo: false
+  warning: false
+format:
+  html:
+    page-layout: full
+---
+
+## Resource Database
+
+Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions.
+
+```{r}
+# library(reactable)
+# library(tidyverse)
+# library(htmltools)
+# library(reactablefmtr)
+# 
+# data <- read.csv("resources.csv") %>% 
+#   select(Title:Link) %>% 
+#   arrange(Title)
+# 
+# table <- reactable(
+#   data,
+#   wrap = TRUE,
+#   resizable = TRUE,
+#   searchable = TRUE,
+#   striped = TRUE,
+#   defaultPageSize = 20,
+#   paginationType = "simple",
+#   showPageInfo = FALSE,
+#   minRows = 1,
+#   elementId = "tbl"
+# )
+# 
+# save_reactable_test(table, "example_resources_table.html")
+
+```
+
+```{r}
+library(reactable)
+library(tidyverse)
+library(htmltools)
+
+data <- read.csv("resources.csv") %>% 
+  select(Title:Link) %>% 
+  arrange(Title)
+
+reactable(
+  data,
+  wrap = TRUE,
+  resizable = TRUE,
+  searchable = TRUE,
+  striped = TRUE,
+  defaultPageSize = 20,
+  paginationType = "simple",
+  showPageInfo = FALSE,
+  minRows = 1,
+  elementId = "tbl",
+  columns = list(
+    Title = colDef(
+      cell = function(value, index) {
+        Description <- data$Description[index]
+        Description <- if (!is.na(Description)) Description else "Unknown"
+        div(
+          div(style = "font-weight: 600", value),
+          div(style = "font-size: 0.75rem", Description)
+          
+        )
+      }, width = 600
+    ),
+    Description = colDef(show = FALSE),
+    Link = colDef(cell = function(value) {
+      tags$a(href = value, target = "_blank", "Link")
+    }
+    )
+  )
+)
+```
+
