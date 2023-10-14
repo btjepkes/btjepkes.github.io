@@ -50,7 +50,7 @@ Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist 
 
 ## My Brief Biography
 
-My work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at wildlife conservation. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. I have over seven years of continuous professional development with governmental, private, and academic entities in the environmental sector. <span style="color:indianred;">Explore this site for more info!</span>
+My work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at wildlife conservation. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. I have over seven years of continuous professional development with governmental, private, and academic entities in the environmental sector. **Explore this site for more info!**
 
 :::
 :::
