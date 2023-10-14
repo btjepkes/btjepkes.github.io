@@ -6,7 +6,9 @@ date-modified: "9-30-2023"
 categories:
   - Chart Gallery
 abstract-title: ""
-abstract: Pending
+abstract: "This animated bar chart shows my relative coding language skills. Chart creation was performed in RStudio using the `ggplot2` package and others."
 toc: false
 image: img-relative-skills-animation.gif
 ---
+
+![](img-relative-skills-animation.gif)

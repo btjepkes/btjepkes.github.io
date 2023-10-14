@@ -13,6 +13,7 @@
   {
     "listing": "/about/index.html",
     "items": [
+      "/cv.html",
       "/posts/index.html",
       "/gallery/index.html",
       "/research.html"

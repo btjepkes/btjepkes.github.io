@@ -11,11 +11,11 @@ listing:
     contents:
       - "*.qmd"
     type: grid
-    grid-columns: 3
+    grid-columns: 2
     grid-item-border: true
     categories: numbered
     sort: date
-    image-height: 250px
+    image-height: 300px
     sort-ui: [title, date]
     filter-ui: [title, subtitle, categories, abstract]
     fields:

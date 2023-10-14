@@ -1,0 +1,393 @@
+/* css styles */
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-weight: 900;
+  font-size: 2rem !important;
+}
+
+
+h2 {
+  border-bottom: solid 2px #bccdce; /*#6ba2bd*/
+  margin-top: 2.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 500;
+  color: cadetblue;
+}
+
+ol, ul {
+  padding-left: 1.5rem;
+}
+
+code {
+  color: #344757;
+  background-color: #f5c25c66;
+  padding: 0.08rem 0.3rem;
+}
+
+
+.blockquote p {
+  font-size: 22px;
+}
+
+pre.sourceCode {
+  border: solid 1px;
+}
+
+/* ICONS */
+
+div.quarto-about-solana .about-entity .about-links {
+  display: flex;
+  justify-content: left;
+  padding-bottom: 2.5em;
+}
+
+
+
+
+/* NAVIGATION */
+
+
+.navbar {
+  background-color: #20595d;
+  border: none;
+  color: white;
+}
+
+.navbar-nav li:hover::before {
+  content: "\2022";
+  display: block;
+  position: relative;
+  top: -5px;
+  left: 50%;
+  margin-bottom: -25.5px;
+  color: #f5c25c;
+}
+
+
+.navbar-brand span {
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: 0.07em;
+  color: white;
+  background: transparent;
+  padding:2px 12px;
+  text-transform: uppercase;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+}
+
+.navbar-nav .nav-item {
+  font-weight: 600;
+}
+
+
+@media (max-width: 991.98px) {
+ul.navbar-nav:nth-child(2) {
+flex-direction: row;
+padding: 10px 0px;
+margin: auto;
+}
+
+nav .nav-item.compact .nav-link {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+/*
+.navbar-collapse {
+  display: flex;
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  align-items: center;
+  -webkit-align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.navbar-nav-scroll {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}*/
+
+  /*
+.aa-DetachedContainer--modal {
+    border-radius: 6px;
+    bottom: inherit;
+    height: auto;
+    margin: 0 auto;
+    max-width: 850px;
+    position: absolute;
+    top: 40px;
+}
+
+.aa-DetachedOverlay {
+  background-color: #1f414f88;
+  backdrop-filter: blur(20px);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  z-index: 1100;
+}*/
+
+.about-contents {
+  padding-right: 0px !important;
+}
+
+}
+
+
+
+/* HEADERS */
+.quarto-title-banner {
+  color: black;
+  background: white; /*#9dcbe1*/
+  padding-top: 40px;
+  padding-bottom: 30px;
+  border-bottom: solid 1px #696867;
+}
+
+
+body {
+  backdrop-filter: blur(1px);
+  background-color: #f7f5f4;
+}
+
+
+.quarto-container,
+#quarto-content {
+  min-height: 0vh !important;
+}
+
+.title {
+  background-image: url(/data.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: 25px;
+  background-size: 300px;
+  font-weight: 700 !important;
+}
+
+
+.subtitle {
+  font-weight: 400;
+  line-height: 1.2;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  color: #696867;
+  font-size: 1.2rem;
+  letter-spacing: -0.02em;
+}
+
+
+.header-section-number {
+  margin-right: 20px;
+}
+
+
+
+
+/* POSTS */
+
+/* Callout block at start of blog*/
+.intro-callout {
+  margin-top: 0;
+  background: white;
+}
+
+.quarto-listing-filter {
+  margin-bottom: 2em;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.quarto-grid-item .listing-categories {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+  gap: 5px;
+  padding-top: 10px;
+}
+
+.quarto-grid-item {
+  background: white;
+  border-radius: 0px 0px 14px 14px;
+}
+
+@media (min-width: 991.98px) {
+.quarto-grid-item:hover .card-title::after {
+  border-top: solid 4px #f5c25c;
+  animation: border-anim 0.2s ease-out forwards;
+}}
+
+.quarto-grid-item .card-title::after {
+  content: "";
+  display: block;
+  width: 15%;
+  border-top: solid 4px #bccdce;
+  margin-top: 15px;
+}
+
+.quarto-grid-item .card-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.quarto-grid-item p.card-img-top>img {
+    object-fit: fit;
+    object-position: top;
+    border-radius: 0;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/*
+@media (max-width: 991.98px) {
+  p.card-img-top>img {
+    height: 200px !important;
+}
+}*/
+
+
+.quarto-category {
+  background: azure;
+  color: black;
+  opacity: 1.0;
+}
+
+.quarto-title .quarto-categories {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* FIGURES & IMAGES */
+
+.figure-caption {
+  margin: -5px 10px 0px 0px;
+  font-size: 0.7rem;
+  text-align: right;
+}
+
+.img-fluid,
+.figure-img {
+  border-radius: 4px;
+}
+
+.padded-img {
+  padding-top: 2rem;
+}
+
+
+
+/* ABOUT on Index */
+
+
+/* Image gallery on index */
+
+
+#index .quarto-layout-cell {
+  position: relative;
+  margin-right: 0;
+}
+
+
+@media (max-width: 991.98px) {
+.centered {
+  text-align: center;
+}
+
+.about-links {
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  column-gap: 0.8em;
+  justify-content: center !important;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+}
+
+.quarto-about-solana {
+  margin-top: -2em;
+}
+
+.about-link {
+  background: white;
+}
+
+.about-image {
+  border-radius: 6px;
+}
+
+#listing-site-listings {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+
+/* FOOTER */
+
+
+.nav-footer {
+  padding-top: 1em;
+  background-color: #20595d;
+  color: white !important;
+}
+
+.nav-footer a {
+  color: white;
+}
+
+@media (max-width: 767.98px) {
+.nav-footer-center {
+  margin-bottom: 1em;
+  margin-top: 0;
+}}
+
+#quarto-back-to-top {
+  background-color: #f1f1f1;
+  color: black;
+  bottom: 20px;
+  left: 50%;
+  box-shadow: none;
+}
+
+
+/* TABLES */
+
+/* Table styling */
+.gt_col_headings {
+  display: none;
+}
+
+.gt_group_heading {
+  text-align: center !important;
+}
+
+
+.quarto-listing-cols-2 > *,
+.quarto-listing-cols-3 > * {
+    display: flex !important;
+    flex-direction: column !important;
+    break-inside: avoid !important;
+}

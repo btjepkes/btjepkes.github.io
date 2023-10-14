@@ -17,7 +17,7 @@ website:
 
   navbar:
     logo: assets/site-favicon.svg
-    pinned: false
+    pinned: true
     right:
       - href: about/index.qmd
         text: About
@@ -71,13 +71,14 @@ format:
     anchor-sections: false
     highlight-style: github
     link-external-newwindow: true
+    code-link: true
     code-overflow: scroll
     mainfont: Sen
     grid:
       sidebar-width: 250px
       body-width: 800px
       margin-width: 300px
-      gutter-width: 1.75rem
+      gutter-width: 3rem
     filters: 
       - lightbox
     lightbox: auto

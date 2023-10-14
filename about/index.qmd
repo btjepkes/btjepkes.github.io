@@ -14,8 +14,9 @@ listing:
       - "../research.qmd"
       - "../posts/index.qmd"
       - "../gallery/index.qmd"
+      - "../cv.qmd"
     type: grid
-    grid-columns: 3
+    grid-columns: 2
     fields: 
       - title
       - subtitle
@@ -74,7 +75,7 @@ Through my Master's program, I have the opportunity to study a broad range of to
 
 ## Exploring my work. {.intro-heading}
 
-Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV can be found [here](../cv.qmd).
+Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience as well.
 
 ::: {#site-listings}
 
