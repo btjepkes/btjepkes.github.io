@@ -229,6 +229,11 @@ code {
 /*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
   
+    .navbar {
+      padding-top: 0.1em !important;
+      padding-bottom: 0 !important;
+    }
+  
     ul.navbar-nav:nth-child(1) {
     flex-direction: row;
     padding: 10px 0px;
@@ -1116,7 +1121,7 @@ div.quarto-post .metadata {
   padding-top: 0.5em;
   padding-bottom: 0em;
   background-color: white; /* #3a4753 */
-  border-top: solid 1px gray;
+  border-top: solid 1px lightgray;
 }
 
 #quarto-margin-sidebar {
