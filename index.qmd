@@ -67,7 +67,6 @@ My work focuses on using a variety of data science and geospatial technologies t
 - **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.
 :::
 
-
 <!-- <!-- ::: {.index-intro-start-buttons} -->
 
 <!-- <!-- [Career Path](quiz.qmd){.btn .btn-outline-primary role="button" data-toggle="tooltip" title="Here's a tooltip"} [Blog Posts](quiz.qmd){.btn .btn-outline-primary role="button" data-toggle="tooltip" title="Here's a tooltip"} [Explore Gallery](quiz.qmd){.btn .btn-outline-primary role="button" data-toggle="tooltip" title="Here's a tooltip"} [My Research](quiz.qmd){.btn .btn-outline-primary role="button" data-toggle="tooltip" title="Here's a tooltip"} -->

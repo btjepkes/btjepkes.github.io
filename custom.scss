@@ -235,7 +235,7 @@ code {
   
     .navbar {
       padding-top: 0.1em !important;
-      padding-bottom: 0 !important;
+      padding-bottom: 0.2em !important;
     }
   
     ul.navbar-nav:nth-child(1) {
@@ -425,7 +425,7 @@ div.quarto-post {
   margin-top: 1em;
 }
 
-.callout {
+.callout:last-of-type {
   margin-bottom: -2em !important;
 }
 
@@ -455,7 +455,7 @@ div.quarto-post {
   background-image: url("assets/bg-topo-white.png");
   background-blend-mode: difference;
   background-position: center center;
-  border-radius: 3px;
+  border-radius: 8px;
   border: 1px solid #46639355;
   -webkit-box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
   box-shadow: 4px 4px 4px rgba(0,0,0,.1);
@@ -540,7 +540,7 @@ div.quarto-post {
   margin-bottom: 10px;
 }
 .quarto-grid-item p.card-img-top {
-  padding: 4px;
+  padding: 6px;
 }
 .quarto-grid-item p.card-img-top>img {
     border-radius: 0;
@@ -1072,7 +1072,7 @@ div.quarto-post .metadata {
 #footer-tab .columns {
   display: flex;
   flex-direction: column-reverse;
-  gap: 2em;
+  gap: 1em;
 }
   
   #footer-tab .column {
@@ -1142,15 +1142,15 @@ div.quarto-post .metadata {
 @media (max-width: 767.98px) {
   
 .nav-footer-center {
-  margin-bottom: 1em;
-  margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 .nav-footer .nav-footer-right {
   font-size: 1.5em;
   padding: 2px 20px;
   margin-bottom: 0em;
-  margin-top: 1em;
+  margin-top: 0em;
 }
   
 .nav-footer {
