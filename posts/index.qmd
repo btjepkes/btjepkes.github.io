@@ -51,9 +51,7 @@ listing:
 
 ## TCC Archive
 
-One of my personal projects over the last several years was the development of a conservation-focused blog called, **The Conservation Companion**. While I am continuing to develop content for TCC when I can, I was unable to maintain the web hosting service since starting grad school.
-
-*Most of those posts are archived here for the time being.*
+One of my personal projects over the last several years was the development of a conservation-focused blog called, **The Conservation Companion**. While I am continuing to develop content for TCC when I can, I was unable to maintain the web hosting service since starting grad school. Therefore, *most of my TCC posts are archived here for the time being.*
 
 ::: {#tcc-posts}
 :::
