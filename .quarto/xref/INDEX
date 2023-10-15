@@ -253,5 +253,8 @@
   },
   "resources/index.qmd": {
     "index.html": "d18f15e5"
+  },
+  "posts/a-visual-exploration-of-national-champion-trees/index.qmd": {
+    "index.html": "5c648345"
   }
 }

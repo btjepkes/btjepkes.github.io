@@ -145,6 +145,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;
 
 body {
   -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none !important;
 }
 
 h1 {
@@ -1135,7 +1136,7 @@ div.quarto-post .metadata {
 }
 
 #quarto-margin-sidebar {
-  background: rgba(94,109,132,.15);
+  background: rgba(211, 230, 232);
   padding-left: 15px;
 }
 

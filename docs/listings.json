@@ -11,12 +11,14 @@
     ]
   },
   {
-    "listing": "/about/index.html",
+    "listing": "/index.html",
     "items": [
+      "/about/index.html",
       "/cv.html",
       "/posts/index.html",
       "/gallery/index.html",
-      "/research.html"
+      "/research.html",
+      "/resources/index.html"
     ]
   },
   {
@@ -41,14 +43,12 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/about/index.html",
     "items": [
-      "/about/index.html",
       "/cv.html",
       "/posts/index.html",
       "/gallery/index.html",
-      "/research.html",
-      "/resources/index.html"
+      "/research.html"
     ]
   },
   {

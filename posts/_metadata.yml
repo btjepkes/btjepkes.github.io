@@ -4,7 +4,7 @@ description-meta: "{{< meta description >}}"
 
 # Default for table of contents
 toc: true
-toc-title: Contents
+toc-title: "On This Page:"
 toc-location: right
 
 # Default author
