@@ -151,6 +151,7 @@ body {
 h1 {
   color: $white;
   opacity: 1.0;
+  font-weight: 600;
 }
 
 h1::after {
@@ -161,6 +162,10 @@ h1::after {
   border-radius: 4px;
   margin-top: 25px;
   width: 14%;
+}
+
+h2 {
+  color: $new-dark-blue;
 }
 
 .subtitle {
@@ -348,8 +353,8 @@ nav .nav-item a:hover {
 #title-block-header {
   background-color: $new-dark-blue; /* hsl(217, 36%, 22%) */
   background-image: url("assets/bg-topo-white.png");
-  padding-bottom: 2.5em;
-  padding-top: 2.5em;
+  padding-bottom: 2.2em;
+  padding-top: 2.2em;
   margin-block-end: 0 !important;
 }
 
@@ -363,8 +368,8 @@ nav .nav-item a:hover {
 .quarto-title-banner {
   overflow: hidden;
   color: white;
-  padding-top: 2.2em;
-  padding-bottom: 2.2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background-color: rgba(94, 109, 132, 0.35);
   background-blend-mode: lighten;
   animation: fadeIn 2.5s;
@@ -579,6 +584,7 @@ div.quarto-post {
 .img-fluid,
 .figure-img {
   border-radius: 4px;
+  box-shadow: -2px 2px 4px 2px lightgray;
 }
 
 .padded-img {
@@ -606,8 +612,8 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
   align-items: center;
   margin-top: calc(-1em - 14px);
   margin-bottom: 3em;
-  padding-top: 4em;
-  padding-bottom: 3em;
+  padding-top: 3em;
+  padding-bottom: 2em;
 }
 
 .intro-banner::before {

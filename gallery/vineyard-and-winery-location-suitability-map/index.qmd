@@ -1,9 +1,8 @@
 ---
 title: "Vineyard and Winery Location Suitability Map"
 subtitle: "Optimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin."
-author: "Benjamin Tjepkes"
 date: "Pre-2019"
-abstract: "This was an assignment for one of my university GIS courses aimed at locating and displaying the prime locations for a new vineyard in Wisconsin. This project included raster-based suitability calculations completed in ArcMap 10.X."
+abstract: "This was an assignment for one of my university GIS courses aimed at locating and displaying the prime locations for a new vineyard in Wisconsin."
 aliases: 
   - gallery/gallery-map-one.html
 abstract-title: ""
@@ -12,11 +11,12 @@ categories:
   - Wisconsin
   - Location Suitability
 image: img-map-1.jpg
-toc: false
+toc: true
 ---
 
-![](img-map-1.jpg)
+![Credit: Benjamin Tjepkes](img-map-1.jpg)
 
+## Methods & Tools
 
-
+This project included raster-based suitability calculations completed in ArcMap 10.X.
 

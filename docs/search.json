@@ -14,25 +14,18 @@
     "text": "Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions."
   },
   {
-    "objectID": "research/research-one.html",
-    "href": "research/research-one.html",
-    "title": "Bald Eagle Nest-Site Selection",
+    "objectID": "research/research-three.html",
+    "href": "research/research-three.html",
+    "title": "Raccoon Space-Use and Home Ranges",
     "section": "",
-    "text": "Tjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, B.J. Stemper, and S.L. Winter. 2019. Bald eagle nest-site selection along the Upper Mississippi River, 1990-2012. [Poster] UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2019. Bald eagle nest monitoring on the upper Mississippi River, 1990-2012. [Talk] Mississippi River Research Consortium, La Crosse, WI."
+    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
   },
   {
-    "objectID": "research/research-one.html#project-presentations",
-    "href": "research/research-one.html#project-presentations",
-    "title": "Bald Eagle Nest-Site Selection",
+    "objectID": "research/research-three.html#project-presentations",
+    "href": "research/research-three.html#project-presentations",
+    "title": "Raccoon Space-Use and Home Ranges",
     "section": "",
-    "text": "Tjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, B.J. Stemper, and S.L. Winter. 2019. Bald eagle nest-site selection along the Upper Mississippi River, 1990-2012. [Poster] UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2019. Bald eagle nest monitoring on the upper Mississippi River, 1990-2012. [Talk] Mississippi River Research Consortium, La Crosse, WI."
-  },
-  {
-    "objectID": "research/research-one.html#project-reports-datasets",
-    "href": "research/research-one.html#project-reports-datasets",
-    "title": "Bald Eagle Nest-Site Selection",
-    "section": "Project Reports & Datasets",
-    "text": "Project Reports & Datasets\nFetherston, S.C., B.W. Tjepkes, S.E. Hygnstrom, and S.L. Winter. 2020. Final Report: Bald Eagle Nest Monitoring on the Upper Mississippi River, 1990–2012. USFWS Technical Report.\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2020. Bald Eagle Nest Monitoring on the Upper Mississippi River, 1990-2012. USFWS Geospatial Dataset."
+    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
   },
   {
     "objectID": "research/research-five.html",
@@ -103,6 +96,20 @@
     "title": "Integrating data and geospatial science for nature conservation.",
     "section": "My Brief Biography",
     "text": "My Brief Biography\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at wildlife conservation. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. I have over seven years of continuous professional development with governmental, private, and academic entities in the environmental sector. Explore this site for more info!"
+  },
+  {
+    "objectID": "gallery/vineyard-and-winery-location-suitability-map/index.html",
+    "href": "gallery/vineyard-and-winery-location-suitability-map/index.html",
+    "title": "Vineyard and Winery Location Suitability Map",
+    "section": "",
+    "text": "Credit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "gallery/vineyard-and-winery-location-suitability-map/index.html#methods-tools",
+    "href": "gallery/vineyard-and-winery-location-suitability-map/index.html#methods-tools",
+    "title": "Vineyard and Winery Location Suitability Map",
+    "section": "Methods & Tools",
+    "text": "Methods & Tools\nThis project included raster-based suitability calculations completed in ArcMap 10.X."
   },
   {
     "objectID": "gallery/shoreline-structure-setback-compliance-map/index.html",
@@ -378,18 +385,25 @@
     "text": "In Conclusion\nBy leveraging Quarto and its capabilities for reproducible reporting, you can transform your reporting workflow from manual and error-prone to automated and efficient. Parameterizing reports allows you to easily update and regenerate them based on changing data or analysis requirements.\nReproducible documents not only save time but also enhance collaboration and ensure the accuracy and integrity of your reports. Give Quarto a try in the RStudio environment and experience the power of streamlining your reporting workflow.\nStart producing reproducible documents today and say goodbye to the hassles of manual report updates!\nHappy reporting with Quarto!"
   },
   {
-    "objectID": "research/research-three.html",
-    "href": "research/research-three.html",
-    "title": "Raccoon Space-Use and Home Ranges",
+    "objectID": "research/research-one.html",
+    "href": "research/research-one.html",
+    "title": "Bald Eagle Nest-Site Selection",
     "section": "",
-    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+    "text": "Tjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, B.J. Stemper, and S.L. Winter. 2019. Bald eagle nest-site selection along the Upper Mississippi River, 1990-2012. [Poster] UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2019. Bald eagle nest monitoring on the upper Mississippi River, 1990-2012. [Talk] Mississippi River Research Consortium, La Crosse, WI."
   },
   {
-    "objectID": "research/research-three.html#project-presentations",
-    "href": "research/research-three.html#project-presentations",
-    "title": "Raccoon Space-Use and Home Ranges",
+    "objectID": "research/research-one.html#project-presentations",
+    "href": "research/research-one.html#project-presentations",
+    "title": "Bald Eagle Nest-Site Selection",
     "section": "",
-    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+    "text": "Tjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, B.J. Stemper, and S.L. Winter. 2019. Bald eagle nest-site selection along the Upper Mississippi River, 1990-2012. [Poster] UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2019. Bald eagle nest monitoring on the upper Mississippi River, 1990-2012. [Talk] Mississippi River Research Consortium, La Crosse, WI."
+  },
+  {
+    "objectID": "research/research-one.html#project-reports-datasets",
+    "href": "research/research-one.html#project-reports-datasets",
+    "title": "Bald Eagle Nest-Site Selection",
+    "section": "Project Reports & Datasets",
+    "text": "Project Reports & Datasets\nFetherston, S.C., B.W. Tjepkes, S.E. Hygnstrom, and S.L. Winter. 2020. Final Report: Bald Eagle Nest Monitoring on the Upper Mississippi River, 1990–2012. USFWS Technical Report.\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2020. Bald Eagle Nest Monitoring on the Upper Mississippi River, 1990-2012. USFWS Geospatial Dataset."
   },
   {
     "objectID": "research.html",

@@ -1,10 +1,9 @@
 ---
 title: "Australia Publication Map Figure"
-subtitle: ""
-author: "Benjamin Tjepkes"
+subtitle: "A test run creating a publication map in R."
 categories:
-  - Map
-toc: false
+  - RStudio
+  - Cartography
 image: img-australia-pub-map.png
 ---
 
