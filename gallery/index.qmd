@@ -1,6 +1,7 @@
 ---
 title: "My Gallery"
 subtitle: "Maps, visualizations, reports, posters, and presentations."
+author: ""
 image: ../assets/bg-pines-gallery-yellow-sm.png
 toc: false
 pagetitle: "Gallery ~ Benjamin W. Tjepkes"

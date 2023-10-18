@@ -184,6 +184,11 @@ h2 {
   color: $white;
 }
 
+#toc-title {
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
 code {
   background: lightblue;
   border-radius: 4px;
@@ -372,6 +377,8 @@ nav .nav-item a:hover {
   padding-bottom: 1em;
   background-color: rgba(94, 109, 132, 0.35);
   background-blend-mode: lighten;
+  border-top: solid 3px rgba(94, 109, 132, 0.1);
+  border-bottom: solid 3px rgba(94, 109, 132, 0.1);
   animation: fadeIn 2.5s;
 }
 
@@ -382,6 +389,7 @@ nav .nav-item a:hover {
 
 .quarto-title .quarto-categories {
     margin-top: 20px;
+    display: none;
 }
 
 

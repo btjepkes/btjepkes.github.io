@@ -1,7 +1,7 @@
 ---
 title: "Streamlining Your Reporting Workflow with Quarto"
-subtitle: "Manually updating reports is old news, start producing reproducible documents."
-date: "5/28/2023"
+subtitle: "Manually updating reports is old news, start producing reproducible documents today!"
+date-modified: "10-17-2023"
 abstract: In this post, we talk about how to make your reporting workflows much easier by using reproducible formats. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing reports using Quarto in the RStudio environment.
 abstract-title: ""
 categories:
@@ -18,16 +18,19 @@ aliases:
 
 ### Learning Outcomes
 
-In today's data-driven world, reporting and communicating data insights play a vital role in decision-making processes. However, manual updates and formatting can be time-consuming and error-prone. By adopting reproducible practices, you can save time, increase efficiency, and ensure the accuracy of your reports. Our learning outcomes for this post include the following:
+In today's data-driven world, reporting and communicating data insights play a vital role in decision-making processes. However, manual updates and formatting can be time-consuming introduce a plethora of errors. By adopting reproducible practices, you can save time, increase efficiency, and ensure the accuracy of your reports. Our learning outcomes for this post include the following:
+
 - Learn how to use Quarto documents within the RStudio environment.
 - Learn how to load in TidyTuesday data using a dedicated R package.
 - Learn how to make basic visualizations and maps.
 
 ### What is Quarto?
 
-Quarto is an open-source document framework built for reproducibility. It integrates seamlessly with RStudio, allowing you to combine code, text, and visualizations in a single document. With Quarto, you can automate the process of report generation, making it easier to update and reproduce documents as your data or analysis changes.
+[Quarto](https://quarto.org/) is an open-source document framework built for reproducibility. It integrates seamlessly with RStudio, allowing you to combine code, text, and visualizations in a single document or project (like this website). With Quarto, you can automate the process of report generation, making it easier to update and reproduce documents as your data or analysis changes.
 
 ### Data Sources
+
+The data set we will be working with in this post was discovered through the [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) data visualization challenge. Specifically, we will focus on bird feeder visitation data from the [Project FeederWatch](https://feederwatch.org/). This is a Cornell Lab of Ornithology initiative that utilizes data submitted by citizen scientists across the United States.
 
 ## Workflow
 
@@ -36,18 +39,27 @@ To demonstrate how Quarto can streamline your reporting workflow, let's work wit
 Here's the R code to get started:
 
 ```r
-# Step 1: Install and load necessary packages
-install.packages("quarto")
-library(quarto)
+# Load in the packages
+library(tidyverse)      # for data manipulate
+library(tidytuesdayR)   # to access TidyTuesday data
+library(quarto)         # to access Quarto functionality
 
-# Step 2: Load birdfeeder visitation data
-data <- read.csv("birdfeeder_data.csv")
+# Load in TT data object based on date
+birds <- tidytuesdayR::tt_load(x = "2023-01-10")
+```
 
-# Step 3: Parameterize your report
+Now that we have our packages and data loaded, we can start setting up the Quarto parameters. The `params` variable defines a list of parameters we want to use in our reports, such as the report title and the desired date range for filtering the data. We begin by storing these as objects themselves.
+
+```r
+# Parameterize your report
 report_title <- "Birdfeeder Visitation Report"
 date_range <- c("2023-01-01", "2023-06-30")
+```
 
-# Step 4: Create a Quarto document
+Now we bring everything together.
+
+```r
+# Create a Quarto document
 quarto_document("birdfeeder_report.Rmd",
   title = report_title,
   params = list(date_range = date_range),
@@ -63,11 +75,9 @@ quarto_document("birdfeeder_report.Rmd",
   quarto_code("ggsave('birdfeeder_plot.png')")
 ```
 
-In the code above, we start by installing and loading the quarto package. Then, we load the birdfeeder visitation data from a CSV file. Next, we define the parameters for our report, such as the report title and the desired date range for filtering the data.
+We create a Quarto document using the `quarto_document()` function, specifying the input R Markdown file, report title, parameter list, and desired output format (in this case, HTML).
 
-We create a Quarto document using the quarto_document() function, specifying the input R Markdown file, report title, parameter list, and desired output format (in this case, HTML). We then use the quarto_chunk() and quarto_code() functions to add code chunks to our document.
-
-The code chunks contain R code for filtering the data based on the specified date range and creating a line plot using ggplot2. Finally, we save the generated plot as a PNG file using ggsave().
+We then use the `quarto_chunk()` and `quarto_code()` functions to add code chunks to our document. The code chunks contain R code for filtering the data based on the specified date range and creating a line plot using ggplot2. Finally, we save the generated plot as a PNG file using ggsave().
 
 ## In Conclusion
 

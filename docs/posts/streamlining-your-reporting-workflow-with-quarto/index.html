@@ -7,7 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
-<meta name="dcterms.date" content="2023-05-28">
 <meta name="description" content="<strong>?meta:description</strong>">
 
 <title>Benjamin W. Tjepkes - Streamlining Your Reporting Workflow with Quarto</title>
@@ -94,7 +93,6 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script>
-<style>html{ scroll-behavior: smooth; }</style>
 <!--<meta name="description" content="?meta:website.description">-->
 <meta name="author" content="?meta:authorname">
 
@@ -164,7 +162,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Streamlining Your Reporting Workflow with Quarto</h1>
-            <p class="subtitle lead">Manually updating reports is old news, start producing reproducible documents.</p>
+            <p class="subtitle lead">Manually updating reports is old news, start producing reproducible documents today!</p>
                                 <div class="quarto-categories">
                 <div class="quarto-category">R</div>
                 <div class="quarto-category">Quarto</div>
@@ -183,13 +181,13 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             </div>
     </div>
       
+    
       <div>
-      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 28, 2023</p>
+        <p class="date-modified">October 17, 2023</p>
       </div>
     </div>
-    
       
     </div>
     
@@ -204,7 +202,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">On This Page:</h2>
    
   <ul>
@@ -229,48 +227,54 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <h2 data-anchor-id="background">Background</h2>
 <section id="learning-outcomes" class="level3">
 <h3 data-anchor-id="learning-outcomes">Learning Outcomes</h3>
-<p>In today’s data-driven world, reporting and communicating data insights play a vital role in decision-making processes. However, manual updates and formatting can be time-consuming and error-prone. By adopting reproducible practices, you can save time, increase efficiency, and ensure the accuracy of your reports. Our learning outcomes for this post include the following: - Learn how to use Quarto documents within the RStudio environment. - Learn how to load in TidyTuesday data using a dedicated R package. - Learn how to make basic visualizations and maps.</p>
+<p>In today’s data-driven world, reporting and communicating data insights play a vital role in decision-making processes. However, manual updates and formatting can be time-consuming introduce a plethora of errors. By adopting reproducible practices, you can save time, increase efficiency, and ensure the accuracy of your reports. Our learning outcomes for this post include the following:</p>
+<ul>
+<li>Learn how to use Quarto documents within the RStudio environment.</li>
+<li>Learn how to load in TidyTuesday data using a dedicated R package.</li>
+<li>Learn how to make basic visualizations and maps.</li>
+</ul>
 </section>
 <section id="what-is-quarto" class="level3">
 <h3 data-anchor-id="what-is-quarto">What is Quarto?</h3>
-<p>Quarto is an open-source document framework built for reproducibility. It integrates seamlessly with RStudio, allowing you to combine code, text, and visualizations in a single document. With Quarto, you can automate the process of report generation, making it easier to update and reproduce documents as your data or analysis changes.</p>
+<p><a href="https://quarto.org/">Quarto</a> is an open-source document framework built for reproducibility. It integrates seamlessly with RStudio, allowing you to combine code, text, and visualizations in a single document or project (like this website). With Quarto, you can automate the process of report generation, making it easier to update and reproduce documents as your data or analysis changes.</p>
 </section>
 <section id="data-sources" class="level3">
 <h3 data-anchor-id="data-sources">Data Sources</h3>
+<p>The data set we will be working with in this post was discovered through the <a href="https://github.com/rfordatascience/tidytuesday">Tidy Tuesday</a> data visualization challenge. Specifically, we will focus on bird feeder visitation data from the <a href="https://feederwatch.org/">Project FeederWatch</a>. This is a Cornell Lab of Ornithology initiative that utilizes data submitted by citizen scientists across the United States.</p>
 </section>
 </section>
 <section id="workflow" class="level2">
 <h2 data-anchor-id="workflow">Workflow</h2>
 <p>To demonstrate how Quarto can streamline your reporting workflow, let’s work with birdfeeder visitation data from FeederWatch. We will parameterize our reports to automatically update based on different filters or date ranges.</p>
 <p>Here’s the R code to get started:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Install and load necessary packages</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"quarto"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quarto)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 2: Load birdfeeder visitation data</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"birdfeeder_data.csv"</span>)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Parameterize your report</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>report_title <span class="ot">&lt;-</span> <span class="st">"Birdfeeder Visitation Report"</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>date_range <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"2023-01-01"</span>, <span class="st">"2023-06-30"</span>)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Create a Quarto document</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">quarto_document</span>(<span class="st">"birdfeeder_report.Rmd"</span>,</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> report_title,</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="at">params =</span> <span class="fu">list</span>(<span class="at">date_range =</span> date_range),</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">output =</span> <span class="st">"birdfeeder_report.html"</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_chunk</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_code</span>(<span class="st">"library(ggplot2)"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_chunk</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_code</span>(<span class="st">"filtered_data &lt;- subset(data, Date &gt;= date_range[1] &amp; Date &lt;= date_range[2])"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_chunk</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_code</span>(<span class="st">"ggplot(filtered_data, aes(x = Date, y = Visits)) + geom_line()"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_chunk</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_code</span>(<span class="st">"ggsave('birdfeeder_plot.png')"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>In the code above, we start by installing and loading the quarto package. Then, we load the birdfeeder visitation data from a CSV file. Next, we define the parameters for our report, such as the report title and the desired date range for filtering the data.</p>
-<p>We create a Quarto document using the quarto_document() function, specifying the input R Markdown file, report title, parameter list, and desired output format (in this case, HTML). We then use the quarto_chunk() and quarto_code() functions to add code chunks to our document.</p>
-<p>The code chunks contain R code for filtering the data based on the specified date range and creating a line plot using ggplot2. Finally, we save the generated plot as a PNG file using ggsave().</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load in the packages</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)      <span class="co"># for data manipulate</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidytuesdayR)   <span class="co"># to access TidyTuesday data</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quarto)         <span class="co"># to access Quarto functionality</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Load in TT data object based on date</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>birds <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="at">x =</span> <span class="st">"2023-01-10"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Now that we have our packages and data loaded, we can start setting up the Quarto parameters. The <code>params</code> variable defines a list of parameters we want to use in our reports, such as the report title and the desired date range for filtering the data. We begin by storing these as objects themselves.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Parameterize your report</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>report_title <span class="ot">&lt;-</span> <span class="st">"Birdfeeder Visitation Report"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>date_range <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"2023-01-01"</span>, <span class="st">"2023-06-30"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Now we bring everything together.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a Quarto document</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">quarto_document</span>(<span class="st">"birdfeeder_report.Rmd"</span>,</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">title =</span> report_title,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">params =</span> <span class="fu">list</span>(<span class="at">date_range =</span> date_range),</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">output =</span> <span class="st">"birdfeeder_report.html"</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_chunk</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_code</span>(<span class="st">"library(ggplot2)"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_chunk</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_code</span>(<span class="st">"filtered_data &lt;- subset(data, Date &gt;= date_range[1] &amp; Date &lt;= date_range[2])"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_chunk</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_code</span>(<span class="st">"ggplot(filtered_data, aes(x = Date, y = Visits)) + geom_line()"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_chunk</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">quarto_code</span>(<span class="st">"ggsave('birdfeeder_plot.png')"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>We create a Quarto document using the <code>quarto_document()</code> function, specifying the input R Markdown file, report title, parameter list, and desired output format (in this case, HTML).</p>
+<p>We then use the <code>quarto_chunk()</code> and <code>quarto_code()</code> functions to add code chunks to our document. The code chunks contain R code for filtering the data based on the specified date range and creating a line plot using ggplot2. Finally, we save the generated plot as a PNG file using ggsave().</p>
 </section>
 <section id="in-conclusion" class="level2">
 <h2 data-anchor-id="in-conclusion">In Conclusion</h2>
@@ -533,7 +537,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
-    <div class="nav-footer-center">Proudly made using <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.</div>
+    <div class="nav-footer-center">Proudly made using <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.</div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -573,5 +577,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
