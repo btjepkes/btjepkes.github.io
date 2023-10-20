@@ -1,8 +1,10 @@
 ---
-title: ""
-subtitle: ""
+title: "Integrating data and geospatial science for nature conservation."
+subtitle: "Wildlife Ecologist & Geographer"
+abstract-title: ""
+abstract: "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and current geography graduate student studying geospatial data science."
 toc: false
-pagetitle: "Portfolio ~ Benjamin W. Tjepkes"
+pagetitle: "Portfolio | B.W. Tjepkes"
 author-meta: Benjamin Tjepkes
 description-meta: "This is the porfolio and professional website of Benjamin Tjepkes."
 format: 
@@ -23,16 +25,16 @@ listing:
       - subtitle
 ---
 
-::: {.intro-banner .slide-in }
+<!-- ::: {.intro-banner .slide-in } -->
 
-::: {.intro-content }
-#### Wildlife Ecologist & Geographer
-# Integrating data and geospatial science for nature conservation.
+<!-- ::: {.intro-content } -->
+<!-- #### Wildlife Ecologist & Geographer -->
+<!-- # Integrating data and geospatial science for nature conservation. -->
 
-Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and graduate student studying geospatial data science.
+<!-- Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and graduate student studying geospatial data science. -->
 
-:::
-:::
+<!-- ::: -->
+<!-- ::: -->
 
 ::: {.index-intro-start}
 

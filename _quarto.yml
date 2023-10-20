@@ -6,7 +6,7 @@ website:
   title: "Benjamin W. Tjepkes"
   site-url: https://btjepkes.github.io/
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
-  favicon: assets/site-favicon.svg
+  favicon: assets/logo-favicon-wt.svg
   back-to-top-navigation: false
   search: false
   open-graph: true

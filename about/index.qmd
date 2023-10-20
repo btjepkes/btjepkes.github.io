@@ -2,7 +2,7 @@
 title: "About Me"
 subtitle: "Learn about my career path and professional interests."
 image: ../assets/bg-pines-about-blue-sm.png
-pagetitle: "About ~ Benjamin W. Tjepkes"
+pagetitle: "About | B.W. Tjepkes"
 keywords: about, about me
 author-meta: Benjamin Tjepkes
 description-meta: "Learn about my career path and professional interests."
