@@ -169,7 +169,7 @@ h2 {
 }
 
 .subtitle {
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.3em;
   padding-top: 15px;
   font-size: 1.05em;
@@ -182,8 +182,9 @@ h2 {
 
 .abstract {
   color: $white;
-  font-family: "Bad Script";
-  font-size: 1.125em;
+  opacity: 0.8;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 #toc-title {
@@ -223,9 +224,9 @@ code {
 // Navbar
 
 #quarto-header > nav {
-  border-bottom: solid #2d405f 0px;
-  box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
-	0px 6.4px 14.4px rgba(0,0,0,0.132);
+  border-bottom: solid #d3d3d3 1px;
+  /*box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
+	0px 6.4px 14.4px rgba(0,0,0,0.132);*/
 }
 
 
@@ -310,9 +311,9 @@ nav .nav-item:not(.compact) {
     padding-top: 0px;
 }
 
-
+nav .nav-item .nav-link.active,
 nav .nav-item a:hover {
-  text-decoration: $tan wavy underline;
+  text-decoration: $yellow wavy underline;
 }
 
 
