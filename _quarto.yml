@@ -68,8 +68,8 @@ format:
     toc-title: "On This Page:"
     smooth-scroll: false
     number-sections: false
-    title-block-banner: false
-    title-block-categories: true
+    title-block-banner: true
+    title-block-categories: false
     anchor-sections: false
     highlight-style: github
     link-external-newwindow: true
