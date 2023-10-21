@@ -4,7 +4,6 @@ subtitle: A full look at my education, professional experience, and achievements
 pagetitle: "CV ~ Benjamin W. Tjepkes"
 image: assets/bg-pines-resources-purple-sm.png
 toc: true
-date-modified: 10/10/2023
 format:
   html:
     echo: false

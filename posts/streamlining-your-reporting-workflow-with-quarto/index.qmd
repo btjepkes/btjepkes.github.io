@@ -14,8 +14,6 @@ aliases:
   - /posts/post-two.html
 ---
 
-![](bg-pine-blue.jpg)
-
 ## Background
 
 ### Learning Outcomes

@@ -159,6 +159,8 @@ h1::after {
   border-radius: 4px;
   margin-top: 25px;
   width: 14%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
@@ -166,7 +168,7 @@ h2 {
 }
 
 .subtitle {
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.3em;
   padding-top: 15px;
   font-size: 1.05em;
@@ -364,9 +366,16 @@ nav .nav-item a:hover {
 // HEADER
 
 #title-block-header {
-
+  background-color: $white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  padding: 2em 1em;
 }
 
+.quarto-title {
+  margin-bottom: 1.5em;
+}
 
 // BANNER
 
@@ -633,6 +642,12 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
 
 body {
   overflow-x: hidden;
+  background-size: cover;
+  background-color: #f4f4f4;
+  background-image: url("assets/bg-topo-white.png");
+  background-position: center center;
+  background-attachment: fixed;
+  z-index: -1;
 }
 
 #quarto-content {
