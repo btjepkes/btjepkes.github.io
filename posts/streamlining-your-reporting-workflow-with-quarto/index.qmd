@@ -1,5 +1,5 @@
 ---
-title: "Streamlining Your Reporting Workflow with Quarto"
+title: "Reporting Workflows with Quarto and R"
 subtitle: "Manually updating reports is old news, start producing reproducible documents today!"
 date-modified: "10-17-2023"
 abstract: In this post, we talk about how to make your reporting workflows much easier by using reproducible formats. We run through an example, using birdfeeder visitation data from FeederWatch, on parameterizing reports using Quarto in the RStudio environment.
@@ -13,6 +13,8 @@ draft: FALSE
 aliases: 
   - /posts/post-two.html
 ---
+
+![](bg-pine-blue.jpg)
 
 ## Background
 
