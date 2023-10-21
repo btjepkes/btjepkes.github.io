@@ -8,7 +8,7 @@ website:
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
   favicon: assets/logo-favicon-wt.svg
   back-to-top-navigation: false
-  search: true
+  search: false
   open-graph: true
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   google-analytics: 
@@ -54,7 +54,8 @@ website:
         aria-label: contact page
       - icon: house-fill
         href: index.html
-        aria-label: home page        
+        aria-label: home page
+        
 execute:
   freeze: true
 

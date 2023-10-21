@@ -7,7 +7,7 @@ keywords: about, about me
 author-meta: Benjamin Tjepkes
 description-meta: "Learn about my career path and professional interests."
 abstract-title: ""
-abstract: "I am currently a graduate student at the University of Missouri studying geography. I have over 7 years of progressive experience as a biologist with governmental, private, and academic entities in the environmental sector. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography."
+abstract: "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography."
 listing:
   - id: site-listings
     contents:
