@@ -72,7 +72,7 @@ $headings-font-weight:      400 !default;
 
 // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
 // $font-size-base affects the font size of the body text
-$font-size-root:              null !default;
+$font-size-root:              15.75px !default;
 $font-size-base:              1.00rem !default; // Assumes the browser default, typically `16px`
 $font-size-sm:                $font-size-base * .875 !default;
 $font-size-lg:                $font-size-base * 1.20 !default;
@@ -156,7 +156,7 @@ h1 {
   font-family: Atkinson Hyperlegible;
 }
 
-
+/*
 h1::after {
   content: "";
   position: relative;
@@ -165,7 +165,7 @@ h1::after {
   border-radius: 4px;
   margin-top: 25px;
   width: 14%;
-}
+}*/
 
 h2 {
   color: #046065;
@@ -175,10 +175,10 @@ h2 {
 .subtitle {
   font-weight: 700;
   line-height: 1.3em;
-  padding-top: 15px;
+  padding-top: 0px;
   font-size: 1.05em;
   letter-spacing: 0.01em;
-  color: $white;
+  color: skyblue;
 }
 
 .quarto-title-meta a {
@@ -329,8 +329,8 @@ nav .nav-item:not(.compact) {
 
 
 .navbar-brand span {
-  font-weight: 700;
-  font-size: 1.04em;
+  font-weight: 900;
+  font-size: 1.095em;
   letter-spacing: -0.04em;
   background: transparent;
   text-transform: uppercase;

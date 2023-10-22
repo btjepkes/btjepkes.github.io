@@ -2,29 +2,40 @@
 title: "About Me"
 subtitle: "Learn about my career path and professional interests."
 image: ../assets/bg-pines-about-blue-sm.png
-pagetitle: "About | B.W. Tjepkes"
 keywords: about, about me
 author-meta: Benjamin Tjepkes
 description-meta: "Learn about my career path and professional interests."
-abstract-title: ""
-abstract: "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography."
+abstract: "This page highlights my professional career path, including my 'pseudo-transition' from ecology to geospatial and my higher education journey."
 listing:
   - id: site-listings
     contents:
       - "../research.qmd"
       - "../posts/index.qmd"
       - "../gallery/index.qmd"
-      - "../cv.qmd"
     type: grid
-    grid-columns: 2
+    grid-columns: 3
     fields: 
       - title
       - subtitle
 ---
 
+## Overview
+
+I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography.
+
 ![](../assets/img-ben-work.png)
 
-## Trained as a biologist. {.intro-heading}
+Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience as well.
+
+::: {#site-listings}
+
+:::
+
+
+## My Professional Path
+
+
+### 01 | Trained as a biologist. {.intro-heading}
 
 My professional career is based in **wildlife ecology and management**, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.
 
@@ -41,7 +52,7 @@ My passion for this field was ignited during my undergraduate studies at the Uni
 
 
 
-## Drawn to geospatial. {.intro-heading}
+### 02 | Drawn to geospatial. {.intro-heading}
 
 As I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in **spatial ecology and geospatial technologies**, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.
 
@@ -58,7 +69,7 @@ Driven by my growing fascination with geospatial technologies, I sought out oppo
 
 
 
-## Mastering geography. {.intro-heading}
+### 03 | Mastering geography. {.intro-heading}
 
 With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a **Master's degree in Geography** at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.
 
@@ -70,13 +81,5 @@ With a fervent desire to deepen my knowledge of the fundamental principles of ge
 Through my Master's program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master's program.
 
 :::
-
-:::
-
-## Exploring my work. {.intro-heading}
-
-Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience as well.
-
-::: {#site-listings}
 
 :::

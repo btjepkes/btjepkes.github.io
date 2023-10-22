@@ -81,7 +81,7 @@ format:
       sidebar-width: 0px
       body-width: 800px
       margin-width: 300px
-      gutter-width: 2em
+      gutter-width: 24px
     filters: 
       - lightbox
     lightbox: auto
