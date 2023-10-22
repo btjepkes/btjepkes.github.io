@@ -62,12 +62,13 @@ execute:
 format:
   html:
     theme: custom.scss
-    backgroundcolor: "#FFFFFF"
     include-in-header: html/seo.html
+    abstract-title: "What's All This About?"
     toc: true
     toc-title: "On This Page:"
     smooth-scroll: false
     number-sections: false
+    pagetitle: "{{< meta title >}} | B.W. Tjepkes"
     title-block-banner: true
     title-block-categories: false
     anchor-sections: false
@@ -78,7 +79,7 @@ format:
     mainfont: Sen
     grid:
       sidebar-width: 0px
-      body-width: 900px
+      body-width: 800px
       margin-width: 300px
       gutter-width: 2em
     filters: 

@@ -1,16 +1,14 @@
 ---
 title: "Curriculum vitae"
-subtitle: A full look at my education, professional experience, and achievements.
-pagetitle: "CV ~ Benjamin W. Tjepkes"
+subtitle: A full look at my education and professional experience.
 image: assets/bg-pines-resources-purple-sm.png
+abstract: "**This page is under construction.** Please see my [LinkedIn](https://www.linkedin.com/in/benjamintjepkes/) for my full profile."
 toc: true
 format:
   html:
     echo: false
     warning: false
 ---
-
-**This page is under construction.** Please see my [LinkedIn](https://www.linkedin.com/in/benjamintjepkes/) for my full profile.
 
 <!-- {{< pdf resume-example.pdf width=100% height=600 border=2 >}} -->
 

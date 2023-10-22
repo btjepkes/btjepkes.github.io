@@ -108,7 +108,7 @@ $navbar-bg: rgba($white, 1.00);
 $navbar-fg: rgba($black, 0.8);
 
 $navbar-dark-hover-color:       rgba($white, 1) !default;
-$navbar-light-hover-color:      rgba($black, .9) !default;
+$navbar-light-hover-color:      rgba($black, 1) !default;
 
 // Callouts
 
@@ -186,7 +186,7 @@ h2 {
 }
 
 .abstract a {
-  color: $green;
+  color: skyblue;
 }
 
 .abstract {
@@ -391,7 +391,7 @@ nav .nav-item:not(.compact) {
 .quarto-title-banner {
   padding-top: 2em;
   padding-bottom: 2em;
-  background: black;
+  background: #00000017;
 }
 
 
@@ -445,6 +445,10 @@ div.quarto-post {
 
 
 /* Callout block */
+.callout {
+  background: white;
+}
+
 .callout li {
   margin-top: 1em;
 }
