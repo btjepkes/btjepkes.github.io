@@ -6,7 +6,7 @@ categories:
   - Map Gallery
 abstract-title: ""
 abstract: This map was produced as part of the **2023 Tidy Tuesday**. Map creation was performed in R using the RStudio environment and data were pulled from public repositories.
-toc: false
+toc: true
 image: img-map-001v2.png
 ---
 

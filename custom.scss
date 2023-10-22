@@ -168,7 +168,8 @@ h1::after {
 }
 
 h2 {
-  color: $new-dark-blue;
+  color: #046065;
+  font-family: Atkinson Hyperlegible;
 }
 
 .subtitle {
@@ -178,6 +179,10 @@ h2 {
   font-size: 1.05em;
   letter-spacing: 0.01em;
   color: $white;
+}
+
+.quarto-title-meta a {
+  color: white !important;
 }
 
 .abstract a {
@@ -202,6 +207,7 @@ code {
 
 div.sourceCode {
   background: white;
+  border: solid #0b7366 2px;
 }
 
 
@@ -486,30 +492,19 @@ div.quarto-post {
       }
     }
 
-/*.quarto-grid-link:hover {
-  margin-bottom: 10px;}*/
-
-
-
-
-
 
 
 .listings-gallery .grid {
-  grid-gap: 0.8em;
+  row-gap: 2.2em; /* Gap for rows */
+  column-gap: 1.2em; /* Gap for columns */
 }
-
 
 .listings-gallery .quarto-grid-item div.post-contents {
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
   left: 0;
-  background: black;
-  backdrop-filter: blur(5px); /* Standard syntax */
-  -webkit-backdrop-filter: blur(5px); /* Chrome, Safari, Opera */
-  -moz-backdrop-filter: blur(5px); /* Firefox */
-  -ms-backdrop-filter: blur(5px); /* Edge */
-  opacity: 0.85;
+  background: transparent;
+  opacity: 0.99;
   height: 40px;
   width: 100%;
   padding: 10px 10px 0 10px !important;
@@ -518,11 +513,12 @@ div.quarto-post {
 
 .listings-gallery h5 {
   font-size: 0.8em !important;
+  text-align: center;
   opacity: 1.0 !important;
   padding: 0;
   margin: 0;
   font-weight: 300 !important;
-  color: white;
+  color: black;
   white-space: nowrap; /* Prevent line breaks */
   text-overflow: ellipsis; /* Show ellipses for overflow text */
   overflow: hidden; /* Hide overflowing text */
@@ -536,14 +532,6 @@ div.quarto-post {
   border-top: none;
   margin-top: none;
 }
-
-
-/*
-@media (min-width: 991.98px) {
-.quarto-grid-item:hover .card-title::after {
-  border-top: solid 6px #f5c25c;
-  animation: border-anim 0.2s ease-out forwards;
-}}*/
 
 .quarto-grid-item .card-title::after {
   content: "";
@@ -560,6 +548,7 @@ div.quarto-post {
 .quarto-grid-item p.card-img-top {
   padding: 6px;
 }
+
 .quarto-grid-item p.card-img-top>img {
     border-radius: 0;
     min-height: 200px;
