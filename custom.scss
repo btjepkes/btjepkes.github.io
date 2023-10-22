@@ -175,7 +175,7 @@ h2 {
 .subtitle {
   font-weight: 700;
   line-height: 1.3em;
-  padding-top: 0px;
+  padding-top: 8px;
   font-size: 1.05em;
   letter-spacing: 0.01em;
   color: skyblue;
@@ -195,7 +195,7 @@ h2 {
 }
 
 #toc-title {
-  font-size: 1.125em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
@@ -390,8 +390,9 @@ nav .nav-item:not(.compact) {
 
 .quarto-title-banner {
   padding-top: 2em;
-  padding-bottom: 2em;
-  background: #00000017;
+  padding-bottom: 0em;
+  /*background: #00000017;*/
+  background: transparent;
 }
 
 

@@ -6,7 +6,7 @@ image: ../assets/bg-pines-gallery-yellow-sm.png
 toc: false
 pagetitle: "Gallery ~ Benjamin W. Tjepkes"
 abstract-title: ""
-abstract: These are some of my latest maps and data visualizations from personal creative projects and work-related assignments. Included here are any of my contributions to Tidy Tuesday, Map Prompt Monday, and similar.
+abstract: These are some of my latest maps and data visualizations from personal creative projects, work assignments, or course projects. Any of my contributions to Tidy Tuesday or similar are included.
 listing:
   - id: gallery-listings
     contents:

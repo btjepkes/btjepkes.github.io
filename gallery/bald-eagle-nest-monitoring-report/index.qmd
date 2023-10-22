@@ -1,7 +1,6 @@
 ---
 title: "Bald Eagle Nest Monitoring Report"
 subtitle: "A final report provided to the USFWS on the Upper Mississippi population."
-author: "Benjamin Tjepkes"
 aliases: 
   - gallery/gallery-report-two.html
 date-modified: "5-19-2023"
@@ -9,12 +8,12 @@ categories:
   - Report
   - Mississippi River
   - Avian
-abstract-title: ""
 abstract: "This data and monitoring report was developed with the Wisconsin Center for Wildlife for the U.S. Fish and Wildlife Service outlining 23 years of bald eagle nest monitoring along the Upper Mississippi River. The [final version](https://ecos.fws.gov/ServCat/Reference/Profile/115661) of this report is archived on the USFWS ServCat site."
-toc: false
+image: img-eagle-report.png
 ---
 
-![Photo Credit: Wisconsin Center for Wildlife/USFWS](img-eagle-report.png)
+{{< pdf file-eagle-report.pdf width=100% height=600 border=2 >}}
 
+## Tools & Workflow
 
-
+Report compilation was performed in Microsoft Word. Spatial data handling was performed in ArcGIS Pro. Tabular data manipulation and analysis were performed in RStudio and Microsoft Excel.

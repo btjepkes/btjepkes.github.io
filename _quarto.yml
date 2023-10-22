@@ -22,7 +22,7 @@ website:
       - href: about/index.qmd
         text: About
       - href: cv.qmd
-        text: CV        
+        text: Resume/CV       
       - href: gallery/index.qmd
         text: Gallery
       - href: posts/index.qmd
@@ -32,7 +32,7 @@ website:
       - href: resources/index.qmd
         text: Resources
       - href: contact.qmd
-        text: Contact 
+        text: Contact
 
   page-footer:
     center: >-

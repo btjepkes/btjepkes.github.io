@@ -8,10 +8,12 @@ categories:
   - Missouri
   - Furbearers
 abstract-title: ""
-abstract: "This fiscal year annual report was created for the Missouri Department of Conservation Furbearer Program to summarize furbearer harvest, status, and other activities during FY21. Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources. The full report document can be viewed [here](file-2021-mdc-furbearer-report.pdf)."
+abstract: "This fiscal year annual report was created for the Missouri Department of Conservation Furbearer Program to summarize furbearer harvest, status, and other activities during FY21."
+image: img-2021-mdc-furbearer-report.png
 ---
 
-![](img-2021-mdc-furbearer-report.jpg)
+{{< pdf file-2021-mdc-furbearer-report.pdf width=100% height=600 border=2 >}}
 
+## Tools & Workflow
 
-
+Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources. The full report document can be viewed [here](file-2021-mdc-furbearer-report.pdf).

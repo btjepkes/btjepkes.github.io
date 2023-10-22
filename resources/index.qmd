@@ -1,15 +1,14 @@
 ---
 title: "Resources"
 subtitle: My favorite references for ecology, GIS, R, Python, and more.
+abstract: "This page contains a repository of technical tutorials, personal blogs, eBooks, and other websites that I find myself conistently referring back to for my technical works."
 image: assets/bg-pines-resources-purple-sm.png
-pagetitle: "Resources ~ Benjamin W. Tjepkes"
-toc: false
 execute:
   echo: false
   warning: false
-format:
-  html:
-    page-layout: full
+# format:
+#   html:
+#     page-layout: full
 ---
 
 ## Resource Database
@@ -68,15 +67,18 @@ reactable(
       cell = function(value, index) {
         Description <- data$Description[index]
         Description <- if (!is.na(Description)) Description else "Unknown"
+        Category <- data$Category[index]
         div(
           div(style = "font-weight: 600", value),
-          div(style = "font-size: 0.75rem", Description)
-          
+          div(style = "font-size: 0.75rem", Description),
+          div(style = "font-size: 0.65rem; color: teal", Category)
         )
       }, width = 600
     ),
     Description = colDef(show = FALSE),
-    Link = colDef(cell = function(value) {
+    Category = colDef(show = FALSE),
+    Link = colDef(
+      cell = function(value) {
       tags$a(href = value, target = "_blank", "Link")
     }
     )

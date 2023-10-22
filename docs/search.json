@@ -130,7 +130,7 @@
     "href": "gallery/index.html",
     "title": "My Gallery",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAustralia Publication Map Figure\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Report\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nMap of Great Lakes Watersheds\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bat Habitat Conservation Plan in Missouri\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\nMap of Missouri Forest Canopy Density\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Maps by County and Season\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAustralia Publication Map Figure\n\n\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Report\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nMap of Great Lakes Watersheds\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bat Habitat Conservation Plan in Missouri\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\nMap of Missouri Forest Canopy Density\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nTurkey Harvest Maps by County and Season\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
@@ -140,11 +140,25 @@
     "text": "Map Credit: Ben Tjepkes"
   },
   {
+    "objectID": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
+    "href": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
+    "title": "Endangered Species Stamp Map",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas. This map recently received 2nd Place in the Professional category of the 2023 GIS Certification Institute Map Contest."
+  },
+  {
     "objectID": "gallery/bald-eagle-nest-monitoring-report/index.html",
     "href": "gallery/bald-eagle-nest-monitoring-report/index.html",
     "title": "Bald Eagle Nest Monitoring Report",
     "section": "",
-    "text": "Photo Credit: Wisconsin Center for Wildlife/USFWS"
+    "text": "Unable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "gallery/bald-eagle-nest-monitoring-report/index.html#tools-workflow",
+    "href": "gallery/bald-eagle-nest-monitoring-report/index.html#tools-workflow",
+    "title": "Bald Eagle Nest Monitoring Report",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nReport compilation was performed in Microsoft Word. Spatial data handling was performed in ArcGIS Pro. Tabular data manipulation and analysis were performed in RStudio and Microsoft Excel."
   },
   {
     "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
@@ -208,6 +222,20 @@
     "title": "Map of Great Lakes Watersheds",
     "section": "",
     "text": "Map Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
+    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
+    "title": "Annual Report for MDC Furbearer Program",
+    "section": "",
+    "text": "Unable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
+    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
+    "title": "Annual Report for MDC Furbearer Program",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nData visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources. The full report document can be viewed here."
   },
   {
     "objectID": "gallery/missouri-bear-sighting-map/index.html",
