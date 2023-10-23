@@ -102,7 +102,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 
 <meta property="og:title" content="Using R to Create an Interactive Heatmap of GBIF Occurrences | B.W. Tjepkes">
-<meta property="og:description" content="In this blog post, we demonstrate how to use the rgbif package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap using Leaflet.">
+<meta property="og:description" content="In this blog post, we demonstrate how to use the rgbif package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap.">
 <meta property="og:image" content="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg">
 <meta property="og:site-name" content="Benjamin W. Tjepkes">
 </head>
@@ -192,8 +192,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     
   <div>
     <div class="abstract">
-      <div class="abstract-title"></div>
-      In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap using Leaflet.
+      <div class="abstract-title">What Is This About?</div>
+      In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap.
     </div>
   </div>
   
@@ -228,7 +228,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 <section id="background" class="level2">
 <h2 data-anchor-id="background">Background</h2>
-<p>Let’s first run through the species of focus and the data sources for this post.</p>
 <section id="focal-species" class="level3">
 <h3 data-anchor-id="focal-species">Focal Species</h3>
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
@@ -259,15 +258,15 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-lines="1,2" data-code-annotation="1" data-code-cell="annotated-cell-1">For accessing GBIF data. Install if necessary.</span>
+<span data-code-annotation="1" data-code-lines="1,2" data-code-cell="annotated-cell-1">For accessing GBIF data. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-lines="3,4" data-code-annotation="2" data-code-cell="annotated-cell-1">For mapping data interactively. Install if necessary.</span>
+<span data-code-annotation="2" data-code-lines="3,4" data-code-cell="annotated-cell-1">For mapping data interactively. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
 <dd>
-<span data-code-lines="5,6" data-code-annotation="3" data-code-cell="annotated-cell-1">For the heatmap functionality. Install if necessary.</span>
+<span data-code-annotation="3" data-code-lines="5,6" data-code-cell="annotated-cell-1">For the heatmap functionality. Install if necessary.</span>
 </dd>
 </dl>
 </section>
@@ -279,11 +278,11 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-lines="1" data-code-annotation="1" data-code-cell="annotated-cell-2">This function allows us to see the taxonomic information for our focal species.</span>
+<span data-code-annotation="1" data-code-lines="1" data-code-cell="annotated-cell-2">This function allows us to see the taxonomic information for our focal species.</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-lines="2" data-code-annotation="2" data-code-cell="annotated-cell-2">This prints that information to the console.</span>
+<span data-code-annotation="2" data-code-lines="2" data-code-cell="annotated-cell-2">This prints that information to the console.</span>
 </dd>
 </dl>
 </section>
@@ -593,7 +592,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","loop":true,"closeEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":true});</script>
 
 
 

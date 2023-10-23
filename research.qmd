@@ -1,14 +1,12 @@
 ---
 title: "My Research"
 subtitle: Focusing on spatial ecology and geographic information systems.
-pagetitle: "Research ~ Benjamin W. Tjepkes"
 image: assets/bg-pines-research-gray-sm.png
-abstract-title: ""
 abstract: "My research has expanded both my technical skillset and my appreciation for science. Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques."
 listing:
   contents: research
   type: grid
-  grid-columns: 1
+  grid-columns: 2
   categories: numbered
   sort: "title"
   filter-ui: true  

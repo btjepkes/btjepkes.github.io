@@ -63,7 +63,7 @@ format:
   html:
     theme: custom.scss
     include-in-header: html/seo.html
-    abstract-title: "What's All This About?"
+    abstract-title: "What Is This About?"
     toc: true
     toc-title: "On This Page:"
     smooth-scroll: false

@@ -1,7 +1,6 @@
 ---
 title: "My Blog Posts"
 subtitle: Explore my writings on ecological and geospatial data science.
-pagetitle: "Posts ~ Benjamin W. Tjepkes"
 author: ""
 description-meta: "Blog Posts - Explore my writings on ecological and geospatial data science."
 toc: false
@@ -15,8 +14,8 @@ listing:
     feed: true
     page-size: 10
     type: grid
-    grid-columns: 2
-    image-height: 200px
+    grid-columns: 3
+    image-height: 120px
     categories: numbered
     sort: "date desc"
     filter-ui: [title, subtitle, description, category]

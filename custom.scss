@@ -185,6 +185,10 @@ h2 {
   color: white !important;
 }
 
+.abstract-title {
+  margin-bottom: 0.5em;
+}
+
 .abstract a {
   color: skyblue;
 }
@@ -381,7 +385,7 @@ nav .nav-item:not(.compact) {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  background-color: #f2f2f270;
+  background-color: rgba(243, 243, 243, 0.45);
 }
 
 // HEADER
@@ -543,18 +547,19 @@ div.quarto-post {
   border-top: none;
   margin-top: none;
 }
-
+/*
 .quarto-grid-item .card-title::after {
   content: "";
   display: block;
   width: 15%;
   border-top: solid 6px #008080;
   margin-top: 15px;
-}
+}*/
 
 .quarto-grid-item .card-title {
   font-weight: 600;
   margin-bottom: 10px;
+  color: #104759;
 }
 .quarto-grid-item p.card-img-top {
   padding: 6px;
@@ -1022,10 +1027,10 @@ div.quarto-post .metadata {
 }
 
 #quarto-margin-sidebar {
-  background: rgba(255,255,255,1.0); /*rgba(211, 230, 232);*/
+  background: white; /*rgba(211, 230, 232);*/
   padding-left: 24px;
-    backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  z-index: -1;
 }
 
 @media (max-width: 767.98px) {

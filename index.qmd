@@ -1,8 +1,7 @@
 ---
 title: "Integrating data and geospatial science for conservation."
 subtitle: "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and studying geographer."
-abstract-title: ""
-abstract: "This site provides an overview of my professional experience and a showcase of my technical writings and visualizations. Please have a look around and reach out with any questions."
+abstract: "This site provides an overview of my professional experience and a showcase of my technical writings and visualizations. Please have a look around and reach out with any questions or collaborative opportunities."
 toc: false
 pagetitle: "Portfolio | B.W. Tjepkes"
 author-meta: Benjamin Tjepkes
