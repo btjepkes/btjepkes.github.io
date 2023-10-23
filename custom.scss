@@ -368,19 +368,20 @@ nav .nav-item:not(.compact) {
 }
 
 // CONTAINER
-
+/*
 @media (min-width: 700px) {
 .page-columns .content {
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
-}}
+}}*/
 
 .quarto-container {
   background-image: url("assets/bg-topo-white.png");
   background-blend-mode: difference;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #f2f2f2;
+  background-position: center center;
+  background-color: #f2f2f270;
 }
 
 // HEADER
@@ -388,15 +389,15 @@ nav .nav-item:not(.compact) {
 #title-block-header {
   text-align: left;
   margin-block-end: 0;
-  background-image: linear-gradient(to bottom, #000000, #211b24, #25354a, #005465, #0b7366);
+  background-image: linear-gradient(to bottom, #000000, #211b24, #25354a, #005465);
   padding-bottom: 2em;
   border-bottom: solid 1px #e6e6e6;
   color: white !important;
 }
 
 .quarto-title-banner {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 2.4em;
+  padding-bottom: 2.4em;
   background: #00000050;
 }
 
@@ -630,14 +631,13 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
 .intro-banner::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: -4px;
   left: calc(-50vw + 49.97%);
   width: 100vw;
   right: 0;
   height: 100%;
-  border-bottom: solid 2px #232b3c;
   background-size: cover;
-  background-image: linear-gradient(to bottom, #000000, #211b24, #25354a, #005465, #0b7366);
+  background-image: linear-gradient(to bottom, #000000, #211b24, #25354a, #005465);
   /*background-color: hsl(217, 36%, 22%); #2d405f*/
   /*background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23466393' fill-opacity='0.25'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");*/
   /*background-image: url("assets/bg-topo-white.png");*/
@@ -1022,7 +1022,7 @@ div.quarto-post .metadata {
 }
 
 #quarto-margin-sidebar {
-  background: rgba(255,255,255,0.7); /*rgba(211, 230, 232);*/
+  background: rgba(255,255,255,1.0); /*rgba(211, 230, 232);*/
   padding-left: 24px;
     backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
