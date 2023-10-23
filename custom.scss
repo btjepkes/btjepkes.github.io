@@ -369,6 +369,12 @@ nav .nav-item:not(.compact) {
 
 // CONTAINER
 
+@media (min-width: 700px) {
+.page-columns .content {
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}}
+
 .quarto-container {
   background-image: url("assets/bg-topo-white.png");
   background-blend-mode: difference;
@@ -390,9 +396,8 @@ nav .nav-item:not(.compact) {
 
 .quarto-title-banner {
   padding-top: 2em;
-  padding-bottom: 0em;
-  /*background: #00000017;*/
-  background: transparent;
+  padding-bottom: 2em;
+  background: #00000050;
 }
 
 
@@ -488,7 +493,7 @@ div.quarto-post {
   border: 1px solid #46639355;
   -webkit-box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
   box-shadow: 4px 4px 4px rgba(0,0,0,.1);
-  flex-direction: row-reverse;
+  flex-direction: column;
 }
 
     @media (max-width: 700px) {
@@ -630,6 +635,7 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
   width: 100vw;
   right: 0;
   height: 100%;
+  border-bottom: solid 2px #232b3c;
   background-size: cover;
   background-image: linear-gradient(to bottom, #000000, #211b24, #25354a, #005465, #0b7366);
   /*background-color: hsl(217, 36%, 22%); #2d405f*/
@@ -868,7 +874,7 @@ div.quarto-post .metadata {
 .quarto-grid-item:hover {
     transform: scale(1.02);
     color: inherit;
-    transition: width, height, 0.3s ease-in-out;
+    transition: width, height, 0.2s ease-in-out;
     -webkit-box-shadow: 6px 6px 6px 0 rgba(0,0,0,.08);
     box-shadow: 6px 6px 6px rgba(0,0,0,.08);
 }}
@@ -1016,8 +1022,10 @@ div.quarto-post .metadata {
 }
 
 #quarto-margin-sidebar {
-  background: white; /*rgba(211, 230, 232);*/
+  background: rgba(255,255,255,0.7); /*rgba(211, 230, 232);*/
   padding-left: 24px;
+    backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
 }
 
 @media (max-width: 767.98px) {
@@ -1079,7 +1087,7 @@ div.quarto-post .metadata {
 }
 
 .index-intro-start-text {
-  font-size: 1.29em;
+  font-size: 1.24em;
   color: hsl(217, 36%, 22%);
   text-align: justify;
   line-height: 1.2;

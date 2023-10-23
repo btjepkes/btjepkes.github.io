@@ -14,7 +14,7 @@ listing:
   filter-ui: true  
   sort-ui: true
   fields: 
-    - image
     - title
     - subtitle
+    - image
 ---

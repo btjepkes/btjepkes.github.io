@@ -15,8 +15,8 @@ listing:
     feed: true
     page-size: 10
     type: grid
-    grid-columns: 1
-    image-height: 250px
+    grid-columns: 2
+    image-height: 200px
     categories: numbered
     sort: "date desc"
     filter-ui: [title, subtitle, description, category]

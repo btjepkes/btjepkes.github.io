@@ -1,10 +1,10 @@
 ---
 title: "Bald Eagle Nest-Site Selection"
 subtitle: "Assessing bald eagle nests along the Upper Mississippi River, 1990-2012."
-author: "Benjamin Tjepkes"
 date-modified: "4/29/2023"
-abstract: "This undergraduate research project involved cleaning and analyzing bald eagle nesting records from the U.S. Fish and Wildlife Service with the goal of determining how individuals of the Upper Mississippi River bald eagle population are selecting nest sites. We used a mixed-effects resource selection function under a use-availability design to understand the environmental features important to bald eagles when selecting nest sites."
-abstract-title: ""
+abstract: "This undergraduate research project involved cleaning and analyzing bald eagle nesting records from the U.S. Fish and Wildlife Service with the goal of determining how individuals of the Upper Mississippi River bald eagle population are selecting nest sites."
+aliases: 
+  - research-one.html
 categories:
   - Undergraduate
   - Avian
@@ -13,6 +13,9 @@ categories:
 image: img-eagle-nesting.jpg
 ---
 
+## Methods & Objectives
+
+We used a mixed-effects resource selection function under a use-availability design to understand the environmental features important to bald eagles when selecting nest sites.
 
 ## Project Presentations
 
