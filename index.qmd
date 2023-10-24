@@ -1,13 +1,14 @@
 ---
-title: "Integrating data and geospatial science for conservation."
+title: "Integrating ecological, data, and geospatial science for conservation."
 subtitle: "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and studying geographer."
-abstract: "This site provides an overview of my professional experience and a showcase of my technical writings and visualizations. Please have a look around and reach out with any questions or collaborations."
+# abstract: "This site provides an overview of my professional experience and a showcase of my technical writings and visualizations. Please have a look around and reach out with any questions or collaborations."
 toc: false
 pagetitle: "Portfolio | B.W. Tjepkes"
 author-meta: Benjamin Tjepkes
 description-meta: "This is the porfolio and professional website of Benjamin Tjepkes."
 format:
   html:
+    css: index.css
     page-layout: full
 listing:
   - id: site-listings
@@ -19,9 +20,11 @@ listing:
       - "gallery/index.qmd"
       - "resources/index.qmd"
     type: grid
+    image-height: 20px
     fields:
       - title
       - subtitle
+      - image
 ---
 
 <!-- ::: {.intro-banner .slide-in } -->
@@ -55,6 +58,7 @@ My work focuses on using a variety of data science and geospatial technologies t
 
 :::
 :::
+
 
 ::: {#site-listings}
 :::

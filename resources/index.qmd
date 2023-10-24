@@ -2,7 +2,7 @@
 title: "Resources"
 subtitle: My favorite references for ecology, GIS, R, Python, and more.
 abstract: "This page contains a repository of technical tutorials, personal blogs, eBooks, and other websites that I find myself conistently referring back to for my technical works."
-image: assets/bg-pines-resources-purple-sm.png
+image: ../assets/bg-pines-resources-purple-sm.png
 execute:
   echo: false
   warning: false

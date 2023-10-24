@@ -1,0 +1,144 @@
+#title-block-header {
+  text-align: center !important;
+  padding-bottom: 5em;
+}
+
+h1 {
+  font-size: 50px !important;
+}
+.content {
+  background-color: transparent !important;
+}
+
+.index-intro-start {
+  margin-bottom: 2em;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2.8em;
+  padding: 20px;
+  background: white;
+  margin-top: -100px;
+  border-radius: 5px;
+}
+
+.index-intro-start h2 {
+  margin-top: 0;
+}
+
+.index-intro-start-text {
+  font-size: 1.24em;
+  color: hsl(217, 36%, 22%);
+  text-align: justify;
+  line-height: 1.2;
+}
+
+    @media (max-width: 900px) { 
+    .index-intro-start-text {
+      font-size: 1.2em!important;
+      text-align: center;
+      line-height: 1.4;
+    }
+    .index-intro-start {
+      flex-direction: column;
+      gap: 0;
+    }
+    
+    }
+
+.index-intro-start-icons {
+  margin-top: 30px;
+}
+
+.index-intro-start-buttons {
+  flex-grow: 1;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+    #site-listings .quarto-grid-item {
+      flex-direction: row !important;
+    }
+
+.index-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 1.0rem;
+  margin-top: 0em;
+}
+
+.index-h2 h2 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-bottom: none;
+  font-family: system-ui;
+  font-size: 2.4rem;
+  margin-top: 0rem !important;
+  margin-bottom: 1rem;
+}
+
+
+@media (max-width: 799px) { 
+.index-h2 h2,
+.index-h2-alt h2 {
+  font-size: 1.5rem !important;
+}
+}
+
+.index-h2-line {
+  width: 100%;
+  height: 3px;
+  background: #d3d3d3;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+.index-h2-icon p {
+  margin-bottom: 1rem;
+}
+
+.index-h2-icon i {
+  color: teal !important;
+}
+
+.index-h2-line-alt {
+  width: 100%;
+  height: 5px;
+  background: $white;
+}
+
+.index-h2-alt h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-bottom: none;
+  font-family: system-ui;
+  font-size: 2.2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.index-h3 h3 {
+  text-align: left;
+  font-size: 1.45rem;
+  font-weight: 400;
+  color: #b21b2b;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.index-h4 h4 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  color: #b21b2b;
+  font-weight: 400;
+  text-align: left;
+}
+
+.index-section-text {
+  font-size: 22px;
+  line-height: 1.3;
+  background: white;
+  color: #24334c;
+}
