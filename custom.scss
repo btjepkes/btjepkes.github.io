@@ -154,6 +154,8 @@ $progress-height:               .5rem !default;
 
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+
 /*
 $web-font-path: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900;1000&display=swap" !default;
 @if $web-font-path {
@@ -375,9 +377,9 @@ nav .nav-item:not(.compact) {
 */
 
 .navbar-brand span {
-  font-weight: 900;
-  letter-spacing: -0.04em;
+  font-weight: 100 !important;
   text-transform: uppercase;
+  font-family: 'Sen';
 }
 
 /*
