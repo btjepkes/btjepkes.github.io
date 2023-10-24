@@ -16,8 +16,8 @@ website:
     version: 4
 
   navbar:
-    logo: assets/site-favicon.svg
-    pinned: true
+    # logo: assets/site-favicon.svg
+    pinned: false
     right:
       - href: about/index.qmd
         text: About
