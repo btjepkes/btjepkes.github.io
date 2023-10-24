@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Benjamin W. Tjepkes"
+  title: "B.W. Tjepkes"
   site-url: https://btjepkes.github.io/
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
   favicon: assets/logo-favicon-wt.svg

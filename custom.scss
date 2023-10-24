@@ -119,7 +119,7 @@ $navbar-padding-x:                  null !default;
 
 $navbar-nav-link-padding-x:         .5rem !default;
 
-$navbar-brand-font-size:            $font-size-lg !default;
+$navbar-brand-font-size:            $font-size-base * 1.50 !default;
 $navbar-brand-margin-end:           12px !default;
 $navbar-light-brand-hover-color:    red !default;
 
@@ -176,13 +176,13 @@ body {
   background-color: black;
   
 }
-
+@media (min-width: 991.98px) {
 .content {
   backdrop-filter: blur(4px);
   background-color: rgba(239,239,239,0.5);
   padding-left: 1em;
   padding-right: 1em;
-}
+}}
 
 h1 {
   color: $white;
@@ -1148,7 +1148,7 @@ div.quarto-post .metadata {
     @media (max-width: 900px) { 
     .index-intro-start-text {
       font-size: 1.2em!important;
-      text-align: left;
+      text-align: center;
       line-height: 1.4;
     }
     .index-intro-start {
