@@ -2,7 +2,7 @@
 title: "Curriculum vitae"
 subtitle: A full look at my education and professional experience.
 image: assets/bg-pines-resources-purple-sm.png
-abstract: "**This page is under construction.** Please see my [LinkedIn](https://www.linkedin.com/in/benjamintjepkes/) for my full profile."
+abstract: "This page is under construction. Please see my [LinkedIn](https://www.linkedin.com/in/benjamintjepkes/) for my full profile."
 toc: true
 format:
   html:
@@ -14,8 +14,13 @@ format:
 
 ## Education
 
-- **MA - Geography**, University of Missouri
-- **BS - Wildlife Ecology & Mgmnt**, University of Wisconsin-Stevens Point
+#### **Geography [MA]** @ University of Missouri
+
+I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis on Geographic Information Systems. My thesis project will combine my interests in conservation science, phenology, climate, and geospatial modeling.
+
+#### **Wildlife Ecology [BS]** @ University of Wisconsin-Stevens Point
+
+
 
 ## Experience
 

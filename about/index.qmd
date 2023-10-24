@@ -25,7 +25,7 @@ I am a graduate student at the University of Missouri studying geographic inform
 
 ![](../assets/img-ben-work.png)
 
-Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience as well.
+Please have a look at some of my blog posts, research overviews, and visualization gallery. My [professional CV](../cv.qmd) has a comprehensive look at my experience as well.
 
 ::: {#site-listings}
 
