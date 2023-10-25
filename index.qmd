@@ -25,17 +25,6 @@ listing:
       - subtitle
 ---
 
-<!-- ::: {.intro-banner .slide-in } -->
-
-<!-- ::: {.intro-content } -->
-<!-- #### Wildlife Ecologist & Geographer -->
-<!-- # Integrating data and geospatial science for nature conservation. -->
-
-<!-- Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and graduate student studying geospatial data science. -->
-
-<!-- ::: -->
-<!-- ::: -->
-
 ::: {.index-intro-start}
 
 ::: {.intro-headshot}
@@ -250,36 +239,6 @@ My work focuses on using a variety of data science and geospatial technologies t
 <!-- :::{.index-section-text} -->
 
 <!-- My creative workflows involve time in ArcGIS Pro, R/RStudio, QGIS, or Python/Jupyter Notebooks. When I have time, I like to participate in social media challenges, like Map Prompt Monday and Tidy Tuesday. Find the entirety of my gallery [here](gallery/index.qmd). -->
-
-<!-- ::: -->
-
-
-<!-- ::: {.gallery} -->
-
-<!-- ![Squirrel Census Density Map](./gallery/2018-squirrel-census-sighting-map/img-map-001v2.png){group="personal-projects" -->
-<!-- description="2018 Squirrel Census Sighting Density Map"} -->
-
-<!-- ![Endangered Species Stamp Map](./gallery/endangered-species-stamp-collection-map/img-map-endangeredstamps.png){group="personal-projects" -->
-<!-- description="Endangered Species Stamps Range Map"} -->
-
-<!-- ![Squirrel Census Chart](./gallery/img-table-001.png){group="personal-projects" -->
-<!-- description="2018 Squirrel Census Sighting Table"} -->
-
-<!-- ![Forest Canopy Density Map](./gallery/img-map-10.jpg){group="personal-projects" -->
-<!-- description="Missouri Tree Canopy Density Map"} -->
-
-<!-- ![Great Lakes Watershed Map](./gallery/img-map-11.jpg){group="personal-projects" -->
-<!-- description="Great Lakes Watershed Map"} -->
-
-<!-- ![Turkey Harvest Map](./gallery/img-turkey-harvest-maps.png){group="personal-projects" -->
-<!-- } -->
-
-<!-- ![Work Hours Calendar Chart](./gallery/img-calendar.jpeg){group="personal-projects" -->
-<!-- } -->
-
-<!-- ![Black Bear Sighting Choropleth](./gallery/img-map-5.jpg){group="personal-projects" -->
-<!-- } -->
-
 
 <!-- ::: -->
 

@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Benj&#9049;min Tjepkes"
+  title: "Benj&#916;min Tjepkes"
   site-url: https://btjepkes.github.io/
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
   favicon: assets/logo-favicon-wt.svg
@@ -18,7 +18,6 @@ website:
     version: 4
 
   navbar:
-    # logo: assets/site-favicon.svg
     pinned: false
     right:
       - href: about/index.qmd

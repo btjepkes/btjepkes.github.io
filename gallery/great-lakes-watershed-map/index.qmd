@@ -1,13 +1,10 @@
 ---
-title: "Map of Great Lakes Watersheds"
-subtitle: ""
-author: "Benjamin Tjepkes"
+title: "Great Lakes Watersheds & Sub-Basin Map"
+subtitle: "Creative visualization of Great Lakes watersheds."
 date-modified: "6-1-2023"
 categories:
   - Map Gallery
-abstract-title: ""
 abstract: ""
-toc: false
 image: img-map-11.jpg
 ---
 

@@ -120,7 +120,7 @@ $navbar-padding-x:                  null !default;
 $navbar-nav-link-padding-x:         .5rem !default;
 
 $navbar-brand-font-size:            $font-size-base * 1.50 !default;
-$navbar-brand-margin-end:           12px !default;
+$navbar-brand-margin-end:           0px !default;
 $navbar-light-brand-hover-color:    red !default;
 
 $navbar-bg: rgba($black, 1.0);
@@ -170,21 +170,19 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Sen, Atkinson Hyperlegible, Nunito, sans-serif;
-  background-image: url("assets/bg-dots.png");
+  background-image: url("assets/bg-dots-2.png");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  background-blend-mode: difference;
-  background-color: black;
-  
 }
+/*
 @media (min-width: 991.98px) {
 .content {
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(10px);
   background-color: rgba(255,255,255,0.5);
   padding-left: 1em;
   padding-right: 1em;
-}}
+}}*/
 
 h1 {
   color: $white;
@@ -306,11 +304,6 @@ div.sourceCode {
 
 /*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
-  
-    .navbar {
-      padding-top: 0.1em !important;
-      padding-bottom: 0.2em !important;
-    }
   
     ul.navbar-nav:nth-child(1) {
     flex-direction: column;
