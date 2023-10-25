@@ -304,7 +304,7 @@ div.sourceCode {
 }*/
 
 
-/*** MOBILE ONLY - start ***//*
+/*** MOBILE ONLY - start ***/
 @media (max-width: 991.98px) {
   
     .navbar {
@@ -313,11 +313,12 @@ div.sourceCode {
     }
   
     ul.navbar-nav:nth-child(1) {
-    flex-direction: row;
-    padding: 10px 0px;
-    margin: auto;
+    flex-direction: column;
+    padding: 10px 20px;
+    margin-left: auto;
     flex-wrap: wrap;
     justify-content: right;
+    text-align: right;
     }
   
     .navbar .navbar-toggler {
@@ -344,7 +345,7 @@ div.sourceCode {
       -webkit-flex-grow: 1;
       align-items: center;
       -webkit-align-items: center;
-      flex-direction: column;
+      flex-direction: row;
       gap: 0px;
       margin: 10px auto;
     }
