@@ -1,5 +1,5 @@
 ---
-title: "Mapping Unfragmented Forest Landscapes Using R"
+title: "Mapping Unfragmented Forests in R"
 subtitle: "Vizualizing Global Forest Watch data on intact North American forests over time."
 date: "4/22/2023"
 abstract: In this post, we will demonstrate how to visualize expansive amounts of geographic data using R. We will use example data from Global Forest Watch, which focuses on North America's landscapes that have intact forests large enough to preserve all native biodiversity.

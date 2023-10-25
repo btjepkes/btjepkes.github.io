@@ -1,7 +1,6 @@
 ---
-title: "Poster on Bat Habitat Conservation Plan in Missouri"
+title: "Missouri Bat HCP Overview & Update Poster"
 subtitle: "Informational poster on the Missouri Bat Habitat Conservation Plan."
-author: "Benjamin Tjepkes"
 date-modified: "5-18-2023"
 aliases: 
   - gallery/gallery-poster-two.html

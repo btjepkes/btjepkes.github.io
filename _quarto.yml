@@ -3,12 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "Ben_W_Tjepkes"
+  title: "B.W. &#9049; Tjepkes"
   site-url: https://btjepkes.github.io/
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
   favicon: assets/logo-favicon-wt.svg
   back-to-top-navigation: false
-  search: false
+  search: 
+    location: navbar
+    type: overlay
   open-graph: true
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   google-analytics: 

@@ -14,17 +14,21 @@ format:
 
 ## Education
 
-#### **Geography [MA]** @ University of Missouri
+#### **Masters [MA] - Geography**
 
-I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis on Geographic Information Systems. My thesis project will combine my interests in conservation science, phenology, climate, and geospatial modeling.
+**University of Missouri**
 
-#### **Wildlife Ecology [BS]** @ University of Wisconsin-Stevens Point
+I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis in Geographic Information Systems. My thesis project will combine my interests in conservation science, phenology, climate, and geospatial modeling.
 
+#### **Bachelors [BS] - Wildlife Ecology**
 
+**University of Wisconsin-Stevens Point**
+
+I earned my undergraduate degree in Wildlife Ecology and Management from the University of Wisconsin-Stevens Point. My minors were completed in Biology and Geographic Information Systems.
 
 ## Experience
 
-- **Graduate Teaching Assistant**, University of Missouri
-- **Assistant Wildlife Diversity Coordinator**, Missouri Department of Conservation
-- **Wildlife Biologist**, Missouri Department of Conservation
-- **Assistant Natural Heritage Biologist**, Missouri Department of Conservation
+#### **Graduate Teaching Assistant** @ University of Missouri
+#### **Assistant Wildlife Diversity Coordinator** @ Missouri Department of Conservation
+#### **Wildlife Biologist** @ Missouri Department of Conservation
+#### **Assistant Natural Heritage Biologist** @ Missouri Department of Conservation

@@ -277,7 +277,7 @@ div.sourceCode {
 
 .navbar {
   background-image: 
-    linear-gradient(to right, #000000, #211b24, #25354a);
+    linear-gradient(to right bottom, #000000, #161014, #211b24, #272737, #25354a);
     border-bottom: solid 1px rgba(255,255,255,0.05);
 }
 
@@ -432,13 +432,15 @@ nav .nav-item:not(.compact) {
 
 // HEADER
 
+
+
+
 #title-block-header {
   text-align: left;
   margin-block-end: 0;
-  /*background-image: linear-gradient(to bottom, #000000, #000000, #000000, #211b24, #25354a, #005465);*/
   background-image: 
     url("assets/bg-topo-white.png"),
-    linear-gradient(to right, #000000, #211b24, #25354a);
+   linear-gradient(to top right, #000000, #161014, #211b24, #272737, #25354a);
   background-blend-mode: difference;
   background-color: black;
   background-attachment: fixed;

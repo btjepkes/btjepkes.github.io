@@ -27,8 +27,12 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<link href="../../assets/logo-favicon-wt.svg" rel="icon" type="image/svg+xml">
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/logo-favicon-wt.svg" rel="icon" type="image/svg+xml">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -41,6 +45,12 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -70,7 +80,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta property="og:title" content="Choropleth of Missouri Bear Sightings | B.W. Tjepkes">
 <meta property="og:description" content="This choropleth map was created as a public-facing visualization to show the number of black bear sightings in each Missouri county during 2020. It was featured in the February 2021 issue of the Missouri Conservationist for an article about Missouri’s black bear population. Map creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/missouri-bear-sighting-map/img-map-5.jpg">
-<meta property="og:site-name" content="Ben_W_Tjepkes">
+<meta property="og:site-name" content="B.W. &amp;#9049; Tjepkes">
 </head>
 
 <body class="nav-fixed">
@@ -81,9 +91,10 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Ben_W_Tjepkes</span>
+    <span class="navbar-title">B.W. ⍙ Tjepkes</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -176,13 +187,13 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-figure quarto-figure-center" style="flex-basis: 50.0%;justify-content: center;">
 <figure class="figure">
-<p><a href="img-map-5.jpg" class="lightbox" title="Map Credit: Benjamin Tjepkes" data-gallery="quarto-lightbox-gallery-1"><img src="img-map-5.jpg" class="img-fluid figure-img"></a></p>
+<p><a href="img-map-5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Map Credit: Benjamin Tjepkes"><img src="img-map-5.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Map Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center" style="flex-basis: 50.0%;justify-content: center;">
 <figure class="figure">
-<p><a href="img-moconservationist.jpg" class="lightbox" title="Credit: Missouri Department of Conservation" data-gallery="quarto-lightbox-gallery-2"><img src="img-moconservationist.jpg" class="img-fluid figure-img"></a></p>
+<p><a href="img-moconservationist.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Credit: Missouri Department of Conservation"><img src="img-moconservationist.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Credit: Missouri Department of Conservation</figcaption>
 </figure>
 </div>
@@ -479,7 +490,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":true,"descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":true,"openEffect":"zoom"});</script>
 
 
 
