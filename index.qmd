@@ -20,11 +20,9 @@ listing:
       - "gallery/index.qmd"
       - "resources/index.qmd"
     type: grid
-    image-height: 20px
     fields:
       - title
       - subtitle
-      - image
 ---
 
 <!-- ::: {.intro-banner .slide-in } -->
