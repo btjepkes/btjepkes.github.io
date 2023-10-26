@@ -36,7 +36,7 @@ website:
           - href: resources/index.qmd
           - href: contact.qmd
       - text: "---"
-    background: "#f1f1f1"
+    background: "#ededed"
     collapse-level: 1
   navbar:
     pinned: false

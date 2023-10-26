@@ -169,9 +169,8 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Sen, Atkinson Hyperlegible, Nunito, sans-serif;
-  background-image: url("assets/bg-dots-2.png");
+  background-image: url("assets/bg-links.jpg");
   background-attachment: fixed;
-  background-size: cover;
   background-position: center;
 }
 /*
@@ -721,6 +720,7 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
   padding: 0.1em;
   border-radius: 4%;
   max-width: 320px;
+  border: solid 5px teal;
 }
 
 .intro-headshot {
@@ -1005,7 +1005,7 @@ div.quarto-post .metadata {
 }
 
 #quarto-margin-sidebar {
-  background: #f1f1f1; /*rgba(211, 230, 232);*/
+  background: #ededed; /*rgba(211, 230, 232);*/
   padding-left: 24px;
 }
 
