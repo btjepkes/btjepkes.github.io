@@ -1,5 +1,5 @@
 ---
-title: "Integrating ecological and geospatial science for conservation."
+title: "Integrating Ecological and Geospatial Science"
 subtitle: "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and studying geographer."
 # abstract: "This site provides an overview of my professional experience and a showcase of my technical writings and visualizations. Please have a look around and reach out with any questions or collaborations."
 toc: false
@@ -46,7 +46,6 @@ My work focuses on using a variety of data science and geospatial technologies t
 
 :::
 :::
-
 
 ::: {#site-listings}
 :::
