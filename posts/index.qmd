@@ -9,8 +9,8 @@ abstract: "This page is the home to all my writings, which generally come in two
 listing:
   - id: main-posts
     contents: "*.qmd"
-    exclude:
-      keywords: The Conservation Companion
+    # exclude:
+    #   keywords: The Conservation Companion
     feed: true
     page-size: 10
     type: grid
@@ -26,28 +26,28 @@ listing:
       - subtitle
       - author
       - date
-  - id: tcc-posts
-    contents: "*.qmd"
-    include:
-      keywords: The Conservation Companion
-    feed: true
-    type: table
-    categories: false
-    sort: "date desc"
-    filter-ui: false
-    sort-ui: false
-    fields: 
-      - date
-      - title
+  # - id: tcc-posts
+  #   contents: "*.qmd"
+  #   include:
+  #     keywords: The Conservation Companion
+  #   feed: true
+  #   type: table
+  #   categories: false
+  #   sort: "date desc"
+  #   filter-ui: false
+  #   sort-ui: false
+  #   fields: 
+  #     - date
+  #     - title
 ---
 
 ::: {#main-posts}
 :::
 
-## TCC Archive
+<!-- ## TCC Archive -->
 
-One of my personal projects over the last several years was the development of a conservation-focused blog called, **The Conservation Companion**. While I am continuing to develop content for TCC when I can, I was unable to maintain the web hosting service since starting grad school. Therefore, *most of my TCC posts are archived here for the time being.*
+<!-- One of my personal projects over the last several years was the development of a conservation-focused blog called, **The Conservation Companion**. While I am continuing to develop content for TCC when I can, I was unable to maintain the web hosting service since starting grad school. Therefore, *most of my TCC posts are archived here for the time being.* -->
 
-::: {#tcc-posts}
-:::
+<!-- ::: {#tcc-posts} -->
+<!-- ::: -->
 

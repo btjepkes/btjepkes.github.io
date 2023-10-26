@@ -32,6 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../gallery/index.html" rel="next">
 <link href="../assets/logo-favicon-wt.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
@@ -80,34 +81,6 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-main-posts'] = new List('listing-main-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-tcc-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-tcc-posts'] = new List('listing-tcc-posts', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -199,7 +172,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/index.html">Blog</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/index.html">Professional Works</a></li><li class="breadcrumb-item"><a href="../posts/index.html">My Blog Posts</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -234,48 +207,85 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+ <span class="menu-text">Professional Overview</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../about/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Learn About Me</span></a>
+ <span class="menu-text">About Me</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../cv.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Peruse My Resume/CV</span></a>
+ <span class="menu-text">Curriculum vitae</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../gallery/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gallery</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../posts/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Blog</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../research.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Research</span></a>
+ <span class="menu-text">My Research</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Professional Works</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../posts/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">My Blog Posts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../gallery/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">My Gallery</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+ <span class="menu-text">Resources &amp; Misc</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../resources/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resources</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../contact.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contact</span></a>
+ <span class="menu-text">Links &amp; Contact</span></a>
   </div>
 </li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
     </ul>
     </div>
 </nav>
@@ -385,63 +395,93 @@ Apr 22, 2023
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="3" data-categories="Wildlife,GIS" data-listing-date-sort="1679806800000" data-listing-file-modified-sort="1697321267746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<a href="../posts/how-scientists-use-gis-to-study-wildlife/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../posts/how-scientists-use-gis-to-study-wildlife/img-001.svg" class="thumbnail-image card-img" style="height: 120px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+How Scientists Use GIS to Study Wildlife
+</h5>
+<div class="card-subtitle listing-subtitle">
+Exploring use cases of geospatial technologies in wildlife conservation.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Benjamin Tjepkes
+</div>
+<div class="listing-date">
+Mar 26, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Nature,Education" data-listing-date-sort="1666069200000" data-listing-file-modified-sort="1696340434816" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<a href="../posts/how-to-become-a-contemporary-naturalist/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80" class="thumbnail-image card-img" style="height: 120px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+How to Become a Contemporary Naturalist
+</h5>
+<div class="card-subtitle listing-subtitle">
+Understanding the environment is the first step to appreciating it.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Benjamin Tjepkes
+</div>
+<div class="listing-date">
+Oct 18, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Nature,Education" data-listing-date-sort="1665896400000" data-listing-file-modified-sort="1698348202147" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<a href="../posts/can-you-naturally-protect-shores-from-erosion/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934" class="thumbnail-image card-img" style="height: 120px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Naturally Protect Shores From Erosion
+</h5>
+<div class="card-subtitle listing-subtitle">
+Using native plants and natural materials to prevent erosion.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Benjamin Tjepkes
+</div>
+<div class="listing-date">
+Oct 16, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
-<section id="tcc-archive" class="level2">
-<h2 data-anchor-id="tcc-archive">TCC Archive</h2>
-<p>One of my personal projects over the last several years was the development of a conservation-focused blog called, <strong>The Conservation Companion</strong>. While I am continuing to develop content for TCC when I can, I was unable to maintain the web hosting service since starting grad school. Therefore, <em>most of my TCC posts are archived here for the time being.</em></p>
-<div id="listing-tcc-posts" class="quarto-listing quarto-listing-container-table">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Date
-</th>
-<th>
-Title
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="Wildlife,GIS" data-listing-date-sort="1679806800000" data-listing-file-modified-sort="1697321267746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-title-sort="How Scientists Use GIS to Study Wildlife" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Mar 26, 2023</span>
-</td>
-<td>
-<a href="../posts/how-scientists-use-gis-to-study-wildlife/index.html" class="title listing-title">How Scientists Use GIS to Study Wildlife</a>
-</td>
-</tr>
-<tr data-index="1" data-categories="Nature,Education" data-listing-date-sort="1666069200000" data-listing-file-modified-sort="1696340434816" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-title-sort="How to Become a Contemporary Naturalist" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Oct 18, 2022</span>
-</td>
-<td>
-<a href="../posts/how-to-become-a-contemporary-naturalist/index.html" class="title listing-title">How to Become a Contemporary Naturalist</a>
-</td>
-</tr>
-<tr data-index="2" data-categories="Nature,Education" data-listing-date-sort="1665896400000" data-listing-file-modified-sort="1695335022726" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-title-sort="Can You Naturally Protect Shores From Erosion?" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Oct 16, 2022</span>
-</td>
-<td>
-<a href="../posts/can-you-naturally-protect-shores-from-erosion/index.html" class="title listing-title">Can You Naturally Protect Shores From Erosion?</a>
-</td>
-</tr>
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<!-- ## TCC Archive -->
+<!-- One of my personal projects over the last several years was the development of a conservation-focused blog called, **The Conservation Companion**. While I am continuing to develop content for TCC when I can, I was unable to maintain the web hosting service since starting grad school. Therefore, *most of my TCC posts are archived here for the time being.* -->
+<!-- ::: {#tcc-posts} -->
+<!-- ::: -->
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -684,6 +724,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../gallery/index.html" class="pagination-link">
+        <span class="nav-page-text">My Gallery</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
