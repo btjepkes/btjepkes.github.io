@@ -276,30 +276,11 @@ div.sourceCode {
 .navbar {
   background-image: 
     linear-gradient(to right bottom, #000000, #161014, #211b24, #272737, #25354a);
-    border-bottom: solid 1px rgba(255,255,255,0.05);
+    border-bottom: solid #d3d3d3 1px;
+  box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
+	0px 6.4px 14.4px rgba(0,0,0,0.132);
+	padding: 0.18em 20px;
 }
-
-
-/*
-#quarto-header > nav {
-  border-bottom: solid #d3d3d3 1px;
-  /*box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
-	0px 6.4px 14.4px rgba(0,0,0,0.132);*//*
-}*/
-
-/*
-@media (min-width: 991.98px) {
-  #quarto-header > nav {
-    height: 65px;
-  }
-    }
-
-.navbar-logo {
-  max-height: 48px;
-  width: auto;
-  padding-right: 6px;
-  margin-top: -5px;
-}*/
 
 
 /*** MOBILE ONLY - start ***/
@@ -308,17 +289,17 @@ div.sourceCode {
     ul.navbar-nav:nth-child(1) {
     flex-direction: column;
     padding: 10px 20px;
-    margin-left: auto;
+    margin: auto;
     flex-wrap: wrap;
     justify-content: right;
-    text-align: right;
+    text-align: center;
     }
   
     .navbar .navbar-toggler {
       order: -1;
       margin-right: 0em;
       padding-right: 0;
-    } 
+      padding-left: 0;    } 
   
     .navbar-container {
       flex-direction: row-reverse;
@@ -353,22 +334,6 @@ div.sourceCode {
 
 } /*** MOBILE ONLY - stop ***/
 
-/*
-nav .nav-item {
-  font-weight: 200;
-  opacity: 0.9;
-  font-size: 1.2em;
-}
-
-
-nav .nav-item:not(.compact) {
-    padding-top: 0px;
-}
-
-#quarto-header .navbar .nav-link .menu-text {
-    position: relative;
-}
-*/
 
 .navbar-brand span {
   font-weight: 100 !important;
@@ -388,49 +353,18 @@ nav .nav-item:not(.compact) {
   text-transform: none;
 }*/
 
-/*
+// SIDEBAR
+
 @media (max-width: 991.98px) {
-.ms-auto {
-  margin-right: auto !important;
-  margin-left: auto;
-  text-align: center;
-  margin-bottom: 0em;
-  flex-direction: row;
+  nav.quarto-secondary-nav {
+    display: none;
+  }
 }
-  
-  nav .nav-item.compact .nav-link {
-  padding-left: .7rem;
-  padding-right: .7rem;
-  font-size: 1.5rem;
-}
-  
-}*/
-
-// CONTAINER
-/*
-@media (min-width: 700px) {
-.page-columns .content {
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
-}}*/
-
-/*
-.quarto-container {
-  background-image: url("assets/bg-topo-white.png");
-  background-blend-mode: difference;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-color: rgba(255, 255, 255, 0.6);
-}*/
 
 // HEADER
 
-
-
-
 #title-block-header {
-  text-align: left;
+  text-align: center;
   margin-block-end: 0;
   background-image: 
     url("assets/bg-topo-white.png"),
@@ -785,7 +719,6 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
 
 .headshot-img {
   background: white;
-  border: teal solid 8px;
   padding: 0.1em;
   border-radius: 4%;
   max-width: 320px;
@@ -1068,13 +1001,12 @@ div.quarto-post .metadata {
 .nav-footer {
   padding-top: 0.5em;
   padding-bottom: 0em;
-  backdrop-filter: blur(7px);
   background: white;
   border-top: solid 1px lightgray;
 }
 
 #quarto-margin-sidebar {
-  background: white; /*rgba(211, 230, 232);*/
+  background: #f1f1f1; /*rgba(211, 230, 232);*/
   padding-left: 24px;
 }
 

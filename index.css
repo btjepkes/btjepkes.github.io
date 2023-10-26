@@ -4,7 +4,7 @@
 }
 
 h1 {
-  font-size: clamp(2rem, -0.875rem + 8.333vw, 3.5rem);
+  font-size: clamp(2rem, -0.875rem + 8.333vw, 3.0rem);
 }
 
 .content {
@@ -23,8 +23,8 @@ h1 {
   background: white;
   margin-top: -70px;
   border-radius: 8px;
+  border: solid teal 5px;
   box-shadow: 0px 4px 4px rgba(0,0,0,.1);
-  border: solid #f8f8f8 6px;
 }
 
 .index-intro-start h2 {
