@@ -1,7 +1,7 @@
 ---
-title: "Integrating Ecological and Geospatial Science"
-subtitle: "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and studying geographer."
-# abstract: "This site provides an overview of my professional experience and a showcase of my technical writings and visualizations. Please have a look around and reach out with any questions or collaborations."
+title: "Portfolio of Benjamin Tjepkes"
+subtitle: "Integrating Ecological and Geospatial Science"
+abstract: "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and studying geographer. This site provides an overview of my professional experience and a showcase of my technical writings and visualizations."
 toc: false
 sidebar: false
 pagetitle: "Portfolio | B.W. Tjepkes"
@@ -10,7 +10,7 @@ description-meta: "This is the porfolio and professional website of Benjamin Tje
 format:
   html:
     css: index.css
-    page-layout: full
+   # page-layout: full
 listing:
   - id: site-listings
     contents:
@@ -25,7 +25,7 @@ listing:
       - title
       - subtitle
 ---
-
+:::{.column-page}
 ::: {.index-intro-start}
 
 ::: {.intro-headshot}
@@ -58,7 +58,7 @@ My work focuses on using a variety of data science and geospatial technologies t
 - **July 2023 --** One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest.
 - **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.
 :::
-
+:::
 <!-- <!-- ::: {.index-intro-start-buttons} -->
 
 <!-- <!-- [Career Path](quiz.qmd){.btn .btn-outline-primary role="button" data-toggle="tooltip" title="Here's a tooltip"} [Blog Posts](quiz.qmd){.btn .btn-outline-primary role="button" data-toggle="tooltip" title="Here's a tooltip"} [Explore Gallery](quiz.qmd){.btn .btn-outline-primary role="button" data-toggle="tooltip" title="Here's a tooltip"} [My Research](quiz.qmd){.btn .btn-outline-primary role="button" data-toggle="tooltip" title="Here's a tooltip"} -->

@@ -3,6 +3,10 @@
   padding-top: 1em;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 .content {
   background-color: transparent !important;
   backdrop-filter: none !important;
