@@ -8,8 +8,8 @@ listing:
   - id: site-listings
     contents:
       - "about/index.qmd"
-      - "research.qmd"
-      - "cv.qmd"
+      - "research/index.qmd"
+      - "curriculum-vitae/index.qmd"
       - "posts/index.qmd"
       - "gallery/index.qmd"
       - "resources/index.qmd"

@@ -9,7 +9,7 @@ abstract: "This page highlights my professional career path, including my 'pseud
 listing:
   - id: site-listings
     contents:
-      - "../research.qmd"
+      - "../research/index.qmd"
       - "../posts/index.qmd"
       - "../gallery/index.qmd"
     type: grid

@@ -27,20 +27,19 @@ $teal:    #20c997 !default;
 $cyan:    #9954bb !default;
 
 $new-dark-blue: #00233D !default;
-$new-orange: #ff9f2b !default;
-$new-green: #004f58 !default;
+$new-orange:    #ff9f2b !default;
+$new-green:     #004f58 !default;
 
-$dark-green: #20595d !default;
-$light-green: #2b6165 !default;
-$tan: #e6e67b !default;
-$dark-purple: #282a36 !default;
-$blue-1: #193048 !default;
-$blue-2: #161d30 !default;
-$blue-3: #262939 !default;
-$blue-4: #06214e !default;
-
-$blue-5: #2d405f !default;
-$blue-6: #466393 !default;
+$dark-green:    #20595d !default;
+$light-green:   #2b6165 !default;
+$tan:           #e6e67b !default;
+$dark-purple:   #282a36 !default;
+$blue-1:        #193048 !default;
+$blue-2:        #161d30 !default;
+$blue-3:        #262939 !default;
+$blue-4:        #06214e !default;
+$blue-5:        #2d405f !default;
+$blue-6:        #466393 !default;
 
 $primary:       $black !default;
 $secondary:     $white !default;
@@ -123,7 +122,6 @@ $navbar-brand-font-size:            $font-size-base * 1.50 !default;
 $navbar-brand-margin-end:           0px !default;
 $navbar-light-brand-hover-color:    red !default;
 
-$navbar-bg: rgba($black, 1.0);
 $navbar-fg: rgba($white, 1.0);
 
 $navbar-dark-hover-color:       rgba($white, 1) !default;
@@ -173,14 +171,7 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
-/*
-@media (min-width: 991.98px) {
-.content {
-  backdrop-filter: blur(10px);
-  background-color: rgba(255,255,255,0.5);
-  padding-left: 1em;
-  padding-right: 1em;
-}}*/
+
 
 h1 {
   color: $white;
@@ -188,16 +179,6 @@ h1 {
   font-family: Atkinson Hyperlegible;
 }
 
-/*
-h1::after {
-  content: "";
-  position: relative;
-  display: block;
-  border: solid 4px lightblue;
-  border-radius: 4px;
-  margin-top: 25px;
-  width: 14%;
-}*/
 
 h2 {
   color: #046065;
@@ -267,21 +248,25 @@ div.sourceCode {
 }
 
 
-
-
 // Navbar
 
 .navbar {
   background-image: 
     linear-gradient(to right bottom, #000000, #161014, #211b24, #272737, #25354a);
-    border-bottom: solid #d3d3d3 1px;
+    border-bottom: solid rgba(237, 237, 237,0.3) 1px;
   box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
 	padding: 0.3em 20px;
 }
 
+.navbar-brand span {
+  font-weight: 100 !important;
+  text-transform: uppercase;
+  font-family: 'Sen';
+}
 
-/*** MOBILE ONLY - start ***/
+// Navbar - MOBILE ONLY
+
 @media (max-width: 991.98px) {
   
     ul.navbar-nav:nth-child(1) {
@@ -328,28 +313,8 @@ div.sourceCode {
     
     .quarto-navbar-tools {
       display: none !important;
-    }
+    } }
 
-} /*** MOBILE ONLY - stop ***/
-
-
-.navbar-brand span {
-  font-weight: 100 !important;
-  text-transform: uppercase;
-  font-family: 'Sen';
-}
-
-/*
-.navbar-brand span::after {
-  content: "Ecology · Geospatial · Analytics";
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  display: block;
-  font-size: 14px;
-  margin-top: -6px;
-  color: #338a94;
-  text-transform: none;
-}*/
 
 // SIDEBAR
 
@@ -357,6 +322,13 @@ div.sourceCode {
   nav.quarto-secondary-nav {
     display: none;
   }
+}
+
+.mt-1 > li:nth-child(1) > span:nth-child(1) {
+  font-weight: bold;
+  opacity: 0.8;
+  font-size: 1.1em;
+  text-transform: uppercase;
 }
 
 // HEADER
@@ -402,10 +374,10 @@ div.sourceCode {
     background: #7bcce63d !important;
   }
 
-.rt-no-data {
-  color: red !important;
-  left: 50% !important;
-}
+  .rt-no-data {
+    color: red !important;
+    left: 50% !important;
+  }
 
 
 
@@ -525,14 +497,6 @@ div.quarto-post {
   border-top: none;
   margin-top: none;
 }
-/*
-.quarto-grid-item .card-title::after {
-  content: "";
-  display: block;
-  width: 15%;
-  border-top: solid 6px #008080;
-  margin-top: 15px;
-}*/
 
 .quarto-grid-item .card-title {
   font-weight: 600;
@@ -544,7 +508,7 @@ div.quarto-post {
 }
 
 .quarto-grid-item p.card-img-top>img {
-    border-radius: 0;
+    border-radius: 5px;
     min-height: 200px;
     overflow-clip-margin: unset;
     overflow: hidden;
@@ -589,51 +553,6 @@ div.quarto-post {
 
 
 /* Index */
-
-/*
-body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
-  display: none;
-}
-*/
-
-
-
-.intro-banner {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  gap: 60px;
-  text-align: center;
-  align-items: center;
-  margin-top: calc(-1em - 18px);
-  margin-bottom: 3em;
-  padding-top: 3.5em;
-  padding-bottom: 2em;
-}
-
-.intro-banner::before {
-  content: "";
-  position: absolute;
-  top: -4px;
-  left: calc(-50vw + 49.97%);
-  width: 100vw;
-  right: 0;
-  height: 100%;
-  background-size: cover;
-  background-image: linear-gradient(to bottom, #000000, #211b24, #25354a, #005465);
-  /*background-color: hsl(217, 36%, 22%); #2d405f*/
-  /*background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23466393' fill-opacity='0.25'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");*/
-  /*background-image: url("assets/bg-topo-white.png");*/
-  background-position: center center;
-  background-attachment: fixed;
-  z-index: -1;
-  margin-bottom: 0;
-}
-
-.intro-banner h1 {
-  color: white;
-  opacity: 1.0;
-}
 
 #quarto-content {
   min-height: auto !important;
@@ -728,32 +647,6 @@ body[data-page-url="https://btjepkes.github.io/"] .quarto-title-banner {
   z-index: 999;
 }
 
-/*
-@media (max-width: 991.98px) {
-.headshot-img {
-  background: white;
-  border: teal solid;
-  border-width: 8px 8px;
-  border-radius: 20%;
-  padding: 0.1em;
-  max-width: 145px;
-  margin-bottom: -35px;
-  margin-left: 50%;
-}
-
-.intro-content::after {
-  content: "";
-  position: absolute;
-  top: 120px;
-  left: 0;
-  width: 100%; 
-  height: 64px;
-  background-color: teal;
-  transform: translateY(-50%);
-}
-
-}*/
-
 
 /* Intro Icon Columns */
 
@@ -824,14 +717,6 @@ div.quarto-post .metadata {
   margin-right: 0 !important;
 }
 
-/*
-#listing-site-listings-2 .quarto-grid-item,
-#listing-site-listings .quarto-grid-item{
-  background: $white;
-}*/
-
-
-
 
 /* INDEX features */
 
@@ -861,29 +746,6 @@ div.quarto-post .metadata {
     -webkit-box-shadow: 6px 6px 6px 0 rgba(0,0,0,.08);
     box-shadow: 6px 6px 6px rgba(0,0,0,.08);
 }}
-
-
-/* SLIDE IN ANIMATION */
-
-.slide-in {
-  opacity: 0; /* Initially hidden */
-  transform: translateY(-100%); /* Initially off-screen from the top */
-  animation: slideIn 700ms forwards; /* Animation duration and fill mode */
-}
-
-@keyframes slideIn {
-  0% {
-    opacity: 0; /* Start with opacity 0 */
-    transform: translateY(-100%); /* Start off-screen from the top */
-  }
-  
-  100% {
-    opacity: 1; /* End with opacity 1 */
-    transform: translateY(0); /* Slide in to 0px from the top */
-  }
-}
-
-
 
 @media (min-width: 800px) { 
 .features {
@@ -1169,8 +1031,57 @@ margin-bottom: 0 !important;
 }
 
 
-.alt-background {
-  background-color: #f8f8f8;
-  border: 1px solid #dee2e6;
-  border-radius: 20px;
+// RESUME ELEMENTS
+
+    .resume-container {
+        display: flex;
+        align-items: flex-start;
+        background: rgba(255,255,255,0.6);
+        align-items: center;
+        padding: 20px;
+        border-radius: 8px;
+        gap: 24px;
+        margin-bottom: 1.2em;
+        -webkit-box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
+        box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
+        border: 1px solid #46639355;
+    }
+  
+    .resume-item {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .employer {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+  
+    .date {
+        color: #555;
+    }
+  
+    .position {
+        font-style: italic;
+        color: teal;
+        font-size: 1.1em;
+    }
+  
+    .description {
+        margin-top: 10px;
+    }
+  
+    .profile-image {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    
+// RESUME ELEMENTS - MOBILE ONLY 
+
+@media (max-width: 991.98px) {
+  .resume-container {
+        flex-direction: column;
+    }
 }

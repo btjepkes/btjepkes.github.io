@@ -19,19 +19,20 @@ website:
     version: 4
   sidebar:
     contents:
+      - text: "Navigation"
       - text: "---"
       - section: "Professional Overview"
         contents:
-          - href: about/index.qmd
-          - href: cv.qmd
-          - href: research.qmd
+          - about/index.qmd
+          - curriculum-vitae/index.qmd
+          - research/index.qmd
       - text: "---"
       - section: "Professional Works"
         contents:
           - href: posts/index.qmd
           - href: gallery/index.qmd
       - text: "---"
-      - section: "Resources & Misc"
+      - section: "Resources & Miscellany"
         contents:
           - href: resources/index.qmd
           - href: contact.qmd
@@ -43,13 +44,13 @@ website:
     right:
       - href: about/index.qmd
         text: About
-      - href: cv.qmd
+      - href: curriculum-vitae/index.qmd
         text: Resume/CV       
       - href: gallery/index.qmd
         text: Gallery
       - href: posts/index.qmd
         text: Blog
-      - href: research.qmd
+      - href: research/index.qmd
         text: Research        
       - href: resources/index.qmd
         text: Resources

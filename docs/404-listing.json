@@ -2,10 +2,10 @@
   "listing": "/404.html",
   "items": [
     "/about/index.html",
-    "/cv.html",
+    "/curriculum-vitae/index.html",
     "/posts/index.html",
     "/gallery/index.html",
-    "/research.html",
+    "/research/index.html",
     "/resources/index.html"
   ]
 }

@@ -2,11 +2,6 @@ execute:
   freeze: auto
 description-meta: "{{< meta description >}}"
 
-# Default for table of contents
-toc: true
-toc-title: "On This Page:"
-toc-location: right
-
 # Default author
 author:
   - name: Benjamin Tjepkes  
