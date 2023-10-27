@@ -1,10 +1,10 @@
 ---
-title: "Great Lakes Watersheds & Sub-Basin Map"
+title: "Great Lakes Watersheds Map"
 subtitle: "Creative visualization of Great Lakes watersheds."
 date-modified: "6-1-2023"
 categories:
   - Map Gallery
-abstract: ""
+abstract: "This was a creative map that I made in ArcGIS Pro."
 image: img-map-11.jpg
 ---
 

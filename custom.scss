@@ -265,6 +265,10 @@ div.sourceCode {
   font-family: 'Sen';
 }
 
+.navbar-nav .active {
+  color: white !important;
+}
+
 // Navbar - MOBILE ONLY
 
 @media (max-width: 991.98px) {
@@ -1057,7 +1061,7 @@ margin-bottom: 0 !important;
         font-size: 1.2em;
     }
   
-    .date {
+    .cv-date {
         color: #555;
     }
   
