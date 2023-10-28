@@ -1,5 +1,5 @@
 ---
-title: "Portfolio of B.W. Tjepkes"
+title: "Benjamin W. Tjepkes, BSc."
 subtitle: "Integrating Ecological and Geospatial Science for Conservation"
 abstract: "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and studying geographer. This site provides an overview of my professional experience and a showcase of my technical writings and visualizations."
 toc: false

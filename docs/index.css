@@ -27,6 +27,10 @@ h1 {
   text-align: center;
 }
 
+.intro-headshot {
+  max-width: 525px;
+}
+
 .index-intro-start-text {
   font-size: 1.4em;
   color: hsl(217, 36%, 22%);
