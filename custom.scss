@@ -1020,7 +1020,6 @@ margin-bottom: 0 !important;
         width: 100px;
         height: 100px;
         object-fit: cover;
-        margin-right: auto;
     }
     
 // RESUME ELEMENTS - MOBILE ONLY 
@@ -1028,5 +1027,6 @@ margin-bottom: 0 !important;
 @media (max-width: 991.98px) {
   .resume-container {
         flex-direction: column;
+        text-align: center;
     }
 }

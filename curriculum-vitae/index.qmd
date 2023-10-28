@@ -3,8 +3,7 @@ title: "Curriculum vitae"
 subtitle: A full look at my education and professional experience.
 image: ../assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg
 image-alt: Image-of-pine-trees-on-blue-background.
-abstract: "This page provides information on my formal education, recent professional experience, and professional skillset. Please also see my [LinkedIn](https://www.linkedin.com/in/benjamintjepkes/) for my full profile."
-toc: true
+abstract: "This page provides information on my formal education, recent professional experience, and professional skillset. Please also check out my [LinkedIn](https://www.linkedin.com/in/benjamintjepkes/) profile."
 format:
   html:
     echo: false
@@ -94,3 +93,29 @@ format:
 </div>
 ```
 
+## Techincal Proficiencies
+
+```{=html}
+<div class="resume-container">
+        <img class="profile-image" src="../assets/img-computer.png" alt="Your Profile Image">
+        <div class="resume-item">
+            <div class="employer">Cartographic Design</div>
+            <div class="position"></div>
+            <div class="description">
+                <p>Adept at using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps.</p>
+            </div>
+        </div>
+</div>
+
+<div class="resume-container">
+        <img class="profile-image" src="../assets/img-computer.png" alt="Your Profile Image">
+        <div class="resume-item">
+            <div class="employer">Data Viz & Reporting</div>
+            <div class="position"></div>
+            <div class="description">
+                <p>Proficient in data visualization and reproducible reporting using Quarto, R Markdown, Jupyter Notebooks.</p>
+            </div>
+        </div>
+</div>
+
+```
