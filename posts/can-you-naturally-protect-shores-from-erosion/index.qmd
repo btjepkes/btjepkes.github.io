@@ -7,7 +7,9 @@ keywords: The Conservation Companion
 categories:
   - Nature
   - Education
+  - Shorelines
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934
+image-alt: "Image looking across a lake with plants in the foreground."
 ---
 
 ## Erosion Is A Two-Sided Story

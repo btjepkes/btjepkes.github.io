@@ -11,14 +11,22 @@ categories:
   - Missouri
   - Overlay
 abstract-title: ""
-abstract: This overlay map was created for the Missouri Black Bear Program to present during public talks on bear hunting across the three designated Bear Management Zones, indicating where public hunting lands are located. All data were pulled from internally-maintained geodatabases. Map creation was performed in ArcGIS Pro 2.9.
+abstract: This overlay map was created for the Missouri Black Bear Program to present during public talks on bear hunting across the three designated Bear Management Zones, indicating where public hunting lands are located.
 image: img-map-6.jpg
+image-alt: "Map showing bear management zones."
 ---
 
 ![Map Credit: Benjamin Tjepkes](img-map-6.jpg)
+
+## Variations Created
 
 ::: {layout-ncol=2}
 ![Variation 1. Map Credit: Benjamin Tjepkes](img-map-7.jpg)
 
 ![Variation 2. Map Credit: Benjamin Tjepkes](img-map-8.jpg)
 :::
+
+
+## Tools & Methods
+
+All data were pulled from internally-maintained geodatabases. Map creation was performed in ArcGIS Pro 2.9.

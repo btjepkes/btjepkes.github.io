@@ -9,7 +9,7 @@ categories:
   - Quarto
   - Reporting
 image: bg-pine-blue.jpg
-draft: FALSE
+draft: true
 aliases: 
   - /posts/post-two.html
 ---

@@ -2,7 +2,8 @@
 title: "My Gallery"
 subtitle: "Maps, visualizations, reports, posters, and presentations."
 author: ""
-image: ../assets/bg-pines-gallery-yellow-sm.png
+image: ../assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg
+image-alt: Image-of-pine-trees-on-blue-background.
 toc: false
 abstract: These are some of my latest maps and data visualizations from personal creative projects, work assignments, or course projects. Any of my contributions to Tidy Tuesday or similar are included.
 listing:

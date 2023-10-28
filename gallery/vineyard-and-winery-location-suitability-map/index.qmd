@@ -11,6 +11,7 @@ categories:
   - Wisconsin
   - Location Suitability
 image: img-map-1.jpg
+image-alt: "Map-of-vineyard-and-winery-suitabiliy."
 toc: true
 ---
 

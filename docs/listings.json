@@ -12,9 +12,6 @@
   {
     "listing": "/posts/index.html",
     "items": [
-      "/posts/streamlining-your-reporting-workflow-with-quarto/index.html",
-      "/posts/interactive-heatmap-of-gbif-occurrences/index.html",
-      "/posts/mapping-unfragmented-forest-landscapes-using-r/index.html",
       "/posts/how-scientists-use-gis-to-study-wildlife/index.html",
       "/posts/how-to-become-a-contemporary-naturalist/index.html",
       "/posts/can-you-naturally-protect-shores-from-erosion/index.html"
@@ -37,8 +34,6 @@
       "/gallery/vineyard-and-winery-location-suitability-map/index.html",
       "/gallery/turkey-harvest-maps-by-county/index.html",
       "/gallery/2018-squirrel-census-sighting-map/index.html",
-      "/gallery/australia-publication-map-figure/index.html",
-      "/gallery/bald-eagle-nest-monitoring-report/index.html",
       "/gallery/bald-eagle-nest-selection-poster/index.html",
       "/gallery/endangered-species-stamp-collection-map/index.html",
       "/gallery/great-lakes-watershed-map/index.html",

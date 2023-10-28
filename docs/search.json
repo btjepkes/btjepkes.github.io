@@ -53,7 +53,7 @@
     "href": "posts/index.html",
     "title": "My Blog Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nReporting Workflows with Quarto and R\n\n\nManually updating reports is old news, start producing reproducible documents today!\n\n\n\nBenjamin Tjepkes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records in Wyoming.\n\n\n\nBenjamin Tjepkes\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Unfragmented Forests in R\n\n\nVizualizing Global Forest Watch data on intact North American forests over time.\n\n\n\nBenjamin Tjepkes\n\n\nApr 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\nBenjamin Tjepkes\n\n\nMar 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\nBenjamin Tjepkes\n\n\nOct 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protect Shores From Erosion\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\nBenjamin Tjepkes\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\nBenjamin Tjepkes\n\n\nMar 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\nBenjamin Tjepkes\n\n\nOct 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protect Shores From Erosion\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\nBenjamin Tjepkes\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/how-scientists-use-gis-to-study-wildlife/index.html",
@@ -119,18 +119,39 @@
     "text": "Map Credit: Benjamin Tjepkes"
   },
   {
+    "objectID": "gallery/shoreline-structure-setback-compliance-map/index.html#tools-methods",
+    "href": "gallery/shoreline-structure-setback-compliance-map/index.html#tools-methods",
+    "title": "Shoreline Structure Setback Compliance",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nThis map and all spatial analysis needed to create it was performed in ArcMap 10.x. All primary structures in each lake-adjacent parcel were outlined using heads-up digitizing techniques. The distance to water was then determined using the Near tool in ArcMap, referencing the ordinary high water mark for compliance."
+  },
+  {
+    "objectID": "gallery/missouri-forest-canopy-density/index.html",
+    "href": "gallery/missouri-forest-canopy-density/index.html",
+    "title": "Map of Missouri Forest Canopy Density",
+    "section": "",
+    "text": "Map Credit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "gallery/missouri-forest-canopy-density/index.html#tools-methods",
+    "href": "gallery/missouri-forest-canopy-density/index.html#tools-methods",
+    "title": "Map of Missouri Forest Canopy Density",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nThis maps was created used ArcGIS Pro using data available on the Esri Living Atlas. Forest density, based on NLCD 2016, were summarized in H3 hexbins. The scaled-icon symbology represents the relative percentage of each hexbin that contains forest."
+  },
+  {
     "objectID": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
     "href": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
     "title": "Missouri Bat HCP Overview & Update Poster",
     "section": "Tools and Workflow",
-    "text": "Tools and Workflow\n\nMap creation was performed using tmap and sf packages in the RStudio environment.\nPoster compilation was performed in Microsoft Publisher."
+    "text": "Tools and Workflow\nMap creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
   },
   {
     "objectID": "gallery/index.html",
     "href": "gallery/index.html",
     "title": "My Gallery",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAustralia Publication Map Figure\n\n\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Report\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\nMap of Missouri Forest Canopy Density\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nMap of Missouri Forest Canopy Density\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
@@ -147,25 +168,18 @@
     "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas. This map recently received 2nd Place in the Professional category of the 2023 GIS Certification Institute Map Contest."
   },
   {
-    "objectID": "gallery/bald-eagle-nest-monitoring-report/index.html",
-    "href": "gallery/bald-eagle-nest-monitoring-report/index.html",
-    "title": "Bald Eagle Nest Monitoring Report",
-    "section": "",
-    "text": "Unable to display PDF file. Download instead."
-  },
-  {
-    "objectID": "gallery/bald-eagle-nest-monitoring-report/index.html#tools-workflow",
-    "href": "gallery/bald-eagle-nest-monitoring-report/index.html#tools-workflow",
-    "title": "Bald Eagle Nest Monitoring Report",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nReport compilation was performed in Microsoft Word. Spatial data handling was performed in ArcGIS Pro. Tabular data manipulation and analysis were performed in RStudio and Microsoft Excel."
-  },
-  {
     "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
     "href": "gallery/2018-squirrel-census-sighting-map/index.html",
     "title": "2018 Squirrel Census Sighting Map",
     "section": "",
     "text": "Map Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
+    "href": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
+    "title": "2018 Squirrel Census Sighting Map",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nThis map was created with several packages in RStudio using data from the Tidy Tuesday repository."
   },
   {
     "objectID": "about/index.html",
@@ -210,11 +224,25 @@
     "text": "Credit: Benjamin Tjepkes"
   },
   {
+    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
+    "href": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
+    "title": "Poster on Bald Eagle Nest Selection Research",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nThis poster was assembled in Microsoft PowerPoint."
+  },
+  {
     "objectID": "gallery/great-lakes-watershed-map/index.html",
     "href": "gallery/great-lakes-watershed-map/index.html",
     "title": "Great Lakes Watersheds Map",
     "section": "",
     "text": "Map Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/great-lakes-watershed-map/index.html#tools-methods",
+    "href": "gallery/great-lakes-watershed-map/index.html#tools-methods",
+    "title": "Great Lakes Watersheds Map",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nThis maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
   },
   {
     "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
@@ -238,11 +266,39 @@
     "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
   },
   {
+    "objectID": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
+    "href": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
+    "title": "Choropleth of Missouri Bear Sightings",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nMap creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
+  },
+  {
     "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html",
     "href": "gallery/overlaying-public-lands-with-bmzs/index.html",
     "title": "Overlaying Public Lands with BMZs",
     "section": "",
-    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\n\n\nVariation 1. Map Credit: Benjamin Tjepkes\n\n\n\n\n\nVariation 2. Map Credit: Benjamin Tjepkes"
+    "text": "Map Credit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html#variations-created",
+    "href": "gallery/overlaying-public-lands-with-bmzs/index.html#variations-created",
+    "title": "Overlaying Public Lands with BMZs",
+    "section": "Variations Created",
+    "text": "Variations Created\n\n\n\n\n\nVariation 1. Map Credit: Benjamin Tjepkes\n\n\n\n\n\nVariation 2. Map Credit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html#tools-methods",
+    "href": "gallery/overlaying-public-lands-with-bmzs/index.html#tools-methods",
+    "title": "Overlaying Public Lands with BMZs",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nAll data were pulled from internally-maintained geodatabases. Map creation was performed in ArcGIS Pro 2.9."
+  },
+  {
+    "objectID": "gallery/relative-coding-proficiency-chart/index.html#tools-methods",
+    "href": "gallery/relative-coding-proficiency-chart/index.html#tools-methods",
+    "title": "Relative Coding Proficiency Charts",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nChart creation was performed in RStudio using the ggplot2 package and others."
   },
   {
     "objectID": "gallery/turkey-harvest-maps-by-county/index.html",
@@ -348,76 +404,6 @@
     "title": "How to Become a Contemporary Naturalist",
     "section": "Final Thoughts",
     "text": "Final Thoughts\nWhile this is neither a required list nor a comprehensive one, I hope you are able to try some of these activities and begin to share them with family and friends. I happily welcome comments from readers with more suggestions.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here."
-  },
-  {
-    "objectID": "posts/interactive-heatmap-of-gbif-occurrences/index.html",
-    "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html",
-    "title": "Interactive Heatmap of GBIF Occurrences",
-    "section": "",
-    "text": "The Greater sage grouse (Centrocercus urophasianus) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka/USFWS\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\n\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
-  },
-  {
-    "objectID": "posts/interactive-heatmap-of-gbif-occurrences/index.html#background",
-    "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html#background",
-    "title": "Interactive Heatmap of GBIF Occurrences",
-    "section": "",
-    "text": "The Greater sage grouse (Centrocercus urophasianus) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka/USFWS\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\n\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
-  },
-  {
-    "objectID": "posts/interactive-heatmap-of-gbif-occurrences/index.html#workflow",
-    "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html#workflow",
-    "title": "Interactive Heatmap of GBIF Occurrences",
-    "section": "Workflow",
-    "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\n1# install.packages(\"rgbif\")\nlibrary(rgbif)\n2# install.packages(\"leaflet\")\nlibrary(leaflet)\n3# install.packages(\"leaflet.extras\")\nlibrary(leaflet.extras)\n\n1\n\nFor accessing GBIF data. Install if necessary.\n\n2\n\nFor mapping data interactively. Install if necessary.\n\n3\n\nFor the heatmap functionality. Install if necessary.\n\n\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States. Using the taxonomic name for the species, we can double check the metadata before moving forward.\n1grouse_info &lt;- name_backbone(\"Centrocercus urophasianus\")\n2grouse_info\n\n1\n\nThis function allows us to see the taxonomic information for our focal species.\n\n2\n\nThis prints that information to the console.\n\n\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords &lt;- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nleaflet(wyoming_coords) %&gt;% \n  addTiles() %&gt;%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
-  },
-  {
-    "objectID": "posts/mapping-unfragmented-forest-landscapes-using-r/index.html",
-    "href": "posts/mapping-unfragmented-forest-landscapes-using-r/index.html",
-    "title": "Mapping Unfragmented Forests in R",
-    "section": "",
-    "text": "Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.\n\n\n\nGlobal Forest Watch (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world’s forests."
-  },
-  {
-    "objectID": "posts/mapping-unfragmented-forest-landscapes-using-r/index.html#background",
-    "href": "posts/mapping-unfragmented-forest-landscapes-using-r/index.html#background",
-    "title": "Mapping Unfragmented Forests in R",
-    "section": "",
-    "text": "Intact forest landscapes play a vital role in maintaining the health of our planet. They serve as crucial habitats for countless species, contribute to climate regulation, support local communities, and provide numerous ecosystem services. Monitoring and conserving these pristine forest areas are of utmost importance to ensure the preservation of biodiversity and the sustainable management of our natural resources.\n\n\n\nGlobal Forest Watch (GFW) is a groundbreaking platform that empowers individuals, organizations, and governments to monitor and protect global forest cover. It provides access to comprehensive, near-real-time data on deforestation, forest degradation, and intact forest landscapes. GFW combines satellite imagery, crowdsourced data, and advanced technologies to offer accurate and up-to-date information on the state of the world’s forests."
-  },
-  {
-    "objectID": "posts/mapping-unfragmented-forest-landscapes-using-r/index.html#workflow",
-    "href": "posts/mapping-unfragmented-forest-landscapes-using-r/index.html#workflow",
-    "title": "Mapping Unfragmented Forests in R",
-    "section": "Workflow",
-    "text": "Workflow\n\n1. Get IFL Data\nVisit the Global Forest Watch website (https://www.globalforestwatch.org/). Navigate to the “Data” section and select “Intact Forest Landscapes.” Download the IFL dataset in the desired format (e.g., shapefile, geopackage).\n\n\n2. Load Packages.\nTo follow along with this tutorial, you will need to have R and the following packages installed: sf, tmap, and dplyr. You can install these packages using the install.packages() function in R.\nlibrary(sf)\nlibrary(dplyr)\n\n\n3. Load Data in R\nLet’s assume you have downloaded the IFL data in shapefile format and saved it as “ifl.shp” in your working directory. We will now load and prepare the data for visualization.\n# Read the IFL shapefile\nifl &lt;- st_read(\"ifl.shp\")\n\n# Examine the data structure\nhead(ifl)\nsummary(ifl)\n\n\n4. Visualize Data\nWe will use the tmap package to create interactive and visually appealing maps of the intact forest landscape. This code will generate a basic map displaying the intact forest landscape polygons. However, it may lack aesthetic appeal and detail. We can enhance it further.\n# Load the tmap package\nlibrary(tmap)\n\n# Create a basic map of the IFL polygons\ntm_shape(ifl) +\n  tm_polygons()\n\n\n5. Customize Map\nWe can modify the map’s appearance by changing colors, adding a background, adjusting labels, and more.\n# Create a more visually appealing map with customization\ntm_shape(ifl) +\n  tm_fill(col = \"green\", alpha = 0.6) +  # Set polygon color and transparency\n  tm_borders(col = \"black\") +  # Add border color\n  tm_layout(legend.position = c(\"left\", \"bottom\"),  # Adjust legend position\n            legend.bg.color = \"white\",  # Set legend background color\n            title = \"Intact Forest Landscapes\")  # Add map title"
-  },
-  {
-    "objectID": "posts/streamlining-your-reporting-workflow-with-quarto/index.html",
-    "href": "posts/streamlining-your-reporting-workflow-with-quarto/index.html",
-    "title": "Reporting Workflows with Quarto and R",
-    "section": "",
-    "text": "In today’s data-driven world, reporting and communicating data insights play a vital role in decision-making processes. However, manual updates and formatting can be time-consuming introduce a plethora of errors. By adopting reproducible practices, you can save time, increase efficiency, and ensure the accuracy of your reports. Our learning outcomes for this post include the following:\n\nLearn how to use Quarto documents within the RStudio environment.\nLearn how to load in TidyTuesday data using a dedicated R package.\nLearn how to make basic visualizations and maps.\n\n\n\n\nQuarto is an open-source document framework built for reproducibility. It integrates seamlessly with RStudio, allowing you to combine code, text, and visualizations in a single document or project (like this website). With Quarto, you can automate the process of report generation, making it easier to update and reproduce documents as your data or analysis changes.\n\n\n\nThe data set we will be working with in this post was discovered through the Tidy Tuesday data visualization challenge. Specifically, we will focus on bird feeder visitation data from the Project FeederWatch. This is a Cornell Lab of Ornithology initiative that utilizes data submitted by citizen scientists across the United States."
-  },
-  {
-    "objectID": "posts/streamlining-your-reporting-workflow-with-quarto/index.html#background",
-    "href": "posts/streamlining-your-reporting-workflow-with-quarto/index.html#background",
-    "title": "Reporting Workflows with Quarto and R",
-    "section": "",
-    "text": "In today’s data-driven world, reporting and communicating data insights play a vital role in decision-making processes. However, manual updates and formatting can be time-consuming introduce a plethora of errors. By adopting reproducible practices, you can save time, increase efficiency, and ensure the accuracy of your reports. Our learning outcomes for this post include the following:\n\nLearn how to use Quarto documents within the RStudio environment.\nLearn how to load in TidyTuesday data using a dedicated R package.\nLearn how to make basic visualizations and maps.\n\n\n\n\nQuarto is an open-source document framework built for reproducibility. It integrates seamlessly with RStudio, allowing you to combine code, text, and visualizations in a single document or project (like this website). With Quarto, you can automate the process of report generation, making it easier to update and reproduce documents as your data or analysis changes.\n\n\n\nThe data set we will be working with in this post was discovered through the Tidy Tuesday data visualization challenge. Specifically, we will focus on bird feeder visitation data from the Project FeederWatch. This is a Cornell Lab of Ornithology initiative that utilizes data submitted by citizen scientists across the United States."
-  },
-  {
-    "objectID": "posts/streamlining-your-reporting-workflow-with-quarto/index.html#workflow",
-    "href": "posts/streamlining-your-reporting-workflow-with-quarto/index.html#workflow",
-    "title": "Reporting Workflows with Quarto and R",
-    "section": "Workflow",
-    "text": "Workflow\nTo demonstrate how Quarto can streamline your reporting workflow, let’s work with birdfeeder visitation data from FeederWatch. We will parameterize our reports to automatically update based on different filters or date ranges.\nHere’s the R code to get started:\n# Load in the packages\nlibrary(tidyverse)      # for data manipulate\nlibrary(tidytuesdayR)   # to access TidyTuesday data\nlibrary(quarto)         # to access Quarto functionality\n\n# Load in TT data object based on date\nbirds &lt;- tidytuesdayR::tt_load(x = \"2023-01-10\")\nNow that we have our packages and data loaded, we can start setting up the Quarto parameters. The params variable defines a list of parameters we want to use in our reports, such as the report title and the desired date range for filtering the data. We begin by storing these as objects themselves.\n# Parameterize your report\nreport_title &lt;- \"Birdfeeder Visitation Report\"\ndate_range &lt;- c(\"2023-01-01\", \"2023-06-30\")\nNow we bring everything together.\n# Create a Quarto document\nquarto_document(\"birdfeeder_report.Rmd\",\n  title = report_title,\n  params = list(date_range = date_range),\n  output = \"birdfeeder_report.html\"\n) %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"library(ggplot2)\") %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"filtered_data &lt;- subset(data, Date &gt;= date_range[1] & Date &lt;= date_range[2])\") %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"ggplot(filtered_data, aes(x = Date, y = Visits)) + geom_line()\") %&gt;%\n  quarto_chunk() %&gt;%\n  quarto_code(\"ggsave('birdfeeder_plot.png')\")\nWe create a Quarto document using the quarto_document() function, specifying the input R Markdown file, report title, parameter list, and desired output format (in this case, HTML).\nWe then use the quarto_chunk() and quarto_code() functions to add code chunks to our document. The code chunks contain R code for filtering the data based on the specified date range and creating a line plot using ggplot2. Finally, we save the generated plot as a PNG file using ggsave()."
-  },
-  {
-    "objectID": "posts/streamlining-your-reporting-workflow-with-quarto/index.html#in-conclusion",
-    "href": "posts/streamlining-your-reporting-workflow-with-quarto/index.html#in-conclusion",
-    "title": "Reporting Workflows with Quarto and R",
-    "section": "In Conclusion",
-    "text": "In Conclusion\nBy leveraging Quarto and its capabilities for reproducible reporting, you can transform your reporting workflow from manual and error-prone to automated and efficient. Parameterizing reports allows you to easily update and regenerate them based on changing data or analysis requirements.\nReproducible documents not only save time but also enhance collaboration and ensure the accuracy and integrity of your reports. Give Quarto a try in the RStudio environment and experience the power of streamlining your reporting workflow.\nStart producing reproducible documents today and say goodbye to the hassles of manual report updates!\nHappy reporting with Quarto!"
   },
   {
     "objectID": "research/beaver-impacted-water-control-structures/index.html",

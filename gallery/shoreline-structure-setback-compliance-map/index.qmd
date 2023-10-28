@@ -8,12 +8,14 @@ aliases:
 categories:
   - Map Gallery
   - Wisconsin
-abstract-title: ""
-abstract: "This map visualizes shoreline structure setback compliance (in accordance with Wisconsin NR 115.05(1)(b)) for Mud, Penny, and Tree Lakes in Portage County, Wisconsin. All primary structures in each lake-adjacent parcel were outlined using heads-up digitizing techniques. The distance to water was then determined using the Near tool in ArcMap, referencing the ordinary high water mark for compliance."
+abstract: "This map visualizes shoreline structure setback compliance (in accordance with Wisconsin NR 115.05(1)(b)) for Mud, Penny, and Tree Lakes in Portage County, Wisconsin."
 image: img-map-4.jpg
+image-alt: "Map of three lakes showing shoreline structure setback complicance."
 ---
 
 ![Map Credit: Benjamin Tjepkes](img-map-4.jpg)
 
 
+## Tools & Methods
 
+This map and all spatial analysis needed to create it was performed in ArcMap 10.x. All primary structures in each lake-adjacent parcel were outlined using heads-up digitizing techniques. The distance to water was then determined using the Near tool in ArcMap, referencing the ordinary high water mark for compliance.

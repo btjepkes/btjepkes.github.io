@@ -10,6 +10,8 @@ categories:
   - Avian
 abstract: "This data and monitoring report was developed with the Wisconsin Center for Wildlife for the U.S. Fish and Wildlife Service outlining 23 years of bald eagle nest monitoring along the Upper Mississippi River. The [final version](https://ecos.fws.gov/ServCat/Reference/Profile/115661) of this report is archived on the USFWS ServCat site."
 image: img-eagle-report.png
+image-alt: "Image of the report cover page."
+draft: true
 ---
 
 {{< pdf file-eagle-report.pdf width=100% height=600 border=2 >}}

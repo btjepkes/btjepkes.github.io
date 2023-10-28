@@ -8,16 +8,14 @@ categories:
   - Poster Gallery
   - Missouri
   - Mammal
-abstract-title: ""
 abstract: "This poster was created to provide an overview and status update on the Missouri Bat Habitat Conservation Plan at the 2023 Missouri Department of Conservation Science Branch Conference."
 image: img-bat-hcp-poster.jpg
+image-alt: "Poster showing information about the Missouri bat habitat conservation plan."
 ---
 
 ![](img-bat-hcp-poster.jpg)
 
 ## Tools and Workflow
 
-- Map creation was performed using `tmap` and `sf` packages in the **RStudio** environment.
-
-- Poster compilation was performed in **Microsoft Publisher**.
+Map creation was performed using `tmap` and `sf` packages in the **RStudio** environment. Poster compilation was performed in **Microsoft Publisher**.
 

@@ -1,20 +1,14 @@
 ---
 title: "Choropleth of Missouri Bear Sightings"
 subtitle: "County-based counts of reported bear sightings in Missouri during 2020."
-author: "Benjamin Tjepkes"
 date-modified: "4/16/2023"
-
 categories:
   - Map Gallery
   - Missouri
   - Choropleth
-  
-abstract-title: ""
-abstract: "This choropleth map was created as a public-facing visualization to show the number of black bear sightings in each Missouri county during 2020. It was featured in the [February 2021 issue of the *Missouri Conservationist*](https://mdc.mo.gov/magazines/missouri-conservationist/2021-02/missouri-black-bears) for an article about Missouri's black bear population. Map creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
-
+abstract: "This choropleth map was created as a public-facing visualization to show the number of black bear sightings in each Missouri county during 2020. It was featured in the [February 2021 issue of the *Missouri Conservationist*](https://mdc.mo.gov/magazines/missouri-conservationist/2021-02/missouri-black-bears) for an article about Missouri's black bear population."
 image: img-map-5.jpg
-draft: FALSE
-
+image-alt: "Cholorpleth map showing the number of sightings per Missouri county."
 ---
 
 ::: {layout-ncol=2}
@@ -25,4 +19,6 @@ draft: FALSE
 
 :::
 
+## Tools & Methods
 
+Map creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases.

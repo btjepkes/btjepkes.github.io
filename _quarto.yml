@@ -85,8 +85,9 @@ execute:
 
 format:
   html:
+    template-partials: 
+      - title-block.html
     theme: custom.scss
-    include-in-header: html/seo.html
     abstract-title: "What Is This About?"
     toc: true
     toc-title: "On This Page:"

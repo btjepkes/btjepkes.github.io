@@ -4,7 +4,8 @@ subtitle: Explore my writings on ecological and geospatial data science.
 author: ""
 description-meta: "Blog Posts - Explore my writings on ecological and geospatial data science."
 toc: false
-image: ../assets/bg-pines-blog-orange-sm.png
+image: ../assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg
+image-alt: "Image-of-trees."
 abstract: "This page is the home to all my writings, which generally come in two flavors – technical writing and conservation writing. The former covers some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. The latter is more creative in nature."
 listing:
   - id: main-posts

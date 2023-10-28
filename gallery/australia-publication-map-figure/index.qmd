@@ -5,6 +5,7 @@ categories:
   - RStudio
   - Cartography
 image: img-australia-pub-map.png
+draft: true
 ---
 
 ![](img-australia-pub-map.png)

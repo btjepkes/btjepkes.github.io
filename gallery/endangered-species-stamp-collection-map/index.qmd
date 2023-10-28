@@ -8,6 +8,7 @@ categories:
   - Endangered Species
 abstract: This map was produced as a creative project in celebration of the [50th anniversery of the U.S. Endangered Species Act](https://www.fws.gov/esa50). It shows several of the limited edition endangered species stamps from the USPS and where the USFWS-determined ranges of those species are located.
 image: img-map-endangeredstamps.png
+image-alt: "Map showing the United States and several ranges of endangrered species."
 aliases: 
   - gallery-map-seven.html
 ---

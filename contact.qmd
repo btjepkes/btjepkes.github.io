@@ -3,7 +3,8 @@ title: "Links & Contact"
 subtitle: "Reach out to me with inquires, comments, and collaborations."
 abstract: "This page provides links for all my social profiles and a contact form."
 search: false
-image: assets/bg-pines-links-green-sm.png
+image: /assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg
+image-alt: Image-of-pine-trees-on-blue-background.
 ---
 
 ## My Links

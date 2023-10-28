@@ -1,9 +1,18 @@
 ---
 title: "Map of Missouri Forest Canopy Density"
+subtitle: "Using hexagons to visualize Missouri forests."
+abstract: "This map uses H3 hexbins to indicate the density of tree cover across Missouri."
+image: img-map-10.jpg
+image-alt: "Map showing forest canopy density in Missouri."
 categories:
   - Map Gallery
   - Hexagons
   - ArcGIS Pro
 ---
 
-![](img-map-10.jpg){.image-bordered}
+![Map Credit: Benjamin Tjepkes](img-map-10.jpg){.image-bordered}
+
+
+## Tools & Methods
+
+This maps was created used ArcGIS Pro using data available on the Esri Living Atlas. Forest density, based on NLCD 2016, were summarized in H3 hexbins. The scaled-icon symbology represents the relative percentage of each hexbin that contains forest.

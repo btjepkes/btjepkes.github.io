@@ -8,6 +8,7 @@ categories:
   - Forest
   - Cartography
 image: https://content.globalforestwatch.org/wp-content/uploads/2023/05/model_output_4km_aggregation_tcd30_model_v1.2.3_20230407_for_pres_with_legend__net_flux-2048x968.jpg
+draft: true
 ---
 
 

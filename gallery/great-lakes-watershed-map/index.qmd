@@ -1,11 +1,17 @@
 ---
 title: "Great Lakes Watersheds Map"
-subtitle: "Creative visualization of Great Lakes watersheds."
+subtitle: "Colorful visual of Great Lakes watersheds."
+abstract: "This map was created as a fun, creative project. I am fascinated by watersheds, so what better way to explore them than making a map!"
 date-modified: "6-1-2023"
 categories:
   - Map Gallery
-abstract: "This was a creative map that I made in ArcGIS Pro."
+  - Watershed
 image: img-map-11.jpg
+image-alt: "Map of Great Lakes watersheds and their pour points."
 ---
 
 ![Map Credit: Ben Tjepkes](img-map-11.jpg){.image-bordered }
+
+## Tools & Methods
+
+This maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework.

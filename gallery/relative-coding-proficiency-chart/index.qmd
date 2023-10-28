@@ -1,14 +1,18 @@
 ---
 title: "Relative Coding Proficiency Charts"
-subtitle: ""
+subtitle: "A chart showing my coding journey."
 author: "Benjamin Tjepkes"
 date-modified: "9-30-2023"
 categories:
   - Chart Gallery
-abstract-title: ""
-abstract: "This animated bar chart shows my relative coding language skills. Chart creation was performed in RStudio using the `ggplot2` package and others."
-toc: false
+abstract: "This animated bar chart shows my relative coding language skills in six of my top languages, including those for web development, data analysis, and geospatial applications."
 image: img-relative-skills-animation.gif
+image-alt: "Animated bar chart showing six different coding languages."
 ---
 
 ![](img-relative-skills-animation.gif)
+
+
+## Tools & Methods
+
+Chart creation was performed in RStudio using the `ggplot2` package and others.

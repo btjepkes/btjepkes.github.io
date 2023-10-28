@@ -10,6 +10,7 @@ categories:
   - Choropleth
 abstract: These maps were produced as public-facing visualizations for presentations by the Turkey and Grouse Program with the Missouri Department of Conservation. They show turkey harvest density within each Missouri county for the fall 2021 and spring 2022 seasons.
 image: img-turkey-harvest-maps.png
+image-alt: "Two maps side by side of fall and spring turkey harvest."
 ---
 
 ![Turkey harvest maps. Credit: Ben Tjepkes](img-turkey-harvest-maps.png)
