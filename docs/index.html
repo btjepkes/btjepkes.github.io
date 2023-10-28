@@ -35,6 +35,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="./assets/logo-1.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -96,13 +98,29 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
-<script type="text/javascript">
+<script type="text/plain" cookie-consent="tracking">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"dark",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
 <style>html{ scroll-behavior: smooth; }</style>
 <!--<meta name="description" content="?meta:website.description">-->
 <meta name="author" content="?meta:authorname">
@@ -208,12 +226,16 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <div class="intro-headshot">
 <p><img src="assets/img-ben-with-bear-2.jpg" class="nolightbox headshot-img img-fluid"></p>
 </div>
+<section id="my-brief-biography" class="level2 index-intro-start-text">
+<h2 data-anchor-id="my-brief-biography">My Brief Biography</h2>
+<ul>
+<li><p>I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.</p></li>
+<li><p>My work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.</p></li>
+<li><p>I have several years of continuous professional development working with governmental, private, and academic entities across the US.</p></li>
+</ul>
 <div class="index-intro-start-icons">
 <p><a href="https://www.linkedin.com/in/benjamintjepkes/"><i class="fa-brands fa-linkedin fa-2x" aria-label="linkedin"></i></a> <a href="https://github.com/btjepkes"><i class="fa-brands fa-github fa-2x" aria-label="github"></i></a> <a href="https://twitter.com/BTjepkes"><i class="fa-brands fa-twitter fa-2x" aria-label="twitter"></i></a> <a href="https://www.researchgate.net/profile/Benjamin-Tjepkes"><i class="fa-brands fa-researchgate fa-2x" aria-label="researchgate"></i></a> <a href="https://orcid.org/0009-0002-5524-2675"><i class="fa-brands fa-orcid fa-2x" aria-label="orcid"></i></a></p>
 </div>
-<section id="my-brief-biography" class="level2 index-intro-start-text">
-<h2 data-anchor-id="my-brief-biography">My Brief Biography</h2>
-<p>My work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at wildlife conservation. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. I have over seven years of continuous professional development with governmental, private, and academic entities in the environmental sector. <strong>Explore this site for more info!</strong></p>
 </section>
 </div>
 <div id="listing-site-listings" class="quarto-listing quarto-listing-container-grid">
@@ -584,7 +606,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
-    <div class="nav-footer-center">Proudly made using <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.</div>
+    <div class="nav-footer-center">Proudly made using <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -602,12 +624,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/BTjepkes">
       <i class="bi bi-twitter" role="img" aria-label="Twitter Profile">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="./contact.html">
-      <i class="bi bi-chat-dots-fill" role="img" aria-label="contact page">
 </i> 
     </a>
   </li>  

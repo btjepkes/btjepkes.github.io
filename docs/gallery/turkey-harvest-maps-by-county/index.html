@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
+<meta name="dcterms.date" content="2022-11-01">
 <meta name="description" content="<strong>?meta:description</strong>">
 
-<title>Turkey Harvest Maps by County and Season | B.W. Tjepkes</title>
+<title>County-Based Turkey Harvest Maps | B.W. Tjepkes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../assets/logo-1.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,27 +69,43 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
-<script type="text/javascript">
+<script type="text/plain" cookie-consent="tracking">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"dark",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
 <style>html{ scroll-behavior: smooth; }</style>
 <!--<meta name="description" content="?meta:website.description">-->
 <meta name="author" content="?meta:authorname">
 
 
-<meta property="og:title" content="Turkey Harvest Maps by County and Season | B.W. Tjepkes">
-<meta property="og:description" content="These maps were produced as public-facing visualizations for presentations by the Turkey and Grouse Program with the Missouri Department of Conservation. They show turkey harvest density within each Missouri county for the fall 2021 and spring 2022 seasons. Harvest data were pulled from internal databases and prepped using tidyverse operations in R. Map creation was completed in ArcGIS Pro 2.9.">
+<meta property="og:title" content="County-Based Turkey Harvest Maps | B.W. Tjepkes">
+<meta property="og:description" content="These maps were produced as public-facing visualizations for presentations by the Turkey and Grouse Program with the Missouri Department of Conservation. They show turkey harvest density within each Missouri county for the fall 2021 and spring 2022 seasons.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/turkey-harvest-maps-by-county/img-turkey-harvest-maps.png">
 <meta property="og:site-name" content="Benj&amp;#916;min Tjepkes">
 <meta property="og:image:height" content="933">
 <meta property="og:image:width" content="2000">
 </head>
 
-<body class="nav-sidebar floating nav-fixed fullcontent">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -142,7 +161,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Turkey Harvest Maps by County and Season</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">County-Based Turkey Harvest Maps</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -152,8 +171,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Turkey Harvest Maps by County and Season</h1>
-            <p class="subtitle lead">Missouri turkey harvest maps for the fall 2021 and spring 2022 seasons.</p>
+      <h1 class="title">County-Based Turkey Harvest Maps</h1>
+            <p class="subtitle lead">Visualizing turkey harvest maps in fall 2021 and spring 2022.</p>
                                     </div>
   </div>
     
@@ -163,24 +182,24 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Benjamin Tjepkes </p>
+               <p><a href="../..//about/index.html">Benjamin Tjepkes</a> <a href="https://orcid.org/0009-0002-5524-2675" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
             </div>
     </div>
       
-    
       <div>
-      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">May 18, 2023</p>
+        <p class="date">November 1, 2022</p>
       </div>
     </div>
+    
       
     </div>
     
   <div>
     <div class="abstract">
-      <div class="abstract-title"></div>
-      These maps were produced as public-facing visualizations for presentations by the Turkey and Grouse Program with the Missouri Department of Conservation. They show turkey harvest density within each Missouri county for the fall 2021 and spring 2022 seasons. Harvest data were pulled from internal databases and prepped using <code>tidyverse</code> operations in R. Map creation was completed in ArcGIS Pro 2.9.
+      <div class="abstract-title">What Is This About?</div>
+      These maps were produced as public-facing visualizations for presentations by the Turkey and Grouse Program with the Missouri Department of Conservation. They show turkey harvest density within each Missouri county for the fall 2021 and spring 2022 seasons.
     </div>
   </div>
   
@@ -276,7 +295,15 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On This Page:</h2>
+   
+  <ul>
+  <li><a href="#tools-methods" id="toc-tools-methods" class="nav-link active" data-scroll-target="#tools-methods">Tools &amp; Methods</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -289,8 +316,12 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <figcaption class="figure-caption">Turkey harvest maps. Credit: Ben Tjepkes</figcaption>
 </figure>
 </div>
+<section id="tools-methods" class="level2">
+<h2 data-anchor-id="tools-methods">Tools &amp; Methods</h2>
+<p>Harvest data were pulled from internal databases and prepped using <code>tidyverse</code> operations in R. Map creation was completed in ArcGIS Pro 2.9.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -543,7 +574,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
-    <div class="nav-footer-center">Proudly made using <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.</div>
+    <div class="nav-footer-center">Proudly made using <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -565,12 +596,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="../../contact.html">
-      <i class="bi bi-chat-dots-fill" role="img" aria-label="contact page">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
     <a class="nav-link" href="../../index.html">
       <i class="bi bi-house-fill" role="img" aria-label="home page">
 </i> 
@@ -580,7 +605,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","loop":true,"descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","loop":true,"selector":".lightbox","openEffect":"zoom"});</script>
 
 
 

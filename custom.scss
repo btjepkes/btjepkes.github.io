@@ -450,8 +450,8 @@ div.quarto-post {
   background-position: center center;
   border-radius: 8px;
   border: 1px solid #46639355;
-  -webkit-box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
-  box-shadow: 4px 4px 4px rgba(0,0,0,.1);
+  -webkit-box-shadow: 4px 4px 0 0 rgba(205,201,201,1);
+  box-shadow: 4px 4px 0 0 rgba(205,201,201,1);
   flex-direction: column;
 }
 
@@ -464,13 +464,13 @@ div.quarto-post {
 
 
 .listings-gallery .grid {
-  row-gap: 2.2em; /* Gap for rows */
+  row-gap: 2.6em; /* Gap for rows */
   column-gap: 1.2em; /* Gap for columns */
 }
 
 .listings-gallery .quarto-grid-item div.post-contents {
   position: absolute;
-  bottom: -30px;
+  bottom: -40px;
   left: 0;
   background: transparent;
   opacity: 0.99;
@@ -565,92 +565,6 @@ div.quarto-post {
 #quarto-content > * {
   padding-top: 20px;
 }
-
-
-.intro-content {
-  margin: auto;
-}
-
-@media (min-width: 991.98px) {
-  .intro-content {
-  max-width: 70%;
-      }
-}
-
-.intro-content p {
-  color: white;
-  font-weight: 500;
-  line-height: 1.3em;
-  padding-top: 15px;
-  font-size: 1.05em;
-  letter-spacing: .01em;
-}
-
-.intro-content h1 {
-  margin-top: 0;
-}
-
-
-.intro-content h1::after { 
-  content: "";
-  position: relative;
-  display: block;
-  border: solid 4px lightblue;
-  border-radius: 5px;
-  margin-top: 25px;
-  width: 24%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.intro-content h4 {
-  color: white;
-  font-weight: 400;
-  font-size: 1.05em;
-  letter-spacing: .01em;
-  margin-top: 0;
-}
-
-.about {
-  position: relative;
-  margin-top: 3em;
-  margin-bottom: 2em;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.about::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: calc(-50vw + 50%);
-  width: 100vw;
-  height: 100%;
-  z-index: -1;
-  overflow-x: hidden;
-  background-blend-mode: difference;
-  background-image: url("assets/bg-dots.png");
-  background-attachment: scroll;
-  background-size: cover;
-  background-position: center 30%;
-  opacity: 0.5;
-  box-shadow: 0 0 5px #f9f9f9;
-}
-
-
-.headshot-img {
-  background: white;
-  padding: 0.1em;
-  border-radius: 4%;
-  max-width: 320px;
-  border: solid 5px teal;
-}
-
-.intro-headshot {
-  position: relative;
-  z-index: 999;
-}
-
 
 /* Intro Icon Columns */
 

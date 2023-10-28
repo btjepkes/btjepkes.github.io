@@ -14,6 +14,10 @@ website:
     type: overlay
   open-graph: true
   repo-url: https://github.com/btjepkes/btjepkes.github.io
+  cookie-consent:
+    type: implied
+    style: simple
+    palette: dark
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
@@ -72,9 +76,6 @@ website:
       - icon: twitter
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
-      - icon: chat-dots-fill
-        href: contact.html
-        aria-label: contact page
       - icon: house-fill
         href: index.html
         aria-label: home page
