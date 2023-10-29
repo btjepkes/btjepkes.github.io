@@ -351,10 +351,10 @@ div.sourceCode {
 .image-cover {
   object-fit: cover;
   margin: 0 auto 2em auto;
-  width: 80%;
-  height: 300px;
+  width: 100%;
+  height: 30vh;
   opacity: 1;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 50% 100%, 35% 75%, 0% 75%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 65% 80%, 50% 100%, 35% 80%, 0% 80%);
 }
 
 .post-meta {
@@ -364,26 +364,20 @@ div.sourceCode {
 }
 
 #title-block-header {
-  text-align: left;
   margin-block-end: 0;
-  /*background-image: 
-    url("assets/bg-topo-white.png"),
-   linear-gradient(to top right, #000000, #161014, #211b24, #272737, #25354a);*/
   background-image: url("assets/bg-grid-blue.jpg");
-  background-blend-mode: difference;
   background-color: black;
   background-attachment: fixed;
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  border-bottom: solid 1px #e6e6e6;
+  border-bottom: solid 8px #27738a;
   color: white !important;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-top: 3em;
   padding-bottom: 3em;
 }
       @media (max-width: 991.98px) {
