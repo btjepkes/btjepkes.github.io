@@ -3,9 +3,9 @@
   "items": [
     "/about/index.html",
     "/curriculum-vitae/index.html",
+    "/resources/index.html",
     "/posts/index.html",
     "/gallery/index.html",
-    "/research/index.html",
-    "/resources/index.html"
+    "/research/index.html"
   ]
 }

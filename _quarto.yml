@@ -17,7 +17,7 @@ website:
   cookie-consent:
     type: implied
     style: simple
-    palette: dark
+    palette: light
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
