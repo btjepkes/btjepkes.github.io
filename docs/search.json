@@ -84,18 +84,11 @@
     "text": "Final Thoughts\nOverall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Benjamin W. Tjepkes, BSc.",
-    "section": "",
-    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.\nI have several years of continuous professional development working with governmental, private, and academic entities across the US.\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\n\nA full look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\n\n\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\nMy Latest Professional Updates\n\n\n\n\n\n\nSept 2023 – I recently attended the 2023 Posit Conference and enjoyed learning more about open source data science.\nAug 2023 – I have started graduate school at the University of Missouri Department of Geography. Updates on my thesis work coming soon!\nJuly 2023 – One of my maps, Stamped in History: 50 Years of Imperiled Species Conservation, was awarded second place (Professional Category) in the 2023 GIS Certification Institute map contest.\nApril 2023 – I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference."
-  },
-  {
     "objectID": "index.html#my-brief-biography",
     "href": "index.html#my-brief-biography",
     "title": "Benjamin W. Tjepkes, BSc.",
-    "section": "",
-    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.\nI have several years of continuous professional development working with governmental, private, and academic entities across the US."
+    "section": "My Brief Biography",
+    "text": "My Brief Biography\n\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.\nI have several years of continuous professional development working with governmental, private, and academic entities across the US.\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nA full look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\n\n\n\nResources\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\nMy Latest Professional Updates\n\n\n\n\n\n\nSept 2023 – I recently attended the 2023 Posit Conference and enjoyed learning more about open source data science.\nAug 2023 – I have started graduate school at the University of Missouri Department of Geography. Updates on my thesis work coming soon!\nJuly 2023 – One of my maps, Stamped in History: 50 Years of Imperiled Species Conservation, was awarded second place (Professional Category) in the 2023 GIS Certification Institute map contest.\nApril 2023 – I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference."
   },
   {
     "objectID": "gallery/vineyard-and-winery-location-suitability-map/index.html",
@@ -312,14 +305,21 @@
     "href": "gallery/turkey-harvest-maps-by-county/index.html",
     "title": "County-Based Turkey Harvest Maps",
     "section": "",
-    "text": "Turkey harvest maps. Credit: Ben Tjepkes"
+    "text": "Harvest data were pulled from internal databases and prepped using tidyverse operations in R. Map creation was completed in ArcGIS Pro 2.9."
   },
   {
     "objectID": "gallery/turkey-harvest-maps-by-county/index.html#tools-methods",
     "href": "gallery/turkey-harvest-maps-by-county/index.html#tools-methods",
     "title": "County-Based Turkey Harvest Maps",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\nHarvest data were pulled from internal databases and prepped using tidyverse operations in R. Map creation was completed in ArcGIS Pro 2.9."
+    "section": "",
+    "text": "Harvest data were pulled from internal databases and prepped using tidyverse operations in R. Map creation was completed in ArcGIS Pro 2.9."
+  },
+  {
+    "objectID": "gallery/turkey-harvest-maps-by-county/index.html#the-result",
+    "href": "gallery/turkey-harvest-maps-by-county/index.html#the-result",
+    "title": "County-Based Turkey Harvest Maps",
+    "section": "The Result",
+    "text": "The Result\n\n\n\nTurkey harvest maps. Credit: Ben Tjepkes"
   },
   {
     "objectID": "gallery/work-commitments-calendar/index.html",

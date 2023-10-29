@@ -13,8 +13,11 @@ image: img-turkey-harvest-maps.png
 image-alt: "Two maps side by side of fall and spring turkey harvest."
 ---
 
-![Turkey harvest maps. Credit: Ben Tjepkes](img-turkey-harvest-maps.png)
-
 ## Tools & Methods
 
 Harvest data were pulled from internal databases and prepped using `tidyverse` operations in R. Map creation was completed in ArcGIS Pro 2.9.
+
+## The Result
+
+![Turkey harvest maps. Credit: Ben Tjepkes](img-turkey-harvest-maps.png)
+
