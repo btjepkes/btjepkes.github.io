@@ -180,6 +180,8 @@ h1 {
   padding-left: 1em;
   padding-right: 1em;
   font-size: clamp(2.4em, 5vw, 3.4em);
+  padding-bottom: 0.5em;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
 }
 
 
@@ -189,7 +191,7 @@ h2 {
 }
 
 .subtitle {
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1.2em;
   font-size: clamp(1em, 5vw, 1.8em);
   letter-spacing: 0.01em;
@@ -354,7 +356,7 @@ div.sourceCode {
   width: 100%;
   height: 30vh;
   opacity: 1;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 65% 80%, 50% 100%, 35% 80%, 0% 80%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 65% 90%, 50% 100%, 35% 90%, 0% 90%);
 }
 
 .post-meta {
@@ -365,19 +367,20 @@ div.sourceCode {
 
 #title-block-header {
   margin-block-end: 0;
-  background-image: url("assets/bg-grid-blue.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("assets/bg-grid-blue.jpg");
   background-color: black;
   background-attachment: fixed;
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  border-bottom: solid 8px #27738a;
+  border-bottom: solid 12px #205c6d;
   color: white !important;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
+  padding-top: 3em;
   padding-bottom: 3em;
 }
       @media (max-width: 991.98px) {
