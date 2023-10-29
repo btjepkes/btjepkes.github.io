@@ -350,11 +350,11 @@ div.sourceCode {
 
 .image-cover {
   object-fit: cover;
-  margin: 2em auto;
-  width: 100%;
-  height: 30vh;
+  margin: 0 auto 2em auto;
+  width: 80%;
+  height: 300px;
   opacity: 1;
-  box-shadow: 0 0 5px #276e7e;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 50% 100%, 35% 75%, 0% 75%);
 }
 
 .post-meta {
