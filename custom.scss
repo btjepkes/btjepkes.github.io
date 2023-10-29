@@ -213,7 +213,7 @@ h2 {
 .abstract {
   font-size: 1em;
   font-weight: 400;
-  max-width: 900px;
+  max-width: 700px;
   margin: 2em;
 }
 
@@ -386,7 +386,11 @@ div.sourceCode {
   padding-top: 3em;
   padding-bottom: 3em;
 }
-
+      @media (max-width: 991.98px) {
+        #title-block-header {
+          background-attachment: scroll;
+          background-size: fit;
+        }}
 
 @keyframes flicker {
             0% { opacity: 0.9; }
@@ -636,21 +640,10 @@ div.quarto-post {
 }
 
 
-@media (max-width: 991.98px) {
 .centered {
   text-align: center;
 }
 
-.about-links {
-  flex-direction: row !important;
-  flex-wrap: wrap;
-  column-gap: 0.4em;
-  justify-content: center !important;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 0.8em;
-}
-}
 
 .quarto-listing-default {
   display: flex;

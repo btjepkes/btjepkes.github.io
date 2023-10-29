@@ -12,12 +12,14 @@ categories:
   - Location Suitability
 image: img-map-1.jpg
 image-alt: "Map-of-vineyard-and-winery-suitabiliy."
-toc: true
 ---
-
-![Credit: Benjamin Tjepkes](img-map-1.jpg)
-
 ## Methods & Tools
 
 This project included raster-based suitability calculations completed in ArcMap 10.X.
+
+## Final Result
+
+![Credit: Benjamin Tjepkes](img-map-1.jpg)
+
+
 
