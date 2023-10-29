@@ -27,33 +27,16 @@ listing:
       - subtitle
 ---
 <!-- :::{.column-page} -->
-<!-- ::: {.index-intro-start} -->
+::: {.index-intro-start}
 
-<!-- ::: {.intro-headshot} -->
-
-<!-- ![](assets/img-ben-with-bear-2.jpg){.nolightbox .headshot-img} -->
-
-<!-- ::: -->
-
-
-<!-- ::: {.index-intro-start-text} -->
-
-<!-- ## My Brief Biography -->
-<!--   - I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. -->
-
-<!--   - My work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation. -->
-
-<!--   - I have several years of continuous professional development working with governmental, private, and academic entities across the US. -->
-
-<!-- ::: {.index-intro-start-icons} -->
-<!-- [{{< fa brands linkedin size=2x >}}](https://www.linkedin.com/in/benjamintjepkes/) [{{< fa brands github size=2x >}}](https://github.com/btjepkes) [{{< fa brands twitter size=2x >}}](https://twitter.com/BTjepkes) [{{< fa brands researchgate size=2x >}}](https://www.researchgate.net/profile/Benjamin-Tjepkes) [{{< fa brands orcid size=2x >}}](https://orcid.org/0009-0002-5524-2675) -->
-<!-- ::: -->
-
-<!-- ::: -->
-<!-- ::: -->
+::: {.intro-headshot}
 
 ![](assets/img-ben-with-bear-2.jpg){.nolightbox .headshot-img}
 
+:::
+
+
+::: {.index-intro-start-text}
 
 ## My Brief Biography
   - I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.
@@ -62,10 +45,18 @@ listing:
 
   - I have several years of continuous professional development working with governmental, private, and academic entities across the US.
 
+::: {.index-intro-start-icons}
+[{{< fa brands linkedin size=2x >}}](https://www.linkedin.com/in/benjamintjepkes/) [{{< fa brands github size=2x >}}](https://github.com/btjepkes) [{{< fa brands twitter size=2x >}}](https://twitter.com/BTjepkes) [{{< fa brands researchgate size=2x >}}](https://www.researchgate.net/profile/Benjamin-Tjepkes) [{{< fa brands orcid size=2x >}}](https://orcid.org/0009-0002-5524-2675)
+:::
+
+:::
+:::
+
+
 ::: {#site-listings}
 :::
 
-::: {.callout-important collapse="true" }
+::: {.callout-important collapse="false" }
 ## My Latest Professional Updates
 
 - **Sept 2023 --** I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.

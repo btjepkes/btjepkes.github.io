@@ -1,13 +1,18 @@
 ---
 title: "Small Mammal Response to Prescribed Fire"
 subtitle: "An assessment of small mammals in Schmeekle Reserve, Wisconsin."
-author: "Benjamin Tjepkes"
 date: "4/29/2023"
 categories:
   - Undergraduate
   - Mammal
   - Wisconsin
-abstract-title: ""
 abstract: "This undergraduate research project looked at the response of small mammals to prescribed burn activities in Schmeekle Reserve on the University of Wisconsin-Stevens Point campus."
 image: img-rxburn-schmeeckle.jpg
+image-alt: "Image of prescribed burn."
 ---
+
+## Objective & Methods
+
+This project was aimed at assessing the impact of prescribed fire on small mammal diversity and abundance.
+
+![](img-rxburn-schmeeckle.jpg)

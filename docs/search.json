@@ -14,6 +14,20 @@
     "text": "Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions."
   },
   {
+    "objectID": "research/ruffed-grouse-drumming-log-selection/index.html",
+    "href": "research/ruffed-grouse-drumming-log-selection/index.html",
+    "title": "Ruffed Grouse Drumming Log Selection",
+    "section": "",
+    "text": "This project was aimed at determining how ruffed grouse in northern Wisconsin select their drumming log sites, investigating everything from log diameter, orientation, and spatial position."
+  },
+  {
+    "objectID": "research/ruffed-grouse-drumming-log-selection/index.html#objectives-methods",
+    "href": "research/ruffed-grouse-drumming-log-selection/index.html#objectives-methods",
+    "title": "Ruffed Grouse Drumming Log Selection",
+    "section": "",
+    "text": "This project was aimed at determining how ruffed grouse in northern Wisconsin select their drumming log sites, investigating everything from log diameter, orientation, and spatial position."
+  },
+  {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "My Research",
@@ -84,11 +98,18 @@
     "text": "Final Thoughts\nOverall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Benjamin W. Tjepkes, BSc.",
+    "section": "",
+    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.\nI have several years of continuous professional development working with governmental, private, and academic entities across the US."
+  },
+  {
     "objectID": "index.html#my-brief-biography",
     "href": "index.html#my-brief-biography",
     "title": "Benjamin W. Tjepkes, BSc.",
-    "section": "My Brief Biography",
-    "text": "My Brief Biography\n\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.\nI have several years of continuous professional development working with governmental, private, and academic entities across the US.\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nA full look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\n\n\n\nResources\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\nMy Latest Professional Updates\n\n\n\n\n\n\nSept 2023 – I recently attended the 2023 Posit Conference and enjoyed learning more about open source data science.\nAug 2023 – I have started graduate school at the University of Missouri Department of Geography. Updates on my thesis work coming soon!\nJuly 2023 – One of my maps, Stamped in History: 50 Years of Imperiled Species Conservation, was awarded second place (Professional Category) in the 2023 GIS Certification Institute map contest.\nApril 2023 – I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference."
+    "section": "",
+    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.\nI have several years of continuous professional development working with governmental, private, and academic entities across the US."
   },
   {
     "objectID": "gallery/vineyard-and-winery-location-suitability-map/index.html",
@@ -431,13 +452,34 @@
     "href": "research/raccoon-space-use-and-home-ranges/index.html",
     "title": "Raccoon Space-Use and Home Ranges",
     "section": "",
-    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+    "text": "This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming. Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the adehabitatHR package in the RStudio environment."
+  },
+  {
+    "objectID": "research/raccoon-space-use-and-home-ranges/index.html#project-objectives-methods",
+    "href": "research/raccoon-space-use-and-home-ranges/index.html#project-objectives-methods",
+    "title": "Raccoon Space-Use and Home Ranges",
+    "section": "",
+    "text": "This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming. Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the adehabitatHR package in the RStudio environment."
   },
   {
     "objectID": "research/raccoon-space-use-and-home-ranges/index.html#project-presentations",
     "href": "research/raccoon-space-use-and-home-ranges/index.html#project-presentations",
     "title": "Raccoon Space-Use and Home Ranges",
+    "section": "Project Presentations",
+    "text": "Project Presentations\nTjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+  },
+  {
+    "objectID": "research/small-mammal-response-to-prescribed-fire/index.html",
+    "href": "research/small-mammal-response-to-prescribed-fire/index.html",
+    "title": "Small Mammal Response to Prescribed Fire",
     "section": "",
-    "text": "Tjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
+    "text": "This project was aimed at assessing the impact of prescribed fire on small mammal diversity and abundance."
+  },
+  {
+    "objectID": "research/small-mammal-response-to-prescribed-fire/index.html#objective-methods",
+    "href": "research/small-mammal-response-to-prescribed-fire/index.html#objective-methods",
+    "title": "Small Mammal Response to Prescribed Fire",
+    "section": "",
+    "text": "This project was aimed at assessing the impact of prescribed fire on small mammal diversity and abundance."
   }
 ]

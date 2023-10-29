@@ -11,6 +11,7 @@ categories:
   - Geospatial
   - Wildlife
 image: img-eagle-nesting.jpg
+image-alt: "Image of a pair of bald eagles on a nest."
 ---
 
 ## Methods & Objectives

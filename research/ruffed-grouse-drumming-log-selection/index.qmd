@@ -3,13 +3,16 @@ title: "Ruffed Grouse Drumming Log Selection"
 subtitle: "An assessment of ruffed grouse reproductive habitat in Northern Wisconsin."
 date: "4/29/2023"
 image: img-grouse-map.jpg
-abstract-title: ""
+image-alt: "Map of study area."
 abstract: This undergraduate research project was operated through the UWSP Student Chapter of The Wildlife Society with the objective of better understanding how ruffed grouse (*Bonasa umbellus*) selected for their drumming log sites in the mixed-boreal forests of Wisconsin.
-
 categories:
   - Undergraduate
   - Avian
   - Wisconsin
 ---
+
+## Objectives & Methods
+
+This project was aimed at determining how ruffed grouse in northern Wisconsin select their drumming log sites, investigating everything from log diameter, orientation, and spatial position.
 
 ![](img-grouse-map.jpg)

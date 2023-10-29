@@ -1,20 +1,22 @@
 ---
 title: "Raccoon Space-Use and Home Ranges"
 subtitle: "Determining sex-specific space-use for raccoons in Laramie, Wyoming."
-author: "Benjamin Tjepkes"
 date-modified: "5/20/2023"
-
 categories:
   - Undergraduate
   - Mammal
   - Wyoming
-
 image: img-raccoon-hr.jpg
-
-abstract-title: ""
-abstract: This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming. Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the `adehabitatHR` package in the RStudio environment.
+image-alt: "Map of study area showing cover type boundaries."
+abstract: This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.
 
 ---
+
+## Project Objectives & Methods
+
+This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming. Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the `adehabitatHR` package in the RStudio environment.
+
+![](img-raccoon-hr.jpg)
 
 ## Project Presentations
 

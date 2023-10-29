@@ -10,7 +10,7 @@
   margin-bottom: 2em;
   align-items: justify;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 2.2em;
 }
 
@@ -21,6 +21,7 @@
 
 .intro-headshot {
   max-width: 525px;
+  margin: auto;
 }
 
 .index-intro-start-text {
