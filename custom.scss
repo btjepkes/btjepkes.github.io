@@ -179,6 +179,7 @@ h1 {
   font-family: Atkinson Hyperlegible;
   padding-left: 1em;
   padding-right: 1em;
+  font-size: clamp(2.4em, 5vw, 3.4em);
 }
 
 
@@ -188,13 +189,13 @@ h2 {
 }
 
 .subtitle {
-  font-weight: 700;
-  line-height: 1.3em;
-  font-size: 1.8em;
+  font-weight: 300;
+  line-height: 1.2em;
+  font-size: clamp(1em, 5vw, 1.8em);
   letter-spacing: 0.01em;
   color: skyblue;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .quarto-title-meta a {
@@ -352,9 +353,15 @@ div.sourceCode {
   margin: 2em auto;
   width: 100%;
   height: 30vh;
-  opacity: 0.75;
+  opacity: 1;
+  box-shadow: 0 0 5px #276e7e;
 }
 
+.post-meta {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
 
 #title-block-header {
   text-align: left;
@@ -393,7 +400,6 @@ div.sourceCode {
 
 .quarto-title .quarto-categories {
     margin-top: 20px;
-    display: none;
 }
 
 

@@ -6,10 +6,7 @@
     <p class="subtitle">$subtitle$</p>
   $endif$
   
-  $if(image)$
-    <img src=$image$ alt=$image-alt$ class="image-cover">
-  $endif$
-  
+    <div class="post-meta">  
   $for(author)$
     <p class="author">$author$</p>
   $endfor$
@@ -17,7 +14,14 @@
   $if(date)$
     <p class="date">$date$</p>
   $endif$
+</div>  
   
+  $if(image)$
+    <img src=$image$ alt=$image-alt$ class="image-cover">
+  $endif$
+  
+
+
   $if(abstract)$
     <div class="abstract">
       $abstract$
