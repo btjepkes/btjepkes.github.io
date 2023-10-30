@@ -11,24 +11,53 @@ format:
   html:
     css: index.css
 listing:
-  - id: site-listings
+  - id: site-listings-1
     contents:
       - "about/index.qmd"
-      - "research/index.qmd"
       - "curriculum-vitae/index.qmd"
+      - "contact.qmd"
+    type: grid
+    fields:
+      - title
+      - subtitle
+      
+  - id: site-listings-2
+    contents:
+      - "research/index.qmd"
       - "posts/index.qmd"
       - "gallery/index.qmd"
       - "resources/index.qmd"
     type: grid
+    grid-columns: 2
     fields:
       - title
       - subtitle
 ---
 <!-- :::{.column-page-right} -->
 
+<!-- ```{=html} -->
+<!-- <div class="container"> -->
+<!--   <div class="row"> -->
+<!--     <div class="col-sm"> -->
+<!--       One of three columns -->
+<!--     </div> -->
+<!--     <div class="col-sm"> -->
+<!--       One of three columns -->
+<!--     </div> -->
+<!--     <div class="col-sm"> -->
+<!--       One of three columns -->
+<!--     </div> -->
+<!--   </div> -->
+<!-- </div> -->
+<!-- ``` -->
+
+## Learning About Me {.h2-index}
+::: {#site-listings-1}
+:::
+
 ## Start Exploring This Site {.h2-index}
 
-::: {#site-listings}
+::: {#site-listings-2}
 :::
 
 ::: {.callout-important collapse="false" }

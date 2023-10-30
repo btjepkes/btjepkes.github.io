@@ -143,3 +143,20 @@
   background: white;
   color: #24334c;
 }
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.row {}
+
+.col-sm {}
+
+#learning-about-me {
+  background: #c1d65070;
+  padding: 1em 1em 1em 1em;
+}
+

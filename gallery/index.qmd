@@ -2,10 +2,10 @@
 title: "My Gallery"
 subtitle: "Maps, visualizations, reports, posters, and presentations."
 author: ""
-image: ../assets/img-data-viz.jpg
+image: ../assets/img-geospatial-cover.webp
 image-alt: Image-of-pine-trees-on-blue-background.
 toc: false
-abstract: These are some of my latest maps and data visualizations from personal creative projects, work assignments, or course projects. Any of my contributions to Tidy Tuesday or similar are included.
+abstract: These are some of my latest maps and data visualizations from creative projects, work assignments, course projects, or contributions to Tidy Tuesday or similar.
 listing:
   - id: gallery-listings
     contents:
