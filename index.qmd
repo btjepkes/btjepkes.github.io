@@ -4,8 +4,6 @@ subtitle: "Integrating Ecological and Geospatial Science for Conservation"
 abstract: "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and studying geographer. This site provides an overview of my professional experience and a showcase of my technical writings and visualizations."
 image: "assets/img-bog-trees.jpg"
 image-alt: "Image-of-trees."
-toc: false
-# sidebar: false
 pagetitle: "Portfolio | B.W. Tjepkes"
 author-meta: Benjamin Tjepkes
 description-meta: "This is the porfolio and professional website of Benjamin Tjepkes."
@@ -26,7 +24,9 @@ listing:
       - title
       - subtitle
 ---
-:::{.column-page-right}
+<!-- :::{.column-page-right} -->
+
+## Start Exploring This Site {.h2-index}
 
 ::: {#site-listings}
 :::
@@ -65,4 +65,4 @@ listing:
 
 <!-- ::: -->
 <!-- ::: -->
-:::
+<!-- ::: -->

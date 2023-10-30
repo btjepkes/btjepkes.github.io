@@ -1,8 +1,5 @@
-
-.content {
-  background-color: transparent !important;
-  backdrop-filter: none !important;
-  padding: 0 !important;
+.h2-index h2 {
+  text-align: center;
 }
 
 .index-intro-start {
