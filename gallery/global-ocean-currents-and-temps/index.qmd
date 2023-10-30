@@ -1,0 +1,22 @@
+---
+title: "Global Ocean Currents and Temperatures"
+subtitle: "Visualizing the influence of global systems."
+date: 2023-10-29
+categories:
+  - Climate
+abstract: This visualization was built in ArcGIS Online as a global web scene to show my students how ocean currents are impacting continental climate.
+image: img-global-ocean.png
+image-alt: "Image showing the global ocean currents focused on South America."
+# aliases:
+---
+## Tools & Workflow
+
+This was a global web scene built using ArcGIS Online.
+
+## Final Result
+
+![Credit: Benjamin Tjepkes](img-global-ocean.png)
+
+
+
+
