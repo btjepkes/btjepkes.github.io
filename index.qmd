@@ -33,41 +33,64 @@ listing:
       - title
       - subtitle
 ---
-<!-- :::{.column-page-right} -->
 
-<!-- ```{=html} -->
-<!-- <div class="container"> -->
-<!--   <div class="row"> -->
-<!--     <div class="col-sm"> -->
-<!--       One of three columns -->
-<!--     </div> -->
-<!--     <div class="col-sm"> -->
-<!--       One of three columns -->
-<!--     </div> -->
-<!--     <div class="col-sm"> -->
-<!--       One of three columns -->
-<!--     </div> -->
-<!--   </div> -->
-<!-- </div> -->
-<!-- ``` -->
 
-## Learning About Me {.h2-index}
-::: {#site-listings-1}
+:::{.container}
+
+:::{.row}
+    
+:::{.col-sm}
+
+{{< fa layer-group size=4x >}}
+
+**Geospatial & Cartography**
+
+<!-- Spatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartographic design using QGIS and ArcGIS mapping software. Geoprocessing workflows in ArcGIS ModelBuilder and Jupyter Notebooks. -->
+
+:::
+    
+:::{.col-sm}
+
+{{< fa chart-simple size=4x >}}
+
+**Research & Reporting**
+
+<!-- Data entry, management, and analysis using Program R, Microsoft Excel, Access, and SQL Server. Reproducible report design and development in Microsoft Word, R Markdown, and Quarto. Knowledge of scientific methods and research project development. -->
+    
+:::
+:::{.col-sm}
+
+{{< fa file-code size=4x >}}
+
+**Design & Visualization**
+
+<!-- Front-end web development with HTML, CSS, and JSON. Version control using git/GitHub. Proficient in data visualization for technical and creative projects. -->
+
+:::
+  
+:::
+  
 :::
 
-## Start Exploring This Site {.h2-index}
+## Exploring This Site {.h2-index}
+
+::: {#site-listings-1}
+:::
 
 ::: {#site-listings-2}
 :::
 
-::: {.callout-important collapse="false" }
-## My Latest Professional Updates
 
-- **Sept 2023 --** I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.
-- **Aug 2023 --** I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!
-- **July 2023 --** One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest.
-- **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.
-:::
+
+<!-- ::: {.callout-important collapse="true" } -->
+
+<!-- ## My Latest Professional Updates -->
+
+<!-- - **Sept 2023 --** I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science. -->
+<!-- - **Aug 2023 --** I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon! -->
+<!-- - **July 2023 --** One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. -->
+<!-- - **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference. -->
+<!-- ::: -->
 
 
 <!-- ::: {.index-intro-start} -->
@@ -92,6 +115,5 @@ listing:
 <!-- [{{< fa brands linkedin size=2x >}}](https://www.linkedin.com/in/benjamintjepkes/) [{{< fa brands github size=2x >}}](https://github.com/btjepkes) [{{< fa brands twitter size=2x >}}](https://twitter.com/BTjepkes) [{{< fa brands researchgate size=2x >}}](https://www.researchgate.net/profile/Benjamin-Tjepkes) [{{< fa brands orcid size=2x >}}](https://orcid.org/0009-0002-5524-2675) -->
 <!-- ::: -->
 
-<!-- ::: -->
 <!-- ::: -->
 <!-- ::: -->

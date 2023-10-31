@@ -1,5 +1,7 @@
 .h2-index h2 {
   text-align: center;
+  border-bottom: solid 5px #ededed;
+  font-size: 2.5rem;
 }
 
 .index-intro-start {
@@ -14,6 +16,10 @@
 .index-intro-start h2 {
   margin-top: 0;
   text-align: center;
+}
+
+.headshot-img {
+  max-width: 400px;
 }
 
 .intro-headshot {
@@ -148,15 +154,27 @@
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.row {}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
 
-.col-sm {}
+.col-sm {
+  display: flex;
+  background: white;
+  border-radius: 8px;
+  border: solid 3px #eaeaea;
+  padding: 10px 20px;
+  flex: 1;
+  flex-direction: column;
+}
 
-#learning-about-me {
-  background: #c1d65070;
-  padding: 1em 1em 1em 1em;
+.col-sm h3,
+.col-sm p {
+  text-align: center;
 }
 
