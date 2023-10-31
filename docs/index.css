@@ -1,7 +1,9 @@
 .h2-index h2 {
-  text-align: center;
-  border-bottom: solid 5px #ededed;
-  font-size: 2.2rem;
+  border-bottom: solid 3px lightgray;
+  font-size: 1.5em;
+  color: rgba(0,0,0,0.7);
+  padding-top: 0.5em;
+  font-weight: 200;
 }
 
 .index-intro-start {

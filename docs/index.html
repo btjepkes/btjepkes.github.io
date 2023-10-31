@@ -95,34 +95,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-site-listings-2 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-site-listings-2'] = new List('listing-site-listings-2', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
@@ -346,7 +318,9 @@ cookieconsent.run({
     <h2 id="toc-title">On This Page:</h2>
    
   <ul>
-  <li><a href="#exploring-this-site" id="toc-exploring-this-site" class="nav-link active" data-scroll-target="#exploring-this-site">Exploring This Site</a></li>
+  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a></li>
+  <li><a href="#emphasis-areas" id="toc-emphasis-areas" class="nav-link" data-scroll-target="#emphasis-areas">Emphasis Areas</a></li>
+  <li><a href="#exploring-this-site" id="toc-exploring-this-site" class="nav-link" data-scroll-target="#exploring-this-site">Exploring This Site</a></li>
   </ul>
 </nav>
     </div>
@@ -355,29 +329,36 @@ cookieconsent.run({
 
 
 
+<section id="about-me" class="level2 h2-index">
+<h2 class="h2-index" data-anchor-id="about-me">About Me</h2>
+<p>I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at applied conservation. I have several years of continuous professional development working with governmental, private, and academic entities across the US.</p>
+</section>
+<section id="emphasis-areas" class="level2 h2-index">
+<h2 class="h2-index" data-anchor-id="emphasis-areas">Emphasis Areas</h2>
 <div class="container">
 <div class="row">
 <div class="col-sm">
-<p><i class="fa-solid fa-layer-group fa-4x" aria-label="layer-group"></i></p>
+<p><i class="fa-solid fa-layer-group fa-3x" aria-label="layer-group"></i></p>
 <p><strong>Geospatial &amp; Cartography</strong></p>
-<!-- Spatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartographic design using QGIS and ArcGIS mapping software. Geoprocessing workflows in ArcGIS ModelBuilder and Jupyter Notebooks. -->
+<p>Spatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartousing QGIS and ArcGIS.</p>
 </div>
 <div class="col-sm">
-<p><i class="fa-solid fa-chart-simple fa-4x" aria-label="chart-simple"></i></p>
+<p><i class="fa-solid fa-chart-simple fa-3x" aria-label="chart-simple"></i></p>
 <p><strong>Research &amp; Reporting</strong></p>
-<!-- Data entry, management, and analysis using Program R, Microsoft Excel, Access, and SQL Server. Reproducible report design and development in Microsoft Word, R Markdown, and Quarto. Knowledge of scientific methods and research project development. -->
+<p>Data entry, management, and analysis using R, Excel, Access, and SQL Server. Reproducible report design and development in Word, R Markdown, and Quarto.</p>
 </div>
 <div class="col-sm">
-<p><i class="fa-solid fa-file-code fa-4x" aria-label="file-code"></i></p>
+<p><i class="fa-solid fa-file-code fa-3x" aria-label="file-code"></i></p>
 <p><strong>Design &amp; Visualization</strong></p>
-<!-- Front-end web development with HTML, CSS, and JSON. Version control using git/GitHub. Proficient in data visualization for technical and creative projects. -->
+<p>Front-end web development with HTML, CSS, and JSON. Version control using git/GitHub. Proficient in data visualization for technical and creative projects.</p>
 </div>
 </div>
 </div>
+</section>
 <section id="exploring-this-site" class="level2 h2-index">
 <h2 class="h2-index" data-anchor-id="exploring-this-site">Exploring This Site</h2>
 <div id="listing-site-listings-1" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
+<div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1698673194262" data-listing-reading-time-sort="2">
 <a href="./about/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
@@ -392,7 +373,7 @@ Learn about my career path and professional interests.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1698720565927" data-listing-reading-time-sort="7">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1698761187747" data-listing-reading-time-sort="7">
 <a href="./curriculum-vitae/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -420,28 +401,7 @@ Reach out to me with inquires, comments, and collaborations.
 </div>
 </a>
 </div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<div id="listing-site-listings-2" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1698554506433" data-listing-reading-time-sort="2">
-<a href="./resources/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Helpful Resources
-</h5>
-<div class="card-subtitle listing-subtitle">
-My favorite references for ecology, GIS, R, Python, and more.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1698526390093" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1698526390093" data-listing-reading-time-sort="1">
 <a href="./posts/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -455,7 +415,7 @@ Explore my writings on ecological and geospatial data science.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1698670790381" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1698670790381" data-listing-reading-time-sort="1">
 <a href="./gallery/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -469,7 +429,7 @@ Maps, visualizations, reports, posters, and presentations.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1698527123135" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1698527123135" data-listing-reading-time-sort="1">
 <a href="./research/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">

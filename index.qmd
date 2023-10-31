@@ -16,17 +16,9 @@ listing:
       - "about/index.qmd"
       - "curriculum-vitae/index.qmd"
       - "contact.qmd"
-    type: grid
-    fields:
-      - title
-      - subtitle
-      
-  - id: site-listings-2
-    contents:
       - "research/index.qmd"
       - "posts/index.qmd"
-      - "gallery/index.qmd"
-      - "resources/index.qmd"
+      - "gallery/index.qmd"      
     type: grid
     grid-columns: 2
     fields:
@@ -34,6 +26,11 @@ listing:
       - subtitle
 ---
 
+## About Me {.h2-index}
+
+I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at applied conservation. I have several years of continuous professional development working with governmental, private, and academic entities across the US.
+
+## Emphasis Areas {.h2-index}
 
 :::{.container}
 
@@ -41,30 +38,30 @@ listing:
     
 :::{.col-sm}
 
-{{< fa layer-group size=4x >}}
+{{< fa layer-group size=3x >}}
 
 **Geospatial & Cartography**
 
-<!-- Spatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartographic design using QGIS and ArcGIS mapping software. Geoprocessing workflows in ArcGIS ModelBuilder and Jupyter Notebooks. -->
+Spatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartousing QGIS and ArcGIS.
 
 :::
     
 :::{.col-sm}
 
-{{< fa chart-simple size=4x >}}
+{{< fa chart-simple size=3x >}}
 
 **Research & Reporting**
 
-<!-- Data entry, management, and analysis using Program R, Microsoft Excel, Access, and SQL Server. Reproducible report design and development in Microsoft Word, R Markdown, and Quarto. Knowledge of scientific methods and research project development. -->
+Data entry, management, and analysis using R, Excel, Access, and SQL Server. Reproducible report design and development in Word, R Markdown, and Quarto.
     
 :::
 :::{.col-sm}
 
-{{< fa file-code size=4x >}}
+{{< fa file-code size=3x >}}
 
 **Design & Visualization**
 
-<!-- Front-end web development with HTML, CSS, and JSON. Version control using git/GitHub. Proficient in data visualization for technical and creative projects. -->
+Front-end web development with HTML, CSS, and JSON. Version control using git/GitHub. Proficient in data visualization for technical and creative projects.
 
 :::
   
@@ -76,10 +73,6 @@ listing:
 
 ::: {#site-listings-1}
 :::
-
-::: {#site-listings-2}
-:::
-
 
 
 <!-- ::: {.callout-important collapse="true" } -->
