@@ -1,7 +1,7 @@
 .h2-index h2 {
   text-align: center;
   border-bottom: solid 5px #ededed;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .index-intro-start {
@@ -162,7 +162,11 @@
   flex-direction: row;
   gap: 1em;
 }
-
+    @media screen and (max-width: 550px) {
+      .row {
+        flex-direction: column;
+      }
+    }
 .col-sm {
   display: flex;
   background: white;
