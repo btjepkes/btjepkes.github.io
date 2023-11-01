@@ -14,7 +14,7 @@ listing:
     grid-columns: 2
     grid-item-border: true
     categories: numbered
-    sort: date
+    sort: "date"
     image-height: 300px
     sort-ui: [title, date]
     filter-ui: [title, subtitle, categories, abstract]

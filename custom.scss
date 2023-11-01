@@ -23,7 +23,7 @@ $red:     #ff0039 !default;
 $orange:  #f0ad4e !default;
 $yellow:  #ff7518 !default;
 $green:   #3fb618 !default;
-$teal:    #20c997 !default;
+$teal:    #005c5d !default;
 $cyan:    #9954bb !default;
 
 $new-dark-blue: #00233D !default;
@@ -185,7 +185,7 @@ h1 {
 
 
 h2 {
-  color: #046065;
+  color: $teal;
   font-family: Atkinson Hyperlegible;
 }
 

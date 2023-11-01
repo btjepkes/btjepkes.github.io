@@ -102,14 +102,14 @@
     "href": "index.html",
     "title": "Benjamin W. Tjepkes, BSc.",
     "section": "",
-    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at applied conservation. I have several years of continuous professional development working with governmental, private, and academic entities across the US."
+    "text": "Ben with an anesthetized black bear.\n\n\n\n\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.\nI have several years of continuous professional development working with governmental, private, and academic entities across the US."
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Benjamin W. Tjepkes, BSc.",
     "section": "",
-    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at applied conservation. I have several years of continuous professional development working with governmental, private, and academic entities across the US."
+    "text": "Ben with an anesthetized black bear.\n\n\n\n\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.\nI have several years of continuous professional development working with governmental, private, and academic entities across the US."
   },
   {
     "objectID": "index.html#emphasis-areas",
@@ -161,20 +161,6 @@
     "text": "Tools & Methods\nThis map and all spatial analysis needed to create it was performed in ArcMap 10.x. All primary structures in each lake-adjacent parcel were outlined using heads-up digitizing techniques. The distance to water was then determined using the Near tool in ArcMap, referencing the ordinary high water mark for compliance."
   },
   {
-    "objectID": "gallery/missouri-forest-canopy-density/index.html",
-    "href": "gallery/missouri-forest-canopy-density/index.html",
-    "title": "Map of Missouri Forest Canopy Density",
-    "section": "",
-    "text": "Map Credit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/missouri-forest-canopy-density/index.html#tools-methods",
-    "href": "gallery/missouri-forest-canopy-density/index.html#tools-methods",
-    "title": "Map of Missouri Forest Canopy Density",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis maps was created used ArcGIS Pro using data available on the Esri Living Atlas. Forest density, based on NLCD 2016, were summarized in H3 hexbins. The scaled-icon symbology represents the relative percentage of each hexbin that contains forest."
-  },
-  {
     "objectID": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
     "href": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
     "title": "Missouri Bat HCP Overview & Update Poster",
@@ -186,7 +172,7 @@
     "href": "gallery/index.html",
     "title": "My Gallery",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Ocean Currents and Temperatures\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nMap of Missouri Forest Canopy Density\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Ocean Currents and Temperatures\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery/global-ocean-currents-and-temps/index.html",
@@ -319,14 +305,21 @@
     "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
     "title": "Annual Report for MDC Furbearer Program",
     "section": "",
-    "text": "Unable to display PDF file. Download instead."
+    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
   },
   {
     "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
     "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
     "title": "Annual Report for MDC Furbearer Program",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nData visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources. The full report document can be viewed here."
+    "section": "",
+    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
+  },
+  {
+    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
+    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
+    "title": "Annual Report for MDC Furbearer Program",
+    "section": "Final Result",
+    "text": "Final Result\nThe full report document can be viewed here.\n\n\n\nExample pages from the report."
   },
   {
     "objectID": "gallery/missouri-bear-sighting-map/index.html",

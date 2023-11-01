@@ -8,6 +8,7 @@ categories:
   - Map Gallery
   - Hexagons
   - ArcGIS Pro
+draft: TRUE
 ---
 
 ![Map Credit: Benjamin Tjepkes](img-map-10.jpg){.image-bordered}

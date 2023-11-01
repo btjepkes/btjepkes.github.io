@@ -1,18 +1,20 @@
 .h2-index h2 {
   border-bottom: solid 3px lightgray;
   font-size: 1.5em;
-  color: rgba(0,0,0,0.7);
   padding-top: 0.5em;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 .index-intro-start {
   margin-top: 2em;
   margin-bottom: 2em;
-  align-items: justify;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 2.2em;
+}
+
+.index-intro-start > * {
+  flex: 1;
 }
 
 .index-intro-start h2 {
@@ -20,19 +22,18 @@
   text-align: center;
 }
 
-.headshot-img {
+/*.headshot-img {
   max-width: 400px;
 }
 
 .intro-headshot {
-  max-width: 525px;
+  max-width: 325px;
   margin: auto;
-}
+}*/
 
 .index-intro-start-text {
   font-size: 1.4em;
   color: hsl(217, 36%, 22%);
-  text-align: left;
   line-height: 1.2;
 }
 
