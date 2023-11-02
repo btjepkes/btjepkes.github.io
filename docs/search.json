@@ -161,53 +161,123 @@
     "text": "Tools & Methods\nThis map and all spatial analysis needed to create it was performed in ArcMap 10.x. All primary structures in each lake-adjacent parcel were outlined using heads-up digitizing techniques. The distance to water was then determined using the Near tool in ArcMap, referencing the ordinary high water mark for compliance."
   },
   {
-    "objectID": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
-    "href": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
-    "title": "Missouri Bat HCP Overview & Update Poster",
-    "section": "Tools and Workflow",
-    "text": "Tools and Workflow\nMap creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
-  },
-  {
-    "objectID": "gallery/index.html",
-    "href": "gallery/index.html",
-    "title": "My Gallery",
+    "objectID": "gallery/national-champion-tree-map/index.html",
+    "href": "gallery/national-champion-tree-map/index.html",
+    "title": "National Champion Trees Map",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Ocean Currents and Temperatures\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Data were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro."
   },
   {
-    "objectID": "gallery/global-ocean-currents-and-temps/index.html",
-    "href": "gallery/global-ocean-currents-and-temps/index.html",
-    "title": "Global Ocean Currents and Temperatures",
+    "objectID": "gallery/national-champion-tree-map/index.html#tools-workflow",
+    "href": "gallery/national-champion-tree-map/index.html#tools-workflow",
+    "title": "National Champion Trees Map",
     "section": "",
-    "text": "This was a global web scene built using ArcGIS Online."
+    "text": "Data were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro."
   },
   {
-    "objectID": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
-    "href": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
-    "title": "Global Ocean Currents and Temperatures",
-    "section": "",
-    "text": "This was a global web scene built using ArcGIS Online."
-  },
-  {
-    "objectID": "gallery/global-ocean-currents-and-temps/index.html#final-result",
-    "href": "gallery/global-ocean-currents-and-temps/index.html#final-result",
-    "title": "Global Ocean Currents and Temperatures",
+    "objectID": "gallery/national-champion-tree-map/index.html#final-result",
+    "href": "gallery/national-champion-tree-map/index.html#final-result",
+    "title": "National Champion Trees Map",
     "section": "Final Result",
     "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html",
-    "href": "gallery/bald-eagle-nest-selection-poster/index.html",
-    "title": "Poster on Bald Eagle Nest Selection Research",
+    "objectID": "gallery/missouri-bear-sighting-map/index.html",
+    "href": "gallery/missouri-bear-sighting-map/index.html",
+    "title": "Choropleth of Missouri Bear Sightings",
     "section": "",
-    "text": "Credit: Benjamin Tjepkes"
+    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
   },
   {
-    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
-    "href": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
-    "title": "Poster on Bald Eagle Nest Selection Research",
+    "objectID": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
+    "href": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
+    "title": "Choropleth of Missouri Bear Sightings",
     "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis poster was assembled in Microsoft PowerPoint."
+    "text": "Tools & Methods\nMap creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
+  },
+  {
+    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
+    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
+    "title": "Annual Report for MDC Furbearer Program",
+    "section": "",
+    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
+  },
+  {
+    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
+    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
+    "title": "Annual Report for MDC Furbearer Program",
+    "section": "",
+    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
+  },
+  {
+    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
+    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
+    "title": "Annual Report for MDC Furbearer Program",
+    "section": "Final Result",
+    "text": "Final Result\nThe full report document can be viewed here.\n\n\n\nExample pages from the report."
+  },
+  {
+    "objectID": "gallery/great-lakes-watershed-map/index.html",
+    "href": "gallery/great-lakes-watershed-map/index.html",
+    "title": "Great Lakes Watersheds Map",
+    "section": "",
+    "text": "Map Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/great-lakes-watershed-map/index.html#tools-methods",
+    "href": "gallery/great-lakes-watershed-map/index.html#tools-methods",
+    "title": "Great Lakes Watersheds Map",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nThis maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
+  },
+  {
+    "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
+    "href": "gallery/endangered-species-stamp-collection-map/index.html",
+    "title": "Endangered Species Stamp Map",
+    "section": "",
+    "text": "Map Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
+    "href": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
+    "title": "Endangered Species Stamp Map",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas. This map recently received 2nd Place in the Professional category of the 2023 GIS Certification Institute Map Contest."
+  },
+  {
+    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
+    "href": "gallery/2018-squirrel-census-sighting-map/index.html",
+    "title": "2018 Squirrel Census Sighting Map",
+    "section": "",
+    "text": "Map Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
+    "href": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
+    "title": "2018 Squirrel Census Sighting Map",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nThis map was created with several packages in RStudio using data from the Tidy Tuesday repository."
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/index.html#where-am-i-now",
+    "href": "about/index.html#where-am-i-now",
+    "title": "About Me",
+    "section": "",
+    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/index.html#my-professional-path",
+    "href": "about/index.html#my-professional-path",
+    "title": "About Me",
+    "section": "My Professional Path",
+    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program."
   },
   {
     "objectID": "curriculum-vitae/index.html",
@@ -238,102 +308,53 @@
     "text": "Techincal Proficiencies\n\n        \n        \n            Cartographic Design\n            \n            \n                Adept at using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps.\n            \n        \n\n\n\n        \n        \n            Data Viz & Reporting\n            \n            \n                Proficient in data visualization and reproducible reporting using Quarto, R Markdown, Jupyter Notebooks."
   },
   {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About Me",
+    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html",
+    "href": "gallery/bald-eagle-nest-selection-poster/index.html",
+    "title": "Poster on Bald Eagle Nest Selection Research",
     "section": "",
-    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Credit: Benjamin Tjepkes"
   },
   {
-    "objectID": "about/index.html#where-am-i-now",
-    "href": "about/index.html#where-am-i-now",
-    "title": "About Me",
-    "section": "",
-    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about/index.html#my-professional-path",
-    "href": "about/index.html#my-professional-path",
-    "title": "About Me",
-    "section": "My Professional Path",
-    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program."
-  },
-  {
-    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
-    "href": "gallery/2018-squirrel-census-sighting-map/index.html",
-    "title": "2018 Squirrel Census Sighting Map",
-    "section": "",
-    "text": "Map Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
-  },
-  {
-    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
-    "href": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
-    "title": "2018 Squirrel Census Sighting Map",
+    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
+    "href": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
+    "title": "Poster on Bald Eagle Nest Selection Research",
     "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis map was created with several packages in RStudio using data from the Tidy Tuesday repository."
+    "text": "Tools & Methods\nThis poster was assembled in Microsoft PowerPoint."
   },
   {
-    "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
-    "href": "gallery/endangered-species-stamp-collection-map/index.html",
-    "title": "Endangered Species Stamp Map",
+    "objectID": "gallery/global-ocean-currents-and-temps/index.html",
+    "href": "gallery/global-ocean-currents-and-temps/index.html",
+    "title": "Global Ocean Currents and Temperatures",
     "section": "",
-    "text": "Map Credit: Ben Tjepkes"
+    "text": "This was a global web scene built using ArcGIS Online."
   },
   {
-    "objectID": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
-    "href": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
-    "title": "Endangered Species Stamp Map",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas. This map recently received 2nd Place in the Professional category of the 2023 GIS Certification Institute Map Contest."
-  },
-  {
-    "objectID": "gallery/great-lakes-watershed-map/index.html",
-    "href": "gallery/great-lakes-watershed-map/index.html",
-    "title": "Great Lakes Watersheds Map",
+    "objectID": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
+    "href": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
+    "title": "Global Ocean Currents and Temperatures",
     "section": "",
-    "text": "Map Credit: Ben Tjepkes"
+    "text": "This was a global web scene built using ArcGIS Online."
   },
   {
-    "objectID": "gallery/great-lakes-watershed-map/index.html#tools-methods",
-    "href": "gallery/great-lakes-watershed-map/index.html#tools-methods",
-    "title": "Great Lakes Watersheds Map",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
-  },
-  {
-    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
-    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
-    "title": "Annual Report for MDC Furbearer Program",
-    "section": "",
-    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
-  },
-  {
-    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
-    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
-    "title": "Annual Report for MDC Furbearer Program",
-    "section": "",
-    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
-  },
-  {
-    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
-    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
-    "title": "Annual Report for MDC Furbearer Program",
+    "objectID": "gallery/global-ocean-currents-and-temps/index.html#final-result",
+    "href": "gallery/global-ocean-currents-and-temps/index.html#final-result",
+    "title": "Global Ocean Currents and Temperatures",
     "section": "Final Result",
-    "text": "Final Result\nThe full report document can be viewed here.\n\n\n\nExample pages from the report."
+    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/missouri-bear-sighting-map/index.html",
-    "href": "gallery/missouri-bear-sighting-map/index.html",
-    "title": "Choropleth of Missouri Bear Sightings",
+    "objectID": "gallery/index.html",
+    "href": "gallery/index.html",
+    "title": "My Gallery",
     "section": "",
-    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Ocean Currents and Temperatures\n\n\n\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
-    "href": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
-    "title": "Choropleth of Missouri Bear Sightings",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\nMap creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
+    "objectID": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
+    "href": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
+    "title": "Missouri Bat HCP Overview & Update Poster",
+    "section": "Tools and Workflow",
+    "text": "Tools and Workflow\nMap creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
   },
   {
     "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html",
