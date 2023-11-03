@@ -1,0 +1,34 @@
+---
+title: "#30DayMapChallenge - 2023 Contributions"
+subtitle: "A review of my contributions and learning outcomes."
+date: "11/01/2023"
+abstract: This post is pending.
+categories:
+  - mapping
+image: ../../assets/bg-pine-blue.jpg
+image-alt: "Pending."
+draft: TRUE
+listing:
+  - id: map-gallery
+    contents:
+      - "../../gallery/*/*.qmd"
+    include: 
+      keywords: "#30DayMapChallenge2023"
+    type: grid
+    sort: "date"
+    image-height: 300px
+    grid-columns: 2
+    fields:
+      - title
+      - image
+---
+
+## Overview of Challenge
+
+
+## My Contributions
+
+Here are my contributions to the challenge. Feel free to explore the details on each map product.
+
+:::{#map-gallery .listings-gallery}
+:::

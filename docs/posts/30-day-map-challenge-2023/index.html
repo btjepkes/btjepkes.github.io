@@ -7,11 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
-<meta name="dcterms.date" content="2023-03-26">
-<meta name="keywords" content="The Conservation Companion">
+<meta name="dcterms.date" content="2023-11-01">
 <meta name="description" content="<strong>?meta:description</strong>">
 
-<title>How Scientists Use GIS to Study Wildlife | B.W. Tjepkes</title>
+<title>#30DayMapChallenge - 2023 Contributions | B.W. Tjepkes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../assets/logo-1.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
@@ -45,9 +46,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,6 +66,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-map-gallery .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-map-gallery'] = new List('listing-map-gallery', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -95,12 +122,14 @@ cookieconsent.run({
   
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="How Scientists Use GIS to Study Wildlife | B.W. Tjepkes">
-<meta property="og:description" content="In this post, we explore the fascinating ways that geospatial technologies are being used in the realm of wildlife research. From tracking animal movements and habitat use to assessing the impact of disease on ecosystems, we explore how spatial methods and technologies are playing an increasingly important role in solving some of the most pressing problems facing the planet.">
-<meta property="og:image" content="https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife/img-001.svg">
+<meta property="og:title" content="#30DayMapChallenge - 2023 Contributions | B.W. Tjepkes">
+<meta property="og:description" content="This post is pending.">
+<meta property="og:image" content="https://btjepkes.github.io/assets/bg-pine-blue.jpg">
 <meta property="og:site-name" content="Benj&amp;#916;min Tjepkes">
-<meta property="og:image:alt" content="Image-of-a-map.">
+<meta property="og:image:alt" content="Pending.">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -159,7 +188,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">How Scientists Use GIS to Study Wildlife</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">#30DayMapChallenge - 2023 Contributions</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -168,20 +197,20 @@ cookieconsent.run({
 <!-- content -->
 <header id="title-block-header">
   
-  <h1 class="title display-7">How Scientists Use GIS to Study Wildlife</h1>
+  <h1 class="title display-7">#30DayMapChallenge - 2023 Contributions</h1>
   
-        <img src="img-001.svg" alt="Image-of-a-map." class="image-cover">
+        <img src="../../assets/bg-pine-blue.jpg" alt="Pending." class="image-cover">
     
-        <p class="subtitle lead">Exploring use cases of geospatial technologies in wildlife conservation.</p>
+        <p class="subtitle lead">A review of my contributions and learning outcomes.</p>
     
   <div class="post-meta">  
           <p class="author">Benjamin Tjepkes</p>
         
-          <p class="date">March 26, 2023</p>
+          <p class="date">November 1, 2023</p>
       </div>  
 
       <div class="abstract">
-      In this post, we explore the fascinating ways that geospatial technologies are being used in the realm of wildlife research. From tracking animal movements and habitat use to assessing the impact of disease on ecosystems, we explore how spatial methods and technologies are playing an increasingly important role in solving some of the most pressing problems facing the planet.
+      This post is pending.
     </div>
     
 <a href="#quarto-content" class="title-arrow">
@@ -289,20 +318,8 @@ cookieconsent.run({
     <h2 id="toc-title">On This Page:</h2>
    
   <ul>
-  <li><a href="#the-spatial-revolution-is-happening-now" id="toc-the-spatial-revolution-is-happening-now" class="nav-link active" data-scroll-target="#the-spatial-revolution-is-happening-now">The Spatial Revolution Is Happening Now</a>
-  <ul class="collapse">
-  <li><a href="#what-is-gis" id="toc-what-is-gis" class="nav-link" data-scroll-target="#what-is-gis">What is GIS?</a></li>
-  <li><a href="#what-are-the-components" id="toc-what-are-the-components" class="nav-link" data-scroll-target="#what-are-the-components">What are the components?</a></li>
-  <li><a href="#what-are-the-general-applications" id="toc-what-are-the-general-applications" class="nav-link" data-scroll-target="#what-are-the-general-applications">What are the general applications?</a></li>
-  </ul></li>
-  <li><a href="#providing-solutions-to-study-wildlife" id="toc-providing-solutions-to-study-wildlife" class="nav-link" data-scroll-target="#providing-solutions-to-study-wildlife">Providing Solutions to Study Wildlife</a>
-  <ul class="collapse">
-  <li><a href="#surveying-wildlife" id="toc-surveying-wildlife" class="nav-link" data-scroll-target="#surveying-wildlife">#1 - Surveying wildlife</a></li>
-  <li><a href="#habitat-analysis" id="toc-habitat-analysis" class="nav-link" data-scroll-target="#habitat-analysis">#2 - Habitat analysis</a></li>
-  <li><a href="#movement-patterns" id="toc-movement-patterns" class="nav-link" data-scroll-target="#movement-patterns">#3 - Movement patterns</a></li>
-  <li><a href="#disease-mapping" id="toc-disease-mapping" class="nav-link" data-scroll-target="#disease-mapping">#4 - Disease mapping</a></li>
-  </ul></li>
-  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
+  <li><a href="#overview-of-challenge" id="toc-overview-of-challenge" class="nav-link active" data-scroll-target="#overview-of-challenge">Overview of Challenge</a></li>
+  <li><a href="#my-contributions" id="toc-my-contributions" class="nav-link" data-scroll-target="#my-contributions">My Contributions</a></li>
   </ul>
 </nav>
     </div>
@@ -311,73 +328,48 @@ cookieconsent.run({
 
 
 
-<section id="the-spatial-revolution-is-happening-now" class="level2">
-<h2 data-anchor-id="the-spatial-revolution-is-happening-now">The Spatial Revolution Is Happening Now</h2>
-<p>Advancements in geospatial technologies are revolutionizing the field of wildlife research and conservation, providing new and innovative ways to collect and analyze data. Among these technologies, Geographic Information Systems (GIS) have emerged as a powerful tool for understanding the spatial relationships between wildlife, their habitat, and the environment in which they live. By combining maps and other location-based tools, GIS can help conservationists and biologists make informed decisions and take targeted actions to preserve biodiversity and protect threatened species.</p>
-<section id="what-is-gis" class="level3">
-<h3 data-anchor-id="what-is-gis">What is GIS?</h3>
-<p>Geographic Information Systems (GIS) is a technology that enables the collection, management, analysis, and visualization of spatial data. Essentially, it’s a computer-based tool that allows users to create and work with maps and other location-based data. It can range from desktop GIS software used to design maps to GPS-enabled mobile devices that collect location information of physical objects in the field.</p>
+<section id="overview-of-challenge" class="level2">
+<h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
 </section>
-<section id="what-are-the-components" class="level3">
-<h3 data-anchor-id="what-are-the-components">What are the components?</h3>
-<p>Sometimes it can be helpful to discuss GIS in the terms of its discrete elements, which all work together to form the system. These components include hardware, software, data, and people.</p>
-<ul>
-<li><p>The <strong>hardware component</strong> of GIS typically includes GPS receivers and other mobile devices that can be used to collect spatial data in the field. For example, biologists might use GPS-equipped collars to track the movements of individual animals, or drones to map remote and inaccessible terrain.</p></li>
-<li><p>The <strong>software component</strong> of GIS encompasses a variety of tools for processing and analyzing spatial data. Some of the most popular GIS software programs include ArcGIS, QGIS, and Google Earth. These programs allow users to create maps, perform spatial analysis, and visualize data in a variety of ways. They can also integrate data from a range of sources, including satellite imagery, aerial photography, and field surveys.</p></li>
-<li><p>The <strong>data component</strong> of GIS includes a vast array of information, from digital maps and satellite imagery to climate data and biological inventories. To be useful, this data must be organized, standardized, and stored in a way that can be easily accessed and analyzed by GIS software.</p></li>
-<li><p>Finally, the <strong>people component</strong> of GIS includes the scientists, technicians, and other professionals who use the technology to collect, manage, and interpret spatial data. These people have the expertise to collect, organize, and present spatial data accurately and in accordance with project goals.</p></li>
-</ul>
-<p>With the right combination of hardware, software, data, and expertise, GIS can be an incredibly powerful tool for advancing our understanding of the natural world and developing effective conservation strategies.</p>
-</section>
-<section id="what-are-the-general-applications" class="level3">
-<h3 data-anchor-id="what-are-the-general-applications">What are the general applications?</h3>
-<p>GIS has numerous applications, from helping urban planners optimize city layouts to assisting epidemiologists in tracking disease outbreaks. With its adaptive and always-evolving set of tools, GIS is beneficial to an unlimited number of occupations, including these:</p>
-<ul>
-<li>Business Analysis</li>
-<li>Landscape and Civil Engineering</li>
-<li>Watershed Management</li>
-<li>Land Surveying</li>
-<li>Emergency Management</li>
-</ul>
-<p>In the context of wildlife research and conservation, GIS is a powerful tool that allows scientists to gain insights into the spatial relationships between different ecological variables, such as habitat types, climate patterns, and animal movements.</p>
-</section>
-</section>
-<section id="providing-solutions-to-study-wildlife" class="level2">
-<h2 data-anchor-id="providing-solutions-to-study-wildlife">Providing Solutions to Study Wildlife</h2>
-<p>Geographic information systems (GIS) have revolutionized wildlife research by providing tools to manage, analyze, and visualize spatial data. <strong>Here are four ways wildlife researchers use GIS to study wildlife and their habitats:</strong></p>
-<section id="surveying-wildlife" class="level3">
-<h3 data-anchor-id="surveying-wildlife">#1 - Surveying wildlife</h3>
-<p>One of the main aims of biologists that need to manage wildlife populations is getting an estimate of density (i.e., animals per unit area), sex ratio (i.e., number of females vs.&nbsp;number of males), and age structure (i.e., the distribution of age classes within a population).</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/FggpvO8J-P8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>Population metrics like these and many others are often the result of data collected during field surveys, where biologists count the number of individuals they see or hear along a specified survey route (in most cases). GIS technologies, like those discussed in the below video, are used by biologists to navigate and collect data during surveys.</p>
-</section>
-<section id="habitat-analysis" class="level3">
-<h3 data-anchor-id="habitat-analysis">#2 - Habitat analysis</h3>
-<p>GIS can be used to map and analyze wildlife habitat by collecting data on environmental variables that have been supported by studies to impact the use of that area by wildlife. These metrics could include habitat elements like vegetation type, topographic features, water availability, and other factors that influence habitat quality. This information helps researchers understand the spatial distribution of wildlife species and identify areas that may be important for conservation.</p>
-<p>The mapping capabilities of GIS allow researchers to understand the impact of humans on wildlife, especially when it comes to the fragmentation and reduction of habitat. By mapping and analyzing the size, shape, and connectivity of different habitat patches, they can identify areas where habitat fragmentation is a problem and develop strategies to address it.</p>
-</section>
-<section id="movement-patterns" class="level3">
-<h3 data-anchor-id="movement-patterns">#3 - Movement patterns</h3>
-<p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption">A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
-</figure>
+<section id="my-contributions" class="level2">
+<h2 data-anchor-id="my-contributions">My Contributions</h2>
+<p>Here are my contributions to the challenge. Feel free to explore the details on each map product.</p>
+<div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1699024961500" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../gallery/national-champion-tree-map/img-national-champion-trees.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing the United States and the locations of champion trees displayed as points.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+National Champion Trees Map
+</h5>
 </div>
-<p>Biologists use GIS to create models of animal movement, which can help them understand how animals use different habitats and how they move across the landscape. These models combine data on animal behavior, habitat characteristics, and environmental variables. This can be used to identify areas where animals are most likely to be found, as well as areas where targeted conservation efforts would be fruitful.</p>
-</section>
-<section id="disease-mapping" class="level3">
-<h3 data-anchor-id="disease-mapping">#4 - Disease mapping</h3>
-<p>Wildlife disease ecologists use GIS to track the spread of diseases within and among wildlife populations. Spatial analysis tools are used within a GIS to identify disease hotspots, clustering, and spatial trends. By mapping disease outbreaks and analyzing the spatial patterns of infections, researchers can identify areas that may be at high risk and develop targeted interventions to prevent the spread of disease.</p>
-<p>GIS can also be used to model the spread of diseases in wildlife populations. By simulating the movement of animals across the landscape and the transmission of the disease, researchers can predict the likelihood and spread of disease outbreaks. This allows wildlife managers to control the spread of certain diseases by targeting certain high-risk areas.</p>
-</section>
-</section>
-<section id="final-thoughts" class="level2">
-<h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
-<p>Overall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.</p>
-<p>Until next time, Ben</p>
-<p><em>Note: This post was originally part of The Conservation Companion, but is now archived here.</em></p>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Map Gallery,Minnesota,Contour" data-listing-date-sort="1698901200000" data-listing-file-modified-sort="1699024332023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../gallery/eagle-mountain-contour-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../gallery/eagle-mountain-contour-map/img-eagle-mtn-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A contour map showing Eagle Mountain and the surrounding topography and hydrological features.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Eagle Mountain Contour Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
 
 
 </section>
@@ -664,7 +656,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":true});</script>
 
 
 

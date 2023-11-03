@@ -20,10 +20,11 @@ listing:
       - "posts/index.qmd"
       - "gallery/index.qmd"      
     type: grid
-    grid-columns: 2
+    grid-columns: 3
     fields:
       - title
       - subtitle
+      - image
 ---
 
 ## About Me {.h2-index}
@@ -47,6 +48,7 @@ I have several years of continuous professional development working with governm
 
 :::
 :::
+
 
 ## Emphasis Areas {.h2-index}
 

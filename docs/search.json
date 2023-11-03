@@ -98,228 +98,102 @@
     "text": "Final Thoughts\nOverall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Benjamin W. Tjepkes, BSc.",
-    "section": "",
-    "text": "Ben with an anesthetized black bear.\n\n\n\n\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.\nI have several years of continuous professional development working with governmental, private, and academic entities across the US."
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Benjamin W. Tjepkes, BSc.",
-    "section": "",
-    "text": "Ben with an anesthetized black bear.\n\n\n\n\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.\nI have several years of continuous professional development working with governmental, private, and academic entities across the US."
-  },
-  {
-    "objectID": "index.html#emphasis-areas",
-    "href": "index.html#emphasis-areas",
-    "title": "Benjamin W. Tjepkes, BSc.",
-    "section": "Emphasis Areas",
-    "text": "Emphasis Areas\n\n\n\n\nGeospatial & Cartography\nSpatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartousing QGIS and ArcGIS.\n\n\n\nResearch & Reporting\nData entry, management, and analysis using R, Excel, Access, and SQL Server. Reproducible report design and development in Word, R Markdown, and Quarto.\n\n\n\nDesign & Visualization\nFront-end web development with HTML, CSS, and JSON. Version control using git/GitHub. Proficient in data visualization for technical and creative projects."
-  },
-  {
-    "objectID": "index.html#exploring-this-site",
-    "href": "index.html#exploring-this-site",
-    "title": "Benjamin W. Tjepkes, BSc.",
-    "section": "Exploring This Site",
-    "text": "Exploring This Site\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nA full look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires, comments, and collaborations.\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "gallery/vineyard-and-winery-location-suitability-map/index.html",
-    "href": "gallery/vineyard-and-winery-location-suitability-map/index.html",
-    "title": "Vineyard and Winery Location Suitability Map",
-    "section": "",
-    "text": "This project included raster-based suitability calculations completed in ArcMap 10.X."
-  },
-  {
-    "objectID": "gallery/vineyard-and-winery-location-suitability-map/index.html#methods-tools",
-    "href": "gallery/vineyard-and-winery-location-suitability-map/index.html#methods-tools",
-    "title": "Vineyard and Winery Location Suitability Map",
-    "section": "",
-    "text": "This project included raster-based suitability calculations completed in ArcMap 10.X."
-  },
-  {
-    "objectID": "gallery/vineyard-and-winery-location-suitability-map/index.html#final-result",
-    "href": "gallery/vineyard-and-winery-location-suitability-map/index.html#final-result",
-    "title": "Vineyard and Winery Location Suitability Map",
-    "section": "Final Result",
-    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/shoreline-structure-setback-compliance-map/index.html",
-    "href": "gallery/shoreline-structure-setback-compliance-map/index.html",
-    "title": "Shoreline Structure Setback Compliance",
-    "section": "",
-    "text": "Map Credit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/shoreline-structure-setback-compliance-map/index.html#tools-methods",
-    "href": "gallery/shoreline-structure-setback-compliance-map/index.html#tools-methods",
-    "title": "Shoreline Structure Setback Compliance",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis map and all spatial analysis needed to create it was performed in ArcMap 10.x. All primary structures in each lake-adjacent parcel were outlined using heads-up digitizing techniques. The distance to water was then determined using the Near tool in ArcMap, referencing the ordinary high water mark for compliance."
-  },
-  {
-    "objectID": "gallery/national-champion-tree-map/index.html",
-    "href": "gallery/national-champion-tree-map/index.html",
-    "title": "National Champion Trees Map",
-    "section": "",
-    "text": "Data were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro."
-  },
-  {
-    "objectID": "gallery/national-champion-tree-map/index.html#tools-workflow",
-    "href": "gallery/national-champion-tree-map/index.html#tools-workflow",
-    "title": "National Champion Trees Map",
-    "section": "",
-    "text": "Data were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro."
-  },
-  {
-    "objectID": "gallery/national-champion-tree-map/index.html#final-result",
-    "href": "gallery/national-champion-tree-map/index.html#final-result",
-    "title": "National Champion Trees Map",
-    "section": "Final Result",
-    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/missouri-bear-sighting-map/index.html",
-    "href": "gallery/missouri-bear-sighting-map/index.html",
-    "title": "Choropleth of Missouri Bear Sightings",
-    "section": "",
-    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
-  },
-  {
-    "objectID": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
-    "href": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
-    "title": "Choropleth of Missouri Bear Sightings",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\nMap creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
-  },
-  {
-    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
-    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
-    "title": "Annual Report for MDC Furbearer Program",
-    "section": "",
-    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
-  },
-  {
-    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
-    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
-    "title": "Annual Report for MDC Furbearer Program",
-    "section": "",
-    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
-  },
-  {
-    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
-    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
-    "title": "Annual Report for MDC Furbearer Program",
-    "section": "Final Result",
-    "text": "Final Result\nThe full report document can be viewed here.\n\n\n\nExample pages from the report."
-  },
-  {
-    "objectID": "gallery/great-lakes-watershed-map/index.html",
-    "href": "gallery/great-lakes-watershed-map/index.html",
-    "title": "Great Lakes Watersheds Map",
-    "section": "",
-    "text": "Map Credit: Ben Tjepkes"
-  },
-  {
-    "objectID": "gallery/great-lakes-watershed-map/index.html#tools-methods",
-    "href": "gallery/great-lakes-watershed-map/index.html#tools-methods",
-    "title": "Great Lakes Watersheds Map",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
-  },
-  {
-    "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
-    "href": "gallery/endangered-species-stamp-collection-map/index.html",
-    "title": "Endangered Species Stamp Map",
-    "section": "",
-    "text": "Map Credit: Ben Tjepkes"
-  },
-  {
-    "objectID": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
-    "href": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
-    "title": "Endangered Species Stamp Map",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas. This map recently received 2nd Place in the Professional category of the 2023 GIS Certification Institute Map Contest."
-  },
-  {
-    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html",
-    "href": "gallery/bald-eagle-nest-selection-poster/index.html",
-    "title": "Poster on Bald Eagle Nest Selection Research",
+    "objectID": "gallery/work-commitments-calendar/index.html",
+    "href": "gallery/work-commitments-calendar/index.html",
+    "title": "Weekly Work Commitments Calendar",
     "section": "",
     "text": "Credit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
-    "href": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
-    "title": "Poster on Bald Eagle Nest Selection Research",
+    "objectID": "gallery/work-commitments-calendar/index.html#tools-workflow",
+    "href": "gallery/work-commitments-calendar/index.html#tools-workflow",
+    "title": "Weekly Work Commitments Calendar",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nThe data for this visual were originally stored in an Excel spreadsheet that was then brought into the R environment via RStudio. Below is the entire script used for this visualization. My base code (particularly the get_calendar function) was based on the work of Tanya Shapiro.\n# LOAD PACKAGES ====\n\nlibrary(readxl)\nlibrary(tidyverse)\nlibrary(lubridate)\n\n# LOAD DATA & WRANGLE ====\n\nHourTracker_Tjepkes &lt;- read_excel(\"HourTracker_Tjepkes.xlsx\", \n                                  sheet = \"Sheet2\", col_types = c(\"date\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\",  \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\"))\n\n\nHourTracker &lt;- HourTracker_Tjepkes %&gt;% \n  select(Date, `Total Hours`)\n\nHourTracker$Date &lt;- ymd(HourTracker$Date)\n\n\nHourTracker_clean &lt;- HourTracker %&gt;% \n  mutate(Description = case_when(`Total Hours` == 0 ~ \"Day Off\",\n                                  `Total Hours` &gt; 8 ~ \"Long Day\",\n                                 `Total Hours` == 8 ~ \"Normal Day\",\n                                 `Total Hours` &lt; 8 ~ \"Short Day\"))\n\nunique_desc &lt;- HourTracker_clean %&gt;% \n                  distinct(Description) %&gt;% \n                  pull(Description)\n\nHourTracker_clean$Description &lt;-factor(HourTracker_clean$Description,\n                                       levels = unique_desc)\n\n\n# CALENDAR FUNCTION ====\n\nget_calendar &lt;- function(start_date, end_date) {\n  n_days &lt;- interval(start_date,end_date)/days(1)\n  date&lt;-start_date + days(0:n_days)\n  month_name&lt;-format(date,\"%B\")\n  month_num&lt;-format(date,\"%m\")\n  year&lt;-format(date,\"%Y\")\n  day_num&lt;-format(date,'%d')\n  day&lt;-wday(date, label=TRUE)\n  week_num&lt;-strftime(date, format = \"%V\")\n  cal&lt;-data.frame(date, year, month_name, month_num, day_num, day, week_num)\n  cal[cal$week_num&gt;=52 & cal$month_num==\"01\",\"week_num\"]=00\n  \n  week_month&lt;-cal%&gt;% \n    group_by(year,month_name, week_num)%&gt;%\n    summarise()%&gt;%\n    mutate(week_month_num=row_number())\n  \n  cal&lt;-merge(cal, week_month, by=c(\"month_name\"=\"month_name\",\"week_num\"=\"week_num\",\"year\"=\"year\"))\n  cal$month_name&lt;-factor(cal$month_name, levels=c(\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"))\n  cal$day&lt;-factor(cal$day, levels=c(\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\",\"Sun\"))\n  \n  return(cal)\n  \n}\n\n## create date range\nstart_date &lt;- as.Date('2021-01-01')\nend_date &lt;- as.Date('2021-12-31')\n\n## create calendar\ncal&lt;-get_calendar(start_date,end_date)\n\ncal %&gt;% View()\n\n\n# JOIN CALENDAR & HOUR DATA ====\n\nHourTracker_ForPlot &lt;- left_join(cal,\n                                 HourTracker_clean,\n                                 by = c(\"date\" = \"Date\"))\n\n# CREATE PLOT\n\n#custom color palette c('#26547c', '#ef476f', '#FFBC1F', '#05C793')\npal&lt;-c('#FFBC1F', 'lightgray', 'lightblue', '#05C793')\n\n#creating the plot\nggplot(HourTracker_ForPlot)+\n  geom_tile(mapping = aes(x = day,\n                          y=week_month_num),\n            fill=NA) +\n  \n  geom_text(mapping = aes(x=day,\n                          y=week_month_num,\n                          label=day_num),\n            color=\"black\") +\n  \n  geom_point(data = HourTracker_ForPlot,\n             mapping=aes(x=day,\n                         y=week_month_num,\n                         color = Description),\n             size = 7.6) +\n  \n  geom_text(data = HourTracker_ForPlot,\n            mapping=aes(x=day,\n                        y=week_month_num,\n                        label=day_num),\n            color=\"black\",\n            nudge_y = 0.04,\n            size = 3.0) +\n  \n  scale_y_reverse() +\n  \n  scale_color_manual(values = pal,\n              guide = guide_legend(title.position  =\"left\",\n                                   title.hjust = 0.5,\n                                    title.vjust = 0.6,\n                                  title=\"Type of Day:\")) +\n\n  \n  scale_x_discrete(position = \"top\") +\n  \n  labs(y=\"\", x= \"\", \n       title = 'My 2021 Work Commitments',\n       subtitle = \"Visualizing my yearly work schedule from January 1, 2021 to December 31, 2021\",\n       caption = \"Created by Benjamin Tjepkes using R/RStudio\") +\n  \n  facet_wrap(~month_name, scales = \"free_x\") +\n  \n  theme(\n    legend.position = \"top\",\n    axis.text.y = element_blank(),\n    axis.ticks = element_blank(),\n    panel.background = element_blank(),\n    plot.title = element_text(hjust=0.5,\n                              size=22,\n                              face = \"bold\"),\n    plot.subtitle=element_text(hjust = 0.5,\n                               size = 12,\n                               face = \"italic\",\n                               color = \"gray30\"),\n    legend.key = element_blank(),\n    legend.title = element_blank(),\n    legend.background = element_rect(),\n    legend.spacing.x = unit(0.4, 'cm'),\n    legend.text = element_text(margin = unit(c(0,0,0,-0.3), \"cm\")),\n    strip.background = element_rect(fill = '#26547c'),\n    strip.text = element_text(color = \"white\", face = \"bold\", size = 12),\n    axis.text.x = element_text(hjust = 0.5),  # Align x-axis text to the top\n    axis.title.x = element_blank(),  # Remove x-axis title\n    \n    plot.margin= unit(c(0.8,0.8,0.8,0.2), \"cm\")\n  )\n\nggsave(filename = \"calendar2.jpeg\",\n       plot = last_plot(),\n       dpi = \"retina\")"
+  },
+  {
+    "objectID": "gallery/turkey-harvest-maps-by-county/index.html",
+    "href": "gallery/turkey-harvest-maps-by-county/index.html",
+    "title": "County-Based Turkey Harvest Maps",
+    "section": "",
+    "text": "Harvest data were pulled from internal databases and prepped using tidyverse operations in R. Map creation was completed in ArcGIS Pro 2.9."
+  },
+  {
+    "objectID": "gallery/turkey-harvest-maps-by-county/index.html#tools-methods",
+    "href": "gallery/turkey-harvest-maps-by-county/index.html#tools-methods",
+    "title": "County-Based Turkey Harvest Maps",
+    "section": "",
+    "text": "Harvest data were pulled from internal databases and prepped using tidyverse operations in R. Map creation was completed in ArcGIS Pro 2.9."
+  },
+  {
+    "objectID": "gallery/turkey-harvest-maps-by-county/index.html#the-result",
+    "href": "gallery/turkey-harvest-maps-by-county/index.html#the-result",
+    "title": "County-Based Turkey Harvest Maps",
+    "section": "The Result",
+    "text": "The Result\n\n\n\nTurkey harvest maps. Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/relative-coding-proficiency-chart/index.html#tools-methods",
+    "href": "gallery/relative-coding-proficiency-chart/index.html#tools-methods",
+    "title": "Relative Coding Proficiency Charts",
     "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis poster was assembled in Microsoft PowerPoint."
+    "text": "Tools & Methods\nChart creation was performed in RStudio using the ggplot2 package and others."
   },
   {
-    "objectID": "curriculum-vitae/index.html",
-    "href": "curriculum-vitae/index.html",
-    "title": "Curriculum vitae",
+    "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html",
+    "href": "gallery/overlaying-public-lands-with-bmzs/index.html",
+    "title": "Overlaying Public Lands with BMZs",
     "section": "",
-    "text": "University of Missouri\n            2023 - Present\n            Masters [MA] - Geography\n            \n                I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis in Geographic Information Systems. My thesis project will combine my interests in ecological science, phenology, climate, and geospatial modeling.\n            \n        \n\n\n\n        \n        \n            University of Wisconsin-Stevens Point\n            2015 - 2019\n            Bachelors [BS] - Wildlife Ecology and Management\n            \n                I earned my undergraduate degree in Wildlife Ecology and Management from the University of Wisconsin-Stevens Point. My minors were completed in Biology and Geographic Information Systems."
+    "text": "Map Credit: Benjamin Tjepkes"
   },
   {
-    "objectID": "curriculum-vitae/index.html#formal-education",
-    "href": "curriculum-vitae/index.html#formal-education",
-    "title": "Curriculum vitae",
-    "section": "",
-    "text": "University of Missouri\n            2023 - Present\n            Masters [MA] - Geography\n            \n                I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis in Geographic Information Systems. My thesis project will combine my interests in ecological science, phenology, climate, and geospatial modeling.\n            \n        \n\n\n\n        \n        \n            University of Wisconsin-Stevens Point\n            2015 - 2019\n            Bachelors [BS] - Wildlife Ecology and Management\n            \n                I earned my undergraduate degree in Wildlife Ecology and Management from the University of Wisconsin-Stevens Point. My minors were completed in Biology and Geographic Information Systems."
+    "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html#variations-created",
+    "href": "gallery/overlaying-public-lands-with-bmzs/index.html#variations-created",
+    "title": "Overlaying Public Lands with BMZs",
+    "section": "Variations Created",
+    "text": "Variations Created\n\n\n\n\n\nVariation 1. Map Credit: Benjamin Tjepkes\n\n\n\n\n\nVariation 2. Map Credit: Benjamin Tjepkes"
   },
   {
-    "objectID": "curriculum-vitae/index.html#career-experience",
-    "href": "curriculum-vitae/index.html#career-experience",
-    "title": "Curriculum vitae",
-    "section": "Career Experience",
-    "text": "Career Experience\n\n        \n        \n            University of Missouri\n            2023 - Present\n            Graduate Teaching Assistant - Geography Dept\n            \n                Deliver engaging instructional sessions to undergraduate students within discussion segments of a world regional geography course, concentrating on countries across Europe, Latin America, and North America. Duties include syllabus development, assignment evaluation, and overseeing course management system for 50+ students.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2022 - 2023\n            Assistant Wildlife Diversity Coordinator - Wildlife Diversity Program\n            \n                Collaborated with an inter-branch leadership team to implement the Missouri Bat Habitat Conservation Plan, serving as a technical lead for data reporting. Summarized large tabular datasets, analyzed spatial data from multiple enterprise geodatabases, and prepared data visualizations and summaries in RStudio and ArcGIS Pro for inclusion in federally mandated reports on statewide habitat management and bat monitoring.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2022 - 2022\n            Wildlife Biologist - Furbearer Program\n            \n                Served in a technical role for a statewide furbearer program, contributing to large portions of the research and management of furbearing species in Missouri. Managed large-scale data sets of furbearer harvest records, public observations, and other data into multi-dimensional relational databases, utilizing GIS mapping and programmatic software. Generated and presented informative population summaries, data visualizations, and other data-driven reports for internal and external stakeholders.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2020 - 2022\n            Assistant Natural History Biologist - Black Bear Program\n            \n                Led field and technical operations for a statewide black bear research and management program. Coordinated the monitoring of tagged black bears via ground and aerial telemetry, satellite web services, and physical capture of individuals while utilizing mobile GIS solutions for navigation and data collection. Developed and maintained black bear observation and biological databases using desktop GIS software and relational databases, ensuring the continuity of data integrity."
-  },
-  {
-    "objectID": "curriculum-vitae/index.html#techincal-proficiencies",
-    "href": "curriculum-vitae/index.html#techincal-proficiencies",
-    "title": "Curriculum vitae",
-    "section": "Techincal Proficiencies",
-    "text": "Techincal Proficiencies\n\n        \n        \n            Cartographic Design\n            \n            \n                Adept at using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps.\n            \n        \n\n\n\n        \n        \n            Data Viz & Reporting\n            \n            \n                Proficient in data visualization and reproducible reporting using Quarto, R Markdown, Jupyter Notebooks."
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about/index.html#where-am-i-now",
-    "href": "about/index.html#where-am-i-now",
-    "title": "About Me",
-    "section": "",
-    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about/index.html#my-professional-path",
-    "href": "about/index.html#my-professional-path",
-    "title": "About Me",
-    "section": "My Professional Path",
-    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program."
-  },
-  {
-    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
-    "href": "gallery/2018-squirrel-census-sighting-map/index.html",
-    "title": "2018 Squirrel Census Sighting Map",
-    "section": "",
-    "text": "Map Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
-  },
-  {
-    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
-    "href": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
-    "title": "2018 Squirrel Census Sighting Map",
+    "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html#tools-methods",
+    "href": "gallery/overlaying-public-lands-with-bmzs/index.html#tools-methods",
+    "title": "Overlaying Public Lands with BMZs",
     "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis map was created with several packages in RStudio using data from the Tidy Tuesday repository."
+    "text": "Tools & Methods\nAll data were pulled from internally-maintained geodatabases. Map creation was performed in ArcGIS Pro 2.9."
+  },
+  {
+    "objectID": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
+    "href": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
+    "title": "Missouri Bat HCP Overview & Update Poster",
+    "section": "Tools and Workflow",
+    "text": "Tools and Workflow\nMap creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
+  },
+  {
+    "objectID": "gallery/index.html",
+    "href": "gallery/index.html",
+    "title": "My Gallery",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Ocean Currents and Temperatures\n\n\n\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "gallery/global-ocean-currents-and-temps/index.html",
+    "href": "gallery/global-ocean-currents-and-temps/index.html",
+    "title": "Global Ocean Currents and Temperatures",
+    "section": "",
+    "text": "This was a global web scene built using ArcGIS Online."
+  },
+  {
+    "objectID": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
+    "href": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
+    "title": "Global Ocean Currents and Temperatures",
+    "section": "",
+    "text": "This was a global web scene built using ArcGIS Online."
+  },
+  {
+    "objectID": "gallery/global-ocean-currents-and-temps/index.html#final-result",
+    "href": "gallery/global-ocean-currents-and-temps/index.html#final-result",
+    "title": "Global Ocean Currents and Temperatures",
+    "section": "Final Result",
+    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/eagle-mountain-contour-map/index.html",
@@ -350,102 +224,235 @@
     "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/global-ocean-currents-and-temps/index.html",
-    "href": "gallery/global-ocean-currents-and-temps/index.html",
-    "title": "Global Ocean Currents and Temperatures",
+    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
+    "href": "gallery/2018-squirrel-census-sighting-map/index.html",
+    "title": "2018 Squirrel Census Sighting Map",
     "section": "",
-    "text": "This was a global web scene built using ArcGIS Online."
+    "text": "Map Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
   },
   {
-    "objectID": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
-    "href": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
-    "title": "Global Ocean Currents and Temperatures",
-    "section": "",
-    "text": "This was a global web scene built using ArcGIS Online."
-  },
-  {
-    "objectID": "gallery/global-ocean-currents-and-temps/index.html#final-result",
-    "href": "gallery/global-ocean-currents-and-temps/index.html#final-result",
-    "title": "Global Ocean Currents and Temperatures",
-    "section": "Final Result",
-    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/index.html",
-    "href": "gallery/index.html",
-    "title": "My Gallery",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Ocean Currents and Temperatures\n\n\n\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
-    "href": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
-    "title": "Missouri Bat HCP Overview & Update Poster",
-    "section": "Tools and Workflow",
-    "text": "Tools and Workflow\nMap creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
-  },
-  {
-    "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html",
-    "href": "gallery/overlaying-public-lands-with-bmzs/index.html",
-    "title": "Overlaying Public Lands with BMZs",
-    "section": "",
-    "text": "Map Credit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html#variations-created",
-    "href": "gallery/overlaying-public-lands-with-bmzs/index.html#variations-created",
-    "title": "Overlaying Public Lands with BMZs",
-    "section": "Variations Created",
-    "text": "Variations Created\n\n\n\n\n\nVariation 1. Map Credit: Benjamin Tjepkes\n\n\n\n\n\nVariation 2. Map Credit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html#tools-methods",
-    "href": "gallery/overlaying-public-lands-with-bmzs/index.html#tools-methods",
-    "title": "Overlaying Public Lands with BMZs",
+    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
+    "href": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
+    "title": "2018 Squirrel Census Sighting Map",
     "section": "Tools & Methods",
-    "text": "Tools & Methods\nAll data were pulled from internally-maintained geodatabases. Map creation was performed in ArcGIS Pro 2.9."
+    "text": "Tools & Methods\nThis map was created with several packages in RStudio using data from the Tidy Tuesday repository."
   },
   {
-    "objectID": "gallery/relative-coding-proficiency-chart/index.html#tools-methods",
-    "href": "gallery/relative-coding-proficiency-chart/index.html#tools-methods",
-    "title": "Relative Coding Proficiency Charts",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\nChart creation was performed in RStudio using the ggplot2 package and others."
-  },
-  {
-    "objectID": "gallery/turkey-harvest-maps-by-county/index.html",
-    "href": "gallery/turkey-harvest-maps-by-county/index.html",
-    "title": "County-Based Turkey Harvest Maps",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About Me",
     "section": "",
-    "text": "Harvest data were pulled from internal databases and prepped using tidyverse operations in R. Map creation was completed in ArcGIS Pro 2.9."
+    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "gallery/turkey-harvest-maps-by-county/index.html#tools-methods",
-    "href": "gallery/turkey-harvest-maps-by-county/index.html#tools-methods",
-    "title": "County-Based Turkey Harvest Maps",
+    "objectID": "about/index.html#where-am-i-now",
+    "href": "about/index.html#where-am-i-now",
+    "title": "About Me",
     "section": "",
-    "text": "Harvest data were pulled from internal databases and prepped using tidyverse operations in R. Map creation was completed in ArcGIS Pro 2.9."
+    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "gallery/turkey-harvest-maps-by-county/index.html#the-result",
-    "href": "gallery/turkey-harvest-maps-by-county/index.html#the-result",
-    "title": "County-Based Turkey Harvest Maps",
-    "section": "The Result",
-    "text": "The Result\n\n\n\nTurkey harvest maps. Credit: Ben Tjepkes"
+    "objectID": "about/index.html#my-professional-path",
+    "href": "about/index.html#my-professional-path",
+    "title": "About Me",
+    "section": "My Professional Path",
+    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program."
   },
   {
-    "objectID": "gallery/work-commitments-calendar/index.html",
-    "href": "gallery/work-commitments-calendar/index.html",
-    "title": "Weekly Work Commitments Calendar",
+    "objectID": "curriculum-vitae/index.html",
+    "href": "curriculum-vitae/index.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "University of Missouri\n            2023 - Present\n            Masters [MA] - Geography\n            \n                I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis in Geographic Information Systems. My thesis project will combine my interests in ecological science, phenology, climate, and geospatial modeling.\n            \n        \n\n\n\n        \n        \n            University of Wisconsin-Stevens Point\n            2015 - 2019\n            Bachelors [BS] - Wildlife Ecology and Management\n            \n                I earned my undergraduate degree in Wildlife Ecology and Management from the University of Wisconsin-Stevens Point. My minors were completed in Biology and Geographic Information Systems."
+  },
+  {
+    "objectID": "curriculum-vitae/index.html#formal-education",
+    "href": "curriculum-vitae/index.html#formal-education",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "University of Missouri\n            2023 - Present\n            Masters [MA] - Geography\n            \n                I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis in Geographic Information Systems. My thesis project will combine my interests in ecological science, phenology, climate, and geospatial modeling.\n            \n        \n\n\n\n        \n        \n            University of Wisconsin-Stevens Point\n            2015 - 2019\n            Bachelors [BS] - Wildlife Ecology and Management\n            \n                I earned my undergraduate degree in Wildlife Ecology and Management from the University of Wisconsin-Stevens Point. My minors were completed in Biology and Geographic Information Systems."
+  },
+  {
+    "objectID": "curriculum-vitae/index.html#career-experience",
+    "href": "curriculum-vitae/index.html#career-experience",
+    "title": "Curriculum vitae",
+    "section": "Career Experience",
+    "text": "Career Experience\n\n        \n        \n            University of Missouri\n            2023 - Present\n            Graduate Teaching Assistant - Geography Dept\n            \n                Deliver engaging instructional sessions to undergraduate students within discussion segments of a world regional geography course, concentrating on countries across Europe, Latin America, and North America. Duties include syllabus development, assignment evaluation, and overseeing course management system for 50+ students.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2022 - 2023\n            Assistant Wildlife Diversity Coordinator - Wildlife Diversity Program\n            \n                Collaborated with an inter-branch leadership team to implement the Missouri Bat Habitat Conservation Plan, serving as a technical lead for data reporting. Summarized large tabular datasets, analyzed spatial data from multiple enterprise geodatabases, and prepared data visualizations and summaries in RStudio and ArcGIS Pro for inclusion in federally mandated reports on statewide habitat management and bat monitoring.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2022 - 2022\n            Wildlife Biologist - Furbearer Program\n            \n                Served in a technical role for a statewide furbearer program, contributing to large portions of the research and management of furbearing species in Missouri. Managed large-scale data sets of furbearer harvest records, public observations, and other data into multi-dimensional relational databases, utilizing GIS mapping and programmatic software. Generated and presented informative population summaries, data visualizations, and other data-driven reports for internal and external stakeholders.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2020 - 2022\n            Assistant Natural History Biologist - Black Bear Program\n            \n                Led field and technical operations for a statewide black bear research and management program. Coordinated the monitoring of tagged black bears via ground and aerial telemetry, satellite web services, and physical capture of individuals while utilizing mobile GIS solutions for navigation and data collection. Developed and maintained black bear observation and biological databases using desktop GIS software and relational databases, ensuring the continuity of data integrity."
+  },
+  {
+    "objectID": "curriculum-vitae/index.html#techincal-proficiencies",
+    "href": "curriculum-vitae/index.html#techincal-proficiencies",
+    "title": "Curriculum vitae",
+    "section": "Techincal Proficiencies",
+    "text": "Techincal Proficiencies\n\n        \n        \n            Cartographic Design\n            \n            \n                Adept at using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps.\n            \n        \n\n\n\n        \n        \n            Data Viz & Reporting\n            \n            \n                Proficient in data visualization and reproducible reporting using Quarto, R Markdown, Jupyter Notebooks."
+  },
+  {
+    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html",
+    "href": "gallery/bald-eagle-nest-selection-poster/index.html",
+    "title": "Poster on Bald Eagle Nest Selection Research",
     "section": "",
     "text": "Credit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/work-commitments-calendar/index.html#tools-workflow",
-    "href": "gallery/work-commitments-calendar/index.html#tools-workflow",
-    "title": "Weekly Work Commitments Calendar",
+    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
+    "href": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
+    "title": "Poster on Bald Eagle Nest Selection Research",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nThis poster was assembled in Microsoft PowerPoint."
+  },
+  {
+    "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
+    "href": "gallery/endangered-species-stamp-collection-map/index.html",
+    "title": "Endangered Species Stamp Map",
+    "section": "",
+    "text": "Map Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
+    "href": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
+    "title": "Endangered Species Stamp Map",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nThe data for this visual were originally stored in an Excel spreadsheet that was then brought into the R environment via RStudio. Below is the entire script used for this visualization. My base code (particularly the get_calendar function) was based on the work of Tanya Shapiro.\n# LOAD PACKAGES ====\n\nlibrary(readxl)\nlibrary(tidyverse)\nlibrary(lubridate)\n\n# LOAD DATA & WRANGLE ====\n\nHourTracker_Tjepkes &lt;- read_excel(\"HourTracker_Tjepkes.xlsx\", \n                                  sheet = \"Sheet2\", col_types = c(\"date\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\",  \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\"))\n\n\nHourTracker &lt;- HourTracker_Tjepkes %&gt;% \n  select(Date, `Total Hours`)\n\nHourTracker$Date &lt;- ymd(HourTracker$Date)\n\n\nHourTracker_clean &lt;- HourTracker %&gt;% \n  mutate(Description = case_when(`Total Hours` == 0 ~ \"Day Off\",\n                                  `Total Hours` &gt; 8 ~ \"Long Day\",\n                                 `Total Hours` == 8 ~ \"Normal Day\",\n                                 `Total Hours` &lt; 8 ~ \"Short Day\"))\n\nunique_desc &lt;- HourTracker_clean %&gt;% \n                  distinct(Description) %&gt;% \n                  pull(Description)\n\nHourTracker_clean$Description &lt;-factor(HourTracker_clean$Description,\n                                       levels = unique_desc)\n\n\n# CALENDAR FUNCTION ====\n\nget_calendar &lt;- function(start_date, end_date) {\n  n_days &lt;- interval(start_date,end_date)/days(1)\n  date&lt;-start_date + days(0:n_days)\n  month_name&lt;-format(date,\"%B\")\n  month_num&lt;-format(date,\"%m\")\n  year&lt;-format(date,\"%Y\")\n  day_num&lt;-format(date,'%d')\n  day&lt;-wday(date, label=TRUE)\n  week_num&lt;-strftime(date, format = \"%V\")\n  cal&lt;-data.frame(date, year, month_name, month_num, day_num, day, week_num)\n  cal[cal$week_num&gt;=52 & cal$month_num==\"01\",\"week_num\"]=00\n  \n  week_month&lt;-cal%&gt;% \n    group_by(year,month_name, week_num)%&gt;%\n    summarise()%&gt;%\n    mutate(week_month_num=row_number())\n  \n  cal&lt;-merge(cal, week_month, by=c(\"month_name\"=\"month_name\",\"week_num\"=\"week_num\",\"year\"=\"year\"))\n  cal$month_name&lt;-factor(cal$month_name, levels=c(\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"))\n  cal$day&lt;-factor(cal$day, levels=c(\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\",\"Sun\"))\n  \n  return(cal)\n  \n}\n\n## create date range\nstart_date &lt;- as.Date('2021-01-01')\nend_date &lt;- as.Date('2021-12-31')\n\n## create calendar\ncal&lt;-get_calendar(start_date,end_date)\n\ncal %&gt;% View()\n\n\n# JOIN CALENDAR & HOUR DATA ====\n\nHourTracker_ForPlot &lt;- left_join(cal,\n                                 HourTracker_clean,\n                                 by = c(\"date\" = \"Date\"))\n\n# CREATE PLOT\n\n#custom color palette c('#26547c', '#ef476f', '#FFBC1F', '#05C793')\npal&lt;-c('#FFBC1F', 'lightgray', 'lightblue', '#05C793')\n\n#creating the plot\nggplot(HourTracker_ForPlot)+\n  geom_tile(mapping = aes(x = day,\n                          y=week_month_num),\n            fill=NA) +\n  \n  geom_text(mapping = aes(x=day,\n                          y=week_month_num,\n                          label=day_num),\n            color=\"black\") +\n  \n  geom_point(data = HourTracker_ForPlot,\n             mapping=aes(x=day,\n                         y=week_month_num,\n                         color = Description),\n             size = 7.6) +\n  \n  geom_text(data = HourTracker_ForPlot,\n            mapping=aes(x=day,\n                        y=week_month_num,\n                        label=day_num),\n            color=\"black\",\n            nudge_y = 0.04,\n            size = 3.0) +\n  \n  scale_y_reverse() +\n  \n  scale_color_manual(values = pal,\n              guide = guide_legend(title.position  =\"left\",\n                                   title.hjust = 0.5,\n                                    title.vjust = 0.6,\n                                  title=\"Type of Day:\")) +\n\n  \n  scale_x_discrete(position = \"top\") +\n  \n  labs(y=\"\", x= \"\", \n       title = 'My 2021 Work Commitments',\n       subtitle = \"Visualizing my yearly work schedule from January 1, 2021 to December 31, 2021\",\n       caption = \"Created by Benjamin Tjepkes using R/RStudio\") +\n  \n  facet_wrap(~month_name, scales = \"free_x\") +\n  \n  theme(\n    legend.position = \"top\",\n    axis.text.y = element_blank(),\n    axis.ticks = element_blank(),\n    panel.background = element_blank(),\n    plot.title = element_text(hjust=0.5,\n                              size=22,\n                              face = \"bold\"),\n    plot.subtitle=element_text(hjust = 0.5,\n                               size = 12,\n                               face = \"italic\",\n                               color = \"gray30\"),\n    legend.key = element_blank(),\n    legend.title = element_blank(),\n    legend.background = element_rect(),\n    legend.spacing.x = unit(0.4, 'cm'),\n    legend.text = element_text(margin = unit(c(0,0,0,-0.3), \"cm\")),\n    strip.background = element_rect(fill = '#26547c'),\n    strip.text = element_text(color = \"white\", face = \"bold\", size = 12),\n    axis.text.x = element_text(hjust = 0.5),  # Align x-axis text to the top\n    axis.title.x = element_blank(),  # Remove x-axis title\n    \n    plot.margin= unit(c(0.8,0.8,0.8,0.2), \"cm\")\n  )\n\nggsave(filename = \"calendar2.jpeg\",\n       plot = last_plot(),\n       dpi = \"retina\")"
+    "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas. This map recently received 2nd Place in the Professional category of the 2023 GIS Certification Institute Map Contest."
+  },
+  {
+    "objectID": "gallery/great-lakes-watershed-map/index.html",
+    "href": "gallery/great-lakes-watershed-map/index.html",
+    "title": "Great Lakes Watersheds Map",
+    "section": "",
+    "text": "Map Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/great-lakes-watershed-map/index.html#tools-methods",
+    "href": "gallery/great-lakes-watershed-map/index.html#tools-methods",
+    "title": "Great Lakes Watersheds Map",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nThis maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
+  },
+  {
+    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
+    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
+    "title": "Annual Report for MDC Furbearer Program",
+    "section": "",
+    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
+  },
+  {
+    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
+    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
+    "title": "Annual Report for MDC Furbearer Program",
+    "section": "",
+    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
+  },
+  {
+    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
+    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
+    "title": "Annual Report for MDC Furbearer Program",
+    "section": "Final Result",
+    "text": "Final Result\nThe full report document can be viewed here.\n\n\n\nExample pages from the report."
+  },
+  {
+    "objectID": "gallery/missouri-bear-sighting-map/index.html",
+    "href": "gallery/missouri-bear-sighting-map/index.html",
+    "title": "Choropleth of Missouri Bear Sightings",
+    "section": "",
+    "text": "Map Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
+  },
+  {
+    "objectID": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
+    "href": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
+    "title": "Choropleth of Missouri Bear Sightings",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nMap creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
+  },
+  {
+    "objectID": "gallery/national-champion-tree-map/index.html",
+    "href": "gallery/national-champion-tree-map/index.html",
+    "title": "National Champion Trees Map",
+    "section": "",
+    "text": "This map was created as part of the 2023 #30DayMapChallenge."
+  },
+  {
+    "objectID": "gallery/national-champion-tree-map/index.html#task-objectives",
+    "href": "gallery/national-champion-tree-map/index.html#task-objectives",
+    "title": "National Champion Trees Map",
+    "section": "",
+    "text": "This map was created as part of the 2023 #30DayMapChallenge."
+  },
+  {
+    "objectID": "gallery/national-champion-tree-map/index.html#tools-workflow",
+    "href": "gallery/national-champion-tree-map/index.html#tools-workflow",
+    "title": "National Champion Trees Map",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nData were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro."
+  },
+  {
+    "objectID": "gallery/national-champion-tree-map/index.html#final-result",
+    "href": "gallery/national-champion-tree-map/index.html#final-result",
+    "title": "National Champion Trees Map",
+    "section": "Final Result",
+    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "gallery/shoreline-structure-setback-compliance-map/index.html",
+    "href": "gallery/shoreline-structure-setback-compliance-map/index.html",
+    "title": "Shoreline Structure Setback Compliance",
+    "section": "",
+    "text": "Map Credit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "gallery/shoreline-structure-setback-compliance-map/index.html#tools-methods",
+    "href": "gallery/shoreline-structure-setback-compliance-map/index.html#tools-methods",
+    "title": "Shoreline Structure Setback Compliance",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nThis map and all spatial analysis needed to create it was performed in ArcMap 10.x. All primary structures in each lake-adjacent parcel were outlined using heads-up digitizing techniques. The distance to water was then determined using the Near tool in ArcMap, referencing the ordinary high water mark for compliance."
+  },
+  {
+    "objectID": "gallery/vineyard-and-winery-location-suitability-map/index.html",
+    "href": "gallery/vineyard-and-winery-location-suitability-map/index.html",
+    "title": "Vineyard and Winery Location Suitability Map",
+    "section": "",
+    "text": "This project included raster-based suitability calculations completed in ArcMap 10.X."
+  },
+  {
+    "objectID": "gallery/vineyard-and-winery-location-suitability-map/index.html#methods-tools",
+    "href": "gallery/vineyard-and-winery-location-suitability-map/index.html#methods-tools",
+    "title": "Vineyard and Winery Location Suitability Map",
+    "section": "",
+    "text": "This project included raster-based suitability calculations completed in ArcMap 10.X."
+  },
+  {
+    "objectID": "gallery/vineyard-and-winery-location-suitability-map/index.html#final-result",
+    "href": "gallery/vineyard-and-winery-location-suitability-map/index.html#final-result",
+    "title": "Vineyard and Winery Location Suitability Map",
+    "section": "Final Result",
+    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Benjamin W. Tjepkes, BSc.",
+    "section": "",
+    "text": "Ben with an anesthetized black bear.\n\n\n\n\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.\nI have several years of continuous professional development working with governmental, private, and academic entities across the US."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Benjamin W. Tjepkes, BSc.",
+    "section": "",
+    "text": "Ben with an anesthetized black bear.\n\n\n\n\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography.\nMy work focuses on using a variety of data science and geospatial technologies to research the natural world, often aimed at conservation.\nI have several years of continuous professional development working with governmental, private, and academic entities across the US."
+  },
+  {
+    "objectID": "index.html#emphasis-areas",
+    "href": "index.html#emphasis-areas",
+    "title": "Benjamin W. Tjepkes, BSc.",
+    "section": "Emphasis Areas",
+    "text": "Emphasis Areas\n\n\n\n\nGeospatial & Cartography\nSpatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartousing QGIS and ArcGIS.\n\n\n\nResearch & Reporting\nData entry, management, and analysis using R, Excel, Access, and SQL Server. Reproducible report design and development in Word, R Markdown, and Quarto.\n\n\n\nDesign & Visualization\nFront-end web development with HTML, CSS, and JSON. Version control using git/GitHub. Proficient in data visualization for technical and creative projects."
+  },
+  {
+    "objectID": "index.html#exploring-this-site",
+    "href": "index.html#exploring-this-site",
+    "title": "Benjamin W. Tjepkes, BSc.",
+    "section": "Exploring This Site",
+    "text": "Exploring This Site\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nA full look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires, comments, and collaborations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/can-you-naturally-protect-shores-from-erosion/index.html",

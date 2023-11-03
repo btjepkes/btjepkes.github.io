@@ -6,6 +6,8 @@ categories:
   - Map Gallery
   - Minnesota
   - Contour
+keywords:
+  - "#30DayMapChallenge2023"
 abstract: This map provides a topographical view of Eagle Mountain, which is Minnesota's highest point. Contours and hydological features are represented in this simple map.
 image: img-eagle-mtn-map.png
 image-alt: "A contour map showing Eagle Mountain and the surrounding topography and hydrological features."
