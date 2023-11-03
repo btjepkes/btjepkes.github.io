@@ -1,0 +1,27 @@
+---
+title: "Eagle Mountain Contour Map"
+subtitle: "Visualizing Minnesota's highest peak."
+date: 11/02/2023
+categories:
+  - Map Gallery
+  - Minnesota
+  - Contour
+abstract: This map provides a topographical view of Eagle Mountain, which is Minnesota's highest point. Contours and hydological features are represented in this simple map.
+image: img-eagle-mtn-map.png
+image-alt: "A contour map showing Eagle Mountain and the surrounding topography and hydrological features."
+# aliases:
+---
+
+## Task & Objectives
+
+The prompt for this map was for Day Two of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "lines" for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity.
+
+## Tools & Workflow
+
+Data were downloaded from the Minnesota Department of Natural Resources GIS hub site, including a 3-meter digital elevation model (DEM) and a general hydrological features layer.
+
+In ArcGIS Pro, the DEM was used to generate a simplified 10-m contour feature class. The lakes and stream features were then added to provide context for the surrounding area.
+
+## Final Result
+
+![Credit: Benjamin Tjepkes](img-eagle-mtn-map.png)

@@ -245,39 +245,18 @@
     "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas. This map recently received 2nd Place in the Professional category of the 2023 GIS Certification Institute Map Contest."
   },
   {
-    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
-    "href": "gallery/2018-squirrel-census-sighting-map/index.html",
-    "title": "2018 Squirrel Census Sighting Map",
+    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html",
+    "href": "gallery/bald-eagle-nest-selection-poster/index.html",
+    "title": "Poster on Bald Eagle Nest Selection Research",
     "section": "",
-    "text": "Map Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
+    "text": "Credit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
-    "href": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
-    "title": "2018 Squirrel Census Sighting Map",
+    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
+    "href": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
+    "title": "Poster on Bald Eagle Nest Selection Research",
     "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis map was created with several packages in RStudio using data from the Tidy Tuesday repository."
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about/index.html#where-am-i-now",
-    "href": "about/index.html#where-am-i-now",
-    "title": "About Me",
-    "section": "",
-    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about/index.html#my-professional-path",
-    "href": "about/index.html#my-professional-path",
-    "title": "About Me",
-    "section": "My Professional Path",
-    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program."
+    "text": "Tools & Methods\nThis poster was assembled in Microsoft PowerPoint."
   },
   {
     "objectID": "curriculum-vitae/index.html",
@@ -308,18 +287,67 @@
     "text": "Techincal Proficiencies\n\n        \n        \n            Cartographic Design\n            \n            \n                Adept at using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps.\n            \n        \n\n\n\n        \n        \n            Data Viz & Reporting\n            \n            \n                Proficient in data visualization and reproducible reporting using Quarto, R Markdown, Jupyter Notebooks."
   },
   {
-    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html",
-    "href": "gallery/bald-eagle-nest-selection-poster/index.html",
-    "title": "Poster on Bald Eagle Nest Selection Research",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About Me",
     "section": "",
-    "text": "Credit: Benjamin Tjepkes"
+    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
-    "href": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
-    "title": "Poster on Bald Eagle Nest Selection Research",
+    "objectID": "about/index.html#where-am-i-now",
+    "href": "about/index.html#where-am-i-now",
+    "title": "About Me",
+    "section": "",
+    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/index.html#my-professional-path",
+    "href": "about/index.html#my-professional-path",
+    "title": "About Me",
+    "section": "My Professional Path",
+    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program."
+  },
+  {
+    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
+    "href": "gallery/2018-squirrel-census-sighting-map/index.html",
+    "title": "2018 Squirrel Census Sighting Map",
+    "section": "",
+    "text": "Map Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
+    "href": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
+    "title": "2018 Squirrel Census Sighting Map",
     "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis poster was assembled in Microsoft PowerPoint."
+    "text": "Tools & Methods\nThis map was created with several packages in RStudio using data from the Tidy Tuesday repository."
+  },
+  {
+    "objectID": "gallery/eagle-mountain-contour-map/index.html",
+    "href": "gallery/eagle-mountain-contour-map/index.html",
+    "title": "Eagle Mountain Contour Map",
+    "section": "",
+    "text": "The prompt for this map was for Day Two of the 2023 30 Day Map Challenge, which designated “lines” for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity."
+  },
+  {
+    "objectID": "gallery/eagle-mountain-contour-map/index.html#task-objectives",
+    "href": "gallery/eagle-mountain-contour-map/index.html#task-objectives",
+    "title": "Eagle Mountain Contour Map",
+    "section": "",
+    "text": "The prompt for this map was for Day Two of the 2023 30 Day Map Challenge, which designated “lines” for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity."
+  },
+  {
+    "objectID": "gallery/eagle-mountain-contour-map/index.html#tools-workflow",
+    "href": "gallery/eagle-mountain-contour-map/index.html#tools-workflow",
+    "title": "Eagle Mountain Contour Map",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nData were downloaded from the Minnesota Department of Natural Resources GIS hub site, including a 3-meter digital elevation model (DEM) and a general hydrological features layer.\nIn ArcGIS Pro, the DEM was used to generate a simplified 10-m contour feature class. The lakes and stream features were then added to provide context for the surrounding area."
+  },
+  {
+    "objectID": "gallery/eagle-mountain-contour-map/index.html#final-result",
+    "href": "gallery/eagle-mountain-contour-map/index.html#final-result",
+    "title": "Eagle Mountain Contour Map",
+    "section": "Final Result",
+    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/global-ocean-currents-and-temps/index.html",
@@ -347,7 +375,7 @@
     "href": "gallery/index.html",
     "title": "My Gallery",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Ocean Currents and Temperatures\n\n\n\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Ocean Currents and Temperatures\n\n\n\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
