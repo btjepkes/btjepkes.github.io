@@ -2,7 +2,7 @@
 title: "Benjamin W. Tjepkes, BSc."
 subtitle: "Integrating Ecological and Geospatial Science for Conservation"
 abstract: "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and studying geographer. This site provides an overview of my professional experience and a showcase of my technical writings and visualizations."
-image: "assets/img-bog-trees.jpg"
+image: "assets/img-ben-portrait-2.jpg"
 image-alt: "Image-of-trees."
 pagetitle: "Portfolio | B.W. Tjepkes"
 author-meta: Benjamin Tjepkes
@@ -24,31 +24,7 @@ listing:
     fields:
       - title
       - subtitle
-      - image
 ---
-
-## About Me {.h2-index}
-
-::: {.index-intro-start}
-
-::: {.intro-headshot}
-
-![Ben with an anesthetized black bear.](assets/img-ben-with-bear-2.jpg){.nolightbox .headshot-img}
-
-:::
-
-
-::: {.index-intro-start-text}
-
-I am a **graduate student** at **the University of Missouri** studying geographic information systems in the Department of Geography.
-
-My work focuses on using a variety of **data science** and **geospatial technologies** to research the natural world, often aimed at conservation.
-
-I have several years of continuous professional development working with governmental, private, and academic entities across the US.
-
-:::
-:::
-
 
 ## Emphasis Areas {.h2-index}
 
@@ -88,6 +64,22 @@ Front-end web development with HTML, CSS, and JSON. Version control using git/Gi
 :::
   
 :::
+
+## About Me {.h2-index}
+
+::: {.index-intro-start}
+
+::: {.index-intro-start-text}
+
+I am a **graduate student** at **the University of Missouri** studying geographic information systems in the Department of Geography.
+
+My work focuses on using a variety of **data science** and **geospatial technologies** to research the natural world, often aimed at conservation.
+
+I have several years of continuous professional development working with governmental, private, and academic entities across the US.
+
+:::
+:::
+
 
 ## Exploring This Site {.h2-index}
 

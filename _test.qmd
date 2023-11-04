@@ -12,6 +12,11 @@ format:
     
 ---
 
+  <!--  $if(image)$ -->
+  <!--   <img src=$image$ alt=$image-alt$ class="image-cover"> -->
+  <!-- $endif$ -->
+
+
 ## My Education
 
 I have been fortunate to have experienced higher education at several colleges and universities in the United States.
