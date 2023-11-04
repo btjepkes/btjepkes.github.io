@@ -349,10 +349,20 @@ div.sourceCode {
 
 // HEADER
 
+.image-cover-container {
+  background: rgba(255,255,255,0.05);
+  margin-bottom: 2em;
+  width: 100vw;
+  background-image: url("assets/mountains.svg");
+  background-repeat: repeat-x;
+  padding: 1em 0;
+}
+
+
 .image-cover {
   position: relative;
   object-fit: cover;
-  margin: 0 auto 2em auto;
+  margin: 0 auto;
   width: 300px;
   height: 300px;
   border-radius: 50%;
