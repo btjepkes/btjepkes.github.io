@@ -1,0 +1,28 @@
+---
+title: "Canadian Ecoregions Map"
+subtitle: "Visualizing Canada's major ecological regions."
+date: 11/03/2023
+categories:
+  - Map Gallery
+  - Canada
+keywords:
+  - "#30DayMapChallenge2023"
+abstract: This map provides a representation of the general ecoregions across Canada. These are based on Level Ecoregions from the EPA system.
+image: img-canadian-ecoregions.png
+image-alt: "A regional map showing Canada and several level one ecological regions."
+# aliases:
+---
+
+## Task & Objectives
+
+The prompt for this map was for Day Three of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "polygons" for the main subject.
+
+## Tools & Workflow
+
+- Data were downloaded from the U.S. Environmental Protection Agency site.
+- Map production was completed in ArcGIS Pro.
+
+
+## Final Result
+
+![Credit: Benjamin Tjepkes](img-canadian-ecoregions.png)
