@@ -292,5 +292,8 @@
   },
   "gallery/canadian-ecoregion-map/index.qmd": {
     "index.html": "f5dd88af"
+  },
+  "gallery/tiger-distribution-map/index.qmd": {
+    "index.html": "33c01372"
   }
 }

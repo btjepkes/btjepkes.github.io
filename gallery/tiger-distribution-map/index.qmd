@@ -1,0 +1,39 @@
+---
+title: "Tiger Range and Conservation Landscape Map"
+subtitle: "Historical and current *Panthera tigris* range."
+date: 11/06/2023
+categories:
+  - Map Gallery
+  - Asia
+keywords:
+  - "#30DayMapChallenge2023"
+abstract: This map provides a continental look at the current and past spatial distribution of tigers. Related but of special focus, the Tiger Conservation Landscapes (TCLs) are also visualized.
+image: img-tiger-range-map.png
+image-alt: "A map of Asia showing the current and historical range of tigers."
+# aliases:
+---
+
+## Objectives
+
+This map was my contribution to **Day Six** of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which prompted "Asia" as the main subject. I knew right away that I was going to be mapping either a threatened wildlife species or a threatened orchid species given this location. I was also wanting an interesting project to work more creatively in RStudio on my programmatic cartography and this fit the bill perfectly.
+
+## Tools & Workflow
+
+Like many of my visualizations in R, I assembled this map using `ggplot` and many ancillary packages. One package that I was happy to use was `arcgisbinding`, which allowed me to easily load in a web feature layer (Tiger Conservation Landscapes from the Esri Living Atlas).
+
+```r
+library(rnaturalearth)
+library(sf)
+library(tidyverse)
+library(ggspatial)
+library(ggtext)
+library(showtext)
+library(camcorder)
+library(arcgisbinding)
+```
+
+The historical and current range data were available as a download from the IUCN Red List. These overlapped well with the TCLs, so I decided to handle those as proportional symbols based on their area.
+
+## Final Result
+
+![Credit: Benjamin Tjepkes](img-tiger-range-map.png)
