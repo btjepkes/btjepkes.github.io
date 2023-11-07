@@ -36,30 +36,48 @@ listing:
 
 {{< fa layer-group size=3x >}}
 
-**Geospatial & Cartography**
+::: {.col-heading}
+Geospatial
+:::
 
-Spatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartousing QGIS and ArcGIS.
+Spatial data creation, management, analysis, and visualization using desktop, web, and mobile GIS.
 
 :::
     
+:::{.col-sm}
+
+{{< fa tree size=3x >}}
+
+::: {.col-heading}
+Ecology
+:::
+
+Scientific and technical research, management, and analysis across diverse taxa and technology.
+    
+:::
+
 :::{.col-sm}
 
 {{< fa chart-simple size=3x >}}
 
-**Research & Reporting**
+::: {.col-heading}
+Analytics
+:::
 
-Data entry, management, and analysis using R, Excel, Access, and SQL Server. Reproducible report design and development in Word, R Markdown, and Quarto.
+Reproducible data handling, analysis, visualization, and reporting.
     
 :::
-:::{.col-sm}
+<!-- :::{.col-sm} -->
 
-{{< fa file-code size=3x >}}
+<!-- {{< fa file-code size=3x >}} -->
 
-**Design & Visualization**
+<!-- ::: {.col-heading} -->
+<!-- Design & Visualization -->
+<!-- ::: -->
 
-Front-end web development with HTML, CSS, and JSON. Version control using git/GitHub. Proficient in data visualization for technical and creative projects.
+<!-- Front-end web development with HTML, CSS, and JSON. Version control using git/GitHub. Proficient in data visualization for technical and creative projects. -->
 
-:::
+<!-- ::: -->
   
 :::
   
@@ -71,11 +89,7 @@ Front-end web development with HTML, CSS, and JSON. Version control using git/Gi
 
 ::: {.index-intro-start-text}
 
-I am a **graduate student** at **the University of Missouri** studying geographic information systems in the Department of Geography.
-
-My work focuses on using a variety of **data science** and **geospatial technologies** to research the natural world, often aimed at conservation.
-
-I have several years of continuous professional development working with governmental, private, and academic entities across the US.
+I am a **graduate student** at **the University of Missouri** studying geographic information systems in the Department of Geography. My work focuses on using a variety of **data science** and **geospatial technologies** to research the natural world, often aimed at conservation. I have several years of continuous professional development working with governmental, private, and academic entities across the US.
 
 :::
 :::

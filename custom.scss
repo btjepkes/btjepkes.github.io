@@ -167,7 +167,7 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Sen, Atkinson Hyperlegible, Nunito, sans-serif;
-  background-image: url("assets/bg-links.jpg");
+  background: linear-gradient(to bottom, #ffffff, rgba(255,255,255,0.05)), url("assets/bg-links.jpg");
   background-attachment: fixed;
   background-position: center;
 }
