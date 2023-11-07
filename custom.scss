@@ -172,6 +172,12 @@ body {
   background-position: center;
 }
 
+      @media (max-width: 991.98px) {
+        body {
+          background: #ffffff;
+        }
+      }
+
 
 h1 {
   color: $white;
@@ -363,10 +369,10 @@ div.sourceCode {
   position: relative;
   object-fit: cover;
   margin: 0 auto;
-  width: 300px;
-  height: 300px;
+  width: 330px;
+  height: 330px;
   border-radius: 50%;
-  border: solid 12px #205c6d55;
+  border: solid 24px #205c6d55;
   overflow: hidden;
 }
 

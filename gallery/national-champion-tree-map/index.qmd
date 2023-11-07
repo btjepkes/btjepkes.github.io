@@ -9,13 +9,13 @@ categories:
 keywords:
   - "#30DayMapChallenge2023"
 abstract: This map shows the locations of all the registered trees in the National Champion Tree Program as of 2021. These are the largest living individuals of each tree species, with some holding co-champion titles.
-image: img-national-champion-trees.png
+image: img-national-champion-trees-thumbnail.png
 image-alt: "Map showing the United States and the locations of champion trees displayed as points."
 # aliases:
 ---
-## Task & Objectives
+## Objective
 
-This map was created as part of the 2023 #30DayMapChallenge.
+This map was created for **Day 1** of the 2023 #30DayMapChallenge. The prompt for the day was "Points". I have been exploring these amazing specimens for awhile, so thought I would map them out for the challenge.
 
 ## Tools & Workflow
 
