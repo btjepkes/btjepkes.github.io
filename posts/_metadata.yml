@@ -2,7 +2,6 @@ execute:
   freeze: auto
 description-meta: "{{< meta description >}}"
 title-prefix: "Blog Post - "
-toc-expand: true
 
 # Default for table of contents
 toc: true

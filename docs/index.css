@@ -176,6 +176,7 @@
   display: flex;
   flex-direction: row;
   gap: 1.4em;
+  margin-left: 8px;
 }
     @media screen and (max-width: 550px) {
       .row {
@@ -185,7 +186,7 @@
 .col-sm {
   display: flex;
   background: white;
-  border-radius: 4px 20px 4px 20px;
+  border-radius: 4px 4px 4px 20px;
   border: solid 3px #153b46;
   -webkit-box-shadow: -8px 8px #356b7b;
   box-shadow: -8px 8px #356b7b;

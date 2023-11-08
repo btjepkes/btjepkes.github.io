@@ -80,7 +80,7 @@ Data handling, analysis, visualization, and reporting across disciplines followi
   
 :::
 
-## Current Role {.h2-index}
+## Current Role & Work {.h2-index}
 
 ::: {.index-intro-start}
 
@@ -89,11 +89,11 @@ Data handling, analysis, visualization, and reporting across disciplines followi
 I am a **graduate student** at **the University of Missouri** studying geographic information systems in the Department of Geography. My work focuses on using a variety of **data science** and **geospatial technologies** to research the natural world, particularly aimed at landscape conservation.
 
 :::
-
-
-::: {#site-listings-1}
 :::
 
+## Exploring This Site {.h2-index}
+
+::: {#site-listings-1}
 :::
 
 <!-- ::: {.callout-important collapse="true" } -->
