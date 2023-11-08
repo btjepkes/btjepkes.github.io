@@ -62,10 +62,7 @@
     "items": [
       "/about/index.html",
       "/curriculum-vitae/index.html",
-      "/contact.html",
-      "/posts/index.html",
-      "/gallery/index.html",
-      "/research/index.html"
+      "/contact.html"
     ]
   }
 ]

@@ -336,6 +336,11 @@ div.sourceCode {
 
 // SIDEBAR
 
+#quarto-margin-sidebar {
+  background: #ededed;
+  padding-left: 24px;
+}
+
 @media (max-width: 991.98px) {
   nav.quarto-secondary-nav {
     display: none;
@@ -372,7 +377,7 @@ div.sourceCode {
   width: 330px;
   height: 330px;
   border-radius: 50%;
-  border: solid 24px #205c6d55;
+  border: solid 16px #205c6d55;
   overflow: hidden;
 }
 
@@ -837,10 +842,6 @@ div.quarto-post .metadata {
   border-top: solid 1px lightgray;
 }
 
-#quarto-margin-sidebar {
-  background: #ededed; /*rgba(211, 230, 232);*/
-  padding-left: 24px;
-}
 
 @media (max-width: 767.98px) {
   

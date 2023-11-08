@@ -1,4 +1,4 @@
-.h2-index h2 {
+/*.h2-index h2 {
   border-bottom: solid 5px #205c6d;
   font-size: 1.5em;
   padding-top: 0.5em;
@@ -7,14 +7,15 @@
   text-align: center;
   color: white;
   border-radius: 4px 4px 0 0;
-}
+  margin-bottom: 1.4em;
+}*/
 
 .index-intro-start {
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 2em;
   display: flex;
-  flex-direction: row;
-  gap: 2.2em;
+  flex-direction: column;
+  gap: 0.5em;
 }
 
 .index-intro-start > * {
@@ -43,7 +44,7 @@
 }
 
 .index-intro-start-text strong {
-  background: lightgreen;
+  background: #ededed;
   border-radius: 1px;
 }
 
@@ -168,12 +169,13 @@
 .container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 4em;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  gap: 1em;
+  gap: 1.4em;
 }
     @media screen and (max-width: 550px) {
       .row {
@@ -183,9 +185,11 @@
 .col-sm {
   display: flex;
   background: white;
-  border-radius: 8px;
-  border: solid 3px #eaeaea;
-  padding: 30px 20px;
+  border-radius: 4px 20px 4px 20px;
+  border: solid 3px #153b46;
+  -webkit-box-shadow: -8px 8px #356b7b;
+  box-shadow: -8px 8px #356b7b;
+  padding: 24px 16px;
   flex: 1;
   flex-direction: column;
 }
@@ -197,7 +201,7 @@
 
 .col-heading {
   font-weight: 800;
-  font-size: 1.5em;
-  color: #20595d;
+  font-size: 1.7em;
+  color: #000;
 }
 

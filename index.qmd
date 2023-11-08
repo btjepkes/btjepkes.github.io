@@ -1,7 +1,7 @@
 ---
 title: "Benjamin W. Tjepkes, BSc."
 subtitle: "Integrating Ecological and Geospatial Science for Conservation"
-abstract: "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and studying geographer. This site provides an overview of my professional experience and a showcase of my technical writings and visualizations."
+abstract: "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and studying geographer. This site provides a professional overview of career experience and a showcase of technical writings and visualizations."
 image: "assets/img-ben-portrait-2.jpg"
 image-alt: "Image-of-trees."
 pagetitle: "Portfolio | B.W. Tjepkes"
@@ -16,9 +16,6 @@ listing:
       - "about/index.qmd"
       - "curriculum-vitae/index.qmd"
       - "contact.qmd"
-      - "research/index.qmd"
-      - "posts/index.qmd"
-      - "gallery/index.qmd"      
     type: grid
     grid-columns: 3
     fields:
@@ -64,7 +61,7 @@ Scientific and technical research, management, and analysis across diverse taxa 
 Analytics
 :::
 
-Reproducible data handling, analysis, visualization, and reporting.
+Data handling, analysis, visualization, and reporting across disciplines following reproducible workflows.
     
 :::
 <!-- :::{.col-sm} -->
@@ -83,23 +80,21 @@ Reproducible data handling, analysis, visualization, and reporting.
   
 :::
 
-## About Me {.h2-index}
+## Current Role {.h2-index}
 
 ::: {.index-intro-start}
 
 ::: {.index-intro-start-text}
 
-I am a **graduate student** at **the University of Missouri** studying geographic information systems in the Department of Geography. My work focuses on using a variety of **data science** and **geospatial technologies** to research the natural world, often aimed at conservation. I have several years of continuous professional development working with governmental, private, and academic entities across the US.
+I am a **graduate student** at **the University of Missouri** studying geographic information systems in the Department of Geography. My work focuses on using a variety of **data science** and **geospatial technologies** to research the natural world, particularly aimed at landscape conservation.
 
 :::
-:::
 
-
-## Exploring This Site {.h2-index}
 
 ::: {#site-listings-1}
 :::
 
+:::
 
 <!-- ::: {.callout-important collapse="true" } -->
 
