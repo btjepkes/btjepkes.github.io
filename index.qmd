@@ -16,12 +16,30 @@ listing:
       - "about/index.qmd"
       - "curriculum-vitae/index.qmd"
       - "contact.qmd"
+      - "gallery/index.qmd"
+      - "posts/index.qmd"
+      - "research/index.qmd"
     type: grid
     grid-columns: 3
     fields:
       - title
       - subtitle
+  - id: gallery-listings
+    include:
+      keywords: "#30DayMapChallenge2023"
+    contents:
+      - "gallery/*/index.qmd"
+    type: grid
+    grid-columns: 2
+    sort: "date"
+    image-height: 300px
+    fields:
+      - title
+      - image
 ---
+
+::: {#site-listings-1}
+:::
 
 ## Emphasis Areas {.h2-index}
 
@@ -91,9 +109,9 @@ I am a **graduate student** at **the University of Missouri** studying geographi
 :::
 :::
 
-## Exploring This Site {.h2-index}
+## My Latest Work {.h2-index}
 
-::: {#site-listings-1}
+::: {#gallery-listings .listings-gallery}
 :::
 
 <!-- ::: {.callout-important collapse="true" } -->

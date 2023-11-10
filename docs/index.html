@@ -95,6 +95,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-gallery-listings .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-gallery-listings'] = new List('listing-gallery-listings', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
@@ -328,7 +356,7 @@ cookieconsent.run({
   <ul>
   <li><a href="#emphasis-areas" id="toc-emphasis-areas" class="nav-link active" data-scroll-target="#emphasis-areas">Emphasis Areas</a></li>
   <li><a href="#current-role-work" id="toc-current-role-work" class="nav-link" data-scroll-target="#current-role-work">Current Role &amp; Work</a></li>
-  <li><a href="#exploring-this-site" id="toc-exploring-this-site" class="nav-link" data-scroll-target="#exploring-this-site">Exploring This Site</a></li>
+  <li><a href="#my-latest-work" id="toc-my-latest-work" class="nav-link" data-scroll-target="#my-latest-work">My Latest Work</a></li>
   </ul>
 </nav>
     </div>
@@ -337,6 +365,97 @@ cookieconsent.run({
 
 
 
+<div id="listing-site-listings-1" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1698673194262" data-listing-reading-time-sort="2">
+<a href="./about/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+About Me
+</h5>
+<div class="card-subtitle listing-subtitle">
+Learn about my career path and professional interests.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1698761187747" data-listing-reading-time-sort="7">
+<a href="./curriculum-vitae/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Curriculum vitae
+</h5>
+<div class="card-subtitle listing-subtitle">
+A full look at my education and professional experience.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1698527207430" data-listing-reading-time-sort="1">
+<a href="./contact.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Links &amp; Contact
+</h5>
+<div class="card-subtitle listing-subtitle">
+Reach out to me with inquires, comments, and collaborations.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1698526390093" data-listing-reading-time-sort="1">
+<a href="./posts/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Blog Posts
+</h5>
+<div class="card-subtitle listing-subtitle">
+Explore my writings on ecological and geospatial data science.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1698861280380" data-listing-reading-time-sort="1">
+<a href="./gallery/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Gallery
+</h5>
+<div class="card-subtitle listing-subtitle">
+Maps, visualizations, reports, posters, and presentations.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1698527123135" data-listing-reading-time-sort="1">
+<a href="./research/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Research
+</h5>
+<div class="card-subtitle listing-subtitle">
+Focusing on spatial ecology and geographic information systems.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 <section id="emphasis-areas" class="level2 h2-index">
 <h2 class="h2-index" data-anchor-id="emphasis-areas">Emphasis Areas</h2>
 <div class="container">
@@ -380,48 +499,62 @@ cookieconsent.run({
 </div>
 </div>
 </section>
-<section id="exploring-this-site" class="level2 h2-index">
-<h2 class="h2-index" data-anchor-id="exploring-this-site">Exploring This Site</h2>
-<div id="listing-site-listings-1" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1698673194262" data-listing-reading-time-sort="2">
-<a href="./about/index.html" class="quarto-grid-link">
+<section id="my-latest-work" class="level2 h2-index">
+<h2 class="h2-index" data-anchor-id="my-latest-work">My Latest Work</h2>
+<div id="listing-gallery-listings" class="listings-gallery quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1699367309873" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./gallery/national-champion-tree-map/img-national-champion-trees-thumbnail.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing the United States and the locations of champion trees displayed as points.">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-About Me
+National Champion Trees Map
 </h5>
-<div class="card-subtitle listing-subtitle">
-Learn about my career path and professional interests.
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1698761187747" data-listing-reading-time-sort="7">
-<a href="./curriculum-vitae/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="Map Gallery,Minnesota,Contour" data-listing-date-sort="1698901200000" data-listing-file-modified-sort="1699024332023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./gallery/eagle-mountain-contour-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./gallery/eagle-mountain-contour-map/img-eagle-mtn-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A contour map showing Eagle Mountain and the surrounding topography and hydrological features.">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Curriculum vitae
+Eagle Mountain Contour Map
 </h5>
-<div class="card-subtitle listing-subtitle">
-A full look at my education and professional experience.
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1698527207430" data-listing-reading-time-sort="1">
-<a href="./contact.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="Map Gallery,Canada" data-listing-date-sort="1698987600000" data-listing-file-modified-sort="1699115271906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./gallery/canadian-ecoregion-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./gallery/canadian-ecoregion-map/img-canadian-ecoregions.png" class="thumbnail-image card-img" style="height: 300px;" alt="A regional map showing Canada and several level one ecological regions.">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Links &amp; Contact
+Canadian Ecoregions Map
 </h5>
-<div class="card-subtitle listing-subtitle">
-Reach out to me with inquires, comments, and collaborations.
 </div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1699246571373" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./gallery/tiger-distribution-map/img-tiger-range-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A map of Asia showing the current and historical range of tigers.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tiger Range and Conservation Landscape Map
+</h5>
 </div>
 </div>
 </a>

@@ -62,7 +62,14 @@
     "items": [
       "/about/index.html",
       "/curriculum-vitae/index.html",
-      "/contact.html"
+      "/contact.html",
+      "/posts/index.html",
+      "/gallery/index.html",
+      "/research/index.html",
+      "/gallery/national-champion-tree-map/index.html",
+      "/gallery/eagle-mountain-contour-map/index.html",
+      "/gallery/canadian-ecoregion-map/index.html",
+      "/gallery/tiger-distribution-map/index.html"
     ]
   }
 ]
