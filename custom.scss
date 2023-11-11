@@ -205,13 +205,14 @@ h2 {
 }
 
 .subtitle {
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.2em;
   font-size: clamp(1em, 5vw, 1.8em);
   letter-spacing: 0.01em;
   color: skyblue;
   padding-left: 1em;
   padding-right: 1em;
+  font-family: "Sen";
 }
 
 .quarto-title-meta a {
@@ -273,9 +274,7 @@ div.sourceCode {
 // Navbar
 
 .navbar {
-  /*background-image: 
-    linear-gradient(to right bottom, #000000, #161014, #211b24, #272737, #25354a);*/
-    border-bottom: solid rgba(237, 237, 237,0.3) 1px;
+  border-bottom: solid rgba(237, 237, 237,0.3) 1px;
   box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
 	padding: 0.3em 20px;
@@ -283,7 +282,7 @@ div.sourceCode {
 }
 
 .navbar-brand span {
-  font-weight: 100 !important;
+  font-weight: 600 !important;
   text-transform: uppercase;
   font-family: 'Sen';
 }
@@ -431,6 +430,8 @@ div.sourceCode {
   justify-content: center;
   padding-top: 3em;
   padding-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
       @media (max-width: 991.98px) {
         #title-block-header {
