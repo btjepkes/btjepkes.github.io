@@ -180,14 +180,23 @@ body {
 
 
 h1 {
-  color: $white;
+  color: white;
   opacity: 1.0 !important;
-  padding-left: 1em;
-  padding-right: 1em;
   font-size: clamp(2.4em, 5vw, 3.4em);
-  padding-bottom: 0em;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
 }
+
+/*
+.title-area {
+  max-width: 700px;
+  background: #205c6d;
+  border: solid 5px rgba(255,255,255,0.1);
+  padding: 0.2em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
+}*/
 
 
 h2 {
@@ -347,7 +356,7 @@ div.sourceCode {
 #quarto-margin-sidebar {
   /*background: #ededed;*/
   background: transparent;
-  padding-left: 24px;
+  /*padding-left: 24px;*/
 }
 
 @media (max-width: 991.98px) {
@@ -371,6 +380,10 @@ div.sourceCode {
 
 .image-cover-container {
   display: none;
+  flex-basis: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
   margin-bottom: 2em;
   width: 100vw;
   background-image: url("assets/bg-wave-line.svg");
@@ -378,12 +391,15 @@ div.sourceCode {
   background-repeat: no-repeat;
   background-position: center center;
 }
-
+    @media (max-width: 991.98px) {
+      .image-cover-container {
+        flex-direction: column;
+      }
+    }
 
 .image-cover {
   position: relative;
   object-fit: cover;
-  margin: 0 auto;
   width: 330px;
   height: 330px;
   border-radius: 50%;

@@ -123,34 +123,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery-listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery-listings'] = new List('listing-gallery-listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
@@ -265,10 +237,12 @@ cookieconsent.run({
          <img src="assets/img-ben-portrait-2.jpg" alt="Image-of-trees." class="image-cover">
     </div>
   
-  <h1 class="title display-7">Benjamin W. Tjepkes, BSc.</h1>
+  <div class="title-area">
+  <h1 class="title">Benjamin W. Tjepkes, BSc.</h1>
   
-        <p class="subtitle lead">Integrating Ecological and Geospatial Science for Conservation</p>
+        <p class="subtitle">Integrating Ecological and Geospatial Science for Conservation</p>
     
+  </div>
   <div class="post-meta">  
         
       </div>  
@@ -378,48 +352,147 @@ cookieconsent.run({
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On This Page:</h2>
+   
+  <ul>
+  <li><a href="#where-am-i-now" id="toc-where-am-i-now" class="nav-link active" data-scroll-target="#where-am-i-now">Where Am I Now?</a></li>
+  <li><a href="#my-latest-work" id="toc-my-latest-work" class="nav-link" data-scroll-target="#my-latest-work">My Latest Work</a></li>
+  <li><a href="#my-professional-path" id="toc-my-professional-path" class="nav-link" data-scroll-target="#my-professional-path">My Professional Path</a>
+  <ul class="collapse">
+  <li><a href="#trained-as-a-biologist." id="toc-trained-as-a-biologist." class="nav-link" data-scroll-target="#trained-as-a-biologist.">01 | Trained as a biologist.</a></li>
+  <li><a href="#drawn-to-geospatial." id="toc-drawn-to-geospatial." class="nav-link" data-scroll-target="#drawn-to-geospatial.">02 | Drawn to geospatial.</a></li>
+  <li><a href="#mastering-geography." id="toc-mastering-geography." class="nav-link" data-scroll-target="#mastering-geography.">03 | Mastering geography.</a></li>
+  </ul></li>
+  <li><a href="#where-to-explore-next" id="toc-where-to-explore-next" class="nav-link" data-scroll-target="#where-to-explore-next">Where To Explore Next</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<section id="emphasis-areas" class="level2 h2-index">
-<h2 class="h2-index" data-anchor-id="emphasis-areas">Emphasis Areas</h2>
-<div class="container">
-<div class="row">
-<div class="col-sm">
-<p><i class="fa-solid fa-layer-group fa-3x" aria-label="layer-group"></i></p>
-<section id="geospatial" class="level3 col-heading">
-<h3 data-anchor-id="geospatial">Geospatial</h3>
+<section id="where-am-i-now" class="level2">
+<h2 data-anchor-id="where-am-i-now">Where Am I Now?</h2>
+<p><strong>Current Role –</strong> I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My <a href="../curriculum-vitae/index.qmd">professional CV</a> has a comprehensive look at my experience.</p>
+<!-- ## Emphasis Areas {.h2-index} -->
+<!-- :::{.container} -->
+<!-- :::{.row} -->
+<!-- :::{.col-sm} -->
+<!--  -->
+<!-- ::: {.col-heading} -->
+<!-- ### Geospatial -->
+<!-- ::: -->
+<!-- Spatial data creation, management, analysis, and visualization using desktop, web, and mobile GIS. -->
+<!-- ::: -->
+<!-- :::{.col-sm} -->
+<!--  -->
+<!-- ::: {.col-heading} -->
+<!-- ### Ecology -->
+<!-- ::: -->
+<!-- Scientific and technical research, management, and analysis across diverse taxa and technology. -->
+<!-- ::: -->
+<!-- :::{.col-sm} -->
+<!--  -->
+<!-- ::: {.col-heading} -->
+<!-- ### Analytics -->
+<!-- ::: -->
+<!-- Data handling, analysis, visualization, and reporting across disciplines following reproducible workflows. -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.callout-important collapse="true" } -->
+<!-- ## My Latest Professional Updates -->
+<!-- - **Sept 2023 --** I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science. -->
+<!-- - **Aug 2023 --** I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon! -->
+<!-- - **July 2023 --** One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. -->
+<!-- - **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference. -->
+<!-- ::: -->
 </section>
-<p>Spatial data creation, management, analysis, and visualization using desktop, web, and mobile GIS.</p>
+<section id="my-latest-work" class="level2 h2-index">
+<h2 class="h2-index" data-anchor-id="my-latest-work">My Latest Work</h2>
+<div id="listing-site-listings-2" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1699679842558" data-listing-reading-time-sort="1">
+<a href="./posts/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/img-geo-data-science.jpeg" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-trees.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Blog Posts
+</h5>
+<div class="card-subtitle listing-subtitle">
+Explore my writings on ecological and geospatial data science.
 </div>
-<div class="col-sm">
-<p><i class="fa-solid fa-tree fa-3x" aria-label="tree"></i></p>
-<section id="ecology" class="level3 col-heading">
-<h3 data-anchor-id="ecology">Ecology</h3>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1698861280380" data-listing-reading-time-sort="1">
+<a href="./gallery/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/img-geospatial-cover.webp" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-pine-trees-on-blue-background.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Gallery
+</h5>
+<div class="card-subtitle listing-subtitle">
+Maps, visualizations, reports, posters, and presentations.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1699679620642" data-listing-reading-time-sort="1">
+<a href="./research/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/BooneCoLiDAR.png" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-pine-trees-on-blue-background.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Research
+</h5>
+<div class="card-subtitle listing-subtitle">
+Focusing on spatial ecology and geographic information systems.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- ::: {#gallery-listings .listings-gallery} -->
+<!-- ::: -->
 </section>
-<p>Scientific and technical research, management, and analysis across diverse taxa and technology.</p>
-</div>
-<div class="col-sm">
-<p><i class="fa-solid fa-chart-simple fa-3x" aria-label="chart-simple"></i></p>
-<section id="analytics" class="level3 col-heading">
-<h3 data-anchor-id="analytics">Analytics</h3>
+<section id="my-professional-path" class="level2">
+<h2 data-anchor-id="my-professional-path">My Professional Path</h2>
+<section id="trained-as-a-biologist." class="level3 intro-heading">
+<h3 class="intro-heading" data-anchor-id="trained-as-a-biologist.">01 | Trained as a biologist.</h3>
+<p>My professional career is based in <strong>wildlife ecology and management</strong>, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.</p>
+<p>My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.</p>
 </section>
-<p>Data handling, analysis, visualization, and reporting across disciplines following reproducible workflows.</p>
-</div>
-</div>
-</div>
+<section id="drawn-to-geospatial." class="level3 intro-heading">
+<h3 class="intro-heading" data-anchor-id="drawn-to-geospatial.">02 | Drawn to geospatial.</h3>
+<p>As I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in <strong>spatial ecology and geospatial technologies</strong>, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.</p>
+<p>Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.</p>
 </section>
-<section id="current-role-work" class="level2 h2-index">
-<h2 class="h2-index" data-anchor-id="current-role-work">Current Role &amp; Work</h2>
-<div class="index-intro-start">
-<div class="index-intro-start-text">
-<p>I am a <strong>graduate student</strong> at <strong>the University of Missouri</strong> studying geographic information systems in the Department of Geography. My work focuses on using a variety of <strong>data science</strong> and <strong>geospatial technologies</strong> to research the natural world, particularly aimed at landscape conservation.</p>
-</div>
-</div>
+<section id="mastering-geography." class="level3 intro-heading">
+<h3 class="intro-heading" data-anchor-id="mastering-geography.">03 | Mastering geography.</h3>
+<p>With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a <strong>Master’s degree in Geography</strong> at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.</p>
+<p>Through my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program.</p>
+</section>
+</section>
+<section id="where-to-explore-next" class="level2">
+<h2 data-anchor-id="where-to-explore-next">Where To Explore Next</h2>
 <div id="listing-site-listings-1" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1699672186612" data-listing-reading-time-sort="2">
@@ -474,151 +547,6 @@ Links &amp; Contact
 <div class="card-subtitle listing-subtitle">
 Reach out to me with inquires, comments, and collaborations.
 </div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<!-- ::: {.callout-important collapse="true" } -->
-<!-- ## My Latest Professional Updates -->
-<!-- - **Sept 2023 --** I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science. -->
-<!-- - **Aug 2023 --** I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon! -->
-<!-- - **July 2023 --** One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. -->
-<!-- - **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference. -->
-<!-- ::: -->
-</section>
-<section id="my-latest-work" class="level2 h2-index">
-<h2 class="h2-index" data-anchor-id="my-latest-work">My Latest Work</h2>
-<div id="listing-site-listings-2" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1698526390093" data-listing-reading-time-sort="1">
-<a href="./posts/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-trees.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Blog Posts
-</h5>
-<div class="card-subtitle listing-subtitle">
-Explore my writings on ecological and geospatial data science.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1698861280380" data-listing-reading-time-sort="1">
-<a href="./gallery/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./assets/img-geospatial-cover.webp" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-pine-trees-on-blue-background.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Gallery
-</h5>
-<div class="card-subtitle listing-subtitle">
-Maps, visualizations, reports, posters, and presentations.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1698527123135" data-listing-reading-time-sort="1">
-<a href="./research/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-pine-trees-on-blue-background.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Research
-</h5>
-<div class="card-subtitle listing-subtitle">
-Focusing on spatial ecology and geographic information systems.
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<div id="listing-gallery-listings" class="listings-gallery quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1699367309873" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/national-champion-tree-map/img-national-champion-trees-thumbnail.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing the United States and the locations of champion trees displayed as points.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-National Champion Trees Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Map Gallery,Minnesota,Contour" data-listing-date-sort="1698901200000" data-listing-file-modified-sort="1699024332023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./gallery/eagle-mountain-contour-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/eagle-mountain-contour-map/img-eagle-mtn-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A contour map showing Eagle Mountain and the surrounding topography and hydrological features.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Eagle Mountain Contour Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Map Gallery,Canada" data-listing-date-sort="1698987600000" data-listing-file-modified-sort="1699115271906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./gallery/canadian-ecoregion-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/canadian-ecoregion-map/img-canadian-ecoregions.png" class="thumbnail-image card-img" style="height: 300px;" alt="A regional map showing Canada and several level one ecological regions.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Canadian Ecoregions Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1699674351941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/tiger-distribution-map/img-tiger-range-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A map of Asia showing the current and historical range of tigers.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tiger Range and Conservation Landscape Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699423200000" data-listing-file-modified-sort="1699674603377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/postsecondary-institutions-map/img-college-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A hexbin map showing the total number of post-secondary institutions and programs in each U.S. state.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Post-Secondary Institutions Hexmap
-</h5>
 </div>
 </div>
 </a>

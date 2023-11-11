@@ -12,6 +12,7 @@
   {
     "listing": "/posts/index.html",
     "items": [
+      "/posts/30-day-map-challenge-2023/index.html",
       "/posts/how-scientists-use-gis-to-study-wildlife/index.html",
       "/posts/how-to-become-a-contemporary-naturalist/index.html",
       "/posts/can-you-naturally-protect-shores-from-erosion/index.html"
@@ -68,12 +69,7 @@
       "/contact.html",
       "/posts/index.html",
       "/gallery/index.html",
-      "/research/index.html",
-      "/gallery/national-champion-tree-map/index.html",
-      "/gallery/eagle-mountain-contour-map/index.html",
-      "/gallery/canadian-ecoregion-map/index.html",
-      "/gallery/tiger-distribution-map/index.html",
-      "/gallery/postsecondary-institutions-map/index.html"
+      "/research/index.html"
     ]
   }
 ]

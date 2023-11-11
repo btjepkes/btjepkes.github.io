@@ -2,12 +2,12 @@
 title: "#30DayMapChallenge - 2023 Contributions"
 subtitle: "A review of my contributions and learning outcomes."
 date: "11/01/2023"
-abstract: This post is pending.
+abstract: "This post is a review of all my contributions to the 2023 #30DayMapChallenge including what tools have used and what I learned along the way."
 categories:
   - mapping
-image: ../../assets/bg-pine-blue.jpg
-image-alt: "Pending."
-draft: TRUE
+image: img-30dmc-2023.png
+image-alt: "List of each daily prompt."
+draft: FALSE
 listing:
   - id: map-gallery
     contents:
@@ -25,8 +25,13 @@ listing:
 
 ## Overview of Challenge
 
+The [30 Day Map Challenge](https://30daymapchallenge.com/) is a community-driven event that encourages cartographers, map enthusiasts, and data visualization enthusiasts to create and share a different map each day for 30 consecutive days.
 
-## My Contributions
+![Listing of 2023's Prompts](img-30dmc-2023.png)
+
+Participants engage in this challenge to showcase their creativity, explore diverse mapping techniques, and contribute to the growing field of map design. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives and interpretations through the maps they create.
+
+## My 2023 Contributions
 
 Here are my contributions to the challenge. Feel free to explore the details on each map product.
 

@@ -67,7 +67,7 @@
     "href": "posts/index.html",
     "title": "My Blog Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\nBenjamin Tjepkes\n\n\nMar 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\nBenjamin Tjepkes\n\n\nOct 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protect Shores From Erosion\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\nBenjamin Tjepkes\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nA review of my contributions and learning outcomes.\n\n\n\nBenjamin Tjepkes\n\n\nNov 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\nBenjamin Tjepkes\n\n\nMar 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\nBenjamin Tjepkes\n\n\nOct 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protect Shores From Erosion\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\nBenjamin Tjepkes\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/how-scientists-use-gis-to-study-wildlife/index.html",
@@ -96,6 +96,27 @@
     "title": "How Scientists Use GIS to Study Wildlife",
     "section": "Final Thoughts",
     "text": "Final Thoughts\nOverall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here."
+  },
+  {
+    "objectID": "posts/30-day-map-challenge-2023/index.html",
+    "href": "posts/30-day-map-challenge-2023/index.html",
+    "title": "#30DayMapChallenge - 2023 Contributions",
+    "section": "",
+    "text": "The 30 Day Map Challenge is a community-driven event that encourages cartographers, map enthusiasts, and data visualization enthusiasts to create and share a different map each day for 30 consecutive days.\n\n\n\nListing of 2023’s Prompts\n\n\nParticipants engage in this challenge to showcase their creativity, explore diverse mapping techniques, and contribute to the growing field of map design. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives and interpretations through the maps they create."
+  },
+  {
+    "objectID": "posts/30-day-map-challenge-2023/index.html#overview-of-challenge",
+    "href": "posts/30-day-map-challenge-2023/index.html#overview-of-challenge",
+    "title": "#30DayMapChallenge - 2023 Contributions",
+    "section": "",
+    "text": "The 30 Day Map Challenge is a community-driven event that encourages cartographers, map enthusiasts, and data visualization enthusiasts to create and share a different map each day for 30 consecutive days.\n\n\n\nListing of 2023’s Prompts\n\n\nParticipants engage in this challenge to showcase their creativity, explore diverse mapping techniques, and contribute to the growing field of map design. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives and interpretations through the maps they create."
+  },
+  {
+    "objectID": "posts/30-day-map-challenge-2023/index.html#my-2023-contributions",
+    "href": "posts/30-day-map-challenge-2023/index.html#my-2023-contributions",
+    "title": "#30DayMapChallenge - 2023 Contributions",
+    "section": "My 2023 Contributions",
+    "text": "My 2023 Contributions\nHere are my contributions to the challenge. Feel free to explore the details on each map product.\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCanadian Ecoregions Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nTiger Range and Conservation Landscape Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost-Secondary Institutions Hexmap\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery/work-commitments-calendar/index.html",
@@ -515,28 +536,35 @@
     "href": "index.html",
     "title": "Benjamin W. Tjepkes, BSc.",
     "section": "",
-    "text": "Spatial data creation, management, analysis, and visualization using desktop, web, and mobile GIS.\n\n\n\n\n\n\nScientific and technical research, management, and analysis across diverse taxa and technology.\n\n\n\n\n\n\nData handling, analysis, visualization, and reporting across disciplines following reproducible workflows."
+    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience."
   },
   {
-    "objectID": "index.html#emphasis-areas",
-    "href": "index.html#emphasis-areas",
+    "objectID": "index.html#where-am-i-now",
+    "href": "index.html#where-am-i-now",
     "title": "Benjamin W. Tjepkes, BSc.",
     "section": "",
-    "text": "Spatial data creation, management, analysis, and visualization using desktop, web, and mobile GIS.\n\n\n\n\n\n\nScientific and technical research, management, and analysis across diverse taxa and technology.\n\n\n\n\n\n\nData handling, analysis, visualization, and reporting across disciplines following reproducible workflows."
-  },
-  {
-    "objectID": "index.html#current-role-work",
-    "href": "index.html#current-role-work",
-    "title": "Benjamin W. Tjepkes, BSc.",
-    "section": "Current Role & Work",
-    "text": "Current Role & Work\n\n\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial technologies to research the natural world, particularly aimed at landscape conservation.\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nA full look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires, comments, and collaborations.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Current Role – I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My professional CV has a comprehensive look at my experience."
   },
   {
     "objectID": "index.html#my-latest-work",
     "href": "index.html#my-latest-work",
     "title": "Benjamin W. Tjepkes, BSc.",
     "section": "My Latest Work",
-    "text": "My Latest Work\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCanadian Ecoregions Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nTiger Range and Conservation Landscape Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost-Secondary Institutions Hexmap\n\n\n\n\n\n\n\nNo matching items"
+    "text": "My Latest Work\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nExplore my writings on ecological and geospatial data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on spatial ecology and geographic information systems.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#my-professional-path",
+    "href": "index.html#my-professional-path",
+    "title": "Benjamin W. Tjepkes, BSc.",
+    "section": "My Professional Path",
+    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program."
+  },
+  {
+    "objectID": "index.html#where-to-explore-next",
+    "href": "index.html#where-to-explore-next",
+    "title": "Benjamin W. Tjepkes, BSc.",
+    "section": "Where To Explore Next",
+    "text": "Where To Explore Next\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nA full look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nMy favorite references for ecology, GIS, R, Python, and more.\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires, comments, and collaborations.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/can-you-naturally-protect-shores-from-erosion/index.html",

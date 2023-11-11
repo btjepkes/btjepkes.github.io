@@ -7,7 +7,6 @@ image-alt: "Image-of-trees."
 pagetitle: "Portfolio | B.W. Tjepkes"
 author-meta: Benjamin Tjepkes
 description-meta: "This is the porfolio and professional website of Benjamin Tjepkes."
-toc-depth: 0
 format:
   html:
     css: index.css
@@ -36,76 +35,68 @@ listing:
       - title
       - subtitle
       - image
-  - id: gallery-listings
-    include:
-      keywords: "#30DayMapChallenge2023"
-    contents:
-      - "gallery/*/index.qmd"
-    type: grid
-    grid-columns: 2
-    sort: "date"
-    image-height: 300px
-    fields:
-      - title
-      - image
+  # - id: gallery-listings
+  #   include:
+  #     keywords: "#30DayMapChallenge2023"
+  #   contents:
+  #     - "gallery/*/index.qmd"
+  #   type: grid
+  #   grid-columns: 2
+  #   sort: "date"
+  #   image-height: 300px
+  #   fields:
+  #     - title
+  #     - image
 ---
-## Emphasis Areas {.h2-index}
 
-:::{.container}
 
-:::{.row}
-    
-:::{.col-sm}
+## Where Am I Now?
 
-{{< fa layer-group size=3x >}}
+**Current Role --** I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My [professional CV](../curriculum-vitae/index.qmd) has a comprehensive look at my experience.
 
-::: {.col-heading}
-### Geospatial
-:::
+<!-- ## Emphasis Areas {.h2-index} -->
 
-Spatial data creation, management, analysis, and visualization using desktop, web, and mobile GIS.
+<!-- :::{.container} -->
 
-:::
-    
-:::{.col-sm}
+<!-- :::{.row} -->
 
-{{< fa tree size=3x >}}
+<!-- :::{.col-sm} -->
 
-::: {.col-heading}
-### Ecology
-:::
+<!-- {{< fa layer-group size=3x >}} -->
 
-Scientific and technical research, management, and analysis across diverse taxa and technology.
-    
-:::
+<!-- ::: {.col-heading} -->
+<!-- ### Geospatial -->
+<!-- ::: -->
 
-:::{.col-sm}
+<!-- Spatial data creation, management, analysis, and visualization using desktop, web, and mobile GIS. -->
 
-{{< fa chart-simple size=3x >}}
+<!-- ::: -->
 
-::: {.col-heading}
-### Analytics
-:::
+<!-- :::{.col-sm} -->
 
-Data handling, analysis, visualization, and reporting across disciplines following reproducible workflows.
-    
-:::
-:::
-:::
+<!-- {{< fa tree size=3x >}} -->
 
-## Current Role & Work {.h2-index}
+<!-- ::: {.col-heading} -->
+<!-- ### Ecology -->
+<!-- ::: -->
 
-::: {.index-intro-start}
+<!-- Scientific and technical research, management, and analysis across diverse taxa and technology. -->
 
-::: {.index-intro-start-text}
+<!-- ::: -->
 
-I am a **graduate student** at **the University of Missouri** studying geographic information systems in the Department of Geography. My work focuses on using a variety of **data science** and **geospatial technologies** to research the natural world, particularly aimed at landscape conservation.
+<!-- :::{.col-sm} -->
 
-:::
-:::
+<!-- {{< fa chart-simple size=3x >}} -->
 
-::: {#site-listings-1}
-:::
+<!-- ::: {.col-heading} -->
+<!-- ### Analytics -->
+<!-- ::: -->
+
+<!-- Data handling, analysis, visualization, and reporting across disciplines following reproducible workflows. -->
+
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
 
 <!-- ::: {.callout-important collapse="true" } -->
 
@@ -123,6 +114,34 @@ I am a **graduate student** at **the University of Missouri** studying geographi
 ::: {#site-listings-2}
 :::
 
-::: {#gallery-listings .listings-gallery}
-:::
+<!-- ::: {#gallery-listings .listings-gallery} -->
+<!-- ::: -->
 
+## My Professional Path
+
+
+### 01 | Trained as a biologist. {.intro-heading}
+
+My professional career is based in **wildlife ecology and management**, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.
+
+My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.
+
+
+### 02 | Drawn to geospatial. {.intro-heading}
+
+As I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in **spatial ecology and geospatial technologies**, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.
+
+
+Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.
+
+
+### 03 | Mastering geography. {.intro-heading}
+
+With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a **Master's degree in Geography** at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.
+
+Through my Master's program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master's program.
+
+## Where To Explore Next
+
+::: {#site-listings-1}
+:::
