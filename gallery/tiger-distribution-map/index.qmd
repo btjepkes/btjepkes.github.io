@@ -36,4 +36,6 @@ The historical and current range data were available as a download from the IUCN
 
 ## Final Result
 
+Here is the resulting map showing the three classes of distribution and proportional symbols indicating the current TCL sizes across Asia.
+
 ![Credit: Benjamin Tjepkes](img-tiger-range-map.png)

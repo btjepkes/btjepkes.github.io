@@ -1,8 +1,8 @@
 ---
 title: "About Me"
 subtitle: "Learn about my career path and professional interests."
-image: ../assets/img-ben-work.png
-image-alt: Image-of-pine-trees-on-blue-background.
+image: ../assets/img-ben-with-bear.jpg
+image-alt: "Image of Ben with an immobilized black bear at a den."
 keywords: about, about me
 author-meta: Benjamin Tjepkes
 description-meta: "Learn about my career path and professional interests."

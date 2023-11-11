@@ -12,7 +12,7 @@
 
 .index-intro-start {
   margin-top: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
@@ -168,7 +168,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 4em;
+  margin-bottom: 1.5em;
 }
 
 .row {
@@ -184,10 +184,10 @@
 .col-sm {
   display: flex;
   background: white;
-  border-radius: 4px 4px 4px 20px;
+  border-radius: 4px 4px 4px 4px;
   border: solid 3px #153b46;
-  -webkit-box-shadow: 8px 8px #356b7b;
-  box-shadow: 8px 8px #356b7b;
+  /*-webkit-box-shadow: 8px 8px #356b7b;
+  box-shadow: 8px 8px #356b7b;*/
   padding: 24px 16px;
   flex: 1;
   flex-direction: column;

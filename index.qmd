@@ -7,6 +7,7 @@ image-alt: "Image-of-trees."
 pagetitle: "Portfolio | B.W. Tjepkes"
 author-meta: Benjamin Tjepkes
 description-meta: "This is the porfolio and professional website of Benjamin Tjepkes."
+toc-depth: 0
 format:
   html:
     css: index.css
@@ -16,14 +17,25 @@ listing:
       - "about/index.qmd"
       - "curriculum-vitae/index.qmd"
       - "contact.qmd"
+      - "resources/index.qmd"
+    type: grid
+    grid-columns: 2
+    image-height: 250px
+    fields:
+      - title
+      - subtitle
+  - id: site-listings-2
+    contents:
       - "gallery/index.qmd"
       - "posts/index.qmd"
       - "research/index.qmd"
     type: grid
     grid-columns: 3
+    image-height: 250px
     fields:
       - title
       - subtitle
+      - image
   - id: gallery-listings
     include:
       keywords: "#30DayMapChallenge2023"
@@ -37,10 +49,6 @@ listing:
       - title
       - image
 ---
-
-::: {#site-listings-1}
-:::
-
 ## Emphasis Areas {.h2-index}
 
 :::{.container}
@@ -52,7 +60,7 @@ listing:
 {{< fa layer-group size=3x >}}
 
 ::: {.col-heading}
-Geospatial
+### Geospatial
 :::
 
 Spatial data creation, management, analysis, and visualization using desktop, web, and mobile GIS.
@@ -64,7 +72,7 @@ Spatial data creation, management, analysis, and visualization using desktop, we
 {{< fa tree size=3x >}}
 
 ::: {.col-heading}
-Ecology
+### Ecology
 :::
 
 Scientific and technical research, management, and analysis across diverse taxa and technology.
@@ -76,26 +84,13 @@ Scientific and technical research, management, and analysis across diverse taxa 
 {{< fa chart-simple size=3x >}}
 
 ::: {.col-heading}
-Analytics
+### Analytics
 :::
 
 Data handling, analysis, visualization, and reporting across disciplines following reproducible workflows.
     
 :::
-<!-- :::{.col-sm} -->
-
-<!-- {{< fa file-code size=3x >}} -->
-
-<!-- ::: {.col-heading} -->
-<!-- Design & Visualization -->
-<!-- ::: -->
-
-<!-- Front-end web development with HTML, CSS, and JSON. Version control using git/GitHub. Proficient in data visualization for technical and creative projects. -->
-
-<!-- ::: -->
-  
 :::
-  
 :::
 
 ## Current Role & Work {.h2-index}
@@ -109,9 +104,7 @@ I am a **graduate student** at **the University of Missouri** studying geographi
 :::
 :::
 
-## My Latest Work {.h2-index}
-
-::: {#gallery-listings .listings-gallery}
+::: {#site-listings-1}
 :::
 
 <!-- ::: {.callout-important collapse="true" } -->
@@ -123,4 +116,13 @@ I am a **graduate student** at **the University of Missouri** studying geographi
 <!-- - **July 2023 --** One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. -->
 <!-- - **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference. -->
 <!-- ::: -->
+
+
+## My Latest Work {.h2-index}
+
+::: {#site-listings-2}
+:::
+
+::: {#gallery-listings .listings-gallery}
+:::
 

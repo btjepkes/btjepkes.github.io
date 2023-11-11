@@ -23,15 +23,8 @@
       "/gallery/national-champion-tree-map/index.html",
       "/gallery/eagle-mountain-contour-map/index.html",
       "/gallery/canadian-ecoregion-map/index.html",
-      "/gallery/tiger-distribution-map/index.html"
-    ]
-  },
-  {
-    "listing": "/about/index.html",
-    "items": [
-      "/posts/index.html",
-      "/gallery/index.html",
-      "/research/index.html"
+      "/gallery/tiger-distribution-map/index.html",
+      "/gallery/postsecondary-institutions-map/index.html"
     ]
   },
   {
@@ -44,6 +37,7 @@
       "/gallery/eagle-mountain-contour-map/index.html",
       "/gallery/canadian-ecoregion-map/index.html",
       "/gallery/tiger-distribution-map/index.html",
+      "/gallery/postsecondary-institutions-map/index.html",
       "/gallery/2018-squirrel-census-sighting-map/index.html",
       "/gallery/bald-eagle-nest-selection-poster/index.html",
       "/gallery/endangered-species-stamp-collection-map/index.html",
@@ -58,10 +52,19 @@
     ]
   },
   {
+    "listing": "/about/index.html",
+    "items": [
+      "/posts/index.html",
+      "/gallery/index.html",
+      "/research/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/about/index.html",
       "/curriculum-vitae/index.html",
+      "/resources/index.html",
       "/contact.html",
       "/posts/index.html",
       "/gallery/index.html",
@@ -69,7 +72,8 @@
       "/gallery/national-champion-tree-map/index.html",
       "/gallery/eagle-mountain-contour-map/index.html",
       "/gallery/canadian-ecoregion-map/index.html",
-      "/gallery/tiger-distribution-map/index.html"
+      "/gallery/tiger-distribution-map/index.html",
+      "/gallery/postsecondary-institutions-map/index.html"
     ]
   }
 ]

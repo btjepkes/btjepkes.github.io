@@ -167,7 +167,7 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Sen, Atkinson Hyperlegible, Nunito, sans-serif;
-  background: linear-gradient(to bottom, #ffffff, rgba(255,255,255,0.05)), url("assets/bg-links.jpg");
+  background: linear-gradient(to bottom, #ffffff, rgba(255,255,255,0.35)), url("assets/bg-links.jpg");
   background-attachment: fixed;
   background-position: center;
 }
@@ -345,7 +345,8 @@ div.sourceCode {
 // SIDEBAR
 
 #quarto-margin-sidebar {
-  background: #ededed;
+  /*background: #ededed;*/
+  background: transparent;
   padding-left: 24px;
 }
 
@@ -369,6 +370,7 @@ div.sourceCode {
 // HEADER
 
 .image-cover-container {
+  display: none;
   margin-bottom: 2em;
   width: 100vw;
   background-image: url("assets/bg-wave-line.svg");
@@ -444,6 +446,9 @@ div.sourceCode {
   padding-bottom: 1em;
 }
 
+.pagination {
+  margin-top: 2.5em;
+}
 
 // TABLES
 

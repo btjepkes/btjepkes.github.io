@@ -295,5 +295,11 @@
   },
   "gallery/tiger-distribution-map/index.qmd": {
     "index.html": "33c01372"
+  },
+  "gallery/postsecondary-institutions-map/index.qmd": {
+    "index.html": "5ae68f67"
+  },
+  "docs/gallery/postsecondary-institutions-map/index.qmd": {
+    "index.html": "aa7ba175"
   }
 }
