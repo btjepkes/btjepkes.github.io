@@ -1,0 +1,30 @@
+---
+title: "Hyaenidae Distribution Map for Africa"
+subtitle: "Visualizing ranges for the four extant species."
+date: 11/08/2023
+categories:
+  - Map Gallery
+  - Africa
+keywords:
+  - "#30DayMapChallenge2023"
+abstract: This map shows the current ranges for the four extant species in the family Hyaenidae across the African continent.
+image: img-hyena-ranges-thumb.png
+image-alt: "A series of four maps showing the ranges of species in the family Hyaenidae."
+# aliases:
+---
+
+## Task & Objectives
+
+The prompt for this map was for **Day Eight** of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "Africa" for the main subject. Hyenas have always fascinated me with their complex behavior, clan structure, and hunting abilities. This prompt was a perfect time to explore their ranges!
+
+## Tools & Workflow
+
+Spatial data were sourced from the IUCN for each species. Map was produced in ArcGIS Pro 3.2.
+
+The comprehensive layout options in ArcGIS Pro have always helped me out, but this time it was very simple to link the extents of each sub-map to ensure perfect alignment.
+
+## Final Result
+
+Here is the resulting map series showing each species range across Africa.
+
+![Credit: Benjamin Tjepkes](img-hyena-ranges.png)

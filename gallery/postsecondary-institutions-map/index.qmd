@@ -1,7 +1,7 @@
 ---
 title: "Post-Secondary Institutions Hexmap"
 subtitle: "Visualizing which U.S. states have more colleges."
-date: 11/08/2023
+date: 11/09/2023
 categories:
   - Map Gallery
   - Hexbin
@@ -15,7 +15,7 @@ image-alt: "A hexbin map showing the total number of post-secondary institutions
 
 ## Task & Objectives
 
-The prompt for this map was for **Day Eight** of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "Hexagons" for the main subject.
+The prompt for this map was for **Day Nine** of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "Hexagons" for the main subject.
 
 ## Tools & Workflow
 
