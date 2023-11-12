@@ -1,0 +1,28 @@
+---
+title: "Moose Sightings Across North America"
+subtitle: "Mapping sighitng locations from GBIF of *Alces alces*."
+date: 11/10/2023
+categories:
+  - Map Gallery
+  - North America
+keywords:
+  - "#30DayMapChallenge2023"
+abstract: This point map shows the locations of moose sightings across North America from the GBIF database.
+image: img-moose-sightings-thumb.png
+image-alt: "A simple map showing the points that indicate moose sightings across a backdrop of North America."
+# aliases:
+---
+
+## Task & Objectives
+
+The prompt for this map was for **Day Ten** of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "North America" for the main subject.
+
+## Tools & Workflow
+
+Data were downloaded from the Global Biodiversity Information Facility. Map creation was performed in R/Studio. Blog post coming soon!
+
+## Final Result
+
+Here is the resulting map that shows the sighting locations.
+
+![Credit: Benjamin Tjepkes](img-moose-sightings.png)
