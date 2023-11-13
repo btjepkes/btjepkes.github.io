@@ -49,15 +49,19 @@ listing:
   #     - image
 ---
 
-
 ## Where Am I Now?
 
 **Current Role --** I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My [professional CV](curriculum-vitae/index.qmd) has a comprehensive look at my experience.
 
-- **Sept 2023 --** I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.
-- **Aug 2023 --** I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!
-- **July 2023 --** One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest.
-- **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.
+|                |                                                                                                                                                                                                                                                                |
+|--------------------|----------------------------------------------------|
+| **Sept 2023**  | I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.                                                                                                                        |
+| **Aug 2023**   | I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!                                                                                                 |
+| **July 2023**  | One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. |
+| **April 2023** | I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.                                                                                    |
+
+:  {tbl-colwidths="[20,80]"}
+
 
 <!-- ## Emphasis Areas {.h2-index} -->
 
@@ -70,7 +74,9 @@ listing:
 <!-- {{< fa layer-group size=3x >}} -->
 
 <!-- ::: {.col-heading} -->
+
 <!-- ### Geospatial -->
+
 <!-- ::: -->
 
 <!-- Spatial data creation, management, analysis, and visualization using desktop, web, and mobile GIS. -->
@@ -82,7 +88,9 @@ listing:
 <!-- {{< fa tree size=3x >}} -->
 
 <!-- ::: {.col-heading} -->
+
 <!-- ### Ecology -->
+
 <!-- ::: -->
 
 <!-- Scientific and technical research, management, and analysis across diverse taxa and technology. -->
@@ -94,13 +102,17 @@ listing:
 <!-- {{< fa chart-simple size=3x >}} -->
 
 <!-- ::: {.col-heading} -->
+
 <!-- ### Analytics -->
+
 <!-- ::: -->
 
 <!-- Data handling, analysis, visualization, and reporting across disciplines following reproducible workflows. -->
 
 <!-- ::: -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 <!-- ::: {.callout-important collapse="true" } -->
@@ -108,24 +120,27 @@ listing:
 <!-- ## My Latest Professional Updates -->
 
 <!-- - **Sept 2023 --** I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science. -->
-<!-- - **Aug 2023 --** I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon! -->
-<!-- - **July 2023 --** One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. -->
-<!-- - **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference. -->
-<!-- ::: -->
 
+<!-- - **Aug 2023 --** I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon! -->
+
+<!-- - **July 2023 --** One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. -->
+
+<!-- - **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference. -->
+
+<!-- ::: -->
 
 ## My Latest Work {.h2-index}
 
-Please have a look at some of my blog posts, research overviews, and visualization gallery. 
+Please have a look at some of my blog posts, research overviews, and visualization gallery.
 
 ::: {#site-listings-2}
 :::
 
 <!-- ::: {#gallery-listings .listings-gallery} -->
+
 <!-- ::: -->
 
 <!-- ## My Professional Path -->
-
 
 <!-- ### 01 | Trained as a biologist. {.intro-heading} -->
 
@@ -133,14 +148,11 @@ Please have a look at some of my blog posts, research overviews, and visualizati
 
 <!-- My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year. -->
 
-
 <!-- ### 02 | Drawn to geospatial. {.intro-heading} -->
 
 <!-- As I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in **spatial ecology and geospatial technologies**, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships. -->
 
-
 <!-- Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management. -->
-
 
 <!-- ### 03 | Mastering geography. {.intro-heading} -->
 
