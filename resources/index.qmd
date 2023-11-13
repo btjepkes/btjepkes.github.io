@@ -1,8 +1,8 @@
 ---
 title: "Helpful Resources"
-subtitle: My favorite references for ecology, GIS, R, Python, and more.
+subtitle: My favorite references for ecology, GIS, R, and more.
 abstract: "This page contains a repository of technical tutorials, personal blogs, eBooks, and other websites that I find myself conistently referring back to for my technical works."
-image: ../assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg
+image: ../assets/img-world-overview.png
 image-alt: Image-of-pine-trees-on-blue-background.
 execute:
   echo: false

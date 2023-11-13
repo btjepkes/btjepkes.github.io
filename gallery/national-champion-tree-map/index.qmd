@@ -23,4 +23,6 @@ Data were parsed from the American Forest website for champion title holders up 
 
 ## Final Result
 
+Here is the resulting map showing the general locations of all Champion trees across the United States. The county where each tree is found is filled in with a light green and the golden symbols are proportional to the registered circumference of each tree.
+
 ![Credit: Benjamin Tjepkes](img-national-champion-trees.png)

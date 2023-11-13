@@ -11,7 +11,7 @@ listing:
     contents:
       - "*.qmd"
     type: grid
-    grid-columns: 2
+    grid-columns: 3
     grid-item-border: true
     categories: numbered
     sort: "date"

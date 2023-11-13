@@ -27,7 +27,7 @@ listing:
 
 The [30 Day Map Challenge](https://30daymapchallenge.com/) is a community-driven event that encourages cartographers, map enthusiasts, and data visualization enthusiasts to create and share a different map each day for 30 consecutive days.
 
-![Listing of 2023's Prompts](img-30dmc-2023.png)
+![Listing of 2023's Prompts. Credit: 30DayMapChallenge.com](img-30dmc-2023.png)
 
 Participants engage in this challenge to showcase their creativity, explore diverse mapping techniques, and contribute to the growing field of map design. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas.
 
@@ -39,3 +39,7 @@ Here are my contributions to the challenge. Feel free to explore the details on 
 
 :::{#map-gallery .listings-gallery}
 :::
+
+## Tools, Data, and Techniques
+
+More information coming towards the end of the challenge!

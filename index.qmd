@@ -1,7 +1,7 @@
 ---
 title: "Benjamin W. Tjepkes, BSc."
 subtitle: "Integrating Ecological and Geospatial Science for Conservation"
-abstract: "Welcome to the portfolio of Benjamin Tjepkes, an experienced wildlife ecologist and studying geographer. This site provides a professional overview of career experience and a showcase of technical writings and visualizations."
+abstract: "Welcome to my portfolio! My name is Benjamin Tjepkes and I am an experienced wildlife ecologist and studying geographer. This site provides a professional overview of my career experience and a showcase of technical writings and visualizations."
 image: "assets/img-ben-portrait-2.jpg"
 image-alt: "Image-of-trees."
 pagetitle: "Portfolio | B.W. Tjepkes"
@@ -15,14 +15,14 @@ listing:
     contents:
       - "about/index.qmd"
       - "curriculum-vitae/index.qmd"
-      - "contact.qmd"
       - "resources/index.qmd"
     type: grid
-    grid-columns: 2
+    grid-columns: 3
     image-height: 250px
     fields:
       - title
       - subtitle
+      - image
   - id: site-listings-2
     contents:
       - "gallery/index.qmd"
@@ -52,7 +52,12 @@ listing:
 
 ## Where Am I Now?
 
-**Current Role --** I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My [professional CV](../curriculum-vitae/index.qmd) has a comprehensive look at my experience.
+**Current Role --** I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My [professional CV](curriculum-vitae/index.qmd) has a comprehensive look at my experience.
+
+- **Sept 2023 --** I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.
+- **Aug 2023 --** I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!
+- **July 2023 --** One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest.
+- **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.
 
 <!-- ## Emphasis Areas {.h2-index} -->
 
@@ -111,37 +116,41 @@ listing:
 
 ## My Latest Work {.h2-index}
 
+Please have a look at some of my blog posts, research overviews, and visualization gallery. 
+
 ::: {#site-listings-2}
 :::
 
 <!-- ::: {#gallery-listings .listings-gallery} -->
 <!-- ::: -->
 
-## My Professional Path
+<!-- ## My Professional Path -->
 
 
-### 01 | Trained as a biologist. {.intro-heading}
+<!-- ### 01 | Trained as a biologist. {.intro-heading} -->
 
-My professional career is based in **wildlife ecology and management**, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.
+<!-- My professional career is based in **wildlife ecology and management**, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats. -->
 
-My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.
-
-
-### 02 | Drawn to geospatial. {.intro-heading}
-
-As I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in **spatial ecology and geospatial technologies**, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.
+<!-- My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year. -->
 
 
-Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.
+<!-- ### 02 | Drawn to geospatial. {.intro-heading} -->
+
+<!-- As I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in **spatial ecology and geospatial technologies**, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships. -->
 
 
-### 03 | Mastering geography. {.intro-heading}
+<!-- Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management. -->
 
-With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a **Master's degree in Geography** at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.
 
-Through my Master's program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master's program.
+<!-- ### 03 | Mastering geography. {.intro-heading} -->
+
+<!-- With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a **Master's degree in Geography** at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies. -->
+
+<!-- Through my Master's program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master's program. -->
 
 ## Where To Explore Next
+
+There is lots more to explore on this site, so check it all out.
 
 ::: {#site-listings-1}
 :::

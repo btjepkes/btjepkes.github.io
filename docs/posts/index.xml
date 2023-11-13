@@ -29,8 +29,8 @@
 <p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community-driven event that encourages cartographers, map enthusiasts, and data visualization enthusiasts to create and share a different map each day for 30 consecutive days.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-30dmc-2023.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Listing of 2023’s Prompts"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-2023.png" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption">Listing of 2023’s Prompts</figcaption>
+<p><a href="img-30dmc-2023.png" class="lightbox" title="Listing of 2023’s Prompts. Credit: 30DayMapChallenge.com" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-2023.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Listing of 2023’s Prompts. Credit: 30DayMapChallenge.com</figcaption>
 </figure>
 </div>
 <p>Participants engage in this challenge to showcase their creativity, explore diverse mapping techniques, and contribute to the growing field of map design. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas.</p>
@@ -41,7 +41,7 @@
 <p>Here are my contributions to the challenge. Feel free to explore the details on each map product.</p>
 <div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1699367309873" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1699886000388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -158,6 +158,10 @@ Andes Mountains Elevation Map
 No matching items
 </div>
 </div>
+</section>
+<section id="tools-data-and-techniques" class="level2">
+<h2 data-anchor-id="tools-data-and-techniques">Tools, Data, and Techniques</h2>
+<p>More information coming towards the end of the challenge!</p>
 
 
 
@@ -227,7 +231,7 @@ No matching items
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC." data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife/https:/upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img"></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife/https:/upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>
@@ -283,7 +287,7 @@ No matching items
 <p>Many birds enjoy making their presence known through song. This allows us to identify individuals down to the species without laying eyes on them. Common birds, like the American robin (Turdus migratorius), can usually be heard readily in most yards. Why not just learn how to identify them by sight? Well, that’s certainly something to work on too, but oftentimes you will only be able to hear the birds and not see them. This is especially true for birds that spend most of their time in the tree canopy.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding." data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist/https:/images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img"></a></p>
+<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist/https:/images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Along with a keen ear, a good set of binoculars are an excellent compliment when birding.</figcaption>
 </figure>
 </div>
@@ -299,7 +303,7 @@ No matching items
 <p>Whether you are ordering pizza or trying to identify an unknown plant, there is an app out there for you. Most popular apps are available on both iOS and Android, so accessing them should not be much trouble. Some even have the ability to download content for offline use, so you can still use the app while away from cell service.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" title="Many apps provide ways of capturing data offline, then uploading once connected again." data-gallery="quarto-lightbox-gallery-2"><img src="https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist/https:/images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img"></a></p>
+<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist/https:/images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Many apps provide ways of capturing data offline, then uploading once connected again.</figcaption>
 </figure>
 </div>
