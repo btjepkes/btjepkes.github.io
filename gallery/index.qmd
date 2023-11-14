@@ -1,7 +1,7 @@
 ---
 title: "My Gallery"
 subtitle: "Maps, visualizations, reports, posters, and presentations."
-author: ""
+date: 2023/11/14
 image: ../assets/img-geospatial-cover.webp
 image-alt: Image-of-pine-trees-on-blue-background.
 toc: false
@@ -11,7 +11,7 @@ listing:
     contents:
       - "*.qmd"
     type: grid
-    grid-columns: 3
+    grid-columns: 2
     grid-item-border: true
     categories: numbered
     sort: "date"

@@ -153,6 +153,8 @@ $progress-height:               .5rem !default;
 
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
 
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 /*
 $web-font-path: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900;1000&display=swap" !default;
 @if $web-font-path {
@@ -184,6 +186,7 @@ h1 {
   opacity: 1.0 !important;
   font-size: clamp(2.4em, 5vw, 3.4em);
   text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+  font-family: Oswald;
 }
 
 /*
@@ -386,15 +389,14 @@ div.sourceCode {
 .image-top-container {
   display: block;
   position: relative;
-  height: 150px;
+  height: 180px;
   width: 100%;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url("assets/img-bog-trees.JPG");
-  /*background-image: url("assets/img-bog-trees.JPG");*/
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1) ), url("assets/img-bog-trees.JPG");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  margin-bottom: 3em;
-  border-bottom: solid rgba(0, 0, 0, 0.05);
+  background-position: center;
+  margin-bottom: 2em;
+  border-bottom: 5px solid linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.95) );
 }
 
 .header-content-container {
@@ -434,7 +436,12 @@ div.sourceCode {
 .post-meta {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 0.5em;
+  padding: 20px 20px;
+  font-family: Oswald;
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+  font-size: 1.1em;
 }
 
 .post-meta-meta {

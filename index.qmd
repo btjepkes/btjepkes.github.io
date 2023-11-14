@@ -2,6 +2,8 @@
 title: "Benjamin W. Tjepkes, BSc."
 subtitle: "Integrating Ecological and Geospatial Science for Conservation"
 abstract: "Welcome to my portfolio! My name is Benjamin Tjepkes and I am an experienced wildlife ecologist and studying geographer. This site provides a professional overview of my career experience and a showcase of technical writings and visualizations."
+author: Benjamin Tjepkes
+date: 11/14/2023
 image: "assets/img-ben-portrait-2.jpg"
 image-alt: "Image-of-trees."
 pagetitle: "Portfolio | B.W. Tjepkes"
@@ -49,9 +51,9 @@ listing:
   #     - image
 ---
 
-## Where Am I Now?
+## My Current Role
 
-**Current Role --** I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My [professional CV](curriculum-vitae/index.qmd) has a comprehensive look at my experience.
+I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My [professional CV](curriculum-vitae/index.qmd) has a comprehensive look at my experience.
 
 |                |                                                                                                                                                                                                                                                                |
 |--------------------|----------------------------------------------------|
