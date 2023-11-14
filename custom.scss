@@ -229,7 +229,7 @@ h2 {
 }
 
 .abstract {
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 400;
   max-width: 700px;
   margin: 2em;
@@ -382,8 +382,24 @@ div.sourceCode {
   display: none;
 }
 
+
+.image-top-container {
+  display: block;
+  position: relative;
+  height: 200px;
+  width: 100%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) ), url("assets/img-bog-trees.JPG");
+  /*background-image: url("assets/img-bog-trees.JPG");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 3em;
+  border-bottom: solid rgba(0, 0, 0, 0.2);
+}
+
+
 .image-cover-container {
-  display: flex;
+  display: none;
   flex-basis: 1;
   align-items: center;
   justify-content: center;
@@ -415,7 +431,8 @@ div.sourceCode {
 .post-meta {
   display: flex;
   flex-direction: row;
-  gap: 2em;
+  gap: 2.5em;
+  font-size: 1.2em;
 }
 
 #title-block-header {
@@ -424,7 +441,7 @@ div.sourceCode {
   background-color: black;
   background-attachment: fixed;
   background-size: cover;
-  background-position: bottom;
+  background-position: center center;
   background-repeat: no-repeat;
   border-bottom: solid 12px #205c6d;
   color: white !important;
@@ -433,10 +450,10 @@ div.sourceCode {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-top: 3em;
+  padding-top: 0em;
   padding-bottom: 2em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 0em;
+  padding-right: 0em;
 }
       @media (max-width: 991.98px) {
         #title-block-header {

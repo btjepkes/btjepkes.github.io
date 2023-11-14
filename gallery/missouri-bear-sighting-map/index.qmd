@@ -1,7 +1,7 @@
 ---
 title: "Choropleth of Missouri Bear Sightings"
 subtitle: "County-based counts of reported bear sightings in Missouri during 2020."
-date-modified: "4/16/2023"
+date: "4/16/2023"
 categories:
   - Map Gallery
   - Missouri
