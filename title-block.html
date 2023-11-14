@@ -3,15 +3,15 @@
   <div class="image-top-container">
   </div>
   
-  
-  <div class="title-area">
-  $if(title)$<h1 class="title">$title$</h1>$endif$
-  
-    $if(subtitle)$
-    <p class="subtitle">$subtitle$</p>
-  $endif$
-  
-  </div>
+  <div class="header-content-container">
+    <div class="title-area">
+    $if(title)$<h1 class="title">$title$</h1>$endif$
+    
+      $if(subtitle)$
+      <p class="subtitle">$subtitle$</p>
+    $endif$
+    
+    </div>
   
   <div class="image-cover-container">
      $if(image)$
@@ -20,21 +20,26 @@
   </div>
   
   
-  <div class="post-meta">  
-    $if(author)$
-      <p class="author">$author$</p>
+  <div class="post-meta">
+    
+    <div class="post-meta-meta">
+      
+        $if(author)$
+          <p class="author">$author$</p>
+        $endif$
+        
+        $if(date)$
+          <p class="date">$date$</p>
+        $endif$
+    </div>
+    
+    $if(abstract)$
+      <div class="abstract">
+        $abstract$
+      </div>
     $endif$
     
-    $if(date)$
-      <p class="date">$date$</p>
-    $endif$
-  </div>  
-
-  $if(abstract)$
-    <div class="abstract">
-      $abstract$
-    </div>
-  $endif$
+  </div>
   
 <a href="#quarto-content" class="title-arrow">
   <div>
@@ -43,5 +48,5 @@
 </svg>
   </div>
 </a>
-  
+  </div>
 </header>

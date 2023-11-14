@@ -210,29 +210,34 @@ cookieconsent.run({
   <div class="image-top-container">
   </div>
   
-  
-  <div class="title-area">
-  <h1 class="title">Interactive Heatmap of GBIF Occurrences</h1>
-  
-        <p class="subtitle">Exploring concentrations of Greater sage grouse records in Wyoming.</p>
+  <div class="header-content-container">
+    <div class="title-area">
+    <h1 class="title">Interactive Heatmap of GBIF Occurrences</h1>
     
-  </div>
+            <p class="subtitle">Exploring concentrations of Greater sage grouse records in Wyoming.</p>
+        
+    </div>
   
   <div class="image-cover-container">
          <img src="img-sage-grouse.jpg" alt="Image" of="" sage="" grouse="" on="" a="" lek.="" class="image-cover">
     </div>
   
   
-  <div class="post-meta">  
-          <p class="author">Benjamin Tjepkes</p>
-        
-          <p class="date">May 5, 2023</p>
-      </div>  
-
-      <div class="abstract">
-      In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap.
-    </div>
+  <div class="post-meta">
     
+    <div class="post-meta-meta">
+      
+                  <p class="author">Benjamin Tjepkes</p>
+                
+                  <p class="date">May 5, 2023</p>
+            </div>
+    
+          <div class="abstract">
+        In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap.
+      </div>
+        
+  </div>
+  
 <a href="#quarto-content" class="title-arrow">
   <div>
 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-arrow-down-circle-fill" viewbox="0 0 16 16">
@@ -240,7 +245,7 @@ cookieconsent.run({
 </svg>
   </div>
 </a>
-  
+  </div>
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
@@ -390,15 +395,15 @@ cookieconsent.run({
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-1" data-code-annotation="1" data-code-lines="1,2">For accessing GBIF data. Install if necessary.</span>
+<span data-code-annotation="1" data-code-cell="annotated-cell-1" data-code-lines="1,2">For accessing GBIF data. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-cell="annotated-cell-1" data-code-annotation="2" data-code-lines="3,4">For mapping data interactively. Install if necessary.</span>
+<span data-code-annotation="2" data-code-cell="annotated-cell-1" data-code-lines="3,4">For mapping data interactively. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
 <dd>
-<span data-code-cell="annotated-cell-1" data-code-annotation="3" data-code-lines="5,6">For the heatmap functionality. Install if necessary.</span>
+<span data-code-annotation="3" data-code-cell="annotated-cell-1" data-code-lines="5,6">For the heatmap functionality. Install if necessary.</span>
 </dd>
 </dl>
 </section>
@@ -410,11 +415,11 @@ cookieconsent.run({
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-annotation="1" data-code-lines="1">This function allows us to see the taxonomic information for our focal species.</span>
+<span data-code-annotation="1" data-code-cell="annotated-cell-2" data-code-lines="1">This function allows us to see the taxonomic information for our focal species.</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-annotation="2" data-code-lines="2">This prints that information to the console.</span>
+<span data-code-annotation="2" data-code-cell="annotated-cell-2" data-code-lines="2">This prints that information to the console.</span>
 </dd>
 </dl>
 </section>
@@ -718,7 +723,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":true,"descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":true,"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox"});</script>
 
 
 

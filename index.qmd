@@ -131,7 +131,7 @@ listing:
 
 ## My Latest Work {.h2-index}
 
-Please have a look at some of my blog posts, research overviews, and visualization gallery.
+This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery.
 
 ::: {#site-listings-2}
 :::
