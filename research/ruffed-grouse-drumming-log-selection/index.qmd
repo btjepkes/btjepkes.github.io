@@ -15,4 +15,18 @@ categories:
 
 This project was aimed at determining how ruffed grouse in northern Wisconsin select their drumming log sites, investigating everything from log diameter, orientation, and spatial position.
 
-![](img-grouse-map.jpg)
+## Project Presentations
+
+Tjepkes, B.W., J.G. Williams, J.O. Quehl, R.A. Martin, L. Cutler, and J.D. Riddle. Determining topographical components to drumming log selection in ruffed grouse. Session poster at University of Wisconsin – Stevens Point College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.
+
+Tjepkes, B.W., J.G. Williams, J.O. Quehl, B.M. Rochefort, R.A. Martin, and J.D. Riddle. Spatial position and orientation of ruffed grouse drumming logs. Session poster at The Wildlife Society Annual Conference, Cleveland, OH.
+
+Tjepkes, B.W., J.G. Williams, J.O. Quehl, B.M. Rochefort, R.A. Martin, and J.D. Riddle. Measuring drumming log characteristics. Session poster at Midwest Fish and Wildlife Conference, Milwaukee, WI.
+
+Williams, J.G., S.E. Lau, H.A. Putnam, J.O. Quehl, B.W. Tjepkes, and J.D. Riddle. Ruffed grouse drumming log characteristics. Session poster at The Wildlife Society Annual Conference, Albuquerque, NM.
+
+Williams, J.G., S.E. Lau, H.A. Putnam, J.O. Quehl, B.W. Tjepkes, and J.D. Riddle. Ruffed grouse (Bonasa umbellus) drumming log characteristics near Tomahawk, Wisconsin. Session poster at Midwest Fish and Wildlife Conference, Lincoln, NE.
+
+Williams, J.G., H.M. North, B.W. Tjepkes, S.E. Lau, and J.D. Riddle. Ruffed grouse (Bonasa umbellus) drumming log selection near Tomahawk, Wisconsin. Session poster at The Wildlife Society Annual Conference, Raleigh, NC.
+
+Williams, J.G., H.M. North, B.W. Tjepkes, S.E. Lau, and J.D. Riddle. Relationships between home range size, age, and habitat for ruffed grouse. Session poster at University of Wisconsin – Stevens Point College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.

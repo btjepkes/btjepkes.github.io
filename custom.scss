@@ -780,11 +780,10 @@ div.quarto-post .metadata {
 
 @media (hover: hover) {
 .quarto-grid-item:hover {
-    transform: scale(1.02);
     color: inherit;
-    transition: width, height, 0.2s ease-in-out;
-    -webkit-box-shadow: 6px 6px 6px 0 rgba(0,0,0,.08);
-    box-shadow: 6px 6px 6px rgba(0,0,0,.08);
+    transition: width, height, 0.1s ease-in-out;
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
 }}
 
 @media (min-width: 800px) { 

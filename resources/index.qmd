@@ -1,7 +1,8 @@
 ---
 title: "Helpful Resources"
 subtitle: My favorite references for ecology, GIS, R, and more.
-abstract: "This page contains a repository of technical tutorials, personal blogs, eBooks, and other websites that I find myself conistently referring back to for my technical works."
+abstract: "This page contains a repository of technical tutorials, personal blogs, eBooks, and other websites that I find myself consistently referring back to for my technical works."
+date: 2023-11-14
 image: ../assets/img-world-overview.png
 image-alt: Image-of-pine-trees-on-blue-background.
 execute:
