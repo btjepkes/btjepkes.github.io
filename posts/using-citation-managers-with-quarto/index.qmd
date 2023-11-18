@@ -1,10 +1,6 @@
 ---
-title: "Using Citation Managers with Quarto"
-subtitle: "How to streamline bibliography creation in your technical documents with R."
-author:
-  - name: Benjamin Tjepkes  
-    url: //about.qmd
-    orcid: 0009-0002-5524-2675
+title: "Building Annotated Bibliographies with Quarto"
+subtitle: "How to streamline bibliography creation with Quarto in R."
 date: "5/20/2023"
 abstract: This post is pending.
 abstract-title: ""
@@ -16,5 +12,11 @@ image: bg-pine-blue.jpg
 draft: TRUE
 ---
 
+## Introduction
 
+### Annotated Bibliographies
+
+I am not a superfan of annotated bibliographies, at least the ordeal of developing one. They are often preceded with much procrastination and grumbling. Despite all of this, they are overwhelming useful when developing a research basis and are an important step that should not be missed.
+
+### Using Zotero in RStudio
 

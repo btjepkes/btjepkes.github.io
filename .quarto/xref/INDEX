@@ -310,5 +310,11 @@
   },
   "gallery/andes-mountains-map/index.qmd": {
     "index.html": "f5b789ca"
+  },
+  "gallery/happy-forests-happy-people-map/index.qmd": {
+    "index.html": "03e32ade"
+  },
+  "posts/building-annotated-bibliographies-with-quarto/index.qmd": {
+    "index.html": "b7aaca55"
   }
 }

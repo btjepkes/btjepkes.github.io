@@ -1,0 +1,28 @@
+---
+title: "Forest & Happiness Bivariate Map"
+subtitle: "Bivariate map of United States showing happiness and forest cover."
+date: 11/13/2023
+categories:
+  - Map Gallery
+  - Choropleth
+keywords:
+  - "#30DayMapChallenge2023"
+abstract: This bivariate map shows happiness scores from WalletHub and forest cover values from the U.S. Forest Service for each U.S. state.
+image: img-happy-forests-happy-people-map-thumb.png
+image-alt: "A choropleth map showing forest cover and happiness index."
+# aliases:
+---
+
+## Task & Objectives
+
+This map was created for **Day 13** of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "Choropleth" for the main subject.
+
+## Tools & Workflow
+
+Map creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub.
+
+## Final Result
+
+Here is the final product showing both happiness and forest cover as a bivariate choropleth map.
+
+![Credit: Benjamin Tjepkes](img-happy-forests-happy-people-map.png)
