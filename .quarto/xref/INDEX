@@ -316,5 +316,8 @@
   },
   "posts/building-annotated-bibliographies-with-quarto/index.qmd": {
     "index.html": "b7aaca55"
+  },
+  "gallery/pennsylvania-bridge-map/index.qmd": {
+    "index.html": "b78dd558"
   }
 }
