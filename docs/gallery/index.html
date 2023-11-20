@@ -8,7 +8,6 @@
 
 <meta name="author" content="Benjamin Tjepkes">
 <meta name="dcterms.date" content="2023-11-14">
-<meta name="description" content="<strong>?meta:description</strong>">
 
 <title>My Gallery | B.W. Tjepkes</title>
 <style>
@@ -70,21 +69,76 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery-listings .list');
+    const listingTargetEl = window.document.querySelector('#listing-gallery-listings-maps .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      page: 18,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-subtitle","listing-categories","listing-abstract"],
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery-listings'] = new List('listing-gallery-listings', options);
+    window['quarto-listings']['listing-gallery-listings-maps'] = new List('listing-gallery-listings-maps', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-gallery-listings-dataviz .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-gallery-listings-dataviz'] = new List('listing-gallery-listings-dataviz', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-gallery-listings-posters .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-gallery-listings-posters'] = new List('listing-gallery-listings-posters', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -337,35 +391,32 @@ cookieconsent.run({
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(24)</span></div><div class="category" data-category="Africa">Africa <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Asia">Asia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Avian">Avian <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Canada">Canada <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Chart Gallery">Chart Gallery <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Choropleth">Choropleth <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Climate">Climate <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Contour">Contour <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Endangered Species">Endangered Species <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Forests">Forests <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Furbearers">Furbearers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Hexbin">Hexbin <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Location Suitability">Location Suitability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mammal">Mammal <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Map Gallery">Map Gallery <span class="quarto-category-count">(17)</span></div><div class="category" data-category="Minnesota">Minnesota <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mississippi River">Mississippi River <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Missouri">Missouri <span class="quarto-category-count">(5)</span></div><div class="category" data-category="North America">North America <span class="quarto-category-count">(1)</span></div><div class="category" data-category="OpenStreetMap">OpenStreetMap <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Overlay">Overlay <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Pennsylvania">Pennsylvania <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Poster Gallery">Poster Gallery <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Report">Report <span class="quarto-category-count">(1)</span></div><div class="category" data-category="South America">South America <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Testing">Testing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="United States">United States <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Watershed">Watershed <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Wisconsin">Wisconsin <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On This Page:</h2>
+   
+  <ul>
+  <li><a href="#map-gallery" id="toc-map-gallery" class="nav-link active" data-scroll-target="#map-gallery">Map Gallery</a></li>
+  <li><a href="#data-viz-gallery" id="toc-data-viz-gallery" class="nav-link" data-scroll-target="#data-viz-gallery">Data Viz Gallery</a></li>
+  <li><a href="#poster-report-gallery" id="toc-poster-report-gallery" class="nav-link" data-scroll-target="#poster-report-gallery">Poster &amp; Report Gallery</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/btjepkes/btjepkes.github.io/blob/main/gallery/index.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/btjepkes/btjepkes.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div id="listing-gallery-listings" class="listings-gallery quarto-listing quarto-listing-container-grid">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-gallery-listings-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-gallery-listings'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
+<!-- {{< include _listing-chooser.qmd >}} -->
+<section id="map-gallery" class="level2">
+<h2 data-anchor-id="map-gallery">Map Gallery</h2>
+<p><strong>Tools &amp; Technologies:</strong> ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS</p>
+<div id="listing-gallery-listings-maps" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Map Gallery,Wisconsin,Location Suitability" data-listing-date-sort="1546322400000" data-listing-file-modified-sort="1698589648927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-categories="Map Gallery,Wisconsin,Location Suitability" data-listing-date-sort="1546322400000" data-listing-file-modified-sort="1700515846877" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../gallery/vineyard-and-winery-location-suitability-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../gallery/vineyard-and-winery-location-suitability-map/img-map-1.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Map-of-vineyard-and-winery-suitabiliy.">
+<img src="../gallery/vineyard-and-winery-location-suitability-map/img-vineyard-suitability-map-thumb.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Map-of-vineyard-and-winery-suitabiliy.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -375,11 +426,11 @@ Vineyard and Winery Location Suitability Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Map Gallery,Missouri,Choropleth" data-listing-date-sort="1667278800000" data-listing-file-modified-sort="1698548206978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="1" data-categories="Map Gallery,Missouri,Choropleth" data-listing-date-sort="1667278800000" data-listing-file-modified-sort="1700515994346" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../gallery/turkey-harvest-maps-by-county/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../gallery/turkey-harvest-maps-by-county/img-turkey-harvest-maps.png" class="thumbnail-image card-img" style="height: 300px;" alt="Two maps side by side of fall and spring turkey harvest.">
+<img src="../gallery/turkey-harvest-maps-by-county/img-turkey-harvest-maps-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="Two maps side by side of fall and spring turkey harvest.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -403,7 +454,21 @@ Choropleth of Missouri Bear Sightings
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Watershed" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1700451508275" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Mammal" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1700514879229" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../gallery/2018-squirrel-census-sighting-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/2018-squirrel-census-sighting-map/img-map-001v2.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing squirrel densities in Central Park.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+2018 Squirrel Census Sighting Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Map Gallery,Watershed" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1700451508275" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../gallery/great-lakes-watershed-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -412,20 +477,6 @@ Choropleth of Missouri Bear Sightings
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Great Lakes Watersheds Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Climate" data-listing-date-sort="1698555600000" data-listing-file-modified-sort="1698633743843" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="../gallery/global-ocean-currents-and-temps/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/global-ocean-currents-and-temps/img-global-ocean.png" class="thumbnail-image card-img" style="height: 300px;" alt="Image showing the global ocean currents focused on South America.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Global Ocean Currents and Temperatures
 </h5>
 </div>
 </div>
@@ -557,7 +608,7 @@ Forest &amp; Happiness Bivariate Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="OpenStreetMap,Pennsylvania" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1700363522736" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="14" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1700515274483" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -571,35 +622,7 @@ OSM Bridges Across Pennsylvania
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="Map Gallery,Mammal" data-listing-file-modified-sort="1698531027382" data-listing-reading-time-sort="1">
-<a href="../gallery/2018-squirrel-census-sighting-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/2018-squirrel-census-sighting-map/img-map-001v2.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing squirrel densities in Central Park.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2018 Squirrel Census Sighting Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="16" data-categories="Poster Gallery,Mississippi River,Avian" data-listing-file-modified-sort="1698530820246" data-listing-reading-time-sort="1">
-<a href="../gallery/bald-eagle-nest-selection-poster/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/bald-eagle-nest-selection-poster/img-eagle-poster.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Poster detailing bald eagle nest monitoring research.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Poster on Bald Eagle Nest Selection Research
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="17" data-categories="Map Gallery,United States,Endangered Species" data-listing-file-modified-sort="1698530423314" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="15" data-categories="Map Gallery,United States,Endangered Species" data-listing-file-modified-sort="1698530423314" data-listing-reading-time-sort="1">
 <a href="../gallery/endangered-species-stamp-collection-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -613,39 +636,11 @@ Endangered Species Stamp Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-categories="Report,Missouri,Furbearers" data-listing-file-modified-sort="1698861502695" data-listing-reading-time-sort="1">
-<a href="../gallery/mdc-furbearer-program-annual-report-2021/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="../gallery/mdc-furbearer-program-annual-report-2021/img-2021-mdc-furbearer-report.png" class="thumbnail-image card-img" style="height: 300px;" alt="Image of example pages from the report.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Annual Report for MDC Furbearer Program
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="19" data-categories="Poster Gallery,Missouri,Mammal" data-listing-file-modified-sort="1698530095857" data-listing-reading-time-sort="1">
-<a href="../gallery/missouri-bat-hcp-poster/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="../gallery/missouri-bat-hcp-poster/img-bat-hcp-poster.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Poster showing information about the Missouri bat habitat conservation plan.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Missouri Bat HCP Overview &amp; Update Poster
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="20" data-categories="Testing,Map Gallery,Missouri,Overlay" data-listing-file-modified-sort="1698529396400" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="16" data-categories="Testing,Map Gallery,Missouri,Overlay" data-listing-file-modified-sort="1698529396400" data-listing-reading-time-sort="1">
 <a href="../gallery/overlaying-public-lands-with-bmzs/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="../gallery/overlaying-public-lands-with-bmzs/img-map-6.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing bear management zones.">
+<img src="../gallery/overlaying-public-lands-with-bmzs/img-map-6.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing bear management zones.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -655,25 +650,11 @@ Overlaying Public Lands with BMZs
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="21" data-categories="Chart Gallery" data-listing-file-modified-sort="1698529247137" data-listing-reading-time-sort="1">
-<a href="../gallery/relative-coding-proficiency-chart/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="../gallery/relative-coding-proficiency-chart/img-relative-skills-animation.gif" class="thumbnail-image card-img" style="height: 300px;" alt="Animated bar chart showing six different coding languages.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Relative Coding Proficiency Charts
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="22" data-categories="Map Gallery,Wisconsin" data-listing-file-modified-sort="1698529009736" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="17" data-categories="Map Gallery,Wisconsin" data-listing-file-modified-sort="1698529009736" data-listing-reading-time-sort="1">
 <a href="../gallery/shoreline-structure-setback-compliance-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="../gallery/shoreline-structure-setback-compliance-map/img-map-4.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Map of three lakes showing shoreline structure setback complicance.">
+<img src="../gallery/shoreline-structure-setback-compliance-map/img-map-4.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Map of three lakes showing shoreline structure setback complicance.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -683,11 +664,22 @@ Shoreline Structure Setback Compliance
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="23" data-listing-file-modified-sort="1698528634649" data-listing-reading-time-sort="7">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="data-viz-gallery" class="level2">
+<h2 data-anchor-id="data-viz-gallery">Data Viz Gallery</h2>
+<p><strong>Tools &amp; Technologies:</strong> R/RStudio, Python/Jupyter Notebook, Microsoft Excel</p>
+<div id="listing-gallery-listings-dataviz" class="listings-gallery quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Data Gallery" data-listing-date-sort="1698037200000" data-listing-file-modified-sort="1700515673833" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <a href="../gallery/work-commitments-calendar/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="../gallery/work-commitments-calendar/img-calendar.jpeg" class="thumbnail-image card-img" style="height: 300px;" alt="A calendar displaying work commitments for 2021, highlighting important dates and events.">
+<img src="../gallery/work-commitments-calendar/img-calendar.jpeg" class="thumbnail-image card-img" style="height: 300px;" alt="A calendar displaying work commitments for 2021, highlighting important dates and events.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -697,17 +689,68 @@ Weekly Work Commitments Calendar
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="1" data-categories="Data Gallery" data-listing-file-modified-sort="1700515528473" data-listing-reading-time-sort="1">
+<a href="../gallery/relative-coding-proficiency-chart/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/relative-coding-proficiency-chart/img-relative-skills-animation.gif" class="thumbnail-image card-img" style="height: 300px;" alt="Animated bar chart showing six different coding languages.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Relative Coding Proficiency Charts
+</h5>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-<nav id="gallery-listings-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
+</div>
+</section>
+<section id="poster-report-gallery" class="level2">
+<h2 data-anchor-id="poster-report-gallery">Poster &amp; Report Gallery</h2>
+<p><strong>Tools &amp; Technologies:</strong> R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown</p>
+<div id="listing-gallery-listings-posters" class="listings-gallery quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Poster Gallery,Mississippi River,Avian" data-listing-file-modified-sort="1698530820246" data-listing-reading-time-sort="1">
+<a href="../gallery/bald-eagle-nest-selection-poster/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/bald-eagle-nest-selection-poster/img-eagle-poster.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Poster detailing bald eagle nest monitoring research.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Poster on Bald Eagle Nest Selection Research
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Poster Gallery,Missouri,Mammal" data-listing-file-modified-sort="1698530095857" data-listing-reading-time-sort="1">
+<a href="../gallery/missouri-bat-hcp-poster/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/missouri-bat-hcp-poster/img-bat-hcp-poster.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Poster showing information about the Missouri bat habitat conservation plan.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Missouri Bat HCP Overview &amp; Update Poster
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -969,7 +1012,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
-    <div class="nav-footer-center">Made with <a href="https://quarto.org/">Quarto</a> and <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> | License: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/btjepkes/btjepkes.github.io/blob/main/gallery/index.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/btjepkes/btjepkes.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Change Cookies 🍪 Preferences</a></div></div>
+    <div class="nav-footer-center">Made with <a href="https://quarto.org/">Quarto</a> and <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> | License: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Change Cookies 🍪 Preferences</a></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

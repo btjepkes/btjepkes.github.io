@@ -1,6 +1,6 @@
 execute: 
   freeze: auto
-description-meta: "{{< meta description >}}"
+#description-meta: "{{< meta description >}}"
 citation: true
 
 # Default for table of contents

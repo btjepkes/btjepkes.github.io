@@ -4,28 +4,74 @@ subtitle: "Maps, visualizations, reports, posters, and presentations."
 date: 2023/11/14
 image: ../assets/img-geospatial-cover.webp
 image-alt: Image-of-pine-trees-on-blue-background.
-toc: false
 abstract: These are some of my latest maps and data visualizations from creative projects, work assignments, course projects, or contributions to Tidy Tuesday or similar.
 listing:
-  - id: gallery-listings
-    contents:
-      - "*.qmd"
+  - id: gallery-listings-maps
+    contents: "*.qmd"
+    include:
+      categories: Map Gallery
     type: grid
     grid-columns: 2
+    page-size: 50
     grid-item-border: true
-    categories: numbered
     sort: "date"
     image-height: 300px
-    sort-ui: [title, date]
-    filter-ui: [title, subtitle, categories, abstract]
+    # sort-ui: [title, date]
+    # filter-ui: [title, subtitle, categories, abstract]
     fields:
         - image
         - title
-# format: 
-#   html: 
-#     page-layout: full
+  - id: gallery-listings-dataviz
+    contents: "*.qmd"
+    include:
+      categories: Data Gallery
+    type: grid
+    grid-columns: 2
+    page-size: 50
+    grid-item-border: true
+    sort: "date"
+    image-height: 300px
+    # sort-ui: [title, date]
+    # filter-ui: [title, subtitle, categories, abstract]
+    fields:
+        - image
+        - title
+  - id: gallery-listings-posters
+    contents: "*.qmd"
+    include:
+      categories: Poster Gallery
+    type: grid
+    grid-columns: 2
+    page-size: 50
+    grid-item-border: true
+    sort: "date"
+    image-height: 300px
+    # sort-ui: [title, date]
+    # filter-ui: [title, subtitle, categories, abstract]
+    fields:
+        - image
+        - title
 ---
 
-::: {#gallery-listings .listings-gallery}
+<!-- {{< include _listing-chooser.qmd >}} -->
 
+## Map Gallery
+
+**Tools & Technologies:** ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS
+
+::: {#gallery-listings-maps .listings-gallery}
+:::
+
+## Data Viz Gallery
+
+**Tools & Technologies:** R/RStudio, Python/Jupyter Notebook, Microsoft Excel
+
+::: {#gallery-listings-dataviz .listings-gallery}
+:::
+
+## Poster & Report Gallery
+
+**Tools & Technologies:** R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown
+
+::: {#gallery-listings-posters .listings-gallery}
 :::

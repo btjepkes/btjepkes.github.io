@@ -1,9 +1,11 @@
 ---
 title: "Weekly Work Commitments Calendar"
 subtitle: "Visualizing my work hours for an exhausting 2021."
+categories:
+  - Data Gallery
 image: img-calendar.jpeg
 image-alt: "A calendar displaying work commitments for 2021, highlighting important dates and events."
-date-modified: 10/23/2023
+date: 10/23/2023
 abstract: "This visualization shows the distribution of my work weeks in 2021 as reported on my timesheet. Production was completed in RStudio following an elequent code example from [Tanya Shapiro](https://tanyaviz.com/)."
 ---
 

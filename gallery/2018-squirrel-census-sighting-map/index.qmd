@@ -1,7 +1,7 @@
 ---
 title: "2018 Squirrel Census Sighting Map"
 subtitle: "Density-based map of squirrel sightings in Central Park."
-date-modified: "5-23-2023"
+date: "5-23-2023"
 categories:
   - Map Gallery
   - Mammal

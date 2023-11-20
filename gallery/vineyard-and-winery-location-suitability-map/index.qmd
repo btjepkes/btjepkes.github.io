@@ -10,7 +10,7 @@ categories:
   - Map Gallery
   - Wisconsin
   - Location Suitability
-image: img-map-1.jpg
+image: img-vineyard-suitability-map-thumb.jpg
 image-alt: "Map-of-vineyard-and-winery-suitabiliy."
 ---
 ## Methods & Tools

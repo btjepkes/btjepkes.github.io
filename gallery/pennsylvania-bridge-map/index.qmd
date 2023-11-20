@@ -5,6 +5,7 @@ date: 11/15/2023
 categories:
   - OpenStreetMap
   - Pennsylvania
+  - Map Gallery
 keywords:
   - "#30DayMapChallenge2023"
 abstract: This point map shows the locations of all bridges in the state of Pennsylvania, according to OpenStreetMap.

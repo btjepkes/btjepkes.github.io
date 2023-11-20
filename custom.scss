@@ -352,6 +352,10 @@ div.sourceCode {
 
 // SIDEBAR
 
+#quarto-content.page-columns #quarto-margin-sidebar, #quarto-content.page-columns #quarto-sidebar {
+  z-index: -1;
+}
+
 #quarto-margin-sidebar {
   /*background: #ededed;*/
   background: transparent;
@@ -436,7 +440,8 @@ div.sourceCode {
   padding: 20px 20px;
   max-width: 1200px;
   margin: auto;
-  background: rgba(6,13,45,1.0);
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
   border-radius: 20px;
   font-size: 1.0em;
 }
@@ -921,7 +926,7 @@ div.quarto-post .metadata {
 }
 
 .nav-footer .nav-footer-right {
-  font-size: 1.8em;
+  font-size: 1.5em;
   padding: 2px 20px;
 }
   
@@ -929,7 +934,7 @@ div.quarto-post .metadata {
   flex-direction: column-reverse;
   align-items: center;
   padding-bottom: 2em;
-  gap: 2em
+  gap: 0.5em
 }
   
 }
