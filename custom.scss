@@ -167,7 +167,7 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Anek, Nunito, sans-serif;
-  background: linear-gradient(to bottom, #ffffff, rgba(255,255,255,0.35)), url("assets/bg-links.jpg");
+  background: linear-gradient(to bottom, #ffffff, rgba(255,255,255,0.5)), url("assets/bg-links.jpg");
   background-attachment: fixed;
   background-position: center;
 }
@@ -204,7 +204,7 @@ h2 {
 }
 
 .subtitle {
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2em;
   font-size: clamp(1em, 5vw, 1.8em);
   letter-spacing: 0.01em;
@@ -212,6 +212,7 @@ h2 {
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.25);
 }
 
 .quarto-title-meta a {
@@ -230,6 +231,7 @@ h2 {
   font-size: 1.0em;
   font-weight: 400;
   margin: auto;
+  max-width: 900px;
 }
 
 #toc-title {
@@ -432,10 +434,10 @@ div.sourceCode {
   flex-direction: column;
   gap: 0em;
   padding: 20px 20px;
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
-  background: rgba(0,0,0,0.65);
-  border-radius: 4px;
+  background: rgba(6,13,45,1.0);
+  border-radius: 20px;
   font-size: 1.0em;
 }
 
@@ -501,6 +503,12 @@ div.sourceCode {
 
 .pagination {
   margin-top: 2.5em;
+}
+
+.nav-page .pagination-link {
+  background: #e8e8e8;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 // TABLES
@@ -833,7 +841,7 @@ div.quarto-post .metadata {
 
 // FOOTER
 
-
+/*
 @media (max-width: 767.98px) {
 #footer-tab .columns {
   display: flex;
@@ -891,7 +899,7 @@ div.quarto-post .metadata {
   background-position: center 30%;
   opacity: 0.45;
 }
-
+*/
 
 .nav-footer {
   padding-top: 0.5em;
@@ -913,16 +921,15 @@ div.quarto-post .metadata {
 }
 
 .nav-footer .nav-footer-right {
-  font-size: 1.5em;
+  font-size: 1.8em;
   padding: 2px 20px;
-  margin-bottom: 0em;
-  margin-top: 0em;
 }
   
 .nav-footer {
   flex-direction: column-reverse;
   align-items: center;
   padding-bottom: 2em;
+  gap: 2em
 }
   
 }

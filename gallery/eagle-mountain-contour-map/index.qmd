@@ -16,7 +16,7 @@ image-alt: "A contour map showing Eagle Mountain and the surrounding topography 
 
 ## Task & Objectives
 
-The prompt for this map was for Day Two of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "lines" for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity.
+The prompt for this map was for **Day Two** of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "lines" for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity.
 
 ## Tools & Workflow
 
@@ -26,4 +26,9 @@ In ArcGIS Pro, the DEM was used to generate a simplified 10-m contour feature cl
 
 ## Final Result
 
+Here is the final map showing the location of Eagle Mountain surrounded by nearby lakes and the elevation contour lines.
+
 ![Credit: Benjamin Tjepkes](img-eagle-mtn-map.png)
+
+
+**See all my [contributions](../../posts/30-day-map-challenge-2023/index.qmd) to the 2023 #30DayMapChallenge.**

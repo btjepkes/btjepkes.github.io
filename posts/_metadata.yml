@@ -1,7 +1,7 @@
 execute: 
   freeze: auto
 description-meta: "{{< meta description >}}"
-title-prefix: "Blog Post - "
+citation: true
 
 # Default for table of contents
 toc: true
