@@ -13,9 +13,9 @@ website:
   favicon: assets/logo-1.png
   page-navigation: true
   back-to-top-navigation: false
-  search: 
+  search:
     location: navbar
-    type: overlay
+    type: textbox
   open-graph: true
   twitter-card:
     creator: "@BTjepkes"

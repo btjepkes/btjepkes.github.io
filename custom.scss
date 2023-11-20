@@ -41,7 +41,7 @@ $blue-4:        #06214e !default;
 $blue-5:        #2d405f !default;
 $blue-6:        #466393 !default;
 
-$primary:       $black !default;
+$primary:       #153b46 !default;
 $secondary:     $white !default;
 $success:       $blue-1 !default;
 $info:          $cyan !default;
@@ -274,11 +274,11 @@ div.sourceCode {
 // Navbar
 
 .navbar {
-  border-bottom: solid rgba(237, 237, 237,0.3) 1px;
+  border-bottom: solid rgba(237, 237, 237,0.3) 2px;
   box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
 	padding: 0.35em 20px 0.35em 20px;
-	background-color: #153b46;
+	/*background-color: #153b46;*/
 }
 
 .navbar-brand span {
@@ -289,6 +289,12 @@ div.sourceCode {
 
 .navbar-nav .active {
   color: white !important;
+}
+
+.navbar-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 // Navbar - MOBILE ONLY
@@ -462,9 +468,9 @@ div.sourceCode {
   background-color: black;
   background-attachment: fixed;
   background-size: cover;
-  background-position: bottom center;
+  background-position: 20% center;
   background-repeat: no-repeat;
-  border-bottom: solid 12px #205c6d;
+  border-bottom: solid 16px #205c6d;
   color: white !important;
   display: flex;
   flex-direction: column;
