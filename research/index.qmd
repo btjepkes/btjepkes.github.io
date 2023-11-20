@@ -3,7 +3,7 @@ title: "My Research"
 subtitle: Focusing on spatial ecology and geographic information systems.
 image: ../assets/BooneCoLiDAR.png
 image-alt: Image-of-pine-trees-on-blue-background.
-author: ""
+date: 2023-11-20
 abstract: "My research has expanded both my technical skillset and my appreciation for science. Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques."
 listing:
   contents: "*.qmd"
