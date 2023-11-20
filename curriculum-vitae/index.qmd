@@ -3,6 +3,7 @@ title: "Curriculum vitae"
 subtitle: A full look at my education and professional experience.
 image: ../assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg
 image-alt: Image-of-pine-trees-on-blue-background.
+date: 2023-10-30
 abstract: "This page provides information on my formal education, recent professional experience, and professional skillset. Please also check out my [full CV](Tjepkes_CV_20231030_Web.pdf)."
 format:
   html:
