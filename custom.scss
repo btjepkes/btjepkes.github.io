@@ -291,11 +291,10 @@ div.sourceCode {
   color: white !important;
 }
 
-.navbar-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
+.ms-auto {
+  margin-right: 10px;
 }
+
 
 // Navbar - MOBILE ONLY
 
@@ -447,7 +446,7 @@ div.sourceCode {
   max-width: 1200px;
   margin: auto;
   background: rgba(0,0,0,0.5);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(1px);
   border-radius: 20px;
   font-size: 1.0em;
 }
