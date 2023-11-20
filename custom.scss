@@ -383,7 +383,7 @@ div.sourceCode {
 
 
 .image-top-container {
-  display: block;
+  display: none;
   position: relative;
   height: 180px;
   width: 100%;
@@ -435,7 +435,7 @@ div.sourceCode {
   gap: 0em;
   padding: 20px 20px;
   /*font-family: Oswald;*/
-  background: rgba(255,255,255,0.1);
+  background: rgba(0,0,0,0.6);
   border-radius: 4px;
   font-size: 1.0em;
 }
@@ -452,7 +452,7 @@ div.sourceCode {
 
 #title-block-header {
   margin-block-end: 0;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("assets/bg-grid-blue.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.85), rgba(21, 59, 70, 0.3) ), url("assets/bg-color-rivers.jpg");
   background-color: black;
   background-attachment: fixed;
   background-size: cover;
@@ -465,7 +465,7 @@ div.sourceCode {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-top: 0em;
+  padding-top: 2em;
   padding-bottom: 2em;
   padding-left: 0em;
   padding-right: 0em;

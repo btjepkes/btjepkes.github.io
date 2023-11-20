@@ -109,14 +109,14 @@
     "href": "index.html",
     "title": "Benjamin W. Tjepkes, BSc.",
     "section": "",
-    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\nSept 2023\nI recently attended the 2023 Posit Conference and enjoyed learning more about open source data science.\n\n\nAug 2023\nI have started graduate school at the University of Missouri Department of Geography. Updates on my thesis work coming soon!\n\n\nJuly 2023\nOne of my maps, Stamped in History: 50 Years of Imperiled Species Conservation, was awarded second place (Professional Category) in the 2023 GIS Certification Institute map contest.\n\n\nApril 2023\nI was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference."
+    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Below, I have listed some of my recent activities.\n\n\n\n\n\n\n\nNov 2023\nI am participating in the #30DayMapChallenge on social media. See all my contributions here.\n\n\nSept 2023\nI recently attended the 2023 Posit Conference and enjoyed learning more about open source data science.\n\n\nAug 2023\nI have started graduate school at the University of Missouri Department of Geography. Updates on my thesis work coming soon!\n\n\nJuly 2023\nOne of my maps, Stamped in History: 50 Years of Imperiled Species Conservation, was awarded second place (Professional Category) in the 2023 GIS Certification Institute map contest.\n\n\nApril 2023\nI was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference."
   },
   {
     "objectID": "index.html#my-current-role",
     "href": "index.html#my-current-role",
     "title": "Benjamin W. Tjepkes, BSc.",
     "section": "",
-    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional CV has a comprehensive look at my experience.\n\n\n\n\n\n\n\nSept 2023\nI recently attended the 2023 Posit Conference and enjoyed learning more about open source data science.\n\n\nAug 2023\nI have started graduate school at the University of Missouri Department of Geography. Updates on my thesis work coming soon!\n\n\nJuly 2023\nOne of my maps, Stamped in History: 50 Years of Imperiled Species Conservation, was awarded second place (Professional Category) in the 2023 GIS Certification Institute map contest.\n\n\nApril 2023\nI was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference."
+    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Below, I have listed some of my recent activities.\n\n\n\n\n\n\n\nNov 2023\nI am participating in the #30DayMapChallenge on social media. See all my contributions here.\n\n\nSept 2023\nI recently attended the 2023 Posit Conference and enjoyed learning more about open source data science.\n\n\nAug 2023\nI have started graduate school at the University of Missouri Department of Geography. Updates on my thesis work coming soon!\n\n\nJuly 2023\nOne of my maps, Stamped in History: 50 Years of Imperiled Species Conservation, was awarded second place (Professional Category) in the 2023 GIS Certification Institute map contest.\n\n\nApril 2023\nI was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference."
   },
   {
     "objectID": "index.html#my-latest-work",
@@ -333,14 +333,21 @@
     "href": "gallery/great-lakes-watershed-map/index.html",
     "title": "Great Lakes Watersheds Map",
     "section": "",
-    "text": "Map Credit: Ben Tjepkes"
+    "text": "This maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
   },
   {
     "objectID": "gallery/great-lakes-watershed-map/index.html#tools-methods",
     "href": "gallery/great-lakes-watershed-map/index.html#tools-methods",
     "title": "Great Lakes Watersheds Map",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
+    "section": "",
+    "text": "This maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
+  },
+  {
+    "objectID": "gallery/great-lakes-watershed-map/index.html#final-product",
+    "href": "gallery/great-lakes-watershed-map/index.html#final-product",
+    "title": "Great Lakes Watersheds Map",
+    "section": "Final Product",
+    "text": "Final Product\nThis final map shows the watersheds for each Great Lake, including their sub-basins.\n\n\n\nMap Credit: Ben Tjepkes"
   },
   {
     "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
@@ -571,7 +578,7 @@
     "href": "gallery/index.html",
     "title": "My Gallery",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Ocean Currents and Temperatures\n\n\n\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCanadian Ecoregions Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nTiger Range and Conservation Landscape Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nHyaenidae Distribution Map for Africa\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost-Secondary Institutions Hexmap\n\n\n\n\n\n\n\n\n\n\n\n\n\nMoose Sightings Across North America\n\n\n\n\n\n\n\n\n\n\n\n\n\nAndes Mountains Elevation Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nForest & Happiness Bivariate Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nOSM Bridges Across Pennsylvania\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Ocean Currents and Temperatures\n\n\n\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nCanadian Ecoregions Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nTiger Range and Conservation Landscape Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nHyaenidae Distribution Map for Africa\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost-Secondary Institutions Hexmap\n\n\n\n\n\n\n\n\n\n\n\n\n\nMoose Sightings Across North America\n\n\n\n\n\n\n\n\n\n\n\n\n\nAndes Mountains Elevation Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nForest & Happiness Bivariate Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nOSM Bridges Across Pennsylvania\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
