@@ -25,45 +25,47 @@ website:
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
-  sidebar:
-    contents:
-      - text: "Site Navigation"
-      - text: "---"
-      - section: "Professional Overview"
-        contents:
-          - about/index.qmd
-          - curriculum-vitae/index.qmd
-          - research/index.qmd
-      - text: "---"
-      - section: "Professional Works"
-        contents:
-          - href: posts/index.qmd
-          - href: gallery/index.qmd
-      - text: "---"
-      - section: "Resources & Miscellany"
-        contents:
-          - href: resources/index.qmd
-          - href: contact.qmd
-      - text: "---"
-    background: "#ededed"
   navbar:
     pinned: false
     logo: assets/logo-1.png
+    left:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/benjamintjepkes/
+        aria-label: LinkedIn Profile
+      - icon: github
+        href: https://github.com/btjepkes
+        aria-label: GitHub Profile
+      - icon: twitter
+        href: https://twitter.com/BTjepkes
+        aria-label: Twitter Profile
     right:
-      - href: about/index.qmd
-        text: About
-      - href: curriculum-vitae/index.qmd
-        text: Resume/CV       
-      - href: gallery/index.qmd
-        text: Gallery
-      - href: posts/index.qmd
-        text: Blog
-      - href: research/index.qmd
-        text: Research        
-      - href: resources/index.qmd
-        text: Resources
-      - href: contact.qmd
-        text: Contact
+        - icon: house-fill
+          text: ""
+          href: index.html
+        - sidebar:overview
+        - sidebar:works
+        - sidebar:resources
+
+  sidebar:
+    - id: overview
+      title: "Overview"
+      style: "floating"
+      background: light
+      collapse-level: 2
+      contents: 
+        - about/index.qmd
+        - curriculum-vitae/index.qmd
+        - contact.qmd
+    - id: works
+      title: "Projects"
+      contents:
+        - posts/index.qmd
+        - gallery/index.qmd
+        - research/index.qmd
+    - id: resources
+      title: "Resources"
+      contents:
+        - resources/index.qmd
 
   page-footer:
     center: >-
