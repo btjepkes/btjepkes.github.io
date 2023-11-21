@@ -300,6 +300,11 @@ ul.navbar-nav:nth-child(1) .nav-link {
 
 @media (max-width: 991.98px) {
   
+    #quarto-header>nav {
+    padding-left: 0.5em;
+    padding-right: 1em;
+        }
+  
     .navbar .navbar-toggler {
       order: -1;
       padding-right: 0;
