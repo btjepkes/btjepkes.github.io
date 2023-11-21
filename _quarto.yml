@@ -6,9 +6,6 @@ website:
   title: "Benjamin Tjepkes"
   site-url: https://btjepkes.github.io/
   repo-url: https://github.com/btjepkes/btjepkes.github.io
-  repo-actions:
-    - source
-    - issue
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
   favicon: assets/logo-1.png
   page-navigation: true

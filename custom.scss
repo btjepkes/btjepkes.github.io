@@ -41,7 +41,7 @@ $blue-4:        #06214e !default;
 $blue-5:        #2d405f !default;
 $blue-6:        #466393 !default;
 
-$primary:       #153b46 !default;
+$primary:       $black !default;
 $secondary:     $white !default;
 $success:       $blue-1 !default;
 $info:          $cyan !default;
@@ -113,7 +113,7 @@ $spacers: (
 // Navbar
 
 // scss-docs-start navbar-variables
-$navbar-padding-y:                  $spacer * 0.7 !default;
+$navbar-padding-y:                  $spacer * 0.2 !default;
 $navbar-padding-x:                  null !default;
 
 $navbar-nav-link-padding-x:         .5rem !default;
@@ -167,9 +167,9 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Anek, Nunito, sans-serif;
-  background: linear-gradient(to bottom, rgba(255,255,255,1.0), rgba(255,255,255,0.3)), url("assets/bg-links.jpg");
+  /*background: linear-gradient(to bottom, rgba(255,255,255,1.0), rgba(255,255,255,0.3)), url("assets/bg-links.jpg");
   background-attachment: fixed;
-  background-position: center;
+  background-position: center;*/
 }
 
       @media (max-width: 991.98px) {
@@ -208,10 +208,10 @@ h2 {
   line-height: 1.2em;
   font-size: clamp(1em, 5vw, 1.8em);
   letter-spacing: 0.01em;
-  color: skyblue;
+  color: #ebdb87;
   padding-left: 1em;
   padding-right: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 0em;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.25);
 }
 
@@ -274,25 +274,29 @@ div.sourceCode {
 // Navbar
 
 .navbar {
-  border-bottom: solid rgba(237, 237, 237,0.3) 2px;
+  /*border-bottom: solid rgba(237, 237, 237,0.3) 2px;*/
   box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
-	padding: 0.35em 20px 0.35em 20px;
-	/*background-color: #153b46;*/
 }
 
 .navbar-brand span {
   font-weight: 600 !important;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  font-family: Oswald;
 }
-
+/*
 .navbar-nav .active {
   color: white !important;
-}
+}*/
 
 .ms-auto {
   margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+  width: 1.2em;
+  height: 1.2em;
 }
 
 
@@ -300,6 +304,19 @@ div.sourceCode {
 
 @media (max-width: 991.98px) {
   
+    .navbar .navbar-toggler {
+      order: -1;
+      margin-right: 0em;
+      padding-right: 0;
+      padding-left: 0;    } 
+      
+      .aa-SubmitIcon {
+        width: 26px;
+        height: 26px;
+        color: #ebdb87;
+        margin-top: -0.1em;
+      }
+  /*
     ul.navbar-nav:nth-child(1) {
     flex-direction: column;
     padding: 10px 20px;
@@ -344,7 +361,7 @@ div.sourceCode {
     
     .quarto-navbar-tools {
       display: none !important;
-    } }
+    } */   }
 
 
 // SIDEBAR
@@ -432,9 +449,9 @@ div.sourceCode {
   flex-direction: column;
   gap: 0em;
   padding: 20px 20px;
-  max-width: 1200px;
+  max-width: 800px;
   margin: auto;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.0);
   backdrop-filter: blur(1px);
   border-radius: 20px;
   font-size: 1.0em;
@@ -452,13 +469,12 @@ div.sourceCode {
 
 #title-block-header {
   margin-block-end: 0;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.3) ), url("assets/bg-color-rivers.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.99) ), url("assets/bg-color-rivers.jpg");
   background-color: black;
-  background-attachment: fixed;
+ /* background-attachment: fixed;*/
   background-size: cover;
   background-position: 20% center;
   background-repeat: no-repeat;
-  border-bottom: solid 16px #205c6d;
   color: white !important;
   display: flex;
   flex-direction: column;
@@ -507,7 +523,7 @@ div.sourceCode {
 .nav-page .pagination-link {
   background: #e8e8e8;
   border-radius: 20px;
-  padding: 10px;
+  padding: 0px 10px;
 }
 
 // TABLES
@@ -587,9 +603,6 @@ div.quarto-post {
 
 .quarto-grid-item {
   background: white;
-  background-image: url("assets/bg-topo-white.png");
-  background-blend-mode: difference;
-  background-position: center center;
   border-radius: 8px;
   border: 1px solid #46639355;
   -webkit-box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
