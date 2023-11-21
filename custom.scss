@@ -260,7 +260,6 @@ div.sourceCode {
 // Navbar
 
 .navbar {
-  /*border-bottom: solid rgba(237, 237, 237,0.3) 2px;*/
   box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
 }
@@ -286,10 +285,6 @@ ul.navbar-nav:nth-child(1) .nav-link {
   font-size: 0.95rem;
 }
 
-/*
-.navbar-nav .active {
-  color: white !important;
-}*/
 
 .ms-auto {
   margin-right: 10px;
@@ -308,7 +303,8 @@ ul.navbar-nav:nth-child(1) .nav-link {
     .navbar .navbar-toggler {
       order: -1;
       padding-right: 0;
-      padding-left: 0;    } 
+      padding-left: 0;
+      margin-right: 0;} 
       
       .aa-SubmitIcon {
         width: 26px;
