@@ -167,7 +167,7 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Anek, Nunito, sans-serif;
-  background: linear-gradient(to bottom, #ffffff, rgba(255,255,255,0.5)), url("assets/bg-links.jpg");
+  background: linear-gradient(to bottom, rgba(255,255,255,1.0), rgba(255,255,255,0.3)), url("assets/bg-links.jpg");
   background-attachment: fixed;
   background-position: center;
 }
@@ -452,7 +452,7 @@ div.sourceCode {
 
 #title-block-header {
   margin-block-end: 0;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url("assets/bg-color-rivers.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.3) ), url("assets/bg-color-rivers.jpg");
   background-color: black;
   background-attachment: fixed;
   background-size: cover;
@@ -587,7 +587,7 @@ div.quarto-post {
 
 .quarto-grid-item {
   background: white;
-  /*background-image: url("assets/bg-topo-white.png");*/
+  background-image: url("assets/bg-topo-white.png");
   background-blend-mode: difference;
   background-position: center center;
   border-radius: 8px;
@@ -911,6 +911,11 @@ div.quarto-post .metadata {
   color: white;
 }
 
+.cookie-consent-footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
 
 @media (max-width: 767.98px) {
   
