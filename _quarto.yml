@@ -48,6 +48,7 @@ website:
     background: "#ededed"
   navbar:
     pinned: false
+    logo: assets/logo-1.png
     right:
       - href: about/index.qmd
         text: About

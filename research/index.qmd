@@ -1,6 +1,6 @@
 ---
 title: "My Research"
-subtitle: Focusing on spatial ecology and geographic information systems.
+subtitle: Focusing on wildlife, spatial ecology, and GIS.
 image: ../assets/BooneCoLiDAR.png
 image-alt: Image-of-pine-trees-on-blue-background.
 date: 2023-11-20

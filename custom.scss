@@ -120,7 +120,6 @@ $navbar-nav-link-padding-x:         .5rem !default;
 
 $navbar-brand-font-size:            $font-size-base * 1.50 !default;
 $navbar-brand-margin-end:           0px !default;
-$navbar-light-brand-hover-color:    red !default;
 
 $navbar-fg: rgba($white, 1.0);
 
@@ -185,19 +184,6 @@ h1 {
   font-size: clamp(2.4em, 5vw, 3.2em);
   text-shadow: 2px 4px 3px rgba(0,0,0,0.25);
 }
-
-/*
-.title-area {
-  max-width: 700px;
-  background: #205c6d;
-  border: solid 5px rgba(255,255,255,0.1);
-  padding: 0.2em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  border-radius: 20px;
-  box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
-}*/
-
 
 h2 {
   color: $teal;
@@ -285,6 +271,14 @@ div.sourceCode {
   letter-spacing: 0.05em;
   font-family: Oswald;
 }
+
+.navbar-logo {
+  padding: 2px;
+  margin-right: 5px;
+  border: solid 1px white;
+  border-radius: 4px;
+}
+
 /*
 .navbar-nav .active {
   color: white !important;
@@ -306,14 +300,12 @@ div.sourceCode {
   
     .navbar .navbar-toggler {
       order: -1;
-      margin-right: 0em;
       padding-right: 0;
       padding-left: 0;    } 
       
       .aa-SubmitIcon {
         width: 26px;
         height: 26px;
-        color: #ebdb87;
         margin-top: -0.1em;
       }
   /*
@@ -481,8 +473,8 @@ div.sourceCode {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 2.3em;
+  padding-bottom: 2.3em;
   padding-left: 0em;
   padding-right: 0em;
 }
@@ -540,31 +532,6 @@ div.sourceCode {
     color: red !important;
     left: 50% !important;
   }
-
-
-
-/* POSTS */
-
-
-/* Index listings */
-
-div.quarto-post {
-  display: flex;
-  flex: 0 0 50%;
-  scroll-snap-align: start;
-  margin-bottom: 1.5em;
-  border: none;
-  background-color: $gray-300;
-  color: white !important;
-  padding: 20px 20px 10px 20px;
-  align-items: center;
-  background-image: url("assets/bg-topo-white.png");
-  background-attachment: fixed;
-  background-size: cover;
-  background-blend-mode: difference;
-}
-
-
 
 
 /* Callout block */
@@ -797,8 +764,8 @@ div.quarto-post .metadata {
 .quarto-grid-item:hover {
     color: inherit;
     transition: width, height, 0.1s ease-in-out;
-    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.3);
-    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.38);
+    box-shadow: 0 2px 5px rgba(0,0,0,.38);
 }}
 
 @media (min-width: 800px) { 
@@ -916,8 +883,8 @@ div.quarto-post .metadata {
 .nav-footer {
   padding-top: 0.5em;
   padding-bottom: 0em;
-  background: #153b46;
   color: white;
+  background-color: $black;
 }
 
 .nav-footer a {

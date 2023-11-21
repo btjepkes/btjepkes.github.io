@@ -45,8 +45,23 @@ I am a graduate student at the University of Missouri studying geographic inform
 
 **Below are some of my recent professional activities and projects.**
 
+```{r}
+#| tbl-colwidths: [20,80]
+#| echo: false
+# library(knitr)
+# library(kableExtra)
+# 
+# data <- data.frame(
+#   Date = c("Nov 2023", "Sept 2023", "Aug 2023", "July 2023", "April 2023"),
+#   Item = c("I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd).", "Sept 2023", "Aug 2023", "July 2023", "April 2023")
+# )
+# 
+# 
+# kable(data)
+```
+
 |                |                                                                                                                                                                                                                                                                |
-|:---------------------:|-------------------------------------------------|
+|:--------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  **Nov 2023**  | I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd).                                                                                                           |
 | **Sept 2023**  | I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.                                                                                                                        |
 |  **Aug 2023**  | I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!                                                                                                 |
@@ -55,110 +70,14 @@ I am a graduate student at the University of Missouri studying geographic inform
 
 : {tbl-colwidths="\[20,80\]"}
 
-<!-- ## Emphasis Areas {.h2-index} -->
+## Where To Explore {.h2-index}
 
-<!-- :::{.container} -->
-
-<!-- :::{.row} -->
-
-<!-- :::{.col-sm} -->
-
-<!-- {{< fa layer-group size=3x >}} -->
-
-<!-- ::: {.col-heading} -->
-
-<!-- ### Geospatial -->
-
-<!-- ::: -->
-
-<!-- Spatial data creation, management, analysis, and visualization using desktop, web, and mobile GIS. -->
-
-<!-- ::: -->
-
-<!-- :::{.col-sm} -->
-
-<!-- {{< fa tree size=3x >}} -->
-
-<!-- ::: {.col-heading} -->
-
-<!-- ### Ecology -->
-
-<!-- ::: -->
-
-<!-- Scientific and technical research, management, and analysis across diverse taxa and technology. -->
-
-<!-- ::: -->
-
-<!-- :::{.col-sm} -->
-
-<!-- {{< fa chart-simple size=3x >}} -->
-
-<!-- ::: {.col-heading} -->
-
-<!-- ### Analytics -->
-
-<!-- ::: -->
-
-<!-- Data handling, analysis, visualization, and reporting across disciplines following reproducible workflows. -->
-
-<!-- ::: -->
-
-<!-- ::: -->
-
-<!-- ::: -->
-
-<!-- ::: {.callout-important collapse="true" } -->
-
-<!-- ## My Latest Professional Updates -->
-
-<!-- - **Sept 2023 --** I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science. -->
-
-<!-- - **Aug 2023 --** I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon! -->
-
-<!-- - **July 2023 --** One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. -->
-
-<!-- - **April 2023 --** I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference. -->
-
-<!-- ::: -->
-
-## My Latest Work {.h2-index}
-
-This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery.
+This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery. Feel free to also check out more about me, my full curriculum vitae, and some helpful resources.
 
 ::: {#site-listings-2}
 :::
 
-<!-- ::: {#gallery-listings .listings-gallery} -->
-
-<!-- ::: -->
-
-<!-- ## My Professional Path -->
-
-<!-- ### 01 | Trained as a biologist. {.intro-heading} -->
-
-<!-- My professional career is based in **wildlife ecology and management**, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats. -->
-
-<!-- My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year. -->
-
-<!-- ### 02 | Drawn to geospatial. {.intro-heading} -->
-
-<!-- As I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in **spatial ecology and geospatial technologies**, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships. -->
-
-<!-- Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management. -->
-
-<!-- ### 03 | Mastering geography. {.intro-heading} -->
-
-<!-- With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a **Master's degree in Geography** at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies. -->
-
-<!-- Through my Master's program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master's program. -->
-
-## Where To Explore Next
-
-There is lots more to explore on this site, including more information about me, my full curriculum vitae, and some helpful resources.
-
 ::: {#site-listings-1}
 :::
-
-
 
 {{< include _latest-posts.qmd >}}

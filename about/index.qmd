@@ -19,6 +19,7 @@ listing:
     fields: 
       - title
       - subtitle
+      - image
 ---
 
 <!-- ![](../assets/img-ben-work.png) -->
