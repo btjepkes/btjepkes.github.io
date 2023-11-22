@@ -441,7 +441,7 @@ ul.navbar-nav:nth-child(1) .nav-link {
 .post-meta-meta {
   display: flex;
   flex-direction: row;
-  gap: 2.2em;
+  gap: 2.5em;
   font-size: 0.9em;
   text-align: center;
   align-items: center;
@@ -450,7 +450,7 @@ ul.navbar-nav:nth-child(1) .nav-link {
 
 #title-block-header {
   margin-block-end: 0;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.99) ), url("assets/bg-color-rivers.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.9) ), url("assets/bg-color-rivers.jpg");
   background-color: black;
  /* background-attachment: fixed;*/
   background-size: cover;

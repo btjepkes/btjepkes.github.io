@@ -50,7 +50,7 @@ website:
     - id: overview
       title: "Overview"
       style: "floating"
-      background: light
+      background: "#e8e8e8"
       collapse-level: 2
       contents: 
         - about/index.qmd
