@@ -25,13 +25,20 @@ listing:
 
 ## Overview of Challenge
 
-The [30 Day Map Challenge](https://30daymapchallenge.com/) is a community-driven event that encourages cartographers, map enthusiasts, and data visualization enthusiasts to create and share a different map each day for 30 consecutive days.
+The [30 Day Map Challenge](https://30daymapchallenge.com/) is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas.
 
-![Listing of 2023's Prompts. Credit: 30DayMapChallenge.com](img-30dmc-2023.png)
+The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create. **TL;DR - maps are neat!**
 
-Participants engage in this challenge to showcase their creativity, explore diverse mapping techniques, and contribute to the growing field of map design. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas.
+```{r}
+#| echo: false
+#| warning: false
+library(knitr)
+library(tidyverse)
+table <- readRDS("data-map-prompts.rds")
+kable(subset(table, select = c(Day, Theme, Details)),
+      caption = "Here are the prompts for each day of the challenge. Source: 30daymapchallenge.com")
+```
 
-The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives and interpretations through the maps they create.
 
 ## My 2023 Contributions
 

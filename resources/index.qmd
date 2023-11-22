@@ -8,10 +8,9 @@ image-alt: Image-of-pine-trees-on-blue-background.
 execute:
   echo: false
   warning: false
-# format:
-#   html:
-#     page-layout: full
 ---
+
+Some of my favorite GIS data sources can be found [here](https://freegisdata.rtwilson.com/).
 
 ## Resource Database
 

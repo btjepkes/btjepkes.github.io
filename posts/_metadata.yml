@@ -2,6 +2,8 @@ execute:
   freeze: auto
 #description-meta: "{{< meta description >}}"
 citation: true
+appendix-style: plain
+appendix-cite-as: display
 
 # Default for table of contents
 toc: true
