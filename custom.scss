@@ -276,13 +276,14 @@ div.sourceCode {
   margin-right: 5px;
   border: solid 1px $gray-600;
   border-radius: 1px;
-  max-height: 30px;
+  max-height: 28px;
   filter: grayscale(100%) invert(1);
 }
 
 ul.navbar-nav:nth-child(1) .nav-link {
   color: #ebdb87;
   font-size: 0.95rem;
+  line-height: 0 !important;
 }
 
 
@@ -299,6 +300,10 @@ ul.navbar-nav:nth-child(1) .nav-link {
 // Navbar - MOBILE ONLY
 
 @media (max-width: 991.98px) {
+  
+  ul.navbar-nav:nth-child(1) .nav-link {
+    font-size: 1.1rem;
+      }
   
     #quarto-header>nav {
     padding-left: 0.5em;
@@ -452,11 +457,11 @@ ul.navbar-nav:nth-child(1) .nav-link {
   margin-block-end: 0;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.9) ), url("assets/bg-color-rivers.jpg");
   background-color: black;
- /* background-attachment: fixed;*/
   background-size: cover;
   background-position: 20% center;
   background-repeat: no-repeat;
   color: white !important;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.55);
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -614,10 +619,11 @@ ul.navbar-nav:nth-child(1) .nav-link {
 }
 
 .quarto-grid-item .card-title {
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
   color: #104759;
 }
+
 .quarto-grid-item p.card-img-top {
   padding: 6px;
 }
@@ -878,6 +884,10 @@ div.quarto-post .metadata {
 
 .nav-footer a {
   color: white;
+}
+
+.nav-footer a:hover {
+  color: gray;
 }
 
 .cookie-consent-footer {

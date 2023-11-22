@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Benjamin Tjepkes"
+  title: "B.W. Tjepkes"
   site-url: https://btjepkes.github.io/
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
@@ -21,7 +21,7 @@ website:
     type: implied
     style: simple
     palette: light
-    prefs-text: "Change Cookies 🍪 Preferences"
+    prefs-text: "Change Cookie 🍪 Preferences"
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
@@ -30,16 +30,19 @@ website:
     logo: assets/logo-1.png
     left:
       - icon: linkedin
+        text: "LinkedIn"
         href: https://www.linkedin.com/in/benjamintjepkes/
         aria-label: LinkedIn Profile
       - icon: github
+        text: "Code"
         href: https://github.com/btjepkes
         aria-label: GitHub Profile
       - icon: twitter
+        text: "Tweets"
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
     right:
-        - icon: house-fill
+        - icon: house
           text: ""
           href: index.html
         - sidebar:overview

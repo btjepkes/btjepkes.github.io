@@ -131,7 +131,7 @@ cookieconsent.run({
 <meta property="og:title" content="Interactive Heatmap of GBIF Occurrences | B.W. Tjepkes">
 <meta property="og:description" content="In this blog post, we demonstrate how to use the rgbif package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap.">
 <meta property="og:image" content="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg">
-<meta property="og:site-name" content="Benjamin Tjepkes">
+<meta property="og:site-name" content="B.W. Tjepkes">
 <meta property="og:image:alt" content="Image of sage grouse on a lek.">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
 <meta name="twitter:description" content="In this blog post, we demonstrate how to use the rgbif package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap.">
@@ -152,7 +152,7 @@ cookieconsent.run({
     <img src="../../assets/logo-1.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Benjamin Tjepkes</span>
+    <span class="navbar-title">B.W. Tjepkes</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -161,25 +161,25 @@ cookieconsent.run({
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item compact">
+  <li class="nav-item">
     <a class="nav-link" href="https://www.linkedin.com/in/benjamintjepkes/" rel="" target=""><i class="bi bi-linkedin" role="img" aria-label="LinkedIn Profile">
 </i> 
- <span class="menu-text"></span></a>
+ <span class="menu-text">LinkedIn</span></a>
   </li>  
-  <li class="nav-item compact">
+  <li class="nav-item">
     <a class="nav-link" href="https://github.com/btjepkes" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub Profile">
 </i> 
- <span class="menu-text"></span></a>
+ <span class="menu-text">Code</span></a>
   </li>  
-  <li class="nav-item compact">
+  <li class="nav-item">
     <a class="nav-link" href="https://twitter.com/BTjepkes" rel="" target=""><i class="bi bi-twitter" role="img" aria-label="Twitter Profile">
 </i> 
- <span class="menu-text"></span></a>
+ <span class="menu-text">Tweets</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target=""><i class="bi bi-house-fill" role="img">
+    <a class="nav-link" href="../../index.html" rel="" target=""><i class="bi bi-house" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -313,7 +313,7 @@ cookieconsent.run({
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS" data-gallery="quarto-lightbox-gallery-1"><img src="img-sage-grouse.jpg" class="img-fluid figure-img"></a></p>
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="img-sage-grouse.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
 </figure>
 </div>
@@ -338,15 +338,15 @@ cookieconsent.run({
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-lines="1,2" data-code-cell="annotated-cell-1" data-code-annotation="1">For accessing GBIF data. Install if necessary.</span>
+<span data-code-cell="annotated-cell-1" data-code-annotation="1" data-code-lines="1,2">For accessing GBIF data. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-lines="3,4" data-code-cell="annotated-cell-1" data-code-annotation="2">For mapping data interactively. Install if necessary.</span>
+<span data-code-cell="annotated-cell-1" data-code-annotation="2" data-code-lines="3,4">For mapping data interactively. Install if necessary.</span>
 </dd>
 <dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
 <dd>
-<span data-code-lines="5,6" data-code-cell="annotated-cell-1" data-code-annotation="3">For the heatmap functionality. Install if necessary.</span>
+<span data-code-cell="annotated-cell-1" data-code-annotation="3" data-code-lines="5,6">For the heatmap functionality. Install if necessary.</span>
 </dd>
 </dl>
 </section>
@@ -358,11 +358,11 @@ cookieconsent.run({
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-lines="1" data-code-cell="annotated-cell-2" data-code-annotation="1">This function allows us to see the taxonomic information for our focal species.</span>
+<span data-code-cell="annotated-cell-2" data-code-annotation="1" data-code-lines="1">This function allows us to see the taxonomic information for our focal species.</span>
 </dd>
 <dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
 <dd>
-<span data-code-lines="2" data-code-cell="annotated-cell-2" data-code-annotation="2">This prints that information to the console.</span>
+<span data-code-cell="annotated-cell-2" data-code-annotation="2" data-code-lines="2">This prints that information to the console.</span>
 </dd>
 </dl>
 </section>
@@ -649,7 +649,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
-    <div class="nav-footer-center">Made with <a href="https://quarto.org/">Quarto</a> and <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> | License: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Change Cookies 🍪 Preferences</a></div></div>
+    <div class="nav-footer-center">Made with <a href="https://quarto.org/">Quarto</a> and <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> | License: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Change Cookie 🍪 Preferences</a></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -680,7 +680,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":true,"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":true,"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom"});</script>
 
 
 

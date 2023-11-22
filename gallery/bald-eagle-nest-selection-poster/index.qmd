@@ -1,6 +1,7 @@
 ---
 title: "Poster on Bald Eagle Nest Selection Research"
 subtitle: "Research poster on bald eagle nest-site selection modeling."
+date: 2023-5-16
 date-modified: "5-16-2023"
 aliases: 
   - gallery/gallery-poster-one.html
@@ -9,7 +10,7 @@ categories:
   - Mississippi River
   - Avian
 abstract: "This poster provides an overview of my research on bald eagle nest-site selection for the Upper Mississippi River population. This poster was presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium."
-image: img-eagle-poster.jpg
+image: img-eagle-poster-thumb.jpg
 image-alt: "Poster detailing bald eagle nest monitoring research."
 ---
 
