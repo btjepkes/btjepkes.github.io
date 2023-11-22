@@ -568,7 +568,7 @@ ul.navbar-nav:nth-child(1) .nav-link {
 }
 
 .quarto-grid-item {
-  background: white;
+  background: $white;
   border-radius: 8px;
   border: 1px solid #46639355;
   -webkit-box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
@@ -767,6 +767,7 @@ div.quarto-post .metadata {
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.38);
     box-shadow: 0 2px 5px rgba(0,0,0,.38);
 }}
+
 
 @media (min-width: 800px) { 
 .features {

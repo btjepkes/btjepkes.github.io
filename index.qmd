@@ -12,16 +12,15 @@ author-meta: Benjamin Tjepkes
 description-meta: "This is the porfolio and professional website of Benjamin Tjepkes."
 format:
   html:
-    page-layout: full
     css: index.css
 listing:
   - id: site-listings-1
     contents:
       - "about/index.qmd"
       - "curriculum-vitae/index.qmd"
-      - "resources/index.qmd"
+
     type: grid
-    grid-columns: 3
+    grid-columns: 2
     image-height: 250px
     fields:
       - title
@@ -34,6 +33,17 @@ listing:
       - "research/index.qmd"
     type: grid
     grid-columns: 3
+    image-height: 250px
+    fields:
+      - title
+      - subtitle
+      - image
+  - id: site-listings-3
+    contents:
+      - "resources/index.qmd"
+      - "contact.qmd"
+    type: grid
+    grid-columns: 2
     image-height: 250px
     fields:
       - title
@@ -75,10 +85,15 @@ listing:
 <!-- ## Where To Explore {.h2-index} -->
 
 <!-- This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery. Feel free to also check out more about me, my full curriculum vitae, and some helpful resources. -->
-
-::: {#site-listings-2}
-:::
+::: {.column-page}
 
 ::: {#site-listings-1}
 :::
 
+::: {#site-listings-2}
+:::
+
+::: {#site-listings-3}
+:::
+
+:::

@@ -41,6 +41,7 @@ website:
         text: "Tweets"
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
+     
     right:
         - icon: house
           text: "Welcome"
@@ -56,9 +57,9 @@ website:
       background: "#e8e8e8"
       collapse-level: 2
       contents: 
-        - about/index.qmd
-        - curriculum-vitae/index.qmd
-        - contact.qmd
+        - href: about/index.qmd
+        - href: curriculum-vitae/index.qmd
+        - href: contact.qmd
     - id: works
       title: "Projects"
       contents:
