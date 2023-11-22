@@ -18,9 +18,9 @@ listing:
     contents:
       - "about/index.qmd"
       - "curriculum-vitae/index.qmd"
-
+      - "contact.qmd"
     type: grid
-    grid-columns: 2
+    grid-columns: 3
     image-height: 250px
     fields:
       - title
@@ -31,19 +31,9 @@ listing:
       - "gallery/index.qmd"
       - "posts/index.qmd"
       - "research/index.qmd"
+      - "resources/index.qmd"      
     type: grid
-    grid-columns: 3
-    image-height: 250px
-    fields:
-      - title
-      - subtitle
-      - image
-  - id: site-listings-3
-    contents:
-      - "resources/index.qmd"
-      - "contact.qmd"
-    type: grid
-    grid-columns: 2
+    grid-columns: 4
     image-height: 250px
     fields:
       - title
@@ -91,9 +81,6 @@ listing:
 :::
 
 ::: {#site-listings-2}
-:::
-
-::: {#site-listings-3}
 :::
 
 :::

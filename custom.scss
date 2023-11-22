@@ -166,9 +166,9 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Anek, Nunito, sans-serif;
-  /*background: linear-gradient(to bottom, rgba(255,255,255,1.0), rgba(255,255,255,0.3)), url("assets/bg-links.jpg");
+  background: linear-gradient(to bottom, rgba(255,255,255,1.0), rgba(255,255,255,0.3)), url("assets/bg-links.jpg");
   background-attachment: fixed;
-  background-position: center;*/
+  background-position: center;
 }
 
       @media (max-width: 991.98px) {
@@ -767,6 +767,7 @@ div.quarto-post .metadata {
     transition: width, height, 0.1s ease-in-out;
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.38);
     box-shadow: 0 2px 5px rgba(0,0,0,.38);
+    transform: scale(1.005);
 }}
 
 

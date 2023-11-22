@@ -116,34 +116,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-site-listings-3 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-site-listings-3'] = new List('listing-site-listings-3', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script><script type="text/plain" cookie-consent="tracking">
 
 window.dataLayer = window.dataLayer || [];
@@ -311,7 +283,7 @@ cookieconsent.run({
 <!-- main -->
 <main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content"><!-- ## My Current Role --><!-- I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. --><!-- **Below are some of my recent professional activities and projects.** --><!-- |                |                                                                                                                                                                                                                                                                | --><!-- |:----------------------:|------------------------------------------------| --><!-- |  **Nov 2023**  | I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd).                                                                                                           | --><!-- | **Sept 2023**  | I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.                                                                                                                        | --><!-- |  **Aug 2023**  | I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!                                                                                                 | --><!-- | **July 2023**  | One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. | --><!-- | **April 2023** | I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.                                                                                    | --><!-- : {tbl-colwidths="\[20,80\]"} --><!-- ## Where To Explore {.h2-index} --><!-- This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery. Feel free to also check out more about me, my full curriculum vitae, and some helpful resources. --><div class="column-page">
 <div id="listing-site-listings-1" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
+<div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1699941600000" data-listing-file-modified-sort="1700673379352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <a href="./about/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
@@ -344,68 +316,29 @@ A full look at my education and professional experience.
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1700460000000" data-listing-file-modified-sort="1700686796965" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./contact.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/bg-color-rivers.jpg" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-pine-trees-on-blue-background."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Links &amp; Contact
+</h5>
+<div class="card-subtitle listing-subtitle">
+Reach out to me with inquires, comments, and collaborations.
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
 <div id="listing-site-listings-2" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1700578192734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./assets/img-geo-data-science.jpeg" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-trees."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Blog Posts
-</h5>
-<div class="card-subtitle listing-subtitle">
-Writings on ecology, geospatial, and data science.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1699941600000" data-listing-file-modified-sort="1700515477648" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./gallery/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./assets/img-geospatial-cover.webp" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-pine-trees-on-blue-background."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Gallery
-</h5>
-<div class="card-subtitle listing-subtitle">
-Maps, visualizations, reports, posters, and presentations.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1700460000000" data-listing-file-modified-sort="1700578263312" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./research/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./assets/BooneCoLiDAR.png" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-pine-trees-on-blue-background."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Research
-</h5>
-<div class="card-subtitle listing-subtitle">
-Focusing on wildlife, spatial ecology, and GIS.
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<div id="listing-site-listings-3" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
+<div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1699941600000" data-listing-file-modified-sort="1700680166435" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="./resources/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
@@ -422,17 +355,49 @@ My favorite references for ecology, GIS, R, and more.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1700460000000" data-listing-file-modified-sort="1700585979569" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./contact.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1700578192734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-pine-trees-on-blue-background."></p>
+<img src="./assets/img-geo-data-science.jpeg" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-trees."></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Links &amp; Contact
+My Blog Posts
 </h5>
 <div class="card-subtitle listing-subtitle">
-Reach out to me with inquires, comments, and collaborations.
+Writings on ecology, geospatial, and data science.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1699941600000" data-listing-file-modified-sort="1700515477648" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./gallery/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/img-geospatial-cover.webp" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-pine-trees-on-blue-background."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Gallery
+</h5>
+<div class="card-subtitle listing-subtitle">
+Maps, visualizations, reports, posters, and presentations.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1700460000000" data-listing-file-modified-sort="1700578263312" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./research/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/BooneCoLiDAR.png" class="thumbnail-image card-img" style="height: 250px;" alt="Image-of-pine-trees-on-blue-background."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+My Research
+</h5>
+<div class="card-subtitle listing-subtitle">
+Focusing on wildlife, spatial ecology, and GIS.
 </div>
 </div>
 </div>
