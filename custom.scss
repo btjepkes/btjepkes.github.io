@@ -296,15 +296,20 @@ ul.navbar-nav:nth-child(1) .nav-link {
   height: 1.2em;
 }
 
-
+  .navbar-nav .dropdown-menu {
+    min-width: 0;
+  }
+  
+  
 // Navbar - MOBILE ONLY
 
 @media (max-width: 991.98px) {
   
+  /* Social media icons */
   ul.navbar-nav:nth-child(1) .nav-link {
     font-size: 1.1rem;
       }
-  
+      
     #quarto-header>nav {
     padding-left: 0.5em;
     padding-right: 1em;

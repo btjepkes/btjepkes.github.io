@@ -21,7 +21,7 @@ website:
     type: implied
     style: simple
     palette: light
-    prefs-text: "Change Cookie 🍪 Preferences"
+    prefs-text: "Cookies 🍪 Preferences Center"
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
@@ -43,7 +43,7 @@ website:
         aria-label: Twitter Profile
     right:
         - icon: house
-          text: ""
+          text: "Welcome"
           href: index.html
         - sidebar:overview
         - sidebar:works
