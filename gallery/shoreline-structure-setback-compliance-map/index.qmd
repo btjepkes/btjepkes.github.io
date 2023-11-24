@@ -2,7 +2,7 @@
 title: "Shoreline Structure Setback Compliance"
 subtitle: "Digitized structures and OHWM for three lakes in Portage County, Wisconsin."
 author: "Benjamin Tjepkes"
-date-modified: "4/16/2023"
+date: "4/16/2023"
 aliases: 
   - gallery/gallery-map-three.html
 categories:

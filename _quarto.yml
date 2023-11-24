@@ -21,7 +21,7 @@ website:
     type: implied
     style: simple
     palette: light
-    prefs-text: "Cookies 🍪 Preferences Center"
+    prefs-text: "User Cookies 🍪 Preferences"
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4

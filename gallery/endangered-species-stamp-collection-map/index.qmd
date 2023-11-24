@@ -1,7 +1,7 @@
 ---
 title: "Endangered Species Stamp Map"
 subtitle: "Nationwide map showing ranges of a subset of ESA-listed species."
-date-modified: "5-23-2023"
+date: "5-23-2023"
 categories:
   - Map Gallery
   - United States

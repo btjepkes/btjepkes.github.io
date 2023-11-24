@@ -14,7 +14,7 @@ listing:
     grid-columns: 2
     page-size: 50
     grid-item-border: true
-    sort: "date"
+    sort: "date desc"
     image-height: 300px
     # sort-ui: [title, date]
     # filter-ui: [title, subtitle, categories, abstract]
