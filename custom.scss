@@ -377,6 +377,24 @@ ul.navbar-nav:nth-child(1) .nav-link {
 
 // SIDEBAR
 
+@media (max-width: 991.98px) {
+  
+  .quarto-secondary-nav nav.quarto-page-breadcrumbs ol.breadcrumb {
+    overflow: hidden;
+    flex-wrap: nowrap;
+    }
+  
+  .quarto-secondary-nav nav.quarto-page-breadcrumbs {
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+    margin-left: -0.25em;
+    flex-wrap: nowrap;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;  /*Hide overflow content */
+  }
+}
+
 .bi-layout-text-sidebar-reverse::before {
   content: "\F1BE";
 }
