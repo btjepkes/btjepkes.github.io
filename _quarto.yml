@@ -57,19 +57,22 @@ website:
       pinned: true
       collapse-level: 2
       contents: 
+        - Overview
         - href: about/index.qmd
         - href: curriculum-vitae/index.qmd
         - href: contact.qmd
     - id: works
       title: "Work & Projects"
       contents:
+        - Work & Projects
         - posts/index.qmd
         - gallery/index.qmd
         - research/index.qmd
     - id: resources
       title: "Resources"
       contents:
-        - resources/index.qmd
+        - text: Resources
+        - href: resources/index.qmd
 
   page-footer:
     center: >-
