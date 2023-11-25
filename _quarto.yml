@@ -41,7 +41,6 @@ website:
         text: "Tweets"
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
-     
     right:
       - icon: house
         href: index.html
@@ -56,7 +55,6 @@ website:
       style: "floating"
       background: "#e8e8e8"
       pinned: true
-      logo: assets/logo-favicon-wt.svg
       collapse-level: 1
       contents: 
         - text: Site Navigation

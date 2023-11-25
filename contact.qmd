@@ -1,6 +1,6 @@
 ---
 title: "Links & Contact"
-subtitle: "Reach out to me with inquires, comments, and collaborations."
+subtitle: "Reach out to me with inquires or comments."
 abstract: "This page provides links for all my social profiles and a contact form."
 search: false
 date: 2023-11-20
