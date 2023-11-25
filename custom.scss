@@ -377,6 +377,13 @@ ul.navbar-nav:nth-child(1) .nav-link {
 
 // SIDEBAR
 
+.bi-layout-text-sidebar-reverse::before {
+  content: "\F1BE";
+}
+
+.bi-search::before {
+  content: "\f52a";
+}
 
 #quarto-margin-sidebar {
   /*background: #ededed;*/
@@ -393,6 +400,7 @@ ul.navbar-nav:nth-child(1) .nav-link {
   nav.quarto-secondary-nav {
     border-bottom: 0;
     height: 38px;
+    background: white;
   }
 }
 
@@ -405,7 +413,8 @@ ul.navbar-nav:nth-child(1) .nav-link {
   opacity: 0.8;
   font-size: 1rem;
   text-transform: uppercase;
-  color: red;
+  color: teal;
+  line-height: 2.5;
 }
 
 // HEADER

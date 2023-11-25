@@ -43,44 +43,62 @@ website:
         aria-label: Twitter Profile
      
     right:
-        - icon: house
-          href: index.html
-        - sidebar:overview
-        - sidebar:works
-        - sidebar:resources
-
+      - icon: house
+        href: index.html
+      - href: about/index.qmd
+        text: Overview
+      - href: posts/index.qmd
+        text: Work & Projects
+      - href: resources/index.qmd
+        text: Resources
   sidebar:
     - title: "Main Nav"
       style: "floating"
       background: "#e8e8e8"
       pinned: true
-      collapse-level: 2
+      logo: assets/logo-favicon-wt.svg
+      collapse-level: 1
       contents: 
         - text: Site Navigation
         - href: index.qmd
           text: Welcome
-        - href: about/index.qmd
-        - href: curriculum-vitae/index.qmd
-        - href: contact.qmd
-    - id: overview
-      title: "Overview"
-      contents: 
-        - Overview
-        - href: about/index.qmd
-        - href: curriculum-vitae/index.qmd
-        - href: contact.qmd
-    - id: works
-      title: "Work & Projects"
-      contents:
-        - Work & Projects
-        - posts/index.qmd
-        - gallery/index.qmd
-        - research/index.qmd
-    - id: resources
-      title: "Resources"
-      contents:
-        - text: Resources
-        - href: resources/index.qmd
+          icon: 1-square
+        - section: Overview
+          icon: 2-square
+          contents: 
+            - href: about/index.qmd
+            - href: curriculum-vitae/index.qmd
+            - href: contact.qmd
+        - section: Work & Projects
+          icon: 3-square
+          contents:
+            - posts/index.qmd
+            - gallery/index.qmd
+            - research/index.qmd
+        - section: Resources
+          icon: 4-square
+          contents:
+            - resources/index.qmd
+
+    # - id: overview
+    #   title: "Overview"
+    #   contents: 
+    #     - Overview
+    #     - href: about/index.qmd
+    #     - href: curriculum-vitae/index.qmd
+    #     - href: contact.qmd
+    # - id: works
+    #   title: "Work & Projects"
+    #   contents:
+    #     - Work & Projects
+    #     - posts/index.qmd
+    #     - gallery/index.qmd
+    #     - research/index.qmd
+    # - id: resources
+    #   title: "Resources"
+    #   contents:
+    #     - text: Resources
+    #     - href: resources/index.qmd
 
   page-footer:
     center: >-
