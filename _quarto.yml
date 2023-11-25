@@ -50,12 +50,20 @@ website:
         - sidebar:resources
 
   sidebar:
-    - id: overview
-      title: "Overview"
+    - title: "Main Nav"
       style: "floating"
       background: "#e8e8e8"
       pinned: true
       collapse-level: 2
+      contents: 
+        - text: Site Navigation
+        - href: index.qmd
+          text: Welcome
+        - href: about/index.qmd
+        - href: curriculum-vitae/index.qmd
+        - href: contact.qmd
+    - id: overview
+      title: "Overview"
       contents: 
         - Overview
         - href: about/index.qmd
