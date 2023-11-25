@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "B.W. Tjepkes"
+  title: "Benjamin Tjepkes"
   site-url: https://btjepkes.github.io/
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
@@ -11,7 +11,7 @@ website:
   page-navigation: true
   back-to-top-navigation: false
   search:
-    location: navbar
+    location: sidebar
     type: textbox
   open-graph: true
   twitter-card:
@@ -19,7 +19,7 @@ website:
     title: "Portfolio | B.W. Tjepkes"
   cookie-consent:
     type: implied
-    style: simple
+    style: interstitial
     palette: light
     prefs-text: "User Cookies 🍪 Preferences"
   google-analytics: 
@@ -27,7 +27,7 @@ website:
     version: 4
   navbar:
     pinned: true
-    logo: assets/logo-1.png
+    logo: assets/site-logo-green.png
     left:
       - icon: linkedin
         text: "LinkedIn"
@@ -44,7 +44,6 @@ website:
      
     right:
         - icon: house
-          text: "Welcome"
           href: index.html
         - sidebar:overview
         - sidebar:works
