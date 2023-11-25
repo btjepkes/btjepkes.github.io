@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "BW Tjepkes"
+  title: "B.W. Tjepkes"
   site-url: https://btjepkes.github.io/
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
@@ -26,7 +26,7 @@ website:
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
   navbar:
-    pinned: true
+    pinned: false
     logo: assets/site-logo-green.png
     left:
       - icon: linkedin
@@ -54,13 +54,14 @@ website:
       title: "Overview"
       style: "floating"
       background: "#e8e8e8"
+      pinned: true
       collapse-level: 2
       contents: 
         - href: about/index.qmd
         - href: curriculum-vitae/index.qmd
         - href: contact.qmd
     - id: works
-      title: "Projects"
+      title: "Work & Projects"
       contents:
         - posts/index.qmd
         - gallery/index.qmd

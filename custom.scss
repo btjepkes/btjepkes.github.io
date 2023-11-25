@@ -307,6 +307,10 @@ ul.navbar-nav:nth-child(1) .nav-link {
 
 @media (max-width: 991.98px) {
   
+  .navbar {
+  box-shadow: none;
+}
+  
   /* Social media icons */
   ul.navbar-nav:nth-child(1) .nav-link {
     font-size: 1.1rem;
@@ -319,6 +323,7 @@ ul.navbar-nav:nth-child(1) .nav-link {
   
     .navbar .navbar-toggler {
       height: 40px;
+      max-width: 40px;
       border: solid 1px white;
       background: #ffffff2e;
       border-radius: 4px;
@@ -378,9 +383,15 @@ ul.navbar-nav:nth-child(1) .nav-link {
   /*padding-left: 24px;*/
 }
 
+/* Search bar in side nav*/
+.mt-2 {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 991.98px) {
   nav.quarto-secondary-nav {
-    display: none;
+    border-bottom: 0;
+    height: 38px;
   }
 }
 
@@ -931,11 +942,6 @@ div.quarto-post .metadata {
 
 // ICONS & Buttons
 
-.btn {
-  box-shadow: 3px 4px 0px indianred;
-  font-weight: 600;
-}
-
 .fa-solid {
   color: $dark-green;
 }
@@ -948,22 +954,6 @@ div.quarto-post .metadata {
 .gnext {
   background: green !important;
 }
-
-.consultant-info {
-  margin-right: 0px;
-  background: transparent;
-  backdrop-filter: blur(2px);
-}
-
-
-
-@media screen and (max-width: 991.98px) {
-  .intro-banner,
-  .about {
-    flex-direction: column;
-  }
-}
-
 
 
 // GALLERY 
