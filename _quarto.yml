@@ -29,31 +29,28 @@ website:
     logo: "assets/logo-051933.png"
     pinned: false
     right:
-      - icon: house
+      - icon: house-fill
         href: index.html
       - href: about/index.qmd
         text: Overview
       - href: posts/index.qmd
-        text: Work & Projects
+        text: Projects
       - href: resources/index.qmd
         text: Resources      
       - icon: linkedin
-        text: "LinkedIn"
         href: https://www.linkedin.com/in/benjamintjepkes/
         aria-label: LinkedIn Profile
       - icon: github
-        text: "Code"
         href: https://github.com/btjepkes
         aria-label: GitHub Profile
       - icon: twitter
-        text: "Tweets"
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
 
   sidebar:
     - title: "Main Nav"
       style: "floating"
-      background: "#0d294d"
+      background: "#e8e8e8"
       pinned: true
       collapse-level: 1
       contents: 
