@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "B.W. Tjepkes"
+  title: "Benjamin Tjepkes"
   site-url: https://btjepkes.github.io/
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
@@ -26,9 +26,17 @@ website:
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
   navbar:
+    logo: "assets/logo-051933.png"
     pinned: false
-    logo: assets/site-logo-green.png
-    left:
+    right:
+      - icon: house
+        href: index.html
+      - href: about/index.qmd
+        text: Overview
+      - href: posts/index.qmd
+        text: Work & Projects
+      - href: resources/index.qmd
+        text: Resources      
       - icon: linkedin
         text: "LinkedIn"
         href: https://www.linkedin.com/in/benjamintjepkes/
@@ -41,19 +49,11 @@ website:
         text: "Tweets"
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
-    right:
-      - icon: house
-        href: index.html
-      - href: about/index.qmd
-        text: Overview
-      - href: posts/index.qmd
-        text: Work & Projects
-      - href: resources/index.qmd
-        text: Resources
+
   sidebar:
     - title: "Main Nav"
       style: "floating"
-      background: "#e8e8e8"
+      background: "#0d294d"
       pinned: true
       collapse-level: 1
       contents: 
@@ -67,7 +67,7 @@ website:
             - href: about/index.qmd
             - href: curriculum-vitae/index.qmd
             - href: contact.qmd
-        - section: Work & Projects
+        - section: Projects
           icon: 3-square
           contents:
             - posts/index.qmd
@@ -77,26 +77,6 @@ website:
           icon: 4-square
           contents:
             - resources/index.qmd
-
-    # - id: overview
-    #   title: "Overview"
-    #   contents: 
-    #     - Overview
-    #     - href: about/index.qmd
-    #     - href: curriculum-vitae/index.qmd
-    #     - href: contact.qmd
-    # - id: works
-    #   title: "Work & Projects"
-    #   contents:
-    #     - Work & Projects
-    #     - posts/index.qmd
-    #     - gallery/index.qmd
-    #     - research/index.qmd
-    # - id: resources
-    #   title: "Resources"
-    #   contents:
-    #     - text: Resources
-    #     - href: resources/index.qmd
 
   page-footer:
     center: >-
@@ -145,7 +125,7 @@ format:
     grid:
       sidebar-width: 250px
       body-width: 900px
-      gutter-width: 30px
+      gutter-width: 35px
     filters: 
       - lightbox
     lightbox: auto

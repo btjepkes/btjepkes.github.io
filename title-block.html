@@ -1,5 +1,11 @@
 <header id="title-block-header">
   
+    <div class="image-cover-container">
+     $if(image)$
+    <img src="https://btjepkes.github.io/site_libs/bootstrap/assets/bg-color-rivers.jpg" alt=$image-alt$ class="image-cover">
+  $endif$
+  </div>
+  
   <div class="header-content-container">
     <div class="title-area">
     $if(title)$<h1 class="title">$title$</h1>$endif$
@@ -9,13 +15,6 @@
     $endif$
     
     </div>
-  
-  <div class="image-cover-container">
-     $if(image)$
-    <img src=$image$ alt=$image-alt$ class="image-cover">
-  $endif$
-  </div>
-  
   
   <div class="post-meta">
     

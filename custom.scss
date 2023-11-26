@@ -114,14 +114,16 @@ $spacers: (
 
 // scss-docs-start navbar-variables
 $navbar-padding-y:                  $spacer * 0.01 !default;
-$navbar-padding-x:                  null !default;
+$navbar-padding-x:                  0 !default;
 
 $navbar-nav-link-padding-x:         .5rem !default;
+$navbar-nav-link-padding-y:         .5rem !default;
 
 $navbar-brand-font-size:            $font-size-base * 1.50 !default;
 $navbar-brand-margin-end:           0px !default;
 
 $navbar-fg: rgba($white, 1.0);
+$navbar-bg: #051933;
 
 $navbar-dark-hover-color:       rgba($white, 1) !default;
 $navbar-light-hover-color:      rgba($red, 1) !default;
@@ -148,7 +150,7 @@ $progress-height:               .5rem !default;
 
 // Variables
 
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Anek:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Passion+One:wght@400;600&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
@@ -166,9 +168,9 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Anek, Nunito, sans-serif;
-  background: linear-gradient(to bottom, rgba(255,255,255,1.0), rgba(255,255,255,0.3)), url("assets/bg-links.jpg");
+  /*background: linear-gradient(to bottom, rgba(255,255,255,1.0), rgba(255,255,255,0.3)), url("assets/bg-links.jpg");
   background-attachment: fixed;
-  background-position: center;
+  background-position: center;*/
 }
 
       @media (max-width: 991.98px) {
@@ -179,10 +181,9 @@ body {
 
 
 h1 {
-  color: white;
   opacity: 1.0 !important;
   font-size: clamp(2.4em, 5vw, 3.2em);
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.25);
+  /*text-shadow: 2px 4px 3px rgba(0,0,0,0.25);*/
 }
 
 h2 {
@@ -264,16 +265,15 @@ div.sourceCode {
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
 	padding-left: 0 !important;
 	padding-right: 0 !important;
-	border-bottom: solid 5px #005c5d;
+	border-bottom: solid 4px #35d290;
 }
 
 .navbar-brand span {
   font-weight: 600 !important;
-  text-transform: uppercase;
   letter-spacing: 0.04em;
-  font-family: Atkinson Hyperlegible;
-  font-size: 1.65rem;
+  font-size: 1.60rem;
   color: #fbfbfc;
+  font-family: Segoe UI;
 }
 
 .navbar-logo {
@@ -283,20 +283,13 @@ div.sourceCode {
   border: solid 1px white;
 }
 
-ul.navbar-nav:nth-child(1) .nav-link {
-  color: #ebdb87;
-  font-size: 0.85rem;
-  line-height: 0 !important;
-}
-
-
-.ms-auto {
-  margin-right: 10px;
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+--bs-gutter-x: 0rem;
 }
 
 .navbar-toggler-icon {
-  width: 1.2em;
-  height: 1.2em;
+  width: 1.0em;
+  height: 1.0em;
 }
 
   .navbar-nav .dropdown-menu {
@@ -317,15 +310,10 @@ ul.navbar-nav:nth-child(1) .nav-link {
     font-size: 1.1rem;
       }
       
-    /*#quarto-header>nav {
-    padding-left: 0.5em;
-    padding-right: 1em;
-        }*/
-  
     .navbar .navbar-toggler {
       height: 40px;
       border: solid 1px white;
-      background: #ffffff2e;
+      background: #051933;
       border-radius: 4px;
       padding-left: 5px;
       padding-right: 5px;
@@ -354,7 +342,7 @@ ul.navbar-nav:nth-child(1) .nav-link {
       max-width: 100%;
     }
   
-    .navbar-collapse {
+    /*.navbar-collapse {
       display: flex;
       flex-basis: 100%;
       -webkit-flex-basis: 100%;
@@ -365,12 +353,8 @@ ul.navbar-nav:nth-child(1) .nav-link {
       flex-direction: row;
       gap: 0px;
       background: #185357;
-    }
+    }*/
 
-    .about-contents {
-      padding-right: 0px !important;
-    }
-    
     .quarto-navbar-tools {
       display: none !important;
     } }
@@ -379,6 +363,10 @@ ul.navbar-nav:nth-child(1) .nav-link {
 // SIDEBAR
 
 @media (max-width: 991.98px) {
+  
+  .quarto-secondary-nav nav.quarto-page-breadcrumbs a {
+    color: #000;
+    }
   
   .quarto-secondary-nav nav.quarto-page-breadcrumbs ol.breadcrumb {
     overflow: hidden;
@@ -394,6 +382,11 @@ ul.navbar-nav:nth-child(1) .nav-link {
     white-space: nowrap; /* Prevent text from wrapping */
     overflow: hidden;  /*Hide overflow content */
   }
+}
+
+.quarto-secondary-nav .quarto-btn-toggle {
+  color: #2b8aff;
+  font-size: 1.2rem;
 }
 
 .bi-layout-text-sidebar-reverse::before {
@@ -412,13 +405,13 @@ ul.navbar-nav:nth-child(1) .nav-link {
 
 /* Search bar in side nav*/
 .mt-2 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 991.98px) {
   nav.quarto-secondary-nav {
     border-bottom: 0;
-    height: 38px;
+    height: 42px;
     background: white;
     box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
@@ -446,12 +439,16 @@ ul.navbar-nav:nth-child(1) .nav-link {
 
 
 .header-content-container {
-  padding: 0 20px;
+  padding: 2em 20px;
   text-align: center;
+  background: #051933;
+  color: white;
 }
 
+
+/*
 .image-cover-container {
-  display: none;
+  display: flex;
   flex-basis: 1;
   align-items: center;
   justify-content: center;
@@ -463,19 +460,13 @@ ul.navbar-nav:nth-child(1) .nav-link {
   background-repeat: no-repeat;
   background-position: top;
 }
-    @media (max-width: 991.98px) {
-      .image-cover-container {
-        flex-direction: column;
-      }
-    }
+*/
 
 .image-cover {
   position: relative;
   object-fit: cover;
-  width: 330px;
-  height: 330px;
-  border-radius: 50%;
-  border: solid 16px #205c6d55;
+  width: 100%;
+  height: 250px;
   overflow: hidden;
 }
 
@@ -487,7 +478,6 @@ ul.navbar-nav:nth-child(1) .nav-link {
   max-width: 800px;
   margin: auto;
   background: rgba(0,0,0,0.0);
-  backdrop-filter: blur(1px);
   border-radius: 20px;
   font-size: 1.0em;
 }
@@ -504,13 +494,12 @@ ul.navbar-nav:nth-child(1) .nav-link {
 
 #title-block-header {
   margin-block-end: 0;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9) ), url("assets/bg-color-rivers.jpg");
-  background-color: black;
-  background-size: cover;
+ /* background-image: linear-gradient(to bottom, rgba(233,243,255,0.0), rgba(233,243,255,0.0) ), url("assets/bg-color-rivers.jpg");
+  background-color: #def4ea;
+  /*background-size: cover;
   background-position: 20% center;
   background-repeat: no-repeat;
   color: white !important;
-  border-bottom: solid 5px #005c5d;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -519,7 +508,7 @@ ul.navbar-nav:nth-child(1) .nav-link {
   padding-top: 2.3em;
   padding-bottom: 2.3em;
   padding-left: 0em;
-  padding-right: 0em;
+  padding-right: 0em;*/
 }
       @media (max-width: 991.98px) {
         #title-block-header {
@@ -932,7 +921,7 @@ div.quarto-post .metadata {
   padding-top: 0.5em;
   padding-bottom: 0em;
   color: white;
-  background-color: $black;
+  background-color: #0d294d;
 }
 
 .nav-footer a {
@@ -942,11 +931,11 @@ div.quarto-post .metadata {
 .nav-footer a:hover {
   color: gray;
 }
-
+/*
 .cookie-consent-footer {
   margin-top: 10px;
   margin-bottom: 10px;
-}
+}*/
 
 .cookie-consent-footer a {
   color: #ebdb87;
