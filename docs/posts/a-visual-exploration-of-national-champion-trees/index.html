@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
+<meta name="dcterms.date" content="2023-11-25">
 
-<title>A Visual Exploration of National Champion Trees | B.W. Tjepkes</title>
+<title>A Visual Exploration of Champion Trees | B.W. Tjepkes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -97,13 +98,15 @@ cookieconsent.run({
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="A Visual Exploration of National Champion Trees | B.W. Tjepkes">
+<meta property="og:title" content="A Visual Exploration of Champion Trees | B.W. Tjepkes">
 <meta property="og:description" content="In this post, we start exploring our towering timber giants apart of the National Champion Trees Program as designated by American Forests.">
+<meta property="og:image" content="https://btjepkes.github.io/assets/bg-pine-blue.jpg">
 <meta property="og:site_name" content="Benjamin Tjepkes">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
 <meta name="twitter:description" content="In this post, we start exploring our towering timber giants apart of the National Champion Trees Program as designated by American Forests.">
+<meta name="twitter:image" content="https://btjepkes.github.io/assets/bg-pine-blue.jpg">
 <meta name="twitter:creator" content="@BTjepkes">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -172,7 +175,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">A Visual Exploration of National Champion Trees</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">A Visual Exploration of Champion Trees</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -184,14 +187,15 @@ cookieconsent.run({
 <!-- content -->
 <header id="title-block-header">
   
-    <div class="image-cover-container">
-       </div>
+  <div class="image-cover-container">
+    <img src="https://btjepkes.github.io/assets/bg-color-rivers.jpg" alt="Rivers." class="image-cover">
+  </div>
   
   <div class="header-content-container">
     <div class="title-area">
-    <h1 class="title">A Visual Exploration of National Champion Trees</h1>
+    <h1 class="title">A Visual Exploration of Champion Trees</h1>
     
-            <p class="subtitle">Exploring champion trees from the US National Champion Tree Network.</p>
+            <p class="subtitle">Charting champion trees from the US National Champion Tree Network.</p>
         
     </div>
   
@@ -201,6 +205,7 @@ cookieconsent.run({
       
                   <p class="author">Created by:<br>Benjamin Tjepkes</p>
                 
+                  <p class="date">Last updated:<br>November 25, 2023</p>
             </div>
     
           <div class="abstract">
@@ -345,10 +350,11 @@ cookieconsent.run({
 <section id="national-champion-trees-program" class="level3">
 <h3 data-anchor-id="national-champion-trees-program">National Champion Trees Program</h3>
 <p>The National Champion Trees Program is a remarkable initiative in the United States aimed at identifying, documenting, and celebrating the largest and most extraordinary trees in the country. Led by organizations such as the <strong>American Forests</strong> and the <strong>Arbor Day Foundation</strong>, this program involves passionate tree enthusiasts and arborists who meticulously measure and evaluate trees of various species across the nation.</p>
+<p>The map below displays the locations of each of the champion trees on the register. As noted, there are <strong>over 500 individuals</strong> on this list. Details on this map can be found <a href="../../gallery/national-champion-tree-map/index.html">here</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../assets/bg-pine-blue.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="This is a placeholder."><img src="../../assets/bg-pine-blue.jpg" class="img-fluid figure-img" alt="This is a placeholder."></a></p>
-<figcaption>This is a placeholder.</figcaption>
+<p><a href="../../gallery/national-champion-tree-map/img-national-champion-trees.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes"><img src="../../gallery/national-champion-tree-map/img-national-champion-trees.png" class="img-fluid figure-img" alt="Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes"></a></p>
+<figcaption>Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
 <p>By maintaining a national register of <strong>champion trees</strong>, the program highlights the exceptional size and importance of these arboreal wonders. It not only showcases the natural beauty and biodiversity of America but also fosters awareness and conservation efforts to protect these magnificent living treasures for future generations.</p>
@@ -363,13 +369,14 @@ cookieconsent.run({
 </section>
 <section id="our-exploration" class="level2">
 <h2 data-anchor-id="our-exploration">Our Exploration</h2>
+<p>Great, that’s get to it. First things first, we need to get our data loaded into R and cleaned for our use.</p>
 
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes" class="csl-entry quarto-appendix-citeas" role="listitem">
-Tjepkes, Benjamin. n.d. <span>“A Visual Exploration of National Champion
-Trees.”</span> <a href="https://btjepkes.github.io//posts/a-visual-exploration-of-national-champion-trees">https://btjepkes.github.io//posts/a-visual-exploration-of-national-champion-trees</a>.
+<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+Tjepkes, Benjamin. 2023. <span>“A Visual Exploration of Champion
+Trees.”</span> November 25, 2023. <a href="https://btjepkes.github.io/posts/a-visual-exploration-of-national-champion-trees">https://btjepkes.github.io/posts/a-visual-exploration-of-national-champion-trees</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -445,7 +452,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/btjepkes\.github\.io\/");
+      var filterRegex = new RegExp("https:\/\/btjepkes\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -822,7 +829,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"bottom"});</script>
 
 
 

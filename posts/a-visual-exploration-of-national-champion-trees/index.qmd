@@ -1,9 +1,9 @@
 ---
-title: A Visual Exploration of National Champion Trees
-subtitle: Exploring champion trees from the US National Champion Tree Network.
+title: A Visual Exploration of Champion Trees
+subtitle: Charting champion trees from the US National Champion Tree Network.
+date: today
 draft: TRUE
-date-modified: 10/14/2023
-abstract-title: ""
+image: "../../assets/bg-pine-blue.jpg"
 abstract: "In this post, we start exploring our towering timber giants apart of the National Champion Trees Program as designated by American Forests."
 ---
 
@@ -13,7 +13,10 @@ abstract: "In this post, we start exploring our towering timber giants apart of 
 
 The National Champion Trees Program is a remarkable initiative in the United States aimed at identifying, documenting, and celebrating the largest and most extraordinary trees in the country. Led by organizations such as the **American Forests** and the **Arbor Day Foundation**, this program involves passionate tree enthusiasts and arborists who meticulously measure and evaluate trees of various species across the nation.
 
-![This is a placeholder.](../../assets/bg-pine-blue.jpg)
+The map below displays the locations of each of the champion trees on the register. As noted, there are **over 500 individuals** on this list. Details on this map can be found [here](../../gallery/national-champion-tree-map/index.qmd).
+
+![Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes](../../gallery/national-champion-tree-map/img-national-champion-trees.png)
+
 
 By maintaining a national register of **champion trees**, the program highlights the exceptional size and importance of these arboreal wonders. It not only showcases the natural beauty and biodiversity of America but also fosters awareness and conservation efforts to protect these magnificent living treasures for future generations.
 
@@ -25,4 +28,4 @@ By maintaining a national register of **champion trees**, the program highlights
 
 ## Our Exploration
 
-
+Great, that's get to it. First things first, we need to get our data loaded into R and cleaned for our use.

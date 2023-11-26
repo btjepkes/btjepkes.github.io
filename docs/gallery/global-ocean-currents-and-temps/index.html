@@ -193,9 +193,9 @@ cookieconsent.run({
 <!-- content -->
 <header id="title-block-header">
   
-    <div class="image-cover-container">
-         <img src="https://btjepkes.github.io/assets/bg-color-rivers.jpg" alt="Image" showing="" the="" global="" ocean="" currents="" focused="" on="" south="" america.="" class="image-cover">
-    </div>
+  <div class="image-cover-container">
+    <img src="https://btjepkes.github.io/assets/bg-color-rivers.jpg" alt="Rivers." class="image-cover">
+  </div>
   
   <div class="header-content-container">
     <div class="title-area">
@@ -438,7 +438,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/btjepkes\.github\.io\/");
+      var filterRegex = new RegExp("https:\/\/btjepkes\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -815,7 +815,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","loop":false});</script>
 
 
 

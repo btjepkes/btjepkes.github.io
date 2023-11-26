@@ -26,7 +26,7 @@ listing:
 
 ## Where Am I Now?
 
-**Current Role --** I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Please have a look at some of my blog posts, research overviews, and visualization gallery. My [professional CV](../curriculum-vitae/index.qmd) has a comprehensive look at my experience.
+I am a **graduate student** at the **University of Missouri** studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**. Please have a look at some of my blog posts, research overviews, and visualization gallery. My [professional CV](../curriculum-vitae/index.qmd) has a comprehensive look at my experience.
 
 ::: {#site-listings}
 
