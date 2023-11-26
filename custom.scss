@@ -168,9 +168,9 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Anek, Nunito, sans-serif;
-  /*background: linear-gradient(to bottom, rgba(255,255,255,1.0), rgba(255,255,255,0.3)), url("assets/bg-links.jpg");
+  background: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,1.0), rgba(255,255,255,0.1)), url("assets/bg-links.jpg");
   background-attachment: fixed;
-  background-position: center;*/
+  background-position: center;
 }
 
       @media (max-width: 991.98px) {
@@ -244,6 +244,15 @@ div.sourceCode {
 }
 
 
+.blockquote {
+    font-size: 1.2rem;
+    background: #c5c6e6;
+    }
+blockquote {
+    border-left: .25rem solid #35d290;
+    }
+
+
 // Indicators
 
 .badge {
@@ -279,7 +288,7 @@ div.sourceCode {
   letter-spacing: 0.04em;
   font-size: 1.60rem;
   color: #fbfbfc;
-  font-family: Segoe UI;
+  font-family: 'Segoe UI';
 }
 
 .navbar-logo {
@@ -393,10 +402,11 @@ div.sourceCode {
 .quarto-secondary-nav .quarto-btn-toggle {
   color: #2b8aff;
   font-size: 1.2rem;
+  
 }
 
 .bi-layout-text-sidebar-reverse::before {
-  content: "\F1BE";
+  content: "\F474";
 }
 
 .bi-search::before {
@@ -433,8 +443,7 @@ div.sourceCode {
   opacity: 0.8;
   font-size: 1rem;
   text-transform: uppercase;
-  color: teal;
-  line-height: 2.5;
+  line-height: 2.0;
 }
 
 // HEADER
@@ -445,10 +454,12 @@ div.sourceCode {
 
 
 .header-content-container {
+  position: relative;
   padding: 2em 20px;
   text-align: center;
   background: #051933;
   color: white;
+  box-shadow: 0px 1.2px 3.6px rgba(0,0,0,.108),0px 6.4px 14.4px rgba(0,0,0,.132);
 }
 
 
@@ -472,9 +483,10 @@ div.sourceCode {
   position: relative;
   object-fit: cover;
   width: 100%;
-  height: 210px;
+  height: 170px;
   overflow: hidden;
-  object-position: 80% 25%;
+  object-position: 80% 38%;
+  border-bottom: solid #0a1552 1px;
 }
 
 .post-meta {
@@ -977,6 +989,13 @@ div.quarto-post .metadata {
 
 
 // ICONS & Buttons
+
+.bi-1-square,
+.bi-2-square,
+.bi-3-square,
+.bi-4-square{
+padding-right: 6px;
+}
 
 .fa-solid {
   color: $dark-green;

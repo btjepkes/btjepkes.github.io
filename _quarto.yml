@@ -57,23 +57,23 @@ website:
       collapse-level: 1
       contents: 
         - text: Site Navigation
-        - href: index.qmd
-          text: Welcome
-          icon: 1-square
+        # - href: index.qmd
+        #   text: Welcome
+        #   icon: 1-square
         - section: Overview
-          icon: 2-square
+          icon: 1-square
           contents: 
             - href: about/index.qmd
             - href: curriculum-vitae/index.qmd
             - href: contact.qmd
         - section: Projects
-          icon: 3-square
+          icon: 2-square
           contents:
             - posts/index.qmd
             - gallery/index.qmd
             - research/index.qmd
         - section: Resources
-          icon: 4-square
+          icon: 3-square
           contents:
             - resources/index.qmd
 

@@ -40,9 +40,7 @@ listing:
       - image
 ---
 
-<!-- ## My Current Role -->
-
-<!-- I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. -->
+<!-- > I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. -->
 
 <!-- **Below are some of my recent professional activities and projects.** -->
 
