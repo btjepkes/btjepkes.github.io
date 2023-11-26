@@ -150,7 +150,7 @@ $progress-height:               .5rem !default;
 
 // Variables
 
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe UI:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
@@ -187,7 +187,7 @@ h1 {
 }
 
 h2 {
-  color: $teal;
+  color: #ff6b6b;
 }
 
 .subtitle {
@@ -312,7 +312,8 @@ div.sourceCode {
       
     .navbar .navbar-toggler {
       height: 40px;
-      border: solid 1px white;
+      border: solid 2px #2b8aff;
+      padding-bottom: 3px;
       background: #051933;
       border-radius: 4px;
       padding-left: 5px;
@@ -355,10 +356,9 @@ div.sourceCode {
       background: #185357;
     }*/
 
-    .quarto-navbar-tools {
+.quarto-navbar-tools {
       display: none !important;
     } }
-
 
 // SIDEBAR
 
@@ -602,7 +602,6 @@ div.sourceCode {
 }
 
 .quarto-grid-item {
-  background: $white;
   border-radius: 8px;
   border: 1px solid #46639355;
   -webkit-box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
@@ -660,7 +659,7 @@ div.sourceCode {
 .quarto-grid-item .card-title {
   font-weight: 700;
   margin-bottom: 10px;
-  color: #104759;
+  color: $black;
 }
 
 .quarto-grid-item p.card-img-top {
@@ -942,7 +941,7 @@ div.quarto-post .metadata {
     }
 
 .cookie-consent-footer a {
-  color: #ebdb87;
+  color: #2b8aff;
 }
 
 @media (max-width: 767.98px) {

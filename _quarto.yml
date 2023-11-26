@@ -32,18 +32,20 @@ website:
       - icon: house-fill
         href: index.html
       - href: about/index.qmd
-        text: Overview
+        text: About
       - href: posts/index.qmd
-        text: Projects
+        text: Blog
+      - href: gallery/index.qmd
+        text: Gallery
       - href: resources/index.qmd
-        text: Resources      
+        text: Resources
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/
         aria-label: LinkedIn Profile
       - icon: github
         href: https://github.com/btjepkes
         aria-label: GitHub Profile
-      - icon: twitter
+      - icon: twitter-x
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
 
@@ -87,7 +89,7 @@ website:
       - icon: github
         href: https://github.com/btjepkes
         aria-label: GitHub Profile
-      - icon: twitter
+      - icon: twitter-x
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
       - icon: house-fill
