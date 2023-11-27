@@ -1,5 +1,5 @@
 ---
-title: "R Coding Tips from a Biologist & GISer"
+title: "R Coding Tips from a Biologist"
 subtitle: "How to make your R learning experience more tolerable, perhaps even enjoyable."
 date: "5/20/2023"
 abstract: This post is pending.
