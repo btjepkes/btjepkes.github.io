@@ -201,14 +201,17 @@ cookieconsent.run({
         <li class="sidebar-item">
  <span class="menu-text">Site Navigation</span>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-house-fill" role="img">
-</i> 
- <span class="menu-text">Welcome</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-house-fill" role="img">
+</i> 
+ <span class="menu-text">Home</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false"><i class="bi bi-1-square" role="img">
 </i> 
@@ -217,7 +220,7 @@ cookieconsent.run({
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../about/index.html" class="sidebar-item-text sidebar-link">
@@ -238,7 +241,7 @@ cookieconsent.run({
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
+          <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false"><i class="bi bi-2-square" role="img">
 </i> 
@@ -247,7 +250,7 @@ cookieconsent.run({
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
@@ -268,7 +271,7 @@ cookieconsent.run({
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
+          <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false"><i class="bi bi-3-square" role="img">
 </i> 
@@ -277,13 +280,15 @@ cookieconsent.run({
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../resources/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Helpful Resources</span></a>
   </div>
 </li>
+      </ul>
+  </li>
       </ul>
   </li>
     </ul>
@@ -319,36 +324,47 @@ cookieconsent.run({
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">How to Become a Contemporary Naturalist</h1>
+<p class="subtitle lead">Understanding the environment is the first step to appreciating it.</p>
+  </div>
 
-  <div class="image-cover-container">
-    <img src="https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80" alt="Rivers." class="image-cover">
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="../..//about/index.html">Benjamin Tjepkes</a> <a href="https://orcid.org/0009-0002-5524-2675" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 18, 2022</p>
     </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">What Is This About?</div>
+    This blog post will provide you with some simple and cost-effective ways to help you start your journey as a contemporary naturalist. Through these tips, you will be able to gain a deeper appreciation and understanding of the environment. We will explore ways to learn common bird calls, discover your local watershed, use mobile apps to explore nature around you, and much more. Let’s get started!
+  </div>
+</div>
 
-  <div class="title-area">
-    <h1 class="title">How to Become a Contemporary Naturalist</h1>
-    <p class="subtitle">Understanding the environment is the first step to appreciating it.</p>
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>The Conservation Companion</p>
   </div>
-  
-  
-    
-  <div class="header-content-container">  
-  <div class="post-meta">
-    
-    <div class="post-meta-meta">
-      
-                  <p class="author">Created by:<br>Benjamin Tjepkes</p>
-                
-                  <p class="date">Last updated:<br>October 18, 2022</p>
-            </div>
-    
-          <div class="abstract">
-        This blog post will provide you with some simple and cost-effective ways to help you start your journey as a contemporary naturalist. Through these tips, you will be able to gain a deeper appreciation and understanding of the environment. We will explore ways to learn common bird calls, discover your local watershed, use mobile apps to explore nature around you, and much more. Let’s get started!
-      </div>
-        
-  </div>
-  
-  </div>
+</div>
+
 </header>
 
 
@@ -372,7 +388,7 @@ cookieconsent.run({
 <p>Many birds enjoy making their presence known through song. This allows us to identify individuals down to the species without laying eyes on them. Common birds, like the American robin (Turdus migratorius), can usually be heard readily in most yards. Why not just learn how to identify them by sight? Well, that’s certainly something to work on too, but oftentimes you will only be able to hear the birds and not see them. This is especially true for birds that spend most of their time in the tree canopy.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img" alt="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."></a></p>
+<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img" alt="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."></a></p>
 <figcaption>Along with a keen ear, a good set of binoculars are an excellent compliment when birding.</figcaption>
 </figure>
 </div>
@@ -388,7 +404,7 @@ cookieconsent.run({
 <p>Whether you are ordering pizza or trying to identify an unknown plant, there is an app out there for you. Most popular apps are available on both iOS and Android, so accessing them should not be much trouble. Some even have the ability to download content for offline use, so you can still use the app while away from cell service.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img" alt="Many apps provide ways of capturing data offline, then uploading once connected again."></a></p>
+<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img" alt="Many apps provide ways of capturing data offline, then uploading once connected again."></a></p>
 <figcaption>Many apps provide ways of capturing data offline, then uploading once connected again.</figcaption>
 </figure>
 </div>
@@ -892,7 +908,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom"});</script>
 
 
 

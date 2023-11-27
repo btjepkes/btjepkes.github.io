@@ -10,6 +10,7 @@ website:
   favicon: assets/logo-1.png
   page-navigation: true
   back-to-top-navigation: false
+  bread-crumbs: true
   search:
     location: sidebar
     type: textbox
@@ -54,28 +55,29 @@ website:
       style: "floating"
       background: "#e8e8e8"
       pinned: true
-      collapse-level: 1
+      collapse-level: 2
       contents: 
         - text: Site Navigation
         - href: index.qmd
-          text: Welcome
+          text: "Home"
           icon: house-fill
-        - section: Overview
-          icon: 1-square
           contents: 
-            - href: about/index.qmd
-            - href: curriculum-vitae/index.qmd
-            - href: contact.qmd
-        - section: Projects
-          icon: 2-square
-          contents:
-            - posts/index.qmd
-            - gallery/index.qmd
-            - research/index.qmd
-        - section: Resources
-          icon: 3-square
-          contents:
-            - resources/index.qmd
+            - section: Overview
+              icon: 1-square
+              contents: 
+                - href: about/index.qmd
+                - href: curriculum-vitae/index.qmd
+                - href: contact.qmd
+            - section: Projects
+              icon: 2-square
+              contents:
+                - posts/index.qmd
+                - gallery/index.qmd
+                - research/index.qmd
+            - section: Resources
+              icon: 3-square
+              contents:
+                - resources/index.qmd
 
   page-footer:
     center: >-
@@ -105,8 +107,8 @@ format:
       - name: Benjamin Tjepkes  
         url: //about/index.qmd
         orcid: 0009-0002-5524-2675
-    template-partials: 
-      - title-block.html
+    # template-partials: 
+    #   - title-block.html
     theme: custom.scss
     abstract-title: "What Is This About?"
     toc: true

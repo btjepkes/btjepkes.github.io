@@ -168,21 +168,11 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Anek, Nunito, sans-serif;
-  /*background: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,1.0), rgba(255,255,255,0.1)), url("assets/bg-links.jpg");
-  background-attachment: fixed;
-  background-position: center;*/
 }
-
-      @media (max-width: 991.98px) {
-        body {
-          background: #ffffff;
-        }
-      }
-
 
 h1 {
   opacity: 1.0 !important;
-  font-size: clamp(2.4em, 5vw, 3.2em);
+  font-size: clamp(2.4em, 5vw, 3.0em);
 }
 
 h2 {
@@ -192,17 +182,11 @@ h2 {
 .subtitle {
   font-weight: 700;
   line-height: 1.2em;
-  font-size: clamp(1em, 5vw, 1.8em);
+  font-size: clamp(1em, 5vw, 1.5em);
   letter-spacing: 0.01em;
   color: #2b8aff;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-bottom: 0em;
 }
 
-.quarto-title-meta a {
-  color: white !important;
-}
 
 .abstract-title {
   margin-bottom: 0.5em;
@@ -442,14 +426,43 @@ blockquote {
 
 // HEADER
 
+#title-block-header {
+  position: relative;
+  margin-block-end: 3rem !important;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-top: -40px;
+}
 
+#title-block-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 100%;
+  background: url("assets/mountains.svg");
+  background-color: #fbfbfb;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+
+/*
 .title-area {
   text-align: center;
   margin-top: 20px;
 }
 
 .image-cover-container {
-  display: relative;
 }
 
 .image-cover {
@@ -460,11 +473,9 @@ blockquote {
   overflow: hidden;
   object-position: 80% 38%;
 }
-/*
+
 .header-content-container {
-  position: relative;
-  padding: 0.5em 20px;
-}*/
+}
 
 .post-meta {
   display: flex;
@@ -489,17 +500,14 @@ blockquote {
 }
 
 #title-block-header {
-  border: solid 0px lightgray;
-  border-radius: 10px;
-  overflow: hidden;
   margin-block-end: 2em;
-  /*text-align: center;
+  text-align: center;
   background: linear-gradient(to top, #0d294d, #051933);
   color: white;
   box-shadow: 0px 1.2px 3.6px rgba(0,0,0,.108),0px 6.4px 14.4px rgba(0,0,0,.132);
  background-image: linear-gradient(to bottom, rgba(233,243,255,0.0), rgba(233,243,255,0.0) ), url("assets/bg-color-rivers.jpg");
   background-color: #def4ea;
-  /*background-size: cover;
+  background-size: cover;
   background-position: 20% center;
   background-repeat: no-repeat;
   color: white !important;
@@ -511,13 +519,13 @@ blockquote {
   padding-top: 2.3em;
   padding-bottom: 2.3em;
   padding-left: 0em;
-  padding-right: 0em;*/
+  padding-right: 0em;
 }
 
 .quarto-title .quarto-categories {
     margin-top: 20px;
 }
-
+*/
 
 // NAVIGATION
 
