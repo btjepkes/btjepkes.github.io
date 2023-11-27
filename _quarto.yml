@@ -57,9 +57,9 @@ website:
       collapse-level: 1
       contents: 
         - text: Site Navigation
-        # - href: index.qmd
-        #   text: Welcome
-        #   icon: 1-square
+        - href: index.qmd
+          text: Welcome
+          icon: house-fill
         - section: Overview
           icon: 1-square
           contents: 
