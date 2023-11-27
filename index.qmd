@@ -10,9 +10,9 @@ image-alt: "Image-of-trees."
 pagetitle: "Portfolio | B.W. Tjepkes"
 author-meta: Benjamin Tjepkes
 description-meta: "This is the porfolio and professional website of Benjamin Tjepkes."
-format:
-  html:
-    css: index.css
+# format:
+#   html:
+#     css: index.css
 listing:
   - id: site-listings-1
     contents:

@@ -414,11 +414,6 @@ blockquote {
   content: "\f52a";
 }
 
-#quarto-margin-sidebar {
-  /*background: #ededed;*/
-  background: transparent;
-  /*padding-left: 24px;*/
-}
 
 /* Search bar in side nav*/
 .mt-2 {
@@ -452,6 +447,7 @@ blockquote {
 .title-area {
   padding: 24px 20px;
   background: #051933;
+  position: relative;
 }
 
 .image-cover-container {
@@ -497,7 +493,7 @@ blockquote {
 }
 
 #title-block-header {
-  margin-block-end: 0;
+  /*margin-block-end: 0;*/
   text-align: center;
   background: linear-gradient(to top, #0d294d, #051933);
   color: white;
