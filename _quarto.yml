@@ -105,7 +105,7 @@ format:
   html:
     author:
       - name: Benjamin Tjepkes  
-        url: //about/index.qmd
+        # url: //about/index.qmd
         orcid: 0009-0002-5524-2675
     # template-partials: 
     #   - title-block.html
@@ -125,7 +125,7 @@ format:
     code-overflow: scroll
     grid:
       sidebar-width: 250px
-      body-width: 900px
+      body-width: 800px
       gutter-width: 24px
     filters: 
       - lightbox

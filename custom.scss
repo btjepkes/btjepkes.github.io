@@ -360,7 +360,22 @@ blockquote {
 
 // SIDEBAR
 
+
+/* RIGHT */
+#quarto-margin-sidebar {
+ z-index: -2 !important;
+}
+
+ .quarto-page-breadcrumbs a,
+  .breadcrumb-item + .breadcrumb-item::before {
+    color: #fff;
+  }
+
 @media (max-width: 991.98px) {
+  
+  .quarto-page-breadcrumbs {
+    color: #000;
+  }
   
   .quarto-secondary-nav nav.quarto-page-breadcrumbs a {
     color: #000;
@@ -432,6 +447,8 @@ blockquote {
   padding-top: 2em;
   padding-bottom: 2em;
   margin-top: -40px;
+  text-align: center;
+  color: white;
 }
 
 #title-block-header::before {
@@ -443,8 +460,8 @@ blockquote {
   transform: translateX(-50%);
   width: 100vw;
   height: 100%;
-  background: url("assets/mountains.svg");
-  background-color: #fbfbfb;
+  /*background: url("assets/mountains.svg");*/
+  background: linear-gradient(to top, #0d294d, #051933);
   background-position-x: 0%;
   background-position-y: 0%;
   background-repeat: repeat;
