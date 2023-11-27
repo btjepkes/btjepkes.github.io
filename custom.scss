@@ -183,7 +183,6 @@ body {
 h1 {
   opacity: 1.0 !important;
   font-size: clamp(2.4em, 5vw, 3.2em);
-  /*text-shadow: 2px 4px 3px rgba(0,0,0,0.25);*/
 }
 
 h2 {
@@ -199,7 +198,6 @@ h2 {
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 0em;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.25);
 }
 
 .quarto-title-meta a {
@@ -444,10 +442,10 @@ blockquote {
 
 // HEADER
 
+
 .title-area {
-  padding: 24px 20px;
-  background: #051933;
-  position: relative;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .image-cover-container {
@@ -461,25 +459,23 @@ blockquote {
   height: 190px;
   overflow: hidden;
   object-position: 80% 38%;
-  border-bottom: solid white 1px;
-  border-top: solid white 1px;
 }
-
+/*
 .header-content-container {
   position: relative;
-  padding: 0.8em 20px;
-}
+  padding: 0.5em 20px;
+}*/
 
 .post-meta {
   display: flex;
   flex-direction: column;
   gap: 0em;
-  padding: 20px 20px;
+  padding: 20px 0px;
   max-width: 800px;
   margin: auto;
-  background: rgba(0,0,0,0.0);
   border-radius: 20px;
   font-size: 1.0em;
+  text-align: center;
 }
 
 .post-meta-meta {
@@ -493,12 +489,15 @@ blockquote {
 }
 
 #title-block-header {
-  /*margin-block-end: 0;*/
-  text-align: center;
+  border: solid 0px lightgray;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-block-end: 2em;
+  /*text-align: center;
   background: linear-gradient(to top, #0d294d, #051933);
   color: white;
   box-shadow: 0px 1.2px 3.6px rgba(0,0,0,.108),0px 6.4px 14.4px rgba(0,0,0,.132);
- /* background-image: linear-gradient(to bottom, rgba(233,243,255,0.0), rgba(233,243,255,0.0) ), url("assets/bg-color-rivers.jpg");
+ background-image: linear-gradient(to bottom, rgba(233,243,255,0.0), rgba(233,243,255,0.0) ), url("assets/bg-color-rivers.jpg");
   background-color: #def4ea;
   /*background-size: cover;
   background-position: 20% center;
@@ -514,11 +513,6 @@ blockquote {
   padding-left: 0em;
   padding-right: 0em;*/
 }
-      @media (max-width: 991.98px) {
-        #title-block-header {
-          background-attachment: scroll;
-          background-size: fit;
-        }}
 
 .quarto-title .quarto-categories {
     margin-top: 20px;
