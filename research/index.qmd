@@ -9,6 +9,7 @@ listing:
   contents: "*.qmd"
   type: grid
   grid-columns: 2
+  image-height: 250px
   categories: numbered
   sort: "title"
   filter-ui: true  

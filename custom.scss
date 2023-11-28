@@ -449,7 +449,7 @@ blockquote {
   text-align: center;
   color: white;
   box-shadow: 0px 1.2px 3.6px rgba(0,0,0,.108),0px 6.4px 14.4px rgba(0,0,0,.132);
-  background-image: linear-gradient(170deg, #051933, rgb(29, 121, 83)),url("assets/bg-dots.png");
+  background-image: linear-gradient(170deg, #051933, rgb(64, 115, 94), #051933),url("assets/bg-dots.png");
   background-size: cover;
   background-blend-mode: multiply;
   background-position: center center;
@@ -521,6 +521,9 @@ blockquote {
   margin-bottom: -2em !important;
 }
 
+// LISTINGS
+
+/*
 .quarto-listing-filter {
   margin-bottom: 2em;
   width: 49.5%;
@@ -533,34 +536,54 @@ blockquote {
   margin-right: auto;
 }
 
-
 .quarto-grid-item .listing-categories {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 5px;
   gap: 5px;
   padding-top: 10px;
-}
+} */
 
 .quarto-grid-item {
   border-radius: 8px;
-  border: 1px solid #46639355;
+  overflow: hidden;
+  /*border: 1px solid #46639355;
   -webkit-box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
   box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
-  flex-direction: column;
+  flex-direction: column;*/
 }
 
+/*
     @media (max-width: 700px) {
       .quarto-grid-item {
         flex-direction: column;
       }
     }
 
+.quarto-grid-item .card-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: $black;
+}
+
+.quarto-grid-item p.card-img-top {
+  padding: 6px;
+}
+
+.quarto-grid-item p.card-img-top>img {
+    border-radius: 5px;
+    min-height: 200px;
+    overflow-clip-margin: unset;
+    overflow: hidden;
+}
+
+
+*/
 
 
 .listings-gallery .grid {
-  row-gap: 2.6em; /* Gap for rows */
-  column-gap: 1.2em; /* Gap for columns */
+  row-gap: 2.6em;
+  column-gap: 1.2em;
 }
 
 .listings-gallery .quarto-grid-item div.post-contents {
@@ -583,10 +606,10 @@ blockquote {
   margin: 0;
   font-weight: 300 !important;
   color: black;
-  white-space: nowrap; /* Prevent line breaks */
-  text-overflow: ellipsis; /* Show ellipses for overflow text */
-  overflow: hidden; /* Hide overflowing text */
-  width: 100%; /* Limit the width to 100% or a specific value */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
 }
 
 .listings-gallery .quarto-grid-item .card-title::after {
@@ -597,22 +620,7 @@ blockquote {
   margin-top: none;
 }
 
-.quarto-grid-item .card-title {
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: $black;
-}
 
-.quarto-grid-item p.card-img-top {
-  padding: 6px;
-}
-
-.quarto-grid-item p.card-img-top>img {
-    border-radius: 5px;
-    min-height: 200px;
-    overflow-clip-margin: unset;
-    overflow: hidden;
-}
 
 /* FIGURES & IMAGES */
 
