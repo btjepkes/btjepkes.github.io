@@ -100,14 +100,14 @@ cookieconsent.run({
 
 
 <meta property="og:title" content="OSM Bridges Across Pennsylvania | B.W. Tjepkes">
-<meta property="og:description" content="This point map shows the locations of all bridges in the state of Pennsylvania, according to OpenStreetMap.">
+<meta property="og:description" content="This point map was created in RStudio and shows the locations of all bridges in the state of Pennsylvania according to the OpenStreetMap API.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/pennsylvania-bridge-map/img-PA-bridge-map-thumb.png">
 <meta property="og:site_name" content="Benjamin Tjepkes">
 <meta property="og:image:height" content="560">
 <meta property="og:image:width" content="700">
 <meta property="og:image:alt" content="A point map showing the locations of all bridges in Pennsylvania.">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="This point map shows the locations of all bridges in the state of Pennsylvania, according to OpenStreetMap.">
+<meta name="twitter:description" content="This point map was created in RStudio and shows the locations of all bridges in the state of Pennsylvania according to the OpenStreetMap API.">
 <meta name="twitter:image" content="https://btjepkes.github.io/gallery/pennsylvania-bridge-map/img-PA-bridge-map-thumb.png">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:image-height" content="560">
@@ -210,7 +210,7 @@ cookieconsent.run({
             </div>
     
           <div class="abstract">
-        This point map shows the locations of all bridges in the state of Pennsylvania, according to OpenStreetMap.
+        This point map was created in RStudio and shows the locations of all bridges in the state of Pennsylvania according to the OpenStreetMap API.
       </div>
         
   </div>
@@ -347,7 +347,9 @@ cookieconsent.run({
 </section>
 <section id="tools-workflow" class="level2">
 <h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
-<p>Map creation was performed in R/Studio using the <code>osmdata</code> and <code>ggplot</code> packages. Blog post coming soon!</p>
+<p>Map creation was performed in R/Studio using the<code>ggplot</code> package.</p>
+<p>OpenStreeMap data for both bridges and largest cities were accessed via the <code>osmdata</code> package.</p>
+<p>Blog post coming soon!</p>
 </section>
 <section id="final-result" class="level2">
 <h2 data-anchor-id="final-result">Final Result</h2>
@@ -814,7 +816,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom","selector":".lightbox"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom"});</script>
 
 
 

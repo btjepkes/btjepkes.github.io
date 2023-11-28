@@ -129,7 +129,27 @@
     "href": "index.html",
     "title": "Portfolio of Benjamin Tjepkes",
     "section": "",
-    "text": "About Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nA full look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires or comments.\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nWritings on ecology, geospatial, and data science.\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on wildlife, spatial ecology, and GIS.\n\n\n\n\n\n\n\nNo matching items",
+    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Below are some of my recent professional activities.\n\nNov 2023 – I am participating in the #30DayMapChallenge on social media. See all my map contributions so far here.\nSep 2023 – I recently attended the 2023 Posit Conference and enjoyed learning more about open source data science.\nAug 2023 – I have started graduate school at the University of Missouri Department of Geography. Updates on my thesis work coming soon!\nJuly 2023 – One of my maps, Stamped in History: 50 Years of Imperiled Species Conservation, was awarded second place (Professional Category) in the 2023 GIS Certification Institute map contest.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#my-brief-bio",
+    "href": "index.html#my-brief-bio",
+    "title": "Portfolio of Benjamin Tjepkes",
+    "section": "",
+    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. Below are some of my recent professional activities.\n\nNov 2023 – I am participating in the #30DayMapChallenge on social media. See all my map contributions so far here.\nSep 2023 – I recently attended the 2023 Posit Conference and enjoyed learning more about open source data science.\nAug 2023 – I have started graduate school at the University of Missouri Department of Geography. Updates on my thesis work coming soon!\nJuly 2023 – One of my maps, Stamped in History: 50 Years of Imperiled Species Conservation, was awarded second place (Professional Category) in the 2023 GIS Certification Institute map contest.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#exploring-my-work",
+    "href": "index.html#exploring-my-work",
+    "title": "Portfolio of Benjamin Tjepkes",
+    "section": "Exploring My Work",
+    "text": "Exploring My Work\nThis site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery. Feel free to also check out more about me, my full curriculum vitae, and some helpful resources.\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nA full look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires or comments.\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nWritings on ecology, geospatial, and data science.\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on wildlife, spatial ecology, and GIS.\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home"
     ]
@@ -698,7 +718,7 @@
     "href": "gallery/pennsylvania-bridge-map/index.html#tools-workflow",
     "title": "OSM Bridges Across Pennsylvania",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nMap creation was performed in R/Studio using the osmdata and ggplot packages. Blog post coming soon!"
+    "text": "Tools & Workflow\nMap creation was performed in R/Studio using theggplot package.\nOpenStreeMap data for both bridges and largest cities were accessed via the osmdata package.\nBlog post coming soon!"
   },
   {
     "objectID": "gallery/pennsylvania-bridge-map/index.html#final-result",
@@ -761,14 +781,14 @@
     "href": "posts/30-day-map-challenge-2023/index.html",
     "title": "30 Day Map Challenge - 2023 Contributions",
     "section": "",
-    "text": "The 30 Day Map Challenge is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas.\nThe challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create. TL;DR - maps are neat!\n\n\n\nHere are the prompts for each day of the challenge. Source: 30daymapchallenge.com\n\n\n\n\n\n\nDay\nTheme\nDetails\n\n\n\n1\nPoints\nA map with points\n\n\n2\nLines\nA map with lines\n\n\n3\nPolygons\nA map with polygons\n\n\n4\nA bad map\nLet’s get this over with\n\n\n5\nAnalog Map\nNon-digital maps\n\n\n6\nAsia\nLargest of the continents\n\n\n7\nNavigation\nA map that helps you to navigate\n\n\n8\nAfrica\nSecond-largest and second-most populous continent\n\n\n9\nHexagons\n6 sides, 6 angles, and 6 vertices\n\n\n10\nNorth America\nNorthern part of the American continent\n\n\n11\nRetro\nA blast from the past\n\n\n12\nSouth America\nSouthern part of the American continent\n\n\n13\nChoropleth\nClassic thematic map: a choropleth\n\n\n14\nEurope\nThe westernmost peninsulas of Eurasia\n\n\n15\nOpenStreetMap\nThe greatest of the datasets. Remember to give credit.\n\n\n16\nOceania\nRegion made up of thousands of islands throughout the Central and South Pacific\n\n\n17\nFlow\nFlow of transport, people\n\n\n18\nAtmosphere\nConditions of the atmosphere can be either weather or climate\n\n\n19\n5-minute map\nSpend no more than 5 minutes to prepare this map\n\n\n20\nOutdoors\nMap of mountains, trails, or something completely different\n\n\n21\nRaster\nPixels, please\n\n\n22\nNorth is not always up\nNorth is not always up\n\n\n23\n3D\nThe third dimension\n\n\n24\nBlack & white\nOnly two colors allowed\n\n\n25\nAntarctica\nA cold continent that can’t be reached with Web Mercator\n\n\n26\nMinimal\nLess is more\n\n\n27\nDot\nDot density, a single dot in space or something different\n\n\n28\nIs this a chart or a map?\nIn thematic maps, you can’t always tell. Try to stretch the limits\n\n\n29\nPopulation\nA classic theme for a map\n\n\n30\n“My favorite..”\nYou choose!"
+    "text": "The 30 Day Map Challenge is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.\n\n\nHere are daily prompts for 2023. Credit: 30DayMapChallenge.com"
   },
   {
     "objectID": "posts/30-day-map-challenge-2023/index.html#overview-of-challenge",
     "href": "posts/30-day-map-challenge-2023/index.html#overview-of-challenge",
     "title": "30 Day Map Challenge - 2023 Contributions",
     "section": "",
-    "text": "The 30 Day Map Challenge is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas.\nThe challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create. TL;DR - maps are neat!\n\n\n\nHere are the prompts for each day of the challenge. Source: 30daymapchallenge.com\n\n\n\n\n\n\nDay\nTheme\nDetails\n\n\n\n1\nPoints\nA map with points\n\n\n2\nLines\nA map with lines\n\n\n3\nPolygons\nA map with polygons\n\n\n4\nA bad map\nLet’s get this over with\n\n\n5\nAnalog Map\nNon-digital maps\n\n\n6\nAsia\nLargest of the continents\n\n\n7\nNavigation\nA map that helps you to navigate\n\n\n8\nAfrica\nSecond-largest and second-most populous continent\n\n\n9\nHexagons\n6 sides, 6 angles, and 6 vertices\n\n\n10\nNorth America\nNorthern part of the American continent\n\n\n11\nRetro\nA blast from the past\n\n\n12\nSouth America\nSouthern part of the American continent\n\n\n13\nChoropleth\nClassic thematic map: a choropleth\n\n\n14\nEurope\nThe westernmost peninsulas of Eurasia\n\n\n15\nOpenStreetMap\nThe greatest of the datasets. Remember to give credit.\n\n\n16\nOceania\nRegion made up of thousands of islands throughout the Central and South Pacific\n\n\n17\nFlow\nFlow of transport, people\n\n\n18\nAtmosphere\nConditions of the atmosphere can be either weather or climate\n\n\n19\n5-minute map\nSpend no more than 5 minutes to prepare this map\n\n\n20\nOutdoors\nMap of mountains, trails, or something completely different\n\n\n21\nRaster\nPixels, please\n\n\n22\nNorth is not always up\nNorth is not always up\n\n\n23\n3D\nThe third dimension\n\n\n24\nBlack & white\nOnly two colors allowed\n\n\n25\nAntarctica\nA cold continent that can’t be reached with Web Mercator\n\n\n26\nMinimal\nLess is more\n\n\n27\nDot\nDot density, a single dot in space or something different\n\n\n28\nIs this a chart or a map?\nIn thematic maps, you can’t always tell. Try to stretch the limits\n\n\n29\nPopulation\nA classic theme for a map\n\n\n30\n“My favorite..”\nYou choose!"
+    "text": "The 30 Day Map Challenge is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.\n\n\nHere are daily prompts for 2023. Credit: 30DayMapChallenge.com"
   },
   {
     "objectID": "posts/30-day-map-challenge-2023/index.html#my-2023-contributions",

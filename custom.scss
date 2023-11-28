@@ -75,7 +75,6 @@ $line-height-base:            1.6 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
-$h1-font-size:                $font-size-base * 3.3 !default;
 $h2-font-size:                $font-size-base * 1.9 !default;
 $h3-font-size:                $font-size-base * 1.75 !default;
 $h4-font-size:                $font-size-base * 1.5 !default;
@@ -152,19 +151,19 @@ body {
 
 h1 {
   opacity: 1.0 !important;
-  font-size: clamp(2.4em, 5vw, 3.0em);
+  font-size: clamp(2.2em, 5vw, 2.8em);
 }
 
 h2 {
-  color: #ff6b6b;
+  color: #d73a49;
 }
 
 .subtitle {
   font-weight: 700;
   line-height: 1.2em;
-  font-size: clamp(1em, 5vw, 1.5em);
+  font-size: clamp(1em, 4vw, 1.4em);
   letter-spacing: 0.01em;
-  color: #2b8aff;
+  color: #d5f0f9;
 }
 
 
@@ -184,8 +183,9 @@ h2 {
 }
 
 #toc-title {
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: bold;
+  margin-bottom: 0.5em;
 }
 
 code {
@@ -402,7 +402,6 @@ blockquote {
 
 .title-area {
   text-align: center;
-  margin-top: 20px;
 }
 
 .image-cover-container {
@@ -447,9 +446,8 @@ blockquote {
   text-align: center;
   color: white;
   box-shadow: 0px 1.2px 3.6px rgba(0,0,0,.108),0px 6.4px 14.4px rgba(0,0,0,.132);
-  background-image: linear-gradient(to top, rgba(13, 41, 77, 0.75), rgba(5, 25, 51, 0.95))
+  background-image: linear-gradient(to top, rgba(13, 41, 77, 0.90), rgba(5, 25, 51, 0.90))
 , url("assets/bg-color-rivers.jpg");
-  background-color: #def4ea;
   background-size: cover;
   background-position: 20% center;
   background-repeat: no-repeat;
@@ -459,8 +457,8 @@ blockquote {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-top: 2.3em;
-  padding-bottom: 2.3em;
+  padding-top: 2.5em;
+  padding-bottom: 2.0em;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -619,6 +617,11 @@ blockquote {
   border-radius: 0px !important;
   border: solid 1px black;
 }
+
+
+.quarto-figure > figure {
+    margin-top: 1.5em;
+    }
 
 figure > figcaption {
   margin: -5px 10px 0px 0px;

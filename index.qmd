@@ -10,9 +10,10 @@ image-alt: "Image-of-trees."
 pagetitle: "Portfolio | B.W. Tjepkes"
 author-meta: Benjamin Tjepkes
 description-meta: "This is the porfolio and professional website of Benjamin Tjepkes."
-# format:
-#   html:
-#     css: index.css
+page-navigation: false
+format:
+  html:
+    css: index.css
 listing:
   - id: site-listings-1
     contents:
@@ -40,23 +41,31 @@ listing:
       - image
 ---
 
-<!-- > I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. -->
+## My Brief Bio
 
-<!-- **Below are some of my recent professional activities and projects.** -->
+I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. *Below are some of my recent professional activities.*
+
+- **Nov 2023** -- I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd).
+
+- **Sep 2023** -- I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.
+
+- **Aug 2023** -- I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!
+
+- **July 2023** -- One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest.
 
 ```{r}
 #| tbl-colwidths: [20,80]
 #| echo: false
-# library(knitr)
-# library(kableExtra)
-# 
-# data <- data.frame(
-#   Date = c("Nov 2023", "Sept 2023", "Aug 2023", "July 2023", "April 2023"),
-#   Item = c("I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd).", "Sept 2023", "Aug 2023", "July 2023", "April 2023")
-# )
-# 
-# 
-# kable(data)
+#| eval: false
+library(knitr)
+library(kableExtra)
+
+data <- data.frame(
+  Date = c("Nov 2023", "Sept 2023", "Aug 2023", "July 2023", "April 2023"),
+  Item = c("I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd).", "Sept 2023", "Aug 2023", "July 2023", "April 2023")
+)
+
+kable(data)
 ```
 
 <!-- |                |                                                                                                                                                                                                                                                                | -->
@@ -69,13 +78,15 @@ listing:
 
 <!-- : {tbl-colwidths="\[20,80\]"} -->
 
-<!-- ## Where To Explore {.h2-index} -->
 
-<!-- This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery. Feel free to also check out more about me, my full curriculum vitae, and some helpful resources. -->
-<!-- ::: {.column-page} -->
+## Exploring My Work
+
+This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery. Feel free to also check out more about me, my full curriculum vitae, and some helpful resources.
 
 ::: {#site-listings-1}
 :::
+
+
 
 ::: {#site-listings-2}
 :::

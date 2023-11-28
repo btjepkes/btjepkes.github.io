@@ -8,7 +8,7 @@ categories:
   - Map Gallery
 keywords:
   - "#30DayMapChallenge2023"
-abstract: This point map shows the locations of all bridges in the state of Pennsylvania, according to OpenStreetMap.
+abstract: This point map was created in RStudio and shows the locations of all bridges in the state of Pennsylvania according to the OpenStreetMap API.
 image: img-PA-bridge-map-thumb.png
 image-alt: "A point map showing the locations of all bridges in Pennsylvania."
 # aliases:
@@ -20,7 +20,11 @@ This map was created for **Day 15** of the 2023 [30 Day Map Challenge](https://3
 
 ## Tools & Workflow
 
-Map creation was performed in R/Studio using the `osmdata` and `ggplot` packages. Blog post coming soon!
+Map creation was performed in R/Studio using the`ggplot` package.
+
+OpenStreeMap data for both bridges and largest cities were accessed via the `osmdata` package.
+
+Blog post coming soon!
 
 ## Final Result
 
