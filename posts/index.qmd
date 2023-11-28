@@ -27,19 +27,6 @@ listing:
       - subtitle
       - author
       - date
-  # - id: tcc-posts
-  #   contents: "*.qmd"
-  #   include:
-  #     keywords: The Conservation Companion
-  #   feed: true
-  #   type: table
-  #   categories: false
-  #   sort: "date desc"
-  #   filter-ui: false
-  #   sort-ui: false
-  #   fields: 
-  #     - date
-  #     - title
 ---
 
 ::: {#main-posts}

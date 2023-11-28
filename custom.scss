@@ -25,25 +25,10 @@ $yellow:  #ff7518 !default;
 $green:   #3fb618 !default;
 $teal:    #005c5d !default;
 $cyan:    #9954bb !default;
-
-$new-dark-blue: #00233D !default;
-$new-orange:    #ff9f2b !default;
-$new-green:     #004f58 !default;
-
-$dark-green:    #20595d !default;
-$light-green:   #2b6165 !default;
-$tan:           #e6e67b !default;
-$dark-purple:   #282a36 !default;
-$blue-1:        #193048 !default;
-$blue-2:        #161d30 !default;
-$blue-3:        #262939 !default;
-$blue-4:        #06214e !default;
-$blue-5:        #2d405f !default;
-$blue-6:        #466393 !default;
+$tan:     #D2B48C !default;
 
 $primary:       $black !default;
 $secondary:     $white !default;
-$success:       $blue-1 !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
@@ -71,7 +56,7 @@ $headings-font-weight:      400 !default;
 
 // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
 // $font-size-base affects the font size of the body text
-$font-size-root:              17px !default;
+/*$font-size-root:              17px !default;
 $font-size-base:              1.00rem !default; // Assumes the browser default, typically `16px`
 $font-size-sm:                $font-size-base * .875 !default;
 $font-size-lg:                $font-size-base * 1.90 !default;
@@ -97,7 +82,7 @@ $h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
 
-// scss-docs-end font-variables
+// scss-docs-end font-variables*/
 
 // scss-docs-start spacer-variables-maps
 $spacer: 1rem !default;
@@ -119,11 +104,11 @@ $navbar-padding-x:                  0 !default;
 $navbar-nav-link-padding-x:         .5rem !default;
 $navbar-nav-link-padding-y:         .5rem !default;
 
-$navbar-brand-font-size:            $font-size-base * 1.50 !default;
+/*$navbar-brand-font-size:            $font-size-base * 1.50 !default;*/
 $navbar-brand-margin-end:           0px !default;
 
 $navbar-fg: rgba($white, 1.0);
-$navbar-bg: #051933;
+$navbar-bg: #051933 !default;
 
 $navbar-dark-hover-color:       rgba($white, 1) !default;
 $navbar-light-hover-color:      rgba($red, 1) !default;
@@ -154,12 +139,6 @@ $progress-height:               .5rem !default;
 
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-/*
-$web-font-path: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900;1000&display=swap" !default;
-@if $web-font-path {
-  @import url($web-font-path);
-}
-@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap'); */
 
 // Typography
 
@@ -170,6 +149,7 @@ body {
   font-family: Anek, Nunito, sans-serif;
 }
 
+/*
 h1 {
   opacity: 1.0 !important;
   font-size: clamp(2.4em, 5vw, 3.0em);
@@ -233,7 +213,7 @@ div.sourceCode {
 blockquote {
     border-left: .25rem solid #35d290;
     }
-
+*/
 
 // Indicators
 
@@ -341,35 +321,13 @@ blockquote {
       max-width: 100%;
     }
   
-    /*.navbar-collapse {
-      display: flex;
-      flex-basis: 100%;
-      -webkit-flex-basis: 100%;
-      flex-grow: 1;
-      -webkit-flex-grow: 1;
-      align-items: center;
-      -webkit-align-items: center;
-      flex-direction: row;
-      gap: 0px;
-      background: #185357;
-    }*/
-
 .quarto-navbar-tools {
       display: none !important;
     } }
 
+
+
 // SIDEBAR
-
-
-/* RIGHT */
-#quarto-margin-sidebar {
- z-index: -2 !important;
-}
-
- .quarto-page-breadcrumbs a,
-  .breadcrumb-item + .breadcrumb-item::before {
-    color: #fff;
-  }
 
 @media (max-width: 991.98px) {
   
@@ -447,8 +405,6 @@ blockquote {
   padding-top: 2em;
   padding-bottom: 2em;
   margin-top: -40px;
-  text-align: center;
-  color: white;
 }
 
 #title-block-header::before {
@@ -460,8 +416,8 @@ blockquote {
   transform: translateX(-50%);
   width: 100vw;
   height: 100%;
-  /*background: url("assets/mountains.svg");*/
-  background: linear-gradient(to top, #0d294d, #051933);
+  background: url("assets/mountains.svg");
+  background: linear-gradient(to top, #e8e8e8, #e8e8e8);
   background-position-x: 0%;
   background-position-y: 0%;
   background-repeat: repeat;
@@ -570,7 +526,7 @@ blockquote {
     width: 100% !important;
     margin-top: 1.0em !important;
     margin-bottom: 1.5em !important;
-    border: solid 1px $blue-5 !important;
+    border: solid 1px blue !important;
     background: #7bcce63d !important;
   }
 
@@ -580,7 +536,8 @@ blockquote {
   }
 
 
-/* Callout block */
+// CALLOUTS
+
 .callout {
   background: white;
 }
@@ -686,17 +643,6 @@ blockquote {
     overflow: hidden;
 }
 
-
-.quarto-category {
-  background: transparent;
-  color: white;
-  opacity: 0.6;
-  padding: 0.75em 0.75em 0.75em 0.75em !important;
-  line-height: 1em;
-}
-
-
-
 /* FIGURES & IMAGES */
 
 .image-bordered {
@@ -708,7 +654,6 @@ figure > figcaption {
   margin: -5px 10px 0px 0px;
   font-size: 0.7rem;
   text-align: center;
-  color: $dark-green;
   opacity: 0.5;
 }
 
@@ -723,9 +668,6 @@ figure > figcaption {
 }
 
 
-
-/* Index */
-
 #quarto-content {
   min-height: auto !important;
 }
@@ -733,46 +675,6 @@ figure > figcaption {
 #quarto-content > * {
   padding-top: 20px;
 }
-
-/* Intro Icon Columns */
-
-.intro-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 2.5%;
-  margin-top: 2em;
-}
-
-.icon-col {
-  flex-grow: 1;
-  flex-basis: 250px;
-  text-align: center;
-  background: #ffffff99;
-  box-sizing: border-box;
-  padding: 20px 10px;
-  border: solid 6px teal;
-  border-radius: 20px;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  -webkit-box-shadow: 6px 6px 6px 0 rgba(0,0,0,.12);
-  box-shadow: 6px 6px 6px rgba(0,0,0,.12);
-}
-
-.icon-col i {
-  color: #24334c;
-}
-
-.icon-col-heading {
-  font-size: 1.8em;
-  font-weight: 600;
-}
-
-
-.centered {
-  text-align: center;
-}
-
 
 .quarto-listing-default {
   display: flex;
@@ -843,7 +745,6 @@ div.quarto-post .metadata {
 
 .feature .fa-solid {
   padding-right: 6px;
-  color: $blue-5;
 }
 
 .feature p:first-of-type {
@@ -989,9 +890,6 @@ div.quarto-post .metadata {
 padding-right: 6px;
 }
 
-.fa-solid {
-  color: $dark-green;
-}
 
 .fa-brands {
   padding-right: 10px;
@@ -1072,7 +970,7 @@ margin-bottom: 0 !important;
       height: auto !important;
       margin-bottom: 0px;
       transition: filter 2s;
-      border: 1px $dark-green solid;
+      border: 1px green solid;
       border-radius: 0;
                   }
                   

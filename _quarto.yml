@@ -52,8 +52,8 @@ website:
 
   sidebar:
     - title: "Main Nav"
-      style: "floating"
-      background: "#e8e8e8"
+      style: floating
+      background: "lightblue"
       pinned: true
       collapse-level: 2
       contents: 
@@ -117,7 +117,7 @@ format:
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
     title-block-banner: false
-    title-block-categories: false
+    title-block-categories: true
     anchor-sections: false
     highlight-style: github
     link-external-newwindow: true
@@ -125,8 +125,8 @@ format:
     code-overflow: scroll
     grid:
       sidebar-width: 250px
-      body-width: 800px
-      gutter-width: 24px
+      body-width: 1000px
+      gutter-width: 4%
     filters: 
       - lightbox
     lightbox: auto
