@@ -2,8 +2,3 @@ execute:
   freeze: auto
 #description-meta: "{{< meta description >}}"
 
-# Default author
-author:
-  - name: Benjamin Tjepkes  
-    url: //about/index.qmd
-    orcid: 0009-0002-5524-2675

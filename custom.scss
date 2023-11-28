@@ -149,7 +149,7 @@ body {
   font-family: Anek, Nunito, sans-serif;
 }
 
-/*
+
 h1 {
   opacity: 1.0 !important;
   font-size: clamp(2.4em, 5vw, 3.0em);
@@ -195,7 +195,7 @@ code {
 }
 
 b, strong {
-  background: #35d290;
+  background: #35d29055;
   padding-left: 3px;
   padding-right: 3px;
 }
@@ -213,7 +213,7 @@ div.sourceCode {
 blockquote {
     border-left: .25rem solid #35d290;
     }
-*/
+
 
 // Indicators
 
@@ -416,8 +416,9 @@ blockquote {
   transform: translateX(-50%);
   width: 100vw;
   height: 100%;
-  background: url("assets/mountains.svg");
-  background: linear-gradient(to top, #e8e8e8, #e8e8e8);
+  background: url("assets/vector-green-trees.svg");
+  background-color: #9b9b9b;
+  background-blend-mode: luminosity;
   background-position-x: 0%;
   background-position-y: 0%;
   background-repeat: repeat;
@@ -425,7 +426,9 @@ blockquote {
   background-repeat: no-repeat;
   z-index: -1;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center 50%;
+  opacity: 0.22;
+  border-bottom: solid;
 }
 
 
