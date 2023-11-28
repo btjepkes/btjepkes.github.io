@@ -53,7 +53,7 @@ website:
   sidebar:
     - title: "Main Nav"
       style: floating
-      background: "lightblue"
+      background: "#e8e8e8"
       pinned: true
       collapse-level: 2
       contents: 
@@ -107,8 +107,8 @@ format:
       - name: Benjamin Tjepkes  
         # url: //about/index.qmd
         orcid: 0009-0002-5524-2675
-    # template-partials: 
-    #   - title-block.html
+    template-partials:
+      - title-block.html
     theme: custom.scss
     abstract-title: "What Is This About?"
     toc: true
@@ -116,7 +116,7 @@ format:
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
-    title-block-banner: false
+    title-block-banner: true
     title-block-categories: true
     anchor-sections: false
     highlight-style: github
@@ -125,8 +125,8 @@ format:
     code-overflow: scroll
     grid:
       sidebar-width: 250px
-      body-width: 1000px
-      gutter-width: 4%
+      body-width: 950px
+      gutter-width: 35px
     filters: 
       - lightbox
     lightbox: auto
