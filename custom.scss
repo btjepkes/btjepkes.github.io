@@ -152,6 +152,9 @@ body {
 h1 {
   opacity: 1.0 !important;
   font-size: clamp(2.2em, 5vw, 2.8em);
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 h2 {
@@ -446,10 +449,10 @@ blockquote {
   text-align: center;
   color: white;
   box-shadow: 0px 1.2px 3.6px rgba(0,0,0,.108),0px 6.4px 14.4px rgba(0,0,0,.132);
-  background-image: linear-gradient(to top, rgba(13, 41, 77, 0.90), rgba(5, 25, 51, 0.90))
-, url("assets/bg-color-rivers.jpg");
+  background-image: linear-gradient(170deg, #051933, rgb(29, 121, 83)),url("assets/bg-dots.png");
   background-size: cover;
-  background-position: 20% center;
+  background-blend-mode: multiply;
+  background-position: center center;
   background-repeat: no-repeat;
   color: white !important;
   display: flex;
