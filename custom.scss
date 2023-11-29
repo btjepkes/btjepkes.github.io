@@ -145,10 +145,9 @@ body {
 
 h1 {
   font-weight: 900;
-  opacity: 1.0 !important;
-  font-size: clamp(2.2em, 5vw, 2.8em);
+  font-size: clamp(1.7em, 5vw, 2.5em);
   padding-bottom: 0em;
-  line-height: 1.0em;
+  line-height: 1.1em;
   color: black !important;
 }
 
@@ -201,9 +200,7 @@ code {
 }
 
 b, strong {
-  background: #d4f6e7;
-  padding-left: 3px;
-  padding-right: 3px;
+  color: $teal;
 }
 
 div.sourceCode {
@@ -412,9 +409,13 @@ blockquote {
 }
 
 #title-block-header {
-  background: url("assets/bg-dots.png");
-  padding-bottom: 30px;
-  padding-top: 30px;
+  background: #efefef;
+  background-image: url('assets/bg-topo-white.png');
+  background-blend-mode: difference;
+  background-position: center center;
+  padding-bottom: 40px;
+  padding-top: 50px;
+  box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.05);
 }
 
 .keywords {
@@ -487,14 +488,14 @@ blockquote {
   margin-right: auto;
 }
 
-/*
+
 .quarto-grid-item .listing-categories {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 5px;
   gap: 5px;
   padding-top: 10px;
-} */
+}
 
 .quarto-grid-item {
   border-radius: 8px;
@@ -607,6 +608,10 @@ figure > figcaption {
 
 #quarto-content > * {
   padding-top: 20px;
+}
+
+main {
+  margin-top: 0;
 }
 
 .quarto-listing-default {
@@ -819,6 +824,9 @@ div.quarto-post .metadata {
 .bi-2-square,
 .bi-3-square,
 .bi-4-square,
+.bi-5-square,
+.bi-6-square,
+.bi-7-square,
 .bi-house-fill {
 padding-right: 6px;
 }

@@ -1,14 +1,17 @@
 ---
 title: "Helpful Resources"
 subtitle: My favorite references for ecology, GIS, R, and more.
-abstract: "This page contains a repository of technical tutorials, personal blogs, eBooks, and other websites that I find myself consistently referring back to for my technical works."
+description: "This page contains a repository of technical tutorials, personal blogs, eBooks, and other websites that I find myself consistently referring back to for my technical works."
 date: 2023-11-14
+date-modified: today
 image: ../assets/img-world-overview.png
 image-alt: Image-of-pine-trees-on-blue-background.
 execute:
   echo: false
   warning: false
 ---
+
+## My Favorite Sources
 
 Some of my favorite GIS data sources can be found [here](https://freegisdata.rtwilson.com/).
 
