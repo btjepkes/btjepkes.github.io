@@ -1,6 +1,6 @@
 ---
-title: "OSM Bridges Across Pennsylvania"
-subtitle: "Mapping the locations of bridges from OpenSteetMap across Pennsylvania."
+title: "Pennsylvania Bridges from OSM"
+subtitle: "Mapping the locations of bridges from OpenSteetMap across PA."
 date: 11/15/2023
 date-modified: today
 categories:

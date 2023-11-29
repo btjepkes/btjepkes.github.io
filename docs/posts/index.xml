@@ -68,14 +68,14 @@ Canadian Ecoregions Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1699674351000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1701266921252" data-listing-date-modified-sort="1701237600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
 <a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img src="https://btjepkes.github.io/gallery/tiger-distribution-map/img-tiger-range-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A map of Asia showing the current and historical range of tigers."></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Tiger Range and Conservation Landscape Map
+Tiger Range and Conservation Landscapes
 </h5>
 </div>
 </div>
@@ -146,14 +146,14 @@ Forest &amp; Happiness Bivariate Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1701216357055" data-listing-date-modified-sort="1701237600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1701267036623" data-listing-date-modified-sort="1701237600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img src="https://btjepkes.github.io/gallery/pennsylvania-bridge-map/img-PA-bridge-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A point map showing the locations of all bridges in Pennsylvania."></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-OSM Bridges Across Pennsylvania
+Pennsylvania Bridges from OSM
 </h5>
 </div>
 </div>
@@ -236,7 +236,7 @@ No matching items
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
 <figcaption>A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>

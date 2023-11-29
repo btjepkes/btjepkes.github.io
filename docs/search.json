@@ -185,28 +185,28 @@
   {
     "objectID": "gallery/tiger-distribution-map/index.html",
     "href": "gallery/tiger-distribution-map/index.html",
-    "title": "Tiger Range and Conservation Landscape Map",
+    "title": "Tiger Range and Conservation Landscapes",
     "section": "",
     "text": "This map was my contribution to Day Six of the 2023 30 Day Map Challenge, which prompted “Asia” as the main subject. I knew right away that I was going to be mapping either a threatened wildlife species or a threatened orchid species given this location. I was also wanting an interesting project to work more creatively in RStudio on my programmatic cartography and this fit the bill perfectly."
   },
   {
     "objectID": "gallery/tiger-distribution-map/index.html#objectives",
     "href": "gallery/tiger-distribution-map/index.html#objectives",
-    "title": "Tiger Range and Conservation Landscape Map",
+    "title": "Tiger Range and Conservation Landscapes",
     "section": "",
     "text": "This map was my contribution to Day Six of the 2023 30 Day Map Challenge, which prompted “Asia” as the main subject. I knew right away that I was going to be mapping either a threatened wildlife species or a threatened orchid species given this location. I was also wanting an interesting project to work more creatively in RStudio on my programmatic cartography and this fit the bill perfectly."
   },
   {
     "objectID": "gallery/tiger-distribution-map/index.html#tools-workflow",
     "href": "gallery/tiger-distribution-map/index.html#tools-workflow",
-    "title": "Tiger Range and Conservation Landscape Map",
+    "title": "Tiger Range and Conservation Landscapes",
     "section": "Tools & Workflow",
     "text": "Tools & Workflow\nLike many of my visualizations in R, I assembled this map using ggplot and many ancillary packages. One package that I was happy to use was arcgisbinding, which allowed me to easily load in a web feature layer (Tiger Conservation Landscapes from the Esri Living Atlas).\nlibrary(rnaturalearth)\nlibrary(sf)\nlibrary(tidyverse)\nlibrary(ggspatial)\nlibrary(ggtext)\nlibrary(showtext)\nlibrary(camcorder)\nlibrary(arcgisbinding)\nThe historical and current range data were available as a download from the IUCN Red List. These overlapped well with the TCLs, so I decided to handle those as proportional symbols based on their area."
   },
   {
     "objectID": "gallery/tiger-distribution-map/index.html#final-result",
     "href": "gallery/tiger-distribution-map/index.html#final-result",
-    "title": "Tiger Range and Conservation Landscape Map",
+    "title": "Tiger Range and Conservation Landscapes",
     "section": "Final Result",
     "text": "Final Result\nHere is the resulting map showing the three classes of distribution and proportional symbols indicating the current TCL sizes across Asia.\n\n\n\nCredit: Benjamin Tjepkes"
   },
@@ -698,28 +698,28 @@
   {
     "objectID": "gallery/pennsylvania-bridge-map/index.html",
     "href": "gallery/pennsylvania-bridge-map/index.html",
-    "title": "OSM Bridges Across Pennsylvania",
+    "title": "Pennsylvania Bridges from OSM",
     "section": "",
     "text": "This map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject."
   },
   {
     "objectID": "gallery/pennsylvania-bridge-map/index.html#task-objectives",
     "href": "gallery/pennsylvania-bridge-map/index.html#task-objectives",
-    "title": "OSM Bridges Across Pennsylvania",
+    "title": "Pennsylvania Bridges from OSM",
     "section": "",
     "text": "This map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject."
   },
   {
     "objectID": "gallery/pennsylvania-bridge-map/index.html#tools-workflow",
     "href": "gallery/pennsylvania-bridge-map/index.html#tools-workflow",
-    "title": "OSM Bridges Across Pennsylvania",
+    "title": "Pennsylvania Bridges from OSM",
     "section": "Tools & Workflow",
     "text": "Tools & Workflow\nMap creation was performed in R/Studio using theggplot package.\nOpenStreeMap data for both bridges and largest cities were accessed via the osmdata package.\nBlog post coming soon!"
   },
   {
     "objectID": "gallery/pennsylvania-bridge-map/index.html#final-result",
     "href": "gallery/pennsylvania-bridge-map/index.html#final-result",
-    "title": "OSM Bridges Across Pennsylvania",
+    "title": "Pennsylvania Bridges from OSM",
     "section": "Final Result",
     "text": "Final Result\nHere is the resulting map that shows locations (points in green) of all bridges in PA based on the OpenStreetMap database.\n\n\n\nCredit: Benjamin Tjepkes"
   },
@@ -791,7 +791,7 @@
     "href": "posts/30-day-map-challenge-2023/index.html#my-2023-contributions",
     "title": "30 Day Map Challenge - 2023",
     "section": "My 2023 Contributions",
-    "text": "My 2023 Contributions\nHere are my contributions to the challenge. Feel free to explore the details on each map product.\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\nCanadian Ecoregions Map\n\n\n\n\n\n\n\n\n\n\n\n\nTiger Range and Conservation Landscape Map\n\n\n\n\n\n\n\n\n\n\n\n\nHyaenidae Distribution Map for Africa\n\n\n\n\n\n\n\n\n\n\n\n\nPost-Secondary Institutions Hexmap\n\n\n\n\n\n\n\n\n\n\n\n\nMoose Sightings Across North America\n\n\n\n\n\n\n\n\n\n\n\n\nAndes Mountains Elevation Map\n\n\n\n\n\n\n\n\n\n\n\n\nForest & Happiness Bivariate Map\n\n\n\n\n\n\n\n\n\n\n\n\nOSM Bridges Across Pennsylvania\n\n\n\n\n\n\n\nNo matching items"
+    "text": "My 2023 Contributions\nHere are my contributions to the challenge. Feel free to explore the details on each map product.\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\nCanadian Ecoregions Map\n\n\n\n\n\n\n\n\n\n\n\n\nTiger Range and Conservation Landscapes\n\n\n\n\n\n\n\n\n\n\n\n\nHyaenidae Distribution Map for Africa\n\n\n\n\n\n\n\n\n\n\n\n\nPost-Secondary Institutions Hexmap\n\n\n\n\n\n\n\n\n\n\n\n\nMoose Sightings Across North America\n\n\n\n\n\n\n\n\n\n\n\n\nAndes Mountains Elevation Map\n\n\n\n\n\n\n\n\n\n\n\n\nForest & Happiness Bivariate Map\n\n\n\n\n\n\n\n\n\n\n\n\nPennsylvania Bridges from OSM\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/30-day-map-challenge-2023/index.html#tools-data-and-techniques",
