@@ -6,8 +6,9 @@ image-alt: "Image of Ben with an immobilized black bear at a den."
 keywords: about, about me
 author-meta: Benjamin Tjepkes
 date: 2023-11-14
+date-modified: today
 description-meta: "Learn about my career path and professional interests."
-abstract: "This page highlights my professional career path, including my 'pseudo-transition' from ecology to geospatial and my higher education journey."
+description: "This page highlights my professional career path, including my 'pseudo-transition' from ecology to geospatial and my higher education journey."
 listing:
   - id: site-listings
     contents:

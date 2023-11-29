@@ -144,15 +144,17 @@ body {
 
 
 h1 {
-  font-weight: 700;
+  font-weight: 900;
   opacity: 1.0 !important;
   font-size: clamp(2.2em, 5vw, 2.8em);
   padding-bottom: 0em;
-  /*text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);*/
+  line-height: 1.0em;
+  color: black !important;
 }
 
+.title {
+  margin-bottom: 15px !important;
+}
 
 h2 {
   color: #cf4446;
@@ -160,11 +162,12 @@ h2 {
 
 .description {
   color: gray;
+  line-height: 1.4em;
 }
 
 .subtitle {
   line-height: 1.2em;
-  font-size: clamp(1em, 4vw, 1.4em);
+  font-size: clamp(1.2em, 4vw, 1.5em);
   letter-spacing: 0.01em;
   color: teal;
 }
@@ -253,7 +256,7 @@ blockquote {
   letter-spacing: 0.04em;
   font-size: 1.60rem;
   color: #fbfbfc;
-  font-family: 'Segoe UI';
+  font-family: Oswald;
   }
 
 .navbar-logo {
@@ -402,67 +405,16 @@ blockquote {
 
 // HEADER
 
-
 .quarto-title-banner {
   background: none;
-  padding-top: 0;
-  padding-bottom: 0;
-  }
-
-
-.title-area {
-  
+  padding: 0 !important;
+  margin-bottom: 0 !important;
 }
 
-.image-cover-container {
-}
-
-.image-cover {
-  position: relative;
-  object-fit: cover;
-  width: 100%;
-  height: 190px;
-  overflow: hidden;
-  object-position: 80% 38%;
-}
-
-.header-content-container {
-}
-
-.post-meta {
-  display: flex;
-  flex-direction: column;
-  gap: 0em;
-  padding: 20px 0px;
-  max-width: 800px;
-  margin: auto;
-  border-radius: 20px;
-  font-size: 1.0em;
-  text-align: center;
-}
-
-.post-meta-meta {
-  display: flex;
-  flex-direction: row;
-  gap: 2.5em;
-  font-size: 0.9em;
-  text-align: center;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-/*#title-block-header {
-  margin-block-end: 0em;
-  color: white;
-  background: #051933;
-  padding-top: 0em;
-  padding-bottom: 2.0em;
-  padding-left: 1em;
-  padding-right: 1em;
-}*/
-
-.quarto-title .quarto-categories {
-    margin-top: 20px;
+#title-block-header {
+  background: url("assets/bg-dots.png");
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .keywords {
@@ -1025,6 +977,7 @@ margin-bottom: 0 !important;
   
     .description {
         margin-top: 10px;
+        margin-bottom: 10px;
     }
   
     .profile-image {

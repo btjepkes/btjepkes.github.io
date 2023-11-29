@@ -1,8 +1,9 @@
 ---
-title: "How Scientists Use GIS to Study Wildlife"
+title: "How Wildlife Scientists Use GIS"
 subtitle: "Exploring use cases of geospatial technologies in wildlife conservation."
 date: "3/26/2023"
-abstract: In this post, we explore the fascinating ways that geospatial technologies are being used in the realm of wildlife research; from tracking animal movements and habitat use to assessing the impact of disease.
+date-modified: today
+description: In this post, we explore the fascinating ways that geospatial technologies are being used in the realm of wildlife research; from tracking animal movements and habitat use to assessing the impact of disease.
 keywords: The Conservation Companion
 categories:
   - Wildlife

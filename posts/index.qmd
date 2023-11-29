@@ -2,12 +2,13 @@
 title: "My Blog Posts"
 subtitle: Writings on ecology, geospatial, and data science.
 date: 2023-11-01
+date-modified: today
 description-meta: "Blog Posts - Explore my writings on ecological and geospatial data science."
 citation: false
 toc: false
 image: ../assets/img-geo-data-science.jpeg
 image-alt: "Image-of-trees."
-abstract: "This page is the home to all my writings, which generally come in two flavors – technical and conservation writing. The former covers some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. The latter is more creative."
+description: "This page is the home to all my writings, which generally come in two flavors – technical and conservation writing. The former covers some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. The latter is more creative."
 listing:
   - id: main-posts
     contents: "*.qmd"
