@@ -71,7 +71,7 @@ $font-weight-bolder:          bolder !default;
 
 $font-weight-base:            $font-weight-normal !default;
 
-$line-height-base:            1.6 !default;
+$line-height-base:            1.8 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
@@ -105,12 +105,6 @@ $navbar-nav-link-padding-y:         .5rem !default;
 
 /*$navbar-brand-font-size:            $font-size-base * 1.50 !default;*/
 $navbar-brand-margin-end:           0px !default;
-
-$navbar-fg: rgba($white, 1.0);
-$navbar-bg: #051933 !default;
-
-$navbar-dark-hover-color:       rgba($white, 1) !default;
-$navbar-light-hover-color:      rgba($red, 1) !default;
 
 // Callouts
 
@@ -150,23 +144,29 @@ body {
 
 
 h1 {
+  font-weight: 700;
   opacity: 1.0 !important;
   font-size: clamp(2.2em, 5vw, 2.8em);
-  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  padding-bottom: 0em;
+  /*text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
+             0px 18px 23px rgba(0,0,0,0.1);*/
 }
 
+
 h2 {
-  color: #d73a49;
+  color: #cf4446;
+}
+
+.description {
+  color: gray;
 }
 
 .subtitle {
-  font-weight: 700;
   line-height: 1.2em;
   font-size: clamp(1em, 4vw, 1.4em);
   letter-spacing: 0.01em;
-  color: #d5f0f9;
+  color: teal;
 }
 
 
@@ -178,12 +178,12 @@ h2 {
   color: skyblue;
 }
 
-.abstract {
+/*.abstract {
   font-size: 1.0em;
   font-weight: 400;
   margin: auto;
   max-width: 900px;
-}
+}*/
 
 #toc-title {
   font-size: 1.1em;
@@ -198,7 +198,7 @@ code {
 }
 
 b, strong {
-  background: #35d29055;
+  background: #d4f6e7;
   padding-left: 3px;
   padding-right: 3px;
 }
@@ -241,13 +241,12 @@ blockquote {
 // Navbar
 
 .navbar {
-  box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
-	0px 6.4px 14.4px rgba(0,0,0,0.132);
+  /*box-shadow: 0px 1.2px 3.6px rgba(0,0,0,.108),0px 6.4px 14.4px rgba(0,0,0,.132);*/
 	padding-left: 0 !important;
 	padding-right: 0 !important;
-	border-bottom: solid 4px #35d290;
+	border-bottom: solid 0px #35d290;
 	background: #051933;
-}
+  }
 
 .navbar-brand span {
   font-weight: 600 !important;
@@ -255,14 +254,14 @@ blockquote {
   font-size: 1.60rem;
   color: #fbfbfc;
   font-family: 'Segoe UI';
-}
+  }
 
 .navbar-logo {
   padding: 1px;
   margin: 10px;
   max-height: 40px;
   border: solid 1px white;
-}
+  }
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
 --bs-gutter-x: 0rem;
@@ -332,6 +331,7 @@ blockquote {
 
 // SIDEBAR
 
+
 @media (max-width: 991.98px) {
   
   .quarto-page-breadcrumbs {
@@ -381,7 +381,7 @@ blockquote {
 @media (max-width: 991.98px) {
   nav.quarto-secondary-nav {
     border-bottom: 0;
-    height: 42px;
+    border-top: solid 4px #35d290;
     background: white;
     box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
@@ -403,8 +403,15 @@ blockquote {
 // HEADER
 
 
+.quarto-title-banner {
+  background: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  }
+
+
 .title-area {
-  text-align: center;
+  
 }
 
 .image-cover-container {
@@ -444,30 +451,22 @@ blockquote {
   justify-content: space-evenly;
 }
 
-#title-block-header {
+/*#title-block-header {
   margin-block-end: 0em;
-  text-align: center;
   color: white;
-  box-shadow: 0px 1.2px 3.6px rgba(0,0,0,.108),0px 6.4px 14.4px rgba(0,0,0,.132);
-  background-image: linear-gradient(170deg, #051933, rgb(64, 115, 94), #051933),url("assets/bg-dots.png");
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-position: center center;
-  background-repeat: no-repeat;
-  color: white !important;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding-top: 2.5em;
+  background: #051933;
+  padding-top: 0em;
   padding-bottom: 2.0em;
   padding-left: 1em;
   padding-right: 1em;
-}
+}*/
 
 .quarto-title .quarto-categories {
     margin-top: 20px;
+}
+
+.keywords {
+  display: none;
 }
 
 
@@ -523,7 +522,7 @@ blockquote {
 
 // LISTINGS
 
-/*
+
 .quarto-listing-filter {
   margin-bottom: 2em;
   width: 49.5%;
@@ -536,6 +535,7 @@ blockquote {
   margin-right: auto;
 }
 
+/*
 .quarto-grid-item .listing-categories {
   display: flex;
   flex-wrap: wrap;
@@ -553,7 +553,7 @@ blockquote {
   flex-direction: column;*/
 }
 
-/*
+
     @media (max-width: 700px) {
       .quarto-grid-item {
         flex-direction: column;
@@ -576,9 +576,6 @@ blockquote {
     overflow-clip-margin: unset;
     overflow: hidden;
 }
-
-
-*/
 
 
 .listings-gallery .grid {
@@ -818,7 +815,7 @@ div.quarto-post .metadata {
   padding-top: 0.5em;
   padding-bottom: 0em;
   color: white;
-  background: linear-gradient(to bottom, #0d294d, #051933);
+  background: #051933;
 }
 
 .nav-footer a {

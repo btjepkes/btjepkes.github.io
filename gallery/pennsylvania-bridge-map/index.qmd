@@ -2,13 +2,14 @@
 title: "OSM Bridges Across Pennsylvania"
 subtitle: "Mapping the locations of bridges from OpenSteetMap across Pennsylvania."
 date: 11/15/2023
+date-modified: today
 categories:
   - OpenStreetMap
   - Pennsylvania
   - Map Gallery
 keywords:
   - "#30DayMapChallenge2023"
-abstract: This point map was created in RStudio and shows the locations of all bridges in the state of Pennsylvania according to the OpenStreetMap API.
+description: This point map was created in RStudio and shows the locations of all bridges in the state of Pennsylvania according to the OpenStreetMap API.
 image: img-PA-bridge-map-thumb.png
 image-alt: "A point map showing the locations of all bridges in Pennsylvania."
 # aliases:

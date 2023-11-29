@@ -53,7 +53,6 @@ website:
   sidebar:
     - title: "Main Nav"
       style: floating
-      background: "#e8e8e8"
       pinned: true
       collapse-level: 2
       contents: 
@@ -62,22 +61,20 @@ website:
           text: "Home"
           icon: house-fill
           contents: 
-            - section: Overview
-              icon: 1-square
-              contents: 
-                - href: about/index.qmd
-                - href: curriculum-vitae/index.qmd
-                - href: contact.qmd
-            - section: Projects
-              icon: 2-square
-              contents:
-                - posts/index.qmd
-                - gallery/index.qmd
-                - research/index.qmd
-            - section: Resources
-              icon: 3-square
-              contents:
-                - resources/index.qmd
+            - icon: 1-square
+              href: about/index.qmd
+            - icon: 2-square
+              href: curriculum-vitae/index.qmd
+            - icon: 3-square
+              href: posts/index.qmd
+            - icon: 4-square
+              href: gallery/index.qmd
+            - icon: 5-square
+              href: research/index.qmd
+            - icon: 6-square
+              href: resources/index.qmd
+            - icon: 7-square
+              href: contact.qmd
 
   page-footer:
     center: >-
@@ -103,12 +100,12 @@ execute:
 
 format:
   html:
-    author:
-      - name: Benjamin Tjepkes  
-        # url: //about/index.qmd
-        orcid: 0009-0002-5524-2675
-    template-partials:
-      - title-block.html
+    # author:
+    #   - name: Benjamin Tjepkes  
+    #     # url: //about/index.qmd
+    #     orcid: 0009-0002-5524-2675
+    # template-partials:
+    #   - title-block.html
     theme: custom.scss
     abstract-title: "What Is This About?"
     toc: true
@@ -116,7 +113,7 @@ format:
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
-    title-block-banner: true
+    title-block-banner: false
     title-block-categories: true
     anchor-sections: false
     highlight-style: github
@@ -125,7 +122,8 @@ format:
     code-overflow: scroll
     grid:
       sidebar-width: 250px
-      body-width: 950px
+      body-width: 900px
+      gutter-width: 30px
     filters: 
       - lightbox
     lightbox: auto

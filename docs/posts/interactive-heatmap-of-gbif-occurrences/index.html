@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Benjamin Tjepkes">
 <meta name="dcterms.date" content="2023-05-05">
 
 <title>Interactive Heatmap of GBIF Occurrences | B.W. Tjepkes</title>
@@ -221,31 +220,7 @@ cookieconsent.run({
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header">
-
-  <div class="title-area">
-    <h1 class="title">Interactive Heatmap of GBIF Occurrences</h1>
-    <p class="subtitle">Exploring concentrations of Greater sage grouse records in Wyoming.</p>
-  </div>
-    
-  <div class="header-content-container">  
-  <div class="post-meta">
-    
-    <div class="post-meta-meta">
-      
-                  <p class="author">Created by:<br>Benjamin Tjepkes</p>
-                
-                  <p class="date">Last updated:<br>May 5, 2023</p>
-            </div>
-    
-          <div class="abstract">
-        In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap.
-      </div>
-        
-  </div>
-  
-  </div>
-</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -268,84 +243,55 @@ cookieconsent.run({
           </a> 
       </div>
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false"><i class="bi bi-1-square" role="img">
-</i> 
- <span class="menu-text">Overview</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../about/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../about/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-1-square" role="img">
+</i> 
  <span class="menu-text">About Me</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../curriculum-vitae/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../curriculum-vitae/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-2-square" role="img">
+</i> 
  <span class="menu-text">Curriculum vitae</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../contact.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Links &amp; Contact</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false"><i class="bi bi-2-square" role="img">
+  <a href="../../posts/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-3-square" role="img">
 </i> 
- <span class="menu-text">Projects</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../posts/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">My Blog Posts</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../gallery/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../gallery/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-4-square" role="img">
+</i> 
  <span class="menu-text">My Gallery</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../research/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../research/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-5-square" role="img">
+</i> 
  <span class="menu-text">My Research</span></a>
   </div>
 </li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false"><i class="bi bi-3-square" role="img">
-</i> 
- <span class="menu-text">Resources</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../resources/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../resources/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-6-square" role="img">
+</i> 
  <span class="menu-text">Helpful Resources</span></a>
   </div>
 </li>
-      </ul>
-  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../contact.html" class="sidebar-item-text sidebar-link"><i class="bi bi-7-square" role="img">
+</i> 
+ <span class="menu-text">Links &amp; Contact</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -374,9 +320,43 @@ cookieconsent.run({
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Interactive Heatmap of GBIF Occurrences</h1>
+<p class="subtitle lead">Exploring concentrations of Greater sage grouse records in Wyoming.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Wildlife</div>
+    <div class="quarto-category">Cartography</div>
+  </div>
+  </div>
 
 
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 5, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">What Is This About?</div>
+    In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap.
+  </div>
+</div>
+
+
+</header>
 
 
 <section id="background" class="level2">
@@ -386,7 +366,7 @@ cookieconsent.run({
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
 <figcaption>Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
 </figure>
 </div>
@@ -457,9 +437,9 @@ cookieconsent.run({
 </section>
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Tjepkes, Benjamin. 2023. <span>“Interactive Heatmap of GBIF
-Occurrences.”</span> May 5, 2023. <a href="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences">https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences</a>.
+<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+<span>“Interactive Heatmap of GBIF Occurrences.”</span> 2023. May 5,
+2023. <a href="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences">https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -912,7 +892,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom","selector":".lightbox"});</script>
+<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","selector":".lightbox"});</script>
 
 
 
