@@ -91,8 +91,6 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
-
-
 <meta property="og:title" content="Brownian Bridge Movement Models in R | B.W. Tjepkes">
 <meta property="og:description" content="In this blog post, we explore Brownian Bridge Movement Models using R.">
 <meta property="og:image" content="https://btjepkes.github.io/posts/brownian-bridge-movement-models-in-r/bg-pine-blue.jpg">
@@ -102,9 +100,28 @@ cookieconsent.run({
 <meta name="twitter:image" content="https://btjepkes.github.io/posts/brownian-bridge-movement-models-in-r/bg-pine-blue.jpg">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<body class="nav-sidebar floating nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">

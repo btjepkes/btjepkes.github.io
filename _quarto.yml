@@ -28,7 +28,7 @@ website:
     version: 4
   navbar:
     logo: "assets/logo-051933.png"
-    pinned: false
+    pinned: true
     right:
       - icon: house-fill
         href: index.html
@@ -110,6 +110,7 @@ format:
     abstract-title: "What Is This About?"
     toc: true
     toc-title: "On This Page:"
+    toc-location: right
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
@@ -127,5 +128,7 @@ format:
     filters: 
       - lightbox
     lightbox: auto
+    include-in-header: 
+      - progress-bar.html
     
     

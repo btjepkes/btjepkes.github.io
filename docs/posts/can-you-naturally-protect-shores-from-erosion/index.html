@@ -93,8 +93,6 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
-
-
 <meta property="og:title" content="Naturally Protect Shores From Erosion | B.W. Tjepkes">
 <meta property="og:description" content="In this blog post, we will explore the causes of shoreline erosion and discuss some effective ways to prevent it. By understanding this issue and taking action, we can protect our waterfront properties and preserve the natural integrity of the surrounding ecosystem.">
 <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934">
@@ -106,9 +104,28 @@ cookieconsent.run({
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:image:alt" content="Image looking across a lake with plants in the foreground.">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<body class="nav-sidebar floating nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">

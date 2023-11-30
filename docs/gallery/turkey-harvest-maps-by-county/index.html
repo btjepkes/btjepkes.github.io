@@ -95,8 +95,6 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
-
-
 <meta property="og:title" content="County-Based Turkey Harvest Maps | B.W. Tjepkes">
 <meta property="og:description" content="These maps were produced as public-facing visualizations for presentations by the Turkey and Grouse Program with the Missouri Department of Conservation. They show turkey harvest density within each Missouri county for the fall 2021 and spring 2022 seasons.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/turkey-harvest-maps-by-county/img-turkey-harvest-maps-thumb.png">
@@ -112,9 +110,28 @@ cookieconsent.run({
 <meta name="twitter:image-width" content="700">
 <meta name="twitter:image:alt" content="Two maps side by side of fall and spring turkey harvest.">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<body class="nav-sidebar floating nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -323,7 +340,7 @@ cookieconsent.run({
 <h2 data-anchor-id="the-result">The Result</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-turkey-harvest-maps.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Turkey harvest maps. Credit: Ben Tjepkes"><img src="img-turkey-harvest-maps.png" class="img-fluid figure-img" alt="Turkey harvest maps. Credit: Ben Tjepkes"></a></p>
+<p><a href="img-turkey-harvest-maps.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Turkey harvest maps. Credit: Ben Tjepkes"><img src="img-turkey-harvest-maps.png" class="img-fluid figure-img" alt="Turkey harvest maps. Credit: Ben Tjepkes"></a></p>
 <figcaption>Turkey harvest maps. Credit: Ben Tjepkes</figcaption>
 </figure>
 </div>
@@ -783,7 +800,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","loop":false,"closeEffect":"zoom"});</script>
 
 
 

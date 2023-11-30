@@ -126,8 +126,6 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
-
-
 <meta property="og:title" content="Mapping Unfragmented Forests in R | B.W. Tjepkes">
 <meta property="og:description" content="In this post, we will demonstrate how to visualize expansive amounts of geographic data using R. We will use example data from Global Forest Watch, which focuses on North America’s landscapes that have intact forests large enough to preserve all native biodiversity.">
 <meta property="og:image" content="https://content.globalforestwatch.org/wp-content/uploads/2023/05/model_output_4km_aggregation_tcd30_model_v1.2.3_20230407_for_pres_with_legend__net_flux-2048x968.jpg">
@@ -137,9 +135,28 @@ cookieconsent.run({
 <meta name="twitter:image" content="https://content.globalforestwatch.org/wp-content/uploads/2023/05/model_output_4km_aggregation_tcd30_model_v1.2.3_20230407_for_pres_with_legend__net_flux-2048x968.jpg">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<body class="nav-sidebar floating nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">

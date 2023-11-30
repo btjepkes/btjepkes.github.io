@@ -95,8 +95,6 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
-
-
 <meta property="og:title" content="Links &amp; Contact | B.W. Tjepkes">
 <meta property="og:description" content="This page provides links for all my social profiles and a contact form.">
 <meta property="og:image" content="https://btjepkes.github.io/assets/bg-color-rivers.jpg">
@@ -108,9 +106,28 @@ cookieconsent.run({
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:image:alt" content="Image-of-pine-trees-on-blue-background.">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<body class="nav-sidebar floating nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">

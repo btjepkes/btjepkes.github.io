@@ -95,8 +95,6 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
-
-
 <meta property="og:title" content="Poster on Bald Eagle Nest Selection Research | B.W. Tjepkes">
 <meta property="og:description" content="This poster provides an overview of my research on bald eagle nest-site selection for the Upper Mississippi River population. This poster was presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/bald-eagle-nest-selection-poster/img-eagle-poster-thumb.jpg">
@@ -108,9 +106,28 @@ cookieconsent.run({
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:image:alt" content="Poster detailing bald eagle nest monitoring research.">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<body class="nav-sidebar floating nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -781,7 +798,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":false});</script>
+<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});</script>
 
 
 

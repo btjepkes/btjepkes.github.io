@@ -129,8 +129,6 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
-
-
 <meta property="og:title" content="Weekly Work Commitments Calendar | B.W. Tjepkes">
 <meta property="og:description" content="This visualization shows the distribution of my work weeks in 2021 as reported on my timesheet. Production was completed in RStudio following an elequent code example from Tanya Shapiro.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/work-commitments-calendar/img-calendar.jpeg">
@@ -142,9 +140,28 @@ cookieconsent.run({
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:image:alt" content="A calendar displaying work commitments for 2021, highlighting important dates and events.">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<body class="nav-sidebar floating nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -346,7 +363,7 @@ cookieconsent.run({
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-calendar.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Credit: Benjamin Tjepkes"><img src="img-calendar.jpeg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-calendar.jpeg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-calendar.jpeg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -960,7 +977,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","loop":false,"selector":".lightbox"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});</script>
 
 
 

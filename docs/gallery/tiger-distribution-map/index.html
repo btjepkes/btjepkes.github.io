@@ -131,8 +131,6 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
-
-
 <meta property="og:title" content="Tiger Range and Conservation Landscapes | B.W. Tjepkes">
 <meta property="og:description" content="This map provides a continental look at the current and past spatial distribution of tigers. Related but of special focus, the Tiger Conservation Landscapes (TCLs) are also visualized.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/tiger-distribution-map/img-tiger-range-map.png">
@@ -148,9 +146,28 @@ cookieconsent.run({
 <meta name="twitter:image-width" content="3200">
 <meta name="twitter:image:alt" content="A map of Asia showing the current and historical range of tigers.">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<body class="nav-sidebar floating nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -253,7 +270,7 @@ cookieconsent.run({
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">November 29, 2023</p>
+        <p class="date-modified">November 30, 2023</p>
       </div>
     </div>
       
@@ -386,7 +403,7 @@ cookieconsent.run({
 <p>Here is the resulting map showing the three classes of distribution and proportional symbols indicating the current TCL sizes across Asia.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-tiger-range-map.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-tiger-range-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-tiger-range-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Credit: Benjamin Tjepkes"><img src="img-tiger-range-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -846,7 +863,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"selector":".lightbox","openEffect":"zoom","descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom"});</script>
 
 
 

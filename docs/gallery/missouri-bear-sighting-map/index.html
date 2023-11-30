@@ -95,8 +95,6 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
-
-
 <meta property="og:title" content="Choropleth of Missouri Bear Sightings | B.W. Tjepkes">
 <meta property="og:description" content="This choropleth map was created as a public-facing visualization to show the number of black bear sightings in each Missouri county during 2020. It was featured in the February 2021 issue of the Missouri Conservationist for an article about Missouri’s black bear population.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/missouri-bear-sighting-map/img-map-5.jpg">
@@ -108,9 +106,28 @@ cookieconsent.run({
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:image:alt" content="Cholorpleth map showing the number of sightings per Missouri county.">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<body class="nav-sidebar floating nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -317,13 +334,13 @@ cookieconsent.run({
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <figure class="figure">
-<p><a href="img-map-5.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Map Credit: Benjamin Tjepkes"><img src="img-map-5.jpg" class="img-fluid figure-img" alt="Map Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-map-5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Map Credit: Benjamin Tjepkes"><img src="img-map-5.jpg" class="img-fluid figure-img" alt="Map Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Map Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <figure class="figure">
-<p><a href="img-moconservationist.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Credit: Missouri Department of Conservation"><img src="img-moconservationist.jpg" class="img-fluid figure-img" alt="Credit: Missouri Department of Conservation"></a></p>
+<p><a href="img-moconservationist.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Credit: Missouri Department of Conservation"><img src="img-moconservationist.jpg" class="img-fluid figure-img" alt="Credit: Missouri Department of Conservation"></a></p>
 <figcaption>Credit: Missouri Department of Conservation</figcaption>
 </figure>
 </div>
@@ -788,7 +805,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom"});</script>
 
 
 

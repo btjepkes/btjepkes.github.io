@@ -96,8 +96,6 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
-
-
 <meta property="og:title" content="Overlaying Public Lands with BMZs | B.W. Tjepkes">
 <meta property="og:description" content="This overlay map was created for the Missouri Black Bear Program to present during public talks on bear hunting across the three designated Bear Management Zones, indicating where public hunting lands are located.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/overlaying-public-lands-with-bmzs/img-map-6.jpg">
@@ -109,9 +107,28 @@ cookieconsent.run({
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:image:alt" content="Map showing bear management zones.">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<body class="nav-sidebar floating nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -320,7 +337,7 @@ cookieconsent.run({
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-map-6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Map Credit: Benjamin Tjepkes"><img src="img-map-6.jpg" class="img-fluid figure-img" alt="Map Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-map-6.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Map Credit: Benjamin Tjepkes"><img src="img-map-6.jpg" class="img-fluid figure-img" alt="Map Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Map Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -333,13 +350,13 @@ cookieconsent.run({
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <figure class="figure">
-<p><a href="img-map-7.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Variation 1. Map Credit: Benjamin Tjepkes"><img src="img-map-7.jpg" class="img-fluid figure-img" alt="Variation 1. Map Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-map-7.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Variation 1. Map Credit: Benjamin Tjepkes"><img src="img-map-7.jpg" class="img-fluid figure-img" alt="Variation 1. Map Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Variation 1. Map Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <figure class="figure">
-<p><a href="img-map-8.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-description="" title="Variation 2. Map Credit: Benjamin Tjepkes"><img src="img-map-8.jpg" class="img-fluid figure-img" alt="Variation 2. Map Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-map-8.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-3" title="Variation 2. Map Credit: Benjamin Tjepkes"><img src="img-map-8.jpg" class="img-fluid figure-img" alt="Variation 2. Map Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Variation 2. Map Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -805,7 +822,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom"});</script>
 
 
 

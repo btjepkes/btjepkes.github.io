@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-11-29">
+<meta name="dcterms.date" content="2023-11-30">
 
 <title>A Visual Exploration of Champion Trees | B.W. Tjepkes</title>
 <style>
@@ -95,8 +95,6 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
-
-
 <meta property="og:title" content="A Visual Exploration of Champion Trees | B.W. Tjepkes">
 <meta property="og:description" content="In this post, we start exploring our towering timber giants apart of the National Champion Trees Program as designated by American Forests.">
 <meta property="og:image" content="https://btjepkes.github.io/assets/bg-pine-blue.jpg">
@@ -106,9 +104,28 @@ cookieconsent.run({
 <meta name="twitter:image" content="https://btjepkes.github.io/assets/bg-pine-blue.jpg">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<body class="nav-sidebar floating nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -199,7 +216,7 @@ cookieconsent.run({
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">November 29, 2023</p>
+        <p class="date">November 30, 2023</p>
       </div>
     </div>
     
@@ -321,7 +338,7 @@ cookieconsent.run({
 <p>The map below displays the locations of each of the champion trees on the register. As noted, there are <strong>over 500 individuals</strong> on this list. Details on this map can be found <a href="../../gallery/national-champion-tree-map/index.html">here</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../gallery/national-champion-tree-map/img-national-champion-trees.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes"><img src="../../gallery/national-champion-tree-map/img-national-champion-trees.png" class="img-fluid figure-img" alt="Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes"></a></p>
+<p><a href="../../gallery/national-champion-tree-map/img-national-champion-trees.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes"><img src="../../gallery/national-champion-tree-map/img-national-champion-trees.png" class="img-fluid figure-img" alt="Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -344,7 +361,7 @@ cookieconsent.run({
 
 <div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2023" class="csl-entry quarto-appendix-citeas" role="listitem">
 <span>“A Visual Exploration of Champion Trees.”</span> 2023. November
-29, 2023. <a href="https://btjepkes.github.io/posts/a-visual-exploration-of-national-champion-trees">https://btjepkes.github.io/posts/a-visual-exploration-of-national-champion-trees</a>.
+30, 2023. <a href="https://btjepkes.github.io/posts/a-visual-exploration-of-national-champion-trees">https://btjepkes.github.io/posts/a-visual-exploration-of-national-champion-trees</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -797,7 +814,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false});</script>
+<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","descPosition":"bottom"});</script>
 
 
 

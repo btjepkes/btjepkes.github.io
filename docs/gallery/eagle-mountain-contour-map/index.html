@@ -96,8 +96,6 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
-
-
 <meta property="og:title" content="Eagle Mountain Contour Map | B.W. Tjepkes">
 <meta property="og:description" content="This map provides a topographical view of Eagle Mountain, which is Minnesota’s highest point. Contours and hydological features are represented in this simple map.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/eagle-mountain-contour-map/img-eagle-mtn-map.png">
@@ -113,9 +111,28 @@ cookieconsent.run({
 <meta name="twitter:image-width" content="3000">
 <meta name="twitter:image:alt" content="A contour map showing Eagle Mountain and the surrounding topography and hydrological features.">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<body class="nav-sidebar floating nav-fixed">
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script>
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -338,7 +355,7 @@ cookieconsent.run({
 <p>Here is the final map showing the location of Eagle Mountain surrounded by nearby lakes and the elevation contour lines.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-eagle-mtn-map.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-eagle-mtn-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-eagle-mtn-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Credit: Benjamin Tjepkes"><img src="img-eagle-mtn-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -799,7 +816,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});</script>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox"});</script>
 
 
 

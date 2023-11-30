@@ -83,8 +83,6 @@ cookieconsent.run({
   });
 });
 </script><style>html{ scroll-behavior: smooth; }</style>
-<script src="../site_libs/core-js-2.5.3/shim.min.js"></script><script src="../site_libs/react-18.2.0/react.min.js"></script><script src="../site_libs/react-18.2.0/react-dom.min.js"></script><script src="../site_libs/reactwidget-1.0.0/react-tools.js"></script><script src="../site_libs/htmlwidgets-1.6.3/htmlwidgets.js"></script><link href="../site_libs/reactable-0.4.4/reactable.css" rel="stylesheet">
-<script src="../site_libs/reactable-binding-0.4.4/reactable.js"></script>
 <meta property="og:title" content="Helpful Resources | B.W. Tjepkes">
 <meta property="og:description" content="This page contains a repository of technical tutorials, personal blogs, eBooks, and other websites that I find myself consistently referring back to for my technical works.">
 <meta property="og:image" content="https://btjepkes.github.io/assets/img-world-overview.png">
@@ -102,8 +100,24 @@ cookieconsent.run({
 <meta name="twitter:card" content="summary_large_image">
 </head>
 <body class="nav-sidebar floating nav-fixed">
+<div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
 
-<div id="quarto-search-results"></div>
+<script id="progressbar" type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const bar = document.querySelector('#progress-bar');
+    const post = document.querySelector('#quarto-content');
+    const html = document.documentElement;
+    
+    const height = post.scrollHeight + post.offsetTop;
+    
+    window.addEventListener('scroll', () => {
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+    });
+});
+</script><script src="../site_libs/core-js-2.5.3/shim.min.js"></script><script src="../site_libs/react-18.2.0/react.min.js"></script><script src="../site_libs/react-18.2.0/react-dom.min.js"></script><script src="../site_libs/reactwidget-1.0.0/react-tools.js"></script><script src="../site_libs/htmlwidgets-1.6.3/htmlwidgets.js"></script><link href="../site_libs/reactable-0.4.4/reactable.css" rel="stylesheet">
+<script src="../site_libs/reactable-binding-0.4.4/reactable.js"></script><div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
@@ -195,7 +209,7 @@ cookieconsent.run({
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">November 29, 2023</p>
+        <p class="date-modified">November 30, 2023</p>
       </div>
     </div>
       
