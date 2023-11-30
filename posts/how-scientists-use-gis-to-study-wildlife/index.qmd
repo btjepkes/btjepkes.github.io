@@ -1,5 +1,5 @@
 ---
-title: "How Wildlife Scientists Use GIS"
+title: "How Scientists Use GIS to Study Wildlife"
 subtitle: "Exploring use cases of geospatial technologies in wildlife conservation."
 date: "3/26/2023"
 date-modified: today
