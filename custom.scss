@@ -146,10 +146,11 @@ body {
 
 h1 {
   font-weight: 900;
-  font-size: clamp(1.7em, 5vw, 2.4em);
+  font-size: clamp(1.99em, 5vw, 2.9em);
   padding-bottom: 0em;
   line-height: 1.1em;
   color: black !important;
+  font-family: Oswald;
 }
 
 .title {
@@ -413,8 +414,10 @@ blockquote {
 #title-block-header {
   padding-bottom: 40px;
   padding-top: 40px;
-  box-shadow: inset 0px 0px 300px 10px rgba(0, 0, 0, .2);
+  box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, .03);
   margin-block-end: 0;
+  background: white;
+  border-bottom: solid 2px #e8e8e8;
 }
 
 .keywords {
@@ -516,6 +519,11 @@ blockquote {
   font-weight: 700;
   margin-bottom: 10px;
   color: $black;
+}
+
+.quarto-grid-item .card-subtitle {
+  line-height: 1.3;
+  color: gray;
 }
 
 .quarto-grid-item p.card-img-top {

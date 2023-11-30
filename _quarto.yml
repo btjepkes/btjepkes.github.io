@@ -54,6 +54,7 @@ website:
     - title: "Main Nav"
       style: floating
       pinned: true
+      background: "#e8e6df"
       collapse-level: 2
       contents: 
         - text: Site Navigation
@@ -123,8 +124,8 @@ format:
     code-overflow: scroll
     grid:
       sidebar-width: 250px
-      body-width: 900px
-      gutter-width: 30px
+      body-width: 960px
+      gutter-width: 4%
     filters: 
       - lightbox
     lightbox: auto
