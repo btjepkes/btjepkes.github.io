@@ -15,6 +15,7 @@ page-navigation: false
 format:
   html:
     css: index.css
+    page-layout: full
 listing:
   - id: site-listings-1
     contents:
@@ -42,17 +43,17 @@ listing:
       - image
 ---
 
-## My Brief Bio
+<!-- ## My Brief Bio -->
 
-I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. *Below are some of my recent professional activities.*
+<!-- I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. *Below are some of my recent professional activities.* -->
 
-- **Nov 2023** -- I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd).
+<!-- - **Nov 2023** -- I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd). -->
 
-- **Sep 2023** -- I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.
+<!-- - **Sep 2023** -- I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science. -->
 
-- **Aug 2023** -- I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!
+<!-- - **Aug 2023** -- I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon! -->
 
-- **July 2023** -- One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest.
+<!-- - **July 2023** -- One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. -->
 
 ```{r}
 #| tbl-colwidths: [20,80]
