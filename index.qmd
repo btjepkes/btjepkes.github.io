@@ -1,7 +1,7 @@
 ---
-title: "Welcome to the Portfolio of B.W. Tjepkes"
+title: "Portfolio of B.W. Tjepkes"
 subtitle: "Integrating ecology and geospatial science for nature conservation."
-description: "My name is Ben Tjepkes and I am a wildlife ecologist and budding geographer. This site provides an overview of my career experience and a showcase of my technical writings and visualizations."
+description: "My name is Ben Tjepkes and I am a wildlife ecologist and budding geographer. This site provides an overview of my career and a showcase of my technical writings and visualizations."
 # author: Benjamin Tjepkes
 date: 11/14/2023
 date-modified: today
