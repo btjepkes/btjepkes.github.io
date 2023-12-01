@@ -1,5 +1,5 @@
 ---
-title: "30 Day Map Challenge - 2023"
+title: "#30DayMapChallenge - 2023 Contributions"
 subtitle: "Reviewing my contributions and learning outcomes for 2023."
 date: "11/01/2023"
 date-modified: today

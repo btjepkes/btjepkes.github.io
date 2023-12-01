@@ -153,7 +153,7 @@ cookieconsent.run({
 <meta name="twitter:card" content="summary_large_image">
 </head>
 <body class="nav-sidebar floating nav-fixed">
-<div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 60px; z-index: 2000;"></div>
+<div id="progress-bar" style="width: 0%; height:2px; background-color: #2b8aff;; position: fixed; top: 60px; z-index: 2000;"></div>
 
 <script id="progressbar" type="text/javascript">
 
@@ -169,7 +169,23 @@ document.addEventListener("DOMContentLoaded", function() {
         bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
     });
 });
-</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><link rel="stylesheet" href="index.css">
+</script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banner Page</title>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            width: 100%;
+            height: 300px;
+            display: block;
+            object-fit: cover;
+        }
+    </style>
+<img src="https://btjepkes.github.io/assets/bg-color-rivers.jpg" alt="Banner Image"><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><link rel="stylesheet" href="index.css">
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -236,40 +252,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav></header><!-- content --><header id="title-block-header" class="quarto-title-block default page-columns page-full"><div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Portfolio of B.W. Tjepkes</h1>
-            <p class="subtitle lead">Integrating ecology and geospatial science for nature conservation.</p>
-                  <div>
-        <div class="description">
-          My name is Ben Tjepkes and I am a wildlife ecologist and budding geographer. This site provides an overview of my career and a showcase of my technical writings and visualizations.
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">November 14, 2023</p>
-      </div>
-    </div>
-    
-      <div>
-      <div class="quarto-title-meta-heading">Modified</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">November 30, 2023</p>
-      </div>
-    </div>
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -354,11 +337,44 @@ document.addEventListener("DOMContentLoaded", function() {
   </ul></nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content"><!-- ## My Brief Bio --><!-- I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. *Below are some of my recent professional activities.* --><!-- - **Nov 2023** -- I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd). --><!-- - **Sep 2023** -- I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science. --><!-- - **Aug 2023** -- I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon! --><!-- - **July 2023** -- One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. --><!-- |                |                                                                                                                                                                                                                                                                | --><!-- |:----------------------:|------------------------------------------------| --><!-- |  **Nov 2023**  | I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd).                                                                                                           | --><!-- | **Sept 2023**  | I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.                                                                                                                        | --><!-- |  **Aug 2023**  | I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!                                                                                                 | --><!-- | **July 2023**  | One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. | --><!-- | **April 2023** | I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.                                                                                    | --><!-- : {tbl-colwidths="\[20,80\]"} --><section id="exploring-my-work" class="level2"><h2 data-anchor-id="exploring-my-work">Exploring My Work</h2>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Portfolio of B.W. Tjepkes</h1>
+<p class="subtitle lead">Integrating ecology and geospatial science for nature conservation.</p>
+</div>
+
+<div>
+  <div class="description">
+    My name is Ben Tjepkes and I am a wildlife ecologist and budding geographer. This site provides an overview of my career and a showcase of my technical writings and visualizations.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 14, 2023</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">December 1, 2023</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header><!-- ## My Brief Bio --><!-- I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. *Below are some of my recent professional activities.* --><!-- - **Nov 2023** -- I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd). --><!-- - **Sep 2023** -- I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science. --><!-- - **Aug 2023** -- I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon! --><!-- - **July 2023** -- One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. --><!-- |                |                                                                                                                                                                                                                                                                | --><!-- |:----------------------:|------------------------------------------------| --><!-- |  **Nov 2023**  | I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd).                                                                                                           | --><!-- | **Sept 2023**  | I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.                                                                                                                        | --><!-- |  **Aug 2023**  | I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!                                                                                                 | --><!-- | **July 2023**  | One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. | --><!-- | **April 2023** | I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.                                                                                    | --><!-- : {tbl-colwidths="\[20,80\]"} --><section id="exploring-my-work" class="level2"><h2 data-anchor-id="exploring-my-work">Exploring My Work</h2>
 <p>This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery. Feel free to also check out more about me, my full curriculum vitae, and some helpful resources.</p>
 <div id="listing-site-listings-1" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1699941600000" data-listing-file-modified-sort="1701219006527" data-listing-date-modified-sort="1701324000000" data-listing-reading-time-sort="3" data-listing-word-count-sort="403">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1699941600000" data-listing-file-modified-sort="1701219006527" data-listing-date-modified-sort="1701410400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="403">
 <a href="./about/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -374,7 +390,7 @@ Learn about my career path and professional interests.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1698642000000" data-listing-file-modified-sort="1701216522145" data-listing-date-modified-sort="1701324000000" data-listing-reading-time-sort="7" data-listing-word-count-sort="1243">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1698642000000" data-listing-file-modified-sort="1701216522145" data-listing-date-modified-sort="1701410400000" data-listing-reading-time-sort="7" data-listing-word-count-sort="1243">
 <a href="./curriculum-vitae/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -413,7 +429,7 @@ No matching items
 </div>
 <div id="listing-site-listings-2" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1701270389011" data-listing-date-modified-sort="1701324000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1701270389011" data-listing-date-modified-sort="1701410400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <a href="./posts/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -429,7 +445,7 @@ Writings on ecology, geospatial, and data science.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1699941600000" data-listing-file-modified-sort="1701264692736" data-listing-date-modified-sort="1701324000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1699941600000" data-listing-file-modified-sort="1701264692736" data-listing-date-modified-sort="1701410400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
 <a href="./gallery/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -445,7 +461,7 @@ Maps, visualizations, reports, posters, and presentations.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1700460000000" data-listing-file-modified-sort="1701265621197" data-listing-date-modified-sort="1701324000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1700460000000" data-listing-file-modified-sort="1701265621197" data-listing-date-modified-sort="1701410400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./research/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">

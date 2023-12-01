@@ -115,7 +115,7 @@ format:
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
-    title-block-banner: true
+    title-block-banner: false
     title-block-categories: false
     anchor-sections: false
     highlight-style: github
@@ -124,11 +124,13 @@ format:
     code-overflow: scroll
     grid:
       sidebar-width: 250px
-      body-width: 960px
+      body-width: 1050px
+      gutter-width: 6%
     filters: 
       - lightbox
     lightbox: auto
     include-in-header: 
       - progress-bar.html
+      - header-banner.rhtml
     
     
