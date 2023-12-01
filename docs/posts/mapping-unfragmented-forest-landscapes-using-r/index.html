@@ -135,7 +135,7 @@ cookieconsent.run({
 <meta name="twitter:image" content="https://content.globalforestwatch.org/wp-content/uploads/2023/05/model_output_4km_aggregation_tcd30_model_v1.2.3_20230407_for_pres_with_legend__net_flux-2048x968.jpg">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:card" content="summary_large_image">
-</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: #2b8aff;; position: fixed; top: 60px; z-index: 2000;"></div>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:3px; background-color: #2b8aff;; position: fixed; top: 60px; z-index: 2000;"></div>
 
 <script id="progressbar" type="text/javascript">
 
@@ -165,17 +165,19 @@ document.addEventListener("DOMContentLoaded", function() {
             padding: 0;
         }
 
-        img {
+        #uni-banner-img {
             width: 100%;
-            height: 300px;
+            height: calc(35vh - 60px);
             display: block;
             object-fit: cover;
+            border-bottom: solid 1px rgba(0,0,0,0.5);
+            object-position: 50% 20%;
         }
     </style>
 
 
 
-    <img src="https://btjepkes.github.io/assets/bg-color-rivers.jpg" alt="Banner Image">
+    <img id="uni-banner-img" src="https://btjepkes.github.io/assets/bg-color-rivers.jpg" alt="Banner Image">
 
 
 

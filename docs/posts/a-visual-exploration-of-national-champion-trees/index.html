@@ -104,7 +104,7 @@ cookieconsent.run({
 <meta name="twitter:image" content="https://btjepkes.github.io/assets/bg-pine-blue.jpg">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:card" content="summary_large_image">
-</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:2px; background-color: #2b8aff;; position: fixed; top: 60px; z-index: 2000;"></div>
+</head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:3px; background-color: #2b8aff;; position: fixed; top: 60px; z-index: 2000;"></div>
 
 <script id="progressbar" type="text/javascript">
 
@@ -134,17 +134,19 @@ document.addEventListener("DOMContentLoaded", function() {
             padding: 0;
         }
 
-        img {
+        #uni-banner-img {
             width: 100%;
-            height: 300px;
+            height: calc(35vh - 60px);
             display: block;
             object-fit: cover;
+            border-bottom: solid 1px rgba(0,0,0,0.5);
+            object-position: 50% 20%;
         }
     </style>
 
 
 
-    <img src="https://btjepkes.github.io/assets/bg-color-rivers.jpg" alt="Banner Image">
+    <img id="uni-banner-img" src="https://btjepkes.github.io/assets/bg-color-rivers.jpg" alt="Banner Image">
 
 
 
@@ -364,7 +366,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>The map below displays the locations of each of the champion trees on the register. As noted, there are <strong>over 500 individuals</strong> on this list. Details on this map can be found <a href="../../gallery/national-champion-tree-map/index.html">here</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../gallery/national-champion-tree-map/img-national-champion-trees.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes"><img src="../../gallery/national-champion-tree-map/img-national-champion-trees.png" class="img-fluid figure-img" alt="Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes"></a></p>
+<p><a href="../../gallery/national-champion-tree-map/img-national-champion-trees.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes"><img src="../../gallery/national-champion-tree-map/img-national-champion-trees.png" class="img-fluid figure-img" alt="Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Map of Champion Tree locations across the United States. Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -840,7 +842,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"descPosition":"bottom","openEffect":"zoom"});</script>
 
 
 
