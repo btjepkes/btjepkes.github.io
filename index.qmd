@@ -42,7 +42,7 @@ listing:
       - image
 ---
 
-<!-- ## My Brief Bio -->
+<!-- ### My Brief Bio -->
 
 <!-- I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. *Below are some of my recent professional activities.* -->
 
@@ -83,11 +83,6 @@ kable(data)
 ## Exploring My Work
 
 This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery. Feel free to also check out more about me, my full curriculum vitae, and some helpful resources.
-
-::: {#site-listings-1}
-:::
-
-
 
 ::: {#site-listings-2}
 :::
