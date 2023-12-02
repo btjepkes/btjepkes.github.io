@@ -279,6 +279,8 @@ blockquote {
     min-width: 0;
   }
   
+
+  
   
 // Navbar - MOBILE ONLY
 
@@ -317,7 +319,7 @@ blockquote {
     justify-content: right;
     text-align: center;
     }
-  
+    
     .navbar-container {
       flex-direction: row-reverse;
     }
@@ -328,7 +330,13 @@ blockquote {
   
 .quarto-navbar-tools {
       display: none !important;
-    } }
+    } 
+    
+    .navbar .navbar-collapse {
+    background: black;
+}
+  
+}
 
 
 
@@ -795,7 +803,7 @@ div.quarto-post .metadata {
     }
 
 
-@media (max-width: 767.98px) {
+@media (max-width: 1000px) {
   
 .nav-footer-center {
   margin-bottom: 0.5em;
