@@ -8,7 +8,7 @@ author-meta: Benjamin Tjepkes
 date: 2023-11-14
 date-modified: today
 description-meta: "Learn about my career path and professional interests."
-description: "This page highlights my professional career path, including my 'pseudo-transition' from ecology to geospatial and my higher education journey."
+description: "This page highlights my professional career path, including my work across the broad scopes of ecology and geospatial, as well as my higher education journey."
 listing:
   - id: site-listings
     contents:
@@ -28,7 +28,14 @@ listing:
 
 ### Where Am I Now?
 
-I am a **graduate student** at the **University of Missouri** studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**. Please have a look at some of my blog posts, research overviews, and visualization gallery. My [professional CV](../curriculum-vitae/index.qmd) has a comprehensive look at my experience.
+I am a **graduate student** at the **University of Missouri** studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**.
+
+My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.
+
+
+### Recent Works
+
+This site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my [professional CV](../curriculum-vitae/index.qmd) for a comprehensive look.
 
 ::: {#site-listings}
 

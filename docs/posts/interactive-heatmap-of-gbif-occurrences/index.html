@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2023-05-05">
+<meta name="description" content="In this blog post, we demonstrate how to use the rgbif package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap.">
 
 <title>Interactive Heatmap of GBIF Occurrences | B.W. Tjepkes</title>
 <style>
@@ -172,17 +173,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
         #uni-banner-img {
             width: 100%;
-            height: calc(35vh - 60px);
+            height: calc(38vh - 60px);
             display: block;
             object-fit: cover;
             border-bottom: solid 1px rgba(0,0,0,0.5);
-            object-position: 50% 20%;
+            object-position: 50% 45%;
         }
     </style>
 
 
 
-    <img id="uni-banner-img" src="https://btjepkes.github.io/assets/bg-color-rivers.jpg" alt="Banner Image">
+    <img id="uni-banner-img" src="https://images.pexels.com/photos/3551208/pexels-photo-3551208.jpeg" alt="Banner Image">
 
 
 
@@ -371,9 +372,14 @@ document.addEventListener("DOMContentLoaded", function() {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Interactive Heatmap of GBIF Occurrences</h1>
-<p class="subtitle lead">Exploring concentrations of Greater sage grouse records in Wyoming.</p>
+<p class="subtitle lead">Exploring concentrations of Greater sage grouse records.</p>
   </div>
 
+<div>
+  <div class="description">
+    In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -386,15 +392,15 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">December 4, 2023</p>
+    </div>
+  </div>
     
   </div>
   
-<div>
-  <div class="abstract">
-    <div class="block-title">What Is This About?</div>
-    In this blog post, we demonstrate how to use the <code>rgbif</code> package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap.
-  </div>
-</div>
 
 
 </header>
@@ -407,7 +413,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
 <figcaption>Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
 </figure>
 </div>
@@ -933,7 +939,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false});</script>
+<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","closeEffect":"zoom"});</script>
 
 
 

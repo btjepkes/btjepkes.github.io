@@ -1,7 +1,7 @@
 ---
 title: "Portfolio of B.W. Tjepkes"
 subtitle: "Integrating ecology and geospatial science for nature conservation."
-description: "My name is Ben Tjepkes and I am a wildlife ecologist and budding geographer. This site provides an overview of my career and a showcase of my technical writings and visualizations."
+description: "Hello! My name is Ben Tjepkes and I am a wildlife ecologist and developing geographer. This site provides an overview of my career and a showcase of my technical writings and visualizations."
 # author: Benjamin Tjepkes
 date: 11/14/2023
 date-modified: today
@@ -42,9 +42,11 @@ listing:
       - image
 ---
 
-<!-- ### My Brief Bio -->
+## My Brief Bio
 
-<!-- I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. *Below are some of my recent professional activities.* -->
+I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science.
+
+<!-- *Below are some of my recent professional activities.* -->
 
 <!-- - **Nov 2023** -- I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd). -->
 
@@ -82,7 +84,7 @@ kable(data)
 
 ## Exploring My Work
 
-This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery. Feel free to also check out more about me, my full curriculum vitae, and some helpful resources.
+This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery. Feel free to also check out my about me page, my full curriculum vitae, and some helpful resources.
 
 ::: {#site-listings-2}
 :::

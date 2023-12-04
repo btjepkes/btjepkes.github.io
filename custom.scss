@@ -540,26 +540,20 @@ blockquote {
     overflow: hidden;
 }
 
-
+/*
 .listings-gallery .grid {
   row-gap: 2.6em;
   column-gap: 1.2em;
-}
+}*/
 
 .listings-gallery .quarto-grid-item div.post-contents {
-  position: absolute;
-  bottom: -40px;
-  left: 0;
-  background: transparent;
-  opacity: 0.99;
-  height: 40px;
-  width: 100%;
-  padding: 10px 10px 0 10px !important;
+  padding: 5px 10px 0 10px !important;
   overflow: hidden;
 }
 
+
 .listings-gallery h5 {
-  font-size: 0.8em !important;
+  font-size: 0.9em !important;
   text-align: center;
   opacity: 1.0 !important;
   padding: 0;
@@ -570,14 +564,6 @@ blockquote {
   text-overflow: ellipsis;
   overflow: hidden;
   width: 100%;
-}
-
-.listings-gallery .quarto-grid-item .card-title::after {
-  content: none;
-  display: block;
-  width: 15%;
-  border-top: none;
-  margin-top: none;
 }
 
 
@@ -796,6 +782,7 @@ div.quarto-post .metadata {
 .cookie-consent-footer {
   margin-top: 10px;
   margin-bottom: 20px;
+  font-size: 17px;
 }
 
 .nav-footer-center > p:nth-child(1) {
@@ -811,7 +798,7 @@ div.quarto-post .metadata {
 }
 
 .nav-footer .nav-footer-right {
-  font-size: 1.5em;
+  font-size: 1.8em;
   padding: 2px 20px;
 }
   
