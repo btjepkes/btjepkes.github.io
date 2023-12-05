@@ -14,6 +14,8 @@ format:
 
 ## Formal Education
 
+My post-secondary training and education is situated in **wildlife ecology** and **geography** at both the undergraduate and graduate levels. 
+
 ```{=html}
 <div class="resume-container">
         <img class="profile-image" src="https://identity.missouri.edu/wp-content/uploads/2020/08/PrimarySigs-1.jpg" alt="Your Profile Image">
@@ -42,6 +44,8 @@ format:
 
 
 ## Career Experience
+
+My work experience over the last eight years has been in the **ecological sciences** and **conservation GIS fields**. This includes work in the academic, private, and public sectors.
 
 ```{=html}
 <div class="resume-container">
