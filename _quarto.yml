@@ -54,7 +54,7 @@ website:
     - title: "Main Nav"
       style: floating
       pinned: true
-      background: "#e8e8e8"
+      background: "#1e293b"
       collapse-level: 2
       contents: 
         - text: Site Navigation
@@ -130,7 +130,7 @@ format:
       - lightbox
     lightbox: auto
     include-in-header: 
-      - progress-bar.html
-      - header-banner.rhtml
-    
-    
+      - file: progress-bar.html
+      - file: header-banner.rhtml
+
+         

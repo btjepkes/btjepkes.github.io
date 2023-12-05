@@ -43,7 +43,7 @@ $enable-rounded: false !default;
 
 // Body
 
-$body-color: $gray-900 !default;
+$body-color: $gray-100 !default;
 $content-padding-top: 0 !default;
 
 
@@ -140,7 +140,7 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Anek, Nunito, sans-serif;
-  background: #fff;
+  background: #0f172a;
 }
 
 
@@ -149,7 +149,6 @@ h1 {
   font-size: clamp(1.8em, 5vw, 2.9em);
   padding-bottom: 0em;
   line-height: 1.1em;
-  color: black !important;
   font-family: Oswald;
 }
 
@@ -158,7 +157,7 @@ h1 {
 }
 
 h2 {
-  color: #cf4446;
+  color: #e1bb48;
 }
 
 .description {
@@ -170,7 +169,7 @@ h2 {
   line-height: 1.2em;
   font-size: clamp(1.2em, 4vw, 1.5em);
   letter-spacing: 0.01em;
-  color: teal;
+  color: #35d290;
 }
 
 
@@ -202,7 +201,7 @@ code {
 }
 
 b, strong {
-  color: $teal;
+  color: #35d290;
 }
 
 div.sourceCode {
@@ -246,8 +245,8 @@ blockquote {
   /*box-shadow: 0px 1.2px 3.6px rgba(0,0,0,.108),0px 6.4px 14.4px rgba(0,0,0,.132);*/
 	padding-left: 0 !important;
 	padding-right: 0 !important;
-	border-bottom: solid 3px #35d290;
-	background: #051933;
+	border-bottom: solid 3px #ffffff;
+	background: #0f172a;
 	height: 65px;
   }
 
@@ -446,7 +445,7 @@ blockquote {
 }
 
 .nav-page .pagination-link {
-  background: #e8e8e8;
+  background: #1e293b;
   border-radius: 20px;
   padding: 0px 10px;
 }
