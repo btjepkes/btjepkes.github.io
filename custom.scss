@@ -218,6 +218,10 @@ blockquote {
     border-left: .25rem solid #35d290;
     }
 
+a {
+  color: #35d290;
+}
+
 
 // Indicators
 
@@ -340,7 +344,6 @@ blockquote {
 
 
 // SIDEBAR
-
 
 @media (max-width: 991.98px) {
   
@@ -514,6 +517,7 @@ blockquote {
 .quarto-grid-item {
   border-radius: 4px;
   overflow: hidden;
+  background: #152035;
   /*-webkit-box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
   box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
   flex-direction: column;*/
@@ -529,7 +533,6 @@ blockquote {
 .quarto-grid-item .card-title {
   font-weight: 700;
   margin-bottom: 10px;
-  color: $black;
 }
 
 .quarto-grid-item .card-subtitle {
@@ -595,11 +598,12 @@ figure > figcaption {
   opacity: 0.5;
 }
 
+/*
 .img-fluid,
 .figure-img {
   border-radius: 4px;
   box-shadow: -2px 2px 4px 2px lightgray;
-}
+}*/
 
 .padded-img {
   padding-top: 2rem;
@@ -611,7 +615,7 @@ figure > figcaption {
 }
 
 #quarto-content > * {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 main {
@@ -657,7 +661,7 @@ div.quarto-post .metadata {
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.38);
     box-shadow: 0 2px 5px rgba(0,0,0,.38);
     transform: scale(1.005);
-    background: $white;
+    border-bottom: solid;
 }}
 
 
@@ -942,7 +946,7 @@ margin-bottom: 0 !important;
 // APPENDEX
 
 .quarto-appendix-citeas {
-  background: #d5f0f9;
+  background: #1e293b;
   padding: 12px;
   border-radius: 6px;
   margin-top: 12px;

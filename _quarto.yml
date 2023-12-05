@@ -18,11 +18,11 @@ website:
   twitter-card:
     creator: "@BTjepkes"
     title: "Portfolio | B.W. Tjepkes"
-  cookie-consent:
-    type: implied
-    style: interstitial
-    palette: light
-    prefs-text: "User Cookies 🍪 Preferences"
+  # cookie-consent:
+  #   type: implied
+  #   style: interstitial
+  #   palette: light
+  #   prefs-text: "User Cookies 🍪 Preferences"
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
