@@ -58,6 +58,8 @@ listing:
 
 ## Map Gallery
 
+Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. The following are a sampling of my these explorations.
+
 **Tools & Technologies:** ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS
 
 ::: {#gallery-listings-maps .listings-gallery}

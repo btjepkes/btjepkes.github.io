@@ -2,12 +2,13 @@
 title: "Post-Secondary Institutions Hexmap"
 subtitle: "Visualizing which U.S. states have more colleges."
 date: 11/09/2023
+date-modified: today
 categories:
   - Map Gallery
   - Hexbin
 keywords:
   - "#30DayMapChallenge2023"
-abstract: This map shows the total number of post-secondary institutions and programs in each U.S. state (and Washington DC) using a hexbin style map.
+description: This map shows the total number of post-secondary institutions and programs in each U.S. state (and Washington DC) using a hexbin style map.
 image: img-college-map.png
 image-alt: "A hexbin map showing the total number of post-secondary institutions and programs in each U.S. state."
 # aliases:
@@ -26,3 +27,10 @@ Data were downloaded from the National Center for Education Statistics.
 Here is the resulting map showing 51 hexbins, one for each state and Washington DC, where the color signifies the number of institutions in that state. 
 
 ![Credit: Benjamin Tjepkes](img-college-map.png)
+
+
+### Alternative Result
+
+Here is another version of the above map, this time with a normalized based on total population, showing post-secondary schools for every 100,000 people.
+
+![Credit: Benjamin Tjepkes](img-college-map-v2.png)

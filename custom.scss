@@ -249,8 +249,9 @@ a {
   /*box-shadow: 0px 1.2px 3.6px rgba(0,0,0,.108),0px 6.4px 14.4px rgba(0,0,0,.132);*/
 	padding-left: 0 !important;
 	padding-right: 0 !important;
-	border-bottom: solid 3px #ffffff;
-	background: #0f172a;
+	border-bottom: solid 3px #1e293b;
+	background: rgba(15, 23, 42, 0.9);
+	backdrop-filter: blur(8px);
 	height: 65px;
   }
 
@@ -541,7 +542,7 @@ a {
 }
 
 .quarto-grid-item p.card-img-top {
-  padding: 6px;
+  padding: 0px;
 }
 
 .quarto-grid-item p.card-img-top>img {
@@ -570,7 +571,6 @@ a {
   padding: 0;
   margin: 0;
   font-weight: 300 !important;
-  color: black;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -661,7 +661,7 @@ div.quarto-post .metadata {
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.38);
     box-shadow: 0 2px 5px rgba(0,0,0,.38);
     transform: scale(1.005);
-    border-bottom: solid;
+    border-bottom: solid $blue;
 }}
 
 
@@ -784,7 +784,8 @@ div.quarto-post .metadata {
 }
 
 .nav-footer a {
-  color: white;
+  color: #35d290;
+  text-decoration: none;
 }
 
 .nav-footer a:hover {
@@ -805,7 +806,7 @@ div.quarto-post .metadata {
 @media (max-width: 1000px) {
   
 .nav-footer-center {
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
   margin-top: 0.5em;
 }
 
@@ -1012,3 +1013,5 @@ margin-bottom: 0 !important;
         text-align: center;
     }
 }
+
+

@@ -8,6 +8,7 @@
 
 <meta name="dcterms.date" content="2023-11-09">
 <meta name="keywords" content="#30DayMapChallenge2023">
+<meta name="description" content="This map shows the total number of post-secondary institutions and programs in each U.S. state (and Washington DC) using a hexbin style map.">
 
 <title>Post-Secondary Institutions Hexmap | B.W. Tjepkes</title>
 <style>
@@ -123,12 +124,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
         #uni-banner-img {
             width: 100%;
-            min-height: 100px;
+            min-height: 170px;
             height: calc(30vh - 60px);
             display: block;
             object-fit: cover;
-            border-bottom: solid 2px rgba(255,255,255,0.5);
             object-position: 50% 25%;
+            opacity: 0.85;
         }
     </style>
 
@@ -304,7 +305,10 @@ document.addEventListener("DOMContentLoaded", function() {
   <ul>
   <li><a href="#task-objectives" id="toc-task-objectives" class="nav-link active" data-scroll-target="#task-objectives">Task &amp; Objectives</a></li>
   <li><a href="#tools-workflow" id="toc-tools-workflow" class="nav-link" data-scroll-target="#tools-workflow">Tools &amp; Workflow</a></li>
-  <li><a href="#final-result" id="toc-final-result" class="nav-link" data-scroll-target="#final-result">Final Result</a></li>
+  <li><a href="#final-result" id="toc-final-result" class="nav-link" data-scroll-target="#final-result">Final Result</a>
+  <ul class="collapse">
+  <li><a href="#alternative-result" id="toc-alternative-result" class="nav-link" data-scroll-target="#alternative-result">Alternative Result</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -317,6 +321,11 @@ document.addEventListener("DOMContentLoaded", function() {
 <p class="subtitle lead">Visualizing which U.S. states have more colleges.</p>
   </div>
 
+<div>
+  <div class="description">
+    This map shows the total number of post-secondary institutions and programs in each U.S. state (and Washington DC) using a hexbin style map.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -329,15 +338,15 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">December 5, 2023</p>
+    </div>
+  </div>
     
   </div>
   
-<div>
-  <div class="abstract">
-    <div class="block-title">What Is This About?</div>
-    This map shows the total number of post-secondary institutions and programs in each U.S. state (and Washington DC) using a hexbin style map.
-  </div>
-</div>
 
 <div>
   <div class="keywords">
@@ -366,8 +375,18 @@ document.addEventListener("DOMContentLoaded", function() {
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
+<section id="alternative-result" class="level3">
+<h3 data-anchor-id="alternative-result">Alternative Result</h3>
+<p>Here is another version of the above map, this time with a normalized based on total population, showing post-secondary schools for every 100,000 people.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img-college-map-v2.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Credit: Benjamin Tjepkes"><img src="img-college-map-v2.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<figcaption>Credit: Benjamin Tjepkes</figcaption>
+</figure>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -790,7 +809,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
     </div>   
     <div class="nav-footer-center">
-<p>Made with <a href="https://quarto.org/">Quarto</a> and <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> | License: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a></p>
+<p>Made with <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.</p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
@@ -822,7 +841,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom","selector":".lightbox"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","loop":false});</script>
 
 
 

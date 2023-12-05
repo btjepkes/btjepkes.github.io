@@ -243,7 +243,7 @@
     "href": "gallery/postsecondary-institutions-map/index.html#final-result",
     "title": "Post-Secondary Institutions Hexmap",
     "section": "Final Result",
-    "text": "Final Result\nHere is the resulting map showing 51 hexbins, one for each state and Washington DC, where the color signifies the number of institutions in that state.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Result\nHere is the resulting map showing 51 hexbins, one for each state and Washington DC, where the color signifies the number of institutions in that state.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\nAlternative Result\nHere is another version of the above map, this time with a normalized based on total population, showing post-secondary schools for every 100,000 people.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html",
@@ -621,7 +621,7 @@
     "href": "gallery/index.html",
     "title": "My Gallery",
     "section": "",
-    "text": "Tools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. The following are a sampling of my these explorations.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "My Gallery"
@@ -632,7 +632,7 @@
     "href": "gallery/index.html#map-gallery",
     "title": "My Gallery",
     "section": "",
-    "text": "Tools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. The following are a sampling of my these explorations.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "My Gallery"
