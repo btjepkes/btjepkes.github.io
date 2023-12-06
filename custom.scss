@@ -161,7 +161,6 @@ h2 {
 }
 
 .description {
-  color: gray;
   line-height: 1.4em;
 }
 
@@ -195,9 +194,13 @@ h2 {
 }
 
 code {
-  background: lightblue;
+  background: #1e293b;
   border-radius: 4px;
-  color: #23324b;
+  color: #fff;
+}
+
+p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
+background-color: #1e293b;
 }
 
 b, strong {
@@ -250,7 +253,7 @@ a {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 	border-bottom: solid 3px #1e293b;
-	background: rgba(15, 23, 42, 0.9);
+	background: rgba(15, 23, 42, 1.0);
 	backdrop-filter: blur(8px);
 	height: 65px;
   }
@@ -346,6 +349,15 @@ a {
 
 // SIDEBAR
 
+.sidebar a.active {
+  color: #35d290;
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a.active, .sidebar nav[role="doc-toc"] ul > li > ul > li > a.active {
+border-left: 1px solid #fff;
+color: #e1bb48 !important;
+}
+
 @media (max-width: 991.98px) {
   
   .quarto-page-breadcrumbs {
@@ -388,6 +400,22 @@ a {
 
 
 /* Search bar in side nav*/
+
+.input-group-sm>.form-control,
+.input-group-sm>.form-select,
+.input-group-sm>.input-group-text,
+.input-group-sm>.btn,
+.form-control,
+.form-select,
+.input-group-text {
+  color: #0f172a;
+}
+
+.aa-Autocomplete .aa-Form .aa-InputWrapper .aa-Input, .aa-DetachedFormContainer .aa-Form .aa-InputWrapper .aa-Input {
+      color: #000;
+      }
+
+
 .mt-2 {
   margin-bottom: 10px;
 }
@@ -398,11 +426,6 @@ a {
     background: white;
     box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
-	  height: 45px;
-  }
-  
-  .d-flex {
-    height: 45px;
   }
 }
 
@@ -457,11 +480,17 @@ a {
 
 // TABLES
 
+
+  .Reactable {
+    color: black;
+    padding: 10px;
+    }
+
   .rt-search {
     width: 100% !important;
     margin-top: 1.0em !important;
     margin-bottom: 1.5em !important;
-    border: solid 1px blue !important;
+    border: solid 1px #7bcce6 !important;
     background: #7bcce63d !important;
   }
 
@@ -781,6 +810,7 @@ div.quarto-post .metadata {
   padding-bottom: 0em;
   color: white;
   background: #051933;
+  border-top: solid #1e293b 3px;
 }
 
 .nav-footer a {
@@ -829,6 +859,10 @@ div.quarto-post .metadata {
 
 
 // ICONS & Buttons
+
+.btn {
+  color: black;
+}
 
 .bi-1-square,
 .bi-2-square,
@@ -962,7 +996,7 @@ margin-bottom: 0 !important;
     .resume-container {
         display: flex;
         align-items: flex-start;
-        background: rgba(255,255,255,0.6);
+        background: #1e293b;
         align-items: center;
         padding: 20px;
         border-radius: 8px;
@@ -984,18 +1018,19 @@ margin-bottom: 0 !important;
     }
   
     .cv-date {
-        color: #555;
+        color: #fff;
     }
   
     .position {
         font-style: italic;
-        color: teal;
+        color: skyblue;
         font-size: 1.1em;
     }
   
     .description {
         margin-top: 10px;
         margin-bottom: 10px;
+        color: white;
     }
   
     .profile-image {

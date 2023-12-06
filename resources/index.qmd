@@ -4,6 +4,7 @@ subtitle: My favorite references for ecology, GIS, R, and more.
 description: "This page contains a repository of technical tutorials, personal blogs, eBooks, and other websites that I find myself consistently referring back to for my technical works."
 date: 2023-11-14
 date-modified: today
+keywords: resources, coding
 image: ../assets/img-world-overview.png
 image-alt: Image-of-pine-trees-on-blue-background.
 execute:
@@ -90,3 +91,6 @@ reactable(
 )
 ```
 
+## Inspirational Works
+
+- [Joshua Stevens](https://www.joshuastevens.net/)
