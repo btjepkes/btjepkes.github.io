@@ -3,7 +3,7 @@ title: "#30DayMapChallenge - 2023 Contributions"
 subtitle: "Reviewing my contributions and learning outcomes for 2023."
 date: "11/01/2023"
 date-modified: today
-abstract: "This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, including the tools I used and what I learned along the way."
+description: "This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, including the tools I used and what I learned along the way."
 categories:
   - mapping
 image: img-30dmc-2023.png

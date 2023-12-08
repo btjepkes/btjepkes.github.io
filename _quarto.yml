@@ -100,13 +100,13 @@ execute:
 
 format:
   html:
-    # author:
-    #   - name: Benjamin Tjepkes  
-    #     # url: //about/index.qmd
-    #     orcid: 0009-0002-5524-2675
+    author:
+      - name: Benjamin Tjepkes
+        orcid: 0009-0002-5524-2675
     # template-partials:
     #   - title-block.html
     theme: custom.scss
+    date-format: iso
     abstract-title: "What Is This About?"
     toc: true
     toc-title: "On This Page:"

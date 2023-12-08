@@ -388,8 +388,14 @@ color: #e1bb48 !important;
 .quarto-secondary-nav .quarto-btn-toggle {
   color: #2b8aff;
   font-size: 1.2rem;
-  
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
+
+.quarto-secondary-nav button.quarto-search-button {
+    padding-bottom: 0;
+    padding-top: 0;
+    }
 
 .bi-layout-text-sidebar-reverse::before {
   content: "\F474";
@@ -415,6 +421,11 @@ color: #e1bb48 !important;
 .aa-Autocomplete .aa-Form .aa-InputWrapper .aa-Input, .aa-DetachedFormContainer .aa-Form .aa-InputWrapper .aa-Input {
       color: #000;
       }
+
+.aa-DetachedCancelButton {
+background: green;
+color: #000;
+}
 
 
 .mt-2 {
@@ -453,6 +464,13 @@ color: #e1bb48 !important;
 #title-block-header {
   padding-bottom: 20px;
 }
+
+#title-block-header.quarto-title-block.default .quarto-title-meta {
+  display: grid;
+  grid-template-columns: 40% 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
 
 .keywords {
   display: none;
@@ -644,7 +662,7 @@ figure > figcaption {
 }
 
 #quarto-content > * {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 main {
