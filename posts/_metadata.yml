@@ -9,3 +9,7 @@ appendix-cite-as: display
 toc: true
 toc-title: "On This Page:"
 toc-location: right
+
+author:
+  - name: Benjamin Tjepkes
+    orcid: 0009-0002-5524-2675

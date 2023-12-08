@@ -169,6 +169,7 @@ h2 {
   font-size: clamp(1.2em, 4vw, 1.5em);
   letter-spacing: 0.01em;
   color: #35d290;
+  padding-bottom: 0.7em;
 }
 
 
@@ -208,7 +209,7 @@ b, strong {
 }
 
 div.sourceCode {
-  background: white;
+  background: rgba(255,255,255,1.0);
   border: solid #0b736670 2px;
 }
 
@@ -249,7 +250,7 @@ a {
 // Navbar
 
 .navbar {
-  /*box-shadow: 0px 1.2px 3.6px rgba(0,0,0,.108),0px 6.4px 14.4px rgba(0,0,0,.132);*/
+  box-shadow: 0 0 32px rgba(0,0,0,.4);
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 	border-bottom: solid 3px #1e293b;
@@ -484,6 +485,7 @@ color: #e1bb48 !important;
   .Reactable {
     color: black;
     padding: 10px;
+    border-radius: 4px;
     }
 
   .rt-search {
@@ -548,9 +550,6 @@ color: #e1bb48 !important;
   border-radius: 4px;
   overflow: hidden;
   background: #152035;
-  /*-webkit-box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
-  box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
-  flex-direction: column;*/
 }
 
 
@@ -567,7 +566,8 @@ color: #e1bb48 !important;
 
 .quarto-grid-item .card-subtitle {
   line-height: 1.3;
-  color: gray;
+  color: #c1cfdb;
+  opacity: 0.7;
 }
 
 .quarto-grid-item p.card-img-top {
@@ -575,7 +575,7 @@ color: #e1bb48 !important;
 }
 
 .quarto-grid-item p.card-img-top>img {
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
     min-height: 200px;
     overflow-clip-margin: unset;
     overflow: hidden;
@@ -588,7 +588,7 @@ color: #e1bb48 !important;
 }*/
 
 .listings-gallery .quarto-grid-item div.post-contents {
-  padding: 5px 10px 0 10px !important;
+  padding: 10px 10px 0 10px !important;
   overflow: hidden;
 }
 
@@ -611,7 +611,7 @@ color: #e1bb48 !important;
 /* FIGURES & IMAGES */
 
 .image-bordered {
-  border-radius: 0px !important;
+  border-radius: 4px !important;
   border: solid 1px black;
 }
 
@@ -690,7 +690,6 @@ div.quarto-post .metadata {
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.38);
     box-shadow: 0 2px 5px rgba(0,0,0,.38);
     transform: scale(1.005);
-    border-bottom: solid $blue;
 }}
 
 

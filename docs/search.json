@@ -108,7 +108,7 @@
     "href": "posts/index.html",
     "title": "My Blog Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nReviewing my contributions and learning outcomes for 2023.\n\n\n\n\n\n\nNov 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records.\n\n\n\n\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\nMar 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\n\n\n\nOct 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protect Shores From Erosion\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\n\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nReviewing my contributions and learning outcomes for 2023.\n\n\n\nBenjamin Tjepkes\n\n\nNov 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records.\n\n\n\nBenjamin Tjepkes\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\nBenjamin Tjepkes\n\n\nMar 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\nBenjamin Tjepkes\n\n\nOct 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protect Shores From Erosion\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\nBenjamin Tjepkes\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "My Blog Posts"
@@ -654,7 +654,7 @@
     "href": "gallery/index.html#data-viz-gallery",
     "title": "My Gallery",
     "section": "Data Viz Gallery",
-    "text": "Data Viz Gallery\nTools & Technologies: R/RStudio, Python/Jupyter Notebook, Microsoft Excel\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Data Viz Gallery\nIn addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts or other projects.\nTools & Technologies: R/RStudio, Python/Jupyter Notebook, Microsoft Excel\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "My Gallery"
@@ -665,18 +665,32 @@
     "href": "gallery/index.html#poster-report-gallery",
     "title": "My Gallery",
     "section": "Poster & Report Gallery",
-    "text": "Poster & Report Gallery\nTools & Technologies: R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Poster & Report Gallery\nMy most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues.\nTools & Technologies: R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "My Gallery"
     ]
   },
   {
+    "objectID": "gallery/missouri-bat-hcp-poster/index.html",
+    "href": "gallery/missouri-bat-hcp-poster/index.html",
+    "title": "Missouri Bat HCP Overview & Update Poster",
+    "section": "",
+    "text": "Map creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
+  },
+  {
     "objectID": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
     "href": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
     "title": "Missouri Bat HCP Overview & Update Poster",
-    "section": "Tools and Workflow",
-    "text": "Tools and Workflow\nMap creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
+    "section": "",
+    "text": "Map creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
+  },
+  {
+    "objectID": "gallery/missouri-bat-hcp-poster/index.html#final-result",
+    "href": "gallery/missouri-bat-hcp-poster/index.html#final-result",
+    "title": "Missouri Bat HCP Overview & Update Poster",
+    "section": "Final Result",
+    "text": "Final Result\nHere is the final poster that I presented at the 2023 MDC Science Branch Conference in Potosi, Missouri."
   },
   {
     "objectID": "gallery/national-champion-tree-map/index.html",
@@ -896,8 +910,8 @@
     "text": "The Greater sage grouse (Centrocercus urophasianus) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka/USFWS\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\n\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
   },
   {
-    "objectID": "posts/interactive-heatmap-of-gbif-occurrences/index.html#background",
-    "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html#background",
+    "objectID": "posts/interactive-heatmap-of-gbif-occurrences/index.html#data-background",
+    "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html#data-background",
     "title": "Interactive Heatmap of GBIF Occurrences",
     "section": "",
     "text": "The Greater sage grouse (Centrocercus urophasianus) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka/USFWS\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\n\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
@@ -907,7 +921,7 @@
     "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html#workflow",
     "title": "Interactive Heatmap of GBIF Occurrences",
     "section": "Workflow",
-    "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\n1# install.packages(\"rgbif\")\nlibrary(rgbif)\n2# install.packages(\"leaflet\")\nlibrary(leaflet)\n3# install.packages(\"leaflet.extras\")\nlibrary(leaflet.extras)\n\n1\n\nFor accessing GBIF data. Install if necessary.\n\n2\n\nFor mapping data interactively. Install if necessary.\n\n3\n\nFor the heatmap functionality. Install if necessary.\n\n\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States. Using the taxonomic name for the species, we can double check the metadata before moving forward.\n1grouse_info &lt;- name_backbone(\"Centrocercus urophasianus\")\n2grouse_info\n\n1\n\nThis function allows us to see the taxonomic information for our focal species.\n\n2\n\nThis prints that information to the console.\n\n\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords &lt;- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nleaflet(wyoming_coords) %&gt;% \n  addTiles() %&gt;%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
+    "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\n1# install.packages(\"rgbif\")\nlibrary(rgbif)\n2# install.packages(\"leaflet\")\nlibrary(leaflet)\n3# install.packages(\"leaflet.extras\")\nlibrary(leaflet.extras)\n\n1\n\nFor accessing GBIF data. Install if necessary.\n\n2\n\nFor mapping data interactively. Install if necessary.\n\n3\n\nFor the heatmap functionality. Install if necessary.\n\n\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States. Using the taxonomic name for the species, we can double check the metadata before moving forward.\n1grouse_info &lt;- name_backbone(\"Centrocercus urophasianus\")\n2grouse_info\n\n1\n\nThis function allows us to see the taxonomic information for our focal species.\n\n2\n\nThis prints that information to the console.\n\n\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords &lt;- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nNow that the coordinates of each record are stored as a spatial object, we can use the leaflet package to create an interactive map.\nleaflet(wyoming_coords) %&gt;% \n  addTiles() %&gt;%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
   },
   {
     "objectID": "research/beaver-impacted-water-control-structures/index.html",

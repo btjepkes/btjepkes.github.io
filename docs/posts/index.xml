@@ -18,6 +18,7 @@
 <lastBuildDate>Wed, 01 Nov 2023 05:00:00 GMT</lastBuildDate>
 <item>
   <title>#30DayMapChallenge - 2023 Contributions</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/30-day-map-challenge-2023/</link>
   <description><![CDATA[ <section id="overview-of-challenge" class="level2"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
 <p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.</p>
@@ -68,7 +69,7 @@ Canadian Ecoregions Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1701266921252" data-listing-date-modified-sort="1701842400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1701266921252" data-listing-date-modified-sort="1701928800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
 <a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -94,7 +95,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1701810371117" data-listing-date-modified-sort="1701842400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1701810371117" data-listing-date-modified-sort="1701928800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
 <a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -133,7 +134,7 @@ Andes Mountains Elevation Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1701696810187" data-listing-date-modified-sort="1701842400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1701696810187" data-listing-date-modified-sort="1701928800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
 <a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -146,7 +147,7 @@ Forest Cover &amp; Happiness Bivariate Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1701267036623" data-listing-date-modified-sort="1701842400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1701267036623" data-listing-date-modified-sort="1701928800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -169,9 +170,9 @@ No matching items
 
 
 
-</section><div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2023" class="csl-entry quarto-appendix-citeas">
-<span>“#30DayMapChallenge - 2023 Contributions.”</span> 2023. November
-1, 2023. <a href="https://btjepkes.github.io/posts/30-day-map-challenge-2023">https://btjepkes.github.io/posts/30-day-map-challenge-2023</a>.
+</section><div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
+Tjepkes, Benjamin. 2023. <span>“#30DayMapChallenge - 2023
+Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/posts/30-day-map-challenge-2023">https://btjepkes.github.io/posts/30-day-map-challenge-2023</a>.
 </div></div></section></div> ]]></description>
   <category>mapping</category>
   <guid>https://btjepkes.github.io/posts/30-day-map-challenge-2023/</guid>
@@ -180,20 +181,21 @@ No matching items
 </item>
 <item>
   <title>Interactive Heatmap of GBIF Occurrences</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/</link>
   <description><![CDATA[ 
 
 
 
 
-<section id="background" class="level2">
-<h2 data-anchor-id="background">Background</h2>
+<section id="data-background" class="level2">
+<h2 data-anchor-id="data-background">Data Background</h2>
 <section id="focal-species" class="level3">
 <h3 data-anchor-id="focal-species">Focal Species</h3>
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
 <figcaption>Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
 </figure>
 </div>
@@ -281,6 +283,7 @@ font-style: inherit;">"decimalLongitude"</span>)]</span></code></pre></div>
 </section>
 <section id="create-heatmap" class="level3">
 <h3 data-anchor-id="create-heatmap">4. Create Heatmap</h3>
+<p>Now that the coordinates of each record are stored as a spatial object, we can use the <code>leaflet</code> package to create an interactive map.</p>
 <div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">leaflet</span>(wyoming_coords) <span class="sc" style="color: #5E5E5E;
@@ -318,9 +321,9 @@ font-style: inherit;">0.1</span>)</span></code></pre></div>
 </section>
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2023" class="csl-entry quarto-appendix-citeas">
-<span>“Interactive Heatmap of GBIF Occurrences.”</span> 2023. May 5,
-2023. <a href="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences">https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences</a>.
+<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
+Tjepkes, Benjamin. 2023. <span>“Interactive Heatmap of GBIF
+Occurrences.”</span> May 5, 2023. <a href="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences">https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Wildlife</category>
@@ -331,6 +334,7 @@ font-style: inherit;">0.1</span>)</span></code></pre></div>
 </item>
 <item>
   <title>How Scientists Use GIS to Study Wildlife</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife/</link>
   <description><![CDATA[ 
 
@@ -408,9 +412,9 @@ font-style: inherit;">0.1</span>)</span></code></pre></div>
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2023" class="csl-entry quarto-appendix-citeas">
-<span>“How Scientists Use GIS to Study Wildlife.”</span> 2023. March 26,
-2023. <a href="https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife">https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife</a>.
+<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
+Tjepkes, Benjamin. 2023. <span>“How Scientists Use GIS to Study
+Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife">https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife</a>.
 </div></div></section></div> ]]></description>
   <category>Wildlife</category>
   <category>GIS</category>
@@ -420,6 +424,7 @@ font-style: inherit;">0.1</span>)</span></code></pre></div>
 </item>
 <item>
   <title>How to Become a Contemporary Naturalist</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist/</link>
   <description><![CDATA[ 
 
@@ -511,9 +516,9 @@ font-style: inherit;">0.1</span>)</span></code></pre></div>
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2022" class="csl-entry quarto-appendix-citeas">
-<span>“How to Become a Contemporary Naturalist.”</span> 2022. October
-18, 2022. <a href="https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist">https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist</a>.
+<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2022" class="csl-entry quarto-appendix-citeas">
+Tjepkes, Benjamin. 2022. <span>“How to Become a Contemporary
+Naturalist.”</span> October 18, 2022. <a href="https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist">https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist</a>.
 </div></div></section></div> ]]></description>
   <category>Nature</category>
   <category>Education</category>
@@ -523,6 +528,7 @@ font-style: inherit;">0.1</span>)</span></code></pre></div>
 </item>
 <item>
   <title>Naturally Protect Shores From Erosion</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion/</link>
   <description><![CDATA[ 
 
@@ -614,9 +620,9 @@ font-style: inherit;">0.1</span>)</span></code></pre></div>
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2022" class="csl-entry quarto-appendix-citeas">
-<span>“Naturally Protect Shores From Erosion.”</span> 2022. October 16,
-2022. <a href="https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion">https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion</a>.
+<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2022" class="csl-entry quarto-appendix-citeas">
+Tjepkes, Benjamin. 2022. <span>“Naturally Protect Shores From
+Erosion.”</span> October 16, 2022. <a href="https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion">https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion</a>.
 </div></div></section></div> ]]></description>
   <category>Nature</category>
   <category>Education</category>

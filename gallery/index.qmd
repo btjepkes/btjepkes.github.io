@@ -67,12 +67,16 @@ Many of my professional duties and personal free time are spent exploring the re
 
 ## Data Viz Gallery
 
+In addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts or other projects.
+
 **Tools & Technologies:** R/RStudio, Python/Jupyter Notebook, Microsoft Excel
 
 ::: {#gallery-listings-dataviz .listings-gallery}
 :::
 
 ## Poster & Report Gallery
+
+My most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues.
 
 **Tools & Technologies:** R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown
 

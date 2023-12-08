@@ -1,21 +1,26 @@
 ---
 title: "Missouri Bat HCP Overview & Update Poster"
 subtitle: "Informational poster on the Missouri Bat Habitat Conservation Plan."
-date-modified: "5-18-2023"
+date: "5-18-2023"
+date-modified: today
 aliases: 
   - gallery/gallery-poster-two.html
 categories:
   - Poster Gallery
   - Missouri
   - Mammal
-abstract: "This poster was created to provide an overview and status update on the Missouri Bat Habitat Conservation Plan at the 2023 Missouri Department of Conservation Science Branch Conference."
+description: "This poster was created to provide an overview and status update on the Missouri Bat Habitat Conservation Plan at the 2023 Missouri Department of Conservation Science Branch Conference."
 image: img-bat-hcp-poster.jpg
 image-alt: "Poster showing information about the Missouri bat habitat conservation plan."
 ---
 
-![](img-bat-hcp-poster.jpg)
 
 ## Tools and Workflow
 
 Map creation was performed using `tmap` and `sf` packages in the **RStudio** environment. Poster compilation was performed in **Microsoft Publisher**.
 
+## Final Result
+
+Here is the final poster that I presented at the 2023 MDC Science Branch Conference in Potosi, Missouri.
+
+![](img-bat-hcp-poster.jpg)

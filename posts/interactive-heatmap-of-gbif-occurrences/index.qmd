@@ -9,7 +9,7 @@ image: img-sage-grouse.jpg
 image-alt: "Image of sage grouse on a lek."
 ---
 
-## Background
+## Data Background
 
 ### Focal Species
 
@@ -64,6 +64,8 @@ wyoming_coords <- wyoming$data[, c("decimalLatitude", "decimalLongitude")]
 ```
 
 ### 4. Create Heatmap
+
+Now that the coordinates of each record are stored as a spatial object, we can use the `leaflet` package to create an interactive map.
 
 ``` r
 leaflet(wyoming_coords) %>% 

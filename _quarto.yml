@@ -55,7 +55,6 @@ website:
       style: floating
       pinned: true
       background: "#1e293b"
-      collapse-level: 2
       contents: 
         - text: Site Navigation
         - href: index.qmd
