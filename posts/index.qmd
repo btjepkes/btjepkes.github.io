@@ -1,7 +1,7 @@
 ---
 title: "My Blog Posts"
 subtitle: Writings on ecology, geospatial, and data science.
-date: 2023-11-01
+date: 2022-10-16
 date-modified: today
 description-meta: "Blog Posts - Explore my writings on ecological and geospatial data science."
 citation: false

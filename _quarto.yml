@@ -35,7 +35,7 @@ website:
       - href: about/index.qmd
         text: About
       - href: posts/index.qmd
-        text: Blog
+        text: Posts
       - href: gallery/index.qmd
         text: Gallery
       - href: resources/index.qmd

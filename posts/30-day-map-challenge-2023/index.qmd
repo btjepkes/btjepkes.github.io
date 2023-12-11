@@ -3,11 +3,11 @@ title: "#30DayMapChallenge - 2023 Contributions"
 subtitle: "Reviewing my contributions and learning outcomes for 2023."
 date: "11/01/2023"
 date-modified: today
-description: "This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, including the tools I used and what I learned along the way."
+description: "This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, including the tools I used, the data I explored, and what I learned along the way."
 categories:
   - mapping
-image: img-30dmc-2023.png
-image-alt: "List of each daily prompt."
+image: img-30dmc-my2023.png
+image-alt: "An image showing all my contribution maps."
 draft: FALSE
 listing:
   - id: map-gallery
@@ -44,11 +44,17 @@ kable(subset(table, select = c(Day, Theme, Details)),
 
 ## My 2023 Contributions
 
-Here are my contributions to the challenge. **Feel free to explore the details on each map product.**
+Here are my contributions to the challenge. Feel free to explore the details on each map product by clicking/tapping the map previews below. I was not able to create a map for every day, but this was my first time partaking in this challenge so I am happy with how many I created.
 
 :::{#map-gallery .listings-gallery}
 :::
 
 ## Tools, Data, and Techniques
 
-More information coming towards the end of the challenge!
+Here is some general information on the software, data sources, and cartographic techniques I used to create maps for this challenge. See the detailed overviews of each map for an in-depth acknowledgement of these attributes.
+
+**Tools** -- ArcGIS Pro 3.2, R/RStudio using primarily the `ggplot`, `osmdata`, `rnaturalearth`, and `sf` packages.
+
+**Data** -- OpenStreetMap, Esri Living Atlas, Natural Earth, and the IUCN.
+
+**Techniques/Styles** -- Graduated symbols, choropleth, hexbin, bivariate, polygon overlay with blending, and contour creation from a digital elevation model (DEM).
