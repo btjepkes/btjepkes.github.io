@@ -1,0 +1,34 @@
+---
+title: "Climate Trends of the Upper Peninsula, MI"
+subtitle: "Visualizing some of the UP's precip and temperature data."
+date: 12/10/2023
+date-modified: today
+categories:
+  - Data Gallery
+keywords:
+  - Michigan
+description: This exploration was part of a recent University assignment where I was tasked to source PRISM climate data, build some charts, then draw some conclusions on climatic trends.
+image: img-plot-ppt.png
+image-alt: "A chart of precipitation trends."
+# aliases:
+---
+
+## Task & Objectives
+
+The assignment for this exploration was to investigate climate (i.e., precipitation and temperature) trends for somewhere you want to live. I chose the Upper Peninsula of Michigan.
+
+## Tools & Workflow
+
+- Data were downloaded from [PRISM](https://prism.oregonstate.edu/).
+- Figure production was completed in RStudio with several packages: `ggplot` and `tidyverse`.
+
+
+## Final Results
+
+Here is the first figure showing trends in **precipitation**.
+
+![Credit: Benjamin Tjepkes](img-plot-ppt.png)
+
+Here is the second figure showing trends in **maximum and minimum temperature**.
+
+![Credit: Benjamin Tjepkes](img-plot-temps.png)

@@ -1,8 +1,9 @@
 ---
 title: "Bald Eagle Nest-Site Selection"
 subtitle: "Assessing bald eagle nests along the Upper Mississippi River, 1990-2012."
-date-modified: "4/29/2023"
-abstract: "This undergraduate research project involved cleaning and analyzing bald eagle nesting records from the U.S. Fish and Wildlife Service with the goal of determining how individuals of the Upper Mississippi River bald eagle population are selecting nest sites."
+date: "4/29/2023"
+date-modified: today
+description: "This undergraduate research project involved cleaning and analyzing bald eagle nesting records from the U.S. Fish and Wildlife Service with the goal of determining how individuals of the Upper Mississippi River bald eagle population are selecting nest sites."
 aliases: 
   - research-one.html
 categories:
@@ -20,7 +21,7 @@ We used a mixed-effects resource selection function under a use-availability des
 
 ## Project Presentations
 
-**Tjepkes, B.W.**, S.C. Fetherston, S.E. Hygnstrom, B.J. Stemper, and S.L. Winter. 2019. Bald eagle nest-site selection along the Upper Mississippi River, 1990-2012. [Poster]  UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.
+**Tjepkes, B.W.**, S.C. Fetherston, S.E. Hygnstrom, B.J. Stemper, and S.L. Winter. 2019. Bald eagle nest-site selection along the Upper Mississippi River, 1990-2012. [[Poster]](../../gallery/bald-eagle-nest-selection-poster/index.qmd)  UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.
 
 **Tjepkes, B.W.**, S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2019. Bald eagle nest monitoring on the upper Mississippi River, 1990-2012. [Talk] Mississippi River Research Consortium, La Crosse, WI.
 

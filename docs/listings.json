@@ -32,14 +32,6 @@
     ]
   },
   {
-    "listing": "/about/index.html",
-    "items": [
-      "/posts/index.html",
-      "/gallery/index.html",
-      "/research/index.html"
-    ]
-  },
-  {
     "listing": "/gallery/index.html",
     "items": [
       "/gallery/pennsylvania-bridge-map/index.html",
@@ -61,9 +53,18 @@
       "/gallery/turkey-harvest-maps-by-county/index.html",
       "/gallery/vineyard-and-winery-location-suitability-map/index.html",
       "/gallery/work-commitments-calendar/index.html",
+      "/gallery/michigan-climate-trends/index.html",
       "/gallery/relative-coding-proficiency-chart/index.html",
       "/gallery/bald-eagle-nest-selection-poster/index.html",
       "/gallery/missouri-bat-hcp-poster/index.html"
+    ]
+  },
+  {
+    "listing": "/about/index.html",
+    "items": [
+      "/posts/index.html",
+      "/gallery/index.html",
+      "/research/index.html"
     ]
   },
   {
