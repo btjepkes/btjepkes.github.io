@@ -11,9 +11,10 @@ website:
   page-navigation: true
   back-to-top-navigation: false
   bread-crumbs: true
-  search:
-    location: sidebar
-    type: textbox
+  search: false
+  # search:
+  #   location: sidebar
+  #   type: textbox
   open-graph: true
   twitter-card:
     creator: "@BTjepkes"

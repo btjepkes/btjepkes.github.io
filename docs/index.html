@@ -23,14 +23,10 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
 <link href="./assets/logo-1.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -39,15 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    null
-  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -116,6 +103,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-site-listings-3 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-site-listings-3'] = new List('listing-site-listings-3', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script><script type="text/javascript">
 
 window.dataLayer = window.dataLayer || [];
@@ -163,7 +178,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         #uni-banner-img {
             width: 100%;
-            min-height: 250px;
+            min-height: 230px;
             height: calc(32.5vh - 60px);
             display: block;
             object-fit: cover;
@@ -235,18 +250,10 @@ document.addEventListener("DOMContentLoaded", function() {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
 <li class="sidebar-item">
  <span class="menu-text">Site Navigation</span>
@@ -322,6 +329,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <ul>
 <li><a href="#my-brief-bio" id="toc-my-brief-bio" class="nav-link active" data-scroll-target="#my-brief-bio">My Brief Bio</a></li>
   <li><a href="#exploring-my-work" id="toc-exploring-my-work" class="nav-link" data-scroll-target="#exploring-my-work">Exploring My Work</a></li>
+  <li><a href="#latest-posts-projects" id="toc-latest-posts-projects" class="nav-link" data-scroll-target="#latest-posts-projects">Latest Posts &amp; Projects</a></li>
   </ul></nav>
     </div>
 <!-- main -->
@@ -428,6 +436,7 @@ No matching items
 <!-- | **July 2023**  | One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. | -->
 <!-- | **April 2023** | I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.                                                                                    | -->
 <!-- : {tbl-colwidths="\[20,80\]"} -->
+<!-- ::: -->
 </section><section id="exploring-my-work" class="level2"><h2 data-anchor-id="exploring-my-work">Exploring My Work</h2>
 <p>This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery. Feel free to also check out my about me page, my full curriculum vitae, and some helpful resources.</p>
 <div id="listing-site-listings-2" class="quarto-listing quarto-listing-container-grid">
@@ -501,7 +510,63 @@ Focusing on wildlife, spatial ecology, and GIS.
 No matching items
 </div>
 </div>
-<!-- ::: -->
+</section><section id="latest-posts-projects" class="level2"><h2 data-anchor-id="latest-posts-projects">Latest Posts &amp; Projects</h2>
+<p>Theses items are hot off the press, well…freshly <code>git push</code>-ed anyway. Explore my latest posts and visualizations.</p>
+<div id="listing-site-listings-3" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Data Gallery" data-listing-date-sort="1702188000000" data-listing-file-modified-sort="1702271254000" data-listing-date-modified-sort="1702274400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<a href="./gallery/michigan-climate-trends/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./gallery/michigan-climate-trends/img-plot-ppt.png" class="thumbnail-image card-img" style="height: 100px;" alt="A chart of precipitation trends."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Climate Trends of the Upper Peninsula, MI
+</h5>
+<div class="card-subtitle listing-subtitle">
+Visualizing some of the UP’s precip and temperature data.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="mapping" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702316070799" data-listing-date-modified-sort="1702274400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
+<a href="./posts/30-day-map-challenge-2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/30-day-map-challenge-2023/img-30dmc-my2023.png" class="thumbnail-image card-img" style="height: 100px;" alt="An image showing all my contribution maps."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+30DayMapChallenge - 2023 Contributions
+</h5>
+<div class="card-subtitle listing-subtitle">
+Reviewing my contributions and learning outcomes for 2023.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Map Gallery,Watershed" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1700451508000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
+<a href="./gallery/great-lakes-watershed-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./gallery/great-lakes-watershed-map/img-map-11.jpg" class="thumbnail-image card-img" style="height: 100px;" alt="Map of Great Lakes watersheds and their pour points."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Great Lakes Watersheds Map
+</h5>
+<div class="card-subtitle listing-subtitle">
+Colorful visual of Great Lakes watersheds.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
 

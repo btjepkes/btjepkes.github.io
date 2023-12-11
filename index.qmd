@@ -41,6 +41,19 @@ listing:
       - title
       - subtitle
       - image
+  - id: site-listings-3
+    contents:
+      - "gallery/michigan-climate-trends/index.qmd"
+      - "posts/30-day-map-challenge-2023/index.qmd"
+      - "gallery/great-lakes-watershed-map/index.qmd"
+    type: grid
+    grid-columns: 3
+    image-height: 100px
+    sort: [date desc]
+    fields:
+      - title
+      - subtitle
+      - image
 ---
 
 ## My Brief Bio
@@ -84,7 +97,7 @@ kable(data)
 <!-- | **April 2023** | I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.                                                                                    | -->
 
 <!-- : {tbl-colwidths="\[20,80\]"} -->
-
+<!-- ::: -->
 
 ## Exploring My Work
 
@@ -93,4 +106,9 @@ This site hosts many of my professional and creative works. Please have a look a
 ::: {#site-listings-2}
 :::
 
-<!-- ::: -->
+## Latest Posts & Projects
+
+Theses items are hot off the press, well...freshly `git push`-ed anyway. Explore my latest posts and visualizations.
+
+::: {#site-listings-3}
+:::
