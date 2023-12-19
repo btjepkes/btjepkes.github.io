@@ -3,8 +3,8 @@ title: "Key Takeaways from posit::conf(2023)"
 subtitle: "An awesome conference of diverse topics and professional expertise."
 description-meta: ""
 date: "9-21-2023"
-abstract-title: ""
-abstract: "This year, I was fortunate to attend the 2023 Posit Conference. Though my schedule only allowed for virtual attendence, I was excited to chat with new people and learn about data science. In this post, I outline the main insights that I took away from this event."
+date-modified: today
+description: "This year, I was fortunate to attend the 2023 Posit Conference. Though my schedule only allowed for virtual attendence, I was excited to chat with new people and learn about data science. In this post, I outline the main insights that I took away from this event."
 categories:
   - conference
 image: img-001.svg

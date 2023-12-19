@@ -9,16 +9,19 @@ categories:
   - Poster Gallery
   - Mississippi River
   - Avian
-abstract: "This poster provides an overview of my research on bald eagle nest-site selection for the Upper Mississippi River population. This poster was presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium."
+description: "This poster provides an overview of my research on bald eagle nest-site selection for the Upper Mississippi River population. This poster was presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium."
 image: img-eagle-poster-thumb.jpg
 image-alt: "Poster detailing bald eagle nest monitoring research."
 ---
 
-![Credit: Benjamin Tjepkes](img-eagle-poster.jpg)
 
 
 ## Tools & Methods
 
-This poster was assembled in Microsoft PowerPoint.
+This poster was assembled in Microsoft PowerPoint using elements created in ArcGIS Pro, Microsoft Excel, and RStudio. The full details on this research can be found here: [Bald Eagle Nest Site Selection Research Project](../../research/bald-eagle-nest-site-selection/index.qmd).
 
+## Final Result
 
+Here is the final poster that I presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium, earned **highest honors**.
+
+![Credit: Benjamin Tjepkes](img-eagle-poster.jpg)

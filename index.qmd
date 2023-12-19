@@ -47,6 +47,8 @@ listing:
       - "posts/30-day-map-challenge-2023/index.qmd"
       - "gallery/great-lakes-watershed-map/index.qmd"
       - "gallery/michigan-anthrome-map/index.qmd"
+      - "posts/how-scientists-use-gis-to-study-wildlife/index.qmd"
+      - "gallery/endangered-species-stamp-collection-map/index.qmd"
     type: grid
     grid-columns: 3
     image-height: 100px

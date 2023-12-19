@@ -1,10 +1,11 @@
 ---
 title: A Visual Exploration of Champion Trees
-subtitle: Charting champion trees from the US National Champion Tree Network.
-date: today
+subtitle: Charting trees from the US National Champion Tree Network.
+date-modified: today
+date: 12/19/2023
 draft: TRUE
 image: "../../assets/bg-pine-blue.jpg"
-abstract: "In this post, we start exploring our towering timber giants apart of the National Champion Trees Program as designated by American Forests."
+description: "In this post, I start exploring our towering timber giants apart of the National Champion Trees Program as designated by American Forests."
 ---
 
 ## Introduction

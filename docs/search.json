@@ -177,7 +177,7 @@
     "href": "index.html#latest-posts-projects",
     "title": "Portfolio of B.W. Tjepkes",
     "section": "Latest Posts & Projects",
-    "text": "Latest Posts & Projects\nTheses items are hot off the press, well…freshly git push-ed anyway. Explore my latest posts and visualizations.\n\n\n\n\n\n\n\n\n\nAnthrome of the Upper Peninsula, MI\n\n\nVisualizing a series of land-use change in the Upper Peninsula.\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\nVisualizing some of the UP’s precip and temperature data.\n\n\n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nReviewing my contributions and learning outcomes for 2023.\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\nColorful visual of Great Lakes watersheds.\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Latest Posts & Projects\nTheses items are hot off the press, well…freshly git push-ed anyway. Explore my latest posts and visualizations.\n\n\n\n\n\n\n\n\n\nAnthrome of the Upper Peninsula, MI\n\n\nVisualizing a series of land-use change in the Upper Peninsula.\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\nVisualizing some of the UP’s precip and temperature data.\n\n\n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nReviewing my contributions and learning outcomes for 2023.\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\nColorful visual of Great Lakes watersheds.\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\nNationwide map showing ranges of a subset of ESA-listed species.\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home"
     ]
@@ -425,14 +425,21 @@
     "href": "gallery/endangered-species-stamp-collection-map/index.html",
     "title": "Endangered Species Stamp Map",
     "section": "",
-    "text": "Map Credit: Ben Tjepkes"
+    "text": "Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas."
   },
   {
     "objectID": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
     "href": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
     "title": "Endangered Species Stamp Map",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas. This map recently received 2nd Place in the Professional category of the 2023 GIS Certification Institute Map Contest."
+    "section": "",
+    "text": "Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas."
+  },
+  {
+    "objectID": "gallery/endangered-species-stamp-collection-map/index.html#final-result",
+    "href": "gallery/endangered-species-stamp-collection-map/index.html#final-result",
+    "title": "Endangered Species Stamp Map",
+    "section": "Final Result",
+    "text": "Final Result\nHere is the final map product that I submitted to the 2023 GIS Certification Institute Map Contest, where is won 2nd place in the professional category.\n\n\n\nMap Credit: Ben Tjepkes"
   },
   {
     "objectID": "gallery/canadian-ecoregion-map/index.html",
@@ -579,14 +586,21 @@
     "href": "gallery/bald-eagle-nest-selection-poster/index.html",
     "title": "Poster on Bald Eagle Nest Selection Research",
     "section": "",
-    "text": "Credit: Benjamin Tjepkes"
+    "text": "This poster was assembled in Microsoft PowerPoint using elements created in ArcGIS Pro, Microsoft Excel, and RStudio. The full details on this research can be found here: Bald Eagle Nest Site Selection Research Project."
   },
   {
     "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
     "href": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
     "title": "Poster on Bald Eagle Nest Selection Research",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis poster was assembled in Microsoft PowerPoint."
+    "section": "",
+    "text": "This poster was assembled in Microsoft PowerPoint using elements created in ArcGIS Pro, Microsoft Excel, and RStudio. The full details on this research can be found here: Bald Eagle Nest Site Selection Research Project."
+  },
+  {
+    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#final-result",
+    "href": "gallery/bald-eagle-nest-selection-poster/index.html#final-result",
+    "title": "Poster on Bald Eagle Nest Selection Research",
+    "section": "Final Result",
+    "text": "Final Result\nHere is the final poster that I presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium, earned highest honors.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/eagle-mountain-contour-map/index.html",

@@ -30,7 +30,7 @@
 <p>Here are my contributions to the challenge. Feel free to explore the details on each map product by clicking/tapping the map previews below. I was not able to create a map for every day, but this was my first time partaking in this challenge so I am happy with how many I created.</p>
 <div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702316387574" data-listing-date-modified-sort="1702706400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702316387574" data-listing-date-modified-sort="1702965600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
 <a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -69,7 +69,7 @@ Canadian Ecoregions Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1701266921252" data-listing-date-modified-sort="1702706400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1701266921252" data-listing-date-modified-sort="1702965600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
 <a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -95,7 +95,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1701810371117" data-listing-date-modified-sort="1702706400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1701810371117" data-listing-date-modified-sort="1702965600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
 <a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -134,7 +134,7 @@ Andes Mountains Elevation Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1701696810187" data-listing-date-modified-sort="1702706400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1701696810187" data-listing-date-modified-sort="1702965600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
 <a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -147,7 +147,7 @@ Forest Cover &amp; Happiness Bivariate Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1701267036623" data-listing-date-modified-sort="1702706400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1701267036623" data-listing-date-modified-sort="1702965600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -198,7 +198,7 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
 <figcaption>Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
 </figure>
 </div>
@@ -394,7 +394,7 @@ Occurrences.”</span> May 5, 2023. <a href="https://btjepkes.github.io/posts/in
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
 <figcaption>A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>

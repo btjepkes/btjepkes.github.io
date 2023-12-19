@@ -250,7 +250,7 @@ a {
 // Navbar
 
 .navbar {
-  box-shadow: 0 0 32px rgba(0,0,0,.4);
+  box-shadow: 0 0 32px rgba(53,210,144,.15);
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 	border-bottom: solid 3px #1e293b;
@@ -388,7 +388,7 @@ color: #e1bb48 !important;
 .quarto-secondary-nav .quarto-btn-toggle {
   color: #2b8aff;
   font-size: 1.2rem;
-  padding-top: 0.1em !important;
+  padding-top: 0.2em !important;
   padding-bottom: 0 !important;
 }
 
@@ -407,6 +407,11 @@ color: #e1bb48 !important;
 
 
 /* Search bar in side nav*/
+
+#quarto-search-results {
+  display: none;
+}
+
 
 .input-group-sm>.form-control,
 .input-group-sm>.form-select,
@@ -435,7 +440,8 @@ color: #000;
 @media (max-width: 991.98px) {
   nav.quarto-secondary-nav {
     border-bottom: 0;
-    background: white;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(8px);
     box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
 	0px 6.4px 14.4px rgba(0,0,0,0.132);
   }

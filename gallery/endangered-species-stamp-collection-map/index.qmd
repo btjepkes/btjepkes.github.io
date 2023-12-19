@@ -2,20 +2,24 @@
 title: "Endangered Species Stamp Map"
 subtitle: "Nationwide map showing ranges of a subset of ESA-listed species."
 date: "5-23-2023"
+date-modified: today
 categories:
   - Map Gallery
   - United States
   - Endangered Species
-abstract: This map was produced as a creative project in celebration of the [50th anniversery of the U.S. Endangered Species Act](https://www.fws.gov/esa50). It shows several of the limited edition endangered species stamps from the USPS and where the USFWS-determined ranges of those species are located.
+description: This map was produced as a creative project in celebration of the [50th anniversery of the U.S. Endangered Species Act](https://www.fws.gov/esa50). It shows several of the limited edition endangered species stamps from the USPS and where the USFWS-determined ranges of those species are located.
 image: img-map-endangeredstamps.png
 image-alt: "Map showing the United States and several ranges of endangrered species."
 aliases: 
   - gallery-map-seven.html
 ---
 
-![Map Credit: Ben Tjepkes](img-map-endangeredstamps.png)
-
-
 ## Tools & Workflow
 
-Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas. This map recently received 2nd Place in the Professional category of the [2023 GIS Certification Institute Map Contest](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners).
+Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas.
+
+## Final Result
+
+Here is the final map product that I submitted to the [2023 GIS Certification Institute Map Contest](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners), where is won 2nd place in the professional category.
+
+![Map Credit: Ben Tjepkes](img-map-endangeredstamps.png)

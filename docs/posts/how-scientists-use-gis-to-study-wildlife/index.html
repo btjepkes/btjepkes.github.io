@@ -105,22 +105,43 @@ document.addEventListener("DOMContentLoaded", function() {
             margin: 0;
             padding: 0;
         }
-
-        #uni-banner-img {
-            width: 100%;
+        
+        #uni-banner {
+            background: #fff;
+            background-image: url(https://images-assets.nasa.gov/image/PIA10620/PIA10620~orig.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            position: relative;
+            overflow: hidden;
             min-height: 230px;
-            height: calc(32.5vh - 60px);
-            display: block;
-            object-fit: cover;
-            object-position: 50% 25%;
-            opacity: 0.85;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        
+        #uni-banner > svg {
+            display: inline-block;
+            vertical-align: bottom;
+            transform-origin: bottom;
+            animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+        }
+        
+        @keyframes animateWave {
+              0% {
+                transform: scale(1,0);
+              }
+              100% {
+                transform: scale(1,1);
+              }
         }
 
     </style>
 
 
 
-    <img id="uni-banner-img" src="https://images-assets.nasa.gov/image/PIA10620/PIA10620~orig.jpg" alt="Banner Image">
+  <div id="uni-banner">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 250"><path fill="#0f172a" fill-opacity="1" d="M0,160L14.1,144C28.2,128,56,96,85,101.3C112.9,107,141,149,169,154.7C197.6,160,226,128,254,133.3C282.4,139,311,181,339,202.7C367.1,224,395,224,424,213.3C451.8,203,480,181,508,170.7C536.5,160,565,160,593,154.7C621.2,149,649,139,678,154.7C705.9,171,734,213,762,229.3C790.6,245,819,235,847,224C875.3,213,904,203,932,197.3C960,192,988,192,1016,160C1044.7,128,1073,64,1101,80C1129.4,96,1158,192,1186,192C1214.1,192,1242,96,1271,74.7C1298.8,53,1327,107,1355,112C1383.5,117,1412,75,1426,53.3L1440,32L1440,320L1425.9,320C1411.8,320,1384,320,1355,320C1327.1,320,1299,320,1271,320C1242.4,320,1214,320,1186,320C1157.6,320,1129,320,1101,320C1072.9,320,1045,320,1016,320C988.2,320,960,320,932,320C903.5,320,875,320,847,320C818.8,320,791,320,762,320C734.1,320,706,320,678,320C649.4,320,621,320,593,320C564.7,320,536,320,508,320C480,320,452,320,424,320C395.3,320,367,320,339,320C310.6,320,282,320,254,320C225.9,320,198,320,169,320C141.2,320,113,320,85,320C56.5,320,28,320,14,320L0,320Z"></path></svg>
+    </div>
 
 
 
@@ -332,7 +353,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2023-12-16</p>
+      <p class="date-modified">2023-12-19</p>
     </div>
   </div>
     
@@ -399,7 +420,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
 <figcaption>A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>
@@ -875,7 +896,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","loop":false});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom"});</script>
 
 
 
