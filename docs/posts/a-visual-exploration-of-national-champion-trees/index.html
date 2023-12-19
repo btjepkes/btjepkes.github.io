@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function() {
             background-attachment: scroll;
             position: relative;
             overflow: hidden;
-            min-height: 230px;
+            min-height: 30vh;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
             display: inline-block;
             vertical-align: bottom;
             transform-origin: bottom;
-            filter: drop-shadow(0 -6px #2b8aff);
+            filter: drop-shadow(0 -4px #2b8aff);
             animation: animateWave 1500ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
             margin-bottom: -1px;
         }
@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   <div id="uni-banner">
-<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320"><path fill="#0f172a" fill-opacity="1" d="M0,192L60,213.3C120,235,240,277,360,272C480,267,600,213,720,208C840,203,960,245,1080,256C1200,267,1320,245,1380,234.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+<svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewbox="0 0 1440 130" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><lineargradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(15, 23, 42, 1)" offset="0%"></stop><stop stop-color="rgba(15, 23, 42, 1)" offset="100%"></stop></lineargradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,13L205.7,104L411.4,91L617.1,65L822.9,65L1028.6,117L1234.3,91L1440,13L1645.7,65L1851.4,117L2057.1,0L2262.9,39L2468.6,117L2674.3,91L2880,91L3085.7,0L3291.4,13L3497.1,0L3702.9,78L3908.6,91L4114.3,39L4320,65L4525.7,26L4731.4,52L4937.1,78L4937.1,130L4731.4,130L4525.7,130L4320,130L4114.3,130L3908.6,130L3702.9,130L3497.1,130L3291.4,130L3085.7,130L2880,130L2674.3,130L2468.6,130L2262.9,130L2057.1,130L1851.4,130L1645.7,130L1440,130L1234.3,130L1028.6,130L822.9,130L617.1,130L411.4,130L205.7,130L0,130Z"></path></svg>
     </div>
 
 
@@ -839,7 +839,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","loop":false});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom"});</script>
 
 
 

@@ -55,7 +55,7 @@ website:
     - title: "Main Nav"
       style: floating
       pinned: true
-      background: "#1e293b"
+      background: "#0f172a"
       contents: 
         - text: Site Navigation
         - href: index.qmd
@@ -123,7 +123,7 @@ format:
     code-link: true
     code-overflow: scroll
     grid:
-      sidebar-width: 250px
+      sidebar-width: 200px
       body-width: 1080px
       gutter-width: 5vw
     filters: 
