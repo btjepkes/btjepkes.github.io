@@ -1,5 +1,5 @@
 ---
-title: "Anthrome of the Upper Peninsula, MI"
+title: "Anthrome Map of the Upper Peninsula, MI"
 subtitle: "Visualizing a series of land-use change in the Upper Peninsula."
 date: 12/16/2023
 date-modified: today

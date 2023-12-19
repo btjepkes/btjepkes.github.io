@@ -177,7 +177,7 @@
     "href": "index.html#latest-posts-projects",
     "title": "Portfolio of B.W. Tjepkes",
     "section": "Latest Posts & Projects",
-    "text": "Latest Posts & Projects\nTheses items are hot off the press, well…freshly git push-ed anyway. Explore my latest posts and visualizations.\n\n\n\n\n\n\n\n\n\nAnthrome of the Upper Peninsula, MI\n\n\nVisualizing a series of land-use change in the Upper Peninsula.\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\nVisualizing some of the UP’s precip and temperature data.\n\n\n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nReviewing my contributions and learning outcomes for 2023.\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\nColorful visual of Great Lakes watersheds.\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\nNationwide map showing ranges of a subset of ESA-listed species.\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Latest Posts & Projects\nTheses items are hot off the press, well…freshly git push-ed anyway. Explore my latest posts and visualizations.\n\n\n\n\n\n\n\n\n\nAnthrome Map of the Upper Peninsula, MI\n\n\nVisualizing a series of land-use change in the Upper Peninsula.\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\nVisualizing some of the UP’s precip and temperature data.\n\n\n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nReviewing my contributions and learning outcomes for 2023.\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\nColorful visual of Great Lakes watersheds.\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\nNationwide map showing ranges of a subset of ESA-listed species.\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home"
     ]
@@ -726,28 +726,28 @@
   {
     "objectID": "gallery/michigan-anthrome-map/index.html",
     "href": "gallery/michigan-anthrome-map/index.html",
-    "title": "Anthrome of the Upper Peninsula, MI",
+    "title": "Anthrome Map of the Upper Peninsula, MI",
     "section": "",
     "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome."
   },
   {
     "objectID": "gallery/michigan-anthrome-map/index.html#task-objectives",
     "href": "gallery/michigan-anthrome-map/index.html#task-objectives",
-    "title": "Anthrome of the Upper Peninsula, MI",
+    "title": "Anthrome Map of the Upper Peninsula, MI",
     "section": "",
     "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome."
   },
   {
     "objectID": "gallery/michigan-anthrome-map/index.html#tools-workflow",
     "href": "gallery/michigan-anthrome-map/index.html#tools-workflow",
-    "title": "Anthrome of the Upper Peninsula, MI",
+    "title": "Anthrome Map of the Upper Peninsula, MI",
     "section": "Tools & Workflow",
     "text": "Tools & Workflow\n\nData were downloaded from Anthromes 12K DGG Datasets.\nFigure production was completed in RStudio with several packages including ggplot, ggspatial, and tidyverse."
   },
   {
     "objectID": "gallery/michigan-anthrome-map/index.html#final-results",
     "href": "gallery/michigan-anthrome-map/index.html#final-results",
-    "title": "Anthrome of the Upper Peninsula, MI",
+    "title": "Anthrome Map of the Upper Peninsula, MI",
     "section": "Final Results",
     "text": "Final Results\nHere is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.\n\n\n\nCredit: Benjamin Tjepkes"
   },
