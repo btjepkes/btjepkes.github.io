@@ -104,7 +104,7 @@ kable(data)
 
 ## Exploring My Work
 
-This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, and visualization gallery. Feel free to also check out my about me page, my full curriculum vitae, and some helpful resources.
+This site hosts many of my professional and creative works. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more.
 
 ::: {#site-listings-2}
 :::
