@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
             background-attachment: scroll;
             position: relative;
             overflow: hidden;
-            min-height: 30vh;
+            min-height: 35vh;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -115,7 +115,6 @@ document.addEventListener("DOMContentLoaded", function() {
             display: inline-block;
             vertical-align: bottom;
             transform-origin: bottom;
-            filter: drop-shadow(0 -4px #2b8aff);
             animation: animateWave 1500ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
             margin-bottom: -1px;
         }
@@ -128,13 +127,30 @@ document.addEventListener("DOMContentLoaded", function() {
                 transform: scale(1,1);
               }
         }
+        
+        @media (max-width: 991.98px) {
+        
+        #uni-banner > svg {
+          height: 100px !important;
+        }
+        
+        }
 
     </style>
 
 
 
   <div id="uni-banner">
-<svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewbox="0 0 1440 130" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><lineargradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(15, 23, 42, 1)" offset="0%"></stop><stop stop-color="rgba(15, 23, 42, 1)" offset="100%"></stop></lineargradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,13L205.7,104L411.4,91L617.1,65L822.9,65L1028.6,117L1234.3,91L1440,13L1645.7,65L1851.4,117L2057.1,0L2262.9,39L2468.6,117L2674.3,91L2880,91L3085.7,0L3291.4,13L3497.1,0L3702.9,78L3908.6,91L4114.3,39L4320,65L4525.7,26L4731.4,52L4937.1,78L4937.1,130L4731.4,130L4525.7,130L4320,130L4114.3,130L3908.6,130L3702.9,130L3497.1,130L3291.4,130L3085.7,130L2880,130L2674.3,130L2468.6,130L2262.9,130L2057.1,130L1851.4,130L1645.7,130L1440,130L1234.3,130L1028.6,130L822.9,130L617.1,130L411.4,130L205.7,130L0,130Z"></path></svg>
+<svg width="100%" height="200px" viewbox="0 0 1440 56" preserveaspectratio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Waves/wave-bottom</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Waves/wave-bottom" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1440,18.6164191 L1440,56 L0,56 L0,19.4091149 C115.88527,18.914036 229.081162,52 655.578314,52 C1082.07547,52 1250.37725,17.9354374 1440,18.6164191 Z" id="wave" fill="#FFFFFF" opacity="0.5"></path>
+        <path d="M1440,0.616419131 L1440,56 L0,56 L0,6.40911495 C106.226448,5.95529994 313.375622,56 623.178314,56 C932.981007,56 1268.35502,-9.23705556e-14 1440,0.616419131 Z" id="wave" fill="#FFFFFF" opacity="0.25"></path>
+        <path d="M1440,31.6164191 L1440,56 L0,56 L0,35.4091149 C95.7633114,35 278.134957,56 578.778314,56 C879.421672,56 1135.89541,30.5243052 1440,31.6164191 L1440,31.6164191 Z" id="base" fill="#0f172a"></path>
+    </g>
+</svg>
     </div>
 
 
