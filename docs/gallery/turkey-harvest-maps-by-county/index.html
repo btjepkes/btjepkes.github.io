@@ -119,6 +119,7 @@ document.addEventListener("DOMContentLoaded", function() {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            z-index: -2;
         }
         
         #uni-banner > svg {
@@ -126,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function() {
             vertical-align: bottom;
             transform-origin: bottom;
             animation: animateWave 900ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-            margin-bottom: 0px;
+            margin-bottom: -1px;
         }
         
         @keyframes animateWave {
@@ -379,7 +380,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <h2 data-anchor-id="the-result">The Result</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-turkey-harvest-maps.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Turkey harvest maps. Credit: Ben Tjepkes"><img src="img-turkey-harvest-maps.png" class="img-fluid figure-img" alt="Turkey harvest maps. Credit: Ben Tjepkes"></a></p>
+<p><a href="img-turkey-harvest-maps.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Turkey harvest maps. Credit: Ben Tjepkes"><img src="img-turkey-harvest-maps.png" class="img-fluid figure-img" alt="Turkey harvest maps. Credit: Ben Tjepkes"></a></p>
 <figcaption>Turkey harvest maps. Credit: Ben Tjepkes</figcaption>
 </figure>
 </div>

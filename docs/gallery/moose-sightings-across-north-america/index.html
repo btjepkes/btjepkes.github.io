@@ -120,6 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            z-index: -2;
         }
         
         #uni-banner > svg {
@@ -127,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function() {
             vertical-align: bottom;
             transform-origin: bottom;
             animation: animateWave 900ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-            margin-bottom: 0px;
+            margin-bottom: -1px;
         }
         
         @keyframes animateWave {
@@ -852,7 +853,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox"});</script>
 
 
 

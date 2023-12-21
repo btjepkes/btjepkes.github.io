@@ -24,6 +24,7 @@ listing:
       - "contact.qmd"
     type: grid
     grid-columns: 3
+    grid-item-align: center
     fields:
       - title
       - subtitle
@@ -35,6 +36,7 @@ listing:
       - "research/index.qmd"
       - "resources/index.qmd"
     type: grid
+    grid-item-align: center
     grid-columns: 4
     image-height: 80px
     sort: [date]
@@ -62,9 +64,9 @@ listing:
 
 ::: {#intro-section}
 
-# Hello! My name is **Ben Tjepkes** and I am a wildlife ecologist who loves working with data and GIS.
+# Hello! My name is **Ben Tjepkes** and I am a wildlife ecologist and geographer who loves data.
 
-This is my online portfolio showcasing my professional and creative works. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more. 
+This is my online portfolio showcasing my professional and creative works. I am currently a **graduate student** at the University of Missouri studying **geographic information systems** in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more. 
 :::
 
 ::: {#site-listings-2 .column-body-outset}
