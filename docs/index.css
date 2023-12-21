@@ -1,11 +1,20 @@
 
+#title-block-header {
+  display: none;
+}
 
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 .table {
   margin-top: 10px;
   background:white;
   -webkit-box-shadow: 0px 0px 3px 0 rgba(0,0,0,0.1);
   box-shadow: 0px 0px 3px 0 rgba(0,0,0,0.1);
 }
+
 
 /*
 .quarto-grid-item {

@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function() {
             background-attachment: scroll;
             position: relative;
             overflow: hidden;
-            min-height: 35vh;
+            min-height: 30vh;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function() {
             display: inline-block;
             vertical-align: bottom;
             transform-origin: bottom;
-            animation: animateWave 1500ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+            animation: animateWave 900ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
             margin-bottom: -1px;
         }
         
@@ -138,11 +138,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 transform: scale(1,1);
               }
         }
-        
+
         @media (max-width: 991.98px) {
         
                 #uni-banner {
-            min-height: 25vh;
+            min-height: 20vh;
         }
         
         #uni-banner > svg {
@@ -394,7 +394,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <h2 data-anchor-id="final-result">Final Result</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-canadian-ecoregions.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-canadian-ecoregions.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-canadian-ecoregions.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Credit: Benjamin Tjepkes"><img src="img-canadian-ecoregions.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -854,7 +854,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":false});</script>
 
 
 

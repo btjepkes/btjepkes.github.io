@@ -130,7 +130,7 @@ $progress-height:               .5rem !default;
 
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald:wght@400;700;900');
 
 
 // Typography
@@ -145,7 +145,7 @@ body {
 
 
 h1 {
-  font-weight: 900;
+  font-weight: 700 !important;
   font-size: clamp(1.8em, 5vw, 2.9em);
   padding-bottom: 0em;
   line-height: 1.1em;
