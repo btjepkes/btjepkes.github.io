@@ -57,7 +57,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
@@ -92,34 +92,6 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-site-listings-2'] = new List('listing-site-listings-2', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-site-listings-3 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-site-listings-3'] = new List('listing-site-listings-3', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -194,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function() {
             vertical-align: bottom;
             transform-origin: bottom;
             animation: animateWave 900ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-            margin-bottom: -1px;
+            margin-bottom: 0px;
         }
         
         @keyframes animateWave {
@@ -328,8 +300,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 </header><div id="intro-section">
-<section id="hello-my-name-is-ben-tjepkes-and-i-am-a-wildlife-ecologist-and-budding-geographer-studying-gis." class="level1"><h1>Hello! My name is Ben Tjepkes and I am a wildlife <strong>ecologist</strong> and budding <strong>geographer</strong> studying GIS.</h1>
-<p>This is my online portfolio showcasing my professional and creative works. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more.</p>
+<section id="hello-my-name-is-ben-tjepkes-and-i-am-a-wildlife-ecologist-who-loves-working-with-data-and-gis." class="level1"><h1>Hello! My name is <strong>Ben Tjepkes</strong> and I am a wildlife ecologist who loves working with data and GIS.</h1>
+<p>This is my online portfolio showcasing my professional and creative works. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more.</p>
 </section>
 </div>
 <div id="listing-site-listings-2" class="column-body-outset quarto-listing quarto-listing-container-grid">
@@ -338,7 +310,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <a href="./posts/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./assets/img-geo-data-science.jpeg" class="thumbnail-image card-img" style="height: 100px;" alt="Image-of-trees."></p>
+<img src="./assets/img-geo-data-science.jpeg" class="thumbnail-image card-img" style="height: 80px;" alt="Image-of-trees."></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Blog Posts
@@ -354,7 +326,7 @@ Writings on ecology, geospatial, and data science.
 <a href="./gallery/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./assets/img-geospatial-cover.webp" class="thumbnail-image card-img" style="height: 100px;" alt="Image-of-pine-trees-on-blue-background."></p>
+<img src="./assets/img-geospatial-cover.webp" class="thumbnail-image card-img" style="height: 80px;" alt="Image-of-pine-trees-on-blue-background."></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Gallery
@@ -370,7 +342,7 @@ Maps, visualizations, reports, posters, and presentations.
 <a href="./resources/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./assets/img-world-overview.png" class="thumbnail-image card-img" style="height: 100px;" alt="Image-of-pine-trees-on-blue-background."></p>
+<img src="./assets/img-world-overview.png" class="thumbnail-image card-img" style="height: 80px;" alt="Image-of-pine-trees-on-blue-background."></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Helpful Resources
@@ -386,7 +358,7 @@ My favorite references for ecology, GIS, R, and more.
 <a href="./research/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./assets/BooneCoLiDAR.png" class="thumbnail-image card-img" style="height: 100px;" alt="Image-of-pine-trees-on-blue-background."></p>
+<img src="./assets/BooneCoLiDAR.png" class="thumbnail-image card-img" style="height: 80px;" alt="Image-of-pine-trees-on-blue-background."></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Research
@@ -403,13 +375,15 @@ Focusing on wildlife, spatial ecology, and GIS.
 No matching items
 </div>
 </div>
-<section id="my-brief-bio" class="level2"><h2 data-anchor-id="my-brief-bio">My Brief Bio</h2>
-<p>I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science.</p>
-<div id="listing-site-listings-1" class="quarto-listing quarto-listing-container-grid">
+<!-- ## My Brief Bio -->
+<!-- I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science. -->
+<div id="listing-site-listings-1" class="column-body-outset quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1699941600000" data-listing-file-modified-sort="1701698354106" data-listing-date-modified-sort="1703138400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="453">
 <a href="./about/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/img-ben-with-bear.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Image of Ben with an immobilized black bear at a den."></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 About Me
@@ -424,6 +398,8 @@ Learn about my career path and professional interests.
 <div class="g-col-1" data-index="1" data-listing-date-sort="1698642000000" data-listing-file-modified-sort="1701786465814" data-listing-date-modified-sort="1703138400000" data-listing-reading-time-sort="7" data-listing-word-count-sort="1289">
 <a href="./curriculum-vitae/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background."></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Curriculum vitae
@@ -438,6 +414,8 @@ A full look at my education and professional experience.
 <div class="g-col-1" data-index="2" data-listing-date-sort="1700460000000" data-listing-file-modified-sort="1700938320820" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
 <a href="./contact.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./assets/bg-color-rivers.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background."></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Links &amp; Contact
@@ -468,115 +446,16 @@ No matching items
 <!-- | **April 2023** | I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.                                                                                    | -->
 <!-- : {tbl-colwidths="\[20,80\]"} -->
 <!-- ::: -->
-</section><section id="latest-posts-projects" class="level2"><h2 data-anchor-id="latest-posts-projects">Latest Posts &amp; Projects</h2>
-<p>Theses items are hot off the press, well…freshly <code>git push</code>-ed anyway. Explore my latest posts and visualizations.</p>
-<div id="listing-site-listings-3" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1703016669536" data-listing-date-modified-sort="1703138400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
-<a href="./gallery/michigan-anthrome-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/michigan-anthrome-map/img-michigan-anthrome-map.png" class="thumbnail-image card-img" style="height: 100px;" alt="A map of the UP&amp;#039;s anthrome, with land use changes through time."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Anthrome Map of the Upper Peninsula, MI
-</h5>
-<div class="card-subtitle listing-subtitle">
-Visualizing a series of land-use change in the Upper Peninsula.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Data Gallery" data-listing-date-sort="1702188000000" data-listing-file-modified-sort="1702271254000" data-listing-date-modified-sort="1703138400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
-<a href="./gallery/michigan-climate-trends/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/michigan-climate-trends/img-plot-ppt.png" class="thumbnail-image card-img" style="height: 100px;" alt="A chart of precipitation trends."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Climate Trends of the Upper Peninsula, MI
-</h5>
-<div class="card-subtitle listing-subtitle">
-Visualizing some of the UP’s precip and temperature data.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="mapping" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702316070799" data-listing-date-modified-sort="1703138400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
-<a href="./posts/30-day-map-challenge-2023/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/30-day-map-challenge-2023/img-30dmc-my2023.png" class="thumbnail-image card-img" style="height: 100px;" alt="An image showing all my contribution maps."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-30DayMapChallenge - 2023 Contributions
-</h5>
-<div class="card-subtitle listing-subtitle">
-Reviewing my contributions and learning outcomes for 2023.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Watershed" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1700451508000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
-<a href="./gallery/great-lakes-watershed-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/great-lakes-watershed-map/img-map-11.jpg" class="thumbnail-image card-img" style="height: 100px;" alt="Map of Great Lakes watersheds and their pour points."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Great Lakes Watersheds Map
-</h5>
-<div class="card-subtitle listing-subtitle">
-Colorful visual of Great Lakes watersheds.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Map Gallery,United States,Endangered Species" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1703003767609" data-listing-date-modified-sort="1703138400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
-<a href="./gallery/endangered-species-stamp-collection-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./gallery/endangered-species-stamp-collection-map/img-map-endangeredstamps.png" class="thumbnail-image card-img" style="height: 100px;" alt="Map showing the United States and several ranges of endangrered species."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Endangered Species Stamp Map
-</h5>
-<div class="card-subtitle listing-subtitle">
-Nationwide map showing ranges of a subset of ESA-listed species.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Wildlife,GIS" data-listing-date-sort="1679806800000" data-listing-file-modified-sort="1701384152293" data-listing-date-modified-sort="1703138400000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1075">
-<a href="./posts/how-scientists-use-gis-to-study-wildlife/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/how-scientists-use-gis-to-study-wildlife/img-001.svg" class="thumbnail-image card-img" style="height: 100px;" alt="Image-of-a-map."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How Scientists Use GIS to Study Wildlife
-</h5>
-<div class="card-subtitle listing-subtitle">
-Exploring use cases of geospatial technologies in wildlife conservation.
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<!-- ## Latest Posts & Projects -->
+<!-- Theses items are hot off the press, well...freshly `git push`-ed anyway. Explore my latest posts and visualizations. -->
+<div id="site-listings-3" class="column-body-outset">
+
 </div>
 
 
 
-</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+
+</main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");

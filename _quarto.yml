@@ -29,7 +29,7 @@ website:
     version: 4
   navbar:
     logo: "assets/logo-051933.png"
-    pinned: true
+    pinned: false
     right:
       - icon: house-fill
         href: index.html

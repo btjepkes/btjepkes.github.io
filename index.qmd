@@ -24,10 +24,10 @@ listing:
       - "contact.qmd"
     type: grid
     grid-columns: 3
-    image-height: 250px
     fields:
       - title
       - subtitle
+      - image
   - id: site-listings-2
     contents:
       - "gallery/index.qmd"
@@ -36,48 +36,47 @@ listing:
       - "resources/index.qmd"
     type: grid
     grid-columns: 4
-    image-height: 100px
+    image-height: 80px
     sort: [date]
     fields:
       - title
       - subtitle
       - image
-  - id: site-listings-3
-    contents:
-      - "gallery/michigan-climate-trends/index.qmd"
-      - "posts/30-day-map-challenge-2023/index.qmd"
-      - "gallery/great-lakes-watershed-map/index.qmd"
-      - "gallery/michigan-anthrome-map/index.qmd"
-      - "posts/how-scientists-use-gis-to-study-wildlife/index.qmd"
-      - "gallery/endangered-species-stamp-collection-map/index.qmd"
-    type: grid
-    grid-columns: 3
-    image-height: 100px
-    sort: [date desc]
-    fields:
-      - title
-      - subtitle
-      - image
+  # - id: site-listings-3
+  #   contents:
+  #     - "gallery/michigan-climate-trends/index.qmd"
+  #     - "posts/30-day-map-challenge-2023/index.qmd"
+  #     - "gallery/great-lakes-watershed-map/index.qmd"
+  #     - "gallery/michigan-anthrome-map/index.qmd"
+  #     - "posts/how-scientists-use-gis-to-study-wildlife/index.qmd"
+  #     - "gallery/endangered-species-stamp-collection-map/index.qmd"
+  #   type: grid
+  #   grid-columns: 4
+  #   image-height: 100px
+  #   sort: [date desc]
+  #   fields:
+  #     - title
+  #     - subtitle
+  #     - image
 ---
 
 ::: {#intro-section}
 
-# Hello! My name is Ben Tjepkes and I am a wildlife **ecologist** and budding **geographer** studying GIS.
+# Hello! My name is **Ben Tjepkes** and I am a wildlife ecologist who loves working with data and GIS.
 
-This is my online portfolio showcasing my professional and creative works. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more.
-
+This is my online portfolio showcasing my professional and creative works. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more. 
 :::
 
 ::: {#site-listings-2 .column-body-outset}
 :::
 
 
-## My Brief Bio
+<!-- ## My Brief Bio -->
 
-I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science.
+<!-- I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science. -->
 
 
-::: {#site-listings-1 }
+::: {#site-listings-1 .column-body-outset}
 :::
 
 <!-- *Below are some of my recent professional activities.* -->
@@ -117,9 +116,9 @@ kable(data)
 <!-- ::: -->
 
 
-## Latest Posts & Projects
+<!-- ## Latest Posts & Projects -->
 
-Theses items are hot off the press, well...freshly `git push`-ed anyway. Explore my latest posts and visualizations.
+<!-- Theses items are hot off the press, well...freshly `git push`-ed anyway. Explore my latest posts and visualizations. -->
 
-::: {#site-listings-3}
+::: {#site-listings-3 .column-body-outset}
 :::

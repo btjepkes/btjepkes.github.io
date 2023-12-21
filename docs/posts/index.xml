@@ -198,7 +198,7 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
 <figcaption>Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
 </figure>
 </div>
@@ -394,7 +394,7 @@ Occurrences.”</span> May 5, 2023. <a href="https://btjepkes.github.io/posts/in
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
 <figcaption>A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>
