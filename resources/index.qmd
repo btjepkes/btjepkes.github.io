@@ -1,6 +1,6 @@
 ---
 title: "Helpful Resources"
-subtitle: "for Coding, GIS, and Beyond"
+subtitle: "**for Coding, GIS, and Beyond**"
 description: "This page contains a repository of technical tutorials, personal blogs, ebooks, and other websites that I find myself consistently referring back to for my technical works. I have also included some of my favorite data sources and works from which I draw inspiration."
 # date: 2023-11-14
 # date-modified: today

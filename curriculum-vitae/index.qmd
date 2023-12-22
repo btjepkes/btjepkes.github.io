@@ -1,6 +1,6 @@
 ---
 title: "Curriculum vitae"
-subtitle: of my Experience.
+subtitle: "**Outlining my Experience**"
 image: ../assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg
 image-alt: Image-of-pine-trees-on-blue-background.
 # date: 2023-10-30

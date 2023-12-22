@@ -1,6 +1,6 @@
 ---
 title: "Links & Contact"
-subtitle: "for Inquires or Comments"
+subtitle: "**for Inquires or Comments**"
 abstract: "This page provides links for all my social profiles and a contact form."
 search: false
 # date: 2023-11-20

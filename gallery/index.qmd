@@ -1,6 +1,6 @@
 ---
 title: "My Gallery"
-subtitle: "of Maps, Data Visuals, and More"
+subtitle: "**of Maps and Other Visuals**"
 # date: 2023/11/14
 # date-modified: today
 author: ""

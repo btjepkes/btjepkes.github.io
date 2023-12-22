@@ -71,8 +71,6 @@ website:
             - icon: 3-square
               href: posts/index.qmd
               text: My Blog Posts
-              contents: 
-                auto: "posts/*/*qmd"
             - icon: 4-square
               href: gallery/index.qmd
               text: My Gallery
