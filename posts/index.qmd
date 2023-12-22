@@ -1,8 +1,8 @@
 ---
-title: "My Blog Posts **on Ecology, GIS, Etc.**"
+title: "My Blog Posts"
 title-meta: "My Blog Posts"
 pagetitle: "Blog Posts | B.W. Tjepkes"
-#subtitle: Writings on ecology, geospatial, and data science.
+subtitle: "on Ecology and Geospatial"
 #date: 2022-10-16
 #date-modified: today
 author: ""
@@ -24,10 +24,11 @@ listing:
     sort: "date desc"
     filter-ui: [title, subtitle, description, category]
     sort-ui: [title, date]
+    max-description-length: 100
     fields: 
       - image
       - title
-      - subtitle
+      - description
       - author
       - date
 ---

@@ -1,10 +1,11 @@
 ---
 title: "Curriculum vitae"
-subtitle: A full look at my education and professional experience.
+subtitle: of my Experience.
 image: ../assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg
 image-alt: Image-of-pine-trees-on-blue-background.
-date: 2023-10-30
-date-modified: today
+# date: 2023-10-30
+# date-modified: today
+author: ""
 description: "This page provides information on my formal education, recent professional experience, and professional skillset. Please also check out my [full CV](Tjepkes_CV_20231030_Web.pdf)."
 format:
   html:

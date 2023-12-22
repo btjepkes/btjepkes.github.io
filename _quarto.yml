@@ -64,21 +64,27 @@ website:
           contents: 
             - icon: 1-square
               href: about/index.qmd
+              text: About Me
             - icon: 2-square
               href: curriculum-vitae/index.qmd
+              text: Curriculum Vitae
             - icon: 3-square
               href: posts/index.qmd
               text: My Blog Posts
+              contents: 
+                auto: "posts/*/*qmd"
             - icon: 4-square
               href: gallery/index.qmd
               text: My Gallery
             - icon: 5-square
               href: research/index.qmd
+              text: My Research
             - icon: 6-square
               href: resources/index.qmd
               text: Helpful Resources
             - icon: 7-square
               href: contact.qmd
+              text: Links & Contact
 
   page-footer:
     center: >-
@@ -118,7 +124,7 @@ format:
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
-    title-block-banner: false
+    title-block-banner: true
     title-block-categories: false
     anchor-sections: false
     highlight-style: github
@@ -129,6 +135,7 @@ format:
       sidebar-width: 200px
       body-width: 1080px
       gutter-width: 5vw
+      margin-width: 200px
     filters: 
       - lightbox
     lightbox: auto

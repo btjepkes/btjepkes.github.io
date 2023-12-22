@@ -1,6 +1,6 @@
 ---
-title: "My Research **in Spatial Ecology and GIS**"
-#subtitle: Focusing on wildlife, spatial ecology, and GIS.
+title: "My Research"
+subtitle: in Spatial Ecology and GIS
 title-block-banner: true
 image: ../assets/BooneCoLiDAR.png
 image-alt: Image-of-pine-trees-on-blue-background.

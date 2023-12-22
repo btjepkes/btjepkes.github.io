@@ -1,6 +1,6 @@
 ---
-title: "About Me **and My Professional Pathway**"
-#subtitle: "Learn about my career path and professional interests."
+title: "About Me"
+subtitle: "and My Professional Pathway"
 image: ../assets/img-ben-with-bear.jpg
 image-alt: "Image of Ben with an immobilized black bear at a den."
 keywords: about, about me

@@ -367,6 +367,11 @@ nav .nav-item:not(.compact) {
 
 // SIDEBAR
 
+.sidebar-section .depth2 {
+  display: none;
+}
+
+
 .sidebar a.active {
   color: #35d290;
 }
@@ -620,14 +625,19 @@ color: #000;
 
 .quarto-grid-item .card-title {
   font-weight: 700;
-  margin-bottom: 10px;
-  text-transform: lowercase;
+  margin-bottom: 8px;
 }
 
 .quarto-grid-item .card-subtitle {
   line-height: 1.3;
-  color: #f3f1eb;
-  opacity: 0.3;
+  color: #35d290;
+  text-transform: lowercase;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.quarto-grid-item .listing-description {
+  opacity: 0.5;
 }
 
 .quarto-grid-item p.card-img-top {

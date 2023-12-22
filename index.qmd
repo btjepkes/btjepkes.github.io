@@ -27,6 +27,7 @@ listing:
     grid-item-align: center
     fields:
       - title
+      - subtitle
       - image
   - id: site-listings-2
     contents:
@@ -41,6 +42,7 @@ listing:
     sort: [date]
     fields:
       - title
+      - subtitle
       - image
 ---
 
