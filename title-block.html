@@ -1,6 +1,6 @@
 <header id="title-block-header">
   
-  <ol class="breadcrumb">$date$</ol>
+  <div class="date">$date$</div>
 
   <div class="title-area">
     $if(title)$<h1 class="title">$title$ $subtitle$</h1>$endif$
@@ -8,17 +8,6 @@
     
   <div class="header-content-container">  
   <div class="post-meta">
-    
-    <div class="post-meta-meta">
-      
-        $if(author)$
-          <p class="author">Created by:<br>$author$</p>
-        $endif$
-        
-        $if(date)$
-          <p class="date">Last updated:<br>$date$</p>
-        $endif$
-    </div>
     
     $if(abstract)$
       <div class="abstract">

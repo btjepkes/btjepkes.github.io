@@ -22,10 +22,10 @@ listing:
       - "about/index.qmd"
       - "curriculum-vitae/index.qmd"
       - "contact.qmd"
-      - title: "**Latest Post:** <br><br> My 2023 Contributions for the #30DayMapChallenge"
-        path: posts/30-day-map-challenge-2023/
+      # - title: "**Latest Post:** <br><br> My 2023 Contributions for the #30DayMapChallenge"
+      #   path: posts/30-day-map-challenge-2023/
     type: grid
-    grid-columns: 4
+    grid-columns: 3
     grid-item-align: center
     fields:
       - title

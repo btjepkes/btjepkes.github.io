@@ -147,7 +147,7 @@
     "href": "index.html",
     "title": "Portfolio of B.W. Tjepkes Integrating ecology and geospatial science for nature conservation.",
     "section": "",
-    "text": "Hello! My name is Ben Tjepkes and I am a dedicated wildlife ecologist and geographer.\nThis is my online portfolio showcasing my professional and creative works. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more.\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and Other Visuals\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\nLatest Post:  My 2023 Contributions for the #30DayMapChallenge\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Career Pathway\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nOutlining my Experience\n\n\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nfor Inquires or Comments\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Hello! My name is Ben Tjepkes and I am a dedicated wildlife ecologist and geographer.\nThis is my online portfolio showcasing my professional and creative works. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more.\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and Other Visuals\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Career Pathway\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nOutlining my Experience\n\n\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nfor Inquires or Comments\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home"
     ]
@@ -696,28 +696,28 @@
   {
     "objectID": "gallery/michigan-anthrome-map/index.html",
     "href": "gallery/michigan-anthrome-map/index.html",
-    "title": "Anthrome Map of the Upper Peninsula, MI Visualizing a series of land-use change in the Upper Peninsula.",
+    "title": "Anthrome Map of the Upper Peninsula, MI ",
     "section": "",
     "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome."
   },
   {
     "objectID": "gallery/michigan-anthrome-map/index.html#task-objectives",
     "href": "gallery/michigan-anthrome-map/index.html#task-objectives",
-    "title": "Anthrome Map of the Upper Peninsula, MI Visualizing a series of land-use change in the Upper Peninsula.",
+    "title": "Anthrome Map of the Upper Peninsula, MI ",
     "section": "",
     "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome."
   },
   {
     "objectID": "gallery/michigan-anthrome-map/index.html#tools-workflow",
     "href": "gallery/michigan-anthrome-map/index.html#tools-workflow",
-    "title": "Anthrome Map of the Upper Peninsula, MI Visualizing a series of land-use change in the Upper Peninsula.",
+    "title": "Anthrome Map of the Upper Peninsula, MI ",
     "section": "Tools & Workflow",
     "text": "Tools & Workflow\n\nData were downloaded from Anthromes 12K DGG Datasets.\nFigure production was completed in RStudio with several packages including ggplot, ggspatial, and tidyverse."
   },
   {
     "objectID": "gallery/michigan-anthrome-map/index.html#final-results",
     "href": "gallery/michigan-anthrome-map/index.html#final-results",
-    "title": "Anthrome Map of the Upper Peninsula, MI Visualizing a series of land-use change in the Upper Peninsula.",
+    "title": "Anthrome Map of the Upper Peninsula, MI ",
     "section": "Final Results",
     "text": "Final Results\nHere is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.\n\n\n\nCredit: Benjamin Tjepkes"
   },
@@ -955,21 +955,21 @@
   {
     "objectID": "posts/interactive-heatmap-of-gbif-occurrences/index.html",
     "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html",
-    "title": "Interactive Heatmap of GBIF Occurrences ",
+    "title": "Interactive Heatmap of GBIF Occurrences To Explore concentrations of Greater sage grouse records.",
     "section": "",
     "text": "The Greater sage grouse (Centrocercus urophasianus) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka/USFWS\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\n\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
   },
   {
     "objectID": "posts/interactive-heatmap-of-gbif-occurrences/index.html#data-background",
     "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html#data-background",
-    "title": "Interactive Heatmap of GBIF Occurrences ",
+    "title": "Interactive Heatmap of GBIF Occurrences To Explore concentrations of Greater sage grouse records.",
     "section": "",
     "text": "The Greater sage grouse (Centrocercus urophasianus) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka/USFWS\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\n\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
   },
   {
     "objectID": "posts/interactive-heatmap-of-gbif-occurrences/index.html#workflow",
     "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html#workflow",
-    "title": "Interactive Heatmap of GBIF Occurrences ",
+    "title": "Interactive Heatmap of GBIF Occurrences To Explore concentrations of Greater sage grouse records.",
     "section": "Workflow",
     "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\n1# install.packages(\"rgbif\")\nlibrary(rgbif)\n2# install.packages(\"leaflet\")\nlibrary(leaflet)\n3# install.packages(\"leaflet.extras\")\nlibrary(leaflet.extras)\n\n1\n\nFor accessing GBIF data. Install if necessary.\n\n2\n\nFor mapping data interactively. Install if necessary.\n\n3\n\nFor the heatmap functionality. Install if necessary.\n\n\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States. Using the taxonomic name for the species, we can double check the metadata before moving forward.\n1grouse_info &lt;- name_backbone(\"Centrocercus urophasianus\")\n2grouse_info\n\n1\n\nThis function allows us to see the taxonomic information for our focal species.\n\n2\n\nThis prints that information to the console.\n\n\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords &lt;- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nNow that the coordinates of each record are stored as a spatial object, we can use the leaflet package to create an interactive map.\nleaflet(wyoming_coords) %&gt;% \n  addTiles() %&gt;%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
   },
