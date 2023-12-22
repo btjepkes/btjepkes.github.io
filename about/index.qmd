@@ -1,14 +1,16 @@
 ---
-title: "About Me"
-subtitle: "Learn about my career path and professional interests."
+title: "About Me **and My Professional Pathway**"
+#subtitle: "Learn about my career path and professional interests."
 image: ../assets/img-ben-with-bear.jpg
 image-alt: "Image of Ben with an immobilized black bear at a den."
 keywords: about, about me
 author-meta: Benjamin Tjepkes
-date: 2023-11-14
-date-modified: today
+title-block-banner: true
+author: ""
+# date: 2023-11-14
+# date-modified: today
 description-meta: "Learn about my career path and professional interests."
-description: "This page highlights my professional career path, including my work across the broad scopes of ecology and geospatial, as well as my higher education journey."
+description: "This page highlights my professional career path, including my **work across the broad scopes of ecology and geospatial**, as well as my higher education journey."
 listing:
   - id: site-listings
     contents:

@@ -27,7 +27,6 @@ listing:
     grid-item-align: center
     fields:
       - title
-      - subtitle
       - image
   - id: site-listings-2
     contents:
@@ -42,29 +41,12 @@ listing:
     sort: [date]
     fields:
       - title
-      - subtitle
       - image
-  # - id: site-listings-3
-  #   contents:
-  #     - "gallery/michigan-climate-trends/index.qmd"
-  #     - "posts/30-day-map-challenge-2023/index.qmd"
-  #     - "gallery/great-lakes-watershed-map/index.qmd"
-  #     - "gallery/michigan-anthrome-map/index.qmd"
-  #     - "posts/how-scientists-use-gis-to-study-wildlife/index.qmd"
-  #     - "gallery/endangered-species-stamp-collection-map/index.qmd"
-  #   type: grid
-  #   grid-columns: 4
-  #   image-height: 100px
-  #   sort: [date desc]
-  #   fields:
-  #     - title
-  #     - subtitle
-  #     - image
 ---
 
 ::: {#intro-section}
 
-# Hello! My name is **Ben Tjepkes** and I am a wildlife ecologist and geographer who loves data.
+# Hello! My name is **Ben Tjepkes** and I am a dedicated wildlife ecologist and geographer.
 
 This is my online portfolio showcasing my professional and creative works. I am currently a **graduate student** at the University of Missouri studying **geographic information systems** in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more. 
 :::

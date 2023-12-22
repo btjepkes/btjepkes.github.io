@@ -68,12 +68,15 @@ website:
               href: curriculum-vitae/index.qmd
             - icon: 3-square
               href: posts/index.qmd
+              text: My Blog Posts
             - icon: 4-square
               href: gallery/index.qmd
+              text: My Gallery
             - icon: 5-square
               href: research/index.qmd
             - icon: 6-square
               href: resources/index.qmd
+              text: Helpful Resources
             - icon: 7-square
               href: contact.qmd
 
@@ -104,8 +107,8 @@ format:
     author:
       - name: Benjamin Tjepkes
         orcid: 0009-0002-5524-2675
-    # template-partials:
-    #   - title-block.html
+    template-partials:
+      - title-block.html
     theme: custom.scss
     date-format: iso
     abstract-title: "What Is This About?"

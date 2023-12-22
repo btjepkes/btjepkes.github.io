@@ -1,19 +1,21 @@
 ---
-title: "My Blog Posts"
-subtitle: Writings on ecology, geospatial, and data science.
-date: 2022-10-16
-date-modified: today
+title: "My Blog Posts **on Ecology, GIS, Etc.**"
+title-meta: "My Blog Posts"
+pagetitle: "Blog Posts | B.W. Tjepkes"
+#subtitle: Writings on ecology, geospatial, and data science.
+#date: 2022-10-16
+#date-modified: today
+author: ""
 description-meta: "Blog Posts - Explore my writings on ecological and geospatial data science."
+title-block-banner: true
 citation: false
 toc: false
 image: ../assets/img-geo-data-science.jpeg
 image-alt: "Image-of-trees."
-description: "This page is the home to all my writings, which generally covers some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. Some creative works also here."
+description: "This page is the home to all my technical and creative writings. The technical aspects generally covers some of my adventures whilst learning to become a multi-lingual user in **R, Python, SQL, and beyond**. Some creative works about **nature conservation, ecology, and other topics** are also included here."
 listing:
   - id: main-posts
     contents: "*.qmd"
-    # exclude:
-    #   keywords: The Conservation Companion
     feed: true
     type: grid
     grid-columns: 3
@@ -32,11 +34,4 @@ listing:
 
 ::: {#main-posts}
 :::
-
-<!-- ## TCC Archive -->
-
-<!-- One of my personal projects over the last several years was the development of a conservation-focused blog called, **The Conservation Companion**. While I am continuing to develop content for TCC when I can, I was unable to maintain the web hosting service since starting grad school. Therefore, *most of my TCC posts are archived here for the time being.* -->
-
-<!-- ::: {#tcc-posts} -->
-<!-- ::: -->
 

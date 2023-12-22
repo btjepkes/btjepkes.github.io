@@ -2,7 +2,7 @@
   {
     "objectID": "resources/index.html",
     "href": "resources/index.html",
-    "title": "Helpful Resources",
+    "title": "Helpful Resources for Ecology and Coding\n",
     "section": "",
     "text": "Some of my favorite GIS data sources can be found here.",
     "crumbs": [
@@ -13,7 +13,7 @@
   {
     "objectID": "resources/index.html#my-favorite-sources",
     "href": "resources/index.html#my-favorite-sources",
-    "title": "Helpful Resources",
+    "title": "Helpful Resources for Ecology and Coding\n",
     "section": "",
     "text": "Some of my favorite GIS data sources can be found here.",
     "crumbs": [
@@ -24,7 +24,7 @@
   {
     "objectID": "resources/index.html#resource-database",
     "href": "resources/index.html#resource-database",
-    "title": "Helpful Resources",
+    "title": "Helpful Resources for Ecology and Coding\n",
     "section": "Resource Database",
     "text": "Resource Database\nUse the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions.",
     "crumbs": [
@@ -35,7 +35,7 @@
   {
     "objectID": "resources/index.html#inspirational-works",
     "href": "resources/index.html#inspirational-works",
-    "title": "Helpful Resources",
+    "title": "Helpful Resources for Ecology and Coding\n",
     "section": "Inspirational Works",
     "text": "Inspirational Works\n\nJoshua Stevens",
     "crumbs": [
@@ -67,12 +67,12 @@
   {
     "objectID": "research/index.html",
     "href": "research/index.html",
-    "title": "My Research",
+    "title": "My Research in Spatial Ecology and GIS",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest-Site Selection\n\n\nAssessing bald eagle nests along the Upper Mississippi River, 1990-2012.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nAssessing the need for flow devices on wetlands in NE Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nDetermining sex-specific space-use for raccoons in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nAn assessment of ruffed grouse reproductive habitat in Northern Wisconsin.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nAn assessment of small mammals in Schmeekle Reserve, Wisconsin.\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
-      "My Research"
+      "My Research **in Spatial Ecology and GIS**"
     ]
   },
   {
@@ -106,7 +106,7 @@
   {
     "objectID": "posts/index.html",
     "href": "posts/index.html",
-    "title": "My Blog Posts",
+    "title": "My Blog Posts on Ecology, GIS, Etc.",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nReviewing my contributions and learning outcomes for 2023.\n\n\n\nBenjamin Tjepkes\n\n\n2023-11-01\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive Heatmap of GBIF Occurrences\n\n\nExploring concentrations of Greater sage grouse records.\n\n\n\nBenjamin Tjepkes\n\n\n2023-05-05\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nExploring use cases of geospatial technologies in wildlife conservation.\n\n\n\nBenjamin Tjepkes\n\n\n2023-03-26\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nUnderstanding the environment is the first step to appreciating it.\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-18\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protect Shores From Erosion\n\n\nUsing native plants and natural materials to prevent erosion.\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-16\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
@@ -147,7 +147,7 @@
     "href": "index.html",
     "title": "Portfolio of B.W. Tjepkes",
     "section": "",
-    "text": "Hello! My name is Ben Tjepkes and I am a wildlife ecologist and geographer who loves data.\nThis is my online portfolio showcasing my professional and creative works. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more.\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nWritings on ecology, geospatial, and data science.\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nMy favorite references for ecology, GIS, R, and more.\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nFocusing on wildlife, spatial ecology, and GIS.\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nLearn about my career path and professional interests.\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\nA full look at my education and professional experience.\n\n\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nReach out to me with inquires or comments.\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Hello! My name is Ben Tjepkes and I am a dedicated wildlife ecologist and geographer.\nThis is my online portfolio showcasing my professional and creative works. I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more.\n\n\n\n\n\n\n\n\n\n\n\nHelpful Resources for Ecology and Coding\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery of Visualizations & Maps\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts on Ecology, GIS, Etc.\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research in Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Me and My Professional Pathway\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum vitae\n\n\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home"
     ]
@@ -514,34 +514,34 @@
   {
     "objectID": "about/index.html",
     "href": "about/index.html",
-    "title": "About Me",
+    "title": "About Me and My Professional Pathway",
     "section": "",
-    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography.\nMy professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\n\n\n\nThis site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my professional CV for a comprehensive look.\n\n\n\n\n\n\n\n\nWritings on ecology, geospatial, and data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on wildlife, spatial ecology, and GIS.\n\n\n\n\n\n\n\nNo matching items",
+    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography.\nMy professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\n\n\n\nThis site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my professional CV for a comprehensive look.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
-      "About Me"
+      "About Me **and My Professional Pathway**"
     ]
   },
   {
     "objectID": "about/index.html#current-happenings",
     "href": "about/index.html#current-happenings",
-    "title": "About Me",
+    "title": "About Me and My Professional Pathway",
     "section": "",
-    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography.\nMy professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\n\n\n\nThis site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my professional CV for a comprehensive look.\n\n\n\n\n\n\n\n\nWritings on ecology, geospatial, and data science.\n\n\n\n\n\n\n\n\n\n\n\nMaps, visualizations, reports, posters, and presentations.\n\n\n\n\n\n\n\n\n\n\n\nFocusing on wildlife, spatial ecology, and GIS.\n\n\n\n\n\n\n\nNo matching items",
+    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography.\nMy professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\n\n\n\nThis site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my professional CV for a comprehensive look.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
-      "About Me"
+      "About Me **and My Professional Pathway**"
     ]
   },
   {
     "objectID": "about/index.html#my-professional-path",
     "href": "about/index.html#my-professional-path",
-    "title": "About Me",
+    "title": "About Me and My Professional Pathway",
     "section": "My Professional Path",
     "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\n\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\n\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program. Updates on my thesis work soon!",
     "crumbs": [
       "Home",
-      "About Me"
+      "About Me **and My Professional Pathway**"
     ]
   },
   {
@@ -652,9 +652,9 @@
   {
     "objectID": "gallery/index.html",
     "href": "gallery/index.html",
-    "title": "My Gallery",
+    "title": "My Gallery of Visualizations & Maps",
     "section": "",
-    "text": "Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. The following are a sampling of my these explorations.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. The following are a sampling of my these explorations.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "My Gallery"
@@ -663,9 +663,9 @@
   {
     "objectID": "gallery/index.html#map-gallery",
     "href": "gallery/index.html#map-gallery",
-    "title": "My Gallery",
+    "title": "My Gallery of Visualizations & Maps",
     "section": "",
-    "text": "Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. The following are a sampling of my these explorations.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. The following are a sampling of my these explorations.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "My Gallery"
@@ -674,9 +674,9 @@
   {
     "objectID": "gallery/index.html#data-viz-gallery",
     "href": "gallery/index.html#data-viz-gallery",
-    "title": "My Gallery",
+    "title": "My Gallery of Visualizations & Maps",
     "section": "Data Viz Gallery",
-    "text": "Data Viz Gallery\nIn addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts or other projects.\nTools & Technologies: R/RStudio, Python/Jupyter Notebook, Microsoft Excel\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Data Viz Gallery\nIn addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts or other projects.\nTools & Technologies: R/RStudio, Python/Jupyter Notebook, Microsoft Excel\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "My Gallery"
@@ -685,7 +685,7 @@
   {
     "objectID": "gallery/index.html#poster-report-gallery",
     "href": "gallery/index.html#poster-report-gallery",
-    "title": "My Gallery",
+    "title": "My Gallery of Visualizations & Maps",
     "section": "Poster & Report Gallery",
     "text": "Poster & Report Gallery\nMy most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues.\nTools & Technologies: R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [

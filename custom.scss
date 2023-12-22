@@ -71,7 +71,7 @@ $font-weight-bolder:          bolder !default;
 
 $font-weight-base:            $font-weight-normal !default;
 
-$line-height-base:            1.8 !default;
+$line-height-base:            1.6 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
@@ -145,15 +145,16 @@ body {
 
 
 h1 {
-  font-weight: 700 !important;
+  font-weight: 400 !important;
   font-size: clamp(1.8em, 5vw, 2.9em);
-  padding-bottom: 0em;
+  padding-bottom: 20px;
   line-height: 1.1em;
   font-family: Oswald;
 }
 
 h1 strong {
   color: #e64946;
+  font-weight: 400 !important;
 }
 
 .title {
@@ -163,6 +164,15 @@ h1 strong {
 h2 {
   color: #e1bb48;
   padding-top: 30px;
+  margin-bottom: 30px;
+  margin-left: -2px;
+  border-bottom: solid #e1bb48 1px;
+}
+
+h3 {
+  padding-bottom: 10px;
+  margin-left: -2px;
+  font-weight: 500;
 }
 
 .description {
@@ -480,8 +490,21 @@ color: #000;
 }*/
 
 #title-block-header {
-  padding-bottom: 20px;
+  text-align: center;
+  padding: 40px 20px 0px 20px;
+  max-width: 900px;
+  margin: auto;
 }
+
+
+ /*   @media (max-width: 991.98px) {
+      
+          #title-block-header {
+          margin-left: -5vw;
+          margin-right: -5vw;
+          margin-top: -5vw;
+        }
+    }*/
 
 #title-block-header.quarto-title-block.default .quarto-title-meta {
   display: grid;
@@ -603,8 +626,8 @@ color: #000;
 
 .quarto-grid-item .card-subtitle {
   line-height: 1.3;
-  color: #c1cfdb;
-  opacity: 0.5;
+  color: #f3f1eb;
+  opacity: 0.3;
 }
 
 .quarto-grid-item p.card-img-top {
@@ -681,7 +704,7 @@ figure > figcaption {
 }
 
 #quarto-content > * {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 main {

@@ -1,11 +1,13 @@
 ---
-title: "My Gallery"
-subtitle: "Maps, visualizations, reports, posters, and presentations."
-date: 2023/11/14
-date-modified: today
+title: "My Gallery **of Visualizations & Maps**"
+#subtitle: "Maps, visualizations, reports, posters, and presentations."
+# date: 2023/11/14
+# date-modified: today
+author: ""
+title-block-banner: true
 image: ../assets/img-geospatial-cover.webp
 image-alt: Image-of-pine-trees-on-blue-background.
-description: These are some of my latest maps and data visualizations from creative projects, work assignments, course projects, or contributions to Tidy Tuesday or similar.
+description: "These are some of my latest maps and data visualizations from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. These works are separated into sub-galleries ready for your exploration: [maps](#map-gallery) | [data viz](#data-viz-gallery) | [posters/reports](#poster-report-gallery)."
 listing:
   - id: gallery-listings-maps
     contents: "*.qmd"
@@ -13,7 +15,7 @@ listing:
       categories: Map Gallery
     type: grid
     grid-columns: 2
-    page-size: 50
+    max-items: 14
     grid-item-border: true
     sort: "date desc"
     image-height: 300px
@@ -28,7 +30,7 @@ listing:
       categories: Data Gallery
     type: grid
     grid-columns: 2
-    page-size: 50
+    max-items: 2
     grid-item-border: true
     sort: "date"
     image-height: 300px
