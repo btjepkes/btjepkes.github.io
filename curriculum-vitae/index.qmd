@@ -1,12 +1,12 @@
 ---
-title: "Curriculum vitae"
-subtitle: "**Outlining my Experience**"
+title: "Curriculum Vitae"
+subtitle: "**of my Career Experience**"
 image: ../assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg
 image-alt: Image-of-pine-trees-on-blue-background.
 # date: 2023-10-30
 # date-modified: today
 author: ""
-description: "This page provides information on my formal education, recent professional experience, and professional skillset. Please also check out my [full CV](Tjepkes_CV_20231030_Web.pdf)."
+description: "This page provides detailed overview of my formal education, recent professional experience, and professional skillset. Please also check out my [full CV](Tjepkes_CV_20231030_Web.pdf) for a comprehensive listing of conference presentations, professional involvement, and technical publications. My profile on [LinkedIn](https://www.linkedin.com/in/benjamintjepkes/) provides additional information as well."
 format:
   html:
     echo: false
@@ -15,7 +15,7 @@ format:
 
 ## Formal Education
 
-My post-secondary training and education is situated in **wildlife ecology** and **geography** at both the undergraduate and graduate levels. 
+My post-secondary training and education is situated at the crossroads of **wildlife ecology** and **geography** at both the undergraduate and graduate levels. These areas of specialization resonate with me due to their comprehensive and diverse nature of study, as well as their infusion of technological solutions.
 
 ```{=html}
 <div class="resume-container">
@@ -100,14 +100,16 @@ My work experience over the last eight years has been in the **ecological scienc
 
 ## Techincal Proficiencies
 
+My entire career has emphasized the use of technologies to organize, create, and present. I enjoy learning new skills and languages during personal and professional projects, making a point to try new workflows when I can.
+
 ```{=html}
 <div class="resume-container">
-        <img class="profile-image" src="../assets/img-computer.png" alt="Your Profile Image">
+        <img class="profile-image" src="../assets/img-geospatial-cover.webp" alt="Your Profile Image">
         <div class="resume-item">
-            <div class="employer">Cartographic Design</div>
+            <div class="employer">GIS & Cartography</div>
             <div class="position"></div>
             <div class="description">
-                <p>Adept at using R, ArcGIS Pro, and ArcGIS Online to create static and dynamic maps.</p>
+                <p>Spatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartographic design using QGIS and ArcGIS mapping software. Geoprocessing workflows in ArcGIS ModelBuilder and Jupyter Notebooks.</p>
             </div>
         </div>
 </div>
@@ -115,10 +117,21 @@ My work experience over the last eight years has been in the **ecological scienc
 <div class="resume-container">
         <img class="profile-image" src="../assets/img-computer.png" alt="Your Profile Image">
         <div class="resume-item">
-            <div class="employer">Data Viz & Reporting</div>
+            <div class="employer">Research & Reporting</div>
             <div class="position"></div>
             <div class="description">
-                <p>Proficient in data visualization and reproducible reporting using Quarto, R Markdown, Jupyter Notebooks.</p>
+                <p>Data entry, management, and analysis using Program R, Microsoft Excel, Access, and SQL Server. Reproducible report design and development in Microsoft Word, R Markdown, and Quarto. Knowledge of scientific methods and research project development.</p>
+            </div>
+        </div>
+</div>
+
+<div class="resume-container">
+        <img class="profile-image" src="../assets/img-data-viz.jpg" alt="Your Profile Image">
+        <div class="resume-item">
+            <div class="employer">Design & Visualization</div>
+            <div class="position"></div>
+            <div class="description">
+                <p>Front-end web development with HTML/CSS. Version control using git/GitHub. Proficient in data visualization for technical and creative projects using common R packages and Python libraries.</p>
             </div>
         </div>
 </div>

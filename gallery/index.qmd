@@ -6,7 +6,7 @@ subtitle: "**of Maps and Other Visuals**"
 author: ""
 image: ../assets/img-geospatial-cover.webp
 image-alt: Image-of-pine-trees-on-blue-background.
-description: "These are some of my latest maps and data visualizations from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. These works are separated into sub-galleries ready for your exploration: [maps](#map-gallery) | [data viz](#data-viz-gallery) | [posters/reports](#poster-report-gallery)."
+description: "These are some of my latest maps and data visualizations from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. Each item is separated into sub-galleries ready for your exploration: [maps](#map-gallery) | [data viz](#data-viz-gallery) | [posters/reports](#poster-report-gallery). My workflows span several technologies, but revolve around open-source products like RStudio, QGIS, and Quarto."
 listing:
   - id: gallery-listings-maps
     contents: "*.qmd"
@@ -59,7 +59,7 @@ listing:
 
 ## Map Gallery
 
-Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. The following are a sampling of my these explorations.
+Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me.
 
 **Tools & Technologies:** ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS
 
@@ -68,7 +68,7 @@ Many of my professional duties and personal free time are spent exploring the re
 
 ## Data Viz Gallery
 
-In addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts or other projects.
+In addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects.
 
 **Tools & Technologies:** R/RStudio, Python/Jupyter Notebook, Microsoft Excel
 
