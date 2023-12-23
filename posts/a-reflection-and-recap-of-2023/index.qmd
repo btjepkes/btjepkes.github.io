@@ -1,0 +1,17 @@
+---
+title: "2023: Reflection and Recap"
+#subtitle: "Visualizing some of the UP's precip and temperature data."
+date: 12/22/2023
+date-modified: today
+keywords:
+  - "2023"
+description: "This year has been a busy one."
+# image: img-plot-ppt.png
+# image-alt: "A chart of precipitation trends."
+# aliases:
+draft: TRUE
+---
+
+## Transitioning Moments
+
+## Proud Achievements

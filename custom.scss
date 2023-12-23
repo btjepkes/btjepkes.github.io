@@ -146,7 +146,7 @@ body {
 
 h1 {
   font-weight: 400 !important;
-  font-size: clamp(1.8em, 5vw, 2.9em);
+  font-size: clamp(2.3em, 5vw, 2.9em);
   padding-bottom: 20px;
   line-height: 1.2em;
   font-family: Oswald;
@@ -162,8 +162,6 @@ h1 strong {
 }
 
 h2 {
-  color: #e1bb48;
-  padding-top: 30px;
   margin-bottom: 30px;
   margin-left: -2px;
   border-bottom: solid #e1bb48 1px;
@@ -239,7 +237,7 @@ blockquote {
     }
 
 a {
-  color: #35d290;
+  color: #2b8aff;
 }
 
 
