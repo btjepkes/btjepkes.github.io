@@ -1,13 +1,13 @@
 ---
 title: "Andes Mountains Elevation Map"
-subtitle: "Mapping the elevation changes across the Andes of Peru."
+#subtitle: "Mapping the elevation changes across the Andes of Peru."
 date: 11/12/2023
 categories:
   - Map Gallery
   - South America
 keywords:
   - "#30DayMapChallenge2023"
-abstract: This contour map shows the elevation changes across the Peruvean Andes.
+description: Mapping the elevation changes across the Andes of Peru. This contour map shows the elevation changes across the Peruvean Andes. Produced using R within the RStudio environment.
 image: img-andes-mountains-map-thumb.png
 image-alt: "A contour map showing the elevation change in the Andes of Peru"
 # aliases:

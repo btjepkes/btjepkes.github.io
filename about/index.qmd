@@ -5,10 +5,8 @@ image: ../assets/img-ben-with-bear.jpg
 image-alt: "Image of Ben with an immobilized black bear at a den."
 keywords: about, about me
 author-meta: Benjamin Tjepkes
-title-block-banner: true
-author: ""
-# date: 2023-11-14
-# date-modified: today
+date-modified: today
+abstract: "I am a wildlife ecologist and geographer."
 description-meta: "Learn about my career path and professional interests."
 description: "This page highlights my professional career path, including my work across the broad scopes of **ecology and geospatial**, as well as my higher education journey."
 listing:
@@ -22,17 +20,14 @@ listing:
     fields: 
       - title
       - subtitle
+      - image
 ---
-
-<!-- ![](../assets/img-ben-work.png) -->
 
 ## Current Happenings
 
 ### Where Am I Now?
 
-I am a **graduate student** at the **University of Missouri** studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**.
-
-My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.
+I am a **graduate student** at the **University of Missouri** studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.
 
 
 ### Recent Works
@@ -51,8 +46,6 @@ This site is my professional portfolio that I try to keep updated. Please have a
 
 My professional career is based in **wildlife ecology and management**, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.
 
-![](../assets/img-ben-work.png)
-
 My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.
 
 
@@ -67,6 +60,12 @@ Driven by my growing fascination with geospatial technologies, I sought out oppo
 
 With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a **Master's degree in Geography** at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.
 
-![](../assets/LinkedInCover_version4.jpg)
-
 Through my Master's program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master's program. Updates on my thesis work soon!
+
+## Some Past Endeavors
+
+![](../assets/img-ben-work.png)
+
+![](../assets/img-bog-trees.JPG)
+
+![](../assets/img-ben-with-bear.jpg)

@@ -1,5 +1,5 @@
 ---
-title: "Anthrome Map **of the Upper Peninsula, MI**"
+title: "Anthrome Map of the Upper Peninsula, MI"
 #subtitle: "Visualizing a series of land-use change in the Upper Peninsula."
 date: 12/16/2023
 date-modified: today
@@ -7,7 +7,7 @@ categories:
   - Map Gallery
 keywords:
   - Michigan
-description: "This exploration was part of a recent assignment in my biogeography course where I was tasked to explore the biome and **anthrome** of a location I would like to live. Having selected the **Upper Peninsula**, here is a map of this region's **historic and current land-use**."
+description: "Visualizing a series of land-use change in the Upper Peninsula. This exploration was part of a recent assignment in my biogeography course where I was tasked to explore the biome and **anthrome** of a location I would like to live. Having selected the **Upper Peninsula**, here is a map of this region's **historic and current land-use**."
 image: img-michigan-anthrome-map.png
 image-alt: "A map of the UP's anthrome, with land use changes through time."
 # aliases:

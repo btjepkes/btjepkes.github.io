@@ -1,13 +1,13 @@
 ---
 title: "Moose Sightings Across North America"
-subtitle: "Mapping sighitng locations from GBIF of *Alces alces*."
+#subtitle: "Mapping sighitng locations from GBIF of *Alces alces*."
 date: 11/10/2023
 categories:
   - Map Gallery
   - North America
 keywords:
   - "#30DayMapChallenge2023"
-abstract: This point map shows the locations of moose sightings across North America from the GBIF database.
+description: Mapping sighting locations from GBIF of moose (*Alces alces*). This point map shows the locations of moose sightings across North America from the Global Biodiversity Information Facility database.
 image: img-moose-sightings-thumb.png
 image-alt: "A simple map showing the points that indicate moose sightings across a backdrop of North America."
 # aliases:

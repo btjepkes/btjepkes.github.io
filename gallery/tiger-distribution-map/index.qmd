@@ -1,6 +1,5 @@
 ---
 title: "Tiger Range and Conservation Landscapes"
-subtitle: "Historical and current *Panthera tigris* range map."
 date: 11/06/2023
 date-modified: today
 categories:
@@ -8,7 +7,8 @@ categories:
   - Asia
 keywords:
   - "#30DayMapChallenge2023"
-description: This map provides a continental look at the current and past spatial distribution of tigers. Related but of special focus, the Tiger Conservation Landscapes (TCLs) are also visualized.
+abstract: Historical and current *Panthera tigris* range map.
+description: This map provides a continental look at the current and past spatial distribution of tigers. Related but of special focus, the Tiger Conservation Landscapes (TCLs) are also visualized. This map was produced using several R packages within the RStudio environment.
 image: img-tiger-range-map.png
 image-alt: "A map of Asia showing the current and historical range of tigers."
 # aliases:

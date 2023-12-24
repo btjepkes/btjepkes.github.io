@@ -3,16 +3,15 @@ title: "My Blog Posts"
 title-meta: "My Blog Posts"
 pagetitle: "Blog Posts | B.W. Tjepkes"
 subtitle: "**on Ecology and Geospatial**"
-#date: 2022-10-16
-#date-modified: today
-author: ""
+date-modified: today
 description-meta: "Blog Posts - Explore my writings on ecological and geospatial data science."
 title-block-banner: true
 citation: false
 toc: false
 image: ../assets/img-geo-data-science.jpeg
 image-alt: "Image-of-trees."
-description: "This page is the home to all my technical and creative writings. The technical aspects generally covers some of my adventures whilst learning to become a multi-lingual user in **R, Python, SQL, and beyond**. Some creative works about **nature conservation, ecology, and other topics** are also included here."
+abstract: This page is the home to all my technical and creative writings.
+description: "The technical aspects generally cover some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included here."
 listing:
   - id: main-posts
     contents: "*.qmd"

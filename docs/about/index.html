@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <!-- content -->
 <header id="title-block-header">
   
-  <div class="date"></div>
+  <div class="title-date"></div>
 
   <div class="title-area">
     <h1 class="title">About Me <strong>and My Career Pathway</strong></h1>
@@ -290,9 +290,8 @@ document.addEventListener("DOMContentLoaded", function() {
   <div class="header-content-container">  
   <div class="post-meta">
     
-        
           <div class="description">
-        This page highlights my professional career path, including my work across the broad scopes of <strong>ecology and geospatial</strong>, as well as my higher education journey.
+        <div class="abstract" style="display: inline;">I am a wildlife ecologist and geographer.</div> This page highlights my professional career path, including my work across the broad scopes of <strong>ecology and geospatial</strong>, as well as my higher education journey.
       </div>
         
   </div>
@@ -388,6 +387,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <li><a href="#drawn-to-geospatial." id="toc-drawn-to-geospatial." class="nav-link" data-scroll-target="#drawn-to-geospatial.">02 | Drawn to geospatial.</a></li>
   <li><a href="#mastering-geography." id="toc-mastering-geography." class="nav-link" data-scroll-target="#mastering-geography.">03 | Mastering geography.</a></li>
   </ul></li>
+  <li><a href="#some-past-endeavors" id="toc-some-past-endeavors" class="nav-link" data-scroll-target="#some-past-endeavors">Some Past Endeavors</a></li>
   </ul>
 </nav>
     </div>
@@ -397,22 +397,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<!-- ![](../assets/img-ben-work.png) -->
 <section id="current-happenings" class="level2">
 <h2 data-anchor-id="current-happenings">Current Happenings</h2>
 <section id="where-am-i-now" class="level3">
 <h3 data-anchor-id="where-am-i-now">Where Am I Now?</h3>
-<p>I am a <strong>graduate student</strong> at the <strong>University of Missouri</strong> studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in <strong>ecology and biogeography</strong>.</p>
-<p>My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.</p>
+<p>I am a <strong>graduate student</strong> at the <strong>University of Missouri</strong> studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in <strong>ecology and biogeography</strong>. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.</p>
 </section>
 <section id="recent-works" class="level3">
 <h3 data-anchor-id="recent-works">Recent Works</h3>
 <p>This site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my <a href="../curriculum-vitae/index.html">professional CV</a> for a comprehensive look.</p>
 <div id="listing-site-listings" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1703275719273" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1703445916949" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="../posts/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../assets/img-geo-data-science.jpeg" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-trees.">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Blog Posts
@@ -424,9 +425,12 @@ My Blog Posts
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1703346278677" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1703443499261" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
 <a href="../gallery/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../assets/img-geospatial-cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background.">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Gallery
@@ -441,6 +445,9 @@ My Gallery
 <div class="g-col-1" data-index="2" data-listing-file-modified-sort="1703279668178" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../research/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../assets/BooneCoLiDAR.png" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background.">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Research
@@ -464,7 +471,6 @@ No matching items
 <section id="trained-as-a-biologist." class="level3 intro-heading">
 <h3 class="intro-heading" data-anchor-id="trained-as-a-biologist.">01 | Trained as a biologist.</h3>
 <p>My professional career is based in <strong>wildlife ecology and management</strong>, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.</p>
-<p><a href="../assets/img-ben-work.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../assets/img-ben-work.png" class="img-fluid"></a></p>
 <p>My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.</p>
 </section>
 <section id="drawn-to-geospatial." class="level3 intro-heading">
@@ -475,12 +481,17 @@ No matching items
 <section id="mastering-geography." class="level3 intro-heading">
 <h3 class="intro-heading" data-anchor-id="mastering-geography.">03 | Mastering geography.</h3>
 <p>With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a <strong>Master’s degree in Geography</strong> at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.</p>
-<p><a href="../assets/LinkedInCover_version4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="../assets/LinkedInCover_version4.jpg" class="img-fluid"></a></p>
 <p>Through my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program. Updates on my thesis work soon!</p>
-
-
-
 </section>
+</section>
+<section id="some-past-endeavors" class="level2">
+<h2 data-anchor-id="some-past-endeavors">Some Past Endeavors</h2>
+<p><a href="../assets/img-ben-work.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../assets/img-ben-work.png" class="img-fluid"></a></p>
+<p><a href="../assets/img-bog-trees.JPG" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="../assets/img-bog-trees.JPG" class="img-fluid"></a></p>
+<p><a href="../assets/img-ben-with-bear.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="../assets/img-ben-with-bear.jpg" class="img-fluid"></a></p>
+
+
+
 </section>
 
 </main> <!-- /main -->
@@ -947,7 +958,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":false});</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom"});</script>
 
 
 

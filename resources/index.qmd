@@ -1,10 +1,9 @@
 ---
 title: "Helpful Resources"
 subtitle: "**for Coding, GIS, and Beyond**"
+abstract: These are some of my favorite and most-used reference materials.
 description: "This page contains a repository of technical tutorials, personal blogs, ebooks, and other websites that I find myself consistently referring back to for my technical works. I have also included some of my favorite data sources and works from which I draw inspiration."
-# date: 2023-11-14
-# date-modified: today
-author: ""
+date-modified: today
 keywords: resources, coding
 image: ../assets/img-world-overview.png
 image-alt: Image-of-pine-trees-on-blue-background.
@@ -95,4 +94,49 @@ Some of my favorite GIS data sources can be found [here](https://freegisdata.rtw
 
 ## Inspirational Works
 
-- [Joshua Stevens](https://www.joshuastevens.net/)
+The following creators have provided me with inspiration in one or more of my professional projects. Each of their personal sites are included below.
+
+```{r}
+library(reactable)
+library(tidyverse)
+library(htmltools)
+
+data <- read.csv("resources.csv") %>% 
+  select(Title:Link) %>% 
+  arrange(Title) %>% 
+  filter(Type == "Personal Website")
+
+reactable(
+  data,
+  wrap = TRUE,
+  resizable = TRUE,
+  searchable = TRUE,
+  striped = TRUE,
+  defaultPageSize = 20,
+  paginationType = "simple",
+  showPageInfo = FALSE,
+  minRows = 1,
+  elementId = "tbl_2",
+  columns = list(
+    Title = colDef(
+      cell = function(value, index) {
+        Description <- data$Description[index]
+        Description <- if (!is.na(Description)) Description else "Unknown"
+        Category <- data$Category[index]
+        div(
+          div(style = "font-weight: 600", value),
+          div(style = "font-size: 0.75rem", Description),
+          div(style = "font-size: 0.65rem; color: teal", Category)
+        )
+      }, width = 600
+    ),
+    Description = colDef(show = FALSE),
+    Category = colDef(show = FALSE),
+    Link = colDef(
+      cell = function(value) {
+      tags$a(href = value, target = "_blank", "Link")
+    }
+    )
+  )
+)
+```

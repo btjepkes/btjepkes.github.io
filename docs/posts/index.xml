@@ -8,16 +8,182 @@
 <title>Benjamin Tjepkes</title>
 <link>https://btjepkes.github.io/posts/</link>
 <atom:link href="https://btjepkes.github.io/posts/index.xml" rel="self" type="application/rss+xml"/>
-<description>This page is the home to all my technical and creative writings. The technical aspects generally covers some of my adventures whilst learning to become a multi-lingual user in **R, Python, SQL, and beyond**. Some creative works about **nature conservation, ecology, and other topics** are also included here.</description>
+<description>The technical aspects generally cover some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included here.</description>
 <image>
 <url>https://btjepkes.github.io/../assets/img-geo-data-science.jpeg</url>
 <title>Benjamin Tjepkes</title>
 <link>https://btjepkes.github.io/posts/</link>
 </image>
 <generator>quarto-1.4.510</generator>
-<lastBuildDate>Fri, 05 May 2023 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 01 Nov 2023 05:00:00 GMT</lastBuildDate>
 <item>
-  <title>Interactive Heatmap of GBIF Occurrences To Explore concentrations of Greater sage grouse records.</title>
+  <title>#30DayMapChallenge - 2023 Contributions </title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/30-day-map-challenge-2023/</link>
+  <description><![CDATA[ <section id="overview-of-challenge" class="level2"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
+<p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
+<figcaption>Here are daily prompts for 2023. Credit: 30DayMapChallenge.com</figcaption></figure>
+</div>
+</section><section id="my-2023-contributions" class="level2"><h2 data-anchor-id="my-2023-contributions">My 2023 Contributions</h2>
+<p>Here are my contributions to the challenge. Feel free to explore the details on each map product by clicking/tapping the map previews below. I was not able to create a map for every day, but this was my first time partaking in this challenge so I am happy with how many I created.</p>
+<div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702316387574" data-listing-date-modified-sort="1703397600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
+<a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://btjepkes.github.io/gallery/national-champion-tree-map/img-national-champion-trees-thumbnail.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing the United States and the locations of champion trees displayed as points."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+National Champion Trees Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Map Gallery,Minnesota,Contour" data-listing-date-sort="1698901200000" data-listing-file-modified-sort="1700506735000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
+<a href="../../gallery/eagle-mountain-contour-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://btjepkes.github.io/gallery/eagle-mountain-contour-map/img-eagle-mtn-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A contour map showing Eagle Mountain and the surrounding topography and hydrological features."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Eagle Mountain Contour Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Map Gallery,Canada" data-listing-date-sort="1698987600000" data-listing-file-modified-sort="1699115271000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+<a href="../../gallery/canadian-ecoregion-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://btjepkes.github.io/gallery/canadian-ecoregion-map/img-canadian-ecoregions.png" class="thumbnail-image card-img" style="height: 300px;" alt="A regional map showing Canada and several level one ecological regions."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Canadian Ecoregions Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1703443158274" data-listing-date-modified-sort="1703397600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://btjepkes.github.io/gallery/tiger-distribution-map/img-tiger-range-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A map of Asia showing the current and historical range of tigers."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tiger Range and Conservation Landscapes
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Map Gallery,Africa" data-listing-date-sort="1699423200000" data-listing-file-modified-sort="1699724560000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="110">
+<a href="../../gallery/hyaenidae-range-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://btjepkes.github.io/gallery/hyaenidae-range-map/img-hyena-ranges-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A series of four maps showing the ranges of species in the family Hyaenidae."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hyaenidae Distribution Map for Africa
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1703440842343" data-listing-date-modified-sort="1703397600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://btjepkes.github.io/gallery/postsecondary-institutions-map/img-college-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A hexbin map showing the total number of post-secondary institutions and programs in each U.S. state."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Post-Secondary Institutions Hexmap
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Map Gallery,North America" data-listing-date-sort="1699596000000" data-listing-file-modified-sort="1703440732762" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<a href="../../gallery/moose-sightings-across-north-america/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://btjepkes.github.io/gallery/moose-sightings-across-north-america/img-moose-sightings-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A simple map showing the points that indicate moose sightings across a backdrop of North America."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Moose Sightings Across North America
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="Map Gallery,South America" data-listing-date-sort="1699768800000" data-listing-file-modified-sort="1703440494159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<a href="../../gallery/andes-mountains-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://btjepkes.github.io/gallery/andes-mountains-map/img-andes-mountains-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A contour map showing the elevation change in the Andes of Peru"></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Andes Mountains Elevation Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1703440281147" data-listing-date-modified-sort="1703397600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://btjepkes.github.io/gallery/happy-forests-happy-people-map/img-happy-forests-happy-people-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A choropleth map showing forest cover and happiness index."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Forest Cover &amp; Happiness Bivariate Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1703440127510" data-listing-date-modified-sort="1703397600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://btjepkes.github.io/gallery/pennsylvania-bridge-map/img-PA-bridge-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A point map showing the locations of all bridges in Pennsylvania."></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pennsylvania Bridges from OpenStreetMap
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section><section id="tools-data-and-techniques" class="level2"><h2 data-anchor-id="tools-data-and-techniques">Tools, Data, and Techniques</h2>
+<p>Here is some general information on the software, data sources, and cartographic techniques I used to create maps for this challenge. See the detailed overviews of each map for an in-depth acknowledgement of these attributes.</p>
+<p><strong>Tools</strong> – ArcGIS Pro 3.2, R/RStudio using primarily the <code>ggplot</code>, <code>osmdata</code>, <code>rnaturalearth</code>, and <code>sf</code> packages.</p>
+<p><strong>Data</strong> – OpenStreetMap, Esri Living Atlas, Natural Earth, and the IUCN.</p>
+<p><strong>Techniques/Styles</strong> – Graduated symbols, choropleth, hexbin, bivariate, polygon overlay with blending, and contour creation from a digital elevation model (DEM).</p>
+
+
+
+</section><div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
+Tjepkes, Benjamin. 2023. <span>“#30DayMapChallenge - 2023
+Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/posts/30-day-map-challenge-2023">https://btjepkes.github.io/posts/30-day-map-challenge-2023</a>.
+</div></div></section></div> ]]></description>
+  <category>mapping</category>
+  <guid>https://btjepkes.github.io/posts/30-day-map-challenge-2023/</guid>
+  <pubDate>Wed, 01 Nov 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-my2023.png" medium="image" type="image/png" height="174" width="144"/>
+</item>
+<item>
+  <title>Interactive Heatmap of GBIF Occurrences </title>
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/</link>
   <description><![CDATA[ 
@@ -32,7 +198,7 @@
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
 <figcaption>Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
 </figure>
 </div>
@@ -170,7 +336,7 @@ Occurrences.”</span> May 5, 2023. <a href="https://btjepkes.github.io/posts/in
   <media:content url="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>How Scientists Use GIS to Study Wildlife Exploring use cases of geospatial technologies in wildlife conservation.</title>
+  <title>How Scientists Use GIS to Study Wildlife </title>
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife/</link>
   <description><![CDATA[ 
@@ -260,7 +426,7 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
   <media:content url="https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife/img-001.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
-  <title>How to Become a Contemporary Naturalist Understanding the environment is the first step to appreciating it.</title>
+  <title>How to Become a Contemporary Naturalist </title>
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist/</link>
   <description><![CDATA[ 
@@ -288,7 +454,7 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 <p>Many birds enjoy making their presence known through song. This allows us to identify individuals down to the species without laying eyes on them. Common birds, like the American robin (Turdus migratorius), can usually be heard readily in most yards. Why not just learn how to identify them by sight? Well, that’s certainly something to work on too, but oftentimes you will only be able to hear the birds and not see them. This is especially true for birds that spend most of their time in the tree canopy.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img" alt="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."></a></p>
+<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img" alt="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."></a></p>
 <figcaption>Along with a keen ear, a good set of binoculars are an excellent compliment when birding.</figcaption>
 </figure>
 </div>
@@ -304,7 +470,7 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 <p>Whether you are ordering pizza or trying to identify an unknown plant, there is an app out there for you. Most popular apps are available on both iOS and Android, so accessing them should not be much trouble. Some even have the ability to download content for offline use, so you can still use the app while away from cell service.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img" alt="Many apps provide ways of capturing data offline, then uploading once connected again."></a></p>
+<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img" alt="Many apps provide ways of capturing data offline, then uploading once connected again."></a></p>
 <figcaption>Many apps provide ways of capturing data offline, then uploading once connected again.</figcaption>
 </figure>
 </div>
@@ -364,7 +530,7 @@ Naturalist.”</span> October 18, 2022. <a href="https://btjepkes.github.io/post
   <media:content url="https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80" medium="image"/>
 </item>
 <item>
-  <title>Naturally Protect Shores From Erosion Using native plants and natural materials to prevent erosion.</title>
+  <title>Naturally Protecting Shores From Erosion </title>
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion/</link>
   <description><![CDATA[ 
@@ -458,7 +624,7 @@ Naturalist.”</span> October 18, 2022. <a href="https://btjepkes.github.io/post
 </section>
 
 <div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2022" class="csl-entry quarto-appendix-citeas">
-Tjepkes, Benjamin. 2022. <span>“Naturally Protect Shores From
+Tjepkes, Benjamin. 2022. <span>“Naturally Protecting Shores From
 Erosion.”</span> October 16, 2022. <a href="https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion">https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion</a>.
 </div></div></section></div> ]]></description>
   <category>Nature</category>
@@ -467,172 +633,6 @@ Erosion.”</span> October 16, 2022. <a href="https://btjepkes.github.io/posts/c
   <guid>https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion/</guid>
   <pubDate>Sun, 16 Oct 2022 05:00:00 GMT</pubDate>
   <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934" medium="image"/>
-</item>
-<item>
-  <title>#30DayMapChallenge - 2023 Contributions </title>
-  <dc:creator>Benjamin Tjepkes</dc:creator>
-  <link>https://btjepkes.github.io/posts/30-day-map-challenge-2023/</link>
-  <description><![CDATA[ <section id="overview-of-challenge" class="level2"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
-<p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
-<figcaption>Here are daily prompts for 2023. Credit: 30DayMapChallenge.com</figcaption></figure>
-</div>
-</section><section id="my-2023-contributions" class="level2"><h2 data-anchor-id="my-2023-contributions">My 2023 Contributions</h2>
-<p>Here are my contributions to the challenge. Feel free to explore the details on each map product by clicking/tapping the map previews below. I was not able to create a map for every day, but this was my first time partaking in this challenge so I am happy with how many I created.</p>
-<div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702316387574" data-listing-date-modified-sort="1703311200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
-<a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://btjepkes.github.io/gallery/national-champion-tree-map/img-national-champion-trees-thumbnail.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing the United States and the locations of champion trees displayed as points."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-National Champion Trees Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Map Gallery,Minnesota,Contour" data-listing-date-sort="1698901200000" data-listing-file-modified-sort="1700506735000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
-<a href="../../gallery/eagle-mountain-contour-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://btjepkes.github.io/gallery/eagle-mountain-contour-map/img-eagle-mtn-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A contour map showing Eagle Mountain and the surrounding topography and hydrological features."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Eagle Mountain Contour Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Map Gallery,Canada" data-listing-date-sort="1698987600000" data-listing-file-modified-sort="1699115271000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
-<a href="../../gallery/canadian-ecoregion-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://btjepkes.github.io/gallery/canadian-ecoregion-map/img-canadian-ecoregions.png" class="thumbnail-image card-img" style="height: 300px;" alt="A regional map showing Canada and several level one ecological regions."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Canadian Ecoregions Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1701266921252" data-listing-date-modified-sort="1703311200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://btjepkes.github.io/gallery/tiger-distribution-map/img-tiger-range-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A map of Asia showing the current and historical range of tigers."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tiger Range and Conservation Landscapes
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Map Gallery,Africa" data-listing-date-sort="1699423200000" data-listing-file-modified-sort="1699724560000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="110">
-<a href="../../gallery/hyaenidae-range-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://btjepkes.github.io/gallery/hyaenidae-range-map/img-hyena-ranges-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A series of four maps showing the ranges of species in the family Hyaenidae."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hyaenidae Distribution Map for Africa
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1701810371117" data-listing-date-modified-sort="1703311200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
-<a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://btjepkes.github.io/gallery/postsecondary-institutions-map/img-college-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A hexbin map showing the total number of post-secondary institutions and programs in each U.S. state."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Post-Secondary Institutions Hexmap
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Map Gallery,North America" data-listing-date-sort="1699596000000" data-listing-file-modified-sort="1699809534000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
-<a href="../../gallery/moose-sightings-across-north-america/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://btjepkes.github.io/gallery/moose-sightings-across-north-america/img-moose-sightings-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A simple map showing the points that indicate moose sightings across a backdrop of North America."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Moose Sightings Across North America
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="Map Gallery,South America" data-listing-date-sort="1699768800000" data-listing-file-modified-sort="1699850602000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
-<a href="../../gallery/andes-mountains-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://btjepkes.github.io/gallery/andes-mountains-map/img-andes-mountains-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A contour map showing the elevation change in the Andes of Peru"></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Andes Mountains Elevation Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1701696810187" data-listing-date-modified-sort="1703311200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
-<a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://btjepkes.github.io/gallery/happy-forests-happy-people-map/img-happy-forests-happy-people-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A choropleth map showing forest cover and happiness index."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Forest Cover &amp; Happiness Bivariate Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1701267036623" data-listing-date-modified-sort="1703311200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
-<a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="https://btjepkes.github.io/gallery/pennsylvania-bridge-map/img-PA-bridge-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A point map showing the locations of all bridges in Pennsylvania."></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pennsylvania Bridges from OSM
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section><section id="tools-data-and-techniques" class="level2"><h2 data-anchor-id="tools-data-and-techniques">Tools, Data, and Techniques</h2>
-<p>Here is some general information on the software, data sources, and cartographic techniques I used to create maps for this challenge. See the detailed overviews of each map for an in-depth acknowledgement of these attributes.</p>
-<p><strong>Tools</strong> – ArcGIS Pro 3.2, R/RStudio using primarily the <code>ggplot</code>, <code>osmdata</code>, <code>rnaturalearth</code>, and <code>sf</code> packages.</p>
-<p><strong>Data</strong> – OpenStreetMap, Esri Living Atlas, Natural Earth, and the IUCN.</p>
-<p><strong>Techniques/Styles</strong> – Graduated symbols, choropleth, hexbin, bivariate, polygon overlay with blending, and contour creation from a digital elevation model (DEM).</p>
-
-
-
-</section><div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes" class="csl-entry quarto-appendix-citeas">
-Tjepkes, Benjamin. n.d. <span>“#30DayMapChallenge - 2023
-Contributions.”</span> <a href="https://btjepkes.github.io/posts/30-day-map-challenge-2023">https://btjepkes.github.io/posts/30-day-map-challenge-2023</a>.
-</div></div></section></div> ]]></description>
-  <category>mapping</category>
-  <guid>https://btjepkes.github.io/posts/30-day-map-challenge-2023/</guid>
-  <pubDate>Sat, 23 Dec 2023 16:03:53 GMT</pubDate>
-  <media:content url="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-my2023.png" medium="image" type="image/png" height="174" width="144"/>
 </item>
 </channel>
 </rss>

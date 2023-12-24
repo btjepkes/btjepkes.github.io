@@ -1,14 +1,19 @@
 ---
 title: "2018 Squirrel Census Sighting Map"
-subtitle: "Density-based map of squirrel sightings in Central Park."
+#subtitle: "Density-based map of squirrel sightings in Central Park."
 date: "5-23-2023"
 categories:
   - Map Gallery
   - Mammal
-abstract: This map was produced as part of the **2023 Tidy Tuesday**. Map creation was performed in R using the RStudio environment and data were pulled from public repositories.
+description: "Density-based map of squirrel sightings in Central Park based on data from the 2018 Squirrel Census. This map was produced as part of the **2023 Tidy Tuesday** social media data visualization challenge. Map creation was performed in R using the RStudio environment and data were pulled from public repositories."
 image: img-map-001v2.png
 image-alt: "Map showing squirrel densities in Central Park."
 ---
+
+
+## Tools & Methods
+
+This map was created with several packages in RStudio using data from the Tidy Tuesday repository.
 
 ::: {layout-ncol=2}
 
@@ -18,6 +23,3 @@ image-alt: "Map showing squirrel densities in Central Park."
 
 :::
 
-## Tools & Methods
-
-This map was created with several packages in RStudio using data from the Tidy Tuesday repository.

@@ -1,6 +1,6 @@
 <header id="title-block-header">
   
-  <div class="date">$date$</div>
+  <div class="title-date">$date$</div>
 
   <div class="title-area">
     $if(title)$<h1 class="title">$title$ $subtitle$</h1>$endif$
@@ -9,15 +9,9 @@
   <div class="header-content-container">  
   <div class="post-meta">
     
-    $if(abstract)$
-      <div class="abstract">
-        $abstract$
-      </div>
-    $endif$
-    
     $if(description)$
       <div class="description">
-        $description$
+        <div class="abstract" style="display: inline;">$abstract$</div> $description$
       </div>
     $endif$
     
