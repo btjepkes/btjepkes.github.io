@@ -8,7 +8,7 @@ author-meta: Benjamin Tjepkes
 date-modified: today
 abstract: "I am a wildlife ecologist and geographer."
 description-meta: "Learn about my career path and professional interests."
-description: "This page highlights my professional career path, including my work across the broad scopes of **ecology and geospatial**, as well as my higher education journey."
+description: "This page highlights my professional career path, including my work across the broad scopes of ecology and geospatial, as well as my higher education journey."
 listing:
   - id: site-listings
     contents:
@@ -64,8 +64,8 @@ Through my Master's program, I have the opportunity to study a broad range of to
 
 ## Some Past Endeavors
 
-![](../assets/img-ben-work.png)
+![Being a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.](../assets/img-ben-work.png)
 
-![](../assets/img-bog-trees.JPG)
+![I have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.](../assets/img-bog-trees.JPG)
 
-![](../assets/img-ben-with-bear.jpg)
+![Working with black bears (even though this one is cinnnamon) was one of my favorite opportunties as a biologist so far.](../assets/img-ben-with-bear.jpg)

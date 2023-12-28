@@ -128,7 +128,7 @@ $progress-height:               .5rem !default;
 
 // Variables
 
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&family=Fira+Sans:wght@400;700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:wght@400;700;900');
 
@@ -139,7 +139,7 @@ body {
   -webkit-font-smoothing: antialiased;
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
-  font-family: Anek, Nunito, sans-serif;
+  font-family: Nunito, sans-serif;
   background: #0f172a;
 }
 
@@ -174,10 +174,7 @@ h3 {
 }
 
 .abstract {
-  background: #1e293b;
-  border-radius: 4px;
-  padding: 0 4px;
-  opacity: 0.9;
+  color: #35d290;
 }
 
 .description {

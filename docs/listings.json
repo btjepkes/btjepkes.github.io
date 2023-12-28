@@ -20,18 +20,23 @@
     ]
   },
   {
-    "listing": "/posts/30-day-map-challenge-2023/index.html",
+    "listing": "/index.html",
     "items": [
-      "/gallery/national-champion-tree-map/index.html",
-      "/gallery/eagle-mountain-contour-map/index.html",
-      "/gallery/canadian-ecoregion-map/index.html",
-      "/gallery/tiger-distribution-map/index.html",
-      "/gallery/hyaenidae-range-map/index.html",
-      "/gallery/postsecondary-institutions-map/index.html",
-      "/gallery/moose-sightings-across-north-america/index.html",
-      "/gallery/andes-mountains-map/index.html",
-      "/gallery/happy-forests-happy-people-map/index.html",
-      "/gallery/pennsylvania-bridge-map/index.html"
+      "/about/index.html",
+      "/curriculum-vitae/index.html",
+      "/contact.html",
+      "/gallery/index.html",
+      "/posts/index.html",
+      "/research/index.html",
+      "/resources/index.html"
+    ]
+  },
+  {
+    "listing": "/about/index.html",
+    "items": [
+      "/posts/index.html",
+      "/gallery/index.html",
+      "/research/index.html"
     ]
   },
   {
@@ -64,23 +69,18 @@
     ]
   },
   {
-    "listing": "/about/index.html",
+    "listing": "/posts/30-day-map-challenge-2023/index.html",
     "items": [
-      "/posts/index.html",
-      "/gallery/index.html",
-      "/research/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/about/index.html",
-      "/curriculum-vitae/index.html",
-      "/contact.html",
-      "/gallery/index.html",
-      "/posts/index.html",
-      "/research/index.html",
-      "/resources/index.html"
+      "/gallery/national-champion-tree-map/index.html",
+      "/gallery/eagle-mountain-contour-map/index.html",
+      "/gallery/canadian-ecoregion-map/index.html",
+      "/gallery/tiger-distribution-map/index.html",
+      "/gallery/hyaenidae-range-map/index.html",
+      "/gallery/postsecondary-institutions-map/index.html",
+      "/gallery/moose-sightings-across-north-america/index.html",
+      "/gallery/andes-mountains-map/index.html",
+      "/gallery/happy-forests-happy-people-map/index.html",
+      "/gallery/pennsylvania-bridge-map/index.html"
     ]
   }
 ]
