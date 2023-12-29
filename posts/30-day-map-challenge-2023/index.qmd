@@ -2,7 +2,7 @@
 title: "#30DayMapChallenge - 2023 Contributions"
 date: "11/01/2023"
 date-modified: today
-abstract: "Reviewing my contributions and learning outcomes for 2023."
+abstract: "Reviewing my contributions and learning outcomes"
 description: "This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily social media challenge for the cartography community. I outline the tools I used and the data I explored along the way."
 categories:
   - mapping

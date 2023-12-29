@@ -10,16 +10,6 @@
     ]
   },
   {
-    "listing": "/posts/index.html",
-    "items": [
-      "/posts/30-day-map-challenge-2023/index.html",
-      "/posts/interactive-heatmap-of-gbif-occurrences/index.html",
-      "/posts/how-scientists-use-gis-to-study-wildlife/index.html",
-      "/posts/how-to-become-a-contemporary-naturalist/index.html",
-      "/posts/can-you-naturally-protect-shores-from-erosion/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/about/index.html",
@@ -81,6 +71,16 @@
       "/gallery/andes-mountains-map/index.html",
       "/gallery/happy-forests-happy-people-map/index.html",
       "/gallery/pennsylvania-bridge-map/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/30-day-map-challenge-2023/index.html",
+      "/posts/interactive-heatmap-of-gbif-occurrences/index.html",
+      "/posts/how-scientists-use-gis-to-study-wildlife/index.html",
+      "/posts/how-to-become-a-contemporary-naturalist/index.html",
+      "/posts/can-you-naturally-protect-shores-from-erosion/index.html"
     ]
   }
 ]
