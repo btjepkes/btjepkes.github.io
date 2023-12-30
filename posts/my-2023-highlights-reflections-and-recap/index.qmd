@@ -1,0 +1,81 @@
+---
+title: "My 2023 Highlights, Reflections, and Recap"
+date: 12/31/2023
+date-modified: today
+keywords:
+  - "2023"
+abstract: "Looking back on a busy year"
+description: "This post takes a quick run through the last year of my professional life, including some of my accomplishments, learning venues, and life transition events. All in all, I think 2023 was a good year and I learned quite a bit in these 52 weeks."
+# image: img-plot-ppt.png
+# image-alt: "A chart of precipitation trends."
+# aliases:
+draft: TRUE
+---
+
+
+## Transitioning Moments
+
+My mantra for 2023 was *"embracing change for personal growth"*. This past year marked a period of continual transformation as I navigated through different roles, focused on varied areas, and shifted between entities. Embracing change is beneficial, opening up new possibilities for personal development and adaptability.
+
+### Field to Office
+
+- Like many biologists, my primarily field-based research role transitioned into one that was solely office-based. While my work had revolved around my computer during the pandemic, many of my duties were operated out of my work truck or various hotels around the state. In late 2022 and into 2023 I was getting into the thick of my new non-field position.
+
+- This shift allowed for continued development of my GIS and data reporting skills as I worked through various problems in my new role. I was able to focus on setting up geoprocessing workflows in ArcGIS Pro, bolstering my reproducible reports in RMarkdown, and managing documentation across projects.
+
+### Office to Campus
+
+- In fall 2023, I started my graduate school journey at the University of Missouri. This marks another transition for me fully into the world of geography and back into academia.
+
+- This opportunity has allowed me to work towards bettering my research abilities and teaching skills.
+
+
+## Proud Achievements
+
+Each passing year brings additional notches in the proverbial belt. In 2023, I celebrated many small victories and accomplishments across my work. These milestones serve as reminders of my resilience and commitment, fueling my determination to face new challenges with the same vigor in the coming years.
+
+### Recongnitions
+
+- In early 2023, I humbly accepted the Missouri Department of Conservation Science Branch Term Employee of the Year award. Although this organization is filled with many hardworking individuals, it felt good receiving recognition for all my years of service.
+
+- Another recognition this year was my acceptance into the National Honor Society for Geospatial Technology (Gamma Sigma Theta) through the National Geospatial Technology Center of Excellence. This membership is a step towards my new professional emphasis area of GIS.
+
+- **GISCI Map Contest Placement**
+
+### Projects & Presentations
+
+- HCP Annual Report
+
+- Re-structuring personal portfolio into Quarto.
+
+- #30DayMapChallenge Contributions
+
+
+## Continuous Learning
+
+One of my core values is continuous improvement both in personal and professional spheres. In 2023, I was fortunate to have experienced many personal growth opportunities. While learning tends to come at a cost, either monetarily and/or time, I managed to find several effective and open learning avenues this year.
+
+### Conferences
+
+- MDC Science Branch Conference
+- Missouri GIS Conference
+- Posit Conference 2023
+
+### Webinars & Trainings
+
+- Bayesian Workshop
+- LinkedIn Learning
+- Esri Series
+
+
+### Coursework
+
+
+## Looking Ahead
+
+As we push forward into 2024, there are many aspects of my professional life that will continue changing for the better. Continued learning and skill enhancement will be integral to this ongoing transformation. Additionally, fostering meaningful connections with colleagues and collaborators will play a pivotal role, creating a supportive network that propels both personal and professional advancement.
+
+### Research & Teaching
+
+- The focus of this year is my graduate thesis work and the many duties that go along with teaching university courses.
+
