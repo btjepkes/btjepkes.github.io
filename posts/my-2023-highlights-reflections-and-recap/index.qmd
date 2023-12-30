@@ -19,7 +19,7 @@ My mantra for 2023 was *"embracing change for personal growth"*. This past year 
 
 ### Field to Office
 
-- Like many biologists, my primarily field-based research role transitioned into one that was solely office-based. While my work had revolved around my computer during the pandemic, many of my duties were operated out of my work truck or various hotels around the state. In late 2022 and into 2023 I was getting into the thick of my new non-field position.
+- Like many biologists, my primarily field-based research role transitioned into one that was solely office-based. While my work had revolved around my computer during the pandemic, many of my duties were operated out of my work truck or various hotels around the state. In late 2022 and into 2023 I was getting into the thick of my new GIS and reporting position in the office.
 
 - This shift allowed for continued development of my GIS and data reporting skills as I worked through various problems in my new role. I was able to focus on setting up geoprocessing workflows in ArcGIS Pro, bolstering my reproducible reports in RMarkdown, and managing documentation across projects.
 
@@ -70,6 +70,9 @@ One of my core values is continuous improvement both in personal and professiona
 
 ### Coursework
 
+- Data Science
+- Biogeography
+- Geographic Thought
 
 ## Looking Ahead
 
