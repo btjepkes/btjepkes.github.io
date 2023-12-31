@@ -32,7 +32,7 @@ Each passing year brings additional notches in the proverbial belt. In 2023, I c
 
 -   In early 2023, I humbly accepted the Missouri Department of Conservation **Science Branch Term Employee of the Year award**. Although this organization is filled with many hardworking individuals, it felt good receiving recognition for all my years of service and effort towards quality science.
 
--   Another recognition this year was my acceptance into the **National Honor Society for Geospatial Technology** (Gamma Sigma Theta^[Gamma Sigma Theta: [https://storymaps.arcgis.com/stories/3e54b622a6d747d3b02c12d26ecd359d](https://storymaps.arcgis.com/stories/3e54b622a6d747d3b02c12d26ecd359d) ]) through the National Geospatial Technology Center of Excellence. This membership is a step towards my new professional emphasis area of GIS.
+-   Another recognition this year was my acceptance into the **National Honor Society for Geospatial Technology** (Gamma Sigma Theta^[Information on [Gamma Sigma Theta](https://storymaps.arcgis.com/stories/3e54b622a6d747d3b02c12d26ecd359d)]) through the National Geospatial Technology Center of Excellence. This membership is a step towards my new professional emphasis area of GIS.
 
 -   Related to the use of geospatial technologies, one of my recent maps won **2nd place in the GIS Certification Institute 2023 Map Contest** within the professional category^[See all [past map contest winners](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) or view the [details of my winning map](https://btjepkes.github.io/gallery/endangered-species-stamp-collection-map/ )].
 
