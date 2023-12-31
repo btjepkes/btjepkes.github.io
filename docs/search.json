@@ -452,21 +452,21 @@
   {
     "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
     "href": "gallery/endangered-species-stamp-collection-map/index.html",
-    "title": "Endangered Species Stamp Map Nationwide map showing ranges of a subset of ESA-listed species.",
+    "title": "Endangered Species Stamp Map ",
     "section": "",
     "text": "Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas."
   },
   {
     "objectID": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
     "href": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
-    "title": "Endangered Species Stamp Map Nationwide map showing ranges of a subset of ESA-listed species.",
+    "title": "Endangered Species Stamp Map ",
     "section": "",
     "text": "Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas."
   },
   {
     "objectID": "gallery/endangered-species-stamp-collection-map/index.html#final-result",
     "href": "gallery/endangered-species-stamp-collection-map/index.html#final-result",
-    "title": "Endangered Species Stamp Map Nationwide map showing ranges of a subset of ESA-listed species.",
+    "title": "Endangered Species Stamp Map ",
     "section": "Final Result",
     "text": "Final Result\nHere is the final map product that I submitted to the 2023 GIS Certification Institute Map Contest, where is won 2nd place in the professional category.\n\n\n\nMap Credit: Ben Tjepkes"
   },
@@ -992,11 +992,46 @@
     "href": "posts/index.html",
     "title": "My Blog Posts on Ecology and Geospatial",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nThis post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily…\n\n\n\nBenjamin Tjepkes\n\n\n2023-11-01\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive Heatmap of GBIF Occurrences\n\n\nIn this blog post, we demonstrate how to use a dedicated package in R to access sage grouse…\n\n\n\nBenjamin Tjepkes\n\n\n2023-05-05\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nIn this post, we explore the fascinating ways that geospatial technologies are being used in the…\n\n\n\nBenjamin Tjepkes\n\n\n2023-03-26\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nThis blog post outlines some simple and cost-effective ways to help you start your journey as a…\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-18\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protecting Shores From Erosion\n\n\nIn this blog post, we will explore the causes of shoreline erosion and discuss some effective ways…\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-16\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMy 2023 Highlights, Reflections, and Recap\n\n\nThis post takes a quick run through the last year of my professional life, including some of my…\n\n\n\nBenjamin Tjepkes\n\n\n2023-12-31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nThis post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily…\n\n\n\nBenjamin Tjepkes\n\n\n2023-11-01\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive Heatmap of GBIF Occurrences\n\n\nIn this blog post, we demonstrate how to use a dedicated package in R to access sage grouse…\n\n\n\nBenjamin Tjepkes\n\n\n2023-05-05\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nIn this post, we explore the fascinating ways that geospatial technologies are being used in the…\n\n\n\nBenjamin Tjepkes\n\n\n2023-03-26\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nThis blog post outlines some simple and cost-effective ways to help you start your journey as a…\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-18\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protecting Shores From Erosion\n\n\nIn this blog post, we will explore the causes of shoreline erosion and discuss some effective ways…\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-16\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "My Blog Posts"
     ]
+  },
+  {
+    "objectID": "posts/my-2023-highlights-reflections-and-recap/index.html",
+    "href": "posts/my-2023-highlights-reflections-and-recap/index.html",
+    "title": "My 2023 Highlights, Reflections, and Recap ",
+    "section": "",
+    "text": "My mantra for 2023 was embracing change for personal growth. This past year marked a period of continual transformation as I navigated through different roles, focused on varied areas, and shifted between entities. Embracing change is beneficial, opening up new possibilities for personal development and adaptability.\n\n\n\nLike many biologists, my primarily field-based research role transitioned into one that was solely in the office. While my work had revolved around my computer during the pandemic, many of my duties were still operated out of my work truck in the field or various hotels around the state. As 2022 transitioned into 2023, I found myself fully immersed in the intricacies of my new office-centric position.\nThis shift allowed for continued development of my GIS and data reporting skills as I worked through various problems in my new role. I was able to focus on setting up geoprocessing workflows in ArcGIS Pro, bolstering my reproducible reports in RMarkdown, and managing documentation across projects.\n\n\n\n\n\nFall 2023 marked the beginning of my graduate school journey at the University of Missouri in the Department of Geography1. This marks another transition for me back into the hectic world of academia and commit fully to the diverse field of geography. So far, this opportunity has allowed me to work towards bettering my research abilities and my aptitude for teaching."
+  },
+  {
+    "objectID": "posts/my-2023-highlights-reflections-and-recap/index.html#transitioning-moments",
+    "href": "posts/my-2023-highlights-reflections-and-recap/index.html#transitioning-moments",
+    "title": "My 2023 Highlights, Reflections, and Recap ",
+    "section": "",
+    "text": "My mantra for 2023 was embracing change for personal growth. This past year marked a period of continual transformation as I navigated through different roles, focused on varied areas, and shifted between entities. Embracing change is beneficial, opening up new possibilities for personal development and adaptability.\n\n\n\nLike many biologists, my primarily field-based research role transitioned into one that was solely in the office. While my work had revolved around my computer during the pandemic, many of my duties were still operated out of my work truck in the field or various hotels around the state. As 2022 transitioned into 2023, I found myself fully immersed in the intricacies of my new office-centric position.\nThis shift allowed for continued development of my GIS and data reporting skills as I worked through various problems in my new role. I was able to focus on setting up geoprocessing workflows in ArcGIS Pro, bolstering my reproducible reports in RMarkdown, and managing documentation across projects.\n\n\n\n\n\nFall 2023 marked the beginning of my graduate school journey at the University of Missouri in the Department of Geography1. This marks another transition for me back into the hectic world of academia and commit fully to the diverse field of geography. So far, this opportunity has allowed me to work towards bettering my research abilities and my aptitude for teaching."
+  },
+  {
+    "objectID": "posts/my-2023-highlights-reflections-and-recap/index.html#proud-achievements",
+    "href": "posts/my-2023-highlights-reflections-and-recap/index.html#proud-achievements",
+    "title": "My 2023 Highlights, Reflections, and Recap ",
+    "section": "Proud Achievements",
+    "text": "Proud Achievements\nEach passing year brings additional notches in the proverbial belt. In 2023, I celebrated many small victories and accomplishments across my work. These milestones serve as reminders of my resilience and commitment, fueling my determination to face new challenges with the same vigor in the coming years.\n\nRecongnitions\n\nIn early 2023, I humbly accepted the Missouri Department of Conservation Science Branch Term Employee of the Year award. Although this organization is filled with many hardworking individuals, it felt good receiving recognition for all my years of service and effort towards quality science.\nAnother recognition this year was my acceptance into the National Honor Society for Geospatial Technology (Gamma Sigma Theta2) through the National Geospatial Technology Center of Excellence. This membership is a step towards my new professional emphasis area of GIS.\nRelated to the use of geospatial technologies, one of my recent maps won 2nd place in the GIS Certification Institute 2023 Map Contest within the professional category3.\n\n\n\nProjects & Presentations\n\nOne of my main work projects for this year was reporting on the implementation of the Missouri Bat Habitat Conservation Plan. Completing the first-of-its-kind annual report4 for this project was a daunting task and allowed me to creatively explore many facets of technical reporting, spatial analysis, and data management.\nOn a more personal note, a big endeavor for me in 2023 was learning Quarto and building out my personal portfolio. I have enjoyed learning about web development and version control through this process.\nAnother creative project in 2023 was participating in the #30DayMapChallenge on social media. Through this challenge, I was able to create several cartographic visuals5 across my favorite topics like trees, endangered species conservation, and multiple wildlife species. Looking forward to future years of participation."
+  },
+  {
+    "objectID": "posts/my-2023-highlights-reflections-and-recap/index.html#continuous-learning",
+    "href": "posts/my-2023-highlights-reflections-and-recap/index.html#continuous-learning",
+    "title": "My 2023 Highlights, Reflections, and Recap ",
+    "section": "Continuous Learning",
+    "text": "Continuous Learning\nOne of my core values is continuous improvement and I was fortunate to have experienced many personal growth opportunities this past year. While learning tends to come at a cost, either monetarily or otherwise, I managed to find several worthwhile learning opportunities this year.\n\nConferences\n\nIn the first half of 2023 I was able to attend two in-person conferences here in Missouri. The first was the MDC Science Branch Conference, where I was able to present my poster on the Missouri Bat HCP. Next, I attended the Missouri GIS Conference and gave a talk over how I integrated reproducible reporting workflows in R with geospatial modeling in ArcGIS Pro for bat monitoring work.\nIn September, I was able to virtually attend the 2023 Posit Conference where I learned a ton from all the interesting talks and presentations. I especially loved the inspirational talks on using Quarto for reporting, academic writing, and beyond.\n\n\n\nWebinars, Trainings, and Courses\n\nMuch of my free time in 2023 was spent taking various trainings and and attending webinars across a broad scope of topics. This included a fantastic Introductory Bayesian Workshop, many LinkedIn Learning modules, lots of YouTube, and plenty of other ones from Esri6, ESA, NASA, and TWS.\nThis past fall was chock full of learning opportunities as I took several university courses. These included three largely unrelated but equally integrated classes on data science, biogeography, and geographic theory."
+  },
+  {
+    "objectID": "posts/my-2023-highlights-reflections-and-recap/index.html#looking-ahead",
+    "href": "posts/my-2023-highlights-reflections-and-recap/index.html#looking-ahead",
+    "title": "My 2023 Highlights, Reflections, and Recap ",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nAs we push forward into 2024, many aspects of my professional life will continue changing for the better. Continued learning and skill enhancement will be integral to this ongoing transformation. Additionally, fostering meaningful connections with colleagues and collaborators will play a pivotal role, creating a supportive network that propels professional advancement in evolving career.\n\nThe focus of this year is my graduate thesis work and the many duties that go along with teaching university courses. I am excited to be teaching and also growing as a researcher throughout this process.\nMy secondary goal for 2024 is to continue learning more about where I am heading in the world of geospatial. My schedule is already starting to fill in with many neat opportunities for professional growth and connection."
   },
   {
     "objectID": "research/beaver-impacted-water-control-structures/index.html",

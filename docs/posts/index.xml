@@ -8,14 +8,108 @@
 <title>Benjamin Tjepkes</title>
 <link>https://btjepkes.github.io/posts/</link>
 <atom:link href="https://btjepkes.github.io/posts/index.xml" rel="self" type="application/rss+xml"/>
-<description>The technical aspects generally cover some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included here.</description>
+<description>This page is the home to many of my blog posts. The technical aspects generally cover some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included here.</description>
 <image>
 <url>https://btjepkes.github.io/../assets/img-geo-data-science.jpeg</url>
 <title>Benjamin Tjepkes</title>
 <link>https://btjepkes.github.io/posts/</link>
 </image>
 <generator>quarto-1.4.510</generator>
-<lastBuildDate>Wed, 01 Nov 2023 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 31 Dec 2023 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>My 2023 Highlights, Reflections, and Recap </title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/my-2023-highlights-reflections-and-recap/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="transitioning-moments" class="level2">
+<h2 data-anchor-id="transitioning-moments">Transitioning Moments</h2>
+<p>My mantra for 2023 was <em><code>embracing change for personal growth</code></em>. This past year marked a period of continual transformation as I navigated through different roles, focused on varied areas, and shifted between entities. Embracing change is beneficial, opening up new possibilities for personal development and adaptability.</p>
+<section id="field-to-office" class="level3">
+<h3 data-anchor-id="field-to-office">Field to Office</h3>
+<ul>
+<li><p>Like many biologists, <strong>my primarily field-based research role transitioned into one that was solely in the office</strong>. While my work had revolved around my computer during the pandemic, many of my duties were still operated out of my work truck in the field or various hotels around the state. As 2022 transitioned into 2023, I found myself fully immersed in the intricacies of my new office-centric position.</p></li>
+<li><p>This shift allowed for continued development of my GIS and data reporting skills as I worked through various problems in my new role. I was able to focus on setting up geoprocessing workflows in ArcGIS Pro, bolstering my reproducible reports in RMarkdown, and managing documentation across projects.</p></li>
+</ul>
+</section>
+<section id="office-to-campus" class="level3">
+<h3 data-anchor-id="office-to-campus">Office to Campus</h3>
+<ul>
+<li>Fall 2023 marked the <strong>beginning of my graduate school journey at the University of Missouri</strong> in the Department of Geography<sup>1</sup>. This marks another transition for me back into the hectic world of academia and commit fully to the diverse field of geography. So far, this opportunity has allowed me to work towards bettering my research abilities and my aptitude for teaching.</li>
+</ul>
+</section>
+</section>
+<section id="proud-achievements" class="level2">
+<h2 data-anchor-id="proud-achievements">Proud Achievements</h2>
+<p>Each passing year brings additional notches in the proverbial belt. In 2023, I celebrated many small victories and accomplishments across my work. These milestones serve as reminders of my resilience and commitment, fueling my determination to face new challenges with the same vigor in the coming years.</p>
+<section id="recongnitions" class="level3">
+<h3 data-anchor-id="recongnitions">Recongnitions</h3>
+<ul>
+<li><p>In early 2023, I humbly accepted the Missouri Department of Conservation <strong>Science Branch Term Employee of the Year award</strong>. Although this organization is filled with many hardworking individuals, it felt good receiving recognition for all my years of service and effort towards quality science.</p></li>
+<li><p>Another recognition this year was my acceptance into the <strong>National Honor Society for Geospatial Technology</strong> (Gamma Sigma Theta<sup>2</sup>) through the National Geospatial Technology Center of Excellence. This membership is a step towards my new professional emphasis area of GIS.</p></li>
+<li><p>Related to the use of geospatial technologies, one of my recent maps won <strong>2nd place in the GIS Certification Institute 2023 Map Contest</strong> within the professional category<sup>3</sup>.</p></li>
+</ul>
+</section>
+<section id="projects-presentations" class="level3">
+<h3 data-anchor-id="projects-presentations">Projects &amp; Presentations</h3>
+<ul>
+<li><p>One of my main work projects for this year was <strong>reporting on the implementation of the Missouri Bat Habitat Conservation Plan</strong>. Completing the first-of-its-kind annual report<sup>4</sup> for this project was a daunting task and allowed me to creatively explore many facets of technical reporting, spatial analysis, and data management.</p></li>
+<li><p>On a more personal note, a big endeavor for me in 2023 was learning Quarto and <strong>building out my personal portfolio</strong>. I have enjoyed learning about web development and version control through this process.</p></li>
+<li><p>Another creative project in 2023 was <strong>participating in the #30DayMapChallenge</strong> on social media. Through this challenge, I was able to create several cartographic visuals<sup>5</sup> across my favorite topics like trees, endangered species conservation, and multiple wildlife species. Looking forward to future years of participation.</p></li>
+</ul>
+</section>
+</section>
+<section id="continuous-learning" class="level2">
+<h2 data-anchor-id="continuous-learning">Continuous Learning</h2>
+<p>One of my core values is continuous improvement and I was fortunate to have experienced many personal growth opportunities this past year. While learning tends to come at a cost, either monetarily or otherwise, I managed to find several worthwhile learning opportunities this year.</p>
+<section id="conferences" class="level3">
+<h3 data-anchor-id="conferences">Conferences</h3>
+<ul>
+<li><p>In the first half of 2023 I was able to <strong>attend two in-person conferences</strong> here in Missouri. The first was the MDC Science Branch Conference, where I was able to present my poster on the Missouri Bat HCP. Next, I attended the Missouri GIS Conference and gave a talk over how I integrated reproducible reporting workflows in R with geospatial modeling in ArcGIS Pro for bat monitoring work.</p></li>
+<li><p>In September, I was able to <strong>virtually attend the 2023 Posit Conference</strong> where I learned a ton from all the interesting talks and presentations. I especially loved the inspirational talks on using Quarto for reporting, academic writing, and beyond.</p></li>
+</ul>
+</section>
+<section id="webinars-trainings-and-courses" class="level3">
+<h3 data-anchor-id="webinars-trainings-and-courses">Webinars, Trainings, and Courses</h3>
+<ul>
+<li><p>Much of my free time in 2023 was spent <strong>taking various trainings and and attending webinars</strong> across a broad scope of topics. This included a fantastic Introductory Bayesian Workshop, many LinkedIn Learning modules, lots of YouTube, and plenty of other ones from Esri<sup>6</sup>, ESA, NASA, and TWS.</p></li>
+<li><p>This past fall was chock full of learning opportunities as <strong>I took several university courses</strong>. These included three largely unrelated but equally integrated classes on data science, biogeography, and geographic theory.</p></li>
+</ul>
+</section>
+</section>
+<section id="looking-ahead" class="level2">
+<h2 data-anchor-id="looking-ahead">Looking Ahead</h2>
+<p>As we push forward into 2024, many aspects of my professional life will continue changing for the better. Continued learning and skill enhancement will be integral to this ongoing transformation. Additionally, fostering meaningful connections with colleagues and collaborators will play a pivotal role, creating a supportive network that propels professional advancement in evolving career.</p>
+<ul>
+<li><p>The <strong>focus of this year is my graduate thesis work</strong> and the many duties that go along with teaching university courses. I am excited to be teaching and also growing as a researcher throughout this process.</p></li>
+<li><p>My secondary goal for 2024 is to <strong>continue learning more about where I am heading in the world of geospatial</strong>. My schedule is already starting to fill in with many neat opportunities for professional growth and connection.</p></li>
+</ul>
+
+
+</section>
+
+
+<div id="quarto-appendix"><aside id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>MU Department of Geography: <a href="https://geography.missouri.edu/">https://geography.missouri.edu/</a>↩︎</p></li>
+<li id="fn2"><p>Gamma Sigma Theta: <a href="https://storymaps.arcgis.com/stories/3e54b622a6d747d3b02c12d26ecd359d">https://storymaps.arcgis.com/stories/3e54b622a6d747d3b02c12d26ecd359d</a> ↩︎</p></li>
+<li id="fn3"><p>See all <a href="https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners">past map contest winners</a> or view the <a href="https://btjepkes.github.io/gallery/endangered-species-stamp-collection-map/">details of my winning map</a>↩︎</p></li>
+<li id="fn4"><p>View the public version of this report <a href="https://research.mdc.mo.gov/papers/missouri-department-conservation-bat-habitat-conservation-plan-fy22-annual-report">here</a>↩︎</p></li>
+<li id="fn5"><p>View all my challenge contributions are located here: <a href="https://btjepkes.github.io/posts/30-day-map-challenge-2023/">https://btjepkes.github.io/posts/30-day-map-challenge-2023/</a>↩︎</p></li>
+<li id="fn6"><p><a href="https://www.esri.com/en-us/lg/industry/conservation/actionable-conservation-science-for-the-global-biodiversity-framework-webinar-series">Esri Conservation Webinar Series</a> | <a href="https://community.esri.com/t5/education-events/webinar-discover-the-power-of-spatial-data-science/ev-p/1348824">Esri Power of Spatial Data Science Webinar</a>↩︎</p></li>
+</ol>
+</aside><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
+Tjepkes, Benjamin. 2023. <span>“My 2023 Highlights, Reflections, and
+Recap.”</span> December 31, 2023. <a href="https://btjepkes.github.io/posts/my-2023-highlights-reflections-and-recap">https://btjepkes.github.io/posts/my-2023-highlights-reflections-and-recap</a>.
+</div></div></section></div> ]]></description>
+  <guid>https://btjepkes.github.io/posts/my-2023-highlights-reflections-and-recap/</guid>
+  <pubDate>Sun, 31 Dec 2023 06:00:00 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/posts/my-2023-highlights-reflections-and-recap/img-fern.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>#30DayMapChallenge - 2023 Contributions </title>
   <dc:creator>Benjamin Tjepkes</dc:creator>
@@ -30,7 +124,7 @@
 <p>Here are my contributions to the challenge. Feel free to explore the details on each map product by clicking/tapping the map previews below. I was not able to create a map for every day, but this was my first time partaking in this challenge so I am happy with how many I created.</p>
 <div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702316387574" data-listing-date-modified-sort="1703829600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702316387574" data-listing-date-modified-sort="1704002400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
 <a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -69,7 +163,7 @@ Canadian Ecoregions Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1703443158274" data-listing-date-modified-sort="1703829600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1703443158274" data-listing-date-modified-sort="1704002400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
 <a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -95,7 +189,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1703440842343" data-listing-date-modified-sort="1703829600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1703440842343" data-listing-date-modified-sort="1704002400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
 <a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -134,7 +228,7 @@ Andes Mountains Elevation Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1703440281147" data-listing-date-modified-sort="1703829600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1703440281147" data-listing-date-modified-sort="1704002400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
 <a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -147,7 +241,7 @@ Forest Cover &amp; Happiness Bivariate Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1703440127510" data-listing-date-modified-sort="1703829600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1703440127510" data-listing-date-modified-sort="1704002400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -394,7 +488,7 @@ Occurrences.”</span> May 5, 2023. <a href="https://btjepkes.github.io/posts/in
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
 <figcaption>A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>
