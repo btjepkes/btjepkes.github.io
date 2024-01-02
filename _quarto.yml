@@ -53,6 +53,7 @@ website:
   sidebar:
     - title: "Main Nav"
       style: floating
+      background: "#e9ecef"
       pinned: true
       contents: 
         - text: "Site Navigation:"
