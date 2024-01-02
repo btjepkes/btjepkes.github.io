@@ -175,5 +175,7 @@ You can see that each of the notes we exported from Zotero are now their own bul
 
 ## Final Thoughts
 
-This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. **Happy citing!**
+This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined. If you are interested in other cool ways to handle citations and bibliographies in Quarto, I suggest checking out the website of [Andrew Heiss](https://www.andrewheiss.com/blog/index.html#category=citations).
+
+If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. **Happy citing!**
 
