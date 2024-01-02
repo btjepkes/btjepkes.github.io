@@ -17,7 +17,7 @@
 <generator>quarto-1.4.510</generator>
 <lastBuildDate>Mon, 01 Jan 2024 06:00:00 GMT</lastBuildDate>
 <item>
-  <title>Building Annotated Bibliographies with Quarto </title>
+  <title>Annotated Bibliographies with Quarto in R </title>
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/</link>
   <description><![CDATA[ 
@@ -27,15 +27,16 @@
 
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
-<section id="what-is-an-annotated-bibliography" class="level3">
-<h3 data-anchor-id="what-is-an-annotated-bibliography">What is an annotated bibliography?</h3>
-<p>An <strong>annotated bibliography</strong> is a comprehensive compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
-<p>This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1) identify gaps in existing literature</strong> and <strong>(2) determine the potential contributions of their own work</strong> within the academic discourse.</p>
+<section id="what-is-an-annotated-bib" class="level3">
+<h3 data-anchor-id="what-is-an-annotated-bib">What is an annotated bib?</h3>
+<p>An <strong>annotated bibliography</strong> is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
+<p>This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1)</strong> identify gaps in existing literature and <strong>(2)</strong> determine the potential contributions of their own work within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
 </section>
 <section id="why-use-zotero-and-quarto" class="level3">
 <h3 data-anchor-id="why-use-zotero-and-quarto">Why use Zotero and Quarto?</h3>
 <p><a href="https://www.zotero.org/">Zotero</a> is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. <a href="https://quarto.org/">Quarto</a> is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.</p>
-<p>The reasons I suggest using these options are because they are <strong>both free</strong>, they have <strong>native integration</strong>, and are <strong>highly flexible</strong>. This process allows for greater flexibility than other software, like rendering into HTML, PDF, or Word formats independently or all at once.</p>
+<p>I suggest using these options are because they are <strong>both free</strong>, they have <strong>native integration</strong>, and are <strong>highly flexible</strong>. This process allows for greater flexibility than other software, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.</p>
+<p>Perhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.</p>
 </section>
 <section id="what-are-potential-alternatives" class="level3">
 <h3 data-anchor-id="what-are-potential-alternatives">What are potential alternatives?</h3>
@@ -45,14 +46,14 @@
 </section>
 <section id="workflow-in-zotero" class="level2">
 <h2 data-anchor-id="workflow-in-zotero">Workflow in Zotero</h2>
-<section id="add-citations-and-bibliographic-notes" class="level3">
-<h3 data-anchor-id="add-citations-and-bibliographic-notes">Add Citations and Bibliographic Notes</h3>
+<section id="add-citations-and-summary-notes" class="level3">
+<h3 data-anchor-id="add-citations-and-summary-notes">Add Citations and Summary Notes</h3>
 <p>The first step, which you may be at already, is to get literature into your Zotero library. There are a variety of ways to accomplish this, but I prefer using either the <em>Add Item by Identifier</em> tool or the web extension to automatically load documents into their respective libraries, collections, or sub-collections.</p>
 <p>An important note about this workflow is that each comment or annotation made on an article must be stored as an individual item note. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Example of a Zotero library item to include in our bibliography with each comment as an indivual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an indivual note item."></a></p>
-<figcaption>Example of a Zotero library item to include in our bibliography with each comment as an indivual note item.</figcaption>
+<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
+<figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
 </figure>
 </div>
 </section>
@@ -124,32 +125,16 @@ font-style: inherit;">annote</span> = {“help us to adapt to climate change and
 <span id="cb1-21">    <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">annote</span> = {Predicting and assessing phenological responses can be difficult due to issues associated with spatial scale and physiological response differences across taxa.</span>
-<span id="cb1-22">},</span>
-<span id="cb1-23">    <span class="dt" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">file</span> = {Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf:C<span class="ch" style="color: #20794D;
-background-color: null;
-font-style: inherit;">\:\\</span>Users<span class="ch" style="color: #20794D;
-background-color: null;
-font-style: inherit;">\\</span>btjep<span class="ch" style="color: #20794D;
-background-color: null;
-font-style: inherit;">\\</span>OneDrive<span class="ch" style="color: #20794D;
-background-color: null;
-font-style: inherit;">\\</span>B_Research<span class="ch" style="color: #20794D;
-background-color: null;
-font-style: inherit;">\\</span>Literature<span class="ch" style="color: #20794D;
-background-color: null;
-font-style: inherit;">\\</span>Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf:application/pdf},</span>
-<span id="cb1-24">}</span></code></pre></div>
+<span id="cb1-22">}</span></code></pre></div>
 <p><strong>Important Note -</strong> If you update any metadata about the citation (e.g., authors, abstract, etc.) or add/edit item notes you will need to re-export a .bib file to see these updates carried throughout this workflow.</p>
 </section>
 </section>
 <section id="workflow-in-quarto" class="level2">
 <h2 data-anchor-id="workflow-in-quarto">Workflow in Quarto</h2>
-<p>These next steps will all be carried out using Quarto within RStudio. At the time of this post, I am using this workflow with <code>,</code>, and `` without issues. Some of these steps may need to be adapted based on your working versions and system configuration. This post assumes you have successfully installed Quarto on your machine and are comfortable with markdown document creation using this program.</p>
-<section id="setup-yaml-load-packages" class="level3">
-<h3 data-anchor-id="setup-yaml-load-packages">Setup YAML &amp; Load Packages</h3>
-<p>When starting a new Quarto document, often one of the first steps is setting up your YAML header. This initial bit of code is border by <code>---</code> and contains the necessary elements that tells Quarto how to generate the document.</p>
+<p>These next steps will all be carried out using Quarto within RStudio. At the time of this post, I am using this workflow with <code>R version 4.3.2</code>, <code>Quarto version 1.4.510</code>, and <code>RStudio version 2023.09.1</code> without issues. Some of these steps may need to be adapted based on your working versions and system configuration. This post assumes you have successfully installed Quarto on your machine and are comfortable with markdown document creation using this program.</p>
+<section id="setup-yaml-header" class="level3">
+<h3 data-anchor-id="setup-yaml-header">Setup YAML Header</h3>
+<p>When starting a new Quarto document, often one of the first steps is setting up your YAML header. This initial bit of code is bordered by <code>---</code> on the top and bottom, and contains the necessary elements that tells Quarto how to generate the document.</p>
 <div class="sourceCode" id="annotated-cell-2" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-2-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">---</span></span>
@@ -165,9 +150,9 @@ background-color: null;
 font-style: inherit;">-</span>banner<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">:</span> true</span>
-<span id="annotated-cell-2-4">format<span class="sc" style="color: #5E5E5E;
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-2-4" class="code-annotation-target">format<span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">:</span> </span>
+font-style: inherit;">:</span></span>
 <span id="annotated-cell-2-5">  html<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">:</span> default</span>
@@ -177,20 +162,20 @@ font-style: inherit;">:</span> default</span>
 <span id="annotated-cell-2-7">  pdf<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">:</span> default</span>
-<span id="annotated-cell-2-8">bibliography<span class="sc" style="color: #5E5E5E;
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-2-8" class="code-annotation-target">bibliography<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">:</span> exported_items.bib</span>
-<span id="annotated-cell-2-9">link<span class="sc" style="color: #5E5E5E;
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="4" onclick="event.preventDefault();">4</a><span id="annotated-cell-2-9" class="code-annotation-target">link<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">-</span>citations<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">:</span> false</span>
-<span id="annotated-cell-2-10">csl<span class="sc" style="color: #5E5E5E;
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="5" onclick="event.preventDefault();">5</a><span id="annotated-cell-2-10" class="code-annotation-target">csl<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">:</span> apa<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">-</span>cv.csl</span>
-<span id="annotated-cell-2-11">execute<span class="sc" style="color: #5E5E5E;
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="6" onclick="event.preventDefault();">6</a><span id="annotated-cell-2-11" class="code-annotation-target">execute<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">:</span></span>
 <span id="annotated-cell-2-12">  echo<span class="sc" style="color: #5E5E5E;
@@ -208,10 +193,33 @@ font-style: inherit;">---</span></span><div class="code-annotation-gutter-bg"></
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-lines="2,3" data-code-annotation="1">Sets the title and title banner formatting for the document.</span>
+<span data-code-cell="annotated-cell-2" data-code-lines="2,3" data-code-annotation="1">Set the title and title banner formatting for the document.</span>
+</dd>
+<dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="4,5,6,7" data-code-annotation="2">Specify which output formats to render, including any options (defaults used in this example).</span>
+</dd>
+<dt data-target-cell="annotated-cell-2" data-target-annotation="3">3</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="8" data-code-annotation="3">Specify the BibTeX file to reference. This will be the one we just exported from Zotero with our notes.</span>
+</dd>
+<dt data-target-cell="annotated-cell-2" data-target-annotation="4">4</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="9" data-code-annotation="4">Tell Quarto whether to link each in-text citation to the full bibliography at the bottom.</span>
+</dd>
+<dt data-target-cell="annotated-cell-2" data-target-annotation="5">5</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="10" data-code-annotation="5">Important step! - Specify what CSL (Citation Style Language) to use for the bibliography. This example uses the APA-CV style because it formats the full citation text for both the in-text and references section. This style and many others can be downloaded from the <a href="https://www.zotero.org/styles">Zotero Style Repository</a>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-2" data-target-annotation="6">6</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="11,12,13,14" data-code-annotation="6">Set the document-wide execution options for the code chunks. Here we suppress both the code and warning messages. Specifying <code>output: asis</code> allows for the bullet points to be rendered as raw markdown.</span>
 </dd>
 </dl>
-<p>There are only two packages needed to perform the required steps. The first is the <code>bib2df</code> package, which is a BibTeX parser that turns .bib files into easy-to-read tibbles. The second is the <code>dplyr</code> package within the tidyverse, which allows us to wrangle, filter, and select data from our parsed dataframe. <strong>Install these packages as necessary from CRAN, then load them into your environment.</strong></p>
+</section>
+<section id="load-packages" class="level3">
+<h3 data-anchor-id="load-packages">Load Packages</h3>
+<p>There are only two packages needed to perform the required steps. The first is the <code>bib2df</code> <a href="https://github.com/ropensci/bib2df">package</a>, which is a BibTeX parser that turns .bib files into easy-to-read tibbles. The second is the <code>dplyr</code> package within the tidyverse, which allows us to wrangle, filter, and select data from our parsed dataframe. <strong>Install these packages as necessary from CRAN, then load them into your environment.</strong></p>
 <div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Load these required packages</span></span>
@@ -228,12 +236,13 @@ font-style: inherit;"># --- for .bib parsing</span></span></code></pre></div>
 </section>
 <section id="specifying-literature-to-cite" class="level3">
 <h3 data-anchor-id="specifying-literature-to-cite">Specifying Literature to Cite</h3>
-<p>Creating content:</p>
+<p>Quarto is very similar to many other markdown formats, including RMarkdown, such that you can add in-text citations based on their citation keys. Zotero will generate these automatically when exporting the .bib file, but can sometimes lead to issues if they change with successive exports. To resolve this, a good option is to use the <a href="https://github.com/retorquere/zotero-better-bibtex">Better BibTeX for Zotero Extension</a> which makes it easier to manage your citation keys.</p>
+<p>The following code provides an example of how to insert a citation into your Quarto document. Traditionally, this is how an in-text citation would be placed at that location, but since we specified our CSL as the APA-CV style it will render the entire citation instead. The <code>morisette_tracking_2009</code> portion is the citation key and will be referenced in the next part as well.</p>
 <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">@</span>morisette_tracking_2009</span></code></pre></div>
-<p>After you insert the proper citation, the next part is a chunk of executable R code.</p>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">df <span class="ot" style="color: #003B4F;
+<p>After you insert the proper citation, the next part is a chunk of executable R code. This is the meat and potatoes of the whole operation. This chunk will need to be copy-pasted after each citation key you want to use. Then you will need to copy the citation key and paste it into whichever chunk follows it.</p>
+<div class="sourceCode" id="annotated-cell-5" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-5-1" class="code-annotation-target">df <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> bib2df<span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -247,8 +256,8 @@ font-style: inherit;">::</span>metadata<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span>bibliography) <span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">|&gt;</span> </span>
-<span id="cb4-2">  <span class="fu" style="color: #4758AB;
+font-style: inherit;">|&gt;</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-5-2" class="code-annotation-target">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">filter</span>(BIBTEXKEY <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -256,8 +265,8 @@ font-style: inherit;">==</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"morisette_tracking_2009"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">|&gt;</span> </span>
-<span id="cb4-3">  <span class="fu" style="color: #4758AB;
+font-style: inherit;">|&gt;</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-5-3" class="code-annotation-target">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">select</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
@@ -265,8 +274,8 @@ font-style: inherit;">contains</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"ANNOTE"</span>)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">|&gt;</span> </span>
-<span id="cb4-4">  <span class="fu" style="color: #4758AB;
+font-style: inherit;">|&gt;</span></span>
+<span id="annotated-cell-5-4">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">gather</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -278,12 +287,12 @@ font-style: inherit;">value =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Value"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">|&gt;</span> </span>
-<span id="cb4-5">  <span class="fu" style="color: #4758AB;
+font-style: inherit;">|&gt;</span></span>
+<span id="annotated-cell-5-5">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">pull</span>(Value)</span>
-<span id="cb4-6"></span>
-<span id="cb4-7">list <span class="ot" style="color: #003B4F;
+<span id="annotated-cell-5-6"></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="4" onclick="event.preventDefault();">4</a><span id="annotated-cell-5-7" class="code-annotation-target">list <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -298,15 +307,32 @@ background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"</span>)</span>
-<span id="cb4-8"></span>
-<span id="cb4-9"><span class="fu" style="color: #4758AB;
+<span id="annotated-cell-5-8"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">cat</span>(list)</span></code></pre></div>
+font-style: inherit;">cat</span>(list)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-5" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="1" data-code-annotation="1">Using the <code>bib2df</code> function, parse the .bib file specified in the YAML into a dataframe. The <code>rmarkdown::metadata$bibliography</code> does not need to be changed between citation code chunks.</span>
+</dd>
+<dt data-target-cell="annotated-cell-5" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="2" data-code-annotation="2">Filter this new dataframe for the citation of interest as specified by its citation key. This is the only portion of the code chunk that will need to be changed between citations to update the citation key text in the parentheses.</span>
+</dd>
+<dt data-target-cell="annotated-cell-5" data-target-annotation="3">3</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="3,4,5" data-code-annotation="3">Select only the fields for our annotations, which are parsed as “ANNOTE”. Then collect a vector of these character strings.</span>
+</dd>
+<dt data-target-cell="annotated-cell-5" data-target-annotation="4">4</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="7,8" data-code-annotation="4">To create the bullet list, this part adds a “-” before and a linebreak after each note. Then we concatenate and print our notes, which output as an un-ordered list as raw markdown to be rendered.</span>
+</dd>
+</dl>
 </section>
 <section id="render-into-preferred-format" class="level3">
 <h3 data-anchor-id="render-into-preferred-format">Render into Preferred Format</h3>
 <p>The final, and often most nerve-racking, step is to <code>render</code> our .qmd document. As I mentioned earlier, there are several formats we can use (e.g., .pdf, .docx). I tend to render into HTML initially, then troubleshoot Pandoc conversion issues with other formats once I know it compiles.</p>
-<p>If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs.</p>
+<p>If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs. For this example, I have placed a single citation and its summary notes under a heading titled “Ecological Phenology”, which could be a broad theme or a way to structure your thesis sections. A comprehensive bibliography will be printed at the end of the document showing all citations from the citation keys referenced throughout.</p>
 <div>
 
 </div>
@@ -326,24 +352,25 @@ font-style: inherit;">cat</span>(list)</span></code></pre></div>
 </section>
 </div>
 </div>
+<p>You can see that each of the notes we exported from Zotero are now their own bullet point under their respective citation. One potential alteration to this would be to concatenate all the notes into a single paragraph or to make the un-ordered list into an ordered one. The annotations in the .bib file are parsed in the order they appear in Zotero which is alphabetical by default. Feel free to mess around will the different formats and styles to create a final product that meets your needs.</p>
 </section>
 </section>
 <section id="final-thoughts" class="level2">
 <h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
-<p>This workflow has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy writing!</strong></p>
+<p>This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
 
 
 </section>
 
 <div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
-Tjepkes, Benjamin. 2024. <span>“Building Annotated Bibliographies with
-Quarto.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto">https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto</a>.
+Tjepkes, Benjamin. 2024. <span>“Annotated Bibliographies with Quarto in
+R.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto">https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Bibliography</category>
   <guid>https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/</guid>
   <pubDate>Mon, 01 Jan 2024 06:00:00 GMT</pubDate>
-  <media:content url="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-html.png" medium="image" type="image/png" height="131" width="144"/>
+  <media:content url="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-cover.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>My 2023 Highlights, Reflections, and Recap </title>
@@ -453,7 +480,7 @@ Recap.”</span> December 31, 2023. <a href="https://btjepkes.github.io/posts/my
 <p>Here are my contributions to the challenge. Feel free to explore the details on each map product by clicking/tapping the map previews below. I was not able to create a map for every day, but this was my first time partaking in this challenge so I am happy with how many I created.</p>
 <div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702316387574" data-listing-date-modified-sort="1704088800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702316387574" data-listing-date-modified-sort="1704175200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
 <a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -492,7 +519,7 @@ Canadian Ecoregions Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1703443158274" data-listing-date-modified-sort="1704088800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1703443158274" data-listing-date-modified-sort="1704175200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
 <a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -518,7 +545,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1703440842343" data-listing-date-modified-sort="1704088800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1703440842343" data-listing-date-modified-sort="1704175200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
 <a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -557,7 +584,7 @@ Andes Mountains Elevation Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1703440281147" data-listing-date-modified-sort="1704088800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1703440281147" data-listing-date-modified-sort="1704175200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
 <a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -570,7 +597,7 @@ Forest Cover &amp; Happiness Bivariate Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1703440127510" data-listing-date-modified-sort="1704088800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1703440127510" data-listing-date-modified-sort="1704175200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -621,7 +648,7 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
 <figcaption>Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
 </figure>
 </div>

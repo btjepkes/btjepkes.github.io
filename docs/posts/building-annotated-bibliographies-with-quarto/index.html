@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2024-01-01">
 <meta name="description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
 
-<title>Building Annotated Bibliographies with Quarto | B.W. Tjepkes</title>
+<title>Annotated Bibliographies with Quarto in R | B.W. Tjepkes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -98,18 +98,18 @@ gtag('js', new Date());
 gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
-<meta property="og:title" content="Building Annotated Bibliographies with Quarto | B.W. Tjepkes">
+<meta property="og:title" content="Annotated Bibliographies with Quarto in R | B.W. Tjepkes">
 <meta property="og:description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
-<meta property="og:image" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-html.png">
+<meta property="og:image" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-cover.png">
 <meta property="og:site_name" content="Benjamin Tjepkes">
-<meta property="og:image:height" content="756">
-<meta property="og:image:width" content="834">
+<meta property="og:image:height" content="2483">
+<meta property="og:image:width" content="4415">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
 <meta name="twitter:description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
-<meta name="twitter:image" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-html.png">
+<meta name="twitter:image" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-cover.png">
 <meta name="twitter:creator" content="@BTjepkes">
-<meta name="twitter:image-height" content="756">
-<meta name="twitter:image-width" content="834">
+<meta name="twitter:image-height" content="2483">
+<meta name="twitter:image-width" content="4415">
 <meta name="twitter:card" content="summary_large_image">
 </head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:3px; background-color: #35d290;; position: fixed; top: 62px; z-index: 2000;"></div>
 
@@ -155,6 +155,12 @@ document.addEventListener("DOMContentLoaded", function() {
             justify-content: flex-end;
             z-index: -2;
         }
+        
+        @media screen and (max-width: 991.98px) {
+              #uni-banner {
+                  background-attachment: scroll;
+              }
+          }
         
         #uni-banner > svg {
             display: inline-block;
@@ -274,7 +280,7 @@ document.addEventListener("DOMContentLoaded", function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Building Annotated Bibliographies with Quarto </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Annotated Bibliographies with Quarto in R </li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -286,14 +292,14 @@ document.addEventListener("DOMContentLoaded", function() {
   <div class="title-date">~ 2024-01-01 ~</div>
 
   <div class="title-area">
-    <h1 class="title">Building Annotated Bibliographies with Quarto </h1>
+    <h1 class="title">Annotated Bibliographies with Quarto in R </h1>
   </div>
     
   <div class="header-content-container">  
   <div class="post-meta">
     
           <div class="description">
-        <div class="abstract" style="display: inline;">Streamlining your bibliography creation in R ↦</div> In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.
+        <div class="abstract" style="display: inline;">Streamlining your bibliography creation using Quarto and Zotero in R ↦</div> In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.
       </div>
         
   </div>
@@ -380,18 +386,19 @@ document.addEventListener("DOMContentLoaded", function() {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
   <ul class="collapse">
-  <li><a href="#what-is-an-annotated-bibliography" id="toc-what-is-an-annotated-bibliography" class="nav-link" data-scroll-target="#what-is-an-annotated-bibliography">What is an annotated bibliography?</a></li>
+  <li><a href="#what-is-an-annotated-bib" id="toc-what-is-an-annotated-bib" class="nav-link" data-scroll-target="#what-is-an-annotated-bib">What is an annotated bib?</a></li>
   <li><a href="#why-use-zotero-and-quarto" id="toc-why-use-zotero-and-quarto" class="nav-link" data-scroll-target="#why-use-zotero-and-quarto">Why use Zotero and Quarto?</a></li>
   <li><a href="#what-are-potential-alternatives" id="toc-what-are-potential-alternatives" class="nav-link" data-scroll-target="#what-are-potential-alternatives">What are potential alternatives?</a></li>
   </ul></li>
   <li><a href="#workflow-in-zotero" id="toc-workflow-in-zotero" class="nav-link" data-scroll-target="#workflow-in-zotero">Workflow in Zotero</a>
   <ul class="collapse">
-  <li><a href="#add-citations-and-bibliographic-notes" id="toc-add-citations-and-bibliographic-notes" class="nav-link" data-scroll-target="#add-citations-and-bibliographic-notes">Add Citations and Bibliographic Notes</a></li>
+  <li><a href="#add-citations-and-summary-notes" id="toc-add-citations-and-summary-notes" class="nav-link" data-scroll-target="#add-citations-and-summary-notes">Add Citations and Summary Notes</a></li>
   <li><a href="#export-items-as-bibtex" id="toc-export-items-as-bibtex" class="nav-link" data-scroll-target="#export-items-as-bibtex">Export Item(s) as BibTeX</a></li>
   </ul></li>
   <li><a href="#workflow-in-quarto" id="toc-workflow-in-quarto" class="nav-link" data-scroll-target="#workflow-in-quarto">Workflow in Quarto</a>
   <ul class="collapse">
-  <li><a href="#setup-yaml-load-packages" id="toc-setup-yaml-load-packages" class="nav-link" data-scroll-target="#setup-yaml-load-packages">Setup YAML &amp; Load Packages</a></li>
+  <li><a href="#setup-yaml-header" id="toc-setup-yaml-header" class="nav-link" data-scroll-target="#setup-yaml-header">Setup YAML Header</a></li>
+  <li><a href="#load-packages" id="toc-load-packages" class="nav-link" data-scroll-target="#load-packages">Load Packages</a></li>
   <li><a href="#specifying-literature-to-cite" id="toc-specifying-literature-to-cite" class="nav-link" data-scroll-target="#specifying-literature-to-cite">Specifying Literature to Cite</a></li>
   <li><a href="#render-into-preferred-format" id="toc-render-into-preferred-format" class="nav-link" data-scroll-target="#render-into-preferred-format">Render into Preferred Format</a></li>
   </ul></li>
@@ -407,15 +414,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
-<section id="what-is-an-annotated-bibliography" class="level3">
-<h3 data-anchor-id="what-is-an-annotated-bibliography">What is an annotated bibliography?</h3>
-<p>An <strong>annotated bibliography</strong> is a comprehensive compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
-<p>This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1) identify gaps in existing literature</strong> and <strong>(2) determine the potential contributions of their own work</strong> within the academic discourse.</p>
+<section id="what-is-an-annotated-bib" class="level3">
+<h3 data-anchor-id="what-is-an-annotated-bib">What is an annotated bib?</h3>
+<p>An <strong>annotated bibliography</strong> is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
+<p>This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1)</strong> identify gaps in existing literature and <strong>(2)</strong> determine the potential contributions of their own work within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
 </section>
 <section id="why-use-zotero-and-quarto" class="level3">
 <h3 data-anchor-id="why-use-zotero-and-quarto">Why use Zotero and Quarto?</h3>
 <p><a href="https://www.zotero.org/">Zotero</a> is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. <a href="https://quarto.org/">Quarto</a> is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.</p>
-<p>The reasons I suggest using these options are because they are <strong>both free</strong>, they have <strong>native integration</strong>, and are <strong>highly flexible</strong>. This process allows for greater flexibility than other software, like rendering into HTML, PDF, or Word formats independently or all at once.</p>
+<p>I suggest using these options are because they are <strong>both free</strong>, they have <strong>native integration</strong>, and are <strong>highly flexible</strong>. This process allows for greater flexibility than other software, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.</p>
+<p>Perhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.</p>
 </section>
 <section id="what-are-potential-alternatives" class="level3">
 <h3 data-anchor-id="what-are-potential-alternatives">What are potential alternatives?</h3>
@@ -425,14 +433,14 @@ document.addEventListener("DOMContentLoaded", function() {
 </section>
 <section id="workflow-in-zotero" class="level2">
 <h2 data-anchor-id="workflow-in-zotero">Workflow in Zotero</h2>
-<section id="add-citations-and-bibliographic-notes" class="level3">
-<h3 data-anchor-id="add-citations-and-bibliographic-notes">Add Citations and Bibliographic Notes</h3>
+<section id="add-citations-and-summary-notes" class="level3">
+<h3 data-anchor-id="add-citations-and-summary-notes">Add Citations and Summary Notes</h3>
 <p>The first step, which you may be at already, is to get literature into your Zotero library. There are a variety of ways to accomplish this, but I prefer using either the <em>Add Item by Identifier</em> tool or the web extension to automatically load documents into their respective libraries, collections, or sub-collections.</p>
 <p>An important note about this workflow is that each comment or annotation made on an article must be stored as an individual item note. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Example of a Zotero library item to include in our bibliography with each comment as an indivual note item."><img src="img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an indivual note item."></a></p>
-<figcaption>Example of a Zotero library item to include in our bibliography with each comment as an indivual note item.</figcaption>
+<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
+<figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
 </figure>
 </div>
 </section>
@@ -462,29 +470,27 @@ document.addEventListener("DOMContentLoaded", function() {
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="dt">annote</span> = {“help us to adapt to climate change and to better manage our natural resources.” (Morisette et al., 2009, p. 259) “Cyberinfrastructure will enable these data to be synthesized and used by increasingly advanced spatial–temporal analysis and modeling activities” (Morisette et al., 2009, p. 259)</span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>},</span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="dt">annote</span> = {Predicting and assessing phenological responses can be difficult due to issues associated with spatial scale and physiological response differences across taxa.</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>},</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="dt">file</span> = {Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf:C<span class="ch">\:\\</span>Users<span class="ch">\\</span>btjep<span class="ch">\\</span>OneDrive<span class="ch">\\</span>B_Research<span class="ch">\\</span>Literature<span class="ch">\\</span>Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf:application/pdf},</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><strong>Important Note -</strong> If you update any metadata about the citation (e.g., authors, abstract, etc.) or add/edit item notes you will need to re-export a .bib file to see these updates carried throughout this workflow.</p>
 </section>
 </section>
 <section id="workflow-in-quarto" class="level2">
 <h2 data-anchor-id="workflow-in-quarto">Workflow in Quarto</h2>
-<p>These next steps will all be carried out using Quarto within RStudio. At the time of this post, I am using this workflow with <code>,</code>, and `` without issues. Some of these steps may need to be adapted based on your working versions and system configuration. This post assumes you have successfully installed Quarto on your machine and are comfortable with markdown document creation using this program.</p>
-<section id="setup-yaml-load-packages" class="level3">
-<h3 data-anchor-id="setup-yaml-load-packages">Setup YAML &amp; Load Packages</h3>
-<p>When starting a new Quarto document, often one of the first steps is setting up your YAML header. This initial bit of code is border by <code>---</code> and contains the necessary elements that tells Quarto how to generate the document.</p>
+<p>These next steps will all be carried out using Quarto within RStudio. At the time of this post, I am using this workflow with <code>R version 4.3.2</code>, <code>Quarto version 1.4.510</code>, and <code>RStudio version 2023.09.1</code> without issues. Some of these steps may need to be adapted based on your working versions and system configuration. This post assumes you have successfully installed Quarto on your machine and are comfortable with markdown document creation using this program.</p>
+<section id="setup-yaml-header" class="level3">
+<h3 data-anchor-id="setup-yaml-header">Setup YAML Header</h3>
+<p>When starting a new Quarto document, often one of the first steps is setting up your YAML header. This initial bit of code is bordered by <code>---</code> on the top and bottom, and contains the necessary elements that tells Quarto how to generate the document.</p>
 <div class="sourceCode" id="annotated-cell-2"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-2-1"><a href="#annotated-cell-2-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
 <a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-2-2" class="code-annotation-target"><a href="#annotated-cell-2-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"Literature Review"</span></span>
 <span id="annotated-cell-2-3"><a href="#annotated-cell-2-3" aria-hidden="true" tabindex="-1"></a>title<span class="sc">-</span>block<span class="sc">-</span>banner<span class="sc">:</span> true</span>
-<span id="annotated-cell-2-4"><a href="#annotated-cell-2-4" aria-hidden="true" tabindex="-1"></a>format<span class="sc">:</span> </span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-2-4" class="code-annotation-target"><a href="#annotated-cell-2-4" aria-hidden="true" tabindex="-1"></a>format<span class="sc">:</span></span>
 <span id="annotated-cell-2-5"><a href="#annotated-cell-2-5" aria-hidden="true" tabindex="-1"></a>  html<span class="sc">:</span> default</span>
 <span id="annotated-cell-2-6"><a href="#annotated-cell-2-6" aria-hidden="true" tabindex="-1"></a>  docx<span class="sc">:</span> default</span>
 <span id="annotated-cell-2-7"><a href="#annotated-cell-2-7" aria-hidden="true" tabindex="-1"></a>  pdf<span class="sc">:</span> default</span>
-<span id="annotated-cell-2-8"><a href="#annotated-cell-2-8" aria-hidden="true" tabindex="-1"></a>bibliography<span class="sc">:</span> exported_items.bib</span>
-<span id="annotated-cell-2-9"><a href="#annotated-cell-2-9" aria-hidden="true" tabindex="-1"></a>link<span class="sc">-</span>citations<span class="sc">:</span> false</span>
-<span id="annotated-cell-2-10"><a href="#annotated-cell-2-10" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> apa<span class="sc">-</span>cv.csl</span>
-<span id="annotated-cell-2-11"><a href="#annotated-cell-2-11" aria-hidden="true" tabindex="-1"></a>execute<span class="sc">:</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-2-8" class="code-annotation-target"><a href="#annotated-cell-2-8" aria-hidden="true" tabindex="-1"></a>bibliography<span class="sc">:</span> exported_items.bib</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="4" onclick="event.preventDefault();">4</a><span id="annotated-cell-2-9" class="code-annotation-target"><a href="#annotated-cell-2-9" aria-hidden="true" tabindex="-1"></a>link<span class="sc">-</span>citations<span class="sc">:</span> false</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="5" onclick="event.preventDefault();">5</a><span id="annotated-cell-2-10" class="code-annotation-target"><a href="#annotated-cell-2-10" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> apa<span class="sc">-</span>cv.csl</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="6" onclick="event.preventDefault();">6</a><span id="annotated-cell-2-11" class="code-annotation-target"><a href="#annotated-cell-2-11" aria-hidden="true" tabindex="-1"></a>execute<span class="sc">:</span></span>
 <span id="annotated-cell-2-12"><a href="#annotated-cell-2-12" aria-hidden="true" tabindex="-1"></a>  echo<span class="sc">:</span> false</span>
 <span id="annotated-cell-2-13"><a href="#annotated-cell-2-13" aria-hidden="true" tabindex="-1"></a>  warning<span class="sc">:</span> false</span>
 <span id="annotated-cell-2-14"><a href="#annotated-cell-2-14" aria-hidden="true" tabindex="-1"></a>  output<span class="sc">:</span> asis</span>
@@ -492,33 +498,74 @@ document.addEventListener("DOMContentLoaded", function() {
 <dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
 <dd>
-<span data-code-cell="annotated-cell-2" data-code-lines="2,3" data-code-annotation="1">Sets the title and title banner formatting for the document.</span>
+<span data-code-cell="annotated-cell-2" data-code-lines="2,3" data-code-annotation="1">Set the title and title banner formatting for the document.</span>
+</dd>
+<dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="4,5,6,7" data-code-annotation="2">Specify which output formats to render, including any options (defaults used in this example).</span>
+</dd>
+<dt data-target-cell="annotated-cell-2" data-target-annotation="3">3</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="8" data-code-annotation="3">Specify the BibTeX file to reference. This will be the one we just exported from Zotero with our notes.</span>
+</dd>
+<dt data-target-cell="annotated-cell-2" data-target-annotation="4">4</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="9" data-code-annotation="4">Tell Quarto whether to link each in-text citation to the full bibliography at the bottom.</span>
+</dd>
+<dt data-target-cell="annotated-cell-2" data-target-annotation="5">5</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="10" data-code-annotation="5">Important step! - Specify what CSL (Citation Style Language) to use for the bibliography. This example uses the APA-CV style because it formats the full citation text for both the in-text and references section. This style and many others can be downloaded from the <a href="https://www.zotero.org/styles">Zotero Style Repository</a>.</span>
+</dd>
+<dt data-target-cell="annotated-cell-2" data-target-annotation="6">6</dt>
+<dd>
+<span data-code-cell="annotated-cell-2" data-code-lines="11,12,13,14" data-code-annotation="6">Set the document-wide execution options for the code chunks. Here we suppress both the code and warning messages. Specifying <code>output: asis</code> allows for the bullet points to be rendered as raw markdown.</span>
 </dd>
 </dl>
-<p>There are only two packages needed to perform the required steps. The first is the <code>bib2df</code> package, which is a BibTeX parser that turns .bib files into easy-to-read tibbles. The second is the <code>dplyr</code> package within the tidyverse, which allows us to wrangle, filter, and select data from our parsed dataframe. <strong>Install these packages as necessary from CRAN, then load them into your environment.</strong></p>
+</section>
+<section id="load-packages" class="level3">
+<h3 data-anchor-id="load-packages">Load Packages</h3>
+<p>There are only two packages needed to perform the required steps. The first is the <code>bib2df</code> <a href="https://github.com/ropensci/bib2df">package</a>, which is a BibTeX parser that turns .bib files into easy-to-read tibbles. The second is the <code>dplyr</code> package within the tidyverse, which allows us to wrangle, filter, and select data from our parsed dataframe. <strong>Install these packages as necessary from CRAN, then load them into your environment.</strong></p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load these required packages</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse) <span class="co"># --- for data wrangling</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(bib2df)    <span class="co"># --- for .bib parsing</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="specifying-literature-to-cite" class="level3">
 <h3 data-anchor-id="specifying-literature-to-cite">Specifying Literature to Cite</h3>
-<p>Creating content:</p>
+<p>Quarto is very similar to many other markdown formats, including RMarkdown, such that you can add in-text citations based on their citation keys. Zotero will generate these automatically when exporting the .bib file, but can sometimes lead to issues if they change with successive exports. To resolve this, a good option is to use the <a href="https://github.com/retorquere/zotero-better-bibtex">Better BibTeX for Zotero Extension</a> which makes it easier to manage your citation keys.</p>
+<p>The following code provides an example of how to insert a citation into your Quarto document. Traditionally, this is how an in-text citation would be placed at that location, but since we specified our CSL as the APA-CV style it will render the entire citation instead. The <code>morisette_tracking_2009</code> portion is the citation key and will be referenced in the next part as well.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>morisette_tracking_2009</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>After you insert the proper citation, the next part is a chunk of executable R code.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> bib2df<span class="sc">::</span><span class="fu">bib2df</span>(<span class="at">file =</span> rmarkdown<span class="sc">::</span>metadata<span class="sc">$</span>bibliography) <span class="sc">|&gt;</span> </span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(BIBTEXKEY <span class="sc">==</span> <span class="st">"morisette_tracking_2009"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="fu">contains</span>(<span class="st">"ANNOTE"</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gather</span>(<span class="at">key =</span> <span class="st">"Column"</span>, <span class="at">value =</span> <span class="st">"Value"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(Value)</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>list <span class="ot">&lt;-</span> <span class="fu">paste</span>(<span class="st">"- "</span>, df, <span class="at">collapse =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(list)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>After you insert the proper citation, the next part is a chunk of executable R code. This is the meat and potatoes of the whole operation. This chunk will need to be copy-pasted after each citation key you want to use. Then you will need to copy the citation key and paste it into whichever chunk follows it.</p>
+<div class="sourceCode" id="annotated-cell-5"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-5-1" class="code-annotation-target"><a href="#annotated-cell-5-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> bib2df<span class="sc">::</span><span class="fu">bib2df</span>(<span class="at">file =</span> rmarkdown<span class="sc">::</span>metadata<span class="sc">$</span>bibliography) <span class="sc">|&gt;</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-5-2" class="code-annotation-target"><a href="#annotated-cell-5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(BIBTEXKEY <span class="sc">==</span> <span class="st">"morisette_tracking_2009"</span>) <span class="sc">|&gt;</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-5-3" class="code-annotation-target"><a href="#annotated-cell-5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="fu">contains</span>(<span class="st">"ANNOTE"</span>)) <span class="sc">|&gt;</span></span>
+<span id="annotated-cell-5-4"><a href="#annotated-cell-5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gather</span>(<span class="at">key =</span> <span class="st">"Column"</span>, <span class="at">value =</span> <span class="st">"Value"</span>) <span class="sc">|&gt;</span></span>
+<span id="annotated-cell-5-5"><a href="#annotated-cell-5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(Value)</span>
+<span id="annotated-cell-5-6"><a href="#annotated-cell-5-6" aria-hidden="true" tabindex="-1"></a></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="4" onclick="event.preventDefault();">4</a><span id="annotated-cell-5-7" class="code-annotation-target"><a href="#annotated-cell-5-7" aria-hidden="true" tabindex="-1"></a>list <span class="ot">&lt;-</span> <span class="fu">paste</span>(<span class="st">"- "</span>, df, <span class="at">collapse =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="annotated-cell-5-8"><a href="#annotated-cell-5-8" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(list)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<dl class="code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-5" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="1" data-code-annotation="1">Using the <code>bib2df</code> function, parse the .bib file specified in the YAML into a dataframe. The <code>rmarkdown::metadata$bibliography</code> does not need to be changed between citation code chunks.</span>
+</dd>
+<dt data-target-cell="annotated-cell-5" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="2" data-code-annotation="2">Filter this new dataframe for the citation of interest as specified by its citation key. This is the only portion of the code chunk that will need to be changed between citations to update the citation key text in the parentheses.</span>
+</dd>
+<dt data-target-cell="annotated-cell-5" data-target-annotation="3">3</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="3,4,5" data-code-annotation="3">Select only the fields for our annotations, which are parsed as “ANNOTE”. Then collect a vector of these character strings.</span>
+</dd>
+<dt data-target-cell="annotated-cell-5" data-target-annotation="4">4</dt>
+<dd>
+<span data-code-cell="annotated-cell-5" data-code-lines="7,8" data-code-annotation="4">To create the bullet list, this part adds a “-” before and a linebreak after each note. Then we concatenate and print our notes, which output as an un-ordered list as raw markdown to be rendered.</span>
+</dd>
+</dl>
 </section>
 <section id="render-into-preferred-format" class="level3">
 <h3 data-anchor-id="render-into-preferred-format">Render into Preferred Format</h3>
 <p>The final, and often most nerve-racking, step is to <code>render</code> our .qmd document. As I mentioned earlier, there are several formats we can use (e.g., .pdf, .docx). I tend to render into HTML initially, then troubleshoot Pandoc conversion issues with other formats once I know it compiles.</p>
-<p>If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs.</p>
+<p>If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs. For this example, I have placed a single citation and its summary notes under a heading titled “Ecological Phenology”, which could be a broad theme or a way to structure your thesis sections. A comprehensive bibliography will be printed at the end of the document showing all citations from the citation keys referenced throughout.</p>
 <div>
 
 </div>
@@ -538,18 +585,19 @@ document.addEventListener("DOMContentLoaded", function() {
 </section>
 </div>
 </div>
+<p>You can see that each of the notes we exported from Zotero are now their own bullet point under their respective citation. One potential alteration to this would be to concatenate all the notes into a single paragraph or to make the un-ordered list into an ordered one. The annotations in the .bib file are parsed in the order they appear in Zotero which is alphabetical by default. Feel free to mess around will the different formats and styles to create a final product that meets your needs.</p>
 </section>
 </section>
 <section id="final-thoughts" class="level2">
 <h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
-<p>This workflow has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy writing!</strong></p>
+<p>This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
 
 
 </section>
 
 <div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Tjepkes, Benjamin. 2024. <span>“Building Annotated Bibliographies with
-Quarto.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto">https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto</a>.
+Tjepkes, Benjamin. 2024. <span>“Annotated Bibliographies with Quarto in
+R.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto">https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1002,7 +1050,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});</script>
 
 
 
