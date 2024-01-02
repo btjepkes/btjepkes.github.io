@@ -1,9 +1,7 @@
 ---
-title: "Portfolio of B.W. Tjepkes"
-subtitle: "Integrating ecology and geospatial science for nature conservation."
-description: "Hello! My name is Ben Tjepkes and I am a wildlife ecologist and developing geographer. This site provides an overview of my career and a showcase of my technical aptitude."
-# author: Benjamin Tjepkes
-date: 11/14/2023
+title: "Hello! My name is **Ben Tjepkes** and I am a dedicated wildlife ecologist and data-driven geographer."
+abstract: This is my online portfolio showcasing my professional and creative works
+description: "I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more."
 date-modified: today
 image: "assets/img-ben-portrait-2.jpg"
 image-alt: "Image-of-trees."
@@ -48,12 +46,12 @@ listing:
       - image
 ---
 
-::: {#intro-section}
+<!-- ::: {#intro-section} -->
 
-# Hello! My name is **Ben Tjepkes** and I am a dedicated wildlife ecologist and data-focused geographer.
+<!-- # Hello! My name is **Ben Tjepkes** and I am a dedicated wildlife ecologist and data-focused geographer. -->
 
-This is my online portfolio showcasing my professional and creative works. I am currently a **graduate student** at the University of Missouri studying **geographic information systems** in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more. 
-:::
+<!-- This is my online portfolio showcasing my professional and creative works. I am currently a **graduate student** at the University of Missouri studying **geographic information systems** in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more.  -->
+<!-- ::: -->
 
 ::: {#site-listings-2 .column-body-outset}
 :::

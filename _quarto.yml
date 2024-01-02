@@ -11,10 +11,9 @@ website:
   page-navigation: true
   back-to-top-navigation: false
   bread-crumbs: true
-  search: false
-  # search:
-  #   location: sidebar
-  #   type: textbox
+  search:
+    location: sidebar
+    type: textbox
   open-graph: true
   twitter-card:
     creator: "@BTjepkes"
@@ -55,9 +54,8 @@ website:
     - title: "Main Nav"
       style: floating
       pinned: true
-      background: "#0f172a"
       contents: 
-        - text: Site Navigation
+        - text: "Site Navigation:"
         - href: index.qmd
           text: "Home"
           icon: house-fill
