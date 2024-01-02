@@ -1,6 +1,6 @@
 ---
 title: "Post-Secondary Institutions Hexmap"
-subtitle: "Visualizing which U.S. states have more colleges."
+abstract: "Visualizing which U.S. states have more colleges"
 date: 11/09/2023
 date-modified: today
 categories:

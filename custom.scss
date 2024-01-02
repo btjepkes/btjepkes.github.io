@@ -151,6 +151,8 @@ h1 {
   padding-bottom: 20px;
   line-height: 1.2em;
   font-family: Oswald;
+  max-width: 1000px;
+  margin: auto;
 }
 
 h1 strong {
@@ -176,7 +178,7 @@ h3 {
 
 .abstract {
   color: #35d290;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -188,22 +190,20 @@ h3 {
   font-size: 1.1em;
   font-weight: bold;
   margin-bottom: 0.5em;
+  padding-left: 2px;
 }
 
 code {
-  background: #1e293b;
+  color: #1e293b;
   border-radius: 4px;
-  color: #fff;
+  background: $gray-200;
 }
 
 p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
-background-color: #1e293b;
+  color: #1e293b;
+  border-radius: 4px;
+  background: $gray-200;
 }
-/*
-b, strong {
-  color: #35d290;
-  font-weight: normal;
-}*/
 
 div.sourceCode {
   background: rgba(255,255,255,1.0);
@@ -475,7 +475,7 @@ color: #000;
 
 #title-block-header {
   text-align: center;
-  padding: 40px 20% 40px 20%;
+  padding: 40px 20px 40px 20px;
   margin: auto;
   background: #0f172a;
   border-bottom: solid #1e293b 5px;
@@ -518,7 +518,7 @@ color: #000;
 }
 
 .nav-page .pagination-link {
-  background: #1e293b;
+  background: $gray-200;
   border-radius: 20px;
   padding: 0px 10px;
 }
@@ -531,6 +531,7 @@ color: #000;
     color: black;
     padding: 10px;
     border-radius: 4px;
+    border: solid 1px;
     }
 
   .rt-search {
@@ -1033,10 +1034,10 @@ margin-bottom: 0 !important;
 // APPENDEX
 
 .quarto-appendix-citeas {
-  background: #1e293b;
   padding: 12px;
   border-radius: 6px;
   margin-top: 12px;
+  background: $gray-200;
 }
 
 

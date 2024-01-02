@@ -46,65 +46,9 @@ listing:
       - image
 ---
 
-<!-- ::: {#intro-section} -->
-
-<!-- # Hello! My name is **Ben Tjepkes** and I am a dedicated wildlife ecologist and data-focused geographer. -->
-
-<!-- This is my online portfolio showcasing my professional and creative works. I am currently a **graduate student** at the University of Missouri studying **geographic information systems** in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**. My interests span the fields of geospatial, ecology, data science, and climate science. Please have a look around at my blog posts, research overviews, visualization gallery, full curriculum vitae, and lots more.  -->
-<!-- ::: -->
 
 ::: {#site-listings-2 .column-body-outset}
 :::
 
-
-<!-- ## My Brief Bio -->
-
-<!-- I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My interests span the fields of geospatial, ecology, data science, and climate science. -->
-
-
 ::: {#site-listings-1 .column-body-outset}
-:::
-
-<!-- *Below are some of my recent professional activities.* -->
-
-<!-- - **Nov 2023** -- I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd). -->
-
-<!-- - **Sep 2023** -- I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science. -->
-
-<!-- - **Aug 2023** -- I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon! -->
-
-<!-- - **July 2023** -- One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. -->
-
-```{r}
-#| tbl-colwidths: [20,80]
-#| echo: false
-#| eval: false
-library(knitr)
-library(kableExtra)
-
-data <- data.frame(
-  Date = c("Nov 2023", "Sept 2023", "Aug 2023", "July 2023", "April 2023"),
-  Item = c("I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd).", "Sept 2023", "Aug 2023", "July 2023", "April 2023")
-)
-
-kable(data)
-```
-
-<!-- |                |                                                                                                                                                                                                                                                                | -->
-<!-- |:----------------------:|------------------------------------------------| -->
-<!-- |  **Nov 2023**  | I am participating in the #30DayMapChallenge on social media. See all my map contributions so far [here](posts/30-day-map-challenge-2023/index.qmd).                                                                                                           | -->
-<!-- | **Sept 2023**  | I recently attended the [2023 Posit Conference](https://posit.co/conference/) and enjoyed learning more about open source data science.                                                                                                                        | -->
-<!-- |  **Aug 2023**  | I have started graduate school at the University of Missouri [Department of Geography](https://geography.missouri.edu). Updates on my thesis work coming soon!                                                                                                 | -->
-<!-- | **July 2023**  | One of my maps, *Stamped in History: 50 Years of Imperiled Species Conservation*, was [awarded second place](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners) (Professional Category) in the 2023 GIS Certification Institute map contest. | -->
-<!-- | **April 2023** | I was fortunate to give a talk about some of my work (integrating geospatial modeling and reproducible reporting for bat conservation) at the 2023 Missouri GIS Conference.                                                                                    | -->
-
-<!-- : {tbl-colwidths="\[20,80\]"} -->
-<!-- ::: -->
-
-
-<!-- ## Latest Posts & Projects -->
-
-<!-- Theses items are hot off the press, well...freshly `git push`-ed anyway. Explore my latest posts and visualizations. -->
-
-::: {#site-listings-3 .column-body-outset}
 :::

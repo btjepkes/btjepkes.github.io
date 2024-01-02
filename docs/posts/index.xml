@@ -126,7 +126,7 @@ font-style: inherit;">annote</span> = {“help us to adapt to climate change and
 background-color: null;
 font-style: inherit;">annote</span> = {Predicting and assessing phenological responses can be difficult due to issues associated with spatial scale and physiological response differences across taxa.</span>
 <span id="cb1-22">}</span></code></pre></div>
-<p><strong>Important Note -</strong> If you update any metadata about the citation (e.g., authors, abstract, etc.) or add/edit item notes you will need to re-export a .bib file to see these updates carried throughout this workflow.</p>
+<p><strong>Important Note -</strong> If you update any metadata about the citation (e.g., authors, abstract, etc.) or add/edit item notes you will need to re-export a .bib file to see these updates carried throughout this workflow. That is unless you use the <a href="https://github.com/retorquere/zotero-better-bibtex">Better BibTeX for Zotero Extension</a>, which can automatically re-export the collection to a .bib file.</p>
 </section>
 </section>
 <section id="workflow-in-quarto" class="level2">
@@ -357,8 +357,7 @@ font-style: inherit;">cat</span>(list)</span><div class="code-annotation-gutter-
 </section>
 <section id="final-thoughts" class="level2">
 <h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
-<p>This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined. If you are interested in other cool ways to handle citations and bibliographies in Quarto, I suggest checking out the website of <a href="https://www.andrewheiss.com/blog/index.html#category=citations">Andrew Heiss</a>.</p>
-<p>If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
+<p>This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined. If you are interested in other cool ways to handle citations and bibliographies in Quarto, I suggest checking out the website of <a href="https://www.andrewheiss.com/blog/index.html#category=citations">Andrew Heiss</a>. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
 
 
 </section>
@@ -546,7 +545,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1703440842343" data-listing-date-modified-sort="1704175200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1704214518320" data-listing-date-modified-sort="1704175200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
 <a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
