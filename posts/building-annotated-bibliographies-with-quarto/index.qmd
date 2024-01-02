@@ -1,0 +1,164 @@
+---
+title: "Building Annotated Bibliographies with Quarto"
+date: 2024-01-01
+date-modified: today
+abstract: "Streamlining your bibliography creation in R"
+description: In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.
+categories:
+  - R
+  - Bibliography
+image: img-example-html.png
+---
+
+## Introduction
+
+### What is an annotated bibliography?
+
+An **annotated bibliography** is a comprehensive compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source's content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.
+
+This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers **(1) identify gaps in existing literature** and **(2) determine the potential contributions of their own work** within the academic discourse.
+
+### Why use Zotero and Quarto?
+
+[Zotero](https://www.zotero.org/) is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. [Quarto](https://quarto.org/) is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.
+
+The reasons I suggest using these options are because they are **both free**, they have **native integration**, and are **highly flexible**. This process allows for greater flexibility than other software, like rendering into HTML, PDF, or Word formats independently or all at once.
+
+### What are potential alternatives?
+
+Zotero provides a reporting functionality in the desktop application by right-clicking an item, selection of items, or an entire collection, then selecting *"Generate Report From..."*. This option works well if you need to quickly output your citations and notes, but is limited to exporting in HTML or Rich Text formats.
+
+Another alternative workflow might be to use [Obsidian](https://obsidian.md/), a freemium note-taking software that operates on Markdown files. This application integrates very well will Zotero as well, but my personal preference is Quarto in the RStudio environment. Consider following [this tutorial](https://medium.com/@alexandraphelan/an-updated-academic-workflow-zotero-obsidian-cffef080addd) if you want to use Obsidian.
+
+
+## Workflow in Zotero
+
+### Add Citations and Bibliographic Notes
+
+The first step, which you may be at already, is to get literature into your Zotero library. There are a variety of ways to accomplish this, but I prefer using either the *Add Item by Identifier* tool or the web extension to automatically load documents into their respective libraries, collections, or sub-collections.
+
+An important note about this workflow is that each comment or annotation made on an article must be stored as an individual item note. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.
+
+![Example of a Zotero library item to include in our bibliography with each comment as an indivual note item.](img-zotero-item.png)
+
+### Export Item(s) as BibTeX
+
+Once you have all your literature added to Zotero and any annotations you need to make based on your review of each article, it is now time to export this information. Just like with the reports, exporting can occur at the level of each item, selection of items, or entire collections. I have found it easiest to make sub-collections for major themes or sections.
+
+In this step, we are simply exporting the information from Zotero into a portable BibTeX file with the `.bib` extension. Other similar extension types may work, but I have only tested the standard format. To export, you need to (1) right-click the item of interest, (2) select *"Export..."*, (3) ensure that the `Format: BibTeX` and the `Export Notes` options are selected, and (4) specify an accessible location to store this file. This should save a .bib file to this location containing all pertinent information and notes on the citation(s) of interest.
+
+If you open up the `.bib` file you just exported, **each included article should look similar to the following example.** The `annote` portions contain the notes we added in the previous step.
+
+```bib
+@article{morisette_tracking_2009,
+	title = {Tracking the rhythm of the seasons in the face of global change: phenological research in the 21st century},
+	volume = {7},
+	issn = {1540-9295, 1540-9309},
+	shorttitle = {Tracking the rhythm of the seasons in the face of global change},
+	url = {https://esajournals.onlinelibrary.wiley.com/doi/10.1890/070217},
+	doi = {10.1890/070217},
+	abstract = {Phenology is the study of recurring life‐cycle events, classic examples being the flowering of plants and animal migration. Phenological responses are increasingly relevant for addressing applied environmental issues. Yet, challenges remain with respect to spanning scales of observation, integrating observations across taxa, and modeling phenological sequences to enable ecological forecasts in light of future climate change. Recent advances that are helping to address these questions include refined landscape‐scale phenology estimates from satellite data, advanced, instrument‐based approaches for field measurements, and new cyberinfrastructure for archiving and distribution of products. These breakthroughs are improving our understanding in diverse areas, including modeling land‐surface exchange, evaluating climate–phenology relationships, and making land‐management decisions.},
+	language = {en},
+	number = {5},
+	urldate = {2023-12-31},
+	journal = {Frontiers in Ecology and the Environment},
+	author = {Morisette, Jeffrey T and Richardson, Andrew D and Knapp, Alan K and Fisher, Jeremy I and Graham, Eric A and Abatzoglou, John and Wilson, Bruce E and Breshears, David D and Henebry, Geoffrey M and Hanes, Jonathan M and Liang, Liang},
+	month = jun,
+	year = {2009},
+	pages = {253--260},
+	annote = {Given the increasing rate of climate change projected over the next 80 years, there is a pressing need to establish the spatial and temporal phenological responses to climate change.
+},
+	annote = {“help us to adapt to climate change and to better manage our natural resources.” (Morisette et al., 2009, p. 259) “Cyberinfrastructure will enable these data to be synthesized and used by increasingly advanced spatial–temporal analysis and modeling activities” (Morisette et al., 2009, p. 259)
+},
+	annote = {Predicting and assessing phenological responses can be difficult due to issues associated with spatial scale and physiological response differences across taxa.
+},
+	file = {Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf:C\:\\Users\\btjep\\OneDrive\\B_Research\\Literature\\Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf:application/pdf},
+}
+```
+
+**Important Note -** If you update any metadata about the citation (e.g., authors, abstract, etc.) or add/edit item notes you will need to re-export a .bib file to see these updates carried throughout this workflow.
+
+## Workflow in Quarto
+
+These next steps will all be carried out using Quarto within RStudio. At the time of this post, I am using this workflow with ``, ``, and `` without issues. Some of these steps may need to be adapted based on your working versions and system configuration. This post assumes you have successfully installed Quarto on your machine and are comfortable with markdown document creation using this program.
+
+### Setup YAML & Load Packages
+
+When starting a new Quarto document, often one of the first steps is setting up your YAML header. This initial bit of code is border by `---` and contains the necessary elements that tells Quarto how to generate the document.
+
+```r
+---
+title: "Literature Review" # <1>
+title-block-banner: true   # <1>
+format: 
+  html: default
+  docx: default
+  pdf: default
+bibliography: exported_items.bib
+link-citations: false
+csl: apa-cv.csl
+execute:
+  echo: false
+  warning: false
+  output: asis
+---
+```
+1. Sets the title and title banner formatting for the document.
+
+There are only two packages needed to perform the required steps. The first is the `bib2df` package, which is a BibTeX parser that turns .bib files into easy-to-read tibbles. The second is the `dplyr` package within the tidyverse, which allows us to wrangle, filter, and select data from our parsed dataframe. **Install these packages as necessary from CRAN, then load them into your environment.**
+
+```r
+# Load these required packages
+library(tidyverse) # --- for data wrangling
+library(bib2df)    # --- for .bib parsing
+```
+
+### Specifying Literature to Cite
+
+Creating content:
+
+```r
+@morisette_tracking_2009
+```
+
+After you insert the proper citation, the next part is a chunk of executable R code.
+
+```r
+df <- bib2df::bib2df(file = rmarkdown::metadata$bibliography) |> 
+  filter(BIBTEXKEY == "morisette_tracking_2009") |> 
+  select(contains("ANNOTE")) |> 
+  gather(key = "Column", value = "Value") |> 
+  pull(Value)
+
+list <- paste("- ", df, collapse = "\n")
+
+cat(list)
+```
+
+### Render into Preferred Format
+
+The final, and often most nerve-racking, step is to `render` our .qmd document. As I mentioned earlier, there are several formats we can use (e.g., .pdf, .docx). I tend to render into HTML initially, then troubleshoot Pandoc conversion issues with other formats once I know it compiles.
+
+If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs.
+
+::: {layout-ncol=3}
+
+#### Example: HTML
+
+![](img-example-html.png)
+
+#### Example: PDF
+
+![](img-example-pdf.png)
+
+#### Example: DOCX
+
+![](img-example-word.png)
+
+:::
+
+
+## Final Thoughts
+
+This workflow has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. **Happy writing!**
+
