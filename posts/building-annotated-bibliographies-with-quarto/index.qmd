@@ -7,10 +7,10 @@ description: In this post, I provide a semi-automated workflow for generating an
 categories:
   - R
   - Bibliography
-image: img-bib-cover.png
+image: img-bib-post-cover.jpg
 ---
 
-![](img-bib-cover.png)
+![](img-bib-post-cover.jpg)
 
 ## Introduction
 
@@ -37,11 +37,11 @@ Another alternative workflow might be to use [Obsidian](https://obsidian.md/), a
 
 ## Workflow in Zotero
 
-### Add Citations and Summary Notes
+### Add Citations and Notes
 
 The first step, which you may be at already, is to get literature into your Zotero library. There are a variety of ways to accomplish this, but I prefer using either the *Add Item by Identifier* tool or the web extension to automatically load documents into their respective libraries, collections, or sub-collections.
 
-An important note about this workflow is that each comment or annotation made on an article must be stored as an individual item note. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.
+Once you have your literature in Zotero you can review each article as you normally would. While doing so, add in notes and annotations that summarize the main findings, key terms, important methods, and so forth. An important note about this workflow is that each comment or annotation made on an article must be stored as an individual note item. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.
 
 ![Example of a Zotero library item to include in our bibliography with each comment as an individual note item.](img-zotero-item.png)
 
@@ -179,5 +179,5 @@ You can see that each of the notes we exported from Zotero are now their own bul
 
 This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined.
 
-If you are interested in other cool ways to handle citations and bibliographies in Quarto, I suggest checking out the website of [Andrew Heiss](https://www.andrewheiss.com/blog/index.html#category=citations). If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. **Happy citing!**
+If you are interested in other cool ways to handle citations and bibliographies in Quarto, I highly suggest checking out the website of [Andrew Heiss](https://www.andrewheiss.com/blog/index.html#category=citations). If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. **Happy citing!**
 

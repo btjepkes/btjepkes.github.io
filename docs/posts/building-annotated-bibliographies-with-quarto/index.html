@@ -113,17 +113,22 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <style>html{ scroll-behavior: smooth; }</style>
 <meta property="og:title" content="Create Annotated Bibliographies with Quarto | B.W. Tjepkes">
 <meta property="og:description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
-<meta property="og:image" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-cover.png">
+<meta property="og:image" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-post-cover.jpg">
 <meta property="og:site_name" content="Benjamin Tjepkes">
-<meta property="og:image:height" content="2483">
-<meta property="og:image:width" content="4415">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
 <meta name="twitter:description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
-<meta name="twitter:image" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-cover.png">
+<meta name="twitter:image" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-post-cover.jpg">
 <meta name="twitter:creator" content="@BTjepkes">
-<meta name="twitter:image-height" content="2483">
-<meta name="twitter:image-width" content="4415">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="citation_title" content="Create Annotated Bibliographies with Quarto">
+<meta name="citation_abstract" content="Bibliography creation using Quarto and Zotero in R.">
+<meta name="citation_author" content="Benjamin Tjepkes">
+<meta name="citation_publication_date" content="2024-01-01">
+<meta name="citation_cover_date" content="2024-01-01">
+<meta name="citation_year" content="2024">
+<meta name="citation_online_date" content="2024-01-01">
+<meta name="citation_fulltext_html_url" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto">
+<meta name="citation_language" content="en">
 </head><body class="nav-sidebar floating nav-fixed"><div id="progress-bar" style="width: 0%; height:3px; background-color: #35d290;; position: fixed; top: 62px; z-index: 2000;"></div>
 
 <script id="progressbar" type="text/javascript">
@@ -413,7 +418,7 @@ document.addEventListener("DOMContentLoaded", function() {
   </ul></li>
   <li><a href="#workflow-in-zotero" id="toc-workflow-in-zotero" class="nav-link" data-scroll-target="#workflow-in-zotero">Workflow in Zotero</a>
   <ul class="collapse">
-  <li><a href="#add-citations-and-summary-notes" id="toc-add-citations-and-summary-notes" class="nav-link" data-scroll-target="#add-citations-and-summary-notes">Add Citations and Summary Notes</a></li>
+  <li><a href="#add-citations-and-notes" id="toc-add-citations-and-notes" class="nav-link" data-scroll-target="#add-citations-and-notes">Add Citations and Notes</a></li>
   <li><a href="#export-items-as-bibtex" id="toc-export-items-as-bibtex" class="nav-link" data-scroll-target="#export-items-as-bibtex">Export Item(s) as BibTeX</a></li>
   </ul></li>
   <li><a href="#workflow-in-quarto" id="toc-workflow-in-quarto" class="nav-link" data-scroll-target="#workflow-in-quarto">Workflow in Quarto</a>
@@ -433,7 +438,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<p><a href="img-bib-cover.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-bib-cover.png" class="img-fluid"></a></p>
+<p><a href="img-bib-post-cover.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-bib-post-cover.jpg" class="img-fluid"></a></p>
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
 <section id="what-is-an-annotated-bib" class="level3">
@@ -455,13 +460,13 @@ document.addEventListener("DOMContentLoaded", function() {
 </section>
 <section id="workflow-in-zotero" class="level2">
 <h2 data-anchor-id="workflow-in-zotero">Workflow in Zotero</h2>
-<section id="add-citations-and-summary-notes" class="level3">
-<h3 data-anchor-id="add-citations-and-summary-notes">Add Citations and Summary Notes</h3>
+<section id="add-citations-and-notes" class="level3">
+<h3 data-anchor-id="add-citations-and-notes">Add Citations and Notes</h3>
 <p>The first step, which you may be at already, is to get literature into your Zotero library. There are a variety of ways to accomplish this, but I prefer using either the <em>Add Item by Identifier</em> tool or the web extension to automatically load documents into their respective libraries, collections, or sub-collections.</p>
-<p>An important note about this workflow is that each comment or annotation made on an article must be stored as an individual item note. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
+<p>Once you have your literature in Zotero you can review each article as you normally would. While doing so, add in notes and annotations that summarize the main findings, key terms, important methods, and so forth. An important note about this workflow is that each comment or annotation made on an article must be stored as an individual note item. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-zotero-item.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
+<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
 <figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
 </figure>
 </div>
@@ -613,7 +618,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <section id="final-thoughts" class="level2">
 <h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
 <p>This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined.</p>
-<p>If you are interested in other cool ways to handle citations and bibliographies in Quarto, I suggest checking out the website of <a href="https://www.andrewheiss.com/blog/index.html#category=citations">Andrew Heiss</a>. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
+<p>If you are interested in other cool ways to handle citations and bibliographies in Quarto, I highly suggest checking out the website of <a href="https://www.andrewheiss.com/blog/index.html#category=citations">Andrew Heiss</a>. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
 
 
 </section>
@@ -1073,7 +1078,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"closeEffect":"zoom","openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","loop":false});</script>
 
 
 

@@ -4,7 +4,7 @@ execute:
 citation: true
 appendix-style: plain
 appendix-cite-as: display
-
+google-scholar: true
 # Default for table of contents
 toc: true
 toc-title: "On This Page:"
