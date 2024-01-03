@@ -4,7 +4,7 @@ subtitle: "**of Maps and Visualizations**"
 date-modified: today
 image: ../assets/img-geospatial-cover.webp
 image-alt: Image-of-pine-trees-on-blue-background.
-abstract: Some of my latest maps and data visualizations
+abstract: Some of my latest maps and data visualizations.
 description: "Works included here are from  creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. Each item is separated into sub-galleries ready for your exploration: [maps](#map-gallery) | [data viz](#data-viz-gallery) | [presentations](#poster-report-gallery). My workflows span several technologies, but revolve around open-source products like RStudio, QGIS, and Quarto."
 listing:
   - id: gallery-listings-maps

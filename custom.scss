@@ -140,7 +140,6 @@ body {
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
   font-family: Nunito, sans-serif;
-  background: #f6fafa;
 }
 
 
@@ -177,9 +176,6 @@ h3 {
 }
 
 .abstract {
-  color: #35d290;
-  font-weight: 500;
-  text-transform: uppercase;
 }
 
 .description {
@@ -223,13 +219,6 @@ a {
   color: #2b8aff;
 }
 
-/* footnote popups */
-.tippy-content {
-  color: black;
-  }
-.column-margin figcaption, .margin-caption, div.aside, aside, .column-margin {
-  color: white;
-}
 
 // Indicators
 
@@ -1040,7 +1029,9 @@ margin-bottom: 0 !important;
   background: $gray-200;
 }
 
-
+.quarto-appendix-contents {
+  margin-top: 40px;
+}
 
 
 

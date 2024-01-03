@@ -17,7 +17,7 @@
 <generator>quarto-1.4.510</generator>
 <lastBuildDate>Mon, 01 Jan 2024 06:00:00 GMT</lastBuildDate>
 <item>
-  <title>Annotated Bibliographies with Quarto in R </title>
+  <title>Create Annotated Bibliographies with Quarto </title>
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/</link>
   <description><![CDATA[ 
@@ -25,17 +25,18 @@
 
 
 
+<p><a href="img-bib-cover.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-cover.png" class="img-fluid"></a></p>
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
 <section id="what-is-an-annotated-bib" class="level3">
 <h3 data-anchor-id="what-is-an-annotated-bib">What is an annotated bib?</h3>
 <p>An <strong>annotated bibliography</strong> is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
-<p>This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1)</strong> identify gaps in existing literature and <strong>(2)</strong> determine the potential contributions of their own work within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
+<p>This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1) identify gaps in existing literature</strong> and <strong>(2) determine the potential contributions of their own work</strong> within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
 </section>
 <section id="why-use-zotero-and-quarto" class="level3">
 <h3 data-anchor-id="why-use-zotero-and-quarto">Why use Zotero and Quarto?</h3>
 <p><a href="https://www.zotero.org/">Zotero</a> is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. <a href="https://quarto.org/">Quarto</a> is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.</p>
-<p>I suggest using these options are because they are <strong>both free</strong>, they have <strong>native integration</strong>, and are <strong>highly flexible</strong>. This process allows for greater flexibility than other software, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.</p>
+<p>I suggest using these options because they are <strong>free</strong>, <strong>natively integrated</strong>, and <strong>highly flexible</strong>. This process allows for great flexibility, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.</p>
 <p>Perhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.</p>
 </section>
 <section id="what-are-potential-alternatives" class="level3">
@@ -52,7 +53,7 @@
 <p>An important note about this workflow is that each comment or annotation made on an article must be stored as an individual item note. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
+<p><a href="img-zotero-item.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
 <figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
 </figure>
 </div>
@@ -340,15 +341,15 @@ font-style: inherit;">cat</span>(list)</span><div class="code-annotation-gutter-
 <div class="quarto-layout-row quarto-layout-valign-top">
 <section id="example-html" class="level4 quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
 <h4 data-anchor-id="example-html">Example: HTML</h4>
-<p><a href="img-example-html.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-html.png" class="img-fluid"></a></p>
+<p><a href="img-example-html.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-html.png" class="img-fluid"></a></p>
 </section>
 <section id="example-pdf" class="level4 quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
 <h4 data-anchor-id="example-pdf">Example: PDF</h4>
-<p><a href="img-example-pdf.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-pdf.png" class="img-fluid"></a></p>
+<p><a href="img-example-pdf.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-pdf.png" class="img-fluid"></a></p>
 </section>
 <section id="example-docx" class="level4 quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
 <h4 data-anchor-id="example-docx">Example: DOCX</h4>
-<p><a href="img-example-word.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-word.png" class="img-fluid"></a></p>
+<p><a href="img-example-word.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-word.png" class="img-fluid"></a></p>
 </section>
 </div>
 </div>
@@ -357,14 +358,15 @@ font-style: inherit;">cat</span>(list)</span><div class="code-annotation-gutter-
 </section>
 <section id="final-thoughts" class="level2">
 <h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
-<p>This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined. If you are interested in other cool ways to handle citations and bibliographies in Quarto, I suggest checking out the website of <a href="https://www.andrewheiss.com/blog/index.html#category=citations">Andrew Heiss</a>. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
+<p>This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined.</p>
+<p>If you are interested in other cool ways to handle citations and bibliographies in Quarto, I suggest checking out the website of <a href="https://www.andrewheiss.com/blog/index.html#category=citations">Andrew Heiss</a>. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
 
 
 </section>
 
 <div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
-Tjepkes, Benjamin. 2024. <span>“Annotated Bibliographies with Quarto in
-R.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto">https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto</a>.
+Tjepkes, Benjamin. 2024. <span>“Create Annotated Bibliographies with
+Quarto.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto">https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>Bibliography</category>

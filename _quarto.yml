@@ -129,10 +129,10 @@ format:
     code-link: true
     code-overflow: scroll
     grid:
-      sidebar-width: 200px
+      sidebar-width: 220px
       body-width: 1080px
       gutter-width: 5vw
-      margin-width: 200px
+      margin-width: 220px
     filters: 
       - lightbox
     lightbox: auto
