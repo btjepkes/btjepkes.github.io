@@ -1,11 +1,11 @@
 ---
 title: "Relative Coding Proficiency Charts"
-subtitle: "A chart showing my coding journey."
-author: "Benjamin Tjepkes"
-date-modified: "9-30-2023"
+date: 2023-09-30
+date-modified: today
 categories:
   - Data Gallery
-abstract: "This animated bar chart shows my relative coding language skills in six of my top languages, including those for web development, data analysis, and geospatial applications."
+abstract: "Summarizing my coding journey."  
+description: "This animated bar chart shows my relative coding language skills in six of my top languages, including those for web development, data analysis, and geospatial applications."
 image: img-relative-skills-animation.gif
 image-alt: "Animated bar chart showing six different coding languages."
 ---

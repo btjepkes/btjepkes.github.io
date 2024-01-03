@@ -25,6 +25,14 @@
     ]
   },
   {
+    "listing": "/about/index.html",
+    "items": [
+      "/posts/index.html",
+      "/gallery/index.html",
+      "/research/index.html"
+    ]
+  },
+  {
     "listing": "/gallery/index.html",
     "items": [
       "/gallery/michigan-anthrome-map/index.html",
@@ -46,19 +54,12 @@
       "/gallery/shoreline-structure-setback-compliance-map/index.html",
       "/gallery/turkey-harvest-maps-by-county/index.html",
       "/gallery/vineyard-and-winery-location-suitability-map/index.html",
-      "/gallery/work-commitments-calendar/index.html",
+      "/gallery/my-github-contributions-in-2023/index.html",
       "/gallery/michigan-climate-trends/index.html",
+      "/gallery/work-commitments-calendar/index.html",
       "/gallery/relative-coding-proficiency-chart/index.html",
       "/gallery/bald-eagle-nest-selection-poster/index.html",
       "/gallery/missouri-bat-hcp-poster/index.html"
-    ]
-  },
-  {
-    "listing": "/about/index.html",
-    "items": [
-      "/posts/index.html",
-      "/gallery/index.html",
-      "/research/index.html"
     ]
   },
   {

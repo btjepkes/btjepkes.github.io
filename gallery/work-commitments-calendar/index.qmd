@@ -1,12 +1,12 @@
 ---
 title: "Weekly Work Commitments Calendar"
-subtitle: "Visualizing my work hours for an exhausting 2021."
+abstract: "Visualizing my work hours for an exhausting 2021."
 categories:
   - Data Gallery
 image: img-calendar.jpeg
 image-alt: "A calendar displaying work commitments for 2021, highlighting important dates and events."
 date: 10/23/2023
-abstract: "This visualization shows the distribution of my work weeks in 2021 as reported on my timesheet. Production was completed in RStudio following an elequent code example from [Tanya Shapiro](https://tanyaviz.com/)."
+description: "This visualization, based on the elequent code example from [Tanya Shapiro](https://tanyaviz.com/), shows the distribution of my work weeks in 2021 as reported on my timesheet. Production was completed in RStudio using a custom calendar function."
 ---
 
 ![Credit: Benjamin Tjepkes](img-calendar.jpeg)
@@ -14,9 +14,11 @@ abstract: "This visualization shows the distribution of my work weeks in 2021 as
 
 ## Tools & Workflow
 
-The data for this visual were originally stored in an Excel spreadsheet that was then brought into the R environment via RStudio. Below is the entire script used for this visualization. My base code (particularly the `get_calendar` function) was based on the work of [Tanya Shapiro](https://tanyaviz.com/).
+The data for this visual were originally stored in an Excel spreadsheet that was then brought into the R environment via RStudio. Below is the entire script used for this visualization. My base code (particularly the `get_calendar` function) was based on the work of [Tanya Shapiro](https://tanyaviz.com/). The entire script is available below.
 
-```r
+```{r}
+#| eval: false
+#| code-fold: true
 # LOAD PACKAGES ====
 
 library(readxl)

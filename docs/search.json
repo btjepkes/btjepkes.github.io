@@ -232,16 +232,16 @@
   {
     "objectID": "gallery/work-commitments-calendar/index.html",
     "href": "gallery/work-commitments-calendar/index.html",
-    "title": "Weekly Work Commitments Calendar Visualizing my work hours for an exhausting 2021.",
+    "title": "Weekly Work Commitments Calendar ",
     "section": "",
     "text": "Credit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/work-commitments-calendar/index.html#tools-workflow",
     "href": "gallery/work-commitments-calendar/index.html#tools-workflow",
-    "title": "Weekly Work Commitments Calendar Visualizing my work hours for an exhausting 2021.",
+    "title": "Weekly Work Commitments Calendar ",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nThe data for this visual were originally stored in an Excel spreadsheet that was then brought into the R environment via RStudio. Below is the entire script used for this visualization. My base code (particularly the get_calendar function) was based on the work of Tanya Shapiro.\n# LOAD PACKAGES ====\n\nlibrary(readxl)\nlibrary(tidyverse)\nlibrary(lubridate)\n\n# LOAD DATA & WRANGLE ====\n\nHourTracker_Tjepkes &lt;- read_excel(\"HourTracker_Tjepkes.xlsx\", \n                                  sheet = \"Sheet2\", col_types = c(\"date\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\",  \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\"))\n\n\nHourTracker &lt;- HourTracker_Tjepkes %&gt;% \n  select(Date, `Total Hours`)\n\nHourTracker$Date &lt;- ymd(HourTracker$Date)\n\n\nHourTracker_clean &lt;- HourTracker %&gt;% \n  mutate(Description = case_when(`Total Hours` == 0 ~ \"Day Off\",\n                                  `Total Hours` &gt; 8 ~ \"Long Day\",\n                                 `Total Hours` == 8 ~ \"Normal Day\",\n                                 `Total Hours` &lt; 8 ~ \"Short Day\"))\n\nunique_desc &lt;- HourTracker_clean %&gt;% \n                  distinct(Description) %&gt;% \n                  pull(Description)\n\nHourTracker_clean$Description &lt;-factor(HourTracker_clean$Description,\n                                       levels = unique_desc)\n\n\n# CALENDAR FUNCTION ====\n\nget_calendar &lt;- function(start_date, end_date) {\n  n_days &lt;- interval(start_date,end_date)/days(1)\n  date&lt;-start_date + days(0:n_days)\n  month_name&lt;-format(date,\"%B\")\n  month_num&lt;-format(date,\"%m\")\n  year&lt;-format(date,\"%Y\")\n  day_num&lt;-format(date,'%d')\n  day&lt;-wday(date, label=TRUE)\n  week_num&lt;-strftime(date, format = \"%V\")\n  cal&lt;-data.frame(date, year, month_name, month_num, day_num, day, week_num)\n  cal[cal$week_num&gt;=52 & cal$month_num==\"01\",\"week_num\"]=00\n  \n  week_month&lt;-cal%&gt;% \n    group_by(year,month_name, week_num)%&gt;%\n    summarise()%&gt;%\n    mutate(week_month_num=row_number())\n  \n  cal&lt;-merge(cal, week_month, by=c(\"month_name\"=\"month_name\",\"week_num\"=\"week_num\",\"year\"=\"year\"))\n  cal$month_name&lt;-factor(cal$month_name, levels=c(\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"))\n  cal$day&lt;-factor(cal$day, levels=c(\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\",\"Sun\"))\n  \n  return(cal)\n  \n}\n\n## create date range\nstart_date &lt;- as.Date('2021-01-01')\nend_date &lt;- as.Date('2021-12-31')\n\n## create calendar\ncal&lt;-get_calendar(start_date,end_date)\n\ncal %&gt;% View()\n\n\n# JOIN CALENDAR & HOUR DATA ====\n\nHourTracker_ForPlot &lt;- left_join(cal,\n                                 HourTracker_clean,\n                                 by = c(\"date\" = \"Date\"))\n\n# CREATE PLOT\n\n#custom color palette c('#26547c', '#ef476f', '#FFBC1F', '#05C793')\npal&lt;-c('#FFBC1F', 'lightgray', 'lightblue', '#05C793')\n\n#creating the plot\nggplot(HourTracker_ForPlot)+\n  geom_tile(mapping = aes(x = day,\n                          y=week_month_num),\n            fill=NA) +\n  \n  geom_text(mapping = aes(x=day,\n                          y=week_month_num,\n                          label=day_num),\n            color=\"black\") +\n  \n  geom_point(data = HourTracker_ForPlot,\n             mapping=aes(x=day,\n                         y=week_month_num,\n                         color = Description),\n             size = 7.6) +\n  \n  geom_text(data = HourTracker_ForPlot,\n            mapping=aes(x=day,\n                        y=week_month_num,\n                        label=day_num),\n            color=\"black\",\n            nudge_y = 0.04,\n            size = 3.0) +\n  \n  scale_y_reverse() +\n  \n  scale_color_manual(values = pal,\n              guide = guide_legend(title.position  =\"left\",\n                                   title.hjust = 0.5,\n                                    title.vjust = 0.6,\n                                  title=\"Type of Day:\")) +\n\n  \n  scale_x_discrete(position = \"top\") +\n  \n  labs(y=\"\", x= \"\", \n       title = 'My 2021 Work Commitments',\n       subtitle = \"Visualizing my yearly work schedule from January 1, 2021 to December 31, 2021\",\n       caption = \"Created by Benjamin Tjepkes using R/RStudio\") +\n  \n  facet_wrap(~month_name, scales = \"free_x\") +\n  \n  theme(\n    legend.position = \"top\",\n    axis.text.y = element_blank(),\n    axis.ticks = element_blank(),\n    panel.background = element_blank(),\n    plot.title = element_text(hjust=0.5,\n                              size=22,\n                              face = \"bold\"),\n    plot.subtitle=element_text(hjust = 0.5,\n                               size = 12,\n                               face = \"italic\",\n                               color = \"gray30\"),\n    legend.key = element_blank(),\n    legend.title = element_blank(),\n    legend.background = element_rect(),\n    legend.spacing.x = unit(0.4, 'cm'),\n    legend.text = element_text(margin = unit(c(0,0,0,-0.3), \"cm\")),\n    strip.background = element_rect(fill = '#26547c'),\n    strip.text = element_text(color = \"white\", face = \"bold\", size = 12),\n    axis.text.x = element_text(hjust = 0.5),  # Align x-axis text to the top\n    axis.title.x = element_blank(),  # Remove x-axis title\n    \n    plot.margin= unit(c(0.8,0.8,0.8,0.2), \"cm\")\n  )\n\nggsave(filename = \"calendar2.jpeg\",\n       plot = last_plot(),\n       dpi = \"retina\")"
+    "text": "Tools & Workflow\nThe data for this visual were originally stored in an Excel spreadsheet that was then brought into the R environment via RStudio. Below is the entire script used for this visualization. My base code (particularly the get_calendar function) was based on the work of Tanya Shapiro. The entire script is available below.\n\nCode# LOAD PACKAGES ====\n\nlibrary(readxl)\nlibrary(tidyverse)\nlibrary(lubridate)\n\n# LOAD DATA & WRANGLE ====\n\nHourTracker_Tjepkes &lt;- read_excel(\"HourTracker_Tjepkes.xlsx\", \n                                  sheet = \"Sheet2\", col_types = c(\"date\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\",  \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\"))\n\n\nHourTracker &lt;- HourTracker_Tjepkes %&gt;% \n  select(Date, `Total Hours`)\n\nHourTracker$Date &lt;- ymd(HourTracker$Date)\n\n\nHourTracker_clean &lt;- HourTracker %&gt;% \n  mutate(Description = case_when(`Total Hours` == 0 ~ \"Day Off\",\n                                  `Total Hours` &gt; 8 ~ \"Long Day\",\n                                 `Total Hours` == 8 ~ \"Normal Day\",\n                                 `Total Hours` &lt; 8 ~ \"Short Day\"))\n\nunique_desc &lt;- HourTracker_clean %&gt;% \n                  distinct(Description) %&gt;% \n                  pull(Description)\n\nHourTracker_clean$Description &lt;-factor(HourTracker_clean$Description,\n                                       levels = unique_desc)\n\n\n# CALENDAR FUNCTION ====\n\nget_calendar &lt;- function(start_date, end_date) {\n  n_days &lt;- interval(start_date,end_date)/days(1)\n  date&lt;-start_date + days(0:n_days)\n  month_name&lt;-format(date,\"%B\")\n  month_num&lt;-format(date,\"%m\")\n  year&lt;-format(date,\"%Y\")\n  day_num&lt;-format(date,'%d')\n  day&lt;-wday(date, label=TRUE)\n  week_num&lt;-strftime(date, format = \"%V\")\n  cal&lt;-data.frame(date, year, month_name, month_num, day_num, day, week_num)\n  cal[cal$week_num&gt;=52 & cal$month_num==\"01\",\"week_num\"]=00\n  \n  week_month&lt;-cal%&gt;% \n    group_by(year,month_name, week_num)%&gt;%\n    summarise()%&gt;%\n    mutate(week_month_num=row_number())\n  \n  cal&lt;-merge(cal, week_month, by=c(\"month_name\"=\"month_name\",\"week_num\"=\"week_num\",\"year\"=\"year\"))\n  cal$month_name&lt;-factor(cal$month_name, levels=c(\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"))\n  cal$day&lt;-factor(cal$day, levels=c(\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\",\"Sun\"))\n  \n  return(cal)\n  \n}\n\n## create date range\nstart_date &lt;- as.Date('2021-01-01')\nend_date &lt;- as.Date('2021-12-31')\n\n## create calendar\ncal&lt;-get_calendar(start_date,end_date)\n\ncal %&gt;% View()\n\n\n# JOIN CALENDAR & HOUR DATA ====\n\nHourTracker_ForPlot &lt;- left_join(cal,\n                                 HourTracker_clean,\n                                 by = c(\"date\" = \"Date\"))\n\n# CREATE PLOT\n\n#custom color palette c('#26547c', '#ef476f', '#FFBC1F', '#05C793')\npal&lt;-c('#FFBC1F', 'lightgray', 'lightblue', '#05C793')\n\n#creating the plot\nggplot(HourTracker_ForPlot)+\n  geom_tile(mapping = aes(x = day,\n                          y=week_month_num),\n            fill=NA) +\n  \n  geom_text(mapping = aes(x=day,\n                          y=week_month_num,\n                          label=day_num),\n            color=\"black\") +\n  \n  geom_point(data = HourTracker_ForPlot,\n             mapping=aes(x=day,\n                         y=week_month_num,\n                         color = Description),\n             size = 7.6) +\n  \n  geom_text(data = HourTracker_ForPlot,\n            mapping=aes(x=day,\n                        y=week_month_num,\n                        label=day_num),\n            color=\"black\",\n            nudge_y = 0.04,\n            size = 3.0) +\n  \n  scale_y_reverse() +\n  \n  scale_color_manual(values = pal,\n              guide = guide_legend(title.position  =\"left\",\n                                   title.hjust = 0.5,\n                                    title.vjust = 0.6,\n                                  title=\"Type of Day:\")) +\n\n  \n  scale_x_discrete(position = \"top\") +\n  \n  labs(y=\"\", x= \"\", \n       title = 'My 2021 Work Commitments',\n       subtitle = \"Visualizing my yearly work schedule from January 1, 2021 to December 31, 2021\",\n       caption = \"Created by Benjamin Tjepkes using R/RStudio\") +\n  \n  facet_wrap(~month_name, scales = \"free_x\") +\n  \n  theme(\n    legend.position = \"top\",\n    axis.text.y = element_blank(),\n    axis.ticks = element_blank(),\n    panel.background = element_blank(),\n    plot.title = element_text(hjust=0.5,\n                              size=22,\n                              face = \"bold\"),\n    plot.subtitle=element_text(hjust = 0.5,\n                               size = 12,\n                               face = \"italic\",\n                               color = \"gray30\"),\n    legend.key = element_blank(),\n    legend.title = element_blank(),\n    legend.background = element_rect(),\n    legend.spacing.x = unit(0.4, 'cm'),\n    legend.text = element_text(margin = unit(c(0,0,0,-0.3), \"cm\")),\n    strip.background = element_rect(fill = '#26547c'),\n    strip.text = element_text(color = \"white\", face = \"bold\", size = 12),\n    axis.text.x = element_text(hjust = 0.5),  # Align x-axis text to the top\n    axis.title.x = element_blank(),  # Remove x-axis title\n    \n    plot.margin= unit(c(0.8,0.8,0.8,0.2), \"cm\")\n  )\n\nggsave(filename = \"calendar2.jpeg\",\n       plot = last_plot(),\n       dpi = \"retina\")"
   },
   {
     "objectID": "gallery/turkey-harvest-maps-by-county/index.html",
@@ -335,260 +335,214 @@
     "text": "Final Result\nHere is the resulting map showing the general locations of all Champion trees across the United States. The county where each tree is found is filled in with a light green and the golden symbols are proportional to the registered circumference of each tree.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/missouri-bat-hcp-poster/index.html",
-    "href": "gallery/missouri-bat-hcp-poster/index.html",
-    "title": "Missouri Bat HCP Overview & Update Poster Informational poster on the Missouri Bat Habitat Conservation Plan.",
+    "objectID": "gallery/moose-sightings-across-north-america/index.html",
+    "href": "gallery/moose-sightings-across-north-america/index.html",
+    "title": "Moose Sightings Across North America ",
     "section": "",
-    "text": "Map creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
+    "text": "The prompt for this map was for Day Ten of the 2023 30 Day Map Challenge, which designated “North America” for the main subject."
   },
   {
-    "objectID": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
-    "href": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
-    "title": "Missouri Bat HCP Overview & Update Poster Informational poster on the Missouri Bat Habitat Conservation Plan.",
+    "objectID": "gallery/moose-sightings-across-north-america/index.html#task-objectives",
+    "href": "gallery/moose-sightings-across-north-america/index.html#task-objectives",
+    "title": "Moose Sightings Across North America ",
     "section": "",
-    "text": "Map creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
+    "text": "The prompt for this map was for Day Ten of the 2023 30 Day Map Challenge, which designated “North America” for the main subject."
   },
   {
-    "objectID": "gallery/missouri-bat-hcp-poster/index.html#final-result",
-    "href": "gallery/missouri-bat-hcp-poster/index.html#final-result",
-    "title": "Missouri Bat HCP Overview & Update Poster Informational poster on the Missouri Bat Habitat Conservation Plan.",
-    "section": "Final Result",
-    "text": "Final Result\nHere is the final poster that I presented at the 2023 MDC Science Branch Conference in Potosi, Missouri."
-  },
-  {
-    "objectID": "gallery/michigan-anthrome-map/index.html",
-    "href": "gallery/michigan-anthrome-map/index.html",
-    "title": "Anthrome Map of the Upper Peninsula, MI ",
-    "section": "",
-    "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome).\nAnother portion of this assignment dealt with creating a climate profile for the region."
-  },
-  {
-    "objectID": "gallery/michigan-anthrome-map/index.html#task-objectives",
-    "href": "gallery/michigan-anthrome-map/index.html#task-objectives",
-    "title": "Anthrome Map of the Upper Peninsula, MI ",
-    "section": "",
-    "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome).\nAnother portion of this assignment dealt with creating a climate profile for the region."
-  },
-  {
-    "objectID": "gallery/michigan-anthrome-map/index.html#tools-workflow",
-    "href": "gallery/michigan-anthrome-map/index.html#tools-workflow",
-    "title": "Anthrome Map of the Upper Peninsula, MI ",
+    "objectID": "gallery/moose-sightings-across-north-america/index.html#tools-workflow",
+    "href": "gallery/moose-sightings-across-north-america/index.html#tools-workflow",
+    "title": "Moose Sightings Across North America ",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\n\nData were downloaded from Anthromes 12K DGG Datasets.\nFigure production was completed in RStudio with several packages including ggplot, ggspatial, and tidyverse."
+    "text": "Tools & Workflow\nData were downloaded from the Global Biodiversity Information Facility. Map creation was performed in R/Studio. Blog post coming soon!"
   },
   {
-    "objectID": "gallery/michigan-anthrome-map/index.html#final-results",
-    "href": "gallery/michigan-anthrome-map/index.html#final-results",
-    "title": "Anthrome Map of the Upper Peninsula, MI ",
+    "objectID": "gallery/moose-sightings-across-north-america/index.html#final-result",
+    "href": "gallery/moose-sightings-across-north-america/index.html#final-result",
+    "title": "Moose Sightings Across North America ",
+    "section": "Final Result",
+    "text": "Final Result\nHere is the resulting map that shows the sighting locations.\n\n\n\nCredit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
+    "href": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
+    "title": "Choropleth of Missouri Bear Sightings County-based counts of reported bear sightings in Missouri during 2020.",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nMap creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
+  },
+  {
+    "objectID": "gallery/michigan-climate-trends/index.html",
+    "href": "gallery/michigan-climate-trends/index.html",
+    "title": "Climate Trends of the Upper Peninsula, MI ",
+    "section": "",
+    "text": "The assignment for this exploration was to investigate climate (i.e., precipitation and temperature) trends for somewhere you want to live. I chose the Upper Peninsula of Michigan."
+  },
+  {
+    "objectID": "gallery/michigan-climate-trends/index.html#task-objectives",
+    "href": "gallery/michigan-climate-trends/index.html#task-objectives",
+    "title": "Climate Trends of the Upper Peninsula, MI ",
+    "section": "",
+    "text": "The assignment for this exploration was to investigate climate (i.e., precipitation and temperature) trends for somewhere you want to live. I chose the Upper Peninsula of Michigan."
+  },
+  {
+    "objectID": "gallery/michigan-climate-trends/index.html#tools-workflow",
+    "href": "gallery/michigan-climate-trends/index.html#tools-workflow",
+    "title": "Climate Trends of the Upper Peninsula, MI ",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\n\nData were downloaded from PRISM.\nFigure production was completed in RStudio with several packages: ggplot and tidyverse."
+  },
+  {
+    "objectID": "gallery/michigan-climate-trends/index.html#final-results",
+    "href": "gallery/michigan-climate-trends/index.html#final-results",
+    "title": "Climate Trends of the Upper Peninsula, MI ",
     "section": "Final Results",
-    "text": "Final Results\nHere is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Results\nHere is the first figure showing trends in precipitation.\n\n\n\nCredit: Benjamin Tjepkes\n\n\nHere is the second figure showing trends in maximum and minimum temperature.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/index.html",
-    "href": "gallery/index.html",
-    "title": "My Gallery of Maps and Visualizations",
+    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
+    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
+    "title": "Annual Report for MDC Furbearer Program FY2021 annual report on furbearer harvest, status, and program activities.",
     "section": "",
-    "text": "Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "My Gallery"
-    ]
+    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
   },
   {
-    "objectID": "gallery/index.html#map-gallery",
-    "href": "gallery/index.html#map-gallery",
-    "title": "My Gallery of Maps and Visualizations",
+    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
+    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
+    "title": "Annual Report for MDC Furbearer Program FY2021 annual report on furbearer harvest, status, and program activities.",
     "section": "",
-    "text": "Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "My Gallery"
-    ]
+    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
   },
   {
-    "objectID": "gallery/index.html#data-viz-gallery",
-    "href": "gallery/index.html#data-viz-gallery",
-    "title": "My Gallery of Maps and Visualizations",
-    "section": "Data Viz Gallery",
-    "text": "Data Viz Gallery\nIn addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects.\nTools & Technologies: R/RStudio, Python/Jupyter Notebook, Microsoft Excel\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "My Gallery"
-    ]
+    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
+    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
+    "title": "Annual Report for MDC Furbearer Program FY2021 annual report on furbearer harvest, status, and program activities.",
+    "section": "Final Result",
+    "text": "Final Result\nThe full report document can be viewed here.\n\n\n\nExample pages from the report."
   },
   {
-    "objectID": "gallery/index.html#poster-report-gallery",
-    "href": "gallery/index.html#poster-report-gallery",
-    "title": "My Gallery of Maps and Visualizations",
-    "section": "Poster & Report Gallery",
-    "text": "Poster & Report Gallery\nMy most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues.\nTools & Technologies: R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "My Gallery"
-    ]
-  },
-  {
-    "objectID": "gallery/happy-forests-happy-people-map/index.html",
-    "href": "gallery/happy-forests-happy-people-map/index.html",
-    "title": "Forest Cover & Happiness Bivariate Map ",
+    "objectID": "gallery/hyaenidae-range-map/index.html",
+    "href": "gallery/hyaenidae-range-map/index.html",
+    "title": "Hyaenidae Distribution Map for Africa Visualizing ranges for the four extant species.",
     "section": "",
-    "text": "This map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject."
+    "text": "The prompt for this map was for Day Eight of the 2023 30 Day Map Challenge, which designated “Africa” for the main subject. Hyenas have always fascinated me with their complex behavior, clan structure, and hunting abilities. This prompt was a perfect time to explore their ranges!"
   },
   {
-    "objectID": "gallery/happy-forests-happy-people-map/index.html#task-objectives",
-    "href": "gallery/happy-forests-happy-people-map/index.html#task-objectives",
-    "title": "Forest Cover & Happiness Bivariate Map ",
+    "objectID": "gallery/hyaenidae-range-map/index.html#task-objectives",
+    "href": "gallery/hyaenidae-range-map/index.html#task-objectives",
+    "title": "Hyaenidae Distribution Map for Africa Visualizing ranges for the four extant species.",
     "section": "",
-    "text": "This map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject."
+    "text": "The prompt for this map was for Day Eight of the 2023 30 Day Map Challenge, which designated “Africa” for the main subject. Hyenas have always fascinated me with their complex behavior, clan structure, and hunting abilities. This prompt was a perfect time to explore their ranges!"
   },
   {
-    "objectID": "gallery/happy-forests-happy-people-map/index.html#tools-workflow",
-    "href": "gallery/happy-forests-happy-people-map/index.html#tools-workflow",
-    "title": "Forest Cover & Happiness Bivariate Map ",
+    "objectID": "gallery/hyaenidae-range-map/index.html#tools-workflow",
+    "href": "gallery/hyaenidae-range-map/index.html#tools-workflow",
+    "title": "Hyaenidae Distribution Map for Africa Visualizing ranges for the four extant species.",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub."
+    "text": "Tools & Workflow\nSpatial data were sourced from the IUCN for each species. Map was produced in ArcGIS Pro 3.2.\nThe comprehensive layout options in ArcGIS Pro have always helped me out, but this time it was very simple to link the extents of each sub-map to ensure perfect alignment."
   },
   {
-    "objectID": "gallery/happy-forests-happy-people-map/index.html#final-result",
-    "href": "gallery/happy-forests-happy-people-map/index.html#final-result",
-    "title": "Forest Cover & Happiness Bivariate Map ",
+    "objectID": "gallery/hyaenidae-range-map/index.html#final-result",
+    "href": "gallery/hyaenidae-range-map/index.html#final-result",
+    "title": "Hyaenidae Distribution Map for Africa Visualizing ranges for the four extant species.",
     "section": "Final Result",
-    "text": "Final Result\nHere is the final product showing both happiness and forest cover as a bivariate choropleth map.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Result\nHere is the resulting map series showing each species range across Africa.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/global-ocean-currents-and-temps/index.html",
-    "href": "gallery/global-ocean-currents-and-temps/index.html",
-    "title": "Global Ocean Currents and Temperatures Visualizing the influence of global systems.",
+    "objectID": "gallery/great-lakes-watershed-map/index.html",
+    "href": "gallery/great-lakes-watershed-map/index.html",
+    "title": "Great Lakes Watersheds Map Colorful visual of Great Lakes watersheds.",
     "section": "",
-    "text": "This was a global web scene built using ArcGIS Online."
+    "text": "This maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
   },
   {
-    "objectID": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
-    "href": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
-    "title": "Global Ocean Currents and Temperatures Visualizing the influence of global systems.",
+    "objectID": "gallery/great-lakes-watershed-map/index.html#tools-methods",
+    "href": "gallery/great-lakes-watershed-map/index.html#tools-methods",
+    "title": "Great Lakes Watersheds Map Colorful visual of Great Lakes watersheds.",
     "section": "",
-    "text": "This was a global web scene built using ArcGIS Online."
+    "text": "This maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
   },
   {
-    "objectID": "gallery/global-ocean-currents-and-temps/index.html#final-result",
-    "href": "gallery/global-ocean-currents-and-temps/index.html#final-result",
-    "title": "Global Ocean Currents and Temperatures Visualizing the influence of global systems.",
+    "objectID": "gallery/great-lakes-watershed-map/index.html#final-product",
+    "href": "gallery/great-lakes-watershed-map/index.html#final-product",
+    "title": "Great Lakes Watersheds Map Colorful visual of Great Lakes watersheds.",
+    "section": "Final Product",
+    "text": "Final Product\nThis final map shows the watersheds for each Great Lake, including their sub-basins.\n\n\n\nMap Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
+    "href": "gallery/endangered-species-stamp-collection-map/index.html",
+    "title": "Endangered Species Stamp Map ",
+    "section": "",
+    "text": "Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas."
+  },
+  {
+    "objectID": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
+    "href": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
+    "title": "Endangered Species Stamp Map ",
+    "section": "",
+    "text": "Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas."
+  },
+  {
+    "objectID": "gallery/endangered-species-stamp-collection-map/index.html#final-result",
+    "href": "gallery/endangered-species-stamp-collection-map/index.html#final-result",
+    "title": "Endangered Species Stamp Map ",
     "section": "Final Result",
-    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Result\nHere is the final map product that I submitted to the 2023 GIS Certification Institute Map Contest, where is won 2nd place in the professional category.\n\n\n\nMap Credit: Ben Tjepkes"
   },
   {
-    "objectID": "gallery/eagle-mountain-contour-map/index.html",
-    "href": "gallery/eagle-mountain-contour-map/index.html",
-    "title": "Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.",
+    "objectID": "gallery/canadian-ecoregion-map/index.html",
+    "href": "gallery/canadian-ecoregion-map/index.html",
+    "title": "Canadian Ecoregions Map ",
     "section": "",
-    "text": "The prompt for this map was for Day Two of the 2023 30 Day Map Challenge, which designated “lines” for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity."
+    "text": "The prompt for this map was for Day Three of the 2023 30 Day Map Challenge, which designated “polygons” for the main subject."
   },
   {
-    "objectID": "gallery/eagle-mountain-contour-map/index.html#task-objectives",
-    "href": "gallery/eagle-mountain-contour-map/index.html#task-objectives",
-    "title": "Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.",
+    "objectID": "gallery/canadian-ecoregion-map/index.html#task-objectives",
+    "href": "gallery/canadian-ecoregion-map/index.html#task-objectives",
+    "title": "Canadian Ecoregions Map ",
     "section": "",
-    "text": "The prompt for this map was for Day Two of the 2023 30 Day Map Challenge, which designated “lines” for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity."
+    "text": "The prompt for this map was for Day Three of the 2023 30 Day Map Challenge, which designated “polygons” for the main subject."
   },
   {
-    "objectID": "gallery/eagle-mountain-contour-map/index.html#tools-workflow",
-    "href": "gallery/eagle-mountain-contour-map/index.html#tools-workflow",
-    "title": "Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.",
+    "objectID": "gallery/canadian-ecoregion-map/index.html#tools-workflow",
+    "href": "gallery/canadian-ecoregion-map/index.html#tools-workflow",
+    "title": "Canadian Ecoregions Map ",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nData were downloaded from the Minnesota Department of Natural Resources GIS hub site, including a 3-meter digital elevation model (DEM) and a general hydrological features layer.\nIn ArcGIS Pro, the DEM was used to generate a simplified 10-m contour feature class. The lakes and stream features were then added to provide context for the surrounding area."
+    "text": "Tools & Workflow\n\nData were downloaded from the U.S. Environmental Protection Agency site.\nMap production was completed in ArcGIS Pro."
   },
   {
-    "objectID": "gallery/eagle-mountain-contour-map/index.html#final-result",
-    "href": "gallery/eagle-mountain-contour-map/index.html#final-result",
-    "title": "Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.",
+    "objectID": "gallery/canadian-ecoregion-map/index.html#final-result",
+    "href": "gallery/canadian-ecoregion-map/index.html#final-result",
+    "title": "Canadian Ecoregions Map ",
     "section": "Final Result",
-    "text": "Final Result\nHere is the final map showing the location of Eagle Mountain surrounded by nearby lakes and the elevation contour lines.\n\n\n\nCredit: Benjamin Tjepkes\n\n\nSee all my contributions to the 2023 #30DayMapChallenge."
+    "text": "Final Result\nHere is the end product, a regional map of Canada’s Ecoregions.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html",
-    "href": "gallery/bald-eagle-nest-selection-poster/index.html",
-    "title": "Poster on Bald Eagle Nest Selection Research Research poster on bald eagle nest-site selection modeling.",
+    "objectID": "gallery/andes-mountains-map/index.html",
+    "href": "gallery/andes-mountains-map/index.html",
+    "title": "Andes Mountains Elevation Map ",
     "section": "",
-    "text": "This poster was assembled in Microsoft PowerPoint using elements created in ArcGIS Pro, Microsoft Excel, and RStudio. The full details on this research can be found here: Bald Eagle Nest Site Selection Research Project."
+    "text": "This map was created for Day 12 of the 2023 30 Day Map Challenge, which designated “South America” for the main subject."
   },
   {
-    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
-    "href": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
-    "title": "Poster on Bald Eagle Nest Selection Research Research poster on bald eagle nest-site selection modeling.",
+    "objectID": "gallery/andes-mountains-map/index.html#task-objectives",
+    "href": "gallery/andes-mountains-map/index.html#task-objectives",
+    "title": "Andes Mountains Elevation Map ",
     "section": "",
-    "text": "This poster was assembled in Microsoft PowerPoint using elements created in ArcGIS Pro, Microsoft Excel, and RStudio. The full details on this research can be found here: Bald Eagle Nest Site Selection Research Project."
+    "text": "This map was created for Day 12 of the 2023 30 Day Map Challenge, which designated “South America” for the main subject."
   },
   {
-    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#final-result",
-    "href": "gallery/bald-eagle-nest-selection-poster/index.html#final-result",
-    "title": "Poster on Bald Eagle Nest Selection Research Research poster on bald eagle nest-site selection modeling.",
+    "objectID": "gallery/andes-mountains-map/index.html#tools-workflow",
+    "href": "gallery/andes-mountains-map/index.html#tools-workflow",
+    "title": "Andes Mountains Elevation Map ",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nMap creation was performed in R/Studio. Blog post coming soon!"
+  },
+  {
+    "objectID": "gallery/andes-mountains-map/index.html#final-result",
+    "href": "gallery/andes-mountains-map/index.html#final-result",
+    "title": "Andes Mountains Elevation Map ",
     "section": "Final Result",
-    "text": "Final Result\nHere is the final poster that I presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium, earned highest honors.\n\n\n\nCredit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
-    "href": "gallery/2018-squirrel-census-sighting-map/index.html",
-    "title": "2018 Squirrel Census Sighting Map ",
-    "section": "",
-    "text": "This map was created with several packages in RStudio using data from the Tidy Tuesday repository.\n\n\n\n\n\n\n\n\nMap Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
-  },
-  {
-    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
-    "href": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
-    "title": "2018 Squirrel Census Sighting Map ",
-    "section": "",
-    "text": "This map was created with several packages in RStudio using data from the Tidy Tuesday repository.\n\n\n\n\n\n\n\n\nMap Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About Me and My Career Pathway",
-    "section": "",
-    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\n\n\n\nThis site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my professional CV for a comprehensive look.\n\n\n\n\n\n\n\n\n\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nof Maps and Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about/index.html#current-happenings",
-    "href": "about/index.html#current-happenings",
-    "title": "About Me and My Career Pathway",
-    "section": "",
-    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\n\n\n\nThis site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my professional CV for a comprehensive look.\n\n\n\n\n\n\n\n\n\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nof Maps and Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about/index.html#my-professional-path",
-    "href": "about/index.html#my-professional-path",
-    "title": "About Me and My Career Pathway",
-    "section": "My Professional Path",
-    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program. Updates on my thesis work soon!",
-    "crumbs": [
-      "Home",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about/index.html#past-endeavors",
-    "href": "about/index.html#past-endeavors",
-    "title": "About Me and My Career Pathway",
-    "section": "Past Endeavors",
-    "text": "Past Endeavors\nThis section provides an assortment of photos showing some of my past work.\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.\n\n\n\n\n\nI have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.\n\n\n\n\n\nThis is another beautiful place I was able to work in, the Ozarks of Missouri.\n\n\n\n\n\nWorking with black bears (even though this one is cinnnamon) was one of my favorite opportunties as a biologist so far.",
-    "crumbs": [
-      "Home",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "assets/index.html",
-    "href": "assets/index.html",
-    "title": "Assets ",
-    "section": "",
-    "text": "bg-green-rivers.jpg"
+    "text": "Final Result\nHere is the resulting map that shows filled in contours within Peru, emphasizing the dramatic elevation change.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "curriculum-vitae/index.html",
@@ -635,214 +589,288 @@
     ]
   },
   {
-    "objectID": "gallery/andes-mountains-map/index.html",
-    "href": "gallery/andes-mountains-map/index.html",
-    "title": "Andes Mountains Elevation Map ",
+    "objectID": "assets/index.html",
+    "href": "assets/index.html",
+    "title": "Assets ",
     "section": "",
-    "text": "This map was created for Day 12 of the 2023 30 Day Map Challenge, which designated “South America” for the main subject."
+    "text": "bg-green-rivers.jpg"
   },
   {
-    "objectID": "gallery/andes-mountains-map/index.html#task-objectives",
-    "href": "gallery/andes-mountains-map/index.html#task-objectives",
-    "title": "Andes Mountains Elevation Map ",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About Me and My Career Pathway",
     "section": "",
-    "text": "This map was created for Day 12 of the 2023 30 Day Map Challenge, which designated “South America” for the main subject."
+    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\n\n\n\nThis site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my professional CV for a comprehensive look.\n\n\n\n\n\n\n\n\n\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nof Maps and Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "About Me"
+    ]
   },
   {
-    "objectID": "gallery/andes-mountains-map/index.html#tools-workflow",
-    "href": "gallery/andes-mountains-map/index.html#tools-workflow",
-    "title": "Andes Mountains Elevation Map ",
+    "objectID": "about/index.html#current-happenings",
+    "href": "about/index.html#current-happenings",
+    "title": "About Me and My Career Pathway",
+    "section": "",
+    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\n\n\n\nThis site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my professional CV for a comprehensive look.\n\n\n\n\n\n\n\n\n\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nof Maps and Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "about/index.html#my-professional-path",
+    "href": "about/index.html#my-professional-path",
+    "title": "About Me and My Career Pathway",
+    "section": "My Professional Path",
+    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program. Updates on my thesis work soon!",
+    "crumbs": [
+      "Home",
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "about/index.html#past-endeavors",
+    "href": "about/index.html#past-endeavors",
+    "title": "About Me and My Career Pathway",
+    "section": "Past Endeavors",
+    "text": "Past Endeavors\nThis section provides an assortment of photos showing some of my past work.\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.\n\n\n\n\n\nI have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.\n\n\n\n\n\nThis is another beautiful place I was able to work in, the Ozarks of Missouri.\n\n\n\n\n\nWorking with black bears (even though this one is cinnnamon) was one of my favorite opportunties as a biologist so far.",
+    "crumbs": [
+      "Home",
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
+    "href": "gallery/2018-squirrel-census-sighting-map/index.html",
+    "title": "2018 Squirrel Census Sighting Map ",
+    "section": "",
+    "text": "This map was created with several packages in RStudio using data from the Tidy Tuesday repository.\n\n\n\n\n\n\n\n\nMap Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
+    "href": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
+    "title": "2018 Squirrel Census Sighting Map ",
+    "section": "",
+    "text": "This map was created with several packages in RStudio using data from the Tidy Tuesday repository.\n\n\n\n\n\n\n\n\nMap Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
+  },
+  {
+    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html",
+    "href": "gallery/bald-eagle-nest-selection-poster/index.html",
+    "title": "Poster on Bald Eagle Nest Selection Research Research poster on bald eagle nest-site selection modeling.",
+    "section": "",
+    "text": "This poster was assembled in Microsoft PowerPoint using elements created in ArcGIS Pro, Microsoft Excel, and RStudio. The full details on this research can be found here: Bald Eagle Nest Site Selection Research Project."
+  },
+  {
+    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
+    "href": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
+    "title": "Poster on Bald Eagle Nest Selection Research Research poster on bald eagle nest-site selection modeling.",
+    "section": "",
+    "text": "This poster was assembled in Microsoft PowerPoint using elements created in ArcGIS Pro, Microsoft Excel, and RStudio. The full details on this research can be found here: Bald Eagle Nest Site Selection Research Project."
+  },
+  {
+    "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#final-result",
+    "href": "gallery/bald-eagle-nest-selection-poster/index.html#final-result",
+    "title": "Poster on Bald Eagle Nest Selection Research Research poster on bald eagle nest-site selection modeling.",
+    "section": "Final Result",
+    "text": "Final Result\nHere is the final poster that I presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium, earned highest honors.\n\n\n\nCredit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "gallery/eagle-mountain-contour-map/index.html",
+    "href": "gallery/eagle-mountain-contour-map/index.html",
+    "title": "Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.",
+    "section": "",
+    "text": "The prompt for this map was for Day Two of the 2023 30 Day Map Challenge, which designated “lines” for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity."
+  },
+  {
+    "objectID": "gallery/eagle-mountain-contour-map/index.html#task-objectives",
+    "href": "gallery/eagle-mountain-contour-map/index.html#task-objectives",
+    "title": "Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.",
+    "section": "",
+    "text": "The prompt for this map was for Day Two of the 2023 30 Day Map Challenge, which designated “lines” for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity."
+  },
+  {
+    "objectID": "gallery/eagle-mountain-contour-map/index.html#tools-workflow",
+    "href": "gallery/eagle-mountain-contour-map/index.html#tools-workflow",
+    "title": "Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nMap creation was performed in R/Studio. Blog post coming soon!"
+    "text": "Tools & Workflow\nData were downloaded from the Minnesota Department of Natural Resources GIS hub site, including a 3-meter digital elevation model (DEM) and a general hydrological features layer.\nIn ArcGIS Pro, the DEM was used to generate a simplified 10-m contour feature class. The lakes and stream features were then added to provide context for the surrounding area."
   },
   {
-    "objectID": "gallery/andes-mountains-map/index.html#final-result",
-    "href": "gallery/andes-mountains-map/index.html#final-result",
-    "title": "Andes Mountains Elevation Map ",
+    "objectID": "gallery/eagle-mountain-contour-map/index.html#final-result",
+    "href": "gallery/eagle-mountain-contour-map/index.html#final-result",
+    "title": "Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.",
     "section": "Final Result",
-    "text": "Final Result\nHere is the resulting map that shows filled in contours within Peru, emphasizing the dramatic elevation change.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Result\nHere is the final map showing the location of Eagle Mountain surrounded by nearby lakes and the elevation contour lines.\n\n\n\nCredit: Benjamin Tjepkes\n\n\nSee all my contributions to the 2023 #30DayMapChallenge."
   },
   {
-    "objectID": "gallery/canadian-ecoregion-map/index.html",
-    "href": "gallery/canadian-ecoregion-map/index.html",
-    "title": "Canadian Ecoregions Map ",
+    "objectID": "gallery/global-ocean-currents-and-temps/index.html",
+    "href": "gallery/global-ocean-currents-and-temps/index.html",
+    "title": "Global Ocean Currents and Temperatures Visualizing the influence of global systems.",
     "section": "",
-    "text": "The prompt for this map was for Day Three of the 2023 30 Day Map Challenge, which designated “polygons” for the main subject."
+    "text": "This was a global web scene built using ArcGIS Online."
   },
   {
-    "objectID": "gallery/canadian-ecoregion-map/index.html#task-objectives",
-    "href": "gallery/canadian-ecoregion-map/index.html#task-objectives",
-    "title": "Canadian Ecoregions Map ",
+    "objectID": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
+    "href": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
+    "title": "Global Ocean Currents and Temperatures Visualizing the influence of global systems.",
     "section": "",
-    "text": "The prompt for this map was for Day Three of the 2023 30 Day Map Challenge, which designated “polygons” for the main subject."
+    "text": "This was a global web scene built using ArcGIS Online."
   },
   {
-    "objectID": "gallery/canadian-ecoregion-map/index.html#tools-workflow",
-    "href": "gallery/canadian-ecoregion-map/index.html#tools-workflow",
-    "title": "Canadian Ecoregions Map ",
+    "objectID": "gallery/global-ocean-currents-and-temps/index.html#final-result",
+    "href": "gallery/global-ocean-currents-and-temps/index.html#final-result",
+    "title": "Global Ocean Currents and Temperatures Visualizing the influence of global systems.",
+    "section": "Final Result",
+    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "gallery/happy-forests-happy-people-map/index.html",
+    "href": "gallery/happy-forests-happy-people-map/index.html",
+    "title": "Forest Cover & Happiness Bivariate Map ",
+    "section": "",
+    "text": "This map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject."
+  },
+  {
+    "objectID": "gallery/happy-forests-happy-people-map/index.html#task-objectives",
+    "href": "gallery/happy-forests-happy-people-map/index.html#task-objectives",
+    "title": "Forest Cover & Happiness Bivariate Map ",
+    "section": "",
+    "text": "This map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject."
+  },
+  {
+    "objectID": "gallery/happy-forests-happy-people-map/index.html#tools-workflow",
+    "href": "gallery/happy-forests-happy-people-map/index.html#tools-workflow",
+    "title": "Forest Cover & Happiness Bivariate Map ",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\n\nData were downloaded from the U.S. Environmental Protection Agency site.\nMap production was completed in ArcGIS Pro."
+    "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub."
   },
   {
-    "objectID": "gallery/canadian-ecoregion-map/index.html#final-result",
-    "href": "gallery/canadian-ecoregion-map/index.html#final-result",
-    "title": "Canadian Ecoregions Map ",
+    "objectID": "gallery/happy-forests-happy-people-map/index.html#final-result",
+    "href": "gallery/happy-forests-happy-people-map/index.html#final-result",
+    "title": "Forest Cover & Happiness Bivariate Map ",
     "section": "Final Result",
-    "text": "Final Result\nHere is the end product, a regional map of Canada’s Ecoregions.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Result\nHere is the final product showing both happiness and forest cover as a bivariate choropleth map.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
-    "href": "gallery/endangered-species-stamp-collection-map/index.html",
-    "title": "Endangered Species Stamp Map ",
+    "objectID": "gallery/index.html",
+    "href": "gallery/index.html",
+    "title": "My Gallery of Maps and Visualizations",
     "section": "",
-    "text": "Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas."
+    "text": "Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "My Gallery"
+    ]
   },
   {
-    "objectID": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
-    "href": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
-    "title": "Endangered Species Stamp Map ",
+    "objectID": "gallery/index.html#map-gallery",
+    "href": "gallery/index.html#map-gallery",
+    "title": "My Gallery of Maps and Visualizations",
     "section": "",
-    "text": "Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas."
+    "text": "Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "My Gallery"
+    ]
   },
   {
-    "objectID": "gallery/endangered-species-stamp-collection-map/index.html#final-result",
-    "href": "gallery/endangered-species-stamp-collection-map/index.html#final-result",
-    "title": "Endangered Species Stamp Map ",
-    "section": "Final Result",
-    "text": "Final Result\nHere is the final map product that I submitted to the 2023 GIS Certification Institute Map Contest, where is won 2nd place in the professional category.\n\n\n\nMap Credit: Ben Tjepkes"
+    "objectID": "gallery/index.html#data-viz-gallery",
+    "href": "gallery/index.html#data-viz-gallery",
+    "title": "My Gallery of Maps and Visualizations",
+    "section": "Data Viz Gallery",
+    "text": "Data Viz Gallery\nIn addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects.\nTools & Technologies: R/RStudio, Python/Jupyter Notebook, Microsoft Excel\n\n\n\n\n\n\n\n\n\n\nMy GitHub Contributions in 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "My Gallery"
+    ]
   },
   {
-    "objectID": "gallery/great-lakes-watershed-map/index.html",
-    "href": "gallery/great-lakes-watershed-map/index.html",
-    "title": "Great Lakes Watersheds Map Colorful visual of Great Lakes watersheds.",
+    "objectID": "gallery/index.html#poster-report-gallery",
+    "href": "gallery/index.html#poster-report-gallery",
+    "title": "My Gallery of Maps and Visualizations",
+    "section": "Poster & Report Gallery",
+    "text": "Poster & Report Gallery\nMy most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues.\nTools & Technologies: R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "My Gallery"
+    ]
+  },
+  {
+    "objectID": "gallery/michigan-anthrome-map/index.html",
+    "href": "gallery/michigan-anthrome-map/index.html",
+    "title": "Anthrome Map of the Upper Peninsula, MI ",
     "section": "",
-    "text": "This maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
+    "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome).\nAnother portion of this assignment dealt with creating a climate profile for the region."
   },
   {
-    "objectID": "gallery/great-lakes-watershed-map/index.html#tools-methods",
-    "href": "gallery/great-lakes-watershed-map/index.html#tools-methods",
-    "title": "Great Lakes Watersheds Map Colorful visual of Great Lakes watersheds.",
+    "objectID": "gallery/michigan-anthrome-map/index.html#task-objectives",
+    "href": "gallery/michigan-anthrome-map/index.html#task-objectives",
+    "title": "Anthrome Map of the Upper Peninsula, MI ",
     "section": "",
-    "text": "This maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
+    "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome).\nAnother portion of this assignment dealt with creating a climate profile for the region."
   },
   {
-    "objectID": "gallery/great-lakes-watershed-map/index.html#final-product",
-    "href": "gallery/great-lakes-watershed-map/index.html#final-product",
-    "title": "Great Lakes Watersheds Map Colorful visual of Great Lakes watersheds.",
-    "section": "Final Product",
-    "text": "Final Product\nThis final map shows the watersheds for each Great Lake, including their sub-basins.\n\n\n\nMap Credit: Ben Tjepkes"
-  },
-  {
-    "objectID": "gallery/hyaenidae-range-map/index.html",
-    "href": "gallery/hyaenidae-range-map/index.html",
-    "title": "Hyaenidae Distribution Map for Africa Visualizing ranges for the four extant species.",
-    "section": "",
-    "text": "The prompt for this map was for Day Eight of the 2023 30 Day Map Challenge, which designated “Africa” for the main subject. Hyenas have always fascinated me with their complex behavior, clan structure, and hunting abilities. This prompt was a perfect time to explore their ranges!"
-  },
-  {
-    "objectID": "gallery/hyaenidae-range-map/index.html#task-objectives",
-    "href": "gallery/hyaenidae-range-map/index.html#task-objectives",
-    "title": "Hyaenidae Distribution Map for Africa Visualizing ranges for the four extant species.",
-    "section": "",
-    "text": "The prompt for this map was for Day Eight of the 2023 30 Day Map Challenge, which designated “Africa” for the main subject. Hyenas have always fascinated me with their complex behavior, clan structure, and hunting abilities. This prompt was a perfect time to explore their ranges!"
-  },
-  {
-    "objectID": "gallery/hyaenidae-range-map/index.html#tools-workflow",
-    "href": "gallery/hyaenidae-range-map/index.html#tools-workflow",
-    "title": "Hyaenidae Distribution Map for Africa Visualizing ranges for the four extant species.",
+    "objectID": "gallery/michigan-anthrome-map/index.html#tools-workflow",
+    "href": "gallery/michigan-anthrome-map/index.html#tools-workflow",
+    "title": "Anthrome Map of the Upper Peninsula, MI ",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nSpatial data were sourced from the IUCN for each species. Map was produced in ArcGIS Pro 3.2.\nThe comprehensive layout options in ArcGIS Pro have always helped me out, but this time it was very simple to link the extents of each sub-map to ensure perfect alignment."
+    "text": "Tools & Workflow\n\nData were downloaded from Anthromes 12K DGG Datasets.\nFigure production was completed in RStudio with several packages including ggplot, ggspatial, and tidyverse."
   },
   {
-    "objectID": "gallery/hyaenidae-range-map/index.html#final-result",
-    "href": "gallery/hyaenidae-range-map/index.html#final-result",
-    "title": "Hyaenidae Distribution Map for Africa Visualizing ranges for the four extant species.",
-    "section": "Final Result",
-    "text": "Final Result\nHere is the resulting map series showing each species range across Africa.\n\n\n\nCredit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
-    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
-    "title": "Annual Report for MDC Furbearer Program FY2021 annual report on furbearer harvest, status, and program activities.",
-    "section": "",
-    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
-  },
-  {
-    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
-    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
-    "title": "Annual Report for MDC Furbearer Program FY2021 annual report on furbearer harvest, status, and program activities.",
-    "section": "",
-    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
-  },
-  {
-    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
-    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
-    "title": "Annual Report for MDC Furbearer Program FY2021 annual report on furbearer harvest, status, and program activities.",
-    "section": "Final Result",
-    "text": "Final Result\nThe full report document can be viewed here.\n\n\n\nExample pages from the report."
-  },
-  {
-    "objectID": "gallery/michigan-climate-trends/index.html",
-    "href": "gallery/michigan-climate-trends/index.html",
-    "title": "Climate Trends of the Upper Peninsula, MI ",
-    "section": "",
-    "text": "The assignment for this exploration was to investigate climate (i.e., precipitation and temperature) trends for somewhere you want to live. I chose the Upper Peninsula of Michigan."
-  },
-  {
-    "objectID": "gallery/michigan-climate-trends/index.html#task-objectives",
-    "href": "gallery/michigan-climate-trends/index.html#task-objectives",
-    "title": "Climate Trends of the Upper Peninsula, MI ",
-    "section": "",
-    "text": "The assignment for this exploration was to investigate climate (i.e., precipitation and temperature) trends for somewhere you want to live. I chose the Upper Peninsula of Michigan."
-  },
-  {
-    "objectID": "gallery/michigan-climate-trends/index.html#tools-workflow",
-    "href": "gallery/michigan-climate-trends/index.html#tools-workflow",
-    "title": "Climate Trends of the Upper Peninsula, MI ",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\n\nData were downloaded from PRISM.\nFigure production was completed in RStudio with several packages: ggplot and tidyverse."
-  },
-  {
-    "objectID": "gallery/michigan-climate-trends/index.html#final-results",
-    "href": "gallery/michigan-climate-trends/index.html#final-results",
-    "title": "Climate Trends of the Upper Peninsula, MI ",
+    "objectID": "gallery/michigan-anthrome-map/index.html#final-results",
+    "href": "gallery/michigan-anthrome-map/index.html#final-results",
+    "title": "Anthrome Map of the Upper Peninsula, MI ",
     "section": "Final Results",
-    "text": "Final Results\nHere is the first figure showing trends in precipitation.\n\n\n\nCredit: Benjamin Tjepkes\n\n\nHere is the second figure showing trends in maximum and minimum temperature.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Results\nHere is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
-    "href": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
-    "title": "Choropleth of Missouri Bear Sightings County-based counts of reported bear sightings in Missouri during 2020.",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\nMap creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
-  },
-  {
-    "objectID": "gallery/moose-sightings-across-north-america/index.html",
-    "href": "gallery/moose-sightings-across-north-america/index.html",
-    "title": "Moose Sightings Across North America ",
+    "objectID": "gallery/missouri-bat-hcp-poster/index.html",
+    "href": "gallery/missouri-bat-hcp-poster/index.html",
+    "title": "Missouri Bat HCP Overview & Update Poster Informational poster on the Missouri Bat Habitat Conservation Plan.",
     "section": "",
-    "text": "The prompt for this map was for Day Ten of the 2023 30 Day Map Challenge, which designated “North America” for the main subject."
+    "text": "Map creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
   },
   {
-    "objectID": "gallery/moose-sightings-across-north-america/index.html#task-objectives",
-    "href": "gallery/moose-sightings-across-north-america/index.html#task-objectives",
-    "title": "Moose Sightings Across North America ",
+    "objectID": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
+    "href": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
+    "title": "Missouri Bat HCP Overview & Update Poster Informational poster on the Missouri Bat Habitat Conservation Plan.",
     "section": "",
-    "text": "The prompt for this map was for Day Ten of the 2023 30 Day Map Challenge, which designated “North America” for the main subject."
+    "text": "Map creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
   },
   {
-    "objectID": "gallery/moose-sightings-across-north-america/index.html#tools-workflow",
-    "href": "gallery/moose-sightings-across-north-america/index.html#tools-workflow",
-    "title": "Moose Sightings Across North America ",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nData were downloaded from the Global Biodiversity Information Facility. Map creation was performed in R/Studio. Blog post coming soon!"
-  },
-  {
-    "objectID": "gallery/moose-sightings-across-north-america/index.html#final-result",
-    "href": "gallery/moose-sightings-across-north-america/index.html#final-result",
-    "title": "Moose Sightings Across North America ",
+    "objectID": "gallery/missouri-bat-hcp-poster/index.html#final-result",
+    "href": "gallery/missouri-bat-hcp-poster/index.html#final-result",
+    "title": "Missouri Bat HCP Overview & Update Poster Informational poster on the Missouri Bat Habitat Conservation Plan.",
     "section": "Final Result",
-    "text": "Final Result\nHere is the resulting map that shows the sighting locations.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Result\nHere is the final poster that I presented at the 2023 MDC Science Branch Conference in Potosi, Missouri."
+  },
+  {
+    "objectID": "gallery/my-github-contributions-in-2023/index.html",
+    "href": "gallery/my-github-contributions-in-2023/index.html",
+    "title": "My GitHub Contributions in 2023 ",
+    "section": "",
+    "text": "This figure was created for Week 1 of the 2024 TidyTuesday."
+  },
+  {
+    "objectID": "gallery/my-github-contributions-in-2023/index.html#task-objectives",
+    "href": "gallery/my-github-contributions-in-2023/index.html#task-objectives",
+    "title": "My GitHub Contributions in 2023 ",
+    "section": "",
+    "text": "This figure was created for Week 1 of the 2024 TidyTuesday."
+  },
+  {
+    "objectID": "gallery/my-github-contributions-in-2023/index.html#tools-workflow",
+    "href": "gallery/my-github-contributions-in-2023/index.html#tools-workflow",
+    "title": "My GitHub Contributions in 2023 ",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\n\nData were downloaded from GitHub using the gh package in R.\nFigure production was completed in RStudio with several packages, including ggplot, tidyverse, and showtext."
+  },
+  {
+    "objectID": "gallery/my-github-contributions-in-2023/index.html#final-results",
+    "href": "gallery/my-github-contributions-in-2023/index.html#final-results",
+    "title": "My GitHub Contributions in 2023 ",
+    "section": "Final Results",
+    "text": "Final Results\nHere is the resulting figure summarizing my 660 commits in 2023.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html",
@@ -896,7 +924,7 @@
   {
     "objectID": "gallery/relative-coding-proficiency-chart/index.html#tools-methods",
     "href": "gallery/relative-coding-proficiency-chart/index.html#tools-methods",
-    "title": "Relative Coding Proficiency Charts A chart showing my coding journey.",
+    "title": "Relative Coding Proficiency Charts ",
     "section": "Tools & Methods",
     "text": "Tools & Methods\nChart creation was performed in RStudio using the ggplot2 package and others."
   },

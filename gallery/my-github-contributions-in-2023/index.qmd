@@ -1,0 +1,34 @@
+---
+title: "My GitHub Contributions in 2023"
+date: 2024-01-03
+date-modified: today
+categories:
+  - Data Gallery
+  - TidyTuesday2024
+keywords:
+  - GitHub
+  - coding
+  - TidyTuesday2024
+abstract: "TidyTuesday2024::Week01 ~ Visualizing my GitHub contributions."
+description: "This graphic, inspired by the work of [@nrennie](https://nrennie.rbind.io/), summarizes my contributions to GitHub in 2023. While this was not my first year using GH, it was my first using it frequently. Most of my commits were towards the creation of this site."
+image: img-gh-contributions-2023.png
+image-alt: "A chart of my 2023 GitHub contributions."
+# aliases:
+---
+
+## Task & Objectives
+
+This figure was created for Week 1 of the 2024 TidyTuesday.
+
+## Tools & Workflow
+
+- Data were downloaded from [GitHub](https://github.com/) using the `gh` package in R.
+- Figure production was completed in RStudio with several packages, including `ggplot`, `tidyverse`, and `showtext`.
+
+
+## Final Results
+
+Here is the resulting figure summarizing my **660 commits** in 2023.
+
+![Credit: Benjamin Tjepkes](img-gh-contributions-2023.png)
+
