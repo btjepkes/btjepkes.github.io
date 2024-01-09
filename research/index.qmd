@@ -19,6 +19,7 @@ listing:
   sort-ui: true
   fields: 
     - title
-    - subtitle
+    - description
     - image
+    - categories
 ---

@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function() {
             background-attachment: fixed;
             position: relative;
             overflow: hidden;
-            min-height: 30vh;
+            min-height: 27vh;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function() {
         @media (max-width: 991.98px) {
         
                 #uni-banner {
-            min-height: 20vh;
+            min-height: 18vh;
         }
         
         #uni-banner > svg {
@@ -440,6 +440,23 @@ document.addEventListener("DOMContentLoaded", function() {
 <h5 class="no-anchor card-title listing-title">
 Bald Eagle Nest-Site Selection Project
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Undergraduate'); return false;">
+Undergraduate
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Avian'); return false;">
+Avian
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Geospatial'); return false;">
+Geospatial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Wildlife'); return false;">
+Wildlife
+</div>
+</div>
+<div class="card-text listing-description">
+This undergraduate research project involved cleaning and analyzing bald eagle nesting records from the U.S. Fish and Wildlife Service with the goal of determining how…
+</div>
 </div>
 </div>
 </a>
@@ -454,8 +471,19 @@ Bald Eagle Nest-Site Selection Project
 <h5 class="no-anchor card-title listing-title">
 Beaver-Impacted Water Control Structures
 </h5>
-<div class="card-subtitle listing-subtitle">
-Assessing the need for flow devices on wetlands in NE Wisconsin.
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Undergraduate'); return false;">
+Undergraduate
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Mammal'); return false;">
+Mammal
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Wildlife'); return false;">
+Wildlife
+</div>
+</div>
+<div class="card-text listing-description">
+This undergraduate research project was aimed at assessing the need for beaver flow devices on water control strutures owned by the Wisconsin Department of Natural…
 </div>
 </div>
 </div>
@@ -471,8 +499,19 @@ Assessing the need for flow devices on wetlands in NE Wisconsin.
 <h5 class="no-anchor card-title listing-title">
 Raccoon Space-Use and Home Ranges
 </h5>
-<div class="card-subtitle listing-subtitle">
-Determining sex-specific space-use for raccoons in Laramie, Wyoming.
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Undergraduate'); return false;">
+Undergraduate
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Mammal'); return false;">
+Mammal
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Wyoming'); return false;">
+Wyoming
+</div>
+</div>
+<div class="card-text listing-description">
+This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.
 </div>
 </div>
 </div>
@@ -488,14 +527,25 @@ Determining sex-specific space-use for raccoons in Laramie, Wyoming.
 <h5 class="no-anchor card-title listing-title">
 Ruffed Grouse Drumming Log Selection
 </h5>
-<div class="card-subtitle listing-subtitle">
-An assessment of ruffed grouse reproductive habitat in Northern Wisconsin.
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Undergraduate'); return false;">
+Undergraduate
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Avian'); return false;">
+Avian
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Wisconsin'); return false;">
+Wisconsin
+</div>
+</div>
+<div class="card-text listing-description">
+This undergraduate research project was operated through the UWSP Student Chapter of The Wildlife Society with the objective of better understanding how ruffed grouse…
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Undergraduate,Mammal,Wisconsin" data-listing-date-sort="1682744400000" data-listing-file-modified-sort="1698551552000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="g-col-1" data-index="4" data-categories="Undergraduate,Mammal,Wisconsin" data-listing-date-sort="1682744400000" data-listing-file-modified-sort="1704815270638" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
 <a href="../research/small-mammal-response-to-prescribed-fire/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -505,8 +555,19 @@ An assessment of ruffed grouse reproductive habitat in Northern Wisconsin.
 <h5 class="no-anchor card-title listing-title">
 Small Mammal Response to Prescribed Fire
 </h5>
-<div class="card-subtitle listing-subtitle">
-An assessment of small mammals in Schmeekle Reserve, Wisconsin.
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Undergraduate'); return false;">
+Undergraduate
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Mammal'); return false;">
+Mammal
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Wisconsin'); return false;">
+Wisconsin
+</div>
+</div>
+<div class="card-text listing-description">
+This undergraduate research project looked at the response of small mammals to prescribed burn activities in Schmeekle Reserve on the University of Wisconsin-Stevens Point…
 </div>
 </div>
 </div>
