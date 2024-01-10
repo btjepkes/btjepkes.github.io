@@ -8,6 +8,7 @@
 
 <meta name="author" content="Benjamin Tjepkes">
 <meta name="dcterms.date" content="2023-04-16">
+<meta name="description" content="This choropleth map was created as a public-facing visualization to show the number of black bear sightings in each Missouri county during 2020. It was featured in the February 2021 issue of the Missouri Conservationist for an article about Missouri’s black bear population.">
 
 <title>Choropleth of Missouri Bear Sightings | B.W. Tjepkes</title>
 <style>
@@ -125,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function() {
             background-attachment: fixed;
             position: relative;
             overflow: hidden;
-            min-height: 27vh;
+            height: 12vh;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -158,11 +159,11 @@ document.addEventListener("DOMContentLoaded", function() {
         @media (max-width: 991.98px) {
         
                 #uni-banner {
-            min-height: 18vh;
+            min-height: 10vh;
         }
         
         #uni-banner > svg {
-          height: 100px !important;
+          height: 50px !important;
         }
         
         }
@@ -256,7 +257,7 @@ document.addEventListener("DOMContentLoaded", function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Choropleth of Missouri Bear Sightings County-based counts of reported bear sightings in Missouri during 2020.</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Choropleth of Missouri Bear Sightings </li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -267,19 +268,21 @@ document.addEventListener("DOMContentLoaded", function() {
 </header>
 <!-- content -->
 <header id="title-block-header">
-  
-  <div class="title-date">» 2023-04-16 «</div>
 
   <div class="title-area">
-    <h1 class="title">Choropleth of Missouri Bear Sightings County-based counts of reported bear sightings in Missouri during 2020.</h1>
+    <h1 class="title">Choropleth of Missouri Bear Sightings </h1>
   </div>
     
   <div class="header-content-container">  
   <div class="post-meta">
     
+          <div class="description">
+        <div class="abstract">County-based counts of reported bear sightings in Missouri during 2020.</div> This choropleth map was created as a public-facing visualization to show the number of black bear sightings in each Missouri county during 2020. It was featured in the <a href="https://mdc.mo.gov/magazines/missouri-conservationist/2021-02/missouri-black-bears">February 2021 issue of the <em>Missouri Conservationist</em></a> for an article about Missouri’s black bear population.
+      </div>
         
+    <div class="title-date">Published on 2023-04-16 by Benjamin Tjepkes</div>
+    
   </div>
-  
   </div>
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
@@ -366,6 +369,7 @@ document.addEventListener("DOMContentLoaded", function() {
    
   <ul>
   <li><a href="#tools-methods" id="toc-tools-methods" class="nav-link active" data-scroll-target="#tools-methods">Tools &amp; Methods</a></li>
+  <li><a href="#final-result" id="toc-final-result" class="nav-link" data-scroll-target="#final-result">Final Result</a></li>
   </ul>
 </nav>
     </div>
@@ -375,6 +379,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+<section id="tools-methods" class="level2">
+<h2 data-anchor-id="tools-methods">Tools &amp; Methods</h2>
+<p>Map creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases.</p>
+</section>
+<section id="final-result" class="level2">
+<h2 data-anchor-id="final-result">Final Result</h2>
 <div>
 
 </div>
@@ -382,21 +392,18 @@ document.addEventListener("DOMContentLoaded", function() {
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <figure class="figure">
-<p><a href="img-map-5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Map Credit: Benjamin Tjepkes"><img src="img-map-5.jpg" class="img-fluid figure-img" alt="Map Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-map-5.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Map Credit: Benjamin Tjepkes"><img src="img-map-5.jpg" class="img-fluid figure-img" alt="Map Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Map Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <figure class="figure">
-<p><a href="img-moconservationist.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Credit: Missouri Department of Conservation"><img src="img-moconservationist.jpg" class="img-fluid figure-img" alt="Credit: Missouri Department of Conservation"></a></p>
+<p><a href="img-moconservationist.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Credit: Missouri Department of Conservation"><img src="img-moconservationist.jpg" class="img-fluid figure-img" alt="Credit: Missouri Department of Conservation"></a></p>
 <figcaption>Credit: Missouri Department of Conservation</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<section id="tools-methods" class="level2">
-<h2 data-anchor-id="tools-methods">Tools &amp; Methods</h2>
-<p>Map creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases.</p>
 
 
 </section>
@@ -853,7 +860,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","loop":false});</script>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","loop":false,"closeEffect":"zoom","descPosition":"bottom"});</script>
 
 
 

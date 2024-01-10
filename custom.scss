@@ -176,6 +176,7 @@ h3 {
 }
 
 .abstract {
+  display: inline;
 }
 
 .description {
@@ -490,6 +491,9 @@ color: #000;
 
 .title-date {
   color: #e64946;
+  font-style: italic;
+  font-size: 0.8em;
+  margin-top: 20px;
 }
 
 
@@ -585,6 +589,7 @@ color: #000;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: rgba(14, 37, 52, 0.1) 0px 3px 5px 0px, rgba(14, 37, 52, 0.1) 0px 1px 1px 0px;
+  background: #e9ecef;
 }
 
 
@@ -597,6 +602,7 @@ color: #000;
 .quarto-grid-item .card-title {
   font-weight: 700;
   margin-bottom: 8px;
+  color: black;
 }
 
 .quarto-grid-item .card-subtitle {
@@ -690,7 +696,7 @@ figure > figcaption {
 }
 
 main {
-  margin-top: 0;
+  margin-top: 0px;
 }
 
 .quarto-listing-default {

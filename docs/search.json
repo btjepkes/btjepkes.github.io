@@ -69,7 +69,7 @@
     "href": "research/index.html",
     "title": "My Research in Spatial Ecology and GIS",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest-Site Selection Project\n\n\n\nUndergraduate\n\n\nAvian\n\n\nGeospatial\n\n\nWildlife\n\n\n\nThis undergraduate research project involved cleaning and analyzing bald eagle nesting records from the U.S. Fish and Wildlife Service with the goal of determining how…\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\n\nUndergraduate\n\n\nMammal\n\n\nWildlife\n\n\n\nThis undergraduate research project was aimed at assessing the need for beaver flow devices on water control strutures owned by the Wisconsin Department of Natural…\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\n\nUndergraduate\n\n\nMammal\n\n\nWyoming\n\n\n\nThis undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuffed Grouse Drumming Log Selection\n\n\n\nUndergraduate\n\n\nAvian\n\n\nWisconsin\n\n\n\nThis undergraduate research project was operated through the UWSP Student Chapter of The Wildlife Society with the objective of better understanding how ruffed grouse…\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\n\nUndergraduate\n\n\nMammal\n\n\nWisconsin\n\n\n\nThis undergraduate research project looked at the response of small mammals to prescribed burn activities in Schmeekle Reserve on the University of Wisconsin-Stevens Point…\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest-Site Selection Project\n\n\nThis undergraduate research project involved cleaning and analyzing bald eagle nesting records…\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nThis undergraduate research project was aimed at assessing the need for beaver flow devices on…\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nThis undergraduate research project looked at space-use and home range size differences between…\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nThis undergraduate research project was operated through the UWSP Student Chapter of The Wildlife…\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nThis undergraduate research project looked at the response of small mammals to prescribed burn…\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "My Research"
@@ -363,11 +363,25 @@
     "text": "Final Result\nHere is the resulting map that shows the sighting locations.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
+    "objectID": "gallery/missouri-bear-sighting-map/index.html",
+    "href": "gallery/missouri-bear-sighting-map/index.html",
+    "title": "Choropleth of Missouri Bear Sightings ",
+    "section": "",
+    "text": "Map creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
+  },
+  {
     "objectID": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
     "href": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
-    "title": "Choropleth of Missouri Bear Sightings County-based counts of reported bear sightings in Missouri during 2020.",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\nMap creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
+    "title": "Choropleth of Missouri Bear Sightings ",
+    "section": "",
+    "text": "Map creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
+  },
+  {
+    "objectID": "gallery/missouri-bear-sighting-map/index.html#final-result",
+    "href": "gallery/missouri-bear-sighting-map/index.html#final-result",
+    "title": "Choropleth of Missouri Bear Sightings ",
+    "section": "Final Result",
+    "text": "Final Result\n\n\n\n\n\n\n\n\nMap Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
   },
   {
     "objectID": "gallery/michigan-climate-trends/index.html",
@@ -982,7 +996,7 @@
     "href": "index.html",
     "title": "Hello! My name is Ben Tjepkes and I am a dedicated wildlife ecologist and data-driven geographer. ",
     "section": "",
-    "text": "My Gallery\n\n\nof Maps and Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Career Pathway\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Career Experience\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nfor Inquires or Comments\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Peruse this site to explore my latest work…\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Career Pathway\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Career Experience\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nfor Inquires or Comments\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home"
     ]

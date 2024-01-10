@@ -3,16 +3,13 @@
   display: none;
 }*/
 
-#intro-section {
-  text-align: center;
-}
-
 #intro-section p {
-  padding: 20px 0 20px 0;
-  line-height: 1.3;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.7em;
+  color: #000;
+  line-height: 1;
 }
-
-
 
 
 h1 {

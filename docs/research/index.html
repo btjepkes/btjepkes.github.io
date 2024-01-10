@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="">
+<meta name="author" content="Benjamin Tjepkes">
 <meta name="description" content="Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques. I have been fortunate to have worked across the Midwest and some in the West here in the United States. This research has expanded both my technical skillset and my appreciation for science.">
 
 <title>My Research | B.W. Tjepkes</title>
@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function() {
             background-attachment: fixed;
             position: relative;
             overflow: hidden;
-            min-height: 27vh;
+            height: 12vh;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -192,11 +192,11 @@ document.addEventListener("DOMContentLoaded", function() {
         @media (max-width: 991.98px) {
         
                 #uni-banner {
-            min-height: 18vh;
+            min-height: 10vh;
         }
         
         #uni-banner > svg {
-          height: 100px !important;
+          height: 50px !important;
         }
         
         }
@@ -303,8 +303,6 @@ document.addEventListener("DOMContentLoaded", function() {
 </header>
 <!-- content -->
 <header id="title-block-header">
-  
-  
 
   <div class="title-area">
     <h1 class="title">My Research <strong>in Spatial Ecology and GIS</strong></h1>
@@ -314,11 +312,12 @@ document.addEventListener("DOMContentLoaded", function() {
   <div class="post-meta">
     
           <div class="description">
-        <div class="abstract" style="display: inline;">➣  </div> Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques. I have been fortunate to have worked across the Midwest and some in the West here in the United States. This research has expanded both my technical skillset and my appreciation for science.
+        <div class="abstract"></div> Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques. I have been fortunate to have worked across the Midwest and some in the West here in the United States. This research has expanded both my technical skillset and my appreciation for science.
       </div>
         
+    
+    
   </div>
-  
   </div>
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
@@ -429,7 +428,7 @@ document.addEventListener("DOMContentLoaded", function() {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list grid quarto-listing-cols-2">
+<div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="Undergraduate,Avian,Geospatial,Wildlife" data-listing-file-modified-sort="1703445778493" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
 <a href="../research/bald-eagle-nest-site-selection/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
@@ -440,22 +439,8 @@ document.addEventListener("DOMContentLoaded", function() {
 <h5 class="no-anchor card-title listing-title">
 Bald Eagle Nest-Site Selection Project
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Undergraduate'); return false;">
-Undergraduate
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Avian'); return false;">
-Avian
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Geospatial'); return false;">
-Geospatial
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Wildlife'); return false;">
-Wildlife
-</div>
-</div>
 <div class="card-text listing-description">
-This undergraduate research project involved cleaning and analyzing bald eagle nesting records from the U.S. Fish and Wildlife Service with the goal of determining how…
+This undergraduate research project involved cleaning and analyzing bald eagle nesting records…
 </div>
 </div>
 </div>
@@ -471,19 +456,8 @@ This undergraduate research project involved cleaning and analyzing bald eagle n
 <h5 class="no-anchor card-title listing-title">
 Beaver-Impacted Water Control Structures
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Undergraduate'); return false;">
-Undergraduate
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Mammal'); return false;">
-Mammal
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Wildlife'); return false;">
-Wildlife
-</div>
-</div>
 <div class="card-text listing-description">
-This undergraduate research project was aimed at assessing the need for beaver flow devices on water control strutures owned by the Wisconsin Department of Natural…
+This undergraduate research project was aimed at assessing the need for beaver flow devices on…
 </div>
 </div>
 </div>
@@ -499,19 +473,8 @@ This undergraduate research project was aimed at assessing the need for beaver f
 <h5 class="no-anchor card-title listing-title">
 Raccoon Space-Use and Home Ranges
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Undergraduate'); return false;">
-Undergraduate
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Mammal'); return false;">
-Mammal
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Wyoming'); return false;">
-Wyoming
-</div>
-</div>
 <div class="card-text listing-description">
-This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.
+This undergraduate research project looked at space-use and home range size differences between…
 </div>
 </div>
 </div>
@@ -527,19 +490,8 @@ This undergraduate research project looked at space-use and home range size diff
 <h5 class="no-anchor card-title listing-title">
 Ruffed Grouse Drumming Log Selection
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Undergraduate'); return false;">
-Undergraduate
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Avian'); return false;">
-Avian
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Wisconsin'); return false;">
-Wisconsin
-</div>
-</div>
 <div class="card-text listing-description">
-This undergraduate research project was operated through the UWSP Student Chapter of The Wildlife Society with the objective of better understanding how ruffed grouse…
+This undergraduate research project was operated through the UWSP Student Chapter of The Wildlife…
 </div>
 </div>
 </div>
@@ -555,19 +507,8 @@ This undergraduate research project was operated through the UWSP Student Chapte
 <h5 class="no-anchor card-title listing-title">
 Small Mammal Response to Prescribed Fire
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Undergraduate'); return false;">
-Undergraduate
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Mammal'); return false;">
-Mammal
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Wisconsin'); return false;">
-Wisconsin
-</div>
-</div>
 <div class="card-text listing-description">
-This undergraduate research project looked at the response of small mammals to prescribed burn activities in Schmeekle Reserve on the University of Wisconsin-Stevens Point…
+This undergraduate research project looked at the response of small mammals to prescribed burn…
 </div>
 </div>
 </div>

@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function() {
             background-attachment: fixed;
             position: relative;
             overflow: hidden;
-            min-height: 27vh;
+            height: 12vh;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -164,11 +164,11 @@ document.addEventListener("DOMContentLoaded", function() {
         @media (max-width: 991.98px) {
         
                 #uni-banner {
-            min-height: 18vh;
+            min-height: 10vh;
         }
         
         #uni-banner > svg {
-          height: 100px !important;
+          height: 50px !important;
         }
         
         }
@@ -273,8 +273,6 @@ document.addEventListener("DOMContentLoaded", function() {
 </header>
 <!-- content -->
 <header id="title-block-header">
-  
-  <div class="title-date">» 2023-12-10 «</div>
 
   <div class="title-area">
     <h1 class="title">Climate Trends of the Upper Peninsula, MI </h1>
@@ -284,11 +282,12 @@ document.addEventListener("DOMContentLoaded", function() {
   <div class="post-meta">
     
           <div class="description">
-        <div class="abstract" style="display: inline;">➣ Visualizing some of the UP’s precipitation and temperature data. </div> This exploration was part of a recent class assignment where I was tasked to develop a historic climate profile for a location I would like to live in the future. I picked the Upper Peninsula of Michigan for my location due to its regionally unique biogeography. I sourced PRISM climate data and built some climate charts.
+        <div class="abstract">Visualizing some of the UP’s precipitation and temperature data.</div> This exploration was part of a recent class assignment where I was tasked to develop a historic climate profile for a location I would like to live in the future. I picked the Upper Peninsula of Michigan for my location due to its regionally unique biogeography. I sourced PRISM climate data and built some climate charts.
       </div>
         
+    <div class="title-date">Published on 2023-12-10 by Benjamin Tjepkes</div>
+    
   </div>
-  
   </div>
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
@@ -402,14 +401,14 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>Here is the first figure showing trends in <strong>precipitation</strong>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-plot-ppt.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Credit: Benjamin Tjepkes"><img src="img-plot-ppt.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-plot-ppt.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-plot-ppt.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
 <p>Here is the second figure showing trends in <strong>maximum and minimum temperature</strong>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-plot-temps.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Credit: Benjamin Tjepkes"><img src="img-plot-temps.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-plot-temps.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Credit: Benjamin Tjepkes"><img src="img-plot-temps.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -869,7 +868,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false});</script>
 
 
 

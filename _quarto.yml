@@ -139,5 +139,4 @@ format:
     include-in-header: 
       - file: progress-bar.html
       - file: header-banner.rhtml
-
          
