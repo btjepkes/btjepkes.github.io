@@ -13,6 +13,8 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinber
 image-alt: "Image looking across a lake with plants in the foreground."
 ---
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934){.cover-image}
+
 ## Erosion Is A Two-Sided Story
 
 Shoreline erosion is a common problem faced by thousands of waterfront property owners. Many of whom view erosion issues as an inevitable consequence of living near the water. However, it is important to recognize that human actions can significantly contribute to and exacerbate erosion, and that there are steps we can take to prevent or reduce it.

@@ -465,7 +465,7 @@ color: #000;
 
 #title-block-header {
   text-align: center;
-  padding: 40px 20px 40px 20px;
+  padding: 40px 20px 110px 20px;
   margin: auto;
   background: #0f172a;
   border-bottom: solid #1e293b 5px;
@@ -589,7 +589,7 @@ color: #000;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: rgba(14, 37, 52, 0.1) 0px 3px 5px 0px, rgba(14, 37, 52, 0.1) 0px 1px 1px 0px;
-  background: #e9ecef;
+  background: #0f172a;
 }
 
 
@@ -602,7 +602,7 @@ color: #000;
 .quarto-grid-item .card-title {
   font-weight: 700;
   margin-bottom: 8px;
-  color: black;
+  color: #e9ecef;
 }
 
 .quarto-grid-item .card-subtitle {
@@ -658,6 +658,16 @@ color: #000;
 
 /* FIGURES & IMAGES */
 
+.cover-image {
+  position: relative;
+  margin-top: -120px !important;
+  margin-bottom: 30px !important;
+  border: solid #93c1bc 2px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+
 .image-bordered {
   border-radius: 4px !important;
   border: solid 1px black;
@@ -680,6 +690,7 @@ figure > figcaption {
 .figure-img {
   margin: 10px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,.38);
+  width: 100%;
 }
 
 .padded-img {

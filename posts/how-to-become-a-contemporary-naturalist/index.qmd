@@ -11,6 +11,8 @@ image: https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0
 image-alt: "Image-of-a-woman-standing-in-a-forest."
 ---
 
+![](https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80){.cover-image}
+
 ## Naturalists of Today
 
 Everyone has an inherent connection to nature. You might not recognize it without intentionally looking for it, but it is there. While some venture into a science career and dedicate much of their time to seeking a better understanding of the natural world, not everyone needs to do so. Furthering your appreciation and understanding for the environment can be simple, fun, and worthwhile.

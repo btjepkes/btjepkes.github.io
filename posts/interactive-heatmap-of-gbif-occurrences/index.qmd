@@ -9,6 +9,8 @@ image: img-sage-grouse.jpg
 image-alt: "Image of sage grouse on a lek."
 ---
 
+![](img-sage-grouse.jpg){.cover-image}
+
 ## Data Background
 
 ### Focal Species

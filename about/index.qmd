@@ -23,6 +23,8 @@ listing:
       - image
 ---
 
+![](../assets/img-ben-with-bear.jpg){.cover-image}
+
 ## Current Happenings
 
 ### Where Am I Now?

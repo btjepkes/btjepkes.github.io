@@ -3,14 +3,14 @@ title: "Create Annotated Bibliographies with Quarto"
 date: 2024-01-01
 date-modified: today
 abstract: "Bibliography creation using Quarto and Zotero in R."
-description: In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.
+description: In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I employ this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.
 categories:
   - R
   - Bibliography
 image: img-bib-post-cover.jpg
 ---
 
-![](img-bib-post-cover.jpg)
+![](img-bib-post-cover.jpg){.cover-image}
 
 ## Introduction
 
@@ -150,23 +150,78 @@ cat(list)                                                        # <4>
 3. Select only the fields for our annotations, which are parsed as "ANNOTE". Then collect a vector of these character strings.
 4. To create the bullet list, this part adds a "- " before and a linebreak after each note. Then we concatenate and print our notes, which output as an un-ordered list as raw markdown to be rendered.
 
+
+### Sidenote for *Better BibTeX* Users
+
+For anyone using the Better BibTeX extension, the structure of the exported `.bib` file varies slightly from the one exemplified above. If you exported an item or collection from Zotero with the Format: `Better BibTeX` option set the annotations will not be individually separated. Instead, they will appear in the same field. But no worries, we have an alternative solutions for this.
+
+::: {.panel-tabset}
+
+## BibTeX Example
+
+Here is an example .bib file when exporting using the BetterBibTeX format. See how all of our annotations are combined into a single "note" field and that they are separated by a `\par`? That is the main difference than the previous `.bib` file we looked at.
+
+```bib
+@article{MorisetteRichardsonKnapp:2009,
+  title = {Tracking the Rhythm of the Seasons in the Face of Global Change: Phenological Research in the 21st Century},
+  shorttitle = {Tracking the Rhythm of the Seasons in the Face of Global Change},
+  author = {Morisette, Jeffrey T and Richardson, Andrew D and Knapp, Alan K and Fisher, Jeremy I and Graham, Eric A and Abatzoglou, John and Wilson, Bruce E and Breshears, David D and Henebry, Geoffrey M and Hanes, Jonathan M and Liang, Liang},
+  year = {2009},
+  month = jun,
+  journal = {Frontiers in Ecology and the Environment},
+  volume = {7},
+  number = {5},
+  pages = {253--260},
+  issn = {1540-9295, 1540-9309},
+  doi = {10.1890/070217},
+  urldate = {2023-12-31},
+  abstract = {Phenology is the study of recurring life-cycle events, classic examples being the flowering of plants and animal migration. Phenological responses are increasingly relevant for addressing applied environmental issues. Yet, challenges remain with respect to spanning scales of observation, integrating observations across taxa, and modeling phenological sequences to enable ecological forecasts in light of future climate change. Recent advances that are helping to address these questions include refined landscape-scale phenology estimates from satellite data, advanced, instrument-based approaches for field measurements, and new cyberinfrastructure for archiving and distribution of products. These breakthroughs are improving our understanding in diverse areas, including modeling land-surface exchange, evaluating climate{\textendash}phenology relationships, and making land-management decisions.},
+  langid = {english},
+  note = {1. ``help us to adapt to climate change and to better manage our natural resources.'' (Morisette et al., 2009, p. 259) ``Cyberinfrastructure will enable these data to be synthesized and used by increasingly advanced spatial{\textendash}temporal analysis and modeling activities'' (Morisette et al., 2009, p. 259)
+\par
+2. Given the increasing rate of climate change projected over the next 80 years, there is a pressing need to establish the spatial and temporal phenological responses to climate change.
+\par
+3. Predicting and assessing phenological responses can be difficult due to issues associated with spatial scale and physiological response differences across taxa.},
+  file = {Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf}
+}
+```
+
+## Code Example
+
+To handle this difference, we can use the `ReadBib` function in the `RefManageR` package instead of `bib2df`. 
+
+```r
+library(tidyverse) # for dplyr and stringr
+library(RefManageR) # for ReadBib function
+
+df <- RefManageR::ReadBib(file = rmarkdown::metadata$bibliography) |> 
+  as_tibble(rownames = "BIBTEXKEY") |> 
+  filter(BIBTEXKEY == "morisette_tracking_2009") |> 
+  select(contains("Note")) |> 
+  pull(contains("Note")) |> 
+  str_split_1(pattern = "\n\\\\par\n")
+
+  cat(paste0(gsub("`", "\\\\'", df), "\n"))
+```
+:::
+
 ### Render into Preferred Format
 
 The final, and often most nerve-racking, step is to `render` our .qmd document. As I mentioned earlier, there are several formats we can use (e.g., .pdf, .docx). I tend to render into HTML initially, then troubleshoot Pandoc conversion issues with other formats once I know it compiles.
 
 If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs. For this example, I have placed a single citation and its summary notes under a heading titled "Ecological Phenology", which could be a broad theme or a way to structure your thesis sections. A comprehensive bibliography will be printed at the end of the document showing all citations from the citation keys referenced throughout.
 
-::: {layout-ncol=3}
+::: {.panel-tabset}
 
-#### Example: HTML
+#### HTML
 
 ![](img-example-html.png)
 
-#### Example: PDF
+#### PDF
 
 ![](img-example-pdf.png)
 
-#### Example: DOCX
+#### DOCX
 
 ![](img-example-word.png)
 

@@ -12,6 +12,8 @@ execute:
   warning: false
 ---
 
+![](../assets/img-world-overview.png){.cover-image}
+
 ## Resource Database
 
 Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions.

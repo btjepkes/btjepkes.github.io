@@ -20,3 +20,5 @@ listing:
     - description
     - image
 ---
+
+![](../assets/BooneCoLiDAR.png){.cover-image}

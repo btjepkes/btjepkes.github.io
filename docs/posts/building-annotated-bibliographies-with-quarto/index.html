@@ -8,7 +8,7 @@
 
 <meta name="author" content="Benjamin Tjepkes">
 <meta name="dcterms.date" content="2024-01-01">
-<meta name="description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
+<meta name="description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I employ this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
 
 <title>Create Annotated Bibliographies with Quarto | B.W. Tjepkes</title>
 <style>
@@ -112,11 +112,11 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 <meta property="og:title" content="Create Annotated Bibliographies with Quarto | B.W. Tjepkes">
-<meta property="og:description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
+<meta property="og:description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I employ this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
 <meta property="og:image" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-post-cover.jpg">
 <meta property="og:site_name" content="Benjamin Tjepkes">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
+<meta name="twitter:description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I employ this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
 <meta name="twitter:image" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-post-cover.jpg">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:card" content="summary_large_image">
@@ -318,7 +318,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <div class="post-meta">
     
           <div class="description">
-        <div class="abstract">Bibliography creation using Quarto and Zotero in R.</div> In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I am currently employing this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.
+        <div class="abstract">Bibliography creation using Quarto and Zotero in R.</div> In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I employ this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.
       </div>
         
     <div class="title-date">Published on 2024-01-01 by Benjamin Tjepkes</div>
@@ -425,6 +425,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <li><a href="#setup-yaml-header" id="toc-setup-yaml-header" class="nav-link" data-scroll-target="#setup-yaml-header">Setup YAML Header</a></li>
   <li><a href="#load-packages" id="toc-load-packages" class="nav-link" data-scroll-target="#load-packages">Load Packages</a></li>
   <li><a href="#specifying-literature-to-cite" id="toc-specifying-literature-to-cite" class="nav-link" data-scroll-target="#specifying-literature-to-cite">Specifying Literature to Cite</a></li>
+  <li><a href="#sidenote-for-better-bibtex-users" id="toc-sidenote-for-better-bibtex-users" class="nav-link" data-scroll-target="#sidenote-for-better-bibtex-users">Sidenote for <em>Better BibTeX</em> Users</a></li>
   <li><a href="#render-into-preferred-format" id="toc-render-into-preferred-format" class="nav-link" data-scroll-target="#render-into-preferred-format">Render into Preferred Format</a></li>
   </ul></li>
   <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
@@ -437,7 +438,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<p><a href="img-bib-post-cover.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-bib-post-cover.jpg" class="img-fluid"></a></p>
+<p><a href="img-bib-post-cover.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-bib-post-cover.jpg" class="cover-image img-fluid"></a></p>
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
 <section id="what-is-an-annotated-bib" class="level3">
@@ -588,27 +589,70 @@ document.addEventListener("DOMContentLoaded", function() {
 </dd>
 </dl>
 </section>
+<section id="sidenote-for-better-bibtex-users" class="level3">
+<h3 data-anchor-id="sidenote-for-better-bibtex-users">Sidenote for <em>Better BibTeX</em> Users</h3>
+<p>For anyone using the Better BibTeX extension, the structure of the exported <code>.bib</code> file varies slightly from the one exemplified above. If you exported an item or collection from Zotero with the Format: <code>Better BibTeX</code> option set the annotations will not be individually separated. Instead, they will appear in the same field. But no worries, we have an alternative solutions for this.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">BibTeX Example</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Code Example</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Here is an example .bib file when exporting using the BetterBibTeX format. See how all of our annotations are combined into a single “note” field and that they are separated by a <code>\par</code>? That is the main difference than the previous <code>.bib</code> file we looked at.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">MorisetteRichardsonKnapp:2009</span>,</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span> = {Tracking the Rhythm of the Seasons in the Face of Global Change: Phenological Research in the 21st Century},</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">shorttitle</span> = {Tracking the Rhythm of the Seasons in the Face of Global Change},</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span> = {Morisette, Jeffrey T and Richardson, Andrew D and Knapp, Alan K and Fisher, Jeremy I and Graham, Eric A and Abatzoglou, John and Wilson, Bruce E and Breshears, David D and Henebry, Geoffrey M and Hanes, Jonathan M and Liang, Liang},</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span> = {2009},</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">month</span> = <span class="st">jun</span>,</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {Frontiers in Ecology and the Environment},</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span> = {7},</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span> = {5},</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span> = {253--260},</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="dt">issn</span> = {1540-9295, 1540-9309},</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span> = {10.1890/070217},</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="dt">urldate</span> = {2023-12-31},</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="dt">abstract</span> = {Phenology is the study of recurring life-cycle events, classic examples being the flowering of plants and animal migration. Phenological responses are increasingly relevant for addressing applied environmental issues. Yet, challenges remain with respect to spanning scales of observation, integrating observations across taxa, and modeling phenological sequences to enable ecological forecasts in light of future climate change. Recent advances that are helping to address these questions include refined landscape-scale phenology estimates from satellite data, advanced, instrument-based approaches for field measurements, and new cyberinfrastructure for archiving and distribution of products. These breakthroughs are improving our understanding in diverse areas, including modeling land-surface exchange, evaluating climate{<span class="ch">\textendash</span>}phenology relationships, and making land-management decisions.},</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  <span class="dt">langid</span> = {english},</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="dt">note</span> = {1. ``help us to adapt to climate change and to better manage our natural resources.'' (Morisette et al., 2009, p. 259) ``Cyberinfrastructure will enable these data to be synthesized and used by increasingly advanced spatial{<span class="ch">\textendash</span>}temporal analysis and modeling activities'' (Morisette et al., 2009, p. 259)</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="ch">\par</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>2. Given the increasing rate of climate change projected over the next 80 years, there is a pressing need to establish the spatial and temporal phenological responses to climate change.</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="ch">\par</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>3. Predicting and assessing phenological responses can be difficult due to issues associated with spatial scale and physiological response differences across taxa.},</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="dt">file</span> = {Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf}</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>To handle this difference, we can use the <code>ReadBib</code> function in the <code>RefManageR</code> package instead of <code>bib2df</code>.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse) <span class="co"># for dplyr and stringr</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RefManageR) <span class="co"># for ReadBib function</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> RefManageR<span class="sc">::</span><span class="fu">ReadBib</span>(<span class="at">file =</span> rmarkdown<span class="sc">::</span>metadata<span class="sc">$</span>bibliography) <span class="sc">|&gt;</span> </span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as_tibble</span>(<span class="at">rownames =</span> <span class="st">"BIBTEXKEY"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(BIBTEXKEY <span class="sc">==</span> <span class="st">"morisette_tracking_2009"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="fu">contains</span>(<span class="st">"Note"</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(<span class="fu">contains</span>(<span class="st">"Note"</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">str_split_1</span>(<span class="at">pattern =</span> <span class="st">"</span><span class="sc">\n\\\\</span><span class="st">par</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="fu">paste0</span>(<span class="fu">gsub</span>(<span class="st">"`"</span>, <span class="st">"</span><span class="sc">\\\\</span><span class="st">'"</span>, df), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</section>
 <section id="render-into-preferred-format" class="level3">
 <h3 data-anchor-id="render-into-preferred-format">Render into Preferred Format</h3>
 <p>The final, and often most nerve-racking, step is to <code>render</code> our .qmd document. As I mentioned earlier, there are several formats we can use (e.g., .pdf, .docx). I tend to render into HTML initially, then troubleshoot Pandoc conversion issues with other formats once I know it compiles.</p>
 <p>If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs. For this example, I have placed a single citation and its summary notes under a heading titled “Ecological Phenology”, which could be a broad theme or a way to structure your thesis sections. A comprehensive bibliography will be printed at the end of the document showing all citations from the citation keys referenced throughout.</p>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="3">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<section id="example-html" class="level4 quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<h4 data-anchor-id="example-html">Example: HTML</h4>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">HTML</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">PDF</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">DOCX</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <p><a href="img-example-html.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="img-example-html.png" class="img-fluid"></a></p>
-</section>
-<section id="example-pdf" class="level4 quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<h4 data-anchor-id="example-pdf">Example: PDF</h4>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
 <p><a href="img-example-pdf.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="img-example-pdf.png" class="img-fluid"></a></p>
-</section>
-<section id="example-docx" class="level4 quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<h4 data-anchor-id="example-docx">Example: DOCX</h4>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
 <p><a href="img-example-word.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="img-example-word.png" class="img-fluid"></a></p>
-</section>
+</div>
 </div>
 </div>
 <p>You can see that each of the notes we exported from Zotero are now their own bullet point under their respective citation. One potential alteration to this would be to concatenate all the notes into a single paragraph or to make the un-ordered list into an ordered one. The annotations in the .bib file are parsed in the order they appear in Zotero which is alphabetical by default. Feel free to mess around will the different formats and styles to create a final product that meets your needs.</p>
@@ -1077,7 +1121,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});</script>
 
 
 

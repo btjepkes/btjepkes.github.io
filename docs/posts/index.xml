@@ -25,7 +25,7 @@
 
 
 
-<p><a href="img-bib-post-cover.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-post-cover.jpg" class="img-fluid"></a></p>
+<p><a href="img-bib-post-cover.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-post-cover.jpg" class="cover-image img-fluid"></a></p>
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
 <section id="what-is-an-annotated-bib" class="level3">
@@ -330,27 +330,204 @@ font-style: inherit;">cat</span>(list)</span><div class="code-annotation-gutter-
 </dd>
 </dl>
 </section>
+<section id="sidenote-for-better-bibtex-users" class="level3">
+<h3 data-anchor-id="sidenote-for-better-bibtex-users">Sidenote for <em>Better BibTeX</em> Users</h3>
+<p>For anyone using the Better BibTeX extension, the structure of the exported <code>.bib</code> file varies slightly from the one exemplified above. If you exported an item or collection from Zotero with the Format: <code>Better BibTeX</code> option set the annotations will not be individually separated. Instead, they will appear in the same field. But no worries, we have an alternative solutions for this.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">BibTeX Example</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">Code Example</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<p>Here is an example .bib file when exporting using the BetterBibTeX format. See how all of our annotations are combined into a single “note” field and that they are separated by a <code>\par</code>? That is the main difference than the previous <code>.bib</code> file we looked at.</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb4-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">MorisetteRichardsonKnapp:2009</span>,</span>
+<span id="cb4-2">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">title</span> = {Tracking the Rhythm of the Seasons in the Face of Global Change: Phenological Research in the 21st Century},</span>
+<span id="cb4-3">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">shorttitle</span> = {Tracking the Rhythm of the Seasons in the Face of Global Change},</span>
+<span id="cb4-4">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">author</span> = {Morisette, Jeffrey T and Richardson, Andrew D and Knapp, Alan K and Fisher, Jeremy I and Graham, Eric A and Abatzoglou, John and Wilson, Bruce E and Breshears, David D and Henebry, Geoffrey M and Hanes, Jonathan M and Liang, Liang},</span>
+<span id="cb4-5">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">year</span> = {2009},</span>
+<span id="cb4-6">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">month</span> = <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">jun</span>,</span>
+<span id="cb4-7">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">journal</span> = {Frontiers in Ecology and the Environment},</span>
+<span id="cb4-8">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">volume</span> = {7},</span>
+<span id="cb4-9">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">number</span> = {5},</span>
+<span id="cb4-10">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">pages</span> = {253--260},</span>
+<span id="cb4-11">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">issn</span> = {1540-9295, 1540-9309},</span>
+<span id="cb4-12">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">doi</span> = {10.1890/070217},</span>
+<span id="cb4-13">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">urldate</span> = {2023-12-31},</span>
+<span id="cb4-14">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">abstract</span> = {Phenology is the study of recurring life-cycle events, classic examples being the flowering of plants and animal migration. Phenological responses are increasingly relevant for addressing applied environmental issues. Yet, challenges remain with respect to spanning scales of observation, integrating observations across taxa, and modeling phenological sequences to enable ecological forecasts in light of future climate change. Recent advances that are helping to address these questions include refined landscape-scale phenology estimates from satellite data, advanced, instrument-based approaches for field measurements, and new cyberinfrastructure for archiving and distribution of products. These breakthroughs are improving our understanding in diverse areas, including modeling land-surface exchange, evaluating climate{<span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\textendash</span>}phenology relationships, and making land-management decisions.},</span>
+<span id="cb4-15">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">langid</span> = {english},</span>
+<span id="cb4-16">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">note</span> = {1. ``help us to adapt to climate change and to better manage our natural resources.'' (Morisette et al., 2009, p. 259) ``Cyberinfrastructure will enable these data to be synthesized and used by increasingly advanced spatial{<span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\textendash</span>}temporal analysis and modeling activities'' (Morisette et al., 2009, p. 259)</span>
+<span id="cb4-17"><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\par</span></span>
+<span id="cb4-18">2. Given the increasing rate of climate change projected over the next 80 years, there is a pressing need to establish the spatial and temporal phenological responses to climate change.</span>
+<span id="cb4-19"><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\par</span></span>
+<span id="cb4-20">3. Predicting and assessing phenological responses can be difficult due to issues associated with spatial scale and physiological response differences across taxa.},</span>
+<span id="cb4-21">  <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">file</span> = {Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf}</span>
+<span id="cb4-22">}</span></code></pre></div>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<p>To handle this difference, we can use the <code>ReadBib</code> function in the <code>RefManageR</code> package instead of <code>bib2df</code>.</p>
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidyverse) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># for dplyr and stringr</span></span>
+<span id="cb5-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(RefManageR) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># for ReadBib function</span></span>
+<span id="cb5-3"></span>
+<span id="cb5-4">df <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> RefManageR<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ReadBib</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">file =</span> rmarkdown<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span>metadata<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>bibliography) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> </span>
+<span id="cb5-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as_tibble</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">rownames =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"BIBTEXKEY"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> </span>
+<span id="cb5-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(BIBTEXKEY <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"morisette_tracking_2009"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> </span>
+<span id="cb5-7">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">select</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">contains</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Note"</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> </span>
+<span id="cb5-8">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pull</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">contains</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Note"</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> </span>
+<span id="cb5-9">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">str_split_1</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">pattern =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n\\\\</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">par</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)</span>
+<span id="cb5-10"></span>
+<span id="cb5-11">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">paste0</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">gsub</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"`"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\\\\</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'"</span>, df), <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>))</span></code></pre></div>
+</div>
+</div>
+</div>
+</section>
 <section id="render-into-preferred-format" class="level3">
 <h3 data-anchor-id="render-into-preferred-format">Render into Preferred Format</h3>
 <p>The final, and often most nerve-racking, step is to <code>render</code> our .qmd document. As I mentioned earlier, there are several formats we can use (e.g., .pdf, .docx). I tend to render into HTML initially, then troubleshoot Pandoc conversion issues with other formats once I know it compiles.</p>
 <p>If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs. For this example, I have placed a single citation and its summary notes under a heading titled “Ecological Phenology”, which could be a broad theme or a way to structure your thesis sections. A comprehensive bibliography will be printed at the end of the document showing all citations from the citation keys referenced throughout.</p>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="3">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<section id="example-html" class="level4 quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<h4 data-anchor-id="example-html">Example: HTML</h4>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" aria-controls="tabset-2-1" aria-selected="true">HTML</a></li><li class="nav-item"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" aria-controls="tabset-2-2" aria-selected="false">PDF</a></li><li class="nav-item"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" aria-controls="tabset-2-3" aria-selected="false">DOCX</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" aria-labelledby="tabset-2-1-tab">
 <p><a href="img-example-html.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-html.png" class="img-fluid"></a></p>
-</section>
-<section id="example-pdf" class="level4 quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<h4 data-anchor-id="example-pdf">Example: PDF</h4>
+</div>
+<div id="tabset-2-2" class="tab-pane" aria-labelledby="tabset-2-2-tab">
 <p><a href="img-example-pdf.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-pdf.png" class="img-fluid"></a></p>
-</section>
-<section id="example-docx" class="level4 quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<h4 data-anchor-id="example-docx">Example: DOCX</h4>
+</div>
+<div id="tabset-2-3" class="tab-pane" aria-labelledby="tabset-2-3-tab">
 <p><a href="img-example-word.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-word.png" class="img-fluid"></a></p>
-</section>
+</div>
 </div>
 </div>
 <p>You can see that each of the notes we exported from Zotero are now their own bullet point under their respective citation. One potential alteration to this would be to concatenate all the notes into a single paragraph or to make the un-ordered list into an ordered one. The annotations in the .bib file are parsed in the order they appear in Zotero which is alphabetical by default. Feel free to mess around will the different formats and styles to create a final product that meets your needs.</p>
@@ -383,6 +560,7 @@ Quarto.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/bui
 
 
 
+<p><a href="img-fern.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/my-2023-highlights-reflections-and-recap/img-fern.jpg" class="cover-image img-fluid"></a></p>
 <section id="transitioning-moments" class="level2">
 <h2 data-anchor-id="transitioning-moments">Transitioning Moments</h2>
 <p>My mantra for 2023 was <em><code>embracing change for personal growth</code></em>. This past year marked a period of continual transformation as I navigated through different roles, focused on varied areas, and shifted between entities. Embracing change is beneficial, opening up new possibilities for personal development and adaptability.</p>
@@ -472,17 +650,18 @@ Recap.”</span> December 31, 2023. <a href="https://btjepkes.github.io/posts/my
   <title>#30DayMapChallenge - 2023 Contributions </title>
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/30-day-map-challenge-2023/</link>
-  <description><![CDATA[ <section id="overview-of-challenge" class="level2"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
+  <description><![CDATA[ <p><a href="img-30dmc-my2023.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-my2023.png" class="cover-image img-fluid"></a></p>
+<section id="overview-of-challenge" class="level2"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
 <p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
+<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
 <figcaption>Here are daily prompts for 2023. Credit: 30DayMapChallenge.com</figcaption></figure>
 </div>
 </section><section id="my-2023-contributions" class="level2"><h2 data-anchor-id="my-2023-contributions">My 2023 Contributions</h2>
 <p>Here are my contributions to the challenge. Feel free to explore the details on each map product by clicking/tapping the map previews below. I was not able to create a map for every day, but this was my first time partaking in this challenge so I am happy with how many I created.</p>
 <div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702316387574" data-listing-date-modified-sort="1704866400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702316387574" data-listing-date-modified-sort="1704952800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
 <a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -521,7 +700,7 @@ Canadian Ecoregions Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1703443158274" data-listing-date-modified-sort="1704866400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1703443158274" data-listing-date-modified-sort="1704952800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
 <a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -547,7 +726,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1704214518320" data-listing-date-modified-sort="1704866400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1704214518320" data-listing-date-modified-sort="1704952800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
 <a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -586,7 +765,7 @@ Andes Mountains Elevation Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1703440281147" data-listing-date-modified-sort="1704866400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1703440281147" data-listing-date-modified-sort="1704952800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
 <a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -599,7 +778,7 @@ Forest Cover &amp; Happiness Bivariate Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1703440127510" data-listing-date-modified-sort="1704866400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1703440127510" data-listing-date-modified-sort="1704952800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -643,6 +822,7 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 
 
 
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="cover-image img-fluid"></a></p>
 <section id="data-background" class="level2">
 <h2 data-anchor-id="data-background">Data Background</h2>
 <section id="focal-species" class="level3">
@@ -650,7 +830,7 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
 <figcaption>Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
 </figure>
 </div>
@@ -796,6 +976,7 @@ Occurrences.”</span> May 5, 2023. <a href="https://btjepkes.github.io/posts/in
 
 
 
+<p><a href="img-001.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife/img-001.svg" class="cover-image img-fluid"></a></p>
 <section id="the-spatial-revolution-is-happening-now" class="level2">
 <h2 data-anchor-id="the-spatial-revolution-is-happening-now">The Spatial Revolution Is Happening Now</h2>
 <p>Advancements in geospatial technologies are revolutionizing the field of wildlife research and conservation, providing new and innovative ways to collect and analyze data. Among these technologies, Geographic Information Systems (GIS) have emerged as a powerful tool for understanding the spatial relationships between wildlife, their habitat, and the environment in which they live. By combining maps and other location-based tools, GIS can help conservationists and biologists make informed decisions and take targeted actions to preserve biodiversity and protect threatened species.</p>
@@ -846,7 +1027,7 @@ Occurrences.”</span> May 5, 2023. <a href="https://btjepkes.github.io/posts/in
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
 <figcaption>A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>
@@ -886,6 +1067,7 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 
 
 
+<p><a href="https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80" class="cover-image img-fluid"></a></p>
 <section id="naturalists-of-today" class="level2">
 <h2 data-anchor-id="naturalists-of-today">Naturalists of Today</h2>
 <p>Everyone has an inherent connection to nature. You might not recognize it without intentionally looking for it, but it is there. While some venture into a science career and dedicate much of their time to seeking a better understanding of the natural world, not everyone needs to do so. Furthering your appreciation and understanding for the environment can be simple, fun, and worthwhile.</p>
@@ -906,7 +1088,7 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 <p>Many birds enjoy making their presence known through song. This allows us to identify individuals down to the species without laying eyes on them. Common birds, like the American robin (Turdus migratorius), can usually be heard readily in most yards. Why not just learn how to identify them by sight? Well, that’s certainly something to work on too, but oftentimes you will only be able to hear the birds and not see them. This is especially true for birds that spend most of their time in the tree canopy.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img" alt="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."></a></p>
+<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img" alt="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."></a></p>
 <figcaption>Along with a keen ear, a good set of binoculars are an excellent compliment when birding.</figcaption>
 </figure>
 </div>
@@ -922,7 +1104,7 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 <p>Whether you are ordering pizza or trying to identify an unknown plant, there is an app out there for you. Most popular apps are available on both iOS and Android, so accessing them should not be much trouble. Some even have the ability to download content for offline use, so you can still use the app while away from cell service.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img" alt="Many apps provide ways of capturing data offline, then uploading once connected again."></a></p>
+<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-description="" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img" alt="Many apps provide ways of capturing data offline, then uploading once connected again."></a></p>
 <figcaption>Many apps provide ways of capturing data offline, then uploading once connected again.</figcaption>
 </figure>
 </div>
@@ -990,6 +1172,7 @@ Naturalist.”</span> October 18, 2022. <a href="https://btjepkes.github.io/post
 
 
 
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934" class="cover-image img-fluid"></a></p>
 <section id="erosion-is-a-two-sided-story" class="level2">
 <h2 data-anchor-id="erosion-is-a-two-sided-story">Erosion Is A Two-Sided Story</h2>
 <p>Shoreline erosion is a common problem faced by thousands of waterfront property owners. Many of whom view erosion issues as an inevitable consequence of living near the water. However, it is important to recognize that human actions can significantly contribute to and exacerbate erosion, and that there are steps we can take to prevent or reduce it.</p>

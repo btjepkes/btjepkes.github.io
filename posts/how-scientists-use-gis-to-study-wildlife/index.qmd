@@ -12,6 +12,8 @@ image: img-001.svg
 image-alt: "Image-of-a-map."
 ---
 
+![](img-001.svg){.cover-image}
+
 ## The Spatial Revolution Is Happening Now
 
 Advancements in geospatial technologies are revolutionizing the field of wildlife research and conservation, providing new and innovative ways to collect and analyze data. Among these technologies, Geographic Information Systems (GIS) have emerged as a powerful tool for understanding the spatial relationships between wildlife, their habitat, and the environment in which they live. By combining maps and other location-based tools, GIS can help conservationists and biologists make informed decisions and take targeted actions to preserve biodiversity and protect threatened species.

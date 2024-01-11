@@ -54,6 +54,8 @@ listing:
         - title
 ---
 
+![](../assets/img-geospatial-cover.webp){.cover-image}
+
 <!-- {{< include _listing-chooser.qmd >}} -->
 
 ## Map Gallery
