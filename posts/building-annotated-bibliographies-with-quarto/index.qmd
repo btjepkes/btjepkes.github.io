@@ -132,7 +132,13 @@ The following code provides an example of how to insert a citation into your Qua
 @morisette_tracking_2009
 ```
 
-After you insert the proper citation, the next part is a chunk of executable R code. This is the meat and potatoes of the whole operation. This chunk will need to be copy-pasted after each citation key you want to use. Then you will need to copy the citation key and paste it into whichever chunk follows it.
+After you insert the proper citation, the next part is a chunk of executable R code. This is the meat and potatoes of the whole operation.
+
+::: {.panel-tabset}
+
+#### Option 1
+
+This chunk will need to be copy-pasted after each citation key you want to use. Then you will need to copy the citation key and paste it into whichever chunk follows it.
 
 ```r
 df <- bib2df::bib2df(file = rmarkdown::metadata$bibliography) |> # <1>
@@ -150,8 +156,33 @@ cat(list)                                                        # <4>
 3. Select only the fields for our annotations, which are parsed as "ANNOTE". Then collect a vector of these character strings.
 4. To create the bullet list, this part adds a "- " before and a linebreak after each note. Then we concatenate and print our notes, which output as an un-ordered list as raw markdown to be rendered.
 
+#### Option 2
 
-### Sidenote for *Better BibTeX* Users
+This chunk is strictly optional, but makes the process a little less cluttered. Here, we create a function to pull the notes associated with that specific key. Place this chunk at the beginning of the document, then you can just call the `pull_notes` function instead of repeating the whole chunk each time.
+
+```r
+pull_notes <- function(key) {
+  df <- bib2df::bib2df(file = rmarkdown::metadata$bibliography) |> 
+    filter(BIBTEXKEY == key) |>              
+    select(contains("ANNOTE")) |>                                  
+    gather(key = "Column", value = "Value") |>                     
+    pull(Value)                                                    
+  
+  list <- paste("- ", df, collapse = "\n")                         
+  cat(list)                                                        
+}
+```
+
+So after each citation key, you can just paste the following to run the function:
+
+```r
+pull_notes(key = "morisette_tracking_2009")
+```
+
+:::
+
+
+### Sidenote for *Better BibTeX*
 
 For anyone using the Better BibTeX extension, the structure of the exported `.bib` file varies slightly from the one exemplified above. If you exported an item or collection from Zotero with the Format: `Better BibTeX` option set the annotations will not be individually separated. Instead, they will appear in the same field. But no worries, we have an alternative solutions for this.
 
@@ -224,6 +255,49 @@ If everything goes as planned, you should end up with a document looking similar
 #### DOCX
 
 ![](img-example-word.png)
+
+
+#### Source
+
+````r
+---
+title: "Literature Review for Masters Thesis"
+title-block-banner: true           
+format:                            
+  html: default                    
+  docx: default                    
+  pdf: default                     
+bibliography: exported_items.bib   
+link-citations: false              
+csl: apa-cv.csl                    
+execute:                           
+  echo: false                      
+  warning: false                   
+  output: asis                     
+---
+
+## Ecological Phenology
+
+@morisette_tracking_2009
+
+```r
+df <- bib2df::bib2df(file = rmarkdown::metadata$bibliography) |> # <1>
+  filter(BIBTEXKEY == "morisette_tracking_2009") |>              # <2>
+  select(contains("ANNOTE")) |>                                  # <3>
+  gather(key = "Column", value = "Value") |>                     # <3>
+  pull(Value)                                                    # <3>
+
+list <- paste("- ", df, collapse = "\n")                         # <4>
+cat(list)                                                        # <4>
+```
+
+## References
+
+::: {#refs}
+:::
+
+````
+
 
 :::
 

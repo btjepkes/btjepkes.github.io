@@ -425,7 +425,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <li><a href="#setup-yaml-header" id="toc-setup-yaml-header" class="nav-link" data-scroll-target="#setup-yaml-header">Setup YAML Header</a></li>
   <li><a href="#load-packages" id="toc-load-packages" class="nav-link" data-scroll-target="#load-packages">Load Packages</a></li>
   <li><a href="#specifying-literature-to-cite" id="toc-specifying-literature-to-cite" class="nav-link" data-scroll-target="#specifying-literature-to-cite">Specifying Literature to Cite</a></li>
-  <li><a href="#sidenote-for-better-bibtex-users" id="toc-sidenote-for-better-bibtex-users" class="nav-link" data-scroll-target="#sidenote-for-better-bibtex-users">Sidenote for <em>Better BibTeX</em> Users</a></li>
+  <li><a href="#sidenote-for-better-bibtex" id="toc-sidenote-for-better-bibtex" class="nav-link" data-scroll-target="#sidenote-for-better-bibtex">Sidenote for <em>Better BibTeX</em></a></li>
   <li><a href="#render-into-preferred-format" id="toc-render-into-preferred-format" class="nav-link" data-scroll-target="#render-into-preferred-format">Render into Preferred Format</a></li>
   </ul></li>
   <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
@@ -561,7 +561,12 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>Quarto is very similar to many other markdown formats, including RMarkdown, such that you can add in-text citations based on their citation keys. Zotero will generate these automatically when exporting the .bib file, but can sometimes lead to issues if they change with successive exports. To resolve this, a good option is to use the <a href="https://github.com/retorquere/zotero-better-bibtex">Better BibTeX for Zotero Extension</a> which makes it easier to manage your citation keys.</p>
 <p>The following code provides an example of how to insert a citation into your Quarto document. Traditionally, this is how an in-text citation would be placed at that location, but since we specified our CSL as the APA-CV style it will render the entire citation instead. The <code>morisette_tracking_2009</code> portion is the citation key and will be referenced in the next part as well.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>morisette_tracking_2009</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>After you insert the proper citation, the next part is a chunk of executable R code. This is the meat and potatoes of the whole operation. This chunk will need to be copy-pasted after each citation key you want to use. Then you will need to copy the citation key and paste it into whichever chunk follows it.</p>
+<p>After you insert the proper citation, the next part is a chunk of executable R code. This is the meat and potatoes of the whole operation.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Option 1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Option 2</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>This chunk will need to be copy-pasted after each citation key you want to use. Then you will need to copy the citation key and paste it into whichever chunk follows it.</p>
 <div class="sourceCode" id="annotated-cell-5"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-5-1" class="code-annotation-target"><a href="#annotated-cell-5-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> bib2df<span class="sc">::</span><span class="fu">bib2df</span>(<span class="at">file =</span> rmarkdown<span class="sc">::</span>metadata<span class="sc">$</span>bibliography) <span class="sc">|&gt;</span></span>
 <a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-5-2" class="code-annotation-target"><a href="#annotated-cell-5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(BIBTEXKEY <span class="sc">==</span> <span class="st">"morisette_tracking_2009"</span>) <span class="sc">|&gt;</span></span>
 <a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-5-3" class="code-annotation-target"><a href="#annotated-cell-5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="fu">contains</span>(<span class="st">"ANNOTE"</span>)) <span class="sc">|&gt;</span></span>
@@ -588,51 +593,69 @@ document.addEventListener("DOMContentLoaded", function() {
 <span data-code-cell="annotated-cell-5" data-code-lines="7,8" data-code-annotation="4">To create the bullet list, this part adds a “-” before and a linebreak after each note. Then we concatenate and print our notes, which output as an un-ordered list as raw markdown to be rendered.</span>
 </dd>
 </dl>
-</section>
-<section id="sidenote-for-better-bibtex-users" class="level3">
-<h3 data-anchor-id="sidenote-for-better-bibtex-users">Sidenote for <em>Better BibTeX</em> Users</h3>
-<p>For anyone using the Better BibTeX extension, the structure of the exported <code>.bib</code> file varies slightly from the one exemplified above. If you exported an item or collection from Zotero with the Format: <code>Better BibTeX</code> option set the annotations will not be individually separated. Instead, they will appear in the same field. But no worries, we have an alternative solutions for this.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">BibTeX Example</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Code Example</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>Here is an example .bib file when exporting using the BetterBibTeX format. See how all of our annotations are combined into a single “note” field and that they are separated by a <code>\par</code>? That is the main difference than the previous <code>.bib</code> file we looked at.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">MorisetteRichardsonKnapp:2009</span>,</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span> = {Tracking the Rhythm of the Seasons in the Face of Global Change: Phenological Research in the 21st Century},</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">shorttitle</span> = {Tracking the Rhythm of the Seasons in the Face of Global Change},</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span> = {Morisette, Jeffrey T and Richardson, Andrew D and Knapp, Alan K and Fisher, Jeremy I and Graham, Eric A and Abatzoglou, John and Wilson, Bruce E and Breshears, David D and Henebry, Geoffrey M and Hanes, Jonathan M and Liang, Liang},</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span> = {2009},</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">month</span> = <span class="st">jun</span>,</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {Frontiers in Ecology and the Environment},</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span> = {7},</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span> = {5},</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span> = {253--260},</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="dt">issn</span> = {1540-9295, 1540-9309},</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span> = {10.1890/070217},</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="dt">urldate</span> = {2023-12-31},</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="dt">abstract</span> = {Phenology is the study of recurring life-cycle events, classic examples being the flowering of plants and animal migration. Phenological responses are increasingly relevant for addressing applied environmental issues. Yet, challenges remain with respect to spanning scales of observation, integrating observations across taxa, and modeling phenological sequences to enable ecological forecasts in light of future climate change. Recent advances that are helping to address these questions include refined landscape-scale phenology estimates from satellite data, advanced, instrument-based approaches for field measurements, and new cyberinfrastructure for archiving and distribution of products. These breakthroughs are improving our understanding in diverse areas, including modeling land-surface exchange, evaluating climate{<span class="ch">\textendash</span>}phenology relationships, and making land-management decisions.},</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  <span class="dt">langid</span> = {english},</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="dt">note</span> = {1. ``help us to adapt to climate change and to better manage our natural resources.'' (Morisette et al., 2009, p. 259) ``Cyberinfrastructure will enable these data to be synthesized and used by increasingly advanced spatial{<span class="ch">\textendash</span>}temporal analysis and modeling activities'' (Morisette et al., 2009, p. 259)</span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="ch">\par</span></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>2. Given the increasing rate of climate change projected over the next 80 years, there is a pressing need to establish the spatial and temporal phenological responses to climate change.</span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="ch">\par</span></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>3. Predicting and assessing phenological responses can be difficult due to issues associated with spatial scale and physiological response differences across taxa.},</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="dt">file</span> = {Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf}</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>This chunk is strictly optional, but makes the process a little less cluttered. Here, we create a function to pull the notes associated with that specific key. Place this chunk at the beginning of the document, then you can just call the <code>pull_notes</code> function instead of repeating the whole chunk each time.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>pull_notes <span class="ot">&lt;-</span> <span class="cf">function</span>(key) {</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  df <span class="ot">&lt;-</span> bib2df<span class="sc">::</span><span class="fu">bib2df</span>(<span class="at">file =</span> rmarkdown<span class="sc">::</span>metadata<span class="sc">$</span>bibliography) <span class="sc">|&gt;</span> </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(BIBTEXKEY <span class="sc">==</span> key) <span class="sc">|&gt;</span>              </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(<span class="fu">contains</span>(<span class="st">"ANNOTE"</span>)) <span class="sc">|&gt;</span>                                  </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">gather</span>(<span class="at">key =</span> <span class="st">"Column"</span>, <span class="at">value =</span> <span class="st">"Value"</span>) <span class="sc">|&gt;</span>                     </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">pull</span>(Value)                                                    </span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  list <span class="ot">&lt;-</span> <span class="fu">paste</span>(<span class="st">"- "</span>, df, <span class="at">collapse =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)                         </span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(list)                                                        </span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>So after each citation key, you can just paste the following to run the function:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">pull_notes</span>(<span class="at">key =</span> <span class="st">"morisette_tracking_2009"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="sidenote-for-better-bibtex" class="level3">
+<h3 data-anchor-id="sidenote-for-better-bibtex">Sidenote for <em>Better BibTeX</em></h3>
+<p>For anyone using the Better BibTeX extension, the structure of the exported <code>.bib</code> file varies slightly from the one exemplified above. If you exported an item or collection from Zotero with the Format: <code>Better BibTeX</code> option set the annotations will not be individually separated. Instead, they will appear in the same field. But no worries, we have an alternative solutions for this.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">BibTeX Example</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Code Example</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p>Here is an example .bib file when exporting using the BetterBibTeX format. See how all of our annotations are combined into a single “note” field and that they are separated by a <code>\par</code>? That is the main difference than the previous <code>.bib</code> file we looked at.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">MorisetteRichardsonKnapp:2009</span>,</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span> = {Tracking the Rhythm of the Seasons in the Face of Global Change: Phenological Research in the 21st Century},</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">shorttitle</span> = {Tracking the Rhythm of the Seasons in the Face of Global Change},</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span> = {Morisette, Jeffrey T and Richardson, Andrew D and Knapp, Alan K and Fisher, Jeremy I and Graham, Eric A and Abatzoglou, John and Wilson, Bruce E and Breshears, David D and Henebry, Geoffrey M and Hanes, Jonathan M and Liang, Liang},</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span> = {2009},</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">month</span> = <span class="st">jun</span>,</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {Frontiers in Ecology and the Environment},</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span> = {7},</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span> = {5},</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span> = {253--260},</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  <span class="dt">issn</span> = {1540-9295, 1540-9309},</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span> = {10.1890/070217},</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>  <span class="dt">urldate</span> = {2023-12-31},</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  <span class="dt">abstract</span> = {Phenology is the study of recurring life-cycle events, classic examples being the flowering of plants and animal migration. Phenological responses are increasingly relevant for addressing applied environmental issues. Yet, challenges remain with respect to spanning scales of observation, integrating observations across taxa, and modeling phenological sequences to enable ecological forecasts in light of future climate change. Recent advances that are helping to address these questions include refined landscape-scale phenology estimates from satellite data, advanced, instrument-based approaches for field measurements, and new cyberinfrastructure for archiving and distribution of products. These breakthroughs are improving our understanding in diverse areas, including modeling land-surface exchange, evaluating climate{<span class="ch">\textendash</span>}phenology relationships, and making land-management decisions.},</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  <span class="dt">langid</span> = {english},</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>  <span class="dt">note</span> = {1. ``help us to adapt to climate change and to better manage our natural resources.'' (Morisette et al., 2009, p. 259) ``Cyberinfrastructure will enable these data to be synthesized and used by increasingly advanced spatial{<span class="ch">\textendash</span>}temporal analysis and modeling activities'' (Morisette et al., 2009, p. 259)</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="ch">\par</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>2. Given the increasing rate of climate change projected over the next 80 years, there is a pressing need to establish the spatial and temporal phenological responses to climate change.</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="ch">\par</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>3. Predicting and assessing phenological responses can be difficult due to issues associated with spatial scale and physiological response differences across taxa.},</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>  <span class="dt">file</span> = {Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf}</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
 <p>To handle this difference, we can use the <code>ReadBib</code> function in the <code>RefManageR</code> package instead of <code>bib2df</code>.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse) <span class="co"># for dplyr and stringr</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RefManageR) <span class="co"># for ReadBib function</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> RefManageR<span class="sc">::</span><span class="fu">ReadBib</span>(<span class="at">file =</span> rmarkdown<span class="sc">::</span>metadata<span class="sc">$</span>bibliography) <span class="sc">|&gt;</span> </span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as_tibble</span>(<span class="at">rownames =</span> <span class="st">"BIBTEXKEY"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(BIBTEXKEY <span class="sc">==</span> <span class="st">"morisette_tracking_2009"</span>) <span class="sc">|&gt;</span> </span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="fu">contains</span>(<span class="st">"Note"</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(<span class="fu">contains</span>(<span class="st">"Note"</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">str_split_1</span>(<span class="at">pattern =</span> <span class="st">"</span><span class="sc">\n\\\\</span><span class="st">par</span><span class="sc">\n</span><span class="st">"</span>)</span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="fu">paste0</span>(<span class="fu">gsub</span>(<span class="st">"`"</span>, <span class="st">"</span><span class="sc">\\\\</span><span class="st">'"</span>, df), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse) <span class="co"># for dplyr and stringr</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RefManageR) <span class="co"># for ReadBib function</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> RefManageR<span class="sc">::</span><span class="fu">ReadBib</span>(<span class="at">file =</span> rmarkdown<span class="sc">::</span>metadata<span class="sc">$</span>bibliography) <span class="sc">|&gt;</span> </span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as_tibble</span>(<span class="at">rownames =</span> <span class="st">"BIBTEXKEY"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(BIBTEXKEY <span class="sc">==</span> <span class="st">"morisette_tracking_2009"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="fu">contains</span>(<span class="st">"Note"</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pull</span>(<span class="fu">contains</span>(<span class="st">"Note"</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">str_split_1</span>(<span class="at">pattern =</span> <span class="st">"</span><span class="sc">\n\\\\</span><span class="st">par</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="fu">paste0</span>(<span class="fu">gsub</span>(<span class="st">"`"</span>, <span class="st">"</span><span class="sc">\\\\</span><span class="st">'"</span>, df), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -642,16 +665,53 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>The final, and often most nerve-racking, step is to <code>render</code> our .qmd document. As I mentioned earlier, there are several formats we can use (e.g., .pdf, .docx). I tend to render into HTML initially, then troubleshoot Pandoc conversion issues with other formats once I know it compiles.</p>
 <p>If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs. For this example, I have placed a single citation and its summary notes under a heading titled “Ecological Phenology”, which could be a broad theme or a way to structure your thesis sections. A comprehensive bibliography will be printed at the end of the document showing all citations from the citation keys referenced throughout.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">HTML</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">PDF</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">DOCX</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">HTML</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">PDF</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">DOCX</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" role="tab" aria-controls="tabset-3-4" aria-selected="false">Source</a></li></ul>
 <div class="tab-content">
-<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
 <p><a href="img-example-html.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="img-example-html.png" class="img-fluid"></a></p>
 </div>
-<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
 <p><a href="img-example-pdf.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="img-example-pdf.png" class="img-fluid"></a></p>
 </div>
-<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
 <p><a href="img-example-word.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="img-example-word.png" class="img-fluid"></a></p>
+</div>
+<div id="tabset-3-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-4-tab">
+<div class="sourceCode" id="annotated-cell-10"><pre class="sourceCode r code-annotation-code code-with-copy"><code class="sourceCode r"><span id="annotated-cell-10-1"><a href="#annotated-cell-10-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="annotated-cell-10-2"><a href="#annotated-cell-10-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"Literature Review for Masters Thesis"</span></span>
+<span id="annotated-cell-10-3"><a href="#annotated-cell-10-3" aria-hidden="true" tabindex="-1"></a>title<span class="sc">-</span>block<span class="sc">-</span>banner<span class="sc">:</span> true           </span>
+<span id="annotated-cell-10-4"><a href="#annotated-cell-10-4" aria-hidden="true" tabindex="-1"></a>format<span class="sc">:</span>                            </span>
+<span id="annotated-cell-10-5"><a href="#annotated-cell-10-5" aria-hidden="true" tabindex="-1"></a>  html<span class="sc">:</span> default                    </span>
+<span id="annotated-cell-10-6"><a href="#annotated-cell-10-6" aria-hidden="true" tabindex="-1"></a>  docx<span class="sc">:</span> default                    </span>
+<span id="annotated-cell-10-7"><a href="#annotated-cell-10-7" aria-hidden="true" tabindex="-1"></a>  pdf<span class="sc">:</span> default                     </span>
+<span id="annotated-cell-10-8"><a href="#annotated-cell-10-8" aria-hidden="true" tabindex="-1"></a>bibliography<span class="sc">:</span> exported_items.bib   </span>
+<span id="annotated-cell-10-9"><a href="#annotated-cell-10-9" aria-hidden="true" tabindex="-1"></a>link<span class="sc">-</span>citations<span class="sc">:</span> false              </span>
+<span id="annotated-cell-10-10"><a href="#annotated-cell-10-10" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> apa<span class="sc">-</span>cv.csl                    </span>
+<span id="annotated-cell-10-11"><a href="#annotated-cell-10-11" aria-hidden="true" tabindex="-1"></a>execute<span class="sc">:</span>                           </span>
+<span id="annotated-cell-10-12"><a href="#annotated-cell-10-12" aria-hidden="true" tabindex="-1"></a>  echo<span class="sc">:</span> false                      </span>
+<span id="annotated-cell-10-13"><a href="#annotated-cell-10-13" aria-hidden="true" tabindex="-1"></a>  warning<span class="sc">:</span> false                   </span>
+<span id="annotated-cell-10-14"><a href="#annotated-cell-10-14" aria-hidden="true" tabindex="-1"></a>  output<span class="sc">:</span> asis                     </span>
+<span id="annotated-cell-10-15"><a href="#annotated-cell-10-15" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="annotated-cell-10-16"><a href="#annotated-cell-10-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-10-17"><a href="#annotated-cell-10-17" aria-hidden="true" tabindex="-1"></a><span class="do">## Ecological Phenology</span></span>
+<span id="annotated-cell-10-18"><a href="#annotated-cell-10-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-10-19"><a href="#annotated-cell-10-19" aria-hidden="true" tabindex="-1"></a><span class="er">@</span>morisette_tracking_2009</span>
+<span id="annotated-cell-10-20"><a href="#annotated-cell-10-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-10-21"><a href="#annotated-cell-10-21" aria-hidden="true" tabindex="-1"></a><span class="st">```</span><span class="at">r</span></span>
+<span id="annotated-cell-10-22"><a href="#annotated-cell-10-22" aria-hidden="true" tabindex="-1"></a><span class="at">df &lt;- bib2df::bib2df(file = rmarkdown::metadata$bibliography) |&gt;</span></span>
+<span id="annotated-cell-10-23"><a href="#annotated-cell-10-23" aria-hidden="true" tabindex="-1"></a><span class="at">  filter(BIBTEXKEY == "morisette_tracking_2009") |&gt;</span></span>
+<span id="annotated-cell-10-24"><a href="#annotated-cell-10-24" aria-hidden="true" tabindex="-1"></a><span class="at">  select(contains("ANNOTE")) |&gt;</span></span>
+<span id="annotated-cell-10-25"><a href="#annotated-cell-10-25" aria-hidden="true" tabindex="-1"></a><span class="at">  gather(key = "Column", value = "Value") |&gt;</span></span>
+<span id="annotated-cell-10-26"><a href="#annotated-cell-10-26" aria-hidden="true" tabindex="-1"></a><span class="at">  pull(Value)</span></span>
+<span id="annotated-cell-10-27"><a href="#annotated-cell-10-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-10-28"><a href="#annotated-cell-10-28" aria-hidden="true" tabindex="-1"></a><span class="at">list &lt;- paste("- ", df, collapse = "</span><span class="sc">\n</span><span class="at">")</span></span>
+<span id="annotated-cell-10-29"><a href="#annotated-cell-10-29" aria-hidden="true" tabindex="-1"></a><span class="at">cat(list)</span></span>
+<span id="annotated-cell-10-30"><a href="#annotated-cell-10-30" aria-hidden="true" tabindex="-1"></a><span class="st">```</span></span>
+<span id="annotated-cell-10-31"><a href="#annotated-cell-10-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-10-32"><a href="#annotated-cell-10-32" aria-hidden="true" tabindex="-1"></a><span class="do">## References</span></span>
+<span id="annotated-cell-10-33"><a href="#annotated-cell-10-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-10-34"><a href="#annotated-cell-10-34" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span> {<span class="co">#refs}</span></span>
+<span id="annotated-cell-10-35"><a href="#annotated-cell-10-35" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -1121,7 +1181,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false});</script>
 
 
 

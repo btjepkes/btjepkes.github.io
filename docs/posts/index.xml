@@ -242,7 +242,12 @@ font-style: inherit;"># --- for .bib parsing</span></span></code></pre></div>
 <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">@</span>morisette_tracking_2009</span></code></pre></div>
-<p>After you insert the proper citation, the next part is a chunk of executable R code. This is the meat and potatoes of the whole operation. This chunk will need to be copy-pasted after each citation key you want to use. Then you will need to copy the citation key and paste it into whichever chunk follows it.</p>
+<p>After you insert the proper citation, the next part is a chunk of executable R code. This is the meat and potatoes of the whole operation.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">Option 1</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">Option 2</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<p>This chunk will need to be copy-pasted after each citation key you want to use. Then you will need to copy the citation key and paste it into whichever chunk follows it.</p>
 <div class="sourceCode" id="annotated-cell-5" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-5-1" class="code-annotation-target">df <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> bib2df<span class="sc" style="color: #5E5E5E;
@@ -329,98 +334,184 @@ font-style: inherit;">cat</span>(list)</span><div class="code-annotation-gutter-
 <span data-code-cell="annotated-cell-5" data-code-lines="7,8" data-code-annotation="4">To create the bullet list, this part adds a “-” before and a linebreak after each note. Then we concatenate and print our notes, which output as an un-ordered list as raw markdown to be rendered.</span>
 </dd>
 </dl>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<p>This chunk is strictly optional, but makes the process a little less cluttered. Here, we create a function to pull the notes associated with that specific key. Place this chunk at the beginning of the document, then you can just call the <code>pull_notes</code> function instead of repeating the whole chunk each time.</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">pull_notes <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">function</span>(key) {</span>
+<span id="cb4-2">  df <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> bib2df<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">bib2df</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">file =</span> rmarkdown<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span>metadata<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>bibliography) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> </span>
+<span id="cb4-3">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(BIBTEXKEY <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> key) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span>              </span>
+<span id="cb4-4">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">select</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">contains</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ANNOTE"</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span>                                  </span>
+<span id="cb4-5">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">gather</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">key =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Column"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">value =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Value"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span>                     </span>
+<span id="cb4-6">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pull</span>(Value)                                                    </span>
+<span id="cb4-7">  </span>
+<span id="cb4-8">  list <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">paste</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"- "</span>, df, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">collapse =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>)                         </span>
+<span id="cb4-9">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(list)                                                        </span>
+<span id="cb4-10">}</span></code></pre></div>
+<p>So after each citation key, you can just paste the following to run the function:</p>
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pull_notes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">key =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"morisette_tracking_2009"</span>)</span></code></pre></div>
+</div>
+</div>
+</div>
 </section>
-<section id="sidenote-for-better-bibtex-users" class="level3">
-<h3 data-anchor-id="sidenote-for-better-bibtex-users">Sidenote for <em>Better BibTeX</em> Users</h3>
+<section id="sidenote-for-better-bibtex" class="level3">
+<h3 data-anchor-id="sidenote-for-better-bibtex">Sidenote for <em>Better BibTeX</em></h3>
 <p>For anyone using the Better BibTeX extension, the structure of the exported <code>.bib</code> file varies slightly from the one exemplified above. If you exported an item or collection from Zotero with the Format: <code>Better BibTeX</code> option set the annotations will not be individually separated. Instead, they will appear in the same field. But no worries, we have an alternative solutions for this.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">BibTeX Example</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">Code Example</a></li></ul>
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" aria-controls="tabset-2-1" aria-selected="true">BibTeX Example</a></li><li class="nav-item"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" aria-controls="tabset-2-2" aria-selected="false">Code Example</a></li></ul>
 <div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<div id="tabset-2-1" class="tab-pane active" aria-labelledby="tabset-2-1-tab">
 <p>Here is an example .bib file when exporting using the BetterBibTeX format. See how all of our annotations are combined into a single “note” field and that they are separated by a <code>\par</code>? That is the main difference than the previous <code>.bib</code> file we looked at.</p>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb4-1"><span class="va" style="color: #111111;
+<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb6-1"><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">MorisetteRichardsonKnapp:2009</span>,</span>
-<span id="cb4-2">  <span class="dt" style="color: #AD0000;
+<span id="cb6-2">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">title</span> = {Tracking the Rhythm of the Seasons in the Face of Global Change: Phenological Research in the 21st Century},</span>
-<span id="cb4-3">  <span class="dt" style="color: #AD0000;
+<span id="cb6-3">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">shorttitle</span> = {Tracking the Rhythm of the Seasons in the Face of Global Change},</span>
-<span id="cb4-4">  <span class="dt" style="color: #AD0000;
+<span id="cb6-4">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">author</span> = {Morisette, Jeffrey T and Richardson, Andrew D and Knapp, Alan K and Fisher, Jeremy I and Graham, Eric A and Abatzoglou, John and Wilson, Bruce E and Breshears, David D and Henebry, Geoffrey M and Hanes, Jonathan M and Liang, Liang},</span>
-<span id="cb4-5">  <span class="dt" style="color: #AD0000;
+<span id="cb6-5">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">year</span> = {2009},</span>
-<span id="cb4-6">  <span class="dt" style="color: #AD0000;
+<span id="cb6-6">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">month</span> = <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">jun</span>,</span>
-<span id="cb4-7">  <span class="dt" style="color: #AD0000;
+<span id="cb6-7">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">journal</span> = {Frontiers in Ecology and the Environment},</span>
-<span id="cb4-8">  <span class="dt" style="color: #AD0000;
+<span id="cb6-8">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">volume</span> = {7},</span>
-<span id="cb4-9">  <span class="dt" style="color: #AD0000;
+<span id="cb6-9">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">number</span> = {5},</span>
-<span id="cb4-10">  <span class="dt" style="color: #AD0000;
+<span id="cb6-10">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">pages</span> = {253--260},</span>
-<span id="cb4-11">  <span class="dt" style="color: #AD0000;
+<span id="cb6-11">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">issn</span> = {1540-9295, 1540-9309},</span>
-<span id="cb4-12">  <span class="dt" style="color: #AD0000;
+<span id="cb6-12">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">doi</span> = {10.1890/070217},</span>
-<span id="cb4-13">  <span class="dt" style="color: #AD0000;
+<span id="cb6-13">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">urldate</span> = {2023-12-31},</span>
-<span id="cb4-14">  <span class="dt" style="color: #AD0000;
+<span id="cb6-14">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">abstract</span> = {Phenology is the study of recurring life-cycle events, classic examples being the flowering of plants and animal migration. Phenological responses are increasingly relevant for addressing applied environmental issues. Yet, challenges remain with respect to spanning scales of observation, integrating observations across taxa, and modeling phenological sequences to enable ecological forecasts in light of future climate change. Recent advances that are helping to address these questions include refined landscape-scale phenology estimates from satellite data, advanced, instrument-based approaches for field measurements, and new cyberinfrastructure for archiving and distribution of products. These breakthroughs are improving our understanding in diverse areas, including modeling land-surface exchange, evaluating climate{<span class="ch" style="color: #20794D;
 background-color: null;
 font-style: inherit;">\textendash</span>}phenology relationships, and making land-management decisions.},</span>
-<span id="cb4-15">  <span class="dt" style="color: #AD0000;
+<span id="cb6-15">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">langid</span> = {english},</span>
-<span id="cb4-16">  <span class="dt" style="color: #AD0000;
+<span id="cb6-16">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">note</span> = {1. ``help us to adapt to climate change and to better manage our natural resources.'' (Morisette et al., 2009, p. 259) ``Cyberinfrastructure will enable these data to be synthesized and used by increasingly advanced spatial{<span class="ch" style="color: #20794D;
 background-color: null;
 font-style: inherit;">\textendash</span>}temporal analysis and modeling activities'' (Morisette et al., 2009, p. 259)</span>
-<span id="cb4-17"><span class="ch" style="color: #20794D;
+<span id="cb6-17"><span class="ch" style="color: #20794D;
 background-color: null;
 font-style: inherit;">\par</span></span>
-<span id="cb4-18">2. Given the increasing rate of climate change projected over the next 80 years, there is a pressing need to establish the spatial and temporal phenological responses to climate change.</span>
-<span id="cb4-19"><span class="ch" style="color: #20794D;
+<span id="cb6-18">2. Given the increasing rate of climate change projected over the next 80 years, there is a pressing need to establish the spatial and temporal phenological responses to climate change.</span>
+<span id="cb6-19"><span class="ch" style="color: #20794D;
 background-color: null;
 font-style: inherit;">\par</span></span>
-<span id="cb4-20">3. Predicting and assessing phenological responses can be difficult due to issues associated with spatial scale and physiological response differences across taxa.},</span>
-<span id="cb4-21">  <span class="dt" style="color: #AD0000;
+<span id="cb6-20">3. Predicting and assessing phenological responses can be difficult due to issues associated with spatial scale and physiological response differences across taxa.},</span>
+<span id="cb6-21">  <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">file</span> = {Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf}</span>
-<span id="cb4-22">}</span></code></pre></div>
+<span id="cb6-22">}</span></code></pre></div>
 </div>
-<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<div id="tabset-2-2" class="tab-pane" aria-labelledby="tabset-2-2-tab">
 <p>To handle this difference, we can use the <code>ReadBib</code> function in the <code>RefManageR</code> package instead of <code>bib2df</code>.</p>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+<div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(tidyverse) <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># for dplyr and stringr</span></span>
-<span id="cb5-2"><span class="fu" style="color: #4758AB;
+<span id="cb7-2"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(RefManageR) <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># for ReadBib function</span></span>
-<span id="cb5-3"></span>
-<span id="cb5-4">df <span class="ot" style="color: #003B4F;
+<span id="cb7-3"></span>
+<span id="cb7-4">df <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> RefManageR<span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -435,7 +526,7 @@ background-color: null;
 font-style: inherit;">$</span>bibliography) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span> </span>
-<span id="cb5-5">  <span class="fu" style="color: #4758AB;
+<span id="cb7-5">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">as_tibble</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -444,7 +535,7 @@ background-color: null;
 font-style: inherit;">"BIBTEXKEY"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span> </span>
-<span id="cb5-6">  <span class="fu" style="color: #4758AB;
+<span id="cb7-6">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">filter</span>(BIBTEXKEY <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -453,7 +544,7 @@ background-color: null;
 font-style: inherit;">"morisette_tracking_2009"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span> </span>
-<span id="cb5-7">  <span class="fu" style="color: #4758AB;
+<span id="cb7-7">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">select</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
@@ -462,7 +553,7 @@ background-color: null;
 font-style: inherit;">"Note"</span>)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span> </span>
-<span id="cb5-8">  <span class="fu" style="color: #4758AB;
+<span id="cb7-8">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">pull</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
@@ -471,7 +562,7 @@ background-color: null;
 font-style: inherit;">"Note"</span>)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span> </span>
-<span id="cb5-9">  <span class="fu" style="color: #4758AB;
+<span id="cb7-9">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">str_split_1</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -486,8 +577,8 @@ background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"</span>)</span>
-<span id="cb5-10"></span>
-<span id="cb5-11">  <span class="fu" style="color: #4758AB;
+<span id="cb7-10"></span>
+<span id="cb7-11">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">cat</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
@@ -517,16 +608,129 @@ font-style: inherit;">"</span>))</span></code></pre></div>
 <p>The final, and often most nerve-racking, step is to <code>render</code> our .qmd document. As I mentioned earlier, there are several formats we can use (e.g., .pdf, .docx). I tend to render into HTML initially, then troubleshoot Pandoc conversion issues with other formats once I know it compiles.</p>
 <p>If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs. For this example, I have placed a single citation and its summary notes under a heading titled “Ecological Phenology”, which could be a broad theme or a way to structure your thesis sections. A comprehensive bibliography will be printed at the end of the document showing all citations from the citation keys referenced throughout.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" aria-controls="tabset-2-1" aria-selected="true">HTML</a></li><li class="nav-item"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" aria-controls="tabset-2-2" aria-selected="false">PDF</a></li><li class="nav-item"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" aria-controls="tabset-2-3" aria-selected="false">DOCX</a></li></ul>
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" aria-controls="tabset-3-1" aria-selected="true">HTML</a></li><li class="nav-item"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" aria-controls="tabset-3-2" aria-selected="false">PDF</a></li><li class="nav-item"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" aria-controls="tabset-3-3" aria-selected="false">DOCX</a></li><li class="nav-item"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" aria-controls="tabset-3-4" aria-selected="false">Source</a></li></ul>
 <div class="tab-content">
-<div id="tabset-2-1" class="tab-pane active" aria-labelledby="tabset-2-1-tab">
+<div id="tabset-3-1" class="tab-pane active" aria-labelledby="tabset-3-1-tab">
 <p><a href="img-example-html.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-html.png" class="img-fluid"></a></p>
 </div>
-<div id="tabset-2-2" class="tab-pane" aria-labelledby="tabset-2-2-tab">
+<div id="tabset-3-2" class="tab-pane" aria-labelledby="tabset-3-2-tab">
 <p><a href="img-example-pdf.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-pdf.png" class="img-fluid"></a></p>
 </div>
-<div id="tabset-2-3" class="tab-pane" aria-labelledby="tabset-2-3-tab">
+<div id="tabset-3-3" class="tab-pane" aria-labelledby="tabset-3-3-tab">
 <p><a href="img-example-word.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-word.png" class="img-fluid"></a></p>
+</div>
+<div id="tabset-3-4" class="tab-pane" aria-labelledby="tabset-3-4-tab">
+<div class="sourceCode" id="annotated-cell-10" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy"><code class="sourceCode r"><span id="annotated-cell-10-1"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="annotated-cell-10-2">title<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Literature Review for Masters Thesis"</span></span>
+<span id="annotated-cell-10-3">title<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>block<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>banner<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> true           </span>
+<span id="annotated-cell-10-4">format<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span>                            </span>
+<span id="annotated-cell-10-5">  html<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> default                    </span>
+<span id="annotated-cell-10-6">  docx<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> default                    </span>
+<span id="annotated-cell-10-7">  pdf<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> default                     </span>
+<span id="annotated-cell-10-8">bibliography<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> exported_items.bib   </span>
+<span id="annotated-cell-10-9">link<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>citations<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> false              </span>
+<span id="annotated-cell-10-10">csl<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> apa<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>cv.csl                    </span>
+<span id="annotated-cell-10-11">execute<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span>                           </span>
+<span id="annotated-cell-10-12">  echo<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> false                      </span>
+<span id="annotated-cell-10-13">  warning<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> false                   </span>
+<span id="annotated-cell-10-14">  output<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> asis                     </span>
+<span id="annotated-cell-10-15"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="annotated-cell-10-16"></span>
+<span id="annotated-cell-10-17"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Ecological Phenology</span></span>
+<span id="annotated-cell-10-18"></span>
+<span id="annotated-cell-10-19"><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">@</span>morisette_tracking_2009</span>
+<span id="annotated-cell-10-20"></span>
+<span id="annotated-cell-10-21"><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">```</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">r</span></span>
+<span id="annotated-cell-10-22"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">df &lt;- bib2df::bib2df(file = rmarkdown::metadata$bibliography) |&gt;</span></span>
+<span id="annotated-cell-10-23"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  filter(BIBTEXKEY == "morisette_tracking_2009") |&gt;</span></span>
+<span id="annotated-cell-10-24"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  select(contains("ANNOTE")) |&gt;</span></span>
+<span id="annotated-cell-10-25"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  gather(key = "Column", value = "Value") |&gt;</span></span>
+<span id="annotated-cell-10-26"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  pull(Value)</span></span>
+<span id="annotated-cell-10-27"></span>
+<span id="annotated-cell-10-28"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">list &lt;- paste("- ", df, collapse = "</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">")</span></span>
+<span id="annotated-cell-10-29"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">cat(list)</span></span>
+<span id="annotated-cell-10-30"><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">```</span></span>
+<span id="annotated-cell-10-31"></span>
+<span id="annotated-cell-10-32"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## References</span></span>
+<span id="annotated-cell-10-33"></span>
+<span id="annotated-cell-10-34"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:::</span> {<span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#refs}</span></span>
+<span id="annotated-cell-10-35"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:::</span></span></code></pre></div>
 </div>
 </div>
 </div>
@@ -830,7 +1034,7 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
 <figcaption>Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
 </figure>
 </div>
@@ -1027,7 +1231,7 @@ Occurrences.”</span> May 5, 2023. <a href="https://btjepkes.github.io/posts/in
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
 <figcaption>A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>
@@ -1088,7 +1292,7 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 <p>Many birds enjoy making their presence known through song. This allows us to identify individuals down to the species without laying eyes on them. Common birds, like the American robin (Turdus migratorius), can usually be heard readily in most yards. Why not just learn how to identify them by sight? Well, that’s certainly something to work on too, but oftentimes you will only be able to hear the birds and not see them. This is especially true for birds that spend most of their time in the tree canopy.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img" alt="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."></a></p>
+<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img" alt="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."></a></p>
 <figcaption>Along with a keen ear, a good set of binoculars are an excellent compliment when birding.</figcaption>
 </figure>
 </div>
@@ -1104,7 +1308,7 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 <p>Whether you are ordering pizza or trying to identify an unknown plant, there is an app out there for you. Most popular apps are available on both iOS and Android, so accessing them should not be much trouble. Some even have the ability to download content for offline use, so you can still use the app while away from cell service.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-description="" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img" alt="Many apps provide ways of capturing data offline, then uploading once connected again."></a></p>
+<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-3" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img" alt="Many apps provide ways of capturing data offline, then uploading once connected again."></a></p>
 <figcaption>Many apps provide ways of capturing data offline, then uploading once connected again.</figcaption>
 </figure>
 </div>
