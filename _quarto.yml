@@ -30,8 +30,8 @@ website:
     logo: "assets/logo-051933.png"
     pinned: false
     right:
-      - icon: house-fill
-        href: index.html
+      # - icon: house-fill
+      #   href: index.html
       - href: about/index.qmd
         text: About
       - href: posts/index.qmd
@@ -49,7 +49,6 @@ website:
       - icon: twitter-x
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
-
   sidebar:
     - title: "Main Nav"
       style: floating
@@ -133,10 +132,10 @@ format:
       body-width: 1080px
       gutter-width: 4.25vw
       margin-width: 220px
-    filters: 
+    filters:
       - lightbox
     lightbox: auto
-    include-in-header: 
-      - file: progress-bar.html
+    include-in-header:
+      # - file: progress-bar.html
       - file: header-banner.rhtml
          

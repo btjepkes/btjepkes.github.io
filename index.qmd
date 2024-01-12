@@ -48,8 +48,29 @@ listing:
 
 ![](assets/img-ben-work.png){.cover-image .column-body-outset}
 
+
 ::: {#intro-section .column-body-outset}
-Peruse this site to explore my latest work...
+
+**Peruse this site to explore my latest work in:**
+
+::: {.container}
+
+::: {.item}
+{{< fa otter size=1.5x >}} wildlife
+:::
+::: {.item}
+{{< fa mountain size=1.5x >}} ecology
+:::
+::: {.item}
+{{< fa layer-group size=1.5x >}} geospatial
+:::
+::: {.item}
+{{< fa chart-area size=1.5x >}} analytics
+:::
+::: {.item}
+{{< fa wind size=1.5x >}} climate
+:::
+:::
 :::
 
 
