@@ -467,7 +467,7 @@ color: #000;
 
 #title-block-header {
   text-align: center;
-  padding: 60px 20px 110px 20px;
+  padding: 40px 20px 90px 20px;
   margin: auto;
   background: #0f172a;
   border-bottom: solid #1e293b 5px;
@@ -862,6 +862,15 @@ div.quarto-post .metadata {
   opacity: 0.45;
 }
 */
+@media (min-width: 1000px) {
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  z-index: 99999;
+  height: 50px;
+}
+}
 
 .nav-footer {
   padding-top: 0.5em;
