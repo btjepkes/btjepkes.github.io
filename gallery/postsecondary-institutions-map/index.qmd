@@ -14,22 +14,17 @@ image-alt: "A hexbin map showing the total number of post-secondary institutions
 # aliases:
 ---
 
+![](img-college-map.png){.cover-image}
+
 ## Task & Objectives
 
-The prompt for this map was for **Day Nine** of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "Hexagons" for the main subject.
+The prompt for this map was for **Day Nine** of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "Hexagons" for the main subject. The resulting map shows 51 hexbins, one for each state and Washington DC, where the color signifies the number of institutions in that state. 
 
 ## Tools & Workflow
 
 Data were downloaded from the National Center for Education Statistics.
 
-## Final Result
-
-Here is the resulting map showing 51 hexbins, one for each state and Washington DC, where the color signifies the number of institutions in that state. 
-
-![Credit: Benjamin Tjepkes](img-college-map.png)
-
-
-### Alternative Result
+## Alternative Result
 
 Here is another version of the above map, this time with a normalized based on total population, showing post-secondary schools for every 100,000 people.
 

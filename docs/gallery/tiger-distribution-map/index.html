@@ -409,7 +409,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <ul>
   <li><a href="#objectives" id="toc-objectives" class="nav-link active" data-scroll-target="#objectives">Objectives</a></li>
   <li><a href="#tools-workflow" id="toc-tools-workflow" class="nav-link" data-scroll-target="#tools-workflow">Tools &amp; Workflow</a></li>
-  <li><a href="#final-result" id="toc-final-result" class="nav-link" data-scroll-target="#final-result">Final Result</a></li>
   </ul>
 </nav>
     </div>
@@ -419,9 +418,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+<p><a href="img-tiger-range-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-tiger-range-map.png" class="cover-image img-fluid"></a></p>
 <section id="objectives" class="level2">
 <h2 data-anchor-id="objectives">Objectives</h2>
-<p>This map was my contribution to <strong>Day Six</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which prompted “Asia” as the main subject. I knew right away that I was going to be mapping either a threatened wildlife species or a threatened orchid species given this location. I was also wanting an interesting project to work more creatively in RStudio on my programmatic cartography and this fit the bill perfectly.</p>
+<p>This map was my contribution to <strong>Day Six</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which prompted “Asia” as the main subject. I knew right away that I was going to be mapping either a threatened wildlife species or a threatened orchid species given this location. I was also wanting an interesting project to work more creatively in RStudio on my programmatic cartography and this fit the bill perfectly. The resulting map shows the three classes of distribution and proportional symbols indicating the current TCL sizes across Asia.</p>
 </section>
 <section id="tools-workflow" class="level2">
 <h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
@@ -435,16 +435,6 @@ document.addEventListener("DOMContentLoaded", function() {
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(camcorder)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(arcgisbinding)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>The historical and current range data were available as a download from the IUCN Red List. These overlapped well with the TCLs, so I decided to handle those as proportional symbols based on their area.</p>
-</section>
-<section id="final-result" class="level2">
-<h2 data-anchor-id="final-result">Final Result</h2>
-<p>Here is the resulting map showing the three classes of distribution and proportional symbols indicating the current TCL sizes across Asia.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img-tiger-range-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Credit: Benjamin Tjepkes"><img src="img-tiger-range-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
-<figcaption>Credit: Benjamin Tjepkes</figcaption>
-</figure>
-</div>
 
 
 </section>
@@ -901,7 +891,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","loop":false,"selector":".lightbox"});</script>
 
 
 

@@ -13,16 +13,12 @@ image-alt: "A simple map showing the points that indicate moose sightings across
 # aliases:
 ---
 
+![](img-moose-sightings.png){.cover-image}
+
 ## Task & Objectives
 
 The prompt for this map was for **Day Ten** of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "North America" for the main subject.
 
 ## Tools & Workflow
 
-Data were downloaded from the Global Biodiversity Information Facility. Map creation was performed in R/Studio. Blog post coming soon!
-
-## Final Result
-
-Here is the resulting map that shows the sighting locations.
-
-![Credit: Benjamin Tjepkes](img-moose-sightings.png)
+Data were downloaded from the Global Biodiversity Information Facility. Map creation was performed in R/Studio.

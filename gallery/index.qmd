@@ -13,7 +13,7 @@ listing:
       categories: Map Gallery
     type: grid
     grid-columns: 2
-    max-items: 14
+    max-items: 16
     grid-item-border: true
     sort: "date desc"
     image-height: 300px
@@ -40,7 +40,7 @@ listing:
   - id: gallery-listings-posters
     contents: "*.qmd"
     include:
-      categories: Poster Gallery
+      categories: [Poster Gallery, Report Gallery]
     type: grid
     grid-columns: 2
     page-size: 50

@@ -14,12 +14,14 @@ aliases:
   - gallery-map-seven.html
 ---
 
+![](img-map-endangeredstamps.png){.cover-image}
+
+## Task & Objective
+
+This map was produced as a creative project in celebration of the 50th anniversery of the U.S. Endangered Species Act.
+
+The final map product was submitted to the [2023 GIS Certification Institute Map Contest](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners), where is won 2nd place in the professional category.
+
 ## Tools & Workflow
 
 Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas.
-
-## Final Result
-
-Here is the final map product that I submitted to the [2023 GIS Certification Institute Map Contest](https://www.gisci.org/About-Us/Map-Contest/Previous-Contest-Winners), where is won 2nd place in the professional category.
-
-![Map Credit: Ben Tjepkes](img-map-endangeredstamps.png)

@@ -352,7 +352,8 @@ nav .nav-item:not(.compact) {
 
 
 .sidebar a.active {
-    color: #2b8aff;
+    opacity: 1.0;
+    font-weight: 600;
   }
 
 
@@ -490,10 +491,10 @@ color: #000;
 
 
 .title-date {
-  color: #e64946;
-  font-style: italic;
+  color: #e9ecef;
   font-size: 0.8em;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 
 
@@ -589,7 +590,6 @@ color: #000;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: rgba(14, 37, 52, 0.1) 0px 3px 5px 0px, rgba(14, 37, 52, 0.1) 0px 1px 1px 0px;
-  background: #0f172a;
 }
 
 
@@ -602,12 +602,12 @@ color: #000;
 .quarto-grid-item .card-title {
   font-weight: 700;
   margin-bottom: 8px;
-  color: #e9ecef;
+  color: #0f172a;
 }
 
 .quarto-grid-item .card-subtitle {
   line-height: 1.3;
-  color: #3e5273 !important;
+  color: #6c757d !important;
   text-transform: lowercase;
   font-weight: 400 !important;
   font-size: 1.08rem;
@@ -661,10 +661,9 @@ color: #000;
 .cover-image {
   position: relative;
   margin-top: -120px !important;
-  margin-bottom: 20px !important;
-  border: solid #93c1bc 2px;
+  margin-bottom: 2em !important;
+  border: 2px solid rgba(255,255,255, 0.9);
   width: 100%;
-  border-radius: 20px;
 }
 
 

@@ -240,109 +240,53 @@
     "text": "Tools & Methods\nThis map and all spatial analysis needed to create it was performed in ArcMap 10.x. All primary structures in each lake-adjacent parcel were outlined using heads-up digitizing techniques. The distance to water was then determined using the Near tool in ArcMap, referencing the ordinary high water mark for compliance."
   },
   {
-    "objectID": "gallery/pennsylvania-bridge-map/index.html",
-    "href": "gallery/pennsylvania-bridge-map/index.html",
-    "title": "Pennsylvania Bridges from OpenStreetMap ",
-    "section": "",
-    "text": "This map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject."
-  },
-  {
     "objectID": "gallery/pennsylvania-bridge-map/index.html#task-objectives",
     "href": "gallery/pennsylvania-bridge-map/index.html#task-objectives",
     "title": "Pennsylvania Bridges from OpenStreetMap ",
-    "section": "",
-    "text": "This map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject."
+    "section": "Task & Objectives",
+    "text": "Task & Objectives\nThis map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject. The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database."
   },
   {
     "objectID": "gallery/pennsylvania-bridge-map/index.html#tools-workflow",
     "href": "gallery/pennsylvania-bridge-map/index.html#tools-workflow",
     "title": "Pennsylvania Bridges from OpenStreetMap ",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nMap creation was performed in R/Studio using theggplot package.\nOpenStreeMap data for both bridges and largest cities were accessed via the osmdata package.\nBlog post coming soon!"
-  },
-  {
-    "objectID": "gallery/pennsylvania-bridge-map/index.html#final-result",
-    "href": "gallery/pennsylvania-bridge-map/index.html#final-result",
-    "title": "Pennsylvania Bridges from OpenStreetMap ",
-    "section": "Final Result",
-    "text": "Final Result\nHere is the resulting map that shows locations (points in green) of all bridges in PA based on the OpenStreetMap database.\n\n\n\nCredit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/national-champion-tree-map/index.html",
-    "href": "gallery/national-champion-tree-map/index.html",
-    "title": "National Champion Trees Map Exploring the giants of our forests.",
-    "section": "",
-    "text": "This map was created for Day 1 of the 2023 #30DayMapChallenge. The prompt for the day was “Points”. I have been exploring these amazing specimens for awhile, so thought I would map them out for the challenge."
+    "text": "Tools & Workflow\nMap creation was performed in R/Studio using theggplot package.\nOpenStreeMap data for both bridges and largest cities were accessed via the osmdata package."
   },
   {
     "objectID": "gallery/national-champion-tree-map/index.html#objective",
     "href": "gallery/national-champion-tree-map/index.html#objective",
-    "title": "National Champion Trees Map Exploring the giants of our forests.",
-    "section": "",
-    "text": "This map was created for Day 1 of the 2023 #30DayMapChallenge. The prompt for the day was “Points”. I have been exploring these amazing specimens for awhile, so thought I would map them out for the challenge."
+    "title": "National Champion Trees Map ",
+    "section": "Objective",
+    "text": "Objective\nThis map was created for Day 1 of the 2023 #30DayMapChallenge. The prompt for the day was “Points”. I have been exploring these amazing specimens for awhile, so thought I would map them out for the challenge. The resulting map shows the general locations of all Champion trees across the United States. The county where each tree is found is filled in with a light green and the golden symbols are proportional to the registered circumference of each tree."
   },
   {
     "objectID": "gallery/national-champion-tree-map/index.html#tools-workflow",
     "href": "gallery/national-champion-tree-map/index.html#tools-workflow",
-    "title": "National Champion Trees Map Exploring the giants of our forests.",
+    "title": "National Champion Trees Map ",
     "section": "Tools & Workflow",
     "text": "Tools & Workflow\nData were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro."
-  },
-  {
-    "objectID": "gallery/national-champion-tree-map/index.html#final-result",
-    "href": "gallery/national-champion-tree-map/index.html#final-result",
-    "title": "National Champion Trees Map Exploring the giants of our forests.",
-    "section": "Final Result",
-    "text": "Final Result\nHere is the resulting map showing the general locations of all Champion trees across the United States. The county where each tree is found is filled in with a light green and the golden symbols are proportional to the registered circumference of each tree.\n\n\n\nCredit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/moose-sightings-across-north-america/index.html",
-    "href": "gallery/moose-sightings-across-north-america/index.html",
-    "title": "Moose Sightings Across North America ",
-    "section": "",
-    "text": "The prompt for this map was for Day Ten of the 2023 30 Day Map Challenge, which designated “North America” for the main subject."
   },
   {
     "objectID": "gallery/moose-sightings-across-north-america/index.html#task-objectives",
     "href": "gallery/moose-sightings-across-north-america/index.html#task-objectives",
     "title": "Moose Sightings Across North America ",
-    "section": "",
-    "text": "The prompt for this map was for Day Ten of the 2023 30 Day Map Challenge, which designated “North America” for the main subject."
+    "section": "Task & Objectives",
+    "text": "Task & Objectives\nThe prompt for this map was for Day Ten of the 2023 30 Day Map Challenge, which designated “North America” for the main subject."
   },
   {
     "objectID": "gallery/moose-sightings-across-north-america/index.html#tools-workflow",
     "href": "gallery/moose-sightings-across-north-america/index.html#tools-workflow",
     "title": "Moose Sightings Across North America ",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nData were downloaded from the Global Biodiversity Information Facility. Map creation was performed in R/Studio. Blog post coming soon!"
-  },
-  {
-    "objectID": "gallery/moose-sightings-across-north-america/index.html#final-result",
-    "href": "gallery/moose-sightings-across-north-america/index.html#final-result",
-    "title": "Moose Sightings Across North America ",
-    "section": "Final Result",
-    "text": "Final Result\nHere is the resulting map that shows the sighting locations.\n\n\n\nCredit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/missouri-bear-sighting-map/index.html",
-    "href": "gallery/missouri-bear-sighting-map/index.html",
-    "title": "Choropleth of Missouri Bear Sightings ",
-    "section": "",
-    "text": "Map creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
+    "text": "Tools & Workflow\nData were downloaded from the Global Biodiversity Information Facility. Map creation was performed in R/Studio."
   },
   {
     "objectID": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
     "href": "gallery/missouri-bear-sighting-map/index.html#tools-methods",
     "title": "Choropleth of Missouri Bear Sightings ",
-    "section": "",
-    "text": "Map creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
-  },
-  {
-    "objectID": "gallery/missouri-bear-sighting-map/index.html#final-result",
-    "href": "gallery/missouri-bear-sighting-map/index.html#final-result",
-    "title": "Choropleth of Missouri Bear Sightings ",
-    "section": "Final Result",
-    "text": "Final Result\n\n\n\n\n\n\n\n\nMap Credit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Missouri Department of Conservation"
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nMap creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases."
   },
   {
     "objectID": "gallery/michigan-climate-trends/index.html",
@@ -373,25 +317,11 @@
     "text": "Final Results\nHere is the first figure showing trends in precipitation.\n\n\n\nCredit: Benjamin Tjepkes\n\n\nHere is the second figure showing trends in maximum and minimum temperature.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
-    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html",
-    "title": "Annual Report for MDC Furbearer Program FY2021 annual report on furbearer harvest, status, and program activities.",
-    "section": "",
-    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
-  },
-  {
     "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
     "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
-    "title": "Annual Report for MDC Furbearer Program FY2021 annual report on furbearer harvest, status, and program activities.",
-    "section": "",
-    "text": "Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources."
-  },
-  {
-    "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
-    "href": "gallery/mdc-furbearer-program-annual-report-2021/index.html#final-result",
-    "title": "Annual Report for MDC Furbearer Program FY2021 annual report on furbearer harvest, status, and program activities.",
-    "section": "Final Result",
-    "text": "Final Result\nThe full report document can be viewed here.\n\n\n\nExample pages from the report."
+    "title": "Annual Report for MDC Furbearer Program ",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nData visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources. The full report document can be viewed here."
   },
   {
     "objectID": "gallery/hyaenidae-range-map/index.html",
@@ -422,60 +352,39 @@
     "text": "Final Result\nHere is the resulting map series showing each species range across Africa.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/great-lakes-watershed-map/index.html",
-    "href": "gallery/great-lakes-watershed-map/index.html",
-    "title": "Great Lakes Watersheds Map Colorful visual of Great Lakes watersheds.",
-    "section": "",
-    "text": "This maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
-  },
-  {
     "objectID": "gallery/great-lakes-watershed-map/index.html#tools-methods",
     "href": "gallery/great-lakes-watershed-map/index.html#tools-methods",
-    "title": "Great Lakes Watersheds Map Colorful visual of Great Lakes watersheds.",
-    "section": "",
-    "text": "This maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
+    "title": "Great Lakes Watersheds Map ",
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nThis maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework."
   },
   {
     "objectID": "gallery/great-lakes-watershed-map/index.html#final-product",
     "href": "gallery/great-lakes-watershed-map/index.html#final-product",
-    "title": "Great Lakes Watersheds Map Colorful visual of Great Lakes watersheds.",
+    "title": "Great Lakes Watersheds Map ",
     "section": "Final Product",
-    "text": "Final Product\nThis final map shows the watersheds for each Great Lake, including their sub-basins.\n\n\n\nMap Credit: Ben Tjepkes"
+    "text": "Final Product\nThis final map shows the watersheds for each Great Lake, including their sub-basins."
   },
   {
-    "objectID": "gallery/endangered-species-stamp-collection-map/index.html",
-    "href": "gallery/endangered-species-stamp-collection-map/index.html",
+    "objectID": "gallery/endangered-species-stamp-collection-map/index.html#task-objective",
+    "href": "gallery/endangered-species-stamp-collection-map/index.html#task-objective",
     "title": "Endangered Species Stamp Map ",
-    "section": "",
-    "text": "Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas."
+    "section": "Task & Objective",
+    "text": "Task & Objective\nThis map was produced as a creative project in celebration of the 50th anniversery of the U.S. Endangered Species Act.\nThe final map product was submitted to the 2023 GIS Certification Institute Map Contest, where is won 2nd place in the professional category."
   },
   {
     "objectID": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
     "href": "gallery/endangered-species-stamp-collection-map/index.html#tools-workflow",
     "title": "Endangered Species Stamp Map ",
-    "section": "",
-    "text": "Map creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas."
-  },
-  {
-    "objectID": "gallery/endangered-species-stamp-collection-map/index.html#final-result",
-    "href": "gallery/endangered-species-stamp-collection-map/index.html#final-result",
-    "title": "Endangered Species Stamp Map ",
-    "section": "Final Result",
-    "text": "Final Result\nHere is the final map product that I submitted to the 2023 GIS Certification Institute Map Contest, where is won 2nd place in the professional category.\n\n\n\nMap Credit: Ben Tjepkes"
-  },
-  {
-    "objectID": "gallery/canadian-ecoregion-map/index.html",
-    "href": "gallery/canadian-ecoregion-map/index.html",
-    "title": "Canadian Ecoregions Map ",
-    "section": "",
-    "text": "The prompt for this map was for Day Three of the 2023 30 Day Map Challenge, which designated “polygons” for the main subject."
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro 3.1 using data sourced from the U.S. Fish and Wildlife Service, U.S. Postal Service, and the Esri Living Atlas."
   },
   {
     "objectID": "gallery/canadian-ecoregion-map/index.html#task-objectives",
     "href": "gallery/canadian-ecoregion-map/index.html#task-objectives",
     "title": "Canadian Ecoregions Map ",
-    "section": "",
-    "text": "The prompt for this map was for Day Three of the 2023 30 Day Map Challenge, which designated “polygons” for the main subject."
+    "section": "Task & Objectives",
+    "text": "Task & Objectives\nThe prompt for this map was for Day Three of the 2023 30 Day Map Challenge, which designated “polygons” for the main subject. The end product is a regional map of Canada’s Ecoregions."
   },
   {
     "objectID": "gallery/canadian-ecoregion-map/index.html#tools-workflow",
@@ -485,11 +394,11 @@
     "text": "Tools & Workflow\n\nData were downloaded from the U.S. Environmental Protection Agency site.\nMap production was completed in ArcGIS Pro."
   },
   {
-    "objectID": "gallery/canadian-ecoregion-map/index.html#final-result",
-    "href": "gallery/canadian-ecoregion-map/index.html#final-result",
-    "title": "Canadian Ecoregions Map ",
-    "section": "Final Result",
-    "text": "Final Result\nHere is the end product, a regional map of Canada’s Ecoregions.\n\n\n\nCredit: Benjamin Tjepkes"
+    "objectID": "gallery/bald-eagle-nest-monitoring-report/index.html#tools-workflow",
+    "href": "gallery/bald-eagle-nest-monitoring-report/index.html#tools-workflow",
+    "title": "Bald Eagle Nest Monitoring Report ",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nReport compilation was performed in Microsoft Word. Spatial data handling was performed in ArcGIS Pro. Tabular data manipulation and analysis were performed in RStudio and Microsoft Excel."
   },
   {
     "objectID": "gallery/andes-mountains-map/index.html",
@@ -593,18 +502,18 @@
     ]
   },
   {
-    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html",
-    "href": "gallery/2018-squirrel-census-sighting-map/index.html",
-    "title": "2018 Squirrel Census Sighting Map ",
-    "section": "",
-    "text": "This map was created with several packages in RStudio using data from the Tidy Tuesday repository.\n\n\n\n\n\n\n\n\nMap Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
-  },
-  {
     "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
     "href": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
     "title": "2018 Squirrel Census Sighting Map ",
-    "section": "",
-    "text": "This map was created with several packages in RStudio using data from the Tidy Tuesday repository.\n\n\n\n\n\n\n\n\nMap Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
+    "section": "Tools & Methods",
+    "text": "Tools & Methods\nThis map was created with several packages in RStudio using data from the Tidy Tuesday repository."
+  },
+  {
+    "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#alternative-result",
+    "href": "gallery/2018-squirrel-census-sighting-map/index.html#alternative-result",
+    "title": "2018 Squirrel Census Sighting Map ",
+    "section": "Alternative Result",
+    "text": "Alternative Result\n\n\n\nMap Credit: Ben Tjepkes"
   },
   {
     "objectID": "gallery/bald-eagle-nest-selection-poster/index.html",
@@ -628,67 +537,32 @@
     "text": "Final Result\nHere is the final poster that I presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium, earned highest honors.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
-    "objectID": "gallery/eagle-mountain-contour-map/index.html",
-    "href": "gallery/eagle-mountain-contour-map/index.html",
-    "title": "Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.",
-    "section": "",
-    "text": "The prompt for this map was for Day Two of the 2023 30 Day Map Challenge, which designated “lines” for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity."
-  },
-  {
-    "objectID": "gallery/eagle-mountain-contour-map/index.html#task-objectives",
-    "href": "gallery/eagle-mountain-contour-map/index.html#task-objectives",
-    "title": "Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.",
-    "section": "",
-    "text": "The prompt for this map was for Day Two of the 2023 30 Day Map Challenge, which designated “lines” for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity."
+    "objectID": "gallery/eagle-mountain-contour-map/index.html#task-objective",
+    "href": "gallery/eagle-mountain-contour-map/index.html#task-objective",
+    "title": "Eagle Mountain Contour Map ",
+    "section": "Task & Objective",
+    "text": "Task & Objective\nThe prompt for this map was for Day Two of the 2023 30 Day Map Challenge, which designated “lines” for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity. The final map shows the location of Eagle Mountain surrounded by nearby lakes and the elevation contour lines.\nYou can see all my contributions to the 2023 #30DayMapChallenge."
   },
   {
     "objectID": "gallery/eagle-mountain-contour-map/index.html#tools-workflow",
     "href": "gallery/eagle-mountain-contour-map/index.html#tools-workflow",
-    "title": "Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.",
+    "title": "Eagle Mountain Contour Map ",
     "section": "Tools & Workflow",
     "text": "Tools & Workflow\nData were downloaded from the Minnesota Department of Natural Resources GIS hub site, including a 3-meter digital elevation model (DEM) and a general hydrological features layer.\nIn ArcGIS Pro, the DEM was used to generate a simplified 10-m contour feature class. The lakes and stream features were then added to provide context for the surrounding area."
   },
   {
-    "objectID": "gallery/eagle-mountain-contour-map/index.html#final-result",
-    "href": "gallery/eagle-mountain-contour-map/index.html#final-result",
-    "title": "Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.",
-    "section": "Final Result",
-    "text": "Final Result\nHere is the final map showing the location of Eagle Mountain surrounded by nearby lakes and the elevation contour lines.\n\n\n\nCredit: Benjamin Tjepkes\n\n\nSee all my contributions to the 2023 #30DayMapChallenge."
-  },
-  {
-    "objectID": "gallery/global-ocean-currents-and-temps/index.html",
-    "href": "gallery/global-ocean-currents-and-temps/index.html",
-    "title": "Global Ocean Currents and Temperatures Visualizing the influence of global systems.",
-    "section": "",
-    "text": "This was a global web scene built using ArcGIS Online."
-  },
-  {
     "objectID": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
     "href": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
-    "title": "Global Ocean Currents and Temperatures Visualizing the influence of global systems.",
-    "section": "",
-    "text": "This was a global web scene built using ArcGIS Online."
-  },
-  {
-    "objectID": "gallery/global-ocean-currents-and-temps/index.html#final-result",
-    "href": "gallery/global-ocean-currents-and-temps/index.html#final-result",
-    "title": "Global Ocean Currents and Temperatures Visualizing the influence of global systems.",
-    "section": "Final Result",
-    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/happy-forests-happy-people-map/index.html",
-    "href": "gallery/happy-forests-happy-people-map/index.html",
-    "title": "Forest Cover & Happiness Bivariate Map ",
-    "section": "",
-    "text": "This map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject."
+    "title": "Global Ocean Currents and Temperatures ",
+    "section": "Tools & Workflow",
+    "text": "Tools & Workflow\nThis was a global web scene built using ArcGIS Online."
   },
   {
     "objectID": "gallery/happy-forests-happy-people-map/index.html#task-objectives",
     "href": "gallery/happy-forests-happy-people-map/index.html#task-objectives",
     "title": "Forest Cover & Happiness Bivariate Map ",
-    "section": "",
-    "text": "This map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject."
+    "section": "Task & Objectives",
+    "text": "Task & Objectives\nThis map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject. The final product showing both happiness and forest cover as a bivariate choropleth map."
   },
   {
     "objectID": "gallery/happy-forests-happy-people-map/index.html#tools-workflow",
@@ -698,18 +572,11 @@
     "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub."
   },
   {
-    "objectID": "gallery/happy-forests-happy-people-map/index.html#final-result",
-    "href": "gallery/happy-forests-happy-people-map/index.html#final-result",
-    "title": "Forest Cover & Happiness Bivariate Map ",
-    "section": "Final Result",
-    "text": "Final Result\nHere is the final product showing both happiness and forest cover as a bivariate choropleth map.\n\n\n\nCredit: Benjamin Tjepkes"
-  },
-  {
     "objectID": "gallery/index.html#map-gallery",
     "href": "gallery/index.html#map-gallery",
     "title": "My Gallery of Maps and Visualizations",
     "section": "Map Gallery",
-    "text": "Map Gallery\nMany of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\nAnthrome Map of the Upper Peninsula, MI\n\n\n\n\n\n\n\n\n\n\n\n\n\nPennsylvania Bridges from OpenStreetMap\n\n\n\n\n\n\n\n\n\n\n\n\n\nForest Cover & Happiness Bivariate Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAndes Mountains Elevation Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nMoose Sightings Across North America\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost-Secondary Institutions Hexmap\n\n\n\n\n\n\n\n\n\n\n\n\n\nHyaenidae Distribution Map for Africa\n\n\n\n\n\n\n\n\n\n\n\n\n\nTiger Range and Conservation Landscapes\n\n\n\n\n\n\n\n\n\n\n\n\n\nCanadian Ecoregions Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Map Gallery\nMany of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\nAnthrome Map of the Upper Peninsula, MI\n\n\n\n\n\n\n\n\n\n\n\n\n\nPennsylvania Bridges from OpenStreetMap\n\n\n\n\n\n\n\n\n\n\n\n\n\nForest Cover & Happiness Bivariate Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAndes Mountains Elevation Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nMoose Sightings Across North America\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost-Secondary Institutions Hexmap\n\n\n\n\n\n\n\n\n\n\n\n\n\nHyaenidae Distribution Map for Africa\n\n\n\n\n\n\n\n\n\n\n\n\n\nTiger Range and Conservation Landscapes\n\n\n\n\n\n\n\n\n\n\n\n\n\nCanadian Ecoregions Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "My Gallery"
@@ -731,25 +598,18 @@
     "href": "gallery/index.html#poster-report-gallery",
     "title": "My Gallery of Maps and Visualizations",
     "section": "Poster & Report Gallery",
-    "text": "Poster & Report Gallery\nMy most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues.\nTools & Technologies: R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Poster & Report Gallery\nMy most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues.\nTools & Technologies: R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Report\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "My Gallery"
     ]
   },
   {
-    "objectID": "gallery/michigan-anthrome-map/index.html",
-    "href": "gallery/michigan-anthrome-map/index.html",
-    "title": "Anthrome Map of the Upper Peninsula, MI ",
-    "section": "",
-    "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome).\nAnother portion of this assignment dealt with creating a climate profile for the region."
-  },
-  {
     "objectID": "gallery/michigan-anthrome-map/index.html#task-objectives",
     "href": "gallery/michigan-anthrome-map/index.html#task-objectives",
     "title": "Anthrome Map of the Upper Peninsula, MI ",
-    "section": "",
-    "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome).\nAnother portion of this assignment dealt with creating a climate profile for the region."
+    "section": "Task & Objectives",
+    "text": "Task & Objectives\nThe assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome).\nAnother portion of this assignment dealt with creating a climate profile for the region."
   },
   {
     "objectID": "gallery/michigan-anthrome-map/index.html#tools-workflow",
@@ -836,18 +696,11 @@
     "text": "Tools & Methods\nAll data were pulled from internally-maintained geodatabases. Map creation was performed in ArcGIS Pro 2.9."
   },
   {
-    "objectID": "gallery/postsecondary-institutions-map/index.html",
-    "href": "gallery/postsecondary-institutions-map/index.html",
-    "title": "Post-Secondary Institutions Hexmap ",
-    "section": "",
-    "text": "The prompt for this map was for Day Nine of the 2023 30 Day Map Challenge, which designated “Hexagons” for the main subject."
-  },
-  {
     "objectID": "gallery/postsecondary-institutions-map/index.html#task-objectives",
     "href": "gallery/postsecondary-institutions-map/index.html#task-objectives",
     "title": "Post-Secondary Institutions Hexmap ",
-    "section": "",
-    "text": "The prompt for this map was for Day Nine of the 2023 30 Day Map Challenge, which designated “Hexagons” for the main subject."
+    "section": "Task & Objectives",
+    "text": "Task & Objectives\nThe prompt for this map was for Day Nine of the 2023 30 Day Map Challenge, which designated “Hexagons” for the main subject. The resulting map shows 51 hexbins, one for each state and Washington DC, where the color signifies the number of institutions in that state."
   },
   {
     "objectID": "gallery/postsecondary-institutions-map/index.html#tools-workflow",
@@ -857,11 +710,11 @@
     "text": "Tools & Workflow\nData were downloaded from the National Center for Education Statistics."
   },
   {
-    "objectID": "gallery/postsecondary-institutions-map/index.html#final-result",
-    "href": "gallery/postsecondary-institutions-map/index.html#final-result",
+    "objectID": "gallery/postsecondary-institutions-map/index.html#alternative-result",
+    "href": "gallery/postsecondary-institutions-map/index.html#alternative-result",
     "title": "Post-Secondary Institutions Hexmap ",
-    "section": "Final Result",
-    "text": "Final Result\nHere is the resulting map showing 51 hexbins, one for each state and Washington DC, where the color signifies the number of institutions in that state.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\nAlternative Result\nHere is another version of the above map, this time with a normalized based on total population, showing post-secondary schools for every 100,000 people.\n\n\n\nCredit: Benjamin Tjepkes"
+    "section": "Alternative Result",
+    "text": "Alternative Result\nHere is another version of the above map, this time with a normalized based on total population, showing post-secondary schools for every 100,000 people.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/relative-coding-proficiency-chart/index.html#tools-methods",
@@ -871,18 +724,11 @@
     "text": "Tools & Methods\nChart creation was performed in RStudio using the ggplot2 package and others."
   },
   {
-    "objectID": "gallery/tiger-distribution-map/index.html",
-    "href": "gallery/tiger-distribution-map/index.html",
-    "title": "Tiger Range and Conservation Landscapes ",
-    "section": "",
-    "text": "This map was my contribution to Day Six of the 2023 30 Day Map Challenge, which prompted “Asia” as the main subject. I knew right away that I was going to be mapping either a threatened wildlife species or a threatened orchid species given this location. I was also wanting an interesting project to work more creatively in RStudio on my programmatic cartography and this fit the bill perfectly."
-  },
-  {
     "objectID": "gallery/tiger-distribution-map/index.html#objectives",
     "href": "gallery/tiger-distribution-map/index.html#objectives",
     "title": "Tiger Range and Conservation Landscapes ",
-    "section": "",
-    "text": "This map was my contribution to Day Six of the 2023 30 Day Map Challenge, which prompted “Asia” as the main subject. I knew right away that I was going to be mapping either a threatened wildlife species or a threatened orchid species given this location. I was also wanting an interesting project to work more creatively in RStudio on my programmatic cartography and this fit the bill perfectly."
+    "section": "Objectives",
+    "text": "Objectives\nThis map was my contribution to Day Six of the 2023 30 Day Map Challenge, which prompted “Asia” as the main subject. I knew right away that I was going to be mapping either a threatened wildlife species or a threatened orchid species given this location. I was also wanting an interesting project to work more creatively in RStudio on my programmatic cartography and this fit the bill perfectly. The resulting map shows the three classes of distribution and proportional symbols indicating the current TCL sizes across Asia."
   },
   {
     "objectID": "gallery/tiger-distribution-map/index.html#tools-workflow",
@@ -890,13 +736,6 @@
     "title": "Tiger Range and Conservation Landscapes ",
     "section": "Tools & Workflow",
     "text": "Tools & Workflow\nLike many of my visualizations in R, I assembled this map using ggplot and many ancillary packages. One package that I was happy to use was arcgisbinding, which allowed me to easily load in a web feature layer (Tiger Conservation Landscapes from the Esri Living Atlas).\nlibrary(rnaturalearth)\nlibrary(sf)\nlibrary(tidyverse)\nlibrary(ggspatial)\nlibrary(ggtext)\nlibrary(showtext)\nlibrary(camcorder)\nlibrary(arcgisbinding)\nThe historical and current range data were available as a download from the IUCN Red List. These overlapped well with the TCLs, so I decided to handle those as proportional symbols based on their area."
-  },
-  {
-    "objectID": "gallery/tiger-distribution-map/index.html#final-result",
-    "href": "gallery/tiger-distribution-map/index.html#final-result",
-    "title": "Tiger Range and Conservation Landscapes ",
-    "section": "Final Result",
-    "text": "Final Result\nHere is the resulting map showing the three classes of distribution and proportional symbols indicating the current TCL sizes across Asia.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/vineyard-and-winery-location-suitability-map/index.html",

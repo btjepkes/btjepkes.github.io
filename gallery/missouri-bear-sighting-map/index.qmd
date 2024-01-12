@@ -11,18 +11,8 @@ image: img-map-5.jpg
 image-alt: "Cholorpleth map showing the number of sightings per Missouri county."
 ---
 
+![](img-map-5.jpg){.cover-image}
+
 ## Tools & Methods
 
 Map creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases.
-
-## Final Result
-
-::: {layout-ncol=2}
-
-![Map Credit: Benjamin Tjepkes](img-map-5.jpg)
-
-![Credit: Missouri Department of Conservation](img-moconservationist.jpg)
-
-:::
-
-

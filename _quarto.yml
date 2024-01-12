@@ -131,7 +131,7 @@ format:
     grid:
       sidebar-width: 220px
       body-width: 1080px
-      gutter-width: 5vw
+      gutter-width: 4.25vw
       margin-width: 220px
     filters: 
       - lightbox

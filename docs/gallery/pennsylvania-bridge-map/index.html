@@ -375,7 +375,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <ul>
   <li><a href="#task-objectives" id="toc-task-objectives" class="nav-link active" data-scroll-target="#task-objectives">Task &amp; Objectives</a></li>
   <li><a href="#tools-workflow" id="toc-tools-workflow" class="nav-link" data-scroll-target="#tools-workflow">Tools &amp; Workflow</a></li>
-  <li><a href="#final-result" id="toc-final-result" class="nav-link" data-scroll-target="#final-result">Final Result</a></li>
   </ul>
 </nav>
     </div>
@@ -385,25 +384,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+<p><a href="img-PA-bridge-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-PA-bridge-map.png" class="cover-image img-fluid"></a></p>
 <section id="task-objectives" class="level2">
 <h2 data-anchor-id="task-objectives">Task &amp; Objectives</h2>
-<p>This map was created for <strong>Day 15</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “Open Street Map” for the main subject.</p>
+<p>This map was created for <strong>Day 15</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “Open Street Map” for the main subject. The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database.</p>
 </section>
 <section id="tools-workflow" class="level2">
 <h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
 <p>Map creation was performed in R/Studio using the<code>ggplot</code> package.</p>
 <p>OpenStreeMap data for both bridges and largest cities were accessed via the <code>osmdata</code> package.</p>
-<p>Blog post coming soon!</p>
-</section>
-<section id="final-result" class="level2">
-<h2 data-anchor-id="final-result">Final Result</h2>
-<p>Here is the resulting map that shows locations (points in green) of all bridges in PA based on the OpenStreetMap database.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img-PA-bridge-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Credit: Benjamin Tjepkes"><img src="img-PA-bridge-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
-<figcaption>Credit: Benjamin Tjepkes</figcaption>
-</figure>
-</div>
 
 
 </section>
@@ -860,7 +849,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom"});</script>
 
 
 

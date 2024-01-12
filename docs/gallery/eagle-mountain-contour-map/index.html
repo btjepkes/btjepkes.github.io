@@ -9,6 +9,7 @@
 <meta name="author" content="Benjamin Tjepkes">
 <meta name="dcterms.date" content="2023-11-02">
 <meta name="keywords" content="#30DayMapChallenge2023">
+<meta name="description" content="This map provides a topographical view of Eagle Mountain, which is Minnesota’s highest point. Contours and hydological features are represented in this simple map.">
 
 <title>Eagle Mountain Contour Map | B.W. Tjepkes</title>
 <style>
@@ -261,7 +262,7 @@ document.addEventListener("DOMContentLoaded", function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Eagle Mountain Contour Map </li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -274,12 +275,15 @@ document.addEventListener("DOMContentLoaded", function() {
 <header id="title-block-header">
 
   <div class="title-area">
-    <h1 class="title">Eagle Mountain Contour Map Visualizing Minnesota’s highest peak.</h1>
+    <h1 class="title">Eagle Mountain Contour Map </h1>
   </div>
     
   <div class="header-content-container">  
   <div class="post-meta">
     
+          <div class="description">
+        <div class="abstract">Visualizing Minnesota’s highest peak.</div> This map provides a topographical view of Eagle Mountain, which is Minnesota’s highest point. Contours and hydological features are represented in this simple map.
+      </div>
         
     <div class="title-date">Published on 2023-11-02 by Benjamin Tjepkes</div>
     
@@ -369,9 +373,8 @@ document.addEventListener("DOMContentLoaded", function() {
     <h2 id="toc-title">On This Page:</h2>
    
   <ul>
-  <li><a href="#task-objectives" id="toc-task-objectives" class="nav-link active" data-scroll-target="#task-objectives">Task &amp; Objectives</a></li>
+  <li><a href="#task-objective" id="toc-task-objective" class="nav-link active" data-scroll-target="#task-objective">Task &amp; Objective</a></li>
   <li><a href="#tools-workflow" id="toc-tools-workflow" class="nav-link" data-scroll-target="#tools-workflow">Tools &amp; Workflow</a></li>
-  <li><a href="#final-result" id="toc-final-result" class="nav-link" data-scroll-target="#final-result">Final Result</a></li>
   </ul>
 </nav>
     </div>
@@ -381,25 +384,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<section id="task-objectives" class="level2">
-<h2 data-anchor-id="task-objectives">Task &amp; Objectives</h2>
-<p>The prompt for this map was for <strong>Day Two</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “lines” for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity.</p>
+<p><a href="img-eagle-mtn-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-eagle-mtn-map.png" class="cover-image img-fluid"></a></p>
+<section id="task-objective" class="level2">
+<h2 data-anchor-id="task-objective">Task &amp; Objective</h2>
+<p>The prompt for this map was for <strong>Day Two</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “lines” for the main subject. I had been wanting to work more with contours, so this was the perfect opportunity. The final map shows the location of Eagle Mountain surrounded by nearby lakes and the elevation contour lines.</p>
+<p>You can see all my <a href="../../posts/30-day-map-challenge-2023/index.html">contributions</a> to the 2023 #30DayMapChallenge.</p>
 </section>
 <section id="tools-workflow" class="level2">
 <h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
 <p>Data were downloaded from the Minnesota Department of Natural Resources GIS hub site, including a 3-meter digital elevation model (DEM) and a general hydrological features layer.</p>
 <p>In ArcGIS Pro, the DEM was used to generate a simplified 10-m contour feature class. The lakes and stream features were then added to provide context for the surrounding area.</p>
-</section>
-<section id="final-result" class="level2">
-<h2 data-anchor-id="final-result">Final Result</h2>
-<p>Here is the final map showing the location of Eagle Mountain surrounded by nearby lakes and the elevation contour lines.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img-eagle-mtn-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Credit: Benjamin Tjepkes"><img src="img-eagle-mtn-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
-<figcaption>Credit: Benjamin Tjepkes</figcaption>
-</figure>
-</div>
-<p><strong>See all my <a href="../../posts/30-day-map-challenge-2023/index.html">contributions</a> to the 2023 #30DayMapChallenge.</strong></p>
 
 
 </section>
@@ -856,7 +850,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom"});</script>
 
 
 
