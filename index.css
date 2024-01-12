@@ -9,6 +9,7 @@
   font-size: 1.7em;
   color: #000;
   margin-bottom: 20px;
+  line-height: 1;
 }
 
 #intro-section strong {
@@ -21,16 +22,32 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background: #e7e7e7;
+  border-radius: 20px;
+  height: 55px;
+  overflow: hidden;
+  gap: 25px;
 }
 
 .item {
-  flex: 1;
-  min-width: 200px;
+  flex: 0 0 100%;
   font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   justify-content: center;
   align-items: center;
+  animation: scroll 10s linear infinite;
+  height: 55px;
 }
 
 .fa-solid {
   color: #e64946;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateY(120%);
+  }
+  100% {
+    transform: translateY(-620%); /* Adjust based on the number of items */
+  }
 }

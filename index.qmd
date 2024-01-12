@@ -56,19 +56,19 @@ listing:
 ::: {.container}
 
 ::: {.item}
-{{< fa otter size=1.5x >}} wildlife
+{{< fa otter size=1.5x >}} wildlife ecology
 :::
 ::: {.item}
-{{< fa mountain size=1.5x >}} ecology
+{{< fa mountain size=1.5x >}} biogeography
 :::
 ::: {.item}
 {{< fa layer-group size=1.5x >}} geospatial
 :::
 ::: {.item}
-{{< fa chart-area size=1.5x >}} analytics
+{{< fa chart-area size=1.5x >}} data analytics
 :::
 ::: {.item}
-{{< fa wind size=1.5x >}} climate
+{{< fa wind size=1.5x >}} climate science
 :::
 :::
 :::
