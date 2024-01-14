@@ -10,8 +10,6 @@ image: img-fern.jpg
 image-alt: "An image of a fern within a forest."
 ---
 
-![](img-fern.jpg){.cover-image}
-
 ## Transitioning Moments
 
 My mantra for 2023 was *`embracing change for personal growth`*. This past year marked a period of continual transformation as I navigated through different roles, focused on varied areas, and shifted between entities. Embracing change is beneficial, opening up new possibilities for personal development and adaptability.

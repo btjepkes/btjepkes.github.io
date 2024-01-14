@@ -128,7 +128,7 @@ $progress-height:               .5rem !default;
 
 // Variables
 
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&family=Fira+Sans:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&family=Fira+Sans:wght@400;700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:wght@400;700;900');
 
@@ -139,7 +139,7 @@ body {
   -webkit-font-smoothing: antialiased;
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
-  font-family: Nunito, sans-serif;
+  font-family: Jost, Nunito, sans-serif;
 }
 
 
@@ -165,8 +165,8 @@ h1 strong {
 
 h2 {
   margin-bottom: 20px;
-  margin-left: -2px;
-  border-bottom: solid $gray-400 3px;
+  margin-left: -8px;
+  border-bottom: solid $gray-200 3px;
 }
 
 h3 {
@@ -272,8 +272,8 @@ a {
 }
 
 .navbar-toggler-icon {
-  width: 1.0em;
-  height: 1.0em;
+  width: 0.8em;
+  height: 0.8em;
 }
 
   .navbar-nav .dropdown-menu {
@@ -294,13 +294,12 @@ a {
       }
       
     .navbar .navbar-toggler {
-      height: 40px;
-      border: solid 2px #2b8aff;
-      padding-bottom: 3px;
-      background: #051933;
-      border-radius: 4px;
-      padding-left: 5px;
-      padding-right: 5px;
+      border: solid 1px #35d290;
+      background: rgba(255,255,255,0.1);
+      border-radius: 10px;
+      line-height: 0;
+      padding: 5px;
+      margin-right: .25em;
     } 
       
       .aa-SubmitIcon {
@@ -331,7 +330,7 @@ a {
     } 
     
     .navbar .navbar-collapse {
-    background: black;
+    background: #1e293b;
 }
   
 }
@@ -460,7 +459,7 @@ color: #000;
 
 #title-block-header {
   text-align: center;
-  padding: 30px 20px 30px 20px;
+  padding: 30px 25px 30px 25px;
   margin: auto;
   background: #0f172a;
   border-bottom: solid #1e293b 5px;
@@ -580,7 +579,7 @@ color: #000;
 }
 
 .quarto-grid-item {
-  border-radius: 0px;
+  border-radius: 3px;
   overflow: hidden;
   box-shadow: rgba(14, 37, 52, 0.1) 0px 3px 5px 0px, rgba(14, 37, 52, 0.1) 0px 1px 1px 0px;
 }
@@ -593,7 +592,7 @@ color: #000;
 
 .quarto-grid-item .card-title {
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   color: #0f172a;
 }
 
@@ -646,7 +645,16 @@ color: #000;
   width: 100%;
 }
 
+// TAB SETS
 
+.tab-content {
+      background: antiquewhite;
+    }
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    border-color: #faebd7;
+    background-color: #faebd7;
+    }
 
 /* FIGURES & IMAGES */
 /*

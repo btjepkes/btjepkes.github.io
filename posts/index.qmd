@@ -5,9 +5,7 @@ pagetitle: "Blog Posts | B.W. Tjepkes"
 subtitle: "**on Ecology and Geospatial**"
 date-modified: today
 description-meta: "Blog Posts - Explore my writings on ecological and geospatial data science."
-title-block-banner: true
 citation: false
-toc: false
 image: ../assets/img-geo-data-science.jpeg
 image-alt: "Image-of-trees."
 abstract: My technical and creative writings.
@@ -20,6 +18,7 @@ listing:
     grid-columns: 2
     image-height: 250px
     categories: numbered
+    page-size: 6
     sort: "date desc"
     filter-ui: [title, subtitle, description, category]
     sort-ui: [title, date]
@@ -32,7 +31,6 @@ listing:
       - date
 ---
 
-<!-- ![](../assets/img-geo-data-science.jpeg){.cover-image} -->
 
 ::: {#main-posts }
 :::

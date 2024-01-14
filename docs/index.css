@@ -1,7 +1,3 @@
-/*
-#title-block-header {
-  display: none;
-}*/
 
 #intro-section {
   text-align: center;
@@ -22,12 +18,12 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: #e7e7e7;
+  background: whitesmoke;
   border-radius: 20px;
   height: 55px;
   overflow: hidden;
   gap: 25px;
-  box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.03);
+  box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.05);
 }
 
 .item {
@@ -51,4 +47,10 @@
   100% {
     transform: translateY(-700%); /* Adjust based on the number of items */
   }
+}
+
+.index-latest .card-title em {
+  color: #e64946 !important;
+  font-weight: 400;
+  line-height: 1.5;
 }

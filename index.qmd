@@ -20,9 +20,9 @@ listing:
       - "about/index.qmd"
       - "curriculum-vitae/index.qmd"
       - "resources/index.qmd"
-      # - "contact.qmd"
-      # - title: "**Latest Post:** <br><br> My 2023 Contributions for the #30DayMapChallenge"
-      #   path: posts/30-day-map-challenge-2023/
+      - "gallery/index.qmd"
+      - "posts/index.qmd"
+      - "research/index.qmd"
     type: grid
     grid-columns: 3
     grid-item-align: center
@@ -32,13 +32,13 @@ listing:
       - image
   - id: site-listings-2
     contents:
-      - "gallery/index.qmd"
-      - "posts/index.qmd"
-      - "research/index.qmd"
+      - title: "*Latest Post:* <br> Create Annotated Bibliographies with Quarto"
+        path: posts/building-annotated-bibliographies-with-quarto/
+      - title: "*Latest Visual:* <br> Anthrome Map of the Upper Peninsula, MI"
+        path: gallery/michigan-anthrome-map/
     type: grid
+    grid-columns: 2
     grid-item-align: center
-    grid-columns: 3
-    sort: [date]
     fields:
       - title
       - subtitle
@@ -69,9 +69,8 @@ listing:
 :::
 :::
 
-
-::: {#site-listings-2 .column-page .cover-image}
+::: {#site-listings-1 .column-page}
 :::
 
-::: {#site-listings-1 .column-page}
+::: {#site-listings-2 .column-page .index-latest}
 :::

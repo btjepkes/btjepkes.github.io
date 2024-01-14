@@ -1,6 +1,6 @@
 ---
 title: "Beaver-Impacted Water Control Structures"
-subtitle: "Assessing the need for flow devices on wetlands in NE Wisconsin."
+abstract: "Assessing the need for flow devices on wetlands in NE Wisconsin."
 date-modified: "5/8/2023"
 categories:
   - Undergraduate
@@ -8,11 +8,11 @@ categories:
   - Wildlife
 image: img-beaver-impacted-wcs.jpg
 image-alt: "Image of a beaver-impacted structure."
-abstract: "This undergraduate research project was aimed at assessing the need for beaver flow devices on water control strutures owned by the Wisconsin Department of Natural Resources. From these results, I designed a specialized flow device for the structures most impacted by beavers in the study area."
+description: "This undergraduate research project was aimed at assessing the need for beaver flow devices for water control strutures owned by the Wisconsin Department of Natural Resources. From these results, I designed a specialized flow device (i.e., the **Tjepkes Beaver Reliever**) for the structures most impacted by beavers in the study area."
 ---
-
-![Example of beaver-impacted structure.](img-beaver-impacted-wcs.jpg)
 
 ## Project Reports
 
 **Tjepkes, B.W.** 2017. Assessing the need for flow devices on beaver impacted flowages. Unpublished report for Wisconsin Department of Natural Resources.
+
+![Example of beaver-impacted structure.](img-beaver-impacted-wcs.jpg)
