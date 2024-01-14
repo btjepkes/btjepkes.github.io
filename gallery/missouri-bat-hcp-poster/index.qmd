@@ -1,6 +1,6 @@
 ---
 title: "Missouri Bat HCP Overview & Update Poster"
-subtitle: "Informational poster on the Missouri Bat Habitat Conservation Plan."
+abstract: "Informational poster on the Missouri Bat Habitat Conservation Plan."
 date: "5-18-2023"
 date-modified: today
 aliases: 

@@ -1,0 +1,68 @@
+/* RESUME ELEMENTS */
+
+    .resume-container {
+        display: flex;
+        align-items: flex-start;
+        background: #152035;
+        align-items: center;
+        padding: 20px;
+        border-radius: 8px;
+        gap: 24px;
+        margin-top: 30px;
+        margin-bottom: 1.2em;
+        -webkit-box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
+        box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
+    }
+  
+    .resume-item {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .employer {
+        font-weight: bold;
+        font-size: 1.2em;
+        color: white;
+    }
+  
+    .cv-date {
+        color: #fff;
+    }
+  
+    .position {
+        font-style: italic;
+        color: skyblue;
+        font-size: 1.1em;
+    }
+  
+    .description {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+    }
+  
+    .profile-image {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    
+  #listing-resume-links {
+    margin-bottom: 30px;
+  }
+   
+ #listing-resume-links .quarto-grid-item {
+   box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.05);
+   border-radius: 20px;
+ }  
+    
+/* RESUME ELEMENTS - MOBILE ONLY */
+
+@media (max-width: 991.98px) {
+  .resume-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+

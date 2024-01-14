@@ -450,28 +450,28 @@
   {
     "objectID": "curriculum-vitae/index.html",
     "href": "curriculum-vitae/index.html",
-    "title": "Curriculum Vitae of my Career Experience",
+    "title": "Curriculum Vitae of my Professional Experience",
     "section": "",
     "text": "No matching items"
   },
   {
     "objectID": "curriculum-vitae/index.html#formal-education",
     "href": "curriculum-vitae/index.html#formal-education",
-    "title": "Curriculum Vitae of my Career Experience",
+    "title": "Curriculum Vitae of my Professional Experience",
     "section": "Formal Education",
     "text": "Formal Education\nMy post-secondary training and education is situated at the crossroads of wildlife ecology and geography at both the undergraduate and graduate levels. These areas of specialization resonate with me due to their comprehensive and diverse nature of study, as well as their infusion of technological solutions.\n\n        \n        \n            University of Missouri\n            2023 - Present\n            Masters [MA] - Geography\n            \n                I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis in Geographic Information Systems. My thesis project will combine my interests in ecological science, phenology, climate, and geospatial modeling.\n            \n        \n\n\n\n        \n        \n            University of Wisconsin-Stevens Point\n            2015 - 2019\n            Bachelors [BS] - Wildlife Ecology and Management\n            \n                I earned my undergraduate degree in Wildlife Ecology and Management from the University of Wisconsin-Stevens Point. My minors were completed in Biology and Geographic Information Systems."
   },
   {
     "objectID": "curriculum-vitae/index.html#career-experience",
     "href": "curriculum-vitae/index.html#career-experience",
-    "title": "Curriculum Vitae of my Career Experience",
+    "title": "Curriculum Vitae of my Professional Experience",
     "section": "Career Experience",
     "text": "Career Experience\nMy work experience over the last eight years has been in the ecological sciences and conservation GIS fields. This includes work in the academic, private, and public sectors.\n\n        \n        \n            University of Missouri\n            2023 - Present\n            Graduate Teaching Assistant - Geography Dept\n            \n                Deliver engaging instructional sessions to undergraduate students within discussion segments of a world regional geography course, concentrating on countries across Europe, Latin America, and North America. Duties include syllabus development, assignment evaluation, and overseeing course management system for 50+ students.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2022 - 2023\n            Assistant Wildlife Diversity Coordinator - Wildlife Diversity Program\n            \n                Collaborated with an inter-branch leadership team to implement the Missouri Bat Habitat Conservation Plan, serving as a technical lead for data reporting. Summarized large tabular datasets, analyzed spatial data from multiple enterprise geodatabases, and prepared data visualizations and summaries in RStudio and ArcGIS Pro for inclusion in federally mandated reports on statewide habitat management and bat monitoring.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2022 - 2022\n            Wildlife Biologist - Furbearer Program\n            \n                Served in a technical role for a statewide furbearer program, contributing to large portions of the research and management of furbearing species in Missouri. Managed large-scale data sets of furbearer harvest records, public observations, and other data into multi-dimensional relational databases, utilizing GIS mapping and programmatic software. Generated and presented informative population summaries, data visualizations, and other data-driven reports for internal and external stakeholders.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2020 - 2022\n            Assistant Natural History Biologist - Black Bear Program\n            \n                Led field and technical operations for a statewide black bear research and management program. Coordinated the monitoring of tagged black bears via ground and aerial telemetry, satellite web services, and physical capture of individuals while utilizing mobile GIS solutions for navigation and data collection. Developed and maintained black bear observation and biological databases using desktop GIS software and relational databases, ensuring the continuity of data integrity."
   },
   {
     "objectID": "curriculum-vitae/index.html#techincal-proficiencies",
     "href": "curriculum-vitae/index.html#techincal-proficiencies",
-    "title": "Curriculum Vitae of my Career Experience",
+    "title": "Curriculum Vitae of my Professional Experience",
     "section": "Techincal Proficiencies",
     "text": "Techincal Proficiencies\nMy entire career has emphasized the use of technologies to organize, create, and present. I enjoy learning new skills and languages during personal and professional projects, making a point to try new workflows when I can.\n\n        \n        \n            GIS & Cartography\n            \n            \n                Spatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartographic design using QGIS and ArcGIS mapping software. Geoprocessing workflows in ArcGIS ModelBuilder and Jupyter Notebooks.\n            \n        \n\n\n\n        \n        \n            Research & Reporting\n            \n            \n                Data entry, management, and analysis using Program R, Microsoft Excel, Access, and SQL Server. Reproducible report design and development in Microsoft Word, R Markdown, and Quarto. Knowledge of scientific methods and research project development.\n            \n        \n\n\n\n        \n        \n            Design & Visualization\n            \n            \n                Front-end web development with HTML/CSS. Version control using git/GitHub. Proficient in data visualization for technical and creative projects using common R packages and Python libraries."
   },
@@ -520,21 +520,21 @@
   {
     "objectID": "gallery/bald-eagle-nest-selection-poster/index.html",
     "href": "gallery/bald-eagle-nest-selection-poster/index.html",
-    "title": "Poster on Bald Eagle Nest Selection Research Research poster on bald eagle nest-site selection modeling.",
+    "title": "Poster on Bald Eagle Nest Selection Research ",
     "section": "",
     "text": "This poster was assembled in Microsoft PowerPoint using elements created in ArcGIS Pro, Microsoft Excel, and RStudio. The full details on this research can be found here: Bald Eagle Nest Site Selection Research Project."
   },
   {
     "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
     "href": "gallery/bald-eagle-nest-selection-poster/index.html#tools-methods",
-    "title": "Poster on Bald Eagle Nest Selection Research Research poster on bald eagle nest-site selection modeling.",
+    "title": "Poster on Bald Eagle Nest Selection Research ",
     "section": "",
     "text": "This poster was assembled in Microsoft PowerPoint using elements created in ArcGIS Pro, Microsoft Excel, and RStudio. The full details on this research can be found here: Bald Eagle Nest Site Selection Research Project."
   },
   {
     "objectID": "gallery/bald-eagle-nest-selection-poster/index.html#final-result",
     "href": "gallery/bald-eagle-nest-selection-poster/index.html#final-result",
-    "title": "Poster on Bald Eagle Nest Selection Research Research poster on bald eagle nest-site selection modeling.",
+    "title": "Poster on Bald Eagle Nest Selection Research ",
     "section": "Final Result",
     "text": "Final Result\nHere is the final poster that I presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium, earned highest honors.\n\n\n\nCredit: Benjamin Tjepkes"
   },
@@ -592,7 +592,7 @@
     "href": "gallery/index.html#data-viz-gallery",
     "title": "My Gallery of Maps and Visualizations",
     "section": "Data Viz Gallery",
-    "text": "Data Viz Gallery\nIn addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects.\nTools & Technologies: R/RStudio, Python/Jupyter Notebook, Microsoft Excel\n\n\n\n\n\n\n\n\n\n\nMy GitHub Contributions in 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Data Viz Gallery\nIn addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects.\nTools & Technologies: R/RStudio, Python/Jupyter Notebook, Microsoft Excel\n\n\n\n\n\n\n\n\n\n\nPlotting My GitHub Contributions in 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery/index.html#poster-report-gallery",
@@ -625,49 +625,49 @@
   {
     "objectID": "gallery/missouri-bat-hcp-poster/index.html",
     "href": "gallery/missouri-bat-hcp-poster/index.html",
-    "title": "Missouri Bat HCP Overview & Update Poster Informational poster on the Missouri Bat Habitat Conservation Plan.",
+    "title": "Missouri Bat HCP Overview & Update Poster ",
     "section": "",
     "text": "Map creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
   },
   {
     "objectID": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
     "href": "gallery/missouri-bat-hcp-poster/index.html#tools-and-workflow",
-    "title": "Missouri Bat HCP Overview & Update Poster Informational poster on the Missouri Bat Habitat Conservation Plan.",
+    "title": "Missouri Bat HCP Overview & Update Poster ",
     "section": "",
     "text": "Map creation was performed using tmap and sf packages in the RStudio environment. Poster compilation was performed in Microsoft Publisher."
   },
   {
     "objectID": "gallery/missouri-bat-hcp-poster/index.html#final-result",
     "href": "gallery/missouri-bat-hcp-poster/index.html#final-result",
-    "title": "Missouri Bat HCP Overview & Update Poster Informational poster on the Missouri Bat Habitat Conservation Plan.",
+    "title": "Missouri Bat HCP Overview & Update Poster ",
     "section": "Final Result",
     "text": "Final Result\nHere is the final poster that I presented at the 2023 MDC Science Branch Conference in Potosi, Missouri."
   },
   {
     "objectID": "gallery/my-github-contributions-in-2023/index.html",
     "href": "gallery/my-github-contributions-in-2023/index.html",
-    "title": "My GitHub Contributions in 2023 ",
+    "title": "Plotting My GitHub Contributions in 2023 ",
     "section": "",
     "text": "This figure was created for Week 1 of the 2024 TidyTuesday."
   },
   {
     "objectID": "gallery/my-github-contributions-in-2023/index.html#task-objectives",
     "href": "gallery/my-github-contributions-in-2023/index.html#task-objectives",
-    "title": "My GitHub Contributions in 2023 ",
+    "title": "Plotting My GitHub Contributions in 2023 ",
     "section": "",
     "text": "This figure was created for Week 1 of the 2024 TidyTuesday."
   },
   {
     "objectID": "gallery/my-github-contributions-in-2023/index.html#tools-workflow",
     "href": "gallery/my-github-contributions-in-2023/index.html#tools-workflow",
-    "title": "My GitHub Contributions in 2023 ",
+    "title": "Plotting My GitHub Contributions in 2023 ",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\n\nData were downloaded from GitHub using the gh package in R.\nFigure production was completed in RStudio with several packages, including ggplot, tidyverse, and showtext."
+    "text": "Tools & Workflow\n\nData were downloaded from GitHub using the gh package in R.\nFigure production was completed in RStudio with several packages, including ggplot, tidyverse, and showtext.\nMy entire workflow can be found on my project GH repo."
   },
   {
     "objectID": "gallery/my-github-contributions-in-2023/index.html#final-results",
     "href": "gallery/my-github-contributions-in-2023/index.html#final-results",
-    "title": "My GitHub Contributions in 2023 ",
+    "title": "Plotting My GitHub Contributions in 2023 ",
     "section": "Final Results",
     "text": "Final Results\nHere is the resulting figure summarizing my 660 commits in 2023.\n\n\n\nCredit: Benjamin Tjepkes"
   },
@@ -760,7 +760,7 @@
     "href": "index.html",
     "title": "Hello! My name is Ben Tjepkes and I am a wildlife ecologist and data-driven geographer. ",
     "section": "",
-    "text": "Explore this site to see my work in:\n\n\n wildlife ecology\n\n\n biogeography\n\n\n geospatial\n\n\n data analytics\n\n\n climate science\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Career Pathway\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Career Experience\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\nLatest Post:  Create Annotated Bibliographies with Quarto\n\n\n\n\n\n\n\n\n\n\nLatest Visual:  Anthrome Map of the Upper Peninsula, MI\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Explore this site to see my latest works in:\n\n\n wildlife ecology\n\n\n biogeography\n\n\n geospatial\n\n\n data analytics\n\n\n climate science\n\n\n cartography\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Career Pathway\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Professional Experience\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\nLatest Post:  Create Annotated Bibliographies with Quarto\n\n\n\n\n\n\n\n\n\n\nLatest Visual:  Anthrome Map of the Upper Peninsula, MI\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/building-annotated-bibliographies-with-quarto/index.html",

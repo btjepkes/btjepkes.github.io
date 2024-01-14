@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "**of my Career Experience**"
+subtitle: "**of my Professional Experience**"
 image: ../assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg
 image-alt: Image-of-pine-trees-on-blue-background.
 # date: 2023-10-30
@@ -11,6 +11,7 @@ format:
   html:
     echo: false
     warning: false
+    css: cv.css
 listing: 
   - id: resume-links
     contents:
@@ -26,6 +27,9 @@ listing:
       - subtitle
       - image
 ---
+
+
+### View PDF versions here: {.centered}
 
 :::{#resume-links}
 :::

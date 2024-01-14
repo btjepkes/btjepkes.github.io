@@ -1,6 +1,6 @@
 ---
 title: "Poster on Bald Eagle Nest Selection Research"
-subtitle: "Research poster on bald eagle nest-site selection modeling."
+abstract: "Research poster on bald eagle nest-site selection modeling."
 date: 2023-5-16
 date-modified: "5-16-2023"
 aliases: 

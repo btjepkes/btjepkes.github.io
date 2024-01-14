@@ -10,7 +10,6 @@
 
 #intro-section strong {
   font-weight: 500;
-  font-size: 0.8em;
 }
 
 
@@ -43,10 +42,10 @@
 
 @keyframes scroll {
   0% {
-    transform: translateY(130%);
+    transform: translateY(150%);
   }
   100% {
-    transform: translateY(-700%); /* Adjust based on the number of items */
+    transform: translateY(-850%); /* Adjust based on the number of items */
   }
 }
 
