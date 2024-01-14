@@ -47,7 +47,7 @@ listing:
 
 ::: {#intro-section .column-page}
 
-**Explore this site to see my latest work in:**
+**Explore this site to see my work in:**
 
 ::: {.container}
 

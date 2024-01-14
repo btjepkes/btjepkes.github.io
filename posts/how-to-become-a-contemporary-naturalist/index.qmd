@@ -11,7 +11,6 @@ image: https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0
 image-alt: "Image-of-a-woman-standing-in-a-forest."
 ---
 
-![](https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80){.cover-image}
 
 ## Naturalists of Today
 
@@ -39,7 +38,7 @@ There are countless ways to begin learning the different sounds and songs of the
 
 ### Discover and explore your watershed.
 
-Every location on land, including where you live and work, is part of a watershed.  These large swaths of land funnel a large portion of available water to an outlet, such as a stream or bay.  One way I think of it is that every drop of water is just trying to get back to the ocean.  Take some time to identify the boundaries of your watershed (this USGS tool can help you with that).  Remember, a single property might even be within multiple watersheds.
+Every location on land, including where you live and work, is part of a watershed.  These large swaths of land funnel a large portion of available water to an outlet, such as a stream or bay.  One way I think of it is that every drop of water is just trying to get back to the ocean.  Take some time to identify the boundaries of your watershed (this [USGS tool](https://water.usgs.gov/wsc/map_index.html) can help you with that).  Remember, a single property might even be within multiple watersheds.
 
 Exploring your watershed both on the ground and via maps can give you a complete view.  Think about what goes on throughout this area and whether you would like to be downstream of it.  As you can imagine, local influences have a collective effect along this pathway, whether positive or negative.  This snowballing potential is the exact reason why land managers need to think on a landscape scale.  It also highlights the importance of entire community conservation efforts.
 

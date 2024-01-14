@@ -4,12 +4,13 @@
   font-weight: 300;
   font-size: 1.7em;
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   line-height: 1;
 }
 
 #intro-section strong {
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 0.8em;
 }
 
 

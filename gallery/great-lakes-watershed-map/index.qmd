@@ -10,8 +10,6 @@ image: img-map-11.jpg
 image-alt: "Map of Great Lakes watersheds and their pour points."
 ---
 
-![](img-map-11.jpg){.cover-image}
-
 
 ## Tools & Methods
 
@@ -20,3 +18,5 @@ This maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Ha
 ## Final Product
 
 This final map shows the watersheds for each Great Lake, including their sub-basins.
+
+![](img-map-11.jpg)

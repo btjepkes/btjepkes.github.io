@@ -6,12 +6,30 @@ image-alt: Image-of-pine-trees-on-blue-background.
 # date: 2023-10-30
 # date-modified: today
 author: ""
-description: "This page provides detailed overview of my formal education, recent professional experience, and professional skillset. Please also check out my [full CV](Tjepkes_CV_20231030_Web.pdf) for a comprehensive listing of conference presentations, professional involvement, and technical publications. My profile on [LinkedIn](https://www.linkedin.com/in/benjamintjepkes/) provides additional information as well."
+description: "This page provides detailed overview of my formal education, recent professional experience, and professional skillset. Please also check out my full CV for a comprehensive listing of conference presentations, professional involvement, and technical publications or my 1-page Resume for a shorter version. My profile on [LinkedIn](https://www.linkedin.com/in/benjamintjepkes/) also provides information."
 format:
   html:
     echo: false
     warning: false
+listing: 
+  - id: resume-links
+    contents:
+      - title: "Comprehensive CV"
+        path: Tjepkes_CV_20231030_Web.pdf
+      - title: "Shorter Resume"
+        path: Tjepkes_Resume_20240113_Web.pdf
+    type: grid
+    grid-columns: 2
+    grid-item-align: center
+    fields:
+      - title
+      - subtitle
+      - image
 ---
+
+:::{#resume-links}
+:::
+
 
 ## Formal Education
 
