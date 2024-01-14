@@ -27,6 +27,7 @@
   height: 55px;
   overflow: hidden;
   gap: 25px;
+  box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.03);
 }
 
 .item {
@@ -45,9 +46,9 @@
 
 @keyframes scroll {
   0% {
-    transform: translateY(120%);
+    transform: translateY(130%);
   }
   100% {
-    transform: translateY(-620%); /* Adjust based on the number of items */
+    transform: translateY(-700%); /* Adjust based on the number of items */
   }
 }

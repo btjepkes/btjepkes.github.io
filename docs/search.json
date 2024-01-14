@@ -1,36 +1,31 @@
 [
   {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Helpful Resources for Coding, GIS, and Beyond\n",
+    "section": "",
+    "text": "Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions."
+  },
+  {
     "objectID": "resources/index.html#resource-database",
     "href": "resources/index.html#resource-database",
     "title": "Helpful Resources for Coding, GIS, and Beyond\n",
-    "section": "Resource Database",
-    "text": "Resource Database\nUse the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions.",
-    "crumbs": [
-      "Home",
-      "Helpful Resources"
-    ]
+    "section": "",
+    "text": "Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions."
   },
   {
     "objectID": "resources/index.html#my-favorite-sources",
     "href": "resources/index.html#my-favorite-sources",
     "title": "Helpful Resources for Coding, GIS, and Beyond\n",
     "section": "My Favorite Sources",
-    "text": "My Favorite Sources\nSome of my favorite GIS data sources can be found here.",
-    "crumbs": [
-      "Home",
-      "Helpful Resources"
-    ]
+    "text": "My Favorite Sources\nSome of my favorite GIS data sources can be found here."
   },
   {
     "objectID": "resources/index.html#inspirational-works",
     "href": "resources/index.html#inspirational-works",
     "title": "Helpful Resources for Coding, GIS, and Beyond\n",
     "section": "Inspirational Works",
-    "text": "Inspirational Works\nThe following creators have provided me with inspiration in one or more of my professional projects. Each of their personal sites are included below.",
-    "crumbs": [
-      "Home",
-      "Helpful Resources"
-    ]
+    "text": "Inspirational Works\nThe following creators have provided me with inspiration in one or more of my professional projects. Each of their personal sites are included below."
   },
   {
     "objectID": "research/ruffed-grouse-drumming-log-selection/index.html",
@@ -58,11 +53,7 @@
     "href": "research/index.html",
     "title": "My Research in Spatial Ecology and GIS",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest-Site Selection Project\n\n\nThis undergraduate research project involved cleaning and analyzing bald eagle nesting records…\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nThis undergraduate research project was aimed at assessing the need for beaver flow devices on…\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nThis undergraduate research project looked at space-use and home range size differences between…\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nThis undergraduate research project was operated through the UWSP Student Chapter of The Wildlife…\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nThis undergraduate research project looked at the response of small mammals to prescribed burn…\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "My Research"
-    ]
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest-Site Selection Project\n\n\nThis undergraduate research project involved cleaning and analyzing bald eagle nesting records…\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeaver-Impacted Water Control Structures\n\n\nThis undergraduate research project was aimed at assessing the need for beaver flow devices on…\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaccoon Space-Use and Home Ranges\n\n\nThis undergraduate research project looked at space-use and home range size differences between…\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuffed Grouse Drumming Log Selection\n\n\nThis undergraduate research project was operated through the UWSP Student Chapter of The Wildlife…\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Mammal Response to Prescribed Fire\n\n\nThis undergraduate research project looked at the response of small mammals to prescribed burn…\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/bald-eagle-nest-site-selection/index.html",
@@ -93,11 +84,18 @@
     "text": "Project Reports & Datasets\nFetherston, S.C., B.W. Tjepkes, S.E. Hygnstrom, and S.L. Winter. 2020. Final Report: Bald Eagle Nest Monitoring on the Upper Mississippi River, 1990–2012. USFWS Technical Report.\nTjepkes, B.W., S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2020. Bald Eagle Nest Monitoring on the Upper Mississippi River, 1990-2012. USFWS Geospatial Dataset."
   },
   {
-    "objectID": "posts/interactive-heatmap-of-gbif-occurrences/index.html#data-background",
-    "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html#data-background",
+    "objectID": "posts/interactive-heatmap-of-gbif-occurrences/index.html",
+    "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html",
     "title": "Interactive Heatmap of GBIF Occurrences ",
-    "section": "Data Background",
-    "text": "Data Background\n\nFocal Species\nThe Greater sage grouse (Centrocercus urophasianus) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka/USFWS\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\nData Sources\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
+    "section": "",
+    "text": "The Greater sage grouse (Centrocercus urophasianus) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka/USFWS\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\n\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
+  },
+  {
+    "objectID": "posts/interactive-heatmap-of-gbif-occurrences/index.html#background",
+    "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html#background",
+    "title": "Interactive Heatmap of GBIF Occurrences ",
+    "section": "",
+    "text": "The Greater sage grouse (Centrocercus urophasianus) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka/USFWS\n\n\nSage grouse populations have declined in recent years due to habitat loss and fragmentation, leading to conservation efforts and protections being put in place to help preserve the species. Mapping where these birds have been located in recent years can show us just how much their distribution has been restricted when compared to their historic range.\n\n\n\nToday, we will pull records of sage grouse occurrences from the Global Biodiversity Information Facility. GBIF is a database of species occurrence records from sources all over the globe. rgbifis an r package that allows us to interface with the GBIF API. It includes functions for searching for taxonomic names, retrieving information on data providers, getting species occurrence records, getting counts of occurrence records, and using the GBIF tile map service to make rasters summarizing huge amounts of data."
   },
   {
     "objectID": "posts/interactive-heatmap-of-gbif-occurrences/index.html#workflow",
@@ -170,11 +168,18 @@
     "text": "Final Thoughts\nThe techniques I mentioned above are best when used in concert with one another. Together they form a healthy and resilient shoreline that looks beautiful. If you have some waterfront property, please consider using some of these methods to protect your shore.\nIn some locations, there might also be cost-share programs through local soil and water conservation entities you can take advantage of.\nUntil next time, Ben\nNote: This post was originally written for The Conservation Companion, but is now archived here."
   },
   {
+    "objectID": "posts/30-day-map-challenge-2023/index.html",
+    "href": "posts/30-day-map-challenge-2023/index.html",
+    "title": "#30DayMapChallenge - 2023 Contributions ",
+    "section": "",
+    "text": "The 30 Day Map Challenge is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.\n\n\nHere are daily prompts for 2023. Credit: 30DayMapChallenge.com"
+  },
+  {
     "objectID": "posts/30-day-map-challenge-2023/index.html#overview-of-challenge",
     "href": "posts/30-day-map-challenge-2023/index.html#overview-of-challenge",
     "title": "#30DayMapChallenge - 2023 Contributions ",
-    "section": "Overview of Challenge",
-    "text": "Overview of Challenge\nThe 30 Day Map Challenge is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.\n\n\nHere are daily prompts for 2023. Credit: 30DayMapChallenge.com"
+    "section": "",
+    "text": "The 30 Day Map Challenge is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.\n\n\nHere are daily prompts for 2023. Credit: 30DayMapChallenge.com"
   },
   {
     "objectID": "posts/30-day-map-challenge-2023/index.html#my-2023-contributions",
@@ -429,37 +434,53 @@
     "text": "Final Result\nHere is the resulting map that shows filled in contours within Peru, emphasizing the dramatic elevation change.\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
+    "objectID": "curriculum-vitae/index.html",
+    "href": "curriculum-vitae/index.html",
+    "title": "Curriculum Vitae of my Career Experience",
+    "section": "",
+    "text": "My post-secondary training and education is situated at the crossroads of wildlife ecology and geography at both the undergraduate and graduate levels. These areas of specialization resonate with me due to their comprehensive and diverse nature of study, as well as their infusion of technological solutions.\n\n        \n        \n            University of Missouri\n            2023 - Present\n            Masters [MA] - Geography\n            \n                I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis in Geographic Information Systems. My thesis project will combine my interests in ecological science, phenology, climate, and geospatial modeling.\n            \n        \n\n\n\n        \n        \n            University of Wisconsin-Stevens Point\n            2015 - 2019\n            Bachelors [BS] - Wildlife Ecology and Management\n            \n                I earned my undergraduate degree in Wildlife Ecology and Management from the University of Wisconsin-Stevens Point. My minors were completed in Biology and Geographic Information Systems."
+  },
+  {
     "objectID": "curriculum-vitae/index.html#formal-education",
     "href": "curriculum-vitae/index.html#formal-education",
     "title": "Curriculum Vitae of my Career Experience",
-    "section": "Formal Education",
-    "text": "Formal Education\nMy post-secondary training and education is situated at the crossroads of wildlife ecology and geography at both the undergraduate and graduate levels. These areas of specialization resonate with me due to their comprehensive and diverse nature of study, as well as their infusion of technological solutions.\n\n        \n        \n            University of Missouri\n            2023 - Present\n            Masters [MA] - Geography\n            \n                I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis in Geographic Information Systems. My thesis project will combine my interests in ecological science, phenology, climate, and geospatial modeling.\n            \n        \n\n\n\n        \n        \n            University of Wisconsin-Stevens Point\n            2015 - 2019\n            Bachelors [BS] - Wildlife Ecology and Management\n            \n                I earned my undergraduate degree in Wildlife Ecology and Management from the University of Wisconsin-Stevens Point. My minors were completed in Biology and Geographic Information Systems.",
-    "crumbs": [
-      "Home",
-      "Curriculum Vitae"
-    ]
+    "section": "",
+    "text": "My post-secondary training and education is situated at the crossroads of wildlife ecology and geography at both the undergraduate and graduate levels. These areas of specialization resonate with me due to their comprehensive and diverse nature of study, as well as their infusion of technological solutions.\n\n        \n        \n            University of Missouri\n            2023 - Present\n            Masters [MA] - Geography\n            \n                I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis in Geographic Information Systems. My thesis project will combine my interests in ecological science, phenology, climate, and geospatial modeling.\n            \n        \n\n\n\n        \n        \n            University of Wisconsin-Stevens Point\n            2015 - 2019\n            Bachelors [BS] - Wildlife Ecology and Management\n            \n                I earned my undergraduate degree in Wildlife Ecology and Management from the University of Wisconsin-Stevens Point. My minors were completed in Biology and Geographic Information Systems."
   },
   {
     "objectID": "curriculum-vitae/index.html#career-experience",
     "href": "curriculum-vitae/index.html#career-experience",
     "title": "Curriculum Vitae of my Career Experience",
     "section": "Career Experience",
-    "text": "Career Experience\nMy work experience over the last eight years has been in the ecological sciences and conservation GIS fields. This includes work in the academic, private, and public sectors.\n\n        \n        \n            University of Missouri\n            2023 - Present\n            Graduate Teaching Assistant - Geography Dept\n            \n                Deliver engaging instructional sessions to undergraduate students within discussion segments of a world regional geography course, concentrating on countries across Europe, Latin America, and North America. Duties include syllabus development, assignment evaluation, and overseeing course management system for 50+ students.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2022 - 2023\n            Assistant Wildlife Diversity Coordinator - Wildlife Diversity Program\n            \n                Collaborated with an inter-branch leadership team to implement the Missouri Bat Habitat Conservation Plan, serving as a technical lead for data reporting. Summarized large tabular datasets, analyzed spatial data from multiple enterprise geodatabases, and prepared data visualizations and summaries in RStudio and ArcGIS Pro for inclusion in federally mandated reports on statewide habitat management and bat monitoring.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2022 - 2022\n            Wildlife Biologist - Furbearer Program\n            \n                Served in a technical role for a statewide furbearer program, contributing to large portions of the research and management of furbearing species in Missouri. Managed large-scale data sets of furbearer harvest records, public observations, and other data into multi-dimensional relational databases, utilizing GIS mapping and programmatic software. Generated and presented informative population summaries, data visualizations, and other data-driven reports for internal and external stakeholders.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2020 - 2022\n            Assistant Natural History Biologist - Black Bear Program\n            \n                Led field and technical operations for a statewide black bear research and management program. Coordinated the monitoring of tagged black bears via ground and aerial telemetry, satellite web services, and physical capture of individuals while utilizing mobile GIS solutions for navigation and data collection. Developed and maintained black bear observation and biological databases using desktop GIS software and relational databases, ensuring the continuity of data integrity.",
-    "crumbs": [
-      "Home",
-      "Curriculum Vitae"
-    ]
+    "text": "Career Experience\nMy work experience over the last eight years has been in the ecological sciences and conservation GIS fields. This includes work in the academic, private, and public sectors.\n\n        \n        \n            University of Missouri\n            2023 - Present\n            Graduate Teaching Assistant - Geography Dept\n            \n                Deliver engaging instructional sessions to undergraduate students within discussion segments of a world regional geography course, concentrating on countries across Europe, Latin America, and North America. Duties include syllabus development, assignment evaluation, and overseeing course management system for 50+ students.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2022 - 2023\n            Assistant Wildlife Diversity Coordinator - Wildlife Diversity Program\n            \n                Collaborated with an inter-branch leadership team to implement the Missouri Bat Habitat Conservation Plan, serving as a technical lead for data reporting. Summarized large tabular datasets, analyzed spatial data from multiple enterprise geodatabases, and prepared data visualizations and summaries in RStudio and ArcGIS Pro for inclusion in federally mandated reports on statewide habitat management and bat monitoring.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2022 - 2022\n            Wildlife Biologist - Furbearer Program\n            \n                Served in a technical role for a statewide furbearer program, contributing to large portions of the research and management of furbearing species in Missouri. Managed large-scale data sets of furbearer harvest records, public observations, and other data into multi-dimensional relational databases, utilizing GIS mapping and programmatic software. Generated and presented informative population summaries, data visualizations, and other data-driven reports for internal and external stakeholders.\n            \n        \n\n\n\n        \n        \n            Missouri Department of Conservation\n            2020 - 2022\n            Assistant Natural History Biologist - Black Bear Program\n            \n                Led field and technical operations for a statewide black bear research and management program. Coordinated the monitoring of tagged black bears via ground and aerial telemetry, satellite web services, and physical capture of individuals while utilizing mobile GIS solutions for navigation and data collection. Developed and maintained black bear observation and biological databases using desktop GIS software and relational databases, ensuring the continuity of data integrity."
   },
   {
     "objectID": "curriculum-vitae/index.html#techincal-proficiencies",
     "href": "curriculum-vitae/index.html#techincal-proficiencies",
     "title": "Curriculum Vitae of my Career Experience",
     "section": "Techincal Proficiencies",
-    "text": "Techincal Proficiencies\nMy entire career has emphasized the use of technologies to organize, create, and present. I enjoy learning new skills and languages during personal and professional projects, making a point to try new workflows when I can.\n\n        \n        \n            GIS & Cartography\n            \n            \n                Spatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartographic design using QGIS and ArcGIS mapping software. Geoprocessing workflows in ArcGIS ModelBuilder and Jupyter Notebooks.\n            \n        \n\n\n\n        \n        \n            Research & Reporting\n            \n            \n                Data entry, management, and analysis using Program R, Microsoft Excel, Access, and SQL Server. Reproducible report design and development in Microsoft Word, R Markdown, and Quarto. Knowledge of scientific methods and research project development.\n            \n        \n\n\n\n        \n        \n            Design & Visualization\n            \n            \n                Front-end web development with HTML/CSS. Version control using git/GitHub. Proficient in data visualization for technical and creative projects using common R packages and Python libraries.",
-    "crumbs": [
-      "Home",
-      "Curriculum Vitae"
-    ]
+    "text": "Techincal Proficiencies\nMy entire career has emphasized the use of technologies to organize, create, and present. I enjoy learning new skills and languages during personal and professional projects, making a point to try new workflows when I can.\n\n        \n        \n            GIS & Cartography\n            \n            \n                Spatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartographic design using QGIS and ArcGIS mapping software. Geoprocessing workflows in ArcGIS ModelBuilder and Jupyter Notebooks.\n            \n        \n\n\n\n        \n        \n            Research & Reporting\n            \n            \n                Data entry, management, and analysis using Program R, Microsoft Excel, Access, and SQL Server. Reproducible report design and development in Microsoft Word, R Markdown, and Quarto. Knowledge of scientific methods and research project development.\n            \n        \n\n\n\n        \n        \n            Design & Visualization\n            \n            \n                Front-end web development with HTML/CSS. Version control using git/GitHub. Proficient in data visualization for technical and creative projects using common R packages and Python libraries."
+  },
+  {
+    "objectID": "about/index.html#current-happenings",
+    "href": "about/index.html#current-happenings",
+    "title": "About Me and My Career Pathway",
+    "section": "Current Happenings",
+    "text": "Current Happenings\n\nWhere Am I Now?\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\n\n\nRecent Works\nThis site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my professional CV for a comprehensive look.\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/index.html#my-professional-path",
+    "href": "about/index.html#my-professional-path",
+    "title": "About Me and My Career Pathway",
+    "section": "My Professional Path",
+    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program. Updates on my thesis work soon!"
+  },
+  {
+    "objectID": "about/index.html#past-endeavors",
+    "href": "about/index.html#past-endeavors",
+    "title": "About Me and My Career Pathway",
+    "section": "Past Endeavors",
+    "text": "Past Endeavors\nThis section provides an assortment of photos showing some of my past work.\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.\n\n\n\n\n\nI have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.\n\n\n\n\n\nThis is another beautiful place I was able to work in, the Ozarks of Missouri.\n\n\n\n\n\nWorking with black bears (even though this one is cinnnamon) was one of my favorite opportunties as a biologist so far."
   },
   {
     "objectID": "assets/index.html",
@@ -467,39 +488,6 @@
     "title": "Assets ",
     "section": "",
     "text": "bg-green-rivers.jpg"
-  },
-  {
-    "objectID": "about/index.html#current-happenings",
-    "href": "about/index.html#current-happenings",
-    "title": "About Me and My Career Pathway",
-    "section": "Current Happenings",
-    "text": "Current Happenings\n\nWhere Am I Now?\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\n\n\nRecent Works\nThis site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my professional CV for a comprehensive look.\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about/index.html#my-professional-path",
-    "href": "about/index.html#my-professional-path",
-    "title": "About Me and My Career Pathway",
-    "section": "My Professional Path",
-    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program. Updates on my thesis work soon!",
-    "crumbs": [
-      "Home",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about/index.html#past-endeavors",
-    "href": "about/index.html#past-endeavors",
-    "title": "About Me and My Career Pathway",
-    "section": "Past Endeavors",
-    "text": "Past Endeavors\nThis section provides an assortment of photos showing some of my past work.\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.\n\n\n\n\n\nI have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.\n\n\n\n\n\nThis is another beautiful place I was able to work in, the Ozarks of Missouri.\n\n\n\n\n\nWorking with black bears (even though this one is cinnnamon) was one of my favorite opportunties as a biologist so far.",
-    "crumbs": [
-      "Home",
-      "About Me"
-    ]
   },
   {
     "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
@@ -572,37 +560,32 @@
     "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub."
   },
   {
+    "objectID": "gallery/index.html",
+    "href": "gallery/index.html",
+    "title": "My Gallery of Maps and Visualizations",
+    "section": "",
+    "text": "Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "gallery/index.html#map-gallery",
     "href": "gallery/index.html#map-gallery",
     "title": "My Gallery of Maps and Visualizations",
-    "section": "Map Gallery",
-    "text": "Map Gallery\nMany of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\nAnthrome Map of the Upper Peninsula, MI\n\n\n\n\n\n\n\n\n\n\n\n\n\nPennsylvania Bridges from OpenStreetMap\n\n\n\n\n\n\n\n\n\n\n\n\n\nForest Cover & Happiness Bivariate Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAndes Mountains Elevation Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nMoose Sightings Across North America\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost-Secondary Institutions Hexmap\n\n\n\n\n\n\n\n\n\n\n\n\n\nHyaenidae Distribution Map for Africa\n\n\n\n\n\n\n\n\n\n\n\n\n\nTiger Range and Conservation Landscapes\n\n\n\n\n\n\n\n\n\n\n\n\n\nCanadian Ecoregions Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "My Gallery"
-    ]
+    "section": "",
+    "text": "Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me.\nTools & Technologies: ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery/index.html#data-viz-gallery",
     "href": "gallery/index.html#data-viz-gallery",
     "title": "My Gallery of Maps and Visualizations",
     "section": "Data Viz Gallery",
-    "text": "Data Viz Gallery\nIn addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects.\nTools & Technologies: R/RStudio, Python/Jupyter Notebook, Microsoft Excel\n\n\n\n\n\n\n\n\n\n\nMy GitHub Contributions in 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "My Gallery"
-    ]
+    "text": "Data Viz Gallery\nIn addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects.\nTools & Technologies: R/RStudio, Python/Jupyter Notebook, Microsoft Excel\n\n\n\n\n\n\n\n\n\n\nMy GitHub Contributions in 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery/index.html#poster-report-gallery",
     "href": "gallery/index.html#poster-report-gallery",
     "title": "My Gallery of Maps and Visualizations",
     "section": "Poster & Report Gallery",
-    "text": "Poster & Report Gallery\nMy most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues.\nTools & Technologies: R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Report\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "My Gallery"
-    ]
+    "text": "Poster & Report Gallery\nMy most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues.\nTools & Technologies: R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Report\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "gallery/michigan-anthrome-map/index.html#task-objectives",
@@ -763,17 +746,21 @@
     "href": "index.html",
     "title": "Hello! My name is Ben Tjepkes and I am a wildlife ecologist and data-driven geographer. ",
     "section": "",
-    "text": "Peruse this site to explore my latest work in:\n\n\n wildlife ecology\n\n\n biogeography\n\n\n geospatial\n\n\n data analytics\n\n\n climate science\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Career Pathway\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Career Experience\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinks & Contact\n\n\nfor Inquires or Comments\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home"
-    ]
+    "text": "Explore this site to see my latest work in:\n\n\n wildlife ecology\n\n\n biogeography\n\n\n geospatial\n\n\n data analytics\n\n\n climate science\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\non Ecology and Geospatial\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Career Pathway\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Career Experience\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/building-annotated-bibliographies-with-quarto/index.html",
+    "href": "posts/building-annotated-bibliographies-with-quarto/index.html",
+    "title": "Create Annotated Bibliographies with Quarto ",
+    "section": "",
+    "text": "An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.\nThis annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers (1) identify gaps in existing literature and (2) determine the potential contributions of their own work within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.\n\n\n\nZotero is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. Quarto is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.\nI suggest using these options because they are free, natively integrated, and highly flexible. This process allows for great flexibility, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.\nPerhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.\n\n\n\nZotero provides a reporting functionality in the desktop application by right-clicking an item, selection of items, or an entire collection, then selecting “Generate Report From…”. This option works well if you need to quickly output your citations and notes, but is limited to exporting in HTML or Rich Text formats.\nAnother alternative workflow might be to use Obsidian, a freemium note-taking software that operates on Markdown files. This application integrates very well will Zotero as well, but my personal preference is Quarto in the RStudio environment. Consider following this tutorial if you want to use Obsidian."
   },
   {
     "objectID": "posts/building-annotated-bibliographies-with-quarto/index.html#introduction",
     "href": "posts/building-annotated-bibliographies-with-quarto/index.html#introduction",
     "title": "Create Annotated Bibliographies with Quarto ",
-    "section": "Introduction",
-    "text": "Introduction\n\nWhat is an annotated bib?\nAn annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.\nThis annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers (1) identify gaps in existing literature and (2) determine the potential contributions of their own work within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.\n\n\nWhy use Zotero and Quarto?\nZotero is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. Quarto is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.\nI suggest using these options because they are free, natively integrated, and highly flexible. This process allows for great flexibility, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.\nPerhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.\n\n\nWhat are potential alternatives?\nZotero provides a reporting functionality in the desktop application by right-clicking an item, selection of items, or an entire collection, then selecting “Generate Report From…”. This option works well if you need to quickly output your citations and notes, but is limited to exporting in HTML or Rich Text formats.\nAnother alternative workflow might be to use Obsidian, a freemium note-taking software that operates on Markdown files. This application integrates very well will Zotero as well, but my personal preference is Quarto in the RStudio environment. Consider following this tutorial if you want to use Obsidian."
+    "section": "",
+    "text": "An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.\nThis annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers (1) identify gaps in existing literature and (2) determine the potential contributions of their own work within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.\n\n\n\nZotero is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. Quarto is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.\nI suggest using these options because they are free, natively integrated, and highly flexible. This process allows for great flexibility, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.\nPerhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.\n\n\n\nZotero provides a reporting functionality in the desktop application by right-clicking an item, selection of items, or an entire collection, then selecting “Generate Report From…”. This option works well if you need to quickly output your citations and notes, but is limited to exporting in HTML or Rich Text formats.\nAnother alternative workflow might be to use Obsidian, a freemium note-taking software that operates on Markdown files. This application integrates very well will Zotero as well, but my personal preference is Quarto in the RStudio environment. Consider following this tutorial if you want to use Obsidian."
   },
   {
     "objectID": "posts/building-annotated-bibliographies-with-quarto/index.html#workflow-in-zotero",
@@ -822,11 +809,7 @@
     "href": "posts/index.html",
     "title": "My Blog Posts on Ecology and Geospatial",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCreate Annotated Bibliographies with Quarto\n\n\nIn this post, I provide a semi-automated workflow for generating an annotated bibliography in…\n\n\n\nBenjamin Tjepkes\n\n\n2024-01-01\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy 2023 Highlights, Reflections, and Recap\n\n\nThis post takes a quick run through the last year of my professional life, including some of my…\n\n\n\nBenjamin Tjepkes\n\n\n2023-12-31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nThis post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily…\n\n\n\nBenjamin Tjepkes\n\n\n2023-11-01\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive Heatmap of GBIF Occurrences\n\n\nIn this blog post, we demonstrate how to use a dedicated package in R to access sage grouse…\n\n\n\nBenjamin Tjepkes\n\n\n2023-05-05\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nIn this post, we explore the fascinating ways that geospatial technologies are being used in the…\n\n\n\nBenjamin Tjepkes\n\n\n2023-03-26\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nThis blog post outlines some simple and cost-effective ways to help you start your journey as a…\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-18\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protecting Shores From Erosion\n\n\nIn this blog post, we will explore the causes of shoreline erosion and discuss some effective ways…\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-16\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "My Blog Posts"
-    ]
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCreate Annotated Bibliographies with Quarto\n\n\nIn this post, I provide a semi-automated workflow for generating an annotated bibliography in…\n\n\n\nBenjamin Tjepkes\n\n\n2024-01-01\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy 2023 Highlights, Reflections, and Recap\n\n\nThis post takes a quick run through the last year of my professional life, including some of my…\n\n\n\nBenjamin Tjepkes\n\n\n2023-12-31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nThis post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily…\n\n\n\nBenjamin Tjepkes\n\n\n2023-11-01\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive Heatmap of GBIF Occurrences\n\n\nIn this blog post, we demonstrate how to use a dedicated package in R to access sage grouse…\n\n\n\nBenjamin Tjepkes\n\n\n2023-05-05\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nIn this post, we explore the fascinating ways that geospatial technologies are being used in the…\n\n\n\nBenjamin Tjepkes\n\n\n2023-03-26\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nThis blog post outlines some simple and cost-effective ways to help you start your journey as a…\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-18\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protecting Shores From Erosion\n\n\nIn this blog post, we will explore the causes of shoreline erosion and discuss some effective ways…\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-16\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/my-2023-highlights-reflections-and-recap/index.html#transitioning-moments",

@@ -32,8 +32,8 @@ listing:
       - date
 ---
 
-![](../assets/img-geo-data-science.jpeg){.cover-image}
+<!-- ![](../assets/img-geo-data-science.jpeg){.cover-image} -->
 
-::: {#main-posts}
+::: {#main-posts }
 :::
 

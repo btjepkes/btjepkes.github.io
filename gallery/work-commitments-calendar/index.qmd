@@ -170,5 +170,4 @@ ggplot(HourTracker_ForPlot)+
 ggsave(filename = "calendar2.jpeg",
        plot = last_plot(),
        dpi = "retina")
-
 ```

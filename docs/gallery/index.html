@@ -26,13 +26,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../research/index.html" rel="next">
-<link href="../posts/index.html" rel="prev">
 <link href="../assets/logo-1.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
@@ -44,9 +43,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -167,69 +163,9 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banner Page</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        
-        #uni-banner {
-            background: #fff;
-            background-image: url(https://btjepkes.github.io/assets/bg-green-rivers.jpg);
-            /*Source: https://images-assets.nasa.gov/image/PIA10620/PIA10620~orig.jpg*/
-            background-size: cover;
-            background-attachment: fixed;
-            position: relative;
-            overflow: hidden;
-            height: 12vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            z-index: -2;
-        }
-        
-        @media screen and (max-width: 991.98px) {
-              #uni-banner {
-                  background-attachment: scroll;
-              }
-          }
-        
-        #uni-banner > svg {
-            display: inline-block;
-            vertical-align: bottom;
-            transform-origin: bottom;
-            animation: animateWave 900ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-            margin-bottom: -1px;
-        }
-        
-        @keyframes animateWave {
-              0% {
-                transform: scale(1,0);
-              }
-              100% {
-                transform: scale(1,1);
-              }
-        }
-
-        @media (max-width: 991.98px) {
-        
-                #uni-banner {
-            min-height: 10vh;
-        }
-        
-        #uni-banner > svg {
-          height: 50px !important;
-        }
-        
-        }
-
-    </style>
 <meta property="og:title" content="My Gallery | B.W. Tjepkes">
 <meta property="og:description" content="Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. Each item is separated into sub-galleries ready for your exploration: maps | data viz | presentations. My workflows span several technologies, but revolve around open-source products like RStudio, QGIS, and Quarto.">
 <meta property="og:image" content="https://btjepkes.github.io/assets/img-geospatial-cover.webp">
@@ -243,29 +179,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
-  <div id="uni-banner">
-<svg width="100%" height="200px" viewbox="0 0 1440 56" preserveaspectratio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
-    <title>Waves/wave-bottom</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Waves/wave-bottom" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M1440,18.6164191 L1440,56 L0,56 L0,19.4091149 C115.88527,18.914036 229.081162,52 655.578314,52 C1082.07547,52 1250.37725,17.9354374 1440,18.6164191 Z" id="wave" fill="#FFFFFF" opacity="0.5"></path>
-        <path d="M1440,0.616419131 L1440,56 L0,56 L0,6.40911495 C106.226448,5.95529994 313.375622,56 623.178314,56 C932.981007,56 1268.35502,-9.23705556e-14 1440,0.616419131 Z" id="wave" fill="#FFFFFF" opacity="0.25"></path>
-        <path d="M1440,31.6164191 L1440,56 L0,56 L0,35.4091149 C95.7633114,35 278.134957,56 578.778314,56 C879.421672,56 1135.89541,30.5243052 1440,31.6164191 L1440,31.6164191 Z" id="base" fill="#0f172a"></path>
-    </g>
-</svg>
-    </div>
-
-
-
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-
-
-
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -285,15 +199,15 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../about/index.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../curriculum-vitae/index.html"> 
+<span class="menu-text">Resumé</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../posts/index.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../gallery/index.html"> 
+    <a class="nav-link active" href="../gallery/index.html" aria-current="page"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
@@ -321,19 +235,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">Home</a></li><li class="breadcrumb-item"><a href="../gallery/index.html">My Gallery</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <header id="title-block-header">
@@ -356,84 +257,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
- <span class="menu-text">Site Navigation:</span>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-house-fill" role="img">
-</i> 
- <span class="menu-text">Home</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../about/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-1-square" role="img">
-</i> 
- <span class="menu-text">About Me</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../curriculum-vitae/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-2-square" role="img">
-</i> 
- <span class="menu-text">Curriculum Vitae</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../posts/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-3-square" role="img">
-</i> 
- <span class="menu-text">My Blog Posts</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../gallery/index.html" class="sidebar-item-text sidebar-link active"><i class="bi bi-4-square" role="img">
-</i> 
- <span class="menu-text">My Gallery</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../research/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-5-square" role="img">
-</i> 
- <span class="menu-text">My Research</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../resources/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-6-square" role="img">
-</i> 
- <span class="menu-text">Helpful Resources</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../contact.html" class="sidebar-item-text sidebar-link"><i class="bi bi-7-square" role="img">
-</i> 
- <span class="menu-text">Links &amp; Contact</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On This Page:</h2>
    
   <ul>
@@ -442,6 +266,10 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   <li><a href="#poster-report-gallery" id="toc-poster-report-gallery" class="nav-link" data-scroll-target="#poster-report-gallery">Poster &amp; Report Gallery</a></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -449,7 +277,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 
 
-<p><a href="../assets/img-geospatial-cover.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../assets/img-geospatial-cover.webp" class="cover-image img-fluid"></a></p>
 <!--  -->
 <section id="map-gallery" class="level2">
 <h2 data-anchor-id="map-gallery">Map Gallery</h2>
@@ -457,7 +284,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <p><strong>Tools &amp; Technologies:</strong> ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS</p>
 <div id="listing-gallery-listings-maps" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1705068359633" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
+<div class="g-col-1" data-index="0" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1705068359633" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
 <a href="../gallery/michigan-anthrome-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -471,7 +298,7 @@ Anthrome Map of the Upper Peninsula, MI
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1705071296277" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
+<div class="g-col-1" data-index="1" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1705071296277" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
 <a href="../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -485,7 +312,7 @@ Pennsylvania Bridges from OpenStreetMap
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1705069540672" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<div class="g-col-1" data-index="2" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1705069540672" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
 <a href="../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -527,7 +354,7 @@ Moose Sightings Across North America
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <a href="../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -555,7 +382,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="g-col-1" data-index="7" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
 <a href="../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -597,7 +424,7 @@ Eagle Mountain Contour Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1705072320366" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
+<div class="g-col-1" data-index="10" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1705072320366" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
 <a href="../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -639,7 +466,7 @@ Great Lakes Watersheds Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="Map Gallery,United States,Endangered Species" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1705072030931" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<div class="g-col-1" data-index="13" data-categories="Map Gallery,United States,Endangered Species" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1705072030931" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
 <a href="../gallery/endangered-species-stamp-collection-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -693,7 +520,7 @@ No matching items
 <p><strong>Tools &amp; Technologies:</strong> R/RStudio, Python/Jupyter Notebook, Microsoft Excel</p>
 <div id="listing-gallery-listings-dataviz" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Data Gallery,TidyTuesday2024" data-listing-date-sort="1704261600000" data-listing-file-modified-sort="1704302516172" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
+<div class="g-col-1" data-index="0" data-categories="Data Gallery,TidyTuesday2024" data-listing-date-sort="1704261600000" data-listing-file-modified-sort="1704302516172" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
 <a href="../gallery/my-github-contributions-in-2023/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -707,7 +534,7 @@ My GitHub Contributions in 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Data Gallery" data-listing-date-sort="1702188000000" data-listing-file-modified-sort="1703444608926" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<div class="g-col-1" data-index="1" data-categories="Data Gallery" data-listing-date-sort="1702188000000" data-listing-file-modified-sort="1703444608926" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
 <a href="../gallery/michigan-climate-trends/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -721,7 +548,7 @@ Climate Trends of the Upper Peninsula, MI
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Data Gallery" data-listing-date-sort="1698037200000" data-listing-file-modified-sort="1704303167316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1368">
+<div class="g-col-1" data-index="2" data-categories="Data Gallery" data-listing-date-sort="1698037200000" data-listing-file-modified-sort="1705176714471" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1368">
 <a href="../gallery/work-commitments-calendar/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -735,7 +562,7 @@ Weekly Work Commitments Calendar
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Data Gallery" data-listing-date-sort="1696050000000" data-listing-file-modified-sort="1704302885886" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<div class="g-col-1" data-index="3" data-categories="Data Gallery" data-listing-date-sort="1696050000000" data-listing-file-modified-sort="1704302885886" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
 <a href="../gallery/relative-coding-proficiency-chart/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -775,7 +602,7 @@ Poster on Bald Eagle Nest Selection Research
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Poster Gallery,Missouri,Mammal" data-listing-date-sort="1684386000000" data-listing-file-modified-sort="1702008911431" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+<div class="g-col-1" data-index="1" data-categories="Poster Gallery,Missouri,Mammal" data-listing-date-sort="1684386000000" data-listing-file-modified-sort="1702008911431" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
 <a href="../gallery/missouri-bat-hcp-poster/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1236,18 +1063,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../posts/index.html" class="pagination-link  aria-label=" my="" blog="" posts"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">My Blog Posts</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../research/index.html" class="pagination-link" aria-label="My Research">
-        <span class="nav-page-text">My Research</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1291,7 +1106,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","closeEffect":"zoom"});</script>
 
 
 

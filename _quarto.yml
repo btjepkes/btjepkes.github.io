@@ -8,9 +8,9 @@ website:
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
   favicon: assets/logo-1.png
-  page-navigation: true
-  back-to-top-navigation: false
-  bread-crumbs: true
+  # page-navigation: true
+  # back-to-top-navigation: false
+  # bread-crumbs: true
   search:
     location: sidebar
     type: textbox
@@ -30,10 +30,10 @@ website:
     logo: "assets/logo-051933.png"
     pinned: false
     right:
-      # - icon: house-fill
-      #   href: index.html
-      - href: about/index.qmd
-        text: About
+      # - href: about/index.qmd
+      #   text: About
+      - href: curriculum-vitae/index.qmd
+        text: Resumé
       - href: posts/index.qmd
         text: Posts
       - href: gallery/index.qmd
@@ -49,39 +49,38 @@ website:
       - icon: twitter-x
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
-  sidebar:
-    - title: "Main Nav"
-      style: floating
-      background: "#e9ecef"
-      pinned: true
-      contents: 
-        - text: "Site Navigation:"
-        - href: index.qmd
-          text: "Home"
-          icon: house-fill
-          contents: 
-            - icon: 1-square
-              href: about/index.qmd
-              text: About Me
-            - icon: 2-square
-              href: curriculum-vitae/index.qmd
-              text: Curriculum Vitae
-            - icon: 3-square
-              href: posts/index.qmd
-              text: My Blog Posts
-            - icon: 4-square
-              href: gallery/index.qmd
-              text: My Gallery
-            - icon: 5-square
-              href: research/index.qmd
-              text: My Research
-            - icon: 6-square
-              href: resources/index.qmd
-              text: Helpful Resources
-            - icon: 7-square
-              href: contact.qmd
-              text: Links & Contact
-
+  # sidebar:
+  #   - title: "Main Nav"
+  #     style: floating
+  #     background: "#e9ecef"
+  #     pinned: true
+  #     contents: 
+  #       - text: "Site Navigation:"
+  #       - href: index.qmd
+  #         text: "Home"
+  #         icon: house-fill
+  #         contents: 
+  #           - icon: 1-square
+  #             href: about/index.qmd
+  #             text: About Me
+  #           - icon: 2-square
+  #             href: curriculum-vitae/index.qmd
+  #             text: Curriculum Vitae
+  #           - icon: 3-square
+  #             href: posts/index.qmd
+  #             text: My Blog Posts
+  #           - icon: 4-square
+  #             href: gallery/index.qmd
+  #             text: My Gallery
+  #           - icon: 5-square
+  #             href: research/index.qmd
+  #             text: My Research
+  #           - icon: 6-square
+  #             href: resources/index.qmd
+  #             text: Helpful Resources
+  #           - icon: 7-square
+  #             href: contact.qmd
+  #             text: Links & Contact
   page-footer:
     center: >-
       Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
@@ -100,10 +99,8 @@ website:
       - icon: house-fill
         href: index.html
         aria-label: home page
-        
 execute:
   freeze: true
-
 format:
   html:
     author:
@@ -116,7 +113,7 @@ format:
     abstract-title: "What Is This About?"
     toc: true
     toc-title: "On This Page:"
-    toc-location: right
+    toc-location: left
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
@@ -128,14 +125,10 @@ format:
     code-link: true
     code-overflow: scroll
     grid:
-      sidebar-width: 220px
-      body-width: 1080px
-      gutter-width: 4.25vw
-      margin-width: 220px
-    filters:
-      - lightbox
+      body-width: 980px
+      gutter-width: 4vw
     lightbox: auto
-    include-in-header:
-      # - file: progress-bar.html
-      - file: header-banner.rhtml
+    # include-in-header:
+    #   - file: progress-bar.html
+      # - file: header-banner.rhtml
          

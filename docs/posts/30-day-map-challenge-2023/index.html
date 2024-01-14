@@ -23,6 +23,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
@@ -98,66 +99,7 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script><style>html{ scroll-behavior: smooth; }</style>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Banner Page</title>
-<style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        
-        #uni-banner {
-            background: #fff;
-            background-image: url(https://btjepkes.github.io/assets/bg-green-rivers.jpg);
-            /*Source: https://images-assets.nasa.gov/image/PIA10620/PIA10620~orig.jpg*/
-            background-size: cover;
-            background-attachment: fixed;
-            position: relative;
-            overflow: hidden;
-            height: 12vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            z-index: -2;
-        }
-        
-        @media screen and (max-width: 991.98px) {
-              #uni-banner {
-                  background-attachment: scroll;
-              }
-          }
-        
-        #uni-banner > svg {
-            display: inline-block;
-            vertical-align: bottom;
-            transform-origin: bottom;
-            animation: animateWave 900ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-            margin-bottom: -1px;
-        }
-        
-        @keyframes animateWave {
-              0% {
-                transform: scale(1,0);
-              }
-              100% {
-                transform: scale(1,1);
-              }
-        }
-
-        @media (max-width: 991.98px) {
-        
-                #uni-banner {
-            min-height: 10vh;
-        }
-        
-        #uni-banner > svg {
-          height: 50px !important;
-        }
-        
-        }
-
-    </style>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 <meta property="og:title" content="#30DayMapChallenge - 2023 Contributions | B.W. Tjepkes">
 <meta property="og:description" content="This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily social media challenge for the cartography community. I outline the tools I used and the data I explored along the way.">
 <meta property="og:image" content="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-my2023.png">
@@ -183,16 +125,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta name="citation_fulltext_html_url" content="https://btjepkes.github.io/posts/30-day-map-challenge-2023">
 <meta name="citation_language" content="en">
 </head>
-<body class="nav-sidebar floating nav-fixed">
-  <div id="uni-banner">
-<svg width="100%" height="200px" viewbox="0 0 1440 56" preserveaspectratio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --><title>Waves/wave-bottom</title>
-<desc>Created with Sketch.</desc><g id="Waves/wave-bottom" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M1440,18.6164191 L1440,56 L0,56 L0,19.4091149 C115.88527,18.914036 229.081162,52 655.578314,52 C1082.07547,52 1250.37725,17.9354374 1440,18.6164191 Z" id="wave" fill="#FFFFFF" opacity="0.5"></path><path d="M1440,0.616419131 L1440,56 L0,56 L0,6.40911495 C106.226448,5.95529994 313.375622,56 623.178314,56 C932.981007,56 1268.35502,-9.23705556e-14 1440,0.616419131 Z" id="wave" fill="#FFFFFF" opacity="0.25"></path><path d="M1440,31.6164191 L1440,56 L0,56 L0,35.4091149 C95.7633114,35 278.134957,56 578.778314,56 C879.421672,56 1135.89541,30.5243052 1440,31.6164191 L1440,31.6164191 Z" id="base" fill="#0f172a"></path></g></svg>
-</div>
-
-
-
-
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
@@ -209,8 +142,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
 <li class="nav-item">
-    <a class="nav-link active" href="../../about/index.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../curriculum-vitae/index.html"> 
+<span class="menu-text">Resumé</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../posts/index.html"> 
@@ -244,18 +177,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">#30DayMapChallenge - 2023 Contributions </li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav></header><!-- content --><header id="title-block-header"><div class="title-area">
+    </nav></header><!-- content --><header id="title-block-header"><div class="title-area">
     <h1 class="title">#30DayMapChallenge - 2023 Contributions </h1>
   </div>
     
@@ -272,103 +194,29 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   </div>
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-<li class="sidebar-item">
- <span class="menu-text">Site Navigation:</span>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-house-fill" role="img">
-</i> 
- <span class="menu-text">Home</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-1-square" role="img">
-</i> 
- <span class="menu-text">About Me</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../curriculum-vitae/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-2-square" role="img">
-</i> 
- <span class="menu-text">Curriculum Vitae</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../posts/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-3-square" role="img">
-</i> 
- <span class="menu-text">My Blog Posts</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../gallery/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-4-square" role="img">
-</i> 
- <span class="menu-text">My Gallery</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../research/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-5-square" role="img">
-</i> 
- <span class="menu-text">My Research</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../resources/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-6-square" role="img">
-</i> 
- <span class="menu-text">Helpful Resources</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../contact.html" class="sidebar-item-text sidebar-link"><i class="bi bi-7-square" role="img">
-</i> 
- <span class="menu-text">Links &amp; Contact</span></a>
-  </div>
-</li>
-      </ul>
-</li>
-    </ul>
-</div>
-</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On This Page:</h2>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On This Page:</h2>
    
   <ul>
 <li><a href="#overview-of-challenge" id="toc-overview-of-challenge" class="nav-link active" data-scroll-target="#overview-of-challenge">Overview of Challenge</a></li>
   <li><a href="#my-2023-contributions" id="toc-my-2023-contributions" class="nav-link" data-scroll-target="#my-2023-contributions">My 2023 Contributions</a></li>
   <li><a href="#tools-data-and-techniques" id="toc-tools-data-and-techniques" class="nav-link" data-scroll-target="#tools-data-and-techniques">Tools, Data, and Techniques</a></li>
   </ul></nav>
+</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content"><p><a href="img-30dmc-my2023.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-30dmc-my2023.png" class="cover-image img-fluid"></a></p>
-<section id="overview-of-challenge" class="level2"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
+<main class="content quarto-banner-title-block" id="quarto-document-content"><section id="overview-of-challenge" class="level2"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
 <p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
+<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
 <figcaption>Here are daily prompts for 2023. Credit: 30DayMapChallenge.com</figcaption></figure>
 </div>
 </section><section id="my-2023-contributions" class="level2"><h2 data-anchor-id="my-2023-contributions">My 2023 Contributions</h2>
 <p>Here are my contributions to the challenge. Feel free to explore the details on each map product by clicking/tapping the map previews below. I was not able to create a map for every day, but this was my first time partaking in this challenge so I am happy with how many I created.</p>
 <div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1705072320366" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1705072320366" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
 <a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -407,7 +255,7 @@ Canadian Ecoregions Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
 <a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -433,7 +281,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -472,7 +320,7 @@ Andes Mountains Elevation Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1705069540672" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1705069540672" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
 <a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -485,7 +333,7 @@ Forest Cover &amp; Happiness Bivariate Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1705071296277" data-listing-date-modified-sort="1705039200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
+<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1705071296277" data-listing-date-modified-sort="1705125600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
 <a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -963,7 +811,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
 </div>
   </div>
-</footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox","openEffect":"zoom"});</script>
+</footer><script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});</script>
 
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>

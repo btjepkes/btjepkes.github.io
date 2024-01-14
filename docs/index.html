@@ -26,6 +26,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -44,9 +45,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -138,69 +136,10 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banner Page</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        
-        #uni-banner {
-            background: #fff;
-            background-image: url(https://btjepkes.github.io/assets/bg-green-rivers.jpg);
-            /*Source: https://images-assets.nasa.gov/image/PIA10620/PIA10620~orig.jpg*/
-            background-size: cover;
-            background-attachment: fixed;
-            position: relative;
-            overflow: hidden;
-            height: 12vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            z-index: -2;
-        }
-        
-        @media screen and (max-width: 991.98px) {
-              #uni-banner {
-                  background-attachment: scroll;
-              }
-          }
-        
-        #uni-banner > svg {
-            display: inline-block;
-            vertical-align: bottom;
-            transform-origin: bottom;
-            animation: animateWave 900ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-            margin-bottom: -1px;
-        }
-        
-        @keyframes animateWave {
-              0% {
-                transform: scale(1,0);
-              }
-              100% {
-                transform: scale(1,1);
-              }
-        }
-
-        @media (max-width: 991.98px) {
-        
-                #uni-banner {
-            min-height: 10vh;
-        }
-        
-        #uni-banner > svg {
-          height: 50px !important;
-        }
-        
-        }
-
-    </style>
+<link rel="stylesheet" href="index.css">
 <meta property="og:title" content="Portfolio | B.W. Tjepkes">
 <meta property="og:description" content="I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. I have interests spanning the fields of geospatial, ecology, data science, and climate science.">
 <meta property="og:image" content="https://btjepkes.github.io/assets/img-ben-work.png">
@@ -218,30 +157,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
-  <div id="uni-banner">
-<svg width="100%" height="200px" viewbox="0 0 1440 56" preserveaspectratio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
-    <title>Waves/wave-bottom</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Waves/wave-bottom" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M1440,18.6164191 L1440,56 L0,56 L0,19.4091149 C115.88527,18.914036 229.081162,52 655.578314,52 C1082.07547,52 1250.37725,17.9354374 1440,18.6164191 Z" id="wave" fill="#FFFFFF" opacity="0.5"></path>
-        <path d="M1440,0.616419131 L1440,56 L0,56 L0,6.40911495 C106.226448,5.95529994 313.375622,56 623.178314,56 C932.981007,56 1268.35502,-9.23705556e-14 1440,0.616419131 Z" id="wave" fill="#FFFFFF" opacity="0.25"></path>
-        <path d="M1440,31.6164191 L1440,56 L0,56 L0,35.4091149 C95.7633114,35 278.134957,56 578.778314,56 C879.421672,56 1135.89541,30.5243052 1440,31.6164191 L1440,31.6164191 Z" id="base" fill="#0f172a"></path>
-    </g>
-</svg>
-    </div>
-
-
-
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="index.css">
-
-
-
+<body class="floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -261,8 +177,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about/index.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./curriculum-vitae/index.html"> 
+<span class="menu-text">Resumé</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./posts/index.html"> 
@@ -318,6 +234,10 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   </div>
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
@@ -326,9 +246,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 
 
-<p class="page-columns page-full"><a href="assets/img-ben-work.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1"><img src="assets/img-ben-work.png" class="cover-image column-body-outset img-fluid"></a></p>
-<div id="intro-section" class="column-body-outset">
-<p><strong>Peruse this site to explore my latest work in:</strong></p>
+<div id="intro-section" class="column-page">
+<p><strong>Explore this site to see my latest work in:</strong></p>
 <div class="container">
 <div class="item">
 <p><i class="fa-solid fa-otter fa-1.5x" aria-label="otter"></i> wildlife ecology</p>
@@ -347,13 +266,13 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </div>
 </div>
 </div>
-<div id="listing-site-listings-2" class="column-body-outset quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1705073248971" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
+<div id="listing-site-listings-2" class="column-page cover-image quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1705190032327" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
 <a href="./gallery/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./assets/img-geospatial-cover.webp" class="thumbnail-image card-img" style="height: 80px;" alt="Image-of-pine-trees-on-blue-background.">
+<img src="./assets/img-geospatial-cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -366,11 +285,11 @@ My Gallery
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1704991730641" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1705184965590" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
 <a href="./posts/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./assets/img-geo-data-science.jpeg" class="thumbnail-image card-img" style="height: 80px;" alt="Image-of-trees.">
+<img src="./assets/img-geo-data-science.jpeg" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-trees.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -383,11 +302,11 @@ My Blog Posts
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1704991896838" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1705190638360" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./research/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./assets/BooneCoLiDAR.png" class="thumbnail-image card-img" style="height: 80px;" alt="Image-of-pine-trees-on-blue-background.">
+<img src="./assets/BooneCoLiDAR.png" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -400,29 +319,12 @@ My Research
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1704992081226" data-listing-reading-time-sort="4" data-listing-word-count-sort="605">
-<a href="./resources/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img src="./assets/img-world-overview.png" class="thumbnail-image card-img" style="height: 80px;" alt="Image-of-pine-trees-on-blue-background.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Helpful Resources
-</h5>
-<div class="card-subtitle listing-subtitle">
-<strong>for Coding, GIS, and Beyond</strong>
-</div>
-</div>
-</div>
-</a>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
-<div id="listing-site-listings-1" class="column-body-outset quarto-listing quarto-listing-container-grid">
+<div id="listing-site-listings-1" class="column-page quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1704991686757" data-listing-reading-time-sort="3" data-listing-word-count-sort="538">
 <a href="./about/index.html" class="quarto-grid-link">
@@ -441,7 +343,7 @@ About Me
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1704992147018" data-listing-reading-time-sort="8" data-listing-word-count-sort="1512">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1705189954374" data-listing-reading-time-sort="8" data-listing-word-count-sort="1512">
 <a href="./curriculum-vitae/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -458,18 +360,18 @@ Curriculum Vitae
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1704992044963" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
-<a href="./contact.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1705184871160" data-listing-reading-time-sort="4" data-listing-word-count-sort="607">
+<a href="./resources/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./assets/bg-color-rivers.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background.">
+<img src="./assets/img-world-overview.png" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Links &amp; Contact
+Helpful Resources
 </h5>
 <div class="card-subtitle listing-subtitle">
-<strong>for Inquires or Comments</strong>
+<strong>for Coding, GIS, and Beyond</strong>
 </div>
 </div>
 </div>
@@ -936,7 +838,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom"});</script>
 
 
 

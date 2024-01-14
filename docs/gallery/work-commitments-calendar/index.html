@@ -57,6 +57,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
@@ -102,66 +103,6 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script><style>html{ scroll-behavior: smooth; }</style>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Banner Page</title>
-<style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        
-        #uni-banner {
-            background: #fff;
-            background-image: url(https://btjepkes.github.io/assets/bg-green-rivers.jpg);
-            /*Source: https://images-assets.nasa.gov/image/PIA10620/PIA10620~orig.jpg*/
-            background-size: cover;
-            background-attachment: fixed;
-            position: relative;
-            overflow: hidden;
-            height: 12vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            z-index: -2;
-        }
-        
-        @media screen and (max-width: 991.98px) {
-              #uni-banner {
-                  background-attachment: scroll;
-              }
-          }
-        
-        #uni-banner > svg {
-            display: inline-block;
-            vertical-align: bottom;
-            transform-origin: bottom;
-            animation: animateWave 900ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-            margin-bottom: -1px;
-        }
-        
-        @keyframes animateWave {
-              0% {
-                transform: scale(1,0);
-              }
-              100% {
-                transform: scale(1,1);
-              }
-        }
-
-        @media (max-width: 991.98px) {
-        
-                #uni-banner {
-            min-height: 10vh;
-        }
-        
-        #uni-banner > svg {
-          height: 50px !important;
-        }
-        
-        }
-
-    </style>
 <meta property="og:title" content="Weekly Work Commitments Calendar | B.W. Tjepkes">
 <meta property="og:description" content="This visualization, based on the elequent code example from Tanya Shapiro, shows the distribution of my work weeks in 2021 as reported on my timesheet. Production was completed in RStudio using a custom calendar function.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/work-commitments-calendar/img-calendar.jpeg">
@@ -174,15 +115,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta name="twitter:image:alt" content="A calendar displaying work commitments for 2021, highlighting important dates and events.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
-<body class="nav-sidebar floating nav-fixed">
-  <div id="uni-banner">
-<svg width="100%" height="200px" viewbox="0 0 1440 56" preserveaspectratio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com --><title>Waves/wave-bottom</title>
-<desc>Created with Sketch.</desc><g id="Waves/wave-bottom" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M1440,18.6164191 L1440,56 L0,56 L0,19.4091149 C115.88527,18.914036 229.081162,52 655.578314,52 C1082.07547,52 1250.37725,17.9354374 1440,18.6164191 Z" id="wave" fill="#FFFFFF" opacity="0.5"></path><path d="M1440,0.616419131 L1440,56 L0,56 L0,6.40911495 C106.226448,5.95529994 313.375622,56 623.178314,56 C932.981007,56 1268.35502,-9.23705556e-14 1440,0.616419131 Z" id="wave" fill="#FFFFFF" opacity="0.25"></path><path d="M1440,31.6164191 L1440,56 L0,56 L0,35.4091149 C95.7633114,35 278.134957,56 578.778314,56 C879.421672,56 1135.89541,30.5243052 1440,31.6164191 L1440,31.6164191 Z" id="base" fill="#0f172a"></path></g></svg>
-</div>
-
-
-
-
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
@@ -199,8 +132,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
 <li class="nav-item">
-    <a class="nav-link active" href="../../about/index.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../curriculum-vitae/index.html"> 
+<span class="menu-text">Resumé</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../posts/index.html"> 
@@ -234,18 +167,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Weekly Work Commitments Calendar </li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav></header><!-- content --><header id="title-block-header"><div class="title-area">
+    </nav></header><!-- content --><header id="title-block-header"><div class="title-area">
     <h1 class="title">Weekly Work Commitments Calendar </h1>
   </div>
     
@@ -262,87 +184,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   </div>
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-<li class="sidebar-item">
- <span class="menu-text">Site Navigation:</span>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-house-fill" role="img">
-</i> 
- <span class="menu-text">Home</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-1-square" role="img">
-</i> 
- <span class="menu-text">About Me</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../curriculum-vitae/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-2-square" role="img">
-</i> 
- <span class="menu-text">Curriculum Vitae</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../posts/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-3-square" role="img">
-</i> 
- <span class="menu-text">My Blog Posts</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../gallery/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-4-square" role="img">
-</i> 
- <span class="menu-text">My Gallery</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../research/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-5-square" role="img">
-</i> 
- <span class="menu-text">My Research</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../resources/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-6-square" role="img">
-</i> 
- <span class="menu-text">Helpful Resources</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../contact.html" class="sidebar-item-text sidebar-link"><i class="bi bi-7-square" role="img">
-</i> 
- <span class="menu-text">Links &amp; Contact</span></a>
-  </div>
-</li>
-      </ul>
-</li>
-    </ul>
-</div>
-</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On This Page:</h2>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On This Page:</h2>
    
   <ul>
 <li><a href="#tools-workflow" id="toc-tools-workflow" class="nav-link active" data-scroll-target="#tools-workflow">Tools &amp; Workflow</a></li>
   </ul></nav>
+</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content"><div class="quarto-figure quarto-figure-center">
@@ -352,157 +201,157 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <section id="tools-workflow" class="level2"><h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
 <p>The data for this visual were originally stored in an Excel spreadsheet that was then brought into the R environment via RStudio. Below is the entire script used for this visualization. My base code (particularly the <code>get_calendar</code> function) was based on the work of <a href="https://tanyaviz.com/">Tanya Shapiro</a>. The entire script is available below.</p>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># LOAD PACKAGES ====</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lubridate)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># LOAD DATA &amp; WRANGLE ====</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>HourTracker_Tjepkes <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"HourTracker_Tjepkes.xlsx"</span>, </span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>                                  <span class="at">sheet =</span> <span class="st">"Sheet2"</span>, <span class="at">col_types =</span> <span class="fu">c</span>(<span class="st">"date"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>,  <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>))</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>HourTracker <span class="ot">&lt;-</span> HourTracker_Tjepkes <span class="sc">%&gt;%</span> </span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(Date, <span class="st">`</span><span class="at">Total Hours</span><span class="st">`</span>)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>HourTracker<span class="sc">$</span>Date <span class="ot">&lt;-</span> <span class="fu">ymd</span>(HourTracker<span class="sc">$</span>Date)</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>HourTracker_clean <span class="ot">&lt;-</span> HourTracker <span class="sc">%&gt;%</span> </span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Description =</span> <span class="fu">case_when</span>(<span class="st">`</span><span class="at">Total Hours</span><span class="st">`</span> <span class="sc">==</span> <span class="dv">0</span> <span class="sc">~</span> <span class="st">"Day Off"</span>,</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>                                  <span class="st">`</span><span class="at">Total Hours</span><span class="st">`</span> <span class="sc">&gt;</span> <span class="dv">8</span> <span class="sc">~</span> <span class="st">"Long Day"</span>,</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>                                 <span class="st">`</span><span class="at">Total Hours</span><span class="st">`</span> <span class="sc">==</span> <span class="dv">8</span> <span class="sc">~</span> <span class="st">"Normal Day"</span>,</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>                                 <span class="st">`</span><span class="at">Total Hours</span><span class="st">`</span> <span class="sc">&lt;</span> <span class="dv">8</span> <span class="sc">~</span> <span class="st">"Short Day"</span>))</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>unique_desc <span class="ot">&lt;-</span> HourTracker_clean <span class="sc">%&gt;%</span> </span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>                  <span class="fu">distinct</span>(Description) <span class="sc">%&gt;%</span> </span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>                  <span class="fu">pull</span>(Description)</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>HourTracker_clean<span class="sc">$</span>Description <span class="ot">&lt;-</span><span class="fu">factor</span>(HourTracker_clean<span class="sc">$</span>Description,</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>                                       <span class="at">levels =</span> unique_desc)</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="co"># CALENDAR FUNCTION ====</span></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>get_calendar <span class="ot">&lt;-</span> <span class="cf">function</span>(start_date, end_date) {</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  n_days <span class="ot">&lt;-</span> <span class="fu">interval</span>(start_date,end_date)<span class="sc">/</span><span class="fu">days</span>(<span class="dv">1</span>)</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>  date<span class="ot">&lt;-</span>start_date <span class="sc">+</span> <span class="fu">days</span>(<span class="dv">0</span><span class="sc">:</span>n_days)</span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>  month_name<span class="ot">&lt;-</span><span class="fu">format</span>(date,<span class="st">"%B"</span>)</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>  month_num<span class="ot">&lt;-</span><span class="fu">format</span>(date,<span class="st">"%m"</span>)</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>  year<span class="ot">&lt;-</span><span class="fu">format</span>(date,<span class="st">"%Y"</span>)</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>  day_num<span class="ot">&lt;-</span><span class="fu">format</span>(date,<span class="st">'%d'</span>)</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>  day<span class="ot">&lt;-</span><span class="fu">wday</span>(date, <span class="at">label=</span><span class="cn">TRUE</span>)</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>  week_num<span class="ot">&lt;-</span><span class="fu">strftime</span>(date, <span class="at">format =</span> <span class="st">"%V"</span>)</span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>  cal<span class="ot">&lt;-</span><span class="fu">data.frame</span>(date, year, month_name, month_num, day_num, day, week_num)</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>  cal[cal<span class="sc">$</span>week_num<span class="sc">&gt;=</span><span class="dv">52</span> <span class="sc">&amp;</span> cal<span class="sc">$</span>month_num<span class="sc">==</span><span class="st">"01"</span>,<span class="st">"week_num"</span>]<span class="ot">=</span><span class="dv">00</span></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>  week_month<span class="ot">&lt;-</span>cal<span class="sc">%&gt;%</span> </span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    <span class="fu">group_by</span>(year,month_name, week_num)<span class="sc">%&gt;%</span></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>    <span class="fu">summarise</span>()<span class="sc">%&gt;%</span></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">week_month_num=</span><span class="fu">row_number</span>())</span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>  cal<span class="ot">&lt;-</span><span class="fu">merge</span>(cal, week_month, <span class="at">by=</span><span class="fu">c</span>(<span class="st">"month_name"</span><span class="ot">=</span><span class="st">"month_name"</span>,<span class="st">"week_num"</span><span class="ot">=</span><span class="st">"week_num"</span>,<span class="st">"year"</span><span class="ot">=</span><span class="st">"year"</span>))</span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>  cal<span class="sc">$</span>month_name<span class="ot">&lt;-</span><span class="fu">factor</span>(cal<span class="sc">$</span>month_name, <span class="at">levels=</span><span class="fu">c</span>(<span class="st">"January"</span>,<span class="st">"February"</span>,<span class="st">"March"</span>,<span class="st">"April"</span>,<span class="st">"May"</span>,<span class="st">"June"</span>,<span class="st">"July"</span>,<span class="st">"August"</span>,<span class="st">"September"</span>,<span class="st">"October"</span>,<span class="st">"November"</span>,<span class="st">"December"</span>))</span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>  cal<span class="sc">$</span>day<span class="ot">&lt;-</span><span class="fu">factor</span>(cal<span class="sc">$</span>day, <span class="at">levels=</span><span class="fu">c</span>(<span class="st">"Mon"</span>,<span class="st">"Tue"</span>,<span class="st">"Wed"</span>,<span class="st">"Thu"</span>,<span class="st">"Fri"</span>,<span class="st">"Sat"</span>,<span class="st">"Sun"</span>))</span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(cal)</span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="do">## create date range</span></span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>start_date <span class="ot">&lt;-</span> <span class="fu">as.Date</span>(<span class="st">'2021-01-01'</span>)</span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>end_date <span class="ot">&lt;-</span> <span class="fu">as.Date</span>(<span class="st">'2021-12-31'</span>)</span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="do">## create calendar</span></span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>cal<span class="ot">&lt;-</span><span class="fu">get_calendar</span>(start_date,end_date)</span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>cal <span class="sc">%&gt;%</span> <span class="fu">View</span>()</span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="co"># JOIN CALENDAR &amp; HOUR DATA ====</span></span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>HourTracker_ForPlot <span class="ot">&lt;-</span> <span class="fu">left_join</span>(cal,</span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>                                 HourTracker_clean,</span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"date"</span> <span class="ot">=</span> <span class="st">"Date"</span>))</span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="co"># CREATE PLOT</span></span>
-<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="co">#custom color palette c('#26547c', '#ef476f', '#FFBC1F', '#05C793')</span></span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>pal<span class="ot">&lt;-</span><span class="fu">c</span>(<span class="st">'#FFBC1F'</span>, <span class="st">'lightgray'</span>, <span class="st">'lightblue'</span>, <span class="st">'#05C793'</span>)</span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="co">#creating the plot</span></span>
-<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(HourTracker_ForPlot)<span class="sc">+</span></span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_tile</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> day,</span>
-<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a>                          <span class="at">y=</span>week_month_num),</span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>            <span class="at">fill=</span><span class="cn">NA</span>) <span class="sc">+</span></span>
-<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x=</span>day,</span>
-<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>                          <span class="at">y=</span>week_month_num,</span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a>                          <span class="at">label=</span>day_num),</span>
-<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>            <span class="at">color=</span><span class="st">"black"</span>) <span class="sc">+</span></span>
-<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">data =</span> HourTracker_ForPlot,</span>
-<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>             <span class="at">mapping=</span><span class="fu">aes</span>(<span class="at">x=</span>day,</span>
-<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>                         <span class="at">y=</span>week_month_num,</span>
-<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>                         <span class="at">color =</span> Description),</span>
-<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>             <span class="at">size =</span> <span class="fl">7.6</span>) <span class="sc">+</span></span>
-<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> HourTracker_ForPlot,</span>
-<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>            <span class="at">mapping=</span><span class="fu">aes</span>(<span class="at">x=</span>day,</span>
-<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a>                        <span class="at">y=</span>week_month_num,</span>
-<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>                        <span class="at">label=</span>day_num),</span>
-<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a>            <span class="at">color=</span><span class="st">"black"</span>,</span>
-<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>            <span class="at">nudge_y =</span> <span class="fl">0.04</span>,</span>
-<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>            <span class="at">size =</span> <span class="fl">3.0</span>) <span class="sc">+</span></span>
-<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_reverse</span>() <span class="sc">+</span></span>
-<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> pal,</span>
-<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a>              <span class="at">guide =</span> <span class="fu">guide_legend</span>(<span class="at">title.position  =</span><span class="st">"left"</span>,</span>
-<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a>                                   <span class="at">title.hjust =</span> <span class="fl">0.5</span>,</span>
-<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a>                                    <span class="at">title.vjust =</span> <span class="fl">0.6</span>,</span>
-<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>                                  <span class="at">title=</span><span class="st">"Type of Day:"</span>)) <span class="sc">+</span></span>
-<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_discrete</span>(<span class="at">position =</span> <span class="st">"top"</span>) <span class="sc">+</span></span>
-<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y=</span><span class="st">""</span>, <span class="at">x=</span> <span class="st">""</span>, </span>
-<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">'My 2021 Work Commitments'</span>,</span>
-<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Visualizing my yearly work schedule from January 1, 2021 to December 31, 2021"</span>,</span>
-<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"Created by Benjamin Tjepkes using R/RStudio"</span>) <span class="sc">+</span></span>
-<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>month_name, <span class="at">scales =</span> <span class="st">"free_x"</span>) <span class="sc">+</span></span>
-<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"top"</span>,</span>
-<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.ticks =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.background =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">hjust=</span><span class="fl">0.5</span>,</span>
-<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a>                              <span class="at">size=</span><span class="dv">22</span>,</span>
-<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a>                              <span class="at">face =</span> <span class="st">"bold"</span>),</span>
-<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle=</span><span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>,</span>
-<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a>                               <span class="at">size =</span> <span class="dv">12</span>,</span>
-<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a>                               <span class="at">face =</span> <span class="st">"italic"</span>,</span>
-<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a>                               <span class="at">color =</span> <span class="st">"gray30"</span>),</span>
-<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.key =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.title =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.background =</span> <span class="fu">element_rect</span>(),</span>
-<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.spacing.x =</span> <span class="fu">unit</span>(<span class="fl">0.4</span>, <span class="st">'cm'</span>),</span>
-<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">margin =</span> <span class="fu">unit</span>(<span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="sc">-</span><span class="fl">0.3</span>), <span class="st">"cm"</span>)),</span>
-<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a>    <span class="at">strip.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">'#26547c'</span>),</span>
-<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a>    <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"white"</span>, <span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="dv">12</span>),</span>
-<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>),  <span class="co"># Align x-axis text to the top</span></span>
-<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(),  <span class="co"># Remove x-axis title</span></span>
-<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.margin=</span> <span class="fu">unit</span>(<span class="fu">c</span>(<span class="fl">0.8</span>,<span class="fl">0.8</span>,<span class="fl">0.8</span>,<span class="fl">0.2</span>), <span class="st">"cm"</span>)</span>
-<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="at">filename =</span> <span class="st">"calendar2.jpeg"</span>,</span>
-<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a>       <span class="at">plot =</span> <span class="fu">last_plot</span>(),</span>
-<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a>       <span class="at">dpi =</span> <span class="st">"retina"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># LOAD PACKAGES ====</span></span>
+<span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://readxl.tidyverse.org">readxl</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://lubridate.tidyverse.org">lubridate</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># LOAD DATA &amp; WRANGLE ====</span></span>
+<span></span>
+<span><span class="va">HourTracker_Tjepkes</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://readxl.tidyverse.org/reference/read_excel.html">read_excel</a></span><span class="op">(</span><span class="st">"HourTracker_Tjepkes.xlsx"</span>, </span>
+<span>                                  sheet <span class="op">=</span> <span class="st">"Sheet2"</span>, col_types <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"date"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>,  <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span>, <span class="st">"numeric"</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span></span>
+<span><span class="va">HourTracker</span> <span class="op">&lt;-</span> <span class="va">HourTracker_Tjepkes</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">Date</span>, <span class="va">`Total Hours`</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">HourTracker</span><span class="op">$</span><span class="va">Date</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://lubridate.tidyverse.org/reference/ymd.html">ymd</a></span><span class="op">(</span><span class="va">HourTracker</span><span class="op">$</span><span class="va">Date</span><span class="op">)</span></span>
+<span></span>
+<span></span>
+<span><span class="va">HourTracker_clean</span> <span class="op">&lt;-</span> <span class="va">HourTracker</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>Description <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html">case_when</a></span><span class="op">(</span><span class="va">`Total Hours`</span> <span class="op">==</span> <span class="fl">0</span> <span class="op">~</span> <span class="st">"Day Off"</span>,</span>
+<span>                                  <span class="va">`Total Hours`</span> <span class="op">&gt;</span> <span class="fl">8</span> <span class="op">~</span> <span class="st">"Long Day"</span>,</span>
+<span>                                 <span class="va">`Total Hours`</span> <span class="op">==</span> <span class="fl">8</span> <span class="op">~</span> <span class="st">"Normal Day"</span>,</span>
+<span>                                 <span class="va">`Total Hours`</span> <span class="op">&lt;</span> <span class="fl">8</span> <span class="op">~</span> <span class="st">"Short Day"</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">unique_desc</span> <span class="op">&lt;-</span> <span class="va">HourTracker_clean</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> </span>
+<span>                  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/distinct.html">distinct</a></span><span class="op">(</span><span class="va">Description</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> </span>
+<span>                  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/pull.html">pull</a></span><span class="op">(</span><span class="va">Description</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">HourTracker_clean</span><span class="op">$</span><span class="va">Description</span> <span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/factor.html">factor</a></span><span class="op">(</span><span class="va">HourTracker_clean</span><span class="op">$</span><span class="va">Description</span>,</span>
+<span>                                       levels <span class="op">=</span> <span class="va">unique_desc</span><span class="op">)</span></span>
+<span></span>
+<span></span>
+<span><span class="co"># CALENDAR FUNCTION ====</span></span>
+<span></span>
+<span><span class="va">get_calendar</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">start_date</span>, <span class="va">end_date</span><span class="op">)</span> <span class="op">{</span></span>
+<span>  <span class="va">n_days</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://lubridate.tidyverse.org/reference/interval.html">interval</a></span><span class="op">(</span><span class="va">start_date</span>,<span class="va">end_date</span><span class="op">)</span><span class="op">/</span><span class="fu"><a href="https://lubridate.tidyverse.org/reference/period.html">days</a></span><span class="op">(</span><span class="fl">1</span><span class="op">)</span></span>
+<span>  <span class="va">date</span><span class="op">&lt;-</span><span class="va">start_date</span> <span class="op">+</span> <span class="fu"><a href="https://lubridate.tidyverse.org/reference/period.html">days</a></span><span class="op">(</span><span class="fl">0</span><span class="op">:</span><span class="va">n_days</span><span class="op">)</span></span>
+<span>  <span class="va">month_name</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/format.html">format</a></span><span class="op">(</span><span class="va">date</span>,<span class="st">"%B"</span><span class="op">)</span></span>
+<span>  <span class="va">month_num</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/format.html">format</a></span><span class="op">(</span><span class="va">date</span>,<span class="st">"%m"</span><span class="op">)</span></span>
+<span>  <span class="va">year</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/format.html">format</a></span><span class="op">(</span><span class="va">date</span>,<span class="st">"%Y"</span><span class="op">)</span></span>
+<span>  <span class="va">day_num</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/format.html">format</a></span><span class="op">(</span><span class="va">date</span>,<span class="st">'%d'</span><span class="op">)</span></span>
+<span>  <span class="va">day</span><span class="op">&lt;-</span><span class="fu"><a href="https://lubridate.tidyverse.org/reference/day.html">wday</a></span><span class="op">(</span><span class="va">date</span>, label<span class="op">=</span><span class="cn">TRUE</span><span class="op">)</span></span>
+<span>  <span class="va">week_num</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/strptime.html">strftime</a></span><span class="op">(</span><span class="va">date</span>, format <span class="op">=</span> <span class="st">"%V"</span><span class="op">)</span></span>
+<span>  <span class="va">cal</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span><span class="va">date</span>, <span class="va">year</span>, <span class="va">month_name</span>, <span class="va">month_num</span>, <span class="va">day_num</span>, <span class="va">day</span>, <span class="va">week_num</span><span class="op">)</span></span>
+<span>  <span class="va">cal</span><span class="op">[</span><span class="va">cal</span><span class="op">$</span><span class="va">week_num</span><span class="op">&gt;=</span><span class="fl">52</span> <span class="op">&amp;</span> <span class="va">cal</span><span class="op">$</span><span class="va">month_num</span><span class="op">==</span><span class="st">"01"</span>,<span class="st">"week_num"</span><span class="op">]</span><span class="op">=</span><span class="fl">00</span></span>
+<span>  </span>
+<span>  <span class="va">week_month</span><span class="op">&lt;-</span><span class="va">cal</span><span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> </span>
+<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">year</span>,<span class="va">month_name</span>, <span class="va">week_num</span><span class="op">)</span><span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarise</a></span><span class="op">(</span><span class="op">)</span><span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>week_month_num<span class="op">=</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/row_number.html">row_number</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span></span>
+<span>  </span>
+<span>  <span class="va">cal</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/merge.html">merge</a></span><span class="op">(</span><span class="va">cal</span>, <span class="va">week_month</span>, by<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"month_name"</span><span class="op">=</span><span class="st">"month_name"</span>,<span class="st">"week_num"</span><span class="op">=</span><span class="st">"week_num"</span>,<span class="st">"year"</span><span class="op">=</span><span class="st">"year"</span><span class="op">)</span><span class="op">)</span></span>
+<span>  <span class="va">cal</span><span class="op">$</span><span class="va">month_name</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/factor.html">factor</a></span><span class="op">(</span><span class="va">cal</span><span class="op">$</span><span class="va">month_name</span>, levels<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"January"</span>,<span class="st">"February"</span>,<span class="st">"March"</span>,<span class="st">"April"</span>,<span class="st">"May"</span>,<span class="st">"June"</span>,<span class="st">"July"</span>,<span class="st">"August"</span>,<span class="st">"September"</span>,<span class="st">"October"</span>,<span class="st">"November"</span>,<span class="st">"December"</span><span class="op">)</span><span class="op">)</span></span>
+<span>  <span class="va">cal</span><span class="op">$</span><span class="va">day</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/factor.html">factor</a></span><span class="op">(</span><span class="va">cal</span><span class="op">$</span><span class="va">day</span>, levels<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"Mon"</span>,<span class="st">"Tue"</span>,<span class="st">"Wed"</span>,<span class="st">"Thu"</span>,<span class="st">"Fri"</span>,<span class="st">"Sat"</span>,<span class="st">"Sun"</span><span class="op">)</span><span class="op">)</span></span>
+<span>  </span>
+<span>  <span class="kw"><a href="https://rdrr.io/r/base/function.html">return</a></span><span class="op">(</span><span class="va">cal</span><span class="op">)</span></span>
+<span>  </span>
+<span><span class="op">}</span></span>
+<span></span>
+<span><span class="co">## create date range</span></span>
+<span><span class="va">start_date</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="st">'2021-01-01'</span><span class="op">)</span></span>
+<span><span class="va">end_date</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="st">'2021-12-31'</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co">## create calendar</span></span>
+<span><span class="va">cal</span><span class="op">&lt;-</span><span class="fu">get_calendar</span><span class="op">(</span><span class="va">start_date</span>,<span class="va">end_date</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">cal</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://rdrr.io/r/utils/View.html">View</a></span><span class="op">(</span><span class="op">)</span></span>
+<span></span>
+<span></span>
+<span><span class="co"># JOIN CALENDAR &amp; HOUR DATA ====</span></span>
+<span></span>
+<span><span class="va">HourTracker_ForPlot</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">left_join</a></span><span class="op">(</span><span class="va">cal</span>,</span>
+<span>                                 <span class="va">HourTracker_clean</span>,</span>
+<span>                                 by <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"date"</span> <span class="op">=</span> <span class="st">"Date"</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># CREATE PLOT</span></span>
+<span></span>
+<span><span class="co">#custom color palette c('#26547c', '#ef476f', '#FFBC1F', '#05C793')</span></span>
+<span><span class="va">pal</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">'#FFBC1F'</span>, <span class="st">'lightgray'</span>, <span class="st">'lightblue'</span>, <span class="st">'#05C793'</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co">#creating the plot</span></span>
+<span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">HourTracker_ForPlot</span><span class="op">)</span><span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_tile.html">geom_tile</a></span><span class="op">(</span>mapping <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">day</span>,</span>
+<span>                          y<span class="op">=</span><span class="va">week_month_num</span><span class="op">)</span>,</span>
+<span>            fill<span class="op">=</span><span class="cn">NA</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  </span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_text.html">geom_text</a></span><span class="op">(</span>mapping <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x<span class="op">=</span><span class="va">day</span>,</span>
+<span>                          y<span class="op">=</span><span class="va">week_month_num</span>,</span>
+<span>                          label<span class="op">=</span><span class="va">day_num</span><span class="op">)</span>,</span>
+<span>            color<span class="op">=</span><span class="st">"black"</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  </span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">HourTracker_ForPlot</span>,</span>
+<span>             mapping<span class="op">=</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x<span class="op">=</span><span class="va">day</span>,</span>
+<span>                         y<span class="op">=</span><span class="va">week_month_num</span>,</span>
+<span>                         color <span class="op">=</span> <span class="va">Description</span><span class="op">)</span>,</span>
+<span>             size <span class="op">=</span> <span class="fl">7.6</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  </span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_text.html">geom_text</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">HourTracker_ForPlot</span>,</span>
+<span>            mapping<span class="op">=</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x<span class="op">=</span><span class="va">day</span>,</span>
+<span>                        y<span class="op">=</span><span class="va">week_month_num</span>,</span>
+<span>                        label<span class="op">=</span><span class="va">day_num</span><span class="op">)</span>,</span>
+<span>            color<span class="op">=</span><span class="st">"black"</span>,</span>
+<span>            nudge_y <span class="op">=</span> <span class="fl">0.04</span>,</span>
+<span>            size <span class="op">=</span> <span class="fl">3.0</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  </span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html">scale_y_reverse</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  </span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_manual.html">scale_color_manual</a></span><span class="op">(</span>values <span class="op">=</span> <span class="va">pal</span>,</span>
+<span>              guide <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/guide_legend.html">guide_legend</a></span><span class="op">(</span>title.position  <span class="op">=</span><span class="st">"left"</span>,</span>
+<span>                                   title.hjust <span class="op">=</span> <span class="fl">0.5</span>,</span>
+<span>                                    title.vjust <span class="op">=</span> <span class="fl">0.6</span>,</span>
+<span>                                  title<span class="op">=</span><span class="st">"Type of Day:"</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span></span>
+<span>  </span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_discrete.html">scale_x_discrete</a></span><span class="op">(</span>position <span class="op">=</span> <span class="st">"top"</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  </span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op">(</span>y<span class="op">=</span><span class="st">""</span>, x<span class="op">=</span> <span class="st">""</span>, </span>
+<span>       title <span class="op">=</span> <span class="st">'My 2021 Work Commitments'</span>,</span>
+<span>       subtitle <span class="op">=</span> <span class="st">"Visualizing my yearly work schedule from January 1, 2021 to December 31, 2021"</span>,</span>
+<span>       caption <span class="op">=</span> <span class="st">"Created by Benjamin Tjepkes using R/RStudio"</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  </span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/facet_wrap.html">facet_wrap</a></span><span class="op">(</span><span class="op">~</span><span class="va">month_name</span>, scales <span class="op">=</span> <span class="st">"free_x"</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  </span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme</a></span><span class="op">(</span></span>
+<span>    legend.position <span class="op">=</span> <span class="st">"top"</span>,</span>
+<span>    axis.text.y <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_blank</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>    axis.ticks <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_blank</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>    panel.background <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_blank</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>    plot.title <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span>hjust<span class="op">=</span><span class="fl">0.5</span>,</span>
+<span>                              size<span class="op">=</span><span class="fl">22</span>,</span>
+<span>                              face <span class="op">=</span> <span class="st">"bold"</span><span class="op">)</span>,</span>
+<span>    plot.subtitle<span class="op">=</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span>hjust <span class="op">=</span> <span class="fl">0.5</span>,</span>
+<span>                               size <span class="op">=</span> <span class="fl">12</span>,</span>
+<span>                               face <span class="op">=</span> <span class="st">"italic"</span>,</span>
+<span>                               color <span class="op">=</span> <span class="st">"gray30"</span><span class="op">)</span>,</span>
+<span>    legend.key <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_blank</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>    legend.title <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_blank</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>    legend.background <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_rect</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>    legend.spacing.x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/grid/unit.html">unit</a></span><span class="op">(</span><span class="fl">0.4</span>, <span class="st">'cm'</span><span class="op">)</span>,</span>
+<span>    legend.text <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span>margin <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/grid/unit.html">unit</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">0</span>,<span class="fl">0</span>,<span class="fl">0</span>,<span class="op">-</span><span class="fl">0.3</span><span class="op">)</span>, <span class="st">"cm"</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>    strip.background <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_rect</a></span><span class="op">(</span>fill <span class="op">=</span> <span class="st">'#26547c'</span><span class="op">)</span>,</span>
+<span>    strip.text <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span>color <span class="op">=</span> <span class="st">"white"</span>, face <span class="op">=</span> <span class="st">"bold"</span>, size <span class="op">=</span> <span class="fl">12</span><span class="op">)</span>,</span>
+<span>    axis.text.x <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span>hjust <span class="op">=</span> <span class="fl">0.5</span><span class="op">)</span>,  <span class="co"># Align x-axis text to the top</span></span>
+<span>    axis.title.x <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_blank</a></span><span class="op">(</span><span class="op">)</span>,  <span class="co"># Remove x-axis title</span></span>
+<span>    </span>
+<span>    plot.margin<span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/grid/unit.html">unit</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">0.8</span>,<span class="fl">0.8</span>,<span class="fl">0.8</span>,<span class="fl">0.2</span><span class="op">)</span>, <span class="st">"cm"</span><span class="op">)</span></span>
+<span>  <span class="op">)</span></span>
+<span></span>
+<span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggsave.html">ggsave</a></span><span class="op">(</span>filename <span class="op">=</span> <span class="st">"calendar2.jpeg"</span>,</span>
+<span>       plot <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/last_plot.html">last_plot</a></span><span class="op">(</span><span class="op">)</span>,</span>
+<span>       dpi <span class="op">=</span> <span class="st">"retina"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 
@@ -956,7 +805,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
 </div>
   </div>
-</footer><script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","loop":false});</script>
+</footer><script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"closeEffect":"zoom"});</script>
+
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

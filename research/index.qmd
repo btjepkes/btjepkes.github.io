@@ -8,7 +8,7 @@ description: "Much of my work has focused on assessing wildlife and their habita
 listing:
   contents: "*.qmd"
   type: grid
-  grid-columns: 3
+  grid-columns: 2
   image-height: 250px
   max-description-length: 100
   categories: numbered
@@ -21,4 +21,3 @@ listing:
     - image
 ---
 
-![](../assets/BooneCoLiDAR.png){.cover-image}

@@ -13,8 +13,6 @@ format:
     warning: false
 ---
 
-![](../assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg){.cover-image}
-
 ## Formal Education
 
 My post-secondary training and education is situated at the crossroads of **wildlife ecology** and **geography** at both the undergraduate and graduate levels. These areas of specialization resonate with me due to their comprehensive and diverse nature of study, as well as their infusion of technological solutions.

@@ -12,7 +12,7 @@ execute:
   warning: false
 ---
 
-![](../assets/img-world-overview.png){.cover-image}
+<!-- ![](../assets/img-world-overview.png){.cover-image} -->
 
 ## Resource Database
 

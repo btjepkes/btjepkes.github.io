@@ -19,7 +19,8 @@ listing:
     contents:
       - "about/index.qmd"
       - "curriculum-vitae/index.qmd"
-      - "contact.qmd"
+      - "resources/index.qmd"
+      # - "contact.qmd"
       # - title: "**Latest Post:** <br><br> My 2023 Contributions for the #30DayMapChallenge"
       #   path: posts/30-day-map-challenge-2023/
     type: grid
@@ -34,11 +35,9 @@ listing:
       - "gallery/index.qmd"
       - "posts/index.qmd"
       - "research/index.qmd"
-      - "resources/index.qmd"
     type: grid
     grid-item-align: center
-    grid-columns: 4
-    image-height: 80px
+    grid-columns: 3
     sort: [date]
     fields:
       - title
@@ -46,12 +45,9 @@ listing:
       - image
 ---
 
-![](assets/img-ben-work.png){.cover-image .column-body-outset}
+::: {#intro-section .column-page}
 
-
-::: {#intro-section .column-body-outset}
-
-**Peruse this site to explore my latest work in:**
+**Explore this site to see my latest work in:**
 
 ::: {.container}
 
@@ -74,8 +70,8 @@ listing:
 :::
 
 
-::: {#site-listings-2 .column-body-outset}
+::: {#site-listings-2 .column-page .cover-image}
 :::
 
-::: {#site-listings-1 .column-body-outset}
+::: {#site-listings-1 .column-page}
 :::

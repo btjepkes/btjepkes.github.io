@@ -61,6 +61,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
@@ -113,68 +114,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banner Page</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        
-        #uni-banner {
-            background: #fff;
-            background-image: url(https://btjepkes.github.io/assets/bg-green-rivers.jpg);
-            /*Source: https://images-assets.nasa.gov/image/PIA10620/PIA10620~orig.jpg*/
-            background-size: cover;
-            background-attachment: fixed;
-            position: relative;
-            overflow: hidden;
-            height: 12vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            z-index: -2;
-        }
-        
-        @media screen and (max-width: 991.98px) {
-              #uni-banner {
-                  background-attachment: scroll;
-              }
-          }
-        
-        #uni-banner > svg {
-            display: inline-block;
-            vertical-align: bottom;
-            transform-origin: bottom;
-            animation: animateWave 900ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-            margin-bottom: -1px;
-        }
-        
-        @keyframes animateWave {
-              0% {
-                transform: scale(1,0);
-              }
-              100% {
-                transform: scale(1,1);
-              }
-        }
-
-        @media (max-width: 991.98px) {
-        
-                #uni-banner {
-            min-height: 10vh;
-        }
-        
-        #uni-banner > svg {
-          height: 50px !important;
-        }
-        
-        }
-
-    </style>
 <meta property="og:title" content="Interactive Heatmap of GBIF Occurrences | B.W. Tjepkes">
 <meta property="og:description" content="In this blog post, we demonstrate how to use a dedicated package in R to access sage grouse occurrence data from the Global Biodiversity Information Facility (GBIF) and create an interactive heatmap.">
 <meta property="og:image" content="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg">
@@ -197,27 +136,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta name="citation_language" content="en">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
-  <div id="uni-banner">
-<svg width="100%" height="200px" viewbox="0 0 1440 56" preserveaspectratio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
-    <title>Waves/wave-bottom</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Waves/wave-bottom" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M1440,18.6164191 L1440,56 L0,56 L0,19.4091149 C115.88527,18.914036 229.081162,52 655.578314,52 C1082.07547,52 1250.37725,17.9354374 1440,18.6164191 Z" id="wave" fill="#FFFFFF" opacity="0.5"></path>
-        <path d="M1440,0.616419131 L1440,56 L0,56 L0,6.40911495 C106.226448,5.95529994 313.375622,56 623.178314,56 C932.981007,56 1268.35502,-9.23705556e-14 1440,0.616419131 Z" id="wave" fill="#FFFFFF" opacity="0.25"></path>
-        <path d="M1440,31.6164191 L1440,56 L0,56 L0,35.4091149 C95.7633114,35 278.134957,56 578.778314,56 C879.421672,56 1135.89541,30.5243052 1440,31.6164191 L1440,31.6164191 Z" id="base" fill="#0f172a"></path>
-    </g>
-</svg>
-    </div>
-
-
-
-
-
-
-
-
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -237,8 +156,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../../about/index.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../curriculum-vitae/index.html"> 
+<span class="menu-text">Resumé</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../posts/index.html"> 
@@ -273,19 +192,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Interactive Heatmap of GBIF Occurrences </li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <header id="title-block-header">
@@ -308,88 +214,11 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
- <span class="menu-text">Site Navigation:</span>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-house-fill" role="img">
-</i> 
- <span class="menu-text">Home</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-1-square" role="img">
-</i> 
- <span class="menu-text">About Me</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../curriculum-vitae/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-2-square" role="img">
-</i> 
- <span class="menu-text">Curriculum Vitae</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../posts/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-3-square" role="img">
-</i> 
- <span class="menu-text">My Blog Posts</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../gallery/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-4-square" role="img">
-</i> 
- <span class="menu-text">My Gallery</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../research/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-5-square" role="img">
-</i> 
- <span class="menu-text">My Research</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../resources/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-6-square" role="img">
-</i> 
- <span class="menu-text">Helpful Resources</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../contact.html" class="sidebar-item-text sidebar-link"><i class="bi bi-7-square" role="img">
-</i> 
- <span class="menu-text">Links &amp; Contact</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On This Page:</h2>
    
   <ul>
-  <li><a href="#data-background" id="toc-data-background" class="nav-link active" data-scroll-target="#data-background">Data Background</a>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a>
   <ul class="collapse">
   <li><a href="#focal-species" id="toc-focal-species" class="nav-link" data-scroll-target="#focal-species">Focal Species</a></li>
   <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">Data Sources</a></li>
@@ -403,6 +232,10 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   </ul></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -410,15 +243,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 
 
-<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-sage-grouse.jpg" class="cover-image img-fluid"></a></p>
-<section id="data-background" class="level2">
-<h2 data-anchor-id="data-background">Data Background</h2>
+<section id="background" class="level2">
+<h2 data-anchor-id="background">Background</h2>
 <section id="focal-species" class="level3">
 <h3 data-anchor-id="focal-species">Focal Species</h3>
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
 <figcaption>Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
 </figure>
 </div>
@@ -945,7 +777,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","loop":false,"descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom"});</script>
 
 
 

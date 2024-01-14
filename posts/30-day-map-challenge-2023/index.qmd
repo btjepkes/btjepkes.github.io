@@ -24,8 +24,6 @@ listing:
       - image
 ---
 
-![](img-30dmc-my2023.png){.cover-image}
-
 ## Overview of Challenge
 
 The [30 Day Map Challenge](https://30daymapchallenge.com/) is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.

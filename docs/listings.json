@@ -69,11 +69,10 @@
     "items": [
       "/about/index.html",
       "/curriculum-vitae/index.html",
-      "/contact.html",
+      "/resources/index.html",
       "/gallery/index.html",
       "/posts/index.html",
-      "/research/index.html",
-      "/resources/index.html"
+      "/research/index.html"
     ]
   },
   {
