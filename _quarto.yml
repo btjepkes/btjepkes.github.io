@@ -11,9 +11,7 @@ website:
   # page-navigation: true
   # back-to-top-navigation: false
   # bread-crumbs: true
-  search:
-    location: sidebar
-    type: textbox
+  search: false
   open-graph: true
   twitter-card:
     creator: "@BTjepkes"
@@ -30,16 +28,16 @@ website:
     logo: "assets/logo-051933.png"
     pinned: false
     right:
-      # - href: about/index.qmd
-      #   text: About
       - href: curriculum-vitae/index.qmd
-        text: Resumé
+        text: CV
       - href: posts/index.qmd
         text: Posts
       - href: gallery/index.qmd
         text: Gallery
       - href: resources/index.qmd
         text: Resources
+      - href: research/index.qmd
+        text: Research
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/
         aria-label: LinkedIn Profile
@@ -127,8 +125,8 @@ format:
     grid:
       body-width: 980px
       gutter-width: 4.2vw
-      sidebar-width: 200px
-      margin-width: 200px
+      sidebar-width: 240px
+      margin-width: 240px
     lightbox: auto
     # include-in-header:
     #   - file: progress-bar.html

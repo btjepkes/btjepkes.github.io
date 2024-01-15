@@ -13,8 +13,6 @@ image-alt: "A map of the UP's anthrome, with land use changes through time."
 # aliases:
 ---
 
-![](img-michigan-anthrome-map.png){.cover-image}
-
 ## Task & Objectives
 
 The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome).

@@ -2,13 +2,14 @@
 #intro-section {
   text-align: center;
   font-weight: 300;
-  font-size: 1.7em;
-  margin-bottom: 50px;
-  line-height: 1.4;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+  line-height: 1.2;
 }
 
 #intro-section strong {
   font-weight: 500;
+  padding: 0 10px;
 }
 
 
@@ -19,7 +20,7 @@
   align-items: center;
   background: #f1f1f1;
   border-radius: 20px;
-  height: 55px;
+  height: 50px;
   overflow: hidden;
   gap: 25px;
   box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.05);
@@ -33,7 +34,7 @@
   align-items: center;
   animation: scroll 10s linear infinite;
   font-size: 0.9em;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .fa-solid {
