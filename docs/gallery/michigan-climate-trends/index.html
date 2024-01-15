@@ -39,6 +39,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -105,6 +107,10 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link" href="../../about/index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../curriculum-vitae/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
@@ -124,21 +130,33 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <a class="nav-link" href="../../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/benjamintjepkes/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn Profile">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-links" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Links</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-links">    
+        <li>
+    <a class="dropdown-item" href="https://www.linkedin.com/in/benjamintjepkes/">
+ <span class="dropdown-text"><i class="fa-brands fa-linkedin fa-1x" aria-label="linkedin"></i> LinkedIn Profile</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/btjepkes"> <i class="bi bi-github" role="img" aria-label="GitHub Profile">
-</i> 
-<span class="menu-text"></span></a>
+        <li>
+    <a class="dropdown-item" href="https://github.com/btjepkes">
+ <span class="dropdown-text"><i class="fa-brands fa-github fa-1x" aria-label="github"></i> GitHub Repos</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/BTjepkes"> <i class="bi bi-twitter-x" role="img" aria-label="Twitter Profile">
-</i> 
-<span class="menu-text"></span></a>
+        <li>
+    <a class="dropdown-item" href="https://twitter.com/BTjepkes">
+ <span class="dropdown-text"><i class="fa-brands fa-twitter fa-1x" aria-label="twitter"></i> Twitter Profile</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.researchgate.net/profile/Benjamin-Tjepkes">
+ <span class="dropdown-text"><i class="fa-brands fa-researchgate fa-1x" aria-label="researchgate"></i> ResearchGate</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://orcid.org/0009-0002-5524-2675">
+ <span class="dropdown-text"><i class="fa-brands fa-orcid fa-1x" aria-label="orcid"></i> ORCiD Account</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -670,7 +688,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","loop":false});</script>
+<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","selector":".lightbox"});</script>
 
 
 

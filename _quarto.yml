@@ -28,6 +28,8 @@ website:
     logo: "assets/logo-051933.png"
     pinned: false
     right:
+      - href: about/index.qmd
+        text: About
       - href: curriculum-vitae/index.qmd
         text: CV
       - href: posts/index.qmd
@@ -38,15 +40,21 @@ website:
         text: Resources
       - href: research/index.qmd
         text: Research
-      - icon: linkedin
-        href: https://www.linkedin.com/in/benjamintjepkes/
-        aria-label: LinkedIn Profile
-      - icon: github
-        href: https://github.com/btjepkes
-        aria-label: GitHub Profile
-      - icon: twitter-x
-        href: https://twitter.com/BTjepkes
-        aria-label: Twitter Profile
+      - text: "Links"
+        menu:
+        - text: "{{< fa brands linkedin size=1x >}} LinkedIn Profile"
+          href: https://www.linkedin.com/in/benjamintjepkes/
+          aria-label: LinkedIn Profile
+        - text: "{{< fa brands github size=1x >}} GitHub Repos"
+          href: https://github.com/btjepkes
+          aria-label: GitHub Profile
+        - text: "{{< fa brands twitter size=1x >}} Twitter Profile"
+          href: https://twitter.com/BTjepkes
+          aria-label: Twitter Profile
+        - text: "{{< fa brands researchgate size=1x >}} ResearchGate"
+          href: https://www.researchgate.net/profile/Benjamin-Tjepkes
+        - text: "{{< fa brands orcid size=1x >}} ORCiD Account"
+          href: https://orcid.org/0009-0002-5524-2675
   # sidebar:
   #   - title: "Main Nav"
   #     style: floating

@@ -1,7 +1,7 @@
 ---
 title: "Hello! My name is **Ben Tjepkes** and I am a wildlife ecologist and data-driven geographer."
 abstract: This is my online portfolio showcasing my professional and creative works.
-description: "I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. I have interests spanning the fields of geospatial, ecology, data science, and climate science."
+description: "I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using data science and geospatial tools to conduct research in ecology and biogeography. I have interests spanning the fields of geospatial, ecology, data science, and climate science."
 date-modified: today
 image: "assets/img-ben-work.png"
 image-alt: "Image-of-trees."
@@ -24,7 +24,7 @@ listing:
       - "posts/index.qmd"
       - "research/index.qmd"
     type: grid
-    image-height: 200px
+    image-height: 150px
     grid-columns: 3
     grid-item-align: center
     fields:
@@ -48,7 +48,9 @@ listing:
 
 ::: {#intro-section .column-page}
 
-**Dive into this site to explore my most recent works in...**
+::: {#intro-section-text}
+Dive into this site to explore my most recent works in...
+:::
 
 ::: {.container}
 

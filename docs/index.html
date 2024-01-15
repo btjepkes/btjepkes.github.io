@@ -128,14 +128,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 <link rel="stylesheet" href="index.css">
 <meta property="og:title" content="Portfolio | B.W. Tjepkes">
-<meta property="og:description" content="I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. I have interests spanning the fields of geospatial, ecology, data science, and climate science.">
+<meta property="og:description" content="I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using data science and geospatial tools to conduct research in ecology and biogeography. I have interests spanning the fields of geospatial, ecology, data science, and climate science.">
 <meta property="og:image" content="https://btjepkes.github.io/assets/img-ben-work.png">
 <meta property="og:site_name" content="Benjamin Tjepkes">
 <meta property="og:image:height" content="550">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:alt" content="Image-of-trees.">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. I have interests spanning the fields of geospatial, ecology, data science, and climate science.">
+<meta name="twitter:description" content="I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using data science and geospatial tools to conduct research in ecology and biogeography. I have interests spanning the fields of geospatial, ecology, data science, and climate science.">
 <meta name="twitter:image" content="https://btjepkes.github.io/assets/img-ben-work.png">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:image-height" content="550">
@@ -164,6 +164,10 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./about/index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./curriculum-vitae/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
@@ -183,21 +187,33 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <a class="nav-link" href="./research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/benjamintjepkes/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn Profile">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-links" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Links</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-links">    
+        <li>
+    <a class="dropdown-item" href="https://www.linkedin.com/in/benjamintjepkes/">
+ <span class="dropdown-text"><i class="fa-brands fa-linkedin fa-1x" aria-label="linkedin"></i> LinkedIn Profile</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/btjepkes"> <i class="bi bi-github" role="img" aria-label="GitHub Profile">
-</i> 
-<span class="menu-text"></span></a>
+        <li>
+    <a class="dropdown-item" href="https://github.com/btjepkes">
+ <span class="dropdown-text"><i class="fa-brands fa-github fa-1x" aria-label="github"></i> GitHub Repos</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/BTjepkes"> <i class="bi bi-twitter-x" role="img" aria-label="Twitter Profile">
-</i> 
-<span class="menu-text"></span></a>
+        <li>
+    <a class="dropdown-item" href="https://twitter.com/BTjepkes">
+ <span class="dropdown-text"><i class="fa-brands fa-twitter fa-1x" aria-label="twitter"></i> Twitter Profile</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.researchgate.net/profile/Benjamin-Tjepkes">
+ <span class="dropdown-text"><i class="fa-brands fa-researchgate fa-1x" aria-label="researchgate"></i> ResearchGate</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://orcid.org/0009-0002-5524-2675">
+ <span class="dropdown-text"><i class="fa-brands fa-orcid fa-1x" aria-label="orcid"></i> ORCiD Account</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -216,7 +232,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   <div class="post-meta">
     
           <div class="description">
-        <div class="abstract">This is my online portfolio showcasing my professional and creative works.</div> I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. I have interests spanning the fields of geospatial, ecology, data science, and climate science.
+        <div class="abstract">This is my online portfolio showcasing my professional and creative works.</div> I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using data science and geospatial tools to conduct research in ecology and biogeography. I have interests spanning the fields of geospatial, ecology, data science, and climate science.
       </div>
         
     
@@ -238,7 +254,9 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 
 <div id="intro-section" class="column-page">
-<p><strong>Dive into this site to explore my most recent works in…</strong></p>
+<div id="intro-section-text">
+<p>Dive into this site to explore my most recent works in…</p>
+</div>
 <div class="container">
 <div class="item">
 <p><i class="fa-solid fa-otter fa-1.5x" aria-label="otter"></i> wildlife ecology</p>
@@ -266,7 +284,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <a href="./about/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./assets/img-ben-with-bear.jpg" class="thumbnail-image card-img" style="height: 200px;" alt="Image of Ben with an immobilized black bear at a den.">
+<img src="./assets/img-ben-with-bear.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Image of Ben with an immobilized black bear at a den.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -283,7 +301,7 @@ About Me
 <a href="./curriculum-vitae/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg" class="thumbnail-image card-img" style="height: 200px;" alt="Image-of-pine-trees-on-blue-background.">
+<img src="./assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -300,7 +318,7 @@ Curriculum Vitae
 <a href="./resources/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./assets/img-world-overview.png" class="thumbnail-image card-img" style="height: 200px;" alt="Image-of-pine-trees-on-blue-background.">
+<img src="./assets/img-world-overview.png" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -317,7 +335,7 @@ Helpful Resources
 <a href="./posts/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./assets/img-geo-data-science.jpeg" class="thumbnail-image card-img" style="height: 200px;" alt="Image-of-trees.">
+<img src="./assets/img-geo-data-science.jpeg" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-trees.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -334,7 +352,7 @@ My Blog Posts
 <a href="./gallery/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./assets/img-geospatial-cover.webp" class="thumbnail-image card-img" style="height: 200px;" alt="Image-of-pine-trees-on-blue-background.">
+<img src="./assets/img-geospatial-cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -351,7 +369,7 @@ My Gallery
 <a href="./research/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./assets/BooneCoLiDAR.png" class="thumbnail-image card-img" style="height: 200px;" alt="Image-of-pine-trees-on-blue-background.">
+<img src="./assets/BooneCoLiDAR.png" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">

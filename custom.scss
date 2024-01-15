@@ -19,7 +19,7 @@ $blue:    #2780e3 !default;
 $indigo:  #6610f2 !default;
 $purple:  #613d7c !default;
 $pink:    #e83e8c !default;
-$red:     #ff0039 !default;
+$red:     #e64946 !default;
 $orange:  #f0ad4e !default;
 $yellow:  #ff7518 !default;
 $green:   #3fb618 !default;
@@ -250,13 +250,10 @@ a {
 
 // Navbar
 
-
 .navbar {
   box-shadow: 0 0 32px rgba(15, 23, 42, 0.25);
 	border-bottom: solid 0px #1e293b;
 	background: rgba(15, 23, 42, 1.0);
-	padding-left: 0 !important;
-	padding-right: 0 !important;
   }
 
 .navbar-brand span {
@@ -285,6 +282,11 @@ a {
 
   .navbar-nav .dropdown-menu {
     min-width: 0;
+    text-align: center;
+  }
+  
+  .navbar-nav .dropdown-menu .fa-brands {
+    color: $red;
   }
 
 // Navbar - MOBILE ONLY
@@ -292,8 +294,9 @@ a {
 @media (max-width: 991.98px) {
   
   .navbar {
-  box-shadow: none;
-}
+      padding-left: 0 !important;
+	    padding-right: 0 !important;
+    }
   
   /* Social media icons */
   ul.navbar-nav:nth-child(1) .nav-link {
@@ -586,7 +589,7 @@ color: #000;
 }
 
 .quarto-grid-item {
-  border-radius: 3px;
+  border-radius: 5px;
   overflow: hidden;
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
 }

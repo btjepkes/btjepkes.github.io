@@ -7,7 +7,7 @@
   line-height: 1.2;
 }
 
-#intro-section strong {
+#intro-section-text {
   font-weight: 500;
   padding: 0 10px;
 }
@@ -37,7 +37,7 @@
   text-transform: capitalize;
 }
 
-.fa-solid {
+.container .fa-solid {
   color: #2db982;
 }
 
