@@ -15,8 +15,8 @@ listing:
     contents: "*.qmd"
     feed: true
     type: grid
-    grid-columns: 2
-    image-height: 250px
+    grid-columns: 3
+    image-height: 200px
     categories: numbered
     page-size: 6
     sort: "date desc"

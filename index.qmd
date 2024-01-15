@@ -24,6 +24,7 @@ listing:
       - "posts/index.qmd"
       - "research/index.qmd"
     type: grid
+    image-height: 200px
     grid-columns: 3
     grid-item-align: center
     fields:
@@ -47,7 +48,7 @@ listing:
 
 ::: {#intro-section .column-page}
 
-**Explore this site to see my latest works in:**
+**Dive into this site to explore my most recent works in...**
 
 ::: {.container}
 
@@ -61,13 +62,13 @@ listing:
 {{< fa layer-group size=1.5x >}} geospatial
 :::
 ::: {.item}
-{{< fa chart-area size=1.5x >}} data analytics
-:::
-::: {.item}
-{{< fa wind size=1.5x >}} climate science
+{{< fa chart-area size=1.5x >}} data science
 :::
 ::: {.item}
 {{< fa map size=1.5x >}} cartography
+:::
+::: {.item}
+{{< fa wind size=1.5x >}} climate science
 :::
 :::
 :::

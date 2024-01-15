@@ -29,7 +29,7 @@ listing:
 ---
 
 
-### View PDF versions here: {.centered}
+### View PDF versions here: {.centered .unnumbered .unlisted}
 
 :::{#resume-links}
 :::

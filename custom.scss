@@ -566,13 +566,13 @@ color: #000;
 
 .quarto-listing-filter {
   margin-bottom: 2em;
-  width: 49.5%;
+  width: 59.5%;
   margin-left: auto;
 }
 
 .quarto-listing-sort {
   margin-bottom: 2em;
-  width: 49.5%;
+  width: 39.5%;
   margin-right: auto;
 }
 
@@ -588,7 +588,7 @@ color: #000;
 .quarto-grid-item {
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: rgba(14, 37, 52, 0.1) 0px 3px 5px 0px, rgba(14, 37, 52, 0.1) 0px 1px 1px 0px;
+  box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
 }
 
     @media (max-width: 700px) {
@@ -664,15 +664,11 @@ color: #000;
     }
 
 /* FIGURES & IMAGES */
-/*
-.cover-image {
-  position: relative;
-  margin-top: -100px !important;
-  margin-bottom: 2em !important;
-  border: 2px solid rgba(255,255,255, 0.9);
-  width: 100%;
-}*/
 
+.cover-image {
+  margin-bottom: 2em !important;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+}
 
 .image-bordered {
   border-radius: 4px !important;

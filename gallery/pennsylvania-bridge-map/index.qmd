@@ -15,7 +15,10 @@ image-alt: "A point map showing the locations of all bridges in Pennsylvania."
 # aliases:
 ---
 
+::: {.column-margin}
 ![](img-PA-bridge-map.png){.cover-image}
+:::
+
 
 ## Task & Objectives
 

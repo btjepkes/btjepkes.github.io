@@ -127,7 +127,8 @@ format:
     grid:
       body-width: 980px
       gutter-width: 4.2vw
-      sidebar-width: 250px
+      sidebar-width: 200px
+      margin-width: 200px
     lightbox: auto
     # include-in-header:
     #   - file: progress-bar.html

@@ -8,7 +8,6 @@ categories:
   - R
   - Bibliography
 image: img-bib-post-cover.jpg
-title-block-banner: "#771C6D"
 ---
 
 <!-- ![](img-bib-post-cover.jpg){.cover-image} -->

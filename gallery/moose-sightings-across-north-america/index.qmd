@@ -13,7 +13,9 @@ image-alt: "A simple map showing the points that indicate moose sightings across
 # aliases:
 ---
 
+
 ![](img-moose-sightings.png){.cover-image}
+
 
 ## Task & Objectives
 
