@@ -2,7 +2,7 @@
 title: "My Blog Posts"
 title-meta: "My Blog Posts"
 pagetitle: "Blog Posts | B.W. Tjepkes"
-subtitle: "**on Ecology and Geospatial**"
+subtitle: "**and Other Organized Ramblings**"
 date-modified: today
 description-meta: "Blog Posts - Explore my writings on ecological and geospatial data science."
 citation: false

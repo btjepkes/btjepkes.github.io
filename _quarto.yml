@@ -24,6 +24,7 @@ website:
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
+  sidebar: false
   navbar:
     logo: "assets/logo-051933.png"
     pinned: false
@@ -119,7 +120,7 @@ format:
     abstract-title: "What Is This About?"
     toc: true
     toc-title: "On This Page:"
-    toc-location: left
+    toc-location: right
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
@@ -133,8 +134,8 @@ format:
     grid:
       body-width: 980px
       gutter-width: 4.2vw
-      sidebar-width: 240px
       margin-width: 240px
+      sidebar-width: 0px
     lightbox: auto
     # include-in-header:
     #   - file: progress-bar.html
