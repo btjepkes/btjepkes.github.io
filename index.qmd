@@ -30,7 +30,6 @@ listing:
     fields:
       - title
       - subtitle
-      - image
   - id: site-listings-2
     contents:
       - title: "*Latest Post:* <br> Create Annotated Bibliographies with Quarto"
@@ -75,8 +74,9 @@ Dive into this site to explore my most recent works in...
 :::
 :::
 
+::: {#site-listings-2 .column-page .index-latest}
+:::
+
 ::: {#site-listings-1 .column-page}
 :::
 
-::: {#site-listings-2 .column-page .index-latest}
-:::

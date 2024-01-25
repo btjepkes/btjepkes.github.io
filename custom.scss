@@ -254,6 +254,7 @@ a {
   box-shadow: 0 0 32px rgba(15, 23, 42, 0.25);
 	border-bottom: solid 0px #1e293b;
 	background: rgba(15, 23, 42, 1.0);
+	background-image: url("assets/noise.png");
   }
 
 .navbar-brand span {
@@ -473,6 +474,7 @@ color: #000;
   margin: auto;
   background: #0f172a;
   border-bottom: solid #1e293b 5px;
+  background-image: url("assets/noise.png");
 }
 
 .header-content-container {
@@ -592,6 +594,8 @@ color: #000;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
+  background-color: #f6fafa;
+  background-image: url("assets/noise.png");
 }
 
     @media (max-width: 700px) {
@@ -621,6 +625,7 @@ color: #000;
 
 .quarto-grid-item p.card-img-top {
   padding: 0px;
+  border-bottom: solid rgba(0, 0, 0, 0.175) 1px;
 }
 
 .quarto-grid-item p.card-img-top>img {

@@ -13,7 +13,9 @@ description: "This page is the home to many of my blog posts. The technical aspe
 listing:
   - id: main-posts
     contents: "*.qmd"
-    feed: true
+    feed: 
+      title: Benjamin Tjepkes - Blog Posts on R
+      categories: R
     type: grid
     grid-columns: 3
     image-height: 200px
