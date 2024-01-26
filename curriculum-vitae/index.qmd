@@ -16,8 +16,10 @@ listing:
   - id: resume-links
     contents:
       - title: "Comprehensive CV"
+        subtitle: "Full Academic Curriculum vitae"
         path: Tjepkes_CV_20231030_Web.pdf
       - title: "Shorter Resume"
+        subtitle: "1-Page Abbreviated Resume"
         path: Tjepkes_Resume_20240113_Web.pdf
     type: grid
     grid-columns: 2
@@ -46,7 +48,7 @@ My post-secondary training and education is situated at the crossroads of **wild
             <div class="employer">University of Missouri</div>
             <div class="cv-date">2023 - Present</div>
             <div class="position">Masters [MA] - Geography</div>
-            <div class="description">
+            <div class="cv-description">
                 <p>I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis in Geographic Information Systems. My thesis project will combine my interests in ecological science, phenology, climate, and geospatial modeling.</p>
             </div>
         </div>
@@ -58,7 +60,7 @@ My post-secondary training and education is situated at the crossroads of **wild
             <div class="employer">University of Wisconsin-Stevens Point</div>
             <div class="cv-date">2015 - 2019</div>
             <div class="position">Bachelors [BS] - Wildlife Ecology and Management</div>
-            <div class="description">
+            <div class="cv-description">
                 <p>I earned my undergraduate degree in Wildlife Ecology and Management from the University of Wisconsin-Stevens Point. My minors were completed in Biology and Geographic Information Systems.</p>
             </div>
         </div>
@@ -77,7 +79,7 @@ My work experience over the last eight years has been in the **ecological scienc
             <div class="employer">University of Missouri</div>
             <div class="cv-date">2023 - Present</div>
             <div class="position">Graduate Teaching Assistant - Geography Dept</div>
-            <div class="description">
+            <div class="cv-description">
                 <p>Deliver engaging instructional sessions to undergraduate students within discussion segments of a world regional geography course, concentrating on countries across Europe, Latin America, and North America. Duties include syllabus development, assignment evaluation, and overseeing course management system for 50+ students.</p>
             </div>
         </div>
@@ -89,7 +91,7 @@ My work experience over the last eight years has been in the **ecological scienc
             <div class="employer">Missouri Department of Conservation</div>
             <div class="cv-date">2022 - 2023</div>
             <div class="position">Assistant Wildlife Diversity Coordinator - Wildlife Diversity Program</div>
-            <div class="description">
+            <div class="cv-description">
                 <p>Collaborated with an inter-branch leadership team to implement the Missouri Bat Habitat Conservation Plan, serving as a technical lead for data reporting. Summarized large tabular datasets, analyzed spatial data from multiple enterprise geodatabases, and prepared data visualizations and summaries in RStudio and ArcGIS Pro for inclusion in federally mandated reports on statewide habitat management and bat monitoring.</p>
             </div>
         </div>
@@ -101,7 +103,7 @@ My work experience over the last eight years has been in the **ecological scienc
             <div class="employer">Missouri Department of Conservation</div>
             <div class="cv-date">2022 - 2022</div>
             <div class="position">Wildlife Biologist - Furbearer Program</div>
-            <div class="description">
+            <div class="cv-description">
                 <p>Served in a technical role for a statewide furbearer program, contributing to large portions of the research and management of furbearing species in Missouri. Managed large-scale data sets of furbearer harvest records, public observations, and other data into multi-dimensional relational databases, utilizing GIS mapping and programmatic software. Generated and presented informative population summaries, data visualizations, and other data-driven reports for internal and external stakeholders.</p>
             </div>
         </div>
@@ -113,7 +115,7 @@ My work experience over the last eight years has been in the **ecological scienc
             <div class="employer">Missouri Department of Conservation</div>
             <div class="cv-date">2020 - 2022</div>
             <div class="position">Assistant Natural History Biologist - Black Bear Program</div>
-            <div class="description">
+            <div class="cv-description">
                 <p>Led field and technical operations for a statewide black bear research and management program. Coordinated the monitoring of tagged black bears via ground and aerial telemetry, satellite web services, and physical capture of individuals while utilizing mobile GIS solutions for navigation and data collection. Developed and maintained black bear observation and biological databases using desktop GIS software and relational databases, ensuring the continuity of data integrity.</p>
             </div>
         </div>
@@ -130,7 +132,7 @@ My entire career has emphasized the use of technologies to organize, create, and
         <div class="resume-item">
             <div class="employer">GIS & Cartography</div>
             <div class="position"></div>
-            <div class="description">
+            <div class="cv-description">
                 <p>Spatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartographic design using QGIS and ArcGIS mapping software. Geoprocessing workflows in ArcGIS ModelBuilder and Jupyter Notebooks.</p>
             </div>
         </div>
@@ -141,7 +143,7 @@ My entire career has emphasized the use of technologies to organize, create, and
         <div class="resume-item">
             <div class="employer">Research & Reporting</div>
             <div class="position"></div>
-            <div class="description">
+            <div class="cv-description">
                 <p>Data entry, management, and analysis using Program R, Microsoft Excel, Access, and SQL Server. Reproducible report design and development in Microsoft Word, R Markdown, and Quarto. Knowledge of scientific methods and research project development.</p>
             </div>
         </div>
@@ -152,7 +154,7 @@ My entire career has emphasized the use of technologies to organize, create, and
         <div class="resume-item">
             <div class="employer">Design & Visualization</div>
             <div class="position"></div>
-            <div class="description">
+            <div class="cv-description">
                 <p>Front-end web development with HTML/CSS. Version control using git/GitHub. Proficient in data visualization for technical and creative projects using common R packages and Python libraries.</p>
             </div>
         </div>
