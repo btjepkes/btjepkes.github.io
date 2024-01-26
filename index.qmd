@@ -24,25 +24,25 @@ listing:
       - "posts/index.qmd"
       - "research/index.qmd"
     type: grid
-    image-height: 150px
+    image-height: 120px
     grid-columns: 3
     grid-item-align: center
     fields:
       - title
       - subtitle
+      - image
   - id: site-listings-2
     contents:
       - title: "*Latest Post:* <br> Create Annotated Bibliographies with Quarto"
-        path: posts/building-annotated-bibliographies-with-quarto/
+        path: "posts/building-annotated-bibliographies-with-quarto/index.qmd"
       - title: "*Latest Visual:* <br> Anthrome Map of the Upper Peninsula, MI"
-        path: gallery/michigan-anthrome-map/
+        path: "gallery/michigan-anthrome-map/index.qmd"
     type: grid
     grid-columns: 2
     grid-item-align: center
     fields:
       - title
       - subtitle
-      - image
 ---
 
 ::: {#intro-section .column-page}

@@ -76,7 +76,9 @@
       "/resources/index.html",
       "/posts/index.html",
       "/gallery/index.html",
-      "/research/index.html"
+      "/research/index.html",
+      "posts/building-annotated-bibliographies-with-quarto/index.html",
+      "gallery/michigan-anthrome-map/index.html"
     ]
   },
   {
