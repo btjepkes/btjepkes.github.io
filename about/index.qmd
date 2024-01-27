@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-subtitle: "**and My Career Pathway**"
+subtitle: "**and My Professional Pathway**"
 image: ../assets/img-ben-with-bear.jpg
 image-alt: "Image of Ben with an immobilized black bear at a den."
 keywords: about, about me
@@ -15,12 +15,12 @@ listing:
       - "../research/index.qmd"
       - "../posts/index.qmd"
       - "../gallery/index.qmd"
+      - "../curriculum-vitae/index.qmd"
     type: grid
-    grid-columns: 3
+    grid-columns: 2
     fields: 
       - title
       - subtitle
-      - image
 ---
 
 ![](../assets/img-ben-with-bear.jpg){.cover-image}
@@ -73,5 +73,3 @@ This section provides an assortment of photos showing some of my past work.
 ![I have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.](../assets/img-bog-trees.JPG)
 
 ![This is another beautiful place I was able to work in, the Ozarks of Missouri.](../assets/img-forest-fall.jpg)
-
-![Working with black bears (even though this one is cinnnamon) was one of my favorite opportunties as a biologist so far.](../assets/img-ben-with-bear.jpg)

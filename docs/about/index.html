@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -196,7 +196,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <header id="title-block-header">
 
   <div class="title-area">
-    <h1 class="title">About Me <strong>and My Career Pathway</strong></h1>
+    <h1 class="title">About Me <strong>and My Professional Pathway</strong></h1>
   </div>
     
   <div class="header-content-container">  
@@ -250,13 +250,24 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <h3 data-anchor-id="recent-works">Recent Works</h3>
 <p>This site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my <a href="../curriculum-vitae/index.html">professional CV</a> for a comprehensive look.</p>
 <div id="listing-site-listings" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1706053834781" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1706283935512" data-listing-reading-time-sort="8" data-listing-word-count-sort="1514">
+<a href="../curriculum-vitae/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Curriculum Vitae
+</h5>
+<div class="card-subtitle listing-subtitle">
+<strong>of my Professional Experience</strong>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1706053834781" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
 <a href="../posts/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../assets/img-geo-data-science.jpeg" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-trees.">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Blog Posts
@@ -268,12 +279,9 @@ My Blog Posts
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1705190032327" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1705190032327" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
 <a href="../gallery/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../assets/img-geospatial-cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background.">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Gallery
@@ -285,12 +293,9 @@ My Gallery
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1705190638360" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1705190638360" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../research/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../assets/BooneCoLiDAR.png" class="thumbnail-image card-img" style="height: 150px;" alt="Image-of-pine-trees-on-blue-background.">
-</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My Research
@@ -346,12 +351,6 @@ No matching items
 <figure class="figure">
 <p><a href="../assets/img-forest-fall.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" data-description="" title="This is another beautiful place I was able to work in, the Ozarks of Missouri."><img src="../assets/img-forest-fall.jpg" class="img-fluid figure-img" alt="This is another beautiful place I was able to work in, the Ozarks of Missouri."></a></p>
 <figcaption>This is another beautiful place I was able to work in, the Ozarks of Missouri.</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="../assets/img-ben-with-bear.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" data-description="" title="Working with black bears (even though this one is cinnnamon) was one of my favorite opportunties as a biologist so far."><img src="../assets/img-ben-with-bear.jpg" class="img-fluid figure-img" alt="Working with black bears (even though this one is cinnnamon) was one of my favorite opportunties as a biologist so far."></a></p>
-<figcaption>Working with black bears (even though this one is cinnnamon) was one of my favorite opportunties as a biologist so far.</figcaption>
 </figure>
 </div>
 
@@ -811,7 +810,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});</script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false});</script>
 
 
 

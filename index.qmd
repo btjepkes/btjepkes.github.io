@@ -30,7 +30,6 @@ listing:
     fields:
       - title
       - subtitle
-      - image
   - id: site-listings-2
     contents:
       - title: "*Latest Post:* <br> Create Annotated Bibliographies with Quarto"
