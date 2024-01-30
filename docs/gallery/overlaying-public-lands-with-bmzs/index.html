@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.510">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -51,6 +51,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -84,7 +85,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -194,7 +195,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-map-6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Map Credit: Benjamin Tjepkes"><img src="img-map-6.jpg" class="img-fluid figure-img" alt="Map Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-map-6.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Map Credit: Benjamin Tjepkes"><img src="img-map-6.jpg" class="img-fluid figure-img" alt="Map Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Map Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -204,18 +205,22 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 </div>
 <div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-map-7.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-description="" title="Variation 1. Map Credit: Benjamin Tjepkes"><img src="img-map-7.jpg" class="img-fluid figure-img" alt="Variation 1. Map Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-map-7.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Variation 1. Map Credit: Benjamin Tjepkes"><img src="img-map-7.jpg" class="img-fluid figure-img" alt="Variation 1. Map Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Variation 1. Map Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-map-8.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-description="" title="Variation 2. Map Credit: Benjamin Tjepkes"><img src="img-map-8.jpg" class="img-fluid figure-img" alt="Variation 2. Map Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-map-8.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="Variation 2. Map Credit: Benjamin Tjepkes"><img src="img-map-8.jpg" class="img-fluid figure-img" alt="Variation 2. Map Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Variation 2. Map Credit: Benjamin Tjepkes</figcaption>
 </figure>
+</div>
 </div>
 </div>
 </div>
@@ -225,6 +230,11 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <p>All data were pulled from internally-maintained geodatabases. Map creation was performed in ArcGIS Pro 2.9.</p>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Map Credit: Benjamin Tjepkes</span>
+<span class="glightbox-desc lightbox-desc-2">Variation 1. Map Credit: Benjamin Tjepkes</span>
+<span class="glightbox-desc lightbox-desc-3">Variation 2. Map Credit: Benjamin Tjepkes</span>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -367,27 +377,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -402,10 +391,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -414,8 +407,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -679,7 +679,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

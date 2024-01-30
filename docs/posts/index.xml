@@ -14,7 +14,7 @@
 <title>Benjamin Tjepkes - Blog Posts on R</title>
 <link>https://btjepkes.github.io/posts/</link>
 </image>
-<generator>quarto-1.4.510</generator>
+<generator>quarto-1.4.549</generator>
 <lastBuildDate>Mon, 01 Jan 2024 06:00:00 GMT</lastBuildDate>
 <item>
   <title>Create Annotated Bibliographies with Quarto </title>
@@ -53,7 +53,7 @@
 <p>Once you have your literature in Zotero you can review each article as you normally would. While doing so, add in notes and annotations that summarize the main findings, key terms, important methods, and so forth. An important note about this workflow is that each comment or annotation made on an article must be stored as an individual note item. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
+<p><a href="img-zotero-item.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
 <figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
 </figure>
 </div>
@@ -743,9 +743,10 @@ font-style: inherit;">:::</span></span></code></pre></div>
 <p>If you are interested in other cool ways to handle citations and bibliographies in Quarto, I highly suggest checking out the website of <a href="https://www.andrewheiss.com/blog/index.html#category=citations">Andrew Heiss</a>. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
 
 
+
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2024. <span>“Create Annotated Bibliographies with
 Quarto.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto">https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto</a>.
 </div></div></section></div> ]]></description>
@@ -831,7 +832,7 @@ Quarto.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/bui
 </section>
 
 
-<div id="quarto-appendix"><aside id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>MU Department of Geography: <a href="https://geography.missouri.edu/">https://geography.missouri.edu/</a>↩︎</p></li>
@@ -841,7 +842,7 @@ Quarto.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/bui
 <li id="fn5"><p>View all my challenge contributions are located here: <a href="https://btjepkes.github.io/posts/30-day-map-challenge-2023/">https://btjepkes.github.io/posts/30-day-map-challenge-2023/</a>↩︎</p></li>
 <li id="fn6"><p><a href="https://www.esri.com/en-us/lg/industry/conservation/actionable-conservation-science-for-the-global-biodiversity-framework-webinar-series">Esri Conservation Webinar Series</a> | <a href="https://community.esri.com/t5/education-events/webinar-discover-the-power-of-spatial-data-science/ev-p/1348824">Esri Power of Spatial Data Science Webinar</a>↩︎</p></li>
 </ol>
-</aside><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2023. <span>“My 2023 Highlights, Reflections, and
 Recap.”</span> December 31, 2023. <a href="https://btjepkes.github.io/posts/my-2023-highlights-reflections-and-recap">https://btjepkes.github.io/posts/my-2023-highlights-reflections-and-recap</a>.
 </div></div></section></div> ]]></description>
@@ -856,14 +857,14 @@ Recap.”</span> December 31, 2023. <a href="https://btjepkes.github.io/posts/my
   <description><![CDATA[ <section id="overview-of-challenge" class="level2"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
 <p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
+<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
 <figcaption>Here are daily prompts for 2023. Credit: 30DayMapChallenge.com</figcaption></figure>
 </div>
 </section><section id="my-2023-contributions" class="level2"><h2 data-anchor-id="my-2023-contributions">My 2023 Contributions</h2>
 <p>Here are my contributions to the challenge. Feel free to explore the details on each map product by clicking/tapping the map previews below. I was not able to create a map for every day, but this was my first time partaking in this challenge so I am happy with how many I created.</p>
 <div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1705072320366" data-listing-date-modified-sort="1706248800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1705072320366" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
 <a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -902,7 +903,7 @@ Canadian Ecoregions Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1706248800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
 <a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -928,7 +929,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1706248800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -967,7 +968,7 @@ Andes Mountains Elevation Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1705069540672" data-listing-date-modified-sort="1706248800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1705069540672" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
 <a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -980,7 +981,7 @@ Forest Cover &amp; Happiness Bivariate Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1705292878978" data-listing-date-modified-sort="1706248800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
+<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1705292878978" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
 <a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1006,7 +1007,8 @@ No matching items
 
 
 
-</section><div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
+
+</section><div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2023. <span>“#30DayMapChallenge - 2023
 Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/posts/30-day-map-challenge-2023">https://btjepkes.github.io/posts/30-day-map-challenge-2023</a>.
 </div></div></section></div> ]]></description>
@@ -1031,7 +1033,7 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 <p>The Greater sage grouse (<em>Centrocercus urophasianus</em>) is a chicken-like bird native to portions of the western United States. They are an important species for the ecosystems they inhabit by playing a key role in controlling insect populations and serving as a food source for predators (e.g., eagles, coyotes).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-description="" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
+<p><a href="img-sage-grouse.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"><img src="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="img-fluid figure-img" alt="Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS"></a></p>
 <figcaption>Greater sage grouse at lek. Photo: Pat Hnilicka/USFWS</figcaption>
 </figure>
 </div>
@@ -1154,10 +1156,11 @@ background-color: null;
 font-style: inherit;">0.1</span>)</span></code></pre></div>
 
 
+
 </section>
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2023. <span>“Interactive Heatmap of GBIF
 Occurrences.”</span> May 5, 2023. <a href="https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences">https://btjepkes.github.io/posts/interactive-heatmap-of-gbif-occurrences</a>.
 </div></div></section></div> ]]></description>
@@ -1227,7 +1230,7 @@ Occurrences.”</span> May 5, 2023. <a href="https://btjepkes.github.io/posts/in
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
 <figcaption>A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>
@@ -1246,9 +1249,10 @@ Occurrences.”</span> May 5, 2023. <a href="https://btjepkes.github.io/posts/in
 <p><em>Note: This post was originally part of The Conservation Companion, but is now archived here.</em></p>
 
 
+
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2023. <span>“How Scientists Use GIS to Study
 Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife">https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife</a>.
 </div></div></section></div> ]]></description>
@@ -1287,7 +1291,7 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 <p>Many birds enjoy making their presence known through song. This allows us to identify individuals down to the species without laying eyes on them. Common birds, like the American robin (Turdus migratorius), can usually be heard readily in most yards. Why not just learn how to identify them by sight? Well, that’s certainly something to work on too, but oftentimes you will only be able to hear the birds and not see them. This is especially true for birds that spend most of their time in the tree canopy.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-1" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img" alt="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."></a></p>
+<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img" alt="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."></a></p>
 <figcaption>Along with a keen ear, a good set of binoculars are an excellent compliment when birding.</figcaption>
 </figure>
 </div>
@@ -1303,7 +1307,7 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 <p>Whether you are ordering pizza or trying to identify an unknown plant, there is an app out there for you. Most popular apps are available on both iOS and Android, so accessing them should not be much trouble. Some even have the ability to download content for offline use, so you can still use the app while away from cell service.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-description="" data-gallery="quarto-lightbox-gallery-2" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img" alt="Many apps provide ways of capturing data offline, then uploading once connected again."></a></p>
+<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img" alt="Many apps provide ways of capturing data offline, then uploading once connected again."></a></p>
 <figcaption>Many apps provide ways of capturing data offline, then uploading once connected again.</figcaption>
 </figure>
 </div>
@@ -1350,9 +1354,10 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 <p><em>Note: This post was originally part of The Conservation Companion, but is now archived here.</em></p>
 
 
+
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2022" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2022" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2022. <span>“How to Become a Contemporary
 Naturalist.”</span> October 18, 2022. <a href="https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist">https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist</a>.
 </div></div></section></div> ]]></description>
@@ -1457,7 +1462,7 @@ Naturalist.”</span> October 18, 2022. <a href="https://btjepkes.github.io/post
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2022" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2022" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2022. <span>“Naturally Protecting Shores From
 Erosion.”</span> October 16, 2022. <a href="https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion">https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion</a>.
 </div></div></section></div> ]]></description>

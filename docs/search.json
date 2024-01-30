@@ -102,7 +102,7 @@
     "href": "posts/interactive-heatmap-of-gbif-occurrences/index.html#workflow",
     "title": "Interactive Heatmap of GBIF Occurrences ",
     "section": "Workflow",
-    "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\n1# install.packages(\"rgbif\")\nlibrary(rgbif)\n2# install.packages(\"leaflet\")\nlibrary(leaflet)\n3# install.packages(\"leaflet.extras\")\nlibrary(leaflet.extras)\n\n1\n\nFor accessing GBIF data. Install if necessary.\n\n2\n\nFor mapping data interactively. Install if necessary.\n\n3\n\nFor the heatmap functionality. Install if necessary.\n\n\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States. Using the taxonomic name for the species, we can double check the metadata before moving forward.\n1grouse_info &lt;- name_backbone(\"Centrocercus urophasianus\")\n2grouse_info\n\n1\n\nThis function allows us to see the taxonomic information for our focal species.\n\n2\n\nThis prints that information to the console.\n\n\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords &lt;- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nNow that the coordinates of each record are stored as a spatial object, we can use the leaflet package to create an interactive map.\nleaflet(wyoming_coords) %&gt;% \n  addTiles() %&gt;%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)"
+    "text": "Workflow\n\n1. Load Packages\nOur first task is to prepare our RStudio work space by installing and/or loading the necessary packages. All of these are available through CRAN and can be installed through the install.packages() function.\n1# install.packages(\"rgbif\")\nlibrary(rgbif)\n2# install.packages(\"leaflet\")\nlibrary(leaflet)\n3# install.packages(\"leaflet.extras\")\nlibrary(leaflet.extras)\n\n1\n\nFor accessing GBIF data. Install if necessary.\n\n2\n\nFor mapping data interactively. Install if necessary.\n\n3\n\nFor the heatmap functionality. Install if necessary.\n\n\n\n\n2. Search GBIF\nNow that our packages are loaded and ready to use, we can begin the process of data import and exploration. In this case, we are looking for occurrence records for sage grouse in the United States. Using the taxonomic name for the species, we can double check the metadata before moving forward.\n1grouse_info &lt;- name_backbone(\"Centrocercus urophasianus\")\n2grouse_info\n\n1\n\nThis function allows us to see the taxonomic information for our focal species.\n\n2\n\nThis prints that information to the console.\n\n\n\n\n3. Extract Locations\nAs we explore our newly loaded dataframe, you will see there are two columns\nwyoming_coords &lt;- wyoming$data[, c(\"decimalLatitude\", \"decimalLongitude\")]\n\n\n4. Create Heatmap\nNow that the coordinates of each record are stored as a spatial object, we can use the leaflet package to create an interactive map.\nleaflet(wyoming_coords) %&gt;% \n  addTiles() %&gt;%\n  addHeatmap(lng = ~decimalLongitude,\n             lat = ~decimalLatitude,\n             blur = 20,\n             max = 0.1)\n\n\n\nGreater sage grouse at lek. Photo: Pat Hnilicka/USFWS"
   },
   {
     "objectID": "posts/how-to-become-a-contemporary-naturalist/index.html",
@@ -130,7 +130,7 @@
     "href": "posts/how-to-become-a-contemporary-naturalist/index.html#final-thoughts",
     "title": "How to Become a Contemporary Naturalist ",
     "section": "Final Thoughts",
-    "text": "Final Thoughts\nWhile this is neither a required list nor a comprehensive one, I hope you are able to try some of these activities and begin to share them with family and friends. I happily welcome comments from readers with more suggestions.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here."
+    "text": "Final Thoughts\nWhile this is neither a required list nor a comprehensive one, I hope you are able to try some of these activities and begin to share them with family and friends. I happily welcome comments from readers with more suggestions.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here.\n\n\n\nAlong with a keen ear, a good set of binoculars are an excellent compliment when birding.\nMany apps provide ways of capturing data offline, then uploading once connected again."
   },
   {
     "objectID": "posts/can-you-naturally-protect-shores-from-erosion/index.html#erosion-is-a-two-sided-story",
@@ -200,7 +200,7 @@
     "href": "posts/30-day-map-challenge-2023/index.html#tools-data-and-techniques",
     "title": "#30DayMapChallenge - 2023 Contributions ",
     "section": "Tools, Data, and Techniques",
-    "text": "Tools, Data, and Techniques\nHere is some general information on the software, data sources, and cartographic techniques I used to create maps for this challenge. See the detailed overviews of each map for an in-depth acknowledgement of these attributes.\nTools – ArcGIS Pro 3.2, R/RStudio using primarily the ggplot, osmdata, rnaturalearth, and sf packages.\nData – OpenStreetMap, Esri Living Atlas, Natural Earth, and the IUCN.\nTechniques/Styles – Graduated symbols, choropleth, hexbin, bivariate, polygon overlay with blending, and contour creation from a digital elevation model (DEM)."
+    "text": "Tools, Data, and Techniques\nHere is some general information on the software, data sources, and cartographic techniques I used to create maps for this challenge. See the detailed overviews of each map for an in-depth acknowledgement of these attributes.\nTools – ArcGIS Pro 3.2, R/RStudio using primarily the ggplot, osmdata, rnaturalearth, and sf packages.\nData – OpenStreetMap, Esri Living Atlas, Natural Earth, and the IUCN.\nTechniques/Styles – Graduated symbols, choropleth, hexbin, bivariate, polygon overlay with blending, and contour creation from a digital elevation model (DEM).\n\n\n\n\nHere are daily prompts for 2023. Credit: 30DayMapChallenge.com"
   },
   {
     "objectID": "gallery/work-commitments-calendar/index.html",
@@ -214,7 +214,7 @@
     "href": "gallery/work-commitments-calendar/index.html#tools-workflow",
     "title": "Weekly Work Commitments Calendar ",
     "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nThe data for this visual were originally stored in an Excel spreadsheet that was then brought into the R environment via RStudio. Below is the entire script used for this visualization. My base code (particularly the get_calendar function) was based on the work of Tanya Shapiro. The entire script is available below.\n\nCode# LOAD PACKAGES ====\n\nlibrary(readxl)\nlibrary(tidyverse)\nlibrary(lubridate)\n\n# LOAD DATA & WRANGLE ====\n\nHourTracker_Tjepkes &lt;- read_excel(\"HourTracker_Tjepkes.xlsx\", \n                                  sheet = \"Sheet2\", col_types = c(\"date\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\",  \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\"))\n\n\nHourTracker &lt;- HourTracker_Tjepkes %&gt;% \n  select(Date, `Total Hours`)\n\nHourTracker$Date &lt;- ymd(HourTracker$Date)\n\n\nHourTracker_clean &lt;- HourTracker %&gt;% \n  mutate(Description = case_when(`Total Hours` == 0 ~ \"Day Off\",\n                                  `Total Hours` &gt; 8 ~ \"Long Day\",\n                                 `Total Hours` == 8 ~ \"Normal Day\",\n                                 `Total Hours` &lt; 8 ~ \"Short Day\"))\n\nunique_desc &lt;- HourTracker_clean %&gt;% \n                  distinct(Description) %&gt;% \n                  pull(Description)\n\nHourTracker_clean$Description &lt;-factor(HourTracker_clean$Description,\n                                       levels = unique_desc)\n\n\n# CALENDAR FUNCTION ====\n\nget_calendar &lt;- function(start_date, end_date) {\n  n_days &lt;- interval(start_date,end_date)/days(1)\n  date&lt;-start_date + days(0:n_days)\n  month_name&lt;-format(date,\"%B\")\n  month_num&lt;-format(date,\"%m\")\n  year&lt;-format(date,\"%Y\")\n  day_num&lt;-format(date,'%d')\n  day&lt;-wday(date, label=TRUE)\n  week_num&lt;-strftime(date, format = \"%V\")\n  cal&lt;-data.frame(date, year, month_name, month_num, day_num, day, week_num)\n  cal[cal$week_num&gt;=52 & cal$month_num==\"01\",\"week_num\"]=00\n  \n  week_month&lt;-cal%&gt;% \n    group_by(year,month_name, week_num)%&gt;%\n    summarise()%&gt;%\n    mutate(week_month_num=row_number())\n  \n  cal&lt;-merge(cal, week_month, by=c(\"month_name\"=\"month_name\",\"week_num\"=\"week_num\",\"year\"=\"year\"))\n  cal$month_name&lt;-factor(cal$month_name, levels=c(\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"))\n  cal$day&lt;-factor(cal$day, levels=c(\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\",\"Sun\"))\n  \n  return(cal)\n  \n}\n\n## create date range\nstart_date &lt;- as.Date('2021-01-01')\nend_date &lt;- as.Date('2021-12-31')\n\n## create calendar\ncal&lt;-get_calendar(start_date,end_date)\n\ncal %&gt;% View()\n\n\n# JOIN CALENDAR & HOUR DATA ====\n\nHourTracker_ForPlot &lt;- left_join(cal,\n                                 HourTracker_clean,\n                                 by = c(\"date\" = \"Date\"))\n\n# CREATE PLOT\n\n#custom color palette c('#26547c', '#ef476f', '#FFBC1F', '#05C793')\npal&lt;-c('#FFBC1F', 'lightgray', 'lightblue', '#05C793')\n\n#creating the plot\nggplot(HourTracker_ForPlot)+\n  geom_tile(mapping = aes(x = day,\n                          y=week_month_num),\n            fill=NA) +\n  \n  geom_text(mapping = aes(x=day,\n                          y=week_month_num,\n                          label=day_num),\n            color=\"black\") +\n  \n  geom_point(data = HourTracker_ForPlot,\n             mapping=aes(x=day,\n                         y=week_month_num,\n                         color = Description),\n             size = 7.6) +\n  \n  geom_text(data = HourTracker_ForPlot,\n            mapping=aes(x=day,\n                        y=week_month_num,\n                        label=day_num),\n            color=\"black\",\n            nudge_y = 0.04,\n            size = 3.0) +\n  \n  scale_y_reverse() +\n  \n  scale_color_manual(values = pal,\n              guide = guide_legend(title.position  =\"left\",\n                                   title.hjust = 0.5,\n                                    title.vjust = 0.6,\n                                  title=\"Type of Day:\")) +\n\n  \n  scale_x_discrete(position = \"top\") +\n  \n  labs(y=\"\", x= \"\", \n       title = 'My 2021 Work Commitments',\n       subtitle = \"Visualizing my yearly work schedule from January 1, 2021 to December 31, 2021\",\n       caption = \"Created by Benjamin Tjepkes using R/RStudio\") +\n  \n  facet_wrap(~month_name, scales = \"free_x\") +\n  \n  theme(\n    legend.position = \"top\",\n    axis.text.y = element_blank(),\n    axis.ticks = element_blank(),\n    panel.background = element_blank(),\n    plot.title = element_text(hjust=0.5,\n                              size=22,\n                              face = \"bold\"),\n    plot.subtitle=element_text(hjust = 0.5,\n                               size = 12,\n                               face = \"italic\",\n                               color = \"gray30\"),\n    legend.key = element_blank(),\n    legend.title = element_blank(),\n    legend.background = element_rect(),\n    legend.spacing.x = unit(0.4, 'cm'),\n    legend.text = element_text(margin = unit(c(0,0,0,-0.3), \"cm\")),\n    strip.background = element_rect(fill = '#26547c'),\n    strip.text = element_text(color = \"white\", face = \"bold\", size = 12),\n    axis.text.x = element_text(hjust = 0.5),  # Align x-axis text to the top\n    axis.title.x = element_blank(),  # Remove x-axis title\n    \n    plot.margin= unit(c(0.8,0.8,0.8,0.2), \"cm\")\n  )\n\nggsave(filename = \"calendar2.jpeg\",\n       plot = last_plot(),\n       dpi = \"retina\")"
+    "text": "Tools & Workflow\nThe data for this visual were originally stored in an Excel spreadsheet that was then brought into the R environment via RStudio. Below is the entire script used for this visualization. My base code (particularly the get_calendar function) was based on the work of Tanya Shapiro. The entire script is available below.\n\nCode# LOAD PACKAGES ====\n\nlibrary(readxl)\nlibrary(tidyverse)\nlibrary(lubridate)\n\n# LOAD DATA & WRANGLE ====\n\nHourTracker_Tjepkes &lt;- read_excel(\"HourTracker_Tjepkes.xlsx\", \n                                  sheet = \"Sheet2\", col_types = c(\"date\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\",  \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\", \"numeric\"))\n\n\nHourTracker &lt;- HourTracker_Tjepkes %&gt;% \n  select(Date, `Total Hours`)\n\nHourTracker$Date &lt;- ymd(HourTracker$Date)\n\n\nHourTracker_clean &lt;- HourTracker %&gt;% \n  mutate(Description = case_when(`Total Hours` == 0 ~ \"Day Off\",\n                                  `Total Hours` &gt; 8 ~ \"Long Day\",\n                                 `Total Hours` == 8 ~ \"Normal Day\",\n                                 `Total Hours` &lt; 8 ~ \"Short Day\"))\n\nunique_desc &lt;- HourTracker_clean %&gt;% \n                  distinct(Description) %&gt;% \n                  pull(Description)\n\nHourTracker_clean$Description &lt;-factor(HourTracker_clean$Description,\n                                       levels = unique_desc)\n\n\n# CALENDAR FUNCTION ====\n\nget_calendar &lt;- function(start_date, end_date) {\n  n_days &lt;- interval(start_date,end_date)/days(1)\n  date&lt;-start_date + days(0:n_days)\n  month_name&lt;-format(date,\"%B\")\n  month_num&lt;-format(date,\"%m\")\n  year&lt;-format(date,\"%Y\")\n  day_num&lt;-format(date,'%d')\n  day&lt;-wday(date, label=TRUE)\n  week_num&lt;-strftime(date, format = \"%V\")\n  cal&lt;-data.frame(date, year, month_name, month_num, day_num, day, week_num)\n  cal[cal$week_num&gt;=52 & cal$month_num==\"01\",\"week_num\"]=00\n  \n  week_month&lt;-cal%&gt;% \n    group_by(year,month_name, week_num)%&gt;%\n    summarise()%&gt;%\n    mutate(week_month_num=row_number())\n  \n  cal&lt;-merge(cal, week_month, by=c(\"month_name\"=\"month_name\",\"week_num\"=\"week_num\",\"year\"=\"year\"))\n  cal$month_name&lt;-factor(cal$month_name, levels=c(\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"))\n  cal$day&lt;-factor(cal$day, levels=c(\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\",\"Sun\"))\n  \n  return(cal)\n  \n}\n\n## create date range\nstart_date &lt;- as.Date('2021-01-01')\nend_date &lt;- as.Date('2021-12-31')\n\n## create calendar\ncal&lt;-get_calendar(start_date,end_date)\n\ncal %&gt;% View()\n\n\n# JOIN CALENDAR & HOUR DATA ====\n\nHourTracker_ForPlot &lt;- left_join(cal,\n                                 HourTracker_clean,\n                                 by = c(\"date\" = \"Date\"))\n\n# CREATE PLOT\n\n#custom color palette c('#26547c', '#ef476f', '#FFBC1F', '#05C793')\npal&lt;-c('#FFBC1F', 'lightgray', 'lightblue', '#05C793')\n\n#creating the plot\nggplot(HourTracker_ForPlot)+\n  geom_tile(mapping = aes(x = day,\n                          y=week_month_num),\n            fill=NA) +\n  \n  geom_text(mapping = aes(x=day,\n                          y=week_month_num,\n                          label=day_num),\n            color=\"black\") +\n  \n  geom_point(data = HourTracker_ForPlot,\n             mapping=aes(x=day,\n                         y=week_month_num,\n                         color = Description),\n             size = 7.6) +\n  \n  geom_text(data = HourTracker_ForPlot,\n            mapping=aes(x=day,\n                        y=week_month_num,\n                        label=day_num),\n            color=\"black\",\n            nudge_y = 0.04,\n            size = 3.0) +\n  \n  scale_y_reverse() +\n  \n  scale_color_manual(values = pal,\n              guide = guide_legend(title.position  =\"left\",\n                                   title.hjust = 0.5,\n                                    title.vjust = 0.6,\n                                  title=\"Type of Day:\")) +\n\n  \n  scale_x_discrete(position = \"top\") +\n  \n  labs(y=\"\", x= \"\", \n       title = 'My 2021 Work Commitments',\n       subtitle = \"Visualizing my yearly work schedule from January 1, 2021 to December 31, 2021\",\n       caption = \"Created by Benjamin Tjepkes using R/RStudio\") +\n  \n  facet_wrap(~month_name, scales = \"free_x\") +\n  \n  theme(\n    legend.position = \"top\",\n    axis.text.y = element_blank(),\n    axis.ticks = element_blank(),\n    panel.background = element_blank(),\n    plot.title = element_text(hjust=0.5,\n                              size=22,\n                              face = \"bold\"),\n    plot.subtitle=element_text(hjust = 0.5,\n                               size = 12,\n                               face = \"italic\",\n                               color = \"gray30\"),\n    legend.key = element_blank(),\n    legend.title = element_blank(),\n    legend.background = element_rect(),\n    legend.spacing.x = unit(0.4, 'cm'),\n    legend.text = element_text(margin = unit(c(0,0,0,-0.3), \"cm\")),\n    strip.background = element_rect(fill = '#26547c'),\n    strip.text = element_text(color = \"white\", face = \"bold\", size = 12),\n    axis.text.x = element_text(hjust = 0.5),  # Align x-axis text to the top\n    axis.title.x = element_blank(),  # Remove x-axis title\n    \n    plot.margin= unit(c(0.8,0.8,0.8,0.2), \"cm\")\n  )\n\nggsave(filename = \"calendar2.jpeg\",\n       plot = last_plot(),\n       dpi = \"retina\")\n\n\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/turkey-harvest-maps-by-county/index.html",
@@ -235,7 +235,7 @@
     "href": "gallery/turkey-harvest-maps-by-county/index.html#the-result",
     "title": "County-Based Turkey Harvest Maps Visualizing turkey harvest maps in fall 2021 and spring 2022.",
     "section": "The Result",
-    "text": "The Result\n\n\n\nTurkey harvest maps. Credit: Ben Tjepkes"
+    "text": "The Result\n\n\n\nTurkey harvest maps. Credit: Ben Tjepkes\n\n\n\n\n\nTurkey harvest maps. Credit: Ben Tjepkes"
   },
   {
     "objectID": "gallery/shoreline-structure-setback-compliance-map/index.html",
@@ -249,7 +249,7 @@
     "href": "gallery/shoreline-structure-setback-compliance-map/index.html#tools-methods",
     "title": "Shoreline Structure Setback Compliance Digitized structures and OHWM for three lakes in Portage County, Wisconsin.",
     "section": "Tools & Methods",
-    "text": "Tools & Methods\nThis map and all spatial analysis needed to create it was performed in ArcMap 10.x. All primary structures in each lake-adjacent parcel were outlined using heads-up digitizing techniques. The distance to water was then determined using the Near tool in ArcMap, referencing the ordinary high water mark for compliance."
+    "text": "Tools & Methods\nThis map and all spatial analysis needed to create it was performed in ArcMap 10.x. All primary structures in each lake-adjacent parcel were outlined using heads-up digitizing techniques. The distance to water was then determined using the Near tool in ArcMap, referencing the ordinary high water mark for compliance.\n\n\n\nMap Credit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/pennsylvania-bridge-map/index.html#task-objectives",
@@ -326,7 +326,7 @@
     "href": "gallery/michigan-climate-trends/index.html#final-results",
     "title": "Climate Trends of the Upper Peninsula, MI ",
     "section": "Final Results",
-    "text": "Final Results\nHere is the first figure showing trends in precipitation.\n\n\n\nCredit: Benjamin Tjepkes\n\n\nHere is the second figure showing trends in maximum and minimum temperature.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Results\nHere is the first figure showing trends in precipitation.\n\n\n\nCredit: Benjamin Tjepkes\n\n\nHere is the second figure showing trends in maximum and minimum temperature.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/mdc-furbearer-program-annual-report-2021/index.html#tools-workflow",
@@ -361,7 +361,7 @@
     "href": "gallery/hyaenidae-range-map/index.html#final-result",
     "title": "Hyaenidae Distribution Map for Africa Visualizing ranges for the four extant species.",
     "section": "Final Result",
-    "text": "Final Result\nHere is the resulting map series showing each species range across Africa.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Result\nHere is the resulting map series showing each species range across Africa.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/great-lakes-watershed-map/index.html",
@@ -445,7 +445,7 @@
     "href": "gallery/andes-mountains-map/index.html#final-result",
     "title": "Andes Mountains Elevation Map ",
     "section": "Final Result",
-    "text": "Final Result\nHere is the resulting map that shows filled in contours within Peru, emphasizing the dramatic elevation change.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Result\nHere is the resulting map that shows filled in contours within Peru, emphasizing the dramatic elevation change.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "curriculum-vitae/index.html",
@@ -494,14 +494,14 @@
     "href": "about/index.html#past-endeavors",
     "title": "About Me and My Professional Pathway",
     "section": "Past Endeavors",
-    "text": "Past Endeavors\nThis section provides an assortment of photos showing some of my past work.\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.\n\n\n\n\n\nI have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.\n\n\n\n\n\nThis is another beautiful place I was able to work in, the Ozarks of Missouri."
+    "text": "Past Endeavors\nThis section provides an assortment of photos showing some of my past work.\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.\n\n\n\n\n\nI have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.\n\n\n\n\n\nThis is another beautiful place I was able to work in, the Ozarks of Missouri.\n\n\n\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.\nI have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.\nThis is another beautiful place I was able to work in, the Ozarks of Missouri."
   },
   {
     "objectID": "assets/index.html",
     "href": "assets/index.html",
     "title": "Assets ",
     "section": "",
-    "text": "bg-green-rivers.jpg"
+    "text": "bg-green-rivers.jpg\n\n\n\n\n\nbg-green-rivers.jpg"
   },
   {
     "objectID": "gallery/2018-squirrel-census-sighting-map/index.html#tools-methods",
@@ -515,7 +515,7 @@
     "href": "gallery/2018-squirrel-census-sighting-map/index.html#alternative-result",
     "title": "2018 Squirrel Census Sighting Map ",
     "section": "Alternative Result",
-    "text": "Alternative Result\n\n\n\nMap Credit: Ben Tjepkes"
+    "text": "Alternative Result\n\n\n\nMap Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
   },
   {
     "objectID": "gallery/bald-eagle-nest-selection-poster/index.html",
@@ -536,7 +536,7 @@
     "href": "gallery/bald-eagle-nest-selection-poster/index.html#final-result",
     "title": "Poster on Bald Eagle Nest Selection Research ",
     "section": "Final Result",
-    "text": "Final Result\nHere is the final poster that I presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium, earned highest honors.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Result\nHere is the final poster that I presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium, earned highest honors.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/eagle-mountain-contour-map/index.html#task-objective",
@@ -627,7 +627,7 @@
     "href": "gallery/michigan-anthrome-map/index.html#final-results",
     "title": "Anthrome Map of the Upper Peninsula, MI ",
     "section": "Final Results",
-    "text": "Final Results\nHere is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Results\nHere is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/missouri-bat-hcp-poster/index.html",
@@ -676,7 +676,7 @@
     "href": "gallery/my-github-contributions-in-2023/index.html#final-results",
     "title": "Plotting My GitHub Contributions in 2023 ",
     "section": "Final Results",
-    "text": "Final Results\nHere is the resulting figure summarizing my 660 commits in 2023.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Results\nHere is the resulting figure summarizing my 660 commits in 2023.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html",
@@ -690,14 +690,14 @@
     "href": "gallery/overlaying-public-lands-with-bmzs/index.html#variations-created",
     "title": "Overlaying Public Lands with BMZs State and federal lands within Bear Management Zones in Missouri.",
     "section": "Variations Created",
-    "text": "Variations Created\n\n\n\n\n\n\n\n\nVariation 1. Map Credit: Benjamin Tjepkes\n\n\n\n\n\nVariation 2. Map Credit: Benjamin Tjepkes"
+    "text": "Variations Created\n\n\n\n\n\n\n\n\n\nVariation 1. Map Credit: Benjamin Tjepkes\n\n\n\n\n\n\n\nVariation 2. Map Credit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/overlaying-public-lands-with-bmzs/index.html#tools-methods",
     "href": "gallery/overlaying-public-lands-with-bmzs/index.html#tools-methods",
     "title": "Overlaying Public Lands with BMZs State and federal lands within Bear Management Zones in Missouri.",
     "section": "Tools & Methods",
-    "text": "Tools & Methods\nAll data were pulled from internally-maintained geodatabases. Map creation was performed in ArcGIS Pro 2.9."
+    "text": "Tools & Methods\nAll data were pulled from internally-maintained geodatabases. Map creation was performed in ArcGIS Pro 2.9.\n\n\n\nMap Credit: Benjamin Tjepkes\nVariation 1. Map Credit: Benjamin Tjepkes\nVariation 2. Map Credit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/postsecondary-institutions-map/index.html#task-objectives",
@@ -718,7 +718,7 @@
     "href": "gallery/postsecondary-institutions-map/index.html#alternative-result",
     "title": "Post-Secondary Institutions Hexmap ",
     "section": "Alternative Result",
-    "text": "Alternative Result\nHere is another version of the above map, this time with a normalized based on total population, showing post-secondary schools for every 100,000 people.\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Alternative Result\nHere is another version of the above map, this time with a normalized based on total population, showing post-secondary schools for every 100,000 people.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/relative-coding-proficiency-chart/index.html#tools-methods",
@@ -760,7 +760,7 @@
     "href": "gallery/vineyard-and-winery-location-suitability-map/index.html#final-result",
     "title": "Vineyard and Winery Location Suitability Map Optimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin.",
     "section": "Final Result",
-    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "Final Result\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "index.html",
@@ -802,7 +802,7 @@
     "href": "posts/building-annotated-bibliographies-with-quarto/index.html#final-thoughts",
     "title": "Create Annotated Bibliographies with Quarto ",
     "section": "Final Thoughts",
-    "text": "Final Thoughts\nThis process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined.\nIf you are interested in other cool ways to handle citations and bibliographies in Quarto, I highly suggest checking out the website of Andrew Heiss. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. Happy citing!"
+    "text": "Final Thoughts\nThis process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined.\nIf you are interested in other cool ways to handle citations and bibliographies in Quarto, I highly suggest checking out the website of Andrew Heiss. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. Happy citing!\n\n\n\nExample of a Zotero library item to include in our bibliography with each comment as an individual note item."
   },
   {
     "objectID": "posts/how-scientists-use-gis-to-study-wildlife/index.html",
@@ -830,7 +830,7 @@
     "href": "posts/how-scientists-use-gis-to-study-wildlife/index.html#final-thoughts",
     "title": "How Scientists Use GIS to Study Wildlife ",
     "section": "Final Thoughts",
-    "text": "Final Thoughts\nOverall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here."
+    "text": "Final Thoughts\nOverall, GIS is an extraordinary technology that most people benefit from without even knowing. With all the advances being made in different sensors, batteries, and computational processing power, the capabilities of these systems will only just start to be realized.\nUntil next time, Ben\nNote: This post was originally part of The Conservation Companion, but is now archived here.\n\n\n\nA researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."
   },
   {
     "objectID": "posts/index.html",
@@ -875,18 +875,25 @@
     "text": "Looking Ahead\nAs we push forward into 2024, many aspects of my professional life will continue changing for the better. Continued learning and skill enhancement will be integral to this ongoing transformation. Additionally, fostering meaningful connections with colleagues and collaborators will play a pivotal role, creating a supportive network that propels professional advancement in evolving career.\n\nThe focus of this year is my graduate thesis work and the many duties that go along with teaching university courses. I am excited to be teaching and also growing as a researcher throughout this process.\nMy secondary goal for 2024 is to continue learning more about where I am heading in the world of geospatial. My schedule is already starting to fill in with many neat opportunities for professional growth and connection."
   },
   {
+    "objectID": "posts/my-2023-highlights-reflections-and-recap/index.html#footnotes",
+    "href": "posts/my-2023-highlights-reflections-and-recap/index.html#footnotes",
+    "title": "My 2023 Highlights, Reflections, and Recap ",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nMU Department of Geography: https://geography.missouri.edu/↩︎\nInformation on Gamma Sigma Theta↩︎\nSee all past map contest winners or view the details of my winning map↩︎\nView the public version of this report here↩︎\nView all my challenge contributions are located here: https://btjepkes.github.io/posts/30-day-map-challenge-2023/↩︎\nEsri Conservation Webinar Series | Esri Power of Spatial Data Science Webinar↩︎"
+  },
+  {
     "objectID": "research/beaver-impacted-water-control-structures/index.html",
     "href": "research/beaver-impacted-water-control-structures/index.html",
     "title": "Beaver-Impacted Water Control Structures ",
     "section": "",
-    "text": "Tjepkes, B.W. 2017. Assessing the need for flow devices on beaver impacted flowages. Unpublished report for Wisconsin Department of Natural Resources.\n\n\n\nExample of beaver-impacted structure."
+    "text": "Tjepkes, B.W. 2017. Assessing the need for flow devices on beaver impacted flowages. Unpublished report for Wisconsin Department of Natural Resources.\n\n\n\nExample of beaver-impacted structure.\n\n\n\n\n\nExample of beaver-impacted structure."
   },
   {
     "objectID": "research/beaver-impacted-water-control-structures/index.html#project-reports",
     "href": "research/beaver-impacted-water-control-structures/index.html#project-reports",
     "title": "Beaver-Impacted Water Control Structures ",
     "section": "",
-    "text": "Tjepkes, B.W. 2017. Assessing the need for flow devices on beaver impacted flowages. Unpublished report for Wisconsin Department of Natural Resources.\n\n\n\nExample of beaver-impacted structure."
+    "text": "Tjepkes, B.W. 2017. Assessing the need for flow devices on beaver impacted flowages. Unpublished report for Wisconsin Department of Natural Resources.\n\n\n\nExample of beaver-impacted structure.\n\n\n\n\n\nExample of beaver-impacted structure."
   },
   {
     "objectID": "research/raccoon-space-use-and-home-ranges/index.html",
