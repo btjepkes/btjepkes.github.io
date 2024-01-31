@@ -4,22 +4,29 @@
 <style type="text/css">
 .nav-tabs {
   margin-top: 0.5rem;
+  margin-bottom: 20px;
   border-bottom: none;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
 
 .callout {
   margin-top: 0;
 }
 
-.nav-tabs .nav-link {
-  text-align: center;
-  margin-right: 15px;
-  margin-top: 10px;
-  width: 147px;
-  font-size: 0.8em;
-  font-weight: 600;
+.nav-tabs .nav-item {
+  flex: 1;
+  min-width: 150px;
 }
 
+.nav-tabs .nav-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.8em;
+  font-weight: 600;
+  background: linear-gradient(120deg, rgba(196,228,232,1) 0%, rgba(239,249,245,1) 35%, rgba(196,228,232,1) 100%);
+}
 
 .nav-tabs .nav-link, 
 .nav-tabs .nav-link.active, 
@@ -65,23 +72,28 @@
 
 <ul id="index-chooser" class="nav nav-tabs" role="tablist">
   <li class="nav-item" role="presentation">
-    <a class="nav-link" href="#map-gallery">
-      <i class="bi bi-file"></i>Shortcode/Filter
+    <a class="nav-link" href="/gallery/#category=Map Gallery">
+      <i class="bi bi-map"></i>Map Gallery
     </a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" href="listing-journals.html">
-      <i class="bi bi-journal-text"></i>Journal Articles
+    <a class="nav-link" href="/gallery/#category=Data Gallery">
+      <i class="bi bi-graph-up-arrow"></i>Data Viz Gallery
     </a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" href="listing-formats.html">
-      <i class="bi bi-file-earmark-richtext"></i>Custom Formats
+    <a class="nav-link" href="/gallery/#category=Poster Gallery">
+      <i class="bi bi-easel"></i>Poster Gallery
     </a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" href="listing-revealjs.html">
-      <i class="bi bi-easel3"></i>Revealjs
+    <a class="nav-link" href="/gallery/#category=Report Gallery">
+      <i class="bi bi-file-earmark-text"></i>Report Gallery
+    </a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="/gallery/">
+      <i class="bi bi-emoji-smile"></i>All Visualizations
     </a>
   </li>
 </ul>

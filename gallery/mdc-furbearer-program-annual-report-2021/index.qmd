@@ -2,6 +2,7 @@
 title: "Annual Report for MDC Furbearer Program"
 abstract: "FY2021 annual report on furbearer harvest, status, and program activities."
 author: "Benjamin Tjepkes"
+date: 2021-01-01
 date-modified: "5-10-2023"
 categories:
   - Report Gallery

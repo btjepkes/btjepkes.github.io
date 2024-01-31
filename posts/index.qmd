@@ -19,7 +19,7 @@ listing:
     type: grid
     grid-columns: 3
     image-height: 200px
-    categories: numbered
+    categories: cloud
     page-size: 6
     sort: "date desc"
     filter-ui: [title, subtitle, description, category]

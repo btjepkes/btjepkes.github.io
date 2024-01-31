@@ -1,6 +1,7 @@
 ---
 title: "Bald Eagle Nest Monitoring Report"
 abstract: "A final report provided to the USFWS on the Upper Mississippi population."
+date: 2020-07-10
 aliases: 
   - gallery/gallery-report-two.html
 date-modified: "5-19-2023"

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
-<meta name="description" content="Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. Each item is separated into sub-galleries ready for your exploration: maps | data viz | presentations. My workflows span several technologies, but revolve around open-source products like RStudio, QGIS, and Quarto.">
+<meta name="description" content="Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. My workflows span several technologies, but revolve around open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category by filtering.">
 
 <title>My Gallery | B.W. Tjepkes</title>
 <style>
@@ -59,7 +59,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery-listings-maps .list');
+    const listingTargetEl = window.document.querySelector('#listing-gallery-listings-all .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -73,63 +73,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery-listings-maps'] = new List('listing-gallery-listings-maps', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery-listings-dataviz .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery-listings-dataviz'] = new List('listing-gallery-listings-dataviz', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery-listings-posters .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery-listings-posters'] = new List('listing-gallery-listings-posters', options);
+    window['quarto-listings']['listing-gallery-listings-all'] = new List('listing-gallery-listings-all', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -184,19 +128,19 @@ window.Quarto = {
 </script>
 
 <meta property="og:title" content="My Gallery | B.W. Tjepkes">
-<meta property="og:description" content="Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. Each item is separated into sub-galleries ready for your exploration: maps | data viz | presentations. My workflows span several technologies, but revolve around open-source products like RStudio, QGIS, and Quarto.">
+<meta property="og:description" content="Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. My workflows span several technologies, but revolve around open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category by filtering.">
 <meta property="og:image" content="https://btjepkes.github.io/assets/img-geospatial-cover.webp">
 <meta property="og:site_name" content="Benjamin Tjepkes">
 <meta property="og:image:alt" content="Image-of-pine-trees-on-blue-background.">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. Each item is separated into sub-galleries ready for your exploration: maps | data viz | presentations. My workflows span several technologies, but revolve around open-source products like RStudio, QGIS, and Quarto.">
+<meta name="twitter:description" content="Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. My workflows span several technologies, but revolve around open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category by filtering.">
 <meta name="twitter:image" content="https://btjepkes.github.io/assets/img-geospatial-cover.webp">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:image:alt" content="Image-of-pine-trees-on-blue-background.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -284,7 +228,7 @@ window.Quarto = {
   <div class="post-meta">
     
           <div class="description">
-        <div class="abstract">Some of my latest maps and data visualizations.</div> Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. Each item is separated into sub-galleries ready for your exploration: <a href="#map-gallery">maps</a> | <a href="#data-viz-gallery">data viz</a> | <a href="#poster-report-gallery">presentations</a>. My workflows span several technologies, but revolve around open-source products like RStudio, QGIS, and Quarto.
+        <div class="abstract">Some of my latest maps and data visualizations.</div> Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. My workflows span several technologies, but revolve around open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category by filtering.
       </div>
         
     
@@ -294,266 +238,138 @@ window.Quarto = {
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On This Page:</h2>
-   
-  <ul>
-  <li><a href="#map-gallery" id="toc-map-gallery" class="nav-link active" data-scroll-target="#map-gallery">Map Gallery</a></li>
-  <li><a href="#data-viz-gallery" id="toc-data-viz-gallery" class="nav-link" data-scroll-target="#data-viz-gallery">Data Viz Gallery</a></li>
-  <li><a href="#poster-report-gallery" id="toc-poster-report-gallery" class="nav-link" data-scroll-target="#poster-report-gallery">Poster &amp; Report Gallery</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
-<!--  -->
-<section id="map-gallery" class="level2">
-<h2 data-anchor-id="map-gallery">Map Gallery</h2>
-<p>Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me.</p>
-<p><strong>Tools &amp; Technologies:</strong> ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS</p>
-<div id="listing-gallery-listings-maps" class="listings-gallery quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1705331689146" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
-<a href="../gallery/michigan-anthrome-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/michigan-anthrome-map/img-michigan-anthrome-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A map of the UP&amp;#039;s anthrome, with land use changes through time.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Anthrome Map of the Upper Peninsula, MI
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1705292878978" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
-<a href="../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/pennsylvania-bridge-map/img-PA-bridge-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A point map showing the locations of all bridges in Pennsylvania.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pennsylvania Bridges from OpenStreetMap
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1705069540672" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
-<a href="../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/happy-forests-happy-people-map/img-happy-forests-happy-people-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A choropleth map showing forest cover and happiness index.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Forest Cover &amp; Happiness Bivariate Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,South America" data-listing-date-sort="1699768800000" data-listing-file-modified-sort="1703440494159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
-<a href="../gallery/andes-mountains-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/andes-mountains-map/img-andes-mountains-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A contour map showing the elevation change in the Andes of Peru">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Andes Mountains Elevation Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Map Gallery,North America" data-listing-date-sort="1699596000000" data-listing-file-modified-sort="1705293189046" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
-<a href="../gallery/moose-sightings-across-north-america/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/moose-sightings-across-north-america/img-moose-sightings-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A simple map showing the points that indicate moose sightings across a backdrop of North America.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Moose Sightings Across North America
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
-<a href="../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/postsecondary-institutions-map/img-college-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A hexbin map showing the total number of post-secondary institutions and programs in each U.S. state.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Post-Secondary Institutions Hexmap
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Map Gallery,Africa" data-listing-date-sort="1699423200000" data-listing-file-modified-sort="1699724560000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="110">
-<a href="../gallery/hyaenidae-range-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/hyaenidae-range-map/img-hyena-ranges-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A series of four maps showing the ranges of species in the family Hyaenidae.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hyaenidae Distribution Map for Africa
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
-<a href="../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/tiger-distribution-map/img-tiger-range-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A map of Asia showing the current and historical range of tigers.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tiger Range and Conservation Landscapes
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="Map Gallery,Canada" data-listing-date-sort="1698987600000" data-listing-file-modified-sort="1705072594088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
-<a href="../gallery/canadian-ecoregion-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/canadian-ecoregion-map/img-canadian-ecoregions.png" class="thumbnail-image card-img" style="height: 300px;" alt="A regional map showing Canada and several level one ecological regions.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Canadian Ecoregions Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="Map Gallery,Minnesota,Contour" data-listing-date-sort="1698901200000" data-listing-file-modified-sort="1705071879006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
-<a href="../gallery/eagle-mountain-contour-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/eagle-mountain-contour-map/img-eagle-mtn-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A contour map showing Eagle Mountain and the surrounding topography and hydrological features.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Eagle Mountain Contour Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1705072320366" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
-<a href="../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/national-champion-tree-map/img-national-champion-trees-thumbnail.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing the United States and the locations of champion trees displayed as points.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-National Champion Trees Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="Map Gallery,Watershed" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1705202941568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
-<a href="../gallery/great-lakes-watershed-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/great-lakes-watershed-map/img-map-11.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Map of Great Lakes watersheds and their pour points.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Great Lakes Watersheds Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="12" data-categories="Map Gallery,Mammal" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1705072233220" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
-<a href="../gallery/2018-squirrel-census-sighting-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/2018-squirrel-census-sighting-map/img-map-001v2.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing squirrel densities in Central Park.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2018 Squirrel Census Sighting Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="13" data-categories="Map Gallery,United States,Endangered Species" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1705072030931" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<a href="../gallery/endangered-species-stamp-collection-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/endangered-species-stamp-collection-map/img-map-endangeredstamps.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing the United States and several ranges of endangrered species.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Endangered Species Stamp Map
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="14" data-categories="Map Gallery,Missouri" data-listing-date-sort="1682917200000" data-listing-file-modified-sort="1700838316000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<a href="../gallery/overlaying-public-lands-with-bmzs/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/overlaying-public-lands-with-bmzs/img-map-6.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing bear management zones.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Overlaying Public Lands with BMZs
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="15" data-categories="Map Gallery,Missouri,Choropleth" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1705073037072" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
-<a href="../gallery/missouri-bear-sighting-map/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../gallery/missouri-bear-sighting-map/img-map-5.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Cholorpleth map showing the number of sightings per Missouri county.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Choropleth of Missouri Bear Sightings
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="data-viz-gallery" class="level2">
-<h2 data-anchor-id="data-viz-gallery">Data Viz Gallery</h2>
-<p>In addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects.</p>
-<p><strong>Tools &amp; Technologies:</strong> R/RStudio, Python/Jupyter Notebook, Microsoft Excel</p>
-<div id="listing-gallery-listings-dataviz" class="listings-gallery quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
+<div class="column-page">
+
+<style type="text/css">
+.nav-tabs {
+  margin-top: 0.5rem;
+  margin-bottom: 20px;
+  border-bottom: none;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.callout {
+  margin-top: 0;
+}
+
+.nav-tabs .nav-item {
+  flex: 1;
+  min-width: 150px;
+}
+
+.nav-tabs .nav-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.8em;
+  font-weight: 600;
+  background: linear-gradient(120deg, rgba(196,228,232,1) 0%, rgba(239,249,245,1) 35%, rgba(196,228,232,1) 100%);
+}
+
+.nav-tabs .nav-link, 
+.nav-tabs .nav-link.active, 
+.nav-tabs .nav-item.show .nav-link {
+  border: 1px solid  rgb(222, 226, 230);
+  border-radius: 10px;
+  color: rgb(80,146,221);
+}
+.nav-tabs .nav-link:hover {
+   border-color: rgb(80,146,221);
+   border-width: 1px;
+} 
+
+.nav-tabs .nav-link.active, 
+.nav-tabs .nav-item.show .nav-link {
+  border-color: rgb(80,146,221);
+  border-width: 2px;
+}
+
+
+.nav-tabs .nav-link i {
+  display: block;
+  font-size: 3rem;
+  color: #153b46;
+  margin-bottom: 5px;
+}
+
+.quarto-listing {
+  margin-top: 2em;
+}
+
+.quarto-listing .listing-name,
+.quarto-listing .listing-author {
+  white-space: nowrap;
+}
+
+.quarto-listing .listing-actions-group h3 {
+  margin-top: 0;
+}
+
+ 
+</style>
+
+<ul id="index-chooser" class="nav nav-tabs" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="../gallery/#category=Map Gallery">
+      <i class="bi bi-map"></i>Map Gallery
+    </a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="../gallery/#category=Data Gallery">
+      <i class="bi bi-graph-up-arrow"></i>Data Viz Gallery
+    </a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="../gallery/#category=Poster Gallery">
+      <i class="bi bi-easel"></i>Poster Gallery
+    </a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="../gallery/#category=Report Gallery">
+      <i class="bi bi-file-earmark-text"></i>Report Gallery
+    </a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="../gallery/">
+      <i class="bi bi-emoji-smile"></i>All Visualizations
+    </a>
+  </li>
+</ul>
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
+  // get file name
+  const filename = window.location.pathname.split("/").slice(-1)[0];
+
+  // latch active
+  const toolLinks = window.document.querySelectorAll("#index-chooser a");
+  for (const tool of toolLinks) {
+    if (filename && filename !== "index.html") {
+      if (tool.href.endsWith(filename)) {
+        tool.classList.add("active");
+      } 
+    } else {
+      if (tool.href.endsWith("listing-filters.html")) {
+        tool.classList.add("active");
+      }
+    }
+  }
+  
+  // move heading into table
+  document.querySelector(".listing-actions-group").prepend(document.querySelector("h3.unlisted"));
+});
+
+</script>
+<div id="listing-gallery-listings-all" class="listings-gallery quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="Data Gallery,TidyTuesday2024" data-listing-date-sort="1704261600000" data-listing-file-modified-sort="1705241920349" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
 <a href="../gallery/my-github-contributions-in-2023/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
@@ -568,7 +384,21 @@ Plotting My GitHub Contributions in 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Data Gallery" data-listing-date-sort="1702188000000" data-listing-file-modified-sort="1703444608926" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<div class="g-col-1" data-index="1" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1705331689146" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
+<a href="../gallery/michigan-anthrome-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/michigan-anthrome-map/img-michigan-anthrome-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A map of the UP&amp;#039;s anthrome, with land use changes through time.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Anthrome Map of the Upper Peninsula, MI
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Data Gallery" data-listing-date-sort="1702188000000" data-listing-file-modified-sort="1703444608926" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
 <a href="../gallery/michigan-climate-trends/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -582,7 +412,147 @@ Climate Trends of the Upper Peninsula, MI
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Data Gallery" data-listing-date-sort="1698037200000" data-listing-file-modified-sort="1705176714471" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1368">
+<div class="g-col-1" data-index="3" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1705292878978" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
+<a href="../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/pennsylvania-bridge-map/img-PA-bridge-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A point map showing the locations of all bridges in Pennsylvania.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pennsylvania Bridges from OpenStreetMap
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1705069540672" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<a href="../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/happy-forests-happy-people-map/img-happy-forests-happy-people-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A choropleth map showing forest cover and happiness index.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Forest Cover &amp; Happiness Bivariate Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,South America" data-listing-date-sort="1699768800000" data-listing-file-modified-sort="1703440494159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<a href="../gallery/andes-mountains-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/andes-mountains-map/img-andes-mountains-map-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A contour map showing the elevation change in the Andes of Peru">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Andes Mountains Elevation Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Map Gallery,North America" data-listing-date-sort="1699596000000" data-listing-file-modified-sort="1705293189046" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
+<a href="../gallery/moose-sightings-across-north-america/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/moose-sightings-across-north-america/img-moose-sightings-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A simple map showing the points that indicate moose sightings across a backdrop of North America.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Moose Sightings Across North America
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<a href="../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/postsecondary-institutions-map/img-college-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A hexbin map showing the total number of post-secondary institutions and programs in each U.S. state.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Post-Secondary Institutions Hexmap
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Africa" data-listing-date-sort="1699423200000" data-listing-file-modified-sort="1699724560000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="110">
+<a href="../gallery/hyaenidae-range-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/hyaenidae-range-map/img-hyena-ranges-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="A series of four maps showing the ranges of species in the family Hyaenidae.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hyaenidae Distribution Map for Africa
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<a href="../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/tiger-distribution-map/img-tiger-range-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A map of Asia showing the current and historical range of tigers.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tiger Range and Conservation Landscapes
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="Map Gallery,Canada" data-listing-date-sort="1698987600000" data-listing-file-modified-sort="1705072594088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
+<a href="../gallery/canadian-ecoregion-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/canadian-ecoregion-map/img-canadian-ecoregions.png" class="thumbnail-image card-img" style="height: 300px;" alt="A regional map showing Canada and several level one ecological regions.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Canadian Ecoregions Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="Map Gallery,Minnesota,Contour" data-listing-date-sort="1698901200000" data-listing-file-modified-sort="1705071879006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
+<a href="../gallery/eagle-mountain-contour-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/eagle-mountain-contour-map/img-eagle-mtn-map.png" class="thumbnail-image card-img" style="height: 300px;" alt="A contour map showing Eagle Mountain and the surrounding topography and hydrological features.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Eagle Mountain Contour Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1705072320366" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
+<a href="../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/national-champion-tree-map/img-national-champion-trees-thumbnail.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing the United States and the locations of champion trees displayed as points.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+National Champion Trees Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="Data Gallery" data-listing-date-sort="1698037200000" data-listing-file-modified-sort="1705176714471" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1368">
 <a href="../gallery/work-commitments-calendar/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -596,7 +566,7 @@ Weekly Work Commitments Calendar
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Data Gallery" data-listing-date-sort="1696050000000" data-listing-file-modified-sort="1704302885886" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<div class="g-col-1" data-index="14" data-categories="Data Gallery" data-listing-date-sort="1696050000000" data-listing-file-modified-sort="1704302885886" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
 <a href="../gallery/relative-coding-proficiency-chart/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -610,37 +580,53 @@ Relative Coding Proficiency Charts
 </div>
 </a>
 </div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="poster-report-gallery" class="level2">
-<h2 data-anchor-id="poster-report-gallery">Poster &amp; Report Gallery</h2>
-<p>My most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues.</p>
-<p><strong>Tools &amp; Technologies:</strong> R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown</p>
-<div id="listing-gallery-listings-posters" class="listings-gallery quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Poster Gallery,Mississippi River,Avian" data-listing-date-sort="1684213200000" data-listing-file-modified-sort="1705241978408" data-listing-date-modified-sort="1684213200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
-<a href="../gallery/bald-eagle-nest-selection-poster/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="15" data-categories="Map Gallery,Watershed" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1705202941568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<a href="../gallery/great-lakes-watershed-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../gallery/bald-eagle-nest-selection-poster/img-eagle-poster-thumb.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Poster detailing bald eagle nest monitoring research.">
+<img src="../gallery/great-lakes-watershed-map/img-map-11.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Map of Great Lakes watersheds and their pour points.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Poster on Bald Eagle Nest Selection Research
+Great Lakes Watersheds Map
 </h5>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Poster Gallery,Missouri,Mammal" data-listing-date-sort="1684386000000" data-listing-file-modified-sort="1705242001197" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+<div class="g-col-1" data-index="16" data-categories="Map Gallery,Mammal" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1705072233220" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
+<a href="../gallery/2018-squirrel-census-sighting-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/2018-squirrel-census-sighting-map/img-map-001v2.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing squirrel densities in Central Park.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+2018 Squirrel Census Sighting Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="17" data-categories="Map Gallery,United States,Endangered Species" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1705072030931" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<a href="../gallery/endangered-species-stamp-collection-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/endangered-species-stamp-collection-map/img-map-endangeredstamps.png" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing the United States and several ranges of endangrered species.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Endangered Species Stamp Map
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="18" data-categories="Poster Gallery,Missouri,Mammal" data-listing-date-sort="1684386000000" data-listing-file-modified-sort="1705242001197" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
 <a href="../gallery/missouri-bat-hcp-poster/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../gallery/missouri-bat-hcp-poster/img-bat-hcp-poster.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Poster showing information about the Missouri bat habitat conservation plan.">
+<img data-src="../gallery/missouri-bat-hcp-poster/img-bat-hcp-poster.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Poster showing information about the Missouri bat habitat conservation plan.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -650,25 +636,81 @@ Missouri Bat HCP Overview &amp; Update Poster
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Report Gallery,Mississippi River,Avian" data-listing-file-modified-sort="1705073468206" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
-<a href="../gallery/bald-eagle-nest-monitoring-report/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="19" data-categories="Poster Gallery,Mississippi River,Avian" data-listing-date-sort="1684213200000" data-listing-file-modified-sort="1705241978408" data-listing-date-modified-sort="1684213200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
+<a href="../gallery/bald-eagle-nest-selection-poster/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../gallery/bald-eagle-nest-monitoring-report/img-eagle-report.png" class="thumbnail-image card-img" style="height: 300px;" alt="Image of the report cover page.">
+<img data-src="../gallery/bald-eagle-nest-selection-poster/img-eagle-poster-thumb.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Poster detailing bald eagle nest monitoring research.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Bald Eagle Nest Monitoring Report
+Poster on Bald Eagle Nest Selection Research
 </h5>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Report Gallery,Missouri,Furbearers" data-listing-file-modified-sort="1705073212699" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
+<div class="g-col-1" data-index="20" data-categories="Map Gallery,Missouri" data-listing-date-sort="1682917200000" data-listing-file-modified-sort="1700838316000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<a href="../gallery/overlaying-public-lands-with-bmzs/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../gallery/overlaying-public-lands-with-bmzs/img-map-6.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Map showing bear management zones.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Overlaying Public Lands with BMZs
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="21" data-categories="Map Gallery,Missouri,Choropleth" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1705073037072" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<a href="../gallery/missouri-bear-sighting-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../gallery/missouri-bear-sighting-map/img-map-5.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Cholorpleth map showing the number of sightings per Missouri county.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Choropleth of Missouri Bear Sightings
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="22" data-categories="Map Gallery,Wisconsin" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1700838365000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="52">
+<a href="../gallery/shoreline-structure-setback-compliance-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../gallery/shoreline-structure-setback-compliance-map/img-map-4.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Map of three lakes showing shoreline structure setback complicance.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Shoreline Structure Setback Compliance
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="23" data-categories="Map Gallery,Missouri,Choropleth" data-listing-date-sort="1667278800000" data-listing-file-modified-sort="1700515994000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
+<a href="../gallery/turkey-harvest-maps-by-county/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../gallery/turkey-harvest-maps-by-county/img-turkey-harvest-maps-thumb.png" class="thumbnail-image card-img" style="height: 300px;" alt="Two maps side by side of fall and spring turkey harvest.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+County-Based Turkey Harvest Maps
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="24" data-categories="Report Gallery,Missouri,Furbearers" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1706674119719" data-listing-date-modified-sort="1683694800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
 <a href="../gallery/mdc-furbearer-program-annual-report-2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../gallery/mdc-furbearer-program-annual-report-2021/img-2021-mdc-furbearer-report.png" class="thumbnail-image card-img" style="height: 300px;" alt="Image of example pages from the report.">
+<img data-src="../gallery/mdc-furbearer-program-annual-report-2021/img-2021-mdc-furbearer-report.png" class="thumbnail-image card-img" style="height: 300px;" alt="Image of example pages from the report.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -678,15 +720,61 @@ Annual Report for MDC Furbearer Program
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="25" data-categories="Report Gallery,Mississippi River,Avian" data-listing-date-sort="1594357200000" data-listing-file-modified-sort="1706674072243" data-listing-date-modified-sort="1684472400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
+<a href="../gallery/bald-eagle-nest-monitoring-report/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../gallery/bald-eagle-nest-monitoring-report/img-eagle-report.png" class="thumbnail-image card-img" style="height: 300px;" alt="Image of the report cover page.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bald Eagle Nest Monitoring Report
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="26" data-categories="Map Gallery,Wisconsin,Location Suitability" data-listing-date-sort="1546322400000" data-listing-file-modified-sort="1700515846000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<a href="../gallery/vineyard-and-winery-location-suitability-map/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../gallery/vineyard-and-winery-location-suitability-map/img-vineyard-suitability-map-thumb.jpg" class="thumbnail-image card-img" style="height: 300px;" alt="Map-of-vineyard-and-winery-suitabiliy.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Vineyard and Winery Location Suitability Map
+</h5>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="gallery-listings-all-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+<!-- ## Map Gallery -->
+<!-- Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me. -->
+<!-- **Tools & Technologies:** ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS -->
+<!-- ::: {#gallery-listings-maps .listings-gallery} -->
+<!-- ::: -->
+<!-- ## Data Viz Gallery -->
+<!-- In addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects. -->
+<!-- **Tools & Technologies:** R/RStudio, Python/Jupyter Notebook, Microsoft Excel -->
+<!-- ::: {#gallery-listings-dataviz .listings-gallery} -->
+<!-- ::: -->
+<!-- ## Poster & Report Gallery -->
+<!-- My most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues. -->
+<!-- **Tools & Technologies:** R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown -->
+<!-- ::: {#gallery-listings-posters .listings-gallery} -->
+<!-- ::: -->
 </div>
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
