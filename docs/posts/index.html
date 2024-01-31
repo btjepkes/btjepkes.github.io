@@ -66,10 +66,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      page: 6,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-subtitle","listing-description","listing-category"],
+      valueNames: ['listing-image','listing-title','listing-description','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -145,7 +144,7 @@ window.Quarto = {
 <meta name="citation_language" content="en">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -243,51 +242,155 @@ window.Quarto = {
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Bibliography"><span class="quarto-category-count category-cloud-2">Bibliography</span></div><div class="category" data-category="Cartography"><span class="quarto-category-count category-cloud-2">Cartography</span></div><div class="category" data-category="Education"><span class="quarto-category-count category-cloud-3">Education</span></div><div class="category" data-category="GIS"><span class="quarto-category-count category-cloud-2">GIS</span></div><div class="category" data-category="Nature"><span class="quarto-category-count category-cloud-3">Nature</span></div><div class="category" data-category="R"><span class="quarto-category-count category-cloud-3">R</span></div><div class="category" data-category="Shorelines"><span class="quarto-category-count category-cloud-2">Shorelines</span></div><div class="category" data-category="Wildlife"><span class="quarto-category-count category-cloud-3">Wildlife</span></div><div class="category" data-category="mapping"><span class="quarto-category-count category-cloud-2">mapping</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
+<div class="column-page">
+
+<style type="text/css">
+.nav-tabs {
+  margin-top: 0.5rem;
+  margin-bottom: 20px;
+  border-bottom: none;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.callout {
+  margin-top: 0;
+}
+
+.nav-tabs .nav-item {
+  flex: 1;
+  min-width: 150px;
+}
+
+.nav-tabs .nav-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.8em;
+  font-weight: 600;
+  background: linear-gradient(120deg, rgba(196,228,232,1) 0%, rgba(239,249,245,1) 35%, rgba(196,228,232,1) 100%);
+}
+
+.nav-tabs .nav-link, 
+.nav-tabs .nav-link.active, 
+.nav-tabs .nav-item.show .nav-link {
+  border: 1px solid  rgb(222, 226, 230);
+  border-radius: 10px;
+  color: rgb(80,146,221);
+}
+.nav-tabs .nav-link:hover {
+   border-color: rgb(80,146,221);
+   border-width: 1px;
+} 
+
+.nav-tabs .nav-link.active, 
+.nav-tabs .nav-item.show .nav-link {
+  border-color: rgb(80,146,221);
+  border-width: 2px;
+}
+
+
+.nav-tabs .nav-link i {
+  display: block;
+  font-size: 3rem;
+  color: #153b46;
+  margin-bottom: 5px;
+}
+
+.quarto-listing {
+  margin-top: 2em;
+}
+
+.quarto-listing .listing-name,
+.quarto-listing .listing-author {
+  white-space: nowrap;
+}
+
+.quarto-listing .listing-actions-group h3 {
+  margin-top: 0;
+}
+
+ 
+</style>
+
+<ul id="index-chooser" class="nav nav-tabs" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="../posts/#category=Cartography">
+      <i class="bi bi-pin-map"></i>Cartography
+    </a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="../posts/#category=Education">
+      <i class="bi bi-mortarboard"></i>Education
+    </a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="../posts/#category=R">
+      <i class="bi bi-code-slash"></i>Coding
+    </a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="../posts/#category=Wildlife">
+      <i class="bi bi-binoculars"></i>Wildlife
+    </a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" href="../posts/#category=GIS">
+      <i class="bi bi-geo"></i>GIS &amp; Geospatial
+    </a>
+  </li>
+    <li class="nav-item" role="presentation">
+    <a class="nav-link" href="../posts/">
+      <i class="bi bi-emoji-smile"></i>All Posts
+    </a>
+  </li>
+</ul>
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
+  // get file name
+  const filename = window.location.pathname.split("/").slice(-1)[0];
+
+  // latch active
+  const toolLinks = window.document.querySelectorAll("#index-chooser a");
+  for (const tool of toolLinks) {
+    if (filename && filename !== "index.html") {
+      if (tool.href.endsWith(filename)) {
+        tool.classList.add("active");
+      } 
+    } else {
+      if (tool.href.endsWith("listing-filters.html")) {
+        tool.classList.add("active");
+      }
+    }
+  }
+  
+  // move heading into table
+  document.querySelector(".listing-actions-group").prepend(document.querySelector("h3.unlisted"));
+});
+
+</script>
 <div id="listing-main-posts" class="quarto-listing quarto-listing-container-grid">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-main-posts-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-main-posts'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1705292027875" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3951">
+<div class="g-col-1" data-index="0" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1705292027875" data-listing-date-modified-sort="1706680800000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3951">
 <a href="../posts/building-annotated-bibliographies-with-quarto/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../posts/building-annotated-bibliographies-with-quarto/img-bib-post-cover.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img src="../posts/building-annotated-bibliographies-with-quarto/img-bib-post-cover.jpg" class="thumbnail-image card-img" style="height: 220px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Create Annotated Bibliographies with Quarto
 </h5>
 <div class="card-text listing-description">
-In this post, I provide a semi-automated workflow for generating an annotated bibliography in…
+In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -301,18 +404,18 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1704002400000" data-listing-file-modified-sort="1705198561079" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="5" data-listing-word-count-sort="955">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1704002400000" data-listing-file-modified-sort="1705198561079" data-listing-date-modified-sort="1706680800000" data-listing-reading-time-sort="5" data-listing-word-count-sort="955">
 <a href="../posts/my-2023-highlights-reflections-and-recap/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../posts/my-2023-highlights-reflections-and-recap/img-fern.jpg" class="thumbnail-image card-img" style="height: 200px;" alt="An image of a fern within a forest.">
+<img src="../posts/my-2023-highlights-reflections-and-recap/img-fern.jpg" class="thumbnail-image card-img" style="height: 220px;" alt="An image of a fern within a forest.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 My 2023 Highlights, Reflections, and Recap
 </h5>
 <div class="card-text listing-description">
-This post takes a quick run through the last year of my professional life, including some of my…
+This post takes a quick run through the last year of my professional life, including some of my accomplishments…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -326,18 +429,18 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="mapping" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1705190959387" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
+<div class="g-col-1" data-index="2" data-categories="mapping" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1705190959387" data-listing-date-modified-sort="1706680800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
 <a href="../posts/30-day-map-challenge-2023/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../posts/30-day-map-challenge-2023/img-30dmc-my2023.png" class="thumbnail-image card-img" style="height: 200px;" alt="An image showing all my contribution maps.">
+<img src="../posts/30-day-map-challenge-2023/img-30dmc-my2023.png" class="thumbnail-image card-img" style="height: 220px;" alt="An image showing all my contribution maps.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 30DayMapChallenge - 2023 Contributions
 </h5>
 <div class="card-text listing-description">
-This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily…
+This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily social media challenge…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -351,18 +454,18 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="R,Wildlife,Cartography" data-listing-date-sort="1683262800000" data-listing-file-modified-sort="1705190843594" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="451">
+<div class="g-col-1" data-index="3" data-categories="R,Wildlife,Cartography" data-listing-date-sort="1683262800000" data-listing-file-modified-sort="1705190843594" data-listing-date-modified-sort="1706680800000" data-listing-reading-time-sort="3" data-listing-word-count-sort="451">
 <a href="../posts/interactive-heatmap-of-gbif-occurrences/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="thumbnail-image card-img" style="height: 200px;" alt="Image of sage grouse on a lek.">
+<img src="../posts/interactive-heatmap-of-gbif-occurrences/img-sage-grouse.jpg" class="thumbnail-image card-img" style="height: 220px;" alt="Image of sage grouse on a lek.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Interactive Heatmap of GBIF Occurrences
 </h5>
 <div class="card-text listing-description">
-In this blog post, we demonstrate how to use a dedicated package in R to access sage grouse…
+In this blog post, we demonstrate how to use a dedicated package in R to access sage grouse occurrence data from the…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -376,18 +479,18 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Wildlife,GIS" data-listing-date-sort="1679806800000" data-listing-file-modified-sort="1705202651109" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1075">
+<div class="g-col-1" data-index="4" data-categories="Wildlife,GIS" data-listing-date-sort="1679806800000" data-listing-file-modified-sort="1705202651109" data-listing-date-modified-sort="1706680800000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1075">
 <a href="../posts/how-scientists-use-gis-to-study-wildlife/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../posts/how-scientists-use-gis-to-study-wildlife/img-001.svg" class="thumbnail-image card-img" style="height: 200px;" alt="Image-of-a-map.">
+<img src="../posts/how-scientists-use-gis-to-study-wildlife/img-001.svg" class="thumbnail-image card-img" style="height: 220px;" alt="Image-of-a-map.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 How Scientists Use GIS to Study Wildlife
 </h5>
 <div class="card-text listing-description">
-In this post, we explore the fascinating ways that geospatial technologies are being used in the…
+In this post, we explore the fascinating ways that geospatial technologies are being used in the realm of wildlife…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -405,14 +508,14 @@ Benjamin Tjepkes
 <a href="../posts/how-to-become-a-contemporary-naturalist/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80" class="thumbnail-image card-img" style="height: 200px;" alt="Image-of-a-woman-standing-in-a-forest.">
+<img src="https://images.unsplash.com/photo-1469793338018-ce73504ca379?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80" class="thumbnail-image card-img" style="height: 220px;" alt="Image-of-a-woman-standing-in-a-forest.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 How to Become a Contemporary Naturalist
 </h5>
 <div class="card-text listing-description">
-This blog post outlines some simple and cost-effective ways to help you start your journey as a…
+This blog post outlines some simple and cost-effective ways to help you start your journey as a contemporary…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -426,18 +529,18 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Nature,Education,Shorelines" data-listing-date-sort="1665896400000" data-listing-file-modified-sort="1704992655921" data-listing-date-modified-sort="1706594400000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1702">
+<div class="g-col-1" data-index="6" data-categories="Nature,Education,Shorelines" data-listing-date-sort="1665896400000" data-listing-file-modified-sort="1704992655921" data-listing-date-modified-sort="1706680800000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1702">
 <a href="../posts/can-you-naturally-protect-shores-from-erosion/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934" class="thumbnail-image card-img" style="height: 200px;" alt="Image looking across a lake with plants in the foreground.">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934" class="thumbnail-image card-img" style="height: 220px;" alt="Image looking across a lake with plants in the foreground.">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Naturally Protecting Shores From Erosion
 </h5>
 <div class="card-text listing-description">
-In this blog post, we will explore the causes of shoreline erosion and discuss some effective ways…
+In this blog post, we will explore the causes of shoreline erosion and discuss some effective ways to prevent it. By…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -455,9 +558,7 @@ Benjamin Tjepkes
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-<nav id="main-posts-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
+</div>
 </div>
 
 

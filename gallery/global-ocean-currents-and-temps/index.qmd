@@ -5,6 +5,7 @@ date: 2023-10-29
 categories:
   - Climate
   - Dynamic/Web
+  - Map Gallery
 description: This dynamic map was built in ArcGIS Online as a global web scene to show my students how ocean currents are impacting continental climate.
 image: img-global-ocean.png
 image-alt: "Image showing the global ocean currents focused on South America."
