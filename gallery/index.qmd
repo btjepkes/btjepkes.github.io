@@ -17,6 +17,7 @@ listing:
     #max-items: 16
     grid-item-border: true
     sort: "date desc"
+    page-size: 50
     image-height: 300px
     #filter-ui: [title, subtitle, categories, abstract]
     fields:

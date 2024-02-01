@@ -139,7 +139,7 @@ body {
   -webkit-font-smoothing: antialiased;
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
-  font-family: Jost, Nunito, sans-serif;
+  font-family: Atkinson Hyperlegible, Nunito, sans-serif;
 }
 
 
@@ -184,6 +184,7 @@ h3 {
   margin-top: 10px;
   margin-bottom: 10px;
   color: white;
+  font-family: Jost, Nunito, sans-serif;
 }
 
 #toc-title {
@@ -608,6 +609,7 @@ color: #000;
   font-weight: 700;
   margin-bottom: 6px;
   color: #0f172a;
+  font-family: Jost, Nunito, sans-serif;
 }
 
 .quarto-grid-item .card-subtitle strong {
