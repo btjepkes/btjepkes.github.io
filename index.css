@@ -4,13 +4,14 @@
   font-weight: 300;
   font-size: 1.4em;
   line-height: 1.2;
-  padding: 20px 12px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  
+  /*padding: 20px 12px;
   border-radius: 5px;
   box-shadow: rgba(14,37,52,.05) 0px 3px 5px 0px,rgba(14,37,52,.05) 0px 1px 1px 0px;
   background: linear-gradient(120deg, rgba(151,194,188,1) 0%, rgba(239,249,245,1) 35%, rgba(151,194,188,1) 100%), url("assets/noise.png");
-  /**background-image: url("assets/noise.png");*/
-  border: solid 5px rgba(0, 0, 0, 0.075);
+  background-image: url("assets/noise.png");
+  border: solid 5px rgba(0, 0, 0, 0.075);*/
 }
 
 #intro-section-text {

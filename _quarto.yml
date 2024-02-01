@@ -133,7 +133,7 @@ format:
     code-overflow: scroll
     grid:
       body-width: 980px
-      gutter-width: 4.2vw
+      # gutter-width: 4.2vw
       margin-width: 240px
       sidebar-width: 0px
     lightbox: auto
