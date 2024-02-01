@@ -155,8 +155,9 @@ h1 {
 }
 
 h1 strong {
-  color: #dd5754;
-  font-weight: 400 !important;
+  /*color: #dd5754;*/
+  font-weight: 500 !important;
+  color: #35d290;
 }
 
 .title {
@@ -471,7 +472,7 @@ color: #000;
 
 #title-block-header {
   text-align: center;
-  padding: 30px 25px 30px 25px;
+  padding: 40px 25px 40px 25px;
   margin: auto;
   background: #143644;
   border-bottom: solid #1e293b 3px;

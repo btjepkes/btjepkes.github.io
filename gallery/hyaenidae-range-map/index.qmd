@@ -1,13 +1,13 @@
 ---
 title: "Hyaenidae Distribution Map for Africa"
-subtitle: "Visualizing ranges for the four extant species."
+abstract: "Visualizing ranges for the four extant species."
 date: 11/08/2023
 categories:
   - Map Gallery
   - Africa
 keywords:
   - "#30DayMapChallenge2023"
-abstract: This map shows the current ranges for the four extant species in the family Hyaenidae across the African continent.
+description: This map shows the current ranges for the four extant species in the family Hyaenidae across the African continent.
 image: img-hyena-ranges-thumb.png
 image-alt: "A series of four maps showing the ranges of species in the family Hyaenidae."
 # aliases:
