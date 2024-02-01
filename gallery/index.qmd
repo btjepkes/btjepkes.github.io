@@ -1,6 +1,6 @@
 ---
 title: "My Gallery"
-subtitle: "**of Maps and Visualizations**"
+subtitle: "**of Maps and More**"
 date-modified: today
 image: ../assets/img-geospatial-cover.webp
 image-alt: Image-of-pine-trees-on-blue-background.

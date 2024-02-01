@@ -132,7 +132,7 @@ format:
     code-link: true
     code-overflow: scroll
     grid:
-      body-width: 980px
+      body-width: 900px
       # gutter-width: 4.2vw
       margin-width: 240px
       sidebar-width: 0px

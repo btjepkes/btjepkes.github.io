@@ -254,8 +254,7 @@ a {
 
 .navbar {
   box-shadow: 0 0 32px rgba(15, 23, 42, 0.25);
-	border-bottom: solid 0px #1e293b;
-	background: rgba(15, 23, 42, 1.0);
+	background: #051933;
 	background-image: url("assets/noise.png");
   }
 
@@ -271,7 +270,8 @@ a {
   padding: 1px;
   margin: 10px;
   max-height: 40px;
-  border: solid 1px white;
+  border: solid 1px #fbfbfc;
+  border-radius: 2px;
   }
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
@@ -472,9 +472,9 @@ color: #000;
 
 #title-block-header {
   text-align: center;
-  padding: 40px 25px 40px 25px;
+  padding: 30px 25px 40px 25px;
   margin: auto;
-  background: #143644;
+  background: #051933;
   border-bottom: solid #1e293b 3px;
   background-image: url("assets/noise.png");
 }

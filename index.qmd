@@ -1,7 +1,7 @@
 ---
 title: "Hello! My name is **Ben Tjepkes** and I am a wildlife ecologist and data-driven geographer."
 abstract: This is my online portfolio showcasing my professional and creative works.
-description: "I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. I have interests spanning geospatial, ecology, data science, and climate science."
+description: "I am currently a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography."
 date-modified: today
 image: "assets/img-ben-work.png"
 image-alt: "Image-of-trees."
@@ -30,7 +30,6 @@ listing:
     fields:
       - title
       - subtitle
-      - image
   - id: site-listings-2
     contents:
       - title: "*Latest Post:* <br> Create Annotated Bibliographies with Quarto"
