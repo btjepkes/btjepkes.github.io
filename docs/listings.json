@@ -29,15 +29,6 @@
     "items": []
   },
   {
-    "listing": "/about/index.html",
-    "items": [
-      "/curriculum-vitae/index.html",
-      "/posts/index.html",
-      "/gallery/index.html",
-      "/research/index.html"
-    ]
-  },
-  {
     "listing": "/gallery/index.html",
     "items": [
       "/gallery/my-github-contributions-in-2023/index.html",

@@ -195,16 +195,23 @@ h3 {
   padding-left: 5px;
 }
 
+#TOC {
+  background: #f0f2f4;
+  padding: 20px;
+  border-radius: 0.75rem;
+  margin-top: 10px;
+}
+
 code {
   color: #1e293b;
   border-radius: 4px;
-  background: $gray-200;
+  background: #cfeecf;
 }
 
 p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
   color: #1e293b;
   border-radius: 4px;
-  background: $gray-200;
+  background: #cfeecf;
 }
 
 div.sourceCode {
@@ -593,7 +600,7 @@ color: #000;
 }
 
 .quarto-grid-item {
-  border-radius: 5px;
+  border-radius: 0.75rem;
   overflow: hidden;
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
   background-color: #f0f0f3;
@@ -666,12 +673,12 @@ color: #000;
 // TAB SETS
 
 .tab-content {
-      background: antiquewhite;
+      background: #f0f2f4;
     }
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-    border-color: #faebd7;
-    background-color: #faebd7;
+    border-color: #f0f2f4;
+    background-color: #f0f2f4;
     }
 
 /* FIGURES & IMAGES */

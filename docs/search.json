@@ -30,21 +30,21 @@
   {
     "objectID": "research/ruffed-grouse-drumming-log-selection/index.html",
     "href": "research/ruffed-grouse-drumming-log-selection/index.html",
-    "title": "Ruffed Grouse Drumming Log Selection An assessment of ruffed grouse reproductive habitat in Northern Wisconsin.",
+    "title": "Ruffed Grouse Drumming Log Selection ",
     "section": "",
     "text": "This project was aimed at determining how ruffed grouse in northern Wisconsin select their drumming log sites, investigating everything from log diameter, orientation, and spatial position."
   },
   {
     "objectID": "research/ruffed-grouse-drumming-log-selection/index.html#objectives-methods",
     "href": "research/ruffed-grouse-drumming-log-selection/index.html#objectives-methods",
-    "title": "Ruffed Grouse Drumming Log Selection An assessment of ruffed grouse reproductive habitat in Northern Wisconsin.",
+    "title": "Ruffed Grouse Drumming Log Selection ",
     "section": "",
     "text": "This project was aimed at determining how ruffed grouse in northern Wisconsin select their drumming log sites, investigating everything from log diameter, orientation, and spatial position."
   },
   {
     "objectID": "research/ruffed-grouse-drumming-log-selection/index.html#project-presentations",
     "href": "research/ruffed-grouse-drumming-log-selection/index.html#project-presentations",
-    "title": "Ruffed Grouse Drumming Log Selection An assessment of ruffed grouse reproductive habitat in Northern Wisconsin.",
+    "title": "Ruffed Grouse Drumming Log Selection ",
     "section": "Project Presentations",
     "text": "Project Presentations\nTjepkes, B.W., J.G. Williams, J.O. Quehl, R.A. Martin, L. Cutler, and J.D. Riddle. Determining topographical components to drumming log selection in ruffed grouse. Session poster at University of Wisconsin – Stevens Point College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.\nTjepkes, B.W., J.G. Williams, J.O. Quehl, B.M. Rochefort, R.A. Martin, and J.D. Riddle. Spatial position and orientation of ruffed grouse drumming logs. Session poster at The Wildlife Society Annual Conference, Cleveland, OH.\nTjepkes, B.W., J.G. Williams, J.O. Quehl, B.M. Rochefort, R.A. Martin, and J.D. Riddle. Measuring drumming log characteristics. Session poster at Midwest Fish and Wildlife Conference, Milwaukee, WI.\nWilliams, J.G., S.E. Lau, H.A. Putnam, J.O. Quehl, B.W. Tjepkes, and J.D. Riddle. Ruffed grouse drumming log characteristics. Session poster at The Wildlife Society Annual Conference, Albuquerque, NM.\nWilliams, J.G., S.E. Lau, H.A. Putnam, J.O. Quehl, B.W. Tjepkes, and J.D. Riddle. Ruffed grouse (Bonasa umbellus) drumming log characteristics near Tomahawk, Wisconsin. Session poster at Midwest Fish and Wildlife Conference, Lincoln, NE.\nWilliams, J.G., H.M. North, B.W. Tjepkes, S.E. Lau, and J.D. Riddle. Ruffed grouse (Bonasa umbellus) drumming log selection near Tomahawk, Wisconsin. Session poster at The Wildlife Society Annual Conference, Raleigh, NC.\nWilliams, J.G., H.M. North, B.W. Tjepkes, S.E. Lau, and J.D. Riddle. Relationships between home range size, age, and habitat for ruffed grouse. Session poster at University of Wisconsin – Stevens Point College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
   },
@@ -252,11 +252,18 @@
     "text": "Tools & Methods\nThis map and all spatial analysis needed to create it was performed in ArcMap 10.x. All primary structures in each lake-adjacent parcel were outlined using heads-up digitizing techniques. The distance to water was then determined using the Near tool in ArcMap, referencing the ordinary high water mark for compliance.\n\n\n\nMap Credit: Benjamin Tjepkes"
   },
   {
+    "objectID": "gallery/pennsylvania-bridge-map/index.html",
+    "href": "gallery/pennsylvania-bridge-map/index.html",
+    "title": "Pennsylvania Bridges from OpenStreetMap ",
+    "section": "",
+    "text": "This map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject."
+  },
+  {
     "objectID": "gallery/pennsylvania-bridge-map/index.html#task-objectives",
     "href": "gallery/pennsylvania-bridge-map/index.html#task-objectives",
     "title": "Pennsylvania Bridges from OpenStreetMap ",
-    "section": "Task & Objectives",
-    "text": "Task & Objectives\nThis map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject. The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database."
+    "section": "",
+    "text": "This map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject."
   },
   {
     "objectID": "gallery/pennsylvania-bridge-map/index.html#tools-workflow",
@@ -264,6 +271,13 @@
     "title": "Pennsylvania Bridges from OpenStreetMap ",
     "section": "Tools & Workflow",
     "text": "Tools & Workflow\nMap creation was performed in R/Studio using theggplot package.\nOpenStreeMap data for both bridges and largest cities were accessed via the osmdata package."
+  },
+  {
+    "objectID": "gallery/pennsylvania-bridge-map/index.html#final-result",
+    "href": "gallery/pennsylvania-bridge-map/index.html#final-result",
+    "title": "Pennsylvania Bridges from OpenStreetMap ",
+    "section": "Final Result",
+    "text": "Final Result\nThe resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database."
   },
   {
     "objectID": "gallery/national-champion-tree-map/index.html#objective",
@@ -478,23 +492,16 @@
   {
     "objectID": "about/index.html#current-happenings",
     "href": "about/index.html#current-happenings",
-    "title": "About Me and My Professional Pathway",
+    "title": "About Me and My Pathway",
     "section": "Current Happenings",
-    "text": "Current Happenings\n\nWhere Am I Now?\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\n\n\nRecent Works\nThis site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my professional CV for a comprehensive look.\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Professional Experience\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nand Other Organized Ramblings\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and More\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Current Happenings\n\nWhere Am I Now?\nI am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\nThis site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my professional CV for a comprehensive look."
   },
   {
     "objectID": "about/index.html#my-professional-path",
     "href": "about/index.html#my-professional-path",
-    "title": "About Me and My Professional Pathway",
+    "title": "About Me and My Pathway",
     "section": "My Professional Path",
-    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program. Updates on my thesis work soon!"
-  },
-  {
-    "objectID": "about/index.html#past-endeavors",
-    "href": "about/index.html#past-endeavors",
-    "title": "About Me and My Professional Pathway",
-    "section": "Past Endeavors",
-    "text": "Past Endeavors\nThis section provides an assortment of photos showing some of my past work.\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.\n\n\n\n\n\nI have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.\n\n\n\n\n\nThis is another beautiful place I was able to work in, the Ozarks of Missouri.\n\n\n\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.\nI have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.\nThis is another beautiful place I was able to work in, the Ozarks of Missouri."
+    "text": "My Professional Path\n\n01 | Trained as a biologist.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats.\nMy passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year.\n\n\n02 | Drawn to geospatial.\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships.\nDriven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n03 | Mastering geography.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.\nThrough my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program. Updates on my thesis work soon!\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.\n\n\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course."
   },
   {
     "objectID": "assets/index.html",
@@ -746,7 +753,7 @@
     "href": "index.html",
     "title": "Hello! My name is Ben Tjepkes and I am a wildlife ecologist and data-driven geographer. ",
     "section": "",
-    "text": "Dive into this site to explore my most recent works in…\n\n\n\n wildlife ecology\n\n\n biogeography\n\n\n geospatial\n\n\n data science\n\n\n cartography\n\n\n climate science\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Professional Pathway\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Professional Experience\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nand Other Organized Ramblings\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and More\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\nLatest Post:  Create Annotated Bibliographies with Quarto\n\n\n\n\n\n\n\n\n\n\nLatest Visual:  Anthrome Map of the Upper Peninsula, MI\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Dive into this site to explore my most recent works in…\n\n\n\n wildlife ecology\n\n\n biogeography\n\n\n geospatial\n\n\n data science\n\n\n cartography\n\n\n climate science\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Pathway\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Professional Experience\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nand Other Organized Ramblings\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and More\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\nLatest Post:  Create Annotated Bibliographies with Quarto\n\n\n\n\n\n\n\n\n\n\nLatest Visual:  Anthrome Map of the Upper Peninsula, MI\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/building-annotated-bibliographies-with-quarto/index.html",
@@ -877,21 +884,21 @@
   {
     "objectID": "research/raccoon-space-use-and-home-ranges/index.html",
     "href": "research/raccoon-space-use-and-home-ranges/index.html",
-    "title": "Raccoon Space-Use and Home Ranges Determining sex-specific space-use for raccoons in Laramie, Wyoming.",
+    "title": "Raccoon Space-Use and Home Ranges ",
     "section": "",
     "text": "This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming. Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the adehabitatHR package in the RStudio environment."
   },
   {
     "objectID": "research/raccoon-space-use-and-home-ranges/index.html#project-objectives-methods",
     "href": "research/raccoon-space-use-and-home-ranges/index.html#project-objectives-methods",
-    "title": "Raccoon Space-Use and Home Ranges Determining sex-specific space-use for raccoons in Laramie, Wyoming.",
+    "title": "Raccoon Space-Use and Home Ranges ",
     "section": "",
     "text": "This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming. Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the adehabitatHR package in the RStudio environment."
   },
   {
     "objectID": "research/raccoon-space-use-and-home-ranges/index.html#project-presentations",
     "href": "research/raccoon-space-use-and-home-ranges/index.html#project-presentations",
-    "title": "Raccoon Space-Use and Home Ranges Determining sex-specific space-use for raccoons in Laramie, Wyoming.",
+    "title": "Raccoon Space-Use and Home Ranges ",
     "section": "Project Presentations",
     "text": "Project Presentations\nTjepkes, B.W. 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (Procyon lotor) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI."
   },

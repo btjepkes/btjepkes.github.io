@@ -29,8 +29,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <link href="../assets/logo-1.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -60,35 +58,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-site-listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-site-listings'] = new List('listing-site-listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
 <script type="text/javascript">
@@ -100,35 +69,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <meta property="og:title" content="About Me | B.W. Tjepkes">
 <meta property="og:description" content="This page highlights my professional career path, including my work across the broad scopes of ecology and geospatial, as well as my higher education journey.">
@@ -143,7 +83,7 @@ window.Quarto = {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -224,7 +164,7 @@ window.Quarto = {
 <header id="title-block-header">
 
   <div class="title-area">
-    <h1 class="title">About Me <strong>and My Professional Pathway</strong></h1>
+    <h1 class="title">About Me <strong>and My Pathway</strong></h1>
   </div>
     
   <div class="header-content-container">  
@@ -241,26 +181,7 @@ window.Quarto = {
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On This Page:</h2>
-   
-  <ul>
-  <li><a href="#current-happenings" id="toc-current-happenings" class="nav-link active" data-scroll-target="#current-happenings">Current Happenings</a>
-  <ul class="collapse">
-  <li><a href="#where-am-i-now" id="toc-where-am-i-now" class="nav-link" data-scroll-target="#where-am-i-now">Where Am I Now?</a></li>
-  <li><a href="#recent-works" id="toc-recent-works" class="nav-link" data-scroll-target="#recent-works">Recent Works</a></li>
-  </ul></li>
-  <li><a href="#my-professional-path" id="toc-my-professional-path" class="nav-link" data-scroll-target="#my-professional-path">My Professional Path</a>
-  <ul class="collapse">
-  <li><a href="#trained-as-a-biologist." id="toc-trained-as-a-biologist." class="nav-link" data-scroll-target="#trained-as-a-biologist.">01 | Trained as a biologist.</a></li>
-  <li><a href="#drawn-to-geospatial." id="toc-drawn-to-geospatial." class="nav-link" data-scroll-target="#drawn-to-geospatial.">02 | Drawn to geospatial.</a></li>
-  <li><a href="#mastering-geography." id="toc-mastering-geography." class="nav-link" data-scroll-target="#mastering-geography.">03 | Mastering geography.</a></li>
-  </ul></li>
-  <li><a href="#past-endeavors" id="toc-past-endeavors" class="nav-link" data-scroll-target="#past-endeavors">Past Endeavors</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -273,73 +194,7 @@ window.Quarto = {
 <section id="where-am-i-now" class="level3">
 <h3 data-anchor-id="where-am-i-now">Where Am I Now?</h3>
 <p>I am a <strong>graduate student</strong> at the <strong>University of Missouri</strong> studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in <strong>ecology and biogeography</strong>. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.</p>
-</section>
-<section id="recent-works" class="level3">
-<h3 data-anchor-id="recent-works">Recent Works</h3>
 <p>This site is my professional portfolio that I try to keep updated. Please have a look at some of my blog posts, research overviews, and visualizations across this site. See my <a href="../curriculum-vitae/index.html">professional CV</a> for a comprehensive look.</p>
-<div id="listing-site-listings" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1706283935512" data-listing-reading-time-sort="8" data-listing-word-count-sort="1514">
-<a href="../curriculum-vitae/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Curriculum Vitae
-</h5>
-<div class="card-subtitle listing-subtitle">
-<strong>of my Professional Experience</strong>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1706798811370" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<a href="../posts/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Blog Posts
-</h5>
-<div class="card-subtitle listing-subtitle">
-<strong>and Other Organized Ramblings</strong>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1706819288211" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
-<a href="../gallery/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Gallery
-</h5>
-<div class="card-subtitle listing-subtitle">
-<strong>of Maps and More</strong>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1705190638360" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../research/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Research
-</h5>
-<div class="card-subtitle listing-subtitle">
-<strong>in Spatial Ecology and GIS</strong>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
 </section>
 </section>
 <section id="my-professional-path" class="level2">
@@ -358,37 +213,18 @@ No matching items
 <h3 class="intro-heading" data-anchor-id="mastering-geography.">03 | Mastering geography.</h3>
 <p>With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a <strong>Master’s degree in Geography</strong> at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies.</p>
 <p>Through my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program. Updates on my thesis work soon!</p>
-</section>
-</section>
-<section id="past-endeavors" class="level2">
-<h2 data-anchor-id="past-endeavors">Past Endeavors</h2>
-<p>This section provides an assortment of photos showing some of my past work.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="../assets/img-ben-work.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Being a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course."><img src="../assets/img-ben-work.png" class="img-fluid figure-img" alt="Being a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course."></a></p>
 <figcaption>Being a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="../assets/img-bog-trees.JPG" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="I have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin."><img src="../assets/img-bog-trees.JPG" class="img-fluid figure-img" alt="I have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin."></a></p>
-<figcaption>I have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="../assets/img-forest-fall.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="quarto-lightbox-gallery-4" title="This is another beautiful place I was able to work in, the Ozarks of Missouri."><img src="../assets/img-forest-fall.jpg" class="img-fluid figure-img" alt="This is another beautiful place I was able to work in, the Ozarks of Missouri."></a></p>
-<figcaption>This is another beautiful place I was able to work in, the Ozarks of Missouri.</figcaption>
-</figure>
-</div>
-
 
 
 <div class="hidden" aria-hidden="true">
 <span class="glightbox-desc lightbox-desc-2">Being a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.</span>
-<span class="glightbox-desc lightbox-desc-3">I have been very fortunate to work in some beautiful places over the years, including this Sphagnum-spruce bog in northern Wisconsin.</span>
-<span class="glightbox-desc lightbox-desc-4">This is another beautiful place I was able to work in, the Ozarks of Missouri.</span>
 </div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -833,7 +669,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

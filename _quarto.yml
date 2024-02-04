@@ -132,10 +132,10 @@ format:
     code-link: true
     code-overflow: scroll
     grid:
-      body-width: 900px
+      body-width: 880px
       # gutter-width: 4.2vw
       margin-width: 240px
-      sidebar-width: 0px
+      #sidebar-width: 880px
     lightbox: auto
     # include-in-header:
     #   - file: progress-bar.html
