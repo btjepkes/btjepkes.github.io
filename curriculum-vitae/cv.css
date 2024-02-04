@@ -13,6 +13,7 @@
         margin-bottom: 1.2em;
         -webkit-box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
         box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
+        border: solid #d8e0e8 2px;
     }
   
     .resume-item {

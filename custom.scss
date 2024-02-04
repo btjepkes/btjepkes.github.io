@@ -144,20 +144,37 @@ body {
 
 
 h1 {
-  font-weight: 400 !important;
-  color: white;
+  font-weight: 700 !important;
   font-size: clamp(1.8em, 5vw, 2.9em);
   padding-bottom: 20px;
   line-height: 1.2em;
   font-family: Oswald;
   max-width: 1000px;
   margin: auto;
+  
+  background-image: linear-gradient(-50deg,#adfbda 0,#35c3ff 30%,#fda399 50%,#76d880 70%,#ebf38b 90%,#adfbda 100%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  filter: drop-shadow(0 0 2rem #000);
+  text-shadow: none !important;
 }
 
 h1 strong {
   /*color: #dd5754;*/
   font-weight: 500 !important;
   color: #35d290;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  border: solid 3px #f0f2f4;
+  margin: 30px auto 0 auto;
+  width: 120px;
 }
 
 .title {

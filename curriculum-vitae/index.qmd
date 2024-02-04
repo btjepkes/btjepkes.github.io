@@ -7,6 +7,7 @@ image-alt: Image-of-pine-trees-on-blue-background.
 # date-modified: today
 author: ""
 description: "This page provides detailed overview of my formal education, recent professional experience, and professional skillset. Please also check out my full CV for a comprehensive listing of conference presentations, professional involvement, and technical publications or my 1-page Resume for a shorter version. My profile on [LinkedIn](https://www.linkedin.com/in/benjamintjepkes/) also provides information."
+toc: false
 format:
   html:
     echo: false
@@ -18,18 +19,20 @@ listing:
       - title: "Comprehensive CV"
         subtitle: "Full Academic Curriculum vitae"
         path: Tjepkes_CV_20231030_Web.pdf
+      - title: "Standard Resume"
+        subtitle: "2-Page Standard Resume"
+        path: Tjepkes_Resume_20240116_Web.pdf
       - title: "Shorter Resume"
         subtitle: "1-Page Abbreviated Resume"
         path: Tjepkes_Resume_20240113_Web.pdf
     type: grid
-    grid-columns: 2
+    grid-columns: 3
     grid-item-align: center
     fields:
       - title
       - subtitle
       - image
 ---
-
 
 ### View PDF versions here: {.centered .unnumbered .unlisted}
 
