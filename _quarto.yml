@@ -134,7 +134,7 @@ format:
     grid:
       body-width: 880px
       # gutter-width: 4.2vw
-      margin-width: 240px
+      margin-width: 280px
       #sidebar-width: 880px
     lightbox: auto
     # include-in-header:

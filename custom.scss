@@ -144,15 +144,15 @@ body {
 
 
 h1 {
-  font-weight: 700 !important;
-  font-size: clamp(1.8em, 5vw, 2.9em);
+  font-weight: 600 !important;
+  font-size: clamp(1.7em, 5vw, 2.85em);
   padding-bottom: 20px;
   line-height: 1.2em;
   font-family: Oswald;
   max-width: 1000px;
   margin: auto;
   
-  background-image: linear-gradient(-50deg,#adfbda 0,#35c3ff 30%,#fda399 50%,#76d880 70%,#ebf38b 90%,#adfbda 100%);
+  background-image: linear-gradient(30deg,#adfbda 0,#35c3ff 30%,#fda399 50%,#76d880 70%,#ebf38b 90%,#adfbda 100%);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -172,7 +172,7 @@ h1 strong {
 h1::after {
   content: "";
   display: block;
-  border: solid 3px #f0f2f4;
+  border: solid 2px #f0f2f4;
   margin: 30px auto 0 auto;
   width: 120px;
 }
@@ -183,6 +183,7 @@ h1::after {
 
 h2 {
   margin-bottom: 20px;
+  margin-top: 2em;
   margin-left: -0.3vw;
   border-bottom: solid $gray-200 3px;
 }
@@ -217,6 +218,8 @@ h3 {
   padding: 20px;
   border-radius: 0.75rem;
   margin-top: 10px;
+  border: solid #eceef0 2px;
+  margin-left: 40px;
 }
 
 code {
