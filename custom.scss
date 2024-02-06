@@ -144,23 +144,24 @@ body {
 
 
 h1 {
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   font-size: clamp(1.7em, 5vw, 2.85em);
   padding-bottom: 20px;
   line-height: 1.2em;
   font-family: Oswald;
   max-width: 1000px;
   margin: auto;
-  
-  background-image: linear-gradient(30deg,#adfbda 0,#35c3ff 30%,#fda399 50%,#76d880 70%,#ebf38b 90%,#adfbda 100%);
+  color: white;
+  /*background-image: linear-gradient(30deg,#ffffff 0, #adfbda 30%, #35c3ff 50%, #fda399 50%, #76d880 70%,#ebf38b 90%,#adfbda 100%);
+  background-image: url("assets/bg-green-rivers.jpg");
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(255, 227, 73,0.3);
   -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
+  -moz-text-fill-color: rgba(255, 227, 73,0.3);
   filter: drop-shadow(0 0 2rem #000);
-  text-shadow: none !important;
+  text-shadow: none !important;*/
 }
 
 h1 strong {
