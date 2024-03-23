@@ -7,11 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
-<meta name="dcterms.date" content="2023-11-12">
-<meta name="keywords" content="#30DayMapChallenge2023">
-<meta name="description" content="Mapping the elevation changes across the Andes of Peru. This contour map shows the elevation changes across the Peruvean Andes. Produced using R within the RStudio environment.">
+<meta name="description" content="This graduate thesis project involves the integration of multiple long-term remote sensing and biological data sources.">
 
-<title>Andes Mountains Elevation Map | B.W. Tjepkes</title>
+<title>Master’s Thesis Project | B.W. Tjepkes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,9 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -71,20 +66,16 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="Andes Mountains Elevation Map | B.W. Tjepkes">
-<meta property="og:description" content="Mapping the elevation changes across the Andes of Peru. This contour map shows the elevation changes across the Peruvean Andes. Produced using R within the RStudio environment.">
-<meta property="og:image" content="https://btjepkes.github.io/gallery/andes-mountains-map/img-andes-mountains-map-thumb.png">
+<meta property="og:title" content="Master’s Thesis Project | B.W. Tjepkes">
+<meta property="og:description" content="This graduate thesis project involves the integration of multiple long-term remote sensing and biological data sources.">
+<meta property="og:image" content="https://btjepkes.github.io/assets/bg-color-rivers.jpg">
 <meta property="og:site_name" content="Benjamin Tjepkes">
-<meta property="og:image:height" content="1050">
-<meta property="og:image:width" content="700">
-<meta property="og:image:alt" content="A contour map showing the elevation change in the Andes of Peru">
+<meta property="og:image:alt" content="Placeholder">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="Mapping the elevation changes across the Andes of Peru. This contour map shows the elevation changes across the Peruvean Andes. Produced using R within the RStudio environment.">
-<meta name="twitter:image" content="https://btjepkes.github.io/gallery/andes-mountains-map/img-andes-mountains-map-thumb.png">
+<meta name="twitter:description" content="This graduate thesis project involves the integration of multiple long-term remote sensing and biological data sources.">
+<meta name="twitter:image" content="https://btjepkes.github.io/assets/bg-color-rivers.jpg">
 <meta name="twitter:creator" content="@BTjepkes">
-<meta name="twitter:image-height" content="1050">
-<meta name="twitter:image-width" content="700">
-<meta name="twitter:image:alt" content="A contour map showing the elevation change in the Andes of Peru">
+<meta name="twitter:image:alt" content="Placeholder">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -169,17 +160,17 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <header id="title-block-header">
 
   <div class="title-area">
-    <h1 class="title">Andes Mountains Elevation Map </h1>
+    <h1 class="title">Master’s Thesis Project </h1>
   </div>
     
   <div class="header-content-container">  
   <div class="post-meta">
     
           <div class="description">
-        <div class="abstract"></div> Mapping the elevation changes across the Andes of Peru. This contour map shows the elevation changes across the Peruvean Andes. Produced using R within the RStudio environment.
+        <div class="abstract">Assessing avian response to long-term climate and phenology dynamics.</div> This graduate thesis project involves the integration of multiple long-term remote sensing and biological data sources.
       </div>
         
-    <div class="title-date">Published on 2023-11-12 by Benjamin Tjepkes</div>
+    
     
   </div>
   </div>
@@ -191,9 +182,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <h2 id="toc-title">On This Page:</h2>
    
   <ul>
-  <li><a href="#task-objectives" id="toc-task-objectives" class="nav-link active" data-scroll-target="#task-objectives">Task &amp; Objectives</a></li>
-  <li><a href="#tools-workflow" id="toc-tools-workflow" class="nav-link" data-scroll-target="#tools-workflow">Tools &amp; Workflow</a></li>
-  <li><a href="#final-result" id="toc-final-result" class="nav-link" data-scroll-target="#final-result">Final Result</a></li>
+  <li><a href="#methods-objectives" id="toc-methods-objectives" class="nav-link active" data-scroll-target="#methods-objectives">Methods &amp; Objectives</a></li>
   </ul>
 </nav>
     </div>
@@ -203,28 +192,11 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 
 
-<section id="task-objectives" class="level2">
-<h2 data-anchor-id="task-objectives">Task &amp; Objectives</h2>
-<p>This map was created for <strong>Day 12</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “South America” for the main subject.</p>
-</section>
-<section id="tools-workflow" class="level2">
-<h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
-<p>Map creation was performed in R/Studio. Blog post coming soon!</p>
-</section>
-<section id="final-result" class="level2">
-<h2 data-anchor-id="final-result">Final Result</h2>
-<p>Here is the resulting map that shows filled in contours within Peru, emphasizing the dramatic elevation change.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img-andes-mountains-map.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-andes-mountains-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
-<figcaption>Credit: Benjamin Tjepkes</figcaption>
-</figure>
-</div>
+<section id="methods-objectives" class="level2">
+<h2 data-anchor-id="methods-objectives">Methods &amp; Objectives</h2>
+<p>Methods pending.</p>
 
 
-<div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">Credit: Benjamin Tjepkes</span>
-</div>
 </section>
 
 </main> <!-- /main -->
@@ -669,31 +641,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":false,"closeEffect":"zoom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 

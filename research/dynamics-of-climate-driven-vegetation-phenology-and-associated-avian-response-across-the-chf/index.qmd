@@ -1,0 +1,18 @@
+---
+title: "Master's Thesis Project"
+date-modified: today
+abstract: "Assessing avian response to long-term climate and phenology dynamics."
+description: "This graduate thesis project involves the integration of multiple long-term remote sensing and biological data sources."
+categories:
+  - Graduate
+  - Avian
+  - Geospatial
+  - Wildlife
+image: ../../assets/bg-color-rivers.jpg
+image-alt: "Placeholder"
+---
+
+## Methods & Objectives
+
+Methods pending.
+

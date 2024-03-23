@@ -46,6 +46,8 @@ listing:
 
 ::: {#intro-section .column-page}
 
+![](assets/img-ben-with-bear.jpg){width=5in}
+
 ::: {#intro-section-text}
 Dive into this site to explore my most recent works in...
 :::

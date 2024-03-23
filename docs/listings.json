@@ -4,29 +4,36 @@
     "items": [
       "/research/bald-eagle-nest-site-selection/index.html",
       "/research/beaver-impacted-water-control-structures/index.html",
+      "/research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/index.html",
       "/research/raccoon-space-use-and-home-ranges/index.html",
       "/research/ruffed-grouse-drumming-log-selection/index.html",
       "/research/small-mammal-response-to-prescribed-fire/index.html"
     ]
   },
   {
-    "listing": "/posts/30-day-map-challenge-2023/index.html",
+    "listing": "/posts/index.html",
     "items": [
-      "/gallery/national-champion-tree-map/index.html",
-      "/gallery/eagle-mountain-contour-map/index.html",
-      "/gallery/canadian-ecoregion-map/index.html",
-      "/gallery/tiger-distribution-map/index.html",
-      "/gallery/hyaenidae-range-map/index.html",
-      "/gallery/postsecondary-institutions-map/index.html",
-      "/gallery/moose-sightings-across-north-america/index.html",
-      "/gallery/andes-mountains-map/index.html",
-      "/gallery/happy-forests-happy-people-map/index.html",
-      "/gallery/pennsylvania-bridge-map/index.html"
+      "/posts/building-annotated-bibliographies-with-quarto/index.html",
+      "/posts/my-2023-highlights-reflections-and-recap/index.html",
+      "/posts/30-day-map-challenge-2023/index.html",
+      "/posts/interactive-heatmap-of-gbif-occurrences/index.html",
+      "/posts/how-scientists-use-gis-to-study-wildlife/index.html",
+      "/posts/how-to-become-a-contemporary-naturalist/index.html",
+      "/posts/can-you-naturally-protect-shores-from-erosion/index.html"
     ]
   },
   {
-    "listing": "/curriculum-vitae/index.html",
-    "items": []
+    "listing": "/index.html",
+    "items": [
+      "/about/index.html",
+      "/curriculum-vitae/index.html",
+      "/resources/index.html",
+      "/posts/index.html",
+      "/gallery/index.html",
+      "/research/index.html",
+      "posts/building-annotated-bibliographies-with-quarto/index.html",
+      "gallery/michigan-anthrome-map/index.html"
+    ]
   },
   {
     "listing": "/gallery/index.html",
@@ -62,28 +69,22 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/about/index.html",
-      "/curriculum-vitae/index.html",
-      "/resources/index.html",
-      "/posts/index.html",
-      "/gallery/index.html",
-      "/research/index.html",
-      "posts/building-annotated-bibliographies-with-quarto/index.html",
-      "gallery/michigan-anthrome-map/index.html"
-    ]
+    "listing": "/curriculum-vitae/index.html",
+    "items": []
   },
   {
-    "listing": "/posts/index.html",
+    "listing": "/posts/30-day-map-challenge-2023/index.html",
     "items": [
-      "/posts/building-annotated-bibliographies-with-quarto/index.html",
-      "/posts/my-2023-highlights-reflections-and-recap/index.html",
-      "/posts/30-day-map-challenge-2023/index.html",
-      "/posts/interactive-heatmap-of-gbif-occurrences/index.html",
-      "/posts/how-scientists-use-gis-to-study-wildlife/index.html",
-      "/posts/how-to-become-a-contemporary-naturalist/index.html",
-      "/posts/can-you-naturally-protect-shores-from-erosion/index.html"
+      "/gallery/national-champion-tree-map/index.html",
+      "/gallery/eagle-mountain-contour-map/index.html",
+      "/gallery/canadian-ecoregion-map/index.html",
+      "/gallery/tiger-distribution-map/index.html",
+      "/gallery/hyaenidae-range-map/index.html",
+      "/gallery/postsecondary-institutions-map/index.html",
+      "/gallery/moose-sightings-across-north-america/index.html",
+      "/gallery/andes-mountains-map/index.html",
+      "/gallery/happy-forests-happy-people-map/index.html",
+      "/gallery/pennsylvania-bridge-map/index.html"
     ]
   }
 ]

@@ -92,7 +92,7 @@ website:
     center: >-
       Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
     left:
-      - text: "&copy; Copyright 2021-2024 --- B.W. Tjepkes"
+      - text: "&copy; Copyright 2021-2024 | B.W. Tjepkes"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/benjamintjepkes/
