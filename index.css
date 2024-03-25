@@ -25,7 +25,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: #f1f1f1;
+  /*background: #f1f1f1;*/
+  background: #eaf7fb;
   border-radius: 20px;
   height: 50px;
   overflow: hidden;

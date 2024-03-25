@@ -12,7 +12,7 @@ listing:
   image-height: 250px
   max-description-length: 100
   categories: numbered
-  sort: "title"
+  sort: "date"
   filter-ui: true  
   sort-ui: true
   fields: 

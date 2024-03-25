@@ -41,9 +41,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -280,8 +277,16 @@ window.Quarto = {
 
 
 
+<!-- ```{=html} -->
+<!-- <div class="card border-primary mb-3" style="max-width: 100%; padding-bottom: 30px;"> -->
+<!--   <div class="card-header">Header</div> -->
+<!--   <div class="card-body"> -->
+<!--     <h4 class="card-title">Primary card title</h4> -->
+<!--     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+<!--   </div> -->
+<!-- </div> -->
+<!-- ``` -->
 <div id="intro-section" class="column-page">
-<p><a href="assets/img-ben-with-bear.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/img-ben-with-bear.jpg" class="img-fluid" style="width:5in"></a></p>
 <div id="intro-section-text">
 <p>Dive into this site to explore my most recent works in…</p>
 </div>
@@ -378,7 +383,7 @@ My Gallery
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1705190638360" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1711383160136" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./research/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <div class="card-body post-contents">
@@ -399,7 +404,7 @@ No matching items
 </div>
 <div id="listing-site-listings-2" class="column-page index-latest quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1705292027875" data-listing-date-modified-sort="1711170000000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3951">
+<div class="g-col-1" data-index="0" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1705292027875" data-listing-date-modified-sort="1711342800000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3951">
 <a href="./posts/building-annotated-bibliographies-with-quarto/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <div class="card-body post-contents">
@@ -410,7 +415,7 @@ No matching items
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1705331689146" data-listing-date-modified-sort="1711170000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
+<div class="g-col-1" data-index="1" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1705331689146" data-listing-date-modified-sort="1711342800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
 <a href="./gallery/michigan-anthrome-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <div class="card-body post-contents">
@@ -872,31 +877,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","closeEffect":"zoom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 

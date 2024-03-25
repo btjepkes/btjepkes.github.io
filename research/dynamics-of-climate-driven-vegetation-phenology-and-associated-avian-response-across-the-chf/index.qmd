@@ -12,7 +12,7 @@ image: ../../assets/bg-color-rivers.jpg
 image-alt: "Placeholder"
 ---
 
-## Methods & Objectives
+## Objectives & Methods
 
 Methods pending.
 

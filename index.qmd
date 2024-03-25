@@ -44,32 +44,45 @@ listing:
       - subtitle
 ---
 
-::: {#intro-section .column-page}
 
-![](assets/img-ben-with-bear.jpg){width=5in}
+<!-- ```{=html} -->
+<!-- <div class="card border-primary mb-3" style="max-width: 100%; padding-bottom: 30px;"> -->
+<!--   <div class="card-header">Header</div> -->
+<!--   <div class="card-body"> -->
+<!--     <h4 class="card-title">Primary card title</h4> -->
+<!--     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+<!--   </div> -->
+<!-- </div> -->
+<!-- ``` -->
+
+::: {#intro-section .column-page}
 
 ::: {#intro-section-text}
 Dive into this site to explore my most recent works in...
 :::
 
-::: {.container}
-
-::: {.item}
+::: container
+::: item
 {{< fa otter size=1.5x >}} wildlife ecology
 :::
-::: {.item}
+
+::: item
 {{< fa mountain size=1.5x >}} biogeography
 :::
-::: {.item}
+
+::: item
 {{< fa layer-group size=1.5x >}} geospatial
 :::
-::: {.item}
+
+::: item
 {{< fa chart-area size=1.5x >}} data science
 :::
-::: {.item}
+
+::: item
 {{< fa map size=1.5x >}} cartography
 :::
-::: {.item}
+
+::: item
 {{< fa wind size=1.5x >}} climate science
 :::
 :::
