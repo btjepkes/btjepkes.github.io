@@ -32,12 +32,17 @@
       "/gallery/index.html",
       "/research/index.html",
       "posts/building-annotated-bibliographies-with-quarto/index.html",
-      "gallery/michigan-anthrome-map/index.html"
+      "gallery/vertebrate-morphometrics-in-riparian-zones/index.html"
     ]
+  },
+  {
+    "listing": "/curriculum-vitae/index.html",
+    "items": []
   },
   {
     "listing": "/gallery/index.html",
     "items": [
+      "/gallery/vertebrate-morphometrics-in-riparian-zones/index.html",
       "/gallery/my-github-contributions-in-2023/index.html",
       "/gallery/michigan-anthrome-map/index.html",
       "/gallery/michigan-climate-trends/index.html",
@@ -67,10 +72,6 @@
       "/gallery/bald-eagle-nest-monitoring-report/index.html",
       "/gallery/vineyard-and-winery-location-suitability-map/index.html"
     ]
-  },
-  {
-    "listing": "/curriculum-vitae/index.html",
-    "items": []
   },
   {
     "listing": "/posts/30-day-map-challenge-2023/index.html",

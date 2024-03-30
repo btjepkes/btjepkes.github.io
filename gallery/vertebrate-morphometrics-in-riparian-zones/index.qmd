@@ -1,0 +1,32 @@
+---
+title: "Vertebrate Morphometrics Across Clear-cut and Old Growth Riparian Zones"
+date: 2024-03-30
+date-modified: today
+categories:
+  - Data Gallery
+keywords:
+  - coding
+abstract: "Comparing weights and lengths in vertebrates between stream sections."
+description: "This graphic summarizes morphometric measurements of coastal giant salamanders and cutthroat trout between two segments of stream in Oregon."
+image: img-vertebrate-morphometrics-plot.png
+image-alt: "A chart comparing weights and lengths in vertebrates between stream sections."
+# aliases:
+---
+
+
+
+## Task & Objectives
+
+Pending.
+
+## Tools & Workflow
+
+Pending.
+
+
+## Final Results
+
+Here is the resulting figure.
+
+![Credit: Benjamin Tjepkes](img-vertebrate-morphometrics-plot.png)
+

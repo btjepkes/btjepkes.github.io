@@ -34,10 +34,11 @@ listing:
     contents:
       - title: "*Latest Post:* <br> Create Annotated Bibliographies with Quarto"
         path: "posts/building-annotated-bibliographies-with-quarto/index.qmd"
-      - title: "*Latest Visual:* <br> Anthrome Map of the Upper Peninsula, MI"
-        path: "gallery/michigan-anthrome-map/index.qmd"
+      - title: "*Latest Visual:* <br> Vertebrate Morphometrics Across Riparian Zones"
+        path: "gallery/vertebrate-morphometrics-in-riparian-zones/index.qmd"
     type: grid
     grid-columns: 2
+    image-height: 200px
     grid-item-align: center
     fields:
       - title
