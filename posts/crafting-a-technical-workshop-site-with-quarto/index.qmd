@@ -1,0 +1,17 @@
+---
+title: "Crafting a Technical Workshop Site With Quarto"
+date: 04/18/2024
+date-modified: today
+keywords:
+  - "GIS"
+  - "Quarto"
+  - "Workshop"
+abstract: "Structuring a GIS-focused workshop around a Quarto site."
+description: "This post takes a quick run through my recent workshop site I made for a wildlife and fisheries GIS workshiop and how I think it worked out."
+image: img-gis-workshop-site-preview.png
+image-alt: "An image of a website created by Quarto."
+---
+
+## Pending
+
+The functioning website can be found here: [https://btjepkes.github.io/WAFSGSO_2024_GIS/](https://btjepkes.github.io/WAFSGSO_2024_GIS/)

@@ -7,10 +7,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
-<meta name="dcterms.date" content="2023-06-01">
-<meta name="description" content="This map was created as a fun, creative project. I am fascinated by watersheds, so what better way to explore them than making a map!">
+<meta name="dcterms.date" content="2024-04-18">
+<meta name="keywords" content="GIS, Quarto, Workshop">
+<meta name="description" content="This post takes a quick run through my recent workshop site I made for a wildlife and fisheries GIS workshiop and how I think it worked out.">
 
-<title>Great Lakes Watersheds Map | B.W. Tjepkes</title>
+<title>Crafting a Technical Workshop Site With Quarto | B.W. Tjepkes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,9 +41,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -70,17 +68,31 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="Great Lakes Watersheds Map | B.W. Tjepkes">
-<meta property="og:description" content="This map was created as a fun, creative project. I am fascinated by watersheds, so what better way to explore them than making a map!">
-<meta property="og:image" content="https://btjepkes.github.io/gallery/great-lakes-watershed-map/img-map-11.jpg">
+<meta property="og:title" content="Crafting a Technical Workshop Site With Quarto | B.W. Tjepkes">
+<meta property="og:description" content="This post takes a quick run through my recent workshop site I made for a wildlife and fisheries GIS workshiop and how I think it worked out.">
+<meta property="og:image" content="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png">
 <meta property="og:site_name" content="Benjamin Tjepkes">
-<meta property="og:image:alt" content="Map of Great Lakes watersheds and their pour points.">
+<meta property="og:image:height" content="903">
+<meta property="og:image:width" content="1891">
+<meta property="og:image:alt" content="An image of a website created by Quarto.">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="This map was created as a fun, creative project. I am fascinated by watersheds, so what better way to explore them than making a map!">
-<meta name="twitter:image" content="https://btjepkes.github.io/gallery/great-lakes-watershed-map/img-map-11.jpg">
+<meta name="twitter:description" content="This post takes a quick run through my recent workshop site I made for a wildlife and fisheries GIS workshiop and how I think it worked out.">
+<meta name="twitter:image" content="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png">
 <meta name="twitter:creator" content="@BTjepkes">
-<meta name="twitter:image:alt" content="Map of Great Lakes watersheds and their pour points.">
+<meta name="twitter:image-height" content="903">
+<meta name="twitter:image-width" content="1891">
+<meta name="twitter:image:alt" content="An image of a website created by Quarto.">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="citation_title" content="Crafting a Technical Workshop Site With Quarto">
+<meta name="citation_abstract" content="Structuring a GIS-focused workshop around a Quarto site.">
+<meta name="citation_keywords" content="GIS,Quarto,Workshop">
+<meta name="citation_author" content="Benjamin Tjepkes">
+<meta name="citation_publication_date" content="2024-04-18">
+<meta name="citation_cover_date" content="2024-04-18">
+<meta name="citation_year" content="2024">
+<meta name="citation_online_date" content="2024-04-18">
+<meta name="citation_fulltext_html_url" content="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto">
+<meta name="citation_language" content="en">
 </head>
 
 <body class="nav-fixed">
@@ -164,17 +176,17 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <header id="title-block-header">
 
   <div class="title-area">
-    <h1 class="title">Great Lakes Watersheds Map </h1>
+    <h1 class="title">Crafting a Technical Workshop Site With Quarto </h1>
   </div>
     
   <div class="header-content-container">  
   <div class="post-meta">
     
           <div class="description">
-        <div class="abstract">Colorful visual of Great Lakes watersheds.</div> This map was created as a fun, creative project. I am fascinated by watersheds, so what better way to explore them than making a map!
+        <div class="abstract">Structuring a GIS-focused workshop around a Quarto site.</div> This post takes a quick run through my recent workshop site I made for a wildlife and fisheries GIS workshiop and how I think it worked out.
       </div>
         
-    <div class="title-date">Published on 2023-06-01 by Benjamin Tjepkes</div>
+    <div class="title-date">Published on 2024-04-18 by Benjamin Tjepkes</div>
     
   </div>
   </div>
@@ -186,8 +198,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <h2 id="toc-title">On This Page:</h2>
    
   <ul>
-  <li><a href="#tools-methods" id="toc-tools-methods" class="nav-link active" data-scroll-target="#tools-methods">Tools &amp; Methods</a></li>
-  <li><a href="#final-product" id="toc-final-product" class="nav-link" data-scroll-target="#final-product">Final Product</a></li>
+  <li><a href="#pending" id="toc-pending" class="nav-link active" data-scroll-target="#pending">Pending</a></li>
   </ul>
 </nav>
     </div>
@@ -197,19 +208,17 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 
 
-<section id="tools-methods" class="level2">
-<h2 data-anchor-id="tools-methods">Tools &amp; Methods</h2>
-<p>This maps was created using ArcGIS Pro with data from the Great Lakes Aquatic Habitat Framework.</p>
-</section>
-<section id="final-product" class="level2">
-<h2 data-anchor-id="final-product">Final Product</h2>
-<p>This final map shows the watersheds for each Great Lake, including their sub-basins.</p>
-<p><a href="img-map-11.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-map-11.jpg" class="img-fluid"></a></p>
+<section id="pending" class="level2">
+<h2 data-anchor-id="pending">Pending</h2>
+<p>The functioning website can be found here: <a href="https://btjepkes.github.io/WAFSGSO_2024_GIS/">https://btjepkes.github.io/WAFSGSO_2024_GIS/</a></p>
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Tjepkes, Benjamin. 2024. <span>“Crafting a Technical Workshop Site With
+Quarto.”</span> April 18, 2024. <a href="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto">https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -651,31 +660,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","loop":false});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 

@@ -350,5 +350,8 @@
   },
   "gallery/vertebrate-morphometrics-in-riparian-zones/index.qmd": {
     "index.html": "78415650"
+  },
+  "posts/crafting-a-technical-workshop-site-with-quarto/index.qmd": {
+    "index.html": "dc244c47"
   }
 }
