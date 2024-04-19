@@ -43,6 +43,17 @@ listing:
     fields:
       - title
       - subtitle
+  - id: site-listings-3
+    contents:
+      - title: "*Master's Thesis:* <br> Dynamics of climate-driven vegetation phenology and associated avian response"
+        path: "research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/index.qmd"
+    type: grid
+    grid-columns: 1
+    image-height: 200px
+    grid-item-align: center
+    fields:
+      - title
+      - subtitle
 ---
 
 
@@ -55,6 +66,9 @@ listing:
 <!--   </div> -->
 <!-- </div> -->
 <!-- ``` -->
+
+
+
 
 ::: {#intro-section .column-page}
 
@@ -89,8 +103,12 @@ Dive into this site to explore my most recent works in...
 :::
 :::
 
+::: {#site-listings-3 .column-page .index-latest}
+:::
+
 ::: {#site-listings-1 .column-page}
 :::
 
 ::: {#site-listings-2 .column-page .index-latest}
 :::
+

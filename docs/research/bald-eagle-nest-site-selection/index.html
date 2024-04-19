@@ -66,6 +66,69 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <style>html{ scroll-behavior: smooth; }</style>
 
 
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #uni-banner {
+            background: #fff;
+            background-image: url(https://btjepkes.github.io/assets/bg-green-rivers.jpg);
+            /*Source: https://images-assets.nasa.gov/image/PIA10620/PIA10620~orig.jpg*/
+            background-size: cover;
+            background-attachment: fixed;
+            position: relative;
+            overflow: hidden;
+            height: 12vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            z-index: -2;
+        }
+        
+        @media screen and (max-width: 991.98px) {
+              #uni-banner {
+                  background-attachment: scroll;
+              }
+          }
+        
+        #uni-banner > svg {
+            display: inline-block;
+            vertical-align: bottom;
+            transform-origin: bottom;
+            animation: animateWave 900ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+            margin-bottom: -1px;
+            height: 80px;
+        }
+        
+        @keyframes animateWave {
+              0% {
+                transform: scale(1,0);
+              }
+              100% {
+                transform: scale(1,1);
+              }
+        }
+
+        @media (max-width: 991.98px) {
+        
+                #uni-banner {
+            min-height: 10vh;
+        }
+        
+        #uni-banner > svg {
+          height: 50px !important;
+        }
+        
+        }
+
+    </style>
 <meta property="og:title" content="Bald Eagle Nest-Site Selection Project | B.W. Tjepkes">
 <meta property="og:description" content="This undergraduate research project involved cleaning and analyzing bald eagle nesting records from the U.S. Fish and Wildlife Service with the goal of determining how individuals of the Upper Mississippi River bald eagle population are selecting nest sites.">
 <meta property="og:image" content="https://btjepkes.github.io/research/bald-eagle-nest-site-selection/img-eagle-nesting.jpg">
@@ -80,6 +143,26 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </head>
 
 <body class="nav-fixed">
+  <div id="uni-banner">
+<svg width="100%" height="200px" viewbox="0 0 1440 56" preserveaspectratio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Waves/wave-bottom</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Waves/wave-bottom" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1440,18.6164191 L1440,56 L0,56 L0,19.4091149 C115.88527,18.914036 229.081162,52 655.578314,52 C1082.07547,52 1250.37725,17.9354374 1440,18.6164191 Z" id="wave" fill="#FFFFFF" opacity="0.5"></path>
+        <path d="M1440,0.616419131 L1440,56 L0,56 L0,6.40911495 C106.226448,5.95529994 313.375622,56 623.178314,56 C932.981007,56 1268.35502,-9.23705556e-14 1440,0.616419131 Z" id="wave" fill="#FFFFFF" opacity="0.25"></path>
+        <path d="M1440,31.6164191 L1440,56 L0,56 L0,35.4091149 C95.7633114,35 278.134957,56 578.778314,56 C879.421672,56 1135.89541,30.5243052 1440,31.6164191 L1440,31.6164191 Z" id="base" fill="#00231f"></path>
+    </g>
+</svg>
+    </div>
+
+
+
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
