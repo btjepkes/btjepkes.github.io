@@ -43,14 +43,14 @@ $enable-rounded: false !default;
 
 // Body
 
-$body-color: $black !default;
+$body-color: $gray-900 !default;
 $content-padding-top: 0 !default;
 
 
 // Fonts
 
 // stylelint-disable-next-line value-keyword-case
-$font-family-sans-serif: /*"Anek",*/"Lato", "Overpass"  ,"Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;  /*"Atkinson Hyperlegible",*/
+$font-family-sans-serif: /*"Anek","Lato", "Overpass"  ,*/"Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;  /*"Atkinson Hyperlegible",*/
 
 $headings-font-weight:      400 !default;
 
@@ -128,7 +128,7 @@ $progress-height:               .5rem !default;
 
 // Variables
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Josefin+Sans:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&family=Fira+Sans:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Josefin+Sans:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&family=Fira+Sans:wght@400;700;900&family=Kalam:wght@400;600;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:wght@400;700;900');
 
@@ -139,13 +139,14 @@ body {
   -webkit-font-smoothing: antialiased;
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
-  font-family: Nunito, sans-serif; /*Atkinson Hyperlegible*/
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
 }
 
 
 h1 {
   font-weight: 500 !important;
-  font-size: clamp(1.7em, 5vw, 2.65em);
+  font-size: clamp(1.7em, 5vw, 2.40em);
   padding-bottom: 20px;
   line-height: 1.2em;
   /*font-family: Oswald;*/
@@ -287,11 +288,11 @@ a {
   }
 
 .navbar-brand span {
-  font-weight: 500 !important;
-  letter-spacing: 0.04em;
+  font-weight: 400 !important;
+  letter-spacing: 0.02em;
   font-size: 1.60rem;
   color: #fbfbfc;
-  font-family: Oswald;
+  font-family: Kalam/*Oswald*/;
   }
 
 .navbar-logo {
@@ -335,7 +336,7 @@ a {
       }
       
     .navbar .navbar-toggler {
-      border: solid 2px lightgray;
+      border: solid 0px lightgray;
       background: rgba(255,255,255,0.1);
       border-radius: 10px;
       line-height: 0;
@@ -635,7 +636,7 @@ color: #000;
     }
 
 .quarto-grid-item .card-title {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 6px;
   color: #0f172a;
   font-family: Jost, Nunito, sans-serif;
@@ -706,6 +707,12 @@ color: #000;
     }
 
 /* FIGURES & IMAGES */
+
+.leaflet-container {
+  border: solid 2px;
+  border-radius: 0.5em;
+}
+
 
 .cover-image {
   margin-bottom: 2em !important;

@@ -7,6 +7,7 @@ description: In this blog post, we demonstrate how to use a dedicated package in
 categories: [R, Wildlife, Cartography]
 image: img-sage-grouse.jpg
 image-alt: "Image of sage grouse on a lek."
+draft: true
 ---
 
 ## Background

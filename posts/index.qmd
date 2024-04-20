@@ -19,7 +19,7 @@ listing:
       categories: R
     type: grid
     grid-columns: 3
-    image-height: 220px
+    image-height: 200px
     page-size: 9
     sort: "date desc"
     # filter-ui: [title, subtitle, description, category]

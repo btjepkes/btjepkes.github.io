@@ -5,19 +5,42 @@ title-block-banner: true
 image: ../assets/BooneCoLiDAR.png
 image-alt: Image-of-pine-trees-on-blue-background.
 description: "Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques. I have been fortunate to have worked across the Midwest and some in the West here in the United States. This research has expanded both my technical skillset and my appreciation for science."
+toc: false
 listing:
-  contents: "*.qmd"
-  type: grid
-  grid-columns: 2
-  image-height: 250px
-  max-description-length: 100
-  categories: numbered
-  sort: "date"
-  filter-ui: true  
-  sort-ui: true
-  fields: 
-    - title
-    - description
-    - image
+  - id: research-listings-all
+    contents: "*.qmd"
+    type: grid
+    grid-columns: 3
+    image-height: 200px
+    max-description-length: 100
+    categories: false
+    sort: "date"
+    filter-ui: true  
+    sort-ui: true
+    fields: 
+      - title
+      - image
 ---
 
+::: {.column-page}
+::: {#research-listings-all .listings-gallery}
+:::
+
+
+### My Research Locations
+
+I am fortunate to have worked extensively across the Midwestern United States and some in the West on a diversity of projects.
+
+
+```{r}
+#| column: page-right
+#| echo: false
+library(leaflet)
+leaflet() |> 
+  addProviderTiles(providers$CartoDB.Positron) |> 
+  addMarkers(lng=-105.59256653322343, lat=41.31102835039823, popup="Laramie, WY") |> 
+  addMarkers(lng=-89.55062002072603, lat=45.50000849859849, popup="Tomahawk, WI") |> 
+  addMarkers(lng=-89.56490641685708, lat=44.54082482412315, popup="Stevens Point, WI")
+```
+
+:::

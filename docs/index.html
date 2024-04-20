@@ -112,34 +112,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-site-listings-3 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-site-listings-3'] = new List('listing-site-listings-3', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
@@ -341,7 +313,7 @@ window.Quarto = {
 </div>
 <div id="listing-site-listings-1" class="column-page quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1713493941373" data-listing-reading-time-sort="3" data-listing-word-count-sort="469">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1713647451869" data-listing-reading-time-sort="3" data-listing-word-count-sort="426">
 <a href="./about/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <div class="card-body post-contents">
@@ -383,7 +355,7 @@ Helpful Resources
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1706798811370" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1713629163470" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <a href="./posts/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <div class="card-body post-contents">
@@ -411,7 +383,7 @@ My Gallery
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1711383160136" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1713647290597" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
 <a href="./research/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <div class="card-body post-contents">
@@ -432,7 +404,7 @@ No matching items
 </div>
 <div id="listing-site-listings-2" class="column-page index-latest quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1705292027875" data-listing-date-modified-sort="1713502800000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3951">
+<div class="g-col-1" data-index="0" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1705292027875" data-listing-date-modified-sort="1713589200000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3951">
 <a href="./posts/building-annotated-bibliographies-with-quarto/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <div class="card-body post-contents">
@@ -443,7 +415,7 @@ No matching items
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Data Gallery" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1713494818922" data-listing-date-modified-sort="1713502800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
+<div class="g-col-1" data-index="1" data-categories="Data Gallery" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1713494818922" data-listing-date-modified-sort="1713589200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
 <a href="./gallery/vertebrate-morphometrics-in-riparian-zones/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <div class="card-body post-contents">
@@ -459,24 +431,8 @@ No matching items
 No matching items
 </div>
 </div>
-<div id="listing-site-listings-3" class="column-page index-latest quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Graduate,Avian,Geospatial,Wildlife" data-listing-file-modified-sort="1713531458860" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
-<a href="./research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<em>Master’s Thesis:</em> <br> Dynamics of climate-driven vegetation phenology and associated avian response
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<!-- ::: {#site-listings-3 .column-page .index-latest} -->
+<!-- ::: -->
 
 
 
