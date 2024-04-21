@@ -17,12 +17,12 @@ listing:
   - id: resume-links
     contents:
       - title: "Comprehensive CV"
-        subtitle: "Full Academic Curriculum vitae"
+        subtitle: "Academic Curriculum vitae"
         path: Tjepkes_CV_20231030_Web.pdf
       - title: "Standard Resume"
         subtitle: "2-Page Standard Resume"
         path: Tjepkes_Resume_20240116_Web.pdf
-      - title: "Shorter Resume"
+      - title: "Abbreviated Resume"
         subtitle: "1-Page Abbreviated Resume"
         path: Tjepkes_Resume_20240113_Web.pdf
     type: grid

@@ -2,7 +2,7 @@
 title: "Create Annotated Bibliographies with Quarto"
 date: 2024-01-01
 date-modified: today
-abstract: "Bibliography creation using Quarto and Zotero in R."
+#abstract: "Bibliography creation using Quarto and Zotero in R."
 description: In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I employ this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.
 categories:
   - R

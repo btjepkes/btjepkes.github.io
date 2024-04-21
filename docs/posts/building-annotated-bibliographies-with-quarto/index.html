@@ -107,14 +107,13 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta property="og:title" content="Create Annotated Bibliographies with Quarto | B.W. Tjepkes">
 <meta property="og:description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I employ this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
 <meta property="og:image" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-post-cover.jpg">
-<meta property="og:site_name" content="Benjamin Tjepkes">
+<meta property="og:site_name" content="Mein Portfolio">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
 <meta name="twitter:description" content="In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I employ this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.">
 <meta name="twitter:image" content="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-bib-post-cover.jpg">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="citation_title" content="Create Annotated Bibliographies with Quarto">
-<meta name="citation_abstract" content="Bibliography creation using Quarto and Zotero in R.">
 <meta name="citation_author" content="Benjamin Tjepkes">
 <meta name="citation_publication_date" content="2024-01-01">
 <meta name="citation_cover_date" content="2024-01-01">
@@ -124,7 +123,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta name="citation_language" content="en">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -135,7 +134,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <img src="../../assets/logo-051933.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Benjamin Tjepkes</span>
+    <span class="navbar-title">Mein Portfolio</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -212,7 +211,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   <div class="post-meta">
     
           <div class="description">
-        <div class="abstract">Bibliography creation using Quarto and Zotero in R.</div> In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I employ this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.
+        <div class="abstract"></div> In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and Quarto. I employ this method to generate bibliographies for my thesis project, and thought of sharing it in case others are interested in adopting a similar approach.
       </div>
         
     <div class="title-date">Published on 2024-01-01 by Benjamin Tjepkes</div>
@@ -222,34 +221,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On This Page:</h2>
-   
-  <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
-  <ul class="collapse">
-  <li><a href="#what-is-an-annotated-bib" id="toc-what-is-an-annotated-bib" class="nav-link" data-scroll-target="#what-is-an-annotated-bib">What is an annotated bib?</a></li>
-  <li><a href="#why-use-zotero-and-quarto" id="toc-why-use-zotero-and-quarto" class="nav-link" data-scroll-target="#why-use-zotero-and-quarto">Why use Zotero and Quarto?</a></li>
-  <li><a href="#what-are-potential-alternatives" id="toc-what-are-potential-alternatives" class="nav-link" data-scroll-target="#what-are-potential-alternatives">What are potential alternatives?</a></li>
-  </ul></li>
-  <li><a href="#workflow-in-zotero" id="toc-workflow-in-zotero" class="nav-link" data-scroll-target="#workflow-in-zotero">Workflow in Zotero</a>
-  <ul class="collapse">
-  <li><a href="#add-citations-and-notes" id="toc-add-citations-and-notes" class="nav-link" data-scroll-target="#add-citations-and-notes">Add Citations and Notes</a></li>
-  <li><a href="#export-items-as-bibtex" id="toc-export-items-as-bibtex" class="nav-link" data-scroll-target="#export-items-as-bibtex">Export Item(s) as BibTeX</a></li>
-  </ul></li>
-  <li><a href="#workflow-in-quarto" id="toc-workflow-in-quarto" class="nav-link" data-scroll-target="#workflow-in-quarto">Workflow in Quarto</a>
-  <ul class="collapse">
-  <li><a href="#setup-yaml-header" id="toc-setup-yaml-header" class="nav-link" data-scroll-target="#setup-yaml-header">Setup YAML Header</a></li>
-  <li><a href="#load-packages" id="toc-load-packages" class="nav-link" data-scroll-target="#load-packages">Load Packages</a></li>
-  <li><a href="#specifying-literature-to-cite" id="toc-specifying-literature-to-cite" class="nav-link" data-scroll-target="#specifying-literature-to-cite">Specifying Literature to Cite</a></li>
-  <li><a href="#sidenote-for-better-bibtex" id="toc-sidenote-for-better-bibtex" class="nav-link" data-scroll-target="#sidenote-for-better-bibtex">Sidenote for <em>Better BibTeX</em></a></li>
-  <li><a href="#render-into-preferred-format" id="toc-render-into-preferred-format" class="nav-link" data-scroll-target="#render-into-preferred-format">Render into Preferred Format</a></li>
-  </ul></li>
-  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -992,7 +964,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"descPosition":"bottom","openEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

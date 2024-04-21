@@ -15,12 +15,8 @@ image-alt: "Map showing the United States and the locations of champion trees di
 # aliases:
 ---
 
-![](img-national-champion-trees.png){.cover-image}
+This map was created for **Day 1** of the 2023 #30DayMapChallenge. The prompt for the day was "Points". I have been exploring these amazing specimens for awhile, so thought I would map them out for the challenge. The resulting map shows the general locations of all Champion trees across the United States. The county where each tree is found is filled in with a light green and the golden symbols are proportional to the registered circumference of each tree. Data were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro.
 
-## Objective
+![Final map showing champion trees across the United States.](img-national-champion-trees.png){.column-body-outset}
 
-This map was created for **Day 1** of the 2023 #30DayMapChallenge. The prompt for the day was "Points". I have been exploring these amazing specimens for awhile, so thought I would map them out for the challenge. The resulting map shows the general locations of all Champion trees across the United States. The county where each tree is found is filled in with a light green and the golden symbols are proportional to the registered circumference of each tree.
 
-## Tools & Workflow
-
-Data were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro.

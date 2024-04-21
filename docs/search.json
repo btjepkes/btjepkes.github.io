@@ -361,28 +361,7 @@
     "href": "gallery/michigan-anthrome-map/index.html",
     "title": "Anthrome Map of the Upper Peninsula, MI ",
     "section": "",
-    "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome).\nAnother portion of this assignment dealt with creating a climate profile for the region."
-  },
-  {
-    "objectID": "gallery/michigan-anthrome-map/index.html#task-objectives",
-    "href": "gallery/michigan-anthrome-map/index.html#task-objectives",
-    "title": "Anthrome Map of the Upper Peninsula, MI ",
-    "section": "",
-    "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome).\nAnother portion of this assignment dealt with creating a climate profile for the region."
-  },
-  {
-    "objectID": "gallery/michigan-anthrome-map/index.html#tools-workflow",
-    "href": "gallery/michigan-anthrome-map/index.html#tools-workflow",
-    "title": "Anthrome Map of the Upper Peninsula, MI ",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\n\nData were downloaded from Anthromes 12K DGG Datasets.\nFigure production was completed in RStudio with several packages including ggplot, ggspatial, and tidyverse."
-  },
-  {
-    "objectID": "gallery/michigan-anthrome-map/index.html#final-results",
-    "href": "gallery/michigan-anthrome-map/index.html#final-results",
-    "title": "Anthrome Map of the Upper Peninsula, MI ",
-    "section": "Final Results",
-    "text": "Final Results\nHere is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome). Another portion of this assignment dealt with creating a climate profile for the region. Data were downloaded from Anthromes 12K DGG Datasets. Figure production was completed in RStudio with several packages including ggplot, ggspatial, and tidyverse. Here is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/index.html",
@@ -473,14 +452,14 @@
     "href": "about/index.html",
     "title": "About Me and My Pathway",
     "section": "",
-    "text": "I am a graduate student at the University of Missouri studying geographic information systems in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats. My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences, which I pursued during summers and part-time throughout the academic year. After earning my degree, I pursued several wildlife research and management positions that opened my eyes to my true passion of conservation work.\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.\n\n\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships. Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies. Through my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program.\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course."
+    "text": "I am a graduate student at the University of Missouri studying geographic information systems (GIS) in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, resource availability, and other attributes across the landscape.\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats. My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences during summers and part-time throughout the academic year. After earning my degree, I pursued several wildlife research and management positions that opened my eyes to my true passion of conservation work.\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course.\n\n\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships. Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies. Through my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program.\n\n\n\nBeing a wildlife biologist means sometimes touching the animals, all with the proper permits, training, and equipment of course."
   },
   {
     "objectID": "curriculum-vitae/index.html",
     "href": "curriculum-vitae/index.html",
     "title": "Curriculum Vitae of my Professional Experience",
     "section": "",
-    "text": "Full Academic Curriculum vitae\n\n\n\n\n\n\n\n\n\n\n\n2-Page Standard Resume\n\n\n\n\n\n\n\n\n\n\n\n1-Page Abbreviated Resume\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Academic Curriculum vitae\n\n\n\n\n\n\n\n\n\n\n\n2-Page Standard Resume\n\n\n\n\n\n\n\n\n\n\n\n1-Page Abbreviated Resume\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "curriculum-vitae/index.html#formal-education",
@@ -672,18 +651,11 @@
     "text": "Tools & Workflow\nData were downloaded from the Global Biodiversity Information Facility. Map creation was performed in R/Studio."
   },
   {
-    "objectID": "gallery/national-champion-tree-map/index.html#objective",
-    "href": "gallery/national-champion-tree-map/index.html#objective",
+    "objectID": "gallery/national-champion-tree-map/index.html",
+    "href": "gallery/national-champion-tree-map/index.html",
     "title": "National Champion Trees Map ",
-    "section": "Objective",
-    "text": "Objective\nThis map was created for Day 1 of the 2023 #30DayMapChallenge. The prompt for the day was “Points”. I have been exploring these amazing specimens for awhile, so thought I would map them out for the challenge. The resulting map shows the general locations of all Champion trees across the United States. The county where each tree is found is filled in with a light green and the golden symbols are proportional to the registered circumference of each tree."
-  },
-  {
-    "objectID": "gallery/national-champion-tree-map/index.html#tools-workflow",
-    "href": "gallery/national-champion-tree-map/index.html#tools-workflow",
-    "title": "National Champion Trees Map ",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nData were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro."
+    "section": "",
+    "text": "This map was created for Day 1 of the 2023 #30DayMapChallenge. The prompt for the day was “Points”. I have been exploring these amazing specimens for awhile, so thought I would map them out for the challenge. The resulting map shows the general locations of all Champion trees across the United States. The county where each tree is found is filled in with a light green and the golden symbols are proportional to the registered circumference of each tree. Data were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro.\n\n\n\nFinal map showing champion trees across the United States.\n\n\n\n\n\nFinal map showing champion trees across the United States."
   },
   {
     "objectID": "gallery/pennsylvania-bridge-map/index.html",
@@ -767,7 +739,7 @@
     "href": "index.html",
     "title": "Hello! My name is Ben Tjepkes and I am a wildlife ecologist and data-driven geographer. ",
     "section": "",
-    "text": "Dive into this site to explore my most recent works in…\n\n\n\n wildlife ecology\n\n\n biogeography\n\n\n geospatial\n\n\n data science\n\n\n cartography\n\n\n climate science\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Pathway\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Professional Experience\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nand Other Organized Ramblings\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and More\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\nLatest Post:  Create Annotated Bibliographies with Quarto\n\n\n\n\n\n\n\n\n\n\nLatest Visual:  Vertebrate Morphometrics Across Riparian Zones\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Dive into this site to explore my most recent works in…\n\n\n\n wildlife ecology\n\n\n biogeography\n\n\n geospatial\n\n\n data science\n\n\n cartography\n\n\n climate science\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Pathway\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Professional Experience\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nand Other Organized Ramblings\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps and More\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\nLatest Post:  Annotated Bibliographies with Quarto\n\n\n\n\n\n\n\n\n\n\nLatest Visual:  Riparian Vertebrate Morphometrics\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/building-annotated-bibliographies-with-quarto/index.html",

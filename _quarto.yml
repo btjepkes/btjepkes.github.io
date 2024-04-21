@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Benjamin Tjepkes"
+  title: "Mein Portfolio"
   site-url: https://btjepkes.github.io
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
@@ -118,9 +118,10 @@ format:
     theme: custom.scss
     date-format: iso
     abstract-title: "What Is This About?"
-    toc: true
+    toc: false
     toc-title: "On This Page:"
     toc-location: right
+    toc-depth: 2
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"

@@ -32,9 +32,9 @@ listing:
       - subtitle
   - id: site-listings-2
     contents:
-      - title: "*Latest Post:* <br> Create Annotated Bibliographies with Quarto"
+      - title: "*Latest Post:* <br> Annotated Bibliographies with Quarto"
         path: "posts/building-annotated-bibliographies-with-quarto/index.qmd"
-      - title: "*Latest Visual:* <br> Vertebrate Morphometrics Across Riparian Zones"
+      - title: "*Latest Visual:* <br> Riparian Vertebrate Morphometrics"
         path: "gallery/vertebrate-morphometrics-in-riparian-zones/index.qmd"
       # - title: "*Master's Thesis:* <br> Dynamics of climate-driven vegetation phenology and associated avian response"
       #   path: "research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/index.qmd"

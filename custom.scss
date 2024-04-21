@@ -128,9 +128,11 @@ $progress-height:               .5rem !default;
 
 // Variables
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Josefin+Sans:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&family=Fira+Sans:wght@400;700;900&family=Kalam:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Josefin+Sans:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&family=Fira+Sans:wght@400;700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:wght@400;700;900');
+
+@import url('https://fonts.googleapis.com/css?family=Mulish:wght@400;700;900');
 
 
 // Typography
@@ -139,8 +141,9 @@ body {
   -webkit-font-smoothing: antialiased;
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+  font-size: 17px;
+  text-align: justify;
 }
 
 
@@ -201,11 +204,10 @@ h3 {
 }
 
 .description {
-  line-height: 1.4em;
+  line-height: 1.6em;
   margin-top: 10px;
   margin-bottom: 10px;
   color: white;
-  font-family: Jost, Nunito, sans-serif;
 }
 
 #toc-title {
@@ -222,6 +224,7 @@ h3 {
   margin-top: 10px;
   border: solid #eceef0 2px;
   margin-left: 40px;
+  text-align: left !important;
 }
 
 code {
@@ -290,9 +293,9 @@ a {
 .navbar-brand span {
   font-weight: 400 !important;
   letter-spacing: 0.02em;
-  font-size: 1.60rem;
+  font-size: 1.70rem;
   color: #fbfbfc;
-  font-family: Kalam/*Oswald*/;
+  font-family: Atkinson Hyperlegible;
   }
 
 .navbar-logo {
@@ -506,6 +509,7 @@ color: #000;
   margin: auto;
   background: #00231f;
   background-image: url("assets/noise.png");
+  margin-top: 4px;
 }
 
 .header-content-container {
@@ -636,17 +640,17 @@ color: #000;
     }
 
 .quarto-grid-item .card-title {
-  font-weight: 600;
+  font-weight: 900;
   margin-bottom: 6px;
   color: #0f172a;
-  font-family: Jost, Nunito, sans-serif;
+  font-family: Josefin Sans, Sans-Serif;
 }
 
 .quarto-grid-item .card-subtitle strong {
   line-height: 1.3;
   text-transform: lowercase;
   font-weight: 400 !important;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   background: rgba(255,255,255,0.08);
   padding: 0 10px;
   margin-top: 0.5em;
@@ -709,7 +713,7 @@ color: #000;
 /* FIGURES & IMAGES */
 
 .leaflet-container {
-  border: solid 2px;
+  border: solid 2px lightgray;
   border-radius: 0.5em;
 }
 
@@ -726,16 +730,16 @@ color: #000;
 
 
 .quarto-figure > figure {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
     }
 
 figure > figcaption {
-  margin: -5px 10px 0px 0px;
+  margin: 5px 0px 10px 0px;
   font-size: 0.7rem;
   text-align: center;
-  opacity: 0.5;
-  line-height: 1;
+  opacity: 0.7;
+  line-height: 1.2;
 }
 
 
