@@ -30,8 +30,10 @@
 <h2 data-anchor-id="introduction">Introduction</h2>
 <section id="what-is-an-annotated-bib" class="level3">
 <h3 data-anchor-id="what-is-an-annotated-bib">What is an annotated bib?</h3>
-<p>An <strong>annotated bibliography</strong> is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
-<p>This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1) identify gaps in existing literature</strong> and <strong>(2) determine the potential contributions of their own work</strong> within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
+<blockquote class="blockquote">
+<p>An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary.</p>
+</blockquote>
+<p>Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information. This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1) identify gaps in existing literature</strong> and <strong>(2) determine the potential contributions of their own work</strong> within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
 </section>
 <section id="why-use-zotero-and-quarto" class="level3">
 <h3 data-anchor-id="why-use-zotero-and-quarto">Why use Zotero and Quarto?</h3>

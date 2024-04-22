@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Mein Portfolio"
+  title: "Portfolio + Blog"
   site-url: https://btjepkes.github.io
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."

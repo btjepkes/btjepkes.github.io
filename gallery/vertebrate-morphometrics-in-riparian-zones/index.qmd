@@ -13,9 +13,7 @@ image-alt: "A chart comparing weights and lengths in vertebrates between stream 
 # aliases:
 ---
 
-## Final Results
-
 This figure was developed for the coding example portion of a job interview. The resulting figure of 2-3 different chart types is shown here, including boxplots, scatterplot, and rug plots. The data used in this visualization came directly from `lterdatasampler`, which is a really [neat R package](https://lter.github.io/lterdatasampler/) providing practice datasets from long-term ecological research sites across the United States.
 
-![Credit: Benjamin Tjepkes](img-vertebrate-morphometrics-plot.png)
+![Final visualization comparing two vertebrate species morphometrics.](img-vertebrate-morphometrics-plot.png){.column-body-outset}
 

@@ -74,7 +74,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta property="og:title" content="Pennsylvania Bridges from OpenStreetMap | B.W. Tjepkes">
 <meta property="og:description" content="Mapping the locations of bridges from OpenSteetMap across PA. This point map was created in RStudio and shows the locations of all bridges in the state of Pennsylvania according to the OpenStreetMap API.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/pennsylvania-bridge-map/img-PA-bridge-map-thumb.png">
-<meta property="og:site_name" content="Mein Portfolio">
+<meta property="og:site_name" content="Portfolio + Blog">
 <meta property="og:image:height" content="560">
 <meta property="og:image:width" content="700">
 <meta property="og:image:alt" content="A point map showing the locations of all bridges in Pennsylvania.">
@@ -99,7 +99,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <img src="../../assets/logo-051933.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Mein Portfolio</span>
+    <span class="navbar-title">Portfolio + Blog</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -188,30 +188,23 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
-<!-- ::: {.column-margin} -->
-<!-- ![](img-PA-bridge-map.png){.cover-image} -->
-<!-- ::: -->
-<section id="task-objectives" class="level2">
-<h2 data-anchor-id="task-objectives">Task &amp; Objectives</h2>
-<p>This map was created for <strong>Day 15</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “Open Street Map” for the main subject.</p>
-</section>
-<section id="tools-workflow" class="level2">
-<h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
-<p>Map creation was performed in R/Studio using the<code>ggplot</code> package.</p>
-<p>OpenStreeMap data for both bridges and largest cities were accessed via the <code>osmdata</code> package.</p>
-</section>
-<section id="final-result" class="level2">
-<h2 data-anchor-id="final-result">Final Result</h2>
-<p>The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database.</p>
-<p><a href="img-PA-bridge-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-PA-bridge-map.png" class="img-fluid"></a></p>
+<p>This map was created for <strong>Day 15</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “Open Street Map” for the main subject. Map creation was performed in R/Studio using the<code>ggplot</code> package. OpenStreeMap data for both bridges and largest cities were accessed via the <code>osmdata</code> package. The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><a href="img-PA-bridge-map.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Final map of OSM bridges of PA."><img src="img-PA-bridge-map.png" class="column-body-outset img-fluid figure-img" alt="Final map of OSM bridges of PA."></a></p>
+<figcaption>Final map of OSM bridges of PA.</figcaption>
+</figure>
+</div>
 
 
-</section>
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Final map of OSM bridges of PA.</span>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -655,7 +648,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

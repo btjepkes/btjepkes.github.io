@@ -188,9 +188,9 @@ h1::after {
 
 h2 {
   margin-bottom: 20px;
-  margin-top: 2em;
+  margin-top: 1.0em;
   margin-left: -0.3vw;
-  border-bottom: solid $gray-200 3px;
+  border-bottom: solid #e6e5e0 3px;
 }
 
 h3 {
@@ -247,7 +247,7 @@ div.sourceCode {
 
 .blockquote {
     font-size: 1.2rem;
-    background: #c5c6e6;
+    background: #e9ecef ;
     }
 blockquote {
     border-left: .25rem solid #35d290;
@@ -509,7 +509,7 @@ color: #000;
   margin: auto;
   background: #00231f;
   background-image: url("assets/noise.png");
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .header-content-container {
@@ -730,8 +730,8 @@ color: #000;
 
 
 .quarto-figure > figure {
-    margin-top: 1.2em;
-    margin-bottom: 1.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
     }
 
 figure > figcaption {
@@ -758,6 +758,7 @@ figure > figcaption {
 
 #quarto-content {
   min-height: auto !important;
+  background: #f0f0ec;
 }
 
 #quarto-content > * {
@@ -933,11 +934,10 @@ div.quarto-post .metadata {
 */
 
 .nav-footer {
-  padding-top: 0.5em;
+  padding-top: 0.8em;
   padding-bottom: 0em;
   color: white;
   background: #00231f;
-  border-top: solid #1e293b 3px;
   background-image: url("assets/noise.png");
 }
 
@@ -1112,7 +1112,8 @@ margin-bottom: 0 !important;
   padding: 12px;
   border-radius: 6px;
   margin-top: 12px;
-  background: $gray-200;
+  background: #e6e5e0;
+  text-align: left;
 }
 
 .quarto-appendix-contents {

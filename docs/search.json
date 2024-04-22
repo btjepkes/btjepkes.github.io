@@ -235,14 +235,7 @@
     "href": "gallery/vertebrate-morphometrics-in-riparian-zones/index.html",
     "title": "Vertebrate Morphometrics Across Riparian Zones ",
     "section": "",
-    "text": "This figure was developed for the coding example portion of a job interview. The resulting figure of 2-3 different chart types is shown here, including boxplots, scatterplot, and rug plots. The data used in this visualization came directly from lterdatasampler, which is a really neat R package providing practice datasets from long-term ecological research sites across the United States.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
-  },
-  {
-    "objectID": "gallery/vertebrate-morphometrics-in-riparian-zones/index.html#final-results",
-    "href": "gallery/vertebrate-morphometrics-in-riparian-zones/index.html#final-results",
-    "title": "Vertebrate Morphometrics Across Riparian Zones ",
-    "section": "",
-    "text": "This figure was developed for the coding example portion of a job interview. The resulting figure of 2-3 different chart types is shown here, including boxplots, scatterplot, and rug plots. The data used in this visualization came directly from lterdatasampler, which is a really neat R package providing practice datasets from long-term ecological research sites across the United States.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "This figure was developed for the coding example portion of a job interview. The resulting figure of 2-3 different chart types is shown here, including boxplots, scatterplot, and rug plots. The data used in this visualization came directly from lterdatasampler, which is a really neat R package providing practice datasets from long-term ecological research sites across the United States.\n\n\n\nFinal visualization comparing two vertebrate species morphometrics.\n\n\n\n\n\nFinal visualization comparing two vertebrate species morphometrics."
   },
   {
     "objectID": "gallery/tiger-distribution-map/index.html#objectives",
@@ -312,28 +305,7 @@
     "href": "gallery/my-github-contributions-in-2023/index.html",
     "title": "Plotting My GitHub Contributions in 2023 ",
     "section": "",
-    "text": "This figure was created for Week 1 of the 2024 TidyTuesday."
-  },
-  {
-    "objectID": "gallery/my-github-contributions-in-2023/index.html#task-objectives",
-    "href": "gallery/my-github-contributions-in-2023/index.html#task-objectives",
-    "title": "Plotting My GitHub Contributions in 2023 ",
-    "section": "",
-    "text": "This figure was created for Week 1 of the 2024 TidyTuesday."
-  },
-  {
-    "objectID": "gallery/my-github-contributions-in-2023/index.html#tools-workflow",
-    "href": "gallery/my-github-contributions-in-2023/index.html#tools-workflow",
-    "title": "Plotting My GitHub Contributions in 2023 ",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\n\nData were downloaded from GitHub using the gh package in R.\nFigure production was completed in RStudio with several packages, including ggplot, tidyverse, and showtext.\nMy entire workflow can be found on my project GH repo."
-  },
-  {
-    "objectID": "gallery/my-github-contributions-in-2023/index.html#final-results",
-    "href": "gallery/my-github-contributions-in-2023/index.html#final-results",
-    "title": "Plotting My GitHub Contributions in 2023 ",
-    "section": "Final Results",
-    "text": "Final Results\nHere is the resulting figure summarizing my 660 commits in 2023.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
+    "text": "This figure, inspired by the work of @nrennie, was created for Week 1 of the 2024 TidyTuesday. Data were downloaded from GitHub using the gh package in R. Figure production was completed in RStudio with several packages, including ggplot, tidyverse, and showtext. My entire workflow can be found on my project GH repo. The resulting figure summarizes my 660 commits in 2023 using a styled visualization replicated from the GitHub activity tracker.\n\n\n\nCredit: Benjamin Tjepkes\n\n\n\n\n\nCredit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/missouri-bat-hcp-poster/index.html",
@@ -371,18 +343,11 @@
     "text": "Map Gallery\n    \n  \n  \n    \n      Data Viz Gallery\n    \n  \n  \n    \n      Poster Gallery\n    \n  \n  \n    \n      Report Gallery\n    \n  \n  \n    \n      All Visualizations\n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\nVertebrate Morphometrics Across Riparian Zones\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlotting My GitHub Contributions in 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnthrome Map of the Upper Peninsula, MI\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimate Trends of the Upper Peninsula, MI\n\n\n\n\n\n\n\n\n\n\n\n\n\nPennsylvania Bridges from OpenStreetMap\n\n\n\n\n\n\n\n\n\n\n\n\n\nForest Cover & Happiness Bivariate Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nAndes Mountains Elevation Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nMoose Sightings Across North America\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost-Secondary Institutions Hexmap\n\n\n\n\n\n\n\n\n\n\n\n\n\nHyaenidae Distribution Map for Africa\n\n\n\n\n\n\n\n\n\n\n\n\n\nTiger Range and Conservation Landscapes\n\n\n\n\n\n\n\n\n\n\n\n\n\nCanadian Ecoregions Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEagle Mountain Contour Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nNational Champion Trees Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Ocean Currents and Temperatures\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Work Commitments Calendar\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelative Coding Proficiency Charts\n\n\n\n\n\n\n\n\n\n\n\n\n\nGreat Lakes Watersheds Map\n\n\n\n\n\n\n\n\n\n\n\n\n\n2018 Squirrel Census Sighting Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nEndangered Species Stamp Map\n\n\n\n\n\n\n\n\n\n\n\n\n\nMissouri Bat HCP Overview & Update Poster\n\n\n\n\n\n\n\n\n\n\n\n\n\nPoster on Bald Eagle Nest Selection Research\n\n\n\n\n\n\n\n\n\n\n\n\n\nOverlaying Public Lands with BMZs\n\n\n\n\n\n\n\n\n\n\n\n\n\nChoropleth of Missouri Bear Sightings\n\n\n\n\n\n\n\n\n\n\n\n\n\nShoreline Structure Setback Compliance\n\n\n\n\n\n\n\n\n\n\n\n\n\nCounty-Based Turkey Harvest Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnnual Report for MDC Furbearer Program\n\n\n\n\n\n\n\n\n\n\n\n\n\nBald Eagle Nest Monitoring Report\n\n\n\n\n\n\n\n\n\n\n\n\n\nVineyard and Winery Location Suitability Map\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "gallery/happy-forests-happy-people-map/index.html#task-objectives",
-    "href": "gallery/happy-forests-happy-people-map/index.html#task-objectives",
+    "objectID": "gallery/happy-forests-happy-people-map/index.html",
+    "href": "gallery/happy-forests-happy-people-map/index.html",
     "title": "Forest Cover & Happiness Bivariate Map ",
-    "section": "Task & Objectives",
-    "text": "Task & Objectives\nThis map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject. The final product showing both happiness and forest cover as a bivariate choropleth map."
-  },
-  {
-    "objectID": "gallery/happy-forests-happy-people-map/index.html#tools-workflow",
-    "href": "gallery/happy-forests-happy-people-map/index.html#tools-workflow",
-    "title": "Forest Cover & Happiness Bivariate Map ",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nMap creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub."
+    "section": "",
+    "text": "This map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject. The final product showing both happiness and forest cover as a bivariate choropleth map. Map creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub.\n\n\n\nResulting bivariate map of happy forests and happy people.\n\n\n\n\n\nResulting bivariate map of happy forests and happy people."
   },
   {
     "objectID": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
@@ -662,28 +627,7 @@
     "href": "gallery/pennsylvania-bridge-map/index.html",
     "title": "Pennsylvania Bridges from OpenStreetMap ",
     "section": "",
-    "text": "This map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject."
-  },
-  {
-    "objectID": "gallery/pennsylvania-bridge-map/index.html#task-objectives",
-    "href": "gallery/pennsylvania-bridge-map/index.html#task-objectives",
-    "title": "Pennsylvania Bridges from OpenStreetMap ",
-    "section": "",
-    "text": "This map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject."
-  },
-  {
-    "objectID": "gallery/pennsylvania-bridge-map/index.html#tools-workflow",
-    "href": "gallery/pennsylvania-bridge-map/index.html#tools-workflow",
-    "title": "Pennsylvania Bridges from OpenStreetMap ",
-    "section": "Tools & Workflow",
-    "text": "Tools & Workflow\nMap creation was performed in R/Studio using theggplot package.\nOpenStreeMap data for both bridges and largest cities were accessed via the osmdata package."
-  },
-  {
-    "objectID": "gallery/pennsylvania-bridge-map/index.html#final-result",
-    "href": "gallery/pennsylvania-bridge-map/index.html#final-result",
-    "title": "Pennsylvania Bridges from OpenStreetMap ",
-    "section": "Final Result",
-    "text": "Final Result\nThe resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database."
+    "text": "This map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject. Map creation was performed in R/Studio using theggplot package. OpenStreeMap data for both bridges and largest cities were accessed via the osmdata package. The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database.\n\n\n\nFinal map of OSM bridges of PA.\n\n\n\n\n\nFinal map of OSM bridges of PA."
   },
   {
     "objectID": "gallery/shoreline-structure-setback-compliance-map/index.html#tools-methods",
@@ -746,14 +690,14 @@
     "href": "posts/building-annotated-bibliographies-with-quarto/index.html",
     "title": "Create Annotated Bibliographies with Quarto ",
     "section": "",
-    "text": "An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.\nThis annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers (1) identify gaps in existing literature and (2) determine the potential contributions of their own work within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.\n\n\n\nZotero is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. Quarto is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.\nI suggest using these options because they are free, natively integrated, and highly flexible. This process allows for great flexibility, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.\nPerhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.\n\n\n\nZotero provides a reporting functionality in the desktop application by right-clicking an item, selection of items, or an entire collection, then selecting “Generate Report From…”. This option works well if you need to quickly output your citations and notes, but is limited to exporting in HTML or Rich Text formats.\nAnother alternative workflow might be to use Obsidian, a freemium note-taking software that operates on Markdown files. This application integrates very well will Zotero as well, but my personal preference is Quarto in the RStudio environment. Consider following this tutorial if you want to use Obsidian."
+    "text": "An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary.\n\nUnlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information. This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers (1) identify gaps in existing literature and (2) determine the potential contributions of their own work within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.\n\n\n\nZotero is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. Quarto is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.\nI suggest using these options because they are free, natively integrated, and highly flexible. This process allows for great flexibility, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.\nPerhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.\n\n\n\nZotero provides a reporting functionality in the desktop application by right-clicking an item, selection of items, or an entire collection, then selecting “Generate Report From…”. This option works well if you need to quickly output your citations and notes, but is limited to exporting in HTML or Rich Text formats.\nAnother alternative workflow might be to use Obsidian, a freemium note-taking software that operates on Markdown files. This application integrates very well will Zotero as well, but my personal preference is Quarto in the RStudio environment. Consider following this tutorial if you want to use Obsidian."
   },
   {
     "objectID": "posts/building-annotated-bibliographies-with-quarto/index.html#introduction",
     "href": "posts/building-annotated-bibliographies-with-quarto/index.html#introduction",
     "title": "Create Annotated Bibliographies with Quarto ",
     "section": "",
-    "text": "An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.\nThis annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers (1) identify gaps in existing literature and (2) determine the potential contributions of their own work within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.\n\n\n\nZotero is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. Quarto is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.\nI suggest using these options because they are free, natively integrated, and highly flexible. This process allows for great flexibility, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.\nPerhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.\n\n\n\nZotero provides a reporting functionality in the desktop application by right-clicking an item, selection of items, or an entire collection, then selecting “Generate Report From…”. This option works well if you need to quickly output your citations and notes, but is limited to exporting in HTML or Rich Text formats.\nAnother alternative workflow might be to use Obsidian, a freemium note-taking software that operates on Markdown files. This application integrates very well will Zotero as well, but my personal preference is Quarto in the RStudio environment. Consider following this tutorial if you want to use Obsidian."
+    "text": "An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary.\n\nUnlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information. This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers (1) identify gaps in existing literature and (2) determine the potential contributions of their own work within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.\n\n\n\nZotero is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. Quarto is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.\nI suggest using these options because they are free, natively integrated, and highly flexible. This process allows for great flexibility, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.\nPerhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.\n\n\n\nZotero provides a reporting functionality in the desktop application by right-clicking an item, selection of items, or an entire collection, then selecting “Generate Report From…”. This option works well if you need to quickly output your citations and notes, but is limited to exporting in HTML or Rich Text formats.\nAnother alternative workflow might be to use Obsidian, a freemium note-taking software that operates on Markdown files. This application integrates very well will Zotero as well, but my personal preference is Quarto in the RStudio environment. Consider following this tutorial if you want to use Obsidian."
   },
   {
     "objectID": "posts/building-annotated-bibliographies-with-quarto/index.html#workflow-in-zotero",
