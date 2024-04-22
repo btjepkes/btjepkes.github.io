@@ -45,9 +45,10 @@ bbox <- sf::st_bbox(sites)
 
 leaflet(sites, options = leafletOptions(minZoom = 5)) |> 
   addProviderTiles(providers$CartoDB.Positron) |> 
-  addPolygons() |> 
-  setMaxBounds(lng1 = -105.69159, lat1 = 34.33702,
-               lng2 = -83.43924, lat2 = 45.50496)
+  addPolygons(label = ~as.character(Name), labelOptions = labelOptions(noHide = TRUE,
+                                                                      direction = "bottom")) |> 
+  setMaxBounds(lng1 = -125.69159, lat1 = 34.33702,
+               lng2 = -63.43924, lat2 = 45.50496)
 ```
 
 :::
