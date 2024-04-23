@@ -2,7 +2,7 @@
 title: "My Research"
 subtitle: "**in Spatial Ecology and GIS**"
 title-block-banner: true
-image: ../assets/BooneCoLiDAR.png
+image: ../assets/bg-pines-research-gray-sm.png
 image-alt: Image-of-pine-trees-on-blue-background.
 description: "Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques. I have been fortunate to have worked across the Midwest and some in the West here in the United States. This research has expanded both my technical skillset and my appreciation for science."
 toc: false

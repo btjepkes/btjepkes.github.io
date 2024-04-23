@@ -10,7 +10,7 @@
 <atom:link href="https://btjepkes.github.io/posts/index-r.xml" rel="self" type="application/rss+xml"/>
 <description>This page is the home to many of my blog posts. The technical aspects generally cover some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included here.</description>
 <image>
-<url>https://btjepkes.github.io/../assets/img-geo-data-science.jpeg</url>
+<url>https://btjepkes.github.io/../assets/bg-pines-blog-orange-sm.png</url>
 <title>Benjamin Tjepkes - Blog Posts on R</title>
 <link>https://btjepkes.github.io/posts/#category=R</link>
 </image>

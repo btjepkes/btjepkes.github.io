@@ -24,7 +24,7 @@ listing:
       - "posts/index.qmd"
       - "research/index.qmd"
     type: grid
-    image-height: 120px
+    image-height: 100px
     grid-columns: 3
     grid-item-align: center
     fields:

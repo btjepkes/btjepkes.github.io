@@ -2,7 +2,7 @@
 title: "My Gallery"
 subtitle: "**of Maps and More**"
 date-modified: today
-image: ../assets/img-geospatial-cover.webp
+image: ../assets/bg-pines-gallery-yellow-sm.png
 image-alt: Image-of-pine-trees-on-blue-background.
 description: "Works included here are from  creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. My workflows span several technologies, but revolve around open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category by filtering."
 toc: false

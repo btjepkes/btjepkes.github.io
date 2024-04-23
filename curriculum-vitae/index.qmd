@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 subtitle: "**of my Professional Experience**"
-image: ../assets/johannes-plenio-Enhs8UrXEb0-unsplash.jpg
+image: ../assets/bg-pines-resources-purple-sm.png
 image-alt: Image-of-pine-trees-on-blue-background.
 # date: 2023-10-30
 # date-modified: today
