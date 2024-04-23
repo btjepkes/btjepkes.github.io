@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Portfolio + Blog"
+  title: "B.W. TJEPKES"
   site-url: https://btjepkes.github.io
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
@@ -133,7 +133,7 @@ format:
     code-link: true
     code-overflow: scroll
     grid:
-      body-width: 880px
+      body-width: 850px
       # gutter-width: 4.2vw
       margin-width: 280px
       #sidebar-width: 880px

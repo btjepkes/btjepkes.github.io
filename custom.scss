@@ -191,12 +191,14 @@ h2 {
   margin-top: 1.0em;
   margin-left: -0.3vw;
   border-bottom: solid #e6e5e0 3px;
+  text-align: left;
 }
 
 h3 {
   padding-bottom: 10px;
   margin-left: -2px;
   font-weight: 500;
+  text-align: left;
 }
 
 .abstract {
@@ -230,13 +232,13 @@ h3 {
 code {
   color: #1e293b;
   border-radius: 4px;
-  background: #cfeecf;
+  background: #eee6cf;
 }
 
 p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
   color: #1e293b;
   border-radius: 4px;
-  background: #cfeecf;
+  background: #eee6cf;
 }
 
 div.sourceCode {
@@ -247,10 +249,8 @@ div.sourceCode {
 
 .blockquote {
     font-size: 1.2rem;
-    background: #e9ecef ;
-    }
-blockquote {
-    border-left: .25rem solid #35d290;
+    background: #e6e5e0;
+    border-left: .25rem solid #00231f;
     }
 
 a {
@@ -293,7 +293,7 @@ a {
 .navbar-brand span {
   font-weight: 400 !important;
   letter-spacing: 0.02em;
-  font-size: 1.70rem;
+  /*font-size: 1.70rem;*/
   color: #fbfbfc;
   font-family: Atkinson Hyperlegible;
   }
@@ -301,7 +301,7 @@ a {
 .navbar-logo {
   padding: 1px;
   margin: 10px;
-  max-height: 40px;
+  max-height: 38px;
   border: solid 1px #fbfbfc;
   border-radius: 2px;
   }
@@ -629,7 +629,7 @@ color: #000;
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(255,255,255,0.6);
   background-image: url("assets/noise.png");
 }
 
@@ -702,12 +702,12 @@ color: #000;
 // TAB SETS
 
 .tab-content {
-      background: #f0f2f4;
+      background: #e6e5e0;
     }
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
     border-color: #f0f2f4;
-    background-color: #f0f2f4;
+    background-color: #e6e5e0;
     }
 
 /* FIGURES & IMAGES */
