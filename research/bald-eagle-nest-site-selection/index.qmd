@@ -30,3 +30,8 @@ We used a mixed-effects resource selection function under a use-availability des
 Fetherston, S.C., **B.W. Tjepkes**, S.E. Hygnstrom, and S.L. Winter. 2020. Final Report: Bald Eagle Nest Monitoring on the Upper Mississippi River, 1990–2012. USFWS Technical Report.
 
 **Tjepkes, B.W.**, S.C. Fetherston, S.E. Hygnstrom, and S.L. Winter. 2020. Bald Eagle Nest Monitoring on the Upper Mississippi River, 1990-2012. USFWS Geospatial Dataset.
+
+```{=html}
+<iframe class="slide-deck" src="bald-eagle-slides.html"></iframe>
+```
+
