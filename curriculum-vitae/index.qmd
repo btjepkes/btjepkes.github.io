@@ -6,7 +6,7 @@ image-alt: Image-of-pine-trees-on-blue-background.
 # date: 2023-10-30
 # date-modified: today
 author: ""
-description: "This page provides detailed overview of my formal education, recent professional experience, and professional skillset. Please also check out my full CV for a comprehensive listing of conference presentations, professional involvement, and technical publications or my 1-page Resume for a shorter version. My profile on [LinkedIn](https://www.linkedin.com/in/benjamintjepkes/) also provides information."
+description: "This page provides detailed overview of my formal education, recent professional experience, and professional skillset. Please also check out my full CV for a comprehensive listing of conference presentations, professional involvement, and technical publications."
 toc: false
 format:
   html:
@@ -44,19 +44,25 @@ listing:
 #| column: screen-inset-shaded
 #| echo: false
 #| warning: false
+#| out-height: 400px
+#| out-width: 100%
 library(leaflet)
 library(sf)
 
 sites <- sf::st_read("../research/features_for_website.geojson", quiet = TRUE)
 
+points <- sf::st_read("features-for-cv-WGS84.geojson", quiet = TRUE)
+
 bbox <- sf::st_bbox(sites)
 
-leaflet(sites, options = leafletOptions(minZoom = 5, maxZoom = 7)) |> 
+leaflet(sites, options = leafletOptions(minZoom = 4, maxZoom = 7)) |> 
   addProviderTiles(providers$CartoDB.Positron) |> 
-  addPolygons(label = ~as.character(Name), labelOptions = labelOptions(noHide = TRUE,
-                                                                      direction = "bottom")) |> 
-  setMaxBounds(lng1 = -125.69159, lat1 = 34.33702,
-               lng2 = -63.43924, lat2 = 45.50496)
+  addPolygons(label = ~as.character(Name), 
+              #labelOptions = labelOptions(noHide = TRUE,direction = "bottom")
+              ) |> 
+  setMaxBounds(lng1 = -125.69159, lat1 = 24.33702,
+               lng2 = -63.43924, lat2 = 55.50496) |> 
+  addMarkers(data = points, label = ~as.character(Entity))
 ```
 
 
