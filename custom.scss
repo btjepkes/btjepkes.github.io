@@ -128,7 +128,7 @@ $progress-height:               .5rem !default;
 
 // Variables
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Josefin+Sans:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&family=Fira+Sans:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Josefin+Sans:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&family=Fira+Sans:wght@400;700;900&family=Playfair+Display:wght@400;700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:wght@400;700;900');
 
@@ -152,8 +152,8 @@ h1 {
   font-size: clamp(1.7em, 5vw, 2.40em);
   padding-bottom: 20px;
   line-height: 1.2em;
-  /*font-family: Oswald;*/
-  font-family: Josefin Sans;
+  font-family: Playfair Display;
+  /*font-family: Josefin Sans;*/
   max-width: 1000px;
   margin: auto;
   color: white;
@@ -170,7 +170,6 @@ h1 {
 }
 
 h1 strong {
-  /*color: #dd5754;*/
   font-weight: 500 !important;
 }
 
@@ -206,7 +205,7 @@ h3 {
 }
 
 .description {
-  line-height: 1.6em;
+  line-height: 1.8em;
   margin-top: 10px;
   margin-bottom: 10px;
   color: white;
@@ -291,21 +290,22 @@ a {
   }
 
 .navbar-brand span {
-  font-weight: 200 !important;
+  font-weight: 400 !important;
   letter-spacing: 0.02em;
-  /*font-size: 1.70rem;*/
+  font-size: 1.70rem;
   color: #fbfbfc;
-  /*font-family: Atkinson Hyperlegible;*/
+  font-family: Playfair Display;
+  margin-left: 0.25em;
   }
 
-.navbar-logo {
+/*.navbar-logo {
   padding: 1px;
   margin: 10px;
   max-height: 38px;
   border: solid 1px #fbfbfc;
   border-radius: 2px;
   }
-
+*/
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
 --bs-gutter-x: 0rem;
 }

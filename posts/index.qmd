@@ -26,12 +26,12 @@ listing:
     # sort-ui: [title, date]
     max-description-length: 120
     fields: 
-      - image
       - title
       - description
       - author
       - date
 ---
+
 
 ::: {.column-page}
 

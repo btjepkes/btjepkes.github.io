@@ -26,7 +26,7 @@ website:
     version: 4
   sidebar: false
   navbar:
-    logo: "assets/logo-1.png"
+    #logo: "assets/site-logo-green.png"
     pinned: false
     right:
       - href: about/index.qmd

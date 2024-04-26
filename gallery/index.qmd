@@ -1,6 +1,6 @@
 ---
 title: "My Gallery"
-subtitle: "**of Maps and More**"
+subtitle: "**of Maps, Talks, and More**"
 date-modified: today
 image: ../assets/bg-pines-gallery-yellow-sm.png
 image-alt: Image-of-pine-trees-on-blue-background.

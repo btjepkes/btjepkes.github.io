@@ -43,6 +43,7 @@
 .nav-tabs .nav-item.show .nav-link {
   border-color: rgb(80,146,221);
   border-width: 2px;
+  color: red;
 }
 
 

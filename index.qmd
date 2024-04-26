@@ -30,7 +30,6 @@ listing:
     fields:
       - title
       - subtitle
-      - image
   - id: site-listings-2
     contents:
       - title: "*Latest Post:* <br> Annotated Bibliographies with Quarto"
@@ -46,32 +45,7 @@ listing:
     fields:
       - title
       - subtitle
-  # - id: site-listings-3
-  #   contents:
-  #     - title: "*Master's Thesis:* <br> Dynamics of climate-driven vegetation phenology and associated avian response"
-  #       path: "research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/index.qmd"
-  #   type: grid
-  #   grid-columns: 1
-  #   image-height: 200px
-  #   grid-item-align: center
-  #   fields:
-  #     - title
-  #     - subtitle
 ---
-
-
-<!-- ```{=html} -->
-<!-- <div class="card border-primary mb-3" style="max-width: 100%; padding-bottom: 30px;"> -->
-<!--   <div class="card-header">Header</div> -->
-<!--   <div class="card-body"> -->
-<!--     <h4 class="card-title">Primary card title</h4> -->
-<!--     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-<!--   </div> -->
-<!-- </div> -->
-<!-- ``` -->
-
-
-
 
 ::: {#intro-section .column-page}
 
@@ -111,6 +85,3 @@ Dive into this site to explore my most recent works in...
 
 ::: {#site-listings-2 .column-page .index-latest}
 :::
-
-<!-- ::: {#site-listings-3 .column-page .index-latest} -->
-<!-- ::: -->

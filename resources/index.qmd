@@ -60,7 +60,7 @@ reactable(
   resizable = TRUE,
   searchable = TRUE,
   striped = TRUE,
-  defaultPageSize = 20,
+  defaultPageSize = 40,
   paginationType = "simple",
   showPageInfo = FALSE,
   minRows = 1,
@@ -89,16 +89,17 @@ reactable(
 )
 ```
 
-## My Favorite Sources
+<!-- ## My Favorite Sources -->
 
-Some of my favorite GIS data sources can be found [here](https://freegisdata.rtwilson.com/).
+<!-- Some of my favorite GIS data sources can be found [here](https://freegisdata.rtwilson.com/). -->
 
 
-## Inspirational Works
+<!-- ## Inspirational Works -->
 
-The following creators have provided me with inspiration in one or more of my professional projects. Each of their personal sites are included below.
+<!-- The following creators have provided me with inspiration in one or more of my professional projects. Each of their personal sites are included below. -->
 
 ```{r}
+#| eval: false
 library(reactable)
 library(tidyverse)
 library(htmltools)

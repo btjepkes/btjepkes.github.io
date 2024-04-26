@@ -95,9 +95,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/logo-1.png" alt="" class="navbar-logo">
-    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">B.W. TJEPKES</span>
     </a>
@@ -196,7 +193,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <p>This figure was developed for the coding example portion of a job interview. The resulting figure of 2-3 different chart types is shown here, including boxplots, scatterplot, and rug plots. The data used in this visualization came directly from <code>lterdatasampler</code>, which is a really <a href="https://lter.github.io/lterdatasampler/">neat R package</a> providing practice datasets from long-term ecological research sites across the United States.</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p class="page-columns page-full"><a href="img-vertebrate-morphometrics-plot.png" class="lightbox page-columns page-full" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Final visualization comparing two vertebrate species morphometrics."><img src="img-vertebrate-morphometrics-plot.png" class="column-body-outset img-fluid figure-img" alt="Final visualization comparing two vertebrate species morphometrics."></a></p>
+<p class="page-columns page-full"><a href="img-vertebrate-morphometrics-plot.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Final visualization comparing two vertebrate species morphometrics."><img src="img-vertebrate-morphometrics-plot.png" class="column-body-outset img-fluid figure-img" alt="Final visualization comparing two vertebrate species morphometrics."></a></p>
 <figcaption>Final visualization comparing two vertebrate species morphometrics.</figcaption>
 </figure>
 </div>
@@ -648,7 +645,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","loop":false});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
