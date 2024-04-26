@@ -29,7 +29,7 @@ listing:
 
 ### My Research Geography
 
-I am fortunate to have worked extensively across the Midwestern United States and some in the West on a diversity of projects.
+I am fortunate to have worked extensively across the Midwestern United States on a diversity of projects. The map below displays my research influence across this region where I have conducted research.
 
 
 ```{r}

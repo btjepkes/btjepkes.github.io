@@ -8,7 +8,7 @@
 <title>Benjamin Tjepkes - Blog Posts on R</title>
 <link>https://btjepkes.github.io/posts/</link>
 <atom:link href="https://btjepkes.github.io/posts/index.xml" rel="self" type="application/rss+xml"/>
-<description>This page is the home to many of my blog posts. The technical aspects generally cover some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included here.</description>
+<description>This page is the home to many of my blog posts. The technical aspects generally cover some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included.</description>
 <image>
 <url>https://btjepkes.github.io/../assets/bg-pines-blog-orange-sm.png</url>
 <title>Benjamin Tjepkes - Blog Posts on R</title>
@@ -28,10 +28,8 @@
 <!-- ![](img-bib-post-cover.jpg){.cover-image} -->
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
-<blockquote class="blockquote">
-<p>An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary.</p>
-</blockquote>
-<p>Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information. This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1) identify gaps in existing literature</strong> and <strong>(2) determine the potential contributions of their own work</strong> within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
+<p>An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
+<p>This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1) identify gaps in existing literature</strong> and <strong>(2) determine the potential contributions of their own work</strong> within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
 <section id="why-use-zotero-and-quarto" class="level3">
 <h3 data-anchor-id="why-use-zotero-and-quarto">Why use Zotero and Quarto?</h3>
 <p><a href="https://www.zotero.org/">Zotero</a> is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. <a href="https://quarto.org/">Quarto</a> is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.</p>
@@ -856,14 +854,14 @@ Recap.”</span> December 31, 2023. <a href="https://btjepkes.github.io/posts/my
   <description><![CDATA[ <section id="overview-of-challenge" class="level2 page-columns page-full"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
 <p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full"><p class="page-columns page-full"><a href="img-30dmc-2023.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-2023.png" class="column-body-outset img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
+<figure class="figure page-columns page-full"><p class="page-columns page-full"><a href="img-30dmc-2023.png" class="lightbox page-columns page-full" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-2023.png" class="column-body-outset img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
 <figcaption>Here are daily prompts for 2023. Credit: 30DayMapChallenge.com</figcaption></figure>
 </div>
 </section><section id="my-2023-contributions" class="level2"><h2 data-anchor-id="my-2023-contributions">My 2023 Contributions</h2>
 <p>Here are my contributions to the challenge. Feel free to explore the details on each map product by clicking/tapping the map previews below. I was not able to create a map for every day, but this was my first time partaking in this challenge so I am happy with how many I created.</p>
 <div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1713735476552" data-listing-date-modified-sort="1714021200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1713735476552" data-listing-date-modified-sort="1714107600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
 <a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -902,7 +900,7 @@ Canadian Ecoregions Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1714021200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1714107600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
 <a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -928,7 +926,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1714021200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1714107600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -967,7 +965,7 @@ Andes Mountains Elevation Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1713787071664" data-listing-date-modified-sort="1714021200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1713787071664" data-listing-date-modified-sort="1714107600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
 <a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -980,7 +978,7 @@ Forest Cover &amp; Happiness Bivariate Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1713786994074" data-listing-date-modified-sort="1714021200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1713786994074" data-listing-date-modified-sort="1714107600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
 <a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1075,7 +1073,7 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
 <figcaption>A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>

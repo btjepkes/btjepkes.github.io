@@ -14,9 +14,9 @@ image: img-bib-post-cover.jpg
 
 ## Introduction
 
-> An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary.
+An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source's content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.
 
-Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source's content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information. This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers **(1) identify gaps in existing literature** and **(2) determine the potential contributions of their own work** within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes. 
+This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers **(1) identify gaps in existing literature** and **(2) determine the potential contributions of their own work** within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes. 
 
 ### Why use Zotero and Quarto?
 

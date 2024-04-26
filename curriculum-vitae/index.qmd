@@ -6,7 +6,7 @@ image-alt: Image-of-pine-trees-on-blue-background.
 # date: 2023-10-30
 # date-modified: today
 author: ""
-description: "This page provides detailed overview of my formal education, recent professional experience, and professional skillset. Please also check out my full CV for a comprehensive listing of conference presentations, professional involvement, and technical publications."
+description: "This page provides detailed overview of my formal education, recent professional experience, and professional skillset. Please also check out my full CV for a comprehensive listing of my experience."
 toc: false
 format:
   html:
@@ -41,11 +41,12 @@ listing:
 
 
 ```{r}
-#| column: screen-inset-shaded
+#| column: page
 #| echo: false
 #| warning: false
 #| out-height: 400px
 #| out-width: 100%
+#| fig-cap: Explore my experience geography.
 library(leaflet)
 library(sf)
 

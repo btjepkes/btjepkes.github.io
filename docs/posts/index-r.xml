@@ -8,7 +8,7 @@
 <title>Benjamin Tjepkes - Blog Posts on R</title>
 <link>https://btjepkes.github.io/posts/#category=R</link>
 <atom:link href="https://btjepkes.github.io/posts/index-r.xml" rel="self" type="application/rss+xml"/>
-<description>This page is the home to many of my blog posts. The technical aspects generally cover some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included here.</description>
+<description>This page is the home to many of my blog posts. The technical aspects generally cover some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included.</description>
 <image>
 <url>https://btjepkes.github.io/../assets/bg-pines-blog-orange-sm.png</url>
 <title>Benjamin Tjepkes - Blog Posts on R</title>
@@ -28,10 +28,8 @@
 <!-- ![](img-bib-post-cover.jpg){.cover-image} -->
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
-<blockquote class="blockquote">
-<p>An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary.</p>
-</blockquote>
-<p>Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information. This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1) identify gaps in existing literature</strong> and <strong>(2) determine the potential contributions of their own work</strong> within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
+<p>An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
+<p>This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1) identify gaps in existing literature</strong> and <strong>(2) determine the potential contributions of their own work</strong> within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
 <section id="why-use-zotero-and-quarto" class="level3">
 <h3 data-anchor-id="why-use-zotero-and-quarto">Why use Zotero and Quarto?</h3>
 <p><a href="https://www.zotero.org/">Zotero</a> is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. <a href="https://quarto.org/">Quarto</a> is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.</p>

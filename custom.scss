@@ -50,7 +50,7 @@ $content-padding-top: 0 !default;
 // Fonts
 
 // stylelint-disable-next-line value-keyword-case
-$font-family-sans-serif: /*"Anek","Lato", "Overpass"  ,*/"Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;  /*"Atkinson Hyperlegible",*/
+$font-family-sans-serif: /*"Anek","Lato", "Overpass", "Source Sans Pro"*/"Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;  /*"Atkinson Hyperlegible",*/
 
 $headings-font-weight:      400 !default;
 
@@ -130,10 +130,9 @@ $progress-height:               .5rem !default;
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Sen:wght@400;700;900&family=Nunito:wght@400;700;900&family=Josefin+Sans:wght@400;700;900&family=Anek:wght@400;600;700;900&&family=Segoe+UI:wght@400;600;900&family=Fira+Sans:wght@400;700;900&family=Playfair+Display:wght@400;700;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css?family=Oswald:wght@400;700;900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:wght@400;700;900');
 
 @import url('https://fonts.googleapis.com/css?family=Mulish:wght@400;700;900');
-
 
 // Typography
 
@@ -141,7 +140,7 @@ body {
   -webkit-font-smoothing: antialiased;
   overscroll-behavior-y: none !important;
   overflow-x: hidden;
-  font-family: "Mulish", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 17px;
   text-align: justify;
 }
@@ -218,7 +217,7 @@ h3 {
   padding-left: 5px;
 }
 
-#TOC {
+/*#TOC {
   background: #f0f2f4;
   padding: 20px;
   border-radius: 0.75rem;
@@ -226,7 +225,7 @@ h3 {
   border: solid #eceef0 2px;
   margin-left: 40px;
   text-align: left !important;
-}
+}*/
 
 code {
   color: #1e293b;
@@ -513,7 +512,7 @@ color: #000;
 }
 
 .header-content-container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -649,10 +648,10 @@ color: #000;
     }
 
 .quarto-grid-item .card-title {
-  font-weight: 900;
+  font-weight: 700;
   margin-bottom: 6px;
   color: #0f172a;
-  font-family: Josefin Sans, Sans-Serif;
+  font-family: Fira Sans;
 }
 
 .quarto-grid-item .card-subtitle strong {
@@ -667,8 +666,8 @@ color: #000;
 }
 
 .quarto-grid-item .listing-description {
- color:#6c757d !important;
- font-weight: 400 !important;
+   color:#6c757d !important;
+   font-weight: 400 !important;
 }
 
 .quarto-grid-item p.card-img-top {
