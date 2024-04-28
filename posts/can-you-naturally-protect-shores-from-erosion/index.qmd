@@ -2,7 +2,7 @@
 title: "Naturally Protecting Shores From Erosion"
 date: "10/16/2022"
 date-modified: today
-abstract: "Using native plants and natural materials to prevent erosion."
+#abstract: "Using native plants and natural materials to prevent erosion."
 description: In this blog post, we will explore the causes of shoreline erosion and discuss some effective ways to prevent it. By understanding this issue and taking action, we can protect our waterfront properties and preserve the natural integrity of the surrounding ecosystem.
 keywords: The Conservation Companion
 categories:
@@ -13,19 +13,15 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinber
 image-alt: "Image looking across a lake with plants in the foreground."
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934){.cover-image}
+## Erosion: A Two-Sided Story
 
-## Erosion Is A Two-Sided Story
+Shoreline erosion is a common problem faced by thousands of waterfront property owners. Many of whom view erosion issues as an inevitable consequence of living near the water. However, it is important to recognize that human actions can significantly contribute to and exacerbate erosion, and that there are steps we can take to prevent or reduce it. Our shorelines serve as the **conversion zone between land and water**.  This is an extremely tough and very important job. With the many forces acting on them, our shores need to be maintained for the health of our natural systems and the security of our infrastructure.
 
-Shoreline erosion is a common problem faced by thousands of waterfront property owners. Many of whom view erosion issues as an inevitable consequence of living near the water. However, it is important to recognize that human actions can significantly contribute to and exacerbate erosion, and that there are steps we can take to prevent or reduce it.
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg/800px-Timothy_Meinberg_2016-01-17_%28Unsplash%29.jpg?20170902151934)
 
-Our shorelines serve as the conversion zone between land and water.  This is an extremely tough and very important job. With the many forces acting on them, our shores need to be maintained for the health of our natural systems and the security of our infrastructure.
+The problem is that these forces are relentless. Wave action in the summer and ice push in the winter both nick away soil along the water’s edge. Run-off from streets and the upheaving frost action degrade shorelines from the land side. All while the wind erodes the ground from both sides. In general, lakes are considered depositional features, and rivers as erosional features. There are some differences between these classifications but both mean that a great deal of energy is acting on your shoreline every moment. Erosional forces already push coasts to their structural limit. Then we as humans come along and intensify those forces to the detriment of both parties.
 
-The problem is that these forces are relentless. Wave action in the summer and ice push in the winter both nick away soil along the water’s edge. Run-off from streets and the upheaving frost action degrade shorelines from the land side. All while the wind erodes the ground from both sides.
-
-In general, lakes are considered depositional features, and rivers as erosional features. There are some differences between these classifications but both mean that a great deal of energy is acting on your shoreline every moment. Erosional forces already push coasts to their structural limit. Then we as humans come along and intensify those forces to the detriment of both parties.
-
-## Human Activities Are Impactful
+## Impactful Human Activities
 
 Unfortunately, many of the activities we partake in as humans make conditions worse for our water features. We do not set out to intentionally harm these systems, rather the impacts are a by-product of other pursuits.
 
