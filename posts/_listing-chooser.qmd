@@ -17,7 +17,7 @@
 
 .nav-tabs .nav-item {
   flex: 1;
-  min-width: 150px;
+  min-width: 120px;
 }
 
 .nav-tabs .nav-link {
@@ -93,7 +93,7 @@
   </li>
   <li class="nav-item" role="presentation">
     <a class="nav-link" href="/posts/#category=GIS">
-      <i class="bi bi-geo"></i>GIS & Geospatial
+      <i class="bi bi-geo"></i>Geospatial
     </a>
   </li>
     <li class="nav-item" role="presentation">

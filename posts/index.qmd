@@ -1,9 +1,10 @@
 ---
 title: "My Blog Posts"
+#subtitle: "**and Other Organized Ramblings**"
 title-meta: "My Blog Posts"
-pagetitle: "Blog Posts | B.W. Tjepkes"
-subtitle: "**and Other Organized Ramblings**"
 date-modified: today
+date: 2022-10-16
+pagetitle: "Blog Posts | B.W. Tjepkes"
 description-meta: "Blog Posts - Explore my writings on ecological and geospatial data science."
 citation: false
 image: ../assets/bg-pines-blog-orange-sm.png
@@ -33,12 +34,12 @@ listing:
 ---
 
 
-::: {.column-page}
+<!-- ::: {.column-page} -->
 
 {{< include _listing-chooser.qmd >}}
 
 ::: {#main-posts }
 :::
 
-:::
+<!-- ::: -->
 

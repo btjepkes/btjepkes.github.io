@@ -9,7 +9,7 @@ website:
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
   favicon: assets/site-logo-green.png
   # page-navigation: true
-  # back-to-top-navigation: false
+  back-to-top-navigation: false
   # bread-crumbs: true
   search: false
   open-graph: true
@@ -113,8 +113,8 @@ format:
     author:
       - name: Benjamin Tjepkes
         orcid: 0009-0002-5524-2675
-    template-partials:
-      - title-block.html
+    # template-partials:
+    #   - title-block.html
     theme: custom.scss
     date-format: iso
     abstract-title: "What Is This About?"
@@ -133,7 +133,7 @@ format:
     code-link: true
     code-overflow: scroll
     grid:
-      body-width: 850px
+      body-width: 950px
       # gutter-width: 4.2vw
       margin-width: 280px
       #sidebar-width: 880px

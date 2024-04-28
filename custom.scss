@@ -134,6 +134,8 @@ $progress-height:               .5rem !default;
 
 @import url('https://fonts.googleapis.com/css?family=Mulish:wght@400;700;900');
 
+@import url('https://fonts.googleapis.com/css?family=Exo+2:wght@400;700;900');
+
 // Typography
 
 body {
@@ -147,12 +149,14 @@ body {
 
 
 h1 {
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   font-size: clamp(1.7em, 5vw, 2.40em);
+  text-align: left;
   padding-bottom: 20px;
   line-height: 1.2em;
-  font-family: Playfair Display;
-  /*font-family: Josefin Sans;*/
+  /*font-family: Playfair Display;*/
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
   max-width: 1000px;
   margin: auto;
   color: white;
@@ -168,7 +172,7 @@ h1 {
   text-shadow: none !important;*/
 }
 
-h1 strong {
+/*h1 strong {
   font-weight: 500 !important;
 }
 
@@ -178,11 +182,11 @@ h1::after {
   border: solid 2px #f0f2f4;
   margin: 30px auto 0 auto;
   width: 120px;
-}
+}*/
 
-.title {
+/*.title {
   margin-bottom: 15px !important;
-}
+}*/
 
 h2 {
   margin-bottom: 20px;
@@ -285,7 +289,8 @@ a {
 
 .navbar {
   box-shadow: 0 0 32px rgba(15, 23, 42, 0.25);
-	background: #00231f;
+  background: black;
+	/*background: #00231f;*/
 	background-image: url("assets/noise.png");
   }
 
@@ -294,13 +299,14 @@ a {
   letter-spacing: 0.02em;
   font-size: 1.70rem;
   color: #fbfbfc;
-  font-family: Playfair Display;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
   margin-left: 0.1em;
   }
 
 .navbar-logo {
   padding: 1px;
-  margin: 0px;
+  margin: 0 0 0 0.2em;
   max-height: 38px;
   height: 30px;
   border-radius: 2px;
@@ -331,7 +337,7 @@ a {
 @media (max-width: 991.98px) {
   
   .navbar {
-      padding-left: 0.4em !important;
+      padding-left: 0em !important;
 	    padding-right: 0 !important;
     }
   
@@ -503,7 +509,34 @@ color: #000;
 
 // HEADER
 
+#title-block-header.quarto-title-block.default .quarto-title-meta-heading {
+  margin-top: 0 !important;
+}
 
+#title-block-header.quarto-title-block.default .quarto-title-meta {
+  display: grid;
+  grid-template-columns: 40% 1fr 1fr;
+  grid-column-gap: 1em;
+  padding-bottom: 0.5em;
+}
+
+.quarto-title-block .quarto-title-banner {
+  background: #00231f;
+  background-image: url("assets/noise.png");
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.quarto-title-block {
+  background: #e6e5e0;
+  margin-bottom: 0 !important;
+}
+
+.keywords {
+  display: none;
+}
+
+/*
 #title-block-header {
   text-align: center;
   padding: 40px 25px 40px 25px;
@@ -519,24 +552,12 @@ color: #000;
 }
 
 
-#title-block-header.quarto-title-block.default .quarto-title-meta {
-  display: grid;
-  grid-template-columns: 40% 1fr 1fr;
-  grid-column-gap: 1em;
-}
-
-
-.keywords {
-  display: none;
-}
-
-
 .title-date {
   color: #e9ecef;
   font-size: 0.8em;
   margin-top: 20px;
 }
-
+*/
 
 // NAVIGATION
 

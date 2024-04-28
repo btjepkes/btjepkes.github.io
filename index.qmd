@@ -1,8 +1,9 @@
 ---
-title: "Hello! My name is **Ben Tjepkes** and I am a wildlife ecologist and data-driven geographer."
-abstract: "This is my online portfolio showcasing my professional and creative projects."
-description: "I am currently a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography."
-date-modified: today
+title: "A wildlife ecologist and data-driven geographer."
+#abstract: "This is my online portfolio showcasing my professional and creative projects."
+description: "Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am currently a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography."
+date-modified: ""
+author: ""
 image: "assets/img-ben-work.png"
 image-alt: "Image-of-trees."
 pagetitle: "Portfolio | B.W. Tjepkes"
@@ -17,11 +18,18 @@ format:
 listing:
   - id: site-listings-1
     contents:
-      - "about/index.qmd"
-      - "curriculum-vitae/index.qmd"
+      - title: About Me
+        subtitle: and my professional pathway
+        path: "about/index.qmd"
+      - title: Curriculum Vitae
+        subtitle: of my professional experience
+        path: "curriculum-vitae/index.qmd"
+      - title: My Blog Posts
+        subtitle: and other organized ramblings
+        path: "posts/index.qmd"        
+
       - "resources/index.qmd"
       - "gallery/index.qmd"
-      - "posts/index.qmd"
       - "research/index.qmd"
     type: grid
     image-height: 100px
@@ -44,7 +52,6 @@ listing:
     grid-item-align: center
     fields:
       - title
-      - subtitle
 ---
 
 ::: {#intro-section .column-page}
@@ -80,8 +87,8 @@ Dive into this site to explore my most recent works in...
 :::
 :::
 
-::: {#site-listings-1 .column-page}
+::: {#site-listings-1 }
 :::
 
-::: {#site-listings-2 .column-page .index-latest}
+::: {#site-listings-2  .index-latest}
 :::

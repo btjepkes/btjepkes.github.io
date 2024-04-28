@@ -2,6 +2,7 @@
 title: "My 2023 Highlights, Reflections, and Recap"
 date: 12/31/2023
 date-modified: today
+category: "2023"
 keywords:
   - "2023"
 abstract: "Looking back on a busy year."
