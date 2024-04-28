@@ -27,9 +27,10 @@ listing:
       - title: My Blog Posts
         subtitle: and other organized ramblings
         path: "posts/index.qmd"        
-
+      - title: My Gallery
+        subtitle: of maps, talks, and more
+        path: "gallery/index.qmd"
       - "resources/index.qmd"
-      - "gallery/index.qmd"
       - "research/index.qmd"
     type: grid
     image-height: 100px
@@ -54,38 +55,38 @@ listing:
       - title
 ---
 
-::: {#intro-section .column-page}
+<!-- ::: {#intro-section .column-page} -->
 
-::: {#intro-section-text}
-Dive into this site to explore my most recent works in...
-:::
+<!-- ::: {#intro-section-text} -->
+<!-- Dive into this site to explore my most recent works in... -->
+<!-- ::: -->
 
-::: container
-::: item
-{{< fa otter size=1.5x >}} wildlife ecology
-:::
+<!-- ::: container -->
+<!-- ::: item -->
+<!-- {{< fa otter size=1.5x >}} wildlife ecology -->
+<!-- ::: -->
 
-::: item
-{{< fa mountain size=1.5x >}} biogeography
-:::
+<!-- ::: item -->
+<!-- {{< fa mountain size=1.5x >}} biogeography -->
+<!-- ::: -->
 
-::: item
-{{< fa layer-group size=1.5x >}} geospatial
-:::
+<!-- ::: item -->
+<!-- {{< fa layer-group size=1.5x >}} geospatial -->
+<!-- ::: -->
 
-::: item
-{{< fa chart-area size=1.5x >}} data science
-:::
+<!-- ::: item -->
+<!-- {{< fa chart-area size=1.5x >}} data science -->
+<!-- ::: -->
 
-::: item
-{{< fa map size=1.5x >}} cartography
-:::
+<!-- ::: item -->
+<!-- {{< fa map size=1.5x >}} cartography -->
+<!-- ::: -->
 
-::: item
-{{< fa wind size=1.5x >}} climate science
-:::
-:::
-:::
+<!-- ::: item -->
+<!-- {{< fa wind size=1.5x >}} climate science -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
 
 ::: {#site-listings-1 }
 :::

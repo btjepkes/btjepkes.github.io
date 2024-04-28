@@ -289,9 +289,10 @@ a {
 
 .navbar {
   box-shadow: 0 0 32px rgba(15, 23, 42, 0.25);
-  background: black;
-	/*background: #00231f;*/
-	background-image: url("assets/noise.png");
+	background: #00231f;
+	background-image: url("assets/square-contour-background.png");
+	background-blend-mode: difference;
+	border-bottom: #3a4d49 solid;
   }
 
 .navbar-brand span {
@@ -348,7 +349,8 @@ a {
       
     .navbar .navbar-toggler {
       border: solid 0px lightgray;
-      background: rgba(255,255,255,0.1);
+      background: #3a4d49;
+     /* background: rgba(255,255,255,0.1);*/
       border-radius: 10px;
       line-height: 0;
       padding: 5px;

@@ -17,7 +17,7 @@
 
 .nav-tabs .nav-item {
   flex: 1;
-  min-width: 150px;
+  min-width: 120px;
 }
 
 .nav-tabs .nav-link {

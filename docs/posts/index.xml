@@ -35,7 +35,7 @@
 <p>The functioning website can be found <a href="https://btjepkes.github.io/WAFSGSO_2024_GIS/">here</a> and includes all the required data downloads.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-gis-workshop-site-preview.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Screenshot of the GIS workshop site."><img src="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png" class="img-fluid figure-img" alt="Screenshot of the GIS workshop site."></a></p>
+<p><a href="img-gis-workshop-site-preview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Screenshot of the GIS workshop site."><img src="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png" class="img-fluid figure-img" alt="Screenshot of the GIS workshop site."></a></p>
 <figcaption>Screenshot of the GIS workshop site.</figcaption>
 </figure>
 </div>
@@ -892,7 +892,7 @@ Recap.”</span> December 31, 2023. <a href="https://btjepkes.github.io/posts/my
   <description><![CDATA[ <section id="overview-of-challenge" class="level2 page-columns page-full"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
 <p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full"><p class="page-columns page-full"><a href="img-30dmc-2023.png" class="lightbox page-columns page-full" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-2023.png" class="column-body-outset img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
+<figure class="figure page-columns page-full"><p class="page-columns page-full"><a href="img-30dmc-2023.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-2023.png" class="column-body-outset img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
 <figcaption>Here are daily prompts for 2023. Credit: 30DayMapChallenge.com</figcaption></figure>
 </div>
 </section><section id="my-2023-contributions" class="level2"><h2 data-anchor-id="my-2023-contributions">My 2023 Contributions</h2>
