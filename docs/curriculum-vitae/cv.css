@@ -10,7 +10,7 @@
         display: flex;
         align-items: flex-start;
         /*background: #152035;*/
-        background: #f0f0f1;
+        background: #e6e5e0;
         align-items: center;
         padding: 20px;
         border-radius: 8px;
@@ -19,7 +19,7 @@
         margin-bottom: 1.2em;
         -webkit-box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
         box-shadow: 4px 4px 4px 0 rgba(0,0,0,.1);
-        border: solid #d8e0e8 2px;
+        /*border: solid #d8e0e8 2px;*/
     }
   
     .resume-item {

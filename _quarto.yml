@@ -26,7 +26,7 @@ website:
     version: 4
   sidebar: false
   navbar:
-    #logo: "assets/site-logo-green.png"
+    logo: "assets/layer-group-solid.svg"
     pinned: false
     right:
       - href: about/index.qmd
@@ -139,6 +139,6 @@ format:
       #sidebar-width: 880px
     lightbox: auto
     # include-in-header:
-    #   # - file: progress-bar.html
-    #   - file: header-banner.rhtml
+    #   #- file: progress-bar.html
+    #   #- file: header-banner.rhtml
          

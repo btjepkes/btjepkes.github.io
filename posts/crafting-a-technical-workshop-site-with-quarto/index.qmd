@@ -1,6 +1,6 @@
 ---
 title: "Crafting a Technical Workshop Site With Quarto"
-date: 04/18/2024
+date: 04/27/2024
 date-modified: today
 keywords:
   - "GIS"
@@ -10,9 +10,17 @@ abstract: "Structuring a GIS-focused workshop around a Quarto site."
 description: "This post takes a quick run through my recent workshop site I made for a wildlife and fisheries GIS workshiop and how I think it worked out."
 image: img-gis-workshop-site-preview.png
 image-alt: "An image of a website created by Quarto."
-draft: true
+draft: false
 ---
 
-## Pending
+## Introduction
 
-The functioning website can be found here: [https://btjepkes.github.io/WAFSGSO_2024_GIS/](https://btjepkes.github.io/WAFSGSO_2024_GIS/)
+Earlier this academic semester, I was able to help develop and host a technical workshop, "GIS for Fisheries and Wildlife Sciences". While I have helped with many GIS training sessions in the past, this was my first time taking the lead on development from start to end. I figured this was a perfect opportunity to test the use of a [Quarto](https://quarto.org/) site that would allow me to have all content in one place during and after the workshop.
+
+## The Result
+
+The functioning website can be found [here](https://btjepkes.github.io/WAFSGSO_2024_GIS/) and includes all the required data downloads.
+
+![Screenshot of the GIS workshop site.](img-gis-workshop-site-preview.png)
+
+

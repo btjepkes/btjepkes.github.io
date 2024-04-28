@@ -102,7 +102,7 @@
     "href": "posts/index.html",
     "title": "My Blog Posts and Other Organized Ramblings",
     "section": "",
-    "text": "Cartography\n    \n  \n  \n    \n      Education\n    \n  \n  \n    \n      Coding\n    \n  \n  \n    \n      Wildlife\n    \n  \n  \n    \n      GIS & Geospatial\n    \n  \n    \n    \n      All Posts\n    \n  \n\n\n\n\n\n\n\n\n\n\nCreate Annotated Bibliographies with Quarto\n\n\nIn this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and…\n\n\n\nBenjamin Tjepkes\n\n\n2024-01-01\n\n\n\n\n\n\n\n\n\n\n\nMy 2023 Highlights, Reflections, and Recap\n\n\nThis post takes a quick run through the last year of my professional life, including some of my accomplishments…\n\n\n\nBenjamin Tjepkes\n\n\n2023-12-31\n\n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nThis post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily social media challenge…\n\n\n\nBenjamin Tjepkes\n\n\n2023-11-01\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nIn this post, we explore the fascinating ways that geospatial technologies are being used in the realm of wildlife…\n\n\n\nBenjamin Tjepkes\n\n\n2023-03-26\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nThis blog post outlines some simple and cost-effective ways to help you start your journey as a contemporary…\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-18\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protecting Shores From Erosion\n\n\nIn this blog post, we will explore the causes of shoreline erosion and discuss some effective ways to prevent it. By…\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-16\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Cartography\n    \n  \n  \n    \n      Education\n    \n  \n  \n    \n      Coding\n    \n  \n  \n    \n      Wildlife\n    \n  \n  \n    \n      GIS & Geospatial\n    \n  \n    \n    \n      All Posts\n    \n  \n\n\n\n\n\n\n\n\n\n\nCrafting a Technical Workshop Site With Quarto\n\n\nThis post takes a quick run through my recent workshop site I made for a wildlife and fisheries GIS workshiop and how…\n\n\n\nBenjamin Tjepkes\n\n\n2024-04-27\n\n\n\n\n\n\n\n\n\n\n\nCreate Annotated Bibliographies with Quarto\n\n\nIn this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and…\n\n\n\nBenjamin Tjepkes\n\n\n2024-01-01\n\n\n\n\n\n\n\n\n\n\n\nMy 2023 Highlights, Reflections, and Recap\n\n\nThis post takes a quick run through the last year of my professional life, including some of my accomplishments…\n\n\n\nBenjamin Tjepkes\n\n\n2023-12-31\n\n\n\n\n\n\n\n\n\n\n\n30DayMapChallenge - 2023 Contributions\n\n\nThis post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily social media challenge…\n\n\n\nBenjamin Tjepkes\n\n\n2023-11-01\n\n\n\n\n\n\n\n\n\n\n\nHow Scientists Use GIS to Study Wildlife\n\n\nIn this post, we explore the fascinating ways that geospatial technologies are being used in the realm of wildlife…\n\n\n\nBenjamin Tjepkes\n\n\n2023-03-26\n\n\n\n\n\n\n\n\n\n\n\nHow to Become a Contemporary Naturalist\n\n\nThis blog post outlines some simple and cost-effective ways to help you start your journey as a contemporary…\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-18\n\n\n\n\n\n\n\n\n\n\n\nNaturally Protecting Shores From Erosion\n\n\nIn this blog post, we will explore the causes of shoreline erosion and discuss some effective ways to prevent it. By…\n\n\n\nBenjamin Tjepkes\n\n\n2022-10-16\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/how-scientists-use-gis-to-study-wildlife/index.html",
@@ -669,7 +669,7 @@
     "href": "index.html",
     "title": "Hello! My name is Ben Tjepkes and I am a wildlife ecologist and data-driven geographer. ",
     "section": "",
-    "text": "Dive into this site to explore my most recent works in…\n\n\n\n wildlife ecology\n\n\n biogeography\n\n\n geospatial\n\n\n data science\n\n\n cartography\n\n\n climate science\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Pathway\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Professional Experience\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nand Other Organized Ramblings\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps, Talks, and More\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\nLatest Post:  Annotated Bibliographies with Quarto\n\n\n\n\n\n\n\n\n\n\nLatest Visual:  Riparian Vertebrate Morphometrics\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Dive into this site to explore my most recent works in…\n\n\n\n wildlife ecology\n\n\n biogeography\n\n\n geospatial\n\n\n data science\n\n\n cartography\n\n\n climate science\n\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand My Pathway\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my Professional Experience\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor Coding, GIS, and Beyond\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nand Other Organized Ramblings\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof Maps, Talks, and More\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin Spatial Ecology and GIS\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\nLatest Post:  Crafting Technical Sites with Quarto\n\n\n\n\n\n\n\n\n\n\nLatest Visual:  Riparian Vertebrate Morphometrics\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/building-annotated-bibliographies-with-quarto/index.html",
@@ -705,6 +705,27 @@
     "title": "Create Annotated Bibliographies with Quarto ",
     "section": "Final Thoughts",
     "text": "Final Thoughts\nThis process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined.\nIf you are interested in other cool ways to handle citations and bibliographies in Quarto, I highly suggest checking out the website of Andrew Heiss. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. Happy citing!\n\n\n\nExample of a Zotero library item to include in our bibliography with each comment as an individual note item."
+  },
+  {
+    "objectID": "posts/crafting-a-technical-workshop-site-with-quarto/index.html",
+    "href": "posts/crafting-a-technical-workshop-site-with-quarto/index.html",
+    "title": "Crafting a Technical Workshop Site With Quarto ",
+    "section": "",
+    "text": "Earlier this academic semester, I was able to help develop and host a technical workshop, “GIS for Fisheries and Wildlife Sciences”. While I have helped with many GIS training sessions in the past, this was my first time taking the lead on development from start to end. I figured this was a perfect opportunity to test the use of a Quarto site that would allow me to have all content in one place during and after the workshop."
+  },
+  {
+    "objectID": "posts/crafting-a-technical-workshop-site-with-quarto/index.html#introduction",
+    "href": "posts/crafting-a-technical-workshop-site-with-quarto/index.html#introduction",
+    "title": "Crafting a Technical Workshop Site With Quarto ",
+    "section": "",
+    "text": "Earlier this academic semester, I was able to help develop and host a technical workshop, “GIS for Fisheries and Wildlife Sciences”. While I have helped with many GIS training sessions in the past, this was my first time taking the lead on development from start to end. I figured this was a perfect opportunity to test the use of a Quarto site that would allow me to have all content in one place during and after the workshop."
+  },
+  {
+    "objectID": "posts/crafting-a-technical-workshop-site-with-quarto/index.html#the-result",
+    "href": "posts/crafting-a-technical-workshop-site-with-quarto/index.html#the-result",
+    "title": "Crafting a Technical Workshop Site With Quarto ",
+    "section": "The Result",
+    "text": "The Result\nThe functioning website can be found here and includes all the required data downloads.\n\n\n\nScreenshot of the GIS workshop site.\n\n\n\n\n\nScreenshot of the GIS workshop site."
   },
   {
     "objectID": "posts/how-to-become-a-contemporary-naturalist/index.html",

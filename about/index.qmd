@@ -8,7 +8,7 @@ author-meta: Benjamin Tjepkes
 date-modified: today
 #abstract: "I am a wildlife ecologist and geographer with a passion for conservation."
 description-meta: "Learn about my career path and professional interests."
-description: "This page highlights my professional career path, including my experiences across the broad scopes of ecology and geospatial."
+description: "Learn about my career path and professional interests. This page highlights my career and education pathway leading to where I am now, including my experiences across the broad scopes of ecology and geospatial."
 toc: false
 ---
 

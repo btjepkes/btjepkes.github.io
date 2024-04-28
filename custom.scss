@@ -207,7 +207,8 @@ h3 {
   line-height: 1.8em;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: white;
+  color: #f0f0ec;
+  font-family: Montserrat;
 }
 
 #toc-title {
@@ -294,19 +295,21 @@ a {
   font-size: 1.70rem;
   color: #fbfbfc;
   font-family: Playfair Display;
-  margin-left: 0.25em;
+  margin-left: 0.1em;
   }
 
-/*.navbar-logo {
+.navbar-logo {
   padding: 1px;
-  margin: 10px;
+  margin: 0px;
   max-height: 38px;
-  border: solid 1px #fbfbfc;
+  height: 30px;
   border-radius: 2px;
+  filter: invert(100%);
   }
-*/
+
+
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
---bs-gutter-x: 0rem;
+--bs-gutter-x: 0.1rem;
 }
 
 .navbar-toggler-icon {
@@ -328,7 +331,7 @@ a {
 @media (max-width: 991.98px) {
   
   .navbar {
-      padding-left: 0 !important;
+      padding-left: 0.4em !important;
 	    padding-right: 0 !important;
     }
   
@@ -374,7 +377,6 @@ a {
     } 
     
     .navbar .navbar-collapse {
-    /*background: #1e293b;*/
     background: #000;
 }
   
