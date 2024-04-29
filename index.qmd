@@ -45,19 +45,16 @@ listing:
       - subtitle
   - id: site-listings-2
     contents:
-      - title: "*Latest Post:* <br> Crafting Technical Sites with Quarto"
+      - title: "Crafting Technical Sites with Quarto"
         path: "posts/crafting-a-technical-workshop-site-with-quarto/index.qmd"
-      - title: "*Latest Visual:* <br> Riparian Vertebrate Morphometrics"
+      - title: "Riparian Vertebrate Morphometrics"
         path: "gallery/vertebrate-morphometrics-in-riparian-zones/index.qmd"
-      # - title: "*Master's Thesis:* <br> Dynamics of climate-driven vegetation phenology and associated avian response"
-      #   path: "research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/index.qmd"
-    type: grid
+    type: table
     grid-columns: 2
-    image-height: 200px
+    filter-ui: false
+    sort-ui: false
     grid-item-align: center
-    fields:
-      - title
-      - image
+    fields: [title, description]
 ---
 
 <!-- > Dive into this site to explore my most recent works in... {{< fa otter size=1.5x >}} **wildlife ecology** ... {{< fa mountain size=1.5x >}} **biogeography** ... {{< fa layer-group size=1.5x >}} **geospatial** ... {{< fa chart-area size=1.5x >}} **data science** ... {{< fa map size=1.5x >}} **cartography** ... {{< fa wind size=1.5x >}} **climate science** ... {{< fa leaf size=1.5x >}} **conservation** -->

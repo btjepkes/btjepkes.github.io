@@ -7,7 +7,7 @@ keywords:
   - "GIS"
   - "Quarto"
   - "Workshop"
-description: "This post takes a quick run through my recent workshop site I made using Quarto and Github Pages. The workshop covers geographic information systems for wildlife and fisheries sciences."
+description: "This post takes a quick run through my recent workshop site I made using Quarto and Github Pages covering geographic information systems for wildlife and fisheries sciences."
 image: img-gis-workshop-site-preview.png
 image-alt: "An image of a website created by Quarto."
 draft: false

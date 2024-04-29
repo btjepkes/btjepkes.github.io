@@ -1,12 +1,13 @@
 ---
-title: "Vertebrate Morphometrics Across Riparian Zones"
+title: "Vertebrate Morphometrics In Riparian Zones"
 date: 2024-03-30
 date-modified: today
 categories:
   - Data Gallery
 keywords:
   - coding
-abstract: "Comparing weights and lengths in vertebrates between stream sections."
+  - R
+  - technical plot
 description: "This graphic summarizes morphometric measurements of coastal giant salamanders and cutthroat trout between two segments of stream in Oregon."
 image: img-vertebrate-morphometrics-plot.png
 image-alt: "A chart comparing weights and lengths in vertebrates between stream sections."

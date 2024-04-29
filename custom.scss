@@ -258,7 +258,7 @@ div.sourceCode {
     }
 
 a {
-  color: #2b8aff;
+  color: #0b7366;
 }
 
 .centered {
@@ -601,6 +601,9 @@ color: #000;
 
 // TABLES
 
+  .table {
+    text-align: left;
+  }
 
   .Reactable {
     color: black;
@@ -668,7 +671,7 @@ color: #000;
 }
 
 .quarto-grid-item {
-  border-radius: 1rem;
+  border-radius: 0.1rem;
   overflow: hidden;
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
   background-color: rgba(255,255,255,0.6);
