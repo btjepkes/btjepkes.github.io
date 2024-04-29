@@ -80,10 +80,10 @@
     "items": [
       "about/index.html",
       "curriculum-vitae/index.html",
-      "/resources/index.html",
+      "resources/index.html",
       "posts/index.html",
       "gallery/index.html",
-      "/research/index.html",
+      "research/index.html",
       "posts/crafting-a-technical-workshop-site-with-quarto/index.html",
       "gallery/vertebrate-morphometrics-in-riparian-zones/index.html"
     ]

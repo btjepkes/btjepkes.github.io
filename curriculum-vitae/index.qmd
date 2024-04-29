@@ -1,11 +1,11 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "**of my Professional Experience**"
 image: ../assets/bg-pines-resources-purple-sm.png
 image-alt: Image-of-pine-trees-on-blue-background.
 # date: 2023-10-30
 # date-modified: today
-author: ""
+date-modified: today
+date: 2021-01-01
 description: "This page provides detailed overview of my formal education, recent professional experience, and professional skillset. Please also check out my full CV for a comprehensive listing of my experience."
 toc: false
 format:

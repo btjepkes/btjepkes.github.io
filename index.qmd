@@ -30,8 +30,12 @@ listing:
       - title: My Gallery
         subtitle: "of maps, talks, and more"
         path: "gallery/index.qmd"
-      - "resources/index.qmd"
-      - "research/index.qmd"
+      - title: My Research
+        subtitle: "in spatial ecology and GIS"
+        path: "research/index.qmd"
+      - title: Helpful Resources
+        subtitle: "for coding, GIS, and beyond"  
+        path: "resources/index.qmd"
     type: grid
     image-height: 100px
     grid-columns: 3
@@ -39,7 +43,6 @@ listing:
     fields:
       - title
       - subtitle
-      - image
   - id: site-listings-2
     contents:
       - title: "*Latest Post:* <br> Crafting Technical Sites with Quarto"
@@ -54,9 +57,10 @@ listing:
     grid-item-align: center
     fields:
       - title
+      - image
 ---
 
-> Dive into this site to explore my most recent works in... {{< fa otter size=1.5x >}} **wildlife ecology** ... {{< fa mountain size=1.5x >}} **biogeography** ... {{< fa layer-group size=1.5x >}} **geospatial** ... {{< fa chart-area size=1.5x >}} **data science** ... {{< fa map size=1.5x >}} **cartography** ... {{< fa wind size=1.5x >}} **climate science** ... {{< fa leaf size=1.5x >}} **conservation**
+<!-- > Dive into this site to explore my most recent works in... {{< fa otter size=1.5x >}} **wildlife ecology** ... {{< fa mountain size=1.5x >}} **biogeography** ... {{< fa layer-group size=1.5x >}} **geospatial** ... {{< fa chart-area size=1.5x >}} **data science** ... {{< fa map size=1.5x >}} **cartography** ... {{< fa wind size=1.5x >}} **climate science** ... {{< fa leaf size=1.5x >}} **conservation** -->
 
 
 <!-- ::: {#intro-section .column-page} -->

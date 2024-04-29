@@ -213,6 +213,7 @@ h3 {
   margin-bottom: 10px;
   color: #f0f0ec;
   font-family: Montserrat;
+  font-size: 15px !important;
 }
 
 #toc-title {
@@ -264,6 +265,11 @@ a {
   text-align: center;
 }
 
+/* Code comments*/
+dd {
+  margin-right: 10px;
+  }
+
 
 // Indicators
 
@@ -314,6 +320,9 @@ a {
   filter: invert(100%);
   }
 
+.nav-link span {
+  background: #00231f;
+}
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
 --bs-gutter-x: 0.1rem;
@@ -518,7 +527,7 @@ color: #000;
 #title-block-header.quarto-title-block.default .quarto-title-meta {
   display: grid;
   grid-template-columns: 45% 1fr 1fr;
-  grid-column-gap: 1em;
+  grid-column-gap: 0.7em;
   padding-bottom: 0.5em;
 }
 
@@ -659,7 +668,7 @@ color: #000;
 }
 
 .quarto-grid-item {
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   overflow: hidden;
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
   background-color: rgba(255,255,255,0.6);
@@ -778,7 +787,7 @@ figure > figcaption {
   line-height: 1.2;
 }
 
-@media only screen and (max-width: 767px) {
+/*@media only screen and (max-width: 767px) {
   .quarto-figure {
       margin-left: -1em !important;
       margin-right: -1em !important;
@@ -787,7 +796,7 @@ figure > figcaption {
     margin: 5px 10px 10px 10px;
   }
 }
-
+*/
 
 .img-fluid,
 .figure-img,
@@ -808,7 +817,7 @@ figure > figcaption {
 }
 
 #quarto-content > * {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 main {
