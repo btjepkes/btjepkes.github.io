@@ -15,7 +15,245 @@
 <link>https://btjepkes.github.io/posts/#category=R</link>
 </image>
 <generator>quarto-1.4.549</generator>
-<lastBuildDate>Mon, 01 Jan 2024 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 29 Apr 2024 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Converting PowerPoints to Reveal.js Format</title>
+  <dc:creator>Benjamin Tjepkes</dc:creator>
+  <link>https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="introduction" class="level2">
+<h2 data-anchor-id="introduction">Introduction</h2>
+<p>Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. How can I do this? Well, I have devised a workflow that I am not sure is the best way, but it works for me until someone tells me otherwise. It is important to note that while this <em>converts</em> my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.</p>
+<section id="how-it-works" class="level3">
+<h3 data-anchor-id="how-it-works">How it works</h3>
+<p>Let’s take a run through my workflow. We must first export the PowerPoint as a .pdf within the PowerPoint software. Then, we can split each slide into its own .png or .jpg image using the <code>pdftools::pdf_convert</code> function. From here it is a simple for loop and <code>asis</code> output specification in a Quarto document setup to create a revealjs presentation.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[PPTX] --&gt; |Convert| B(PDF)
+  B --&gt; |pdf_convert| C(JPGs)
+  C --&gt;  D{QMD revealjs}
+  D --&gt; |Render| F[HTML]
+  
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="coded-example" class="level2">
+<h2 data-anchor-id="coded-example">Coded Example</h2>
+<p>Now we can run through an example with the code included. Here, we are assuming you have a saved PowerPoint, <code>powerpoint.pdf</code>, that was exported from your PowerPoint of interest.</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Load in the `pdftools` package</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(pdftools)</span>
+<span id="cb1-3"></span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Run the `pdftools::pdf_convert` function</span></span>
+<span id="cb1-5">pdftools<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pdf_convert</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">pdf =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"./powerpoint.pdf"</span>,</span>
+<span id="cb1-6">                      <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">format =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"jpg"</span>,</span>
+<span id="cb1-7">                      <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">pages =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NULL</span>,</span>
+<span id="cb1-8">                      <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">dpi =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">300</span>)</span></code></pre></div>
+<p>Create a Quarto (.qmd) document saved in the directory where you want to create your HTML output. Then, specify your YAML header as you see fit. I have removed the menu with <code>menu: false</code> but kept the arrow slide controls with <code>controls: true</code> in the below example.</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode yml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb2-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">format</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> revealjs</span></span>
+<span id="cb2-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">menu</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">false</span></span>
+<span id="cb2-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">controls</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">true</span></span>
+<span id="cb2-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">embed-resources</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">true</span></span>
+<span id="cb2-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">output-file</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"slide-conversion.html"</span></span>
+<span id="cb2-7"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span></code></pre></div>
+<p>Within your blank .qmd document, insert a code chunk and paste in the following code chunk. This code will create a list of images from your working directory, then iterate over them to set each one as the background image of its own slide in your revealjs presentation. It is important to set the execution options to <code>echo: false</code> and <code>output: asis</code> to prevent the code chunk from being included in the slides and instead print out the for-loop’s output.</p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| echo: false</span></span>
+<span id="cb3-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| output: asis</span></span>
+<span id="cb3-3"></span>
+<span id="cb3-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Create a list of photos in your directory</span></span>
+<span id="cb3-5">photo_list <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list.files</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">path =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"."</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">pattern =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\\</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">.jpg$"</span>)</span>
+<span id="cb3-6"></span>
+<span id="cb3-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Iterate over this list to output each as the background image of a new slide</span></span>
+<span id="cb3-8"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">for</span> (i <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(photo_list)){</span>
+<span id="cb3-9">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"## {background-image=</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\"</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">./powerpoint_"</span>, i, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">".jpg</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\"</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> background-size=</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\"</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">contain</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\"</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">}</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">sep =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>)</span>
+<span id="cb3-10">}</span></code></pre></div>
+<p>Once your HTML document is created, it is simple to embed it as an iframe into your site. There are other ways to configure this when <code>embed-resources: false</code> is set in your YAML, but my slides are not too large so this technique has worked for me.</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb4-1"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">&lt;</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">iframe</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;"> class</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"slide-deck"</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;"> src</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bald-eagle-slides.html"</span><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">&gt;&lt;/</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">iframe</span><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">&gt;</span></span></code></pre></div>
+</section>
+<section id="concluding-thoughts" class="level2">
+<h2 data-anchor-id="concluding-thoughts">Concluding Thoughts</h2>
+<p>So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it.</p>
+
+
+</section>
+
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
+Tjepkes, Benjamin. 2024. <span>“Converting PowerPoints to Reveal.js
+Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs">https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs</a>.
+</div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>Quarto</category>
+  <guid>https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/</guid>
+  <pubDate>Mon, 29 Apr 2024 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Create Annotated Bibliographies with Quarto</title>
   <dc:creator>Benjamin Tjepkes</dc:creator>

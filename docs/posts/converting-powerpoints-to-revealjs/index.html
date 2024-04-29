@@ -7,10 +7,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
-<meta name="dcterms.date" content="2020-07-10">
-<meta name="description" content="This data and monitoring report was developed with the Wisconsin Center for Wildlife for the U.S. Fish and Wildlife Service outlining 23 years of bald eagle nest monitoring along the Upper Mississippi River. The final version of this report is archived on the USFWS ServCat site and is publicly accessible.">
+<meta name="dcterms.date" content="2024-04-29">
+<meta name="keywords" content="RevealJS, Quarto, PowerPoint">
+<meta name="description" content="In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create interactive slides. There are likely more proper ways of completing this workflow, but this is what has worked for me so far.">
 
-<title>Bald Eagle Nest Monitoring Report | B.W. Tjepkes</title>
+<title>Converting PowerPoints to Reveal.js Format | B.W. Tjepkes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +23,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -40,9 +75,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -68,23 +100,29 @@ gtag('js', new Date());
 gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<meta property="og:title" content="Bald Eagle Nest Monitoring Report | B.W. Tjepkes">
-<meta property="og:description" content="This data and monitoring report was developed with the Wisconsin Center for Wildlife for the U.S. Fish and Wildlife Service outlining 23 years of bald eagle nest monitoring along the Upper Mississippi River. The final version of this report is archived on the USFWS ServCat site and is publicly accessible.">
-<meta property="og:image" content="https://btjepkes.github.io/gallery/bald-eagle-nest-monitoring-report/img-eagle-report.png">
+<meta property="og:title" content="Converting PowerPoints to Reveal.js Format | B.W. Tjepkes">
+<meta property="og:description" content="In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create interactive slides. There are likely more proper ways of completing this workflow, but this is what has worked for me so far.">
+<meta property="og:image" content="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
 <meta property="og:site_name" content="B.W. TJEPKES">
-<meta property="og:image:height" content="862">
-<meta property="og:image:width" content="662">
-<meta property="og:image:alt" content="Image of the report cover page.">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="This data and monitoring report was developed with the Wisconsin Center for Wildlife for the U.S. Fish and Wildlife Service outlining 23 years of bald eagle nest monitoring along the Upper Mississippi River. The final version of this report is archived on the USFWS ServCat site and is publicly accessible.">
-<meta name="twitter:image" content="https://btjepkes.github.io/gallery/bald-eagle-nest-monitoring-report/img-eagle-report.png">
+<meta name="twitter:description" content="In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create interactive slides. There are likely more proper ways of completing this workflow, but this is what has worked for me so far.">
+<meta name="twitter:image" content="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
 <meta name="twitter:creator" content="@BTjepkes">
-<meta name="twitter:image-height" content="862">
-<meta name="twitter:image-width" content="662">
-<meta name="twitter:image:alt" content="Image of the report cover page.">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="citation_title" content="Converting PowerPoints to Reveal.js Format">
+<meta name="citation_keywords" content="RevealJS,Quarto,PowerPoint">
+<meta name="citation_author" content="Benjamin Tjepkes">
+<meta name="citation_publication_date" content="2024-04-29">
+<meta name="citation_cover_date" content="2024-04-29">
+<meta name="citation_year" content="2024">
+<meta name="citation_online_date" content="2024-04-29">
+<meta name="citation_fulltext_html_url" content="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs">
+<meta name="citation_language" content="en">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -168,10 +206,10 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Bald Eagle Nest Monitoring Report</h1>
+      <h1 class="title">Converting PowerPoints to Reveal.js Format</h1>
                   <div>
         <div class="description">
-          This data and monitoring report was developed with the Wisconsin Center for Wildlife for the U.S. Fish and Wildlife Service outlining 23 years of bald eagle nest monitoring along the Upper Mississippi River. The <a href="https://ecos.fws.gov/ServCat/Reference/Profile/115661">final version</a> of this report is archived on the USFWS ServCat site and is publicly accessible.
+          In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create interactive slides. There are likely more proper ways of completing this workflow, but this is what has worked for me so far.
         </div>
       </div>
                               </div>
@@ -190,23 +228,24 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">2020-07-10</p>
+        <p class="date">2024-04-29</p>
       </div>
     </div>
     
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">2023-05-19</p>
+        <p class="date-modified">2024-04-29</p>
       </div>
     </div>
       
     </div>
     
+
   <div>
-    <div class="abstract">
-      <div class="block-title">What Is This About?</div>
-      A final report provided to the USFWS on the Upper Mississippi population.
+    <div class="keywords">
+      <div class="block-title">Keywords</div>
+      <p>RevealJS, Quarto, PowerPoint</p>
     </div>
   </div>
   
@@ -221,15 +260,75 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 
 
-<p><a href="img-eagle-report.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-eagle-report.png" class="cover-image img-fluid"></a></p>
-<section id="tools-workflow" class="level2">
-<h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
-<p>Report compilation was performed in Microsoft Word. Spatial data handling was performed in ArcGIS Pro. Tabular data manipulation and analysis were performed in RStudio and Microsoft Excel.</p>
+<section id="introduction" class="level2">
+<h2 data-anchor-id="introduction">Introduction</h2>
+<p>Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. How can I do this? Well, I have devised a workflow that I am not sure is the best way, but it works for me until someone tells me otherwise. It is important to note that while this <em>converts</em> my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.</p>
+<section id="how-it-works" class="level3">
+<h3 data-anchor-id="how-it-works">How it works</h3>
+<p>Let’s take a run through my workflow. We must first export the PowerPoint as a .pdf within the PowerPoint software. Then, we can split each slide into its own .png or .jpg image using the <code>pdftools::pdf_convert</code> function. From here it is a simple for loop and <code>asis</code> output specification in a Quarto document setup to create a revealjs presentation.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[PPTX] --&gt; |Convert| B(PDF)
+  B --&gt; |pdf_convert| C(JPGs)
+  C --&gt;  D{QMD revealjs}
+  D --&gt; |Render| F[HTML]
+  
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="coded-example" class="level2">
+<h2 data-anchor-id="coded-example">Coded Example</h2>
+<p>Now we can run through an example with the code included. Here, we are assuming you have a saved PowerPoint, <code>powerpoint.pdf</code>, that was exported from your PowerPoint of interest.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load in the `pdftools` package</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(pdftools)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Run the `pdftools::pdf_convert` function</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>pdftools<span class="sc">::</span><span class="fu">pdf_convert</span>(<span class="at">pdf =</span> <span class="st">"./powerpoint.pdf"</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>                      <span class="at">format =</span> <span class="st">"jpg"</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>                      <span class="at">pages =</span> <span class="cn">NULL</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>                      <span class="at">dpi =</span> <span class="dv">300</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Create a Quarto (.qmd) document saved in the directory where you want to create your HTML output. Then, specify your YAML header as you see fit. I have removed the menu with <code>menu: false</code> but kept the arrow slide controls with <code>controls: true</code> in the below example.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> revealjs</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">menu</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">controls</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">embed-resources</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">output-file</span><span class="kw">:</span><span class="at"> </span><span class="st">"slide-conversion.html"</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Within your blank .qmd document, insert a code chunk and paste in the following code chunk. This code will create a list of images from your working directory, then iterate over them to set each one as the background image of its own slide in your revealjs presentation. It is important to set the execution options to <code>echo: false</code> and <code>output: asis</code> to prevent the code chunk from being included in the slides and instead print out the for-loop’s output.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: asis</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a list of photos in your directory</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>photo_list <span class="ot">&lt;-</span> <span class="fu">list.files</span>(<span class="at">path =</span> <span class="st">"."</span>, <span class="at">pattern =</span> <span class="st">"</span><span class="sc">\\</span><span class="st">.jpg$"</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Iterate over this list to output each as the background image of a new slide</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(photo_list)){</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"## {background-image=</span><span class="sc">\"</span><span class="st">./powerpoint_"</span>, i, <span class="st">".jpg</span><span class="sc">\"</span><span class="st"> background-size=</span><span class="sc">\"</span><span class="st">contain</span><span class="sc">\"</span><span class="st">}</span><span class="sc">\n</span><span class="st">"</span>, <span class="at">sep =</span> <span class="st">""</span>)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Once your HTML document is created, it is simple to embed it as an iframe into your site. There are other ways to configure this when <code>embed-resources: false</code> is set in your YAML, but my slides are not too large so this technique has worked for me.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">iframe</span><span class="ot"> class</span><span class="op">=</span><span class="st">"slide-deck"</span><span class="ot"> src</span><span class="op">=</span><span class="st">"bald-eagle-slides.html"</span><span class="dt">&gt;&lt;/</span><span class="kw">iframe</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="concluding-thoughts" class="level2">
+<h2 data-anchor-id="concluding-thoughts">Concluding Thoughts</h2>
+<p>So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it.</p>
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Tjepkes, Benjamin. 2024. <span>“Converting PowerPoints to Reveal.js
+Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs">https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -671,31 +770,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"openEffect":"zoom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 

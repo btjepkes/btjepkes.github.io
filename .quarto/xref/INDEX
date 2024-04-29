@@ -353,5 +353,8 @@
   },
   "posts/crafting-a-technical-workshop-site-with-quarto/index.qmd": {
     "index.html": "dc244c47"
+  },
+  "posts/converting-powerpoints-to-revealjs/index.qmd": {
+    "index.html": "153f0b4a"
   }
 }

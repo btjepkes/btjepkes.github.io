@@ -45,6 +45,8 @@ listing:
       - subtitle
   - id: site-listings-2
     contents:
+      - title: "Converting PowerPoints to Reveal.js Format"
+        path: "posts/converting-powerpoints-to-revealjs/index.qmd"
       - title: "Crafting Technical Sites with Quarto"
         path: "posts/crafting-a-technical-workshop-site-with-quarto/index.qmd"
       - title: "Riparian Vertebrate Morphometrics"

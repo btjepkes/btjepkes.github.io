@@ -1,0 +1,85 @@
+---
+title: "Converting PowerPoints to Reveal.js Format"
+date: 2024-04-29
+date-modified: today
+categories:
+  - R
+  - Quarto
+keywords:
+  - "RevealJS"
+  - "Quarto"
+  - "PowerPoint"
+description: "In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create interactive slides. There are likely more proper ways of completing this workflow, but this is what has worked for me so far."
+# image: img-gis-workshop-site-preview.png
+# image-alt: "An image of a website created by Quarto."
+draft: false
+---
+
+## Introduction
+
+Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. How can I do this? Well, I have devised a workflow that I am not sure is the best way, but it works for me until someone tells me otherwise. It is important to note that while this *converts* my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.
+
+### How it works
+
+Let's take a run through my workflow. We must first export the PowerPoint as a .pdf within the PowerPoint software. Then, we can split each slide into its own .png or .jpg image using the `pdftools::pdf_convert` function. From here it is a simple for loop and `asis` output specification in a Quarto document setup to create a revealjs presentation.
+
+```{mermaid}
+flowchart LR
+  A[PPTX] --> |Convert| B(PDF)
+  B --> |pdf_convert| C(JPGs)
+  C -->  D{QMD revealjs}
+  D --> |Render| F[HTML]
+  
+```
+
+## Coded Example
+
+Now we can run through an example with the code included. Here, we are assuming you have a saved PowerPoint, `powerpoint.pdf`, that was exported from your PowerPoint of interest.
+
+```r
+# Load in the `pdftools` package
+library(pdftools)
+
+# Run the `pdftools::pdf_convert` function
+pdftools::pdf_convert(pdf = "./powerpoint.pdf",
+                      format = "jpg",
+                      pages = NULL,
+                      dpi = 300)
+```
+
+Create a Quarto (.qmd) document saved in the directory where you want to create your HTML output. Then, specify your YAML header as you see fit. I have removed the menu with `menu: false` but kept the arrow slide controls with `controls: true` in the below example.
+
+```yml
+---
+format: revealjs
+menu: false
+controls: true
+embed-resources: true
+output-file: "slide-conversion.html"
+---
+```
+Within your blank .qmd document, insert a code chunk and paste in the following code chunk. This code will create a list of images from your working directory, then iterate over them to set each one as the background image of its own slide in your revealjs presentation. It is important to set the execution options to `echo: false` and `output: asis` to prevent the code chunk from being included in the slides and instead print out the for-loop's output.
+
+```r
+#| echo: false
+#| output: asis
+
+# Create a list of photos in your directory
+photo_list <- list.files(path = ".", pattern = "\\.jpg$")
+
+# Iterate over this list to output each as the background image of a new slide
+for (i in 1:length(photo_list)){
+  cat("## {background-image=\"./powerpoint_", i, ".jpg\" background-size=\"contain\"}\n", sep = "")
+}
+```
+
+Once your HTML document is created, it is simple to embed it as an iframe into your site. There are other ways to configure this when `embed-resources: false` is set in your YAML, but my slides are not too large so this technique has worked for me.
+
+```html
+<iframe class="slide-deck" src="bald-eagle-slides.html"></iframe>
+```
+
+## Concluding Thoughts
+
+So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it.
+

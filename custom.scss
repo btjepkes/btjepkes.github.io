@@ -297,8 +297,8 @@ dd {
   box-shadow: 0 0 32px rgba(15, 23, 42, 0.25);
 	background: #00231f;
 	background-image: url("assets/square-contour-background.png");
-	background-blend-mode: difference;
 	border-bottom: #3a4d49 solid;
+	background-blend-mode: overlay;
   }
 
 .navbar-brand span {

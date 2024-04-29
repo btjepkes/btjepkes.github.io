@@ -13,6 +13,7 @@
   {
     "listing": "/posts/index.html",
     "items": [
+      "/posts/converting-powerpoints-to-revealjs/index.html",
       "/posts/crafting-a-technical-workshop-site-with-quarto/index.html",
       "/posts/building-annotated-bibliographies-with-quarto/index.html",
       "/posts/my-2023-highlights-reflections-and-recap/index.html",
@@ -23,19 +24,22 @@
     ]
   },
   {
-    "listing": "/posts/30-day-map-challenge-2023/index.html",
+    "listing": "/index.html",
     "items": [
-      "/gallery/national-champion-tree-map/index.html",
-      "/gallery/eagle-mountain-contour-map/index.html",
-      "/gallery/canadian-ecoregion-map/index.html",
-      "/gallery/tiger-distribution-map/index.html",
-      "/gallery/hyaenidae-range-map/index.html",
-      "/gallery/postsecondary-institutions-map/index.html",
-      "/gallery/moose-sightings-across-north-america/index.html",
-      "/gallery/andes-mountains-map/index.html",
-      "/gallery/happy-forests-happy-people-map/index.html",
-      "/gallery/pennsylvania-bridge-map/index.html"
+      "about/index.html",
+      "curriculum-vitae/index.html",
+      "resources/index.html",
+      "posts/index.html",
+      "gallery/index.html",
+      "research/index.html",
+      "posts/converting-powerpoints-to-revealjs/index.html",
+      "posts/crafting-a-technical-workshop-site-with-quarto/index.html",
+      "gallery/vertebrate-morphometrics-in-riparian-zones/index.html"
     ]
+  },
+  {
+    "listing": "/curriculum-vitae/index.html",
+    "items": []
   },
   {
     "listing": "/gallery/index.html",
@@ -72,20 +76,18 @@
     ]
   },
   {
-    "listing": "/curriculum-vitae/index.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
+    "listing": "/posts/30-day-map-challenge-2023/index.html",
     "items": [
-      "about/index.html",
-      "curriculum-vitae/index.html",
-      "resources/index.html",
-      "posts/index.html",
-      "gallery/index.html",
-      "research/index.html",
-      "posts/crafting-a-technical-workshop-site-with-quarto/index.html",
-      "gallery/vertebrate-morphometrics-in-riparian-zones/index.html"
+      "/gallery/national-champion-tree-map/index.html",
+      "/gallery/eagle-mountain-contour-map/index.html",
+      "/gallery/canadian-ecoregion-map/index.html",
+      "/gallery/tiger-distribution-map/index.html",
+      "/gallery/hyaenidae-range-map/index.html",
+      "/gallery/postsecondary-institutions-map/index.html",
+      "/gallery/moose-sightings-across-north-america/index.html",
+      "/gallery/andes-mountains-map/index.html",
+      "/gallery/happy-forests-happy-people-map/index.html",
+      "/gallery/pennsylvania-bridge-map/index.html"
     ]
   }
 ]

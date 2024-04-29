@@ -34,15 +34,18 @@ listing:
       - image
 ---
 
-### View PDF versions here: {.centered .unnumbered .unlisted}
+## View PDF versions here:
 
 :::{#resume-links}
 :::
 
 
+## My Experience Geography
+
+Please take a moment to explore my experience geography, where I have worked, presented, volunteered, and schooled.
 
 ```{r}
-#| column: page
+#| column: page-right
 #| echo: false
 #| warning: false
 #| out-height: 400px
