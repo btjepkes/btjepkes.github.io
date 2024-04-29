@@ -5,7 +5,6 @@ date-modified: today
 category: "2023"
 keywords:
   - "2023"
-abstract: "Looking back on a busy year."
 description: "This post takes a quick run through the last year of my professional life, including some of my accomplishments, learning venues, and life transition events. All in all, I think 2023 was a good year and I learned quite a bit in these 52 weeks."
 image: img-fern.jpg
 image-alt: "An image of a fern within a forest."

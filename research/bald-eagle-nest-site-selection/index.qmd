@@ -1,8 +1,8 @@
 ---
 title: "Bald Eagle Nest-Site Selection Project"
 date-modified: today
-abstract: "Assessing bald eagle nests along the Upper Mississippi River, 1990-2012."
-description: "This undergraduate research project involved cleaning and analyzing bald eagle nesting records from the U.S. Fish and Wildlife Service with the goal of determining how individuals of the Upper Mississippi River bald eagle population are selecting nest sites."
+date: 2021-01-01
+description: "This undergraduate research project involved cleaning and analyzing long-term bald eagle nest monitoring records from the USFWS with the goal of determining nest-site selection for the Upper Mississippi River bald eagle population."
 aliases: 
   - research-one.html
 categories:

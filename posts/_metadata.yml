@@ -6,6 +6,7 @@ appendix-style: plain
 appendix-cite-as: display
 google-scholar: true
 toc-depth: 2
+toc: false
 author:
   - name: Benjamin Tjepkes
     orcid: 0009-0002-5524-2675
