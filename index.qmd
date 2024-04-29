@@ -19,16 +19,16 @@ listing:
   - id: site-listings-1
     contents:
       - title: About Me
-        subtitle: and my professional pathway
+        subtitle: "and my professional pathway"
         path: "about/index.qmd"
       - title: Curriculum Vitae
-        subtitle: of my professional experience
+        subtitle: "of my professional experience"
         path: "curriculum-vitae/index.qmd"
       - title: My Blog Posts
-        subtitle: and other organized ramblings
+        subtitle: "and other organized ramblings"
         path: "posts/index.qmd"        
       - title: My Gallery
-        subtitle: of maps, talks, and more
+        subtitle: "of maps, talks, and more"
         path: "gallery/index.qmd"
       - "resources/index.qmd"
       - "research/index.qmd"
@@ -39,6 +39,7 @@ listing:
     fields:
       - title
       - subtitle
+      - image
   - id: site-listings-2
     contents:
       - title: "*Latest Post:* <br> Crafting Technical Sites with Quarto"
@@ -54,6 +55,9 @@ listing:
     fields:
       - title
 ---
+
+> Dive into this site to explore my most recent works in... {{< fa otter size=1.5x >}} **wildlife ecology** ... {{< fa mountain size=1.5x >}} **biogeography** ... {{< fa layer-group size=1.5x >}} **geospatial** ... {{< fa chart-area size=1.5x >}} **data science** ... {{< fa map size=1.5x >}} **cartography** ... {{< fa wind size=1.5x >}} **climate science** ... {{< fa leaf size=1.5x >}} **conservation**
+
 
 <!-- ::: {#intro-section .column-page} -->
 
