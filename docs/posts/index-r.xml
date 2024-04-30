@@ -26,6 +26,7 @@
 
 
 
+<div class="content-800">
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
 <p>Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. How can I do this? Well, I have devised a workflow that I am not sure is the best way, but it works for me until someone tells me otherwise. It is important to note that while this <em>converts</em> my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.</p>
@@ -49,6 +50,7 @@
 </div>
 </div>
 </div>
+<p>This will result in a HTML file with your slides where each image is displayed per slide while giving you most of the functionality of reveal.js.</p>
 </section>
 </section>
 <section id="coded-example" class="level2">
@@ -213,7 +215,7 @@ font-style: inherit;">sep =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">""</span>)</span>
 <span id="cb3-10">}</span></code></pre></div>
-<p>Once your HTML document is created, it is simple to embed it as an iframe into your site. There are other ways to configure this when <code>embed-resources: false</code> is set in your YAML, but my slides are not too large so this technique has worked for me.</p>
+<p>You will then need to render your .qmd document with this code chunk to produce a self-contained HTML file with your slides. Once your HTML document is created, it is simple to embed it as an iframe into your site. There are other ways to configure this when <code>embed-resources: false</code> is set in your YAML, but my slides are not too large so this technique has worked for me.</p>
 <div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb4-1"><span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">&lt;</span><span class="kw" style="color: #003B4F;
@@ -230,20 +232,74 @@ font-style: inherit;"> src</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"bald-eagle-slides.html"</span><span class="dt" style="color: #AD0000;
+font-style: inherit;">"powerpoint.html"</span><span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">&gt;&lt;/</span><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">iframe</span><span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">&gt;</span></span></code></pre></div>
+<p>To ensure your slides are always displayed with the correct aspect ratio, I applied a <code>.slide-deck</code> class to my iframe, then specified this class in my site CSS like below.</p>
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">.slide-deck</span> {</span>
+<span id="cb5-2">  <span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">border</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">px</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">solid</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#dee2e6</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb5-3">  <span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">width</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">%</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb5-4">  <span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">aspect-ratio</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">16</span> / <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb5-5">  <span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">margin-top</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">em</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb5-6">}</span></code></pre></div>
 </section>
 <section id="concluding-thoughts" class="level2">
 <h2 data-anchor-id="concluding-thoughts">Concluding Thoughts</h2>
 <p>So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it.</p>
-
-
 </section>
+</div>
+
+
 
 <div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2024. <span>“Converting PowerPoints to Reveal.js
@@ -264,7 +320,7 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
 
 
 
-<!-- ![](img-bib-post-cover.jpg){.cover-image} -->
+<div class="content-800">
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
 <p>An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
@@ -289,7 +345,7 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
 <p>Once you have your literature in Zotero you can review each article as you normally would. While doing so, add in notes and annotations that summarize the main findings, key terms, important methods, and so forth. An important note about this workflow is that each comment or annotation made on an article must be stored as an individual note item. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-zotero-item.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
+<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
 <figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
 </figure>
 </div>
@@ -977,10 +1033,11 @@ font-style: inherit;">:::</span></span></code></pre></div>
 <h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
 <p>This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined.</p>
 <p>If you are interested in other cool ways to handle citations and bibliographies in Quarto, I highly suggest checking out the website of <a href="https://www.andrewheiss.com/blog/index.html#category=citations">Andrew Heiss</a>. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
-
-
-
 </section>
+</div>
+
+
+
 
 <div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2024. <span>“Create Annotated Bibliographies with

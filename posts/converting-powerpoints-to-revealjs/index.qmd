@@ -9,11 +9,12 @@ keywords:
   - "RevealJS"
   - "Quarto"
   - "PowerPoint"
-description: "In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create interactive slides. There are likely more proper ways of completing this workflow, but this is what has worked for me so far."
+description: "In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create interactive slides. This workflow has worked for me to generate slides for my website."
 # image: img-gis-workshop-site-preview.png
 # image-alt: "An image of a website created by Quarto."
-draft: false
 ---
+
+:::{.content-800}
 
 ## Introduction
 
@@ -31,6 +32,8 @@ flowchart LR
   D --> |Render| F[HTML]
   
 ```
+
+This will result in a HTML file with your slides where each image is displayed per slide while giving you most of the functionality of reveal.js.
 
 ## Coded Example
 
@@ -73,13 +76,26 @@ for (i in 1:length(photo_list)){
 }
 ```
 
-Once your HTML document is created, it is simple to embed it as an iframe into your site. There are other ways to configure this when `embed-resources: false` is set in your YAML, but my slides are not too large so this technique has worked for me.
+You will then need to render your .qmd document with this code chunk to produce a self-contained HTML file with your slides. Once your HTML document is created, it is simple to embed it as an iframe into your site. There are other ways to configure this when `embed-resources: false` is set in your YAML, but my slides are not too large so this technique has worked for me.
 
 ```html
-<iframe class="slide-deck" src="bald-eagle-slides.html"></iframe>
+<iframe class="slide-deck" src="powerpoint.html"></iframe>
 ```
+
+To ensure your slides are always displayed with the correct aspect ratio, I applied a `.slide-deck` class to my iframe, then specified this class in my site CSS like below.
+
+```css
+.slide-deck {
+  border: 3px solid #dee2e6;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-top: 2em;
+}
+```
+
 
 ## Concluding Thoughts
 
 So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it.
 
+:::

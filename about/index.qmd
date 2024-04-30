@@ -1,17 +1,16 @@
 ---
 title: "About Me"
-#subtitle: "**and My Pathway**"
 image: ../assets/bg-pines-about-blue-sm.png
 image-alt: "Cover image"
 keywords: about, about me
 author-meta: Benjamin Tjepkes
 date-modified: today
 date: 2021-01-01
-#abstract: "I am a wildlife ecologist and geographer with a passion for conservation."
 description-meta: "Learn about my career path and professional interests."
 description: "Learn about my career path and professional interests. This page highlights my career and education pathway leading to where I am now, including my experiences across the broad scopes of ecology and geospatial."
-toc: false
 ---
+
+:::{.content-800}
 
 Hello! My name is Benjamin (Ben) Tjepkes and I am a wildlife ecologist and geographer with a passion for conservation data science. I am currently a **graduate student** at the **University of Missouri** studying geographic information systems (GIS) in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**. My professional interests (and masters thesis work) revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives interactions, movements, and resource availability across the landscape.
 
@@ -27,3 +26,4 @@ As I delved further into my wildlife career, I came to the realization that loca
 
 With a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a **Master's degree in Geography** at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies. Through my Master's program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master's program.
 
+:::

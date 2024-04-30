@@ -10,7 +10,7 @@ categories:
 image: img-bib-post-cover.jpg
 ---
 
-<!-- ![](img-bib-post-cover.jpg){.cover-image} -->
+:::{.content-800}
 
 ## Introduction
 
@@ -308,3 +308,5 @@ This process has worked exceptionally well for me so far in my academic journey.
 
 If you are interested in other cool ways to handle citations and bibliographies in Quarto, I highly suggest checking out the website of [Andrew Heiss](https://www.andrewheiss.com/blog/index.html#category=citations). If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. **Happy citing!**
 
+
+:::

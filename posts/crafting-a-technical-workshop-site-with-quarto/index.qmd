@@ -13,6 +13,7 @@ image-alt: "An image of a website created by Quarto."
 draft: false
 ---
 
+:::{.content-800}
 
 ## Introduction
 
@@ -24,4 +25,4 @@ The functioning website can be found [here](https://btjepkes.github.io/WAFSGSO_2
 
 ![Screenshot of the GIS workshop site.](img-gis-workshop-site-preview.png)
 
-
+:::

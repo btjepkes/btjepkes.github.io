@@ -10,8 +10,6 @@ pagetitle: "Portfolio | B.W. Tjepkes"
 author-meta: Benjamin Tjepkes
 description-meta: "This is the porfolio and professional website of Benjamin Tjepkes."
 page-navigation: false
-toc: false
-sidebar: false
 format:
   html:
     css: index.css

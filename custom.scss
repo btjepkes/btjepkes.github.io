@@ -157,8 +157,6 @@ h1 {
   /*font-family: Playfair Display;*/
   font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
-  max-width: 1000px;
-  margin: auto;
   color: white;
   /*background-image: linear-gradient(30deg,#ffffff 0, #adfbda 30%, #35c3ff 50%, #fda399 50%, #76d880 70%,#ebf38b 90%,#adfbda 100%);
   background-image: url("assets/bg-green-rivers.jpg");
@@ -402,6 +400,11 @@ dd {
 
 
 // SIDEBAR
+
+.sidebar {
+  background: #f0f0ec;
+  margin-left: -90px;
+}
 
 .sidebar-section .depth2 {
   display: none;
@@ -819,12 +822,19 @@ figure > figcaption {
   background: #f0f0ec;
 }
 
+
+// PAGE & CONTENT
+
 #quarto-content > * {
   padding-top: 20px;
 }
 
 main {
   margin-top: 0px;
+}
+
+.content-800 {
+  max-width: 800px;
 }
 
 .quarto-listing-default {
@@ -837,6 +847,13 @@ div.quarto-post .metadata {
   display: none;
 }
 
+
+// TOC & SIDEBAR
+
+#quarto-sidebar {
+  background: red;
+  /*background: #f0f0ec;*/
+}
 
 
 /* INDEX features */
