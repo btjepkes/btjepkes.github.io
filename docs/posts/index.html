@@ -67,9 +67,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-subtitle","listing-description","listing-category"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -280,134 +280,30 @@ window.Quarto = {
 
 
 
-
-<style type="text/css">
-.nav-tabs {
-  margin-top: 0.5rem;
-  margin-bottom: 20px;
-  border-bottom: none;
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-}
-
-.callout {
-  margin-top: 0;
-}
-
-.nav-tabs .nav-item {
-  flex: 1;
-  min-width: 120px;
-}
-
-.nav-tabs .nav-link {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 0.8em;
-  font-weight: 600;
-}
-
-.nav-tabs .nav-link, 
-.nav-tabs .nav-link.active, 
-.nav-tabs .nav-item.show .nav-link {
-  border: 2px solid  rgb(222, 226, 230);
-  border-radius: 10px;
-  color: rgb(80,146,221);
-}
-.nav-tabs .nav-link:hover {
-   border-color: rgb(80,146,221);
-   border-width: 1px;
-} 
-
-.nav-tabs .nav-link.active, 
-.nav-tabs .nav-item.show .nav-link {
-  border-color: rgb(80,146,221);
-  border-width: 2px;
-  color: red;
-}
-
-
-.nav-tabs .nav-link i {
-  display: block;
-  font-size: 3rem;
-  color: #153b46;
-  margin-bottom: 5px;
-}
-
-.quarto-listing {
-  margin-top: 2em;
-}
-
-.quarto-listing .listing-name,
-.quarto-listing .listing-author {
-  white-space: nowrap;
-}
-
-.quarto-listing .listing-actions-group h3 {
-  margin-top: 0;
-}
-
- 
-</style>
-
-<ul id="index-chooser" class="nav nav-tabs" role="tablist">
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" href="../posts/#category=Cartography">
-      <i class="bi bi-pin-map"></i>Cartography
-    </a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" href="../posts/#category=Education">
-      <i class="bi bi-mortarboard"></i>Education
-    </a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" href="../posts/#category=R">
-      <i class="bi bi-code-slash"></i>Coding
-    </a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" href="../posts/#category=Wildlife">
-      <i class="bi bi-binoculars"></i>Wildlife
-    </a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" href="../posts/#category=GIS">
-      <i class="bi bi-geo"></i>Geospatial
-    </a>
-  </li>
-    <li class="nav-item" role="presentation">
-    <a class="nav-link" href="../posts/">
-      <i class="bi bi-emoji-smile"></i>All Posts
-    </a>
-  </li>
-</ul>
-
-<script type="text/javascript">
-document.addEventListener("DOMContentLoaded", function() {
-  // get file name
-  const filename = window.location.pathname.split("/").slice(-1)[0];
-
-  // latch active
-  const toolLinks = window.document.querySelectorAll("#index-chooser a");
-  for (const tool of toolLinks) {
-    if (filename && filename !== "index.html") {
-      if (tool.href.endsWith(filename)) {
-        tool.classList.add("active");
-      } 
-    } else {
-      if (tool.href.endsWith("listing-filters.html")) {
-        tool.classList.add("active");
-      }
-    }
-  }
-  
-  // move heading into table
-  document.querySelector(".listing-actions-group").prepend(document.querySelector("h3.unlisted"));
-});
-
-</script>
+<!--  -->
 <div id="listing-main-posts" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-main-posts-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-main-posts'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="R,Quarto" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1714490162347" data-listing-date-modified-sort="1714453200000" data-listing-reading-time-sort="4" data-listing-word-count-sort="658">
 <a href="../posts/converting-powerpoints-to-revealjs/index.html" class="quarto-grid-link">

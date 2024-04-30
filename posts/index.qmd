@@ -22,8 +22,8 @@ listing:
     image-height: 200px
     page-size: 9
     sort: "date desc"
-    # filter-ui: [title, subtitle, description, category]
-    # sort-ui: [title, date]
+    filter-ui: [title, subtitle, description, category]
+    sort-ui: [title, date, category]
     max-description-length: 120
     fields: 
       - title
@@ -33,7 +33,7 @@ listing:
 ---
 
 
-{{< include _listing-chooser.qmd >}}
+<!-- {{< include _listing-chooser.qmd >}} -->
 
 ::: {#main-posts }
 :::

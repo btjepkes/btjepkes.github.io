@@ -536,7 +536,9 @@ color: #000;
 
 .quarto-title-block .quarto-title-banner {
   background: #00231f;
-  background-image: url("assets/noise.png");
+  /*background-image: url("assets/noise.png");*/
+  background-image: url("assets/repeatable-treeline.png");
+  background-position: 20% center;
   padding-top: 2em;
   padding-bottom: 2em;
 }
