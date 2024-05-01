@@ -34,10 +34,11 @@ listing:
       - image
 ---
 
-## View PDF versions here:
+## View PDF Versions
 
 :::{#resume-links}
 :::
+
 
 
 ## My Experience Geography
@@ -45,7 +46,6 @@ listing:
 Please take a moment to explore my experience geography, where I have worked, presented, volunteered, and schooled.
 
 ```{r}
-#| column: page-right
 #| echo: false
 #| warning: false
 #| out-height: 400px

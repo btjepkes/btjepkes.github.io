@@ -677,6 +677,7 @@ color: #000;
 
 .quarto-grid-item {
   border-radius: 0.1rem;
+  border-left: solid #3a4d49;
   overflow: hidden;
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
   background-color: rgba(255,255,255,0.6);
@@ -724,11 +725,10 @@ color: #000;
     overflow: hidden;
 }
 
-/*
-.listings-gallery .grid {
-  row-gap: 2.6em;
-  column-gap: 1.2em;
-}*/
+
+.listings-gallery .quarto-grid-item {
+  border-left: solid 1px lightgray;
+}
 
 .listings-gallery .quarto-grid-item div.post-contents {
   padding: 10px 10px 0 10px !important;
