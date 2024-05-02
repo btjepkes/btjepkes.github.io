@@ -70,7 +70,7 @@
 }
 
 .index-latest::before{
-  content: "Latest Commits & Projects";
+  content: "My Latest Commits";
   font-size: 1.5em;
   color: #252c3d;
   font-family: "Exo 2",sans-serif;
