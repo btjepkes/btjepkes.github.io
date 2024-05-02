@@ -59,7 +59,7 @@
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./powerpoint_1.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Slide 1"><img src="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/powerpoint_1.jpg" class="img-fluid figure-img" alt="Slide 1"></a></p>
+<p><a href="./powerpoint_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Slide 1"><img src="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/powerpoint_1.jpg" class="img-fluid figure-img" alt="Slide 1"></a></p>
 <figcaption>Slide 1</figcaption>
 </figure>
 </div>
@@ -67,7 +67,7 @@
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./powerpoint_2.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Slide 2"><img src="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/powerpoint_2.jpg" class="img-fluid figure-img" alt="Slide 2"></a></p>
+<p><a href="./powerpoint_2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Slide 2"><img src="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/powerpoint_2.jpg" class="img-fluid figure-img" alt="Slide 2"></a></p>
 <figcaption>Slide 2</figcaption>
 </figure>
 </div>
@@ -77,7 +77,7 @@
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./powerpoint_3.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="Slide 3"><img src="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/powerpoint_3.jpg" class="img-fluid figure-img" alt="Slide 3"></a></p>
+<p><a href="./powerpoint_3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-glightbox="description: .lightbox-desc-3" title="Slide 3"><img src="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/powerpoint_3.jpg" class="img-fluid figure-img" alt="Slide 3"></a></p>
 <figcaption>Slide 3</figcaption>
 </figure>
 </div>
@@ -85,7 +85,7 @@
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./powerpoint_4.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="quarto-lightbox-gallery-4" title="Slide 4"><img src="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/powerpoint_4.jpg" class="img-fluid figure-img" alt="Slide 4"></a></p>
+<p><a href="./powerpoint_4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" data-glightbox="description: .lightbox-desc-4" title="Slide 4"><img src="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/powerpoint_4.jpg" class="img-fluid figure-img" alt="Slide 4"></a></p>
 <figcaption>Slide 4</figcaption>
 </figure>
 </div>
@@ -363,6 +363,7 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
   <category>Quarto</category>
   <guid>https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/</guid>
   <pubDate>Mon, 29 Apr 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/powerpoint_1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Crafting a Technical Workshop Site With Quarto</title>
@@ -437,7 +438,7 @@ Quarto.”</span> April 27, 2024. <a href="https://btjepkes.github.io/posts/craf
 <p>Once you have your literature in Zotero you can review each article as you normally would. While doing so, add in notes and annotations that summarize the main findings, key terms, important methods, and so forth. An important note about this workflow is that each comment or annotation made on an article must be stored as an individual note item. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
+<p><a href="img-zotero-item.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
 <figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
 </figure>
 </div>
