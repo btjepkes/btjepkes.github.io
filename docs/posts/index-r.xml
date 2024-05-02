@@ -363,7 +363,7 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
   <category>Quarto</category>
   <guid>https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/</guid>
   <pubDate>Mon, 29 Apr 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/powerpoint_1.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/img-cover.png" medium="image" type="image/png" height="77" width="144"/>
 </item>
 <item>
   <title>Create Annotated Bibliographies with Quarto</title>

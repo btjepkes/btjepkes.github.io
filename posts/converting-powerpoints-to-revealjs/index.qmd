@@ -10,7 +10,7 @@ keywords:
   - "Quarto"
   - "PowerPoint"
 description: "In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create interactive slides. This workflow has worked for me to generate slides for my website."
-image: powerpoint_1.jpg
+image: img-cover.png
 image-alt: "An image of an example powerpoint slide."
 ---
 
