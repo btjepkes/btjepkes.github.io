@@ -1,0 +1,13 @@
+---
+title: "Master's Thesis Proposal Presentation"
+date: 2024-05-01
+date-modified: today
+categories:
+  - Talk Gallery
+description: "This presentation covers my proposed master's thesis project, including background literature, intended methods, and broader impacts of this work."
+image: img-thesis-proposal.jpg
+image-alt: "Title slide of my master's thesis proposal presentation."
+---
+
+
+<iframe class="slide-deck" src="slides-thesis-proposal.html"></iframe>

@@ -330,7 +330,7 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
 <p>The functioning website can be found <a href="https://btjepkes.github.io/WAFSGSO_2024_GIS/">here</a> and includes all the required data downloads.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-gis-workshop-site-preview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Screenshot of the GIS workshop site."><img src="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png" class="img-fluid figure-img" alt="Screenshot of the GIS workshop site."></a></p>
+<p><a href="img-gis-workshop-site-preview.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Screenshot of the GIS workshop site."><img src="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png" class="img-fluid figure-img" alt="Screenshot of the GIS workshop site."></a></p>
 <figcaption>Screenshot of the GIS workshop site.</figcaption>
 </figure>
 </div>
@@ -1410,7 +1410,7 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
 <figcaption>A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>

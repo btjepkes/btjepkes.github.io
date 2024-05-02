@@ -72,32 +72,32 @@
 <ul id="index-chooser" class="nav nav-tabs" role="tablist">
   <li class="nav-item" role="presentation">
     <a class="nav-link" href="/gallery/#category=Map Gallery">
-      <i class="bi bi-map"></i>Map Gallery
+      <i class="bi bi-map"></i>Maps/Carto
     </a>
   </li>
   <li class="nav-item" role="presentation">
     <a class="nav-link" href="/gallery/#category=Data Gallery">
-      <i class="bi bi-graph-up-arrow"></i>Data Viz Gallery
+      <i class="bi bi-graph-up-arrow"></i>Data Viz
     </a>
   </li>
   <li class="nav-item" role="presentation">
     <a class="nav-link" href="/gallery/#category=Poster Gallery">
-      <i class="bi bi-easel"></i>Poster Gallery
+      <i class="bi bi-easel"></i>Posters
     </a>
   </li>
   <li class="nav-item" role="presentation">
     <a class="nav-link" href="/gallery/#category=Report Gallery">
-      <i class="bi bi-file-earmark-text"></i>Report Gallery
+      <i class="bi bi-file-earmark-text"></i>Reports
     </a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" href="/gallery/#category=Report Gallery">
-      <i class="bi bi-megaphone"></i>Talks Gallery
+    <a class="nav-link" href="/gallery/#category=Talk Gallery">
+      <i class="bi bi-megaphone"></i>Talks
     </a>
   </li>
   <li class="nav-item" role="presentation">
     <a class="nav-link" href="/gallery/">
-      <i class="bi bi-emoji-smile"></i>All Visualizations
+      <i class="bi bi-emoji-smile"></i>Everything
     </a>
   </li>
 </ul>

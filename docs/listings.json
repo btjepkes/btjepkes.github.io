@@ -38,12 +38,9 @@
     ]
   },
   {
-    "listing": "/curriculum-vitae/index.html",
-    "items": []
-  },
-  {
     "listing": "/gallery/index.html",
     "items": [
+      "/gallery/thesis-project-proposal-presentation/index.html",
       "/gallery/vertebrate-morphometrics-in-riparian-zones/index.html",
       "/gallery/my-github-contributions-in-2023/index.html",
       "/gallery/michigan-anthrome-map/index.html",
@@ -76,6 +73,10 @@
     ]
   },
   {
+    "listing": "/curriculum-vitae/index.html",
+    "items": []
+  },
+  {
     "listing": "/posts/30-day-map-challenge-2023/index.html",
     "items": [
       "/gallery/national-champion-tree-map/index.html",
@@ -88,6 +89,12 @@
       "/gallery/andes-mountains-map/index.html",
       "/gallery/happy-forests-happy-people-map/index.html",
       "/gallery/pennsylvania-bridge-map/index.html"
+    ]
+  },
+  {
+    "listing": "/research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/index.html",
+    "items": [
+      "/gallery/thesis-project-proposal-presentation/index.html"
     ]
   }
 ]
