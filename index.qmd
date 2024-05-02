@@ -43,13 +43,16 @@ listing:
       - subtitle
   - id: site-listings-2
     contents:
-      - title: "Converting PowerPoints to Reveal.js Format"
+      - title: "Master's Thesis Proposal Presentation"
+        path: "gallery/thesis-project-proposal-presentation/index.qmd"
+      - title: "Converting PPTX to Reveal.js Format"
         path: "posts/converting-powerpoints-to-revealjs/index.qmd"
       - title: "Crafting Technical Sites with Quarto"
         path: "posts/crafting-a-technical-workshop-site-with-quarto/index.qmd"
       - title: "Riparian Vertebrate Morphometrics"
         path: "gallery/vertebrate-morphometrics-in-riparian-zones/index.qmd"
     type: table
+    sort: date desc
     grid-columns: 2
     filter-ui: false
     sort-ui: false

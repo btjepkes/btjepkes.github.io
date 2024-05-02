@@ -4,10 +4,11 @@ date: 2024-05-01
 date-modified: today
 categories:
   - Talk Gallery
-description: "This presentation covers my proposed master's thesis project, including background literature, intended methods, and broader impacts of this work."
+description: "This presentation -- which I recently defended -- covers my proposed master's thesis project, including the background literature, intended methods, and broader impacts of this work."
 image: img-thesis-proposal.jpg
 image-alt: "Title slide of my master's thesis proposal presentation."
 ---
 
+This project is registered with the Open Science Framework under the DOI [10.17605/OSF.IO/D3WRG](https://osf.io/d3wrg/).
 
 <iframe class="slide-deck" src="slides-thesis-proposal.html"></iframe>

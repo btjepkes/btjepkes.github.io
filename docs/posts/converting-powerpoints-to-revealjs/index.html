@@ -75,6 +75,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -263,7 +266,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <div class="content-800">
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
-<p>Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. How can I do this? Well, I have devised a workflow that I am not sure is the best way, but it works for me until someone tells me otherwise. It is important to note that while this <em>converts</em> my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.</p>
+<p>Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. So, how can I convert my .pptx files into reveal.js slides? Well, I have devised a workflow that does just this. I am not sure is the best way, but it works for me until someone tells me otherwise.</p>
 <section id="how-it-works" class="level3">
 <h3 data-anchor-id="how-it-works">How it works</h3>
 <p>Let’s take a run through my workflow. We must first export the PowerPoint as a .pdf within the PowerPoint software. Then, we can split each slide into its own .png or .jpg image using the <code>pdftools::pdf_convert</code> function. From here it is a simple for loop and <code>asis</code> output specification in a Quarto document setup to create a revealjs presentation.</p>
@@ -284,7 +287,51 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </div>
 </div>
 </div>
-<p>This will result in a HTML file with your slides where each image is displayed per slide while giving you most of the functionality of reveal.js.</p>
+<p>This will result in a HTML file with your slides where each image is displayed per slide while giving you most of the functionality of reveal.js. For example, the four slides below will become the slide deck. It is important to note that while this <em>converts</em> my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./powerpoint_1.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Slide 1"><img src="./powerpoint_1.jpg" class="img-fluid figure-img" alt="Slide 1"></a></p>
+<figcaption>Slide 1</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./powerpoint_2.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Slide 2"><img src="./powerpoint_2.jpg" class="img-fluid figure-img" alt="Slide 2"></a></p>
+<figcaption>Slide 2</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./powerpoint_3.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="Slide 3"><img src="./powerpoint_3.jpg" class="img-fluid figure-img" alt="Slide 3"></a></p>
+<figcaption>Slide 3</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./powerpoint_4.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="quarto-lightbox-gallery-4" title="Slide 4"><img src="./powerpoint_4.jpg" class="img-fluid figure-img" alt="Slide 4"></a></p>
+<figcaption>Slide 4</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>The resulting presentation will show up something like this given the four slides above.</p>
+<iframe class="slide-deck" src="slides-example-powerpoint.html">
+</iframe>
 </section>
 </section>
 <section id="coded-example" class="level2">
@@ -298,14 +345,15 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>                      <span class="at">format =</span> <span class="st">"jpg"</span>,</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>                      <span class="at">pages =</span> <span class="cn">NULL</span>,</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>                      <span class="at">dpi =</span> <span class="dv">300</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Create a Quarto (.qmd) document saved in the directory where you want to create your HTML output. Then, specify your YAML header as you see fit. I have removed the menu with <code>menu: false</code> but kept the arrow slide controls with <code>controls: true</code> in the below example.</p>
+<p>Create a Quarto (.qmd) document saved in the directory where you want to create your HTML output. Then, specify your YAML header as you see fit. I have removed the menu with <code>menu: false</code> but kept the arrow slide controls with <code>controls: true</code> in the below example. I also like specifying <code>history: false</code>, which prevents each slide from being included in your browser history.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode yml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> revealjs</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">menu</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">controls</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">embed-resources</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">output-file</span><span class="kw">:</span><span class="at"> </span><span class="st">"slide-conversion.html"</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">history</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">embed-resources</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">output-file</span><span class="kw">:</span><span class="at"> </span><span class="st">"slide-conversion.html"</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Within your blank .qmd document, insert a code chunk and paste in the following code chunk. This code will create a list of images from your working directory, then iterate over them to set each one as the background image of its own slide in your revealjs presentation. It is important to set the execution options to <code>echo: false</code> and <code>output: asis</code> to prevent the code chunk from being included in the slides and instead print out the for-loop’s output.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: asis</span></span>
@@ -327,13 +375,19 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="kw">margin-top</span><span class="ch">:</span> <span class="dv">2</span><span class="dt">em</span><span class="op">;</span></span>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="concluding-thoughts" class="level2">
-<h2 data-anchor-id="concluding-thoughts">Concluding Thoughts</h2>
-<p>So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it.</p>
+<section id="final-thoughts" class="level2">
+<h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
+<p>So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it. Regardless, I hope this post is helpful for others interested in this process.</p>
 </section>
 </div>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Slide 1</span>
+<span class="glightbox-desc lightbox-desc-2">Slide 2</span>
+<span class="glightbox-desc lightbox-desc-3">Slide 3</span>
+<span class="glightbox-desc lightbox-desc-4">Slide 4</span>
+</div>
 
 <div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas" role="listitem">
 Tjepkes, Benjamin. 2024. <span>“Converting PowerPoints to Reveal.js
@@ -780,6 +834,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

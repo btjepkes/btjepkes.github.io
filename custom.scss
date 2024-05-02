@@ -599,7 +599,7 @@ color: #000;
   border: 3px solid #dee2e6;
   width: 100%;
   aspect-ratio: 16 / 9;
-  margin-top: 2em;
+  margin-top: 0.5em;
 }
 
 
@@ -676,7 +676,7 @@ color: #000;
 
 .quarto-grid-item {
   border-radius: 0.1rem;
-  border-left: solid #3a4d49;
+  border-left: solid #3a4d49 4px;
   overflow: hidden;
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
   background-color: rgba(255,255,255,0.6);
@@ -778,7 +778,9 @@ color: #000;
 }
 
 
-
+.figure {
+  background: #e6e5e0;
+}
 
 
 .quarto-figure > figure {

@@ -18,7 +18,7 @@ description: "In this post, I run through how I convert my standard PowerPoints 
 
 ## Introduction
 
-Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. How can I do this? Well, I have devised a workflow that I am not sure is the best way, but it works for me until someone tells me otherwise. It is important to note that while this *converts* my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.
+Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. So, how can I convert my .pptx files into reveal.js slides? Well, I have devised a workflow that does just this. I am not sure is the best way, but it works for me until someone tells me otherwise.
 
 ### How it works
 
@@ -33,7 +33,23 @@ flowchart LR
   
 ```
 
-This will result in a HTML file with your slides where each image is displayed per slide while giving you most of the functionality of reveal.js.
+This will result in a HTML file with your slides where each image is displayed per slide while giving you most of the functionality of reveal.js. For example, the four slides below will become the slide deck. It is important to note that while this *converts* my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.
+
+::: {layout-ncol=2}
+
+![Slide 1](./powerpoint_1.jpg)
+
+![Slide 2](./powerpoint_2.jpg)
+
+![Slide 3](./powerpoint_3.jpg)
+
+![Slide 4](./powerpoint_4.jpg)
+
+:::
+
+The resulting presentation will show up something like this given the four slides above.
+
+<iframe class="slide-deck" src="slides-example-powerpoint.html"></iframe>
 
 ## Coded Example
 
@@ -50,13 +66,14 @@ pdftools::pdf_convert(pdf = "./powerpoint.pdf",
                       dpi = 300)
 ```
 
-Create a Quarto (.qmd) document saved in the directory where you want to create your HTML output. Then, specify your YAML header as you see fit. I have removed the menu with `menu: false` but kept the arrow slide controls with `controls: true` in the below example.
+Create a Quarto (.qmd) document saved in the directory where you want to create your HTML output. Then, specify your YAML header as you see fit. I have removed the menu with `menu: false` but kept the arrow slide controls with `controls: true` in the below example. I also like specifying `history: false`, which prevents each slide from being included in your browser history.
 
 ```yml
 ---
 format: revealjs
 menu: false
 controls: true
+history: false
 embed-resources: true
 output-file: "slide-conversion.html"
 ---
@@ -94,8 +111,8 @@ To ensure your slides are always displayed with the correct aspect ratio, I appl
 ```
 
 
-## Concluding Thoughts
+## Final Thoughts
 
-So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it.
+So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it. Regardless, I hope this post is helpful for others interested in this process.
 
 :::
