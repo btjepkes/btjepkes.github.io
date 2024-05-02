@@ -1,10 +1,10 @@
 ---
 title: "Error 404: Page Not Found"
-abstract: Uh oh!
-description: "The page you were searching for cannot be located...perhaps it was moved or renamed."
+description: "Uh oh! The page you were searching for cannot be located...perhaps it was moved or renamed."
 author-meta: "Benjamin Tjepkes"
+date: today
+date-modified: today
 description-meta: "Error 404: Page Not Found"
-toc: false
 listing:
   - id: site-listings
     contents:
@@ -19,12 +19,7 @@ listing:
     fields:
       - title
       - subtitle
-      - image
 ---
-
-## There's More To Discover
-
-Check out these popular pages:
 
 :::{#site-listings}
 :::
