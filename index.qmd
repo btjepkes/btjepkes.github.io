@@ -1,5 +1,5 @@
 ---
-title: "A wildlife ecologist and quant geographer"
+title: "A wildlife ecologist and quantitative geographer"
 #abstract: "This is my online portfolio showcasing my professional and creative projects."
 description: "Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am currently a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography."
 date-modified: today
@@ -101,3 +101,4 @@ listing:
 
 ::: {#site-listings-2  .index-latest}
 :::
+

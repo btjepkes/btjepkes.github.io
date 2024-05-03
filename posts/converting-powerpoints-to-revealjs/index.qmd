@@ -35,17 +35,19 @@ flowchart LR
 
 This will result in a HTML file with your slides where each image is displayed per slide while giving you most of the functionality of reveal.js. For example, the four slides below will become the slide deck. It is important to note that while this *converts* my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.
 
-::: {layout-ncol=2}
+![](img-example-powerpoint.png)
 
-![Slide 1](./powerpoint_1.jpg)
+<!-- ::: {layout-ncol=2} -->
 
-![Slide 2](./powerpoint_2.jpg)
+<!-- ![Slide 1](./powerpoint_1.jpg) -->
 
-![Slide 3](./powerpoint_3.jpg)
+<!-- ![Slide 2](./powerpoint_2.jpg) -->
 
-![Slide 4](./powerpoint_4.jpg)
+<!-- ![Slide 3](./powerpoint_3.jpg) -->
 
-:::
+<!-- ![Slide 4](./powerpoint_4.jpg) -->
+
+<!-- ::: -->
 
 The resulting presentation will show up something like this given the four slides above.
 

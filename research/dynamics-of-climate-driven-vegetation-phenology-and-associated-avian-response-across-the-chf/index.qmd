@@ -34,6 +34,7 @@ My thesis is aimed at assessing how regional patterns of tree phenology can be u
 
 This work utilizes remotely sensed phenology metrics, gridded historical climate records, and multi-decadal citizen science data to develop a suite of Bayesian hierarchical models. Climate futures are then coupled with these models to project the occurrence of avian assemblages across the region under several climate scenarios. The findings of this research will offer insights for conservation initiatives focused on preserving avian diversity by implementing resilient forest management and prioritization strategies.
 
+
 ## Presentations
 
 ::: {#research-items .listings-gallery}

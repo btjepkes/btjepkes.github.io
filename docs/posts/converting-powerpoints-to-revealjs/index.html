@@ -294,47 +294,13 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </div>
 </div>
 <p>This will result in a HTML file with your slides where each image is displayed per slide while giving you most of the functionality of reveal.js. For example, the four slides below will become the slide deck. It is important to note that while this <em>converts</em> my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.</p>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./powerpoint_1.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Slide 1"><img src="./powerpoint_1.jpg" class="img-fluid figure-img" alt="Slide 1"></a></p>
-<figcaption>Slide 1</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./powerpoint_2.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Slide 2"><img src="./powerpoint_2.jpg" class="img-fluid figure-img" alt="Slide 2"></a></p>
-<figcaption>Slide 2</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./powerpoint_3.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="Slide 3"><img src="./powerpoint_3.jpg" class="img-fluid figure-img" alt="Slide 3"></a></p>
-<figcaption>Slide 3</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./powerpoint_4.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="quarto-lightbox-gallery-4" title="Slide 4"><img src="./powerpoint_4.jpg" class="img-fluid figure-img" alt="Slide 4"></a></p>
-<figcaption>Slide 4</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
+<p><a href="img-example-powerpoint.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-example-powerpoint.png" class="img-fluid"></a></p>
+<!-- ::: {layout-ncol=2} -->
+<!-- ![Slide 1](./powerpoint_1.jpg) -->
+<!-- ![Slide 2](./powerpoint_2.jpg) -->
+<!-- ![Slide 3](./powerpoint_3.jpg) -->
+<!-- ![Slide 4](./powerpoint_4.jpg) -->
+<!-- ::: -->
 <p>The resulting presentation will show up something like this given the four slides above.</p>
 <iframe class="slide-deck" src="slides-example-powerpoint.html">
 </iframe>
@@ -388,12 +354,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </div>
 
 
-<div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">Slide 1</span>
-<span class="glightbox-desc lightbox-desc-2">Slide 2</span>
-<span class="glightbox-desc lightbox-desc-3">Slide 3</span>
-<span class="glightbox-desc lightbox-desc-4">Slide 4</span>
-</div>
 
 <div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas" role="listitem">
 Tjepkes, Benjamin. 2024. <span>“Converting PowerPoints to Reveal.js
@@ -840,7 +800,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
