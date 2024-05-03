@@ -1,8 +1,8 @@
 ---
 title: "Great Lakes Watersheds Map"
-abstract: "Colorful visual of Great Lakes watersheds."
-description: "This map was created as a fun, creative project. I am fascinated by watersheds, so what better way to explore them than making a map!"
+description: "This map was created as a fun, creative project to design a colorful visual of Great Lakes watersheds. I am fascinated by watersheds, especially their utility for conservation, so what better way to explore them than making a map!"
 date: "6-1-2023"
+date-modified: today
 categories:
   - Map Gallery
   - Watershed

@@ -4,7 +4,7 @@ date-modified: today
 date: 2021-01-01
 image: ../assets/bg-pines-gallery-yellow-sm.png
 image-alt: Image-of-pine-trees-on-blue-background.
-description: "Works included here are from  creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category by filtering."
+description: "Works included here are from  creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category below."
 listing:
   - id: gallery-listings-all
     contents: "*.qmd"
@@ -15,8 +15,8 @@ listing:
     #max-items: 16
     grid-item-border: true
     sort: "date desc"
-    page-size: 50
-    image-height: 300px
+    page-size: 15
+    image-height: 200px
     #filter-ui: [title, subtitle, categories, abstract]
     fields:
         - image
@@ -68,7 +68,7 @@ listing:
   #       - title
 ---
 
-Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me. In addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects. My most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues.
+Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me. In addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects. My most technical, but equally as creative, projects surround the creation of posters, talks, and reports for scientific conferences or other professional venues.
 
 {{< include _listing-chooser.qmd >}}
 

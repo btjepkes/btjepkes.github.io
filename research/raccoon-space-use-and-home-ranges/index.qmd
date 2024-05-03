@@ -1,23 +1,35 @@
 ---
 title: "Raccoon Space-Use and Home Ranges"
-abstract: "Determining sex-specific space-use for raccoons in Laramie, Wyoming."
-description: This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient.
-date-modified: "5/20/2023"
+description: This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.
+date: "5/20/2023"
+date-modified: today
 categories:
   - Undergraduate
   - Mammal
   - Wyoming
 image: img-raccoon-hr.jpg
 image-alt: "Map of study area showing cover type boundaries."
+listing:
+  - id: research-items
+    contents: "../../gallery/raccoon-spatial-patterns-and-home-ranges/index.qmd"
+    include:
+      categories: [Talk Gallery]
+    type: grid
+    grid-columns: 3
+    grid-item-border: true
+    sort: "date desc"
+    page-size: 50
+    image-height: 150px
+    fields:
+        - image
+        - title
 ---
 
-## Project Objectives & Methods
+## Objectives & Methods
 
 This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming. Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the `adehabitatHR` package in the RStudio environment.
 
-![](img-raccoon-hr.jpg)
-
 ## Project Presentations
 
-**Tjepkes, B.W.** 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (*Procyon lotor*) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.
-
+::: {#research-items .listings-gallery}
+:::

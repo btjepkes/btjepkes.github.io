@@ -7,7 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
-<meta name="description" content="This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient.">
+<meta name="dcterms.date" content="2023-05-20">
+<meta name="description" content="This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.">
 
 <title>Raccoon Space-Use and Home Ranges | B.W. Tjepkes</title>
 <style>
@@ -28,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <link href="../../assets/site-logo-green.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -39,9 +42,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -57,6 +57,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-research-items .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-research-items'] = new List('listing-research-items', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
 <script type="text/javascript">
@@ -68,14 +97,43 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Raccoon Space-Use and Home Ranges | B.W. Tjepkes">
-<meta property="og:description" content="This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient.">
+<meta property="og:description" content="This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.">
 <meta property="og:image" content="https://btjepkes.github.io/research/raccoon-space-use-and-home-ranges/img-raccoon-hr.jpg">
 <meta property="og:site_name" content="B.W. TJEPKES">
 <meta property="og:image:alt" content="Map of study area showing cover type boundaries.">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient.">
+<meta name="twitter:description" content="This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.">
 <meta name="twitter:image" content="https://btjepkes.github.io/research/raccoon-space-use-and-home-ranges/img-raccoon-hr.jpg">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:image:alt" content="Map of study area showing cover type boundaries.">
@@ -166,7 +224,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       <h1 class="title">Raccoon Space-Use and Home Ranges</h1>
                   <div>
         <div class="description">
-          This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient.
+          This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.
         </div>
       </div>
                               </div>
@@ -182,22 +240,22 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             </div>
     </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">2023-05-20</p>
+      </div>
+    </div>
     
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">2023-05-20</p>
+        <p class="date-modified">2024-05-03</p>
       </div>
     </div>
       
     </div>
     
-  <div>
-    <div class="abstract">
-      <div class="block-title">What Is This About?</div>
-      Determining sex-specific space-use for raccoons in Laramie, Wyoming.
-    </div>
-  </div>
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
@@ -210,14 +268,34 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 
 
-<section id="project-objectives-methods" class="level2">
-<h2 data-anchor-id="project-objectives-methods">Project Objectives &amp; Methods</h2>
+<section id="objectives-methods" class="level2">
+<h2 data-anchor-id="objectives-methods">Objectives &amp; Methods</h2>
 <p>This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming. Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the <code>adehabitatHR</code> package in the RStudio environment.</p>
-<p><a href="img-raccoon-hr.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-raccoon-hr.jpg" class="img-fluid"></a></p>
 </section>
 <section id="project-presentations" class="level2">
 <h2 data-anchor-id="project-presentations">Project Presentations</h2>
-<p><strong>Tjepkes, B.W.</strong> 2018. Comparing home ranges, habitat-use, and spatial patterns of raccoons (<em>Procyon lotor</em>) in Laramie, Wyoming. UWSP College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.</p>
+<div id="listing-research-items" class="listings-gallery quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Talk Gallery,Wyoming,Mammal" data-listing-date-sort="1684558800000" data-listing-file-modified-sort="1714748592555" data-listing-date-modified-sort="1714712400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<a href="../../gallery/raccoon-spatial-patterns-and-home-ranges/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../gallery/raccoon-spatial-patterns-and-home-ranges/img-raccoon-space-use-talk.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Raccoon Spatial Patterns Presentation
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
 
 
 </section>
@@ -668,31 +746,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","loop":false,"closeEffect":"zoom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 

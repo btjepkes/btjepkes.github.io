@@ -4,7 +4,7 @@ date: 2021-01-01
 date-modified: today
 image: ../assets/bg-pines-research-gray-sm.png
 image-alt: Image-of-pine-trees-on-blue-background.
-description: "Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques. This research has expanded both my technical skillset and my appreciation for science."
+description: "Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques aimed at applied conservation. This research has expanded both my technical skillset and my appreciation for science."
 comments: false
 listing:
   - id: research-listings-all
@@ -43,13 +43,13 @@ sites <- sf::st_read("features_for_website.geojson", quiet = TRUE)
 bbox <- sf::st_bbox(sites)
 
 leaflet(sites, options = leafletOptions(minZoom = 5)) |> 
-  addProviderTiles(providers$CartoDB.Positron) |> 
+  addProviderTiles(providers$Esri.WorldPhysical) |> 
   addPolygons(label = ~as.character(Name),
               labelOptions = labelOptions(noHide = FALSE,
                                           direction = "bottom"),
               color = "red") |> 
-  setMaxBounds(lng1 = -125.69159, lat1 = 34.33702,
-               lng2 = -63.43924, lat2 = 45.50496)
+  setMaxBounds(lng1 = -125.69159, lat1 = 24.33702,
+               lng2 = -63.43924, lat2 = 50.50496)
 ```
 
 

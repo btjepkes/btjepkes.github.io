@@ -15,4 +15,4 @@ image-alt: "A map of the UP's anthrome, with land use changes through time."
 
 The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome). Another portion of this assignment dealt with creating a [climate profile for the region](../michigan-climate-trends/index.qmd). Data were downloaded from [Anthromes 12K DGG Datasets](https://dataverse.harvard.edu/dataverse/anthromes_12K_DGG). Figure production was completed in RStudio with several packages including `ggplot`, `ggspatial`, and `tidyverse`. Here is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.
 
-![Credit: Benjamin Tjepkes](img-michigan-anthrome-map.png){.column-body-outset}
+![Credit: Benjamin Tjepkes](img-michigan-anthrome-map.png)

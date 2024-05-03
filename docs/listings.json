@@ -5,9 +5,9 @@
       "/research/bald-eagle-nest-site-selection/index.html",
       "/research/ruffed-grouse-drumming-log-selection/index.html",
       "/research/small-mammal-response-to-prescribed-fire/index.html",
+      "/research/raccoon-space-use-and-home-ranges/index.html",
       "/research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/index.html",
-      "/research/beaver-impacted-water-control-structures/index.html",
-      "/research/raccoon-space-use-and-home-ranges/index.html"
+      "/research/beaver-impacted-water-control-structures/index.html"
     ]
   },
   {
@@ -62,6 +62,7 @@
       "/gallery/great-lakes-watershed-map/index.html",
       "/gallery/2018-squirrel-census-sighting-map/index.html",
       "/gallery/endangered-species-stamp-collection-map/index.html",
+      "/gallery/raccoon-spatial-patterns-and-home-ranges/index.html",
       "/gallery/missouri-bat-hcp-poster/index.html",
       "/gallery/bald-eagle-nest-selection-poster/index.html",
       "/gallery/overlaying-public-lands-with-bmzs/index.html",
@@ -96,6 +97,12 @@
     "listing": "/research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/index.html",
     "items": [
       "/gallery/thesis-project-proposal-presentation/index.html"
+    ]
+  },
+  {
+    "listing": "/research/raccoon-space-use-and-home-ranges/index.html",
+    "items": [
+      "/gallery/raccoon-spatial-patterns-and-home-ranges/index.html"
     ]
   }
 ]
