@@ -4,7 +4,7 @@ date: 2024-05-01
 date-modified: today
 categories:
   - Talk Gallery
-description: "This presentation covers my proposed master's thesis project, including the background literature, intended methods, broader impacts, and timeline of this work. The full project details are located [here](../../research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/index.qmd)."
+description: "This presentation covers my proposed master's thesis project, including the background literature, intended methods, broader impacts, and timeline of this work. The full project details are located [here](../../research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/)."
 image: img-thesis-proposal.jpg
 image-alt: "Title slide of my master's thesis proposal presentation."
 ---

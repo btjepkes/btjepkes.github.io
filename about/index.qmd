@@ -8,6 +8,7 @@ date-modified: today
 date: 2021-01-01
 description-meta: "Learn about my career path and professional interests."
 description: "Learn about my career path and professional interests. This page highlights my career and education pathway leading to where I am now, including my experiences across the broad scopes of ecology and geospatial."
+comments: false
 ---
 
 ::: {.content-800}

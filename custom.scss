@@ -214,6 +214,10 @@ h3 {
   font-size: 15px !important;
 }
 
+.description a {
+  color: #0b7366;
+}
+
 #toc-title {
   font-size: 1.1em;
   font-weight: bold;
@@ -777,12 +781,6 @@ color: #000;
   border: solid 1px black;
 }
 
-
-.figure {
-  background: #e6e5e0;
-}
-
-
 .quarto-figure > figure {
     margin-top: 0.5em;
     margin-bottom: 0em;
@@ -836,9 +834,9 @@ main {
   margin-top: 0px;
 }
 
-.content-800 {
+/*.content-800 {
   max-width: 800px;
-}
+}*/
 
 .quarto-listing-default {
   display: flex;
@@ -1185,6 +1183,14 @@ margin-bottom: 0 !important;
 }
 
 // APPENDEX
+
+.giscus {
+  margin-bottom: 1em;
+}
+
+.footnotes {
+  text-align: left;
+}
 
 .quarto-appendix-citeas {
   padding: 12px;

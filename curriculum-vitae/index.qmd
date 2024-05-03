@@ -13,6 +13,7 @@ format:
     echo: false
     warning: false
     css: cv.css
+    comments: false
 listing: 
   - id: resume-links
     contents:
