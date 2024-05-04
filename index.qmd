@@ -1,5 +1,5 @@
 ---
-title: "Dedicated spatial ecologist and geographer"
+title: "A dedicated ecologist and biogeographer"
 description: "Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am currently a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography."
 date-modified: today
 date: 2021-01-01

@@ -6,7 +6,6 @@ categories:
   - Data Gallery
 keywords:
   - Michigan
-abstract: Visualizing some of the UP's precipitation and temperature data.
 description: "This exploration was part of a recent class assignment where I was tasked to develop a historic climate profile for a location I would like to live in the future. I picked the Upper Peninsula of Michigan for my location due to its regionally unique biogeography. I sourced PRISM climate data and built some climate charts."
 image: img-plot-ppt.png
 image-alt: "A chart of precipitation trends."
@@ -25,10 +24,22 @@ The assignment for this exploration was to investigate climate (i.e., precipitat
 
 ## Final Results
 
-Here is the first figure showing trends in **precipitation**.
+Here are the resulting figures showing trends in precipitation and temperature for the Upper Peninsula of Michigan over the last ~100 years.
 
+:::: {.columns}
+
+::: {.column width="47.5%"}
 ![Credit: Benjamin Tjepkes](img-plot-ppt.png)
+:::
 
-Here is the second figure showing trends in **maximum and minimum temperature**.
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="47.5%"}
 
 ![Credit: Benjamin Tjepkes](img-plot-temps.png)
+:::
+
+::::
+

@@ -15,7 +15,7 @@ listing:
     #max-items: 16
     grid-item-border: true
     sort: "date desc"
-    page-size: 15
+    page-size: 18
     image-height: 200px
     #filter-ui: [title, subtitle, categories, abstract]
     fields:
@@ -68,7 +68,7 @@ listing:
   #       - title
 ---
 
-Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me. In addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects. My most technical, but equally as creative, projects surround the creation of posters, talks, and reports for scientific conferences or other professional venues.
+<!-- Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me. In addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects. My most technical, but equally as creative, projects surround the creation of posters, talks, and reports for scientific conferences or other professional venues. -->
 
 {{< include _listing-chooser.qmd >}}
 
