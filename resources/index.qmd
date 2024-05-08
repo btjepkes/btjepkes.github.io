@@ -72,18 +72,13 @@ reactable(
         Category <- data$Category[index]
         div(
           div(style = "font-weight: 600", value),
-          div(style = "font-size: 0.75rem", Description),
-          div(style = "font-size: 0.65rem; color: teal", Category)
+          div(style = "font-size: 0.75rem", Description)
         )
-      }, width = 600
+      }, width = 500
     ),
     Description = colDef(show = FALSE),
-    Category = colDef(show = FALSE),
-    Link = colDef(
-      cell = function(value) {
-      tags$a(href = value, target = "_blank", "Link")
-    }
-    )
+    Category = colDef(show = TRUE),
+    Link = colDef(cell = function(value) {tags$a(href = value, target = "_blank", "Link")})
   )
 )
 ```

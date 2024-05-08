@@ -206,7 +206,7 @@ h3 {
 }
 
 .description {
-  line-height: 1.8em;
+  line-height: 1.6em;
   margin-top: 10px;
   margin-bottom: 10px;
   color: #f0f0ec;
@@ -299,7 +299,7 @@ dd {
   box-shadow: 0 0 32px rgba(15, 23, 42, 0.25);
 	background: #00231f;
 	background-image: url("assets/square-contour-background.png");
-	border-bottom: #3a4d49 solid;
+	border-bottom: #e6e5e0 solid 2px;
 	background-blend-mode: overlay;
   }
 
@@ -322,9 +322,9 @@ dd {
   filter: invert(100%);
   }
 
-.nav-link span {
+/*.nav-link span {
   background: #00231f;
-}
+}*/
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
 --bs-gutter-x: 0.1rem;
@@ -818,14 +818,12 @@ figure > figcaption {
   padding-top: 2rem;
 }
 
+// PAGE & CONTENT
 
 #quarto-content {
   min-height: auto !important;
   background: #f0f0ec;
 }
-
-
-// PAGE & CONTENT
 
 #quarto-content > * {
   padding-top: 20px;
