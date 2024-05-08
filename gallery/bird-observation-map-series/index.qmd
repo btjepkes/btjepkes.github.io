@@ -1,0 +1,14 @@
+---
+title: "Bird Observation Map Series in ArcPy"
+date: 2024-05-08
+date-modified: today
+categories:
+  - Map Gallery
+description: "This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python and Arcpy."
+image: img-bird-obs-map-series.png
+image-alt: "Example map series."
+---
+
+![Example map series using arcpy.](./img-bird-obs-map-series.png)
+
+<!-- <iframe class="slide-deck" src="slides-thesis-proposal.html"></iframe> -->

@@ -62,44 +62,54 @@ listing:
     fields: [date, title, description]
 ---
 
-<!-- > Dive into this site to explore my most recent works in... {{< fa otter size=1.5x >}} **wildlife ecology** ... {{< fa mountain size=1.5x >}} **biogeography** ... {{< fa layer-group size=1.5x >}} **geospatial** ... {{< fa chart-area size=1.5x >}} **data science** ... {{< fa map size=1.5x >}} **cartography** ... {{< fa wind size=1.5x >}} **climate science** ... {{< fa leaf size=1.5x >}} **conservation** -->
+::: {#intro-section .column-page}
 
+::: {#intro-section-text}
+Dive into this site to explore my most recent works in...
+:::
 
-<!-- ::: {#intro-section .column-page} -->
+::: container
+::: item
+{{< fa otter size=3x >}} 
 
-<!-- ::: {#intro-section-text} -->
-<!-- Dive into this site to explore my most recent works in... -->
-<!-- ::: -->
+wildlife ecology
+:::
 
-<!-- ::: container -->
-<!-- ::: item -->
-<!-- {{< fa otter size=1.5x >}} wildlife ecology -->
-<!-- ::: -->
+::: item
+{{< fa mountain size=3x >}} 
 
-<!-- ::: item -->
-<!-- {{< fa mountain size=1.5x >}} biogeography -->
-<!-- ::: -->
+biogeography
+:::
 
-<!-- ::: item -->
-<!-- {{< fa layer-group size=1.5x >}} geospatial -->
-<!-- ::: -->
+::: item
+{{< fa layer-group size=3x >}} 
 
-<!-- ::: item -->
-<!-- {{< fa chart-area size=1.5x >}} data science -->
-<!-- ::: -->
+geospatial
+:::
 
-<!-- ::: item -->
-<!-- {{< fa map size=1.5x >}} cartography -->
-<!-- ::: -->
+::: item
+{{< fa chart-area size=3x >}} 
 
-<!-- ::: item -->
-<!-- {{< fa wind size=1.5x >}} climate science -->
-<!-- ::: -->
-<!-- ::: -->
-<!-- ::: -->
+data science
+:::
+
+::: item
+{{< fa map size=3x >}} 
+
+cartography
+:::
+
+::: item
+{{< fa wind size=3x >}} 
+
+climate science
+:::
+:::
+:::
 
 ::: {#site-listings-1 }
 :::
+
 
 ::: {#site-listings-2  .index-latest}
 :::
