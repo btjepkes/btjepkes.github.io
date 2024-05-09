@@ -1,8 +1,9 @@
 ---
-title: "Vineyard and Winery Location Suitability Map"
-subtitle: "Optimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin."
+title: "Vineyard and Winery Suitability Map"
+# subtitle: "Optimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin."
 date: "Pre-2019"
-abstract: "This was an assignment for one of my university GIS courses aimed at locating and displaying the prime locations for a new vineyard in Wisconsin."
+date-modified: today
+description: "Optimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin. This was an assignment for one of my university GIS courses aimed at locating and displaying the prime locations for a new vineyard in Wisconsin."
 aliases: 
   - gallery/gallery-map-one.html
 abstract-title: ""

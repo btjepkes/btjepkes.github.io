@@ -8,6 +8,7 @@ abstract: "Summarizing my coding journey."
 description: "This animated bar chart shows my relative coding language skills in six of my top languages, including those for web development, data analysis, and geospatial applications."
 image: img-relative-skills-animation.gif
 image-alt: "Animated bar chart showing six different coding languages."
+draft: true
 ---
 
 ![](img-relative-skills-animation.gif)

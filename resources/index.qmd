@@ -51,7 +51,7 @@ library(htmltools)
 
 data <- read.csv("resources.csv") %>% 
   select(Title:Link) %>% 
-  arrange(Title)
+  arrange(Type)
 
 reactable(
   data,
