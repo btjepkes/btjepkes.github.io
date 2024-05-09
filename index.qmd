@@ -1,5 +1,5 @@
 ---
-title: "A dedicated ecologist and biogeographer..."
+title: "Dedicated ecologist and geospatial practitioner"
 description: "Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am currently a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography."
 date-modified: today
 date: 2021-01-01
@@ -64,50 +64,28 @@ listing:
     fields: [title, description]
 ---
 
-<!-- ::: {#intro-section .column-page} -->
 
-<!-- ::: {#intro-section-text} -->
-<!-- Dive into this site to explore my most recent works in... -->
-<!-- ::: -->
+```{=html}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="carousel/main.css">
+</head>
+<body>
+    <div class="carousel">
+        <div class="carousel__item" style="background-image: url('assets/square-contour-background.png'); background-color: gray;">Wildlife Ecology</div>
+        <div class="carousel__item" style="background-image: url('assets/square-contour-background.png'); background-color: #01231f;">Biogeography</div>
+        <div class="carousel__item" style="background-image: url('assets/square-contour-background.png'); background-color: gray;">Geospatial Analysis</div>
+        <div class="carousel__item" style="background-image: url('assets/square-contour-background.png'); background-color: #08221f;">Data Science & Reporting</div>
+        <div class="carousel__item" style="background-image: url('assets/square-contour-background.png'); background-color: #001a17;">Cartography</div>
+    </div>
+</body>
+<script src="carousel/main.js"></script>
+</html>
+```
 
-<!-- ::: container -->
-<!-- ::: item -->
-<!-- {{< fa otter size=3x >}}  -->
-
-<!-- wildlife ecology -->
-<!-- ::: -->
-
-<!-- ::: item -->
-<!-- {{< fa mountain size=3x >}}  -->
-
-<!-- biogeography -->
-<!-- ::: -->
-
-<!-- ::: item -->
-<!-- {{< fa layer-group size=3x >}}  -->
-
-<!-- geospatial -->
-<!-- ::: -->
-
-<!-- ::: item -->
-<!-- {{< fa chart-area size=3x >}}  -->
-
-<!-- data science -->
-<!-- ::: -->
-
-<!-- ::: item -->
-<!-- {{< fa map size=3x >}}  -->
-
-<!-- cartography -->
-<!-- ::: -->
-
-<!-- ::: item -->
-<!-- {{< fa wind size=3x >}}  -->
-
-<!-- climate science -->
-<!-- ::: -->
-<!-- ::: -->
-<!-- ::: -->
 
 ::: {#site-listings-1 }
 :::

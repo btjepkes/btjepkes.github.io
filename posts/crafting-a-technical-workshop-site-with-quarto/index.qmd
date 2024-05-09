@@ -1,5 +1,5 @@
 ---
-title: "Crafting a Technical Workshop Site With Quarto"
+title: "Crafting a GIS Workshop Site With Quarto"
 #subtitle: "Structuring a GIS-focused workshop around a Quarto site."
 date: 04/27/2024
 date-modified: today
@@ -7,7 +7,7 @@ keywords:
   - "GIS"
   - "Quarto"
   - "Workshop"
-description: "This post takes a quick run through my recent workshop site I made using Quarto and Github Pages covering geographic information systems for wildlife and fisheries sciences."
+description: "This post provides an overview of a recent workshop site I made using Quarto and Github Pages, which covered basic and intermediate geographic information system skills for wildlife and fisheries sciences."
 image: img-gis-workshop-site-preview.png
 image-alt: "An image of a website created by Quarto."
 draft: false
