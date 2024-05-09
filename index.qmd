@@ -43,6 +43,8 @@ listing:
       - subtitle
   - id: site-listings-2
     contents:
+      - title: "Bird Observation Map Series in ArcPy"
+        path: "gallery/bird-observation-map-series//index.qmd"      
       - title: "Master's Thesis Proposal Presentation"
         path: "gallery/thesis-project-proposal-presentation/index.qmd"
       - title: "Converting PPTX to Reveal.js Format"
@@ -59,53 +61,53 @@ listing:
     grid-item-align: center
     image-height: 200px
     max-description-length: 120
-    fields: [date, title, description]
+    fields: [title, description]
 ---
 
-::: {#intro-section .column-page}
+<!-- ::: {#intro-section .column-page} -->
 
-::: {#intro-section-text}
-Dive into this site to explore my most recent works in...
-:::
+<!-- ::: {#intro-section-text} -->
+<!-- Dive into this site to explore my most recent works in... -->
+<!-- ::: -->
 
-::: container
-::: item
-{{< fa otter size=3x >}} 
+<!-- ::: container -->
+<!-- ::: item -->
+<!-- {{< fa otter size=3x >}}  -->
 
-wildlife ecology
-:::
+<!-- wildlife ecology -->
+<!-- ::: -->
 
-::: item
-{{< fa mountain size=3x >}} 
+<!-- ::: item -->
+<!-- {{< fa mountain size=3x >}}  -->
 
-biogeography
-:::
+<!-- biogeography -->
+<!-- ::: -->
 
-::: item
-{{< fa layer-group size=3x >}} 
+<!-- ::: item -->
+<!-- {{< fa layer-group size=3x >}}  -->
 
-geospatial
-:::
+<!-- geospatial -->
+<!-- ::: -->
 
-::: item
-{{< fa chart-area size=3x >}} 
+<!-- ::: item -->
+<!-- {{< fa chart-area size=3x >}}  -->
 
-data science
-:::
+<!-- data science -->
+<!-- ::: -->
 
-::: item
-{{< fa map size=3x >}} 
+<!-- ::: item -->
+<!-- {{< fa map size=3x >}}  -->
 
-cartography
-:::
+<!-- cartography -->
+<!-- ::: -->
 
-::: item
-{{< fa wind size=3x >}} 
+<!-- ::: item -->
+<!-- {{< fa wind size=3x >}}  -->
 
-climate science
-:::
-:::
-:::
+<!-- climate science -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
 
 ::: {#site-listings-1 }
 :::

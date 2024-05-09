@@ -95,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -295,43 +295,43 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<div id="intro-section" class="column-page">
-<div id="intro-section-text">
-<p>Dive into this site to explore my most recent works in…</p>
-</div>
-<div class="container">
-<div class="item">
-<p><i class="fa-solid fa-otter fa-3x" aria-label="otter"></i></p>
-<p>wildlife ecology</p>
-</div>
-<div class="item">
-<p><i class="fa-solid fa-mountain fa-3x" aria-label="mountain"></i></p>
-<p>biogeography</p>
-</div>
-<div class="item">
-<p><i class="fa-solid fa-layer-group fa-3x" aria-label="layer-group"></i></p>
-<p>geospatial</p>
-</div>
-<div class="item">
-<p><i class="fa-solid fa-chart-area fa-3x" aria-label="chart-area"></i></p>
-<p>data science</p>
-</div>
-<div class="item">
-<p><i class="fa-solid fa-map fa-3x" aria-label="map"></i></p>
-<p>cartography</p>
-</div>
-<div class="item">
-<p><i class="fa-solid fa-wind fa-3x" aria-label="wind"></i></p>
-<p>climate science</p>
-</div>
-</div>
-</div>
+<!-- ::: {#intro-section .column-page} -->
+<!-- ::: {#intro-section-text} -->
+<!-- Dive into this site to explore my most recent works in... -->
+<!-- ::: -->
+<!-- ::: container -->
+<!-- ::: item -->
+<!--   -->
+<!-- wildlife ecology -->
+<!-- ::: -->
+<!-- ::: item -->
+<!--   -->
+<!-- biogeography -->
+<!-- ::: -->
+<!-- ::: item -->
+<!--   -->
+<!-- geospatial -->
+<!-- ::: -->
+<!-- ::: item -->
+<!--   -->
+<!-- data science -->
+<!-- ::: -->
+<!-- ::: item -->
+<!--   -->
+<!-- cartography -->
+<!-- ::: -->
+<!-- ::: item -->
+<!--   -->
+<!-- climate science -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
 <div id="listing-site-listings-1" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1714745724233" data-listing-date-modified-sort="1715144400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="454">
@@ -428,9 +428,6 @@ No matching items
 <thead>
 <tr>
 <th>
-Date
-</th>
-<th>
 Title
 </th>
 <th>
@@ -439,10 +436,15 @@ Description
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="Talk Gallery" data-listing-date-sort="1714539600000" data-listing-file-modified-sort="1714744198111" data-listing-date-modified-sort="1715144400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="15" data-listing-title-sort="Master's Thesis Proposal Presentation" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="Map Gallery" data-listing-date-sort="1715144400000" data-listing-file-modified-sort="1715193846268" data-listing-date-modified-sort="1715144400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="9" data-listing-title-sort="Bird Observation Map Series in ArcPy" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-date">2024-05-01</span>
+<a href="./gallery/bird-observation-map-series/index.html" class="title listing-title">Bird Observation Map Series in ArcPy</a>
 </td>
+<td>
+<span class="listing-description">This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird…</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Talk Gallery" data-listing-date-sort="1714539600000" data-listing-file-modified-sort="1714744198111" data-listing-date-modified-sort="1715144400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="15" data-listing-title-sort="Master's Thesis Proposal Presentation" data-listing-filename-sort="index.qmd">
 <td>
 <a href="./gallery/thesis-project-proposal-presentation/index.html" class="title listing-title">Master’s Thesis Proposal Presentation</a>
 </td>
@@ -450,10 +452,7 @@ Description
 <span class="listing-description">This presentation covers my proposed master’s thesis project, including the background literature, intended methods…</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="R,Quarto" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1714708979856" data-listing-date-modified-sort="1715144400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741" data-listing-title-sort="Converting PPTX to Reveal.js Format" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">2024-04-29</span>
-</td>
+<tr data-index="2" data-categories="R,Quarto" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1714708979856" data-listing-date-modified-sort="1715144400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741" data-listing-title-sort="Converting PPTX to Reveal.js Format" data-listing-filename-sort="index.qmd">
 <td>
 <a href="./posts/converting-powerpoints-to-revealjs/index.html" class="title listing-title">Converting PPTX to Reveal.js Format</a>
 </td>
@@ -461,10 +460,7 @@ Description
 <span class="listing-description">In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create…</span>
 </td>
 </tr>
-<tr data-index="2" data-listing-date-sort="1714194000000" data-listing-file-modified-sort="1714489767409" data-listing-date-modified-sort="1715144400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="98" data-listing-title-sort="Crafting Technical Sites with Quarto" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">2024-04-27</span>
-</td>
+<tr data-index="3" data-listing-date-sort="1714194000000" data-listing-file-modified-sort="1714489767409" data-listing-date-modified-sort="1715144400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="98" data-listing-title-sort="Crafting Technical Sites with Quarto" data-listing-filename-sort="index.qmd">
 <td>
 <a href="./posts/crafting-a-technical-workshop-site-with-quarto/index.html" class="title listing-title">Crafting Technical Sites with Quarto</a>
 </td>
@@ -472,10 +468,7 @@ Description
 <span class="listing-description">This post takes a quick run through my recent workshop site I made using Quarto and Github Pages covering geographic…</span>
 </td>
 </tr>
-<tr data-index="3" data-categories="Data Gallery" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1714839439083" data-listing-date-modified-sort="1715144400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="66" data-listing-title-sort="Riparian Vertebrate Morphometrics" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">2024-03-30</span>
-</td>
+<tr data-index="4" data-categories="Data Gallery" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1714839439083" data-listing-date-modified-sort="1715144400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="66" data-listing-title-sort="Riparian Vertebrate Morphometrics" data-listing-filename-sort="index.qmd">
 <td>
 <a href="./gallery/vertebrate-morphometrics-in-riparian-zones/index.html" class="title listing-title">Riparian Vertebrate Morphometrics</a>
 </td>
