@@ -162,7 +162,7 @@ format:
         repo: btjepkes/btjepkes.github.io
     grid:
       body-width: 990px
-      gutter-width: 4vw
+      gutter-width: 4.5vw
       margin-width: 250px #right
       sidebar-width: 250px #left
     lightbox: auto

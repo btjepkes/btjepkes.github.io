@@ -201,6 +201,8 @@ h3 {
     font-family: "Exo 2", sans-serif;
     font-optical-sizing: auto;
     color: white;
+    padding-bottom: 0;
+    margin-top: 0;
   }
 }
 
@@ -863,7 +865,7 @@ div.quarto-post .metadata {
 // TOC & SIDEBAR
 
 #quarto-sidebar {
-  background: #e6e5e0;
+  background-color: #f9f9f7;
   background-image: url("assets/noise.png");
 }
 

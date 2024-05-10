@@ -836,7 +836,7 @@
     "href": "posts/crafting-a-technical-workshop-site-with-quarto/index.html",
     "title": "Crafting a GIS Workshop Site With Quarto",
     "section": "",
-    "text": "Earlier this academic semester, I was able to help develop and host a technical workshop, “GIS for Fisheries and Wildlife Sciences”. While I have helped with many GIS training sessions in the past, this was my first time taking the lead on development from start to end. I figured this was a perfect opportunity to test the use of a Quarto site that would allow me to have all content in one place during and after the workshop.\n\n\n\nThe functioning website can be found here and includes all the required data downloads.\n\n\n\nScreenshot of the GIS workshop site."
+    "text": "Earlier this academic semester, I was able to help develop and host a technical workshop, “GIS for Fisheries and Wildlife Sciences”. While I have helped with many GIS training sessions in the past, this was my first time taking the lead on development from start to end. I figured this was a perfect opportunity to test the use of a Quarto site that would allow me to have all content in one place during and after the workshop."
   },
   {
     "objectID": "posts/crafting-a-technical-workshop-site-with-quarto/index.html#introduction",
@@ -849,8 +849,8 @@
     "objectID": "posts/crafting-a-technical-workshop-site-with-quarto/index.html#the-result",
     "href": "posts/crafting-a-technical-workshop-site-with-quarto/index.html#the-result",
     "title": "Crafting a GIS Workshop Site With Quarto",
-    "section": "",
-    "text": "The functioning website can be found here and includes all the required data downloads.\n\n\n\nScreenshot of the GIS workshop site."
+    "section": "The Result",
+    "text": "The Result\nThe functioning website can be found here and includes all the required data downloads.\n\n\n\nScreenshot of the GIS workshop site.\n\n\n\n\n\nScreenshot of the GIS workshop site."
   },
   {
     "objectID": "posts/how-to-become-a-contemporary-naturalist/index.html",
