@@ -149,8 +149,8 @@ body {
 
 
 h1 {
-  font-weight: 500 !important;
-  font-size: clamp(1.6em, 5vw, 2.40em);
+  font-weight: 700 !important;
+  font-size: clamp(1.6em, 5vw, 2.20em);
   text-align: left;
   padding-bottom: 20px;
   line-height: 1.2em;
@@ -170,6 +170,7 @@ h1 {
   text-shadow: none !important;*/
 }
 
+
 h2 {
   margin-bottom: 20px;
   margin-top: 1.0em;
@@ -183,6 +184,24 @@ h3 {
   margin-left: -2px;
   font-weight: 500;
   text-align: left;
+}
+
+.subtitle {
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+  .subtitle {
+    display: block;
+    font-weight: 700 !important;
+    font-size: clamp(1.6em, 5vw, 2.40em);
+    text-align: left;
+    padding-bottom: 20px;
+    line-height: 1.2em;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+  }
 }
 
 .abstract {
@@ -209,15 +228,9 @@ h3 {
   padding-left: 5px;
 }
 
-/*#TOC {
-  background: #f0f2f4;
-  padding: 20px;
-  border-radius: 0.75rem;
-  margin-top: 10px;
-  border: solid #eceef0 2px;
-  margin-left: 40px;
+#TOC {
   text-align: left !important;
-}*/
+}
 
 code {
   color: #1e293b;
@@ -284,7 +297,7 @@ dd {
   box-shadow: 0 0 32px rgba(15, 23, 42, 0.25);
 	background: #00231f;
 	background-image: url("assets/square-contour-background.png");
-	border-bottom: #e6e5e0 solid 2px;
+	border-bottom: #e6e5e0 solid 1px;
 	background-blend-mode: overlay;
 	height: 55px;
   }
@@ -408,6 +421,11 @@ dd {
 
 @media (max-width: 991.98px) {
   
+  .quarto-secondary-nav-title {
+    margin: 0;
+    padding: 0;
+  }
+  
   .breadcrumb-item {
       padding-top: 2px;
       color: black;
@@ -432,13 +450,12 @@ dd {
     padding-right: 1em;
     margin-left: -0.25em;
     flex-wrap: nowrap;
-    white-space: nowrap; /* Prevent text from wrapping */
-    overflow: hidden;  /*Hide overflow content */
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
 
 .quarto-secondary-nav .quarto-btn-toggle {
-  color: #2b8aff;
   font-size: 1.2rem;
   padding-top: 0.2em !important;
   padding-bottom: 0 !important;
@@ -492,10 +509,12 @@ color: #000;
 @media (max-width: 991.98px) {
   nav.quarto-secondary-nav {
     border-bottom: 0;
-    background: rgba(255,255,255,0.9);
-    backdrop-filter: blur(8px);
-    box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),
-	0px 6.4px 14.4px rgba(0,0,0,0.132);
+    background: #e6e5e0 !important;
+    box-shadow: 0px 1.2px 3.6px rgba(0,0,0,0.108),0px 6.4px 14.4px rgba(0,0,0,0.132);
+    
+    h1 {
+      display: none;
+    }
   }
 }
 
@@ -526,7 +545,6 @@ color: #000;
 
 .quarto-title-block .quarto-title-banner {
   background: #00231f;
-  /*background-image: url("assets/noise.png");*/
   background-image: url("assets/repeatable-treeline.png");
   background-position: 80% 80%;
   padding-top: 2.0em;
@@ -535,9 +553,10 @@ color: #000;
 }
 
 .quarto-title-block {
-  background: #e6e5e0;
+/*  background: #e6e5e0;*/
   margin-bottom: 0 !important;
-  box-shadow: inset -10px -5px 5px rgba(0, 0, 0, 0.01);
+  background: #e6e5e0;
+  background-image: url("assets/noise.png");
 }
 
 .keywords {
@@ -829,9 +848,6 @@ main {
   margin-top: 1vh;
 }
 
-/*.content-800 {
-  max-width: 800px;
-}*/
 
 .quarto-listing-default {
   display: flex;
@@ -847,8 +863,12 @@ div.quarto-post .metadata {
 // TOC & SIDEBAR
 
 #quarto-sidebar {
-  background: red;
-  /*background: #f0f0ec;*/
+  background: #e6e5e0;
+  background-image: url("assets/noise.png");
+}
+
+#quarto-sidebar-glass {
+  display: none;
 }
 
 

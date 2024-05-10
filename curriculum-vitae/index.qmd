@@ -7,7 +7,6 @@ image-alt: Image-of-pine-trees-on-blue-background.
 date-modified: today
 date: 2021-01-01
 description: "This page provides detailed overview of my formal education, recent professional experience, and professional skillset. Please also check out my full CV for a comprehensive listing of my experience."
-toc: false
 format:
   html:
     echo: false

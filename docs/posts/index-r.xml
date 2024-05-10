@@ -26,7 +26,6 @@
 
 
 
-<div class="content-800">
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
 <p>Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. So, how can I convert my .pptx files into reveal.js slides? Well, I have devised a workflow that does just this. I am not sure is the best way, but it works for me until someone tells me otherwise.</p>
@@ -315,10 +314,9 @@ font-style: inherit;">;</span></span>
 <section id="final-thoughts" class="level2">
 <h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
 <p>So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it. Regardless, I hope this post is helpful for others interested in this process.</p>
+
+
 </section>
-</div>
-
-
 
 <div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2024. <span>“Converting PowerPoints to Reveal.js

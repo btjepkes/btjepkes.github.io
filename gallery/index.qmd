@@ -1,5 +1,5 @@
 ---
-title: "My Gallery"
+title: "My Project Gallery"
 date-modified: today
 date: 2021-01-01
 image: ../assets/bg-pines-gallery-yellow-sm.png

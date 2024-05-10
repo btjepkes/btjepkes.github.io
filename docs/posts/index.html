@@ -28,10 +28,14 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<link href="../assets/site-logo-green.png" rel="icon" type="image/png">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/layer-group-solid.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -43,6 +47,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -152,7 +167,7 @@ window.Quarto = {
 <meta name="citation_language" content="en">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -172,7 +187,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about/index.html"> 
+    <a class="nav-link active" href="../about/index.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -180,7 +195,7 @@ window.Quarto = {
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../posts/index.html" aria-current="page"> 
+    <a class="nav-link" href="../posts/index.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
@@ -228,12 +243,26 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <a class="flex-grow-1 no-decor" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">My Blog Posts</h1>
+        </a>     
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">My Blog Posts</h1>
+      <h1 class="title d-none d-lg-block">My Blog Posts</h1>
+            <p class="subtitle lead">My Blog Posts</p>
                   <div>
         <div class="description">
           This page is the home to many of my blog posts. The technical aspects generally cover some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included.
@@ -262,7 +291,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">2024-05-09</p>
+        <p class="date-modified">2024-05-10</p>
       </div>
     </div>
       
@@ -271,8 +300,64 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-1-square" role="img">
+</i> 
+ <span class="menu-text">About Me</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../curriculum-vitae/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-2-square" role="img">
+</i> 
+ <span class="menu-text">Curriculum Vitae</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../posts/index.html" class="sidebar-item-text sidebar-link active"><i class="bi bi-3-square" role="img">
+</i> 
+ <span class="menu-text">My Blog Posts</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../gallery/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-4-square" role="img">
+</i> 
+ <span class="menu-text">My Gallery</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../research/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-5-square" role="img">
+</i> 
+ <span class="menu-text">My Research</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-6-square" role="img">
+</i> 
+ <span class="menu-text">Helpful Resources</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -305,7 +390,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R,Quarto" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1714708979856" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741">
+<div class="g-col-1" data-index="0" data-categories="R,Quarto" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1715347875253" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741">
 <a href="../posts/converting-powerpoints-to-revealjs/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -327,7 +412,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1714194000000" data-listing-file-modified-sort="1715284062779" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1714194000000" data-listing-file-modified-sort="1715284062779" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
 <a href="../posts/crafting-a-technical-workshop-site-with-quarto/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -349,7 +434,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1714489800842" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3944">
+<div class="g-col-1" data-index="2" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1714489800842" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3944">
 <a href="../posts/building-annotated-bibliographies-with-quarto/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -371,7 +456,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1704002400000" data-listing-file-modified-sort="1714399324399" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="5" data-listing-word-count-sort="955">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1704002400000" data-listing-file-modified-sort="1714399324399" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="5" data-listing-word-count-sort="955">
 <a href="../posts/my-2023-highlights-reflections-and-recap/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -393,7 +478,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="mapping,Cartography" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1714409083472" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
+<div class="g-col-1" data-index="4" data-categories="mapping,Cartography" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1714409083472" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
 <a href="../posts/30-day-map-challenge-2023/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -415,7 +500,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Wildlife,GIS" data-listing-date-sort="1679806800000" data-listing-file-modified-sort="1714320419055" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1075">
+<div class="g-col-1" data-index="5" data-categories="Wildlife,GIS" data-listing-date-sort="1679806800000" data-listing-file-modified-sort="1714320419055" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1075">
 <a href="../posts/how-scientists-use-gis-to-study-wildlife/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -437,7 +522,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Nature,Education" data-listing-date-sort="1666069200000" data-listing-file-modified-sort="1714320127512" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
+<div class="g-col-1" data-index="6" data-categories="Nature,Education" data-listing-date-sort="1666069200000" data-listing-file-modified-sort="1714320127512" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1626">
 <a href="../posts/how-to-become-a-contemporary-naturalist/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -459,7 +544,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Nature,Education,Shorelines" data-listing-date-sort="1665896400000" data-listing-file-modified-sort="1714488338493" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1701">
+<div class="g-col-1" data-index="7" data-categories="Nature,Education,Shorelines" data-listing-date-sort="1665896400000" data-listing-file-modified-sort="1714488338493" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1701">
 <a href="../posts/can-you-naturally-protect-shores-from-erosion/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">

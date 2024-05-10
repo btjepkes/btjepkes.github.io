@@ -14,8 +14,6 @@ image: img-cover.png
 image-alt: "An image of an example powerpoint slide."
 ---
 
-:::{.content-800}
-
 ## Introduction
 
 Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. So, how can I convert my .pptx files into reveal.js slides? Well, I have devised a workflow that does just this. I am not sure is the best way, but it works for me until someone tells me otherwise.
@@ -116,5 +114,3 @@ To ensure your slides are always displayed with the correct aspect ratio, I appl
 ## Final Thoughts
 
 So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it. Regardless, I hope this post is helpful for others interested in this process.
-
-:::

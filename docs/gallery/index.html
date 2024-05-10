@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2021-01-01">
 <meta name="description" content="Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category below.">
 
-<title>My Gallery | B.W. Tjepkes</title>
+<title>My Project Gallery | B.W. Tjepkes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,10 +28,14 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<link href="../assets/site-logo-green.png" rel="icon" type="image/png">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/layer-group-solid.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -43,6 +47,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -127,7 +142,7 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="My Gallery | B.W. Tjepkes">
+<meta property="og:title" content="My Project Gallery | B.W. Tjepkes">
 <meta property="og:description" content="Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category below.">
 <meta property="og:image" content="https://btjepkes.github.io/assets/bg-pines-gallery-yellow-sm.png">
 <meta property="og:site_name" content="B.W. TJEPKES">
@@ -144,7 +159,7 @@ window.Quarto = {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -164,7 +179,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about/index.html"> 
+    <a class="nav-link active" href="../about/index.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -176,7 +191,7 @@ window.Quarto = {
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../gallery/index.html" aria-current="page"> 
+    <a class="nav-link" href="../gallery/index.html"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
@@ -220,12 +235,26 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <a class="flex-grow-1 no-decor" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">My Project Gallery</h1>
+        </a>     
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">My Gallery</h1>
+      <h1 class="title d-none d-lg-block">My Project Gallery</h1>
+            <p class="subtitle lead">My Project Gallery</p>
                   <div>
         <div class="description">
           Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category below.
@@ -254,7 +283,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">2024-05-09</p>
+        <p class="date-modified">2024-05-10</p>
       </div>
     </div>
       
@@ -263,8 +292,64 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-1-square" role="img">
+</i> 
+ <span class="menu-text">About Me</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../curriculum-vitae/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-2-square" role="img">
+</i> 
+ <span class="menu-text">Curriculum Vitae</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../posts/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-3-square" role="img">
+</i> 
+ <span class="menu-text">My Blog Posts</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../gallery/index.html" class="sidebar-item-text sidebar-link active"><i class="bi bi-4-square" role="img">
+</i> 
+ <span class="menu-text">My Gallery</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../research/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-5-square" role="img">
+</i> 
+ <span class="menu-text">My Research</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-6-square" role="img">
+</i> 
+ <span class="menu-text">Helpful Resources</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -401,7 +486,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 <div id="listing-gallery-listings-all" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Map Gallery" data-listing-date-sort="1715144400000" data-listing-file-modified-sort="1715306734801" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
+<div class="g-col-1" data-index="0" data-categories="Map Gallery" data-listing-date-sort="1715144400000" data-listing-file-modified-sort="1715306734801" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
 <a href="../gallery/bird-observation-map-series/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -415,7 +500,7 @@ Bird Observation Map Series in ArcPy
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Talk Gallery" data-listing-date-sort="1714539600000" data-listing-file-modified-sort="1714744198111" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="g-col-1" data-index="1" data-categories="Talk Gallery" data-listing-date-sort="1714539600000" data-listing-file-modified-sort="1714744198111" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <a href="../gallery/thesis-project-proposal-presentation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -429,7 +514,7 @@ Master’s Thesis Proposal Presentation
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Data Gallery" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1714839439083" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
+<div class="g-col-1" data-index="2" data-categories="Data Gallery" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1714839439083" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
 <a href="../gallery/vertebrate-morphometrics-in-riparian-zones/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -443,7 +528,7 @@ Vertebrate Morphometrics In Riparian Zones
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Data Gallery,TidyTuesday2024" data-listing-date-sort="1704261600000" data-listing-file-modified-sort="1713786768402" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="g-col-1" data-index="3" data-categories="Data Gallery,TidyTuesday2024" data-listing-date-sort="1704261600000" data-listing-file-modified-sort="1713786768402" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <a href="../gallery/my-github-contributions-in-2023/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -457,7 +542,7 @@ Plotting My GitHub Contributions in 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1714749292442" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
+<div class="g-col-1" data-index="4" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1714749292442" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
 <a href="../gallery/michigan-anthrome-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -471,7 +556,7 @@ Anthrome Map of the Upper Peninsula, MI
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Data Gallery" data-listing-date-sort="1702188000000" data-listing-file-modified-sort="1714838893080" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
+<div class="g-col-1" data-index="5" data-categories="Data Gallery" data-listing-date-sort="1702188000000" data-listing-file-modified-sort="1714838893080" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
 <a href="../gallery/michigan-climate-trends/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -485,7 +570,7 @@ Climate Trends of the Upper Peninsula, MI
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1713786994074" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<div class="g-col-1" data-index="6" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1713786994074" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
 <a href="../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -499,7 +584,7 @@ Pennsylvania Bridges from OpenStreetMap
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1713787071664" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<div class="g-col-1" data-index="7" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1713787071664" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
 <a href="../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -541,7 +626,7 @@ Moose Sightings Across North America
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="g-col-1" data-index="10" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <a href="../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -569,7 +654,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="g-col-1" data-index="12" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
 <a href="../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -611,7 +696,7 @@ Eagle Mountain Contour Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1713735476552" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<div class="g-col-1" data-index="15" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1713735476552" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
 <a href="../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -653,7 +738,7 @@ Weekly Work Commitments Calendar
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-categories="Map Gallery,Watershed" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1714746437908" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<div class="g-col-1" data-index="18" data-categories="Map Gallery,Watershed" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1714746437908" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
 <a href="../gallery/great-lakes-watershed-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -681,7 +766,7 @@ Great Lakes Watersheds Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="20" data-categories="Map Gallery,United States,Endangered Species" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1714749492209" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
+<div class="g-col-1" data-index="20" data-categories="Map Gallery,United States,Endangered Species" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1714749492209" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
 <a href="../gallery/endangered-species-stamp-collection-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -695,7 +780,7 @@ Endangered Species Stamp Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="21" data-categories="Talk Gallery,Wyoming,Mammal" data-listing-date-sort="1684558800000" data-listing-file-modified-sort="1714748592555" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="g-col-1" data-index="21" data-categories="Talk Gallery,Wyoming,Mammal" data-listing-date-sort="1684558800000" data-listing-file-modified-sort="1714748592555" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
 <a href="../gallery/raccoon-spatial-patterns-and-home-ranges/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -709,7 +794,7 @@ Raccoon Spatial Patterns Presentation
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="22" data-categories="Poster Gallery,Missouri,Mammal" data-listing-date-sort="1684386000000" data-listing-file-modified-sort="1705242001197" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+<div class="g-col-1" data-index="22" data-categories="Poster Gallery,Missouri,Mammal" data-listing-date-sort="1684386000000" data-listing-file-modified-sort="1705242001197" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
 <a href="../gallery/missouri-bat-hcp-poster/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -821,7 +906,7 @@ Bald Eagle Nest Monitoring Report
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="30" data-categories="Map Gallery,Wisconsin,Location Suitability" data-listing-date-sort="1546322400000" data-listing-file-modified-sort="1715262137232" data-listing-date-modified-sort="1715230800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<div class="g-col-1" data-index="30" data-categories="Map Gallery,Wisconsin,Location Suitability" data-listing-date-sort="1546322400000" data-listing-file-modified-sort="1715262137232" data-listing-date-modified-sort="1715317200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
 <a href="../gallery/vineyard-and-winery-location-suitability-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">

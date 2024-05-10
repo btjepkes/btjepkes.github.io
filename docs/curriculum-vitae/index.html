@@ -24,10 +24,14 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<link href="../assets/site-logo-green.png" rel="icon" type="image/png">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/layer-group-solid.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -38,6 +42,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -131,7 +146,7 @@ window.Quarto = {
 <meta name="twitter:image:alt" content="Image-of-pine-trees-on-blue-background.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
-<body class="nav-fixed fullcontent">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
@@ -148,11 +163,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
 <li class="nav-item">
-    <a class="nav-link" href="../about/index.html"> 
+    <a class="nav-link active" href="../about/index.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../curriculum-vitae/index.html" aria-current="page"> 
+    <a class="nav-link" href="../curriculum-vitae/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
@@ -203,9 +218,21 @@ window.Quarto = {
           <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav></header><!-- content --><header id="title-block-header" class="quarto-title-block default page-columns page-full"><div class="quarto-title-banner page-columns page-full">
+    </nav><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <a class="flex-grow-1 no-decor" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">Curriculum Vitae</h1>
+        </a>     
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav></header><!-- content --><header id="title-block-header" class="quarto-title-block default page-columns page-full"><div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Curriculum Vitae</h1>
+      <h1 class="title d-none d-lg-block">Curriculum Vitae</h1>
+            <p class="subtitle lead">Curriculum Vitae</p>
                   <div>
         <div class="description">
           This page provides detailed overview of my formal education, recent professional experience, and professional skillset. Please also check out my full CV for a comprehensive listing of my experience.
@@ -234,7 +261,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">2024-05-09</p>
+        <p class="date-modified">2024-05-10</p>
       </div>
     </div>
       
@@ -243,8 +270,70 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-1-square" role="img">
+</i> 
+ <span class="menu-text">About Me</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../curriculum-vitae/index.html" class="sidebar-item-text sidebar-link active"><i class="bi bi-2-square" role="img">
+</i> 
+ <span class="menu-text">Curriculum Vitae</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../posts/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-3-square" role="img">
+</i> 
+ <span class="menu-text">My Blog Posts</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../gallery/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-4-square" role="img">
+</i> 
+ <span class="menu-text">My Gallery</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../research/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-5-square" role="img">
+</i> 
+ <span class="menu-text">My Research</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-6-square" role="img">
+</i> 
+ <span class="menu-text">Helpful Resources</span></a>
+  </div>
+</li>
+    </ul>
+</div>
+</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On This Page:</h2>
+   
+  <ul class="collapse">
+<li><a href="#view-pdf-versions" id="toc-view-pdf-versions" class="nav-link active" data-scroll-target="#view-pdf-versions">View PDF Versions</a></li>
+  <li><a href="#my-experience-geography" id="toc-my-experience-geography" class="nav-link" data-scroll-target="#my-experience-geography">My Experience Geography</a></li>
+  <li><a href="#formal-education" id="toc-formal-education" class="nav-link" data-scroll-target="#formal-education">Formal Education</a></li>
+  <li><a href="#career-experience" id="toc-career-experience" class="nav-link" data-scroll-target="#career-experience">Career Experience</a></li>
+  <li><a href="#techincal-proficiencies" id="toc-techincal-proficiencies" class="nav-link" data-scroll-target="#techincal-proficiencies">Techincal Proficiencies</a></li>
+  </ul></nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content"><section id="view-pdf-versions" class="level2"><h2 data-anchor-id="view-pdf-versions">View PDF Versions</h2>
 <div id="listing-resume-links" class="quarto-listing quarto-listing-container-grid">
@@ -300,8 +389,8 @@ No matching items
 <p>Please take a moment to explore my experience geography, where I have worked, presented, volunteered, and schooled.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-4c7b42c1f0c64d56cbfb" style="width:100%;height:400px;"></div>
-<script type="application/json" data-for="htmlwidget-4c7b42c1f0c64d56cbfb">{"x":{"options":{"minZoom":4,"maxZoom":7,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-105.6915945157442,-105.6904056084356,-105.5125353113342,-105.5137242186426,-105.6915945157442],"lat":[41.35363282453523,41.2735797324317,41.27622137050747,41.35627446261094,41.35363282453523]}]],[[{"lng":[-89.57576979606011,-89.57564046102686,-89.55052309264897,-89.55065242768217,-89.57576979606011],"lat":[44.54120518516129,44.5319218038851,44.53227173626186,44.54155511753805,44.54120518516129]}]],[[{"lng":[-89.56305724751047,-89.56320249569586,-89.52976952387587,-89.52962427569059,-89.56305724751047],"lat":[45.50496189382352,45.47954346138715,45.47935241583372,45.50477084827014,45.50496189382352]}]],[[{"lng":[-88.46331245690362,-88.66117503279656,-88.66090060906271,-88.46303803316988,-88.46331245690362],"lat":[44.70288067732508,44.70263179358199,44.48446492521583,44.48471380895916,44.70288067732508]}]],[[{"lng":[-91.66303376395145,-92.14179806988818,-90.42501415622883,-89.96359103907797,-91.66303376395145],"lat":[44.56818866770678,44.40895209026957,41.64841752646682,41.80103745028565,44.56818866770678]}]],[[{"lng":[-95.21094848684334,-83.43923625871678,-83.43923625871678,-95.21094848684334,-95.21094848684334],"lat":[34.3370168884088,34.3370168884088,39.49102296763046,39.49102296763046,34.3370168884088]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,["Laramie, WY","Schmeekle Reserve, Stevens Point, WI","Treehaven, Tomahawk, WI","Lower Wolf River Bottomlands Natural Resources Area, WI","Upper Mississippi River National Fish and Wildlife Refuge","Central Hardwood Bird Conservation Region"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"setMaxBounds","args":[24.33702,-125.69159,55.50496,-63.43924]},{"method":"addMarkers","args":[[38.94554204723634,44.52748031498342,41.31314645671414,48.30067551983294,46.79754985829191,44.12965687712758,44.65349543307089,38.59256862573427,38.89024379499433],[-92.32397932848558,-89.57141732288046,-105.5810393701329,-95.98071481304153,-95.92650582682124,-90.17475829354404,-88.55023067716539,-92.2290926539702,-92.28678199212624],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,["University of Missouri-Columbia","University of Wisconsin-Stevens Point","University of Wyoming","Agassiz National Wildlife Refuge","RMB Environmental Laboratories, Inc.","Necedah National Wildlife Refuge","Navarino State Wildlife Area","Missouri Department of Conservation","Missouri Department of Conservation"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[34.3370168884088,48.30067551983294],"lng":[-105.6915945157442,-83.43923625871678]}},"evals":[],"jsHooks":[]}</script><p>Explore my experience geography.</p>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-1a5d5d879ed113752871" style="width:100%;height:400px;"></div>
+<script type="application/json" data-for="htmlwidget-1a5d5d879ed113752871">{"x":{"options":{"minZoom":4,"maxZoom":7,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-105.6915945157442,-105.6904056084356,-105.5125353113342,-105.5137242186426,-105.6915945157442],"lat":[41.35363282453523,41.2735797324317,41.27622137050747,41.35627446261094,41.35363282453523]}]],[[{"lng":[-89.57576979606011,-89.57564046102686,-89.55052309264897,-89.55065242768217,-89.57576979606011],"lat":[44.54120518516129,44.5319218038851,44.53227173626186,44.54155511753805,44.54120518516129]}]],[[{"lng":[-89.56305724751047,-89.56320249569586,-89.52976952387587,-89.52962427569059,-89.56305724751047],"lat":[45.50496189382352,45.47954346138715,45.47935241583372,45.50477084827014,45.50496189382352]}]],[[{"lng":[-88.46331245690362,-88.66117503279656,-88.66090060906271,-88.46303803316988,-88.46331245690362],"lat":[44.70288067732508,44.70263179358199,44.48446492521583,44.48471380895916,44.70288067732508]}]],[[{"lng":[-91.66303376395145,-92.14179806988818,-90.42501415622883,-89.96359103907797,-91.66303376395145],"lat":[44.56818866770678,44.40895209026957,41.64841752646682,41.80103745028565,44.56818866770678]}]],[[{"lng":[-95.21094848684334,-83.43923625871678,-83.43923625871678,-95.21094848684334,-95.21094848684334],"lat":[34.3370168884088,34.3370168884088,39.49102296763046,39.49102296763046,34.3370168884088]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,["Laramie, WY","Schmeekle Reserve, Stevens Point, WI","Treehaven, Tomahawk, WI","Lower Wolf River Bottomlands Natural Resources Area, WI","Upper Mississippi River National Fish and Wildlife Refuge","Central Hardwood Bird Conservation Region"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"setMaxBounds","args":[24.33702,-125.69159,55.50496,-63.43924]},{"method":"addMarkers","args":[[38.94554204723634,44.52748031498342,41.31314645671414,48.30067551983294,46.79754985829191,44.12965687712758,44.65349543307089,38.59256862573427,38.89024379499433],[-92.32397932848558,-89.57141732288046,-105.5810393701329,-95.98071481304153,-95.92650582682124,-90.17475829354404,-88.55023067716539,-92.2290926539702,-92.28678199212624],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,["University of Missouri-Columbia","University of Wisconsin-Stevens Point","University of Wyoming","Agassiz National Wildlife Refuge","RMB Environmental Laboratories, Inc.","Necedah National Wildlife Refuge","Navarino State Wildlife Area","Missouri Department of Conservation","Missouri Department of Conservation"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[34.3370168884088,48.30067551983294],"lng":[-105.6915945157442,-83.43923625871678]}},"evals":[],"jsHooks":[]}</script><p>Explore my experience geography.</p>
 </div>
 </div>
 </section><section id="formal-education" class="level2"><h2 data-anchor-id="formal-education">Formal Education</h2>

@@ -1,6 +1,6 @@
 ---
 title: "My Blog Posts"
-#subtitle: "**and Other Organized Ramblings**"
+subtitle: "My Blog Posts"
 title-meta: "My Blog Posts"
 date-modified: today
 date: 2022-10-16
@@ -32,9 +32,9 @@ listing:
       - date
 ---
 
-
 <!-- {{< include _listing-chooser.qmd >}} -->
 
 ::: {#main-posts }
 :::
+
 
