@@ -95,22 +95,24 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         
         .carousel__item {
           height: auto;
-          min-height: 200px;
+          min-height: 280px;
           width: 100%;
           padding: 1em;
-          font-weight: 500;
+          font-weight: 700;
           font-size: 2em;
           text-align: center;
-          color: #ffffff;
-          text-shadow: 2px -1px 3px rgba(0,0,0,1.0);
+          color: #000000;
+/*          text-shadow: 2px -1px 3px rgba(0,0,0,1.0);*/
           display: none;
-          background-size: 800px;
+          background-size: cover;
           background-position: center;
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
         }
         
         .carousel__item p {
-          background: rgba(0,0,0,0.7);
+          background: rgba(255,255,255,0.8);
+          padding: 5px;
+          border-radius: 0.25em;
           max-width: 900px;
           margin: 0 auto 1em auto;
           animation: fadeIn 100ms forwards;
@@ -168,14 +170,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </head>
 <body class="nav-sidebar floating nav-fixed">
     <div class="carousel">
-        <div class="carousel__item" style="background-image: url('https://gl.audubon.org/sites/default/files/styles/article_hero_inline/public/aud_apa-2019_virginia-rail_a1-8610-14_gsl_photo-rick-derevan_1.jpg?itok=bi8w2Dmn'); background-color: #001a17;">
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2449/KSC-05pd2449~medium.jpg'); background-color: #001a17;">
           <p>Conservation &amp; Wildlife Ecology</p>
         </div>
-        <div class="carousel__item" style="background-image: url('http://btjepkes.github.io/assets/cover-geo.png'); background-color: #001a17;">
+        <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;">
           <p>Geography &amp; Geospatial Science</p>
         </div>
-        <div class="carousel__item" style="background-image: url('https://live.staticflickr.com/8333/8081620469_8a619a11de_b.jpg'); background-color: #001a17;">
-          <p>Data Science &amp; Reporting</p>
+        <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.jpg'); background-color: #001a17;">
+          <p>Environmental Data Science</p>
         </div>
     </div>
 
@@ -912,7 +914,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","openEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

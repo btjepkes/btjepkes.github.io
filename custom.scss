@@ -197,11 +197,15 @@ h3 {
 }
 
 .description {
-  line-height: 1.6em;
-  margin-top: 10px !important;
-  margin-bottom: 10px;
+  line-height: 1.4em;
+  margin-top: 15px !important;
+  margin-bottom: 15px;
   font-family: Montserrat;
-  font-size: 20px !important;
+  font-size: 16px !important;
+  color: #0b7366;
+  font-weight: 700;
+  border-left: solid 5px;
+  padding-left: 15px;
 }
 
 .description a {
