@@ -286,7 +286,7 @@ dd {
 	background-image: url("assets/square-contour-background.png");
 	border-bottom: #e6e5e0 solid 2px;
 	background-blend-mode: overlay;
-	height: 45px;
+	height: 55px;
   }
 
 .navbar-brand span {
@@ -521,7 +521,8 @@ color: #000;
   display: grid;
   grid-template-columns: 45% 1fr 1fr;
   grid-column-gap: 0.7em;
-  padding-bottom: 0.5em;
+  padding-top: 0.7em;
+  padding-bottom: 0.4em;
 }
 
 .quarto-title-block .quarto-title-banner {
@@ -529,8 +530,9 @@ color: #000;
   /*background-image: url("assets/noise.png");*/
   background-image: url("assets/repeatable-treeline.png");
   background-position: 80% 80%;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  padding-top: 2.0em;
+  padding-bottom: 2.0em;
+  margin-bottom: 0;
 }
 
 .quarto-title-block {
