@@ -154,10 +154,10 @@ h1 {
   text-align: left;
   padding-bottom: 20px;
   line-height: 1.2em;
-  /*font-family: Playfair Display;*/
   font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
   color: white;
+  text-shadow: 0 0 5px #001a17;
   /*background-image: linear-gradient(30deg,#ffffff 0, #adfbda 30%, #35c3ff 50%, #fda399 50%, #76d880 70%,#ebf38b 90%,#adfbda 100%);
   background-image: url("assets/bg-green-rivers.jpg");
   background-size: 100%;
@@ -169,22 +169,6 @@ h1 {
   filter: drop-shadow(0 0 2rem #000);
   text-shadow: none !important;*/
 }
-
-/*h1 strong {
-  font-weight: 500 !important;
-}
-
-h1::after {
-  content: "";
-  display: block;
-  border: solid 2px #f0f2f4;
-  margin: 30px auto 0 auto;
-  width: 120px;
-}*/
-
-/*.title {
-  margin-bottom: 15px !important;
-}*/
 
 h2 {
   margin-bottom: 20px;
@@ -293,6 +277,7 @@ dd {
 }
 
 
+
 // Navbar
 
 .navbar {
@@ -301,12 +286,13 @@ dd {
 	background-image: url("assets/square-contour-background.png");
 	border-bottom: #e6e5e0 solid 2px;
 	background-blend-mode: overlay;
+	height: 45px;
   }
 
 .navbar-brand span {
   font-weight: 400 !important;
   letter-spacing: 0.02em;
-  font-size: 1.70rem;
+  font-size: 1.60rem;
   color: #fbfbfc;
   font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
@@ -317,7 +303,7 @@ dd {
   padding: 1px;
   margin: 0 0 0 0.2em;
   max-height: 38px;
-  height: 30px;
+  height: 25px;
   border-radius: 2px;
   filter: invert(100%);
   }
@@ -331,8 +317,8 @@ dd {
 }
 
 .navbar-toggler-icon {
-  width: 0.8em;
-  height: 0.8em;
+  width: 0.7em;
+  height: 0.7em;
 }
 
   .navbar-nav .dropdown-menu {
@@ -389,6 +375,7 @@ dd {
       
     .navbar-brand-container {
       max-width: 100%;
+      height: 45px;
     }
   
 .quarto-navbar-tools {
@@ -541,9 +528,9 @@ color: #000;
   background: #00231f;
   /*background-image: url("assets/noise.png");*/
   background-image: url("assets/repeatable-treeline.png");
-  background-position: 20% center;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  background-position: 80% 80%;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
 }
 
 .quarto-title-block {
@@ -613,6 +600,7 @@ color: #000;
   aspect-ratio: 4 / 3;
   margin-top: 0.5em;
 }
+
 
 
 // TABLES

@@ -10,7 +10,7 @@ website:
   favicon: assets/site-logo-green.png
   # page-navigation: true
   back-to-top-navigation: false
-  # bread-crumbs: true
+  bread-crumbs: false
   search: false
   open-graph: true
   twitter-card:
@@ -24,10 +24,10 @@ website:
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
-  sidebar: false
+  # sidebar: false
   navbar:
     logo: "assets/layer-group-solid.svg"
-    pinned: false
+    pinned: true
     right:
       - href: about/index.qmd
         text: About
@@ -61,12 +61,12 @@ website:
   #     style: floating
   #     background: "#e9ecef"
   #     pinned: true
-  #     contents: 
+  #     contents:
   #       - text: "Site Navigation:"
   #       - href: index.qmd
   #         text: "Home"
   #         icon: house-fill
-  #         contents: 
+  #         contents:
   #           - icon: 1-square
   #             href: about/index.qmd
   #             text: About Me
@@ -143,6 +143,8 @@ format:
       margin-width: 200px #right
       sidebar-width: 250px #left
     lightbox: auto
+    # include-before-body:
+      # - file: cover-image.html
     # include-after-body: back-to-top.html
     # include-in-header:
     #   #- file: progress-bar.html
