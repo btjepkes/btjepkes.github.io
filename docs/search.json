@@ -368,21 +368,21 @@
     "href": "gallery/bird-observation-map-series/index.html",
     "title": "Bird Observation Map Series in ArcPy",
     "section": "",
-    "text": "This map series was created as part of my advanced GIS course final project. I use bird feeder visitation data from Project FeederWatch to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and ArcPy."
+    "text": "This map series was created as part of my advanced GIS course final project. I used bird feeder visitation data from Project FeederWatch to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and Python, specifically arcpy."
   },
   {
     "objectID": "gallery/bird-observation-map-series/index.html#overview",
     "href": "gallery/bird-observation-map-series/index.html#overview",
     "title": "Bird Observation Map Series in ArcPy",
     "section": "",
-    "text": "This map series was created as part of my advanced GIS course final project. I use bird feeder visitation data from Project FeederWatch to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and ArcPy."
+    "text": "This map series was created as part of my advanced GIS course final project. I used bird feeder visitation data from Project FeederWatch to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and Python, specifically arcpy."
   },
   {
     "objectID": "gallery/bird-observation-map-series/index.html#final-result",
     "href": "gallery/bird-observation-map-series/index.html#final-result",
     "title": "Bird Observation Map Series in ArcPy",
     "section": "Final Result",
-    "text": "Final Result\nHere is the resulting product, a PDF map series with consistent styling and symbology."
+    "text": "Final Result\nHere is the resulting product, a PDF map series with consistent styling and symbology. The full notebook, which outlines the complete methods and steps performed, can be found in this GitHub repo."
   },
   {
     "objectID": "gallery/bald-eagle-nest-monitoring-report/index.html#tools-workflow",
