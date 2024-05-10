@@ -198,14 +198,11 @@ h3 {
 
 .description {
   line-height: 1.4em;
-  margin-top: 15px !important;
-  margin-bottom: 15px;
+  margin-top: 10px !important;
+  margin-bottom: 10px;
   font-family: Montserrat;
-  font-size: 16px !important;
-  color: #0b7366;
-  font-weight: 700;
-  border-left: solid 5px;
-  padding-left: 15px;
+  font-size: 17px !important;
+  font-weight: 500;
 }
 
 .description a {
@@ -559,16 +556,15 @@ color: #000;
   display: none;
 }
 
-/*
+
 #title-block-header {
-  text-align: center;
-  padding: 40px 25px 40px 25px;
-  margin: auto;
-  background: #00231f;
-  background-image: url("assets/noise.png");
-  margin-top: 2px;
+  padding: 15px 0px;
+  border-top: solid #0b7366 5px;
+  border-bottom: solid #0b7366 5px;
+  margin-block-end: 1.7em !important;
 }
 
+/*
 .header-content-container {
   max-width: 1000px;
   margin: auto;
