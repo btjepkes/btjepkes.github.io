@@ -27,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
@@ -85,6 +84,76 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <style>html{ scroll-behavior: smooth; }</style>
 
 
+
+    <meta charset="UTF-8">
+    <title>title</title>
+    <style>
+      .carousel {
+          position: relative;
+          margin: 0;
+        }
+        
+        .carousel__item {
+          height: auto;
+          min-height: 200px;
+          width: 100%;
+          padding: 1em;
+          font-weight: 500;
+          font-size: 2em;
+          text-align: center;
+          color: #ffffff;
+          text-shadow: 2px -1px 3px rgba(0,0,0,1.0);
+          display: none;
+          background-size: cover;
+          background-position: center;
+          box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        .carousel__item p {
+          background: rgba(0,0,0,0.5);
+          max-width: 900px;
+          margin: 0 auto 1em auto;
+          animation: fadeIn 100ms forwards;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0.7;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .carousel__item--selected {
+          display: block;
+          animation: fadeIn 2s;
+        }
+        
+        .carousel__nav {
+          width: 100%;
+          padding: 5px 0;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          text-align: center;
+          background-color: #00231f;
+        }
+        
+        .carousel__button {
+          width: 10px;
+          height: 10px;
+          display: inline-block;
+          background: rgba(255, 255, 255, 0.2);
+          border-radius: 50%;
+          margin: 0 5px;
+          cursor: pointer;
+        }
+        
+        .carousel__button--selected {
+          background: rgba(255, 255, 255, 0.5);
+        }
+    </style>
 <meta property="og:title" content="Great Lakes Watersheds Map | B.W. Tjepkes">
 <meta property="og:description" content="This map was created as a fun, creative project to design a colorful visual of Great Lakes watersheds. I am fascinated by watersheds, especially their utility for conservation, so what better way to explore them than making a map!">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/great-lakes-watershed-map/img-map-11.jpg">
@@ -97,11 +166,90 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta name="twitter:image:alt" content="Map of Great Lakes watersheds and their pour points.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
-
 <body class="nav-sidebar floating nav-fixed">
+    <div class="carousel">
+        <div class="carousel__item" style="background-image: url('https://gl.audubon.org/sites/default/files/styles/article_hero_inline/public/aud_apa-2019_virginia-rail_a1-8610-14_gsl_photo-rick-derevan_1.jpg?itok=bi8w2Dmn'); background-color: #001a17;">
+          <p>Wildlife &amp; Conservation Ecology</p>
+        </div>
+        <div class="carousel__item" style="background-image: url('http://btjepkes.github.io/assets/bg-green-rivers.jpg'); background-color: #001a17;">
+          <p>Geography &amp; Geospatial Science</p>
+        </div>
+        <div class="carousel__item" style="background-image: url('https://live.staticflickr.com/8333/8081620469_8a619a11de_b.jpg'); background-color: #001a17;">
+          <p>Data Science &amp; Reporting</p>
+        </div>
+    </div>
+
+<script>
+  document.querySelectorAll(".carousel").forEach((carousel) => {
+  const items = carousel.querySelectorAll(".carousel__item");
+  const buttonsHtml = Array.from(items, () => {
+      return `<span class="carousel__button"></span>`;
+  });
+
+  carousel.insertAdjacentHTML(
+      "beforeend",
+      `
+          <div class="carousel__nav">
+              ${buttonsHtml.join("")}
+          </div>
+      `
+  );
+
+  const buttons = carousel.querySelectorAll(".carousel__button");
+  let currentIndex = 0; // Track the current item index
+
+  const selectItem = (index) => {
+      // un-select all the items
+      items.forEach((item) =>
+          item.classList.remove("carousel__item--selected")
+      );
+      buttons.forEach((button) =>
+          button.classList.remove("carousel__button--selected")
+      );
+
+      items[index].classList.add("carousel__item--selected");
+      buttons[index].classList.add("carousel__button--selected");
+  };
+
+  const advanceCarousel = () => {
+      currentIndex = (currentIndex + 1) % items.length; // Increment index and wrap around
+      selectItem(currentIndex);
+  };
+
+  buttons.forEach((button, i) => {
+      button.addEventListener("click", () => {
+          selectItem(i);
+          currentIndex = i;
+      });
+  });
+
+  // Select the first item on page load
+  selectItem(0);
+
+  // Set interval for automatic advancement
+  const intervalTime = 3000; // Change this to adjust the interval time in milliseconds
+  let intervalId = setInterval(advanceCarousel, intervalTime);
+
+  // Pause the carousel on mouse hover
+  carousel.addEventListener("mouseenter", () => {
+      clearInterval(intervalId);
+  });
+
+  // Resume the carousel on mouse leave
+  carousel.addEventListener("mouseleave", () => {
+      intervalId = setInterval(advanceCarousel, intervalTime);
+  });
+});
+</script>
+
+
+
+
+
+
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -189,47 +337,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title d-none d-lg-block">Great Lakes Watersheds Map</h1>
-            <p class="subtitle lead">Great Lakes Watersheds Map</p>
-                  <div>
-        <div class="description">
-          This map was created as a fun, creative project to design a colorful visual of Great Lakes watersheds. I am fascinated by watersheds, especially their utility for conservation, so what better way to explore them than making a map!
-        </div>
-      </div>
-                              </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Benjamin Tjepkes <a href="https://orcid.org/0009-0002-5524-2675" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">2023-06-01</p>
-      </div>
-    </div>
-    
-      <div>
-      <div class="quarto-title-meta-heading">Modified</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">2024-05-10</p>
-      </div>
-    </div>
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -297,10 +405,53 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Great Lakes Watersheds Map</h1>
+<p class="subtitle lead">Great Lakes Watersheds Map</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Map Gallery</div>
+    <div class="quarto-category">Watershed</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    This map was created as a fun, creative project to design a colorful visual of Great Lakes watersheds. I am fascinated by watersheds, especially their utility for conservation, so what better way to explore them than making a map!
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Benjamin Tjepkes <a href="https://orcid.org/0009-0002-5524-2675" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2023-06-01</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">2024-05-10</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
 
 
 <section id="tools-methods" class="level2">
@@ -761,7 +912,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","loop":false,"closeEffect":"zoom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

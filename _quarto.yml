@@ -28,7 +28,7 @@ website:
     version: 4
   navbar:
     logo: "assets/layer-group-solid.svg"
-    pinned: false
+    pinned: true
     right:
       - href: about/index.qmd
         text: About
@@ -80,38 +80,6 @@ website:
       - icon: 6-square
         href: resources/index.qmd
         text: Helpful Resources
-  # sidebar:
-  #   - title: "Main Nav"
-  #     style: floating
-  #     background: "#e9ecef"
-  #     pinned: true
-  #     contents:
-  #       - text: "Site Navigation:"
-  #       - href: index.qmd
-  #         text: "Home"
-  #         icon: house-fill
-  #         contents:
-  #           - icon: 1-square
-  #             href: about/index.qmd
-  #             text: About Me
-  #           - icon: 2-square
-  #             href: curriculum-vitae/index.qmd
-  #             text: Curriculum Vitae
-  #           - icon: 3-square
-  #             href: posts/index.qmd
-  #             text: My Blog Posts
-  #           - icon: 4-square
-  #             href: gallery/index.qmd
-  #             text: My Gallery
-  #           - icon: 5-square
-  #             href: research/index.qmd
-  #             text: My Research
-  #           - icon: 6-square
-  #             href: resources/index.qmd
-  #             text: Helpful Resources
-  #           - icon: 7-square
-  #             href: contact.qmd
-  #             text: Links & Contact
   page-footer:
     center: >-
       Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
@@ -148,8 +116,8 @@ format:
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
-    title-block-banner: true
-    title-block-categories: false
+    title-block-banner: false
+    title-block-categories: true
     anchor-sections: false
     highlight-style: github
     link-external-newwindow: true
@@ -161,17 +129,16 @@ format:
         reactions-enabled: false
         repo: btjepkes/btjepkes.github.io
     grid:
-      body-width: 990px
-      gutter-width: 4.5vw
-      margin-width: 250px #right
-      sidebar-width: 250px #left
+      body-width: 900px
+      # gutter-width: 4.5vw
+      # margin-width: 250px #right
+      # sidebar-width: 250px #left
     lightbox: auto
     # template-partials:
     #   - title-block.html    
     # include-before-body:
-      # - file: cover-image.html
+    # - file: cover-image.html
     # include-after-body: back-to-top.html
-    # include-in-header:
-    #   #- file: progress-bar.html
-    #   #- file: header-banner.rhtml
-         
+    include-in-header:
+      # - file: progress-bar.html
+      - file: carousel/header-carousel.html

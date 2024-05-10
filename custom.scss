@@ -149,32 +149,20 @@ body {
 
 
 h1 {
-  font-weight: 700 !important;
+  font-weight: 900;
   font-size: clamp(1.6em, 5vw, 2.20em);
   text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   line-height: 1.2em;
-  font-family: "Exo 2", sans-serif;
+/*  font-family: "Exo 2", sans-serif;*/
   font-optical-sizing: auto;
-  color: white;
-  text-shadow: 0 0 5px #001a17;
-  /*background-image: linear-gradient(30deg,#ffffff 0, #adfbda 30%, #35c3ff 50%, #fda399 50%, #76d880 70%,#ebf38b 90%,#adfbda 100%);
-  background-image: url("assets/bg-green-rivers.jpg");
-  background-size: 100%;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 227, 73,0.3);
-  -moz-background-clip: text;
-  -moz-text-fill-color: rgba(255, 227, 73,0.3);
-  filter: drop-shadow(0 0 2rem #000);
-  text-shadow: none !important;*/
 }
 
 
 h2 {
   margin-bottom: 20px;
   margin-top: 1.0em;
-  margin-left: -0.3vw;
+  margin-left: -0.15vw;
   border-bottom: solid #e6e5e0 3px;
   text-align: left;
 }
@@ -193,14 +181,13 @@ h3 {
 @media (max-width: 991.98px) {
   .subtitle {
     display: block;
-    font-weight: 700 !important;
+    font-weight: 900 !important;
     font-size: clamp(1.6em, 5vw, 2.40em);
     text-align: left;
     padding-bottom: 20px;
     line-height: 1.2em;
     font-family: "Exo 2", sans-serif;
     font-optical-sizing: auto;
-    color: white;
     padding-bottom: 0;
     margin-top: 0;
   }
@@ -212,9 +199,8 @@ h3 {
 
 .description {
   line-height: 1.6em;
-  margin-top: 10px;
+  margin-top: 10px !important;
   margin-bottom: 10px;
-  color: #f0f0ec;
   font-family: Montserrat;
   font-size: 15px !important;
 }
@@ -298,9 +284,7 @@ dd {
 .navbar {
   box-shadow: 0 0 32px rgba(15, 23, 42, 0.25);
 	background: #00231f;
-	background-image: url("assets/square-contour-background.png");
-	border-bottom: #e6e5e0 solid 1px;
-	background-blend-mode: overlay;
+  background-image: url("assets/noise.png");
 	height: 55px;
   }
 
@@ -422,6 +406,10 @@ dd {
 
 
 @media (max-width: 991.98px) {
+  
+  .quarto-secondary-nav {
+    display: none;
+  }
   
   .quarto-secondary-nav-title {
     margin: 0;
@@ -545,7 +533,7 @@ color: #000;
   padding-bottom: 0.4em;
 }
 
-.quarto-title-block .quarto-title-banner {
+/*.quarto-title-block .quarto-title-banner {
   background: #00231f;
   background-image: url("assets/repeatable-treeline.png");
   background-position: 80% 80%;
@@ -555,11 +543,10 @@ color: #000;
 }
 
 .quarto-title-block {
-/*  background: #e6e5e0;*/
   margin-bottom: 0 !important;
   background: #e6e5e0;
   background-image: url("assets/noise.png");
-}
+}*/
 
 .keywords {
   display: none;
@@ -811,17 +798,6 @@ figure > figcaption {
   opacity: 0.7;
   line-height: 1.2;
 }
-
-/*@media only screen and (max-width: 767px) {
-  .quarto-figure {
-      margin-left: -1em !important;
-      margin-right: -1em !important;
-      }
-    figure > figcaption {
-    margin: 5px 10px 10px 10px;
-  }
-}
-*/
 
 .img-fluid,
 .figure-img,
