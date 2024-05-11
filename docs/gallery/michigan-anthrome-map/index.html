@@ -96,7 +96,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         
         .carousel__item {
           height: auto;
-          min-height: 280px;
+          min-height: 250px;
           width: 100%;
           padding: 1em;
           font-weight: 700;
@@ -112,12 +112,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         
         .carousel__item p {
           background: rgba(255,255,255,0.8);
-          padding: 5px;
+          padding: 10px 5px;
           border-radius: 0.25em;
           max-width: 900px;
           margin: 0 auto 1em auto;
           animation: fadeIn 100ms forwards;
+          line-height: 1.2;
         }
+        
         
         @keyframes fadeIn {
             from {
@@ -126,6 +128,13 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             to {
                 opacity: 1;
             }
+        }
+        
+        .carousel__item em {
+          display: block;
+          font-size: 20px;
+          font-weight: 400;
+          color: #0b7366;
         }
         
         .carousel__item--selected {
@@ -140,7 +149,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           bottom: 0;
           left: 0;
           text-align: center;
-          background-color: #00231f;
+          background-color: rgba(0,0,0,0.8);
         }
         
         .carousel__button {
@@ -175,14 +184,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </head>
 <body class="nav-sidebar floating nav-fixed">
     <div class="carousel">
-        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2449/KSC-05pd2449~medium.jpg'); background-color: #001a17;">
-          <p>Conservation &amp; Wildlife Ecology</p>
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-20171214-PH_SWW01_0002/KSC-20171214-PH_SWW01_0002~medium.jpg'); background-color: #001a17;">
+          <p><em>Expertise in...</em>Conservation &amp; Wildlife Ecology</p>
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;">
-          <p>Geography &amp; Geospatial Science</p>
+          <p><em>Educating in...</em>Geography &amp; Geospatial Science</p>
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.jpg'); background-color: #001a17;">
-          <p>Environmental Data Science</p>
+          <p><em>Seeking work in...</em>Environmental Data Science</p>
         </div>
     </div>
 
@@ -918,7 +927,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","loop":false});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

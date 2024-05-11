@@ -129,7 +129,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         
         .carousel__item {
           height: auto;
-          min-height: 280px;
+          min-height: 250px;
           width: 100%;
           padding: 1em;
           font-weight: 700;
@@ -145,12 +145,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         
         .carousel__item p {
           background: rgba(255,255,255,0.8);
-          padding: 5px;
+          padding: 10px 5px;
           border-radius: 0.25em;
           max-width: 900px;
           margin: 0 auto 1em auto;
           animation: fadeIn 100ms forwards;
+          line-height: 1.2;
         }
+        
         
         @keyframes fadeIn {
             from {
@@ -159,6 +161,13 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             to {
                 opacity: 1;
             }
+        }
+        
+        .carousel__item em {
+          display: block;
+          font-size: 20px;
+          font-weight: 400;
+          color: #0b7366;
         }
         
         .carousel__item--selected {
@@ -173,7 +182,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           bottom: 0;
           left: 0;
           text-align: center;
-          background-color: #00231f;
+          background-color: rgba(0,0,0,0.8);
         }
         
         .carousel__button {
@@ -210,14 +219,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </head>
 <body class="nav-sidebar floating nav-fixed">
     <div class="carousel">
-        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2449/KSC-05pd2449~medium.jpg'); background-color: #001a17;">
-          <p>Conservation &amp; Wildlife Ecology</p>
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-20171214-PH_SWW01_0002/KSC-20171214-PH_SWW01_0002~medium.jpg'); background-color: #001a17;">
+          <p><em>Expertise in...</em>Conservation &amp; Wildlife Ecology</p>
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;">
-          <p>Geography &amp; Geospatial Science</p>
+          <p><em>Educating in...</em>Geography &amp; Geospatial Science</p>
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.jpg'); background-color: #001a17;">
-          <p>Environmental Data Science</p>
+          <p><em>Seeking work in...</em>Environmental Data Science</p>
         </div>
     </div>
 
@@ -437,7 +446,16 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On This Page:</h2>
+   
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#workflow-in-zotero" id="toc-workflow-in-zotero" class="nav-link" data-scroll-target="#workflow-in-zotero">Workflow in Zotero</a></li>
+  <li><a href="#workflow-in-quarto" id="toc-workflow-in-quarto" class="nav-link" data-scroll-target="#workflow-in-quarto">Workflow in Quarto</a></li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -489,7 +507,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </header>
 
 
-<div class="content-800">
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
 <p>An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
@@ -514,7 +531,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <p>Once you have your literature in Zotero you can review each article as you normally would. While doing so, add in notes and annotations that summarize the main findings, key terms, important methods, and so forth. An important note about this workflow is that each comment or annotation made on an article must be stored as an individual note item. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-zotero-item.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
+<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
 <figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
 </figure>
 </div>
@@ -770,13 +787,12 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
 <p>This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined.</p>
 <p>If you are interested in other cool ways to handle citations and bibliographies in Quarto, I highly suggest checking out the website of <a href="https://www.andrewheiss.com/blog/index.html#category=citations">Andrew Heiss</a>. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
-</section>
-</div>
 
 
 <div class="hidden" aria-hidden="true">
 <span class="glightbox-desc lightbox-desc-1">Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</span>
 </div>
+</section>
 
 <div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas" role="listitem">
 Tjepkes, Benjamin. 2024. <span>“Create Annotated Bibliographies with
@@ -1227,7 +1243,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -25,6 +25,7 @@ listing:
     filter-ui: [title, subtitle, description, category]
     sort-ui: [title, date, category]
     max-description-length: 100
+    categories: numbered
     fields: 
       - title
       - description

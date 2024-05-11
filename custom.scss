@@ -165,6 +165,7 @@ h2 {
   margin-left: -0.15vw;
   border-bottom: solid #e6e5e0 3px;
   text-align: left;
+  font-weight: 500;
 }
 
 h3 {
@@ -286,6 +287,7 @@ dd {
 	background: #00231f;
   background-image: url("assets/noise.png");
 	height: 55px;
+	border-bottom: solid 1px #f0f0ec;
   }
 
 .navbar-brand span {
@@ -493,7 +495,7 @@ color: #000;
 
 
 .mt-2 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 991.98px) {
@@ -558,10 +560,10 @@ color: #000;
 
 
 #title-block-header {
-  padding: 15px 0px;
+  padding: 15px 3px;
   border-top: solid #0b7366 5px;
   border-bottom: solid #0b7366 5px;
-  margin-block-end: 1.7em !important;
+  margin-block-end: 2em !important;
 }
 
 /*
