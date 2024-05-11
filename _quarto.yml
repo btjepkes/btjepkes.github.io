@@ -28,7 +28,7 @@ website:
     version: 4
   navbar:
     logo: "assets/layer-group-solid.svg"
-    pinned: true
+    pinned: false
     right:
       - href: about/index.qmd
         text: About
