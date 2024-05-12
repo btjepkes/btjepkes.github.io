@@ -13,7 +13,7 @@ listing:
     grid-columns: 3
     image-height: 200px
     max-description-length: 100
-    categories: false
+    categories: numbered
     sort: "date"
     filter-ui: true  
     sort-ui: true

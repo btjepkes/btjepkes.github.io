@@ -136,6 +136,8 @@ $progress-height:               .5rem !default;
 
 @import url('https://fonts.googleapis.com/css?family=Exo+2:wght@400;700;900');
 
+@import url('https://fonts.googleapis.com/css?family=Lora:wght@400;700;900');
+
 // Typography
 
 body {
@@ -204,6 +206,7 @@ h3 {
   font-family: Montserrat;
   font-size: 17px !important;
   font-weight: 500;
+  color: gray;
 }
 
 .description a {
@@ -284,16 +287,16 @@ dd {
 
 .navbar {
   box-shadow: 0 0 32px rgba(15, 23, 42, 0.25);
-	background: #00231f;
-  background-image: url("assets/noise.png");
-	height: 55px;
-	border-bottom: solid 1px #f0f0ec;
+  background-color: #00231f;
+  background-image: url("assets/repeatable-treeline.png");
+  background-position: center 45%;
+	border-bottom: solid 0px #f0f0ec;
   }
 
 .navbar-brand span {
   font-weight: 400 !important;
   letter-spacing: 0.02em;
-  font-size: 1.70rem;
+  font-size: 1.90rem;
   color: #fbfbfc;
   font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
@@ -303,18 +306,25 @@ dd {
 .navbar-logo {
   padding: 1px;
   margin: 0 0 0 0.2em;
-  max-height: 38px;
+  max-height: 30px;
   height: 30px;
   border-radius: 2px;
   filter: invert(100%);
   }
+  
+  .fa-layer-group {
+      color: #a1cb2c;
+      padding: 0 6px 0 6px;
+    }
+  
 
 /*.nav-link span {
   background: #00231f;
 }*/
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
---bs-gutter-x: 0.1rem;
+  --bs-gutter-x: 0.1rem;
+  flex-direction: column;
 }
 
 .navbar-toggler-icon {
@@ -336,8 +346,12 @@ dd {
 @media (max-width: 991.98px) {
   
   .navbar {
-      padding-left: 0em !important;
+      padding-left: 0.2em !important;
 	    padding-right: 0 !important;
+    }
+    
+    .navbar-brand span {
+      font-size: 26px !important;
     }
   
   /* Social media icons */
@@ -390,20 +404,16 @@ dd {
 
 
 
-// SIDEBAR
+// SIDEBAR - RIGHT
 
-.sidebar {
-  background: #f0f0ec;
-}
-
-.sidebar-section .depth2 {
-  display: none;
-}
-
+/*.sidebar {
+  background-color: #e6e5e0;
+  background-image: url("assets/noise.png");
+}*/
 
 .sidebar a.active {
     opacity: 1.0;
-    font-weight: 600;
+    color: #0b7366;
   }
 
 
@@ -458,9 +468,9 @@ dd {
     padding-top: 0;
     }
 
-.bi-layout-text-sidebar-reverse::before {
+/*.bi-layout-text-sidebar-reverse::before {
   content: "\F474";
-}
+}*/
 
 .bi-search::before {
   content: "\f52a";
@@ -561,8 +571,8 @@ color: #000;
 
 #title-block-header {
   padding: 15px 3px;
-  border-top: solid #0b7366 5px;
-  border-bottom: solid #0b7366 5px;
+  border-top: solid #0b7366 3px;
+  border-bottom: solid #0b7366 3px;
   margin-block-end: 2em !important;
 }
 
@@ -828,7 +838,7 @@ figure > figcaption {
 }
 
 main {
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 
@@ -855,27 +865,7 @@ div.quarto-post .metadata {
 }
 
 
-/* INDEX features */
-
-.features {
-  padding-top: 0em;
-  padding-bottom: 2em;
-}
-
-.feature {
-  margin-top: 20px;
-  padding: 10px 10px 20px 30px;
-  border-radius: 0px;
-  border: solid 6px #d3d3d3;
-  align-items: center;
-  background-color: #ffffff;
-  background-image: url("assets/bg-topo-white.png");
-  background-attachment: fixed;
-  background-size: cover;
-  background-blend-mode: difference;
-}
-
-@media (hover: hover) {
+/*@media (hover: hover) {
 .quarto-grid-item:hover {
     color: inherit;
     transition: width, height, 0.1s ease-in-out;
@@ -883,7 +873,7 @@ div.quarto-post .metadata {
     box-shadow: 0 2px 5px rgba(0,0,0,.38);
     transform: scale(1.005);
 }}
-
+*/
 
 
 

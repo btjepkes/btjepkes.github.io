@@ -4,15 +4,45 @@
     <meta charset="UTF-8" />
     <title>title</title>
     <style>
+      .dashed-line {
+        position: relative;
+        height: 30px;
+        width: 100%;
+        display: block;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAzCAYAAAC0e3lWAAABT0lEQVQ4T5WUS0tCURRGr6HRoIIoqOgxqUkNougB9u6Pp6WDsgf0IiJQCooGGUE1aCC0PrhHzt3tJIWF5+7luR73vp+5JEl6oQgH0H7l0tUO70fwHUwQ8xS+4MGKYQozULNC1xtwCR+6CLfSWjt64N6KfgpLULFC16vQgNf4VhLTMAjXVvRRXINDK7RrD6qe0I47Tywi3j0xh8h7YgVR98Q2omZFIe1Z2YpRxAScW7GgdsBzLDTiLShDKxZTFMbgxHa33dlYZGYRi8z0YpGZdxB5Fvq1+yqEl06lialxx1aMUxiBKyvWKbxA3YpJCgNwa8UQBR331IqOMdhNd3zGx9VaMVDx0YqOMdjk0xfwKwazFNUJNwZ62Kr6HjtzDUsdaHoxUBduuo5BpesYvP0Vg4InljlV498x0BOj57fkxUCjPvNi0EQ8xUJp0h9aCVo/o4FBKG9s+uwAAAAASUVORK5CYII=);
+        background-repeat: repeat-x;
+        background-position: top;
+        background-color: #f0f0ec;
+        opacity: 0.7;
+      }
+      
+      .carousel-container {
+        display: flex;
+        position: relative;
+        margin: 0 0 0 0;
+        height: auto;
+        width: 100%;
+      }
+      
+      
       .carousel {
           position: relative;
           margin: 0 0 0 0;
+          display: flex;
+          flex-direction: column;
+          width: calc(100% / 3);
+        }
+        
+        .carousel__content {
+          background: #ffffff;
+          text-align: center;
+          border-left: solid 1px #dbdbd9;
+          
+          p {margin: 0 auto;}
+          
         }
         
         .carousel__item {
-          height: auto;
-          min-height: 250px;
-          width: 100%;
           padding: 1em;
           font-weight: 700;
           font-size: 2em;
@@ -21,26 +51,9 @@
           display: none;
           background-size: cover;
           background-position: center;
-          box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);
+          box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+          min-height: 150px;
         }
-        
-        .carousel__item p {
-          background: rgba(255,255,255,0.8);
-          padding: 10px 5px;
-          border-radius: 0.25em;
-          max-width: 600px;
-          margin: 1em 3em 1em auto;
-          animation: fadeIn 100ms forwards;
-          line-height: 1.2;
-        }
-        
-        @media (max-width: 1000px) {
-          
-        .carousel__item p {
-          margin: 0 auto 1em auto;
-        }
-        }
-        
         
         @keyframes fadeIn {
             from {
@@ -51,12 +64,6 @@
             }
         }
         
-        .carousel__item em {
-          display: block;
-          font-size: 20px;
-          font-weight: 400;
-          color: #0b7366;
-        }
         
         .carousel__item--selected {
           display: block;
@@ -88,16 +95,47 @@
     </style>
 </head>
 <body>
+  <div class="carousel-container">
     <div class="carousel">
-        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-20171214-PH_SWW01_0002/KSC-20171214-PH_SWW01_0002~medium.jpg'); background-color: #001a17;">
-          <p><em>Expertise in...</em>Conservation & Wildlife Ecology</p>
+        <div class="carousel__content">
+          <p>Conservation & Wildlife Ecology</p>
+        </div>
+        <div class="carousel__item" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/33/Jasper_Dwayne_Reilander-4.jpg'); background-color: #001a17;">
+        </div>
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
+        </div>
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-20201028-PH-JBS02_0128/KSC-20201028-PH-JBS02_0128~medium.jpg'); background-color: #001a17;">
+        </div>
+
+    </div>
+    
+        <div class="carousel">
+        <div class="carousel__content">
+          <p>Remote Sensing & Geospatial Science</p>
+        </div> 
+          
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001234/GSFC_20171208_Archive_e001234~medium.jpg'); background-color: #001a17;">
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;">
-          <p><em>Educating in...</em>Geography & Geospatial Science</p>
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.jpg'); background-color: #001a17;">
-          <p><em>Seeking work in...</em>Environmental Data Science</p>
         </div>
+
+    </div>
+        <div class="carousel">
+        <div class="carousel__content">
+          <p>Environmental Data Science</p>
+        </div>  
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002033/GSFC_20171208_Archive_e002033~medium.jpg'); background-color: #001a17;">
+        </div>
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
+        </div>
+        <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.jpg'); background-color: #001a17;">
+        </div>
+
+    </div>
+   </div> 
+    <div class="dashed-line">
     </div>
 </body>
 <script>

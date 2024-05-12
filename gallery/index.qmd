@@ -17,55 +17,11 @@ listing:
     sort: "date desc"
     page-size: 60
     image-height: 200px
+    categories: cloud
     #filter-ui: [title, subtitle, categories, abstract]
     fields:
         - image
         - title
-  # - id: gallery-listings-maps
-  #   contents: "*.qmd"
-  #   include:
-  #     categories: Map Gallery
-  #   type: grid
-  #   grid-columns: 3
-  #   max-items: 16
-  #   grid-item-border: true
-  #   sort: "date desc"
-  #   image-height: 300px
-  #   # sort-ui: [title, date]
-  #   # filter-ui: [title, subtitle, categories, abstract]
-  #   fields:
-  #       - image
-  #       - title
-  # - id: gallery-listings-dataviz
-  #   contents: "*.qmd"
-  #   include:
-  #     categories: Data Gallery
-  #   type: grid
-  #   grid-columns: 3
-  #   max-items: 4
-  #   grid-item-border: true
-  #   sort: "date desc"
-  #   image-height: 300px
-  #   # sort-ui: [title, date]
-  #   # filter-ui: [title, subtitle, categories, abstract]
-  #   fields:
-  #       - image
-  #       - title
-  # - id: gallery-listings-posters
-  #   contents: "*.qmd"
-  #   include:
-  #     categories: [Poster Gallery, Report Gallery]
-  #   type: grid
-  #   grid-columns: 3
-  #   page-size: 50
-  #   grid-item-border: true
-  #   sort: "date"
-  #   image-height: 300px
-  #   # sort-ui: [title, date]
-  #   # filter-ui: [title, subtitle, categories, abstract]
-  #   fields:
-  #       - image
-  #       - title
 ---
 
 <!-- Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me. In addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects. My most technical, but equally as creative, projects surround the creation of posters, talks, and reports for scientific conferences or other professional venues. -->

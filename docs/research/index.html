@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -107,15 +107,45 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <script src="../site_libs/leaflet-binding-2.2.1/leaflet.js"></script><script src="../site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script><script src="../site_libs/leaflet-providers-plugin-2.2.1/leaflet-providers-plugin.js"></script><meta charset="UTF-8">
 <title>title</title>
 <style>
+      .dashed-line {
+        position: relative;
+        height: 30px;
+        width: 100%;
+        display: block;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAzCAYAAAC0e3lWAAABT0lEQVQ4T5WUS0tCURRGr6HRoIIoqOgxqUkNougB9u6Pp6WDsgf0IiJQCooGGUE1aCC0PrhHzt3tJIWF5+7luR73vp+5JEl6oQgH0H7l0tUO70fwHUwQ8xS+4MGKYQozULNC1xtwCR+6CLfSWjt64N6KfgpLULFC16vQgNf4VhLTMAjXVvRRXINDK7RrD6qe0I47Tywi3j0xh8h7YgVR98Q2omZFIe1Z2YpRxAScW7GgdsBzLDTiLShDKxZTFMbgxHa33dlYZGYRi8z0YpGZdxB5Fvq1+yqEl06lialxx1aMUxiBKyvWKbxA3YpJCgNwa8UQBR331IqOMdhNd3zGx9VaMVDx0YqOMdjk0xfwKwazFNUJNwZ62Kr6HjtzDUsdaHoxUBduuo5BpesYvP0Vg4InljlV498x0BOj57fkxUCjPvNi0EQ8xUJp0h9aCVo/o4FBKG9s+uwAAAAASUVORK5CYII=);
+        background-repeat: repeat-x;
+        background-position: top;
+        background-color: #f0f0ec;
+        opacity: 0.7;
+      }
+      
+      .carousel-container {
+        display: flex;
+        position: relative;
+        margin: 0 0 0 0;
+        height: auto;
+        width: 100%;
+      }
+      
+      
       .carousel {
           position: relative;
           margin: 0 0 0 0;
+          display: flex;
+          flex-direction: column;
+          width: calc(100% / 3);
+        }
+        
+        .carousel__content {
+          background: #ffffff;
+          text-align: center;
+          border-left: solid 1px #dbdbd9;
+          
+          p {margin: 0 auto;}
+          
         }
         
         .carousel__item {
-          height: auto;
-          min-height: 250px;
-          width: 100%;
           padding: 1em;
           font-weight: 700;
           font-size: 2em;
@@ -124,26 +154,9 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           display: none;
           background-size: cover;
           background-position: center;
-          box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);
+          box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+          min-height: 150px;
         }
-        
-        .carousel__item p {
-          background: rgba(255,255,255,0.8);
-          padding: 10px 5px;
-          border-radius: 0.25em;
-          max-width: 600px;
-          margin: 1em 3em 1em auto;
-          animation: fadeIn 100ms forwards;
-          line-height: 1.2;
-        }
-        
-        @media (max-width: 1000px) {
-          
-        .carousel__item p {
-          margin: 0 auto 1em auto;
-        }
-        }
-        
         
         @keyframes fadeIn {
             from {
@@ -154,12 +167,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             }
         }
         
-        .carousel__item em {
-          display: block;
-          font-size: 20px;
-          font-weight: 400;
-          color: #0b7366;
-        }
         
         .carousel__item--selected {
           display: block;
@@ -192,7 +199,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta property="og:title" content="My Research | B.W. Tjepkes">
 <meta property="og:description" content="Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques aimed at applied conservation. This research has expanded both my technical skillset and my appreciation for science.">
 <meta property="og:image" content="https://btjepkes.github.io/assets/bg-pines-research-gray-sm.png">
-<meta property="og:site_name" content="B.W. TJEPKES">
+<meta property="og:site_name" content="PORTFOLIO {{< fa solid layer-group size=1.2x >}} B.W. TJEPKES">
 <meta property="og:image:height" content="300">
 <meta property="og:image:width" content="1000">
 <meta property="og:image:alt" content="Image-of-pine-trees-on-blue-background.">
@@ -206,16 +213,47 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta name="twitter:card" content="summary_large_image">
 </head>
 <body class="nav-sidebar floating nav-fixed">
+  <div class="carousel-container">
     <div class="carousel">
-        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-20171214-PH_SWW01_0002/KSC-20171214-PH_SWW01_0002~medium.jpg'); background-color: #001a17;">
-          <p><em>Expertise in...</em>Conservation &amp; Wildlife Ecology</p>
+        <div class="carousel__content">
+          <p>Conservation &amp; Wildlife Ecology</p>
+        </div>
+        <div class="carousel__item" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/33/Jasper_Dwayne_Reilander-4.jpg'); background-color: #001a17;">
+        </div>
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
+        </div>
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-20201028-PH-JBS02_0128/KSC-20201028-PH-JBS02_0128~medium.jpg'); background-color: #001a17;">
+        </div>
+
+    </div>
+    
+        <div class="carousel">
+        <div class="carousel__content">
+          <p>Remote Sensing &amp; Geospatial Science</p>
+        </div> 
+          
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001234/GSFC_20171208_Archive_e001234~medium.jpg'); background-color: #001a17;">
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;">
-          <p><em>Educating in...</em>Geography &amp; Geospatial Science</p>
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.jpg'); background-color: #001a17;">
-          <p><em>Seeking work in...</em>Environmental Data Science</p>
         </div>
+
+    </div>
+        <div class="carousel">
+        <div class="carousel__content">
+          <p>Environmental Data Science</p>
+        </div>  
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002033/GSFC_20171208_Archive_e002033~medium.jpg'); background-color: #001a17;">
+        </div>
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
+        </div>
+        <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.jpg'); background-color: #001a17;">
+        </div>
+
+    </div>
+   </div> 
+    <div class="dashed-line">
     </div>
 
 <script>
@@ -312,10 +350,8 @@ window.Quarto = {
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/layer-group-solid.svg" alt="" class="navbar-logo"></a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">B.W. TJEPKES</span>
+    <span class="navbar-title">PORTFOLIO <i class="fa-solid fa-layer-group fa-1.2x" aria-label="layer-group"></i> B.W. TJEPKES</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -447,7 +483,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Avian">Avian <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Geospatial">Geospatial <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Graduate">Graduate <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mammal">Mammal <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Undergraduate">Undergraduate <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Wildlife">Wildlife <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Wisconsin">Wisconsin <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Wyoming">Wyoming <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title d-none d-lg-block">My Research</h1>
@@ -591,8 +627,8 @@ No matching items
 <p>I am fortunate to have worked extensively across the Midwestern United States on a diversity of projects. The map below displays my research influence across this region where I have conducted research.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-a77136278edc9f81eaa9" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-a77136278edc9f81eaa9">{"x":{"options":{"minZoom":5,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldPhysical",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-105.6915945157442,-105.6904056084356,-105.5125353113342,-105.5137242186426,-105.6915945157442],"lat":[41.35363282453523,41.2735797324317,41.27622137050747,41.35627446261094,41.35363282453523]}]],[[{"lng":[-89.57576979606011,-89.57564046102686,-89.55052309264897,-89.55065242768217,-89.57576979606011],"lat":[44.54120518516129,44.5319218038851,44.53227173626186,44.54155511753805,44.54120518516129]}]],[[{"lng":[-89.56305724751047,-89.56320249569586,-89.52976952387587,-89.52962427569059,-89.56305724751047],"lat":[45.50496189382352,45.47954346138715,45.47935241583372,45.50477084827014,45.50496189382352]}]],[[{"lng":[-88.46331245690362,-88.66117503279656,-88.66090060906271,-88.46303803316988,-88.46331245690362],"lat":[44.70288067732508,44.70263179358199,44.48446492521583,44.48471380895916,44.70288067732508]}]],[[{"lng":[-91.66303376395145,-92.14179806988818,-90.42501415622883,-89.96359103907797,-91.66303376395145],"lat":[44.56818866770678,44.40895209026957,41.64841752646682,41.80103745028565,44.56818866770678]}]],[[{"lng":[-95.21094848684334,-83.43923625871678,-83.43923625871678,-95.21094848684334,-95.21094848684334],"lat":[34.3370168884088,34.3370168884088,39.49102296763046,39.49102296763046,34.3370168884088]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,["Laramie, WY","Schmeekle Reserve, Stevens Point, WI","Treehaven, Tomahawk, WI","Lower Wolf River Bottomlands Natural Resources Area, WI","Upper Mississippi River National Fish and Wildlife Refuge","Central Hardwood Bird Conservation Region"],{"interactive":false,"permanent":false,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"setMaxBounds","args":[24.33702,-125.69159,50.50496,-63.43924]}],"limits":{"lat":[34.3370168884088,45.50496189382352],"lng":[-105.6915945157442,-83.43923625871678]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-531b09868a26506acf46" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-531b09868a26506acf46">{"x":{"options":{"minZoom":5,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldPhysical",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-105.6915945157442,-105.6904056084356,-105.5125353113342,-105.5137242186426,-105.6915945157442],"lat":[41.35363282453523,41.2735797324317,41.27622137050747,41.35627446261094,41.35363282453523]}]],[[{"lng":[-89.57576979606011,-89.57564046102686,-89.55052309264897,-89.55065242768217,-89.57576979606011],"lat":[44.54120518516129,44.5319218038851,44.53227173626186,44.54155511753805,44.54120518516129]}]],[[{"lng":[-89.56305724751047,-89.56320249569586,-89.52976952387587,-89.52962427569059,-89.56305724751047],"lat":[45.50496189382352,45.47954346138715,45.47935241583372,45.50477084827014,45.50496189382352]}]],[[{"lng":[-88.46331245690362,-88.66117503279656,-88.66090060906271,-88.46303803316988,-88.46331245690362],"lat":[44.70288067732508,44.70263179358199,44.48446492521583,44.48471380895916,44.70288067732508]}]],[[{"lng":[-91.66303376395145,-92.14179806988818,-90.42501415622883,-89.96359103907797,-91.66303376395145],"lat":[44.56818866770678,44.40895209026957,41.64841752646682,41.80103745028565,44.56818866770678]}]],[[{"lng":[-95.21094848684334,-83.43923625871678,-83.43923625871678,-95.21094848684334,-95.21094848684334],"lat":[34.3370168884088,34.3370168884088,39.49102296763046,39.49102296763046,34.3370168884088]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,["Laramie, WY","Schmeekle Reserve, Stevens Point, WI","Treehaven, Tomahawk, WI","Lower Wolf River Bottomlands Natural Resources Area, WI","Upper Mississippi River National Fish and Wildlife Refuge","Central Hardwood Bird Conservation Region"],{"interactive":false,"permanent":false,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"setMaxBounds","args":[24.33702,-125.69159,50.50496,-63.43924]}],"limits":{"lat":[34.3370168884088,45.50496189382352],"lng":[-105.6915945157442,-83.43923625871678]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 

@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -117,15 +117,45 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <meta charset="UTF-8">
     <title>title</title>
     <style>
+      .dashed-line {
+        position: relative;
+        height: 30px;
+        width: 100%;
+        display: block;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAzCAYAAAC0e3lWAAABT0lEQVQ4T5WUS0tCURRGr6HRoIIoqOgxqUkNougB9u6Pp6WDsgf0IiJQCooGGUE1aCC0PrhHzt3tJIWF5+7luR73vp+5JEl6oQgH0H7l0tUO70fwHUwQ8xS+4MGKYQozULNC1xtwCR+6CLfSWjt64N6KfgpLULFC16vQgNf4VhLTMAjXVvRRXINDK7RrD6qe0I47Tywi3j0xh8h7YgVR98Q2omZFIe1Z2YpRxAScW7GgdsBzLDTiLShDKxZTFMbgxHa33dlYZGYRi8z0YpGZdxB5Fvq1+yqEl06lialxx1aMUxiBKyvWKbxA3YpJCgNwa8UQBR331IqOMdhNd3zGx9VaMVDx0YqOMdjk0xfwKwazFNUJNwZ62Kr6HjtzDUsdaHoxUBduuo5BpesYvP0Vg4InljlV498x0BOj57fkxUCjPvNi0EQ8xUJp0h9aCVo/o4FBKG9s+uwAAAAASUVORK5CYII=);
+        background-repeat: repeat-x;
+        background-position: top;
+        background-color: #f0f0ec;
+        opacity: 0.7;
+      }
+      
+      .carousel-container {
+        display: flex;
+        position: relative;
+        margin: 0 0 0 0;
+        height: auto;
+        width: 100%;
+      }
+      
+      
       .carousel {
           position: relative;
           margin: 0 0 0 0;
+          display: flex;
+          flex-direction: column;
+          width: calc(100% / 3);
+        }
+        
+        .carousel__content {
+          background: #ffffff;
+          text-align: center;
+          border-left: solid 1px #dbdbd9;
+          
+          p {margin: 0 auto;}
+          
         }
         
         .carousel__item {
-          height: auto;
-          min-height: 250px;
-          width: 100%;
           padding: 1em;
           font-weight: 700;
           font-size: 2em;
@@ -134,26 +164,9 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           display: none;
           background-size: cover;
           background-position: center;
-          box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);
+          box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+          min-height: 150px;
         }
-        
-        .carousel__item p {
-          background: rgba(255,255,255,0.8);
-          padding: 10px 5px;
-          border-radius: 0.25em;
-          max-width: 600px;
-          margin: 1em 3em 1em auto;
-          animation: fadeIn 100ms forwards;
-          line-height: 1.2;
-        }
-        
-        @media (max-width: 1000px) {
-          
-        .carousel__item p {
-          margin: 0 auto 1em auto;
-        }
-        }
-        
         
         @keyframes fadeIn {
             from {
@@ -164,12 +177,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             }
         }
         
-        .carousel__item em {
-          display: block;
-          font-size: 20px;
-          font-weight: 400;
-          color: #0b7366;
-        }
         
         .carousel__item--selected {
           display: block;
@@ -202,7 +209,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta property="og:title" content="My Project Gallery | B.W. Tjepkes">
 <meta property="og:description" content="Works included here are from creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category below.">
 <meta property="og:image" content="https://btjepkes.github.io/assets/bg-pines-gallery-yellow-sm.png">
-<meta property="og:site_name" content="B.W. TJEPKES">
+<meta property="og:site_name" content="PORTFOLIO {{< fa solid layer-group size=1.2x >}} B.W. TJEPKES">
 <meta property="og:image:height" content="300">
 <meta property="og:image:width" content="1000">
 <meta property="og:image:alt" content="Image-of-pine-trees-on-blue-background.">
@@ -216,16 +223,47 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta name="twitter:card" content="summary_large_image">
 </head>
 <body class="nav-sidebar floating nav-fixed">
+  <div class="carousel-container">
     <div class="carousel">
-        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-20171214-PH_SWW01_0002/KSC-20171214-PH_SWW01_0002~medium.jpg'); background-color: #001a17;">
-          <p><em>Expertise in...</em>Conservation &amp; Wildlife Ecology</p>
+        <div class="carousel__content">
+          <p>Conservation &amp; Wildlife Ecology</p>
+        </div>
+        <div class="carousel__item" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/33/Jasper_Dwayne_Reilander-4.jpg'); background-color: #001a17;">
+        </div>
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
+        </div>
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-20201028-PH-JBS02_0128/KSC-20201028-PH-JBS02_0128~medium.jpg'); background-color: #001a17;">
+        </div>
+
+    </div>
+    
+        <div class="carousel">
+        <div class="carousel__content">
+          <p>Remote Sensing &amp; Geospatial Science</p>
+        </div> 
+          
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001234/GSFC_20171208_Archive_e001234~medium.jpg'); background-color: #001a17;">
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;">
-          <p><em>Educating in...</em>Geography &amp; Geospatial Science</p>
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.jpg'); background-color: #001a17;">
-          <p><em>Seeking work in...</em>Environmental Data Science</p>
         </div>
+
+    </div>
+        <div class="carousel">
+        <div class="carousel__content">
+          <p>Environmental Data Science</p>
+        </div>  
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002033/GSFC_20171208_Archive_e002033~medium.jpg'); background-color: #001a17;">
+        </div>
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
+        </div>
+        <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.jpg'); background-color: #001a17;">
+        </div>
+
+    </div>
+   </div> 
+    <div class="dashed-line">
     </div>
 
 <script>
@@ -331,11 +369,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/layer-group-solid.svg" alt="" class="navbar-logo">
-    </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">B.W. TJEPKES</span>
+    <span class="navbar-title">PORTFOLIO <i class="fa-solid fa-layer-group fa-1.2x" aria-label="layer-group"></i> B.W. TJEPKES</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -474,7 +509,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Africa"><span class="quarto-category-count category-cloud-1">Africa</span></div><div class="category" data-category="Asia"><span class="quarto-category-count category-cloud-1">Asia</span></div><div class="category" data-category="Avian"><span class="quarto-category-count category-cloud-1">Avian</span></div><div class="category" data-category="Canada"><span class="quarto-category-count category-cloud-1">Canada</span></div><div class="category" data-category="Choropleth"><span class="quarto-category-count category-cloud-1">Choropleth</span></div><div class="category" data-category="Climate"><span class="quarto-category-count category-cloud-1">Climate</span></div><div class="category" data-category="Contour"><span class="quarto-category-count category-cloud-1">Contour</span></div><div class="category" data-category="Data Gallery"><span class="quarto-category-count category-cloud-2">Data Gallery</span></div><div class="category" data-category="Dynamic/Web"><span class="quarto-category-count category-cloud-1">Dynamic/Web</span></div><div class="category" data-category="Endangered Species"><span class="quarto-category-count category-cloud-1">Endangered Species</span></div><div class="category" data-category="Forests"><span class="quarto-category-count category-cloud-1">Forests</span></div><div class="category" data-category="Furbearers"><span class="quarto-category-count category-cloud-1">Furbearers</span></div><div class="category" data-category="Hexbin"><span class="quarto-category-count category-cloud-1">Hexbin</span></div><div class="category" data-category="Location Suitability"><span class="quarto-category-count category-cloud-1">Location Suitability</span></div><div class="category" data-category="Mammal"><span class="quarto-category-count category-cloud-1">Mammal</span></div><div class="category" data-category="Map Gallery"><span class="quarto-category-count category-cloud-7">Map Gallery</span></div><div class="category" data-category="Minnesota"><span class="quarto-category-count category-cloud-1">Minnesota</span></div><div class="category" data-category="Mississippi River"><span class="quarto-category-count category-cloud-1">Mississippi River</span></div><div class="category" data-category="Missouri"><span class="quarto-category-count category-cloud-2">Missouri</span></div><div class="category" data-category="North America"><span class="quarto-category-count category-cloud-1">North America</span></div><div class="category" data-category="OpenStreetMap"><span class="quarto-category-count category-cloud-1">OpenStreetMap</span></div><div class="category" data-category="Pennsylvania"><span class="quarto-category-count category-cloud-1">Pennsylvania</span></div><div class="category" data-category="Poster Gallery"><span class="quarto-category-count category-cloud-1">Poster Gallery</span></div><div class="category" data-category="Report Gallery"><span class="quarto-category-count category-cloud-1">Report Gallery</span></div><div class="category" data-category="South America"><span class="quarto-category-count category-cloud-1">South America</span></div><div class="category" data-category="Talk Gallery"><span class="quarto-category-count category-cloud-1">Talk Gallery</span></div><div class="category" data-category="TidyTuesday2024"><span class="quarto-category-count category-cloud-1">TidyTuesday2024</span></div><div class="category" data-category="United States"><span class="quarto-category-count category-cloud-1">United States</span></div><div class="category" data-category="Watershed"><span class="quarto-category-count category-cloud-1">Watershed</span></div><div class="category" data-category="Wisconsin"><span class="quarto-category-count category-cloud-1">Wisconsin</span></div><div class="category" data-category="Wyoming"><span class="quarto-category-count category-cloud-1">Wyoming</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

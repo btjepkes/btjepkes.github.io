@@ -56,7 +56,6 @@ listing:
         path: "gallery/vertebrate-morphometrics-in-riparian-zones/index.qmd"
     type: table
     sort: date desc
-    grid-columns: 2
     filter-ui: false
     sort-ui: false
     grid-item-align: center
