@@ -177,6 +177,22 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__button--selected {
           background: rgba(255, 255, 255, 0.8);
         }
+        
+        @media (max-width: 991.98px) {
+          
+        .carousel-container {
+          flex-direction: column;
+        }
+        
+        .carousel {
+          width: 100%;
+        }
+        
+        .carousel__item {
+          min-height: 50px;
+        }
+          
+        }
     </style>
 <meta property="og:title" content="Small Mammal Response to Prescribed Fire | B.W. Tjepkes">
 <meta property="og:description" content="This undergraduate research project looked at the response of small mammals to prescribed burn activities in Schmeekle Reserve on the University of Wisconsin-Stevens Point campus.">
@@ -379,9 +395,9 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <a class="flex-grow-1 no-decor" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Small Mammal Response to Prescribed Fire</h1>
-        </a>     
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Small Mammal Response to Prescribed Fire</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -460,8 +476,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Small Mammal Response to Prescribed Fire</h1>
-<p class="subtitle lead">Small Mammal Response to Prescribed Fire</p>
+<h1 class="title">Small Mammal Response to Prescribed Fire</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Undergraduate</div>
     <div class="quarto-category">Mammal</div>
@@ -960,7 +975,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"descPosition":"bottom","openEffect":"zoom","selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

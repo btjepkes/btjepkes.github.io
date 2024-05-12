@@ -10,7 +10,7 @@ website:
   favicon: "assets/layer-group-solid.svg"
   # page-navigation: true
   back-to-top-navigation: false
-  bread-crumbs: false
+  bread-crumbs: true
   search:
     location: sidebar
     type: textbox
@@ -102,7 +102,7 @@ execute:
   freeze: true
 format:
   html:
-    subtitle: "{{< meta title >}}"
+    # subtitle: "{{< meta title >}}"
     author:
       - name: Benjamin Tjepkes
         orcid: 0009-0002-5524-2675

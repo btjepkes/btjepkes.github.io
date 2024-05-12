@@ -178,6 +178,22 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__button--selected {
           background: rgba(255, 255, 255, 0.8);
         }
+        
+        @media (max-width: 991.98px) {
+          
+        .carousel-container {
+          flex-direction: column;
+        }
+        
+        .carousel {
+          width: 100%;
+        }
+        
+        .carousel__item {
+          min-height: 50px;
+        }
+          
+        }
     </style>
 <meta property="og:title" content="Anthrome Map of the Upper Peninsula, MI | B.W. Tjepkes">
 <meta property="og:description" content="Visualizing a series of land-use change in the Upper Peninsula. This exploration was part of a recent assignment in my biogeography course where I was tasked to explore the biome and anthrome of a location I would like to live. Having selected the Upper Peninsula, here is a map of this region’s historic and current land-use.">
@@ -384,9 +400,9 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <a class="flex-grow-1 no-decor" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Anthrome Map of the Upper Peninsula, MI</h1>
-        </a>     
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Anthrome Map of the Upper Peninsula, MI</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -459,8 +475,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Anthrome Map of the Upper Peninsula, MI</h1>
-<p class="subtitle lead">Anthrome Map of the Upper Peninsula, MI</p>
+<h1 class="title">Anthrome Map of the Upper Peninsula, MI</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Map Gallery</div>
   </div>
@@ -492,7 +507,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-11</p>
+      <p class="date-modified">2024-05-12</p>
     </div>
   </div>
     
@@ -512,7 +527,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <p>The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome). Another portion of this assignment dealt with creating a <a href="../../gallery/michigan-climate-trends/index.html">climate profile for the region</a>. Data were downloaded from <a href="https://dataverse.harvard.edu/dataverse/anthromes_12K_DGG">Anthromes 12K DGG Datasets</a>. Figure production was completed in RStudio with several packages including <code>ggplot</code>, <code>ggspatial</code>, and <code>tidyverse</code>. Here is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-michigan-anthrome-map.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-michigan-anthrome-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-michigan-anthrome-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-michigan-anthrome-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -968,7 +983,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"descPosition":"bottom","openEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

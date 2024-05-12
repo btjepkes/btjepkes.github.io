@@ -178,6 +178,22 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__button--selected {
           background: rgba(255, 255, 255, 0.8);
         }
+        
+        @media (max-width: 991.98px) {
+          
+        .carousel-container {
+          flex-direction: column;
+        }
+        
+        .carousel {
+          width: 100%;
+        }
+        
+        .carousel__item {
+          min-height: 50px;
+        }
+          
+        }
     </style>
 <meta property="og:title" content="Plotting My GitHub Contributions in 2023 | B.W. Tjepkes">
 <meta property="og:description" content="This graphic summarizes my contributions to GitHub in 2023. While this was not my first year using GH, it was my first using it often, with most of my commits going towards the creation of this site.">
@@ -384,9 +400,9 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <a class="flex-grow-1 no-decor" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Plotting My GitHub Contributions in 2023</h1>
-        </a>     
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Plotting My GitHub Contributions in 2023</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -459,8 +475,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Plotting My GitHub Contributions in 2023</h1>
-<p class="subtitle lead">Plotting My GitHub Contributions in 2023</p>
+<h1 class="title">Plotting My GitHub Contributions in 2023</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Data Gallery</div>
     <div class="quarto-category">TidyTuesday2024</div>
@@ -493,7 +508,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-11</p>
+      <p class="date-modified">2024-05-12</p>
     </div>
   </div>
     
@@ -513,7 +528,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <p>This figure, inspired by the work of <a href="https://nrennie.rbind.io/"><span class="citation" data-cites="nrennie">@nrennie</span></a>, was created for Week 1 of the 2024 TidyTuesday. Data were downloaded from <a href="https://github.com/">GitHub</a> using the <code>gh</code> package in R. Figure production was completed in RStudio with several packages, including <code>ggplot</code>, <code>tidyverse</code>, and <code>showtext</code>. My entire workflow can be found on my project <a href="https://github.com/btjepkes/TidyTuesday_2024/tree/main/TT_2024_01">GH repo</a>. The resulting figure summarizes my <strong>660 commits</strong> in 2023 using a styled visualization replicated from the GitHub activity tracker.</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p class="page-columns page-full"><a href="img-gh-contributions-2023.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-gh-contributions-2023.png" class="column-body-outset img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p class="page-columns page-full"><a href="img-gh-contributions-2023.png" class="lightbox page-columns page-full" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-gh-contributions-2023.png" class="column-body-outset img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -969,7 +984,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

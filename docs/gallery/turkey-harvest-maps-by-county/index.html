@@ -176,6 +176,22 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__button--selected {
           background: rgba(255, 255, 255, 0.8);
         }
+        
+        @media (max-width: 991.98px) {
+          
+        .carousel-container {
+          flex-direction: column;
+        }
+        
+        .carousel {
+          width: 100%;
+        }
+        
+        .carousel__item {
+          min-height: 50px;
+        }
+          
+        }
     </style>
 <meta property="og:title" content="County-Based Turkey Harvest Maps | B.W. Tjepkes">
 <meta property="og:description" content="These maps were produced as public-facing visualizations for presentations by the Turkey and Grouse Program with the Missouri Department of Conservation. They show turkey harvest density within each Missouri county for the fall 2021 and spring 2022 seasons.">
@@ -382,9 +398,9 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <a class="flex-grow-1 no-decor" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">County-Based Turkey Harvest Maps</h1>
-        </a>     
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">County-Based Turkey Harvest Maps</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -464,7 +480,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">County-Based Turkey Harvest Maps</h1>
+<h1 class="title">County-Based Turkey Harvest Maps</h1>
 <p class="subtitle lead">Visualizing turkey harvest maps in fall 2021 and spring 2022.</p>
   <div class="quarto-categories">
     <div class="quarto-category">Map Gallery</div>
@@ -513,7 +529,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <h2 data-anchor-id="the-result">The Result</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-turkey-harvest-maps.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Turkey harvest maps. Credit: Ben Tjepkes"><img src="img-turkey-harvest-maps.png" class="img-fluid figure-img" alt="Turkey harvest maps. Credit: Ben Tjepkes"></a></p>
+<p><a href="img-turkey-harvest-maps.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Turkey harvest maps. Credit: Ben Tjepkes"><img src="img-turkey-harvest-maps.png" class="img-fluid figure-img" alt="Turkey harvest maps. Credit: Ben Tjepkes"></a></p>
 <figcaption>Turkey harvest maps. Credit: Ben Tjepkes</figcaption>
 </figure>
 </div>
@@ -970,7 +986,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false});
+<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
