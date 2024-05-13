@@ -1,7 +1,6 @@
 execute: 
   freeze: auto
 #description-meta: "{{< meta description >}}"
-subtitle: "{{< meta title >}}"
 citation: true
 appendix-style: plain
 appendix-cite-as: display

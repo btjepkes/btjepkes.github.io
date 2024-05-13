@@ -132,30 +132,30 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           position: relative;
           margin: 0 0 0 0;
           display: flex;
-          flex-direction: column;
-          width: calc(100% / 3);
+          flex-direction: row;
         }
         
         .carousel__content {
-          background: #ffffff;
+          background: rgba(255, 255, 255, 0.85);
           text-align: center;
           border-left: solid 1px #dbdbd9;
           
-          p {margin: 0 auto;}
+          p {margin: 0 auto; font-size: 22px; }
           
         }
         
         .carousel__item {
-          padding: 1em;
+          padding: 0em;
           font-weight: 700;
           font-size: 2em;
           text-align: center;
           color: #000000;
-          display: none;
+          opacity: 0.4;
           background-size: cover;
           background-position: center;
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
-          min-height: 150px;
+          min-height: 250px;
+          width: calc(100% / 3);
         }
         
         @keyframes fadeIn {
@@ -170,7 +170,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         
         .carousel__item--selected {
           display: block;
-          animation: fadeIn 2s;
+          animation: fadeIn 1.8s;
         }
         
         .carousel__nav {
@@ -197,17 +197,19 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         @media (max-width: 991.98px) {
-          
-        .carousel-container {
-          flex-direction: column;
-        }
         
         .carousel {
           width: 100%;
         }
         
         .carousel__item {
-          min-height: 50px;
+          min-height: 200px;
+          display: none;
+        }
+
+        .carousel__item--selected {
+          display: block;
+          width: 100%;
         }
           
         }
@@ -229,48 +231,26 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta name="twitter:card" content="summary_large_image">
 </head>
 <body class="nav-sidebar floating nav-fixed">
-  <div class="carousel-container">
     <div class="carousel">
-        <div class="carousel__content">
-          <p>Conservation &amp; Wildlife Ecology</p>
-        </div>
+
         <div class="carousel__item" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/33/Jasper_Dwayne_Reilander-4.jpg'); background-color: #001a17;">
+          <div class="carousel__content">
+            <p>Conservation &amp; Wildlife Ecology</p>
+          </div>
         </div>
-        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
-        </div>
-        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-20201028-PH-JBS02_0128/KSC-20201028-PH-JBS02_0128~medium.jpg'); background-color: #001a17;">
-        </div>
-
-    </div>
-    
-        <div class="carousel">
-        <div class="carousel__content">
-          <p>Remote Sensing &amp; Geospatial Science</p>
-        </div> 
-          
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001234/GSFC_20171208_Archive_e001234~medium.jpg'); background-color: #001a17;">
-        </div>
-        <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;">
-        </div>
-        <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.jpg'); background-color: #001a17;">
-        </div>
-
-    </div>
-        <div class="carousel">
-        <div class="carousel__content">
-          <p>Environmental Data Science</p>
-        </div>  
-        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002033/GSFC_20171208_Archive_e002033~medium.jpg'); background-color: #001a17;">
+          <div class="carousel__content">
+            <p>Remote Sensing &amp; Geospatial Science</p>
+          </div> 
         </div>
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
+          <div class="carousel__content">
+            <p>Environmental Data Science</p>
+          </div>  
         </div>
-        <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.jpg'); background-color: #001a17;">
-        </div>
-
     </div>
-   </div> 
-    <div class="dashed-line">
-    </div>
+  <div class="dashed-line">
+  </div>
 
 <script>
   document.querySelectorAll(".carousel").forEach((carousel) => {
@@ -320,13 +300,13 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   selectItem(0);
 
   // Set interval for automatic advancement
-  const intervalTime = 3000; // Change this to adjust the interval time in milliseconds
+  const intervalTime = 2000; // Change this to adjust the interval time in milliseconds
   let intervalId = setInterval(advanceCarousel, intervalTime);
 
   // Pause the carousel on mouse hover
-  carousel.addEventListener("mouseenter", () => {
+/*  carousel.addEventListener("mouseenter", () => {
       clearInterval(intervalId);
-  });
+  });*/
 
   // Resume the carousel on mouse leave
   carousel.addEventListener("mouseleave", () => {
@@ -531,7 +511,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-12</p>
+      <p class="date-modified">2024-05-13</p>
     </div>
   </div>
     
@@ -555,7 +535,7 @@ window.Quarto = {
 </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Undergraduate,Avian,Geospatial,Wildlife" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1714398802629" data-listing-date-modified-sort="1715490000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
+<div class="g-col-1" data-index="0" data-categories="Undergraduate,Avian,Geospatial,Wildlife" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1714398802629" data-listing-date-modified-sort="1715576400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
 <a href="../research/bald-eagle-nest-site-selection/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -594,7 +574,7 @@ Small Mammal Response to Prescribed Fire
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Undergraduate,Mammal,Wyoming" data-listing-date-sort="1684558800000" data-listing-file-modified-sort="1714749074704" data-listing-date-modified-sort="1715490000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
+<div class="g-col-1" data-index="3" data-categories="Undergraduate,Mammal,Wyoming" data-listing-date-sort="1684558800000" data-listing-file-modified-sort="1714749074704" data-listing-date-modified-sort="1715576400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
 <a href="../research/raccoon-space-use-and-home-ranges/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -607,7 +587,7 @@ Raccoon Space-Use and Home Ranges
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Graduate,Avian,Geospatial,Wildlife" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1715262432638" data-listing-date-modified-sort="1715490000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
+<div class="g-col-1" data-index="4" data-categories="Graduate,Avian,Geospatial,Wildlife" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1715262432638" data-listing-date-modified-sort="1715576400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
 <a href="../research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
