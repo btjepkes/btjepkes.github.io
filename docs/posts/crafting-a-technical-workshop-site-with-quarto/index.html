@@ -119,11 +119,13 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         .carousel__content {
-          background: rgba(255, 255, 255, 0.85);
+          background: rgba(255, 255, 255, 0.75);
           text-align: center;
           border-left: solid 1px #dbdbd9;
+          font-weight: 400;
+          font-size: 20px !important; 
           
-          p {margin: 0 auto; font-size: 22px; }
+          p {margin: 0 auto; }
           
         }
         
@@ -188,6 +190,11 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__item {
           min-height: 200px;
           display: none;
+        }
+        
+        .carousel__content p {
+          font-size: 18px !important;
+          padding: 3px;
         }
 
         .carousel__item--selected {
@@ -526,7 +533,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <p>The functioning website can be found <a href="https://btjepkes.github.io/WAFSGSO_2024_GIS/">here</a> and includes all the required data downloads.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-gis-workshop-site-preview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Screenshot of the GIS workshop site."><img src="img-gis-workshop-site-preview.png" class="img-fluid figure-img" alt="Screenshot of the GIS workshop site."></a></p>
+<p><a href="img-gis-workshop-site-preview.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Screenshot of the GIS workshop site."><img src="img-gis-workshop-site-preview.png" class="img-fluid figure-img" alt="Screenshot of the GIS workshop site."></a></p>
 <figcaption>Screenshot of the GIS workshop site.</figcaption>
 </figure>
 </div>
@@ -986,7 +993,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

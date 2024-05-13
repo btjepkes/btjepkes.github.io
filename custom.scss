@@ -576,9 +576,26 @@ color: #000;
 
 #title-block-header {
   margin-block-end: 2em !important;
-  border-bottom: double 14px darkgray;
-  padding-bottom: 24px;
 }
+
+
+#title-block-header::after {
+        content: "";
+        position: relative;
+        height: 30px;
+        width: 100%;
+        display: block;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAzCAYAAAC0e3lWAAABT0lEQVQ4T5WUS0tCURRGr6HRoIIoqOgxqUkNougB9u6Pp6WDsgf0IiJQCooGGUE1aCC0PrhHzt3tJIWF5+7luR73vp+5JEl6oQgH0H7l0tUO70fwHUwQ8xS+4MGKYQozULNC1xtwCR+6CLfSWjt64N6KfgpLULFC16vQgNf4VhLTMAjXVvRRXINDK7RrD6qe0I47Tywi3j0xh8h7YgVR98Q2omZFIe1Z2YpRxAScW7GgdsBzLDTiLShDKxZTFMbgxHa33dlYZGYRi8z0YpGZdxB5Fvq1+yqEl06lialxx1aMUxiBKyvWKbxA3YpJCgNwa8UQBR331IqOMdhNd3zGx9VaMVDx0YqOMdjk0xfwKwazFNUJNwZ62Kr6HjtzDUsdaHoxUBduuo5BpesYvP0Vg4InljlV498x0BOj57fkxUCjPvNi0EQ8xUJp0h9aCVo/o4FBKG9s+uwAAAAASUVORK5CYII=);
+        background-repeat: repeat-x;
+        background-position: top;
+        background-blend-mode: difference;
+        opacity: 0.7;
+        margin-top: 20px;
+        transform: rotate(180deg);
+      }
+
+
+
 
 /*
 .header-content-container {

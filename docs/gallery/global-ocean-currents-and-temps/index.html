@@ -118,11 +118,13 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         .carousel__content {
-          background: rgba(255, 255, 255, 0.85);
+          background: rgba(255, 255, 255, 0.75);
           text-align: center;
           border-left: solid 1px #dbdbd9;
+          font-weight: 400;
+          font-size: 20px !important; 
           
-          p {margin: 0 auto; font-size: 22px; }
+          p {margin: 0 auto; }
           
         }
         
@@ -187,6 +189,11 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__item {
           min-height: 200px;
           display: none;
+        }
+        
+        .carousel__content p {
+          font-size: 18px !important;
+          padding: 3px;
         }
 
         .carousel__item--selected {
@@ -959,7 +966,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
