@@ -135,11 +135,11 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           font-size: 2em;
           text-align: center;
           color: #000000;
-          opacity: 0.4;
+          opacity: 1.0;
           background-size: cover;
           background-position: center;
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
-          min-height: 250px;
+          min-height: 220px;
           width: calc(100% / 3);
         }
         
@@ -155,7 +155,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         
         .carousel__item--selected {
           display: block;
-          animation: fadeIn 1.8s;
+          /*animation: fadeIn 1.8s;*/
         }
         
         .carousel__nav {
@@ -168,13 +168,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         .carousel__button {
-          width: 10px;
-          height: 10px;
-          display: inline-block;
-          background: rgba(255, 255, 255, 0.5);
-          border-radius: 50%;
-          margin: 0 5px;
-          cursor: pointer;
+          display: none;
         }
         
         .carousel__button--selected {
@@ -200,6 +194,20 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__item--selected {
           display: block;
           width: 100%;
+        }
+        
+        .carousel__button {
+          width: 10px;
+          height: 10px;
+          display: inline-block;
+          background: rgba(255, 255, 255, 0.5);
+          border-radius: 50%;
+          margin: 0 5px;
+          cursor: pointer;
+        }
+        
+        .carousel__button--selected {
+          background: rgba(255, 255, 255, 0.8);
         }
           
         }
@@ -230,12 +238,17 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         </div>
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001234/GSFC_20171208_Archive_e001234~medium.jpg'); background-color: #001a17;">
           <div class="carousel__content">
-            <p>Remote Sensing &amp; Geospatial Science</p>
+            <p>Remote Sensing &amp; GIS</p>
           </div> 
         </div>
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
           <div class="carousel__content">
             <p>Environmental Data Science</p>
+          </div>  
+        </div>
+        <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;">
+          <div class="carousel__content">
+            <p>Biogeography</p>
           </div>  
         </div>
     </div>
@@ -290,7 +303,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   selectItem(0);
 
   // Set interval for automatic advancement
-  const intervalTime = 2000; // Change this to adjust the interval time in milliseconds
+  const intervalTime = 4000; // Change this to adjust the interval time in milliseconds
   let intervalId = setInterval(advanceCarousel, intervalTime);
 
   // Pause the carousel on mouse hover
@@ -516,7 +529,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <p>This map was created for <strong>Day 15</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “Open Street Map” for the main subject. Map creation was performed in R/Studio using the<code>ggplot</code> package. OpenStreeMap data for both bridges and largest cities were accessed via the <code>osmdata</code> package. The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database.</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p class="page-columns page-full"><a href="img-PA-bridge-map.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Final map of OSM bridges of PA."><img src="img-PA-bridge-map.png" class="column-body-outset img-fluid figure-img" alt="Final map of OSM bridges of PA."></a></p>
+<p class="page-columns page-full"><a href="img-PA-bridge-map.png" class="lightbox page-columns page-full" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Final map of OSM bridges of PA."><img src="img-PA-bridge-map.png" class="column-body-outset img-fluid figure-img" alt="Final map of OSM bridges of PA."></a></p>
 <figcaption>Final map of OSM bridges of PA.</figcaption>
 </figure>
 </div>
@@ -972,7 +985,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":false});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
