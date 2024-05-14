@@ -128,6 +128,35 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-site-listings-3 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      page: 30,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-site-listings-3'] = new List('listing-site-listings-3', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
@@ -628,7 +657,56 @@ in spatial ecology and GIS
 No matching items
 </div>
 </div>
-<div id="listing-site-listings-2" class="index-latest column-body-outset quarto-listing quarto-listing-container-table">
+<!-- ::: {#site-listings-2  .index-latest .column-body-outset} -->
+<!-- ::: -->
+<div class="index-latest-container column-body-outset">
+<div class="index-latest-column">
+<div id="listing-site-listings-2" class="index-latest-posts quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="R,Quarto" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1715347875253" data-listing-date-modified-sort="1715662800000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741" data-listing-title-sort="Converting PowerPoints to Reveal.js Format" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./posts/converting-powerpoints-to-revealjs/index.html" class="title listing-title">Converting PowerPoints to Reveal.js Format</a>
+</td>
+<td>
+<span class="listing-description">In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create…</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1714194000000" data-listing-file-modified-sort="1715351376179" data-listing-date-modified-sort="1715662800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="98" data-listing-title-sort="Crafting a GIS Workshop Site With Quarto" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./posts/crafting-a-technical-workshop-site-with-quarto/index.html" class="title listing-title">Crafting a GIS Workshop Site With Quarto</a>
+</td>
+<td>
+<span class="listing-description">This post provides an overview of a recent workshop site I made using Quarto and Github Pages, which covered basic and…</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1715394716224" data-listing-date-modified-sort="1715662800000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3944" data-listing-title-sort="Create Annotated Bibliographies with Quarto" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./posts/building-annotated-bibliographies-with-quarto/index.html" class="title listing-title">Create Annotated Bibliographies with Quarto</a>
+</td>
+<td>
+<span class="listing-description">In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using Zotero and…</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<div class="index-latest-column">
+<div id="listing-site-listings-3" class="index-latest-gallery quarto-listing quarto-listing-container-table">
 <table class="quarto-listing-table table">
 <thead>
 <tr>
@@ -657,25 +735,9 @@ Description
 <span class="listing-description">This presentation covers my proposed master’s thesis project, including the background literature, intended methods…</span>
 </td>
 </tr>
-<tr data-index="2" data-categories="R,Quarto" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1715347875253" data-listing-date-modified-sort="1715662800000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741" data-listing-title-sort="Converting PPTX to Reveal.js Format" data-listing-filename-sort="index.qmd">
+<tr data-index="2" data-categories="Data Gallery" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1714839439083" data-listing-date-modified-sort="1715662800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="66" data-listing-title-sort="Vertebrate Morphometrics In Riparian Zones" data-listing-filename-sort="index.qmd">
 <td>
-<a href="./posts/converting-powerpoints-to-revealjs/index.html" class="title listing-title">Converting PPTX to Reveal.js Format</a>
-</td>
-<td>
-<span class="listing-description">In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create…</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-date-sort="1714194000000" data-listing-file-modified-sort="1715351376179" data-listing-date-modified-sort="1715662800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="98" data-listing-title-sort="Crafting Technical Sites with Quarto" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./posts/crafting-a-technical-workshop-site-with-quarto/index.html" class="title listing-title">Crafting Technical Sites with Quarto</a>
-</td>
-<td>
-<span class="listing-description">This post provides an overview of a recent workshop site I made using Quarto and Github Pages, which covered basic and…</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="Data Gallery" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1714839439083" data-listing-date-modified-sort="1715662800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="66" data-listing-title-sort="Riparian Vertebrate Morphometrics" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./gallery/vertebrate-morphometrics-in-riparian-zones/index.html" class="title listing-title">Riparian Vertebrate Morphometrics</a>
+<a href="./gallery/vertebrate-morphometrics-in-riparian-zones/index.html" class="title listing-title">Vertebrate Morphometrics In Riparian Zones</a>
 </td>
 <td>
 <span class="listing-description">This graphic summarizes morphometric measurements of coastal giant salamanders and cutthroat trout between two…</span>
@@ -685,6 +747,8 @@ Description
 </table>
 <div class="listing-no-matching d-none">
 No matching items
+</div>
+</div>
 </div>
 </div>
 

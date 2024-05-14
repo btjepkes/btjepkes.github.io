@@ -45,25 +45,23 @@ listing:
       - title
       - subtitle
   - id: site-listings-2
-    contents:
-      - title: "Bird Observation Map Series in ArcPy"
-        path: "gallery/bird-observation-map-series//index.qmd"      
-      - title: "Master's Thesis Proposal Presentation"
-        path: "gallery/thesis-project-proposal-presentation/index.qmd"
-      - title: "Converting PPTX to Reveal.js Format"
-        path: "posts/converting-powerpoints-to-revealjs/index.qmd"
-      - title: "Crafting Technical Sites with Quarto"
-        path: "posts/crafting-a-technical-workshop-site-with-quarto/index.qmd"
-      - title: "Riparian Vertebrate Morphometrics"
-        path: "gallery/vertebrate-morphometrics-in-riparian-zones/index.qmd"
+    contents: "posts/*/*.qmd"
     type: table
     sort: date desc
     filter-ui: false
     sort-ui: false
-    grid-item-align: center
-    image-height: 200px
     max-description-length: 120
     fields: [title, description]
+    max-items: 3
+  - id: site-listings-3
+    contents: "gallery/*/*.qmd"
+    type: table
+    sort: date desc
+    filter-ui: false
+    sort-ui: false
+    max-description-length: 120
+    fields: [title, description]
+    max-items: 3
 ---
 ::: {#intro-section .column-body-outset}
 
@@ -77,6 +75,23 @@ Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my prof
 :::
 
 
-::: {#site-listings-2  .index-latest .column-body-outset}
+<!-- ::: {#site-listings-2  .index-latest .column-body-outset} -->
+<!-- ::: -->
+
+::: {.index-latest-container .column-body-outset}
+
+::: {.index-latest-column}
+
+::: {#site-listings-2  .index-latest-posts}
 :::
 
+:::
+  
+::: {.index-latest-column}
+
+::: {#site-listings-3  .index-latest-gallery}
+:::
+
+:::
+  
+:::

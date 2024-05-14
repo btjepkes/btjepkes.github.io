@@ -25,12 +25,13 @@
   }
 }
 
-.index-latest {
+.index-latest-posts,
+.index-latest-gallery {
   background-color: rgba(255,255,255,.6);
   background-image: url("assets/noise.png");
   border-radius: 0.25em;
   padding: 0.2em 1em;
-  margin-top: 1em;
+  margin-top: 0;
   margin-bottom: 0;
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
 }
@@ -39,12 +40,40 @@
   background: transparent;
 }
 
-.index-latest::before{
-  content: "My Latest Commits";
+.index-latest-posts::before{
+  content: "My Latest Posts";
   font-size: 1.5em;
   color: #252c3d;
   font-family: "Exo 2",sans-serif;
   line-height: 2.5;
+  text-align: left;
+}
+
+.index-latest-gallery::before{
+  content: "My Latest Projects";
+  font-size: 1.5em;
+  color: #252c3d;
+  font-family: "Exo 2",sans-serif;
+  line-height: 2.5;
+  text-align: left;
+}
+
+.index-latest-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.index-latest-column {
+  flex-basis: calc(50% - 10px);
+}
+
+@media (max-width: 1000px) {
+  .index-latest-column {
+    flex-basis: 100%;
+  }
 }
 
 
@@ -52,3 +81,4 @@
   padding-top: 10px !important;
   padding-bottom: 10px !important;
 }
+
