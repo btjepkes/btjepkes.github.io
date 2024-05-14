@@ -5,11 +5,13 @@ abstact: "Hello, my name is Ben Tjepkes and this is my online portfolio showcasi
 date-modified: today
 date: 2021-01-01
 image: "assets/img-ben-work.png"
-image-alt: "Image-of-trees."
+image-alt: "Image of Ben Tjepkes, the author."
 pagetitle: "Portfolio | B.W. Tjepkes"
 author-meta: Benjamin Tjepkes
 description-meta: "This is the porfolio and professional website of Benjamin Tjepkes."
 page-navigation: false
+toc: false
+sidebar: false
 format:
   html:
     css: index.css
@@ -37,7 +39,7 @@ listing:
         path: "resources/index.qmd"
     type: grid
     image-height: 100px
-    grid-columns: 2
+    grid-columns: 3
     grid-item-align: center
     fields:
       - title
@@ -65,32 +67,10 @@ listing:
 ---
 
 
-<!-- ```{=html} -->
-<!-- <!DOCTYPE html> -->
-<!-- <html> -->
-<!-- <head> -->
-<!--     <meta charset="UTF-8" /> -->
-<!--     <title>title</title> -->
-<!--     <link rel="stylesheet" type="text/css" href="carousel/main.css"> -->
-<!-- </head> -->
-<!-- <body> -->
-<!--     <div class="carousel"> -->
-<!--         <div class="carousel__item" style="background-image: url('assets/square-contour-background.png'); background-color: #001a17;">Wildlife Ecology</div> -->
-<!--         <div class="carousel__item" style="background-image: url('assets/square-contour-background.png'); background-color: #01231f;">Biogeography</div> -->
-<!--         <div class="carousel__item" style="background-image: url('assets/square-contour-background.png'); background-color: #001a17;">Geospatial Analysis</div> -->
-<!--         <div class="carousel__item" style="background-image: url('assets/square-contour-background.png'); background-color: #08221f;">Data Science & Reporting</div> -->
-<!--         <div class="carousel__item" style="background-image: url('assets/square-contour-background.png'); background-color: #001a17;">Cartography</div> -->
-<!--     </div> -->
-<!-- </body> -->
-<!-- <script src="carousel/main.js"></script> -->
-<!-- </html> -->
-<!-- ``` -->
-
-
-::: {#site-listings-1 }
+::: {#site-listings-1 .column-body-outset}
 :::
 
 
-::: {#site-listings-2  .index-latest}
+::: {#site-listings-2  .index-latest .column-body-outset}
 :::
 

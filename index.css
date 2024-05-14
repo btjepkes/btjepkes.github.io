@@ -1,4 +1,9 @@
 
+#title-block-header {
+  display: none !important;
+}
+
+
 #intro-section {
   text-align: center;
   font-weight: 300;
@@ -77,6 +82,6 @@
 
 
 .quarto-grid-item div.post-contents {
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
 }

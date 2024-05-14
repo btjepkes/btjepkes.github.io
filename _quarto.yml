@@ -38,10 +38,10 @@ website:
         text: Posts
       - href: gallery/index.qmd
         text: Gallery
+      - href: research/index.qmd
+        text: Research        
       - href: resources/index.qmd
         text: Resources
-      - href: research/index.qmd
-        text: Research
       - text: "Links"
         menu:
         - text: "{{< fa brands linkedin size=1x >}} LinkedIn Profile"
