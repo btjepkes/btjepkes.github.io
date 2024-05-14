@@ -46,6 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -194,7 +197,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           background-size: cover;
           background-position: center;
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
-          min-height: 220px;
+          min-height: 200px;
           width: calc(100% / 3);
         }
         
@@ -286,12 +289,12 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <body class="nav-fixed fullcontent">
     <div class="carousel">
 
-        <div class="carousel__item" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/33/Jasper_Dwayne_Reilander-4.jpg'); background-color: #001a17;">
+        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
           <div class="carousel__content">
             <p>Conservation &amp; Wildlife Ecology</p>
           </div>
         </div>
-        <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001234/GSFC_20171208_Archive_e001234~medium.jpg'); background-color: #001a17;">
+        <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;">
           <div class="carousel__content">
             <p>Remote Sensing &amp; GIS</p>
           </div> 
@@ -531,6 +534,13 @@ window.Quarto = {
 </header>
 
 
+<div id="intro-section" class="column-body-outset">
+<p><a href="assets/img-ben-portrait-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/img-ben-portrait-2.jpg" class="index-headshot img-fluid"></a></p>
+<section id="a-dedicated-wildlife-ecologist-and-geospatial-scientist" class="level1">
+<h1>A dedicated wildlife ecologist and geospatial scientist…</h1>
+<p>Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am currently a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography. Thank you for stopping by my website!</p>
+</section>
+</div>
 <div id="listing-site-listings-1" class="column-body-outset quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1715362569431" data-listing-date-modified-sort="1715576400000" data-listing-reading-time-sort="3" data-listing-word-count-sort="455">
@@ -1127,6 +1137,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

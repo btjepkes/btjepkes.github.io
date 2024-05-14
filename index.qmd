@@ -65,7 +65,15 @@ listing:
     max-description-length: 120
     fields: [title, description]
 ---
+::: {#intro-section .column-body-outset}
 
+![](assets/img-ben-portrait-2.jpg){.index-headshot}
+
+# A dedicated wildlife ecologist and geospatial scientist...
+
+Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am currently a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography. Thank you for stopping by my website!
+
+:::
 
 ::: {#site-listings-1 .column-body-outset}
 :::
