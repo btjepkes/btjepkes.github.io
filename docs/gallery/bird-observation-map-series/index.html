@@ -8,7 +8,7 @@
 
 <meta name="author" content="Benjamin Tjepkes">
 <meta name="dcterms.date" content="2024-05-08">
-<meta name="description" content="This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python and Arcpy.">
+<meta name="description" content="This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python.">
 
 <title>Bird Observation Map Series in ArcPy | B.W. Tjepkes</title>
 <style>
@@ -178,7 +178,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         .carousel__item {
-          min-height: 200px;
+          min-height: 180px;
           display: none;
         }
         
@@ -209,14 +209,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
     </style>
 <meta property="og:title" content="Bird Observation Map Series in ArcPy | B.W. Tjepkes">
-<meta property="og:description" content="This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python and Arcpy.">
+<meta property="og:description" content="This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/bird-observation-map-series/img-bird-obs-map-series.png">
 <meta property="og:site_name" content="PORTFOLIO {{< fa solid layer-group size=1.2x >}} B.W. TJEPKES">
 <meta property="og:image:height" content="818">
 <meta property="og:image:width" content="813">
 <meta property="og:image:alt" content="Example map series.">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python and Arcpy.">
+<meta name="twitter:description" content="This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python.">
 <meta name="twitter:image" content="https://btjepkes.github.io/gallery/bird-observation-map-series/img-bird-obs-map-series.png">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:image-height" content="818">
@@ -481,12 +481,15 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <h1 class="title">Bird Observation Map Series in ArcPy</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Map Gallery</div>
+    <div class="quarto-category">Python</div>
+    <div class="quarto-category">Avian</div>
+    <div class="quarto-category">ArcPy</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python and Arcpy.
+    This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python.
   </div>
 </div>
 
@@ -510,7 +513,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-13</p>
+      <p class="date-modified">2024-05-14</p>
     </div>
   </div>
     
@@ -523,11 +526,41 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 <section id="overview" class="level2">
 <h2 data-anchor-id="overview">Overview</h2>
-<p>This map series was created as part of my advanced GIS course final project. I used bird feeder visitation data from Project FeederWatch to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and Python, specifically <code>arcpy</code>.</p>
+<p>This map series was created as part of my advanced GIS course final project. I used bird feeder visitation data from <a href="https://feederwatch.org/">Project FeederWatch</a> to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and Python, specifically <code>arcpy</code>.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Workflow</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p><strong>2020 U.S. Census Urban Areas</strong></p>
+<p>To represent urban spaces for our exploration, we will use the 2020 U.S. Census designated urban boundaries. The definition used by the Census is “an urban area will comprise a densely settled core of census blocks that meet minimum housing unit density and/or population density requirements”. The U.S. Census and Esri maintain an ArcGIS Feature Service for this layer, which can be queried at: USA Census Urban Areas.</p>
+<p><strong>FeederWatch Bird Observation Data</strong></p>
+<p>To represent bird species occurence for our exploration, we will use the 2021-2023 dataset from Project FeederWatch. The Cornell Lab of Ornithology maintains raw data downloads available in .csv format at https://feederwatch.org/explore/raw-dataset-requests/. Data for this project were downloaded directly from the “checklist data 2021-2023” link under RAW DATA ACCESS.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p><strong>Setup &amp; Configuration</strong></p>
+<ol type="1">
+<li>Import Modules &amp; Set Environmental Settings</li>
+<li>Loading &amp; Filtering U.S. Urban Areas</li>
+<li>Loading &amp; Filtering Bird Observation Data</li>
+</ol>
+<p><strong>Geoprocessing</strong></p>
+<ol type="1">
+<li>Reprojection &amp; Feature Layers</li>
+<li>Cluster &amp; Outlier Detection</li>
+<li>Standard Deviational Ellipse Development</li>
+</ol>
+<p><strong>Map Generation</strong></p>
+<ol type="1">
+<li>Mapping Folder &amp; Layer Configuration</li>
+<li>Iterative Map Production</li>
+</ol>
+</div>
+</div>
+</div>
 </section>
 <section id="final-result" class="level2">
 <h2 data-anchor-id="final-result">Final Result</h2>
-<p>Here is the resulting product, a PDF map series with consistent styling and symbology. The full notebook, which outlines the complete methods and steps performed, can be found in this <a href="https://github.com/btjepkes/mu-geog-7940/">GitHub repo</a>.</p>
+<p>Here is the resulting product, a PDF map series with consistent styling and symbology. The full notebook, which outlines the complete methods and steps performed, can be found in this <a href="https://github.com/btjepkes/mu-geog-7940/">GitHub repo</a>. I am excited to build upon this workflow to develop automated techniques of map creation for other projects as well.</p>
 <iframe class="slide-deck-4x3" src="slides-bird-obs-map-series.html">
 </iframe>
 

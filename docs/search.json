@@ -388,21 +388,21 @@
     "href": "gallery/bird-observation-map-series/index.html",
     "title": "Bird Observation Map Series in ArcPy",
     "section": "",
-    "text": "This map series was created as part of my advanced GIS course final project. I used bird feeder visitation data from Project FeederWatch to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and Python, specifically arcpy."
+    "text": "This map series was created as part of my advanced GIS course final project. I used bird feeder visitation data from Project FeederWatch to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and Python, specifically arcpy.\n\nDataWorkflow\n\n\n2020 U.S. Census Urban Areas\nTo represent urban spaces for our exploration, we will use the 2020 U.S. Census designated urban boundaries. The definition used by the Census is “an urban area will comprise a densely settled core of census blocks that meet minimum housing unit density and/or population density requirements”. The U.S. Census and Esri maintain an ArcGIS Feature Service for this layer, which can be queried at: USA Census Urban Areas.\nFeederWatch Bird Observation Data\nTo represent bird species occurence for our exploration, we will use the 2021-2023 dataset from Project FeederWatch. The Cornell Lab of Ornithology maintains raw data downloads available in .csv format at https://feederwatch.org/explore/raw-dataset-requests/. Data for this project were downloaded directly from the “checklist data 2021-2023” link under RAW DATA ACCESS.\n\n\nSetup & Configuration\n\nImport Modules & Set Environmental Settings\nLoading & Filtering U.S. Urban Areas\nLoading & Filtering Bird Observation Data\n\nGeoprocessing\n\nReprojection & Feature Layers\nCluster & Outlier Detection\nStandard Deviational Ellipse Development\n\nMap Generation\n\nMapping Folder & Layer Configuration\nIterative Map Production"
   },
   {
     "objectID": "gallery/bird-observation-map-series/index.html#overview",
     "href": "gallery/bird-observation-map-series/index.html#overview",
     "title": "Bird Observation Map Series in ArcPy",
     "section": "",
-    "text": "This map series was created as part of my advanced GIS course final project. I used bird feeder visitation data from Project FeederWatch to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and Python, specifically arcpy."
+    "text": "This map series was created as part of my advanced GIS course final project. I used bird feeder visitation data from Project FeederWatch to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and Python, specifically arcpy.\n\nDataWorkflow\n\n\n2020 U.S. Census Urban Areas\nTo represent urban spaces for our exploration, we will use the 2020 U.S. Census designated urban boundaries. The definition used by the Census is “an urban area will comprise a densely settled core of census blocks that meet minimum housing unit density and/or population density requirements”. The U.S. Census and Esri maintain an ArcGIS Feature Service for this layer, which can be queried at: USA Census Urban Areas.\nFeederWatch Bird Observation Data\nTo represent bird species occurence for our exploration, we will use the 2021-2023 dataset from Project FeederWatch. The Cornell Lab of Ornithology maintains raw data downloads available in .csv format at https://feederwatch.org/explore/raw-dataset-requests/. Data for this project were downloaded directly from the “checklist data 2021-2023” link under RAW DATA ACCESS.\n\n\nSetup & Configuration\n\nImport Modules & Set Environmental Settings\nLoading & Filtering U.S. Urban Areas\nLoading & Filtering Bird Observation Data\n\nGeoprocessing\n\nReprojection & Feature Layers\nCluster & Outlier Detection\nStandard Deviational Ellipse Development\n\nMap Generation\n\nMapping Folder & Layer Configuration\nIterative Map Production"
   },
   {
     "objectID": "gallery/bird-observation-map-series/index.html#final-result",
     "href": "gallery/bird-observation-map-series/index.html#final-result",
     "title": "Bird Observation Map Series in ArcPy",
     "section": "Final Result",
-    "text": "Final Result\nHere is the resulting product, a PDF map series with consistent styling and symbology. The full notebook, which outlines the complete methods and steps performed, can be found in this GitHub repo."
+    "text": "Final Result\nHere is the resulting product, a PDF map series with consistent styling and symbology. The full notebook, which outlines the complete methods and steps performed, can be found in this GitHub repo. I am excited to build upon this workflow to develop automated techniques of map creation for other projects as well."
   },
   {
     "objectID": "gallery/bald-eagle-nest-monitoring-report/index.html#tools-workflow",
@@ -451,8 +451,8 @@
     ]
   },
   {
-    "objectID": "curriculum-vitae/index.html#view-pdf-versions",
-    "href": "curriculum-vitae/index.html#view-pdf-versions",
+    "objectID": "curriculum-vitae/index.html#pdf-versions",
+    "href": "curriculum-vitae/index.html#pdf-versions",
     "title": "Curriculum Vitae",
     "section": "",
     "text": "Academic Curriculum vitae\n\n\n\n\n\n\n\n\n\n\n\n2-Page Standard Resume\n\n\n\n\n\n\n\n\n\n\n\n1-Page Abbreviated Resume\n\n\n\n\n\n\n\nNo matching items",
@@ -467,39 +467,6 @@
     "title": "Curriculum Vitae",
     "section": "My Experience Geography",
     "text": "My Experience Geography\nPlease take a moment to explore my experience geography, where I have worked, presented, volunteered, and schooled.\n\n\n\nExplore my experience geography.",
-    "crumbs": [
-      "About",
-      "Curriculum Vitae"
-    ]
-  },
-  {
-    "objectID": "curriculum-vitae/index.html#formal-education",
-    "href": "curriculum-vitae/index.html#formal-education",
-    "title": "Curriculum Vitae",
-    "section": "Formal Education",
-    "text": "Formal Education\nMy post-secondary training and education is situated at the crossroads of wildlife ecology and geography at both the undergraduate and graduate levels. These areas of specialization resonate with me due to their comprehensive and diverse nature of study, as well as their infusion of technological solutions.\n\n        \n            University of Missouri\n            2023 - Present\n            Masters [MA] - Geography\n            \n                I am currently studying at the University of Missouri in pursuit of my Masters degree in Geography with an emphasis in Geographic Information Systems. My thesis project will combine my interests in ecological science, phenology, climate, and geospatial modeling.\n            \n        \n\n\n\n        \n            University of Wisconsin-Stevens Point\n            2015 - 2019\n            Bachelors [BS] - Wildlife Ecology and Management\n            \n                I earned my undergraduate degree in Wildlife Ecology and Management from the University of Wisconsin-Stevens Point. My minors were completed in Biology and Geographic Information Systems.",
-    "crumbs": [
-      "About",
-      "Curriculum Vitae"
-    ]
-  },
-  {
-    "objectID": "curriculum-vitae/index.html#career-experience",
-    "href": "curriculum-vitae/index.html#career-experience",
-    "title": "Curriculum Vitae",
-    "section": "Career Experience",
-    "text": "Career Experience\nMy work experience over the last eight years has been in the ecological sciences and conservation GIS fields. This includes work in the academic, private, and public sectors.\n\n        \n            University of Missouri\n            2023 - Present\n            Graduate Teaching Assistant - Geography Dept\n            \n                Deliver engaging instructional sessions to undergraduate students within discussion segments of a world regional geography course, concentrating on countries across Europe, Latin America, and North America. Duties include syllabus development, assignment evaluation, and overseeing course management system for 50+ students.\n            \n        \n\n\n\n        \n            Missouri Department of Conservation\n            2022 - 2023\n            Assistant Wildlife Diversity Coordinator - Wildlife Diversity Program\n            \n                Collaborated with an inter-branch leadership team to implement the Missouri Bat Habitat Conservation Plan, serving as a technical lead for data reporting. Summarized large tabular datasets, analyzed spatial data from multiple enterprise geodatabases, and prepared data visualizations and summaries in RStudio and ArcGIS Pro for inclusion in federally mandated reports on statewide habitat management and bat monitoring.\n            \n        \n\n\n\n        \n            Missouri Department of Conservation\n            2022 - 2022\n            Wildlife Biologist - Furbearer Program\n            \n                Served in a technical role for a statewide furbearer program, contributing to large portions of the research and management of furbearing species in Missouri. Managed large-scale data sets of furbearer harvest records, public observations, and other data into multi-dimensional relational databases, utilizing GIS mapping and programmatic software. Generated and presented informative population summaries, data visualizations, and other data-driven reports for internal and external stakeholders.\n            \n        \n\n\n\n        \n            Missouri Department of Conservation\n            2020 - 2022\n            Assistant Natural History Biologist - Black Bear Program\n            \n                Led field and technical operations for a statewide black bear research and management program. Coordinated the monitoring of tagged black bears via ground and aerial telemetry, satellite web services, and physical capture of individuals while utilizing mobile GIS solutions for navigation and data collection. Developed and maintained black bear observation and biological databases using desktop GIS software and relational databases, ensuring the continuity of data integrity.",
-    "crumbs": [
-      "About",
-      "Curriculum Vitae"
-    ]
-  },
-  {
-    "objectID": "curriculum-vitae/index.html#techincal-proficiencies",
-    "href": "curriculum-vitae/index.html#techincal-proficiencies",
-    "title": "Curriculum Vitae",
-    "section": "Techincal Proficiencies",
-    "text": "Techincal Proficiencies\nMy entire career has emphasized the use of technologies to organize, create, and present. I enjoy learning new skills and languages during personal and professional projects, making a point to try new workflows when I can.\n\n        \n            GIS & Cartography\n            \n            \n                Spatial data creation, management, and analysis using desktop, web, and mobile GIS software. Static and dynamic cartographic design using QGIS and ArcGIS mapping software. Geoprocessing workflows in ArcGIS ModelBuilder and Jupyter Notebooks.\n            \n        \n\n\n\n        \n            Research & Reporting\n            \n            \n                Data entry, management, and analysis using Program R, Microsoft Excel, Access, and SQL Server. Reproducible report design and development in Microsoft Word, R Markdown, and Quarto. Knowledge of scientific methods and research project development.\n            \n        \n\n\n\n        \n            Design & Visualization\n            \n            \n                Front-end web development with HTML/CSS. Version control using git/GitHub. Proficient in data visualization for technical and creative projects using common R packages and Python libraries.",
     "crumbs": [
       "About",
       "Curriculum Vitae"

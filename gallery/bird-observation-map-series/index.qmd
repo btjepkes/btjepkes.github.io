@@ -4,17 +4,55 @@ date: 2024-05-08
 date-modified: today
 categories:
   - Map Gallery
-description: "This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python and Arcpy."
+  - Python
+  - Avian
+  - ArcPy
+description: "This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python."
 image: img-bird-obs-map-series.png
 image-alt: "Example map series."
 ---
 
 ## Overview
 
-This map series was created as part of my advanced GIS course final project. I used bird feeder visitation data from Project FeederWatch to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and Python, specifically `arcpy`.
+This map series was created as part of my advanced GIS course final project. I used bird feeder visitation data from [Project FeederWatch](https://feederwatch.org/) to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and Python, specifically `arcpy`.
+
+::: {.panel-tabset}
+
+## Data
+
+**2020 U.S. Census Urban Areas**
+
+To represent urban spaces for our exploration, we will use the 2020 U.S. Census designated urban boundaries. The definition used by the Census is "an urban area will comprise a densely settled core of census blocks that meet minimum housing unit density and/or population density requirements". The U.S. Census and Esri maintain an ArcGIS Feature Service for this layer, which can be queried at: USA Census Urban Areas.
+
+**FeederWatch Bird Observation Data**
+
+To represent bird species occurence for our exploration, we will use the 2021-2023 dataset from Project FeederWatch. The Cornell Lab of Ornithology maintains raw data downloads available in .csv format at https://feederwatch.org/explore/raw-dataset-requests/. Data for this project were downloaded directly from the "checklist data 2021-2023" link under RAW DATA ACCESS.
+
+## Workflow
+
+**Setup & Configuration**
+
+1. Import Modules & Set Environmental Settings
+1. Loading & Filtering U.S. Urban Areas
+1. Loading & Filtering Bird Observation Data
+
+**Geoprocessing**
+
+1. Reprojection & Feature Layers
+1. Cluster & Outlier Detection
+1. Standard Deviational Ellipse Development
+
+**Map Generation**
+
+1. Mapping Folder & Layer Configuration
+1. Iterative Map Production
+
+
+
+:::
 
 ## Final Result
 
-Here is the resulting product, a PDF map series with consistent styling and symbology. The full notebook, which outlines the complete methods and steps performed, can be found in this [GitHub repo](https://github.com/btjepkes/mu-geog-7940/).
+Here is the resulting product, a PDF map series with consistent styling and symbology. The full notebook, which outlines the complete methods and steps performed, can be found in this [GitHub repo](https://github.com/btjepkes/mu-geog-7940/). I am excited to build upon this workflow to develop automated techniques of map creation for other projects as well.
 
 <iframe class="slide-deck-4x3" src="slides-bird-obs-map-series.html"></iframe>
