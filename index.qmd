@@ -50,7 +50,7 @@ listing:
     sort: date desc
     filter-ui: false
     sort-ui: false
-    max-description-length: 120
+    max-description-length: 110
     fields: [title, description]
     max-items: 3
   - id: site-listings-3
@@ -59,7 +59,7 @@ listing:
     sort: date desc
     filter-ui: false
     sort-ui: false
-    max-description-length: 120
+    max-description-length: 110
     fields: [title, description]
     max-items: 3
 ---

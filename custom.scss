@@ -202,12 +202,11 @@ h3 {
 
 .description {
   line-height: 1.4em;
-  margin-top: 10px !important;
+  margin-top: 12px !important;
   margin-bottom: 10px;
-  font-family: Montserrat;
+/*  font-family: Montserrat;*/
   font-size: 17px !important;
   font-weight: 500;
-  color: gray;
 }
 
 .description a {
@@ -301,6 +300,7 @@ dd {
   letter-spacing: 0.02em;
   font-size: 1.90rem;
   color: #fbfbfc;
+  text-shadow: 1px 1px rgba(15, 23, 42, 0.85);;
   font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
   margin-left: 0.1em;
@@ -547,7 +547,6 @@ color: #000;
   grid-column-gap: 0.7em;
   padding-top: 0.7em;
   padding-bottom: 0.4em;
-  color: gray;
 }
 
 /*.quarto-title-block .quarto-title-banner {
