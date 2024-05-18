@@ -137,6 +137,7 @@ format:
     # template-partials:
     #   - title-block.html    
     # include-before-body:
+    #   - file: divider.html
     # - file: cover-image.html
     # include-after-body: back-to-top.html
     include-in-header:

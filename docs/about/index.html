@@ -119,12 +119,13 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         .carousel__content {
-          background: rgba(255, 255, 255, 0.85);
+          background: rgba(255, 255, 255, 0.6);
+          backdrop-filter: blur(1px);
           background-size: cover;
           text-align: center;
           border-left: solid 2px #dbdbd9;
           font-weight: 400;
-          font-size: 20px !important; 
+          font-size: 18px; 
           
           p {margin: 0 auto; }
           
@@ -133,7 +134,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__item {
           padding: 0em;
           font-weight: 700;
-          font-size: 2em;
           text-align: center;
           color: #000000;
           opacity: 1.0;
@@ -512,7 +512,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-15</p>
+      <p class="date-modified">2024-05-18</p>
     </div>
   </div>
     
@@ -538,14 +538,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <p>My professional career is based in <strong>wildlife ecology and management</strong>, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats. My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences during summers and part-time throughout the academic year. After earning my degree, I pursued several wildlife research and management positions that opened my eyes to my true passion of conservation work.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../assets/img-ben-with-bear.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Me with one of our research black bears during a den check."><img src="../assets/img-ben-with-bear.jpg" class="img-fluid figure-img" alt="Me with one of our research black bears during a den check."></a></p>
+<p><a href="../assets/img-ben-with-bear.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Me with one of our research black bears during a den check."><img src="../assets/img-ben-with-bear.jpg" class="img-fluid figure-img" alt="Me with one of our research black bears during a den check."></a></p>
 <figcaption>Me with one of our research black bears during a den check.</figcaption>
 </figure>
 </div>
 <p>As I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in <strong>spatial ecology and geospatial technologies</strong>, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships. Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../assets/img-ben-work.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Sometimes a wildlife biologist needs to handle the wildlife, all with the proper permits, training, and equipment of course."><img src="../assets/img-ben-work.png" class="img-fluid figure-img" alt="Sometimes a wildlife biologist needs to handle the wildlife, all with the proper permits, training, and equipment of course."></a></p>
+<p><a href="../assets/img-ben-work.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Sometimes a wildlife biologist needs to handle the wildlife, all with the proper permits, training, and equipment of course."><img src="../assets/img-ben-work.png" class="img-fluid figure-img" alt="Sometimes a wildlife biologist needs to handle the wildlife, all with the proper permits, training, and equipment of course."></a></p>
 <figcaption>Sometimes a wildlife biologist needs to handle the wildlife, all with the proper permits, training, and equipment of course.</figcaption>
 </figure>
 </div>
@@ -1000,7 +1000,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

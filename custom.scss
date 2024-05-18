@@ -575,10 +575,12 @@ color: #000;
 
 #title-block-header {
   margin-block-end: 2em !important;
+  border-bottom: double 8px #274232;
+  padding-bottom: 15px;
 }
 
 
-#title-block-header::after {
+/*#title-block-header::after {
         content: "";
         position: relative;
         height: 30px;
@@ -591,7 +593,7 @@ color: #000;
         opacity: 0.7;
         margin-top: 20px;
         transform: rotate(180deg);
-      }
+      }*/
 
 
 
