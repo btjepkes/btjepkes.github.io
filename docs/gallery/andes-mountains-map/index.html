@@ -119,7 +119,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         .carousel__content {
-          background: rgba(255, 255, 255, 0.6);
+          background: rgba(255, 255, 255, 0.75);
           backdrop-filter: blur(1px);
           background-size: cover;
           text-align: center;
@@ -142,6 +142,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
           min-height: 200px;
           width: calc(100% / 3);
+          border: solid #e6e5e0 5px;
         }
         
         @keyframes fadeIn {
@@ -541,7 +542,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <p>Here is the resulting map that shows filled in contours within Peru, emphasizing the dramatic elevation change.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-andes-mountains-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-andes-mountains-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-andes-mountains-map.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-andes-mountains-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -998,7 +999,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"descPosition":"bottom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

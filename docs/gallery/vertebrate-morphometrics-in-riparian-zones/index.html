@@ -119,7 +119,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         .carousel__content {
-          background: rgba(255, 255, 255, 0.6);
+          background: rgba(255, 255, 255, 0.75);
           backdrop-filter: blur(1px);
           background-size: cover;
           text-align: center;
@@ -142,6 +142,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
           min-height: 200px;
           width: calc(100% / 3);
+          border: solid #e6e5e0 5px;
         }
         
         @keyframes fadeIn {
@@ -486,6 +487,10 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <h1 class="title">Vertebrate Morphometrics In Riparian Zones</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Data Gallery</div>
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Coding</div>
+    <div class="quarto-category">Boxplot</div>
+    <div class="quarto-category">Rugplots</div>
   </div>
   </div>
 
@@ -515,7 +520,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-18</p>
+      <p class="date-modified">2024-05-19</p>
     </div>
   </div>
     
@@ -540,7 +545,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <h2 data-anchor-id="result">Result</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-vertebrate-morphometrics-plot.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Final visualization comparing two vertebrate species morphometrics."><img src="img-vertebrate-morphometrics-plot.png" class="img-fluid figure-img" alt="Final visualization comparing two vertebrate species morphometrics."></a></p>
+<p><a href="img-vertebrate-morphometrics-plot.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Final visualization comparing two vertebrate species morphometrics."><img src="img-vertebrate-morphometrics-plot.png" class="img-fluid figure-img" alt="Final visualization comparing two vertebrate species morphometrics."></a></p>
 <figcaption>Final visualization comparing two vertebrate species morphometrics.</figcaption>
 </figure>
 </div>
@@ -997,7 +1002,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","loop":false,"selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
