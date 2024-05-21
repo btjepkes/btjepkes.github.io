@@ -127,6 +127,36 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         width: 100%;
       }
       
+      .carousel-arrow {
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          top: 0;
+          bottom: 64px;
+          margin-block: auto;
+          height: fit-content;
+          width: 48px;
+          background-color: white;
+          border: none;
+          font-size: 3rem;
+          padding: 0;
+          cursor: pointer;
+          opacity: 0.5;
+          transition: opacity 100ms;
+        }
+        
+        .carousel-arrow:hover,
+        .carousel-arrow:focus {
+          opacity: 1;
+        }
+        
+        .carousel-arrow--prev {
+          left: 0;
+        }
+        
+        .carousel-arrow--next {
+          right: 0;
+        }
       
       .carousel {
           position: relative;
@@ -137,9 +167,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         .carousel__content {
-          background-color: #e6e5e0;
-          background-image: url("../assets/noise.png");
-          backdrop-filter: blur(1px);
+          background-color: rgba(37,44,61, 0.5);
+          backdrop-filter: blur(3px);
           background-size: cover;
           text-align: center;
           font-weight: 400;
@@ -148,6 +177,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           
           p {margin: 0 auto; 
             padding: 2px 0;
+            color: #f1f1f1;
         }
           
         }
@@ -158,7 +188,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           text-align: center;
           opacity: 1.0;
           background-size: cover;
-          background-position: center;
+          background-position: center center;
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
           min-height: 200px;
           width: calc(100% / 3);
@@ -253,15 +283,29 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </head>
 <body class="nav-sidebar floating nav-fixed">
     <div class="carousel">
+      <button class="carousel-arrow carousel-arrow--prev" onclick="handleCarouselMove(false)">
+      ‹
+    </button>
+  
+    <button class="carousel-arrow carousel-arrow--next" onclick="handleCarouselMove()">
+      ›
+    </button>
+    
+    <div class="carousel-container" dir="ltr">
 
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
           <div class="carousel__content">
-            <p>Conservation &amp; Wildlife Ecology</p>
+            <p>Wildlife Ecology</p>
           </div>
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;">
           <div class="carousel__content">
-            <p>Remote Sensing &amp; GIS</p>
+            <p>Remote Sensing</p>
+          </div> 
+        </div>
+        <div class="carousel__item" style="background-image: url('https://www.gisci.org/Portals/_default/Skins/GISCI-2024/Images/home-section3-img-1.jpg'); background-color: #001a17;">
+          <div class="carousel__content">
+            <p>Conservation GIS</p>
           </div> 
         </div>
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
@@ -274,8 +318,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             <p>Biogeography</p>
           </div>  
         </div>
-        
-    </div>
+    </div>     
+  </div>
   <div class="dashed-line">
   </div>
 
@@ -538,7 +582,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-20</p>
+      <p class="date-modified">2024-05-21</p>
     </div>
   </div>
     
@@ -562,7 +606,7 @@ window.Quarto = {
 </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Undergraduate,Avian,Geospatial,Wildlife" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1714398802629" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
+<div class="g-col-1" data-index="0" data-categories="Undergraduate,Avian,Geospatial,Wildlife" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1714398802629" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
 <a href="../research/bald-eagle-nest-site-selection/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -601,7 +645,7 @@ Small Mammal Response to Prescribed Fire
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Undergraduate,Mammal,Wyoming" data-listing-date-sort="1684558800000" data-listing-file-modified-sort="1714749074704" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
+<div class="g-col-1" data-index="3" data-categories="Undergraduate,Mammal,Wyoming" data-listing-date-sort="1684558800000" data-listing-file-modified-sort="1714749074704" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
 <a href="../research/raccoon-space-use-and-home-ranges/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -614,7 +658,7 @@ Raccoon Space-Use and Home Ranges
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Graduate,Avian,Geospatial,Wildlife" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1715262432638" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
+<div class="g-col-1" data-index="4" data-categories="Graduate,Avian,Geospatial,Wildlife" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1715262432638" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
 <a href="../research/dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -649,8 +693,8 @@ No matching items
 <p>I am fortunate to have worked extensively across the Midwestern United States on a diversity of projects. The map below displays my research influence across this region where I have conducted research.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-ebc198e7f8d101b9805a" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-ebc198e7f8d101b9805a">{"x":{"options":{"minZoom":5,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Stadia.AlidadeSmooth",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-105.6915945157442,-105.6904056084356,-105.5125353113342,-105.5137242186426,-105.6915945157442],"lat":[41.35363282453523,41.2735797324317,41.27622137050747,41.35627446261094,41.35363282453523]}]],[[{"lng":[-89.57576979606011,-89.57564046102686,-89.55052309264897,-89.55065242768217,-89.57576979606011],"lat":[44.54120518516129,44.5319218038851,44.53227173626186,44.54155511753805,44.54120518516129]}]],[[{"lng":[-89.56305724751047,-89.56320249569586,-89.52976952387587,-89.52962427569059,-89.56305724751047],"lat":[45.50496189382352,45.47954346138715,45.47935241583372,45.50477084827014,45.50496189382352]}]],[[{"lng":[-88.46331245690362,-88.66117503279656,-88.66090060906271,-88.46303803316988,-88.46331245690362],"lat":[44.70288067732508,44.70263179358199,44.48446492521583,44.48471380895916,44.70288067732508]}]],[[{"lng":[-91.66303376395145,-92.14179806988818,-90.42501415622883,-89.96359103907797,-91.66303376395145],"lat":[44.56818866770678,44.40895209026957,41.64841752646682,41.80103745028565,44.56818866770678]}]],[[{"lng":[-95.21094848684334,-83.43923625871678,-83.43923625871678,-95.21094848684334,-95.21094848684334],"lat":[34.3370168884088,34.3370168884088,39.49102296763046,39.49102296763046,34.3370168884088]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,["Laramie, WY","Schmeekle Reserve, Stevens Point, WI","Treehaven, Tomahawk, WI","Lower Wolf River Bottomlands Natural Resources Area, WI","Upper Mississippi River National Fish and Wildlife Refuge","Central Hardwood Bird Conservation Region"],{"interactive":false,"permanent":false,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"setMaxBounds","args":[24.33702,-125.69159,50.50496,-63.43924]}],"limits":{"lat":[34.3370168884088,45.50496189382352],"lng":[-105.6915945157442,-83.43923625871678]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-7c1e880c4c0543593e2f" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-7c1e880c4c0543593e2f">{"x":{"options":{"minZoom":5,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.HOT",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-105.6915945157442,-105.6904056084356,-105.5125353113342,-105.5137242186426,-105.6915945157442],"lat":[41.35363282453523,41.2735797324317,41.27622137050747,41.35627446261094,41.35363282453523]}]],[[{"lng":[-89.57576979606011,-89.57564046102686,-89.55052309264897,-89.55065242768217,-89.57576979606011],"lat":[44.54120518516129,44.5319218038851,44.53227173626186,44.54155511753805,44.54120518516129]}]],[[{"lng":[-89.56305724751047,-89.56320249569586,-89.52976952387587,-89.52962427569059,-89.56305724751047],"lat":[45.50496189382352,45.47954346138715,45.47935241583372,45.50477084827014,45.50496189382352]}]],[[{"lng":[-88.46331245690362,-88.66117503279656,-88.66090060906271,-88.46303803316988,-88.46331245690362],"lat":[44.70288067732508,44.70263179358199,44.48446492521583,44.48471380895916,44.70288067732508]}]],[[{"lng":[-91.66303376395145,-92.14179806988818,-90.42501415622883,-89.96359103907797,-91.66303376395145],"lat":[44.56818866770678,44.40895209026957,41.64841752646682,41.80103745028565,44.56818866770678]}]],[[{"lng":[-95.21094848684334,-83.43923625871678,-83.43923625871678,-95.21094848684334,-95.21094848684334],"lat":[34.3370168884088,34.3370168884088,39.49102296763046,39.49102296763046,34.3370168884088]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,["Laramie, WY","Schmeekle Reserve, Stevens Point, WI","Treehaven, Tomahawk, WI","Lower Wolf River Bottomlands Natural Resources Area, WI","Upper Mississippi River National Fish and Wildlife Refuge","Central Hardwood Bird Conservation Region"],{"interactive":false,"permanent":false,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"setMaxBounds","args":[24.33702,-125.69159,50.50496,-63.43924]}],"limits":{"lat":[34.3370168884088,45.50496189382352],"lng":[-105.6915945157442,-83.43923625871678]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 

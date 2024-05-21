@@ -127,6 +127,36 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         width: 100%;
       }
       
+      .carousel-arrow {
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          top: 0;
+          bottom: 64px;
+          margin-block: auto;
+          height: fit-content;
+          width: 48px;
+          background-color: white;
+          border: none;
+          font-size: 3rem;
+          padding: 0;
+          cursor: pointer;
+          opacity: 0.5;
+          transition: opacity 100ms;
+        }
+        
+        .carousel-arrow:hover,
+        .carousel-arrow:focus {
+          opacity: 1;
+        }
+        
+        .carousel-arrow--prev {
+          left: 0;
+        }
+        
+        .carousel-arrow--next {
+          right: 0;
+        }
       
       .carousel {
           position: relative;
@@ -137,9 +167,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         .carousel__content {
-          background-color: #e6e5e0;
-          background-image: url("../assets/noise.png");
-          backdrop-filter: blur(1px);
+          background-color: rgba(37,44,61, 0.5);
+          backdrop-filter: blur(3px);
           background-size: cover;
           text-align: center;
           font-weight: 400;
@@ -148,6 +177,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           
           p {margin: 0 auto; 
             padding: 2px 0;
+            color: #f1f1f1;
         }
           
         }
@@ -158,7 +188,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           text-align: center;
           opacity: 1.0;
           background-size: cover;
-          background-position: center;
+          background-position: center center;
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
           min-height: 200px;
           width: calc(100% / 3);
@@ -261,15 +291,29 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </head>
 <body class="nav-sidebar floating nav-fixed">
     <div class="carousel">
+      <button class="carousel-arrow carousel-arrow--prev" onclick="handleCarouselMove(false)">
+      ‹
+    </button>
+  
+    <button class="carousel-arrow carousel-arrow--next" onclick="handleCarouselMove()">
+      ›
+    </button>
+    
+    <div class="carousel-container" dir="ltr">
 
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
           <div class="carousel__content">
-            <p>Conservation &amp; Wildlife Ecology</p>
+            <p>Wildlife Ecology</p>
           </div>
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;">
           <div class="carousel__content">
-            <p>Remote Sensing &amp; GIS</p>
+            <p>Remote Sensing</p>
+          </div> 
+        </div>
+        <div class="carousel__item" style="background-image: url('https://www.gisci.org/Portals/_default/Skins/GISCI-2024/Images/home-section3-img-1.jpg'); background-color: #001a17;">
+          <div class="carousel__content">
+            <p>Conservation GIS</p>
           </div> 
         </div>
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
@@ -282,8 +326,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             <p>Biogeography</p>
           </div>  
         </div>
-        
-    </div>
+    </div>     
+  </div>
   <div class="dashed-line">
   </div>
 
@@ -556,7 +600,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-20</p>
+      <p class="date-modified">2024-05-21</p>
     </div>
   </div>
     
@@ -567,14 +611,14 @@ window.Quarto = {
 </header><section id="overview-of-challenge" class="level2"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
 <p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
+<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
 <figcaption>Here are daily prompts for 2023. Credit: 30DayMapChallenge.com</figcaption></figure>
 </div>
 </section><section id="my-2023-contributions" class="level2"><h2 data-anchor-id="my-2023-contributions">My 2023 Contributions</h2>
 <p>Here are my contributions to the challenge. Feel free to explore the details on each map product by clicking/tapping the map previews below. I was not able to create a map for every day, but this was my first time partaking in this challenge so I am happy with how many I created.</p>
 <div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1713735476552" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1713735476552" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
 <a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -613,7 +657,7 @@ Canadian Ecoregions Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
 <a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -639,7 +683,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -678,7 +722,7 @@ Andes Mountains Elevation Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1713787071664" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1716299540027" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
 <a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -691,7 +735,7 @@ Forest Cover &amp; Happiness Bivariate Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1713786994074" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1716299641604" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
 <a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1163,7 +1207,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
 </div>
   </div>
-</footer><script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","loop":false,"closeEffect":"zoom","openEffect":"zoom"});
+</footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","loop":false,"selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

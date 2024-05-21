@@ -137,6 +137,36 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         width: 100%;
       }
       
+      .carousel-arrow {
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          top: 0;
+          bottom: 64px;
+          margin-block: auto;
+          height: fit-content;
+          width: 48px;
+          background-color: white;
+          border: none;
+          font-size: 3rem;
+          padding: 0;
+          cursor: pointer;
+          opacity: 0.5;
+          transition: opacity 100ms;
+        }
+        
+        .carousel-arrow:hover,
+        .carousel-arrow:focus {
+          opacity: 1;
+        }
+        
+        .carousel-arrow--prev {
+          left: 0;
+        }
+        
+        .carousel-arrow--next {
+          right: 0;
+        }
       
       .carousel {
           position: relative;
@@ -147,9 +177,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         .carousel__content {
-          background-color: #e6e5e0;
-          background-image: url("../assets/noise.png");
-          backdrop-filter: blur(1px);
+          background-color: rgba(37,44,61, 0.5);
+          backdrop-filter: blur(3px);
           background-size: cover;
           text-align: center;
           font-weight: 400;
@@ -158,6 +187,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           
           p {margin: 0 auto; 
             padding: 2px 0;
+            color: #f1f1f1;
         }
           
         }
@@ -168,7 +198,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           text-align: center;
           opacity: 1.0;
           background-size: cover;
-          background-position: center;
+          background-position: center center;
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
           min-height: 200px;
           width: calc(100% / 3);
@@ -263,15 +293,29 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </head>
 <body class="nav-sidebar floating nav-fixed">
     <div class="carousel">
+      <button class="carousel-arrow carousel-arrow--prev" onclick="handleCarouselMove(false)">
+      ‹
+    </button>
+  
+    <button class="carousel-arrow carousel-arrow--next" onclick="handleCarouselMove()">
+      ›
+    </button>
+    
+    <div class="carousel-container" dir="ltr">
 
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
           <div class="carousel__content">
-            <p>Conservation &amp; Wildlife Ecology</p>
+            <p>Wildlife Ecology</p>
           </div>
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;">
           <div class="carousel__content">
-            <p>Remote Sensing &amp; GIS</p>
+            <p>Remote Sensing</p>
+          </div> 
+        </div>
+        <div class="carousel__item" style="background-image: url('https://www.gisci.org/Portals/_default/Skins/GISCI-2024/Images/home-section3-img-1.jpg'); background-color: #001a17;">
+          <div class="carousel__content">
+            <p>Conservation GIS</p>
           </div> 
         </div>
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
@@ -284,8 +328,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             <p>Biogeography</p>
           </div>  
         </div>
-        
-    </div>
+    </div>     
+  </div>
   <div class="dashed-line">
   </div>
 
@@ -567,7 +611,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-20</p>
+      <p class="date-modified">2024-05-21</p>
     </div>
   </div>
     
@@ -707,7 +751,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 <div id="listing-gallery-listings-all" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Map Gallery,Python,Avian,ArcPy" data-listing-date-sort="1715144400000" data-listing-file-modified-sort="1715689117785" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
+<div class="g-col-1" data-index="0" data-categories="Map Gallery,Python,Avian,ArcPy" data-listing-date-sort="1715144400000" data-listing-file-modified-sort="1715689117785" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
 <a href="../gallery/bird-observation-map-series/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -721,7 +765,7 @@ Bird Observation Map Series in ArcPy
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Talk Gallery" data-listing-date-sort="1714539600000" data-listing-file-modified-sort="1714744198111" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="g-col-1" data-index="1" data-categories="Talk Gallery" data-listing-date-sort="1714539600000" data-listing-file-modified-sort="1714744198111" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <a href="../gallery/thesis-project-proposal-presentation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -735,7 +779,7 @@ Master’s Thesis Proposal Presentation
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Data Gallery,R,Coding,Boxplot,Rugplots" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1716171844478" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
+<div class="g-col-1" data-index="2" data-categories="Data Gallery,R,Coding,Boxplot,Rugplots" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1716171844478" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
 <a href="../gallery/vertebrate-morphometrics-in-riparian-zones/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -749,7 +793,7 @@ Vertebrate Morphometrics In Riparian Zones
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Data Gallery,TidyTuesday2024" data-listing-date-sort="1704261600000" data-listing-file-modified-sort="1713786768402" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="g-col-1" data-index="3" data-categories="Data Gallery,TidyTuesday2024" data-listing-date-sort="1704261600000" data-listing-file-modified-sort="1713786768402" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <a href="../gallery/my-github-contributions-in-2023/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -763,7 +807,7 @@ Plotting My GitHub Contributions in 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1714749292442" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
+<div class="g-col-1" data-index="4" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1714749292442" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
 <a href="../gallery/michigan-anthrome-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -777,7 +821,7 @@ Anthrome Map of the Upper Peninsula, MI
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Data Gallery" data-listing-date-sort="1702188000000" data-listing-file-modified-sort="1714838893080" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
+<div class="g-col-1" data-index="5" data-categories="Data Gallery" data-listing-date-sort="1702188000000" data-listing-file-modified-sort="1714838893080" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
 <a href="../gallery/michigan-climate-trends/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -791,7 +835,7 @@ Climate Trends of the Upper Peninsula, MI
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1713786994074" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<div class="g-col-1" data-index="6" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1716299641604" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
 <a href="../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -805,7 +849,7 @@ Pennsylvania Bridges from OpenStreetMap
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1713787071664" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<div class="g-col-1" data-index="7" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1716299540027" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
 <a href="../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -847,7 +891,7 @@ Moose Sightings Across North America
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="g-col-1" data-index="10" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <a href="../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -875,7 +919,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="g-col-1" data-index="12" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
 <a href="../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -917,7 +961,7 @@ Eagle Mountain Contour Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1713735476552" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<div class="g-col-1" data-index="15" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1713735476552" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
 <a href="../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -959,7 +1003,7 @@ Weekly Work Commitments Calendar
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-categories="Map Gallery,Watershed" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1714746437908" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<div class="g-col-1" data-index="18" data-categories="Map Gallery,Watershed" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1714746437908" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
 <a href="../gallery/great-lakes-watershed-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -987,7 +1031,7 @@ Great Lakes Watersheds Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="20" data-categories="Map Gallery,United States,Endangered Species" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1714749492209" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
+<div class="g-col-1" data-index="20" data-categories="Map Gallery,United States,Endangered Species" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1714749492209" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
 <a href="../gallery/endangered-species-stamp-collection-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1001,7 +1045,7 @@ Endangered Species Stamp Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="21" data-categories="Talk Gallery,Wyoming,Mammal" data-listing-date-sort="1684558800000" data-listing-file-modified-sort="1714748592555" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="g-col-1" data-index="21" data-categories="Talk Gallery,Wyoming,Mammal" data-listing-date-sort="1684558800000" data-listing-file-modified-sort="1714748592555" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
 <a href="../gallery/raccoon-spatial-patterns-and-home-ranges/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1015,7 +1059,7 @@ Raccoon Spatial Patterns Presentation
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="22" data-categories="Poster Gallery,Missouri,Mammal" data-listing-date-sort="1684386000000" data-listing-file-modified-sort="1705242001197" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+<div class="g-col-1" data-index="22" data-categories="Poster Gallery,Missouri,Mammal" data-listing-date-sort="1684386000000" data-listing-file-modified-sort="1705242001197" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
 <a href="../gallery/missouri-bat-hcp-poster/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1127,7 +1171,7 @@ Bald Eagle Nest Monitoring Report
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="30" data-categories="Map Gallery,Wisconsin,Location Suitability" data-listing-date-sort="1546322400000" data-listing-file-modified-sort="1715262137232" data-listing-date-modified-sort="1716181200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<div class="g-col-1" data-index="30" data-categories="Map Gallery,Wisconsin,Location Suitability" data-listing-date-sort="1546322400000" data-listing-file-modified-sort="1715262137232" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
 <a href="../gallery/vineyard-and-winery-location-suitability-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">

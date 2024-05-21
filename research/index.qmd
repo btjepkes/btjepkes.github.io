@@ -43,7 +43,7 @@ sites <- sf::st_read("features_for_website.geojson", quiet = TRUE)
 bbox <- sf::st_bbox(sites)
 
 leaflet(sites, options = leafletOptions(minZoom = 5)) |> 
-  addProviderTiles(providers$Stadia.AlidadeSmooth) |> 
+  addProviderTiles(providers$OpenStreetMap.HOT) |> 
   addPolygons(label = ~as.character(Name),
               labelOptions = labelOptions(noHide = FALSE,
                                           direction = "bottom"),

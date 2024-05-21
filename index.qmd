@@ -93,5 +93,34 @@ Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my prof
 :::
 
 :::
-  
+
+:::
+
+::: {.index-map}
+```{r}
+#| echo: false
+#| warning: false
+#| column: body-outset
+library(leaflet)
+library(leaflet.extras)
+library(sf)
+
+sites <- sf::st_read("research/features_for_website.geojson", quiet = TRUE)
+
+bbox <- sf::st_bbox(sites)
+
+leaflet(sites, options = leafletOptions(minZoom = 5)) |> 
+  addProviderTiles(providers$OpenStreetMap.HOT) |> 
+  addPolygons(label = ~as.character(Name),
+              labelOptions = labelOptions(noHide = FALSE,
+                                          direction = "bottom"),
+              color = "red") |> 
+  setMaxBounds(lng1 = -125.69159, lat1 = 24.33702,
+               lng2 = -63.43924, lat2 = 50.50496) |> 
+  addLegend(position = "bottomright",
+            colors = "red",
+            labels = "Sites",
+            title = "Legend") |> 
+  addFullscreenControl()
+```
 :::

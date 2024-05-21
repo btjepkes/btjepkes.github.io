@@ -110,6 +110,36 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         width: 100%;
       }
       
+      .carousel-arrow {
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          top: 0;
+          bottom: 64px;
+          margin-block: auto;
+          height: fit-content;
+          width: 48px;
+          background-color: white;
+          border: none;
+          font-size: 3rem;
+          padding: 0;
+          cursor: pointer;
+          opacity: 0.5;
+          transition: opacity 100ms;
+        }
+        
+        .carousel-arrow:hover,
+        .carousel-arrow:focus {
+          opacity: 1;
+        }
+        
+        .carousel-arrow--prev {
+          left: 0;
+        }
+        
+        .carousel-arrow--next {
+          right: 0;
+        }
       
       .carousel {
           position: relative;
@@ -120,9 +150,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         .carousel__content {
-          background-color: #e6e5e0;
-          background-image: url("../assets/noise.png");
-          backdrop-filter: blur(1px);
+          background-color: rgba(37,44,61, 0.5);
+          backdrop-filter: blur(3px);
           background-size: cover;
           text-align: center;
           font-weight: 400;
@@ -131,6 +160,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           
           p {margin: 0 auto; 
             padding: 2px 0;
+            color: #f1f1f1;
         }
           
         }
@@ -141,7 +171,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           text-align: center;
           opacity: 1.0;
           background-size: cover;
-          background-position: center;
+          background-position: center center;
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
           min-height: 200px;
           width: calc(100% / 3);
@@ -241,15 +271,29 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </head>
 <body class="nav-sidebar floating nav-fixed">
     <div class="carousel">
+      <button class="carousel-arrow carousel-arrow--prev" onclick="handleCarouselMove(false)">
+      ‹
+    </button>
+  
+    <button class="carousel-arrow carousel-arrow--next" onclick="handleCarouselMove()">
+      ›
+    </button>
+    
+    <div class="carousel-container" dir="ltr">
 
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
           <div class="carousel__content">
-            <p>Conservation &amp; Wildlife Ecology</p>
+            <p>Wildlife Ecology</p>
           </div>
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;">
           <div class="carousel__content">
-            <p>Remote Sensing &amp; GIS</p>
+            <p>Remote Sensing</p>
+          </div> 
+        </div>
+        <div class="carousel__item" style="background-image: url('https://www.gisci.org/Portals/_default/Skins/GISCI-2024/Images/home-section3-img-1.jpg'); background-color: #001a17;">
+          <div class="carousel__content">
+            <p>Conservation GIS</p>
           </div> 
         </div>
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
@@ -262,8 +306,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             <p>Biogeography</p>
           </div>  
         </div>
-        
-    </div>
+    </div>     
+  </div>
   <div class="dashed-line">
   </div>
 
@@ -532,7 +576,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-20</p>
+      <p class="date-modified">2024-05-21</p>
     </div>
   </div>
     
@@ -1082,7 +1126,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

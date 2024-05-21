@@ -110,6 +110,36 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         width: 100%;
       }
       
+      .carousel-arrow {
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          top: 0;
+          bottom: 64px;
+          margin-block: auto;
+          height: fit-content;
+          width: 48px;
+          background-color: white;
+          border: none;
+          font-size: 3rem;
+          padding: 0;
+          cursor: pointer;
+          opacity: 0.5;
+          transition: opacity 100ms;
+        }
+        
+        .carousel-arrow:hover,
+        .carousel-arrow:focus {
+          opacity: 1;
+        }
+        
+        .carousel-arrow--prev {
+          left: 0;
+        }
+        
+        .carousel-arrow--next {
+          right: 0;
+        }
       
       .carousel {
           position: relative;
@@ -120,9 +150,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         
         .carousel__content {
-          background-color: #e6e5e0;
-          background-image: url("../assets/noise.png");
-          backdrop-filter: blur(1px);
+          background-color: rgba(37,44,61, 0.5);
+          backdrop-filter: blur(3px);
           background-size: cover;
           text-align: center;
           font-weight: 400;
@@ -131,6 +160,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           
           p {margin: 0 auto; 
             padding: 2px 0;
+            color: #f1f1f1;
         }
           
         }
@@ -141,7 +171,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           text-align: center;
           opacity: 1.0;
           background-size: cover;
-          background-position: center;
+          background-position: center center;
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
           min-height: 200px;
           width: calc(100% / 3);
@@ -236,15 +266,29 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </head>
 <body class="nav-sidebar floating nav-fixed">
     <div class="carousel">
+      <button class="carousel-arrow carousel-arrow--prev" onclick="handleCarouselMove(false)">
+      ‹
+    </button>
+  
+    <button class="carousel-arrow carousel-arrow--next" onclick="handleCarouselMove()">
+      ›
+    </button>
+    
+    <div class="carousel-container" dir="ltr">
 
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
           <div class="carousel__content">
-            <p>Conservation &amp; Wildlife Ecology</p>
+            <p>Wildlife Ecology</p>
           </div>
         </div>
         <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;">
           <div class="carousel__content">
-            <p>Remote Sensing &amp; GIS</p>
+            <p>Remote Sensing</p>
+          </div> 
+        </div>
+        <div class="carousel__item" style="background-image: url('https://www.gisci.org/Portals/_default/Skins/GISCI-2024/Images/home-section3-img-1.jpg'); background-color: #001a17;">
+          <div class="carousel__content">
+            <p>Conservation GIS</p>
           </div> 
         </div>
         <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
@@ -257,8 +301,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             <p>Biogeography</p>
           </div>  
         </div>
-        
-    </div>
+    </div>     
+  </div>
   <div class="dashed-line">
   </div>
 
@@ -478,7 +522,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -515,7 +559,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-20</p>
+      <p class="date-modified">2024-05-21</p>
     </div>
   </div>
     
@@ -533,9 +577,9 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 
 <p>This map was created for <strong>Day 13</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “Choropleth” for the main subject. The final product showing both happiness and forest cover as a bivariate choropleth map. Map creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p class="page-columns page-full"><a href="img-happy-forests-happy-people-map.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Resulting bivariate map of happy forests and happy people."><img src="img-happy-forests-happy-people-map.png" class="column-body-outset img-fluid figure-img" alt="Resulting bivariate map of happy forests and happy people."></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img-happy-forests-happy-people-map.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Resulting bivariate map of happy forests and happy people."><img src="img-happy-forests-happy-people-map.png" class="img-fluid figure-img" alt="Resulting bivariate map of happy forests and happy people."></a></p>
 <figcaption>Resulting bivariate map of happy forests and happy people.</figcaption>
 </figure>
 </div>
@@ -991,7 +1035,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","loop":false,"selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -17,4 +17,4 @@ image-alt: "A point map showing the locations of all bridges in Pennsylvania."
 
 This map was created for **Day 15** of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "Open Street Map" for the main subject. Map creation was performed in R/Studio using the`ggplot` package. OpenStreeMap data for both bridges and largest cities were accessed via the `osmdata` package. The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database.
 
-![Final map of OSM bridges of PA.](img-PA-bridge-map.png){.column-body-outset}
+![Final map of OSM bridges of PA.](img-PA-bridge-map.png)

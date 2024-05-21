@@ -16,5 +16,5 @@ image-alt: "A choropleth map showing forest cover and happiness index."
 
 This map was created for **Day 13** of the 2023 [30 Day Map Challenge](https://30daymapchallenge.com/), which designated "Choropleth" for the main subject. The final product showing both happiness and forest cover as a bivariate choropleth map. Map creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub.
 
-![Resulting bivariate map of happy forests and happy people.](img-happy-forests-happy-people-map.png){.column-body-outset}
+![Resulting bivariate map of happy forests and happy people.](img-happy-forests-happy-people-map.png)
 

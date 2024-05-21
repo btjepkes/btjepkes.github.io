@@ -1,3 +1,8 @@
+.index-map {
+  margin: 2em auto 0 auto;
+  min-width: 100%;
+}
+
 
 #title-block-header {
   display: none !important;
