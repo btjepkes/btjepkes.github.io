@@ -1,6 +1,7 @@
 ---
 title: "My Blog Posts"
 title-meta: "My Blog Posts"
+subtitle: Technical and creative writings.
 date-modified: today
 date: 2022-10-16
 pagetitle: "Blog Posts | B.W. Tjepkes"
@@ -9,7 +10,7 @@ citation: false
 image: ../assets/bg-pines-blog-orange-sm.png
 image-alt: "Image-of-trees."
 #abstract: My technical and creative writings.
-description: "This page is the home to many of my blog posts. The technical aspects generally cover some of my adventures whilst learning to become a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included."
+abstract: "The technical aspects generally cover some of my adventures whilst becoming a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included."
 listing:
   - id: main-posts
     contents: "*.qmd"

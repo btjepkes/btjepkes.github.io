@@ -1,5 +1,6 @@
 ---
 title: "Converting PowerPoints to Reveal.js Format"
+subtitle: An automated method of turning your PPTX into REVEAL.JS.
 date: 2024-04-29
 date-modified: today
 categories:
@@ -11,7 +12,7 @@ keywords:
   - "RevealJS"
   - "Quarto"
   - "PowerPoint"
-description: "In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create interactive slides. This workflow has worked for me to generate slides for my website."
+abstract: "In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create interactive slides. This workflow has worked for me to generate slides for my website."
 image: img-cover.png
 image-alt: "An image of an example powerpoint slide."
 ---

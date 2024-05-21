@@ -177,18 +177,20 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__item {
             flex: 1 0 30%;
             aspect-ratio: 16/9;
-            max-height: 150px;
+            max-height: 180px;
             flex-flow: column nowrap;
             display: flex;
             scroll-snap-align: center;
             background-size: cover;
             background-position: center;
             box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
-            border-radius: 5px;
+            border-radius: 20px;
             }
 
         .carousel__content {
-          background: rgba(0, 0, 0, 0.6);
+          background: rgba(0, 0, 0, 0.8);
+          border-right: solid #1cd354;
+          border-radius: 5px 0 0 5px;
           backdrop-filter: blur(5px);
           text-align: center;
           margin: 20px 0px auto auto;
@@ -246,7 +248,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
                     <p>Conservation GIS</p>
                 </div>  
             </div>
-            <div class="carousel__item" style="background-image: url('https://code.visualstudio.com/assets/docs/languages/r/overview.png'); background-color: #001a17;">
+            <div class="carousel__item" style="background-image: url('https://zubrod-eds.de/wp-content/uploads/2021/02/Heart_cropped.jpg'); background-color: #001a17;">
                 <div class="carousel__content">
                     <p>Environmental Data Science</p>
                 </div>  
@@ -989,7 +991,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":false});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","loop":false,"selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

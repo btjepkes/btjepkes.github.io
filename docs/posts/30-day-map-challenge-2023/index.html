@@ -196,18 +196,20 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__item {
             flex: 1 0 30%;
             aspect-ratio: 16/9;
-            max-height: 150px;
+            max-height: 180px;
             flex-flow: column nowrap;
             display: flex;
             scroll-snap-align: center;
             background-size: cover;
             background-position: center;
             box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
-            border-radius: 5px;
+            border-radius: 20px;
             }
 
         .carousel__content {
-          background: rgba(0, 0, 0, 0.6);
+          background: rgba(0, 0, 0, 0.8);
+          border-right: solid #1cd354;
+          border-radius: 5px 0 0 5px;
           backdrop-filter: blur(5px);
           text-align: center;
           margin: 20px 0px auto auto;
@@ -273,7 +275,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
                     <p>Conservation GIS</p>
                 </div>  
             </div>
-            <div class="carousel__item" style="background-image: url('https://code.visualstudio.com/assets/docs/languages/r/overview.png'); background-color: #001a17;">
+            <div class="carousel__item" style="background-image: url('https://zubrod-eds.de/wp-content/uploads/2021/02/Heart_cropped.jpg'); background-color: #001a17;">
                 <div class="carousel__content">
                     <p>Environmental Data Science</p>
                 </div>  
@@ -563,7 +565,7 @@ window.Quarto = {
 </header><section id="overview-of-challenge" class="level2"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
 <p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
+<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
 <figcaption>Here are daily prompts for 2023. Credit: 30DayMapChallenge.com</figcaption></figure>
 </div>
 </section><section id="my-2023-contributions" class="level2"><h2 data-anchor-id="my-2023-contributions">My 2023 Contributions</h2>
@@ -1159,7 +1161,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
 </div>
   </div>
-</footer><script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom"});
+</footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -212,18 +212,20 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__item {
             flex: 1 0 30%;
             aspect-ratio: 16/9;
-            max-height: 150px;
+            max-height: 180px;
             flex-flow: column nowrap;
             display: flex;
             scroll-snap-align: center;
             background-size: cover;
             background-position: center;
             box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
-            border-radius: 5px;
+            border-radius: 20px;
             }
 
         .carousel__content {
-          background: rgba(0, 0, 0, 0.6);
+          background: rgba(0, 0, 0, 0.8);
+          border-right: solid #1cd354;
+          border-radius: 5px 0 0 5px;
           backdrop-filter: blur(5px);
           text-align: center;
           margin: 20px 0px auto auto;
@@ -283,7 +285,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
                     <p>Conservation GIS</p>
                 </div>  
             </div>
-            <div class="carousel__item" style="background-image: url('https://code.visualstudio.com/assets/docs/languages/r/overview.png'); background-color: #001a17;">
+            <div class="carousel__item" style="background-image: url('https://zubrod-eds.de/wp-content/uploads/2021/02/Heart_cropped.jpg'); background-color: #001a17;">
                 <div class="carousel__content">
                     <p>Environmental Data Science</p>
                 </div>  
@@ -590,7 +592,7 @@ const carousel = document.querySelector(".carousel-container");
 <p>Once you have your literature in Zotero you can review each article as you normally would. While doing so, add in notes and annotations that summarize the main findings, key terms, important methods, and so forth. An important note about this workflow is that each comment or annotation made on an article must be stored as an individual note item. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-zotero-item.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
+<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
 <figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
 </figure>
 </div>
@@ -1302,7 +1304,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
