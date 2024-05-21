@@ -202,8 +202,8 @@ h3 {
 
 .description {
   line-height: 1.4em;
-  margin-top: 12px !important;
-  margin-bottom: 10px;
+  margin-top: 16px !important;
+  margin-bottom: 14px;
 /*  font-family: Montserrat;*/
   font-size: 17px !important;
   font-weight: 500;
@@ -300,7 +300,7 @@ dd {
   letter-spacing: 0.02em;
   font-size: 1.90rem;
   color: #fbfbfc;
-  text-shadow: 1px 1px rgba(15, 23, 42, 0.85);;
+  text-shadow: 1px 1px rgba(15, 23, 42, 0.85);
   font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
   margin-left: 0.1em;
@@ -581,7 +581,7 @@ color: #000;
 }
 
 
-#title-block-header::after {
+/*#title-block-header::after {
         content: "";
         position: relative;
         height: 30px;
@@ -593,7 +593,7 @@ color: #000;
         opacity: 0.5;
         margin-top: 20px;
         transform: rotate(180deg);
-      }
+      }*/
 
 
 
@@ -861,7 +861,7 @@ figure > figcaption {
 }
 
 #quarto-content > * {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 main {

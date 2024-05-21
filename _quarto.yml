@@ -141,4 +141,4 @@ format:
     # - file: cover-image.html
     # include-after-body: back-to-top.html
     include-in-header:
-      - file: carousel/header-carousel.html
+      - file: carousel-slider/carousel-slider.html

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+      .dashed-line {
+        position: relative;
+        height: 30px;
+        width: 100%;
+        display: block;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAzCAYAAAC0e3lWAAABT0lEQVQ4T5WUS0tCURRGr6HRoIIoqOgxqUkNougB9u6Pp6WDsgf0IiJQCooGGUE1aCC0PrhHzt3tJIWF5+7luR73vp+5JEl6oQgH0H7l0tUO70fwHUwQ8xS+4MGKYQozULNC1xtwCR+6CLfSWjt64N6KfgpLULFC16vQgNf4VhLTMAjXVvRRXINDK7RrD6qe0I47Tywi3j0xh8h7YgVR98Q2omZFIe1Z2YpRxAScW7GgdsBzLDTiLShDKxZTFMbgxHa33dlYZGYRi8z0YpGZdxB5Fvq1+yqEl06lialxx1aMUxiBKyvWKbxA3YpJCgNwa8UQBR331IqOMdhNd3zGx9VaMVDx0YqOMdjk0xfwKwazFNUJNwZ62Kr6HjtzDUsdaHoxUBduuo5BpesYvP0Vg4InljlV498x0BOj57fkxUCjPvNi0EQ8xUJp0h9aCVo/o4FBKG9s+uwAAAAASUVORK5CYII=);
+        background-repeat: repeat-x;
+        background-position: top;
+        background-color: #f0f0ec;
+        opacity: 0.7;
+      }
+
+      body {
+        margin: 0;
+        position: relative;
+        }
+
+        .carousel {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+
+        .carousel-arrow {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            top: 0;
+            bottom: 0;
+            margin-block: auto;
+            height: 100%;
+            width: 40px;
+            background-color: transparent;
+            color: #1cd354;
+            text-shadow: 1px 1px rgba(15, 23, 42, 0.85);
+            border: none;
+            font-size: 4rem;
+            padding: 0;
+            padding-top: 60px;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: opacity 100ms;
+            }
+
+        .carousel-arrow:hover,
+        .carousel-arrow:focus {
+        opacity: 1;
+        }
+
+        .carousel-arrow--prev {
+        left: 0;
+        }
+
+        .carousel-arrow--next {
+        right: 0;
+        }
+
+        .carousel-container {
+        width: 100%;
+        overflow-x: hidden;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        scroll-snap-type: x mandatory;
+        flex-flow: row nowrap;
+        scroll-behavior: smooth;
+        margin: 8px 0;
+        }
+
+        .carousel-container::-webkit-scrollbar {
+        height: 14px;
+        width: calc(100% - 48px);
+        }
+
+        .carousel-container::-webkit-scrollbar-track {
+        background: #b1b3b399;
+        }
+
+        .carousel-container::-webkit-scrollbar-thumb {
+        background: #29AB87;
+        }
+
+        .carousel-container::-webkit-scrollbar-track-piece:start {
+        background: #29AB87;
+        }
+
+        .carousel__item {
+            flex: 1 0 30%;
+            aspect-ratio: 16/9;
+            max-height: 200px;
+            flex-flow: column nowrap;
+            display: flex;
+            scroll-snap-align: center;
+            background-size: cover;
+            background-position: center;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+            border-radius: 5px;
+            }
+
+        .carousel__content {
+          background: rgba(37,44,61,0.0);
+          backdrop-filter: blur(5px);
+          text-align: center;
+          border-radius: 5px 5px 0 0;
+          
+          p {margin: 0 auto;
+            padding: 4px;
+            color: white;
+            text-shadow: 1px 1px rgba(15, 23, 42, 0.85);
+        }
+          
+        }
+
+        @media (max-width: 600px) {
+        .carousel__item {
+            flex: 1 0 90%;
+        }
+        }
+</style>
+</head>
+<body>
+    <div class="carousel">
+        <button class="carousel-arrow carousel-arrow--prev" onclick="handleCarouselMove(false)">
+            &#8249;
+        </button>
+        <button class="carousel-arrow carousel-arrow--next" onclick="handleCarouselMove()">
+            &#8250;
+        </button>
+        <div class="carousel-container">
+            <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
+                <div class="carousel__content">
+                    <p>Wildlife Ecology</p>
+                </div>
+            </div>
+            <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;">
+                <div class="carousel__content">
+                    <p>Remote Sensing</p>
+                </div> 
+            </div>
+            <div class="carousel__item" style="background-image: url('https://www.gisci.org/Portals/_default/Skins/GISCI-2024/Images/home-section3-img-1.jpg'); background-color: #001a17;">
+                <div class="carousel__content">
+                    <p>Conservation GIS</p>
+                </div>  
+            </div>
+            <div class="carousel__item" style="background-image: url('https://code.visualstudio.com/assets/docs/languages/r/overview.png'); background-color: #001a17;">
+                <div class="carousel__content">
+                    <p>Environmental Data Science</p>
+                </div>  
+            </div>
+            <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;">
+                <div class="carousel__content">
+                    <p>Biogeography</p>
+                </div>  
+            </div>
+            <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
+                <div class="carousel__content">
+                    <p>Climate Science</p>
+                </div>  
+            </div>
+        </div>
+    </div>
+  <div class="dashed-line">
+  </div>
+</body>
+<script>
+    const carousel = document.querySelector(".carousel-container");
+    const slides = document.querySelectorAll(".carousel__item");
+
+    function handleCarouselMove(positive = true) {
+        const slideWidth = slides[0].clientWidth;
+        const totalWidth = slideWidth * slides.length;
+        const maxScrollLeft = totalWidth - carousel.clientWidth;
+
+        if (positive) {
+            if (carousel.scrollLeft + slideWidth >= maxScrollLeft + slideWidth) {
+                carousel.scrollLeft = 0; // Go to the start
+            } else {
+                carousel.scrollLeft += slideWidth;
+            }
+        } else {
+            if (carousel.scrollLeft - slideWidth <= -slideWidth) {
+                carousel.scrollLeft = maxScrollLeft; // Go to the end
+            } else {
+                carousel.scrollLeft -= slideWidth;
+            }
+        }
+    }
+</script>
+</html>
