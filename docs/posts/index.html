@@ -155,7 +155,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             border: none;
             font-size: 4rem;
             padding: 0;
-            padding-top: 60px;
+            padding-top: 50px;
             cursor: pointer;
             opacity: 0.7;
             transition: opacity 100ms;
@@ -206,7 +206,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__item {
             flex: 1 0 30%;
             aspect-ratio: 16/9;
-            max-height: 200px;
+            max-height: 150px;
             flex-flow: column nowrap;
             display: flex;
             scroll-snap-align: center;
@@ -304,8 +304,9 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   </div>
 
 <script>
-    const carousel = document.querySelector(".carousel-container");
+const carousel = document.querySelector(".carousel-container");
     const slides = document.querySelectorAll(".carousel__item");
+    let intervalId;
 
     function handleCarouselMove(positive = true) {
         const slideWidth = slides[0].clientWidth;
@@ -326,6 +327,33 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             }
         }
     }
+
+    // Function to move the carousel automatically
+    function autoMoveCarousel() {
+        handleCarouselMove(true); // Move to the next slide
+    }
+
+    // Set interval to move the carousel every 5 seconds
+    function startAutoMove() {
+        intervalId = setInterval(autoMoveCarousel, 2000);
+    }
+
+    // Clear interval when mouse enters the carousel
+    function pauseAutoMove() {
+        clearInterval(intervalId);
+    }
+
+    // Restart interval when mouse leaves the carousel
+    function resumeAutoMove() {
+        startAutoMove();
+    }
+
+    // Start auto movement initially
+    startAutoMove();
+
+    // Add event listeners for hover
+    carousel.addEventListener("mouseenter", pauseAutoMove);
+    carousel.addEventListener("mouseleave", resumeAutoMove);
 </script>
 
 
@@ -508,7 +536,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Bibliography">Bibliography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Cartography">Cartography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Education">Education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="GIS">GIS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Nature">Nature <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Shorelines">Shorelines <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Wildlife">Wildlife <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mapping">mapping <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Bibliography">Bibliography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Cartography">Cartography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Education">Education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="GIS">GIS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Nature">Nature <span class="quarto-category-count">(2)</span></div><div class="category" data-category="PowerPoint">PowerPoint <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RevealJS">RevealJS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Shorelines">Shorelines <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Wildlife">Wildlife <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mapping">mapping <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -579,7 +607,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R,Quarto" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1715347875253" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741">
+<div class="g-col-1" data-index="0" data-categories="R,Quarto,PowerPoint,RevealJS" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1716316689493" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741">
 <a href="../posts/converting-powerpoints-to-revealjs/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">

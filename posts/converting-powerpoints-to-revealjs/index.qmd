@@ -5,6 +5,8 @@ date-modified: today
 categories:
   - R
   - Quarto
+  - PowerPoint
+  - RevealJS
 keywords:
   - "RevealJS"
   - "Quarto"

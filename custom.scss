@@ -554,6 +554,10 @@ color: #000;
   margin-top: 0 !important;
 }
 
+#title-block-header.quarto-title-block.default .quarto-title-meta-contents {
+  font-size: 0.75em;
+}
+
 #title-block-header.quarto-title-block.default .quarto-title-meta {
   display: grid;
   grid-template-columns: 45% 1fr 1fr;

@@ -119,8 +119,7 @@ leaflet(sites, options = leafletOptions(minZoom = 5)) |>
                lng2 = -63.43924, lat2 = 50.50496) |> 
   addLegend(position = "bottomright",
             colors = "red",
-            labels = "Sites",
-            title = "Legend") |> 
+            labels = "Research Sites") |> 
   addFullscreenControl()
 ```
 :::

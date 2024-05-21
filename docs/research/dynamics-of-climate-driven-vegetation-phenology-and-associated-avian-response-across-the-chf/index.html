@@ -158,7 +158,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             border: none;
             font-size: 4rem;
             padding: 0;
-            padding-top: 60px;
+            padding-top: 50px;
             cursor: pointer;
             opacity: 0.7;
             transition: opacity 100ms;
@@ -209,7 +209,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__item {
             flex: 1 0 30%;
             aspect-ratio: 16/9;
-            max-height: 200px;
+            max-height: 150px;
             flex-flow: column nowrap;
             display: flex;
             scroll-snap-align: center;
@@ -299,8 +299,9 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   </div>
 
 <script>
-    const carousel = document.querySelector(".carousel-container");
+const carousel = document.querySelector(".carousel-container");
     const slides = document.querySelectorAll(".carousel__item");
+    let intervalId;
 
     function handleCarouselMove(positive = true) {
         const slideWidth = slides[0].clientWidth;
@@ -321,6 +322,33 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             }
         }
     }
+
+    // Function to move the carousel automatically
+    function autoMoveCarousel() {
+        handleCarouselMove(true); // Move to the next slide
+    }
+
+    // Set interval to move the carousel every 5 seconds
+    function startAutoMove() {
+        intervalId = setInterval(autoMoveCarousel, 2000);
+    }
+
+    // Clear interval when mouse enters the carousel
+    function pauseAutoMove() {
+        clearInterval(intervalId);
+    }
+
+    // Restart interval when mouse leaves the carousel
+    function resumeAutoMove() {
+        startAutoMove();
+    }
+
+    // Start auto movement initially
+    startAutoMove();
+
+    // Add event listeners for hover
+    carousel.addEventListener("mouseenter", pauseAutoMove);
+    carousel.addEventListener("mouseleave", resumeAutoMove);
 </script>
 
 
@@ -567,7 +595,7 @@ window.Quarto = {
 <p>My thesis is aimed at assessing how regional patterns of tree phenology can be used to predict demographic trends in avian populations across the central hardwoods under anthropogenic climate change. This research will extend existing work on wildlife response to climate change to include how climate extremes drive forest phenology and how these patterns are projected to change with a shift in forest composition.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-example-gee-evi.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Example EVI chart. Source: https://github.com/ncsuSEAL/Bayesian_LSP"><img src="img-example-gee-evi.png" class="img-fluid figure-img" alt="Example EVI chart. Source: https://github.com/ncsuSEAL/Bayesian_LSP"></a></p>
+<p><a href="img-example-gee-evi.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Example EVI chart. Source: https://github.com/ncsuSEAL/Bayesian_LSP"><img src="img-example-gee-evi.png" class="img-fluid figure-img" alt="Example EVI chart. Source: https://github.com/ncsuSEAL/Bayesian_LSP"></a></p>
 <figcaption>Example EVI chart. Source: https://github.com/ncsuSEAL/Bayesian_LSP</figcaption>
 </figure>
 </div>
@@ -1050,7 +1078,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","loop":false,"selector":".lightbox","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

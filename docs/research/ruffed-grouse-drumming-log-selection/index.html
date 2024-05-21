@@ -124,7 +124,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             border: none;
             font-size: 4rem;
             padding: 0;
-            padding-top: 60px;
+            padding-top: 50px;
             cursor: pointer;
             opacity: 0.7;
             transition: opacity 100ms;
@@ -175,7 +175,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         .carousel__item {
             flex: 1 0 30%;
             aspect-ratio: 16/9;
-            max-height: 200px;
+            max-height: 150px;
             flex-flow: column nowrap;
             display: flex;
             scroll-snap-align: center;
@@ -261,8 +261,9 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
   </div>
 
 <script>
-    const carousel = document.querySelector(".carousel-container");
+const carousel = document.querySelector(".carousel-container");
     const slides = document.querySelectorAll(".carousel__item");
+    let intervalId;
 
     function handleCarouselMove(positive = true) {
         const slideWidth = slides[0].clientWidth;
@@ -283,6 +284,33 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             }
         }
     }
+
+    // Function to move the carousel automatically
+    function autoMoveCarousel() {
+        handleCarouselMove(true); // Move to the next slide
+    }
+
+    // Set interval to move the carousel every 5 seconds
+    function startAutoMove() {
+        intervalId = setInterval(autoMoveCarousel, 2000);
+    }
+
+    // Clear interval when mouse enters the carousel
+    function pauseAutoMove() {
+        clearInterval(intervalId);
+    }
+
+    // Restart interval when mouse leaves the carousel
+    function resumeAutoMove() {
+        startAutoMove();
+    }
+
+    // Start auto movement initially
+    startAutoMove();
+
+    // Add event listeners for hover
+    carousel.addEventListener("mouseenter", pauseAutoMove);
+    carousel.addEventListener("mouseleave", resumeAutoMove);
 </script>
 
 
