@@ -1,10 +1,11 @@
 ---
 title: "My Project Gallery"
+subtitle: Works from  creative pursuits, work assignments, and course projects.
 date-modified: today
 date: 2021-01-01
 image: ../assets/bg-pines-gallery-yellow-sm.png
 image-alt: Image-of-pine-trees-on-blue-background.
-description: "Works included here are from  creative projects, work assignments, course projects, or contributions to social media challenges like TidyTuesday. My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category below."
+abstract: "My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category below."
 listing:
   - id: gallery-listings-all
     contents: "*.qmd"

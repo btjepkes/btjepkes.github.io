@@ -156,7 +156,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         scroll-snap-type: x mandatory;
         flex-flow: row nowrap;
         scroll-behavior: smooth;
-        margin: 8px 0;
+        margin: 8px 2px;
         }
 
         .carousel-container::-webkit-scrollbar {
@@ -190,15 +190,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             }
 
         .carousel__content {
-          background: rgba(37,44,61,0.0);
+          background: rgba(0, 0, 0, 0.6);
           backdrop-filter: blur(5px);
           text-align: center;
-          border-radius: 5px 5px 0 0;
+          margin: 20px 0px auto auto;
           
-          p {margin: 0 auto;
-            padding: 4px;
+          p {margin: auto auto;
+            padding: 4px 12px;
             color: white;
-            text-shadow: 1px 1px rgba(15, 23, 42, 0.85);
         }
           
         }
@@ -504,7 +503,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <p>This map was created for <strong>Day 13</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “Choropleth” for the main subject. The final product showing both happiness and forest cover as a bivariate choropleth map. Map creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-happy-forests-happy-people-map.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Resulting bivariate map of happy forests and happy people."><img src="img-happy-forests-happy-people-map.png" class="img-fluid figure-img" alt="Resulting bivariate map of happy forests and happy people."></a></p>
+<p><a href="img-happy-forests-happy-people-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Resulting bivariate map of happy forests and happy people."><img src="img-happy-forests-happy-people-map.png" class="img-fluid figure-img" alt="Resulting bivariate map of happy forests and happy people."></a></p>
 <figcaption>Resulting bivariate map of happy forests and happy people.</figcaption>
 </figure>
 </div>
@@ -960,7 +959,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

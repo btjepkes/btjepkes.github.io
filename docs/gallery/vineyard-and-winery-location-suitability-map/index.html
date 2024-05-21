@@ -155,7 +155,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         scroll-snap-type: x mandatory;
         flex-flow: row nowrap;
         scroll-behavior: smooth;
-        margin: 8px 0;
+        margin: 8px 2px;
         }
 
         .carousel-container::-webkit-scrollbar {
@@ -189,15 +189,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             }
 
         .carousel__content {
-          background: rgba(37,44,61,0.0);
+          background: rgba(0, 0, 0, 0.6);
           backdrop-filter: blur(5px);
           text-align: center;
-          border-radius: 5px 5px 0 0;
+          margin: 20px 0px auto auto;
           
-          p {margin: 0 auto;
-            padding: 4px;
+          p {margin: auto auto;
+            padding: 4px 12px;
             color: white;
-            text-shadow: 1px 1px rgba(15, 23, 42, 0.85);
         }
           
         }
@@ -506,7 +505,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <h2 data-anchor-id="final-result">Final Result</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-map-1.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-map-1.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-map-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-map-1.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -963,7 +962,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

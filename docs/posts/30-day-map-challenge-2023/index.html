@@ -173,7 +173,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         scroll-snap-type: x mandatory;
         flex-flow: row nowrap;
         scroll-behavior: smooth;
-        margin: 8px 0;
+        margin: 8px 2px;
         }
 
         .carousel-container::-webkit-scrollbar {
@@ -207,15 +207,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             }
 
         .carousel__content {
-          background: rgba(37,44,61,0.0);
+          background: rgba(0, 0, 0, 0.6);
           backdrop-filter: blur(5px);
           text-align: center;
-          border-radius: 5px 5px 0 0;
+          margin: 20px 0px auto auto;
           
-          p {margin: 0 auto;
-            padding: 4px;
+          p {margin: auto auto;
+            padding: 4px 12px;
             color: white;
-            text-shadow: 1px 1px rgba(15, 23, 42, 0.85);
         }
           
         }
@@ -536,7 +535,7 @@ window.Quarto = {
 </header><section id="overview-of-challenge" class="level2"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
 <p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
+<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
 <figcaption>Here are daily prompts for 2023. Credit: 30DayMapChallenge.com</figcaption></figure>
 </div>
 </section><section id="my-2023-contributions" class="level2"><h2 data-anchor-id="my-2023-contributions">My 2023 Contributions</h2>
@@ -1132,7 +1131,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
 </div>
   </div>
-</footer><script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});
+</footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

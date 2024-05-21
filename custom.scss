@@ -179,7 +179,11 @@ h3 {
 }
 
 .subtitle {
-
+  text-align: left;
+  line-height: 1.4em;
+  margin-top: 16px !important;
+  margin-bottom: 14px;
+  font-weight: 500;
 }
 
 /*@media (max-width: 991.98px) {
@@ -197,7 +201,13 @@ h3 {
 }*/
 
 .abstract {
-  
+  background: #e6e5e0;
+  padding: 8px 8px;
+  font-size: 0.9em;
+}
+
+.abstract .block-title {
+  margin-top: 0 !important;
 }
 
 .description {
@@ -547,9 +557,14 @@ color: #000;
 #title-block-header.quarto-title-block.default .quarto-title-meta {
   display: grid;
   grid-template-columns: 45% 1fr 1fr;
-  grid-column-gap: 0.7em;
+  grid-column-gap: 0.5em;
   padding-top: 0.7em;
   padding-bottom: 0.4em;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta > * {
+  background: #e6e5e0;
+  padding: 4px 8px;
 }
 
 /*.quarto-title-block .quarto-title-banner {
@@ -861,7 +876,7 @@ figure > figcaption {
 }
 
 #quarto-content > * {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 main {

@@ -1,12 +1,11 @@
 ---
 title: "Curriculum Vitae"
+subtitle: My background, education, and professional pathway.
 image: ../assets/bg-pines-resources-purple-sm.png
 image-alt: Image-of-pine-trees-on-blue-background.
-# date: 2023-10-30
-# date-modified: today
 date-modified: today
 date: 2021-01-01
-description: "This page provides my resumes detailing my formal education, recent professional experience, and professional skillset. Please see my full CV for a comprehensive listing of my experience."
+abstract: "This page provides my resumes detailing my formal education, recent professional experience, and professional skillset. Please see my full CV for a comprehensive listing of my experience."
 format:
   html:
     echo: false
