@@ -11,7 +11,7 @@ listing:
     contents: "*.qmd"
     type: grid
     grid-columns: 3
-    image-height: 200px
+    image-height: 120px
     max-description-length: 100
     categories: numbered
     sort: "date"
@@ -43,7 +43,7 @@ sites <- sf::st_read("features_for_website.geojson", quiet = TRUE)
 bbox <- sf::st_bbox(sites)
 
 leaflet(sites, options = leafletOptions(minZoom = 5)) |> 
-  addProviderTiles(providers$Esri.WorldPhysical) |> 
+  addProviderTiles(providers$Stadia.AlidadeSmooth) |> 
   addPolygons(label = ~as.character(Name),
               labelOptions = labelOptions(noHide = FALSE,
                                           direction = "bottom"),

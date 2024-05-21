@@ -115,18 +115,22 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           margin: 0 0 0 0;
           display: flex;
           flex-direction: row;
+          background-color: #f1f1f1;
         }
         
         .carousel__content {
-          background: rgba(255, 255, 255, 0.75);
+          background-color: #e6e5e0;
+          background-image: url("../assets/noise.png");
           backdrop-filter: blur(1px);
           background-size: cover;
           text-align: center;
-          border-left: solid 2px #dbdbd9;
           font-weight: 400;
-          font-size: 18px; 
+          font-size: 16px;
+          border-radius: 4px 4px 0 0;
           
-          p {margin: 0 auto; }
+          p {margin: 0 auto; 
+            padding: 2px 0;
+        }
           
         }
         
@@ -134,14 +138,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
           padding: 0em;
           font-weight: 700;
           text-align: center;
-          color: #000000;
           opacity: 1.0;
           background-size: cover;
           background-position: center;
           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
           min-height: 200px;
           width: calc(100% / 3);
-          border: solid #e6e5e0 5px;
+          margin: 8px 6px;
+          border-radius: 5px;
         }
         
         @keyframes fadeIn {
@@ -252,6 +256,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             <p>Biogeography</p>
           </div>  
         </div>
+        
     </div>
   <div class="dashed-line">
   </div>
@@ -987,7 +992,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"descPosition":"bottom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
