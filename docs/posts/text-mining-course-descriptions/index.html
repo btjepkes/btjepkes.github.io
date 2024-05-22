@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
-<meta name="dcterms.date" content="2023-05-18">
-<meta name="description" content="This poster was created to provide an overview and status update on the Missouri Bat Habitat Conservation Plan at the 2023 Missouri Department of Conservation Science Branch Conference.">
+<meta name="dcterms.date" content="2024-05-21">
+<meta name="keywords" content="Graduate School">
 
-<title>Missouri Bat HCP Overview &amp; Update Poster | B.W. Tjepkes</title>
+<title>Mining Text From Course Descriptions | B.W. Tjepkes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -209,17 +243,31 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         }
         }
 </style>
-<meta property="og:title" content="Missouri Bat HCP Overview &amp; Update Poster | B.W. Tjepkes">
-<meta property="og:description" content="This poster was created to provide an overview and status update on the Missouri Bat Habitat Conservation Plan at the 2023 Missouri Department of Conservation Science Branch Conference.">
-<meta property="og:image" content="https://btjepkes.github.io/gallery/missouri-bat-hcp-poster/img-bat-hcp-poster.jpg">
+<meta property="og:title" content="Mining Text From Course Descriptions | B.W. Tjepkes">
+<meta property="og:description" content="In this post, I describe a recent workflow that I ran on my college course descriptions to see most common words and word associations.">
+<meta property="og:image" content="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png">
 <meta property="og:site_name" content="PORTFOLIO {{< fa solid layer-group size=1.2x >}} B.W. TJEPKES">
-<meta property="og:image:alt" content="Poster showing information about the Missouri bat habitat conservation plan.">
+<meta property="og:image:height" content="1000">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:alt" content="An image of a word cloud.">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="This poster was created to provide an overview and status update on the Missouri Bat Habitat Conservation Plan at the 2023 Missouri Department of Conservation Science Branch Conference.">
-<meta name="twitter:image" content="https://btjepkes.github.io/gallery/missouri-bat-hcp-poster/img-bat-hcp-poster.jpg">
+<meta name="twitter:description" content="In this post, I describe a recent workflow that I ran on my college course descriptions to see most common words and word associations.">
+<meta name="twitter:image" content="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png">
 <meta name="twitter:creator" content="@BTjepkes">
-<meta name="twitter:image:alt" content="Poster showing information about the Missouri bat habitat conservation plan.">
+<meta name="twitter:image-height" content="1000">
+<meta name="twitter:image-width" content="1000">
+<meta name="twitter:image:alt" content="An image of a word cloud.">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="citation_title" content="Mining Text From Course Descriptions">
+<meta name="citation_abstract" content="In this post, I describe a recent workflow that I ran on my college course descriptions to see most common words and word associations.">
+<meta name="citation_keywords" content="Graduate School">
+<meta name="citation_author" content="Benjamin Tjepkes">
+<meta name="citation_publication_date" content="2024-05-21">
+<meta name="citation_cover_date" content="2024-05-21">
+<meta name="citation_year" content="2024">
+<meta name="citation_online_date" content="2024-05-21">
+<meta name="citation_fulltext_html_url" content="https://btjepkes.github.io/posts/text-mining-course-descriptions">
+<meta name="citation_language" content="en">
 </head>
 <body class="nav-sidebar floating nav-fixed">
     <div class="carousel">
@@ -409,7 +457,7 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Missouri Bat HCP Overview &amp; Update Poster</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Mining Text From Course Descriptions</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -481,8 +529,8 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
     <h2 id="toc-title">On This Page:</h2>
    
   <ul class="collapse">
-  <li><a href="#tools-and-workflow" id="toc-tools-and-workflow" class="nav-link active" data-scroll-target="#tools-and-workflow">Tools and Workflow</a></li>
-  <li><a href="#final-result" id="toc-final-result" class="nav-link" data-scroll-target="#final-result">Final Result</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#workflow" id="toc-workflow" class="nav-link" data-scroll-target="#workflow">Workflow</a></li>
   </ul>
 </nav>
     </div>
@@ -491,19 +539,15 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Missouri Bat HCP Overview &amp; Update Poster</h1>
+<h1 class="title">Mining Text From Course Descriptions</h1>
+<p class="subtitle lead">Using R to examine words in my 70+ college course history.</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Poster Gallery</div>
-    <div class="quarto-category">Missouri</div>
-    <div class="quarto-category">Mammal</div>
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Text Mining</div>
+    <div class="quarto-category">Word Cloud</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    This poster was created to provide an overview and status update on the Missouri Bat Habitat Conservation Plan at the 2023 Missouri Department of Conservation Science Branch Conference.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -518,7 +562,7 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2023-05-18</p>
+      <p class="date">2024-05-21</p>
     </div>
   </div>
   
@@ -534,27 +578,115 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
 <div>
   <div class="abstract">
     <div class="block-title">What Is This About?</div>
-    Informational poster on the Missouri Bat Habitat Conservation Plan.
+    In this post, I describe a recent workflow that I ran on my college course descriptions to see most common words and word associations.
   </div>
 </div>
 
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>Graduate School</p>
+  </div>
+</div>
 
 </header>
 
 
-<section id="tools-and-workflow" class="level2">
-<h2 data-anchor-id="tools-and-workflow">Tools and Workflow</h2>
-<p>Map creation was performed using <code>tmap</code> and <code>sf</code> packages in the <strong>RStudio</strong> environment. Poster compilation was performed in <strong>Microsoft Publisher</strong>.</p>
+<section id="introduction" class="level2">
+<h2 data-anchor-id="introduction">Introduction</h2>
+<p>I recently wrapped up my first spring semester as a graduate student, making my list of college courses taken surpass 70! As the bags under my eyes can tell you, it has been a long road to this point, with much still left to go. I wanted to take some time to look back and reflect on the courses I have experienced in my higher education journey thus far.</p>
+<section id="archiving-course-descriptions" class="level3">
+<h3 data-anchor-id="archiving-course-descriptions">Archiving Course Descriptions</h3>
+<p>The primary instigator of this was that I was finally able to finish assembling my spreadsheet of courses over my career. Why collect these? Well, I am in the process of submitting my application for various professional certifications and many of them require a record of all courses taken that apply to their certification. For example, my application for <a href="https://wildlife.org/certification-programs/">The Wildlife Society Certification Program</a> is one I have been planning for a long time.</p>
 </section>
-<section id="final-result" class="level2">
-<h2 data-anchor-id="final-result">Final Result</h2>
-<p>Here is the final poster that I presented at the 2023 MDC Science Branch Conference in Potosi, Missouri.</p>
-<p><a href="img-bat-hcp-poster.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-bat-hcp-poster.jpg" class="img-fluid"></a></p>
+</section>
+<section id="workflow" class="level2">
+<h2 data-anchor-id="workflow">Workflow</h2>
+<p>The steps I took for this process came largely from <a href="http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know">this blog post</a>, which was extremely helpful in understanding these text mining packages in R.</p>
+<section id="data-processing" class="level3">
+<h3 data-anchor-id="data-processing">Data Processing</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install ----</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"tm"</span>)  <span class="co"># for text mining</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"SnowballC"</span>) <span class="co"># for text stemming</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"wordcloud"</span>) <span class="co"># word-cloud generator </span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"RColorBrewer"</span>) <span class="co"># color palettes</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Load ----</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"tm"</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"SnowballC"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"wordcloud"</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"RColorBrewer"</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the text</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>text <span class="ot">&lt;-</span> base<span class="sc">::</span><span class="fu">readLines</span>(<span class="fu">file.choose</span>())</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the data as a corpus</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>docs <span class="ot">&lt;-</span> tm<span class="sc">::</span><span class="fu">Corpus</span>(<span class="fu">VectorSource</span>(text))</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Text transformation ----</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>toSpace <span class="ot">&lt;-</span> <span class="fu">content_transformer</span>(<span class="cf">function</span> (x , pattern ) <span class="fu">gsub</span>(pattern, <span class="st">" "</span>, x))</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>docs <span class="ot">&lt;-</span> <span class="fu">tm_map</span>(docs, toSpace, <span class="st">"/"</span>)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>docs <span class="ot">&lt;-</span> <span class="fu">tm_map</span>(docs, toSpace, <span class="st">"@"</span>)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>docs <span class="ot">&lt;-</span> <span class="fu">tm_map</span>(docs, toSpace, <span class="st">"</span><span class="sc">\\</span><span class="st">|"</span>)</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Text cleaning ----</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert the text to lower case</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>docs <span class="ot">&lt;-</span> <span class="fu">tm_map</span>(docs, <span class="fu">content_transformer</span>(tolower))</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove numbers</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>docs <span class="ot">&lt;-</span> <span class="fu">tm_map</span>(docs, removeNumbers)</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove english common stopwords</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>docs <span class="ot">&lt;-</span> <span class="fu">tm_map</span>(docs, removeWords, <span class="fu">stopwords</span>(<span class="st">"english"</span>))</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove your own stop word</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="co"># specify your stopwords as a character vector</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>docs <span class="ot">&lt;-</span> <span class="fu">tm_map</span>(docs, removeWords, <span class="fu">c</span>(<span class="st">"course"</span>, <span class="st">"will"</span>)) </span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove punctuations</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>docs <span class="ot">&lt;-</span> <span class="fu">tm_map</span>(docs, removePunctuation)</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Eliminate extra white spaces</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>docs <span class="ot">&lt;-</span> <span class="fu">tm_map</span>(docs, stripWhitespace)</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="co"># Build a Term-Document Matrix ----</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>dtm <span class="ot">&lt;-</span> <span class="fu">TermDocumentMatrix</span>(docs)</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>m <span class="ot">&lt;-</span> <span class="fu">as.matrix</span>(dtm)</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>v <span class="ot">&lt;-</span> <span class="fu">sort</span>(<span class="fu">rowSums</span>(m),<span class="at">decreasing=</span><span class="cn">TRUE</span>)</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">word =</span> <span class="fu">names</span>(v),<span class="at">freq=</span>v)</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(d, <span class="dv">10</span>)</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="co"># Create and save word cloud</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">1234</span>)</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>grDevices<span class="sc">::</span><span class="fu">png</span>(<span class="at">filename =</span> <span class="st">"./word_plot.png"</span>,</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>               <span class="at">width =</span> <span class="dv">1000</span>,</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>               <span class="at">height =</span> <span class="dv">1000</span>,</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>               <span class="at">units =</span> <span class="st">"px"</span>,</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>               <span class="at">res =</span> <span class="dv">150</span>)</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>wordcloud<span class="sc">::</span><span class="fu">wordcloud</span>(<span class="at">words =</span> d<span class="sc">$</span>word, <span class="at">freq =</span> d<span class="sc">$</span>freq, <span class="at">min.freq =</span> <span class="dv">1</span>,</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>          <span class="at">max.words=</span><span class="dv">200</span>, <span class="at">random.order=</span><span class="cn">FALSE</span>, <span class="at">rot.per=</span><span class="fl">0.35</span>, </span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>          <span class="at">colors=</span><span class="fu">brewer.pal</span>(<span class="dv">8</span>, <span class="st">"Dark2"</span>))</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>grDevices<span class="sc">::</span><span class="fu">dev.off</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="data-visualization" class="level3">
+<h3 data-anchor-id="data-visualization">Data Visualization</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="The resulting word cloud from my course descriptions."><img src="./img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
+<figcaption>The resulting word cloud from my course descriptions.</figcaption>
+</figure>
+</div>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">The resulting word cloud from my course descriptions.</span>
+</div>
+</section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Tjepkes, Benjamin. 2024. <span>“Mining Text From Course
+Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/text-mining-course-descriptions">https://btjepkes.github.io/posts/text-mining-course-descriptions</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1000,7 +1132,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

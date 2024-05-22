@@ -1,0 +1,99 @@
+---
+title: "Mining Text From Course Descriptions"
+subtitle: Using R to examine words in my 70+ college course history.
+abstract: "In this post, I describe a recent workflow that I ran on my college course descriptions to see most common words and word associations."
+date: 2024-05-21
+date-modified: today
+categories:
+  - R
+  - Text Mining
+  - Word Cloud
+keywords:
+  - "Graduate School"
+image: img-word-cloud.png
+image-alt: "An image of a word cloud."
+draft: false
+---
+
+## Introduction
+
+I recently wrapped up my first spring semester as a graduate student, making my list of college courses taken surpass 70! As the bags under my eyes can tell you, it has been a long road to this point, with much still left to go. I wanted to take some time to look back and reflect on the courses I have experienced in my higher education journey thus far.
+
+### Archiving Course Descriptions
+
+The primary instigator of this was that I was finally able to finish assembling my spreadsheet of courses over my career. Why collect these? Well, I am in the process of submitting my application for various professional certifications and many of them require a record of all courses taken that apply to their certification. For example, my application for [The Wildlife Society Certification Program](https://wildlife.org/certification-programs/) is one I have been planning for a long time.
+
+## Workflow
+
+The steps I took for this process came largely from [this blog post](http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know), which was extremely helpful in understanding these text mining packages in R.
+
+### Data Processing
+
+```r
+# Install ----
+install.packages("tm")  # for text mining
+install.packages("SnowballC") # for text stemming
+install.packages("wordcloud") # word-cloud generator 
+install.packages("RColorBrewer") # color palettes
+
+# Load ----
+library("tm")
+library("SnowballC")
+library("wordcloud")
+library("RColorBrewer")
+
+# Load the text
+text <- base::readLines(file.choose())
+
+
+# Load the data as a corpus
+docs <- tm::Corpus(VectorSource(text))
+
+
+# Text transformation ----
+toSpace <- content_transformer(function (x , pattern ) gsub(pattern, " ", x))
+docs <- tm_map(docs, toSpace, "/")
+docs <- tm_map(docs, toSpace, "@")
+docs <- tm_map(docs, toSpace, "\\|")
+
+# Text cleaning ----
+
+# Convert the text to lower case
+docs <- tm_map(docs, content_transformer(tolower))
+# Remove numbers
+docs <- tm_map(docs, removeNumbers)
+# Remove english common stopwords
+docs <- tm_map(docs, removeWords, stopwords("english"))
+# Remove your own stop word
+# specify your stopwords as a character vector
+docs <- tm_map(docs, removeWords, c("course", "will")) 
+# Remove punctuations
+docs <- tm_map(docs, removePunctuation)
+# Eliminate extra white spaces
+docs <- tm_map(docs, stripWhitespace)
+
+
+# Build a Term-Document Matrix ----
+dtm <- TermDocumentMatrix(docs)
+m <- as.matrix(dtm)
+v <- sort(rowSums(m),decreasing=TRUE)
+d <- data.frame(word = names(v),freq=v)
+head(d, 10)
+
+# Create and save word cloud
+set.seed(1234)
+grDevices::png(filename = "./word_plot.png",
+               width = 1000,
+               height = 1000,
+               units = "px",
+               res = 150)
+wordcloud::wordcloud(words = d$word, freq = d$freq, min.freq = 1,
+          max.words=200, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, "Dark2"))
+grDevices::dev.off()
+
+```
+
+### Data Visualization
+
+![The resulting word cloud from my course descriptions.](./img-word-cloud.png)

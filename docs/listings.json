@@ -11,58 +11,17 @@
     ]
   },
   {
-    "listing": "/posts/30-day-map-challenge-2023/index.html",
+    "listing": "/posts/index.html",
     "items": [
-      "/gallery/national-champion-tree-map/index.html",
-      "/gallery/eagle-mountain-contour-map/index.html",
-      "/gallery/canadian-ecoregion-map/index.html",
-      "/gallery/tiger-distribution-map/index.html",
-      "/gallery/hyaenidae-range-map/index.html",
-      "/gallery/postsecondary-institutions-map/index.html",
-      "/gallery/moose-sightings-across-north-america/index.html",
-      "/gallery/andes-mountains-map/index.html",
-      "/gallery/happy-forests-happy-people-map/index.html",
-      "/gallery/pennsylvania-bridge-map/index.html"
-    ]
-  },
-  {
-    "listing": "/curriculum-vitae/index.html",
-    "items": []
-  },
-  {
-    "listing": "/gallery/index.html",
-    "items": [
-      "/gallery/bird-observation-map-series/index.html",
-      "/gallery/thesis-project-proposal-presentation/index.html",
-      "/gallery/vertebrate-morphometrics-in-riparian-zones/index.html",
-      "/gallery/my-github-contributions-in-2023/index.html",
-      "/gallery/michigan-anthrome-map/index.html",
-      "/gallery/michigan-climate-trends/index.html",
-      "/gallery/pennsylvania-bridge-map/index.html",
-      "/gallery/happy-forests-happy-people-map/index.html",
-      "/gallery/andes-mountains-map/index.html",
-      "/gallery/moose-sightings-across-north-america/index.html",
-      "/gallery/postsecondary-institutions-map/index.html",
-      "/gallery/hyaenidae-range-map/index.html",
-      "/gallery/tiger-distribution-map/index.html",
-      "/gallery/canadian-ecoregion-map/index.html",
-      "/gallery/eagle-mountain-contour-map/index.html",
-      "/gallery/national-champion-tree-map/index.html",
-      "/gallery/global-ocean-currents-and-temps/index.html",
-      "/gallery/work-commitments-calendar/index.html",
-      "/gallery/great-lakes-watershed-map/index.html",
-      "/gallery/2018-squirrel-census-sighting-map/index.html",
-      "/gallery/endangered-species-stamp-collection-map/index.html",
-      "/gallery/raccoon-spatial-patterns-and-home-ranges/index.html",
-      "/gallery/missouri-bat-hcp-poster/index.html",
-      "/gallery/bald-eagle-nest-selection-poster/index.html",
-      "/gallery/overlaying-public-lands-with-bmzs/index.html",
-      "/gallery/missouri-bear-sighting-map/index.html",
-      "/gallery/shoreline-structure-setback-compliance-map/index.html",
-      "/gallery/turkey-harvest-maps-by-county/index.html",
-      "/gallery/mdc-furbearer-program-annual-report-2021/index.html",
-      "/gallery/bald-eagle-nest-monitoring-report/index.html",
-      "/gallery/vineyard-and-winery-location-suitability-map/index.html"
+      "/posts/text-mining-course-descriptions/index.html",
+      "/posts/converting-powerpoints-to-revealjs/index.html",
+      "/posts/crafting-a-technical-workshop-site-with-quarto/index.html",
+      "/posts/building-annotated-bibliographies-with-quarto/index.html",
+      "/posts/my-2023-highlights-reflections-and-recap/index.html",
+      "/posts/30-day-map-challenge-2023/index.html",
+      "/posts/how-scientists-use-gis-to-study-wildlife/index.html",
+      "/posts/how-to-become-a-contemporary-naturalist/index.html",
+      "/posts/can-you-naturally-protect-shores-from-erosion/index.html"
     ]
   },
   {
@@ -74,6 +33,7 @@
       "posts/index.html",
       "gallery/index.html",
       "research/index.html",
+      "/posts/text-mining-course-descriptions/index.html",
       "/posts/converting-powerpoints-to-revealjs/index.html",
       "/posts/crafting-a-technical-workshop-site-with-quarto/index.html",
       "/posts/building-annotated-bibliographies-with-quarto/index.html",
@@ -116,16 +76,58 @@
     ]
   },
   {
-    "listing": "/posts/index.html",
+    "listing": "/gallery/index.html",
     "items": [
-      "/posts/converting-powerpoints-to-revealjs/index.html",
-      "/posts/crafting-a-technical-workshop-site-with-quarto/index.html",
-      "/posts/building-annotated-bibliographies-with-quarto/index.html",
-      "/posts/my-2023-highlights-reflections-and-recap/index.html",
-      "/posts/30-day-map-challenge-2023/index.html",
-      "/posts/how-scientists-use-gis-to-study-wildlife/index.html",
-      "/posts/how-to-become-a-contemporary-naturalist/index.html",
-      "/posts/can-you-naturally-protect-shores-from-erosion/index.html"
+      "/gallery/bird-observation-map-series/index.html",
+      "/gallery/thesis-project-proposal-presentation/index.html",
+      "/gallery/vertebrate-morphometrics-in-riparian-zones/index.html",
+      "/gallery/my-github-contributions-in-2023/index.html",
+      "/gallery/michigan-anthrome-map/index.html",
+      "/gallery/michigan-climate-trends/index.html",
+      "/gallery/pennsylvania-bridge-map/index.html",
+      "/gallery/happy-forests-happy-people-map/index.html",
+      "/gallery/andes-mountains-map/index.html",
+      "/gallery/moose-sightings-across-north-america/index.html",
+      "/gallery/postsecondary-institutions-map/index.html",
+      "/gallery/hyaenidae-range-map/index.html",
+      "/gallery/tiger-distribution-map/index.html",
+      "/gallery/canadian-ecoregion-map/index.html",
+      "/gallery/eagle-mountain-contour-map/index.html",
+      "/gallery/national-champion-tree-map/index.html",
+      "/gallery/global-ocean-currents-and-temps/index.html",
+      "/gallery/work-commitments-calendar/index.html",
+      "/gallery/great-lakes-watershed-map/index.html",
+      "/gallery/2018-squirrel-census-sighting-map/index.html",
+      "/gallery/endangered-species-stamp-collection-map/index.html",
+      "/gallery/raccoon-spatial-patterns-and-home-ranges/index.html",
+      "/gallery/missouri-bat-hcp-poster/index.html",
+      "/gallery/bald-eagle-nest-selection-poster/index.html",
+      "/gallery/overlaying-public-lands-with-bmzs/index.html",
+      "/gallery/missouri-bear-sighting-map/index.html",
+      "/gallery/shoreline-structure-setback-compliance-map/index.html",
+      "/gallery/turkey-harvest-maps-by-county/index.html",
+      "/gallery/mdc-furbearer-program-annual-report-2021/index.html",
+      "/gallery/bald-eagle-nest-monitoring-report/index.html",
+      "/gallery/vineyard-and-winery-location-suitability-map/index.html"
+    ]
+  },
+  {
+    "listing": "/curriculum-vitae/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/30-day-map-challenge-2023/index.html",
+    "items": [
+      "/gallery/national-champion-tree-map/index.html",
+      "/gallery/eagle-mountain-contour-map/index.html",
+      "/gallery/canadian-ecoregion-map/index.html",
+      "/gallery/tiger-distribution-map/index.html",
+      "/gallery/hyaenidae-range-map/index.html",
+      "/gallery/postsecondary-institutions-map/index.html",
+      "/gallery/moose-sightings-across-north-america/index.html",
+      "/gallery/andes-mountains-map/index.html",
+      "/gallery/happy-forests-happy-people-map/index.html",
+      "/gallery/pennsylvania-bridge-map/index.html"
     ]
   },
   {
