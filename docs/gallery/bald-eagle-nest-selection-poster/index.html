@@ -188,12 +188,12 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             border-radius: 20px;
             }
             
-            .carousel__item:first-of-type {
+/*            .carousel__item:first-of-type {
               margin-left: 14px;
             }
             .carousel__item:last-of-type {
               margin-right: 14px;
-            }
+            }*/
 
         .carousel__content {
           background: rgba(0, 0, 0, 0.8);
@@ -571,7 +571,7 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
 <p>Here is the final poster that I presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium, earned <strong>highest honors</strong>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-eagle-poster.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-eagle-poster.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-eagle-poster.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-eagle-poster.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -1028,7 +1028,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

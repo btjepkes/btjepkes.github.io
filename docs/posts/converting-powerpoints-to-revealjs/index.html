@@ -225,12 +225,12 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             border-radius: 20px;
             }
             
-            .carousel__item:first-of-type {
+/*            .carousel__item:first-of-type {
               margin-left: 14px;
             }
             .carousel__item:last-of-type {
               margin-right: 14px;
-            }
+            }*/
 
         .carousel__content {
           background: rgba(0, 0, 0, 0.8);
@@ -1150,7 +1150,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
