@@ -115,7 +115,8 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
         .carousel-arrow {
             position: absolute;
-            display: flex;
+            /*display: flex;*/
+            display: none;
             justify-content: center;
             top: 0;
             bottom: 0;
@@ -151,12 +152,12 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
         width: 100%;
         overflow-x: hidden;
         display: flex;
-        gap: 10px;
+        gap: 14px;
         align-items: center;
         scroll-snap-type: x mandatory;
         flex-flow: row nowrap;
         scroll-behavior: smooth;
-        margin: 8px 2px;
+        margin: 14px 2px;
         }
 
         .carousel-container::-webkit-scrollbar {
@@ -188,6 +189,13 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
             border-radius: 20px;
             }
+            
+            .carousel__item:first-of-type {
+              margin-left: 14px;
+            }
+            .carousel__item:last-of-type {
+              margin-right: 14px;
+            }
 
         .carousel__content {
           background: rgba(0, 0, 0, 0.8);
@@ -202,6 +210,14 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             color: white;
         }
           
+        }
+        
+        .carousel__content__first p {
+          color: white;
+          text-align: center;
+          padding: 50px;
+          font-size: 28px;
+          line-height: 1.2;
         }
 
         @media (max-width: 600px) {
@@ -240,6 +256,11 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             ›
         </button>
         <div class="carousel-container">
+               <div class="carousel__item" style="background-image: url('https://btjepkes.github.io/site_libs/bootstrap/assets/noise.png');background-color: rgba(0, 0, 0, 1.0);">
+                <div class="carousel__content__first">
+                    <p>Providing an interdisciplinarity expertise in...</p>
+                </div>
+            </div>
             <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
                 <div class="carousel__content">
                     <p>Wildlife Ecology</p>
@@ -250,7 +271,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
                     <p>Remote Sensing</p>
                 </div> 
             </div>
-            <div class="carousel__item" style="background-image: url('https://www.gisci.org/Portals/_default/Skins/GISCI-2024/Images/home-section3-img-1.jpg'); background-color: #001a17;">
+            <div class="carousel__item" style="background-image: url('https://static.wixstatic.com/media/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg/v1/fill/w_560,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg'); background-color: #001a17;">
                 <div class="carousel__content">
                     <p>Conservation GIS</p>
                 </div>  
@@ -1075,7 +1096,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

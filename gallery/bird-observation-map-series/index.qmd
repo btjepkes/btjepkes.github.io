@@ -1,5 +1,6 @@
 ---
 title: "Bird Observation Map Series in ArcPy"
+subtitle: Automating spatial analyses and map production.
 date: 2024-05-08
 date-modified: today
 categories:
@@ -7,7 +8,7 @@ categories:
   - Python
   - Avian
   - ArcPy
-description: "This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python."
+abstract: "This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python."
 image: img-bird-obs-map-series.png
 image-alt: "Example map series."
 ---
