@@ -114,8 +114,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
         .carousel-arrow {
             position: absolute;
-            /*display: flex;*/
-            display: none;
+            display: flex;
             justify-content: center;
             top: 0;
             bottom: 0;
@@ -1005,7 +1004,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

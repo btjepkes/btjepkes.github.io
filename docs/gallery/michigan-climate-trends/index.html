@@ -115,8 +115,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
         .carousel-arrow {
             position: absolute;
-            /*display: flex;*/
-            display: none;
+            display: flex;
             justify-content: center;
             top: 0;
             bottom: 0;
@@ -585,7 +584,7 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
 <div class="column" style="width:47.5%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-plot-ppt.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-plot-ppt.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-plot-ppt.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-plot-ppt.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -594,7 +593,7 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
 </div><div class="column" style="width:47.5%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-plot-temps.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Credit: Benjamin Tjepkes"><img src="img-plot-temps.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-plot-temps.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Credit: Benjamin Tjepkes"><img src="img-plot-temps.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -1054,7 +1053,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
