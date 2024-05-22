@@ -128,7 +128,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             border: none;
             font-size: 4rem;
             padding: 0;
-            padding-top: 50px;
+            padding-top: 70px;
             cursor: pointer;
             opacity: 0.7;
             transition: opacity 100ms;
@@ -272,55 +272,64 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 <script>
 const carousel = document.querySelector(".carousel-container");
-    const slides = document.querySelectorAll(".carousel__item");
-    let intervalId;
+const slides = document.querySelectorAll(".carousel__item");
+let intervalId;
 
-    function handleCarouselMove(positive = true) {
-        const slideWidth = slides[0].clientWidth;
-        const totalWidth = slideWidth * slides.length;
-        const maxScrollLeft = totalWidth - carousel.clientWidth;
+function handleCarouselMove(positive = true) {
+    const slideWidth = slides[0].clientWidth;
+    const totalWidth = slideWidth * slides.length;
+    const maxScrollLeft = totalWidth - carousel.clientWidth;
 
-        if (positive) {
-            if (carousel.scrollLeft + slideWidth >= maxScrollLeft + slideWidth) {
-                carousel.scrollLeft = 0; // Go to the start
-            } else {
-                carousel.scrollLeft += slideWidth;
-            }
+    if (positive) {
+        if (carousel.scrollLeft + slideWidth >= maxScrollLeft + slideWidth) {
+            carousel.scrollLeft = 0; // Go to the start
         } else {
-            if (carousel.scrollLeft - slideWidth <= -slideWidth) {
-                carousel.scrollLeft = maxScrollLeft; // Go to the end
-            } else {
-                carousel.scrollLeft -= slideWidth;
-            }
+            carousel.scrollLeft += slideWidth;
+        }
+    } else {
+        if (carousel.scrollLeft - slideWidth <= -slideWidth) {
+            carousel.scrollLeft = maxScrollLeft; // Go to the end
+        } else {
+            carousel.scrollLeft -= slideWidth;
         }
     }
 
-    // Function to move the carousel automatically
-    function autoMoveCarousel() {
-        handleCarouselMove(true); // Move to the next slide
-    }
-
-    // Set interval to move the carousel every 5 seconds
-    function startAutoMove() {
-        intervalId = setInterval(autoMoveCarousel, 2000);
-    }
-
-    // Clear interval when mouse enters the carousel
-    function pauseAutoMove() {
-        clearInterval(intervalId);
-    }
-
-    // Restart interval when mouse leaves the carousel
-    function resumeAutoMove() {
-        startAutoMove();
-    }
-
-    // Start auto movement initially
+    // Clear interval when buttons are clicked and restart it
+    clearInterval(intervalId);
     startAutoMove();
+}
 
-    // Add event listeners for hover
-    carousel.addEventListener("mouseenter", pauseAutoMove);
-    carousel.addEventListener("mouseleave", resumeAutoMove);
+// Function to move the carousel automatically
+function autoMoveCarousel() {
+    handleCarouselMove(true); // Move to the next slide
+}
+
+// Set interval to move the carousel every 5 seconds
+function startAutoMove() {
+    intervalId = setInterval(autoMoveCarousel, 2000);
+}
+
+// Clear interval when mouse enters the carousel
+function pauseAutoMove() {
+    clearInterval(intervalId);
+}
+
+// Restart interval when mouse leaves the carousel
+function resumeAutoMove() {
+    startAutoMove();
+}
+
+// Start auto movement initially
+startAutoMove();
+
+// Add event listeners for hover
+carousel.addEventListener("mouseenter", pauseAutoMove);
+carousel.addEventListener("mouseleave", resumeAutoMove);
+
+// Add event listeners for buttons
+document.getElementById("prevButton").addEventListener("click", () => handleCarouselMove(false));
+document.getElementById("nextButton").addEventListener("click", () => handleCarouselMove(true));
+
 </script>
 
 
@@ -540,7 +549,7 @@ const carousel = document.querySelector(".carousel-container");
 <p>This map was created for <strong>Day 1</strong> of the 2023 #30DayMapChallenge. The prompt for the day was “Points”. I have been exploring these amazing specimens for awhile, so thought I would map them out for the challenge. The resulting map shows the general locations of all Champion trees across the United States. The county where each tree is found is filled in with a light green and the golden symbols are proportional to the registered circumference of each tree. Data were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro.</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p class="page-columns page-full"><a href="img-national-champion-trees.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Final map showing champion trees across the United States."><img src="img-national-champion-trees.png" class="column-body-outset img-fluid figure-img" alt="Final map showing champion trees across the United States."></a></p>
+<p class="page-columns page-full"><a href="img-national-champion-trees.png" class="lightbox page-columns page-full" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Final map showing champion trees across the United States."><img src="img-national-champion-trees.png" class="column-body-outset img-fluid figure-img" alt="Final map showing champion trees across the United States."></a></p>
 <figcaption>Final map showing champion trees across the United States.</figcaption>
 </figure>
 </div>
@@ -996,7 +1005,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

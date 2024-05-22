@@ -1,7 +1,11 @@
 .index-map {
-  margin: 4em auto 0 auto;
+  margin: 2em auto 0 auto;
   min-width: 100%;
 }
+
+.leaflet-control-attribution {
+  display: none;
+  }
 
 
 #title-block-header {
@@ -11,7 +15,7 @@
 
 #intro-section {
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
 
   h1 {
     text-align: center;

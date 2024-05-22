@@ -155,7 +155,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             border: none;
             font-size: 4rem;
             padding: 0;
-            padding-top: 50px;
+            padding-top: 70px;
             cursor: pointer;
             opacity: 0.7;
             transition: opacity 100ms;
@@ -308,55 +308,64 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 <script>
 const carousel = document.querySelector(".carousel-container");
-    const slides = document.querySelectorAll(".carousel__item");
-    let intervalId;
+const slides = document.querySelectorAll(".carousel__item");
+let intervalId;
 
-    function handleCarouselMove(positive = true) {
-        const slideWidth = slides[0].clientWidth;
-        const totalWidth = slideWidth * slides.length;
-        const maxScrollLeft = totalWidth - carousel.clientWidth;
+function handleCarouselMove(positive = true) {
+    const slideWidth = slides[0].clientWidth;
+    const totalWidth = slideWidth * slides.length;
+    const maxScrollLeft = totalWidth - carousel.clientWidth;
 
-        if (positive) {
-            if (carousel.scrollLeft + slideWidth >= maxScrollLeft + slideWidth) {
-                carousel.scrollLeft = 0; // Go to the start
-            } else {
-                carousel.scrollLeft += slideWidth;
-            }
+    if (positive) {
+        if (carousel.scrollLeft + slideWidth >= maxScrollLeft + slideWidth) {
+            carousel.scrollLeft = 0; // Go to the start
         } else {
-            if (carousel.scrollLeft - slideWidth <= -slideWidth) {
-                carousel.scrollLeft = maxScrollLeft; // Go to the end
-            } else {
-                carousel.scrollLeft -= slideWidth;
-            }
+            carousel.scrollLeft += slideWidth;
+        }
+    } else {
+        if (carousel.scrollLeft - slideWidth <= -slideWidth) {
+            carousel.scrollLeft = maxScrollLeft; // Go to the end
+        } else {
+            carousel.scrollLeft -= slideWidth;
         }
     }
 
-    // Function to move the carousel automatically
-    function autoMoveCarousel() {
-        handleCarouselMove(true); // Move to the next slide
-    }
-
-    // Set interval to move the carousel every 5 seconds
-    function startAutoMove() {
-        intervalId = setInterval(autoMoveCarousel, 2000);
-    }
-
-    // Clear interval when mouse enters the carousel
-    function pauseAutoMove() {
-        clearInterval(intervalId);
-    }
-
-    // Restart interval when mouse leaves the carousel
-    function resumeAutoMove() {
-        startAutoMove();
-    }
-
-    // Start auto movement initially
+    // Clear interval when buttons are clicked and restart it
+    clearInterval(intervalId);
     startAutoMove();
+}
 
-    // Add event listeners for hover
-    carousel.addEventListener("mouseenter", pauseAutoMove);
-    carousel.addEventListener("mouseleave", resumeAutoMove);
+// Function to move the carousel automatically
+function autoMoveCarousel() {
+    handleCarouselMove(true); // Move to the next slide
+}
+
+// Set interval to move the carousel every 5 seconds
+function startAutoMove() {
+    intervalId = setInterval(autoMoveCarousel, 2000);
+}
+
+// Clear interval when mouse enters the carousel
+function pauseAutoMove() {
+    clearInterval(intervalId);
+}
+
+// Restart interval when mouse leaves the carousel
+function resumeAutoMove() {
+    startAutoMove();
+}
+
+// Start auto movement initially
+startAutoMove();
+
+// Add event listeners for hover
+carousel.addEventListener("mouseenter", pauseAutoMove);
+carousel.addEventListener("mouseleave", resumeAutoMove);
+
+// Add event listeners for buttons
+document.getElementById("prevButton").addEventListener("click", () => handleCarouselMove(false));
+document.getElementById("nextButton").addEventListener("click", () => handleCarouselMove(true));
+
 </script>
 
 
@@ -678,12 +687,12 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1704002400000" data-listing-file-modified-sort="1714399324399" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="5" data-listing-word-count-sort="955">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1704002400000" data-listing-file-modified-sort="1716341605508" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="5" data-listing-word-count-sort="955">
 <a href="../posts/my-2023-highlights-reflections-and-recap/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-My 2023 Highlights, Reflections, and Recap
+My 2023 Highlights and Reflections
 </h5>
 <div class="card-text listing-description">
 This post takes a quick run through the last year of my professional life, including some of my…

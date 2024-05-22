@@ -203,7 +203,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             border: none;
             font-size: 4rem;
             padding: 0;
-            padding-top: 50px;
+            padding-top: 70px;
             cursor: pointer;
             opacity: 0.7;
             transition: opacity 100ms;
@@ -347,55 +347,64 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 <script>
 const carousel = document.querySelector(".carousel-container");
-    const slides = document.querySelectorAll(".carousel__item");
-    let intervalId;
+const slides = document.querySelectorAll(".carousel__item");
+let intervalId;
 
-    function handleCarouselMove(positive = true) {
-        const slideWidth = slides[0].clientWidth;
-        const totalWidth = slideWidth * slides.length;
-        const maxScrollLeft = totalWidth - carousel.clientWidth;
+function handleCarouselMove(positive = true) {
+    const slideWidth = slides[0].clientWidth;
+    const totalWidth = slideWidth * slides.length;
+    const maxScrollLeft = totalWidth - carousel.clientWidth;
 
-        if (positive) {
-            if (carousel.scrollLeft + slideWidth >= maxScrollLeft + slideWidth) {
-                carousel.scrollLeft = 0; // Go to the start
-            } else {
-                carousel.scrollLeft += slideWidth;
-            }
+    if (positive) {
+        if (carousel.scrollLeft + slideWidth >= maxScrollLeft + slideWidth) {
+            carousel.scrollLeft = 0; // Go to the start
         } else {
-            if (carousel.scrollLeft - slideWidth <= -slideWidth) {
-                carousel.scrollLeft = maxScrollLeft; // Go to the end
-            } else {
-                carousel.scrollLeft -= slideWidth;
-            }
+            carousel.scrollLeft += slideWidth;
+        }
+    } else {
+        if (carousel.scrollLeft - slideWidth <= -slideWidth) {
+            carousel.scrollLeft = maxScrollLeft; // Go to the end
+        } else {
+            carousel.scrollLeft -= slideWidth;
         }
     }
 
-    // Function to move the carousel automatically
-    function autoMoveCarousel() {
-        handleCarouselMove(true); // Move to the next slide
-    }
-
-    // Set interval to move the carousel every 5 seconds
-    function startAutoMove() {
-        intervalId = setInterval(autoMoveCarousel, 2000);
-    }
-
-    // Clear interval when mouse enters the carousel
-    function pauseAutoMove() {
-        clearInterval(intervalId);
-    }
-
-    // Restart interval when mouse leaves the carousel
-    function resumeAutoMove() {
-        startAutoMove();
-    }
-
-    // Start auto movement initially
+    // Clear interval when buttons are clicked and restart it
+    clearInterval(intervalId);
     startAutoMove();
+}
 
-    // Add event listeners for hover
-    carousel.addEventListener("mouseenter", pauseAutoMove);
-    carousel.addEventListener("mouseleave", resumeAutoMove);
+// Function to move the carousel automatically
+function autoMoveCarousel() {
+    handleCarouselMove(true); // Move to the next slide
+}
+
+// Set interval to move the carousel every 5 seconds
+function startAutoMove() {
+    intervalId = setInterval(autoMoveCarousel, 2000);
+}
+
+// Clear interval when mouse enters the carousel
+function pauseAutoMove() {
+    clearInterval(intervalId);
+}
+
+// Restart interval when mouse leaves the carousel
+function resumeAutoMove() {
+    startAutoMove();
+}
+
+// Start auto movement initially
+startAutoMove();
+
+// Add event listeners for hover
+carousel.addEventListener("mouseenter", pauseAutoMove);
+carousel.addEventListener("mouseleave", resumeAutoMove);
+
+// Add event listeners for buttons
+document.getElementById("prevButton").addEventListener("click", () => handleCarouselMove(false));
+document.getElementById("nextButton").addEventListener("click", () => handleCarouselMove(true));
+
 </script>
 
 
@@ -634,8 +643,14 @@ in spatial ecology and GIS
 No matching items
 </div>
 </div>
-<!-- ::: {#site-listings-2  .index-latest .column-body-outset} -->
-<!-- ::: -->
+<div class="index-map page-columns page-full">
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-screen-inset">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-52672c0a29199c94c0be" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-52672c0a29199c94c0be">{"x":{"options":{"minZoom":5,"maxZoom":8,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false,"fullscreenControl":{"position":"topleft","pseudoFullscreen":false}},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.HOT",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-105.6915945157442,-105.6904056084356,-105.5125353113342,-105.5137242186426,-105.6915945157442],"lat":[41.35363282453523,41.2735797324317,41.27622137050747,41.35627446261094,41.35363282453523]}]],[[{"lng":[-89.57576979606011,-89.57564046102686,-89.55052309264897,-89.55065242768217,-89.57576979606011],"lat":[44.54120518516129,44.5319218038851,44.53227173626186,44.54155511753805,44.54120518516129]}]],[[{"lng":[-89.56305724751047,-89.56320249569586,-89.52976952387587,-89.52962427569059,-89.56305724751047],"lat":[45.50496189382352,45.47954346138715,45.47935241583372,45.50477084827014,45.50496189382352]}]],[[{"lng":[-88.46331245690362,-88.66117503279656,-88.66090060906271,-88.46303803316988,-88.46331245690362],"lat":[44.70288067732508,44.70263179358199,44.48446492521583,44.48471380895916,44.70288067732508]}]],[[{"lng":[-91.66303376395145,-92.14179806988818,-90.42501415622883,-89.96359103907797,-91.66303376395145],"lat":[44.56818866770678,44.40895209026957,41.64841752646682,41.80103745028565,44.56818866770678]}]],[[{"lng":[-95.21094848684334,-83.43923625871678,-83.43923625871678,-95.21094848684334,-95.21094848684334],"lat":[34.3370168884088,34.3370168884088,39.49102296763046,39.49102296763046,34.3370168884088]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,["Laramie, WY","Schmeekle Reserve, Stevens Point, WI","Treehaven, Tomahawk, WI","Lower Wolf River Bottomlands Natural Resources Area, WI","Upper Mississippi River National Fish and Wildlife Refuge","Central Hardwood Bird Conservation Region"],{"interactive":false,"permanent":false,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"setMaxBounds","args":[24.33702,-125.69159,50.50496,-63.43924]},{"method":"addLegend","args":[{"colors":["red"],"labels":["Research Sites"],"na_color":null,"na_label":"NA","opacity":0.5,"position":"bottomleft","type":"unknown","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]}],"limits":{"lat":[34.3370168884088,45.50496189382352],"lng":[-105.6915945157442,-83.43923625871678]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
 <div class="index-latest-container column-body-outset">
 <div class="index-latest-column">
 <div id="listing-site-listings-2" class="index-latest-posts quarto-listing quarto-listing-container-table">
@@ -654,7 +669,7 @@ Description
 <a href="./posts/converting-powerpoints-to-revealjs/index.html" class="title listing-title">Converting PowerPoints to Reveal.js Format</a>
 </td>
 <td>
-<span class="listing-description">In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions…</span>
+<span class="listing-description">In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs…</span>
 </td>
 </tr>
 <tr data-index="1" data-listing-date-sort="1714194000000" data-listing-file-modified-sort="1715351376179" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="98" data-listing-title-sort="Crafting a GIS Workshop Site With Quarto" data-listing-filename-sort="index.qmd">
@@ -662,7 +677,7 @@ Description
 <a href="./posts/crafting-a-technical-workshop-site-with-quarto/index.html" class="title listing-title">Crafting a GIS Workshop Site With Quarto</a>
 </td>
 <td>
-<span class="listing-description">This post provides an overview of a recent workshop site I made using Quarto and Github Pages, which covered…</span>
+<span class="listing-description">This post provides an overview of a recent workshop site I made using Quarto and Github Pages…</span>
 </td>
 </tr>
 <tr data-index="2" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1715394716224" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3944" data-listing-title-sort="Create Annotated Bibliographies with Quarto" data-listing-filename-sort="index.qmd">
@@ -670,7 +685,15 @@ Description
 <a href="./posts/building-annotated-bibliographies-with-quarto/index.html" class="title listing-title">Create Annotated Bibliographies with Quarto</a>
 </td>
 <td>
-<span class="listing-description">In this post, I provide a semi-automated workflow for generating an annotated bibliography in RStudio using…</span>
+<span class="listing-description">In this post, I provide a semi-automated workflow for generating an annotated bibliography in…</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-date-sort="1704002400000" data-listing-file-modified-sort="1716341605508" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="5" data-listing-word-count-sort="955" data-listing-title-sort="My 2023 Highlights and Reflections" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./posts/my-2023-highlights-reflections-and-recap/index.html" class="title listing-title">My 2023 Highlights and Reflections</a>
+</td>
+<td>
+<span class="listing-description">This post takes a quick run through the last year of my professional life, including some of my…</span>
 </td>
 </tr>
 </tbody>
@@ -697,7 +720,7 @@ Description
 <a href="./gallery/bird-observation-map-series/index.html" class="title listing-title">Bird Observation Map Series in ArcPy</a>
 </td>
 <td>
-<span class="listing-description">This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of…</span>
+<span class="listing-description">This was my final project for an advanced GIS course in graduate school and explores the spatial…</span>
 </td>
 </tr>
 <tr data-index="1" data-categories="Talk Gallery" data-listing-date-sort="1714539600000" data-listing-file-modified-sort="1714744198111" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="15" data-listing-title-sort="Master's Thesis Proposal Presentation" data-listing-filename-sort="index.qmd">
@@ -705,7 +728,7 @@ Description
 <a href="./gallery/thesis-project-proposal-presentation/index.html" class="title listing-title">Master’s Thesis Proposal Presentation</a>
 </td>
 <td>
-<span class="listing-description">This presentation covers my proposed master’s thesis project, including the background literature, intended…</span>
+<span class="listing-description">This presentation covers my proposed master’s thesis project, including the background literature…</span>
 </td>
 </tr>
 <tr data-index="2" data-categories="Data Gallery,R,Coding,Boxplot,Rugplots" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1716331533827" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="69" data-listing-title-sort="Vertebrate Morphometrics Graphic" data-listing-filename-sort="index.qmd">
@@ -713,7 +736,15 @@ Description
 <a href="./gallery/vertebrate-morphometrics-in-riparian-zones/index.html" class="title listing-title">Vertebrate Morphometrics Graphic</a>
 </td>
 <td>
-<span class="listing-description">This graphic summarizes morphometric measurements of coastal giant salamanders and cutthroat trout between…</span>
+<span class="listing-description">This graphic summarizes morphometric measurements of coastal giant salamanders and cutthroat trout…</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="Data Gallery,TidyTuesday2024" data-listing-date-sort="1704261600000" data-listing-file-modified-sort="1713786768402" data-listing-date-modified-sort="1716267600000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74" data-listing-title-sort="Plotting My GitHub Contributions in 2023" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./gallery/my-github-contributions-in-2023/index.html" class="title listing-title">Plotting My GitHub Contributions in 2023</a>
+</td>
+<td>
+<span class="listing-description">This graphic summarizes my contributions to GitHub in 2023. While this was not my first year using…</span>
 </td>
 </tr>
 </tbody>
@@ -721,14 +752,6 @@ Description
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-</div>
-</div>
-<div class="index-map page-columns page-full">
-<div class="cell page-columns page-full">
-<div class="cell-output-display column-body-outset">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-9e21eb49eace4043504c" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-9e21eb49eace4043504c">{"x":{"options":{"minZoom":5,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"fullscreenControl":{"position":"topleft","pseudoFullscreen":false}},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.HOT",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-105.6915945157442,-105.6904056084356,-105.5125353113342,-105.5137242186426,-105.6915945157442],"lat":[41.35363282453523,41.2735797324317,41.27622137050747,41.35627446261094,41.35363282453523]}]],[[{"lng":[-89.57576979606011,-89.57564046102686,-89.55052309264897,-89.55065242768217,-89.57576979606011],"lat":[44.54120518516129,44.5319218038851,44.53227173626186,44.54155511753805,44.54120518516129]}]],[[{"lng":[-89.56305724751047,-89.56320249569586,-89.52976952387587,-89.52962427569059,-89.56305724751047],"lat":[45.50496189382352,45.47954346138715,45.47935241583372,45.50477084827014,45.50496189382352]}]],[[{"lng":[-88.46331245690362,-88.66117503279656,-88.66090060906271,-88.46303803316988,-88.46331245690362],"lat":[44.70288067732508,44.70263179358199,44.48446492521583,44.48471380895916,44.70288067732508]}]],[[{"lng":[-91.66303376395145,-92.14179806988818,-90.42501415622883,-89.96359103907797,-91.66303376395145],"lat":[44.56818866770678,44.40895209026957,41.64841752646682,41.80103745028565,44.56818866770678]}]],[[{"lng":[-95.21094848684334,-83.43923625871678,-83.43923625871678,-95.21094848684334,-95.21094848684334],"lat":[34.3370168884088,34.3370168884088,39.49102296763046,39.49102296763046,34.3370168884088]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,["Laramie, WY","Schmeekle Reserve, Stevens Point, WI","Treehaven, Tomahawk, WI","Lower Wolf River Bottomlands Natural Resources Area, WI","Upper Mississippi River National Fish and Wildlife Refuge","Central Hardwood Bird Conservation Region"],{"interactive":false,"permanent":false,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"setMaxBounds","args":[24.33702,-125.69159,50.50496,-63.43924]},{"method":"addLegend","args":[{"colors":["red"],"labels":["Research Sites"],"na_color":null,"na_label":"NA","opacity":0.5,"position":"bottomright","type":"unknown","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]}],"limits":{"lat":[34.3370168884088,45.50496189382352],"lng":[-105.6915945157442,-83.43923625871678]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </div>

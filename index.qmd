@@ -50,18 +50,18 @@ listing:
     sort: date desc
     filter-ui: false
     sort-ui: false
-    max-description-length: 110
+    max-description-length: 100
     fields: [title, description]
-    max-items: 3
+    max-items: 4
   - id: site-listings-3
     contents: "gallery/*/*.qmd"
     type: table
     sort: date desc
     filter-ui: false
     sort-ui: false
-    max-description-length: 110
+    max-description-length: 100
     fields: [title, description]
-    max-items: 3
+    max-items: 4
 ---
 ::: {#intro-section .column-body-outset}
 
@@ -74,9 +74,33 @@ Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my prof
 ::: {#site-listings-1 .column-body-outset}
 :::
 
+::: {.index-map}
+```{r}
+#| echo: false
+#| warning: false
+#| column: screen-inset
+library(leaflet)
+library(leaflet.extras)
+library(sf)
 
-<!-- ::: {#site-listings-2  .index-latest .column-body-outset} -->
-<!-- ::: -->
+sites <- sf::st_read("research/features_for_website.geojson", quiet = TRUE)
+
+bbox <- sf::st_bbox(sites)
+
+leaflet(sites, options = leafletOptions(minZoom = 5, maxZoom = 8, scrollWheelZoom = FALSE)) |> 
+  addProviderTiles(providers$OpenStreetMap.HOT) |> 
+  addPolygons(label = ~as.character(Name),
+              labelOptions = labelOptions(noHide = FALSE,
+                                          direction = "bottom"),
+              color = "red") |> 
+  setMaxBounds(lng1 = -125.69159, lat1 = 24.33702,
+               lng2 = -63.43924, lat2 = 50.50496) |> 
+  addLegend(position = "bottomleft",
+            colors = "red",
+            labels = "Research Sites") |> 
+  addFullscreenControl()
+```
+:::
 
 ::: {.index-latest-container .column-body-outset}
 
@@ -87,6 +111,7 @@ Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my prof
 
 :::
   
+  
 ::: {.index-latest-column}
 
 ::: {#site-listings-3  .index-latest-gallery}
@@ -94,32 +119,4 @@ Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my prof
 
 :::
 
-:::
-
-::: {.index-map}
-```{r}
-#| echo: false
-#| warning: false
-#| column: body-outset
-library(leaflet)
-library(leaflet.extras)
-library(sf)
-
-sites <- sf::st_read("research/features_for_website.geojson", quiet = TRUE)
-
-bbox <- sf::st_bbox(sites)
-
-leaflet(sites, options = leafletOptions(minZoom = 5)) |> 
-  addProviderTiles(providers$OpenStreetMap.HOT) |> 
-  addPolygons(label = ~as.character(Name),
-              labelOptions = labelOptions(noHide = FALSE,
-                                          direction = "bottom"),
-              color = "red") |> 
-  setMaxBounds(lng1 = -125.69159, lat1 = 24.33702,
-               lng2 = -63.43924, lat2 = 50.50496) |> 
-  addLegend(position = "bottomright",
-            colors = "red",
-            labels = "Research Sites") |> 
-  addFullscreenControl()
-```
 :::

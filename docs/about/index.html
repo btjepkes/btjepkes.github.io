@@ -128,7 +128,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             border: none;
             font-size: 4rem;
             padding: 0;
-            padding-top: 50px;
+            padding-top: 70px;
             cursor: pointer;
             opacity: 0.7;
             transition: opacity 100ms;
@@ -272,55 +272,64 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 
 <script>
 const carousel = document.querySelector(".carousel-container");
-    const slides = document.querySelectorAll(".carousel__item");
-    let intervalId;
+const slides = document.querySelectorAll(".carousel__item");
+let intervalId;
 
-    function handleCarouselMove(positive = true) {
-        const slideWidth = slides[0].clientWidth;
-        const totalWidth = slideWidth * slides.length;
-        const maxScrollLeft = totalWidth - carousel.clientWidth;
+function handleCarouselMove(positive = true) {
+    const slideWidth = slides[0].clientWidth;
+    const totalWidth = slideWidth * slides.length;
+    const maxScrollLeft = totalWidth - carousel.clientWidth;
 
-        if (positive) {
-            if (carousel.scrollLeft + slideWidth >= maxScrollLeft + slideWidth) {
-                carousel.scrollLeft = 0; // Go to the start
-            } else {
-                carousel.scrollLeft += slideWidth;
-            }
+    if (positive) {
+        if (carousel.scrollLeft + slideWidth >= maxScrollLeft + slideWidth) {
+            carousel.scrollLeft = 0; // Go to the start
         } else {
-            if (carousel.scrollLeft - slideWidth <= -slideWidth) {
-                carousel.scrollLeft = maxScrollLeft; // Go to the end
-            } else {
-                carousel.scrollLeft -= slideWidth;
-            }
+            carousel.scrollLeft += slideWidth;
+        }
+    } else {
+        if (carousel.scrollLeft - slideWidth <= -slideWidth) {
+            carousel.scrollLeft = maxScrollLeft; // Go to the end
+        } else {
+            carousel.scrollLeft -= slideWidth;
         }
     }
 
-    // Function to move the carousel automatically
-    function autoMoveCarousel() {
-        handleCarouselMove(true); // Move to the next slide
-    }
-
-    // Set interval to move the carousel every 5 seconds
-    function startAutoMove() {
-        intervalId = setInterval(autoMoveCarousel, 2000);
-    }
-
-    // Clear interval when mouse enters the carousel
-    function pauseAutoMove() {
-        clearInterval(intervalId);
-    }
-
-    // Restart interval when mouse leaves the carousel
-    function resumeAutoMove() {
-        startAutoMove();
-    }
-
-    // Start auto movement initially
+    // Clear interval when buttons are clicked and restart it
+    clearInterval(intervalId);
     startAutoMove();
+}
 
-    // Add event listeners for hover
-    carousel.addEventListener("mouseenter", pauseAutoMove);
-    carousel.addEventListener("mouseleave", resumeAutoMove);
+// Function to move the carousel automatically
+function autoMoveCarousel() {
+    handleCarouselMove(true); // Move to the next slide
+}
+
+// Set interval to move the carousel every 5 seconds
+function startAutoMove() {
+    intervalId = setInterval(autoMoveCarousel, 2000);
+}
+
+// Clear interval when mouse enters the carousel
+function pauseAutoMove() {
+    clearInterval(intervalId);
+}
+
+// Restart interval when mouse leaves the carousel
+function resumeAutoMove() {
+    startAutoMove();
+}
+
+// Start auto movement initially
+startAutoMove();
+
+// Add event listeners for hover
+carousel.addEventListener("mouseenter", pauseAutoMove);
+carousel.addEventListener("mouseleave", resumeAutoMove);
+
+// Add event listeners for buttons
+document.getElementById("prevButton").addEventListener("click", () => handleCarouselMove(false));
+document.getElementById("nextButton").addEventListener("click", () => handleCarouselMove(true));
+
 </script>
 
 
@@ -544,14 +553,14 @@ const carousel = document.querySelector(".carousel-container");
 <p>My professional career is based in <strong>wildlife ecology and management</strong>, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats. My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences during summers and part-time throughout the academic year. After earning my degree, I pursued several wildlife research and management positions that opened my eyes to my true passion of conservation work.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../assets/img-ben-with-bear.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Me with one of our research black bears during a den check."><img src="../assets/img-ben-with-bear.jpg" class="img-fluid figure-img" alt="Me with one of our research black bears during a den check."></a></p>
+<p><a href="../assets/img-ben-with-bear.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Me with one of our research black bears during a den check."><img src="../assets/img-ben-with-bear.jpg" class="img-fluid figure-img" alt="Me with one of our research black bears during a den check."></a></p>
 <figcaption>Me with one of our research black bears during a den check.</figcaption>
 </figure>
 </div>
 <p>As I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in <strong>spatial ecology and geospatial technologies</strong>, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships. Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../assets/img-ben-work.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Sometimes a wildlife biologist needs to handle the wildlife, all with the proper permits, training, and equipment of course."><img src="../assets/img-ben-work.png" class="img-fluid figure-img" alt="Sometimes a wildlife biologist needs to handle the wildlife, all with the proper permits, training, and equipment of course."></a></p>
+<p><a href="../assets/img-ben-work.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Sometimes a wildlife biologist needs to handle the wildlife, all with the proper permits, training, and equipment of course."><img src="../assets/img-ben-work.png" class="img-fluid figure-img" alt="Sometimes a wildlife biologist needs to handle the wildlife, all with the proper permits, training, and equipment of course."></a></p>
 <figcaption>Sometimes a wildlife biologist needs to handle the wildlife, all with the proper permits, training, and equipment of course.</figcaption>
 </figure>
 </div>
@@ -1006,7 +1015,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","loop":false,"closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

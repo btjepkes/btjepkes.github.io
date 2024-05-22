@@ -1,11 +1,12 @@
 ---
-title: "My 2023 Highlights, Reflections, and Recap"
+title: "My 2023 Highlights and Reflections"
+subtitle: "All in all, I think 2023 was a good year."
 date: 12/31/2023
 date-modified: today
 category: "2023"
 keywords:
   - "2023"
-description: "This post takes a quick run through the last year of my professional life, including some of my accomplishments, learning venues, and life transition events. All in all, I think 2023 was a good year and I learned quite a bit in these 52 weeks."
+abstract: "This post takes a quick run through the last year of my professional life, including some of my accomplishments, learning venues, and life transition events. I learned quite a bit in these 52 weeks."
 image: img-fern.jpg
 image-alt: "An image of a fern within a forest."
 ---
