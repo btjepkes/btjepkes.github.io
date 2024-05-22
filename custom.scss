@@ -152,7 +152,7 @@ body {
 
 h1 {
   font-weight: 700;
-  font-size: clamp(1.6em, 5vw, 2.20em);
+  font-size: clamp(1.8em, 5vw, 2.20em);
   text-align: left;
   padding-bottom: 0px;
   line-height: 1.2em;
@@ -180,10 +180,11 @@ h3 {
 
 .subtitle {
   text-align: left;
-  line-height: 1.4em;
-  margin-top: 4px !important;
+  line-height: 1.2em;
+  margin-top: 8px !important;
   margin-bottom: 14px;
-  font-weight: 500;
+  font-weight: 200;
+  
 }
 
 /*@media (max-width: 991.98px) {
@@ -591,8 +592,8 @@ color: #000;
   margin-top: -1.5em;
 }*/
 
-.keywords {
-  display: none;
+.keywords, .quarto-categories {
+  display: none !important;
 }
 
 
@@ -615,22 +616,6 @@ color: #000;
         transform: rotate(180deg);
       }*/
 
-
-
-
-/*
-.header-content-container {
-  max-width: 1000px;
-  margin: auto;
-}
-
-
-.title-date {
-  color: #e9ecef;
-  font-size: 0.8em;
-  margin-top: 20px;
-}
-*/
 
 // NAVIGATION
 

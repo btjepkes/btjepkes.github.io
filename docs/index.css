@@ -1,6 +1,10 @@
 .index-map {
-  margin: 2em auto 0 auto;
+  margin: 1em auto 0 auto;
   min-width: 100%;
+  
+  h2 {
+  text-align: center !important;
+}
 }
 
 .leaflet-control-attribution {

@@ -9,7 +9,6 @@
 <meta name="author" content="Benjamin Tjepkes">
 <meta name="dcterms.date" content="2023-11-10">
 <meta name="keywords" content="#30DayMapChallenge2023">
-<meta name="description" content="Mapping sighting locations from GBIF of moose (Alces alces). This point map shows the locations of moose sightings across North America from the Global Biodiversity Information Facility database.">
 
 <title>Moose Sightings Across North America | B.W. Tjepkes</title>
 <style>
@@ -486,8 +485,7 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
     <h2 id="toc-title">On This Page:</h2>
    
   <ul class="collapse">
-  <li><a href="#task-objectives" id="toc-task-objectives" class="nav-link active" data-scroll-target="#task-objectives">Task &amp; Objectives</a></li>
-  <li><a href="#tools-workflow" id="toc-tools-workflow" class="nav-link" data-scroll-target="#tools-workflow">Tools &amp; Workflow</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   </ul>
 </nav>
     </div>
@@ -497,17 +495,13 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Moose Sightings Across North America</h1>
+<p class="subtitle lead">Mapping sighitng locations from GBIF of <em>Alces alces</em>.</p>
   <div class="quarto-categories">
     <div class="quarto-category">Map Gallery</div>
     <div class="quarto-category">North America</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    Mapping sighting locations from GBIF of moose (<em>Alces alces</em>). This point map shows the locations of moose sightings across North America from the Global Biodiversity Information Facility database.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -526,9 +520,21 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">2024-05-22</p>
+    </div>
+  </div>
     
   </div>
   
+<div>
+  <div class="abstract">
+    <div class="block-title">What Is This About?</div>
+    Mapping sighting locations from GBIF of moose (<em>Alces alces</em>). This point map shows the locations of moose sightings across North America from the Global Biodiversity Information Facility database.
+  </div>
+</div>
 
 <div>
   <div class="keywords">
@@ -540,14 +546,23 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
 </header>
 
 
-<p><a href="img-moose-sightings.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-moose-sightings.png" class="cover-image img-fluid"></a></p>
-<section id="task-objectives" class="level2">
-<h2 data-anchor-id="task-objectives">Task &amp; Objectives</h2>
+<section id="overview" class="level2">
+<h2 data-anchor-id="overview">Overview</h2>
 <p>The prompt for this map was for <strong>Day Ten</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “North America” for the main subject.</p>
-</section>
-<section id="tools-workflow" class="level2">
-<h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
-<p>Data were downloaded from the Global Biodiversity Information Facility. Map creation was performed in R/Studio.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Result</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Workflow</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p><a href="img-moose-sightings.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-moose-sightings.png" class="img-fluid"></a></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Data were downloaded from the Global Biodiversity Information Facility.</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>Map creation was performed in R/Studio.</p>
+</div>
+</div>
+</div>
 
 
 </section>
@@ -998,7 +1013,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

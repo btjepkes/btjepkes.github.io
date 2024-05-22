@@ -75,6 +75,9 @@ Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my prof
 :::
 
 ::: {.index-map}
+
+## My Geographic Perspective
+
 ```{r}
 #| echo: false
 #| warning: false
@@ -85,6 +88,12 @@ library(sf)
 
 sites <- sf::st_read("research/features_for_website.geojson", quiet = TRUE)
 
+points_edu <- sf::st_read("curriculum-vitae/features-for-cv-WGS84.geojson", quiet = TRUE) |> 
+  dplyr::filter(EntityType == "Education")
+
+points_exp <- sf::st_read("curriculum-vitae/features-for-cv-WGS84.geojson", quiet = TRUE) |> 
+  dplyr::filter(EntityType == "Work Experience")
+
 bbox <- sf::st_bbox(sites)
 
 leaflet(sites, options = leafletOptions(minZoom = 5, maxZoom = 8, scrollWheelZoom = FALSE)) |> 
@@ -92,12 +101,30 @@ leaflet(sites, options = leafletOptions(minZoom = 5, maxZoom = 8, scrollWheelZoo
   addPolygons(label = ~as.character(Name),
               labelOptions = labelOptions(noHide = FALSE,
                                           direction = "bottom"),
-              color = "red") |> 
+              color = "red",
+              group = "Research Sites") |> 
+  
+  addCircleMarkers(data = points_edu,
+             label = ~as.character(Entity),
+             group = "Colleges/Universities",
+             fillColor = "blue") |> 
+  
+    addCircleMarkers(data = points_exp,
+             label = ~as.character(Entity),
+             group = "Work/Experience",
+             radius = 4,
+             fillColor = "orange",
+             fillOpacity = 1,
+             color = "darkorange") |> 
+  
   setMaxBounds(lng1 = -125.69159, lat1 = 24.33702,
                lng2 = -63.43924, lat2 = 50.50496) |> 
   addLegend(position = "bottomleft",
-            colors = "red",
-            labels = "Research Sites") |> 
+            colors = c("red", "blue", "orange"),
+            labels = c("Research Sites", "Colleges/Universities", "Work/Experience")) |>
+  
+  addLayersControl(overlayGroups = c("Research Sites", "Colleges/Universities", "Work/Experience"),
+                   options = layersControlOptions(collapsed = TRUE)) |> 
   addFullscreenControl()
 ```
 :::
