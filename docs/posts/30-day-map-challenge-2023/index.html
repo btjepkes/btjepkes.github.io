@@ -147,7 +147,7 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             padding: 0;
             padding-top: 70px;
             cursor: pointer;
-            opacity: 0.7;
+            opacity: 1.0;
             transition: opacity 100ms;
             }
 
@@ -206,12 +206,12 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             border-radius: 20px;
             }
             
-/*            .carousel__item:first-of-type {
+            .carousel__item:first-of-type {
               margin-left: 14px;
             }
             .carousel__item:last-of-type {
               margin-right: 14px;
-            }*/
+            }
 
         .carousel__content {
           background: rgba(0, 0, 0, 0.8);
@@ -226,14 +226,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             color: white;
         }
           
-        }
-        
-        .carousel__content__first p {
-          color: white;
-          text-align: center;
-          padding: 50px;
-          font-size: 28px;
-          line-height: 1.2;
         }
 
         @media (max-width: 600px) {
@@ -275,11 +267,6 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
             ›
         </button>
         <div class="carousel-container">
-               <div class="carousel__item" style="background-image: url('https://btjepkes.github.io/site_libs/bootstrap/assets/noise.png');background-color: rgba(0, 0, 0, 1.0);">
-                <div class="carousel__content__first">
-                    <p>Providing an interdisciplinarity expertise in...</p>
-                </div>
-            </div>
             <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
                 <div class="carousel__content">
                     <p>Wildlife Ecology</p>
@@ -594,7 +581,7 @@ window.Quarto = {
 </header><section id="overview-of-challenge" class="level2"><h2 data-anchor-id="overview-of-challenge">Overview of Challenge</h2>
 <p>The <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a> is a community event that encourages map enthusiasts of all levels to create and share a different map each day for 30 consecutive days. Each day of the challenge is associated with a specific theme or prompt, ranging from traditional cartography topics to more unconventional and imaginative ideas. The challenge not only fosters skill development but also builds a sense of community among mapmakers who share their unique perspectives through the maps they create.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
+<figure class="figure"><p><a href="img-30dmc-2023.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"><img src="img-30dmc-2023.png" class="img-fluid figure-img" alt="Here are daily prompts for 2023. Credit: 30DayMapChallenge.com"></a></p>
 <figcaption>Here are daily prompts for 2023. Credit: 30DayMapChallenge.com</figcaption></figure>
 </div>
 </section><section id="my-2023-contributions" class="level2"><h2 data-anchor-id="my-2023-contributions">My 2023 Contributions</h2>
@@ -1190,7 +1177,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </ul>
 </div>
   </div>
-</footer><script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});
+</footer><script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"closeEffect":"zoom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
