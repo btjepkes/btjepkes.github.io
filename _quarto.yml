@@ -122,9 +122,9 @@ format:
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
-    title-block-banner: "#f2f2f2"
+    title-block-banner: "#dee2e6"
     title-block-categories: true
-    title-block-style: manuscript
+    title-block-style: default
     anchor-sections: false
     highlight-style: github
     link-external-newwindow: true
@@ -142,8 +142,9 @@ format:
       sidebar-width: 220px #left
     lightbox: auto
     # template-partials:
-    #   - title-block.html    
+    #   - partials/title-block.html
     # include-before-body:
+    #   - file: cover-image.html
     #   - text: "{{< meta title >}}"
     #   - file: divider.html
     # - file: cover-image.html

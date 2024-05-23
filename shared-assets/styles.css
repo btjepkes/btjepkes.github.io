@@ -1,5 +1,10 @@
 /* css styles */
 
+.subtitle {
+  line-height: 1.1em;
+  font-weight: 200;
+}
+
 main {
   margin-top: 0;
 }
@@ -52,8 +57,71 @@ main {
   grid-column-gap: 0.5em;
 }
 
+/*// LISTING*/
+
+
+.quarto-listing {
+  padding-top: 0.8em;
+}
+
+
+.quarto-listing-filter {
+  margin-bottom: 2em;
+  width: 49.5%;
+  margin-left: auto;
+}
+
+.quarto-listing-sort {
+  margin-bottom: 2em;
+  width: 49.5%;
+  margin-right: auto;
+}
+
+/*// SLIDES */
+
+.slide-deck {
+  border: 3px solid #dee2e6;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-top: 1em;
+}
+
+.slide-deck-4x3 {
+  border: 3px solid #dee2e6;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  margin-top: 0.5em;
+}
+
+
+/*// FOOTER*/
 
 .nav-footer {
   flex-direction: column;
   align-content: center;
+}
+
+
+/*// APPENDEX*/
+
+.giscus {
+  padding-top: 0 !important;
+  margin-top: 20px;
+  margin-bottom: 1em;
+}
+
+.footnotes {
+  text-align: left;
+}
+
+.quarto-appendix-citeas {
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 12px;
+  background: #dee2e6;
+  text-align: left;
+}
+
+.quarto-appendix-contents {
+  margin-top: 40px;
 }

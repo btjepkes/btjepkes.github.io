@@ -24,7 +24,6 @@
 
 
 
-  
 
 
 <section id="introduction" class="level2">
@@ -389,7 +388,6 @@ Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/
 
 
 
-  
 
 
 <section id="introduction" class="level2">
@@ -704,7 +702,6 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
 
 
 
-  
 
 
 <section id="introduction" class="level2">
@@ -716,7 +713,7 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
 <p>The functioning website can be found <a href="https://btjepkes.github.io/WAFSGSO_2024_GIS/">here</a> and includes all the required data downloads.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-gis-workshop-site-preview.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Screenshot of the GIS workshop site."><img src="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png" class="img-fluid figure-img" alt="Screenshot of the GIS workshop site."></a></p>
+<p><a href="img-gis-workshop-site-preview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Screenshot of the GIS workshop site."><img src="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png" class="img-fluid figure-img" alt="Screenshot of the GIS workshop site."></a></p>
 <figcaption>Screenshot of the GIS workshop site.</figcaption>
 </figure>
 </div>
@@ -741,7 +738,6 @@ Quarto.”</span> April 27, 2024. <a href="https://btjepkes.github.io/posts/craf
 
 
 
-  
 
 
 <section id="introduction" class="level2">
@@ -768,7 +764,7 @@ Quarto.”</span> April 27, 2024. <a href="https://btjepkes.github.io/posts/craf
 <p>Once you have your literature in Zotero you can review each article as you normally would. While doing so, add in notes and annotations that summarize the main findings, key terms, important methods, and so forth. An important note about this workflow is that each comment or annotation made on an article must be stored as an individual note item. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
+<p><a href="img-zotero-item.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
 <figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
 </figure>
 </div>
@@ -1479,7 +1475,6 @@ Quarto.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/bui
 
 
 
-  
 
 
 <section id="transitioning-moments" class="level2">
@@ -1743,7 +1738,6 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 
 
 
-  
 
 
 <section id="the-spatial-revolution-is-happening-now" class="level2">
@@ -1836,7 +1830,6 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 
 
 
-  
 
 
 <section id="naturalists-of-today" class="level2">
@@ -1943,7 +1936,6 @@ Naturalist.”</span> October 18, 2022. <a href="https://btjepkes.github.io/post
 
 
 
-  
 
 
 <section id="erosion-a-two-sided-story" class="level2">
