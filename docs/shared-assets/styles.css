@@ -5,8 +5,14 @@
   font-weight: 200;
 }
 
-main {
-  margin-top: 0;
+.abstract {
+  background: #dee2e6;
+  padding: 8px 8px;
+  font-size: 0.9em;
+}
+
+.abstract .block-title {
+  margin-top: 0 !important;
 }
 
 
@@ -30,10 +36,15 @@ main {
   background-image: url("../assets/repeatable-treeline.png");
   background-position: center 50%;
   background-size: cover;
-  font-family: "Homemade Apple", cursive;
+  font-family: "Meddon", cursive;
   font-weight: 200;
   font-style: normal;
-}
+  }
+  
+  @media (max-width: 991.98px) {
+    #quarto-header::before {
+      text-align: center;}
+    }
 
 .container,
 .container-fluid,
@@ -50,11 +61,28 @@ main {
   height: 1.3em;
 }
 
+/*// META*/
 
 #title-block-header.quarto-title-block.default .quarto-title-meta {
   display: grid;
   grid-template-columns: 45% 1fr 1fr;
   grid-column-gap: 0.5em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta > * {
+  /*background: #e6e5e0;*/
+  background: #dee2e6;
+  padding: 4px 8px;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-heading {
+  margin-top: 0 !important;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-contents {
+  font-size: 0.75em;
 }
 
 /*// LISTING*/

@@ -25,7 +25,6 @@
 
 
 
-
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
 <p>I recently wrapped up my first spring semester as a graduate student, making my list of college courses taken surpass 70! As the bags under my eyes can tell you, it has been a long road to this point, with much still left to go. I wanted to take some time to look back and reflect on the courses I have experienced in my higher education journey thus far.</p>
@@ -359,7 +358,7 @@ font-style: inherit;">dev.off</span>()</span></code></pre></div>
 <h3 data-anchor-id="data-visualization">Data Visualization</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./img-word-cloud.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="The resulting word cloud from my course descriptions."><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
+<p><a href="./img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="The resulting word cloud from my course descriptions."><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
 <figcaption>The resulting word cloud from my course descriptions.</figcaption>
 </figure>
 </div>
@@ -385,7 +384,6 @@ Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -703,7 +701,6 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
 
 
 
-
 <section id="introduction" class="level2">
 <h2 data-anchor-id="introduction">Introduction</h2>
 <p>Earlier this academic semester, I was able to help develop and host a technical workshop, “GIS for Fisheries and Wildlife Sciences”. While I have helped with many GIS training sessions in the past, this was my first time taking the lead on development from start to end. I figured this was a perfect opportunity to test the use of a <a href="https://quarto.org/">Quarto</a> site that would allow me to have all content in one place during and after the workshop.</p>
@@ -713,7 +710,7 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
 <p>The functioning website can be found <a href="https://btjepkes.github.io/WAFSGSO_2024_GIS/">here</a> and includes all the required data downloads.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-gis-workshop-site-preview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Screenshot of the GIS workshop site."><img src="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png" class="img-fluid figure-img" alt="Screenshot of the GIS workshop site."></a></p>
+<p><a href="img-gis-workshop-site-preview.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Screenshot of the GIS workshop site."><img src="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png" class="img-fluid figure-img" alt="Screenshot of the GIS workshop site."></a></p>
 <figcaption>Screenshot of the GIS workshop site.</figcaption>
 </figure>
 </div>
@@ -735,7 +732,6 @@ Quarto.”</span> April 27, 2024. <a href="https://btjepkes.github.io/posts/craf
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -764,7 +760,7 @@ Quarto.”</span> April 27, 2024. <a href="https://btjepkes.github.io/posts/craf
 <p>Once you have your literature in Zotero you can review each article as you normally would. While doing so, add in notes and annotations that summarize the main findings, key terms, important methods, and so forth. An important note about this workflow is that each comment or annotation made on an article must be stored as an individual note item. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-zotero-item.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
+<p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
 <figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
 </figure>
 </div>
@@ -1476,7 +1472,6 @@ Quarto.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/bui
 
 
 
-
 <section id="transitioning-moments" class="level2">
 <h2 data-anchor-id="transitioning-moments">Transitioning Moments</h2>
 <p>My mantra for 2023 was <em><code>embracing change for personal growth</code></em>. This past year marked a period of continual transformation as I navigated through different roles, focused on varied areas, and shifted between entities. Embracing change is beneficial, opening up new possibilities for personal development and adaptability.</p>
@@ -1739,7 +1734,6 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 
 
 
-
 <section id="the-spatial-revolution-is-happening-now" class="level2">
 <h2 data-anchor-id="the-spatial-revolution-is-happening-now">The Spatial Revolution Is Happening Now</h2>
 <p>Advancements in geospatial technologies are revolutionizing the field of wildlife research and conservation, providing new and innovative ways to collect and analyze data. Among these technologies, Geographic Information Systems (GIS) have emerged as a powerful tool for understanding the spatial relationships between wildlife, their habitat, and the environment in which they live. By combining maps and other location-based tools, GIS can help conservationists and biologists make informed decisions and take targeted actions to preserve biodiversity and protect threatened species.</p>
@@ -1790,7 +1784,7 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
 <figcaption>A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>
@@ -1827,7 +1821,6 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist/</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1933,7 +1926,6 @@ Naturalist.”</span> October 18, 2022. <a href="https://btjepkes.github.io/post
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion/</link>
   <description><![CDATA[ 
-
 
 
 

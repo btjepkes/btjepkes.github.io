@@ -122,9 +122,9 @@ format:
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
-    title-block-banner: "#dee2e6"
-    title-block-categories: true
-    title-block-style: default
+    # title-block-banner: "#dee2e6"
+    # title-block-categories: true
+    # title-block-style: default
     anchor-sections: false
     highlight-style: github
     link-external-newwindow: true

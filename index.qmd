@@ -86,7 +86,7 @@ Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my prof
 ```{r}
 #| echo: false
 #| warning: false
-#| column: screen
+#| column: page
 library(leaflet)
 library(leaflet.extras)
 library(sf)
