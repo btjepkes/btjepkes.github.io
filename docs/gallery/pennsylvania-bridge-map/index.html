@@ -34,8 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../assets/layer-group-solid.svg" rel="icon" type="image/svg+xml">
-<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -77,31 +75,13 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
-<script type="text/plain" cookie-consent="tracking">
+<script type="text/javascript">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script>
-
-<script type="text/javascript" charset="UTF-8">
-document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({
-  "notice_banner_type":"interstitial",
-  "consent_type":"implied",
-  "palette":"light",
-  "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
-  "notice_banner_reject_button_hide":false,
-  "preferences_center_close_button_hide":false,
-  "website_name":""
-  ,
-"language":"en"
-  });
-});
-</script> 
-  
 <style>html{ scroll-behavior: smooth; }</style>
 <style>
 
@@ -140,8 +120,8 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about/index.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../posts/index.html"> 
@@ -263,7 +243,7 @@ cookieconsent.run({
 <p>This map was created for <strong>Day 15</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “Open Street Map” for the main subject. Map creation was performed in R/Studio using the<code>ggplot</code> package. OpenStreeMap data for both bridges and largest cities were accessed via the <code>osmdata</code> package. The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-PA-bridge-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Final map of OSM bridges of PA."><img src="img-PA-bridge-map.png" class="img-fluid figure-img" alt="Final map of OSM bridges of PA."></a></p>
+<p><a href="img-PA-bridge-map.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Final map of OSM bridges of PA."><img src="img-PA-bridge-map.png" class="img-fluid figure-img" alt="Final map of OSM bridges of PA."></a></p>
 <figcaption>Final map of OSM bridges of PA.</figcaption>
 </figure>
 </div>
@@ -683,14 +663,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-
-<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">User Cookies 🍪 Preferences</a></div></div>
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ © Copyright 2021-2024 | B.W. Tjepkes
+  </li>  
+</ul>
+    </div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"descPosition":"bottom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

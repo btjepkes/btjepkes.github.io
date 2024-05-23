@@ -1,6 +1,0 @@
-
-## Explore Recent Posts
-
-- [#30DayMapChallenge - 2023 Contributions](posts/30-day-map-challenge-2023/index.qmd)
-- [How Scientists Use GIS to Study Wildlife](posts/how-scientists-use-gis-to-study-wildlife/index.qmd)
-- [How to Become a Contemporary Naturalist](posts/how-to-become-a-contemporary-naturalist/index.qmd)

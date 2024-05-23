@@ -7,9 +7,9 @@ website:
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
   favicon: "assets/layer-group-solid.svg"
-  # page-navigation: true
+  page-navigation: false
   back-to-top-navigation: false
-  bread-crumbs: true
+  bread-crumbs: false
   search:
     location: sidebar
     type: textbox
@@ -17,19 +17,21 @@ website:
   twitter-card:
     creator: "@BTjepkes"
     title: "Portfolio | B.W. Tjepkes"
-  cookie-consent:
-    type: implied
-    style: interstitial
-    palette: light
-    prefs-text: "User Cookies 🍪 Preferences"
+  # cookie-consent:
+  #   type: implied
+  #   style: interstitial
+  #   palette: light
+  #   prefs-text: "User Cookies 🍪 Preferences"
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
   navbar:
     pinned: true
     left:
-      - href: about/index.qmd
-        text: About
+      - href: index.qmd
+        text: Home
+      # - href: about/index.qmd
+      #   text: About
       # - href: curriculum-vitae/index.qmd
       #   text: CV
       - href: posts/index.qmd
@@ -83,24 +85,24 @@ website:
   #     - icon: 6-square
   #       href: resources/index.qmd
   #       text: Helpful Resources
-  # page-footer:
-  #   center: >-
-  #     Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
-  #   left:
-  #     - text: "&copy; Copyright 2021-2024 | B.W. Tjepkes"
-  #   right:
-  #     - icon: linkedin
-  #       href: https://www.linkedin.com/in/benjamintjepkes/
-  #       aria-label: LinkedIn Profile
-  #     - icon: github
-  #       href: https://github.com/btjepkes
-  #       aria-label: GitHub Profile
-  #     - icon: twitter-x
-  #       href: https://twitter.com/BTjepkes
-  #       aria-label: Twitter Profile
-  #     - icon: house-fill
-  #       href: index.html
-  #       aria-label: home page
+  page-footer:
+    # right: >-
+    #   Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
+    center:
+      - text: "&copy; Copyright 2021-2024 | B.W. Tjepkes"
+    # right:
+    #   - icon: linkedin
+    #     href: https://www.linkedin.com/in/benjamintjepkes/
+    #     aria-label: LinkedIn Profile
+    #   - icon: github
+    #     href: https://github.com/btjepkes
+    #     aria-label: GitHub Profile
+    #   - icon: twitter-x
+    #     href: https://twitter.com/BTjepkes
+    #     aria-label: Twitter Profile
+    #   - icon: house-fill
+    #     href: index.html
+    #     aria-label: home page
 execute:
   freeze: true
 format:
@@ -137,11 +139,12 @@ format:
       body-width: 900px
       gutter-width: 5%
       margin-width: 220px #right
-      sidebar-width: 0px #left
+      sidebar-width: 220px #left
     lightbox: auto
     # template-partials:
     #   - title-block.html    
     # include-before-body:
+    #   - text: "{{< meta title >}}"
     #   - file: divider.html
     # - file: cover-image.html
     # include-after-body: back-to-top.html

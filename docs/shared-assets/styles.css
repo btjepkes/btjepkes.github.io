@@ -1,5 +1,10 @@
 /* css styles */
 
+main {
+  margin-top: 0;
+}
+
+
 .navbar {
   border-bottom: solid 1px lightgray;
   --bs-navbar-padding-y: 0.2em;
@@ -10,14 +15,14 @@
   display: block;
   width: 100%;
   height: fit-content;
-  padding: 30px 1em;
+  padding: 15px 30px;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.2em;
   color: #fbfbfc;
   text-shadow: 1px 1px rgba(15,23,42,.85);
   font-optical-sizing: auto;
   background-color: #123c69;
-  background-image: url("https://btjepkes.github.io/site_libs/bootstrap/assets/repeatable-treeline.png");
+  background-image: url("../assets/repeatable-treeline.png");
   background-position: center 50%;
   background-size: cover;
   font-family: "Homemade Apple", cursive;
@@ -47,6 +52,8 @@
   grid-column-gap: 0.5em;
 }
 
-.navbar-nav {
-  font-weight: 600;
+
+.nav-footer {
+  flex-direction: column;
+  align-content: center;
 }

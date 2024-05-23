@@ -25,12 +25,12 @@ This figure was developed for the coding example portion of a job interview. The
 
 ::: {.panel-tabset}
 
-## Data
-
-## Workflow
-
 ## Result
 
 ![Final visualization comparing two vertebrate species morphometrics.](img-vertebrate-morphometrics-plot.png)
+
+## Data
+
+## Workflow
 
 :::
