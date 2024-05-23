@@ -1,5 +1,5 @@
 .index-map {
-  margin: 1em auto 0 auto;
+  margin: 2em auto 0 auto;
   min-width: 100%;
   
   h2 {
@@ -41,13 +41,10 @@
 
 .index-latest-posts,
 .index-latest-gallery {
-  background-color: red);
-  background-image: url("assets/noise.png");
   border-radius: 0.25em;
-  padding: 0.2em 1em;
+  padding: 0.2em 0em;
   margin-top: 0;
   margin-bottom: 0;
-  box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
 }
 
 /*.page-columns .column-body-outset table {
@@ -82,7 +79,6 @@
 
 .index-latest-column {
   flex-basis: calc(50% - 10px);
-  background: #dee2e6;
 }
 
 @media (max-width: 1000px) {

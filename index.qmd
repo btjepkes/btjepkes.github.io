@@ -1,5 +1,5 @@
 ---
-title: "A dedicated wildlife & geospatial scientist..."
+title: "Homepage"
 description: "Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am currently a graduate student at the University of Missouri in the Department of Geography where I conduct research in wildlife ecology and biogeography."
 abstact: "Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am currently a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography."
 date-modified: today
@@ -63,8 +63,6 @@ listing:
     fields: [title, description]
     max-items: 4
 ---
-
-:::{.column-body-outset}
 
 ::: {#intro-section .column-body-outset}
 
@@ -177,12 +175,10 @@ Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my prof
 
 ::: {.index-map}
 
-## My Geographic Perspective
-
 ```{r}
 #| echo: false
 #| warning: false
-#| column: page
+#| column: screen-inset
 library(leaflet)
 library(leaflet.extras)
 library(sf)
@@ -198,7 +194,9 @@ points_exp <- sf::st_read("curriculum-vitae/features-for-cv-WGS84.geojson", quie
 bbox <- sf::st_bbox(sites)
 
 leaflet(sites, options = leafletOptions(minZoom = 5, maxZoom = 8, scrollWheelZoom = FALSE)) |> 
+  
   addProviderTiles(providers$OpenStreetMap.HOT) |> 
+  
   addPolygons(label = ~as.character(Name),
               labelOptions = labelOptions(noHide = FALSE,
                                           direction = "bottom"),
@@ -210,7 +208,7 @@ leaflet(sites, options = leafletOptions(minZoom = 5, maxZoom = 8, scrollWheelZoo
              group = "Colleges/Universities",
              fillColor = "blue") |> 
   
-    addCircleMarkers(data = points_exp,
+  addCircleMarkers(data = points_exp,
              label = ~as.character(Entity),
              group = "Work/Experience",
              radius = 4,
@@ -218,14 +216,16 @@ leaflet(sites, options = leafletOptions(minZoom = 5, maxZoom = 8, scrollWheelZoo
              fillOpacity = 1,
              color = "darkorange") |> 
   
-  setMaxBounds(lng1 = -125.69159, lat1 = 24.33702,
+  setMaxBounds(lng1 = -125.69159, lat1 = 28.33702,
                lng2 = -63.43924, lat2 = 50.50496) |> 
+  
   addLegend(position = "bottomleft",
             colors = c("red", "blue", "orange"),
             labels = c("Research Sites", "Colleges/Universities", "Work/Experience")) |>
   
   addLayersControl(overlayGroups = c("Research Sites", "Colleges/Universities", "Work/Experience"),
                    options = layersControlOptions(collapsed = TRUE)) |> 
+  
   addFullscreenControl()
 ```
 :::
@@ -246,8 +246,5 @@ leaflet(sites, options = leafletOptions(minZoom = 5, maxZoom = 8, scrollWheelZoo
 :::
 
 :::
-
-:::
-
 
 :::

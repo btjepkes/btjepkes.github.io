@@ -30,18 +30,20 @@ website:
     left:
       - href: index.qmd
         text: Home
-      # - href: about/index.qmd
-      #   text: About
-      # - href: curriculum-vitae/index.qmd
-      #   text: CV
       - href: posts/index.qmd
         text: Posts
       - href: gallery/index.qmd
         text: Gallery
       - href: research/index.qmd
         text: Research        
-      - href: resources/index.qmd
-        text: Resources
+      - text: "More"
+        menu:
+        - href: about/index.qmd
+          text: About
+        - href: curriculum-vitae/index.qmd
+          text: CV
+        - href: resources/index.qmd
+          text: Resources          
       - text: "Links"
         menu:
         - text: "{{< fa brands linkedin size=1x >}} LinkedIn Profile"
@@ -59,9 +61,15 @@ website:
           href: https://orcid.org/0009-0002-5524-2675
           
     tools:
-      - icon: github
-      - icon: twitter-x
       - icon: linkedin
+        href: https://www.linkedin.com/in/benjamintjepkes/
+        aria-label: LinkedIn Profile
+      - icon: github
+        href: https://github.com/btjepkes
+        aria-label: GitHub Profile
+      - icon: twitter-x
+        href: https://twitter.com/BTjepkes
+        aria-label: Twitter Profile
   # sidebar: 
   #   background: "#e6e5e0"
   #   style: floating
@@ -86,23 +94,23 @@ website:
   #       href: resources/index.qmd
   #       text: Helpful Resources
   page-footer:
-    # right: >-
-    #   Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
-    center:
+    center: >-
+      Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
+    left:
       - text: "&copy; Copyright 2021-2024 | B.W. Tjepkes"
-    # right:
-    #   - icon: linkedin
-    #     href: https://www.linkedin.com/in/benjamintjepkes/
-    #     aria-label: LinkedIn Profile
-    #   - icon: github
-    #     href: https://github.com/btjepkes
-    #     aria-label: GitHub Profile
-    #   - icon: twitter-x
-    #     href: https://twitter.com/BTjepkes
-    #     aria-label: Twitter Profile
-    #   - icon: house-fill
-    #     href: index.html
-    #     aria-label: home page
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/benjamintjepkes/
+        aria-label: LinkedIn Profile
+      - icon: github
+        href: https://github.com/btjepkes
+        aria-label: GitHub Profile
+      - icon: twitter-x
+        href: https://twitter.com/BTjepkes
+        aria-label: Twitter Profile
+      - icon: house-fill
+        href: index.html
+        aria-label: home page
 execute:
   freeze: true
 format:

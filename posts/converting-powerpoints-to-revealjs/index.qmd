@@ -1,6 +1,6 @@
 ---
 title: "Converting PowerPoints to Reveal.js Format"
-subtitle: An automated method of turning your PPTX into REVEAL.JS.
+subtitle: An automated method with R and Quarto.
 date: 2024-04-29
 date-modified: today
 categories:

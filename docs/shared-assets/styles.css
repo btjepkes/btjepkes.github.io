@@ -5,8 +5,12 @@
   font-weight: 200;
 }
 
+#quarto-content .subtitle {
+  padding-top: 0 !important;
+}
+
 .abstract {
-  background: #dee2e6;
+  background: #eaeaed;
   padding: 8px 8px;
   font-size: 0.9em;
 }
@@ -19,6 +23,10 @@
 .navbar {
   border-bottom: solid 1px lightgray;
   --bs-navbar-padding-y: 0.1em;
+}
+
+.navbar-nav .dropdown-menu {
+  min-width: fit-content;
 }
 
 #quarto-header::before {
@@ -61,9 +69,40 @@
 }
 
 .navbar-toggler-icon {
-  width: 1.3em;
-  height: 1.3em;
+  width: 1.2em;
+  height: 1.2em;
 }
+
+/* FIGURES & IMAGES */
+
+.leaflet-container {
+  border: solid 2px lightgray;
+  border-radius: 0.5em;
+}
+
+
+.quarto-figure > figure {
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    }
+
+figure > figcaption {
+  margin: 5px 0px 10px 0px;
+  font-size: 0.7rem;
+  text-align: center;
+  opacity: 0.7;
+  line-height: 1.2;
+}
+
+.img-fluid,
+.figure-img,
+.quarto-video {
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,.38);
+  width: 100%;
+}
+
+
 
 /*// META*/
 
@@ -76,8 +115,7 @@
 }
 
 #title-block-header.quarto-title-block.default .quarto-title-meta > * {
-  /*background: #e6e5e0;*/
-  background: #dee2e6;
+  background: #eaeaed;
   padding: 4px 8px;
 }
 
@@ -129,8 +167,52 @@
 /*// FOOTER*/
 
 .nav-footer {
-  flex-direction: column;
-  align-content: center;
+  padding-top: 0.8em;
+  padding-bottom: 0em;
+  color: white;
+  background: #00231f;
+  background-image: url("assets/noise.png");
+}
+
+.nav-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-footer a:hover {
+  color: gray;
+}
+
+.cookie-consent-footer {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.nav-footer-center > p:nth-child(1) {
+    margin-bottom: 0rem;
+    }
+
+
+@media (max-width: 1000px) {
+  
+.nav-footer-center {
+  margin-bottom: 0em;
+  margin-top: 0.5em;
+}
+
+.nav-footer .nav-footer-right {
+  font-size: 1.8em;
+  padding: 2px 20px;
+}
+  
+.nav-footer {
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-bottom: 2em;
+  gap: 0.5em
+}
+  
 }
 
 
@@ -150,7 +232,7 @@
   padding: 12px;
   border-radius: 6px;
   margin-top: 12px;
-  background: #dee2e6;
+  background: #eaeaed;
   text-align: left;
 }
 

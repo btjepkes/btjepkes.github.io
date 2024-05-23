@@ -18,8 +18,8 @@ listing:
       title: Benjamin Tjepkes - Blog Posts on R
       categories: R
     type: grid
-    grid-columns: 2
-    image-height: 200px
+    grid-columns: 3
+    image-height: 150px
     page-size: 9
     sort: "date desc"
     filter-ui: [title, subtitle, description, category]
@@ -27,6 +27,7 @@ listing:
     max-description-length: 100
     categories: numbered
     fields: 
+      - image
       - title
       - description
       - author
