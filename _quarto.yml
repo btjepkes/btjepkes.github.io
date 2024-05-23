@@ -10,9 +10,9 @@ website:
   page-navigation: false
   back-to-top-navigation: false
   bread-crumbs: false
-  # search:
-  #   location: navbar
-  #   type: overlay
+  search:
+    location: navbar
+    type: overlay
   open-graph: true
   twitter-card:
     creator: "@BTjepkes"

@@ -44,6 +44,10 @@
   @media (max-width: 991.98px) {
     #quarto-header::before {
       text-align: center;}
+      
+    .navbar #quarto-search {
+      display: none;
+    }
     }
 
 .container,

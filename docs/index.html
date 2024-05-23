@@ -52,7 +52,6 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -409,99 +408,103 @@ in spatial ecology and GIS
 No matching items
 </div>
 </div>
-<section id="focus-areas" class="level1"><h1>FOCUS AREAS:</h1>
-
-
-
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lazy Loading Divs with Slide In</title>
-<style>
-        .my-class {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-        .container-divs {
-            display: flex;
-            flex-wrap: wrap;
-            max-width: 1200px;
-        }
-        .lazy-div {
-            width: 100%; /* Adjusted for responsiveness */
-            height: 200px;
-            margin: 10px 0;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 24px;
-            color: #aaa;
-            opacity: 0;
-            transform: translateX(0);
-            transition: transform 1s ease-out, opacity 1s ease-out;
-        }
-        @media(min-width: 600px) {
-            .lazy-div {
-                width: 48%; /* Two columns for larger screens */
-                margin: 10px 1%;
-            }
-        }
-        .lazy-div.loaded {
-            opacity: 1;
-        }
-        .left {
-            transform: translateX(-100%);
-        }
-        .left.loaded {
-            transform: translateX(0);
-        }
-        .right {
-            transform: translateX(100%);
-        }
-        .right.loaded {
-            transform: translateX(0);
-        }
-    </style>
-<div class="container-divs">
-        <div class="lazy-div left">Div 1</div>
-        <div class="lazy-div right">Div 2</div>
-        <div class="lazy-div left">Div 3</div>
-        <div class="lazy-div right">Div 4</div>
-        <div class="lazy-div left">Div 5</div>
-        <div class="lazy-div right">Div 6</div>
-        <div class="lazy-div left">Div 7</div>
-        <div class="lazy-div right">Div 8</div>
-        <div class="lazy-div left">Div 9</div>
-        <div class="lazy-div right">Div 10</div>
-    </div>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const lazyDivs = document.querySelectorAll('.lazy-div');
-
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('loaded');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, {
-                threshold: 0.5 // Increased threshold for better visibility detection
-            });
-
-            lazyDivs.forEach(div => {
-                observer.observe(div);
-            });
-        });
-    </script><section id="my-geographic-perspective" class="level2 index-map"><h2 data-anchor-id="my-geographic-perspective">My Geographic Perspective</h2>
+<!-- # FOCUS AREAS: -->
+<!-- ```{=html} -->
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+<!-- <head> -->
+<!--     <meta charset="UTF-8"> -->
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<!--     <title>Lazy Loading Divs with Slide In</title> -->
+<!--     <style> -->
+<!--         .my-class { -->
+<!--             font-family: Arial, sans-serif; -->
+<!--             margin: 0; -->
+<!--             padding: 0; -->
+<!--             display: flex; -->
+<!--             justify-content: center; -->
+<!--         } -->
+<!--         .container-divs { -->
+<!--             display: flex; -->
+<!--             flex-wrap: wrap; -->
+<!--             overflow: hidden; -->
+<!--         } -->
+<!--         .lazy-div { -->
+<!--             width: 100%; /* Adjusted for responsiveness */ -->
+<!--             height: 200px; -->
+<!--             margin: 10px 0; -->
+<!--             background-color: #f0f0f0; -->
+<!--             display: flex; -->
+<!--             justify-content: center; -->
+<!--             align-items: center; -->
+<!--             font-size: 24px; -->
+<!--             color: #aaa; -->
+<!--             opacity: 0; -->
+<!--             transform: translateX(0); -->
+<!--             transition: transform 1s ease-out, opacity 1s ease-out; -->
+<!--         } -->
+<!--         @media(min-width: 600px) { -->
+<!--             .lazy-div { -->
+<!--                 width: 48%; /* Two columns for larger screens */ -->
+<!--                 margin: 10px 1%; -->
+<!--             } -->
+<!--         } -->
+<!--         .lazy-div.loaded { -->
+<!--             opacity: 1; -->
+<!--         } -->
+<!--         .left { -->
+<!--             transform: translateX(-100%); -->
+<!--         } -->
+<!--         .left.loaded { -->
+<!--             transform: translateX(0); -->
+<!--         } -->
+<!--         .right { -->
+<!--             transform: translateX(100%); -->
+<!--         } -->
+<!--         .right.loaded { -->
+<!--             transform: translateX(0); -->
+<!--         } -->
+<!--     </style> -->
+<!-- </head> -->
+<!-- <body class="my-class"> -->
+<!--     <div class="container-divs"> -->
+<!--         <div class="lazy-div left">Div 1</div> -->
+<!--         <div class="lazy-div right">Div 2</div> -->
+<!--         <div class="lazy-div left">Div 3</div> -->
+<!--         <div class="lazy-div right">Div 4</div> -->
+<!--         <div class="lazy-div left">Div 5</div> -->
+<!--         <div class="lazy-div right">Div 6</div> -->
+<!--         <div class="lazy-div left">Div 7</div> -->
+<!--         <div class="lazy-div right">Div 8</div> -->
+<!--         <div class="lazy-div left">Div 9</div> -->
+<!--         <div class="lazy-div right">Div 10</div> -->
+<!--     </div> -->
+<!--     <script> -->
+<!--         document.addEventListener('DOMContentLoaded', function() { -->
+<!--             const lazyDivs = document.querySelectorAll('.lazy-div'); -->
+<!--             const observer = new IntersectionObserver((entries, observer) => { -->
+<!--                 entries.forEach(entry => { -->
+<!--                     if (entry.isIntersecting) { -->
+<!--                         entry.target.classList.add('loaded'); -->
+<!--                         observer.unobserve(entry.target); -->
+<!--                     } -->
+<!--                 }); -->
+<!--             }, { -->
+<!--                 threshold: 0.5 // Increased threshold for better visibility detection -->
+<!--             }); -->
+<!--             lazyDivs.forEach(div => { -->
+<!--                 observer.observe(div); -->
+<!--             }); -->
+<!--         }); -->
+<!--     </script> -->
+<!-- </body> -->
+<!-- </html> -->
+<!-- ``` -->
+<section id="my-geographic-perspective" class="level2 index-map"><h2 data-anchor-id="my-geographic-perspective">My Geographic Perspective</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-c66dd7bf22101ce05800" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-c66dd7bf22101ce05800">{"x":{"options":{"minZoom":5,"maxZoom":8,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false,"fullscreenControl":{"position":"topleft","pseudoFullscreen":false}},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.HOT",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-105.6915945157442,-105.6904056084356,-105.5125353113342,-105.5137242186426,-105.6915945157442],"lat":[41.35363282453523,41.2735797324317,41.27622137050747,41.35627446261094,41.35363282453523]}]],[[{"lng":[-89.57576979606011,-89.57564046102686,-89.55052309264897,-89.55065242768217,-89.57576979606011],"lat":[44.54120518516129,44.5319218038851,44.53227173626186,44.54155511753805,44.54120518516129]}]],[[{"lng":[-89.56305724751047,-89.56320249569586,-89.52976952387587,-89.52962427569059,-89.56305724751047],"lat":[45.50496189382352,45.47954346138715,45.47935241583372,45.50477084827014,45.50496189382352]}]],[[{"lng":[-88.46331245690362,-88.66117503279656,-88.66090060906271,-88.46303803316988,-88.46331245690362],"lat":[44.70288067732508,44.70263179358199,44.48446492521583,44.48471380895916,44.70288067732508]}]],[[{"lng":[-91.66303376395145,-92.14179806988818,-90.42501415622883,-89.96359103907797,-91.66303376395145],"lat":[44.56818866770678,44.40895209026957,41.64841752646682,41.80103745028565,44.56818866770678]}]],[[{"lng":[-95.21094848684334,-83.43923625871678,-83.43923625871678,-95.21094848684334,-95.21094848684334],"lat":[34.3370168884088,34.3370168884088,39.49102296763046,39.49102296763046,34.3370168884088]}]]],null,"Research Sites",{"interactive":true,"className":"","stroke":true,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,["Laramie, WY","Schmeekle Reserve, Stevens Point, WI","Treehaven, Tomahawk, WI","Lower Wolf River Bottomlands Natural Resources Area, WI","Upper Mississippi River National Fish and Wildlife Refuge","Central Hardwood Bird Conservation Region"],{"interactive":false,"permanent":false,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[38.94554204723634,44.52748031498342,41.31314645671414],[-92.32397932848558,-89.57141732288046,-105.5810393701329],10,null,"Colleges/Universities",{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"blue","fillOpacity":0.2},null,null,null,null,["University of Missouri-Columbia","University of Wisconsin-Stevens Point","University of Wyoming"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[48.30067551983294,46.79754985829191,44.12965687712758,44.65349543307089,38.59256862573427,38.89024379499433],[-95.98071481304153,-95.92650582682124,-90.17475829354404,-88.55023067716539,-92.2290926539702,-92.28678199212624],4,null,"Work/Experience",{"interactive":true,"className":"","stroke":true,"color":"darkorange","weight":5,"opacity":0.5,"fill":true,"fillColor":"orange","fillOpacity":1},null,null,null,null,["Agassiz National Wildlife Refuge","RMB Environmental Laboratories, Inc.","Necedah National Wildlife Refuge","Navarino State Wildlife Area","Missouri Department of Conservation","Missouri Department of Conservation"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"setMaxBounds","args":[24.33702,-125.69159,50.50496,-63.43924]},{"method":"addLegend","args":[{"colors":["red","blue","orange"],"labels":["Research Sites","Colleges/Universities","Work/Experience"],"na_color":null,"na_label":"NA","opacity":0.5,"position":"bottomleft","type":"unknown","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]},{"method":"addLayersControl","args":[[],["Research Sites","Colleges/Universities","Work/Experience"],{"collapsed":true,"autoZIndex":true,"position":"topright"}]}],"limits":{"lat":[34.3370168884088,48.30067551983294],"lng":[-105.6915945157442,-83.43923625871678]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-0841bff217114f6b7c37" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-0841bff217114f6b7c37">{"x":{"options":{"minZoom":5,"maxZoom":8,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false,"fullscreenControl":{"position":"topleft","pseudoFullscreen":false}},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.HOT",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-105.6915945157442,-105.6904056084356,-105.5125353113342,-105.5137242186426,-105.6915945157442],"lat":[41.35363282453523,41.2735797324317,41.27622137050747,41.35627446261094,41.35363282453523]}]],[[{"lng":[-89.57576979606011,-89.57564046102686,-89.55052309264897,-89.55065242768217,-89.57576979606011],"lat":[44.54120518516129,44.5319218038851,44.53227173626186,44.54155511753805,44.54120518516129]}]],[[{"lng":[-89.56305724751047,-89.56320249569586,-89.52976952387587,-89.52962427569059,-89.56305724751047],"lat":[45.50496189382352,45.47954346138715,45.47935241583372,45.50477084827014,45.50496189382352]}]],[[{"lng":[-88.46331245690362,-88.66117503279656,-88.66090060906271,-88.46303803316988,-88.46331245690362],"lat":[44.70288067732508,44.70263179358199,44.48446492521583,44.48471380895916,44.70288067732508]}]],[[{"lng":[-91.66303376395145,-92.14179806988818,-90.42501415622883,-89.96359103907797,-91.66303376395145],"lat":[44.56818866770678,44.40895209026957,41.64841752646682,41.80103745028565,44.56818866770678]}]],[[{"lng":[-95.21094848684334,-83.43923625871678,-83.43923625871678,-95.21094848684334,-95.21094848684334],"lat":[34.3370168884088,34.3370168884088,39.49102296763046,39.49102296763046,34.3370168884088]}]]],null,"Research Sites",{"interactive":true,"className":"","stroke":true,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,["Laramie, WY","Schmeekle Reserve, Stevens Point, WI","Treehaven, Tomahawk, WI","Lower Wolf River Bottomlands Natural Resources Area, WI","Upper Mississippi River National Fish and Wildlife Refuge","Central Hardwood Bird Conservation Region"],{"interactive":false,"permanent":false,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[38.94554204723634,44.52748031498342,41.31314645671414],[-92.32397932848558,-89.57141732288046,-105.5810393701329],10,null,"Colleges/Universities",{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"blue","fillOpacity":0.2},null,null,null,null,["University of Missouri-Columbia","University of Wisconsin-Stevens Point","University of Wyoming"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[48.30067551983294,46.79754985829191,44.12965687712758,44.65349543307089,38.59256862573427,38.89024379499433],[-95.98071481304153,-95.92650582682124,-90.17475829354404,-88.55023067716539,-92.2290926539702,-92.28678199212624],4,null,"Work/Experience",{"interactive":true,"className":"","stroke":true,"color":"darkorange","weight":5,"opacity":0.5,"fill":true,"fillColor":"orange","fillOpacity":1},null,null,null,null,["Agassiz National Wildlife Refuge","RMB Environmental Laboratories, Inc.","Necedah National Wildlife Refuge","Navarino State Wildlife Area","Missouri Department of Conservation","Missouri Department of Conservation"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"setMaxBounds","args":[24.33702,-125.69159,50.50496,-63.43924]},{"method":"addLegend","args":[{"colors":["red","blue","orange"],"labels":["Research Sites","Colleges/Universities","Work/Experience"],"na_color":null,"na_label":"NA","opacity":0.5,"position":"bottomleft","type":"unknown","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]},{"method":"addLayersControl","args":[[],["Research Sites","Colleges/Universities","Work/Experience"],{"collapsed":true,"autoZIndex":true,"position":"topright"}]}],"limits":{"lat":[34.3370168884088,48.30067551983294],"lng":[-105.6915945157442,-83.43923625871678]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section><div class="index-latest-container">
@@ -608,7 +611,6 @@ No matching items
 </div>
 </div>
 </div>
-</section>
 </div>
 
 
