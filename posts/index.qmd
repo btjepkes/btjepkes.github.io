@@ -18,7 +18,7 @@ listing:
       title: Benjamin Tjepkes - Blog Posts on R
       categories: R
     type: grid
-    grid-columns: 3
+    grid-columns: 2
     image-height: 200px
     page-size: 9
     sort: "date desc"

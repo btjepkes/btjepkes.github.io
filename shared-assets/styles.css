@@ -18,7 +18,7 @@
 
 .navbar {
   border-bottom: solid 1px lightgray;
-  --bs-navbar-padding-y: 0.2em;
+  --bs-navbar-padding-y: 0.1em;
 }
 
 #quarto-header::before {

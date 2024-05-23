@@ -41,7 +41,7 @@
 
 .index-latest-posts,
 .index-latest-gallery {
-  background-color: rgba(255,255,255,.6);
+  background-color: red);
   background-image: url("assets/noise.png");
   border-radius: 0.25em;
   padding: 0.2em 1em;
@@ -50,9 +50,9 @@
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
 }
 
-.page-columns .column-body-outset table {
+/*.page-columns .column-body-outset table {
   background: transparent;
-}
+}*/
 
 .index-latest-posts::before{
   content: "My Latest Posts";
@@ -82,6 +82,7 @@
 
 .index-latest-column {
   flex-basis: calc(50% - 10px);
+  background: #dee2e6;
 }
 
 @media (max-width: 1000px) {
