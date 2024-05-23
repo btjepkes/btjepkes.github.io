@@ -63,6 +63,7 @@ listing:
     fields: [title, description]
     max-items: 4
 ---
+
 ::: {#intro-section .column-body-outset}
 
 # A dedicated wildlife ecologist and geospatial scientist...
@@ -74,6 +75,10 @@ Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my prof
 ::: {#site-listings-1 .column-body-outset}
 :::
 
+
+
+
+
 ::: {.index-map}
 
 ## My Geographic Perspective
@@ -81,7 +86,7 @@ Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my prof
 ```{r}
 #| echo: false
 #| warning: false
-#| column: screen-inset
+#| column: screen
 library(leaflet)
 library(leaflet.extras)
 library(sf)

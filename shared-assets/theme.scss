@@ -1,0 +1,83 @@
+/*-- scss:defaults --*/
+
+// Quarto SASS sass-variables
+// https://quarto.org/docs/output-formats/html-themes.html#sass-variables
+//
+// Bootsrap SASS sass-variables
+// https://github.com/quarto-dev/quarto-cli/blob/d16d9f13110e084ef3c5a4b0f9561a5eb5f3158f/src/resources/formats/html/bootstrap/themes/
+
+// Import google fonts
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;700;900');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+// Color system
+$dark-shade: #191F3D;
+$dark-shade-alpha: #191F3D85;
+$dark-accent: #BA70A0;
+$main-colour: #123C69;
+$light-accent: #24639E;
+$light-accent-hl: rgb(81, 129, 177);
+$light-shade: #fffbfa;
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #ebebeb !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #888 !default;
+$gray-700: #444 !default;
+$gray-800: #333 !default;
+$gray-900: #222 !default;
+$black:    #000 !default;
+
+$blue:    #268bd2 !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #d33682 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #cb4b16 !default;
+$green:   #2aa198 !default;
+$teal:    #20c997 !default;
+$cyan:    #268bd2 !default;
+
+$primary:       $main-colour !default;
+$secondary:     $gray-500 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+// Colours
+// https://quarto.org/docs/output-formats/html-themes.html#colors
+$body-bg: $light-shade !default; // The page background color.
+$body-color: $dark-shade !default; // The page text color.
+$headings-color: $main-colour !default; // The heading color.
+$link-color: $body-color !default; // The link color.
+$input-bg: $white !default; // The background color for HTML inputs.
+$popover-bg: $white !default;	// The background color for popovers.
+
+// Fonts
+// https://quarto.org/docs/output-formats/html-themes.html#fonts
+$headings-font-family:   'Assistant', sans-serif !default;
+$font-family-sans-serif: 'Assistant', sans-serif !default;
+$font-family-monospace:  'Inconsolata', monospace !default;
+$navbar-font-family:     'Assistant', sans-serif !default;
+$font-size-root:       18px !default;
+$font-size-base:       1rem !default;
+$headings-font-weight: 900 !default;
+$toc-font-size:        16px !default;
+
+// Navigation
+$navbar-bg: $light-shade !default; // The background color of the navbar.
+$navbar-fg: $main-colour !default; // The colour of foreground elements in the navbar.
+$navbar-hl: $light-accent !default; // The highlight colour for links in the navbar.
+$footer-bg: $body-bg !default; // The background colour of the footer.
+$footer-fg: $main-colour !default; //	The colour of foreground elements in the footer.
+
+// Code
+$code-color: $dark-accent !default;

@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 website:
-  title: "PORTFOLIO {{< fa solid layer-group size=1.2x >}} B.W. TJEPKES"
   site-url: https://btjepkes.github.io
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
@@ -18,22 +17,21 @@ website:
   twitter-card:
     creator: "@BTjepkes"
     title: "Portfolio | B.W. Tjepkes"
-  # cookie-consent:
-  #   type: implied
-  #   style: interstitial
-  #   palette: light
-  #   prefs-text: "User Cookies 🍪 Preferences"
+  cookie-consent:
+    type: implied
+    style: interstitial
+    palette: light
+    prefs-text: "User Cookies 🍪 Preferences"
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
   navbar:
-    # logo: "assets/layer-group-solid.svg"
-    pinned: false
-    right:
+    pinned: true
+    left:
       - href: about/index.qmd
         text: About
-      - href: curriculum-vitae/index.qmd
-        text: CV
+      # - href: curriculum-vitae/index.qmd
+      #   text: CV
       - href: posts/index.qmd
         text: Posts
       - href: gallery/index.qmd
@@ -57,47 +55,52 @@ website:
           href: https://www.researchgate.net/profile/Benjamin-Tjepkes
         - text: "{{< fa brands orcid size=1x >}} ORCiD Account"
           href: https://orcid.org/0009-0002-5524-2675
-  sidebar: 
-    background: "#e6e5e0"
-    style: floating
-    search: true
-    contents: 
-      - icon: 1-square
-        href: about/index.qmd
-        text: About Me
-      - icon: 2-square
-        href: curriculum-vitae/index.qmd
-        text: Curriculum Vitae
-      - icon: 3-square
-        href: posts/index.qmd
-        text: My Blog Posts
-      - icon: 4-square
-        href: gallery/index.qmd
-        text: My Gallery
-      - icon: 5-square
-        href: research/index.qmd
-        text: My Research
-      - icon: 6-square
-        href: resources/index.qmd
-        text: Helpful Resources
-  page-footer:
-    center: >-
-      Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
-    left:
-      - text: "&copy; Copyright 2021-2024 | B.W. Tjepkes"
-    right:
-      - icon: linkedin
-        href: https://www.linkedin.com/in/benjamintjepkes/
-        aria-label: LinkedIn Profile
+          
+    tools:
       - icon: github
-        href: https://github.com/btjepkes
-        aria-label: GitHub Profile
       - icon: twitter-x
-        href: https://twitter.com/BTjepkes
-        aria-label: Twitter Profile
-      - icon: house-fill
-        href: index.html
-        aria-label: home page
+      - icon: linkedin
+  # sidebar: 
+  #   background: "#e6e5e0"
+  #   style: floating
+  #   search: true
+  #   contents: 
+  #     - icon: 1-square
+  #       href: about/index.qmd
+  #       text: About Me
+  #     - icon: 2-square
+  #       href: curriculum-vitae/index.qmd
+  #       text: Curriculum Vitae
+  #     - icon: 3-square
+  #       href: posts/index.qmd
+  #       text: My Blog Posts
+  #     - icon: 4-square
+  #       href: gallery/index.qmd
+  #       text: My Gallery
+  #     - icon: 5-square
+  #       href: research/index.qmd
+  #       text: My Research
+  #     - icon: 6-square
+  #       href: resources/index.qmd
+  #       text: Helpful Resources
+  # page-footer:
+  #   center: >-
+  #     Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
+  #   left:
+  #     - text: "&copy; Copyright 2021-2024 | B.W. Tjepkes"
+  #   right:
+  #     - icon: linkedin
+  #       href: https://www.linkedin.com/in/benjamintjepkes/
+  #       aria-label: LinkedIn Profile
+  #     - icon: github
+  #       href: https://github.com/btjepkes
+  #       aria-label: GitHub Profile
+  #     - icon: twitter-x
+  #       href: https://twitter.com/BTjepkes
+  #       aria-label: Twitter Profile
+  #     - icon: house-fill
+  #       href: index.html
+  #       aria-label: home page
 execute:
   freeze: true
 format:
@@ -106,7 +109,8 @@ format:
     author:
       - name: Benjamin Tjepkes
         orcid: 0009-0002-5524-2675
-    theme: custom.scss
+    theme: shared-assets/theme.scss
+    css: shared-assets/styles.css
     date-format: iso
     abstract-title: "What Is This About?"
     toc: true
@@ -116,8 +120,9 @@ format:
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
-    title-block-banner: false
+    title-block-banner: "#f2f2f2"
     title-block-categories: true
+    title-block-style: manuscript
     anchor-sections: false
     highlight-style: github
     link-external-newwindow: true
@@ -129,10 +134,10 @@ format:
         reactions-enabled: false
         repo: btjepkes/btjepkes.github.io
     grid:
-      body-width: 1000px
+      body-width: 900px
       gutter-width: 5%
       margin-width: 220px #right
-      sidebar-width: 220px #left
+      sidebar-width: 0px #left
     lightbox: auto
     # template-partials:
     #   - title-block.html    
@@ -140,5 +145,5 @@ format:
     #   - file: divider.html
     # - file: cover-image.html
     # include-after-body: back-to-top.html
-    include-in-header:
-      - file: carousel-slider/carousel-slider.html
+    # include-in-header:
+    #   - file: carousel-slider/carousel-slider.html

@@ -26,13 +26,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../assets/layer-group-solid.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,151 +72,44 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
-<script type="text/javascript">
+<script type="text/plain" cookie-consent="tracking">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 </script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"interstitial",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
 <style>html{ scroll-behavior: smooth; }</style>
+<style>
 
-
-
-    <meta charset="UTF-8">
-    <title>title</title>
-    <style>
-      .dashed-line {
-        position: relative;
-        height: 30px;
-        width: 100%;
-        display: block;
-        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAzCAYAAAC0e3lWAAABT0lEQVQ4T5WUS0tCURRGr6HRoIIoqOgxqUkNougB9u6Pp6WDsgf0IiJQCooGGUE1aCC0PrhHzt3tJIWF5+7luR73vp+5JEl6oQgH0H7l0tUO70fwHUwQ8xS+4MGKYQozULNC1xtwCR+6CLfSWjt64N6KfgpLULFC16vQgNf4VhLTMAjXVvRRXINDK7RrD6qe0I47Tywi3j0xh8h7YgVR98Q2omZFIe1Z2YpRxAScW7GgdsBzLDTiLShDKxZTFMbgxHa33dlYZGYRi8z0YpGZdxB5Fvq1+yqEl06lialxx1aMUxiBKyvWKbxA3YpJCgNwa8UQBR331IqOMdhNd3zGx9VaMVDx0YqOMdjk0xfwKwazFNUJNwZ62Kr6HjtzDUsdaHoxUBduuo5BpesYvP0Vg4InljlV498x0BOj57fkxUCjPvNi0EQ8xUJp0h9aCVo/o4FBKG9s+uwAAAAASUVORK5CYII=);
-        background-repeat: repeat-x;
-        background-position: top;
-        background-color: #f0f0ec;
-        opacity: 0.7;
+      .quarto-title-block .quarto-title-banner {
+        background: #f2f2f2;
       }
-
-      body {
-        margin: 0;
-        position: relative;
-        }
-
-        .carousel {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            }
-
-        .carousel-arrow {
-            position: absolute;
-            display: flex;
-            justify-content: center;
-            top: 0;
-            bottom: 0;
-            margin-block: auto;
-            height: 100%;
-            width: 40px;
-            background-color: transparent;
-            color: #1cd354;
-            text-shadow: 1px 1px rgba(15, 23, 42, 0.85);
-            border: none;
-            font-size: 4rem;
-            padding: 0;
-            padding-top: 70px;
-            cursor: pointer;
-            opacity: 1.0;
-            transition: opacity 100ms;
-            }
-
-        .carousel-arrow:hover,
-        .carousel-arrow:focus {
-        opacity: 1;
-        }
-
-        .carousel-arrow--prev {
-        left: 0;
-        }
-
-        .carousel-arrow--next {
-        right: 0;
-        }
-
-        .carousel-container {
-        width: 100%;
-        overflow-x: hidden;
-        display: flex;
-        gap: 14px;
-        align-items: center;
-        scroll-snap-type: x mandatory;
-        flex-flow: row nowrap;
-        scroll-behavior: smooth;
-        margin: 14px 2px;
-        }
-
-        .carousel-container::-webkit-scrollbar {
-        height: 14px;
-        width: calc(100% - 48px);
-        }
-
-        .carousel-container::-webkit-scrollbar-track {
-        background: #b1b3b399;
-        }
-
-        .carousel-container::-webkit-scrollbar-thumb {
-        background: #29AB87;
-        }
-
-        .carousel-container::-webkit-scrollbar-track-piece:start {
-        background: #29AB87;
-        }
-
-        .carousel__item {
-            flex: 1 0 30%;
-            aspect-ratio: 16/9;
-            max-height: 180px;
-            flex-flow: column nowrap;
-            display: flex;
-            scroll-snap-align: center;
-            background-size: cover;
-            background-position: center;
-            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
-            border-radius: 20px;
-            }
-            
-            .carousel__item:first-of-type {
-              margin-left: 14px;
-            }
-            .carousel__item:last-of-type {
-              margin-right: 14px;
-            }
-
-        .carousel__content {
-          background: rgba(0, 0, 0, 0.8);
-          border-right: solid #1cd354;
-          border-radius: 5px 0 0 5px;
-          backdrop-filter: blur(5px);
-          text-align: center;
-          margin: 20px 0px auto auto;
-          
-          p {margin: auto auto;
-            padding: 4px 12px;
-            color: white;
-        }
-          
-        }
-
-        @media (max-width: 600px) {
-        .carousel__item {
-            flex: 1 0 90%;
-        }
-        }
 </style>
+
+
+<link rel="stylesheet" href="../../shared-assets/styles.css">
 <meta property="og:title" content="Bird Observation Map Series in ArcPy | B.W. Tjepkes">
 <meta property="og:description" content="This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/bird-observation-map-series/img-bird-obs-map-series.png">
-<meta property="og:site_name" content="PORTFOLIO {{< fa solid layer-group size=1.2x >}} B.W. TJEPKES">
 <meta property="og:image:height" content="818">
 <meta property="og:image:width" content="813">
 <meta property="og:image:alt" content="Example map series.">
@@ -228,139 +122,21 @@ gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
 <meta name="twitter:image:alt" content="Example map series.">
 <meta name="twitter:card" content="summary_large_image">
 </head>
-<body class="nav-sidebar floating nav-fixed">
-    <div class="carousel">
-        <button class="carousel-arrow carousel-arrow--prev" onclick="handleCarouselMove(false)">
-            ‹
-        </button>
-        <button class="carousel-arrow carousel-arrow--next" onclick="handleCarouselMove()">
-            ›
-        </button>
-        <div class="carousel-container">
-            <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
-                <div class="carousel__content">
-                    <p>Wildlife Ecology</p>
-                </div>
-            </div>
-            <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;">
-                <div class="carousel__content">
-                    <p>Remote Sensing</p>
-                </div> 
-            </div>
-            <div class="carousel__item" style="background-image: url('https://static.wixstatic.com/media/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg/v1/fill/w_560,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg'); background-color: #001a17;">
-                <div class="carousel__content">
-                    <p>Conservation GIS</p>
-                </div>  
-            </div>
-            <div class="carousel__item" style="background-image: url('https://zubrod-eds.de/wp-content/uploads/2021/02/Heart_cropped.jpg'); background-color: #001a17;">
-                <div class="carousel__content">
-                    <p>Environmental Data Science</p>
-                </div>  
-            </div>
-            <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;">
-                <div class="carousel__content">
-                    <p>Biogeography</p>
-                </div>  
-            </div>
-            <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
-                <div class="carousel__content">
-                    <p>Climate Science</p>
-                </div>  
-            </div>
-        </div>
-    </div>
-  <div class="dashed-line">
-  </div>
 
-<script>
-const carousel = document.querySelector(".carousel-container");
-const slides = document.querySelectorAll(".carousel__item");
-let intervalId;
-
-function handleCarouselMove(positive = true) {
-    const slideWidth = slides[0].clientWidth;
-    const totalWidth = slideWidth * slides.length;
-    const maxScrollLeft = totalWidth - carousel.clientWidth;
-
-    if (positive) {
-        if (carousel.scrollLeft + slideWidth >= maxScrollLeft + slideWidth) {
-            carousel.scrollLeft = 0; // Go to the start
-        } else {
-            carousel.scrollLeft += slideWidth;
-        }
-    } else {
-        if (carousel.scrollLeft - slideWidth <= -slideWidth) {
-            carousel.scrollLeft = maxScrollLeft; // Go to the end
-        } else {
-            carousel.scrollLeft -= slideWidth;
-        }
-    }
-
-    // Clear interval when buttons are clicked and restart it
-    clearInterval(intervalId);
-    startAutoMove();
-}
-
-// Function to move the carousel automatically
-function autoMoveCarousel() {
-    handleCarouselMove(true); // Move to the next slide
-}
-
-// Set interval to move the carousel every 5 seconds
-function startAutoMove() {
-    intervalId = setInterval(autoMoveCarousel, 2000);
-}
-
-// Clear interval when mouse enters the carousel
-function pauseAutoMove() {
-    clearInterval(intervalId);
-}
-
-// Restart interval when mouse leaves the carousel
-function resumeAutoMove() {
-    startAutoMove();
-}
-
-// Start auto movement initially
-startAutoMove();
-
-// Add event listeners for hover
-carousel.addEventListener("mouseenter", pauseAutoMove);
-carousel.addEventListener("mouseleave", resumeAutoMove);
-
-// Add event listeners for buttons
-document.getElementById("prevButton").addEventListener("click", () => handleCarouselMove(false));
-document.getElementById("nextButton").addEventListener("click", () => handleCarouselMove(true));
-
-</script>
-
-
-
-
-
-
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">PORTFOLIO <i class="fa-solid fa-layer-group fa-1.2x" aria-label="layer-group"></i> B.W. TJEPKES</span>
-    </a>
-  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../../about/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../about/index.html"> 
 <span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../curriculum-vitae/index.html"> 
-<span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../posts/index.html"> 
@@ -382,7 +158,7 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-links" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Links</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-links">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-links">    
         <li>
     <a class="dropdown-item" href="https://www.linkedin.com/in/benjamintjepkes/">
  <span class="dropdown-text"><i class="fa-brands fa-linkedin fa-1x" aria-label="linkedin"></i> LinkedIn Profile</span></a>
@@ -407,81 +183,67 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
   </li>
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+          <div class="quarto-navbar-tools tools-wide">
+    <a href="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter-x"></i></a>
+    <a href="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Bird Observation Map Series in ArcPy</li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-1-square" role="img">
-</i> 
- <span class="menu-text">About Me</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../curriculum-vitae/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-2-square" role="img">
-</i> 
- <span class="menu-text">Curriculum Vitae</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../posts/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-3-square" role="img">
-</i> 
- <span class="menu-text">My Blog Posts</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../gallery/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-4-square" role="img">
-</i> 
- <span class="menu-text">My Gallery</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../research/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-5-square" role="img">
-</i> 
- <span class="menu-text">My Research</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../resources/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-6-square" role="img">
-</i> 
- <span class="menu-text">Helpful Resources</span></a>
-  </div>
-</li>
-    </ul>
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Bird Observation Map Series in ArcPy</h1>
+            <p class="subtitle lead">Automating spatial analyses and map production.</p>
+          </div>
+
+    
+    <div class="quarto-title-meta-container">
+      <div class="quarto-title-meta-column-start">
+        
+        <div class="quarto-title-meta">
+
+                <div>
+            <div class="quarto-title-meta-heading">Author</div>
+            <div class="quarto-title-meta-contents">
+                        <p>Benjamin Tjepkes <a href="https://orcid.org/0009-0002-5524-2675" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+                      </div>
+          </div>
+                
+                <div>
+            <div class="quarto-title-meta-heading">Published</div>
+            <div class="quarto-title-meta-contents">
+              <p class="date">2024-05-08</p>
+            </div>
+          </div>
+          
+                <div>
+            <div class="quarto-title-meta-heading">Modified</div>
+            <div class="quarto-title-meta-contents">
+              <p class="date-modified">2024-05-23</p>
+            </div>
+          </div>
+                
+              </div>
+      </div>
+      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+      </div>
     </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+
+    <div>
+      <div class="abstract">
+        <div class="block-title">What Is This About?</div>
+        This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python.
+      </div>
+    </div>
+
+
+    <div class="quarto-other-links-text-target">
+    </div>  </div>
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -494,56 +256,11 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Bird Observation Map Series in ArcPy</h1>
-<p class="subtitle lead">Automating spatial analyses and map production.</p>
-  <div class="quarto-categories">
-    <div class="quarto-category">Map Gallery</div>
-    <div class="quarto-category">Python</div>
-    <div class="quarto-category">Avian</div>
-    <div class="quarto-category">ArcPy</div>
-  </div>
-  </div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Benjamin Tjepkes <a href="https://orcid.org/0009-0002-5524-2675" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2024-05-08</p>
-    </div>
-  </div>
   
-    <div>
-    <div class="quarto-title-meta-heading">Modified</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-22</p>
-    </div>
-  </div>
-    
-  </div>
-  
-<div>
-  <div class="abstract">
-    <div class="block-title">What Is This About?</div>
-    This was my final project for an advanced GIS course in graduate school and explores the spatial patterns of bird observations, creating an automated map series using Python.
-  </div>
-</div>
-
-
-</header>
 
 
 <section id="overview" class="level2">
@@ -996,42 +713,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
- © Copyright 2021-2024 | B.W. Tjepkes
-  </li>  
-</ul>
+      &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Made with <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.</p>
-</div>
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">User Cookies 🍪 Preferences</a></div></div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/benjamintjepkes/">
-      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn Profile">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/btjepkes">
-      <i class="bi bi-github" role="img" aria-label="GitHub Profile">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/BTjepkes">
-      <i class="bi bi-twitter-x" role="img" aria-label="Twitter Profile">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="../../index.html">
-      <i class="bi bi-house-fill" role="img" aria-label="home page">
-</i> 
-    </a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>

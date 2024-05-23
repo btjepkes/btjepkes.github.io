@@ -95,11 +95,6 @@
       <i class="bi bi-megaphone"></i>Talks
     </a>
   </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" href="/gallery/">
-      <i class="bi bi-emoji-smile"></i>Everything
-    </a>
-  </li>
 </ul>
 
 <script type="text/javascript">
