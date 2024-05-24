@@ -1,17 +1,18 @@
 ---
 title: "My Research"
+subtitle: Across ecology, geospatial, and applied conservation.
 date: 2021-01-01
 date-modified: today
 image: ../assets/bg-pines-research-gray-sm.png
 image-alt: Image-of-pine-trees-on-blue-background.
-description: "Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques aimed at applied conservation. This research has expanded both my technical skillset and my appreciation for science."
+abstract: "Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques aimed at applied conservation. This research has expanded both my technical skillset and my appreciation for science."
 comments: false
 listing:
   - id: research-listings-all
     contents: "*.qmd"
     type: grid
-    grid-columns: 3
-    image-height: 120px
+    grid-columns: 2
+    image-height: 180px
     max-description-length: 100
     categories: numbered
     sort: "date"

@@ -27,7 +27,6 @@ listing:
     max-description-length: 100
     categories: numbered
     fields: 
-      - image
       - title
       - description
       - author

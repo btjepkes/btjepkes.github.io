@@ -1,0 +1,174 @@
+- name: R for Fledglings
+  category: eBook
+  custom-field: Informative ebook with tutorials about coding in R.
+  href: https://www.uvm.edu/~tdonovan/RforFledglings/
+- name: R as GIS for Economists
+  category: eBook
+  custom-field: Free online book focusing on spatial data processing for econometric
+    projects, including example R code.
+  href: https://tmieno2.github.io/R-as-GIS-for-Economists/
+- name: Geographic Data Science with R
+  category: eBook
+  custom-field: Free online book about visualizing and analyzing environmental change
+    in R.
+  href: https://bookdown.org/mcwimberly/gdswr-book/
+- name: Spatial Data Science with R and terra
+  category: eBook
+  custom-field: Free online book about spatial data manipulation, analysis, and modeling.
+  href: https://rspatial.org/index.html
+- name: Landscape Genetic Data Analysis in R
+  category: eBook
+  custom-field: Free online documentation for environmental genetics graduate course.
+  href: https://bookdown.org/hhwagner1/LandGenCourse_book/
+- name: The Epidemiologist R Handbook
+  category: eBook
+  custom-field: Exceptional and free online book covering several topics in R, including
+    data analysis, manipulation, and visualization.
+  href: https://epirhandbook.com/en/index.html
+- name: Joshua Stevens
+  category: Personal Website
+  custom-field: Excellent blog posts and examples of cartography.
+  href: https://www.joshuastevens.net/
+- name: Cedric Scherer
+  category: Personal Website
+  custom-field: Personal blog site with excellent posts about data visualization in
+    R, especially ggplot2.
+  href: https://www.cedricscherer.com/
+- name: Matt Strimas-Mackey
+  category: Personal Website
+  custom-field: Personal blog site with excellent posts about data analysis and visualization
+    in R and Python.
+  href: https://strimas.com/
+- name: Urban Data Palette
+  category: Personal Website
+  custom-field: Personal blog site with excellent posts about data visualization,
+    especially map creation and design.
+  href: https://urbandatapalette.com/
+- name: Luke Morris
+  category: Personal Website
+  custom-field: Personal blog with excellent posts about ggplot and Quarto.
+  href: https://lukesmorris.com/
+- name: basemaps R Package
+  category: R Package
+  custom-field: R package to download and cache spatial basemaps.
+  href: https://jakob.schwalb-willmann.de/basemaps/
+- name: DMAD QGIS Lessons
+  category: Tutorials
+  custom-field: Excellent YouTube channel with a series on QGIS, with a focus on ecology
+    and science.
+  href: https://www.youtube.com/c/DMADMarineMammalsResearchAssociation
+- name: Coding Club Tutorials
+  category: Tutorials
+  custom-field: Collection of coding, data science and statistics tutorials with examples
+    in R, Python, and JavaScript.
+  href: https://ourcodingclub.github.io/tutorials.html
+- name: Quantitative Methods for Population Dynamics in R - 2023 Edition
+  category: Tutorials
+  custom-field: Recording of population dynamics workshop, with a focus on modeling
+    in R.
+  href: https://www.youtube.com/playlist?list=PL5CiXbb9zgjSP_KeorqJIBh7iH5GkC38-
+- name: Creating Square and Hexagon Tessellation in R
+  category: Tutorials
+  custom-field: Blog post about creating fishnet and hexagon spatial grids in R.
+  href: https://urbandatapalette.com/post/2021-08-tessellation-sf/
+- name: Using Spatial Data for Biodiversity
+  category: Tutorials
+  custom-field: Free micro-course about using remote sensing and other spatial data
+    to inform nature conservation.
+  href: https://www.learningfornature.org/en/courses/using-spatial-data-for-biodiversity/
+- name: Communicating the Value of Biodiversity
+  category: Tutorials
+  custom-field: Free micro-course on communicating the importance of biodiversity.
+  href: https://www.learningfornature.org/en/courses/communicating-the-value-of-biodiversity/
+- name: Biodiversity Data Science
+  category: Tutorials
+  custom-field: YouTube channel with videos about data science for ecology and evolutionary
+    biology.
+  href: https://www.youtube.com/@biodiversitydatascience
+- name: Extract Values from a Raster in R
+  category: Tutorials
+  custom-field: NSF NEON blog post about extracting data from a raster in R.
+  href: https://www.neonscience.org/resources/learning-hub/tutorials/extract-values-rasters-r
+- name: Making Slides in Quarto with reveal.js
+  category: Tutorials
+  custom-field: Blog post about making interactive presentation slides with Quarto
+    in R.
+  href: https://meghan.rbind.io/blog/quarto-slides/
+- name: Bivariate Maps with ggplot2 and sf in R
+  category: Tutorials
+  custom-field: Blog post about making bivariate maps using the ggplot and sf packages
+    in R.
+  href: https://timogrossenbacher.ch/bivariate-maps-with-ggplot2-and-sf/
+- name: Manual of Applied Spatial Ecology
+  category: Tutorials, eBook
+  custom-field: Outstanding source of example R scripts on managing and modeling environmental
+    data.
+  href: https://ecosystems.psu.edu/research/labs/walter-lab/manual
+- name: From Data to Viz
+  category: Website
+  custom-field: Decision trees for determining which chart type best fits your data
+    and objectives.
+  href: https://www.data-to-viz.com/
+- name: Careers in Conservation Job Board List
+  category: Website
+  custom-field: Directory of conservation job boards.
+  href: https://diversityinconservationjobs.org/jobs/
+- name: 'Bivariate Choropleth Maps: A How-To Guide'
+  category: Website
+  custom-field: Blog post about creating bivariate choropleth maps, including some
+    example legends.
+  href: https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/
+- name: The R Graph Gallery
+  category: Website
+  custom-field: Gallery of hundreds of charts made in R, with a focus on the ggplot2
+    package.
+  href: https://r-graph-gallery.com/index.html
+- name: R Packages for Visualizing Spatial Data
+  category: Website
+  custom-field: Blog post detailing several R packages to visualize spatial data in
+    R.
+  href: https://nrennie.rbind.io/blog/2022-12-17-r-packages-for-visualising-spatial-data/
+- name: Hexagon and Fishnet Spatial Grids
+  category: Website
+  custom-field: Blog post about several types of tesselations, including example R
+    code.
+  href: https://strimas.com/post/hexagonal-grids/
+- name: Reference Guide for R Data Wrangling Functions
+  category: Website
+  custom-field: Reference guide for commonly used functions in data wrangling for
+    research.
+  href: https://github.com/Cghlewis/data-wrangling-functions/wiki/
+- name: Creating Heat Maps From Coordinates in R
+  category: Website
+  custom-field: Blog post about creating heat maps in R using coordinate data.
+  href: https://axelhodler.medium.com/creating-a-heat-map-from-coordinates-using-r-780db4901075
+- name: Storytelling with Data Chart Guide
+  category: Website
+  custom-field: Reference guide on what types of charts to best visualize certain
+    types of data.
+  href: https://www.storytellingwithdata.com/chart-guide
+- name: Guide to Using Colors in Data Visualizations
+  category: Website
+  custom-field: Datawrapper blog post discussing the proper use of colors when designing
+    data visualizations.
+  href: https://blog.datawrapper.de/colors-for-data-vis-style-guides/
+- name: Making Inset Maps Using ggplot2 in R
+  category: Website
+  custom-field: Blog post showing a simple way to make inset maps using the ggplot2
+    package in R.
+  href: https://blog.devgenius.io/making-publication-quality-inset-maps-in-r-using-ggplot2-85359c492ac8
+- name: Classed and Unclassed Color Scales
+  category: Website
+  custom-field: Datawrapper blog post discussing when to use classed and unclassed
+    color scales in data visualizations.
+  href: https://blog.datawrapper.de/classed-vs-unclassed-color-scales/
+- name: Choosing Interpolation Methods for Choropleth Maps
+  category: Website
+  custom-field: Datawrapper blog post discussing the different methods of legend interpolation
+    methods for choropleth maps.
+  href: https://blog.datawrapper.de/interpolation-for-color-scales-and-maps/
+- name: Introduction to Data Visualization with ggplot2 in R
+  category: Website
+  custom-field: Blog post about making data visualizations with the ggplot2 package
+    in R.
+  href: http://jdobr.es/blog/data-vis-with-ggplot/

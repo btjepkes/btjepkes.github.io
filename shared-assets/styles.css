@@ -1,18 +1,16 @@
 /* css styles */
 
-.subtitle {
+#quarto-content .subtitle {
   line-height: 1.1em;
   font-weight: 200;
-}
-
-#quarto-content .subtitle {
-  padding-top: 0 !important;
+  padding: 6px 0;
 }
 
 .abstract {
-  background: #eaeaed;
+  background: #e9eef4;
   padding: 8px 8px;
   font-size: 0.9em;
+  border-radius: 0.2em;
 }
 
 .abstract .block-title {
@@ -22,7 +20,7 @@
 
 .navbar {
   border-bottom: solid 1px lightgray;
-  --bs-navbar-padding-y: 0.1em;
+  --bs-navbar-padding-y: 0.18em;
 }
 
 .navbar-nav .dropdown-menu {
@@ -34,19 +32,20 @@
   display: block;
   width: 100%;
   height: fit-content;
-  padding: 15px 30px;
+  padding: 20px 30px 20px 30px;
   text-align: left;
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #fbfbfc;
-  text-shadow: 1px 1px rgba(15,23,42,.85);
+/*  text-shadow: 1px 1px rgba(15,23,42,.85);*/
   font-optical-sizing: auto;
   background-color: #123c69;
   background-image: url("../assets/repeatable-treeline.png");
   background-position: center 50%;
   background-size: cover;
-  font-family: "Meddon", cursive;
-  font-weight: 200;
+  font-family: "Meddon", serif;
+  font-weight: 500;
   font-style: normal;
+  text-decoration: #78c86f underline ;
   }
   
   @media (max-width: 991.98px) {
@@ -72,6 +71,13 @@
   width: 1.2em;
   height: 1.2em;
 }
+
+/* GRID ITEMS */
+
+.quarto-grid-item {
+  box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
+}
+
 
 /* FIGURES & IMAGES */
 
@@ -115,8 +121,9 @@ figure > figcaption {
 }
 
 #title-block-header.quarto-title-block.default .quarto-title-meta > * {
-  background: #eaeaed;
+  background: #e9eef4;
   padding: 4px 8px;
+  border-radius: 0.2em;
 }
 
 #title-block-header.quarto-title-block.default .quarto-title-meta-heading {
@@ -163,53 +170,41 @@ figure > figcaption {
   margin-top: 0.5em;
 }
 
+/* SIDEBAR */
+
+#quarto-margin-sidebar {
+  top: 130px !important;
+}
+
 
 /*// FOOTER*/
 
 .nav-footer {
   padding-top: 0.8em;
-  padding-bottom: 0em;
+  padding-bottom: 0.8em;
   color: white;
-  background: #00231f;
-  background-image: url("assets/noise.png");
+  background: #132e0b;
+  background-image: url("../assets/noise.png");
+}
+
+.nav-footer-center {
+  display: none;
 }
 
 .nav-footer a {
-  color: #fff;
+  color: #78c86f;
   text-decoration: none;
 }
 
-.nav-footer a:hover {
-  color: gray;
-}
-
-.cookie-consent-footer {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  font-size: 17px;
-}
-
-.nav-footer-center > p:nth-child(1) {
-    margin-bottom: 0rem;
-    }
 
 
 @media (max-width: 1000px) {
-  
-.nav-footer-center {
-  margin-bottom: 0em;
-  margin-top: 0.5em;
-}
-
-.nav-footer .nav-footer-right {
-  font-size: 1.8em;
-  padding: 2px 20px;
-}
   
 .nav-footer {
   flex-direction: column-reverse;
   align-items: center;
   padding-bottom: 2em;
+  padding-top: 2em;
   gap: 0.5em
 }
   

@@ -179,6 +179,7 @@ Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my prof
 #| echo: false
 #| warning: false
 #| column: screen-inset
+#| eval: false
 library(leaflet)
 library(leaflet.extras)
 library(sf)
@@ -233,7 +234,7 @@ leaflet(sites, options = leafletOptions(minZoom = 5, maxZoom = 8, scrollWheelZoo
 ::: {.index-latest-container .column-body-outset}
 
 ::: {.index-latest-column }
-
+### Latest Posts
 ::: {#site-listings-2  .index-latest-posts }
 :::
 
@@ -241,6 +242,8 @@ leaflet(sites, options = leafletOptions(minZoom = 5, maxZoom = 8, scrollWheelZoo
   
   
 ::: {.index-latest-column }
+
+### Latest Projects
 
 ::: {#site-listings-3  .index-latest-gallery }
 :::

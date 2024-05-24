@@ -1,0 +1,20 @@
+- name: First Item
+  href: https://www.quarto.org
+  custom-field: A custom value
+  category: Tutorials
+- name: Second Item 2
+  href: https://www.rstudio.org
+  custom-field: A second custom value
+  category: Tutorials
+- name: Second Item 3
+  href: https://www.rstudio.org
+  custom-field: A second custom value
+  category: Tutorials
+- name: Second Item 4
+  href: https://www.rstudio.org
+  custom-field: A second custom value
+  category: Book
+- name: Second Item 5
+  href: https://www.rstudio.org
+  custom-field: A second custom value
+  category: Book

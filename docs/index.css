@@ -1,3 +1,5 @@
+
+
 .index-map {
   margin: 2em auto 0 auto;
   min-width: 100%;
@@ -47,27 +49,6 @@
   margin-bottom: 0;
 }
 
-/*.page-columns .column-body-outset table {
-  background: transparent;
-}*/
-
-.index-latest-posts::before{
-  content: "My Latest Posts";
-  font-size: 1.5em;
-  color: #252c3d;
-  font-family: "Exo 2",sans-serif;
-  line-height: 2.5;
-  text-align: left;
-}
-
-.index-latest-gallery::before{
-  content: "My Latest Projects";
-  font-size: 1.5em;
-  color: #252c3d;
-  font-family: "Exo 2",sans-serif;
-  line-height: 2.5;
-  text-align: left;
-}
 
 .index-latest-container {
   display: flex;

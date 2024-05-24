@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  resources: "*.xlsx"
 
 website:
   site-url: https://btjepkes.github.io
@@ -17,11 +18,11 @@ website:
   twitter-card:
     creator: "@BTjepkes"
     title: "Portfolio | B.W. Tjepkes"
-  # cookie-consent:
-  #   type: implied
-  #   style: interstitial
-  #   palette: light
-  #   prefs-text: "User Cookies 🍪 Preferences"
+  cookie-consent:
+    type: implied
+    style: interstitial
+    palette: light
+    # prefs-text: "User Cookies 🍪 Preferences"
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
@@ -44,21 +45,21 @@ website:
           text: CV
         - href: resources/index.qmd
           text: Resources          
-      - text: "Links"
-        menu:
-        - text: "{{< fa brands linkedin size=1x >}} LinkedIn Profile"
-          href: https://www.linkedin.com/in/benjamintjepkes/
-          aria-label: LinkedIn Profile
-        - text: "{{< fa brands github size=1x >}} GitHub Repos"
-          href: https://github.com/btjepkes
-          aria-label: GitHub Profile
-        - text: "{{< fa brands twitter size=1x >}} Twitter Profile"
-          href: https://twitter.com/BTjepkes
-          aria-label: Twitter Profile
-        - text: "{{< fa brands researchgate size=1x >}} ResearchGate"
-          href: https://www.researchgate.net/profile/Benjamin-Tjepkes
-        - text: "{{< fa brands orcid size=1x >}} ORCiD Account"
-          href: https://orcid.org/0009-0002-5524-2675
+      # - text: "Links"
+      #   menu:
+      #   - text: "{{< fa brands linkedin size=1x >}} LinkedIn Profile"
+      #     href: https://www.linkedin.com/in/benjamintjepkes/
+      #     aria-label: LinkedIn Profile
+      #   - text: "{{< fa brands github size=1x >}} GitHub Repos"
+      #     href: https://github.com/btjepkes
+      #     aria-label: GitHub Profile
+      #   - text: "{{< fa brands twitter size=1x >}} Twitter Profile"
+      #     href: https://twitter.com/BTjepkes
+      #     aria-label: Twitter Profile
+      #   - text: "{{< fa brands researchgate size=1x >}} ResearchGate"
+      #     href: https://www.researchgate.net/profile/Benjamin-Tjepkes
+      #   - text: "{{< fa brands orcid size=1x >}} ORCiD Account"
+      #     href: https://orcid.org/0009-0002-5524-2675
           
     tools:
       - icon: linkedin
@@ -70,6 +71,12 @@ website:
       - icon: twitter-x
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
+      - icon: plus-square-dotted
+        menu:
+          - text: ResearchGate
+            href: https://www.researchgate.net/profile/Benjamin-Tjepkes
+          - text: ORCiD Account
+            href: https://orcid.org/0009-0002-5524-2675
   # sidebar: 
   #   background: "#e6e5e0"
   #   style: floating
@@ -94,23 +101,23 @@ website:
   #       href: resources/index.qmd
   #       text: Helpful Resources
   page-footer:
-    center: >-
-      Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
-    left:
-      - text: "&copy; Copyright 2021-2024 | B.W. Tjepkes"
-    right:
-      - icon: linkedin
-        href: https://www.linkedin.com/in/benjamintjepkes/
-        aria-label: LinkedIn Profile
-      - icon: github
-        href: https://github.com/btjepkes
-        aria-label: GitHub Profile
-      - icon: twitter-x
-        href: https://twitter.com/BTjepkes
-        aria-label: Twitter Profile
-      - icon: house-fill
-        href: index.html
-        aria-label: home page
+    right: "[CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) | [Cookie Preferences]{#open_preferences_center} | Made with [Quarto](https://quarto.org/)"
+    # center: >-
+    #   Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
+    left: "&copy; Copyright 2021-2024 --- Benjamin W. Tjepkes"
+    # right:
+    #   - icon: linkedin
+    #     href: https://www.linkedin.com/in/benjamintjepkes/
+    #     aria-label: LinkedIn Profile
+    #   - icon: github
+    #     href: https://github.com/btjepkes
+    #     aria-label: GitHub Profile
+    #   - icon: twitter-x
+    #     href: https://twitter.com/BTjepkes
+    #     aria-label: Twitter Profile
+    #   - icon: house-fill
+    #     href: index.html
+    #     aria-label: home page
 execute:
   freeze: true
 format:
@@ -133,7 +140,7 @@ format:
     # title-block-banner: "#dee2e6"
     # title-block-categories: true
     # title-block-style: default
-    anchor-sections: false
+    anchor-sections: true
     highlight-style: github
     link-external-newwindow: true
     code-link: true

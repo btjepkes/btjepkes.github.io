@@ -1,9 +1,9 @@
 ---
 title: "How to Become a Contemporary Naturalist"
+subtitle: Understanding the environment is the first step to appreciating it.
 date: "10/18/2022"
 date-modified: today
-#abstract: Understanding the environment is the first step to appreciating it.
-description: This blog post outlines some simple and cost-effective ways to help you start your journey as a contemporary naturalist. Through these tips, you will be able to gain a deeper appreciation and understanding of nature.
+abstract: This blog post outlines some simple and cost-effective ways to help you start your journey as a contemporary naturalist. Through these tips, you will be able to gain a deeper appreciation and understanding of nature.
 keywords: The Conservation Companion
 categories:
   - Nature
@@ -25,15 +25,16 @@ Contemporary naturalists are individuals who are interested in exploring and stu
 
 It is easier than ever to get involved in conservation today. International travel is not required to make an impact worldwide. There is also plenty to be done right in your community.  You don’t need a fancy college degree to discuss ecological topics. Nor do you need to be independently wealthy, as much can be done for free, at very little cost, or for just a snippet of your time.
 
+
 ## Getting Started
 
-With a bit of guidance, you can continue your path to becoming a contemporary naturalist. The following action items will help you along this journey as you learn about and connect more with nature.
+With a bit of guidance and a little time, you can be well on your way to becoming a contemporary naturalist. The action items below will help you along this journey as you learn about and connect more with nature.
 
 ### Learn common bird calls around your neighborhood.
 
 Many birds enjoy making their presence known through song. This allows us to identify individuals down to the species without laying eyes on them. Common birds, like the American robin (Turdus migratorius), can usually be heard readily in most yards. Why not just learn how to identify them by sight? Well, that’s certainly something to work on too, but oftentimes you will only be able to hear the birds and not see them. This is especially true for birds that spend most of their time in the tree canopy.
 
-![Along with a keen ear, a good set of binoculars are an excellent compliment when birding.](https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg){.column-body-outset}
+![Along with a keen ear, a good set of binoculars are an excellent compliment when birding.](https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg)
 
 There are countless ways to begin learning the different sounds and songs of these species. One of my favorite ways is by playing games on Larkwire, an app for mastering bird sounds and visual identification. There is a whole set of common bird songs you can access for free, while more advanced ones can be purchased as add-ons inside the app. The popular eBird mobile app can also help you identify birds by simply recording their songs. The app will automatically search the eBird sound database and return suggested IDs. I am also a huge fan of surfing YouTube to find videos on bird identification.
 
@@ -47,7 +48,7 @@ Exploring your watershed both on the ground and via maps can give you a complete
 
 Whether you are ordering pizza or trying to identify an unknown plant, there is an app out there for you. Most popular apps are available on both iOS and Android, so accessing them should not be much trouble. Some even have the ability to download content for offline use, so you can still use the app while away from cell service.
 
-![Many apps provide ways of capturing data offline, then uploading once connected again.](https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1034&q=80){.column-body-outset}
+![Many apps provide ways of capturing data offline, then uploading once connected again.](https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1034&q=80)
 
 The following apps are some of my favorites when it comes to recording nature observations and getting help with an ID.
 

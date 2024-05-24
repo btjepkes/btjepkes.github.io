@@ -1,6 +1,7 @@
 ---
 title: "Helpful Resources"
-description: "This page contains a repository of technical tutorials, personal blogs, ebooks, data sources, inspirational works and other websites that I find myself consistently referring back to for my technical projects."
+subtitle: From coding and stats, to making maps.
+abstract: "This page contains a repository of technical tutorials, personal blogs, ebooks, data sources, inspirational works and other websites that I find myself consistently referring back to for my technical projects."
 date-modified: today
 date: 2021-01-01
 keywords: resources, coding
@@ -9,13 +10,37 @@ image-alt: Image-of-pine-trees-on-blue-background.
 execute:
   echo: false
   warning: false
+listing:
+  template: resources.ejs
+  contents: test.yml
+  page-size: 100
 ---
 
-<!-- ![](../assets/img-world-overview.png){.cover-image} -->
+```{r}
+#| echo: false
+#| output: false
+items <- readr::read_csv("./resources.csv") |> 
+  dplyr::select(Title, Type, Description, Link) |> 
+  dplyr::rename(name = Title,
+                category = Type,
+                'custom-field' = Description,
+                href = Link)
 
-## Resource Database
+items_list <- apply(items, 1, function(row) as.list(row))
 
-Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions.
+items_list <- lapply(items_list, function(x) {
+  x <- lapply(x, as.character)  # Ensure all values are character strings
+  x
+})
+
+yaml::write_yaml(items_list, "test.yml")
+
+```
+
+
+<!-- ## Resource Database -->
+
+<!-- Use the filter/search options below to explore my collated resources. Items have been loosely categorized by topic and type of content. Please reach out with any suggestions, edits, or questions. -->
 
 ```{r}
 # library(reactable)
@@ -45,42 +70,42 @@ Use the filter/search options below to explore my collated resources. Items have
 ```
 
 ```{r}
-library(reactable)
-library(tidyverse)
-library(htmltools)
-
-data <- read.csv("resources.csv") %>% 
-  select(Title:Link) %>% 
-  arrange(Type)
-
-reactable(
-  data,
-  wrap = TRUE,
-  resizable = TRUE,
-  searchable = TRUE,
-  striped = TRUE,
-  defaultPageSize = 40,
-  paginationType = "simple",
-  showPageInfo = FALSE,
-  minRows = 1,
-  elementId = "tbl",
-  columns = list(
-    Title = colDef(
-      cell = function(value, index) {
-        Description <- data$Description[index]
-        Description <- if (!is.na(Description)) Description else "Unknown"
-        Category <- data$Category[index]
-        div(
-          div(style = "font-weight: 600", value),
-          div(style = "font-size: 0.75rem", Description)
-        )
-      }, width = 500
-    ),
-    Description = colDef(show = FALSE),
-    Category = colDef(show = TRUE),
-    Link = colDef(cell = function(value) {tags$a(href = value, target = "_blank", "Link")})
-  )
-)
+# library(reactable)
+# library(tidyverse)
+# library(htmltools)
+# 
+# data <- read.csv("resources.csv") %>% 
+#   select(Title:Link) %>% 
+#   arrange(Type)
+# 
+# reactable(
+#   data,
+#   wrap = TRUE,
+#   resizable = TRUE,
+#   searchable = TRUE,
+#   striped = TRUE,
+#   defaultPageSize = 40,
+#   paginationType = "simple",
+#   showPageInfo = FALSE,
+#   minRows = 1,
+#   elementId = "tbl",
+#   columns = list(
+#     Title = colDef(
+#       cell = function(value, index) {
+#         Description <- data$Description[index]
+#         Description <- if (!is.na(Description)) Description else "Unknown"
+#         Category <- data$Category[index]
+#         div(
+#           div(style = "font-weight: 600", value),
+#           div(style = "font-size: 0.75rem", Description)
+#         )
+#       }, width = 500
+#     ),
+#     Description = colDef(show = FALSE),
+#     Category = colDef(show = TRUE),
+#     Link = colDef(cell = function(value) {tags$a(href = value, target = "_blank", "Link")})
+#   )
+# )
 ```
 
 <!-- ## My Favorite Sources -->

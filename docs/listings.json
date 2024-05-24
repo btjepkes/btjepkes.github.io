@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/resources/index.html",
+    "items": []
+  },
+  {
     "listing": "/research/index.html",
     "items": [
       "/research/bald-eagle-nest-site-selection/index.html",
