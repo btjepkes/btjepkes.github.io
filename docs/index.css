@@ -1,7 +1,10 @@
-
+#index-carousel {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
 
 .index-map {
-  margin: 2em auto 0 auto;
+  margin: 2em auto 1em auto;
   min-width: 100%;
   
   h2 {
@@ -60,11 +63,16 @@
 
 .index-latest-column {
   flex-basis: calc(50% - 10px);
-  background: #f9f7f6;
+  background: #e9eef4;
   border-radius: 0.5em;
   
   h3 {
   text-align: center;
+  margin-top: 0.5em;
+}
+
+table.quarto-listing-table a {
+  font-weight: 600;
 }
 }
 

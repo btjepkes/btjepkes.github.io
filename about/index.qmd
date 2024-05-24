@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-subtitle: "Learn about my career path and professional interests."
+subtitle: "My professional path and interests."
 image: ../assets/bg-pines-about-blue-sm.png
 image-alt: "Cover image"
 keywords: about, about me

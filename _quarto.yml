@@ -31,20 +31,18 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: about/index.qmd
+        text: About
+      - href: curriculum-vitae/index.qmd
+        text: CV        
       - href: posts/index.qmd
         text: Posts
       - href: gallery/index.qmd
         text: Gallery
       - href: research/index.qmd
         text: Research        
-      - text: "More"
-        menu:
-        - href: about/index.qmd
-          text: About
-        - href: curriculum-vitae/index.qmd
-          text: CV
-        - href: resources/index.qmd
-          text: Resources          
+      - href: resources/index.qmd
+        text: Resources          
       # - text: "Links"
       #   menu:
       #   - text: "{{< fa brands linkedin size=1x >}} LinkedIn Profile"
@@ -71,12 +69,12 @@ website:
       - icon: twitter-x
         href: https://twitter.com/BTjepkes
         aria-label: Twitter Profile
-      - icon: plus-square-dotted
-        menu:
-          - text: ResearchGate
-            href: https://www.researchgate.net/profile/Benjamin-Tjepkes
-          - text: ORCiD Account
-            href: https://orcid.org/0009-0002-5524-2675
+      # - icon: plus-square-dotted
+      #   menu:
+      #     - text: ResearchGate
+      #       href: https://www.researchgate.net/profile/Benjamin-Tjepkes
+      #     - text: ORCiD Account
+      #       href: https://orcid.org/0009-0002-5524-2675
   # sidebar: 
   #   background: "#e6e5e0"
   #   style: floating

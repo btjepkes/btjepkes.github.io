@@ -42,8 +42,8 @@
   background-image: url("../assets/repeatable-treeline.png");
   background-position: center 50%;
   background-size: cover;
-  font-family: "Meddon", serif;
-  font-weight: 500;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
   font-style: normal;
   }
   
@@ -54,6 +54,17 @@
     .navbar #quarto-search {
       display: none;
     }
+    
+          .navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+      flex-direction: row-reverse;
+      }
+      .navbar .navbar-toggler {
+      margin-right: 0;
+      }
+      
+      .navbar-collapse {
+        max-width: fit-content;
+      }
     }
 
 .container,
@@ -64,6 +75,10 @@
 .container-md,
 .container-sm {
   --bs-gutter-x: 0 !important;
+}
+
+.navbar-nav {
+  --bs-nav-link-padding-y: 0;
 }
 
 .navbar-toggler-icon {
@@ -181,19 +196,16 @@ figure > figcaption {
 .nav-footer {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
-  color: white;
-  background: #132e0b;
-  background-image: url("../assets/noise.png");
 }
 
 .nav-footer-center {
   display: none;
 }
 
-.nav-footer a {
+/*.nav-footer a {
   color: #78c86f;
   text-decoration: none;
-}
+}*/
 
 
 

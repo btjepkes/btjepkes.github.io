@@ -24,9 +24,9 @@ listing:
       - title: "Abbreviated Resume"
         subtitle: "1-Page Abbreviated Resume"
         path: Tjepkes_Resume_20240113_Web.pdf
-    type: grid
-    grid-columns: 3
-    grid-item-align: center
+    type: table
+    filter-ui: false
+    sort-ui: false
     fields:
       - title
       - subtitle
