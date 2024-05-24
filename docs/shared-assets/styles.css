@@ -32,7 +32,7 @@
   display: block;
   width: 100%;
   height: fit-content;
-  padding: 20px 30px 20px 30px;
+  padding: 16px 30px;
   text-align: left;
   font-size: 1.4em;
   color: #fbfbfc;
@@ -45,7 +45,6 @@
   font-family: "Meddon", serif;
   font-weight: 500;
   font-style: normal;
-  text-decoration: #78c86f underline ;
   }
   
   @media (max-width: 991.98px) {
