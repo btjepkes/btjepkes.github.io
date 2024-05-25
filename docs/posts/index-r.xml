@@ -27,6 +27,7 @@
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p><a href="img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="quarto-cover-image img-fluid"></a></p>
 <p>I recently wrapped up my first spring semester as a graduate student, making my list of college courses taken surpass 70! As the bags under my eyes can tell you, it has been a long road to this point, with much still left to go. I wanted to take some time to look back and reflect on the courses I have experienced in my higher education journey thus far.</p>
 <section id="archiving-course-descriptions" class="level3">
 <h3 class="anchored" data-anchor-id="archiving-course-descriptions">Archiving Course Descriptions</h3>
@@ -358,7 +359,7 @@ font-style: inherit;">dev.off</span>()</span></code></pre></div>
 <h3 class="anchored" data-anchor-id="data-visualization">Data Visualization</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./img-word-cloud.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="The resulting word cloud from my course descriptions."><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
+<p><a href="./img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="The resulting word cloud from my course descriptions."><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
 <figcaption>The resulting word cloud from my course descriptions.</figcaption>
 </figure>
 </div>

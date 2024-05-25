@@ -146,16 +146,14 @@ cookieconsent.run({
         <li class="nav-item">
           <a class="nav-link" href="../../map/index.html">Map</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../../resources/index.html">Resources</a>
-        </li>
       </ul>
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
    <form class="d-flex">
-      <a href="../../contact.html" class="btn btn-success" style="padding: 0 8px; font-size: 14px;">Let's Connect</a>
+      <a href="../../contact.html" class="btn btn-success" style="margin-right: 8px; padding: 0 8px; font-size: 14px;">Connect</a>
+      <a href="../../resources/index.html" class="btn btn-success" style="padding: 0 8px; font-size: 14px;">Resources</a>
     </form>
   </div>
 </nav> 
@@ -274,7 +272,7 @@ cookieconsent.run({
 <p>Here is another version of the above map, this time with a normalized based on total population, showing post-secondary schools for every 100,000 people.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-college-map-v2.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Credit: Benjamin Tjepkes"><img src="img-college-map-v2.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-college-map-v2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Credit: Benjamin Tjepkes"><img src="img-college-map-v2.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -709,7 +707,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

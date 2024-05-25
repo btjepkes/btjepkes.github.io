@@ -17,6 +17,8 @@ draft: false
 
 ## Introduction
 
+![](img-word-cloud.png){.quarto-cover-image}
+
 I recently wrapped up my first spring semester as a graduate student, making my list of college courses taken surpass 70! As the bags under my eyes can tell you, it has been a long road to this point, with much still left to go. I wanted to take some time to look back and reflect on the courses I have experienced in my higher education journey thus far.
 
 ### Archiving Course Descriptions

@@ -158,6 +158,13 @@ h2:first-of-type {
 
 /* FIGURES & IMAGES */
 
+.quarto-cover-image {
+  max-width: 30%;
+  float: right;
+  margin-left: 35px !important;
+  margin-bottom: 6px !important;
+}
+
 .quarto-figure > figure {
     margin-top: 0.5em;
     margin-bottom: 0em;
@@ -243,7 +250,7 @@ figure > figcaption {
 /* SIDEBAR */
 
 #quarto-margin-sidebar {
-  top: 130px !important;
+  top: 100px !important;
 }
 
 

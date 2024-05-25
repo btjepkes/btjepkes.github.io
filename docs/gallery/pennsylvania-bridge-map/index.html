@@ -146,16 +146,14 @@ cookieconsent.run({
         <li class="nav-item">
           <a class="nav-link" href="../../map/index.html">Map</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../../resources/index.html">Resources</a>
-        </li>
       </ul>
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
    <form class="d-flex">
-      <a href="../../contact.html" class="btn btn-success" style="padding: 0 8px; font-size: 14px;">Let's Connect</a>
+      <a href="../../contact.html" class="btn btn-success" style="margin-right: 8px; padding: 0 8px; font-size: 14px;">Connect</a>
+      <a href="../../resources/index.html" class="btn btn-success" style="padding: 0 8px; font-size: 14px;">Resources</a>
     </form>
   </div>
 </nav> 
@@ -250,7 +248,7 @@ cookieconsent.run({
 <p>This map was created for <strong>Day 15</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “Open Street Map” for the main subject. Map creation was performed in R/Studio using the<code>ggplot</code> package. OpenStreeMap data for both bridges and largest cities were accessed via the <code>osmdata</code> package. The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-PA-bridge-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Final map of OSM bridges of PA."><img src="img-PA-bridge-map.png" class="img-fluid figure-img" alt="Final map of OSM bridges of PA."></a></p>
+<p><a href="img-PA-bridge-map.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Final map of OSM bridges of PA."><img src="img-PA-bridge-map.png" class="img-fluid figure-img" alt="Final map of OSM bridges of PA."></a></p>
 <figcaption>Final map of OSM bridges of PA.</figcaption>
 </figure>
 </div>
@@ -684,7 +682,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","loop":false,"closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
