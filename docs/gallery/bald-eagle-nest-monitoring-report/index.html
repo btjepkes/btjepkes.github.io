@@ -151,8 +151,9 @@ cookieconsent.run({
       <span class="navbar-toggler-icon"></span>
     </button>
    <form class="d-flex">
+      <a href="../../posts/index.html" class="btn btn-success" style="margin-right: 8px; padding: 0 8px; font-size: 14px;">Posts</a>
+      <a href="../../gallery/index.html" class="btn btn-success" style="margin-right: 8px; padding: 0 8px; font-size: 14px;">Gallery</a>
       <a href="../../contact.html" class="btn btn-success" style="margin-right: 8px; padding: 0 8px; font-size: 14px;">Connect</a>
-      <a href="../../resources/index.html" class="btn btn-success" style="padding: 0 8px; font-size: 14px;">Resources</a>
     </form>
   </div>
 </nav> 
@@ -682,7 +683,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

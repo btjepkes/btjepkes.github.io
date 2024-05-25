@@ -147,8 +147,9 @@ cookieconsent.run({
       <span class="navbar-toggler-icon"></span>
     </button>
    <form class="d-flex">
+      <a href="../../posts/index.html" class="btn btn-success" style="margin-right: 8px; padding: 0 8px; font-size: 14px;">Posts</a>
+      <a href="../../gallery/index.html" class="btn btn-success" style="margin-right: 8px; padding: 0 8px; font-size: 14px;">Gallery</a>
       <a href="../../contact.html" class="btn btn-success" style="margin-right: 8px; padding: 0 8px; font-size: 14px;">Connect</a>
-      <a href="../../resources/index.html" class="btn btn-success" style="padding: 0 8px; font-size: 14px;">Resources</a>
     </form>
   </div>
 </nav> 
@@ -256,7 +257,7 @@ cookieconsent.run({
 <p>Here is the final poster that I presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium, earned <strong>highest honors</strong>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-eagle-poster.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-eagle-poster.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-eagle-poster.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-eagle-poster.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -691,7 +692,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
