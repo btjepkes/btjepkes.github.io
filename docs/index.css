@@ -3,19 +3,6 @@
   margin-bottom: 20px;
 }
 
-.index-map {
-  margin: 2em auto 1em auto;
-  min-width: 100%;
-  
-  h2 {
-  text-align: center !important;
-}
-}
-
-.leaflet-control-attribution {
-  display: none;
-  }
-
 
 #title-block-header {
   display: none !important;

@@ -17,54 +17,57 @@
   margin-top: 0 !important;
 }
 
+.menu-navbar {
+  background-image: revert !important;
+  padding: 2px 8px;
+  
+  .container-fluid {
+    flex-direction: row-reverse;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 8px;
+  }
+}
+
 
 .navbar {
   border-bottom: solid 1px lightgray;
-  --bs-navbar-padding-y: 0.18em;
+  --bs-navbar-padding-y: 0.5em;
+  background-color: #123c69;
+  background-image: url("../assets/repeatable-treeline.png");
+  background-position: center 50%;
+  background-size: cover;
+  
+  i:not(:hover) {
+      color: #fbfbfc;
+    }
+
+ #quarto-search {
+    margin-left: 1rem;
+  }
+  
+  }
+
+.navbar-brand {
+  font-size: 1.4em;
+  color: #fbfbfc;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-optical-sizing: auto;
 }
+
 
 .navbar-nav .dropdown-menu {
   min-width: fit-content;
 }
 
-#quarto-header::before {
-  content: "Benjamin W. Tjepkes";
-  display: block;
-  width: 100%;
-  height: fit-content;
-  padding: 16px 30px;
-  text-align: left;
-  font-size: 1.4em;
-  color: #fbfbfc;
-/*  text-shadow: 1px 1px rgba(15,23,42,.85);*/
-  font-optical-sizing: auto;
-  background-color: #123c69;
-  background-image: url("../assets/repeatable-treeline.png");
-  background-position: center 50%;
-  background-size: cover;
-  font-family: "Roboto Slab", serif;
-  font-weight: 400;
-  font-style: normal;
-  }
-  
+
   @media (max-width: 991.98px) {
-    #quarto-header::before {
-      text-align: center;}
       
     .navbar #quarto-search {
       display: none;
     }
-    
-          .navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
-      flex-direction: row-reverse;
-      }
-      .navbar .navbar-toggler {
-      margin-right: 0;
-      }
-      
-      .navbar-collapse {
-        max-width: fit-content;
-      }
     }
 
 .container,
@@ -93,13 +96,24 @@
 }
 
 
-/* FIGURES & IMAGES */
+/* MAPS */
+
+.my-map {
+  margin: 2em auto 0em auto;
+  min-width: 100%;
+  }
+
+.leaflet-control-attribution {
+  display: none;
+  }
+
 
 .leaflet-container {
   border: solid 2px lightgray;
   border-radius: 0.5em;
 }
 
+/* FIGURES & IMAGES */
 
 .quarto-figure > figure {
     margin-top: 0.5em;
@@ -155,7 +169,6 @@ figure > figcaption {
   padding-top: 0.8em;
 }
 
-
 .quarto-listing-filter {
   margin-bottom: 2em;
   width: 49.5%;
@@ -198,15 +211,14 @@ figure > figcaption {
   padding-bottom: 0.8em;
 }
 
-.nav-footer-center {
-  display: none;
+.nav-footer a {
+  color: #1f883d;
+  text-decoration: none;
 }
 
-/*.nav-footer a {
-  color: #78c86f;
-  text-decoration: none;
-}*/
-
+.nav-footer-center {
+  min-height: fit-content;
+}
 
 
 @media (max-width: 1000px) {
@@ -217,6 +229,10 @@ figure > figcaption {
   padding-bottom: 2em;
   padding-top: 2em;
   gap: 0.5em
+}
+
+.nav-footer-center {
+  margin-top: 0 !important;
 }
   
 }

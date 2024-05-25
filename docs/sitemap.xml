@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://btjepkes.github.io/resources/index.html</loc>
-    <lastmod>2024-05-24T16:47:13.525Z</lastmod>
+    <lastmod>2024-05-24T22:13:14.437Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/research/ruffed-grouse-drumming-log-selection/index.html</loc>
@@ -35,6 +35,10 @@
   <url>
     <loc>https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/index.html</loc>
     <lastmod>2024-05-11T02:31:56.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/map/index.html</loc>
+    <lastmod>2024-05-25T16:58:05.444Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/gallery/work-commitments-calendar/index.html</loc>
@@ -78,7 +82,7 @@
   </url>
   <url>
     <loc>https://btjepkes.github.io/gallery/mdc-furbearer-program-annual-report-2021/index.html</loc>
-    <lastmod>2024-01-31T04:08:39.719Z</lastmod>
+    <lastmod>2024-05-25T15:55:51.771Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/gallery/hyaenidae-range-map/index.html</loc>
@@ -105,12 +109,16 @@
     <lastmod>2024-01-12T15:10:33.220Z</lastmod>
   </url>
   <url>
-    <loc>https://btjepkes.github.io/assets/index.html</loc>
-    <lastmod>2024-05-10T21:27:32.805Z</lastmod>
+    <loc>https://btjepkes.github.io/contact.html</loc>
+    <lastmod>2024-05-25T17:04:24.104Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/about/index.html</loc>
-    <lastmod>2024-05-24T22:02:48.935Z</lastmod>
+    <lastmod>2024-05-24T22:12:54.216Z</lastmod>
+  </url>
+  <url>
+    <loc>https://btjepkes.github.io/assets/index.html</loc>
+    <lastmod>2024-05-10T21:27:32.805Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/curriculum-vitae/index.html</loc>
@@ -178,7 +186,7 @@
   </url>
   <url>
     <loc>https://btjepkes.github.io/index.html</loc>
-    <lastmod>2024-05-24T21:54:42.697Z</lastmod>
+    <lastmod>2024-05-25T15:57:24.084Z</lastmod>
   </url>
   <url>
     <loc>https://btjepkes.github.io/posts/30-day-map-challenge-2023/index.html</loc>

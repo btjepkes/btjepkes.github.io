@@ -392,25 +392,39 @@
     "text": "Alternative Result\n\n\n\nMap Credit: Ben Tjepkes\n\n\n\n\n\nMap Credit: Ben Tjepkes"
   },
   {
-    "objectID": "assets/index.html",
-    "href": "assets/index.html",
-    "title": "Assets",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Links & Contact",
     "section": "",
-    "text": "bg-green-rivers.jpg\n\n\n\n\n\n\nbg-green-rivers.jpg"
+    "text": "If you would like to follow my work, I have active accounts on these platforms:"
+  },
+  {
+    "objectID": "contact.html#my-links",
+    "href": "contact.html#my-links",
+    "title": "Links & Contact",
+    "section": "",
+    "text": "If you would like to follow my work, I have active accounts on these platforms:"
+  },
+  {
+    "objectID": "contact.html#connecting-with-me",
+    "href": "contact.html#connecting-with-me",
+    "title": "Links & Contact",
+    "section": "Connecting with Me",
+    "text": "Connecting with Me\nInterested in working on a collaborative project together, wondering if I still have the code for a past project, or just want to connect? Please contact me via the below form or through my LinkedIn profile with any inquiries."
   },
   {
     "objectID": "about/index.html",
     "href": "about/index.html",
     "title": "About Me",
     "section": "",
-    "text": "Hello! My name is Benjamin (Ben) Tjepkes and I am a wildlife ecologist and geographer with a passion for conservation data science. I am currently a graduate student at the University of Missouri studying geographic information systems (GIS) in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives species interactions, movement, and resource availability across the landscape."
+    "text": "Hello! My name is Benjamin (Ben) Tjepkes and I am a wildlife ecologist and geographer with a passion for conservation data science. I am currently a graduate student at the University of Missouri studying geographic information systems (GIS) in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives species interactions, wildlife movement, and resource availability across the landscape."
   },
   {
     "objectID": "about/index.html#overview",
     "href": "about/index.html#overview",
     "title": "About Me",
     "section": "",
-    "text": "Hello! My name is Benjamin (Ben) Tjepkes and I am a wildlife ecologist and geographer with a passion for conservation data science. I am currently a graduate student at the University of Missouri studying geographic information systems (GIS) in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives species interactions, movement, and resource availability across the landscape."
+    "text": "Hello! My name is Benjamin (Ben) Tjepkes and I am a wildlife ecologist and geographer with a passion for conservation data science. I am currently a graduate student at the University of Missouri studying geographic information systems (GIS) in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives species interactions, wildlife movement, and resource availability across the landscape."
   },
   {
     "objectID": "about/index.html#my-pathway",
@@ -418,6 +432,13 @@
     "title": "About Me",
     "section": "My Pathway",
     "text": "My Pathway\nMy professional career is based in wildlife ecology and management, which has been my home discipline for over seven years. Throughout my career, I have undertaken numerous research and management projects that centered on the study and conservation of wildlife and their habitats. My passion for this field was ignited during my undergraduate studies at the University of Wisconsin-Stevens Point, where I earned my Bachelor of Science degree. Additionally, I completed several internships, independent projects, and technician experiences during summers and part-time throughout the academic year. After earning my degree, I pursued several wildlife research and management positions that opened my eyes to my true passion of conservation work.\n\n\n\nMe with one of our research black bears during a den check.\n\n\nAs I delved further into my wildlife career, I came to the realization that location served as a crucial factor linking the majority of ecological data. This insight sparked my interest in spatial ecology and geospatial technologies, which captivated me with their intriguing possibilities. I became deeply fascinated by the study of spatial relationships between organisms and their environment, and by the use of cutting-edge tools to map and analyze these relationships. Driven by my growing fascination with geospatial technologies, I sought out opportunities to learn and apply Geographic Information System (GIS) tools in my conservation work. I enrolled in specialized courses and workshops to acquire proficiency in GIS software and its application in conservation planning, landscape ecology, and wildlife management.\n\n\n\nSometimes a wildlife biologist needs to handle the wildlife, all with the proper permits, training, and equipment of course.\n\n\nWith a fervent desire to deepen my knowledge of the fundamental principles of geography, I am thrilled to announce my pursuit of a Master’s degree in Geography at the University of Missouri. This exciting opportunity presents me with the chance to delve into the underlying spatial theory that informs the cutting-edge techniques that I have employed in my ecological studies. Through my Master’s program, I have the opportunity to study a broad range of topics spanning physical, human, and environmental geography. My goal is to synthesize my practical experience in wildlife ecology with the theoretical concepts gained in my Master’s program.\n\n\n\nMe with one of our research black bears during a den check.\nSometimes a wildlife biologist needs to handle the wildlife, all with the proper permits, training, and equipment of course."
+  },
+  {
+    "objectID": "assets/index.html",
+    "href": "assets/index.html",
+    "title": "Assets",
+    "section": "",
+    "text": "bg-green-rivers.jpg\n\n\n\n\n\n\nbg-green-rivers.jpg"
   },
   {
     "objectID": "curriculum-vitae/index.html",
@@ -662,7 +683,7 @@
     "href": "index.html",
     "title": "Homepage",
     "section": "",
-    "text": "title\n\n\n        \n            ‹\n        \n        \n            ›\n        \n        \n            \n                \n                    Wildlife Ecology\n                \n            \n            \n                \n                    Remote Sensing\n                 \n            \n            \n                \n                    Conservation GIS\n                  \n            \n            \n                \n                    Environmental Data Science\n                  \n            \n            \n                \n                    Biogeography\n                  \n            \n            \n                \n                    Climate Science\n                  \n            \n        \n    \n  \n  \n\n\n\n\nA dedicated wildlife ecologist and geospatial scientist…\nHello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography. Please have a look around and thank you for stopping by!\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand my professional pathway\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my professional experience\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor coding, GIS, and beyond\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nand other organized ramblings\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof maps, talks, and more\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin spatial ecology and GIS\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLatest Posts\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\nMining Text From Course Descriptions\n\n\nIn this post, I describe a recent workflow that I ran on my college course descriptions to see…\n\n\n\n\nConverting PowerPoints to Reveal.js Format\n\n\nIn this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs…\n\n\n\n\nCrafting a GIS Workshop Site With Quarto\n\n\nThis post provides an overview of a recent workshop site I made using Quarto and Github Pages…\n\n\n\n\nCreate Annotated Bibliographies with Quarto\n\n\nIn this post, I provide a semi-automated workflow for generating an annotated bibliography in…\n\n\n\n\n\nNo matching items\n\n\nLatest Projects\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\nBird Observation Map Series in ArcPy\n\n\nThis was my final project for an advanced GIS course in graduate school and explores the spatial…\n\n\n\n\nMaster’s Thesis Proposal Presentation\n\n\nThis presentation covers my proposed master’s thesis project, including the background literature…\n\n\n\n\nVertebrate Morphometrics Graphic\n\n\nThis graphic summarizes morphometric measurements of coastal giant salamanders and cutthroat trout…\n\n\n\n\nPlotting My GitHub Contributions in 2023\n\n\nThis graphic summarizes my contributions to GitHub in 2023. While this was not my first year using…\n\n\n\n\n\nNo matching items"
+    "text": "title\n    \n\n\n    \n        \n            ‹\n        \n        \n            ›\n        \n        \n            \n                \n                    Wildlife Ecology\n                \n            \n            \n                \n                    Remote Sensing\n                 \n            \n            \n                \n                    Conservation GIS\n                  \n            \n            \n                \n                    Environmental Data Science\n                  \n            \n            \n                \n                    Biogeography\n                  \n            \n            \n                \n                    Climate Science\n                  \n            \n        \n    \n  \n  \n\n\n\n\n\n\nA dedicated wildlife ecologist and geospatial scientist…\nHello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography. Please have a look around and thank you for stopping by!\n\n\n\n\n\n\n\n\n\nAbout Me\n\n\nand my professional pathway\n\n\n\n\n\n\n\n\n\n\nCurriculum Vitae\n\n\nof my professional experience\n\n\n\n\n\n\n\n\n\n\nHelpful Resources\n\n\nfor coding, GIS, and beyond\n\n\n\n\n\n\n\n\n\n\nMy Blog Posts\n\n\nand other organized ramblings\n\n\n\n\n\n\n\n\n\n\nMy Gallery\n\n\nof maps, talks, and more\n\n\n\n\n\n\n\n\n\n\nMy Research\n\n\nin spatial ecology and GIS\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLatest Posts\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nMining Text From Course Descriptions\n\n\nIn this post, I describe a recent workflow that I ran on my college course descriptions to see…\n\n\n\n\nConverting PowerPoints to Reveal.js Format\n\n\nIn this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs…\n\n\n\n\nCrafting a GIS Workshop Site With Quarto\n\n\nThis post provides an overview of a recent workshop site I made using Quarto and Github Pages…\n\n\n\n\nCreate Annotated Bibliographies with Quarto\n\n\nIn this post, I provide a semi-automated workflow for generating an annotated bibliography in…\n\n\n\n\n\nNo matching items\n\n\n\n\nLatest Projects\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nBird Observation Map Series in ArcPy\n\n\nThis was my final project for an advanced GIS course in graduate school and explores the spatial…\n\n\n\n\nMaster’s Thesis Proposal Presentation\n\n\nThis presentation covers my proposed master’s thesis project, including the background literature…\n\n\n\n\nVertebrate Morphometrics Graphic\n\n\nThis graphic summarizes morphometric measurements of coastal giant salamanders and cutthroat trout…\n\n\n\n\nPlotting My GitHub Contributions in 2023\n\n\nThis graphic summarizes my contributions to GitHub in 2023. While this was not my first year using…\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/30-day-map-challenge-2023/index.html",

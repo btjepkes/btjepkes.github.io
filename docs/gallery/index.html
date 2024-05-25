@@ -26,6 +26,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
@@ -48,15 +49,16 @@ ul.task-list li input[type="checkbox"] {
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
-  "collapse-after": 3,
+  "collapse-after": 1,
   "panel-placement": "end",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -129,6 +131,61 @@ cookieconsent.run({
   
 <style>html{ scroll-behavior: smooth; }</style>
 
+ <meta property="og:title" content="My Project Gallery | B.W. Tjepkes">
+<meta property="og:description" content="My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category below.">
+<meta property="og:image" content="https://btjepkes.github.io/assets/bg-pines-gallery-yellow-sm.png">
+<meta property="og:site_name" content="Benjamin W. Tjepkes">
+<meta property="og:image:height" content="300">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:alt" content="Image-of-pine-trees-on-blue-background.">
+<meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
+<meta name="twitter:description" content="My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category below.">
+<meta name="twitter:image" content="https://btjepkes.github.io/assets/bg-pines-gallery-yellow-sm.png">
+<meta name="twitter:creator" content="@BTjepkes">
+<meta name="twitter:image-height" content="300">
+<meta name="twitter:image-width" content="1000">
+<meta name="twitter:image:alt" content="Image-of-pine-trees-on-blue-background.">
+<meta name="twitter:card" content="summary_large_image">
+</head><body class="nav-fixed"><nav class=" menu-navbar navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid">
+    
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../about/index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../curriculum-vitae/index.html">CV</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../posts/index.html">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../gallery/index.html" aria-current="page">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../research/index.html">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../map/index.html">Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../resources/index.html">Resources</a>
+        </li>
+      </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   <form class="d-flex">
+      <a href="../contact.html" class="btn btn-success" style="margin-right: 0px; padding: 0 8px; font-size: 15px;">Let's Connect</a>
+    </form>
+  </div>
+</nav> 
+
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
@@ -160,69 +217,25 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../shared-assets/styles.css">
-<meta property="og:title" content="My Project Gallery | B.W. Tjepkes">
-<meta property="og:description" content="My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category below.">
-<meta property="og:image" content="https://btjepkes.github.io/assets/bg-pines-gallery-yellow-sm.png">
-<meta property="og:image:height" content="300">
-<meta property="og:image:width" content="1000">
-<meta property="og:image:alt" content="Image-of-pine-trees-on-blue-background.">
-<meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category below.">
-<meta name="twitter:image" content="https://btjepkes.github.io/assets/bg-pines-gallery-yellow-sm.png">
-<meta name="twitter:creator" content="@BTjepkes">
-<meta name="twitter:image-height" content="300">
-<meta name="twitter:image-width" content="1000">
-<meta name="twitter:image:alt" content="Image-of-pine-trees-on-blue-background.">
-<meta name="twitter:card" content="summary_large_image">
-</head>
 
-<body class="nav-fixed">
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-xxl " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about/index.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../curriculum-vitae/index.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../posts/index.html"> 
-<span class="menu-text">Posts</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../gallery/index.html" aria-current="page"> 
-<span class="menu-text">Gallery</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../research/index.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../resources/index.html"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools tools-wide">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Benjamin W. Tjepkes</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-wide">
     <a href="https://www.linkedin.com/in/benjamintjepkes/" title="" class="quarto-navigation-tool px-1" aria-label="LinkedIn Profile"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/btjepkes" title="" class="quarto-navigation-tool px-1" aria-label="GitHub Profile"><i class="bi bi-github"></i></a>
     <a href="https://twitter.com/BTjepkes" title="" class="quarto-navigation-tool px-1" aria-label="Twitter Profile"><i class="bi bi-twitter-x"></i></a>
 </div>
+          <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -263,7 +276,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-24</p>
+      <p class="date-modified">2024-05-25</p>
     </div>
   </div>
     
@@ -404,7 +417,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 <div id="listing-gallery-listings-all" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Map Gallery,Python,Avian,ArcPy" data-listing-date-sort="1715144400000" data-listing-file-modified-sort="1716397169108" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
+<div class="g-col-1" data-index="0" data-categories="Map Gallery,Python,Avian,ArcPy" data-listing-date-sort="1715144400000" data-listing-file-modified-sort="1716397169108" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
 <a href="../gallery/bird-observation-map-series/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -418,7 +431,7 @@ Bird Observation Map Series in ArcPy
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Talk Gallery" data-listing-date-sort="1714539600000" data-listing-file-modified-sort="1714744198111" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="g-col-1" data-index="1" data-categories="Talk Gallery" data-listing-date-sort="1714539600000" data-listing-file-modified-sort="1714744198111" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <a href="../gallery/thesis-project-proposal-presentation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -432,7 +445,7 @@ Master’s Thesis Proposal Presentation
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Data Gallery,R,Coding,Boxplot,Rugplots" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1716475935468" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
+<div class="g-col-1" data-index="2" data-categories="Data Gallery,R,Coding,Boxplot,Rugplots" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1716475935468" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
 <a href="../gallery/vertebrate-morphometrics-in-riparian-zones/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -446,7 +459,7 @@ Vertebrate Morphometrics Graphic
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Data Gallery,TidyTuesday2024" data-listing-date-sort="1704261600000" data-listing-file-modified-sort="1713786768402" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="g-col-1" data-index="3" data-categories="Data Gallery,TidyTuesday2024" data-listing-date-sort="1704261600000" data-listing-file-modified-sort="1713786768402" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <a href="../gallery/my-github-contributions-in-2023/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -460,7 +473,7 @@ Plotting My GitHub Contributions in 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1714749292442" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
+<div class="g-col-1" data-index="4" data-categories="Map Gallery" data-listing-date-sort="1702706400000" data-listing-file-modified-sort="1714749292442" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
 <a href="../gallery/michigan-anthrome-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -474,7 +487,7 @@ Anthrome Map of the Upper Peninsula, MI
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Data Gallery" data-listing-date-sort="1702188000000" data-listing-file-modified-sort="1714838893080" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
+<div class="g-col-1" data-index="5" data-categories="Data Gallery" data-listing-date-sort="1702188000000" data-listing-file-modified-sort="1714838893080" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
 <a href="../gallery/michigan-climate-trends/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -488,7 +501,7 @@ Climate Trends of the Upper Peninsula, MI
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1716299641604" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<div class="g-col-1" data-index="6" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1716299641604" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
 <a href="../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -502,7 +515,7 @@ Pennsylvania Bridges from OpenStreetMap
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1716299540027" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<div class="g-col-1" data-index="7" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1716299540027" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
 <a href="../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -530,7 +543,7 @@ Andes Mountains Elevation Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="Map Gallery,North America" data-listing-date-sort="1699596000000" data-listing-file-modified-sort="1716382190492" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
+<div class="g-col-1" data-index="9" data-categories="Map Gallery,North America" data-listing-date-sort="1699596000000" data-listing-file-modified-sort="1716382190492" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
 <a href="../gallery/moose-sightings-across-north-america/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -544,7 +557,7 @@ Moose Sightings Across North America
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="g-col-1" data-index="10" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <a href="../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -572,7 +585,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="g-col-1" data-index="12" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
 <a href="../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -614,7 +627,7 @@ Eagle Mountain Contour Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1713735476552" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<div class="g-col-1" data-index="15" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1713735476552" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
 <a href="../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -656,7 +669,7 @@ Weekly Work Commitments Calendar
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-categories="Map Gallery,Watershed" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1714746437908" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<div class="g-col-1" data-index="18" data-categories="Map Gallery,Watershed" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1714746437908" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
 <a href="../gallery/great-lakes-watershed-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -684,7 +697,7 @@ Great Lakes Watersheds Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="20" data-categories="Map Gallery,United States,Endangered Species" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1714749492209" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
+<div class="g-col-1" data-index="20" data-categories="Map Gallery,United States,Endangered Species" data-listing-date-sort="1684818000000" data-listing-file-modified-sort="1714749492209" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
 <a href="../gallery/endangered-species-stamp-collection-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -698,7 +711,7 @@ Endangered Species Stamp Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="21" data-categories="Talk Gallery,Wyoming,Mammal" data-listing-date-sort="1684558800000" data-listing-file-modified-sort="1714748592555" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="g-col-1" data-index="21" data-categories="Talk Gallery,Wyoming,Mammal" data-listing-date-sort="1684558800000" data-listing-file-modified-sort="1714748592555" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
 <a href="../gallery/raccoon-spatial-patterns-and-home-ranges/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -712,7 +725,7 @@ Raccoon Spatial Patterns Presentation
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="22" data-categories="Poster Gallery,Missouri,Mammal" data-listing-date-sort="1684386000000" data-listing-file-modified-sort="1705242001197" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+<div class="g-col-1" data-index="22" data-categories="Poster Gallery,Missouri,Mammal" data-listing-date-sort="1684386000000" data-listing-file-modified-sort="1705242001197" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
 <a href="../gallery/missouri-bat-hcp-poster/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -796,7 +809,7 @@ County-Based Turkey Harvest Maps
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="28" data-categories="Report Gallery,Missouri,Furbearers" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1706674119719" data-listing-date-modified-sort="1683694800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
+<div class="g-col-1" data-index="28" data-categories="Report Gallery,Missouri,Furbearers" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1716652551771" data-listing-date-modified-sort="1683694800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
 <a href="../gallery/mdc-furbearer-program-annual-report-2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -824,7 +837,7 @@ Bald Eagle Nest Monitoring Report
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="30" data-categories="Map Gallery,Wisconsin,Location Suitability" data-listing-date-sort="1546322400000" data-listing-file-modified-sort="1715262137232" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<div class="g-col-1" data-index="30" data-categories="Map Gallery,Wisconsin,Location Suitability" data-listing-date-sort="1546322400000" data-listing-file-modified-sort="1715262137232" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
 <a href="../gallery/vineyard-and-winery-location-suitability-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1280,10 +1293,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>© Copyright 2021-2024 — Benjamin W. Tjepkes</p>
 </div>   
     <div class="nav-footer-center">
-
+<p><span id="open_preferences_center" class="link">User Cookie Preferences</span></p>
 </div>
     <div class="nav-footer-right">
-<p><a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> | <span id="open_preferences_center">Cookie Preferences</span> | Made with <a href="https://quarto.org/">Quarto</a></p>
+<p>Made with <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.</p>
 </div>
   </div>
 </footer>

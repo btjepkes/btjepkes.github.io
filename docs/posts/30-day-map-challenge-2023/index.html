@@ -23,6 +23,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
@@ -47,15 +48,16 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
-  "collapse-after": 3,
+  "collapse-after": 1,
   "panel-placement": "end",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -119,7 +121,67 @@ cookieconsent.run({
   });
 });
 </script><style>html{ scroll-behavior: smooth; }</style>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+<meta property="og:title" content="#30DayMapChallenge - 2023 Contributions | B.W. Tjepkes">
+<meta property="og:description" content="This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily social media challenge for the cartography community. I outline the tools I used and the data I explored along the way.">
+<meta property="og:image" content="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-my2023.png">
+<meta property="og:site_name" content="Benjamin W. Tjepkes">
+<meta property="og:image:height" content="1705">
+<meta property="og:image:width" content="1407">
+<meta property="og:image:alt" content="An image showing all my contribution maps.">
+<meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
+<meta name="twitter:description" content="This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily social media challenge for the cartography community. I outline the tools I used and the data I explored along the way.">
+<meta name="twitter:image" content="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-my2023.png">
+<meta name="twitter:creator" content="@BTjepkes">
+<meta name="twitter:image-height" content="1705">
+<meta name="twitter:image-width" content="1407">
+<meta name="twitter:image:alt" content="An image showing all my contribution maps.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="citation_title" content="#30DayMapChallenge - 2023 Contributions">
+<meta name="citation_author" content="Benjamin Tjepkes">
+<meta name="citation_publication_date" content="2023-11-01">
+<meta name="citation_cover_date" content="2023-11-01">
+<meta name="citation_year" content="2023">
+<meta name="citation_online_date" content="2023-11-01">
+<meta name="citation_fulltext_html_url" content="https://btjepkes.github.io/posts/30-day-map-challenge-2023">
+<meta name="citation_language" content="en">
+</head><body class="nav-fixed"><nav class=" menu-navbar navbar navbar-expand-sm bg-light navbar-light"><div class="container-fluid">
+    
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+<li class="nav-item">
+          <a class="nav-link" href="../../">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../about/index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../curriculum-vitae/index.html">CV</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../posts/index.html">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../gallery/index.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../research/index.html">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../map/index.html">Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../resources/index.html">Resources</a>
+        </li>
+      </ul>
+</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   <form class="d-flex">
+      <a href="../../contact.html" class="btn btn-success" style="margin-right: 0px; padding: 0 8px; font-size: 15px;">Let's Connect</a>
+    </form>
+  </div>
+</nav><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
 const typesetMath = (el) => {
   if (window.MathJax) {
     // MathJax Typeset
@@ -145,74 +207,22 @@ window.Quarto = {
   typesetMath
 };
 </script><link rel="stylesheet" href="../../shared-assets/styles.css">
-<meta property="og:title" content="#30DayMapChallenge - 2023 Contributions | B.W. Tjepkes">
-<meta property="og:description" content="This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily social media challenge for the cartography community. I outline the tools I used and the data I explored along the way.">
-<meta property="og:image" content="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-my2023.png">
-<meta property="og:image:height" content="1705">
-<meta property="og:image:width" content="1407">
-<meta property="og:image:alt" content="An image showing all my contribution maps.">
-<meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily social media challenge for the cartography community. I outline the tools I used and the data I explored along the way.">
-<meta name="twitter:image" content="https://btjepkes.github.io/posts/30-day-map-challenge-2023/img-30dmc-my2023.png">
-<meta name="twitter:creator" content="@BTjepkes">
-<meta name="twitter:image-height" content="1705">
-<meta name="twitter:image-width" content="1407">
-<meta name="twitter:image:alt" content="An image showing all my contribution maps.">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="citation_title" content="#30DayMapChallenge - 2023 Contributions">
-<meta name="citation_author" content="Benjamin Tjepkes">
-<meta name="citation_publication_date" content="2023-11-01">
-<meta name="citation_cover_date" content="2023-11-01">
-<meta name="citation_year" content="2023">
-<meta name="citation_online_date" content="2023-11-01">
-<meta name="citation_fulltext_html_url" content="https://btjepkes.github.io/posts/30-day-map-challenge-2023">
-<meta name="citation_language" content="en">
-</head>
-<body class="nav-fixed">
+
+
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../about/index.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../curriculum-vitae/index.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts/index.html"> 
-<span class="menu-text">Posts</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../gallery/index.html"> 
-<span class="menu-text">Gallery</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../research/index.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../resources/index.html"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
-</ul>
-</div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools tools-wide">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-xxl " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Benjamin W. Tjepkes</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-wide">
     <a href="https://www.linkedin.com/in/benjamintjepkes/" title="" class="quarto-navigation-tool px-1" aria-label="LinkedIn Profile"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/btjepkes" title="" class="quarto-navigation-tool px-1" aria-label="GitHub Profile"><i class="bi bi-github"></i></a>
     <a href="https://twitter.com/BTjepkes" title="" class="quarto-navigation-tool px-1" aria-label="Twitter Profile"><i class="bi bi-twitter-x"></i></a>
 </div>
+          <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
@@ -261,7 +271,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-24</p>
+      <p class="date-modified">2024-05-25</p>
     </div>
   </div>
     
@@ -279,7 +289,7 @@ window.Quarto = {
 <p>Here are my contributions to the challenge. Feel free to explore the details on each map product by clicking/tapping the map previews below. I was not able to create a map for every day, but this was my first time partaking in this challenge so I am happy with how many I created.</p>
 <div id="listing-map-gallery" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1713735476552" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<div class="g-col-1" data-index="0" data-categories="Forests,United States,Map Gallery" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1713735476552" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
 <a href="../../gallery/national-champion-tree-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -318,7 +328,7 @@ Canadian Ecoregions Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="g-col-1" data-index="3" data-categories="Map Gallery,Asia" data-listing-date-sort="1699250400000" data-listing-file-modified-sort="1705072668080" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
 <a href="../../gallery/tiger-distribution-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -344,7 +354,7 @@ Hyaenidae Distribution Map for Africa
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="g-col-1" data-index="5" data-categories="Map Gallery,Hexbin" data-listing-date-sort="1699509600000" data-listing-file-modified-sort="1705071415757" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <a href="../../gallery/postsecondary-institutions-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -357,7 +367,7 @@ Post-Secondary Institutions Hexmap
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Map Gallery,North America" data-listing-date-sort="1699596000000" data-listing-file-modified-sort="1716382190492" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
+<div class="g-col-1" data-index="6" data-categories="Map Gallery,North America" data-listing-date-sort="1699596000000" data-listing-file-modified-sort="1716382190492" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
 <a href="../../gallery/moose-sightings-across-north-america/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -383,7 +393,7 @@ Andes Mountains Elevation Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1716299540027" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1716299540027" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
 <a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -396,7 +406,7 @@ Forest Cover &amp; Happiness Bivariate Map
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1716299641604" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1716299641604" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
 <a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -840,13 +850,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>© Copyright 2021-2024 — Benjamin W. Tjepkes</p>
 </div>   
     <div class="nav-footer-center">
-
+<p><span id="open_preferences_center" class="link">User Cookie Preferences</span></p>
 </div>
     <div class="nav-footer-right">
-<p><a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> | <span id="open_preferences_center">Cookie Preferences</span> | Made with <a href="https://quarto.org/">Quarto</a></p>
+<p>Made with <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.</p>
 </div>
   </div>
-</footer><script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
+</footer><script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

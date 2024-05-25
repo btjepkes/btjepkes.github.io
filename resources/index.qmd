@@ -1,6 +1,6 @@
 ---
 title: "Helpful Resources"
-subtitle: From coding and stats, to making maps.
+subtitle: Coding, stats, and making maps.
 abstract: "This page contains a repository of technical tutorials, personal blogs, ebooks, data sources, inspirational works and other websites that I find myself consistently referring back to for my technical projects."
 date-modified: today
 date: 2021-01-01

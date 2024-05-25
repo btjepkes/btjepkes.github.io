@@ -28,6 +28,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
@@ -51,15 +52,16 @@ ul.task-list li input[type="checkbox"] {
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
-  "collapse-after": 3,
+  "collapse-after": 1,
   "panel-placement": "end",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -103,11 +105,10 @@ cookieconsent.run({
   
 <style>html{ scroll-behavior: smooth; }</style>
 
-
-<link rel="stylesheet" href="../../shared-assets/styles.css">
-<meta property="og:title" content="Anthrome Map of the Upper Peninsula, MI | B.W. Tjepkes">
+ <meta property="og:title" content="Anthrome Map of the Upper Peninsula, MI | B.W. Tjepkes">
 <meta property="og:description" content="Visualizing a series of land-use change in the Upper Peninsula. This exploration was part of a recent assignment in my biogeography course where I was tasked to explore the biome and anthrome of a location I would like to live. Having selected the Upper Peninsula, here is a map of this region’s historic and current land-use.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/michigan-anthrome-map/img-michigan-anthrome-map.png">
+<meta property="og:site_name" content="Benjamin W. Tjepkes">
 <meta property="og:image:height" content="2250">
 <meta property="og:image:width" content="2400">
 <meta property="og:image:alt" content="A map of the UP's anthrome, with land use changes through time.">
@@ -119,55 +120,67 @@ cookieconsent.run({
 <meta name="twitter:image-width" content="2400">
 <meta name="twitter:image:alt" content="A map of the UP's anthrome, with land use changes through time.">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-fixed"><nav class=" menu-navbar navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid">
+    
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../../">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../about/index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../curriculum-vitae/index.html">CV</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../posts/index.html">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../gallery/index.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../research/index.html">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../map/index.html">Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../resources/index.html">Resources</a>
+        </li>
+      </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   <form class="d-flex">
+      <a href="../../contact.html" class="btn btn-success" style="margin-right: 0px; padding: 0 8px; font-size: 15px;">Let's Connect</a>
+    </form>
+  </div>
+</nav> 
 
-<body class="nav-fixed">
+
+<link rel="stylesheet" href="../../shared-assets/styles.css">
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-xxl " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../about/index.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../curriculum-vitae/index.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts/index.html"> 
-<span class="menu-text">Posts</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../gallery/index.html"> 
-<span class="menu-text">Gallery</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../research/index.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../resources/index.html"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools tools-wide">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Benjamin W. Tjepkes</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-wide">
     <a href="https://www.linkedin.com/in/benjamintjepkes/" title="" class="quarto-navigation-tool px-1" aria-label="LinkedIn Profile"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/btjepkes" title="" class="quarto-navigation-tool px-1" aria-label="GitHub Profile"><i class="bi bi-github"></i></a>
     <a href="https://twitter.com/BTjepkes" title="" class="quarto-navigation-tool px-1" aria-label="Twitter Profile"><i class="bi bi-twitter-x"></i></a>
 </div>
+          <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -215,7 +228,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-24</p>
+      <p class="date-modified">2024-05-25</p>
     </div>
   </div>
     
@@ -235,7 +248,7 @@ cookieconsent.run({
 <p>The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome). Another portion of this assignment dealt with creating a <a href="../../gallery/michigan-climate-trends/index.html">climate profile for the region</a>. Data were downloaded from <a href="https://dataverse.harvard.edu/dataverse/anthromes_12K_DGG">Anthromes 12K DGG Datasets</a>. Figure production was completed in RStudio with several packages including <code>ggplot</code>, <code>ggspatial</code>, and <code>tidyverse</code>. Here is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-michigan-anthrome-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-michigan-anthrome-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-michigan-anthrome-map.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-michigan-anthrome-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -662,14 +675,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>© Copyright 2021-2024 — Benjamin W. Tjepkes</p>
 </div>   
     <div class="nav-footer-center">
-
+<p><span id="open_preferences_center" class="link">User Cookie Preferences</span></p>
 </div>
     <div class="nav-footer-right">
-<p><a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> | <span id="open_preferences_center">Cookie Preferences</span> | Made with <a href="https://quarto.org/">Quarto</a></p>
+<p>Made with <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.</p>
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"descPosition":"bottom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

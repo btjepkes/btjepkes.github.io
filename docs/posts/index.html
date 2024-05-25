@@ -27,6 +27,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
@@ -49,15 +50,16 @@ ul.task-list li input[type="checkbox"] {
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
-  "collapse-after": 3,
+  "collapse-after": 1,
   "panel-placement": "end",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -130,6 +132,70 @@ cookieconsent.run({
   
 <style>html{ scroll-behavior: smooth; }</style>
 
+ <link rel="alternate" type="application/rss+xml" title="Benjamin Tjepkes - Blog Posts on R" href="index.xml" data-external="1"><meta property="og:title" content="Blog Posts | B.W. Tjepkes">
+<meta property="og:description" content="The technical aspects generally cover some of my adventures whilst becoming a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included.">
+<meta property="og:image" content="https://btjepkes.github.io/assets/bg-pines-blog-orange-sm.png">
+<meta property="og:site_name" content="Benjamin W. Tjepkes">
+<meta property="og:image:height" content="300">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:alt" content="Image-of-trees.">
+<meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
+<meta name="twitter:description" content="The technical aspects generally cover some of my adventures whilst becoming a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included.">
+<meta name="twitter:image" content="https://btjepkes.github.io/assets/bg-pines-blog-orange-sm.png">
+<meta name="twitter:creator" content="@BTjepkes">
+<meta name="twitter:image-height" content="300">
+<meta name="twitter:image-width" content="1000">
+<meta name="twitter:image:alt" content="Image-of-trees.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="citation_title" content="My Blog Posts">
+<meta name="citation_abstract" content="The technical aspects generally cover some of my adventures whilst becoming a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included.">
+<meta name="citation_author" content="Benjamin Tjepkes">
+<meta name="citation_publication_date" content="2022-10-16">
+<meta name="citation_cover_date" content="2022-10-16">
+<meta name="citation_year" content="2022">
+<meta name="citation_online_date" content="2022-10-16">
+<meta name="citation_fulltext_html_url" content="https://btjepkes.github.io/posts">
+<meta name="citation_language" content="en">
+</head><body class="nav-fixed"><nav class=" menu-navbar navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid">
+    
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../about/index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../curriculum-vitae/index.html">CV</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../posts/index.html" aria-current="page">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../gallery/index.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../research/index.html">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../map/index.html">Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../resources/index.html">Resources</a>
+        </li>
+      </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   <form class="d-flex">
+      <a href="../contact.html" class="btn btn-success" style="margin-right: 0px; padding: 0 8px; font-size: 15px;">Let's Connect</a>
+    </form>
+  </div>
+</nav> 
+
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
@@ -161,78 +227,25 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../shared-assets/styles.css">
-<link rel="alternate" type="application/rss+xml" title="Benjamin Tjepkes - Blog Posts on R" href="index.xml" data-external="1"><meta property="og:title" content="Blog Posts | B.W. Tjepkes">
-<meta property="og:description" content="The technical aspects generally cover some of my adventures whilst becoming a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included.">
-<meta property="og:image" content="https://btjepkes.github.io/assets/bg-pines-blog-orange-sm.png">
-<meta property="og:image:height" content="300">
-<meta property="og:image:width" content="1000">
-<meta property="og:image:alt" content="Image-of-trees.">
-<meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="The technical aspects generally cover some of my adventures whilst becoming a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included.">
-<meta name="twitter:image" content="https://btjepkes.github.io/assets/bg-pines-blog-orange-sm.png">
-<meta name="twitter:creator" content="@BTjepkes">
-<meta name="twitter:image-height" content="300">
-<meta name="twitter:image-width" content="1000">
-<meta name="twitter:image:alt" content="Image-of-trees.">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="citation_title" content="My Blog Posts">
-<meta name="citation_abstract" content="The technical aspects generally cover some of my adventures whilst becoming a multi-lingual user in R, Python, SQL, and beyond. Some creative works about nature conservation, ecology, and other topics are also included.">
-<meta name="citation_author" content="Benjamin Tjepkes">
-<meta name="citation_publication_date" content="2022-10-16">
-<meta name="citation_cover_date" content="2022-10-16">
-<meta name="citation_year" content="2022">
-<meta name="citation_online_date" content="2022-10-16">
-<meta name="citation_fulltext_html_url" content="https://btjepkes.github.io/posts">
-<meta name="citation_language" content="en">
-</head>
 
-<body class="nav-fixed">
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-xxl " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about/index.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../curriculum-vitae/index.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../posts/index.html" aria-current="page"> 
-<span class="menu-text">Posts</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../gallery/index.html"> 
-<span class="menu-text">Gallery</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../research/index.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../resources/index.html"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools tools-wide">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Benjamin W. Tjepkes</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-wide">
     <a href="https://www.linkedin.com/in/benjamintjepkes/" title="" class="quarto-navigation-tool px-1" aria-label="LinkedIn Profile"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/btjepkes" title="" class="quarto-navigation-tool px-1" aria-label="GitHub Profile"><i class="bi bi-github"></i></a>
     <a href="https://twitter.com/BTjepkes" title="" class="quarto-navigation-tool px-1" aria-label="Twitter Profile"><i class="bi bi-twitter-x"></i></a>
 </div>
+          <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -273,7 +286,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-24</p>
+      <p class="date-modified">2024-05-25</p>
     </div>
   </div>
     
@@ -315,7 +328,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R,Text Mining,Word Cloud" data-listing-date-sort="1716267600000" data-listing-file-modified-sort="1716352000742" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="3" data-listing-word-count-sort="417">
+<div class="g-col-1" data-index="0" data-categories="R,Text Mining,Word Cloud" data-listing-date-sort="1716267600000" data-listing-file-modified-sort="1716352000742" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="3" data-listing-word-count-sort="417">
 <a href="../posts/text-mining-course-descriptions/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -337,7 +350,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="R,Quarto,PowerPoint,RevealJS" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1716502116484" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741">
+<div class="g-col-1" data-index="1" data-categories="R,Quarto,PowerPoint,RevealJS" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1716502116484" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741">
 <a href="../posts/converting-powerpoints-to-revealjs/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -359,7 +372,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1714194000000" data-listing-file-modified-sort="1715351376179" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1714194000000" data-listing-file-modified-sort="1715351376179" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
 <a href="../posts/crafting-a-technical-workshop-site-with-quarto/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -381,7 +394,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1715394716224" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3944">
+<div class="g-col-1" data-index="3" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1715394716224" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3944">
 <a href="../posts/building-annotated-bibliographies-with-quarto/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -403,7 +416,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1704002400000" data-listing-file-modified-sort="1716341605508" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="5" data-listing-word-count-sort="955">
+<div class="g-col-1" data-index="4" data-listing-date-sort="1704002400000" data-listing-file-modified-sort="1716341605508" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="5" data-listing-word-count-sort="955">
 <a href="../posts/my-2023-highlights-reflections-and-recap/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -425,7 +438,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="mapping,Cartography" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1714409083472" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
+<div class="g-col-1" data-index="5" data-categories="mapping,Cartography" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1714409083472" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
 <a href="../posts/30-day-map-challenge-2023/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -447,7 +460,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Wildlife,GIS" data-listing-date-sort="1679806800000" data-listing-file-modified-sort="1714320419055" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1075">
+<div class="g-col-1" data-index="6" data-categories="Wildlife,GIS" data-listing-date-sort="1679806800000" data-listing-file-modified-sort="1714320419055" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1075">
 <a href="../posts/how-scientists-use-gis-to-study-wildlife/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -469,7 +482,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Nature,Education" data-listing-date-sort="1666069200000" data-listing-file-modified-sort="1716556957198" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1632">
+<div class="g-col-1" data-index="7" data-categories="Nature,Education" data-listing-date-sort="1666069200000" data-listing-file-modified-sort="1716556957198" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1632">
 <a href="../posts/how-to-become-a-contemporary-naturalist/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -491,7 +504,7 @@ Benjamin Tjepkes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Nature,Education,Shorelines" data-listing-date-sort="1665896400000" data-listing-file-modified-sort="1714488338493" data-listing-date-modified-sort="1716526800000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1701">
+<div class="g-col-1" data-index="8" data-categories="Nature,Education,Shorelines" data-listing-date-sort="1665896400000" data-listing-file-modified-sort="1714488338493" data-listing-date-modified-sort="1716613200000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1701">
 <a href="../posts/can-you-naturally-protect-shores-from-erosion/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -939,10 +952,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>© Copyright 2021-2024 — Benjamin W. Tjepkes</p>
 </div>   
     <div class="nav-footer-center">
-
+<p><span id="open_preferences_center" class="link">User Cookie Preferences</span></p>
 </div>
     <div class="nav-footer-right">
-<p><a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> | <span id="open_preferences_center">Cookie Preferences</span> | Made with <a href="https://quarto.org/">Quarto</a></p>
+<p>Made with <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.</p>
 </div>
   </div>
 </footer>

@@ -1,6 +1,7 @@
 ---
 title: "Error 404: Page Not Found"
-description: "Uh oh! The page you were searching for cannot be located...perhaps it was moved or renamed."
+subtitle: "Uh oh! This is not good."
+description: "The page you were searching for cannot be located...perhaps it was moved or renamed."
 author-meta: "Benjamin Tjepkes"
 date: today
 date-modified: today

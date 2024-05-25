@@ -1,14 +1,13 @@
 ---
 title: "Annual Report for MDC Furbearer Program"
-abstract: "FY2021 annual report on furbearer harvest, status, and program activities."
-author: "Benjamin Tjepkes"
+subtitle: "Furbearer harvest, status, and program activities."
 date: 2021-01-01
 date-modified: "5-10-2023"
 categories:
   - Report Gallery
   - Missouri
   - Furbearers
-description: "This fiscal year annual report was created for the Missouri Department of Conservation Furbearer Program to summarize furbearer harvest, status, and other activities during FY21."
+abstract: "This fiscal year annual report was created for the Missouri Department of Conservation Furbearer Program to summarize furbearer harvest, status, and other activities during FY21."
 image: img-2021-mdc-furbearer-report.png
 image-alt: "Image of example pages from the report."
 ---

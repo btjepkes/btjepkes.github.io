@@ -2,8 +2,10 @@ project:
   type: website
   output-dir: docs
   resources: "*.xlsx"
-
+language: 
+  search-box-placeholder: "Search"
 website:
+  title: Benjamin W. Tjepkes
   site-url: https://btjepkes.github.io
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
@@ -13,7 +15,9 @@ website:
   bread-crumbs: false
   search:
     location: navbar
-    type: overlay
+    type: textbox
+    show-item-context: false
+    collapse-after: 1
   open-graph: true
   twitter-card:
     creator: "@BTjepkes"
@@ -27,22 +31,23 @@ website:
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
   navbar:
-    pinned: true
-    left:
-      - href: index.qmd
-        text: Home
-      - href: about/index.qmd
-        text: About
-      - href: curriculum-vitae/index.qmd
-        text: CV        
-      - href: posts/index.qmd
-        text: Posts
-      - href: gallery/index.qmd
-        text: Gallery
-      - href: research/index.qmd
-        text: Research        
-      - href: resources/index.qmd
-        text: Resources          
+    collapse-below: xxl
+    pinned: false
+    # left:
+    #   - href: index.qmd
+    #     text: Home
+    #   - href: about/index.qmd
+    #     text: About
+    #   - href: curriculum-vitae/index.qmd
+    #     text: CV        
+    #   - href: posts/index.qmd
+    #     text: Posts
+    #   - href: gallery/index.qmd
+    #     text: Gallery
+    #   - href: research/index.qmd
+    #     text: Research        
+    #   - href: resources/index.qmd
+    #     text: Resources          
       # - text: "Links"
       #   menu:
       #   - text: "{{< fa brands linkedin size=1x >}} LinkedIn Profile"
@@ -99,23 +104,10 @@ website:
   #       href: resources/index.qmd
   #       text: Helpful Resources
   page-footer:
-    right: "[CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) | [Cookie Preferences]{#open_preferences_center} | Made with [Quarto](https://quarto.org/)"
-    # center: >-
-    #   Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
+    center: "[User Cookie Preferences]{#open_preferences_center .link}"
+    right: >-
+      Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
     left: "&copy; Copyright 2021-2024 --- Benjamin W. Tjepkes"
-    # right:
-    #   - icon: linkedin
-    #     href: https://www.linkedin.com/in/benjamintjepkes/
-    #     aria-label: LinkedIn Profile
-    #   - icon: github
-    #     href: https://github.com/btjepkes
-    #     aria-label: GitHub Profile
-    #   - icon: twitter-x
-    #     href: https://twitter.com/BTjepkes
-    #     aria-label: Twitter Profile
-    #   - icon: house-fill
-    #     href: index.html
-    #     aria-label: home page
 execute:
   freeze: true
 format:
@@ -164,3 +156,5 @@ format:
     # include-after-body: back-to-top.html
     # include-in-header:
     #   - file: carousel-slider/carousel-slider.html
+    include-in-header: 
+      - file: shared-assets/menu-navbar.html
