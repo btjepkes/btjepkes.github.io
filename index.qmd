@@ -64,7 +64,54 @@ listing:
     max-items: 4
 ---
 
+```{=html}
+<!-- Carousel -->
+<div id="demo" class="carousel slide column-page" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    
+    <div class="carousel-item active">
+      <img src="assets/img-ben-with-bear.jpg" alt="Ben with bear" class="d-block w-100 asp-169">
+    </div>
+    
+    <div class="carousel-item">
+      <img src="assets/img-ben-work.png" alt="Ben at work" class="d-block w-100 asp-169">
+    </div>
+    
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+```
+
+
+::: {#intro-section .column-body-outset}
+
+# A dedicated wildlife ecologist and geospatial scientist...
+
+Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography. Please have a look around and thank you for stopping by!
+
+:::
+
+::: {#site-listings-1 .column-body-outset}
+:::
+
 :::{#index-carousel .column-screen}
+
+
 ```{=html}
 <!DOCTYPE html>
 <html>
@@ -160,8 +207,7 @@ listing:
 
         .carousel__item {
             flex: 1 0 30%;
-            aspect-ratio: 16/9;
-            max-height: 180px;
+            height: 220px;
             flex-flow: column nowrap;
             display: flex;
             scroll-snap-align: center;
@@ -308,18 +354,6 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
 </script>
 </html>
 ```
-:::
-
-
-::: {#intro-section .column-body-outset}
-
-# A dedicated wildlife ecologist and geospatial scientist...
-
-Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography. Please have a look around and thank you for stopping by!
-
-:::
-
-::: {#site-listings-1 .column-body-outset}
 :::
 
 <!-- # FOCUS AREAS: -->

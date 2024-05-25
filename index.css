@@ -1,6 +1,14 @@
+.asp-169 {
+  aspect-ratio: 41/18;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+
 #index-carousel {
-  margin-top: -20px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 
@@ -17,8 +25,7 @@
     text-align: center;
     font-weight: 700;
     font-size: clamp(1.4em, 5vw, 2.0em);
-    line-height: 1.2;
-    margin-top: 0;}
+    line-height: 1.2;}
   }
 
 

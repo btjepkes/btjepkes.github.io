@@ -1,5 +1,9 @@
 /* css styles */
 
+h2:first-of-type {
+    margin-top: 2rem !important;
+  }
+
 #quarto-content .subtitle {
   line-height: 1.1em;
   font-weight: 200;
@@ -19,20 +23,25 @@
 
 .menu-navbar {
   background-image: revert !important;
-  padding: 2px 8px;
+  background-color: white;
+  padding: 4px 18px;
   
   .container-fluid {
     flex-direction: row-reverse;
-    text-align: center;
-    margin-left: 4px;
-    margin-right: 8px;
   }
 }
+
+@media (max-width: 991.98px) {
+  .menu-navbar .container-fluid {
+    flex-direction: row;
+    text-align: center;
+  }
+ }
 
 
 .navbar {
   border-bottom: solid 1px lightgray;
-  --bs-navbar-padding-y: 0.5em;
+  --bs-navbar-padding-y: 0.4em;
   background-color: #123c69;
   background-image: url("../assets/repeatable-treeline.png");
   background-position: center 50%;
@@ -49,12 +58,13 @@
   }
 
 .navbar-brand {
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #fbfbfc;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   font-style: normal;
   font-optical-sizing: auto;
+  overflow: visible;
 }
 
 
@@ -77,11 +87,20 @@
 .container-lg,
 .container-md,
 .container-sm {
-  --bs-gutter-x: 0 !important;
-}
+    --bs-gutter-x: 0 !important;
+    }
 
 .navbar-nav {
   --bs-nav-link-padding-y: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+  margin-right: 14px;
+}
+
+.navbar-toggler {
+  margin-right: 0 !important;
 }
 
 .navbar-toggler-icon {
@@ -89,10 +108,34 @@
   height: 1.2em;
 }
 
+.keywords {
+  display: none;
+}
+
+
 /* GRID ITEMS */
 
 .quarto-grid-item {
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
+}
+
+.listings-gallery .quarto-grid-item div.post-contents {
+  padding: 5px 10px 5px 10px !important;
+  overflow: hidden;
+}
+
+
+.listings-gallery h5 {
+  font-size: 0.7em !important;
+  text-align: center;
+  opacity: 1.0 !important;
+  padding: 0;
+  margin: 0;
+  font-weight: 400 !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
 }
 
 
@@ -205,6 +248,11 @@ figure > figcaption {
 
 
 /*// FOOTER*/
+
+
+.page-rows-contents {
+  grid-template-rows: [content-top] minmax(max-content, 1fr) [content-bottom] minmax(0px, max-content) [page-bottom];
+  }
 
 .nav-footer {
   padding-top: 0.8em;
