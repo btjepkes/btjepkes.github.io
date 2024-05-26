@@ -2,6 +2,7 @@
   aspect-ratio: 41/18;
   object-fit: cover;
   border-radius: 20px;
+  margin-top: 0.7em;
 }
 
 
@@ -57,8 +58,10 @@
 
 .index-latest-column {
   flex-basis: calc(50% - 10px);
-  background: #e9eef4;
-  border-radius: 0.5em;
+/*  background: #e9eef4;*/
+/*  border-radius: 0.5em;
+  border: solid rgba(0, 0, 0, 0.175) 1px;
+  box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;*/
   
   h3 {
   text-align: center;
@@ -68,6 +71,12 @@
 table.quarto-listing-table a {
   font-weight: 600;
 }
+
+thead, tbody, tfoot, tr, td, th {
+  border: solid rgba(0, 0, 0, 0.175) 1px ;
+}
+
+
 }
 
 .page-columns .column-body-outset table {

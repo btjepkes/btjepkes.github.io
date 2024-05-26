@@ -1,7 +1,7 @@
 ---
 title: "Mining Text From Course Descriptions"
 subtitle: Using R to examine words in my 70+ college course history.
-abstract: "In this post, I describe a recent workflow that I ran on my college course descriptions to see most common words and word associations."
+abstract: "In this post, I describe a recent workflow that I ran on my college course descriptions to explore the most common words and word associations from my archive of college course."
 date: 2024-05-21
 date-modified: today
 categories:
@@ -19,17 +19,34 @@ draft: false
 
 ![](img-word-cloud.png){.quarto-cover-image}
 
-I recently wrapped up my first spring semester as a graduate student, making my list of college courses taken surpass 70! As the bags under my eyes can tell you, it has been a long road to this point, with much still left to go. I wanted to take some time to look back and reflect on the courses I have experienced in my higher education journey thus far.
+This month (May), I wrapped up my first year as a graduate student which also brought my list of college courses up past 70! As the bags under my eyes can tell you, it has been a long road to this point, with much still left to go. I wanted to take some time to look back and reflect on the courses I have experienced in my higher education journey thus far by visualizing some course description data.
 
-### Archiving Course Descriptions
+### Why course descriptions?
+
+All college courses are accompanied by a syllabus that outlines the course structure, objectives, and often times lists the official course description. This, often short, paragraph describes the theory, methods, or general topics of each course and is registered officially with the Registrar as a record of course offerings each semester.
 
 The primary instigator of this was that I was finally able to finish assembling my spreadsheet of courses over my career. Why collect these? Well, I am in the process of submitting my application for various professional certifications and many of them require a record of all courses taken that apply to their certification. For example, my application for [The Wildlife Society Certification Program](https://wildlife.org/certification-programs/) is one I have been planning for a long time.
 
-## Workflow
+## Workflow - Word Cloud
 
 The steps I took for this process came largely from [this blog post](http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know), which was extremely helpful in understanding these text mining packages in R.
 
-### Data Processing
+### 1. Data Processing
+
+The first step we need to do is install and/or load all the required packages. This will include several new-to-me packages like `tm` and `wordcloud` along with some familiar ones like `RColorBrewer`.
+
+::: {.panel-tabset}
+
+## Loading Packages
+
+```r
+library("tm")
+library("SnowballC")
+library("wordcloud")
+library("RColorBrewer")
+```
+
+## Installing Packages (if needed)
 
 ```r
 # Install ----
@@ -37,21 +54,25 @@ install.packages("tm")  # for text mining
 install.packages("SnowballC") # for text stemming
 install.packages("wordcloud") # word-cloud generator 
 install.packages("RColorBrewer") # color palettes
+```
 
-# Load ----
-library("tm")
-library("SnowballC")
-library("wordcloud")
-library("RColorBrewer")
+:::
 
+### 2. Data Import
+
+Next, we need to get our data into R and format everything as a `tm::Corpus` dataset that can be transformed in later steps.
+
+```r
 # Load the text
 text <- base::readLines(file.choose())
 
 
 # Load the data as a corpus
 docs <- tm::Corpus(VectorSource(text))
+```
+### 3. Data Wrangling
 
-
+```r
 # Text transformation ----
 toSpace <- content_transformer(function (x , pattern ) gsub(pattern, " ", x))
 docs <- tm_map(docs, toSpace, "/")
@@ -73,15 +94,22 @@ docs <- tm_map(docs, removeWords, c("course", "will"))
 docs <- tm_map(docs, removePunctuation)
 # Eliminate extra white spaces
 docs <- tm_map(docs, stripWhitespace)
+```
 
+### 4. Creating Matrix
 
+```r
 # Build a Term-Document Matrix ----
 dtm <- TermDocumentMatrix(docs)
 m <- as.matrix(dtm)
 v <- sort(rowSums(m),decreasing=TRUE)
 d <- data.frame(word = names(v),freq=v)
 head(d, 10)
+```
 
+### 5. Visualization
+
+```r
 # Create and save word cloud
 set.seed(1234)
 grDevices::png(filename = "./word_plot.png",
@@ -93,9 +121,6 @@ wordcloud::wordcloud(words = d$word, freq = d$freq, min.freq = 1,
           max.words=200, random.order=FALSE, rot.per=0.35, 
           colors=brewer.pal(8, "Dark2"))
 grDevices::dev.off()
-
 ```
-
-### Data Visualization
 
 ![The resulting word cloud from my course descriptions.](./img-word-cloud.png)

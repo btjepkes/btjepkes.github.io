@@ -1,12 +1,13 @@
 ---
 title: "Crafting a GIS Workshop Site With Quarto"
+subtitle: GIS for Fisheries and Wildlife Sciences - Spring 2024
 date: 04/27/2024
 date-modified: today
 keywords:
   - "GIS"
   - "Quarto"
   - "Workshop"
-description: "This post provides an overview of a recent workshop site I made using Quarto and Github Pages, which covered basic and intermediate geographic information system skills for wildlife and fisheries sciences."
+abstract: "This post provides an overview of a recent workshop site I made using Quarto and Github Pages, which covered basic and intermediate geographic information system skills for wildlife and fisheries sciences."
 image: img-gis-workshop-site-preview.png
 image-alt: "An image of a website created by Quarto."
 draft: false
@@ -14,11 +15,19 @@ draft: false
 
 ## Introduction
 
-Earlier this academic semester, I was able to help develop and host a technical workshop, "GIS for Fisheries and Wildlife Sciences". While I have helped with many GIS training sessions in the past, this was my first time taking the lead on development from start to end. I figured this was a perfect opportunity to test the use of a [Quarto](https://quarto.org/) site that would allow me to have all content in one place during and after the workshop.
+![](img-layer-stack.png){.quarto-cover-image}
 
-## The Result
+Earlier this academic semester, I was able to help develop and host a technical workshop for the wildlife and fisheries graduate student organization on campus. While I have helped with many GIS training sessions in the past, this was my first time taking the lead on development from start to end. I figured this was a perfect opportunity to test the use of a [Quarto](https://quarto.org/) site that would allow me to have all content in one place during and after the workshop.
 
-The functioning website can be found [here](https://btjepkes.github.io/WAFSGSO_2024_GIS/) and includes all the required data downloads.
+The workshop, which was aptly named *GIS for Fisheries and Wildlife Sciences*, covered the basics of geographic information systems and several methods of programmatically doing spatial work with ArcGIS Pro, Python, and R.
 
-![Screenshot of the GIS workshop site.](img-gis-workshop-site-preview.png)
+## Logistics & Content
+
+The functioning website can be found [here](https://btjepkes.github.io/WAFSGSO_2024_GIS/){target="_blank"} and includes all the required data downloads. The interface (@fig-screenshot-site) is setup as a general website with multiple pages for slides, topics, and resources.
+
+![Screenshot of the GIS workshop site.](img-gis-workshop-site-preview.png){#fig-screenshot-site}
+
+## Final Thoughts
+
+This workshop seemed very well-received and I plan on offering this workshop(s) again.
 

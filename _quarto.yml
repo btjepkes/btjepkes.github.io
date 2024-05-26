@@ -104,7 +104,8 @@ website:
   #       href: resources/index.qmd
   #       text: Helpful Resources
   page-footer:
-    center: "[User Cookie Preferences]{#open_preferences_center .link}"
+    center: >-
+      [User Preferences]{#open_preferences_center} | [Site Map](/sitemap.xml){target="_blank"} | Last Updated: {{< meta date-modified >}}
     right: >-
       Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
     left: "&copy; Copyright 2021-2024 --- Benjamin W. Tjepkes"
@@ -112,7 +113,7 @@ execute:
   freeze: true
 format:
   html:
-    # subtitle: "{{< meta title >}}"
+    date-modified: today
     author:
       - name: Benjamin Tjepkes
         orcid: 0009-0002-5524-2675

@@ -149,6 +149,10 @@ h2:first-of-type {
 .leaflet-control-attribution {
   display: none;
   }
+  
+#htmlwidget-80f1242798b9934ff938 {
+    height: 80vh !important;
+    }
 
 
 .leaflet-container {

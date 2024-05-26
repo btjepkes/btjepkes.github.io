@@ -9,7 +9,6 @@
 <meta name="author" content="Benjamin Tjepkes">
 <meta name="dcterms.date" content="2024-04-27">
 <meta name="keywords" content="GIS, Quarto, Workshop">
-<meta name="description" content="This post provides an overview of a recent workshop site I made using Quarto and Github Pages, which covered basic and intermediate geographic information system skills for wildlife and fisheries sciences.">
 
 <title>Crafting a GIS Workshop Site With Quarto | B.W. Tjepkes</title>
 <style>
@@ -121,6 +120,7 @@ cookieconsent.run({
 <meta name="twitter:image:alt" content="An image of a website created by Quarto.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="citation_title" content="Crafting a GIS Workshop Site With Quarto">
+<meta name="citation_abstract" content="This post provides an overview of a recent workshop site I made using Quarto and Github Pages, which covered basic and intermediate geographic information system skills for wildlife and fisheries sciences.">
 <meta name="citation_keywords" content="GIS,Quarto,Workshop">
 <meta name="citation_author" content="Benjamin Tjepkes">
 <meta name="citation_publication_date" content="2024-04-27">
@@ -155,6 +155,9 @@ cookieconsent.run({
         <li class="nav-item">
           <a class="nav-link" href="../../map/index.html">Map</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../contact.html">Contact</a>
+        </li>
       </ul>
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -163,7 +166,8 @@ cookieconsent.run({
    <form class="d-flex">
       <a href="../../posts/index.html" class="btn btn-success" style="margin-right: 8px; padding: 0 8px; font-size: 14px;">Posts</a>
       <a href="../../gallery/index.html" class="btn btn-success" style="margin-right: 8px; padding: 0 8px; font-size: 14px;">Gallery</a>
-      <a href="../../contact.html" class="btn btn-success" style="margin-right: 8px; padding: 0 8px; font-size: 14px;">Connect</a>
+      <a href="../../research/index.html" class="btn btn-success" style="margin-right: 8px; padding: 0 8px; font-size: 14px;">Research</a>
+      <a href="../../resources/index.html" class="btn btn-success" style="padding: 0 8px; font-size: 14px;">Resources</a>
     </form>
   </div>
 </nav> 
@@ -202,7 +206,8 @@ cookieconsent.run({
    
   <ul class="collapse">
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#the-result" id="toc-the-result" class="nav-link" data-scroll-target="#the-result">The Result</a></li>
+  <li><a href="#logistics-content" id="toc-logistics-content" class="nav-link" data-scroll-target="#logistics-content">Logistics &amp; Content</a></li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
   </ul>
 </nav>
     </div>
@@ -212,13 +217,9 @@ cookieconsent.run({
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Crafting a GIS Workshop Site With Quarto</h1>
+<p class="subtitle lead">GIS for Fisheries and Wildlife Sciences - Spring 2024</p>
 </div>
 
-<div>
-  <div class="description">
-    This post provides an overview of a recent workshop site I made using Quarto and Github Pages, which covered basic and intermediate geographic information system skills for wildlife and fisheries sciences.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -240,12 +241,18 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-25</p>
+      <p class="date-modified">2024-05-26</p>
     </div>
   </div>
     
   </div>
   
+<div>
+  <div class="abstract">
+    <div class="block-title">What Is This About?</div>
+    This post provides an overview of a recent workshop site I made using Quarto and Github Pages, which covered basic and intermediate geographic information system skills for wildlife and fisheries sciences.
+  </div>
+</div>
 
 <div>
   <div class="keywords">
@@ -259,21 +266,31 @@ cookieconsent.run({
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Earlier this academic semester, I was able to help develop and host a technical workshop, “GIS for Fisheries and Wildlife Sciences”. While I have helped with many GIS training sessions in the past, this was my first time taking the lead on development from start to end. I figured this was a perfect opportunity to test the use of a <a href="https://quarto.org/">Quarto</a> site that would allow me to have all content in one place during and after the workshop.</p>
+<p><a href="img-layer-stack.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-layer-stack.png" class="quarto-cover-image img-fluid"></a></p>
+<p>Earlier this academic semester, I was able to help develop and host a technical workshop for the wildlife and fisheries graduate student organization on campus. While I have helped with many GIS training sessions in the past, this was my first time taking the lead on development from start to end. I figured this was a perfect opportunity to test the use of a <a href="https://quarto.org/">Quarto</a> site that would allow me to have all content in one place during and after the workshop.</p>
+<p>The workshop, which was aptly named <em>GIS for Fisheries and Wildlife Sciences</em>, covered the basics of geographic information systems and several methods of programmatically doing spatial work with ArcGIS Pro, Python, and R.</p>
 </section>
-<section id="the-result" class="level2">
-<h2 class="anchored" data-anchor-id="the-result">The Result</h2>
-<p>The functioning website can be found <a href="https://btjepkes.github.io/WAFSGSO_2024_GIS/">here</a> and includes all the required data downloads.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img-gis-workshop-site-preview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Screenshot of the GIS workshop site."><img src="img-gis-workshop-site-preview.png" class="img-fluid figure-img" alt="Screenshot of the GIS workshop site."></a></p>
-<figcaption>Screenshot of the GIS workshop site.</figcaption>
+<section id="logistics-content" class="level2">
+<h2 class="anchored" data-anchor-id="logistics-content">Logistics &amp; Content</h2>
+<p>The functioning website can be found <a href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">here</a> and includes all the required data downloads. The interface (<a href="#fig-screenshot-site" class="quarto-xref">Figure&nbsp;1</a>) is setup as a general website with multiple pages for slides, topics, and resources.</p>
+<div id="fig-screenshot-site" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-screenshot-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img-gis-workshop-site-preview.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="img-gis-workshop-site-preview.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-screenshot-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Screenshot of the GIS workshop site.
+</figcaption>
 </figure>
 </div>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
+<p>This workshop seemed very well-received and I plan on offering this workshop(s) again.</p>
 
 
 <div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">Screenshot of the GIS workshop site.</span>
+<span class="glightbox-desc lightbox-desc-2">Figure&nbsp;1: Screenshot of the GIS workshop site.</span>
 </div>
 </section>
 
@@ -697,14 +714,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>© Copyright 2021-2024 — Benjamin W. Tjepkes</p>
 </div>   
     <div class="nav-footer-center">
-<p><span id="open_preferences_center" class="link">User Cookie Preferences</span></p>
+<p><span id="open_preferences_center">User Preferences</span> | <a href="../..\sitemap.xml" target="_blank">Site Map</a> | Last Updated: 2024-05-26</p>
 </div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.</p>
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -1,7 +1,7 @@
 ---
 title: "My Geographic Perspective"
 subtitle: Places, locations, coordinates.
-abstract: This page contains am interactive leaflet map showing where I have lived, worked, and researched throughout my career.
+abstract: This page contains am interactive leaflet map showing places I have learning, lived, worked, and conducted research throughout my career.
 date: today
 date-modified: today
 format:
