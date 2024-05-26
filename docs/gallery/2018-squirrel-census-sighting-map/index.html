@@ -39,7 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -257,11 +256,11 @@ cookieconsent.run({
 
 <p><a href="img-map-001v2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-map-001v2.png" class="cover-image img-fluid"></a></p>
 <section id="tools-methods" class="level2">
-<h2 class="anchored" data-anchor-id="tools-methods">Tools &amp; Methods</h2>
+<h2 data-anchor-id="tools-methods">Tools &amp; Methods</h2>
 <p>This map was created with several packages in RStudio using data from the Tidy Tuesday repository.</p>
 </section>
 <section id="alternative-result" class="level2">
-<h2 class="anchored" data-anchor-id="alternative-result">Alternative Result</h2>
+<h2 data-anchor-id="alternative-result">Alternative Result</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="img-map-001.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Map Credit: Ben Tjepkes"><img src="img-map-001.png" class="img-fluid figure-img" alt="Map Credit: Ben Tjepkes"></a></p>
@@ -296,13 +295,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -699,7 +691,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -39,7 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -247,11 +246,11 @@ cookieconsent.run({
 
 
 <section id="methods-tools" class="level2">
-<h2 class="anchored" data-anchor-id="methods-tools">Methods &amp; Tools</h2>
+<h2 data-anchor-id="methods-tools">Methods &amp; Tools</h2>
 <p>This project included raster-based suitability calculations completed in ArcMap 10.X.</p>
 </section>
 <section id="final-result" class="level2">
-<h2 class="anchored" data-anchor-id="final-result">Final Result</h2>
+<h2 data-anchor-id="final-result">Final Result</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="img-map-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-map-1.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
@@ -286,13 +285,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -689,7 +681,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","loop":false,"closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -39,7 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -252,7 +251,7 @@ cookieconsent.run({
 
 <p><a href="img-map-4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-map-4.jpg" class="cover-image img-fluid"></a></p>
 <section id="tools-methods" class="level2">
-<h2 class="anchored" data-anchor-id="tools-methods">Tools &amp; Methods</h2>
+<h2 data-anchor-id="tools-methods">Tools &amp; Methods</h2>
 <p>This map and all spatial analysis needed to create it was performed in ArcMap 10.x. All primary structures in each lake-adjacent parcel were outlined using heads-up digitizing techniques. The distance to water was then determined using the Near tool in ArcMap, referencing the ordinary high water mark for compliance.</p>
 
 
@@ -279,13 +278,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -682,7 +674,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -43,6 +43,7 @@ h2:first-of-type {
   border-bottom: solid 1px lightgray;
   --bs-navbar-padding-y: 0.4em;
   background-color: #123c69;
+/*  background-color: #323e5c;*/
   background-image: url("../assets/repeatable-treeline.png");
   background-position: center 50%;
   background-size: cover;
@@ -268,6 +269,7 @@ figure > figcaption {
 .nav-footer {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
+  border-top: solid 1px #dee2e6;
 }
 
 .nav-footer a {
@@ -285,8 +287,8 @@ figure > figcaption {
 .nav-footer {
   flex-direction: column-reverse;
   align-items: center;
-  padding-bottom: 2em;
-  padding-top: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
   gap: 0.5em
 }
 

@@ -39,7 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -265,15 +264,15 @@ cookieconsent.run({
 
 
 <section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<h2 data-anchor-id="introduction">Introduction</h2>
 <p><a href="img-layer-stack.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-layer-stack.png" class="quarto-cover-image img-fluid"></a></p>
 <p>Earlier this academic semester, I was able to help develop and host a technical workshop for the wildlife and fisheries graduate student organization on campus. While I have helped with many GIS training sessions in the past, this was my first time taking the lead on development from start to end. I figured this was a perfect opportunity to test the use of a <a href="https://quarto.org/">Quarto</a> site that would allow me to have all content in one place during and after the workshop.</p>
 <p>The workshop, which was aptly named <em>GIS for Fisheries and Wildlife Sciences</em>, covered the basics of geographic information systems and several methods of programmatically doing spatial work with ArcGIS Pro, Python, and R.</p>
 </section>
 <section id="logistics-content" class="level2">
-<h2 class="anchored" data-anchor-id="logistics-content">Logistics &amp; Content</h2>
+<h2 data-anchor-id="logistics-content">Logistics &amp; Content</h2>
 <p>The functioning website can be found <a href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">here</a> and includes all the required data downloads. The interface (<a href="#fig-screenshot-site" class="quarto-xref">Figure&nbsp;1</a>) is setup as a general website with multiple pages for slides, topics, and resources.</p>
-<div id="fig-screenshot-site" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-screenshot-site" class="quarto-figure quarto-figure-center quarto-float">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-screenshot-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <a href="img-gis-workshop-site-preview.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="img-gis-workshop-site-preview.png" class="img-fluid figure-img"></a>
@@ -285,7 +284,7 @@ Figure&nbsp;1: Screenshot of the GIS workshop site.
 </div>
 </section>
 <section id="final-thoughts" class="level2">
-<h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
+<h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
 <p>This workshop seemed very well-received and I plan on offering this workshop(s) again.</p>
 
 
@@ -318,13 +317,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -721,7 +713,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

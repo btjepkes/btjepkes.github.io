@@ -40,7 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -265,15 +264,15 @@ cookieconsent.run({
 
 <p><a href="img-college-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-college-map.png" class="cover-image img-fluid"></a></p>
 <section id="task-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="task-objectives">Task &amp; Objectives</h2>
+<h2 data-anchor-id="task-objectives">Task &amp; Objectives</h2>
 <p>The prompt for this map was for <strong>Day Nine</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “Hexagons” for the main subject. The resulting map shows 51 hexbins, one for each state and Washington DC, where the color signifies the number of institutions in that state.</p>
 </section>
 <section id="tools-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
+<h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
 <p>Data were downloaded from the National Center for Education Statistics.</p>
 </section>
 <section id="alternative-result" class="level2">
-<h2 class="anchored" data-anchor-id="alternative-result">Alternative Result</h2>
+<h2 data-anchor-id="alternative-result">Alternative Result</h2>
 <p>Here is another version of the above map, this time with a normalized based on total population, showing post-secondary schools for every 100,000 people.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -309,13 +308,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -712,7 +704,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","loop":false,"selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

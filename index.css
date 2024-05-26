@@ -1,8 +1,12 @@
+
+.carousel-inner {
+  border-radius: 20px;
+  margin-top: 0.7em;
+}
+
 .asp-169 {
   aspect-ratio: 41/18;
   object-fit: cover;
-  border-radius: 20px;
-  margin-top: 0.7em;
 }
 
 
@@ -18,15 +22,35 @@
 }
 
 
+#intro-container {
+  background: #123c69;
+  margin-top: -32px;
+  padding: 30px 0;
+  background-image: linear-gradient(to bottom,rgba(18,60,105,0.01) 0%,rgba(18,60,105,0.2) 80%),url(../assets/bg-blue-lines.webp);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -moz-box-shadow:    inset  0 -10px 10px -10px lightgrey;
+  -webkit-box-shadow: inset  0 -10px 10px -10px lightgrey;
+  box-shadow:        inset  0 -10px 10px -10px lightgrey;
+}
+
+
 #intro-section {
   text-align: center;
-  margin-bottom: 0em;
+  margin: 1.2em auto;
 
   h1 {
     text-align: center;
     font-weight: 700;
     font-size: clamp(1.4em, 5vw, 2.0em);
-    line-height: 1.2;}
+    line-height: 1.2;
+    margin-top: 0;
+  }
+  
+  strong {
+    text-transform: uppercase;
+  }
   }
 
 
@@ -57,7 +81,7 @@
 }
 
 .index-latest-column {
-  flex-basis: calc(50% - 10px);
+  flex-basis: calc(50% - 20px);
 /*  background: #e9eef4;*/
 /*  border-radius: 0.5em;
   border: solid rgba(0, 0, 0, 0.175) 1px;
@@ -65,7 +89,7 @@
   
   h3 {
   text-align: center;
-  margin-top: 0.5em;
+  margin-top: 0em;
 }
 
 table.quarto-listing-table a {

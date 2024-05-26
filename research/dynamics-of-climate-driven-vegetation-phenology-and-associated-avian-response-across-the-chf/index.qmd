@@ -1,8 +1,8 @@
 ---
 title: "Master's Thesis Project"
-date-modified: today
+subtitle: Assessing avian response to long-term climate and phenology dynamics.
 date: 2024-01-01
-description: "Assessing avian response to long-term climate and phenology dynamics across the Central Hardwood Forest. This graduate thesis project involves the integration of multiple long-term remote sensing and biological data sources to understand climate change impacts on forests and forest bird communities."
+abstract: "This graduate thesis project involves the integration of multiple long-term remote sensing and biological data sources to understand climate change impacts on forests and forest bird communities across the Central Hardwood Forest."
 categories:
   - Graduate
   - Avian

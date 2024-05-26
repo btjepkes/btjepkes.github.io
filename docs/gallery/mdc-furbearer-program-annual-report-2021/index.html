@@ -38,7 +38,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -252,7 +251,7 @@ cookieconsent.run({
 
 <p><a href="img-2021-mdc-furbearer-report.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-2021-mdc-furbearer-report.png" class="cover-image img-fluid"></a></p>
 <section id="tools-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
+<h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
 <p>Data visualizations were generated in RStudio, ArcGIS Pro, and Microsoft Excel using data from a variety of sources. The full report document can be viewed <a href="file-2021-mdc-furbearer-report.pdf">here</a>.</p>
 
 
@@ -279,13 +278,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -682,7 +674,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","loop":false});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

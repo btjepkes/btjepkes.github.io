@@ -41,7 +41,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -351,49 +350,18 @@ window.Quarto = {
 </header>
 
 
-<!-- Carousel -->
-<div id="demo" class="carousel slide column-page" data-bs-ride="carousel">
-
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-  </div>
-
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    
-    <div class="carousel-item active">
-      <img src="assets/img-ben-with-bear.jpg" alt="Ben with bear" class="d-block w-100 asp-169">
-    </div>
-    
-    <div class="carousel-item">
-      <img src="assets/img-ben-work.png" alt="Ben at work" class="d-block w-100 asp-169">
-    </div>
-    
-  </div>
-
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
+<div id="intro-container" class="page-columns page-full">
 <div id="intro-section" class="column-body-outset">
 <section id="a-dedicated-wildlife-ecologist-and-geospatial-scientist" class="level1">
 <h1>A dedicated wildlife ecologist and geospatial scientist…</h1>
-<p>Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography. Please have a look around and thank you for stopping by!</p>
-</section>
-</div>
-<div id="listing-site-listings-1" class="column-body-outset quarto-listing quarto-listing-container-grid">
+<p>Hello, my name is <strong>Ben Tjepkes</strong> and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of <strong>data science</strong> and <strong>geospatial</strong> tools to conduct research in wildlife ecology and biogeography. Thank you for stopping by!</p>
+<div id="listing-site-listings-1" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1716588774216" data-listing-date-modified-sort="1716699600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="456">
 <a href="./about/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="a-dedicated-wildlife-ecologist-and-geospatial-scientist">
 About Me
 </h5>
 <div class="card-subtitle listing-subtitle">
@@ -476,6 +444,9 @@ in spatial ecology and GIS
 </div>
 <div class="listing-no-matching d-none">
 No matching items
+</div>
+</div>
+</section>
 </div>
 </div>
 <div id="index-carousel" class="column-screen">
@@ -814,7 +785,7 @@ document.getElementById("nextButton").addEventListener("click", () => handleCaro
 <!-- ``` -->
 <div class="index-latest-container column-body-outset">
 <section id="latest-posts" class="level3 index-latest-column">
-<h3 class="anchored" data-anchor-id="latest-posts">Latest Posts</h3>
+<h3 data-anchor-id="latest-posts">Latest Posts</h3>
 <div id="listing-site-listings-2" class="index-latest-posts quarto-listing quarto-listing-container-table">
 <table class="quarto-listing-table table">
 <thead>
@@ -868,7 +839,7 @@ No matching items
 </div>
 </section>
 <section id="latest-projects" class="level3 index-latest-column">
-<h3 class="anchored" data-anchor-id="latest-projects">Latest Projects</h3>
+<h3 data-anchor-id="latest-projects">Latest Projects</h3>
 <div id="listing-site-listings-3" class="index-latest-gallery quarto-listing quarto-listing-container-table">
 <table class="quarto-listing-table table">
 <thead>
@@ -947,13 +918,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

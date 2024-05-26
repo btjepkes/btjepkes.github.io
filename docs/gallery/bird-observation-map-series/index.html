@@ -38,7 +38,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -250,7 +249,7 @@ cookieconsent.run({
 
 
 <section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<h2 data-anchor-id="overview">Overview</h2>
 <p>This map series was created as part of my advanced GIS course final project. I used bird feeder visitation data from <a href="https://feederwatch.org/">Project FeederWatch</a> to develop a map series showing the spatial distribution of observations in each major U.S. metro area. The main tools used for this project were ArcGIS Pro and Python, specifically <code>arcpy</code>.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Workflow</a></li></ul>
@@ -284,7 +283,7 @@ cookieconsent.run({
 </div>
 </section>
 <section id="final-result" class="level2">
-<h2 class="anchored" data-anchor-id="final-result">Final Result</h2>
+<h2 data-anchor-id="final-result">Final Result</h2>
 <p>Here is the resulting product, a PDF map series with consistent styling and symbology. The full notebook, which outlines the complete methods and steps performed, can be found in this <a href="https://github.com/btjepkes/mu-geog-7940/">GitHub repo</a>. I am excited to build upon this workflow to develop automated techniques of map creation for other projects as well.</p>
 <iframe class="slide-deck-4x3" src="slides-bird-obs-map-series.html">
 </iframe>
@@ -313,13 +312,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
