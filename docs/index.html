@@ -350,18 +350,23 @@ window.Quarto = {
 </header>
 
 
-<div id="intro-container" class="page-columns page-full">
-<div id="intro-section" class="column-body-outset">
+<div id="intro-container" class="column-screen page-columns page-full">
+<div id="intro-section" class="page-columns page-full">
+<div id="intro-section-content" class="column-page">
 <section id="a-dedicated-wildlife-ecologist-and-geospatial-scientist" class="level1">
 <h1>A dedicated wildlife ecologist and geospatial scientist…</h1>
-<p>Hello, my name is <strong>Ben Tjepkes</strong> and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of <strong>data science</strong> and <strong>geospatial</strong> tools to conduct research in wildlife ecology and biogeography. Thank you for stopping by!</p>
-<div id="listing-site-listings-1" class="quarto-listing quarto-listing-container-grid">
+<p>Hello, my name is <strong>Ben Tjepkes</strong> and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography. Thank you for stopping by!</p>
+</section>
+</div>
+</div>
+<div class="index-listing column-screen page-columns page-full">
+<div id="listing-site-listings-1" class="column-page quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1716588774216" data-listing-date-modified-sort="1716699600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="456">
 <a href="./about/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title" data-anchor-id="a-dedicated-wildlife-ecologist-and-geospatial-scientist">
+<h5 class="no-anchor card-title listing-title">
 About Me
 </h5>
 <div class="card-subtitle listing-subtitle">
@@ -407,7 +412,7 @@ for coding, GIS, and beyond
 My Blog Posts
 </h5>
 <div class="card-subtitle listing-subtitle">
-and other organized ramblings
+and other ramblings
 </div>
 </div>
 </div>
@@ -446,343 +451,296 @@ in spatial ecology and GIS
 No matching items
 </div>
 </div>
-</section>
 </div>
 </div>
 <div id="index-carousel" class="column-screen">
+<!-- ```{=html} -->
+<!-- <!DOCTYPE html> -->
+<!-- <html> -->
+<!-- <head> -->
+<!--     <meta charset="UTF-8" /> -->
+<!--     <title>title</title> -->
+<!--     <style> -->
+<!--       .dashed-line { -->
+<!--         position: relative; -->
+<!--         height: 30px; -->
+<!--         width: 100%; -->
+<!--         display: none; -->
+<!--         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAzCAYAAAC0e3lWAAABT0lEQVQ4T5WUS0tCURRGr6HRoIIoqOgxqUkNougB9u6Pp6WDsgf0IiJQCooGGUE1aCC0PrhHzt3tJIWF5+7luR73vp+5JEl6oQgH0H7l0tUO70fwHUwQ8xS+4MGKYQozULNC1xtwCR+6CLfSWjt64N6KfgpLULFC16vQgNf4VhLTMAjXVvRRXINDK7RrD6qe0I47Tywi3j0xh8h7YgVR98Q2omZFIe1Z2YpRxAScW7GgdsBzLDTiLShDKxZTFMbgxHa33dlYZGYRi8z0YpGZdxB5Fvq1+yqEl06lialxx1aMUxiBKyvWKbxA3YpJCgNwa8UQBR331IqOMdhNd3zGx9VaMVDx0YqOMdjk0xfwKwazFNUJNwZ62Kr6HjtzDUsdaHoxUBduuo5BpesYvP0Vg4InljlV498x0BOj57fkxUCjPvNi0EQ8xUJp0h9aCVo/o4FBKG9s+uwAAAAASUVORK5CYII=); -->
+<!--         background-repeat: repeat-x; -->
+<!--         background-position: top; -->
+<!--         background-color: #f0f0ec; -->
+<!--         opacity: 0.7; -->
+<!--       } -->
+<!--       body { -->
+<!--         margin: 0; -->
+<!--         position: relative; -->
+<!--         } -->
+<!--         .carousel { -->
+<!--             display: flex; -->
+<!--             justify-content: center; -->
+<!--             align-items: center; -->
+<!--             } -->
+<!--         .carousel-arrow { -->
+<!--             position: absolute; -->
+<!--             display: flex; -->
+<!--             justify-content: center; -->
+<!--             top: 0; -->
+<!--             bottom: 0; -->
+<!--             margin-block: auto; -->
+<!--             height: 100%; -->
+<!--             width: 40px; -->
+<!--             background-color: transparent; -->
+<!--             color: #268bd2; -->
+<!--             text-shadow: 1px 1px rgba(15, 23, 42, 0.85); -->
+<!--             border: none; -->
+<!--             font-size: 4rem; -->
+<!--             padding: 0; -->
+<!--             padding-top: 70px; -->
+<!--             cursor: pointer; -->
+<!--             opacity: 1.0; -->
+<!--             transition: opacity 100ms; -->
+<!--             } -->
+<!--         .carousel-arrow:hover, -->
+<!--         .carousel-arrow:focus { -->
+<!--         opacity: 1; -->
+<!--         } -->
+<!--         .carousel-arrow--prev { -->
+<!--         left: 0; -->
+<!--         } -->
+<!--         .carousel-arrow--next { -->
+<!--         right: 0; -->
+<!--         } -->
+<!--         .carousel-container { -->
+<!--         width: 100%; -->
+<!--         overflow-x: hidden; -->
+<!--         display: flex; -->
+<!--         gap: 20px; -->
+<!--         align-items: center; -->
+<!--         scroll-snap-type: x mandatory; -->
+<!--         flex-flow: row nowrap; -->
+<!--         scroll-behavior: smooth; -->
+<!--         margin: 20px 2px; -->
+<!--         } -->
+<!--         .carousel-container::-webkit-scrollbar { -->
+<!--         height: 14px; -->
+<!--         width: calc(100% - 48px); -->
+<!--         } -->
+<!--         .carousel-container::-webkit-scrollbar-track { -->
+<!--         background: #b1b3b399; -->
+<!--         } -->
+<!--         .carousel-container::-webkit-scrollbar-thumb { -->
+<!--         background: #29AB87; -->
+<!--         } -->
+<!--         .carousel-container::-webkit-scrollbar-track-piece:start { -->
+<!--         background: #29AB87; -->
+<!--         } -->
+<!--         .carousel__item { -->
+<!--             flex: 1 0 30%; -->
+<!--             height: 220px; -->
+<!--             flex-flow: column nowrap; -->
+<!--             display: flex; -->
+<!--             scroll-snap-align: center; -->
+<!--             background-size: cover; -->
+<!--             background-position: center; -->
+<!--             box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6); -->
+<!--             border-radius: 20px; -->
+<!--             } -->
+<!--             .carousel__item:first-of-type { -->
+<!--               margin-left: 14px; -->
+<!--             } -->
+<!--             .carousel__item:last-of-type { -->
+<!--               margin-right: 14px; -->
+<!--             } -->
+<!--         .carousel__content { -->
+<!--           background: rgba(0, 0, 0, 0.8); -->
+<!--           border-right: solid #1cd354; -->
+<!--           border-radius: 5px 0 0 5px; -->
+<!--           backdrop-filter: blur(5px); -->
+<!--           text-align: center; -->
+<!--           margin: 20px 0px auto auto; -->
+<!--           p {margin: auto auto; -->
+<!--             padding: 4px 12px; -->
+<!--             color: white; -->
+<!--             font-family: "Roboto Slab", serif; -->
+<!--         } -->
+<!--         } -->
+<!--         @media (max-width: 600px) { -->
+<!--         .carousel__item { -->
+<!--             flex: 1 0 90%; -->
+<!--         } -->
+<!--         } -->
+<!-- </style> -->
+<!-- </head> -->
+<!-- <body> -->
+<!--     <div class="carousel"> -->
+<!--         <button class="carousel-arrow carousel-arrow--prev" onclick="handleCarouselMove(false)"> -->
+<!--             &#8249; -->
+<!--         </button> -->
+<!--         <button class="carousel-arrow carousel-arrow--next" onclick="handleCarouselMove()"> -->
+<!--             &#8250; -->
+<!--         </button> -->
+<!--         <div class="carousel-container"> -->
+<!--             <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;"> -->
+<!--                 <div class="carousel__content"> -->
+<!--                     <p>Wildlife Ecology</p> -->
+<!--                 </div> -->
+<!--             </div> -->
+<!--             <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;"> -->
+<!--                 <div class="carousel__content"> -->
+<!--                     <p>Remote Sensing</p> -->
+<!--                 </div>  -->
+<!--             </div> -->
+<!--             <div class="carousel__item" style="background-image: url('https://static.wixstatic.com/media/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg/v1/fill/w_560,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg'); background-color: #001a17;"> -->
+<!--                 <div class="carousel__content"> -->
+<!--                     <p>Conservation GIS</p> -->
+<!--                 </div>   -->
+<!--             </div> -->
+<!--             <div class="carousel__item" style="background-image: url('https://zubrod-eds.de/wp-content/uploads/2021/02/Heart_cropped.jpg'); background-color: #001a17;"> -->
+<!--                 <div class="carousel__content"> -->
+<!--                     <p>Environmental Data Science</p> -->
+<!--                 </div>   -->
+<!--             </div> -->
+<!--             <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;"> -->
+<!--                 <div class="carousel__content"> -->
+<!--                     <p>Biogeography</p> -->
+<!--                 </div>   -->
+<!--             </div> -->
+<!--             <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;"> -->
+<!--                 <div class="carousel__content"> -->
+<!--                     <p>Climate Science</p> -->
+<!--                 </div>   -->
+<!--             </div> -->
+<!--         </div> -->
+<!--     </div> -->
+<!--   <div class="dashed-line"> -->
+<!--   </div> -->
+<!-- </body> -->
+<!-- <script> -->
+<!-- const carousel = document.querySelector(".carousel-container"); -->
+<!-- const slides = document.querySelectorAll(".carousel__item"); -->
+<!-- let intervalId; -->
+<!-- function handleCarouselMove(positive = true) { -->
+<!--     const slideWidth = slides[0].clientWidth; -->
+<!--     const totalWidth = slideWidth * slides.length; -->
+<!--     const maxScrollLeft = totalWidth - carousel.clientWidth; -->
+<!--     if (positive) { -->
+<!--         if (carousel.scrollLeft + slideWidth >= maxScrollLeft + slideWidth) { -->
+<!--             carousel.scrollLeft = 0; // Go to the start -->
+<!--         } else { -->
+<!--             carousel.scrollLeft += slideWidth; -->
+<!--         } -->
+<!--     } else { -->
+<!--         if (carousel.scrollLeft - slideWidth <= -slideWidth) { -->
+<!--             carousel.scrollLeft = maxScrollLeft; // Go to the end -->
+<!--         } else { -->
+<!--             carousel.scrollLeft -= slideWidth; -->
+<!--         } -->
+<!--     } -->
+<!--     // Clear interval when buttons are clicked and restart it -->
+<!--     clearInterval(intervalId); -->
+<!--     startAutoMove(); -->
+<!-- } -->
+<!-- // Function to move the carousel automatically -->
+<!-- function autoMoveCarousel() { -->
+<!--     handleCarouselMove(true); // Move to the next slide -->
+<!-- } -->
+<!-- // Set interval to move the carousel every 5 seconds -->
+<!-- function startAutoMove() { -->
+<!--     intervalId = setInterval(autoMoveCarousel, 2000); -->
+<!-- } -->
+<!-- // Clear interval when mouse enters the carousel -->
+<!-- function pauseAutoMove() { -->
+<!--     clearInterval(intervalId); -->
+<!-- } -->
+<!-- // Restart interval when mouse leaves the carousel -->
+<!-- function resumeAutoMove() { -->
+<!--     startAutoMove(); -->
+<!-- } -->
+<!-- // Start auto movement initially -->
+<!-- startAutoMove(); -->
+<!-- // Add event listeners for hover -->
+<!-- carousel.addEventListener("mouseenter", pauseAutoMove); -->
+<!-- carousel.addEventListener("mouseleave", resumeAutoMove); -->
+<!-- // Add event listeners for buttons -->
+<!-- document.getElementById("prevButton").addEventListener("click", () => handleCarouselMove(false)); -->
+<!-- document.getElementById("nextButton").addEventListener("click", () => handleCarouselMove(true)); -->
+<!-- </script> -->
+<!-- </html> -->
+<!-- ``` -->
+</div>
+<!-- # FOCUS AREAS: -->
 
 
 
     <meta charset="UTF-8">
-    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Divs</title>
     <style>
-      .dashed-line {
-        position: relative;
-        height: 30px;
-        width: 100%;
-        display: none;
-        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAzCAYAAAC0e3lWAAABT0lEQVQ4T5WUS0tCURRGr6HRoIIoqOgxqUkNougB9u6Pp6WDsgf0IiJQCooGGUE1aCC0PrhHzt3tJIWF5+7luR73vp+5JEl6oQgH0H7l0tUO70fwHUwQ8xS+4MGKYQozULNC1xtwCR+6CLfSWjt64N6KfgpLULFC16vQgNf4VhLTMAjXVvRRXINDK7RrD6qe0I47Tywi3j0xh8h7YgVR98Q2omZFIe1Z2YpRxAScW7GgdsBzLDTiLShDKxZTFMbgxHa33dlYZGYRi8z0YpGZdxB5Fvq1+yqEl06lialxx1aMUxiBKyvWKbxA3YpJCgNwa8UQBR331IqOMdhNd3zGx9VaMVDx0YqOMdjk0xfwKwazFNUJNwZ62Kr6HjtzDUsdaHoxUBduuo5BpesYvP0Vg4InljlV498x0BOj57fkxUCjPvNi0EQ8xUJp0h9aCVo/o4FBKG9s+uwAAAAASUVORK5CYII=);
-        background-repeat: repeat-x;
-        background-position: top;
-        background-color: #f0f0ec;
-        opacity: 0.7;
-      }
-
-      body {
-        margin: 0;
-        position: relative;
-        }
-
-        .carousel {
+        <!-- body { -->
+        <!--     font-family: Arial, sans-serif; -->
+        <!--     margin: 0; -->
+        <!--     padding: 0; -->
+        <!-- } -->
+        .container {
+            width: 100%;
+            margin: 0 auto;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            }
-
-        .carousel-arrow {
-            position: absolute;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .lazy-div {
             display: flex;
-            justify-content: center;
-            top: 0;
-            bottom: 0;
-            margin-block: auto;
-            height: 100%;
-            width: 40px;
-            background-color: transparent;
-            color: #268bd2;
-            text-shadow: 1px 1px rgba(15, 23, 42, 0.85);
-            border: none;
-            font-size: 4rem;
-            padding: 0;
-            padding-top: 70px;
-            cursor: pointer;
-            opacity: 1.0;
-            transition: opacity 100ms;
-            }
-
-        .carousel-arrow:hover,
-        .carousel-arrow:focus {
-        opacity: 1;
-        }
-
-        .carousel-arrow--prev {
-        left: 0;
-        }
-
-        .carousel-arrow--next {
-        right: 0;
-        }
-
-        .carousel-container {
-        width: 100%;
-        overflow-x: hidden;
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        scroll-snap-type: x mandatory;
-        flex-flow: row nowrap;
-        scroll-behavior: smooth;
-        margin: 20px 2px;
-        }
-
-        .carousel-container::-webkit-scrollbar {
-        height: 14px;
-        width: calc(100% - 48px);
-        }
-
-        .carousel-container::-webkit-scrollbar-track {
-        background: #b1b3b399;
-        }
-
-        .carousel-container::-webkit-scrollbar-thumb {
-        background: #29AB87;
-        }
-
-        .carousel-container::-webkit-scrollbar-track-piece:start {
-        background: #29AB87;
-        }
-
-        .carousel__item {
-            flex: 1 0 30%;
-            height: 220px;
-            flex-flow: column nowrap;
-            display: flex;
-            scroll-snap-align: center;
+            flex: 0 0 calc(50% - 5px);
+            padding: 10px;
+            height: 250px;
+            margin: 0 0;
+            border-radius: 5px;
+            font-size: 24px;
+            color: #aaa;
             background-size: cover;
-            background-position: center;
-            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
-            border-radius: 20px;
-            }
-            
-            .carousel__item:first-of-type {
-              margin-left: 14px;
-            }
-            .carousel__item:last-of-type {
-              margin-right: 14px;
-            }
-
-        .carousel__content {
-          background: rgba(0, 0, 0, 0.8);
-          border-right: solid #1cd354;
-          border-radius: 5px 0 0 5px;
-          backdrop-filter: blur(5px);
-          text-align: center;
-          margin: 20px 0px auto auto;
-          
-          p {margin: auto auto;
-            padding: 4px 12px;
-            color: white;
-            font-family: "Roboto Slab", serif;
+            background-position: center center;
+            transition: background-color 2s, color 0.5s;
         }
-          
+        .lazy-div.loaded {
+            background-color: #4caf50;
+            color: #fff;
         }
-
-        @media (max-width: 600px) {
-        .carousel__item {
-            flex: 1 0 90%;
-        }
-        }
-</style>
+    </style>
 
 
-    <div class="carousel">
-        <button class="carousel-arrow carousel-arrow--prev" onclick="handleCarouselMove(false)">
-            ‹
-        </button>
-        <button class="carousel-arrow carousel-arrow--next" onclick="handleCarouselMove()">
-            ›
-        </button>
-        <div class="carousel-container">
-            <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
-                <div class="carousel__content">
-                    <p>Wildlife Ecology</p>
-                </div>
-            </div>
-            <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;">
-                <div class="carousel__content">
-                    <p>Remote Sensing</p>
-                </div> 
-            </div>
-            <div class="carousel__item" style="background-image: url('https://static.wixstatic.com/media/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg/v1/fill/w_560,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg'); background-color: #001a17;">
-                <div class="carousel__content">
-                    <p>Conservation GIS</p>
-                </div>  
-            </div>
-            <div class="carousel__item" style="background-image: url('https://zubrod-eds.de/wp-content/uploads/2021/02/Heart_cropped.jpg'); background-color: #001a17;">
-                <div class="carousel__content">
-                    <p>Environmental Data Science</p>
-                </div>  
-            </div>
-            <div class="carousel__item" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;">
-                <div class="carousel__content">
-                    <p>Biogeography</p>
-                </div>  
-            </div>
-            <div class="carousel__item" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">
-                <div class="carousel__content">
-                    <p>Climate Science</p>
-                </div>  
-            </div>
-        </div>
+    <div class="container column-screen-inset">
+        <div class="lazy-div" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">Wildlife</div>
+        <div class="lazy-div" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;">Remote Sensing</div>
+        <div class="lazy-div" style="background-image: url('https://static.wixstatic.com/media/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg/v1/fill/w_560,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg'); background-color: #001a17;">Conservation GIS</div>
+        <div class="lazy-div" style="background-image: url('https://zubrod-eds.de/wp-content/uploads/2021/02/Heart_cropped.jpg'); background-color: #001a17;">Environmental Data Science</div>
+        <div class="lazy-div" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;">Biogeography</div>
+        <div class="lazy-div" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;">Climate Science</div>
     </div>
-  <div class="dashed-line">
-  </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const lazyDivs = document.querySelectorAll('.lazy-div');
 
-<script>
-const carousel = document.querySelector(".carousel-container");
-const slides = document.querySelectorAll(".carousel__item");
-let intervalId;
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('loaded');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
 
-function handleCarouselMove(positive = true) {
-    const slideWidth = slides[0].clientWidth;
-    const totalWidth = slideWidth * slides.length;
-    const maxScrollLeft = totalWidth - carousel.clientWidth;
+            lazyDivs.forEach(div => {
+                observer.observe(div);
+            });
+        });
+    </script>
 
-    if (positive) {
-        if (carousel.scrollLeft + slideWidth >= maxScrollLeft + slideWidth) {
-            carousel.scrollLeft = 0; // Go to the start
-        } else {
-            carousel.scrollLeft += slideWidth;
-        }
-    } else {
-        if (carousel.scrollLeft - slideWidth <= -slideWidth) {
-            carousel.scrollLeft = maxScrollLeft; // Go to the end
-        } else {
-            carousel.scrollLeft -= slideWidth;
-        }
-    }
 
-    // Clear interval when buttons are clicked and restart it
-    clearInterval(intervalId);
-    startAutoMove();
-}
 
-// Function to move the carousel automatically
-function autoMoveCarousel() {
-    handleCarouselMove(true); // Move to the next slide
-}
-
-// Set interval to move the carousel every 5 seconds
-function startAutoMove() {
-    intervalId = setInterval(autoMoveCarousel, 2000);
-}
-
-// Clear interval when mouse enters the carousel
-function pauseAutoMove() {
-    clearInterval(intervalId);
-}
-
-// Restart interval when mouse leaves the carousel
-function resumeAutoMove() {
-    startAutoMove();
-}
-
-// Start auto movement initially
-startAutoMove();
-
-// Add event listeners for hover
-carousel.addEventListener("mouseenter", pauseAutoMove);
-carousel.addEventListener("mouseleave", resumeAutoMove);
-
-// Add event listeners for buttons
-document.getElementById("prevButton").addEventListener("click", () => handleCarouselMove(false));
-document.getElementById("nextButton").addEventListener("click", () => handleCarouselMove(true));
-
-</script>
-
-</div>
-<!-- # FOCUS AREAS: -->
-<!-- ```{=html} -->
-<!-- <!DOCTYPE html> -->
-<!-- <html lang="en"> -->
-<!-- <head> -->
-<!--     <meta charset="UTF-8"> -->
-<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-<!--     <title>Lazy Loading Divs with Slide In</title> -->
-<!--     <style> -->
-<!--         .my-class { -->
-<!--             font-family: Arial, sans-serif; -->
-<!--             margin: 0; -->
-<!--             padding: 0; -->
-<!--             display: flex; -->
-<!--             justify-content: center; -->
-<!--         } -->
-<!--         .container-divs { -->
-<!--             display: flex; -->
-<!--             flex-wrap: wrap; -->
-<!--             overflow: hidden; -->
-<!--         } -->
-<!--         .lazy-div { -->
-<!--             width: 100%; /* Adjusted for responsiveness */ -->
-<!--             height: 200px; -->
-<!--             margin: 10px 0; -->
-<!--             background-color: #f0f0f0; -->
-<!--             display: flex; -->
-<!--             justify-content: center; -->
-<!--             align-items: center; -->
-<!--             font-size: 24px; -->
-<!--             color: #aaa; -->
-<!--             opacity: 0; -->
-<!--             transform: translateX(0); -->
-<!--             transition: transform 1s ease-out, opacity 1s ease-out; -->
-<!--         } -->
-<!--         @media(min-width: 600px) { -->
-<!--             .lazy-div { -->
-<!--                 width: 48%; /* Two columns for larger screens */ -->
-<!--                 margin: 10px 1%; -->
-<!--             } -->
-<!--         } -->
-<!--         .lazy-div.loaded { -->
-<!--             opacity: 1; -->
-<!--         } -->
-<!--         .left { -->
-<!--             transform: translateX(-100%); -->
-<!--         } -->
-<!--         .left.loaded { -->
-<!--             transform: translateX(0); -->
-<!--         } -->
-<!--         .right { -->
-<!--             transform: translateX(100%); -->
-<!--         } -->
-<!--         .right.loaded { -->
-<!--             transform: translateX(0); -->
-<!--         } -->
-<!--     </style> -->
-<!-- </head> -->
-<!-- <body class="my-class"> -->
-<!--     <div class="container-divs"> -->
-<!--         <div class="lazy-div left">Div 1</div> -->
-<!--         <div class="lazy-div right">Div 2</div> -->
-<!--         <div class="lazy-div left">Div 3</div> -->
-<!--         <div class="lazy-div right">Div 4</div> -->
-<!--         <div class="lazy-div left">Div 5</div> -->
-<!--         <div class="lazy-div right">Div 6</div> -->
-<!--         <div class="lazy-div left">Div 7</div> -->
-<!--         <div class="lazy-div right">Div 8</div> -->
-<!--         <div class="lazy-div left">Div 9</div> -->
-<!--         <div class="lazy-div right">Div 10</div> -->
-<!--     </div> -->
-<!--     <script> -->
-<!--         document.addEventListener('DOMContentLoaded', function() { -->
-<!--             const lazyDivs = document.querySelectorAll('.lazy-div'); -->
-<!--             const observer = new IntersectionObserver((entries, observer) => { -->
-<!--                 entries.forEach(entry => { -->
-<!--                     if (entry.isIntersecting) { -->
-<!--                         entry.target.classList.add('loaded'); -->
-<!--                         observer.unobserve(entry.target); -->
-<!--                     } -->
-<!--                 }); -->
-<!--             }, { -->
-<!--                 threshold: 0.5 // Increased threshold for better visibility detection -->
-<!--             }); -->
-<!--             lazyDivs.forEach(div => { -->
-<!--                 observer.observe(div); -->
-<!--             }); -->
-<!--         }); -->
-<!--     </script> -->
-<!-- </body> -->
-<!-- </html> -->
-<!-- ``` -->
 <div class="index-latest-container column-body-outset">
 <section id="latest-posts" class="level3 index-latest-column">
 <h3 data-anchor-id="latest-posts">Latest Posts</h3>
