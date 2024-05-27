@@ -7,10 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Benjamin Tjepkes">
-<meta name="dcterms.date" content="2023-04-16">
-<meta name="description" content="This choropleth map was created as a public-facing visualization to show the number of black bear sightings in each Missouri county during 2020. It was featured in the February 2021 issue of the Missouri Conservationist for an article about Missouri’s black bear population.">
+<meta name="dcterms.date" content="2021-01-01">
 
-<title>Choropleth of Missouri Bear Sightings | B.W. Tjepkes</title>
+<title>My Research | B.W. Tjepkes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,27 +25,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../assets/layer-group-solid.svg" rel="icon" type="image/svg+xml">
-<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/layer-group-solid.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-custom-research-listings .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-category','listing-custom-field','listing-href','listing-href2','listing-image','listing-image2',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-category","listing-custom-field","listing-href","listing-href2","listing-image","listing-image2"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-custom-research-listings'] = new List('listing-custom-research-listings', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -103,24 +130,28 @@ cookieconsent.run({
   
 <style>html{ scroll-behavior: smooth; }</style>
 
- <meta property="og:title" content="Choropleth of Missouri Bear Sightings | B.W. Tjepkes">
-<meta property="og:description" content="This choropleth map was created as a public-facing visualization to show the number of black bear sightings in each Missouri county during 2020. It was featured in the February 2021 issue of the Missouri Conservationist for an article about Missouri’s black bear population.">
-<meta property="og:image" content="https://btjepkes.github.io/gallery/missouri-bear-sighting-map/img-map-5.jpg">
+ <meta property="og:title" content="My Research | B.W. Tjepkes">
+<meta property="og:description" content="Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques aimed at applied conservation, expanding both my technical skillset and my appreciation for science.">
+<meta property="og:image" content="https://btjepkes.github.io/assets/bg-pines-research-gray-sm.png">
 <meta property="og:site_name" content="Benjamin W. Tjepkes">
-<meta property="og:image:alt" content="Cholorpleth map showing the number of sightings per Missouri county.">
+<meta property="og:image:height" content="300">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:alt" content="Image-of-pine-trees-on-blue-background.">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="This choropleth map was created as a public-facing visualization to show the number of black bear sightings in each Missouri county during 2020. It was featured in the February 2021 issue of the Missouri Conservationist for an article about Missouri’s black bear population.">
-<meta name="twitter:image" content="https://btjepkes.github.io/gallery/missouri-bear-sighting-map/img-map-5.jpg">
+<meta name="twitter:description" content="Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques aimed at applied conservation, expanding both my technical skillset and my appreciation for science.">
+<meta name="twitter:image" content="https://btjepkes.github.io/assets/bg-pines-research-gray-sm.png">
 <meta name="twitter:creator" content="@BTjepkes">
-<meta name="twitter:image:alt" content="Cholorpleth map showing the number of sightings per Missouri county.">
+<meta name="twitter:image-height" content="300">
+<meta name="twitter:image-width" content="1000">
+<meta name="twitter:image:alt" content="Image-of-pine-trees-on-blue-background.">
 <meta name="twitter:card" content="summary_large_image">
 </head><body class="nav-fixed"><nav class=" menu-navbar navbar navbar-expand-lg bg-light navbar-light">
   <div class="container-fluid">
     <div class="nav-item dropdown">
       <a class="nav-link dropdown-toggle text-primary" href="#" role="button" data-bs-toggle="dropdown">Latest</a>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="../../posts/text-mining-course-descriptions/">Post - Text Mining</a></li>
-        <li><a class="dropdown-item" href="../../gallery/bird-observation-map-series/">Project - Bird Observations</a></li>
+        <li><a class="dropdown-item" href="../posts/text-mining-course-descriptions/">Post - Text Mining</a></li>
+        <li><a class="dropdown-item" href="../gallery/bird-observation-map-series/">Project - Bird Observations</a></li>
       </ul>
     </div> 
    <form class="d-flex">
@@ -133,8 +164,37 @@ cookieconsent.run({
   </div>
 </nav> 
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../shared-assets/styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../shared-assets/styles.css">
 
 
 
@@ -144,10 +204,10 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/forest-svgrepo-com.svg" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/forest-svgrepo-com.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Benjamin W. Tjepkes</span>
     </a>
   </div>
@@ -158,27 +218,27 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about/index.html"> 
+    <a class="nav-link" href="../about/index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../curriculum-vitae/index.html"> 
+    <a class="nav-link" href="../curriculum-vitae/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts/index.html"> 
+    <a class="nav-link" href="../posts/index.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../gallery/index.html"> 
+    <a class="nav-link" href="../gallery/index.html"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research/index.html"> 
+    <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources/index.html"> 
+    <a class="nav-link" href="../resources/index.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
 </ul>
@@ -193,32 +253,17 @@ cookieconsent.run({
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On This Page:</h2>
-   
-  <ul class="collapse">
-  <li><a href="#tools-methods" id="toc-tools-methods" class="nav-link active" data-scroll-target="#tools-methods">Tools &amp; Methods</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Choropleth of Missouri Bear Sightings</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Map Gallery</div>
-    <div class="quarto-category">Missouri</div>
-    <div class="quarto-category">Choropleth</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    This choropleth map was created as a public-facing visualization to show the number of black bear sightings in each Missouri county during 2020. It was featured in the <a href="https://mdc.mo.gov/magazines/missouri-conservationist/2021-02/missouri-black-bears">February 2021 issue of the <em>Missouri Conservationist</em></a> for an article about Missouri’s black bear population.
-  </div>
+<h1 class="title">My Research</h1>
+<p class="subtitle lead">Across ecology, geospatial, and applied conservation.</p>
 </div>
+
 
 
 <div class="quarto-title-meta">
@@ -233,7 +278,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2023-04-16</p>
+      <p class="date">2021-01-01</p>
     </div>
   </div>
   
@@ -249,7 +294,7 @@ cookieconsent.run({
 <div>
   <div class="abstract">
     <div class="block-title">What’s This About?</div>
-    County-based counts of reported bear sightings in Missouri during 2020.
+    Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques aimed at applied conservation, expanding both my technical skillset and my appreciation for science.
   </div>
 </div>
 
@@ -257,13 +302,33 @@ cookieconsent.run({
 </header>
 
 
-<p><a href="img-map-5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-map-5.jpg" class="cover-image img-fluid"></a></p>
-<section id="tools-methods" class="level2">
-<h2 data-anchor-id="tools-methods">Tools &amp; Methods</h2>
-<p>Map creation was performed in ArcGIS Pro. All data came from internally-maintained geodatabases.</p>
+<div id="listing-custom-research-listings" class="quarto-listing quarto-listing-container-custom">
+
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-column-reverse">
+    <div class="d-flex flex-row">
+      <img class="card-img-top p-2" src="./dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/img-gee-map.png" alt="Card image">
+      <img class="card-img-top p-2" src="./dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/img-screenshot-map.png" alt="Card image">
+    </div>
+    <div class="card-body" data-index="0">
+      <h4 class="card-title" style="margin-top: 0;">Master's Thesis Project</h4>
+      <p class="card-text">Assessing avian response to long-term climate and phenology dynamics.</p>
+      <a href="./dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/" class="card-link">Project Details</a>
+      <a href="https://osf.io/d3wrg/" class="card-link">OSF Link</a>
+    </div>
+  </div>
+  
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- ### My Research Geography -->
+<!-- I am fortunate to have worked extensively across the Midwestern United States on a diversity of projects. The map below displays my research influence across this region where I have conducted research. -->
 
 
-</section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -664,10 +729,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="btjepkes/btjepkes.github.io" data-repo-id="R_kgDOJTu9rA" data-category="General" data-category-id="DIC_kwDOJTu9rM4CfHe9" data-mapping="title" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
-</script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -675,41 +736,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>© Copyright 2021-2024 — Benjamin W. Tjepkes</p>
 </div>   
     <div class="nav-footer-center">
-<p><span id="open_preferences_center">User Preferences</span> | <a href="../..\sitemap.xml" target="_blank">Site Map</a> | Last Updated: 2024-05-27</p>
+<p><span id="open_preferences_center">User Preferences</span> | <a href="..\sitemap.xml" target="_blank">Site Map</a> | Last Updated: 2024-05-27</p>
 </div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.</p>
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

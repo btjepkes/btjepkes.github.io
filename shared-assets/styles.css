@@ -27,16 +27,16 @@ h2:first-of-type {
   padding: 4px 18px;
   
   .container-fluid {
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 }
 
-@media (max-width: 991.98px) {
+/*@media (max-width: 991.98px) {
   .menu-navbar .container-fluid {
     flex-direction: row;
     text-align: center;
   }
- }
+ }*/
 
 
 .navbar {
@@ -83,12 +83,16 @@ h2:first-of-type {
 }
 
 
-  @media (max-width: 991.98px) {
+.dropdown-toggle::after {
+  vertical-align: .15em !important;
+}
+
+/*  @media (max-width: 991.98px) {
       
     .navbar #quarto-search {
       display: none;
     }
-    }
+    }*/
 
 .container,
 .container-fluid,

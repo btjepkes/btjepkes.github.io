@@ -1,0 +1,36 @@
+```{=html}
+
+<%
+  // Group items by category
+  const itemsByCategory = {};
+  for (const item of items) {
+    if (item.category) {  // Ensure category is defined
+      if (!itemsByCategory[item.category]) {
+        itemsByCategory[item.category] = [];
+      }
+      itemsByCategory[item.category].push(item);
+    }
+  }
+%>
+
+<% for (const category in itemsByCategory) { 
+     if (itemsByCategory.hasOwnProperty(category)) { %>
+  <% for (const item of itemsByCategory[category]) { %>
+  
+  <div class="card mb-4 shadow-sm d-flex flex-column-reverse">
+    <div class="d-flex flex-row">
+      <img class="card-img-top p-2" src="<%- item.image %>" alt="Card image">
+      <img class="card-img-top p-2" src="<%- item.image2 %>" alt="Card image">
+    </div>
+    <div class="card-body" <%= metadataAttrs(item) %>>
+      <h4 class="card-title" style="margin-top: 0;"><%- item.name %></h4>
+      <p class="card-text"><%- item['custom-field'] %></p>
+      <a href="<%- item.href %>" class="card-link">Project Details</a>
+      <a href="<%- item.href2 %>" class="card-link">OSF Link</a>
+    </div>
+  </div>
+  <% } %>
+<% } } %>
+
+
+```

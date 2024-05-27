@@ -12,7 +12,7 @@ website:
   favicon: "assets/layer-group-solid.svg"
   page-navigation: false
   back-to-top-navigation: false
-  bread-crumbs: false
+  bread-crumbs: true
   search:
     location: navbar
     type: textbox
@@ -31,24 +31,22 @@ website:
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
   navbar:
-    # logo: assets/forest-svgrepo-com.svg
-    collapse-below: xxl
+    logo: assets/forest-svgrepo-com.svg
+    collapse-below: lg
     pinned: false
-    # left:
-    #   - href: index.qmd
-    #     text: Home
-    #   - href: about/index.qmd
-    #     text: About
-    #   - href: curriculum-vitae/index.qmd
-    #     text: CV        
-    #   - href: posts/index.qmd
-    #     text: Posts
-    #   - href: gallery/index.qmd
-    #     text: Gallery
-    #   - href: research/index.qmd
-    #     text: Research        
-    #   - href: resources/index.qmd
-    #     text: Resources          
+    right:
+      - href: about/index.qmd
+        text: About
+      - href: curriculum-vitae/index.qmd
+        text: CV
+      - href: posts/index.qmd
+        text: Posts
+      - href: gallery/index.qmd
+        text: Gallery
+      - href: research/index.qmd
+        text: Research
+      - href: resources/index.qmd
+        text: Resources
       # - text: "Links"
       #   menu:
       #   - text: "{{< fa brands linkedin size=1x >}} LinkedIn Profile"
@@ -65,16 +63,16 @@ website:
       #   - text: "{{< fa brands orcid size=1x >}} ORCiD Account"
       #     href: https://orcid.org/0009-0002-5524-2675
           
-    tools:
-      - icon: linkedin
-        href: https://www.linkedin.com/in/benjamintjepkes/
-        aria-label: LinkedIn Profile
-      - icon: github
-        href: https://github.com/btjepkes
-        aria-label: GitHub Profile
-      - icon: twitter-x
-        href: https://twitter.com/BTjepkes
-        aria-label: Twitter Profile
+    # tools:
+    #   - icon: linkedin
+    #     href: https://www.linkedin.com/in/benjamintjepkes/
+    #     aria-label: LinkedIn Profile
+    #   - icon: github
+    #     href: https://github.com/btjepkes
+    #     aria-label: GitHub Profile
+    #   - icon: twitter-x
+    #     href: https://twitter.com/BTjepkes
+    #     aria-label: Twitter Profile
       # - icon: plus-square-dotted
       #   menu:
       #     - text: ResearchGate
@@ -121,7 +119,7 @@ format:
     theme: shared-assets/theme.scss
     css: shared-assets/styles.css
     date-format: iso
-    abstract-title: "What Is This About?"
+    abstract-title: "What's This About?"
     toc: true
     toc-title: "On This Page:"
     toc-depth: 2

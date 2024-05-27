@@ -1,6 +1,6 @@
 ---
 title: "My Research"
-subtitle: Working across spatial ecology and applied conservation science.
+subtitle: Across ecology, geospatial, and applied conservation.
 date: 2021-01-01
 date-modified: today
 image: ../assets/bg-pines-research-gray-sm.png
@@ -30,7 +30,6 @@ listing:
 #       - image
 ---
 
-## Current Projects
 
 ::: {#custom-research-listings}
 :::
@@ -40,28 +39,8 @@ listing:
 <!-- I am fortunate to have worked extensively across the Midwestern United States on a diversity of projects. The map below displays my research influence across this region where I have conducted research. -->
 
 
-<!-- # ```{r} -->
-<!-- # #| echo: false -->
-<!-- # #| warning: false -->
-<!-- # library(leaflet) -->
-<!-- # library(sf) -->
-<!-- # library(mapview) -->
-<!-- #  -->
-<!-- # sites <- sf::st_read("features_for_website.geojson", quiet = TRUE) -->
-<!-- #  -->
-<!-- # bbox <- sf::st_bbox(sites) -->
-<!-- #  -->
-<!-- # m <- leaflet(sites, options = leafletOptions(minZoom = 5)) |> -->
-<!-- #   addProviderTiles(providers$OpenStreetMap.HOT) |> -->
-<!-- #   addPolygons(label = ~as.character(Name), -->
-<!-- #               labelOptions = labelOptions(noHide = FALSE, -->
-<!-- #                                           direction = "bottom"), -->
-<!-- #               color = "red") |> -->
-<!-- #   setMaxBounds(lng1 = -125.69159, lat1 = 24.33702, -->
-<!-- #                lng2 = -63.43924, lat2 = 50.50496) -->
-<!-- #  -->
-<!-- # mapshot(m, file = "img-screenshot-map.png") -->
-<!-- #  -->
-<!-- # ``` -->
 
+::: {.cell}
+
+:::
 
