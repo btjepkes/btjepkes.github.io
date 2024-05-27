@@ -87,12 +87,12 @@ h2:first-of-type {
   vertical-align: .15em !important;
 }
 
-/*  @media (max-width: 991.98px) {
+  @media (max-width: 991.98px) {
       
     .navbar #quarto-search {
       display: none;
     }
-    }*/
+    }
 
 .container,
 .container-fluid,
