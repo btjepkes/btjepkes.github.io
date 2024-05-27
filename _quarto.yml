@@ -34,6 +34,7 @@ website:
     logo: assets/forest-svgrepo-com.svg
     collapse-below: lg
     pinned: false
+    toggle-position: right
     right:
       - href: about/index.qmd
         text: About
