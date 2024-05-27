@@ -38,8 +38,6 @@ website:
     right:
       - href: about/index.qmd
         text: About
-      - href: curriculum-vitae/index.qmd
-        text: CV
       - href: posts/index.qmd
         text: Posts
       - href: gallery/index.qmd

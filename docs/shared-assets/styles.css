@@ -31,12 +31,11 @@ h2:first-of-type {
   }
 }
 
-/*@media (max-width: 991.98px) {
-  .menu-navbar .container-fluid {
-    flex-direction: row;
+@media (max-width: 991.98px) {
+  .container-fluid {
     text-align: center;
   }
- }*/
+ }
 
 
 .navbar {
@@ -54,6 +53,7 @@ h2:first-of-type {
 
  #quarto-search {
     margin-left: 1rem;
+    margin-right: 0;
   }
   
   }
