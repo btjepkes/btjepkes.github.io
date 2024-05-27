@@ -1,8 +1,7 @@
 ---
 title: "Moose Sightings Across North America"
-subtitle: "Mapping sighitng locations from GBIF of *Alces alces*."
+subtitle: "Mapping sighting locations from GBIF of *Alces alces*."
 date: 11/10/2023
-date-modified: today
 categories:
   - Map Gallery
   - North America

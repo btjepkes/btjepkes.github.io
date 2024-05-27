@@ -5,7 +5,7 @@ date: 2021-01-01
 date-modified: today
 image: ../assets/bg-pines-research-gray-sm.png
 image-alt: Image-of-pine-trees-on-blue-background.
-abstract: "Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques aimed at applied conservation. This research has expanded both my technical skillset and my appreciation for science."
+abstract: "Much of my work has focused on assessing wildlife and their habitats using geospatial tools and techniques aimed at applied conservation, expanding both my technical skillset and my appreciation for science."
 comments: false
 listing:
   - id: research-listings-all

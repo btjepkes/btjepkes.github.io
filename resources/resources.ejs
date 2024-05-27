@@ -13,7 +13,7 @@
 %>
 
 <% for (const category in itemsByCategory) { %>
-  <h2 style="margin-top:0px;"><%= category %></h2>
+  <h2 style="margin-top: 0px !important;"><%= category %></h2>
   <ul class="list">
     <% for (const item of itemsByCategory[category]) { %>
       <li <%= metadataAttrs(item) %>>

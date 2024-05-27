@@ -9,7 +9,6 @@
 <meta name="author" content="Benjamin Tjepkes">
 <meta name="dcterms.date" content="2023-11-13">
 <meta name="keywords" content="#30DayMapChallenge2023">
-<meta name="description" content="Bivariate map of United States showing happiness and forest cover. This bivariate choropleth map shows happiness scores from WalletHub and forest cover values from the U.S. Forest Service for each U.S. state. This creative project was produced for the 2023 30-day map challenge.">
 
 <title>Forest Cover &amp; Happiness Bivariate Map | B.W. Tjepkes</title>
 <style>
@@ -105,14 +104,14 @@ cookieconsent.run({
 <style>html{ scroll-behavior: smooth; }</style>
 
  <meta property="og:title" content="Forest Cover &amp; Happiness Bivariate Map | B.W. Tjepkes">
-<meta property="og:description" content="Bivariate map of United States showing happiness and forest cover. This bivariate choropleth map shows happiness scores from WalletHub and forest cover values from the U.S. Forest Service for each U.S. state. This creative project was produced for the 2023 30-day map challenge.">
+<meta property="og:description" content="This bivariate choropleth map shows happiness scores from WalletHub and forest cover values from the U.S. Forest Service for each U.S. state. This creative project was produced for the 2023 30-day map challenge.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/happy-forests-happy-people-map/img-happy-forests-happy-people-map-thumb.png">
 <meta property="og:site_name" content="Benjamin W. Tjepkes">
 <meta property="og:image:height" content="535">
 <meta property="og:image:width" content="700">
 <meta property="og:image:alt" content="A choropleth map showing forest cover and happiness index.">
 <meta name="twitter:title" content="Portfolio | B.W. Tjepkes">
-<meta name="twitter:description" content="Bivariate map of United States showing happiness and forest cover. This bivariate choropleth map shows happiness scores from WalletHub and forest cover values from the U.S. Forest Service for each U.S. state. This creative project was produced for the 2023 30-day map challenge.">
+<meta name="twitter:description" content="This bivariate choropleth map shows happiness scores from WalletHub and forest cover values from the U.S. Forest Service for each U.S. state. This creative project was produced for the 2023 30-day map challenge.">
 <meta name="twitter:image" content="https://btjepkes.github.io/gallery/happy-forests-happy-people-map/img-happy-forests-happy-people-map-thumb.png">
 <meta name="twitter:creator" content="@BTjepkes">
 <meta name="twitter:image-height" content="535">
@@ -191,7 +190,13 @@ cookieconsent.run({
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On This Page:</h2>
+   
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -199,17 +204,13 @@ cookieconsent.run({
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Forest Cover &amp; Happiness Bivariate Map</h1>
+<p class="subtitle lead">Bivariate map of United States using ArcGIS Pro.</p>
   <div class="quarto-categories">
     <div class="quarto-category">Map Gallery</div>
     <div class="quarto-category">Choropleth</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    Bivariate map of United States showing happiness and forest cover. This bivariate choropleth map shows happiness scores from WalletHub and forest cover values from the U.S. Forest Service for each U.S. state. This creative project was produced for the 2023 30-day map challenge.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -237,6 +238,12 @@ cookieconsent.run({
     
   </div>
   
+<div>
+  <div class="abstract">
+    <div class="block-title">What Is This About?</div>
+    This bivariate choropleth map shows happiness scores from WalletHub and forest cover values from the U.S. Forest Service for each U.S. state. This creative project was produced for the 2023 30-day map challenge.
+  </div>
+</div>
 
 <div>
   <div class="keywords">
@@ -248,18 +255,34 @@ cookieconsent.run({
 </header>
 
 
+<section id="overview" class="level2">
+<h2 data-anchor-id="overview">Overview</h2>
 <p>This map was created for <strong>Day 13</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “Choropleth” for the main subject. The final product showing both happiness and forest cover as a bivariate choropleth map. Map creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Result</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Workflow</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="img-happy-forests-happy-people-map.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Resulting bivariate map of happy forests and happy people."><img src="img-happy-forests-happy-people-map.png" class="img-fluid figure-img" alt="Resulting bivariate map of happy forests and happy people."></a></p>
 <figcaption>Resulting bivariate map of happy forests and happy people.</figcaption>
 </figure>
 </div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Data were sourced from the U.S. Forest Service and WalletHub.</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>Map creation was performed in ArcGIS Pro.</p>
+</div>
+</div>
+</div>
 
 
 <div class="hidden" aria-hidden="true">
 <span class="glightbox-desc lightbox-desc-1">Resulting bivariate map of happy forests and happy people.</span>
 </div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -678,7 +701,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","loop":false,"closeEffect":"zoom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
