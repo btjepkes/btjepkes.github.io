@@ -40,7 +40,7 @@
   background-image: url("assets/natureserve-footer-top1500.jpg");
   background-position: bottom;
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: 100vw;
 
   h1 {

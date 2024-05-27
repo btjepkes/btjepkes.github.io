@@ -31,6 +31,7 @@ website:
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
   navbar:
+    # logo: assets/forest-svgrepo-com.svg
     collapse-below: xxl
     pinned: false
     # left:

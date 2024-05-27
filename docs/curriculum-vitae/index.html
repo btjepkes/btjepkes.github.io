@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-subtitle"],
     };
@@ -271,54 +271,51 @@ window.Quarto = {
 
 
 </header><section id="pdf-versions" class="level2"><h2 data-anchor-id="pdf-versions">PDF Versions</h2>
-<div id="listing-resume-links" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead><tr>
-<th>
-Title
-</th>
-<th>
-Subtitle
-</th>
-<th>
-</th>
-</tr></thead>
-<tbody class="list">
-<tr data-index="0" data-listing-title-sort="Comprehensive CV">
-<td>
-<a href="Tjepkes_CV_20231030_Web.pdf" class="title listing-title">Comprehensive CV</a>
-</td>
-<td>
-<span class="listing-subtitle">Academic Curriculum vitae</span>
-</td>
-<td>
-<span class="listing-image">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-title-sort="Standard Resume">
-<td>
-<a href="Tjepkes_Resume_20240116_Web.pdf" class="title listing-title">Standard Resume</a>
-</td>
-<td>
-<span class="listing-subtitle">2-Page Standard Resume</span>
-</td>
-<td>
-<span class="listing-image">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-title-sort="Abbreviated Resume">
-<td>
-<a href="Tjepkes_Resume_20240113_Web.pdf" class="title listing-title">Abbreviated Resume</a>
-</td>
-<td>
-<span class="listing-subtitle">1-Page Abbreviated Resume</span>
-</td>
-<td>
-<span class="listing-image">&nbsp;</span>
-</td>
-</tr>
-</tbody>
-</table>
+<div id="listing-resume-links" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0">
+<a href="Tjepkes_CV_20231030_Web.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Comprehensive CV
+</h5>
+<div class="card-subtitle listing-subtitle">
+Academic Curriculum vitae
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1">
+<a href="Tjepkes_Resume_20240116_Web.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Standard Resume
+</h5>
+<div class="card-subtitle listing-subtitle">
+2-Page Standard Resume
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="Tjepkes_Resume_20240113_Web.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Abbreviated Resume
+</h5>
+<div class="card-subtitle listing-subtitle">
+1-Page Abbreviated Resume
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

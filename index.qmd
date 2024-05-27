@@ -355,7 +355,7 @@ Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my 
             display: flex;
             flex: 0 0 calc(50% - 5px);
             padding: 10px;
-            height: 250px;
+            height: 220px;
             margin: 0 0;
             border-radius: 5px;
             font-size: 24px;

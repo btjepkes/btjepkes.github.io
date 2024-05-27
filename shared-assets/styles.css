@@ -68,6 +68,15 @@ h2:first-of-type {
   overflow: visible;
 }
 
+.navbar-logo {
+  padding: 1px;
+  margin: 0 0.2em 0 0;
+  max-height: 30px;
+  height: 30px;
+  border-radius: 2px;
+  filter: invert(100%);
+  }
+
 
 .navbar-nav .dropdown-menu {
   min-width: fit-content;
@@ -269,7 +278,6 @@ figure > figcaption {
 .nav-footer {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
-  border-top: solid 1px #dee2e6;
 }
 
 .nav-footer a {
