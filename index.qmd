@@ -19,12 +19,12 @@ format:
 listing:
   - id: site-listings-1
     contents:
-      - title: About Me
-        subtitle: "and my professional pathway"
-        path: "about/index.qmd"
-      - title: Curriculum Vitae
-        subtitle: "of my professional experience"
-        path: "curriculum-vitae/index.qmd"
+      # - title: About Me
+      #   subtitle: "and my professional pathway"
+      #   path: "about/index.qmd"
+      # - title: Curriculum Vitae
+      #   subtitle: "of my professional experience"
+      #   path: "curriculum-vitae/index.qmd"
       - title: My Blog Posts
         subtitle: "and other ramblings"
         path: "posts/index.qmd"        
@@ -34,9 +34,9 @@ listing:
       - title: My Research
         subtitle: "in spatial ecology and GIS"
         path: "research/index.qmd"
-      - title: Helpful Resources
-        subtitle: "for coding, GIS, and beyond"  
-        path: "resources/index.qmd"
+      # - title: Helpful Resources
+      #   subtitle: "for coding, GIS, and beyond"  
+      #   path: "resources/index.qmd"
     type: grid
     image-height: 100px
     grid-columns: 3
@@ -65,24 +65,82 @@ listing:
 ---
 
 ::: {#intro-container .column-screen}
-::: {#intro-section}
 
-::: {#intro-section-content .column-page}
+:::{.grid .column-page}
+
+:::{.g-col-12 .g-col-md-9 }
+
 # A dedicated wildlife ecologist and geospatial scientist...
 
-Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography. Thank you for stopping by!
+Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography.
+
+[About Me](about/index.qmd){.btn .btn-secondary} [Curriculum vitae](curriculum-vitae/index.qmd){.btn .btn-success}
+
+
+:::
+
+:::{.g-col-12 .g-col-md-3 }
+
+![](assets/img-ben-portrait-2.jpg){.rounded-circle}
+
+:::
+
+:::
+:::
+
+
+
+:::{.grid .column-page .mt-4}
+
+:::{.g-col-12 .g-col-md-4 .bg-primary .p-3}
+
+## Conservation {.text-white}
+
+- Wildlife Ecology
+- Environmental Data Science
+
+:::
+
+:::{.g-col-12 .g-col-md-4 .bg-primary .p-3}
+## Geospatial {.text-white}
+
+- Geographic Information Systems
+- Remote Sensing
+:::
+
+:::{.g-col-12 .g-col-md-4 .bg-primary .p-3}
+## Research {.text-white}
+
+- Biogeography
+- Climate Science
 :::
 
 :::
 
-::: {.index-listing .column-screen}
-::: {#site-listings-1 .column-page }
+:::{.grid .column-page .mt-4}
+
+:::{.g-col-12 .g-col-md-6 .bg-success .p-3}
+
+## Education {.text-white}
+
+- Wildlife Ecology
+- Environmental Data Science
+
 :::
+
+:::{.g-col-12 .g-col-md-6 .bg-success .p-3}
+## Experience {.text-white}
+
+- Geographic Information Systems
+- Remote Sensing
 :::
+
 :::
 
 
-:::{#index-carousel .column-screen}
+
+::: {#site-listings-1 .column-page .mt-3}
+:::
 
 
 <!-- ```{=html} -->
@@ -327,93 +385,87 @@ Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my 
 <!-- </script> -->
 <!-- </html> -->
 <!-- ``` -->
-:::
 
 <!-- # FOCUS AREAS: -->
 
-```{=html}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lazy Loading Divs</title>
-    <style>
-        <!-- body { -->
-        <!--     font-family: Arial, sans-serif; -->
-        <!--     margin: 0; -->
-        <!--     padding: 0; -->
-        <!-- } -->
-        .container {
-            width: 100%;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .lazy-div {
-            display: flex;
-            flex: 0 0 calc(50% - 5px);
-            height: 220px;
-            margin: 0 0;
-            border-radius: 5px;
-            font-size: 24px;
-            color: #aaa;
-            background-size: cover;
-            background-position: center center;
-            transition: background-color 2s, color 0.5s;
-            
-            p {
-            background: black;
-            height: fit-content;
-            padding: 0 8px;
-            margin: 20px auto auto 0;
-            font-size: 16px;
-            border-left: solid 4px #1f883d;
-              }
-        }
-        .lazy-div.loaded {
-            background-color: #4caf50;
-            color: #fff;
-        }
-    </style>
-</head>
-<body>
-    <div class="container column-page">
-        <div class="lazy-div" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;">
-        <p>Wildlife Ecology</p>
-        </div>
-        <div class="lazy-div" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;"><p>Remote Sensing</p></div>
-        <div class="lazy-div" style="background-image: url('https://static.wixstatic.com/media/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg/v1/fill/w_560,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg'); background-color: #001a17;"><p>Conservation GIS</p></div>
-        <div class="lazy-div" style="background-image: url('https://zubrod-eds.de/wp-content/uploads/2021/02/Heart_cropped.jpg'); background-color: #001a17;"><p>Environmental Data Science</p></div>
-        <div class="lazy-div" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;"><p>Biogeography</p></div>
-        <div class="lazy-div" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;"><p>Climate Science</p></div>
-    </div>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const lazyDivs = document.querySelectorAll('.lazy-div');
+<!-- ```{=html} -->
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+<!-- <head> -->
+<!--     <meta charset="UTF-8"> -->
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<!--     <title>Lazy Loading Divs</title> -->
+<!--     <style> -->
+<!--         .container { -->
+<!--             width: 100%; -->
+<!--             margin: 0 auto; -->
+<!--             display: flex; -->
+<!--             flex-wrap: wrap; -->
+<!--             gap: 10px; -->
+<!--         } -->
+<!--         .lazy-div { -->
+<!--             display: flex; -->
+<!--             flex: 0 0 calc(50% - 5px); -->
+<!--             height: 220px; -->
+<!--             margin: 0 0; -->
+<!--             border-radius: 5px; -->
+<!--             font-size: 24px; -->
+<!--             color: #aaa; -->
+<!--             background-size: cover; -->
+<!--             background-position: center center; -->
+<!--             transition: background-color 2s, color 0.5s; -->
 
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('loaded');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, {
-                threshold: 0.1
-            });
+<!--             p { -->
+<!--             background: black; -->
+<!--             height: fit-content; -->
+<!--             padding: 0 8px; -->
+<!--             margin: 20px auto auto 0; -->
+<!--             font-size: 16px; -->
+<!--             border-left: solid 4px #1f883d; -->
+<!--               } -->
+<!--         } -->
+<!--         .lazy-div.loaded { -->
+<!--             background-color: #4caf50; -->
+<!--             color: #fff; -->
+<!--         } -->
+<!--     </style> -->
+<!-- </head> -->
+<!-- <body> -->
+<!--     <div class="container column-page"> -->
+<!--         <div class="lazy-div" style="background-image: url('https://images-assets.nasa.gov/image/KSC-05pd2448/KSC-05pd2448~medium.jpg'); background-color: #001a17;"> -->
+<!--         <p>Wildlife Ecology</p> -->
+<!--         </div> -->
+<!--         <div class="lazy-div" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/04/uralriver-flood-oli2-20240413-lrg.jpg'); background-color: #001a17;"><p>Remote Sensing</p></div> -->
+<!--         <div class="lazy-div" style="background-image: url('https://static.wixstatic.com/media/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg/v1/fill/w_560,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/7b1d80_c4b29196baa54f69b0caf83f5d56cb63~mv2.jpg'); background-color: #001a17;"><p>Conservation GIS</p></div> -->
+<!--         <div class="lazy-div" style="background-image: url('https://zubrod-eds.de/wp-content/uploads/2021/02/Heart_cropped.jpg'); background-color: #001a17;"><p>Environmental Data Science</p></div> -->
+<!--         <div class="lazy-div" style="background-image: url('https://www.nasa.gov/wp-content/uploads/2024/05/iss070e042565-lrg.jpg'); background-color: #001a17;"><p>Biogeography</p></div> -->
+<!--         <div class="lazy-div" style="background-image: url('https://images-assets.nasa.gov/image/05pd1402/05pd1402~medium.jpg'); background-color: #001a17;"><p>Climate Science</p></div> -->
+<!--     </div> -->
 
-            lazyDivs.forEach(div => {
-                observer.observe(div);
-            });
-        });
-    </script>
-</body>
-</html>
-</html>
-```
+<!--     <script> -->
+<!--         document.addEventListener('DOMContentLoaded', function() { -->
+<!--             const lazyDivs = document.querySelectorAll('.lazy-div'); -->
+
+<!--             const observer = new IntersectionObserver((entries, observer) => { -->
+<!--                 entries.forEach(entry => { -->
+<!--                     if (entry.isIntersecting) { -->
+<!--                         entry.target.classList.add('loaded'); -->
+<!--                         observer.unobserve(entry.target); -->
+<!--                     } -->
+<!--                 }); -->
+<!--             }, { -->
+<!--                 threshold: 0.1 -->
+<!--             }); -->
+
+<!--             lazyDivs.forEach(div => { -->
+<!--                 observer.observe(div); -->
+<!--             }); -->
+<!--         }); -->
+<!--     </script> -->
+<!-- </body> -->
+<!-- </html> -->
+<!-- </html> -->
+<!-- ``` -->
 
 
 ::: {.index-latest-container .column-page}

@@ -1,17 +1,7 @@
 
-.carousel-inner {
-  border-radius: 20px;
-  margin-top: 0.7em;
-}
-
 .asp-169 {
   aspect-ratio: 41/18;
   object-fit: cover;
-}
-
-#index-carousel {
-  margin-top: 20px;
-  margin-bottom: 0px;
 }
 
 
@@ -22,32 +12,15 @@
 
 #intro-container {
   padding: 0 0;
-  background-image: linear-gradient(to bottom,rgba(18,60,105,0.01) 0%,rgba(18,60,105,0.1) 80%));
-}
-
-
-#intro-section {
-  text-align: center;
-  margin: 0 auto;
-
-  h1 {
-    text-align: center;
+  background-image: linear-gradient(to bottom, rgba(18,60,105,0.01) 0%,rgba(18,60,105,0.2) 80%);
+  
+    h1 {
     font-weight: 700;
-    font-size: clamp(1.4em, 5vw, 2.0em);
+    font-size: clamp(1.4em, 5vw, 1.7em);
     line-height: 1.2;
-    margin-top: 0;
+    margin-top: 0.5em;
   }
   
-  }
-
-
-@keyframes scroll {
-  0% {
-    transform: translateX(120%);
-  }
-  100% {
-    transform: translateX(-120%); /* Adjust based on the number of items */
-  }
 }
 
 
@@ -63,7 +36,7 @@
 .index-latest-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2em;
+  margin-top: 1em;
   column-gap: 20px;
   row-gap: 40px;
 }
