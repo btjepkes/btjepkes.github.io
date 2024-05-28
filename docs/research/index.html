@@ -100,6 +100,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-custom-research-listings-2 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-category','listing-custom-field','listing-href','listing-href2','listing-image','listing-image2',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-category","listing-custom-field","listing-href","listing-href2","listing-image","listing-image2"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-custom-research-listings-2'] = new List('listing-custom-research-listings-2', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
@@ -148,7 +176,7 @@ cookieconsent.run({
 </head><body class="nav-fixed"><nav class=" menu-navbar navbar navbar-expand-lg bg-light navbar-light">
   <div class="container-fluid">
     <div class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle text-primary" href="#" role="button" data-bs-toggle="dropdown">My Sites</a>
+      <a class="nav-link dropdown-toggle text-primary" href="#" role="button" data-bs-toggle="dropdown">Sites &amp; Apps</a>
       <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">GIS Workshop Site</a></li>
       </ul>
@@ -157,8 +185,8 @@ cookieconsent.run({
       <a href="https://www.linkedin.com/in/benjamintjepkes/" class="btn btn-success" style="margin-right: 8px; padding: 0 6px; font-size: 14px;"><i class="bi bi-linkedin"></i></a>
       <a href="https://github.com/btjepkes" class="btn btn-success" style="margin-right: 6px; padding: 0 6px; font-size: 14px;"><i class="bi bi-github"></i></a>
       <a href="https://twitter.com/BTjepkes" class="btn btn-success" style="margin-right: 6px; padding: 0 6px; font-size: 14px;"><i class="bi bi-twitter-x"></i></a>
-      <a href="https://orcid.org/0009-0002-5524-2675" class="btn btn-success" style="margin-right: 6px; padding: 0 6px; font-size: 14px;">ORCiD</a>
-      <a href="https://www.researchgate.net/profile/Benjamin-Tjepkes" class="btn btn-success" style="padding: 0 6px; font-size: 14px;">ResearchGate</a>
+      <a href="https://orcid.org/0009-0002-5524-2675" class="btn btn-success" style="padding: 0 6px; font-size: 14px;">ORCiD</a>
+<!--      <a href="https://www.researchgate.net/profile/Benjamin-Tjepkes" class="btn btn-success" style="padding: 0 6px; font-size: 14px;">ResearchGate</a>-->
     </form>
   </div>
 </nav> 
@@ -253,6 +281,7 @@ window.Quarto = {
    
   <ul class="collapse">
   <li><a href="#current-projects" id="toc-current-projects" class="nav-link active" data-scroll-target="#current-projects">Current Projects</a></li>
+  <li><a href="#past-projects" id="toc-past-projects" class="nav-link" data-scroll-target="#past-projects">Past Projects</a></li>
   </ul>
 </nav>
     </div>
@@ -309,15 +338,39 @@ window.Quarto = {
 
   
   
-  <div class="card mb-4 shadow-sm d-flex flex-column-reverse">
-    <div class="d-flex flex-row">
-      <img class="card-img-top p-2 img-fluid shadow-none" src="./dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/img-gee-map.png" alt="Card image">
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="./dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/img-gee-map.png" alt="Card image">
     </div>
     <div class="card-body" data-index="0">
       <h4 class="card-title" style="margin-top: 0;">Master's Thesis Project</h4>
       <p class="card-text">Assessing avian response to long-term climate and phenology dynamics.</p>
       <a href="./dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/" class="card-link">Project Details</a>
       <a href="https://osf.io/d3wrg/" class="card-link">OSF Link</a>
+    </div>
+  </div>
+  
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="past-projects" class="level2 mt-0">
+<h2 class="mt-0" data-anchor-id="past-projects">Past Projects</h2>
+<div id="listing-custom-research-listings-2" class="quarto-listing quarto-listing-container-custom">
+
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="./bald-eagle-nest-site-selection/img-eagle-nesting.jpg" alt="Card image">
+    </div>
+    <div class="card-body" data-index="0">
+      <h4 class="card-title" style="margin-top: 0;">Bald Eagle Nest-Site Selection</h4>
+      <p class="card-text">Analyzing long-term bald eagle nest monitoring records from the Upper Mississippi River.</p>
+      <a href="./bald-eagle-nest-site-selection/" class="card-link">Project Details</a>
+      <a href="" class="card-link">OSF Link</a>
     </div>
   </div>
   

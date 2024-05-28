@@ -1,9 +1,5 @@
 /* css styles */
 
-h2:first-of-type {
-    margin-top: 2rem !important;
-  }
-
 #quarto-content .subtitle {
   line-height: 1.1em;
   font-weight: 200;
@@ -208,6 +204,10 @@ figure > figcaption {
 
 /*// META*/
 
+#title-block-header {
+  margin-block-end: 2rem;
+  }
+
 #title-block-header.quarto-title-block.default .quarto-title-meta {
   display: grid;
   grid-template-columns: 45% 1fr 1fr;
@@ -267,9 +267,9 @@ figure > figcaption {
 
 /* SIDEBAR */
 
-#quarto-margin-sidebar {
-  top: 100px !important;
-}
+/*#quarto-margin-sidebar {
+  top: 50px !important;
+}*/
 
 
 /*// FOOTER*/

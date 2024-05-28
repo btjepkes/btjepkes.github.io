@@ -12,27 +12,20 @@ listing:
     template: research.ejs
     contents: test.yml
     max-items: 5
-# listing:
-#   - id: research-listings-all
-#     contents: "*.qmd"
-#     type: default
-#     grid-columns: 2
-#     image-height: 180px
-#     image-align: left
-#     max-description-length: 100
-#     categories: numbered
-#     sort: "date"
-#     filter-ui: true  
-#     sort-ui: true
-#     fields: 
-#       - title
-#       - subtitle
-#       - image
+  - id: custom-research-listings-2
+    template: research.ejs
+    contents: past.yml
+    max-items: 5
 ---
 
 ## Current Projects
 
 ::: {#custom-research-listings}
+:::
+
+## Past Projects {.mt-0}
+
+::: {#custom-research-listings-2}
 :::
 
 <!-- ### My Research Geography -->
