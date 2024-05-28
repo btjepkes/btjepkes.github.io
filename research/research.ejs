@@ -24,8 +24,13 @@
     <div class="card-body" <%= metadataAttrs(item) %>>
       <h4 class="card-title" style="margin-top: 0;"><%- item.name %></h4>
       <p class="card-text"><%- item['custom-field'] %></p>
-      <a href="<%- item.href %>" class="card-link">Project Details</a>
-      <a href="<%- item.href2 %>" class="card-link">OSF Link</a>
+      
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item p-0 py-1"><b>Details:  </b><a href="<%- item.href %>" class="card-link">Click Here</a></li>
+        <li class="list-group-item p-0 py-1"><b>OSF:  </b><a href="<%- item.href2 %>" class="card-link">Click Here</a></li>
+        <li class="list-group-item p-0 py-1"><b>Code:  </b><a href="<%- item.href2 %>" class="card-link">Click Here</a></li>
+      </ul>
+      
     </div>
   </div>
   <% } %>

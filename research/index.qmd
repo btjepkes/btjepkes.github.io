@@ -28,6 +28,8 @@ listing:
 ::: {#custom-research-listings-2}
 :::
 
+
+
 <!-- ### My Research Geography -->
 
 <!-- I am fortunate to have worked extensively across the Midwestern United States on a diversity of projects. The map below displays my research influence across this region where I have conducted research. -->
