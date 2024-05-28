@@ -1,3 +1,10 @@
+@media (max-width: 1000px) {
+  .index-headshot {
+    width: 200px;
+    margin-bottom: -50px;
+  }
+}
+
 
 .asp-169 {
   aspect-ratio: 41/18;
@@ -36,7 +43,7 @@
 .index-latest-posts,
 .index-latest-gallery {
   border-radius: 0.25em;
-  padding: 0.2em 0em;
+  padding: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -45,9 +52,8 @@
 .index-latest-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2em;
   column-gap: 20px;
-  row-gap: 40px;
+  row-gap: 0px;
 }
 
 .index-latest-column {

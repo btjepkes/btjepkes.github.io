@@ -329,47 +329,57 @@ window.Quarto = {
 
 <div id="intro-container" class="column-screen page-columns page-full">
 <div class="grid column-page">
-<div class="g-col-12 g-col-md-3">
-<p><a href="assets/img-ben-portrait-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/img-ben-portrait-2.jpg" class="rounded-circle img-fluid"></a></p>
+<div class="g-col-12 g-col-md-3 text-center">
+<p><a href="assets/img-ben-portrait-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/img-ben-portrait-2.jpg" class="rounded index-headshot no-lightbox img-fluid"></a></p>
 </div>
-<section id="a-dedicated-wildlife-ecologist-and-geospatial-scientist" class="level1 text-center mt-3 g-col-12 g-col-md-9">
+<section id="a-dedicated-wildlife-ecologist-and-geospatial-scientist" class="level1 text-center mt-3 g-col-12 g-col-md-9 pb-3">
 <h1 class="text-center mt-3">A dedicated wildlife ecologist and geospatial scientist…</h1>
 <p>Hello, my name is <strong>Ben Tjepkes</strong> and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography.</p>
-<p><a href="./about/index.html" class="btn btn-primary">About Me</a> <a href="./curriculum-vitae/index.html" class="btn btn-secondary">Curriculum vitae</a></p>
+<p><a href="./about/index.html" class="btn btn-primary btn-sm">About Me</a> <a href="./curriculum-vitae/index.html" class="btn btn-secondary btn-sm">Curriculum vitae</a></p>
 </section>
 </div>
 </div>
-<div class="grid column-page mt-4">
-<section id="ecology-conservation" class="level2 text-white g-col-12 g-col-md-6 bg-success p-3 rounded bg-tree">
+<div class="column-page mt-4 fw-bold">
+<p>My Focus Areas:</p>
+</div>
+<div class="grid column-page">
+<section id="ecology-conservation" class="level2 text-white g-col-12 g-col-md-6 bg-success p-3 rounded bg-tree shadow">
 <h2 class="text-white" data-anchor-id="ecology-conservation">Ecology &amp; Conservation</h2>
 <ul>
 <li>Wildlife Ecology</li>
+<li>Biogeography</li>
+<li>Climate Science</li>
 <li>Environmental Data Science</li>
 </ul>
 </section>
-<section id="geospatial-technology" class="level2 text-white g-col-12 g-col-md-6 bg-success p-3 rounded bg-tree">
+<section id="geospatial-technology" class="level2 text-white g-col-12 g-col-md-6 bg-success p-3 rounded bg-tree shadow">
 <h2 class="text-white" data-anchor-id="geospatial-technology">Geospatial Technology</h2>
 <ul>
 <li>Geographic Information Systems</li>
 <li>Remote Sensing</li>
+<li>Cartography</li>
+<li>Geoinformatics</li>
 </ul>
 </section>
 </div>
-<div class="grid column-page mt-4">
-<section id="blog-posts" class="level3 text-white text-center g-col-12 g-col-md-4 bg-primary p-3 rounded bg-tree">
-<h3 class="text-white text-center" data-anchor-id="blog-posts">Blog Posts</h3>
+<div class="column-page mt-4 fw-bold">
+<p>Exploring This Site:</p>
+</div>
+<div class="grid column-page">
+<section id="blog-posts" class="level3 text-white g-col-12 g-col-md-4 bg-primary p-3 rounded bg-tree shadow">
+<h3 class="text-white" data-anchor-id="blog-posts">Blog Posts</h3>
 <p>Covering technical and creative topics, from ecology to cartography.</p>
-<p><a href="./posts/index.html" class="btn btn-sm btn-light">Learn More</a></p>
+<p><a href="./posts/index.html" class="btn btn-sm btn-light">Learn More <i class="bi bi-arrow-right-short"></i></a></p>
 </section>
-<section id="project-gallery" class="level3 text-white text-center g-col-12 g-col-md-4 bg-dark p-3 rounded bg-noise">
-<h3 class="text-white text-center" data-anchor-id="project-gallery">Project Gallery</h3>
+<section id="project-gallery" class="level3 text-white g-col-12 g-col-md-4 bg-dark p-3 rounded bg-noise shadow">
+<h3 class="text-white" data-anchor-id="project-gallery">Project Gallery</h3>
 <p>Examples from professional and personal projects in data and geospatial.</p>
-<p><a href="./gallery/index.html" class="btn btn-sm btn-light">Learn More</a></p>
+<p><a href="./gallery/index.html" class="btn btn-sm btn-light">Learn More <i class="bi bi-arrow-right-short"></i></a></p>
 </section>
-<section id="research" class="level3 text-white text-center g-col-12 g-col-md-4 bg-primary p-3 rounded bg-tree">
-<h3 class="text-white text-center" data-anchor-id="research">Research</h3>
+<section id="research" class="level3 text-white g-col-12 g-col-md-4 bg-primary p-3 rounded bg-tree shadow">
+<h3 class="text-white" data-anchor-id="research">Research</h3>
 <p>Across the scopes of spatial ecology, biogeography, and geospatial science.</p>
-<p><a href="./about/index.html" class="btn btn-sm btn-light">Learn More</a></p>
+<p><a href="./research/index.html" class="btn btn-sm btn-light">Learn More <i class="bi bi-arrow-right-short"></i></a></p>
 </section>
 </div>
 <!-- ```{=html} -->
@@ -662,8 +672,10 @@ window.Quarto = {
 <!-- </html> -->
 <!-- ``` -->
 <div class="index-latest-container column-page">
-<section id="latest-posts" class="level3 index-latest-column">
-<h3 data-anchor-id="latest-posts">Latest Posts:</h3>
+<div class="index-latest-column">
+<div class="mt-4 fw-bold">
+<p>My Latest Posts:</p>
+</div>
 <div id="listing-site-listings-2" class="index-latest-posts quarto-listing quarto-listing-container-table">
 <table class="quarto-listing-table table">
 <thead>
@@ -715,9 +727,11 @@ Description
 No matching items
 </div>
 </div>
-</section>
-<section id="latest-projects" class="level3 index-latest-column">
-<h3 data-anchor-id="latest-projects">Latest Projects:</h3>
+</div>
+<div class="index-latest-column">
+<div class="mt-4 fw-bold">
+<p>My Latest Projects:</p>
+</div>
 <div id="listing-site-listings-3" class="index-latest-gallery quarto-listing quarto-listing-container-table">
 <table class="quarto-listing-table table">
 <thead>
@@ -769,7 +783,7 @@ Description
 No matching items
 </div>
 </div>
-</section>
+</div>
 </div>
 <div id="site-listings-1" class="column-page mt-2">
 
@@ -1191,7 +1205,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
