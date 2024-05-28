@@ -79,34 +79,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-site-listings-1 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-site-listings-1'] = new List('listing-site-listings-1', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-site-listings-2 .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -357,103 +329,48 @@ window.Quarto = {
 
 <div id="intro-container" class="column-screen page-columns page-full">
 <div class="grid column-page">
-<section id="a-dedicated-wildlife-ecologist-and-geospatial-scientist" class="level1 g-col-12 g-col-md-9">
-<h1>A dedicated wildlife ecologist and geospatial scientist…</h1>
-<p>Hello, my name is <strong>Ben Tjepkes</strong> and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography.</p>
-<p><a href="./about/index.html" class="btn btn-secondary">About Me</a> <a href="./curriculum-vitae/index.html" class="btn btn-success">Curriculum vitae</a></p>
-</section>
 <div class="g-col-12 g-col-md-3">
 <p><a href="assets/img-ben-portrait-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/img-ben-portrait-2.jpg" class="rounded-circle img-fluid"></a></p>
 </div>
+<section id="a-dedicated-wildlife-ecologist-and-geospatial-scientist" class="level1 text-center mt-3 g-col-12 g-col-md-9">
+<h1 class="text-center mt-3">A dedicated wildlife ecologist and geospatial scientist…</h1>
+<p>Hello, my name is <strong>Ben Tjepkes</strong> and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography.</p>
+<p><a href="./about/index.html" class="btn btn-primary">About Me</a> <a href="./curriculum-vitae/index.html" class="btn btn-secondary">Curriculum vitae</a></p>
+</section>
 </div>
 </div>
 <div class="grid column-page mt-4">
-<section id="conservation" class="level2 text-white g-col-12 g-col-md-4 bg-primary p-3">
-<h2 class="text-white" data-anchor-id="conservation">Conservation</h2>
+<section id="ecology-conservation" class="level2 text-white g-col-12 g-col-md-6 bg-success p-3 rounded bg-tree">
+<h2 class="text-white" data-anchor-id="ecology-conservation">Ecology &amp; Conservation</h2>
 <ul>
 <li>Wildlife Ecology</li>
 <li>Environmental Data Science</li>
 </ul>
 </section>
-<section id="geospatial" class="level2 text-white g-col-12 g-col-md-4 bg-primary p-3">
-<h2 class="text-white" data-anchor-id="geospatial">Geospatial</h2>
-<ul>
-<li>Geographic Information Systems</li>
-<li>Remote Sensing</li>
-</ul>
-</section>
-<section id="research" class="level2 text-white g-col-12 g-col-md-4 bg-primary p-3">
-<h2 class="text-white" data-anchor-id="research">Research</h2>
-<ul>
-<li>Biogeography</li>
-<li>Climate Science</li>
-</ul>
-</section>
-</div>
-<div class="grid column-page mt-4">
-<section id="education" class="level2 text-white g-col-12 g-col-md-6 bg-success p-3">
-<h2 class="text-white" data-anchor-id="education">Education</h2>
-<ul>
-<li>Wildlife Ecology</li>
-<li>Environmental Data Science</li>
-</ul>
-</section>
-<section id="experience" class="level2 text-white g-col-12 g-col-md-6 bg-success p-3">
-<h2 class="text-white" data-anchor-id="experience">Experience</h2>
+<section id="geospatial-technology" class="level2 text-white g-col-12 g-col-md-6 bg-success p-3 rounded bg-tree">
+<h2 class="text-white" data-anchor-id="geospatial-technology">Geospatial Technology</h2>
 <ul>
 <li>Geographic Information Systems</li>
 <li>Remote Sensing</li>
 </ul>
 </section>
 </div>
-<div id="listing-site-listings-1" class="column-page mt-3 quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1665896400000" data-listing-file-modified-sort="1716563742160" data-listing-date-modified-sort="1716872400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
-<a href="./posts/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Blog Posts
-</h5>
-<div class="card-subtitle listing-subtitle">
-and other ramblings
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1716308799432" data-listing-date-modified-sort="1716872400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
-<a href="./gallery/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Gallery
-</h5>
-<div class="card-subtitle listing-subtitle">
-of maps, talks, and more
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1716871060936" data-listing-date-modified-sort="1716872400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="248">
-<a href="./research/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Research
-</h5>
-<div class="card-subtitle listing-subtitle">
-in spatial ecology and GIS
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="grid column-page mt-4">
+<section id="blog-posts" class="level3 text-white text-center g-col-12 g-col-md-4 bg-primary p-3 rounded bg-tree">
+<h3 class="text-white text-center" data-anchor-id="blog-posts">Blog Posts</h3>
+<p>Covering technical and creative topics, from ecology to cartography.</p>
+<p><a href="./posts/index.html" class="btn btn-sm btn-light">Learn More</a></p>
+</section>
+<section id="project-gallery" class="level3 text-white text-center g-col-12 g-col-md-4 bg-dark p-3 rounded bg-noise">
+<h3 class="text-white text-center" data-anchor-id="project-gallery">Project Gallery</h3>
+<p>Examples from professional and personal projects in data and geospatial.</p>
+<p><a href="./gallery/index.html" class="btn btn-sm btn-light">Learn More</a></p>
+</section>
+<section id="research" class="level3 text-white text-center g-col-12 g-col-md-4 bg-primary p-3 rounded bg-tree">
+<h3 class="text-white text-center" data-anchor-id="research">Research</h3>
+<p>Across the scopes of spatial ecology, biogeography, and geospatial science.</p>
+<p><a href="./about/index.html" class="btn btn-sm btn-light">Learn More</a></p>
+</section>
 </div>
 <!-- ```{=html} -->
 <!-- <!DOCTYPE html> -->
@@ -853,6 +770,9 @@ No matching items
 </div>
 </div>
 </section>
+</div>
+<div id="site-listings-1" class="column-page mt-2">
+
 </div>
 
 
@@ -1271,7 +1191,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","loop":false});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

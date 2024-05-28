@@ -17,33 +17,33 @@ format:
     css: index.css
     comments: false
 listing:
-  - id: site-listings-1
-    contents:
-      # - title: About Me
-      #   subtitle: "and my professional pathway"
-      #   path: "about/index.qmd"
-      # - title: Curriculum Vitae
-      #   subtitle: "of my professional experience"
-      #   path: "curriculum-vitae/index.qmd"
-      - title: My Blog Posts
-        subtitle: "and other ramblings"
-        path: "posts/index.qmd"        
-      - title: My Gallery
-        subtitle: "of maps, talks, and more"
-        path: "gallery/index.qmd"
-      - title: My Research
-        subtitle: "in spatial ecology and GIS"
-        path: "research/index.qmd"
-      # - title: Helpful Resources
-      #   subtitle: "for coding, GIS, and beyond"  
-      #   path: "resources/index.qmd"
-    type: grid
-    image-height: 100px
-    grid-columns: 3
-    grid-item-align: center
-    fields:
-      - title
-      - subtitle
+  # - id: site-listings-1
+  #   contents:
+  #     - title: About Me
+  #       subtitle: "and my professional pathway"
+  #       path: "about/index.qmd"
+  #     - title: Curriculum Vitae
+  #       subtitle: "of my professional experience"
+  #       path: "curriculum-vitae/index.qmd"
+  #     - title: My Blog Posts
+  #       subtitle: "and other ramblings"
+  #       path: "posts/index.qmd"
+  #     - title: My Gallery
+  #       subtitle: "of maps, talks, and more"
+  #       path: "gallery/index.qmd"
+  #     - title: My Research
+  #       subtitle: "in spatial ecology and GIS"
+  #       path: "research/index.qmd"
+  #     - title: Helpful Resources
+  #       subtitle: "for coding, GIS, and beyond"
+  #       path: "resources/index.qmd"
+  #   type: grid
+  #   image-height: 100px
+  #   grid-columns: 3
+  #   grid-item-align: center
+  #   fields:
+  #     - title
+  #     - subtitle
   - id: site-listings-2
     contents: "posts/*/*.qmd"
     type: table
@@ -64,72 +64,45 @@ listing:
     max-items: 4
 ---
 
+
 ::: {#intro-container .column-screen}
 
 :::{.grid .column-page}
 
+:::{.g-col-12 .g-col-md-3 }
+
+![](assets/img-ben-portrait-2.jpg){.rounded-circle }
+
+:::
+
 :::{.g-col-12 .g-col-md-9 }
 
-# A dedicated wildlife ecologist and geospatial scientist...
+# A dedicated wildlife ecologist and geospatial scientist...{.text-center .mt-3}
 
 Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography.
 
-[About Me](about/index.qmd){.btn .btn-secondary} [Curriculum vitae](curriculum-vitae/index.qmd){.btn .btn-success}
+[About Me](about/index.qmd){.btn .btn-primary} [Curriculum vitae](curriculum-vitae/index.qmd){.btn .btn-secondary}
 
-
-:::
-
-:::{.g-col-12 .g-col-md-3 }
-
-![](assets/img-ben-portrait-2.jpg){.rounded-circle}
 
 :::
 
 :::
 :::
-
 
 
 :::{.grid .column-page .mt-4}
 
-:::{.g-col-12 .g-col-md-4 .bg-primary .p-3}
+:::{.g-col-12 .g-col-md-6 .bg-success .p-3 .rounded .bg-tree}
 
-## Conservation {.text-white}
+## Ecology & Conservation {.text-white}
 
 - Wildlife Ecology
 - Environmental Data Science
 
 :::
 
-:::{.g-col-12 .g-col-md-4 .bg-primary .p-3}
-## Geospatial {.text-white}
-
-- Geographic Information Systems
-- Remote Sensing
-:::
-
-:::{.g-col-12 .g-col-md-4 .bg-primary .p-3}
-## Research {.text-white}
-
-- Biogeography
-- Climate Science
-:::
-
-:::
-
-:::{.grid .column-page .mt-4}
-
-:::{.g-col-12 .g-col-md-6 .bg-success .p-3}
-
-## Education {.text-white}
-
-- Wildlife Ecology
-- Environmental Data Science
-
-:::
-
-:::{.g-col-12 .g-col-md-6 .bg-success .p-3}
-## Experience {.text-white}
+:::{.g-col-12 .g-col-md-6 .bg-success .p-3 .rounded .bg-tree}
+## Geospatial Technology {.text-white}
 
 - Geographic Information Systems
 - Remote Sensing
@@ -138,9 +111,38 @@ Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my 
 :::
 
 
+:::{.grid .column-page .mt-4}
 
-::: {#site-listings-1 .column-page .mt-3}
+:::{.g-col-12 .g-col-md-4 .bg-primary .p-3 .rounded .bg-tree}
+
+### Blog Posts {.text-white .text-center}
+
+Covering technical and creative topics, from ecology to cartography.
+
+[Learn More](posts/index.qmd){.btn .btn-sm .btn-light}
+
 :::
+
+:::{.g-col-12 .g-col-md-4 .bg-dark .p-3 .rounded .bg-noise}
+### Project Gallery {.text-white .text-center}
+
+Examples from professional and personal projects in data and geospatial.
+
+[Learn More](gallery/index.qmd){.btn .btn-sm .btn-light}
+
+:::
+
+:::{.g-col-12 .g-col-md-4 .bg-primary .p-3 .rounded .bg-tree}
+### Research {.text-white .text-center}
+
+Across the scopes of spatial ecology, biogeography, and geospatial science.
+
+[Learn More](about/index.qmd){.btn .btn-sm .btn-light}
+
+:::
+
+:::
+
 
 
 <!-- ```{=html} -->
@@ -487,4 +489,7 @@ Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my 
 
 :::
 
+:::
+
+::: {#site-listings-1 .column-page .mt-2}
 :::

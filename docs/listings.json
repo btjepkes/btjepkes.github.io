@@ -31,9 +31,6 @@
   {
     "listing": "/index.html",
     "items": [
-      "posts/index.html",
-      "gallery/index.html",
-      "research/index.html",
       "/posts/text-mining-course-descriptions/index.html",
       "/posts/converting-powerpoints-to-revealjs/index.html",
       "/posts/crafting-a-technical-workshop-site-with-quarto/index.html",

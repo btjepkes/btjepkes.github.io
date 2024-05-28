@@ -280,39 +280,18 @@
     "text": "Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography.\nAbout Me Curriculum vitae"
   },
   {
-    "objectID": "index.html#conservation",
-    "href": "index.html#conservation",
+    "objectID": "index.html#ecology-conservation",
+    "href": "index.html#ecology-conservation",
     "title": "Homepage",
-    "section": "Conservation",
-    "text": "Conservation\n\nWildlife Ecology\nEnvironmental Data Science"
+    "section": "Ecology & Conservation",
+    "text": "Ecology & Conservation\n\nWildlife Ecology\nEnvironmental Data Science"
   },
   {
-    "objectID": "index.html#geospatial",
-    "href": "index.html#geospatial",
+    "objectID": "index.html#geospatial-technology",
+    "href": "index.html#geospatial-technology",
     "title": "Homepage",
-    "section": "Geospatial",
-    "text": "Geospatial\n\nGeographic Information Systems\nRemote Sensing"
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "Homepage",
-    "section": "Research",
-    "text": "Research\n\nBiogeography\nClimate Science"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Homepage",
-    "section": "Education",
-    "text": "Education\n\nWildlife Ecology\nEnvironmental Data Science"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Homepage",
-    "section": "Experience",
-    "text": "Experience\n\nGeographic Information Systems\nRemote Sensing"
+    "section": "Geospatial Technology",
+    "text": "Geospatial Technology\n\nGeographic Information Systems\nRemote Sensing"
   },
   {
     "objectID": "gallery/vineyard-and-winery-location-suitability-map/index.html",
