@@ -9,7 +9,7 @@ website:
   site-url: https://btjepkes.github.io
   repo-url: https://github.com/btjepkes/btjepkes.github.io
   description: "A professional portfolio and technical blog for Benjamin Tjepkes."
-  favicon: "assets/layer-group-solid.svg"
+  favicon: "assets/forest-svgrepo-com.svg"
   page-navigation: false
   back-to-top-navigation: false
   bread-crumbs: true

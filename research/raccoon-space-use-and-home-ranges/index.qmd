@@ -1,6 +1,7 @@
 ---
 title: "Raccoon Space-Use and Home Ranges"
-description: This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.
+subtitle: Sex-specific differences across an urban-rural gradient in Laramie, Wyoming.
+abstract: This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming.
 date: "5/20/2023"
 date-modified: today
 categories:

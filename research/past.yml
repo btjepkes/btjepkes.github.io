@@ -3,5 +3,24 @@
   custom-field: Analyzing long-term bald eagle nest monitoring records from the Upper Mississippi River.
   href: ./bald-eagle-nest-site-selection/
   href2: #
+  href3: #
   image: ./bald-eagle-nest-site-selection/img-eagle-nesting.jpg
+  image2:
+  
+- name: Raccoon Space-Use and Home Ranges
+  category: Past Projects
+  custom-field: Sex-specific differences across an urban-rural gradient in Laramie, Wyoming.
+  href: ./raccoon-space-use-and-home-ranges/
+  href2: #
+  href3: #
+  image: ./raccoon-space-use-and-home-ranges/img-raccoon-hr.jpg
+  image2:
+  
+- name: Ruffed Grouse Drumming Log Selection
+  category: Past Projects
+  custom-field: Drumming log site selection in the mixed-boreal forests of Wisconsin.
+  href: ./ruffed-grouse-drumming-log-selection/
+  href2: #
+  href3: #
+  image: ./ruffed-grouse-drumming-log-selection/img-grouse-map.jpg
   image2:
