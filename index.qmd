@@ -67,38 +67,38 @@ listing:
 
 ::: {#intro-container .column-screen}
 
-:::{.grid .column-page}
+:::{.grid .column-page .py-2}
 
-:::{.g-col-12 .g-col-md-3 .text-center}
+:::{.g-col-12 .g-col-md-3}
 
-![](assets/img-ben-portrait-2.jpg){.rounded .index-headshot .no-lightbox}
+![](assets/img-ben-portrait-2.jpg){.no-lightbox .rounded .index-headshot }
 
 :::
 
-:::{.g-col-12 .g-col-md-9 .pb-3}
+:::{.g-col-12 .g-col-md-9 .pb-3 }
 
-# A dedicated wildlife ecologist and geospatial scientist...{.text-center .mt-3}
+# A dedicated wildlife ecologist and geospatial scientist...{.text-justify .mt-3}
 
 Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography.
 
-[About Me](about/index.qmd){.btn .btn-primary .btn-sm }  [Curriculum vitae](curriculum-vitae/index.qmd){.btn .btn-secondary .btn-sm}
+[About Me](about/index.qmd){.btn .btn-primary .btn-sm }  or  [Curriculum vitae](curriculum-vitae/index.qmd){.btn .btn-secondary .btn-sm}
 
 
 :::
 
 :::
 :::
-
 
 :::{.column-page .mt-4 .fw-bold .fs-3}
 My Focus Areas:
 :::
 
+
 :::{.grid .column-page }
 
-:::{.g-col-12 .g-col-md-6 .bg-warning .p-3 .rounded .bg-noise .shadow}
+:::{.g-col-12 .g-col-md-6 .bg-primary .p-3 .rounded .bg-noise .shadow}
 
-## Ecology & Conservation {.text-white }
+## Ecology & Conservation {.text-white}
 
 - Wildlife Ecology
 - Biogeography
@@ -116,8 +116,6 @@ My Focus Areas:
 - Geoinformatics
 
 :::
-
-
 :::
 
 :::{.column-page .mt-4 .fw-bold .fs-3}
@@ -126,13 +124,13 @@ Exploring This Site:
 
 :::{.grid .column-page}
 
-:::{.g-col-12 .g-col-md-4 .bg-primary .p-3 .rounded .bg-tree .shadow}
+:::{.g-col-12 .g-col-md-4 .bg-warning .p-3 .rounded .bg-tree .shadow}
 
 ### Blog Posts {.text-white}
 
 Covering technical and creative topics, from ecology to cartography.
 
-[Learn More <i class="bi bi-arrow-right-short"></i>](posts/index.qmd){.btn .btn-sm .btn-light .mt-2}
+[Learn More <i class="bi bi-arrow-right-short"></i>](posts/index.qmd){.btn .btn-sm .btn-light .mt-3}
 
 :::
 
@@ -141,7 +139,7 @@ Covering technical and creative topics, from ecology to cartography.
 
 Examples from professional and personal projects in data and geospatial.
 
-[Learn More <i class="bi bi-arrow-right-short"></i>](gallery/index.qmd){.btn .btn-sm .btn-light .mt-2}
+[Learn More <i class="bi bi-arrow-right-short"></i>](gallery/index.qmd){.btn .btn-sm .btn-light .mt-3}
 
 :::
 
@@ -150,7 +148,7 @@ Examples from professional and personal projects in data and geospatial.
 
 Across the scopes of spatial ecology, biogeography, and geospatial science.
 
-[Learn More <i class="bi bi-arrow-right-short"></i>](research/index.qmd){.btn .btn-sm .btn-light .mt-2}
+[Learn More <i class="bi bi-arrow-right-short"></i>](research/index.qmd){.btn .btn-sm .btn-light .mt-3}
 
 :::
 
