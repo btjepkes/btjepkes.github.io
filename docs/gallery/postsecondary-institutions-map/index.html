@@ -120,11 +120,11 @@ cookieconsent.run({
 <meta name="twitter:image-width" content="3200">
 <meta name="twitter:image:alt" content="A hexbin map showing the total number of post-secondary institutions and programs in each U.S. state.">
 <meta name="twitter:card" content="summary_large_image">
-</head><body class="nav-fixed"><nav class=" menu-navbar navbar navbar-expand-lg bg-light navbar-light">
+</head><body class="nav-fixed"><nav class="menu-navbar navbar navbar-expand-lg bg-light navbar-light border-none">
   <div class="container-fluid">
     <div class="nav-item dropdown">
       <a class="nav-link dropdown-toggle text-primary" href="#" role="button" data-bs-toggle="dropdown">Sites &amp; Apps</a>
-      <ul class="dropdown-menu">
+      <ul class="dropdown-menu shadow" style="font-size: 15px;">
         <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">GIS Workshop Site</a></li>
         <li><hr class="dropdown-divider m-0"></li>
         <li><a class="dropdown-item" href="https://bwtbgm.github.io/MU_WindDataProject_Private/dashboard/dashboard-test" target="_blank">Earthquake Dashboard</a></li>
@@ -281,7 +281,7 @@ cookieconsent.run({
 <p>Here is another version of the above map, this time with a normalized based on total population, showing post-secondary schools for every 100,000 people.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-college-map-v2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Credit: Benjamin Tjepkes"><img src="img-college-map-v2.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+<p><a href="img-college-map-v2.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Credit: Benjamin Tjepkes"><img src="img-college-map-v2.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
 <figcaption>Credit: Benjamin Tjepkes</figcaption>
 </figure>
 </div>
@@ -716,7 +716,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

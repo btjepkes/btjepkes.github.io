@@ -89,7 +89,7 @@ My Focus Areas:
 
 :::{.grid .column-page }
 
-:::{.g-col-12 .g-col-md-6 .bg-primary .p-3 .rounded .bg-noise .shadow}
+:::{.g-col-12 .g-col-md-6 .bg-primary .p-3 .rounded .bg-noise .shadow }
 
 ## Ecology & Conservation {.text-white}
 
@@ -100,7 +100,7 @@ My Focus Areas:
 
 :::
 
-:::{.g-col-12 .g-col-md-6 .bg-success .p-3 .rounded .bg-noise .shadow}
+:::{.g-col-12 .g-col-md-6 .bg-success .p-3 .rounded .bg-noise .shadow }
 ## Geospatial Technology {.text-white}
 
 - Geographic Information Systems
@@ -115,7 +115,7 @@ My Focus Areas:
 Exploring This Site:
 :::
 
-:::{.grid .column-page}
+:::{.grid .column-page .mb-5}
 
 :::{.g-col-12 .g-col-md-4 .bg-warning .p-3 .rounded .bg-tree .shadow}
 

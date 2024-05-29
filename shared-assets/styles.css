@@ -4,6 +4,12 @@ h1 {
   font-family: "Roboto Slab", serif;
 }
 
+#quarto-content {
+  background-image: url("https://assets-global.website-files.com/655926fa24195711dbf38624/655926fa24195711dbf38661_vector-grid.svg");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-size: 800px;
+}
 
 #quarto-content .subtitle {
   line-height: 1.1em;
@@ -23,8 +29,10 @@ h1 {
 }
 
 .menu-navbar {
-  background-image: revert !important;
-  background-color: white;
+  /*background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(18,60,105,0.10) 70%), url("../assets/bg-links.jpg") !important;
+  background-size: 400px !important;
+  background-repeat: repeat-x;*/
+  background: #e9eef4 !important;
   padding: 4px 18px;
   
   .container-fluid {
@@ -40,7 +48,6 @@ h1 {
 
 
 .navbar {
-  border-bottom: solid 1px lightgray;
   --bs-navbar-padding-y: 0.4em;
   background-color: #123c69;
 /*  background-color: #323e5c;*/
@@ -132,7 +139,7 @@ h1 {
 
 .quarto-grid-item {
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
-  background: #e9eef4;
+  background: #fff;
 }
 
 .listings-gallery .quarto-grid-item div.post-contents {
@@ -273,9 +280,9 @@ figure > figcaption {
 
 /* SIDEBAR */
 
-/*#quarto-margin-sidebar {
-  top: 50px !important;
-}*/
+#quarto-margin-sidebar {
+  padding-top: 40px;
+}
 
 
 /*// FOOTER*/
@@ -288,6 +295,7 @@ figure > figcaption {
 .nav-footer {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
+  background: #e9eef4;
 }
 
 .nav-footer a {

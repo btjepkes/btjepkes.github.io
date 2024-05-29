@@ -119,11 +119,11 @@ cookieconsent.run({
 <meta name="twitter:image-width" content="700">
 <meta name="twitter:image:alt" content="A choropleth map showing forest cover and happiness index.">
 <meta name="twitter:card" content="summary_large_image">
-</head><body class="nav-fixed"><nav class=" menu-navbar navbar navbar-expand-lg bg-light navbar-light">
+</head><body class="nav-fixed"><nav class="menu-navbar navbar navbar-expand-lg bg-light navbar-light border-none">
   <div class="container-fluid">
     <div class="nav-item dropdown">
       <a class="nav-link dropdown-toggle text-primary" href="#" role="button" data-bs-toggle="dropdown">Sites &amp; Apps</a>
-      <ul class="dropdown-menu">
+      <ul class="dropdown-menu shadow" style="font-size: 15px;">
         <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">GIS Workshop Site</a></li>
         <li><hr class="dropdown-divider m-0"></li>
         <li><a class="dropdown-item" href="https://bwtbgm.github.io/MU_WindDataProject_Private/dashboard/dashboard-test" target="_blank">Earthquake Dashboard</a></li>
@@ -269,7 +269,7 @@ cookieconsent.run({
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img-happy-forests-happy-people-map.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Resulting bivariate map of happy forests and happy people."><img src="img-happy-forests-happy-people-map.png" class="img-fluid figure-img" alt="Resulting bivariate map of happy forests and happy people."></a></p>
+<p><a href="img-happy-forests-happy-people-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Resulting bivariate map of happy forests and happy people."><img src="img-happy-forests-happy-people-map.png" class="img-fluid figure-img" alt="Resulting bivariate map of happy forests and happy people."></a></p>
 <figcaption>Resulting bivariate map of happy forests and happy people.</figcaption>
 </figure>
 </div>
@@ -713,7 +713,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":false,"closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
