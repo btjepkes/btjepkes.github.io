@@ -40,6 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -308,7 +309,7 @@ window.Quarto = {
       <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="./dynamics-of-climate-driven-vegetation-phenology-and-associated-avian-response-across-the-chf/img-gee-map.png" alt="Card image">
     </div>
     <div class="card-body" data-index="0">
-      <h4 class="card-title" style="margin-top: 0;">Master's Thesis Project</h4>
+      <h4 class="card-title anchored" style="margin-top: 0;">Master's Thesis Project</h4>
       <p class="card-text">Assessing avian response to long-term climate and phenology dynamics.</p>
       
       <ul class="list-group list-group-flush">
@@ -352,6 +353,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

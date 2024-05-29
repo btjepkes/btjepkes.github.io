@@ -20,367 +20,572 @@
   <title>Mining Text From Course Descriptions</title>
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/text-mining-course-descriptions/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="introduction" class="level2">
-<h2 data-anchor-id="introduction">Introduction</h2>
+  <description><![CDATA[ <section id="introduction" class="level2"><h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p><a href="img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="quarto-cover-image img-fluid"></a></p>
 <p>This month (May), I wrapped up my first year as a graduate student which also brought my list of college courses up past 70! As the bags under my eyes can tell you, it has been a long road to this point, with much still left to go. I wanted to take some time to look back and reflect on the courses I have experienced in my higher education journey thus far by visualizing some course description data.</p>
-<section id="why-course-descriptions" class="level3">
-<h3 data-anchor-id="why-course-descriptions">Why course descriptions?</h3>
-<p>All college courses are accompanied by a syllabus that outlines the course structure, objectives, and often times lists the official course description. This, often short, paragraph describes the theory, methods, or general topics of each course and is registered officially with the Registrar as a record of course offerings each semester.</p>
-<p>The primary instigator of this was that I was finally able to finish assembling my spreadsheet of courses over my career. Why collect these? Well, I am in the process of submitting my application for various professional certifications and many of them require a record of all courses taken that apply to their certification. For example, my application for <a href="https://wildlife.org/certification-programs/">The Wildlife Society Certification Program</a> is one I have been planning for a long time.</p>
-</section>
-</section>
-<section id="workflow---word-cloud" class="level2">
-<h2 data-anchor-id="workflow---word-cloud">Workflow - Word Cloud</h2>
+<section id="why-course-descriptions" class="level3"><h3 class="anchored" data-anchor-id="why-course-descriptions">Why course descriptions?</h3>
+<p>College courses all come with a syllabus that lays out the course structure, objectives, and usually a brief official description. These descriptions detail the theory, methods, or general topics of each course and are officially registered with the Registrar. The main reason behind my decision to delve into these descriptions was finally completing my spreadsheet of courses over my academic career. Why did I bother with this? Well, I’m in the process of applying for various professional certifications, many of which require a record of all relevant courses taken. For example, I’ve been eyeing <a href="https://wildlife.org/certification-programs/">The Wildlife Society Certification Program</a> for some time now.</p>
+</section></section><section id="workflow---word-cloud" class="level2"><h2 class="anchored" data-anchor-id="workflow---word-cloud">Workflow - Word Cloud</h2>
 <p>The steps I took for this process came largely from <a href="http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know">this blog post</a>, which was extremely helpful in understanding these text mining packages in R.</p>
-<section id="data-processing" class="level3">
-<h3 data-anchor-id="data-processing">1. Data Processing</h3>
+<section id="data-processing" class="level3"><h3 class="anchored" data-anchor-id="data-processing">1. Data Processing</h3>
 <p>The first step we need to do is install and/or load all the required packages. This will include several new-to-me packages like <code>tm</code> and <code>wordcloud</code> along with some familiar ones like <code>RColorBrewer</code>.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">Loading Packages</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">Installing Packages (if needed)</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">library</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"tm"</span>)</span>
-<span id="cb1-2"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">library</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"SnowballC"</span>)</span>
-<span id="cb1-3"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">library</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"wordcloud"</span>)</span>
-<span id="cb1-4"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">library</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"RColorBrewer"</span>)</span></code></pre></div>
+<div class="cell">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>matplotlib.py</strong></pre>
 </div>
-<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># Install ----</span></span>
-<span id="cb2-2"><span class="fu" style="color: #4758AB;
+font-style: inherit;"># Optional install packages, if needed ----</span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
+font-style: inherit;"># install.packages("tm")  # for text mining</span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">"tm"</span>)  <span class="co" style="color: #5E5E5E;
+font-style: inherit;"># install.packages("SnowballC") # for text stemming</span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># for text mining</span></span>
-<span id="cb2-3"><span class="fu" style="color: #4758AB;
+font-style: inherit;"># install.packages("wordcloud") # word-cloud generator </span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
+font-style: inherit;"># install.packages("RColorBrewer") # color palettes</span></span>
+<span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">"SnowballC"</span>) <span class="co" style="color: #5E5E5E;
+font-style: inherit;"># Load required packages, once installed ----</span></span>
+<span><span class="kw" style="color: #003B4F;
 background-color: null;
-font-style: inherit;"># for text stemming</span></span>
-<span id="cb2-4"><span class="fu" style="color: #4758AB;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"wordcloud"</span>) <span class="co" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://tm.r-forge.r-project.org/">"tm"</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># word-cloud generator </span></span>
-<span id="cb2-5"><span class="fu" style="color: #4758AB;
+font-style: inherit;">)</span></span>
+<span><span class="kw" style="color: #003B4F;
 background-color: null;
-font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">"RColorBrewer"</span>) <span class="co" style="color: #5E5E5E;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;"># color palettes</span></span></code></pre></div>
+font-style: inherit;"><a href="https://github.com/nalimilan/R.TeMiS">"SnowballC"</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"><a href="http://blog.fellstat.com/?cat=11">"wordcloud"</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"RColorBrewer"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div>
 </div>
 </div>
-</div>
-</section>
-<section id="data-import" class="level3">
-<h3 data-anchor-id="data-import">2. Data Import</h3>
-<p>Next, we need to get our data into R and format everything as a <code>tm::Corpus</code> dataset that can be transformed in later steps.</p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
+</section><section id="data-import" class="level3"><h3 class="anchored" data-anchor-id="data-import">2. Data Import</h3>
+<p>Next, we need to get our data into R and format everything as a <code><a href="https://rdrr.io/pkg/tm/man/Corpus.html">tm::Corpus</a></code> dataset that can be transformed in later steps.</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Load the text</span></span>
-<span id="cb3-2">text <span class="ot" style="color: #003B4F;
+<span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">&lt;-</span> base<span class="sc" style="color: #5E5E5E;
+font-style: inherit;">text</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">base</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">readLines</span>(<span class="fu" style="color: #4758AB;
+font-style: inherit;"><a href="https://rdrr.io/r/base/readLines.html">readLines</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">file.choose</span>())</span>
-<span id="cb3-3"></span>
-<span id="cb3-4"></span>
-<span id="cb3-5"><span class="co" style="color: #5E5E5E;
+font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/file.choose.html">file.choose</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span></span>
+<span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Load the data as a corpus</span></span>
-<span id="cb3-6">docs <span class="ot" style="color: #003B4F;
+<span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">&lt;-</span> tm<span class="sc" style="color: #5E5E5E;
+font-style: inherit;">docs</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tm</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">Corpus</span>(<span class="fu" style="color: #4758AB;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/Corpus.html">Corpus</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">VectorSource</span>(text))</span></code></pre></div>
-</section>
-<section id="data-wrangling" class="level3">
-<h3 data-anchor-id="data-wrangling">3. Data Wrangling</h3>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/VectorSource.html">VectorSource</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">text</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div>
+</section><section id="data-wrangling" class="level3"><h3 class="anchored" data-anchor-id="data-wrangling">3. Data Wrangling</h3>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Text transformation ----</span></span>
-<span id="cb4-2">toSpace <span class="ot" style="color: #003B4F;
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">toSpace</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">content_transformer</span>(<span class="cf" style="color: #003B4F;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/content_transformer.html">content_transformer</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">function</span> (x , pattern ) <span class="fu" style="color: #4758AB;
+font-style: inherit;">(</span><span class="kw" style="color: #003B4F;
 background-color: null;
-font-style: inherit;">gsub</span>(pattern, <span class="st" style="color: #20794D;
+font-style: inherit;">function</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">" "</span>, x))</span>
-<span id="cb4-3">docs <span class="ot" style="color: #003B4F;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">x</span> , <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">pattern</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">pattern</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">" "</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">x</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">tm_map</span>(docs, toSpace, <span class="st" style="color: #20794D;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">"/"</span>)</span>
-<span id="cb4-4">docs <span class="ot" style="color: #003B4F;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">toSpace</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"/"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">tm_map</span>(docs, toSpace, <span class="st" style="color: #20794D;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">"@"</span>)</span>
-<span id="cb4-5">docs <span class="ot" style="color: #003B4F;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">toSpace</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"@"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">tm_map</span>(docs, toSpace, <span class="st" style="color: #20794D;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">"</span><span class="sc" style="color: #5E5E5E;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">\\</span><span class="st" style="color: #20794D;
+font-style: inherit;">docs</span>, <span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">|"</span>)</span>
-<span id="cb4-6"></span>
-<span id="cb4-7"><span class="co" style="color: #5E5E5E;
+font-style: inherit;">toSpace</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"\\|"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Text cleaning ----</span></span>
-<span id="cb4-8"></span>
-<span id="cb4-9"><span class="co" style="color: #5E5E5E;
+<span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Convert the text to lower case</span></span>
-<span id="cb4-10">docs <span class="ot" style="color: #003B4F;
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">tm_map</span>(docs, <span class="fu" style="color: #4758AB;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">content_transformer</span>(tolower))</span>
-<span id="cb4-11"><span class="co" style="color: #5E5E5E;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/content_transformer.html">content_transformer</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">tolower</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Remove numbers</span></span>
-<span id="cb4-12">docs <span class="ot" style="color: #003B4F;
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">tm_map</span>(docs, removeNumbers)</span>
-<span id="cb4-13"><span class="co" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">removeNumbers</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Remove english common stopwords</span></span>
-<span id="cb4-14">docs <span class="ot" style="color: #003B4F;
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">tm_map</span>(docs, removeWords, <span class="fu" style="color: #4758AB;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">stopwords</span>(<span class="st" style="color: #20794D;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">"english"</span>))</span>
-<span id="cb4-15"><span class="co" style="color: #5E5E5E;
+font-style: inherit;">docs</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">removeWords</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/stopwords.html">stopwords</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"english"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Remove your own stop word</span></span>
-<span id="cb4-16"><span class="co" style="color: #5E5E5E;
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># specify your stopwords as a character vector</span></span>
-<span id="cb4-17">docs <span class="ot" style="color: #003B4F;
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">tm_map</span>(docs, removeWords, <span class="fu" style="color: #4758AB;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">removeWords</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"course"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"will"</span>)) </span>
-<span id="cb4-18"><span class="co" style="color: #5E5E5E;
+font-style: inherit;">"will"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> </span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Remove punctuations</span></span>
-<span id="cb4-19">docs <span class="ot" style="color: #003B4F;
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">tm_map</span>(docs, removePunctuation)</span>
-<span id="cb4-20"><span class="co" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">removePunctuation</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Eliminate extra white spaces</span></span>
-<span id="cb4-21">docs <span class="ot" style="color: #003B4F;
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">tm_map</span>(docs, stripWhitespace)</span></code></pre></div>
-</section>
-<section id="creating-matrix" class="level3">
-<h3 data-anchor-id="creating-matrix">4. Creating Matrix</h3>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">stripWhitespace</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div>
+</section><section id="creating-matrix" class="level3"><h3 class="anchored" data-anchor-id="creating-matrix">4. Creating Matrix</h3>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Build a Term-Document Matrix ----</span></span>
-<span id="cb5-2">dtm <span class="ot" style="color: #003B4F;
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dtm</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">TermDocumentMatrix</span>(docs)</span>
-<span id="cb5-3">m <span class="ot" style="color: #003B4F;
+font-style: inherit;"><a href="https://rdrr.io/pkg/tm/man/matrix.html">TermDocumentMatrix</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">docs</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">m</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">as.matrix</span>(dtm)</span>
-<span id="cb5-4">v <span class="ot" style="color: #003B4F;
+font-style: inherit;"><a href="https://rdrr.io/r/base/matrix.html">as.matrix</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">dtm</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">v</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">sort</span>(<span class="fu" style="color: #4758AB;
+font-style: inherit;"><a href="https://rdrr.io/r/base/sort.html">sort</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">rowSums</span>(m),<span class="at" style="color: #657422;
+font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">decreasing=</span><span class="cn" style="color: #8f5902;
+font-style: inherit;"><a href="https://rdrr.io/r/base/colSums.html">rowSums</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">TRUE</span>)</span>
-<span id="cb5-5">d <span class="ot" style="color: #003B4F;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">m</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span>,decreasing<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">d</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">data.frame</span>(<span class="at" style="color: #657422;
+font-style: inherit;"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">word =</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">(</span>word <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">names</span>(v),<span class="at" style="color: #657422;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">freq=</span>v)</span>
-<span id="cb5-6"><span class="fu" style="color: #4758AB;
+font-style: inherit;"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">head</span>(d, <span class="dv" style="color: #AD0000;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">10</span>)</span></code></pre></div>
-</section>
-<section id="visualization" class="level3">
-<h3 data-anchor-id="visualization">5. Visualization</h3>
-<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
+font-style: inherit;">v</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span>,freq<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">v</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">d</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div>
+</section><section id="visualization" class="level3"><h3 class="anchored" data-anchor-id="visualization">5. Visualization</h3>
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Create and save word cloud</span></span>
-<span id="cb6-2"><span class="fu" style="color: #4758AB;
+<span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">set.seed</span>(<span class="dv" style="color: #AD0000;
+font-style: inherit;"><a href="https://rdrr.io/r/base/Random.html">set.seed</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">1234</span>)</span>
-<span id="cb6-3">grDevices<span class="sc" style="color: #5E5E5E;
+font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1234</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">grDevices</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">png</span>(<span class="at" style="color: #657422;
+font-style: inherit;"><a href="https://rdrr.io/r/grDevices/png.html">png</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">filename =</span> <span class="st" style="color: #20794D;
+font-style: inherit;">(</span>filename <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"./word_plot.png"</span>,</span>
-<span id="cb6-4">               <span class="at" style="color: #657422;
+<span>               width <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">width =</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1000</span>,</span>
-<span id="cb6-5">               <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">height =</span> <span class="dv" style="color: #AD0000;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1000</span>,</span>
-<span id="cb6-6">               <span class="at" style="color: #657422;
+<span>               height <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">units =</span> <span class="st" style="color: #20794D;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1000</span>,</span>
+<span>               units <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"px"</span>,</span>
-<span id="cb6-7">               <span class="at" style="color: #657422;
+<span>               res <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">res =</span> <span class="dv" style="color: #AD0000;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">150</span>)</span>
-<span id="cb6-8">wordcloud<span class="sc" style="color: #5E5E5E;
+font-style: inherit;">150</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">wordcloud</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">wordcloud</span>(<span class="at" style="color: #657422;
+font-style: inherit;"><a href="https://rdrr.io/pkg/wordcloud/man/wordcloud.html">wordcloud</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">words =</span> d<span class="sc" style="color: #5E5E5E;
+font-style: inherit;">(</span>words <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">$</span>word, <span class="at" style="color: #657422;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">freq =</span> d<span class="sc" style="color: #5E5E5E;
+font-style: inherit;">d</span><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">$</span>freq, <span class="at" style="color: #657422;
+font-style: inherit;">$</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">min.freq =</span> <span class="dv" style="color: #AD0000;
+font-style: inherit;">word</span>, freq <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">d</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">freq</span>, min.freq <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span>,</span>
-<span id="cb6-9">          <span class="at" style="color: #657422;
+<span>          max.words<span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">max.words=</span><span class="dv" style="color: #AD0000;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">200</span>, <span class="at" style="color: #657422;
+font-style: inherit;">200</span>, random.order<span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">random.order=</span><span class="cn" style="color: #8f5902;
+font-style: inherit;">=</span><span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">FALSE</span>, <span class="at" style="color: #657422;
+font-style: inherit;">FALSE</span>, rot.per<span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">rot.per=</span><span class="fl" style="color: #AD0000;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0.35</span>, </span>
-<span id="cb6-10">          <span class="at" style="color: #657422;
+<span>          colors<span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">colors=</span><span class="fu" style="color: #4758AB;
+font-style: inherit;">=</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">brewer.pal</span>(<span class="dv" style="color: #AD0000;
+font-style: inherit;"><a href="https://rdrr.io/pkg/RColorBrewer/man/ColorBrewer.html">brewer.pal</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">8</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Dark2"</span>))</span>
-<span id="cb6-11">grDevices<span class="sc" style="color: #5E5E5E;
+font-style: inherit;">"Dark2"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">grDevices</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">dev.off</span>()</span></code></pre></div>
+font-style: inherit;"><a href="https://rdrr.io/r/grDevices/dev.html">dev.off</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="The resulting word cloud from my course descriptions."><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
-<figcaption>The resulting word cloud from my course descriptions.</figcaption>
-</figure>
+<figure class="figure"><p><a href="./img-word-cloud.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="The resulting word cloud from my course descriptions."><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
+<figcaption>The resulting word cloud from my course descriptions.</figcaption></figure>
 </div>
 
 
 
-</section>
-</section>
-
-<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
+</section></section><div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2024. <span>“Mining Text From Course
 Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/text-mining-course-descriptions">https://btjepkes.github.io/posts/text-mining-course-descriptions</a>.
 </div></div></section></div> ]]></description>
@@ -401,10 +606,10 @@ Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/
 
 
 <section id="introduction" class="level2">
-<h2 data-anchor-id="introduction">Introduction</h2>
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. So, how can I convert my .pptx files into reveal.js slides? Well, I have devised a workflow that does just this. I am not sure is the best way, but it works for me until someone tells me otherwise.</p>
 <section id="how-it-works" class="level3">
-<h3 data-anchor-id="how-it-works">How it works</h3>
+<h3 class="anchored" data-anchor-id="how-it-works">How it works</h3>
 <p>Let’s take a run through my workflow. We must first export the PowerPoint as a .pdf within the PowerPoint software. Then, we can split each slide into its own .png or .jpg image using the <code>pdftools::pdf_convert</code> function. From here it is a simple for loop and <code>asis</code> output specification in a Quarto document setup to create a revealjs presentation.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -437,7 +642,7 @@ Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/
 </section>
 </section>
 <section id="coded-example" class="level2">
-<h2 data-anchor-id="coded-example">Coded Example</h2>
+<h2 class="anchored" data-anchor-id="coded-example">Coded Example</h2>
 <p>Now we can run through an example with the code included. Here, we are assuming you have a saved PowerPoint, <code>powerpoint.pdf</code>, that was exported from your PowerPoint of interest.</p>
 <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -686,7 +891,7 @@ font-style: inherit;">;</span></span>
 <span id="cb5-6">}</span></code></pre></div>
 </section>
 <section id="final-thoughts" class="level2">
-<h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
+<h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
 <p>So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it. Regardless, I hope this post is helpful for others interested in this process.</p>
 
 
@@ -714,25 +919,25 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
 
 
 <section id="introduction" class="level2">
-<h2 data-anchor-id="introduction">Introduction</h2>
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
 <p>This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1) identify gaps in existing literature</strong> and <strong>(2) determine the potential contributions of their own work</strong> within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
 <section id="why-use-zotero-and-quarto" class="level3">
-<h3 data-anchor-id="why-use-zotero-and-quarto">Why use Zotero and Quarto?</h3>
+<h3 class="anchored" data-anchor-id="why-use-zotero-and-quarto">Why use Zotero and Quarto?</h3>
 <p><a href="https://www.zotero.org/">Zotero</a> is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. <a href="https://quarto.org/">Quarto</a> is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.</p>
 <p>I suggest using these options because they are <strong>free</strong>, <strong>natively integrated</strong>, and <strong>highly flexible</strong>. This process allows for great flexibility, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.</p>
 <p>Perhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.</p>
 </section>
 <section id="what-are-potential-alternatives" class="level3">
-<h3 data-anchor-id="what-are-potential-alternatives">What are potential alternatives?</h3>
+<h3 class="anchored" data-anchor-id="what-are-potential-alternatives">What are potential alternatives?</h3>
 <p>Zotero provides a reporting functionality in the desktop application by right-clicking an item, selection of items, or an entire collection, then selecting <em>“Generate Report From…”</em>. This option works well if you need to quickly output your citations and notes, but is limited to exporting in HTML or Rich Text formats.</p>
 <p>Another alternative workflow might be to use <a href="https://obsidian.md/">Obsidian</a>, a freemium note-taking software that operates on Markdown files. This application integrates very well will Zotero as well, but my personal preference is Quarto in the RStudio environment. Consider following <a href="https://medium.com/@alexandraphelan/an-updated-academic-workflow-zotero-obsidian-cffef080addd">this tutorial</a> if you want to use Obsidian.</p>
 </section>
 </section>
 <section id="workflow-in-zotero" class="level2">
-<h2 data-anchor-id="workflow-in-zotero">Workflow in Zotero</h2>
+<h2 class="anchored" data-anchor-id="workflow-in-zotero">Workflow in Zotero</h2>
 <section id="add-citations-and-notes" class="level3">
-<h3 data-anchor-id="add-citations-and-notes">Add Citations and Notes</h3>
+<h3 class="anchored" data-anchor-id="add-citations-and-notes">Add Citations and Notes</h3>
 <p>The first step, which you may be at already, is to get literature into your Zotero library. There are a variety of ways to accomplish this, but I prefer using either the <em>Add Item by Identifier</em> tool or the web extension to automatically load documents into their respective libraries, collections, or sub-collections.</p>
 <p>Once you have your literature in Zotero you can review each article as you normally would. While doing so, add in notes and annotations that summarize the main findings, key terms, important methods, and so forth. An important note about this workflow is that each comment or annotation made on an article must be stored as an individual note item. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -743,7 +948,7 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
 </div>
 </section>
 <section id="export-items-as-bibtex" class="level3">
-<h3 data-anchor-id="export-items-as-bibtex">Export Item(s) as BibTeX</h3>
+<h3 class="anchored" data-anchor-id="export-items-as-bibtex">Export Item(s) as BibTeX</h3>
 <p>Once you have all your literature added to Zotero and any annotations you need to make based on your review of each article, it is now time to export this information. Just like with the reports, exporting can occur at the level of each item, selection of items, or entire collections. I have found it easiest to make sub-collections for major themes or sections.</p>
 <p>In this step, we are simply exporting the information from Zotero into a portable BibTeX file with the <code>.bib</code> extension. Other similar extension types may work, but I have only tested the standard format. To export, you need to (1) right-click the item of interest, (2) select <em>“Export…”</em>, (3) ensure that the <code>Format: BibTeX</code> and the <code>Export Notes</code> options are selected, and (4) specify an accessible location to store this file. This should save a .bib file to this location containing all pertinent information and notes on the citation(s) of interest.</p>
 <p>If you open up the <code>.bib</code> file you just exported, <strong>each included article should look similar to the following example.</strong> The <code>annote</code> portions contain the notes we added in the previous step.</p>
@@ -815,10 +1020,10 @@ font-style: inherit;">annote</span> = {Predicting and assessing phenological res
 </section>
 </section>
 <section id="workflow-in-quarto" class="level2">
-<h2 data-anchor-id="workflow-in-quarto">Workflow in Quarto</h2>
+<h2 class="anchored" data-anchor-id="workflow-in-quarto">Workflow in Quarto</h2>
 <p>These next steps will all be carried out using Quarto within RStudio. At the time of this post, I am using this workflow with <code>R version 4.3.2</code>, <code>Quarto version 1.4.510</code>, and <code>RStudio version 2023.09.1</code> without issues. Some of these steps may need to be adapted based on your working versions and system configuration. This post assumes you have successfully installed Quarto on your machine and are comfortable with markdown document creation using this program.</p>
 <section id="setup-yaml-header" class="level3">
-<h3 data-anchor-id="setup-yaml-header">Setup YAML Header</h3>
+<h3 class="anchored" data-anchor-id="setup-yaml-header">Setup YAML Header</h3>
 <p>When starting a new Quarto document, often one of the first steps is setting up your YAML header. This initial bit of code is bordered by <code>---</code> on the top and bottom, and contains the necessary elements that tells Quarto how to generate the document.</p>
 <div class="sourceCode" id="annotated-cell-2" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-2-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -903,7 +1108,7 @@ font-style: inherit;">---</span></span><div class="code-annotation-gutter-bg"></
 </dl>
 </section>
 <section id="load-packages" class="level3">
-<h3 data-anchor-id="load-packages">Load Packages</h3>
+<h3 class="anchored" data-anchor-id="load-packages">Load Packages</h3>
 <p>There are only two packages needed to perform the required steps. The first is the <code>bib2df</code> <a href="https://github.com/ropensci/bib2df">package</a>, which is a BibTeX parser that turns .bib files into easy-to-read tibbles. The second is the <code>dplyr</code> package within the tidyverse, which allows us to wrangle, filter, and select data from our parsed dataframe. <strong>Install these packages as necessary from CRAN, then load them into your environment.</strong></p>
 <div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -920,7 +1125,7 @@ background-color: null;
 font-style: inherit;"># --- for .bib parsing</span></span></code></pre></div>
 </section>
 <section id="specifying-literature-to-cite" class="level3">
-<h3 data-anchor-id="specifying-literature-to-cite">Specifying Literature to Cite</h3>
+<h3 class="anchored" data-anchor-id="specifying-literature-to-cite">Specifying Literature to Cite</h3>
 <p>Quarto is very similar to many other markdown formats, including RMarkdown, such that you can add in-text citations based on their citation keys. Zotero will generate these automatically when exporting the .bib file, but can sometimes lead to issues if they change with successive exports. To resolve this, a good option is to use the <a href="https://github.com/retorquere/zotero-better-bibtex">Better BibTeX for Zotero Extension</a> which makes it easier to manage your citation keys.</p>
 <p>The following code provides an example of how to insert a citation into your Quarto document. Traditionally, this is how an in-text citation would be placed at that location, but since we specified our CSL as the APA-CV style it will render the entire citation instead. The <code>morisette_tracking_2009</code> portion is the citation key and will be referenced in the next part as well.</p>
 <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="sc" style="color: #5E5E5E;
@@ -1106,7 +1311,7 @@ font-style: inherit;">"morisette_tracking_2009"</span>)</span></code></pre></div
 </div>
 </section>
 <section id="sidenote-for-better-bibtex" class="level3">
-<h3 data-anchor-id="sidenote-for-better-bibtex">Sidenote for <em>Better BibTeX</em></h3>
+<h3 class="anchored" data-anchor-id="sidenote-for-better-bibtex">Sidenote for <em>Better BibTeX</em></h3>
 <p>For anyone using the Better BibTeX extension, the structure of the exported <code>.bib</code> file varies slightly from the one exemplified above. If you exported an item or collection from Zotero with the Format: <code>Better BibTeX</code> option set the annotations will not be individually separated. Instead, they will appear in the same field. But no worries, we have an alternative solutions for this.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" aria-controls="tabset-2-1" aria-selected="true">BibTeX Example</a></li><li class="nav-item"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" aria-controls="tabset-2-2" aria-selected="false">Code Example</a></li></ul>
@@ -1288,7 +1493,7 @@ font-style: inherit;">"</span>))</span></code></pre></div>
 </div>
 </section>
 <section id="render-into-preferred-format" class="level3">
-<h3 data-anchor-id="render-into-preferred-format">Render into Preferred Format</h3>
+<h3 class="anchored" data-anchor-id="render-into-preferred-format">Render into Preferred Format</h3>
 <p>The final, and often most nerve-racking, step is to <code>render</code> our .qmd document. As I mentioned earlier, there are several formats we can use (e.g., .pdf, .docx). I tend to render into HTML initially, then troubleshoot Pandoc conversion issues with other formats once I know it compiles.</p>
 <p>If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs. For this example, I have placed a single citation and its summary notes under a heading titled “Ecological Phenology”, which could be a broad theme or a way to structure your thesis sections. A comprehensive bibliography will be printed at the end of the document showing all citations from the citation keys referenced throughout.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
@@ -1422,7 +1627,7 @@ font-style: inherit;">:::</span></span></code></pre></div>
 </section>
 </section>
 <section id="final-thoughts" class="level2">
-<h2 data-anchor-id="final-thoughts">Final Thoughts</h2>
+<h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
 <p>This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined.</p>
 <p>If you are interested in other cool ways to handle citations and bibliographies in Quarto, I highly suggest checking out the website of <a href="https://www.andrewheiss.com/blog/index.html#category=citations">Andrew Heiss</a>. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
 

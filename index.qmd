@@ -16,7 +16,7 @@ format:
   html:
     css: index.css
     comments: false
-listing:
+# listing:
   # - id: site-listings-1
   #   contents:
   #     - title: About Me
@@ -44,45 +44,38 @@ listing:
   #   fields:
   #     - title
   #     - subtitle
-  - id: site-listings-2
-    contents: "posts/*/*.qmd"
-    type: table
-    sort: date desc
-    filter-ui: false
-    sort-ui: false
-    max-description-length: 100
-    fields: [title, description]
-    max-items: 4
-  - id: site-listings-3
-    contents: "gallery/*/*.qmd"
-    type: table
-    sort: date desc
-    filter-ui: false
-    sort-ui: false
-    max-description-length: 100
-    fields: [title, description]
-    max-items: 4
+  # - id: site-listings-2
+  #   contents: "posts/*/*.qmd"
+  #   type: table
+  #   sort: date desc
+  #   filter-ui: false
+  #   sort-ui: false
+  #   max-description-length: 100
+  #   fields: [title, description]
+  #   max-items: 4
+  # - id: site-listings-3
+  #   contents: "gallery/*/*.qmd"
+  #   type: table
+  #   sort: date desc
+  #   filter-ui: false
+  #   sort-ui: false
+  #   max-description-length: 100
+  #   fields: [title, description]
+  #   max-items: 4
 ---
 
 
 ::: {#intro-container .column-screen}
 
-:::{.grid .column-page .py-2}
+:::{.grid .column-page .py-3}
 
-:::{.g-col-12 .g-col-md-3}
+:::{.g-col-12 .g-col-md-12 .text-center}
 
-![](assets/img-ben-portrait-2.jpg){.no-lightbox .rounded .index-headshot }
-
-:::
-
-:::{.g-col-12 .g-col-md-9 .pb-3 }
-
-# A dedicated wildlife ecologist and geospatial scientist...{.text-justify .mt-3}
+# A dedicated wildlife ecologist and geospatial scientist...
 
 Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography.
 
 [About Me](about/index.qmd){.btn .btn-primary .btn-sm }  or  [Curriculum vitae](curriculum-vitae/index.qmd){.btn .btn-secondary .btn-sm}
-
 
 :::
 
@@ -149,6 +142,40 @@ Examples from professional and personal projects in data and geospatial.
 Across the scopes of spatial ecology, biogeography, and geospatial science.
 
 [Learn More <i class="bi bi-arrow-right-short"></i>](research/index.qmd){.btn .btn-sm .btn-light .mt-3}
+
+:::
+
+:::{.g-col-12 .g-col-md-8 .bg-primary .p-3 .rounded .bg-noise .shadow}
+### Resources {.text-white}
+
+One of my favorite things is sharing neat resources, so I have started posting them here on everything from tutorials to eBooks for coding, stats, and making maps.
+
+```{=html}
+<div class="d-flex pt-3 pb-3">
+  <div class="btn-group">
+    <a class="btn btn-sm btn-light" href="resources/index.qmd" role="button">Explore Resources</a>
+    <button type="button" class="btn btn-sm btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="resources/#tutorials">Tutorials</a></li>
+      <li><a class="dropdown-item" href="resources/#website">Websites</a></li>
+      <li><a class="dropdown-item" href="resources/#ebook">eBooks</a></li>
+      <!-- <li><hr class="dropdown-divider"></li> -->
+      <!-- <li><a class="dropdown-item" href="research/index.qmd">Separated link</a></li> -->
+    </ul>
+  </div>
+</div>
+```
+
+:::
+
+:::{.g-col-12 .g-col-md-4 .bg-success .p-3 .rounded .bg-noise .shadow}
+### Contact {.text-white}
+
+Feel free to reach out anytime with questions, comments, or suggestions.
+
+[Connect <i class="bi bi-link-45deg"></i>](contact.qmd){.btn .btn-sm .btn-light .mt-3}
 
 :::
 
@@ -481,32 +508,32 @@ Across the scopes of spatial ecology, biogeography, and geospatial science.
 <!-- ``` -->
 
 
-::: {.index-latest-container .column-page}
+<!-- ::: {.index-latest-container .column-page} -->
 
-::: {.index-latest-column }
+<!-- ::: {.index-latest-column } -->
 
-:::{.mt-4 .fw-bold .fs-3}
-My Latest Posts:
-:::
-::: {#site-listings-2  .index-latest-posts }
-:::
+<!-- :::{.mt-4 .fw-bold .fs-3} -->
+<!-- My Latest Posts: -->
+<!-- ::: -->
+<!-- ::: {#site-listings-2  .index-latest-posts } -->
+<!-- ::: -->
 
-:::
-  
-  
-::: {.index-latest-column }
+<!-- ::: -->
 
-:::{.mt-4 .fw-bold .fs-3}
-My Latest Projects:
-:::
 
-::: {#site-listings-3  .index-latest-gallery }
-:::
+<!-- ::: {.index-latest-column } -->
 
-:::
+<!-- :::{.mt-4 .fw-bold .fs-3} -->
+<!-- My Latest Projects: -->
+<!-- ::: -->
 
-:::
+<!-- ::: {#site-listings-3  .index-latest-gallery } -->
+<!-- ::: -->
 
-::: {#site-listings-1 .column-page .mt-2}
-:::
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ::: {#site-listings-1 .column-page .mt-2} -->
+<!-- ::: -->
 

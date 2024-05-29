@@ -23,9 +23,7 @@ This month (May), I wrapped up my first year as a graduate student which also br
 
 ### Why course descriptions?
 
-All college courses are accompanied by a syllabus that outlines the course structure, objectives, and often times lists the official course description. This, often short, paragraph describes the theory, methods, or general topics of each course and is registered officially with the Registrar as a record of course offerings each semester.
-
-The primary instigator of this was that I was finally able to finish assembling my spreadsheet of courses over my career. Why collect these? Well, I am in the process of submitting my application for various professional certifications and many of them require a record of all courses taken that apply to their certification. For example, my application for [The Wildlife Society Certification Program](https://wildlife.org/certification-programs/) is one I have been planning for a long time.
+College courses all come with a syllabus that lays out the course structure, objectives, and usually a brief official description. These descriptions detail the theory, methods, or general topics of each course and are officially registered with the Registrar. The main reason behind my decision to delve into these descriptions was finally completing my spreadsheet of courses over my academic career. Why did I bother with this? Well, I'm in the process of applying for various professional certifications, many of which require a record of all relevant courses taken. For example, I've been eyeing [The Wildlife Society Certification Program](https://wildlife.org/certification-programs/) for some time now.
 
 ## Workflow - Word Cloud
 
@@ -35,28 +33,24 @@ The steps I took for this process came largely from [this blog post](http://www.
 
 The first step we need to do is install and/or load all the required packages. This will include several new-to-me packages like `tm` and `wordcloud` along with some familiar ones like `RColorBrewer`.
 
-::: {.panel-tabset}
 
-## Loading Packages
 
-```r
+```{r filename="matplotlib.py"}
+#| eval: false
+#| fig-cap: "Caption text"
+# Optional install packages, if needed ----
+# install.packages("tm")  # for text mining
+# install.packages("SnowballC") # for text stemming
+# install.packages("wordcloud") # word-cloud generator 
+# install.packages("RColorBrewer") # color palettes
+
+# Load required packages, once installed ----
 library("tm")
 library("SnowballC")
 library("wordcloud")
 library("RColorBrewer")
 ```
 
-## Installing Packages (if needed)
-
-```r
-# Install ----
-install.packages("tm")  # for text mining
-install.packages("SnowballC") # for text stemming
-install.packages("wordcloud") # word-cloud generator 
-install.packages("RColorBrewer") # color palettes
-```
-
-:::
 
 ### 2. Data Import
 

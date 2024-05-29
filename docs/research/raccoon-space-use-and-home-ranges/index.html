@@ -40,6 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -308,11 +309,11 @@ window.Quarto = {
 
 
 <section id="objectives-methods" class="level2">
-<h2 data-anchor-id="objectives-methods">Objectives &amp; Methods</h2>
+<h2 class="anchored" data-anchor-id="objectives-methods">Objectives &amp; Methods</h2>
 <p>This undergraduate research project looked at space-use and home range size differences between male and female raccoons across an urban-rural gradient in Laramie, Wyoming. Location data were collected from radio-marked raccoons using vehicle-mounted and handheld VHF telemetry throughout the year. Homerange estimates (MCPs) were generated using the <code>adehabitatHR</code> package in the RStudio environment.</p>
 </section>
 <section id="project-presentations" class="level2">
-<h2 data-anchor-id="project-presentations">Project Presentations</h2>
+<h2 class="anchored" data-anchor-id="project-presentations">Project Presentations</h2>
 <div id="listing-research-items" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="Talk Gallery,Wyoming,Mammal" data-listing-date-sort="1684558800000" data-listing-file-modified-sort="1714748592555" data-listing-date-modified-sort="1716958800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
@@ -360,6 +361,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

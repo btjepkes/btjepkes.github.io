@@ -34,21 +34,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/forest-svgrepo-com.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,64 +72,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-site-listings-2 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-site-listings-2'] = new List('listing-site-listings-2', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-site-listings-3 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      page: 30,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-site-listings-3'] = new List('listing-site-listings-3', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ESKNL9H1KZ"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -198,35 +136,6 @@ cookieconsent.run({
   </div>
 </nav> 
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="shared-assets/styles.css">
 <link rel="stylesheet" href="index.css">
@@ -330,12 +239,9 @@ window.Quarto = {
 
 
 <div id="intro-container" class="column-screen page-columns page-full">
-<div class="grid column-page py-2">
-<div class="g-col-12 g-col-md-3">
-<p><a href="assets/img-ben-portrait-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/img-ben-portrait-2.jpg" class="no-lightbox rounded index-headshot img-fluid"></a></p>
-</div>
-<section id="a-dedicated-wildlife-ecologist-and-geospatial-scientist" class="level1 text-justify mt-3 g-col-12 g-col-md-9 pb-3">
-<h1 class="text-justify mt-3">A dedicated wildlife ecologist and geospatial scientist…</h1>
+<div class="grid column-page py-3">
+<section id="a-dedicated-wildlife-ecologist-and-geospatial-scientist" class="level1 g-col-12 g-col-md-12 text-center">
+<h1>A dedicated wildlife ecologist and geospatial scientist…</h1>
 <p>Hello, my name is <strong>Ben Tjepkes</strong> and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography.</p>
 <p><a href="./about/index.html" class="btn btn-primary btn-sm">About Me</a> or <a href="./curriculum-vitae/index.html" class="btn btn-secondary btn-sm">Curriculum vitae</a></p>
 </section>
@@ -346,7 +252,7 @@ window.Quarto = {
 </div>
 <div class="grid column-page">
 <section id="ecology-conservation" class="level2 text-white g-col-12 g-col-md-6 bg-primary p-3 rounded bg-noise shadow">
-<h2 class="text-white" data-anchor-id="ecology-conservation">Ecology &amp; Conservation</h2>
+<h2 class="text-white anchored" data-anchor-id="ecology-conservation">Ecology &amp; Conservation</h2>
 <ul>
 <li>Wildlife Ecology</li>
 <li>Biogeography</li>
@@ -355,7 +261,7 @@ window.Quarto = {
 </ul>
 </section>
 <section id="geospatial-technology" class="level2 text-white g-col-12 g-col-md-6 bg-success p-3 rounded bg-noise shadow">
-<h2 class="text-white" data-anchor-id="geospatial-technology">Geospatial Technology</h2>
+<h2 class="text-white anchored" data-anchor-id="geospatial-technology">Geospatial Technology</h2>
 <ul>
 <li>Geographic Information Systems</li>
 <li>Remote Sensing</li>
@@ -369,19 +275,43 @@ window.Quarto = {
 </div>
 <div class="grid column-page">
 <section id="blog-posts" class="level3 text-white g-col-12 g-col-md-4 bg-warning p-3 rounded bg-tree shadow">
-<h3 class="text-white" data-anchor-id="blog-posts">Blog Posts</h3>
+<h3 class="text-white anchored" data-anchor-id="blog-posts">Blog Posts</h3>
 <p>Covering technical and creative topics, from ecology to cartography.</p>
 <p><a href="./posts/index.html" class="btn btn-sm btn-light mt-3">Learn More <i class="bi bi-arrow-right-short"></i></a></p>
 </section>
 <section id="project-gallery" class="level3 text-white g-col-12 g-col-md-4 bg-dark p-3 rounded bg-tree shadow">
-<h3 class="text-white" data-anchor-id="project-gallery">Project Gallery</h3>
+<h3 class="text-white anchored" data-anchor-id="project-gallery">Project Gallery</h3>
 <p>Examples from professional and personal projects in data and geospatial.</p>
 <p><a href="./gallery/index.html" class="btn btn-sm btn-light mt-3">Learn More <i class="bi bi-arrow-right-short"></i></a></p>
 </section>
 <section id="research" class="level3 text-white g-col-12 g-col-md-4 bg-primary p-3 rounded bg-tree shadow">
-<h3 class="text-white" data-anchor-id="research">Research</h3>
+<h3 class="text-white anchored" data-anchor-id="research">Research</h3>
 <p>Across the scopes of spatial ecology, biogeography, and geospatial science.</p>
 <p><a href="./research/index.html" class="btn btn-sm btn-light mt-3">Learn More <i class="bi bi-arrow-right-short"></i></a></p>
+</section>
+<section id="resources" class="level3 text-white g-col-12 g-col-md-8 bg-primary p-3 rounded bg-noise shadow">
+<h3 class="text-white anchored" data-anchor-id="resources">Resources</h3>
+<p>One of my favorite things is sharing neat resources, so I have started posting them here on everything from tutorials to eBooks for coding, stats, and making maps.</p>
+<div class="d-flex pt-3 pb-3">
+  <div class="btn-group">
+    <a class="btn btn-sm btn-light" href="./resources/index.html" role="button">Explore Resources</a>
+    <button type="button" class="btn btn-sm btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="resources/#tutorials">Tutorials</a></li>
+      <li><a class="dropdown-item" href="resources/#website">Websites</a></li>
+      <li><a class="dropdown-item" href="resources/#ebook">eBooks</a></li>
+      <!-- <li><hr class="dropdown-divider"></li> -->
+      <!-- <li><a class="dropdown-item" href="research/index.qmd">Separated link</a></li> -->
+    </ul>
+  </div>
+</div>
+</section>
+<section id="contact" class="level3 text-white g-col-12 g-col-md-4 bg-success p-3 rounded bg-noise shadow">
+<h3 class="text-white anchored" data-anchor-id="contact">Contact</h3>
+<p>Feel free to reach out anytime with questions, comments, or suggestions.</p>
+<p><a href="./contact.html" class="btn btn-sm btn-light mt-3">Connect <i class="bi bi-link-45deg"></i></a></p>
 </section>
 </div>
 <!-- ```{=html} -->
@@ -673,124 +603,24 @@ window.Quarto = {
 <!-- </html> -->
 <!-- </html> -->
 <!-- ``` -->
-<div class="index-latest-container column-page">
-<div class="index-latest-column">
-<div class="mt-4 fw-bold fs-3">
-<p>My Latest Posts:</p>
-</div>
-<div id="listing-site-listings-2" class="index-latest-posts quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Description
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="R,Text Mining,Word Cloud" data-listing-date-sort="1716267600000" data-listing-file-modified-sort="1716742163003" data-listing-date-modified-sort="1716958800000" data-listing-reading-time-sort="3" data-listing-word-count-sort="547" data-listing-title-sort="Mining Text From Course Descriptions" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./posts/text-mining-course-descriptions/index.html" class="title listing-title">Mining Text From Course Descriptions</a>
-</td>
-<td>
-<span class="listing-description">In this post, I describe a recent workflow that I ran on my college course descriptions to explore…</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="R,Quarto,PowerPoint,RevealJS" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1716502116484" data-listing-date-modified-sort="1716958800000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741" data-listing-title-sort="Converting PowerPoints to Reveal.js Format" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./posts/converting-powerpoints-to-revealjs/index.html" class="title listing-title">Converting PowerPoints to Reveal.js Format</a>
-</td>
-<td>
-<span class="listing-description">In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs…</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1714194000000" data-listing-file-modified-sort="1716740448064" data-listing-date-modified-sort="1716958800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="166" data-listing-title-sort="Crafting a GIS Workshop Site With Quarto" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./posts/crafting-a-technical-workshop-site-with-quarto/index.html" class="title listing-title">Crafting a GIS Workshop Site With Quarto</a>
-</td>
-<td>
-<span class="listing-description">This post provides an overview of a recent workshop site I made using Quarto and Github Pages…</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1715394716224" data-listing-date-modified-sort="1716958800000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3944" data-listing-title-sort="Create Annotated Bibliographies with Quarto" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./posts/building-annotated-bibliographies-with-quarto/index.html" class="title listing-title">Create Annotated Bibliographies with Quarto</a>
-</td>
-<td>
-<span class="listing-description">In this post, I provide a semi-automated workflow for generating an annotated bibliography in…</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</div>
-<div class="index-latest-column">
-<div class="mt-4 fw-bold fs-3">
-<p>My Latest Projects:</p>
-</div>
-<div id="listing-site-listings-3" class="index-latest-gallery quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Description
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="Map Gallery,Python,Avian,ArcPy" data-listing-date-sort="1715144400000" data-listing-file-modified-sort="1716397169108" data-listing-date-modified-sort="1716958800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="275" data-listing-title-sort="Bird Observation Map Series in ArcPy" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./gallery/bird-observation-map-series/index.html" class="title listing-title">Bird Observation Map Series in ArcPy</a>
-</td>
-<td>
-<span class="listing-description">This was my final project for an advanced GIS course in graduate school and explores the spatial…</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="Talk Gallery,Birds,Thesis" data-listing-date-sort="1714539600000" data-listing-file-modified-sort="1716787694383" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15" data-listing-title-sort="Master's Thesis Proposal Presentation" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./gallery/thesis-project-proposal-presentation/index.html" class="title listing-title">Master’s Thesis Proposal Presentation</a>
-</td>
-<td>
-<span class="listing-description">This presentation covers my proposed master’s thesis project, including the background literature…</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="Data Gallery,R,Coding,Boxplot,Rugplots" data-listing-date-sort="1711774800000" data-listing-file-modified-sort="1716475935468" data-listing-date-modified-sort="1716958800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="69" data-listing-title-sort="Vertebrate Morphometrics Graphic" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./gallery/vertebrate-morphometrics-in-riparian-zones/index.html" class="title listing-title">Vertebrate Morphometrics Graphic</a>
-</td>
-<td>
-<span class="listing-description">This graphic summarizes morphometric measurements of coastal giant salamanders and cutthroat trout…</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="Data Gallery,TidyTuesday2024" data-listing-date-sort="1704261600000" data-listing-file-modified-sort="1713786768402" data-listing-date-modified-sort="1716958800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="74" data-listing-title-sort="Plotting My GitHub Contributions in 2023" data-listing-filename-sort="index.qmd">
-<td>
-<a href="./gallery/my-github-contributions-in-2023/index.html" class="title listing-title">Plotting My GitHub Contributions in 2023</a>
-</td>
-<td>
-<span class="listing-description">This graphic summarizes my contributions to GitHub in 2023. While this was not my first year using…</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</div>
-</div>
-<div id="site-listings-1" class="column-page mt-2">
-
-</div>
-
+<!-- ::: {.index-latest-container .column-page} -->
+<!-- ::: {.index-latest-column } -->
+<!-- :::{.mt-4 .fw-bold .fs-3} -->
+<!-- My Latest Posts: -->
+<!-- ::: -->
+<!-- ::: {#site-listings-2  .index-latest-posts } -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.index-latest-column } -->
+<!-- :::{.mt-4 .fw-bold .fs-3} -->
+<!-- My Latest Projects: -->
+<!-- ::: -->
+<!-- ::: {#site-listings-3  .index-latest-gallery } -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {#site-listings-1 .column-page .mt-2} -->
+<!-- ::: -->
 
 
 
@@ -815,6 +645,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -1207,31 +1044,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 

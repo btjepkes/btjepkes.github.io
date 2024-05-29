@@ -39,6 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -256,11 +257,11 @@ cookieconsent.run({
 
 
 <section id="tools-and-workflow" class="level2">
-<h2 data-anchor-id="tools-and-workflow">Tools and Workflow</h2>
+<h2 class="anchored" data-anchor-id="tools-and-workflow">Tools and Workflow</h2>
 <p>Map creation was performed using <code>tmap</code> and <code>sf</code> packages in the <strong>RStudio</strong> environment. Poster compilation was performed in <strong>Microsoft Publisher</strong>.</p>
 </section>
 <section id="final-result" class="level2">
-<h2 data-anchor-id="final-result">Final Result</h2>
+<h2 class="anchored" data-anchor-id="final-result">Final Result</h2>
 <p>Here is the final poster that I presented at the 2023 MDC Science Branch Conference in Potosi, Missouri.</p>
 <p><a href="img-bat-hcp-poster.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-bat-hcp-poster.jpg" class="img-fluid"></a></p>
 
@@ -288,6 +289,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -684,7 +692,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

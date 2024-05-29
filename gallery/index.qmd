@@ -12,12 +12,12 @@ listing:
     include:
       categories: [Map Gallery, Data Gallery, Poster Gallery, Report Gallery, Talk Gallery]
     type: grid
-    grid-columns: 3
+    grid-columns: 2
     #max-items: 16
     grid-item-border: true
     sort: "date desc"
     page-size: 60
-    image-height: 200px
+    image-height: 240px
     categories: cloud
     #filter-ui: [title, subtitle, categories, abstract]
     fields:

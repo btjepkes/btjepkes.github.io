@@ -40,6 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -260,18 +261,18 @@ cookieconsent.run({
 
 
 <section id="task-objectives" class="level2">
-<h2 data-anchor-id="task-objectives">Task &amp; Objectives</h2>
+<h2 class="anchored" data-anchor-id="task-objectives">Task &amp; Objectives</h2>
 <p>The assignment for this exploration was to investigate climate (i.e., precipitation and temperature) trends for somewhere you want to live. I chose the Upper Peninsula of Michigan.</p>
 </section>
 <section id="tools-workflow" class="level2">
-<h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
+<h2 class="anchored" data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
 <ul>
 <li>Data were downloaded from <a href="https://prism.oregonstate.edu/">PRISM</a>.</li>
 <li>Figure production was completed in RStudio with several packages: <code>ggplot</code> and <code>tidyverse</code>.</li>
 </ul>
 </section>
 <section id="final-results" class="level2">
-<h2 data-anchor-id="final-results">Final Results</h2>
+<h2 class="anchored" data-anchor-id="final-results">Final Results</h2>
 <p>Here are the resulting figures showing trends in precipitation and temperature for the Upper Peninsula of Michigan over the last ~100 years.</p>
 <div class="columns">
 <div class="column" style="width:47.5%;">
@@ -321,6 +322,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -717,7 +725,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

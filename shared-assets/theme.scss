@@ -49,7 +49,7 @@ $success:       rgb(23, 100, 45) !default;
 $info:          $light-accent !default;
 $warning:       rgb(147, 64, 30) !default;
 $danger:        $red !default;
-$light:         $white !default;
+$light:         rgb(233, 238, 244) !default;
 $dark:          $gray-800 !default;
 
 // Colours
@@ -81,3 +81,4 @@ $footer-fg: $main-colour !default; //	The colour of foreground elements in the f
 
 // Code
 $code-color: $dark-accent !default;
+$btn-code-copy-color: $dark-accent !default;

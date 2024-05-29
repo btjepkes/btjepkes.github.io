@@ -39,6 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -256,11 +257,11 @@ cookieconsent.run({
 
 
 <section id="tools-methods" class="level2">
-<h2 data-anchor-id="tools-methods">Tools &amp; Methods</h2>
+<h2 class="anchored" data-anchor-id="tools-methods">Tools &amp; Methods</h2>
 <p>This poster was assembled in Microsoft PowerPoint using elements created in ArcGIS Pro, Microsoft Excel, and RStudio. The full details on this research can be found here: <a href="../../research/bald-eagle-nest-site-selection/index.html">Bald Eagle Nest Site Selection Research Project</a>.</p>
 </section>
 <section id="final-result" class="level2">
-<h2 data-anchor-id="final-result">Final Result</h2>
+<h2 class="anchored" data-anchor-id="final-result">Final Result</h2>
 <p>Here is the final poster that I presented at the University of Wisconsin-Stevens Point College of Natural Resources Undergraduate Research Symposium, earned <strong>highest honors</strong>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -296,6 +297,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -692,7 +700,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

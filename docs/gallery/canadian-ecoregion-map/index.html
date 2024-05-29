@@ -40,6 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -267,11 +268,11 @@ cookieconsent.run({
 
 <p><a href="img-canadian-ecoregions.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-canadian-ecoregions.png" class="cover-image img-fluid"></a></p>
 <section id="task-objectives" class="level2">
-<h2 data-anchor-id="task-objectives">Task &amp; Objectives</h2>
+<h2 class="anchored" data-anchor-id="task-objectives">Task &amp; Objectives</h2>
 <p>The prompt for this map was for Day Three of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “polygons” for the main subject. The end product is a regional map of Canada’s Ecoregions.</p>
 </section>
 <section id="tools-workflow" class="level2">
-<h2 data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
+<h2 class="anchored" data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
 <ul>
 <li>Data were downloaded from the U.S. Environmental Protection Agency site.</li>
 <li>Map production was completed in ArcGIS Pro.</li>
@@ -301,6 +302,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -697,7 +705,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

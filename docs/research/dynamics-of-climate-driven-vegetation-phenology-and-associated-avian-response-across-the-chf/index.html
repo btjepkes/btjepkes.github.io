@@ -40,6 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -316,7 +317,7 @@ window.Quarto = {
 
 
 <section id="research-overview" class="level2">
-<h2 data-anchor-id="research-overview">Research Overview</h2>
+<h2 class="anchored" data-anchor-id="research-overview">Research Overview</h2>
 <p>My thesis is aimed at assessing how regional patterns of tree phenology can be used to predict demographic trends in avian populations across the central hardwoods under anthropogenic climate change. This research will extend existing work on wildlife response to climate change to include how climate extremes drive forest phenology and how these patterns are projected to change with a shift in forest composition.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -327,7 +328,7 @@ window.Quarto = {
 <p>This work utilizes remotely sensed phenology metrics, gridded historical climate records, and multi-decadal citizen science data to develop a suite of Bayesian hierarchical models. Climate futures are then coupled with these models to project the occurrence of avian assemblages across the region under several climate scenarios. The findings of this research will offer insights for conservation initiatives focused on preserving avian diversity by implementing resilient forest management and prioritization strategies.</p>
 </section>
 <section id="presentations" class="level2">
-<h2 data-anchor-id="presentations">Presentations</h2>
+<h2 class="anchored" data-anchor-id="presentations">Presentations</h2>
 <div id="listing-research-items" class="listings-gallery quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="Talk Gallery,Birds,Thesis" data-listing-date-sort="1714539600000" data-listing-file-modified-sort="1716787694383" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
@@ -378,6 +379,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -774,7 +782,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","openEffect":"zoom","loop":false});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -129,7 +129,7 @@ format:
     # title-block-banner: "#dee2e6"
     # title-block-categories: true
     # title-block-style: default
-    anchor-sections: false
+    anchor-sections: true
     highlight-style: github
     link-external-newwindow: true
     code-link: true

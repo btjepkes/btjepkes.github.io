@@ -36,6 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -273,7 +274,7 @@ window.Quarto = {
 </div>
 
 
-</header><section id="pdf-versions" class="level2"><h2 data-anchor-id="pdf-versions">PDF Versions</h2>
+</header><section id="pdf-versions" class="level2"><h2 class="anchored" data-anchor-id="pdf-versions">PDF Versions</h2>
 <div id="listing-resume-links" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0">
@@ -323,7 +324,7 @@ Abbreviated Resume
 No matching items
 </div>
 </div>
-</section><section id="my-experience-geography" class="level2"><h2 data-anchor-id="my-experience-geography">My Experience Geography</h2>
+</section><section id="my-experience-geography" class="level2"><h2 class="anchored" data-anchor-id="my-experience-geography">My Experience Geography</h2>
 <p>Please take a moment to explore my experience geography, where I have worked, presented, volunteered, and schooled.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -462,6 +463,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

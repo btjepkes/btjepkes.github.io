@@ -10,7 +10,11 @@
   }
 }
 
+#quarto-content > * {
+  padding-top: 0;
+}
 
+main {margin-top: 0;}
 .asp-169 {
   aspect-ratio: 41/18;
   object-fit: cover;
@@ -18,11 +22,11 @@
 
 .bg-tree {
   background-image: url("assets/repeatable-treeline.png");
-  background-position: center 60%;
+  background-position: center 90%;
 }
 
 .bg-noise {
-  background-image: url("assets/repeatable-treeline.png");
+  background-image: url("assets/bg-topo-white.png");
   background-position: center 60%;
 }
 
@@ -34,7 +38,8 @@
 
 #intro-container {
   padding: 0 0;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(18,60,105,0.15) 70%);
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(18,60,105,0.10) 70%),
+  url("assets/bg-links.jpg");
   
     h1 {
     font-weight: 700;
