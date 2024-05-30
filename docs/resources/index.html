@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-name','listing-category','listing-custom-field','listing-href',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-name','listing-category','listing-custom-field','listing-href','listing-tags','listing-image',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-name","listing-category","listing-custom-field","listing-href"],
+      searchColumns: ["listing-name","listing-category","listing-custom-field","listing-href","listing-tags","listing-image"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -252,7 +252,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-05-29</p>
+      <p class="date-modified">2024-05-30</p>
     </div>
   </div>
     
@@ -278,172 +278,739 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
 
+  
   <h2 style="margin-top: 0px !important;" class="anchored">eBook</h2>
-  <ul class="list">
-<li data-index="0">
-        <a href="https://www.uvm.edu/~tdonovan/RforFledglings/" class="listing-name">R for Fledglings</a><br><span class="listing-custom-field">Informative ebook with tutorials about coding in R.</span>
-      </li>
-    
-      <li data-index="1">
-        <a href="https://tmieno2.github.io/R-as-GIS-for-Economists/" class="listing-name">R as GIS for Economists</a><br><span class="listing-custom-field">Free online book focusing on spatial data processing for econometric projects, including example R code.</span>
-      </li>
-    
-      <li data-index="2">
-        <a href="https://bookdown.org/mcwimberly/gdswr-book/" class="listing-name">Geographic Data Science with R</a><br><span class="listing-custom-field">Free online book about visualizing and analyzing environmental change in R.</span>
-      </li>
-    
-      <li data-index="3">
-        <a href="https://rspatial.org/index.html" class="listing-name">Spatial Data Science with R and terra</a><br><span class="listing-custom-field">Free online book about spatial data manipulation, analysis, and modeling.</span>
-      </li>
-    
-      <li data-index="4">
-        <a href="https://bookdown.org/hhwagner1/LandGenCourse_book/" class="listing-name">Landscape Genetic Data Analysis in R</a><br><span class="listing-custom-field">Free online documentation for environmental genetics graduate course.</span>
-      </li>
-    
-      <li data-index="5">
-        <a href="https://epirhandbook.com/en/index.html" class="listing-name">The Epidemiologist R Handbook</a><br><span class="listing-custom-field">Exceptional and free online book covering several topics in R, including data analysis, manipulation, and visualization.</span>
-      </li>
-    
-  </ul>
-<h2 style="margin-top: 0px !important;" class="anchored">Personal Website</h2>
-  <ul class="list">
-<li data-index="6">
-        <a href="https://www.joshuastevens.net/" class="listing-name">Joshua Stevens</a><br><span class="listing-custom-field">Excellent blog posts and examples of cartography.</span>
-      </li>
-    
-      <li data-index="7">
-        <a href="https://www.cedricscherer.com/" class="listing-name">Cedric Scherer</a><br><span class="listing-custom-field">Personal blog site with excellent posts about data visualization in R, especially ggplot2.</span>
-      </li>
-    
-      <li data-index="8">
-        <a href="https://strimas.com/" class="listing-name">Matt Strimas-Mackey</a><br><span class="listing-custom-field">Personal blog site with excellent posts about data analysis and visualization in R and Python.</span>
-      </li>
-    
-      <li data-index="9">
-        <a href="https://urbandatapalette.com/" class="listing-name">Urban Data Palette</a><br><span class="listing-custom-field">Personal blog site with excellent posts about data visualization, especially map creation and design.</span>
-      </li>
-    
-      <li data-index="10">
-        <a href="https://lukesmorris.com/" class="listing-name">Luke Morris</a><br><span class="listing-custom-field">Personal blog with excellent posts about ggplot and Quarto.</span>
-      </li>
-    
-  </ul>
-<h2 style="margin-top: 0px !important;" class="anchored">R Package</h2>
-  <ul class="list">
-<li data-index="11">
-        <a href="https://jakob.schwalb-willmann.de/basemaps/" class="listing-name">basemaps R Package</a><br><span class="listing-custom-field">R package to download and cache spatial basemaps.</span>
-      </li>
-    
-  </ul>
-<h2 style="margin-top: 0px !important;" class="anchored">Tutorials</h2>
-  <ul class="list">
-<li data-index="12">
-        <a href="https://www.youtube.com/c/DMADMarineMammalsResearchAssociation" class="listing-name">DMAD QGIS Lessons</a><br><span class="listing-custom-field">Excellent YouTube channel with a series on QGIS, with a focus on ecology and science.</span>
-      </li>
-    
-      <li data-index="13">
-        <a href="https://ourcodingclub.github.io/tutorials.html" class="listing-name">Coding Club Tutorials</a><br><span class="listing-custom-field">Collection of coding, data science and statistics tutorials with examples in R, Python, and JavaScript.</span>
-      </li>
-    
-      <li data-index="14">
-        <a href="https://www.youtube.com/playlist?list=PL5CiXbb9zgjSP_KeorqJIBh7iH5GkC38-" class="listing-name">Quantitative Methods for Population Dynamics in R - 2023 Edition</a><br><span class="listing-custom-field">Recording of population dynamics workshop, with a focus on modeling in R.</span>
-      </li>
-    
-      <li data-index="15">
-        <a href="https://urbandatapalette.com/post/2021-08-tessellation-sf/" class="listing-name">Creating Square and Hexagon Tessellation in R</a><br><span class="listing-custom-field">Blog post about creating fishnet and hexagon spatial grids in R.</span>
-      </li>
-    
-      <li data-index="16">
-        <a href="https://www.learningfornature.org/en/courses/using-spatial-data-for-biodiversity/" class="listing-name">Using Spatial Data for Biodiversity</a><br><span class="listing-custom-field">Free micro-course about using remote sensing and other spatial data to inform nature conservation.</span>
-      </li>
-    
-      <li data-index="17">
-        <a href="https://www.learningfornature.org/en/courses/communicating-the-value-of-biodiversity/" class="listing-name">Communicating the Value of Biodiversity</a><br><span class="listing-custom-field">Free micro-course on communicating the importance of biodiversity.</span>
-      </li>
-    
-      <li data-index="18">
-        <a href="https://www.youtube.com/@biodiversitydatascience" class="listing-name">Biodiversity Data Science</a><br><span class="listing-custom-field">YouTube channel with videos about data science for ecology and evolutionary biology.</span>
-      </li>
-    
-      <li data-index="19">
-        <a href="https://www.neonscience.org/resources/learning-hub/tutorials/extract-values-rasters-r" class="listing-name">Extract Values from a Raster in R</a><br><span class="listing-custom-field">NSF NEON blog post about extracting data from a raster in R.</span>
-      </li>
-    
-      <li data-index="20">
-        <a href="https://meghan.rbind.io/blog/quarto-slides/" class="listing-name">Making Slides in Quarto with reveal.js</a><br><span class="listing-custom-field">Blog post about making interactive presentation slides with Quarto in R.</span>
-      </li>
-    
-      <li data-index="21">
-        <a href="https://timogrossenbacher.ch/bivariate-maps-with-ggplot2-and-sf/" class="listing-name">Bivariate Maps with ggplot2 and sf in R</a><br><span class="listing-custom-field">Blog post about making bivariate maps using the ggplot and sf packages in R.</span>
-      </li>
-    
-  </ul>
-<h2 style="margin-top: 0px !important;" class="anchored">Tutorials, eBook</h2>
-  <ul class="list">
-<li data-index="22">
-        <a href="https://ecosystems.psu.edu/research/labs/walter-lab/manual" class="listing-name">Manual of Applied Spatial Ecology</a><br><span class="listing-custom-field">Outstanding source of example R scripts on managing and modeling environmental data.</span>
-      </li>
-    
-  </ul>
-<h2 style="margin-top: 0px !important;" class="anchored">Website</h2>
-  <ul class="list">
-<li data-index="23">
-        <a href="https://www.data-to-viz.com/" class="listing-name">From Data to Viz</a><br><span class="listing-custom-field">Decision trees for determining which chart type best fits your data and objectives.</span>
-      </li>
-    
-      <li data-index="24">
-        <a href="https://diversityinconservationjobs.org/jobs/" class="listing-name">Careers in Conservation Job Board List</a><br><span class="listing-custom-field">Directory of conservation job boards.</span>
-      </li>
-    
-      <li data-index="25">
-        <a href="https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/" class="listing-name">Bivariate Choropleth Maps: A How-To Guide</a><br><span class="listing-custom-field">Blog post about creating bivariate choropleth maps, including some example legends.</span>
-      </li>
-    
-      <li data-index="26">
-        <a href="https://r-graph-gallery.com/index.html" class="listing-name">The R Graph Gallery</a><br><span class="listing-custom-field">Gallery of hundreds of charts made in R, with a focus on the ggplot2 package.</span>
-      </li>
-    
-      <li data-index="27">
-        <a href="https://nrennie.rbind.io/blog/2022-12-17-r-packages-for-visualising-spatial-data/" class="listing-name">R Packages for Visualizing Spatial Data</a><br><span class="listing-custom-field">Blog post detailing several R packages to visualize spatial data in R.</span>
-      </li>
-    
-      <li data-index="28">
-        <a href="https://strimas.com/post/hexagonal-grids/" class="listing-name">Hexagon and Fishnet Spatial Grids</a><br><span class="listing-custom-field">Blog post about several types of tesselations, including example R code.</span>
-      </li>
-    
-      <li data-index="29">
-        <a href="https://github.com/Cghlewis/data-wrangling-functions/wiki/" class="listing-name">Reference Guide for R Data Wrangling Functions</a><br><span class="listing-custom-field">Reference guide for commonly used functions in data wrangling for research.</span>
-      </li>
-    
-      <li data-index="30">
-        <a href="https://axelhodler.medium.com/creating-a-heat-map-from-coordinates-using-r-780db4901075" class="listing-name">Creating Heat Maps From Coordinates in R</a><br><span class="listing-custom-field">Blog post about creating heat maps in R using coordinate data.</span>
-      </li>
-    
-      <li data-index="31">
-        <a href="https://www.storytellingwithdata.com/chart-guide" class="listing-name">Storytelling with Data Chart Guide</a><br><span class="listing-custom-field">Reference guide on what types of charts to best visualize certain types of data.</span>
-      </li>
-    
-      <li data-index="32">
-        <a href="https://blog.datawrapper.de/colors-for-data-vis-style-guides/" class="listing-name">Guide to Using Colors in Data Visualizations</a><br><span class="listing-custom-field">Datawrapper blog post discussing the proper use of colors when designing data visualizations.</span>
-      </li>
-    
-      <li data-index="33">
-        <a href="https://blog.devgenius.io/making-publication-quality-inset-maps-in-r-using-ggplot2-85359c492ac8" class="listing-name">Making Inset Maps Using ggplot2 in R</a><br><span class="listing-custom-field">Blog post showing a simple way to make inset maps using the ggplot2 package in R.</span>
-      </li>
-    
-      <li data-index="34">
-        <a href="https://blog.datawrapper.de/classed-vs-unclassed-color-scales/" class="listing-name">Classed and Unclassed Color Scales</a><br><span class="listing-custom-field">Datawrapper blog post discussing when to use classed and unclassed color scales in data visualizations.</span>
-      </li>
-    
-      <li data-index="35">
-        <a href="https://blog.datawrapper.de/interpolation-for-color-scales-and-maps/" class="listing-name">Choosing Interpolation Methods for Choropleth Maps</a><br><span class="listing-custom-field">Datawrapper blog post discussing the different methods of legend interpolation methods for choropleth maps.</span>
-      </li>
-    
-      <li data-index="36">
-        <a href="http://jdobr.es/blog/data-vis-with-ggplot/" class="listing-name">Introduction to Data Visualization with ggplot2 in R</a><br><span class="listing-custom-field">Blog post about making data visualizations with the ggplot2 package in R.</span>
-      </li>
-    
-  </ul>
+  
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="r-for-fledglings.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="0">
+      <h4 class="card-title anchored" style="margin-top: 0;">R for Fledglings</h4>
+      <p class="card-text">Informative ebook with tutorials about coding in R.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://www.uvm.edu/~tdonovan/RforFledglings/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="r-as-gis-for-economists.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="1">
+      <h4 class="card-title anchored" style="margin-top: 0;">R as GIS for Economists</h4>
+      <p class="card-text">Free online book focusing on spatial data processing for econometric projects, including example R code.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://tmieno2.github.io/R-as-GIS-for-Economists/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>GIS, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="geographic-data-science-with-r.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="2">
+      <h4 class="card-title anchored" style="margin-top: 0;">Geographic Data Science with R</h4>
+      <p class="card-text">Free online book about visualizing and analyzing environmental change in R.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://bookdown.org/mcwimberly/gdswr-book/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>GIS, Geospatial, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="spatial-data-science-with-r-and-terra.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="3">
+      <h4 class="card-title anchored" style="margin-top: 0;">Spatial Data Science with R and terra</h4>
+      <p class="card-text">Free online book about spatial data manipulation, analysis, and modeling.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://rspatial.org/index.html" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Geospatial, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="landscape-genetic-data-analysis-in-r.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="4">
+      <h4 class="card-title anchored" style="margin-top: 0;">Landscape Genetic Data Analysis in R</h4>
+      <p class="card-text">Free online documentation for environmental genetics graduate course.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://bookdown.org/hhwagner1/LandGenCourse_book/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Geospatial, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="the-epidemiologist-r-handbook.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="5">
+      <h4 class="card-title anchored" style="margin-top: 0;">The Epidemiologist R Handbook</h4>
+      <p class="card-text">Exceptional and free online book covering several topics in R, including data analysis, manipulation, and visualization.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://epirhandbook.com/en/index.html" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Science, R</li>
+      </ul>
+</div>
+  </div>
+  
+
+  
+  <h2 style="margin-top: 0px !important;" class="anchored">Personal Website</h2>
+  
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="joshua-stevens.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="6">
+      <h4 class="card-title anchored" style="margin-top: 0;">Joshua Stevens</h4>
+      <p class="card-text">Excellent blog posts and examples of cartography.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://www.joshuastevens.net/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization, GIS</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="cedric-scherer.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="7">
+      <h4 class="card-title anchored" style="margin-top: 0;">Cedric Scherer</h4>
+      <p class="card-text">Personal blog site with excellent posts about data visualization in R, especially ggplot2.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://www.cedricscherer.com/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="matt-strimas-mackey.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="8">
+      <h4 class="card-title anchored" style="margin-top: 0;">Matt Strimas-Mackey</h4>
+      <p class="card-text">Personal blog site with excellent posts about data analysis and visualization in R and Python.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://strimas.com/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="urban-data-palette.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="9">
+      <h4 class="card-title anchored" style="margin-top: 0;">Urban Data Palette</h4>
+      <p class="card-text">Personal blog site with excellent posts about data visualization, especially map creation and design.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://urbandatapalette.com/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>GIS, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="luke-morris.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="10">
+      <h4 class="card-title anchored" style="margin-top: 0;">Luke Morris</h4>
+      <p class="card-text">Personal blog with excellent posts about ggplot and Quarto.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://lukesmorris.com/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Science, Data Visualization, R</li>
+      </ul>
+</div>
+  </div>
+  
+
+  
+  <h2 style="margin-top: 0px !important;" class="anchored">R Package</h2>
+  
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="basemaps-r-package.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="11">
+      <h4 class="card-title anchored" style="margin-top: 0;">basemaps R Package</h4>
+      <p class="card-text">R package to download and cache spatial basemaps.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://jakob.schwalb-willmann.de/basemaps/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Mapping, R</li>
+      </ul>
+</div>
+  </div>
+  
+
+  
+  <h2 style="margin-top: 0px !important;" class="anchored">Tutorials</h2>
+  
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="dmad-qgis-lessons.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="12">
+      <h4 class="card-title anchored" style="margin-top: 0;">DMAD QGIS Lessons</h4>
+      <p class="card-text">Excellent YouTube channel with a series on QGIS, with a focus on ecology and science.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://www.youtube.com/c/DMADMarineMammalsResearchAssociation" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>QGIS</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="coding-club-tutorials.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="13">
+      <h4 class="card-title anchored" style="margin-top: 0;">Coding Club Tutorials</h4>
+      <p class="card-text">Collection of coding, data science and statistics tutorials with examples in R, Python, and JavaScript.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://ourcodingclub.github.io/tutorials.html" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Javascript, Python, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="quantitative-methods-for-population-dynamics-in-r---2023-edition.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="14">
+      <h4 class="card-title anchored" style="margin-top: 0;">Quantitative Methods for Population Dynamics in R - 2023 Edition</h4>
+      <p class="card-text">Recording of population dynamics workshop, with a focus on modeling in R.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://www.youtube.com/playlist?list=PL5CiXbb9zgjSP_KeorqJIBh7iH5GkC38-" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="creating-square-and-hexagon-tessellation-in-r.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="15">
+      <h4 class="card-title anchored" style="margin-top: 0;">Creating Square and Hexagon Tessellation in R</h4>
+      <p class="card-text">Blog post about creating fishnet and hexagon spatial grids in R.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://urbandatapalette.com/post/2021-08-tessellation-sf/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>GIS, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="using-spatial-data-for-biodiversity.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="16">
+      <h4 class="card-title anchored" style="margin-top: 0;">Using Spatial Data for Biodiversity</h4>
+      <p class="card-text">Free micro-course about using remote sensing and other spatial data to inform nature conservation.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://www.learningfornature.org/en/courses/using-spatial-data-for-biodiversity/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>GIS, Geospatial</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="communicating-the-value-of-biodiversity.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="17">
+      <h4 class="card-title anchored" style="margin-top: 0;">Communicating the Value of Biodiversity</h4>
+      <p class="card-text">Free micro-course on communicating the importance of biodiversity.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://www.learningfornature.org/en/courses/communicating-the-value-of-biodiversity/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Conservation</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="biodiversity-data-science.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="18">
+      <h4 class="card-title anchored" style="margin-top: 0;">Biodiversity Data Science</h4>
+      <p class="card-text">YouTube channel with videos about data science for ecology and evolutionary biology.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://www.youtube.com/@biodiversitydatascience" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Geospatial</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="extract-values-from-a-raster-in-r.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="19">
+      <h4 class="card-title anchored" style="margin-top: 0;">Extract Values from a Raster in R</h4>
+      <p class="card-text">NSF NEON blog post about extracting data from a raster in R.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://www.neonscience.org/resources/learning-hub/tutorials/extract-values-rasters-r" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>GIS, Geospatial, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="making-slides-in-quarto-with-reveal.js.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="20">
+      <h4 class="card-title anchored" style="margin-top: 0;">Making Slides in Quarto with reveal.js</h4>
+      <p class="card-text">Blog post about making interactive presentation slides with Quarto in R.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://meghan.rbind.io/blog/quarto-slides/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="bivariate-maps-with-ggplot2-and-sf-in-r.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="21">
+      <h4 class="card-title anchored" style="margin-top: 0;">Bivariate Maps with ggplot2 and sf in R</h4>
+      <p class="card-text">Blog post about making bivariate maps using the ggplot and sf packages in R.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://timogrossenbacher.ch/bivariate-maps-with-ggplot2-and-sf/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization, GIS, Mapping, R</li>
+      </ul>
+</div>
+  </div>
+  
+
+  
+  <h2 style="margin-top: 0px !important;" class="anchored">Tutorials, eBook</h2>
+  
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="manual-of-applied-spatial-ecology.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="22">
+      <h4 class="card-title anchored" style="margin-top: 0;">Manual of Applied Spatial Ecology</h4>
+      <p class="card-text">Outstanding source of example R scripts on managing and modeling environmental data.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://ecosystems.psu.edu/research/labs/walter-lab/manual" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Conservation, Geospatial, R</li>
+      </ul>
+</div>
+  </div>
+  
+
+  
+  <h2 style="margin-top: 0px !important;" class="anchored">Website</h2>
+  
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="from-data-to-viz.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="23">
+      <h4 class="card-title anchored" style="margin-top: 0;">From Data to Viz</h4>
+      <p class="card-text">Decision trees for determining which chart type best fits your data and objectives.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://www.data-to-viz.com/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="careers-in-conservation-job-board-list.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="24">
+      <h4 class="card-title anchored" style="margin-top: 0;">Careers in Conservation Job Board List</h4>
+      <p class="card-text">Directory of conservation job boards.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://diversityinconservationjobs.org/jobs/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Job Search</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="bivariate-choropleth-maps-a-how-to-guide.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="25">
+      <h4 class="card-title anchored" style="margin-top: 0;">Bivariate Choropleth Maps A How-To Guide</h4>
+      <p class="card-text">Blog post about creating bivariate choropleth maps, including some example legends.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>GIS, Mapping, QGIS</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="the-r-graph-gallery.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="26">
+      <h4 class="card-title anchored" style="margin-top: 0;">The R Graph Gallery</h4>
+      <p class="card-text">Gallery of hundreds of charts made in R, with a focus on the ggplot2 package.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://r-graph-gallery.com/index.html" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="r-packages-for-visualizing-spatial-data.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="27">
+      <h4 class="card-title anchored" style="margin-top: 0;">R Packages for Visualizing Spatial Data</h4>
+      <p class="card-text">Blog post detailing several R packages to visualize spatial data in R.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://nrennie.rbind.io/blog/2022-12-17-r-packages-for-visualising-spatial-data/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Mapping, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="hexagon-and-fishnet-spatial-grids.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="28">
+      <h4 class="card-title anchored" style="margin-top: 0;">Hexagon and Fishnet Spatial Grids</h4>
+      <p class="card-text">Blog post about several types of tesselations, including example R code.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://strimas.com/post/hexagonal-grids/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>GIS, Mapping, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="reference-guide-for-r-data-wrangling-functions.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="29">
+      <h4 class="card-title anchored" style="margin-top: 0;">Reference Guide for R Data Wrangling Functions</h4>
+      <p class="card-text">Reference guide for commonly used functions in data wrangling for research.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://github.com/Cghlewis/data-wrangling-functions/wiki/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="creating-heat-maps-from-coordinates-in-r.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="30">
+      <h4 class="card-title anchored" style="margin-top: 0;">Creating Heat Maps From Coordinates in R</h4>
+      <p class="card-text">Blog post about creating heat maps in R using coordinate data.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://axelhodler.medium.com/creating-a-heat-map-from-coordinates-using-r-780db4901075" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Mapping, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="storytelling-with-data-chart-guide.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="31">
+      <h4 class="card-title anchored" style="margin-top: 0;">Storytelling with Data Chart Guide</h4>
+      <p class="card-text">Reference guide on what types of charts to best visualize certain types of data.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://www.storytellingwithdata.com/chart-guide" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="guide-to-using-colors-in-data-visualizations.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="32">
+      <h4 class="card-title anchored" style="margin-top: 0;">Guide to Using Colors in Data Visualizations</h4>
+      <p class="card-text">Datawrapper blog post discussing the proper use of colors when designing data visualizations.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://blog.datawrapper.de/colors-for-data-vis-style-guides/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="making-inset-maps-using-ggplot2-in-r.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="33">
+      <h4 class="card-title anchored" style="margin-top: 0;">Making Inset Maps Using ggplot2 in R</h4>
+      <p class="card-text">Blog post showing a simple way to make inset maps using the ggplot2 package in R.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://blog.devgenius.io/making-publication-quality-inset-maps-in-r-using-ggplot2-85359c492ac8" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization, Mapping, R</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="classed-and-unclassed-color-scales.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="34">
+      <h4 class="card-title anchored" style="margin-top: 0;">Classed and Unclassed Color Scales</h4>
+      <p class="card-text">Datawrapper blog post discussing when to use classed and unclassed color scales in data visualizations.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://blog.datawrapper.de/classed-vs-unclassed-color-scales/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="choosing-interpolation-methods-for-choropleth-maps.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="35">
+      <h4 class="card-title anchored" style="margin-top: 0;">Choosing Interpolation Methods for Choropleth Maps</h4>
+      <p class="card-text">Datawrapper blog post discussing the different methods of legend interpolation methods for choropleth maps.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="https://blog.datawrapper.de/interpolation-for-color-scales-and-maps/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization, GIS, Geospatial, Mapping</li>
+      </ul>
+</div>
+  </div>
+  
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="introduction-to-data-visualization-with-ggplot2-in-r.webp" alt="Card image">
+</div>
+    <div class="card-body" data-index="36">
+      <h4 class="card-title anchored" style="margin-top: 0;">Introduction to Data Visualization with ggplot2 in R</h4>
+      <p class="card-text">Blog post about making data visualizations with the ggplot2 package in R.</p>
+      
+      <ul class="list-group list-group-flush">
+<li class="list-group-item p-0 py-1 px-1">
+<b>Details:  </b><a href="http://jdobr.es/blog/data-vis-with-ggplot/" class="card-link">Click Here</a>
+</li>
+        <li class="list-group-item p-0 py-1 px-1">
+<b>Topics:  </b>Data Visualization, R</li>
+      </ul>
+</div>
+  </div>
+  
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -859,7 +1426,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>© Copyright 2021-2024 — Benjamin W. Tjepkes</p>
 </div>   
     <div class="nav-footer-center">
-<p><span id="open_preferences_center">User Preferences</span> | <a href="..\sitemap.xml" target="_blank">Site Map</a> | Last Updated: 2024-05-29</p>
+<p><span id="open_preferences_center">User Preferences</span> | <a href="..\sitemap.xml" target="_blank">Site Map</a> | Last Updated: 2024-05-30</p>
 </div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org/">Quarto</a> under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>.</p>

@@ -75,7 +75,7 @@ format:
 
 Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography.
 
-[About Me](about/index.qmd){.btn .btn-primary .btn-sm }  or  [Curriculum vitae](curriculum-vitae/index.qmd){.btn .btn-secondary .btn-sm}
+[**About Me**](about/index.qmd){.btn .btn-outline-primary .btn-sm } [**Curriculum vitae**](curriculum-vitae/index.qmd){.btn .btn-outline-success .btn-sm}
 
 :::
 

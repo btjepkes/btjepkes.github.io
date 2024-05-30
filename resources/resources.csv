@@ -24,7 +24,7 @@ Bivariate Maps with ggplot2 and sf in R,"Data Visualization, GIS, Mapping, R",Tu
 Manual of Applied Spatial Ecology,"Conservation, Geospatial, R","Tutorials, eBook",Outstanding source of example R scripts on managing and modeling environmental data.,https://ecosystems.psu.edu/research/labs/walter-lab/manual,Excellent source of example R scripts of wildlife modeling.
 From Data to Viz,Data Visualization,Website,Decision trees for determining which chart type best fits your data and objectives.,https://www.data-to-viz.com/,
 Careers in Conservation Job Board List,Job Search,Website,Directory of conservation job boards.,https://diversityinconservationjobs.org/jobs/,
-Bivariate Choropleth Maps: A How-To Guide,"GIS, Mapping, QGIS",Website,"Blog post about creating bivariate choropleth maps, including some example legends.",https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/,
+Bivariate Choropleth Maps A How-To Guide,"GIS, Mapping, QGIS",Website,"Blog post about creating bivariate choropleth maps, including some example legends.",https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/,
 The R Graph Gallery,"Data Visualization, R",Website,"Gallery of hundreds of charts made in R, with a focus on the ggplot2 package.",https://r-graph-gallery.com/index.html,
 R Packages for Visualizing Spatial Data,"Mapping, R",Website,Blog post detailing several R packages to visualize spatial data in R.,https://nrennie.rbind.io/blog/2022-12-17-r-packages-for-visualising-spatial-data/,
 Hexagon and Fishnet Spatial Grids,"GIS, Mapping, R",Website,"Blog post about several types of tesselations, including example R code.",https://strimas.com/post/hexagonal-grids/,

@@ -1,0 +1,42 @@
+```{=html}
+
+<%
+  // Group items by category
+  const itemsByCategory = {};
+  for (const item of items) {
+    if (item.category) {  // Ensure category is defined
+      if (!itemsByCategory[item.category]) {
+        itemsByCategory[item.category] = [];
+      }
+      itemsByCategory[item.category].push(item);
+    }
+  }
+%>
+
+<% for (const category in itemsByCategory) { 
+     if (itemsByCategory.hasOwnProperty(category)) { %>
+  
+  <h2 style="margin-top: 0px !important;"><%= category %></h2>
+  
+  <% for (const item of itemsByCategory[category]) { %>
+  
+  <div class="card mb-4 shadow-sm d-flex flex-row-reverse bg-light">
+    <div class="d-flex flex-row" style="max-width: 40%;">
+      <img class="card-img-top p-2 img-fluid shadow-none object-fit-cover rounded" src="<%- item.image %>" alt="Card image">
+    </div>
+    <div class="card-body" <%= metadataAttrs(item) %>>
+      <h4 class="card-title" style="margin-top: 0;"><%- item.name %></h4>
+      <p class="card-text"><%- item['custom-field'] %></p>
+      
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item p-0 py-1 px-1"><b>Details:  </b><a href="<%- item.href %>" class="card-link">Click Here</a></li>
+        <li class="list-group-item p-0 py-1 px-1"><b>Topics:  </b><%- item.tags %></li>
+      </ul>
+      
+    </div>
+  </div>
+  <% } %>
+<% } } %>
+
+
+```

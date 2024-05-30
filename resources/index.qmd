@@ -11,32 +11,60 @@ execute:
   echo: false
   warning: false
 listing:
-  template: resources.ejs
+  template: resources-new.ejs
   contents: test.yml
   page-size: 100
 ---
 
-
 ```{r}
 #| echo: false
 #| output: false
+#| eval: false
+
+# Read in resources table CSV and rename columns
 items <- readr::read_csv("./resources.csv") |> 
-  dplyr::select(Title, Type, Description, Link) |> 
+  dplyr::select(Title, Type, Description, Link, Category) |> 
   dplyr::rename(name = Title,
                 category = Type,
                 'custom-field' = Description,
-                href = Link)
+                href = Link,
+                tags = Category)
 
-items_list <- apply(items, 1, function(row) as.list(row))
+## Pulling Screenshots ----
 
-items_list <- lapply(items_list, function(x) {
-  x <- lapply(x, as.character)  # Ensure all values are character strings
+urls <- items |> dplyr::pull(href)
+
+names <- items |> dplyr::pull(name) |> 
+  tolower() |> 
+  stringr::str_replace_all(" ", "-") |> 
+  stringr::str_replace_all(":", "") |> 
+  paste0(".webp")
+
+webshot2::webshot(
+  url = urls,
+  file = names,
+  vwidth = 900,
+  vheight = 900,
+  selector = NULL,
+  cliprect = "viewport",
+  expand = NULL,
+  delay = 0.2,
+  zoom = 1)
+
+items <- items |> dplyr::mutate(image = names)
+
+items_list <- base::apply(items, 1, function(row) as.list(row))
+
+items_list <- base::lapply(items_list, function(x) {
+  x <- base::lapply(x, as.character)  # Ensure all values are character strings
   x
-})
+  })
 
 yaml::write_yaml(items_list, "test.yml")
 
 ```
+
+
 
 
 <!-- ## Resource Database -->
