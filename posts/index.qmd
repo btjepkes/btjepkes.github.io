@@ -33,7 +33,6 @@ listing:
       - date
 ---
 
-<!-- {{< include _listing-chooser.qmd >}} -->
 
 ::: {#main-posts }
 :::

@@ -585,7 +585,17 @@ font-style: inherit;">)</span></span></code></pre></div>
 
 
 
-</section></section><div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
+</section></section><div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{tjepkes2024,
+  author = {Tjepkes, Benjamin},
+  title = {Mining {Text} {From} {Course} {Descriptions}},
+  date = {2024-05-21},
+  url = {https://btjepkes.github.io/posts/text-mining-course-descriptions},
+  langid = {en},
+  abstract = {In this post, I describe a recent workflow that I ran on
+    my college course descriptions to explore the most common words and
+    word associations from my archive of college course.}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2024. <span>“Mining Text From Course
 Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/text-mining-course-descriptions">https://btjepkes.github.io/posts/text-mining-course-descriptions</a>.
 </div></div></section></div> ]]></description>
@@ -897,7 +907,18 @@ font-style: inherit;">;</span></span>
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{tjepkes2024,
+  author = {Tjepkes, Benjamin},
+  title = {Converting {PowerPoints} to {Reveal.js} {Format}},
+  date = {2024-04-29},
+  url = {https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs},
+  langid = {en},
+  abstract = {In this post, I run through how I convert my standard
+    PowerPoints (in .pptx format) into Revealjs versions to create
+    interactive slides. This workflow has worked for me to generate
+    slides for my website.}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2024. <span>“Converting PowerPoints to Reveal.js
 Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs">https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs</a>.
 </div></div></section></div> ]]></description>
@@ -930,7 +951,7 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
 <div id="fig-screenshot-site" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-screenshot-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="img-gis-workshop-site-preview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2"><img src="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png" class="img-fluid figure-img"></a>
+<a href="img-gis-workshop-site-preview.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-screenshot-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Screenshot of the GIS workshop site.
@@ -946,7 +967,18 @@ Figure&nbsp;1: Screenshot of the GIS workshop site.
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{tjepkes2024,
+  author = {Tjepkes, Benjamin},
+  title = {Crafting a {GIS} {Workshop} {Site} {With} {Quarto}},
+  date = {2024-04-27},
+  url = {https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto},
+  langid = {en},
+  abstract = {This post provides an overview of a recent workshop site I
+    made using Quarto and Github Pages, which covered basic and
+    intermediate geographic information system skills for wildlife and
+    fisheries sciences.}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2024. <span>“Crafting a GIS Workshop Site With
 Quarto.”</span> April 27, 2024. <a href="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto">https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto</a>.
 </div></div></section></div> ]]></description>
@@ -1680,7 +1712,14 @@ font-style: inherit;">:::</span></span></code></pre></div>
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{tjepkes2024,
+  author = {Tjepkes, Benjamin},
+  title = {Create {Annotated} {Bibliographies} with {Quarto}},
+  date = {2024-01-01},
+  url = {https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2024. <span>“Create Annotated Bibliographies with
 Quarto.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto">https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto</a>.
 </div></div></section></div> ]]></description>
@@ -1776,7 +1815,18 @@ Quarto.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/bui
 <li id="fn5"><p>View all my challenge contributions are located here: <a href="https://btjepkes.github.io/posts/30-day-map-challenge-2023/">https://btjepkes.github.io/posts/30-day-map-challenge-2023/</a>↩︎</p></li>
 <li id="fn6"><p><a href="https://www.esri.com/en-us/lg/industry/conservation/actionable-conservation-science-for-the-global-biodiversity-framework-webinar-series">Esri Conservation Webinar Series</a> | <a href="https://community.esri.com/t5/education-events/webinar-discover-the-power-of-spatial-data-science/ev-p/1348824">Esri Power of Spatial Data Science Webinar</a>↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{tjepkes2023,
+  author = {Tjepkes, Benjamin},
+  title = {My 2023 {Highlights} and {Reflections}},
+  date = {2023-12-31},
+  url = {https://btjepkes.github.io/posts/my-2023-highlights-reflections-and-recap},
+  langid = {en},
+  abstract = {This post takes a quick run through the last year of my
+    professional life, including some of my accomplishments, learning
+    venues, and life transition events. I learned quite a bit in these
+    52 weeks.}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2023. <span>“My 2023 Highlights and
 Reflections.”</span> December 31, 2023. <a href="https://btjepkes.github.io/posts/my-2023-highlights-reflections-and-recap">https://btjepkes.github.io/posts/my-2023-highlights-reflections-and-recap</a>.
 </div></div></section></div> ]]></description>
@@ -1942,7 +1992,14 @@ No matching items
 
 
 
-</section><div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
+</section><div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{tjepkes2023,
+  author = {Tjepkes, Benjamin},
+  title = {\#30DayMapChallenge - 2023 {Contributions}},
+  date = {2023-11-01},
+  url = {https://btjepkes.github.io/posts/30-day-map-challenge-2023},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2023. <span>“#30DayMapChallenge - 2023
 Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/posts/30-day-map-challenge-2023">https://btjepkes.github.io/posts/30-day-map-challenge-2023</a>.
 </div></div></section></div> ]]></description>
@@ -2011,7 +2068,7 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 <p>When it is safe and ethical to do so, biologists can track the movements of wildlife through GPS collars or other tracking devices. By mapping these movement patterns, researchers can understand their behavior and use that knowledge to better manage populations and habitats.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Tracking_Mountain_Lions.jpg" class="img-fluid figure-img" alt="A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC."></a></p>
 <figcaption>A researcher with the USFWS uses VHF radio telemetry equipment to triangulate the location of a mountain lion. Photo: USFWS via CC.</figcaption>
 </figure>
 </div>
@@ -2033,7 +2090,14 @@ Contributions.”</span> November 1, 2023. <a href="https://btjepkes.github.io/p
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{tjepkes2023,
+  author = {Tjepkes, Benjamin},
+  title = {How {Scientists} {Use} {GIS} to {Study} {Wildlife}},
+  date = {2023-03-26},
+  url = {https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2023" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2023. <span>“How Scientists Use GIS to Study
 Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife">https://btjepkes.github.io/posts/how-scientists-use-gis-to-study-wildlife</a>.
 </div></div></section></div> ]]></description>
@@ -2072,7 +2136,7 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 <p>Many birds enjoy making their presence known through song. This allows us to identify individuals down to the species without laying eyes on them. Common birds, like the American robin (Turdus migratorius), can usually be heard readily in most yards. Why not just learn how to identify them by sight? Well, that’s certainly something to work on too, but oftentimes you will only be able to hear the birds and not see them. This is especially true for birds that spend most of their time in the tree canopy.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img" alt="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."></a></p>
+<p><a href="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."><img src="https://images.squarespace-cdn.com/content/v1/5e8e68295922a6755b0b90e4/1588816911736-IG7P67VY7EXUYZSFEDML/image-asset.jpeg" class="img-fluid figure-img" alt="Along with a keen ear, a good set of binoculars are an excellent compliment when birding."></a></p>
 <figcaption>Along with a keen ear, a good set of binoculars are an excellent compliment when birding.</figcaption>
 </figure>
 </div>
@@ -2088,7 +2152,7 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 <p>Whether you are ordering pizza or trying to identify an unknown plant, there is an app out there for you. Most popular apps are available on both iOS and Android, so accessing them should not be much trouble. Some even have the ability to download content for offline use, so you can still use the app while away from cell service.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img" alt="Many apps provide ways of capturing data offline, then uploading once connected again."></a></p>
+<p><a href="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Many apps provide ways of capturing data offline, then uploading once connected again."><img src="https://images.unsplash.com/photo-1625517072766-2fc585871810?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1034&amp;q=80" class="img-fluid figure-img" alt="Many apps provide ways of capturing data offline, then uploading once connected again."></a></p>
 <figcaption>Many apps provide ways of capturing data offline, then uploading once connected again.</figcaption>
 </figure>
 </div>
@@ -2138,7 +2202,18 @@ Wildlife.”</span> March 26, 2023. <a href="https://btjepkes.github.io/posts/ho
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2022" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{tjepkes2022,
+  author = {Tjepkes, Benjamin},
+  title = {How to {Become} a {Contemporary} {Naturalist}},
+  date = {2022-10-18},
+  url = {https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist},
+  langid = {en},
+  abstract = {This blog post outlines some simple and cost-effective
+    ways to help you start your journey as a contemporary naturalist.
+    Through these tips, you will be able to gain a deeper appreciation
+    and understanding of nature.}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2022" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2022. <span>“How to Become a Contemporary
 Naturalist.”</span> October 18, 2022. <a href="https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist">https://btjepkes.github.io/posts/how-to-become-a-contemporary-naturalist</a>.
 </div></div></section></div> ]]></description>
@@ -2241,7 +2316,19 @@ Naturalist.”</span> October 18, 2022. <a href="https://btjepkes.github.io/post
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2022" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{tjepkes2022,
+  author = {Tjepkes, Benjamin},
+  title = {Naturally {Protecting} {Shores} {From} {Erosion}},
+  date = {2022-10-16},
+  url = {https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion},
+  langid = {en},
+  abstract = {In this blog post, we will explore the causes of shoreline
+    erosion and discuss some effective ways to prevent it. By
+    understanding this issue and taking action, we can protect our
+    waterfront properties and preserve the natural integrity of the
+    surrounding ecosystem.}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2022" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2022. <span>“Naturally Protecting Shores From
 Erosion.”</span> October 16, 2022. <a href="https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion">https://btjepkes.github.io/posts/can-you-naturally-protect-shores-from-erosion</a>.
 </div></div></section></div> ]]></description>

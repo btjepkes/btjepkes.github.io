@@ -121,7 +121,7 @@ format:
     abstract-title: "What's This About?"
     toc: true
     toc-title: "On This Page:"
-    toc-depth: 2
+    toc-depth: 3
     toc-location: right
     smooth-scroll: true
     number-sections: false
@@ -135,12 +135,12 @@ format:
     code-link: true
     code-overflow: scroll
     comments:
-      giscus: 
+      giscus:
         loading: lazy
         reactions-enabled: false
         repo: btjepkes/btjepkes.github.io
     grid:
-      body-width: 900px
+      body-width: 950px
       gutter-width: 5%
       margin-width: 220px #right
       sidebar-width: 220px #left

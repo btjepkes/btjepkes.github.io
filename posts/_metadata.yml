@@ -3,7 +3,7 @@ execute:
 #description-meta: "{{< meta description >}}"
 citation: true
 appendix-style: plain
-appendix-cite-as: display
+appendix-cite-as: true
 google-scholar: true
 toc: true
 author:

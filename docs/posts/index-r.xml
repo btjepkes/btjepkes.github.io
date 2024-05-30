@@ -585,7 +585,17 @@ font-style: inherit;">)</span></span></code></pre></div>
 
 
 
-</section></section><div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
+</section></section><div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{tjepkes2024,
+  author = {Tjepkes, Benjamin},
+  title = {Mining {Text} {From} {Course} {Descriptions}},
+  date = {2024-05-21},
+  url = {https://btjepkes.github.io/posts/text-mining-course-descriptions},
+  langid = {en},
+  abstract = {In this post, I describe a recent workflow that I ran on
+    my college course descriptions to explore the most common words and
+    word associations from my archive of college course.}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2024. <span>“Mining Text From Course
 Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/text-mining-course-descriptions">https://btjepkes.github.io/posts/text-mining-course-descriptions</a>.
 </div></div></section></div> ]]></description>
@@ -897,7 +907,18 @@ font-style: inherit;">;</span></span>
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{tjepkes2024,
+  author = {Tjepkes, Benjamin},
+  title = {Converting {PowerPoints} to {Reveal.js} {Format}},
+  date = {2024-04-29},
+  url = {https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs},
+  langid = {en},
+  abstract = {In this post, I run through how I convert my standard
+    PowerPoints (in .pptx format) into Revealjs versions to create
+    interactive slides. This workflow has worked for me to generate
+    slides for my website.}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2024. <span>“Converting PowerPoints to Reveal.js
 Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs">https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs</a>.
 </div></div></section></div> ]]></description>
@@ -1635,7 +1656,14 @@ font-style: inherit;">:::</span></span></code></pre></div>
 
 </section>
 
-<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
+<div id="quarto-appendix"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{tjepkes2024,
+  author = {Tjepkes, Benjamin},
+  title = {Create {Annotated} {Bibliographies} with {Quarto}},
+  date = {2024-01-01},
+  url = {https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-tjepkes2024" class="csl-entry quarto-appendix-citeas">
 Tjepkes, Benjamin. 2024. <span>“Create Annotated Bibliographies with
 Quarto.”</span> January 1, 2024. <a href="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto">https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto</a>.
 </div></div></section></div> ]]></description>

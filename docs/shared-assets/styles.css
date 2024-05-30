@@ -4,8 +4,12 @@ h1 {
   font-family: "Roboto Slab", serif;
 }
 
+h2 {
+  border-bottom-width: 2px;
+}
+
 #quarto-content {
-  background-image: url("https://assets-global.website-files.com/655926fa24195711dbf38624/655926fa24195711dbf38661_vector-grid.svg");
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fffbfa 60%, #e9eef4 90%), url("https://assets-global.website-files.com/655926fa24195711dbf38624/655926fa24195711dbf38661_vector-grid.svg");
   background-position: 50% 0;
   background-repeat: repeat;
   background-size: 800px;
@@ -18,7 +22,8 @@ h1 {
 }
 
 .abstract {
-  background: #e9eef4;
+  background: #fff;
+  box-shadow: 0px 0px 20px 10px #e9eef4;
   padding: 8px 8px;
   font-size: 0.9em;
   border-radius: 0.2em;
@@ -29,9 +34,6 @@ h1 {
 }
 
 .menu-navbar {
-  /*background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(18,60,105,0.10) 70%), url("../assets/bg-links.jpg") !important;
-  background-size: 400px !important;
-  background-repeat: repeat-x;*/
   background: #e9eef4 !important;
   padding: 4px 18px;
   
@@ -139,7 +141,7 @@ h1 {
 
 .quarto-grid-item {
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
-  background: #e9eef4;
+  background: #fff;
 }
 
 .listings-gallery .quarto-grid-item div.post-contents {
@@ -230,9 +232,10 @@ figure > figcaption {
 }
 
 #title-block-header.quarto-title-block.default .quarto-title-meta > * {
-  background: #e9eef4;
+  background: #fff;
   padding: 4px 8px;
   border-radius: 0.2em;
+  box-shadow: 0px 0px 20px 10px #e9eef4;
 }
 
 #title-block-header.quarto-title-block.default .quarto-title-meta-heading {
@@ -337,12 +340,24 @@ figure > figcaption {
   text-align: left;
 }
 
+.quarto-appendix-bibtex {
+  background: #fff !important;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 12px;
+  box-shadow: 5px 0px 30px 5px #d6d8db;
+  
+  code.sourceCode {
+  white-space: break-spaces !important;}
+}
+
 .quarto-appendix-citeas {
   padding: 12px;
   border-radius: 6px;
   margin-top: 12px;
-  background: #eaeaed;
+  background: #fff;
   text-align: left;
+  box-shadow: 5px 0px 30px 5px #d6d8db ;
 }
 
 .quarto-appendix-contents {
