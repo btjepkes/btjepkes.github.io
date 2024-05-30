@@ -67,9 +67,9 @@ format:
 
 ::: {#intro-container .column-screen}
 
-:::{.grid .column-page }
+:::{.grid .column-page .mt-4 .mb-4}
 
-:::{.g-col-12 .g-col-md-12 .text-center .p-2 .rounded .bg-noise .shadow .mt-4 .index-title}
+:::{.g-col-12 .g-col-md-12 .text-center}
 
 # A dedicated wildlife ecologist and geospatial scientist...
 
@@ -82,8 +82,9 @@ Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my 
 :::
 :::
 
-:::{.column-page .mt-4 .fw-bold .fs-3}
-My Focus Areas:
+
+:::{.column-page .mt-4 .fw-bold .fs-4 .text-uppercase}
+Emphasis Areas:
 :::
 
 
@@ -112,11 +113,11 @@ My Focus Areas:
 
 :::
 
-:::{.column-page .mt-4 .fw-bold .fs-3}
-Exploring This Site:
+:::{.column-page .mt-4 .fw-bold .fs-4 .text-uppercase}
+Primary Works:
 :::
 
-:::{.grid .column-page .mb-4}
+:::{.grid .column-page}
 
 :::{.g-col-12 .g-col-md-4 .bg-warning .p-3 .rounded .bg-tree .shadow}
 
@@ -145,6 +146,14 @@ Across the scopes of spatial ecology, biogeography, and geospatial science.
 [Learn More <i class="bi bi-arrow-right-short"></i>](research/index.qmd){.btn .btn-sm .btn-light .mt-3}
 
 :::
+
+:::
+
+:::{.column-page .mt-4 .fw-bold .fs-4 .text-uppercase}
+More To Explore:
+:::
+
+:::{.grid .column-page .mb-5}
 
 :::{.g-col-12 .g-col-md-8 .bg-primary .p-3 .rounded .bg-noise .shadow}
 ### Resources {.text-white}

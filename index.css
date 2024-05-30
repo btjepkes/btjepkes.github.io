@@ -14,9 +14,6 @@
   padding-top: 0;
 }
 
-.index-title {
-  background-image: linear-gradient(to top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.8) 70%) !important;
-}
 
 main {margin-top: 0;}
 .asp-169 {
@@ -42,6 +39,7 @@ main {margin-top: 0;}
 
 #intro-container {
   padding: 0 0;
+  background-image: linear-gradient(to top, #e9eef4 0%, rgba(255,255,255,0.1) 70%) !important;
   
     h1 {
     font-weight: 700;
