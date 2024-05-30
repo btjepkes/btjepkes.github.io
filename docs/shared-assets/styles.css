@@ -9,7 +9,7 @@ h2 {
 }
 
 #quarto-content {
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fffbfa 60%, #e9eef4 90%), url("https://assets-global.website-files.com/655926fa24195711dbf38624/655926fa24195711dbf38661_vector-grid.svg");
+  background-image: linear-gradient(to bottom, #e9eef4 0%, rgba(255,255,255,0) 5%, #fffbfa 60%, #e9eef4 90%), url("https://assets-global.website-files.com/655926fa24195711dbf38624/655926fa24195711dbf38661_vector-grid.svg"), linear-gradient(45deg, #e9eef4 0%, #e9eef4 90%);
   background-position: 50% 0;
   background-repeat: repeat;
   background-size: 800px;
@@ -34,7 +34,7 @@ h2 {
 }
 
 .menu-navbar {
-  background: #e9eef4 !important;
+  background: #fff !important;
   padding: 4px 18px;
   
   .container-fluid {

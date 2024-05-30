@@ -69,7 +69,7 @@ format:
 
 :::{.grid .column-page }
 
-:::{.g-col-12 .g-col-md-12 .text-center .p-3 .rounded .bg-noise .shadow .mt-4 .index-title}
+:::{.g-col-12 .g-col-md-12 .text-center .p-2 .rounded .bg-noise .shadow .mt-4 .index-title}
 
 # A dedicated wildlife ecologist and geospatial scientist...
 
@@ -116,7 +116,7 @@ My Focus Areas:
 Exploring This Site:
 :::
 
-:::{.grid .column-page .mb-5}
+:::{.grid .column-page .mb-4}
 
 :::{.g-col-12 .g-col-md-4 .bg-warning .p-3 .rounded .bg-tree .shadow}
 

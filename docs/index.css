@@ -15,7 +15,7 @@
 }
 
 .index-title {
-  background-image: linear-gradient(to top, rgba(18,60,105,0.05) 0%, rgba(255,255,255,0.8) 70%) !important;
+  background-image: linear-gradient(to top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.8) 70%) !important;
 }
 
 main {margin-top: 0;}
