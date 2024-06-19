@@ -39,7 +39,7 @@ main {margin-top: 0;}
 
 #intro-container {
   padding: 0 0;
-  background-image: linear-gradient(to top, #e9eef4 0%, rgba(255,255,255,0.1) 70%) !important;
+  background: #d3d3d34f;
   
     h1 {
     font-weight: 700;

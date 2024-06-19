@@ -1,12 +1,13 @@
 ---
 title: "Climate Trends of the Upper Peninsula, MI"
+subtitle: "Exploring the UP's climatic trends."
 date: 12/10/2023
 date-modified: today
 categories:
   - Data Gallery
 keywords:
   - Michigan
-description: "This exploration was part of a recent class assignment where I was tasked to develop a historic climate profile for a location I would like to live in the future. I picked the Upper Peninsula of Michigan for my location due to its regionally unique biogeography. I sourced PRISM climate data and built some climate charts."
+abstract: "This exploration was part of a recent class assignment where I was tasked to develop a historic climate profile for a location I would like to live in the future. I picked the Upper Peninsula of Michigan for my location due to its regionally unique biogeography. I sourced PRISM climate data and built some climate charts."
 image: img-plot-ppt.png
 image-alt: "A chart of precipitation trends."
 # aliases:

@@ -13,11 +13,11 @@ website:
   page-navigation: false
   back-to-top-navigation: false
   bread-crumbs: true
-  search:
-    location: navbar
-    type: textbox
-    show-item-context: false
-    collapse-after: 1
+  search: false
+  #   location: navbar
+  #   type: overlay
+  #   show-item-context: false
+  #   collapse-after: 1
   open-graph: true
   twitter-card:
     creator: "@BTjepkes"
@@ -46,22 +46,30 @@ website:
         text: Research
       - href: resources/index.qmd
         text: Resources
-      # - text: "Links"
-      #   menu:
-      #   - text: "{{< fa brands linkedin size=1x >}} LinkedIn Profile"
-      #     href: https://www.linkedin.com/in/benjamintjepkes/
-      #     aria-label: LinkedIn Profile
-      #   - text: "{{< fa brands github size=1x >}} GitHub Repos"
-      #     href: https://github.com/btjepkes
-      #     aria-label: GitHub Profile
-      #   - text: "{{< fa brands twitter size=1x >}} Twitter Profile"
-      #     href: https://twitter.com/BTjepkes
-      #     aria-label: Twitter Profile
-      #   - text: "{{< fa brands researchgate size=1x >}} ResearchGate"
-      #     href: https://www.researchgate.net/profile/Benjamin-Tjepkes
-      #   - text: "{{< fa brands orcid size=1x >}} ORCiD Account"
-      #     href: https://orcid.org/0009-0002-5524-2675
-          
+      - text: Sites/Apps
+        menu:
+          - text: WORKSHOPS
+          - text: WAFSGSO GIS Workshop
+            href: /#
+            icon: laptop
+          - text: "---"
+          - text: DASHBOARDS
+      - text: "Links"
+        menu:
+        - text: "{{< fa brands linkedin size=1x >}} LinkedIn Profile"
+          href: https://www.linkedin.com/in/benjamintjepkes/
+          aria-label: LinkedIn Profile
+        - text: "{{< fa brands github size=1x >}} GitHub Repos"
+          href: https://github.com/btjepkes
+          aria-label: GitHub Profile
+        - text: "{{< fa brands twitter size=1x >}} Twitter Profile"
+          href: https://twitter.com/BTjepkes
+          aria-label: Twitter Profile
+        - text: "{{< fa brands researchgate size=1x >}} ResearchGate"
+          href: https://www.researchgate.net/profile/Benjamin-Tjepkes
+        - text: "{{< fa brands orcid size=1x >}} ORCiD Account"
+          href: https://orcid.org/0009-0002-5524-2675
+
     # tools:
     #   - icon: linkedin
     #     href: https://www.linkedin.com/in/benjamintjepkes/
@@ -126,9 +134,9 @@ format:
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
-    # title-block-banner: "#dee2e6"
-    # title-block-categories: true
-    # title-block-style: default
+    title-block-banner: "#dee2e655"
+    title-block-categories: true
+    title-block-style: manuscript
     anchor-sections: true
     highlight-style: github
     link-external-newwindow: true
@@ -155,5 +163,5 @@ format:
     # include-after-body: back-to-top.html
     # include-in-header:
     #   - file: carousel-slider/carousel-slider.html
-    include-in-header: 
-      - file: shared-assets/menu-navbar.html
+    # include-in-header: 
+    #   - file: shared-assets/menu-navbar.html
