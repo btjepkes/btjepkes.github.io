@@ -22,53 +22,53 @@ website:
   twitter-card:
     creator: "@BTjepkes"
     title: "Portfolio | B.W. Tjepkes"
-  cookie-consent:
-    type: implied
-    style: interstitial
-    palette: light
+  # cookie-consent:
+  #   type: implied
+  #   style: interstitial
+  #   palette: light
     # prefs-text: "User Cookies 🍪 Preferences"
   google-analytics: 
     tracking-id: "G-ESKNL9H1KZ"
     version: 4
-  navbar:
-    logo: assets/forest-svgrepo-com.svg
-    collapse-below: lg
-    pinned: false
-    toggle-position: right
-    right:
-      - href: about/index.qmd
-        text: About
-      - href: posts/index.qmd
-        text: Posts
-      - href: gallery/index.qmd
-        text: Gallery
-      - href: research/index.qmd
-        text: Research
-      - href: resources/index.qmd
-        text: Resources
-      - text: Sites/Apps
-        menu:
-          - text: WORKSHOPS
-          - text: WAFSGSO GIS Workshop
-            href: /#
-            icon: laptop
-          - text: "---"
-          - text: DASHBOARDS
-      - text: "Links"
-        menu:
-        - text: "{{< fa brands linkedin size=1x >}} LinkedIn Profile"
-          href: https://www.linkedin.com/in/benjamintjepkes/
-          aria-label: LinkedIn Profile
-        - text: "{{< fa brands github size=1x >}} GitHub Repos"
-          href: https://github.com/btjepkes
-          aria-label: GitHub Profile
-        - text: "{{< fa brands twitter size=1x >}} Twitter Profile"
-          href: https://twitter.com/BTjepkes
-          aria-label: Twitter Profile
-        - text: "{{< fa brands researchgate size=1x >}} ResearchGate"
-          href: https://www.researchgate.net/profile/Benjamin-Tjepkes
-        - text: "{{< fa brands orcid size=1x >}} ORCiD Account"
-          href: https://orcid.org/0009-0002-5524-2675
+  # navbar:
+  #   logo: assets/forest-svgrepo-com.svg
+  #   collapse-below: lg
+  #   pinned: false
+  #   toggle-position: right
+  #   right:
+  #     - href: about/index.qmd
+  #       text: About
+  #     - href: posts/index.qmd
+  #       text: Posts
+  #     - href: gallery/index.qmd
+  #       text: Gallery
+  #     - href: research/index.qmd
+  #       text: Research
+  #     - href: resources/index.qmd
+  #       text: Resources
+  #     - text: Sites/Apps
+  #       menu:
+  #         - text: WORKSHOPS
+  #         - text: WAFSGSO GIS Workshop
+  #           href: /#
+  #           icon: laptop
+  #         - text: "---"
+  #         - text: DASHBOARDS
+  #     - text: "Links"
+  #       menu:
+  #       - text: "{{< fa brands linkedin size=1x >}} LinkedIn Profile"
+  #         href: https://www.linkedin.com/in/benjamintjepkes/
+  #         aria-label: LinkedIn Profile
+  #       - text: "{{< fa brands github size=1x >}} GitHub Repos"
+  #         href: https://github.com/btjepkes
+  #         aria-label: GitHub Profile
+  #       - text: "{{< fa brands twitter size=1x >}} Twitter Profile"
+  #         href: https://twitter.com/BTjepkes
+  #         aria-label: Twitter Profile
+  #       - text: "{{< fa brands researchgate size=1x >}} ResearchGate"
+  #         href: https://www.researchgate.net/profile/Benjamin-Tjepkes
+  #       - text: "{{< fa brands orcid size=1x >}} ORCiD Account"
+  #         href: https://orcid.org/0009-0002-5524-2675
 
     # tools:
     #   - icon: linkedin
@@ -109,12 +109,12 @@ website:
   #     - icon: 6-square
   #       href: resources/index.qmd
   #       text: Helpful Resources
-  page-footer:
-    center: >-
-      [User Preferences]{#open_preferences_center} | [Site Map](/sitemap.xml){target="_blank"} | Last Updated: {{< meta date-modified >}}
-    right: >-
-      Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
-    left: "&copy; Copyright 2021-2024 --- Benjamin W. Tjepkes"
+  # page-footer:
+  #   center: >-
+  #     [User Preferences]{#open_preferences_center} | [Site Map](/sitemap.xml){target="_blank"} | Last Updated: {{< meta date-modified >}}
+  #   right: >-
+  #     Made with [Quarto](https://quarto.org/) under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
+  #   left: "&copy; Copyright 2021-2024 --- Benjamin W. Tjepkes"
 execute:
   freeze: true
 format:
@@ -125,6 +125,7 @@ format:
         orcid: 0009-0002-5524-2675
     theme: shared-assets/theme.scss
     css: shared-assets/styles.css
+    template: shared-assets/template.html
     date-format: iso
     abstract-title: "What's This About?"
     toc: true
@@ -134,9 +135,9 @@ format:
     smooth-scroll: true
     number-sections: false
     pagetitle: "{{< meta title >}} | B.W. Tjepkes"
-    title-block-banner: "#dee2e655"
-    title-block-categories: true
-    title-block-style: manuscript
+    title-block-banner: true
+    # title-block-categories: true
+    # title-block-style: manuscript
     anchor-sections: true
     highlight-style: github
     link-external-newwindow: true
@@ -148,9 +149,9 @@ format:
         reactions-enabled: false
         repo: btjepkes/btjepkes.github.io
     grid:
-      body-width: 950px
-      gutter-width: 5%
-      margin-width: 220px #right
+      body-width: 800px
+      #gutter-width: 5%
+      margin-width: 350px #right
       sidebar-width: 220px #left
     lightbox: auto
     # template-partials:
