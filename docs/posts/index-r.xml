@@ -21,20 +21,20 @@
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/text-mining-course-descriptions/</link>
   <description><![CDATA[ <section id="introduction" class="level2"><h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-    <p><a href="img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="quarto-cover-image img-fluid"></a></p>
-    <p>This month (May), I wrapped up my first year as a graduate student which also brought my list of college courses up past 70! As the bags under my eyes can tell you, it has been a long road to this point, with much still left to go. I wanted to take some time to look back and reflect on the courses I have experienced in my higher education journey thus far by visualizing some course description data.</p>
-    <section id="why-course-descriptions" class="level3"><h3 class="anchored" data-anchor-id="why-course-descriptions">Why course descriptions?</h3>
-    <p>College courses all come with a syllabus that lays out the course structure, objectives, and usually a brief official description. These descriptions detail the theory, methods, or general topics of each course and are officially registered with the Registrar. The main reason behind my decision to delve into these descriptions was finally completing my spreadsheet of courses over my academic career. Why did I bother with this? Well, I’m in the process of applying for various professional certifications, many of which require a record of all relevant courses taken. For example, I’ve been eyeing <a href="https://wildlife.org/certification-programs/">The Wildlife Society Certification Program</a> for some time now.</p>
-    </section></section><section id="workflow---word-cloud" class="level2"><h2 class="anchored" data-anchor-id="workflow---word-cloud">Workflow - Word Cloud</h2>
-    <p>The steps I took for this process came largely from <a href="http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know">this blog post</a>, which was extremely helpful in understanding these text mining packages in R.</p>
-    <section id="data-processing" class="level3"><h3 class="anchored" data-anchor-id="data-processing">1. Data Processing</h3>
-    <p>The first step we need to do is install and/or load all the required packages. This will include several new-to-me packages like <code>tm</code> and <code>wordcloud</code> along with some familiar ones like <code>RColorBrewer</code>.</p>
-    <div class="cell">
-    <div class="code-with-filename">
-    <div class="code-with-filename-file">
-    <pre><strong>matplotlib.py</strong></pre>
-    </div>
-    <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
+  <p><a href="img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="quarto-cover-image img-fluid"></a></p>
+  <p>This month (May), I wrapped up my first year as a graduate student which also brought my list of college courses up past 70! As the bags under my eyes can tell you, it has been a long road to this point, with much still left to go. I wanted to take some time to look back and reflect on the courses I have experienced in my higher education journey thus far by visualizing some course description data.</p>
+  <section id="why-course-descriptions" class="level3"><h3 class="anchored" data-anchor-id="why-course-descriptions">Why course descriptions?</h3>
+  <p>College courses all come with a syllabus that lays out the course structure, objectives, and usually a brief official description. These descriptions detail the theory, methods, or general topics of each course and are officially registered with the Registrar. The main reason behind my decision to delve into these descriptions was finally completing my spreadsheet of courses over my academic career. Why did I bother with this? Well, I’m in the process of applying for various professional certifications, many of which require a record of all relevant courses taken. For example, I’ve been eyeing <a href="https://wildlife.org/certification-programs/">The Wildlife Society Certification Program</a> for some time now.</p>
+  </section></section><section id="workflow---word-cloud" class="level2"><h2 class="anchored" data-anchor-id="workflow---word-cloud">Workflow - Word Cloud</h2>
+  <p>The steps I took for this process came largely from <a href="http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know">this blog post</a>, which was extremely helpful in understanding these text mining packages in R.</p>
+  <section id="data-processing" class="level3"><h3 class="anchored" data-anchor-id="data-processing">1. Data Processing</h3>
+  <p>The first step we need to do is install and/or load all the required packages. This will include several new-to-me packages like <code>tm</code> and <code>wordcloud</code> along with some familiar ones like <code>RColorBrewer</code>.</p>
+  <div class="cell">
+  <div class="code-with-filename">
+  <div class="code-with-filename-file">
+  <pre><strong>matplotlib.py</strong></pre>
+  </div>
+  <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Optional install packages, if needed ----</span></span>
 <span><span class="co" style="color: #5E5E5E;
@@ -89,11 +89,11 @@ background-color: null;
 font-style: inherit;">"RColorBrewer"</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span></code></pre></div>
-    </div>
-    </div>
-    </section><section id="data-import" class="level3"><h3 class="anchored" data-anchor-id="data-import">2. Data Import</h3>
-    <p>Next, we need to get our data into R and format everything as a <code><a href="https://rdrr.io/pkg/tm/man/Corpus.html">tm::Corpus</a></code> dataset that can be transformed in later steps.</p>
-    <div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
+  </div>
+  </div>
+  </section><section id="data-import" class="level3"><h3 class="anchored" data-anchor-id="data-import">2. Data Import</h3>
+  <p>Next, we need to get our data into R and format everything as a <code><a href="https://rdrr.io/pkg/tm/man/Corpus.html">tm::Corpus</a></code> dataset that can be transformed in later steps.</p>
+  <div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Load the text</span></span>
 <span><span class="va" style="color: #111111;
@@ -145,8 +145,8 @@ background-color: null;
 font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span></code></pre></div>
-    </section><section id="data-wrangling" class="level3"><h3 class="anchored" data-anchor-id="data-wrangling">3. Data Wrangling</h3>
-    <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
+  </section><section id="data-wrangling" class="level3"><h3 class="anchored" data-anchor-id="data-wrangling">3. Data Wrangling</h3>
+  <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Text transformation ----</span></span>
 <span><span class="va" style="color: #111111;
@@ -373,8 +373,8 @@ background-color: null;
 font-style: inherit;">stripWhitespace</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span></code></pre></div>
-    </section><section id="creating-matrix" class="level3"><h3 class="anchored" data-anchor-id="creating-matrix">4. Creating Matrix</h3>
-    <div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
+  </section><section id="creating-matrix" class="level3"><h3 class="anchored" data-anchor-id="creating-matrix">4. Creating Matrix</h3>
+  <div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Build a Term-Document Matrix ----</span></span>
 <span><span class="va" style="color: #111111;
@@ -462,8 +462,8 @@ background-color: null;
 font-style: inherit;">10</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span></code></pre></div>
-    </section><section id="visualization" class="level3"><h3 class="anchored" data-anchor-id="visualization">5. Visualization</h3>
-    <div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
+  </section><section id="visualization" class="level3"><h3 class="anchored" data-anchor-id="visualization">5. Visualization</h3>
+  <div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Create and save word cloud</span></span>
 <span><span class="fu" style="color: #4758AB;
@@ -578,14 +578,14 @@ background-color: null;
 font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span></code></pre></div>
-    <div class="quarto-figure quarto-figure-center">
-    <figure class="figure"><p><a href="./img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="The resulting word cloud from my course descriptions."><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
-    <figcaption>The resulting word cloud from my course descriptions.</figcaption></figure>
+  <div class="quarto-figure quarto-figure-center">
+  <figure class="figure"><p><a href="./img-word-cloud.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="The resulting word cloud from my course descriptions."><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
+  <figcaption>The resulting word cloud from my course descriptions.</figcaption></figure>
 </div>
-    
-    
-    
-    </section></section><!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
+  
+  
+  
+  </section></section><!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-6">
         <div class="card card-alt-2">
             <div class="card-header bg-white">
@@ -656,48 +656,51 @@ Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/</link>
   <description><![CDATA[ 
-      
-      
-    <section id="introduction" class="level2">
-    <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-    <p>Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. So, how can I convert my .pptx files into reveal.js slides? Well, I have devised a workflow that does just this. I am not sure is the best way, but it works for me until someone tells me otherwise.</p>
-    <section id="how-it-works" class="level3">
-    <h3 class="anchored" data-anchor-id="how-it-works">How it works</h3>
-    <p>Let’s take a run through my workflow. We must first export the PowerPoint as a .pdf within the PowerPoint software. Then, we can split each slide into its own .png or .jpg image using the <code>pdftools::pdf_convert</code> function. From here it is a simple for loop and <code>asis</code> output specification in a Quarto document setup to create a revealjs presentation.</p>
-    <div class="cell" data-layout-align="default">
-    <div class="cell-output-display">
-    <div>
-    <p></p><figure class="figure"><p></p>
-    <div>
-    <pre class="mermaid mermaid-js">flowchart LR
-      A[PPTX] --&gt; |Convert| B(PDF)
-      B --&gt; |pdf_convert| C(JPGs)
-      C --&gt;  D{QMD revealjs}
-      D --&gt; |Render| F[HTML]
-      
-    </pre>
-    </div>
-    <p></p></figure><p></p>
-    </div>
-    </div>
-    </div>
-    <p>This will result in a HTML file with your slides where each image is displayed per slide while giving you most of the functionality of reveal.js. For example, the four slides below will become the slide deck. It is important to note that while this <em>converts</em> my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.</p>
-    <p><a href="img-example-powerpoint.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/img-example-powerpoint.png" class="img-fluid"></a></p>
-    <!-- ::: {layout-ncol=2} -->
-    <!-- ![Slide 1](./powerpoint_1.jpg) -->
-    <!-- ![Slide 2](./powerpoint_2.jpg) -->
-    <!-- ![Slide 3](./powerpoint_3.jpg) -->
-    <!-- ![Slide 4](./powerpoint_4.jpg) -->
-    <!-- ::: -->
-    <p>The resulting presentation will show up something like this given the four slides above.</p>
-    <iframe class="slide-deck" src="slides-example-powerpoint.html">
-    </iframe>
-    </section>
-    </section>
-    <section id="coded-example" class="level2">
-    <h2 class="anchored" data-anchor-id="coded-example">Coded Example</h2>
-    <p>Now we can run through an example with the code included. Here, we are assuming you have a saved PowerPoint, <code>powerpoint.pdf</code>, that was exported from your PowerPoint of interest.</p>
-    <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+  
+    
+  
+    
+  
+  <section id="introduction" class="level2">
+  <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+  <p>Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. So, how can I convert my .pptx files into reveal.js slides? Well, I have devised a workflow that does just this. I am not sure is the best way, but it works for me until someone tells me otherwise.</p>
+  <section id="how-it-works" class="level3">
+  <h3 class="anchored" data-anchor-id="how-it-works">How it works</h3>
+  <p>Let’s take a run through my workflow. We must first export the PowerPoint as a .pdf within the PowerPoint software. Then, we can split each slide into its own .png or .jpg image using the <code>pdftools::pdf_convert</code> function. From here it is a simple for loop and <code>asis</code> output specification in a Quarto document setup to create a revealjs presentation.</p>
+  <div class="cell" data-layout-align="default">
+  <div class="cell-output-display">
+  <div>
+  <p></p><figure class="figure"><p></p>
+  <div>
+  <pre class="mermaid mermaid-js">flowchart LR
+    A[PPTX] --&gt; |Convert| B(PDF)
+    B --&gt; |pdf_convert| C(JPGs)
+    C --&gt;  D{QMD revealjs}
+    D --&gt; |Render| F[HTML]
+    
+  </pre>
+  </div>
+  <p></p></figure><p></p>
+  </div>
+  </div>
+  </div>
+  <p>This will result in a HTML file with your slides where each image is displayed per slide while giving you most of the functionality of reveal.js. For example, the four slides below will become the slide deck. It is important to note that while this <em>converts</em> my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.</p>
+  <p><a href="img-example-powerpoint.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://btjepkes.github.io/posts/converting-powerpoints-to-revealjs/img-example-powerpoint.png" class="img-fluid"></a></p>
+  <!-- ::: {layout-ncol=2} -->
+  <!-- ![Slide 1](./powerpoint_1.jpg) -->
+  <!-- ![Slide 2](./powerpoint_2.jpg) -->
+  <!-- ![Slide 3](./powerpoint_3.jpg) -->
+  <!-- ![Slide 4](./powerpoint_4.jpg) -->
+  <!-- ::: -->
+  <p>The resulting presentation will show up something like this given the four slides above.</p>
+  <iframe class="slide-deck" src="slides-example-powerpoint.html">
+  </iframe>
+  </section>
+  </section>
+  <section id="coded-example" class="level2">
+  <h2 class="anchored" data-anchor-id="coded-example">Coded Example</h2>
+  <p>Now we can run through an example with the code included. Here, we are assuming you have a saved PowerPoint, <code>powerpoint.pdf</code>, that was exported from your PowerPoint of interest.</p>
+  <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Load in the `pdftools` package</span></span>
 <span id="cb1-2"><span class="fu" style="color: #4758AB;
@@ -731,8 +734,8 @@ background-color: null;
 font-style: inherit;">dpi =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">300</span>)</span></code></pre></div>
-    <p>Create a Quarto (.qmd) document saved in the directory where you want to create your HTML output. Then, specify your YAML header as you see fit. I have removed the menu with <code>menu: false</code> but kept the arrow slide controls with <code>controls: true</code> in the below example. I also like specifying <code>history: false</code>, which prevents each slide from being included in your browser history.</p>
-    <div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode yml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><span class="pp" style="color: #AD0000;
+  <p>Create a Quarto (.qmd) document saved in the directory where you want to create your HTML output. Then, specify your YAML header as you see fit. I have removed the menu with <code>menu: false</code> but kept the arrow slide controls with <code>controls: true</code> in the below example. I also like specifying <code>history: false</code>, which prevents each slide from being included in your browser history.</p>
+  <div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode yml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><span class="pp" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">---</span></span>
 <span id="cb2-2"><span class="fu" style="color: #4758AB;
@@ -790,8 +793,8 @@ font-style: inherit;">"slide-conversion.html"</span></span>
 <span id="cb2-8"><span class="pp" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">---</span></span></code></pre></div>
-    <p>Within your blank .qmd document, insert a code chunk and paste in the following code chunk. This code will create a list of images from your working directory, then iterate over them to set each one as the background image of its own slide in your revealjs presentation. It is important to set the execution options to <code>echo: false</code> and <code>output: asis</code> to prevent the code chunk from being included in the slides and instead print out the for-loop’s output.</p>
-    <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
+  <p>Within your blank .qmd document, insert a code chunk and paste in the following code chunk. This code will create a list of images from your working directory, then iterate over them to set each one as the background image of its own slide in your revealjs presentation. It is important to set the execution options to <code>echo: false</code> and <code>output: asis</code> to prevent the code chunk from being included in the slides and instead print out the for-loop’s output.</p>
+  <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| echo: false</span></span>
 <span id="cb3-2"><span class="co" style="color: #5E5E5E;
@@ -865,8 +868,8 @@ font-style: inherit;">sep =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">""</span>)</span>
 <span id="cb3-10">}</span></code></pre></div>
-    <p>You will then need to render your .qmd document with this code chunk to produce a self-contained HTML file with your slides. Once your HTML document is created, it is simple to embed it as an iframe into your site. There are other ways to configure this when <code>embed-resources: false</code> is set in your YAML, but my slides are not too large so this technique has worked for me.</p>
-    <div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb4-1"><span class="dt" style="color: #AD0000;
+  <p>You will then need to render your .qmd document with this code chunk to produce a self-contained HTML file with your slides. Once your HTML document is created, it is simple to embed it as an iframe into your site. There are other ways to configure this when <code>embed-resources: false</code> is set in your YAML, but my slides are not too large so this technique has worked for me.</p>
+  <div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb4-1"><span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">&lt;</span><span class="kw" style="color: #003B4F;
 background-color: null;
@@ -889,8 +892,8 @@ background-color: null;
 font-style: inherit;">iframe</span><span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">&gt;</span></span></code></pre></div>
-    <p>To ensure your slides are always displayed with the correct aspect ratio, I applied a <code>.slide-deck</code> class to my iframe, then specified this class in my site CSS like below.</p>
-    <div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+  <p>To ensure your slides are always displayed with the correct aspect ratio, I applied a <code>.slide-deck</code> class to my iframe, then specified this class in my site CSS like below.</p>
+  <div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb5-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">.slide-deck</span> {</span>
 <span id="cb5-2">  <span class="kw" style="color: #003B4F;
@@ -942,13 +945,13 @@ font-style: inherit;">em</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">;</span></span>
 <span id="cb5-6">}</span></code></pre></div>
-    </section>
-    <section id="final-thoughts" class="level2">
-    <h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
-    <p>So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it. Regardless, I hope this post is helpful for others interested in this process.</p>
-    
-    
-    </section>
+  </section>
+  <section id="final-thoughts" class="level2">
+  <h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
+  <p>So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it. Regardless, I hope this post is helpful for others interested in this process.</p>
+  
+  
+  </section>
 <!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-6">
         <div class="card card-alt-2">
@@ -1023,43 +1026,46 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
   <dc:creator>Benjamin Tjepkes</dc:creator>
   <link>https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/</link>
   <description><![CDATA[ 
-      
-      
-    <section id="introduction" class="level2">
-    <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-    <p>An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
-    <p>This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1) identify gaps in existing literature</strong> and <strong>(2) determine the potential contributions of their own work</strong> within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
-    <section id="why-use-zotero-and-quarto" class="level3">
-    <h3 class="anchored" data-anchor-id="why-use-zotero-and-quarto">Why use Zotero and Quarto?</h3>
-    <p><a href="https://www.zotero.org/">Zotero</a> is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. <a href="https://quarto.org/">Quarto</a> is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.</p>
-    <p>I suggest using these options because they are <strong>free</strong>, <strong>natively integrated</strong>, and <strong>highly flexible</strong>. This process allows for great flexibility, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.</p>
-    <p>Perhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.</p>
-    </section>
-    <section id="what-are-potential-alternatives" class="level3">
-    <h3 class="anchored" data-anchor-id="what-are-potential-alternatives">What are potential alternatives?</h3>
-    <p>Zotero provides a reporting functionality in the desktop application by right-clicking an item, selection of items, or an entire collection, then selecting <em>“Generate Report From…”</em>. This option works well if you need to quickly output your citations and notes, but is limited to exporting in HTML or Rich Text formats.</p>
-    <p>Another alternative workflow might be to use <a href="https://obsidian.md/">Obsidian</a>, a freemium note-taking software that operates on Markdown files. This application integrates very well will Zotero as well, but my personal preference is Quarto in the RStudio environment. Consider following <a href="https://medium.com/@alexandraphelan/an-updated-academic-workflow-zotero-obsidian-cffef080addd">this tutorial</a> if you want to use Obsidian.</p>
-    </section>
-    </section>
-    <section id="workflow-in-zotero" class="level2">
-    <h2 class="anchored" data-anchor-id="workflow-in-zotero">Workflow in Zotero</h2>
-    <section id="add-citations-and-notes" class="level3">
-    <h3 class="anchored" data-anchor-id="add-citations-and-notes">Add Citations and Notes</h3>
-    <p>The first step, which you may be at already, is to get literature into your Zotero library. There are a variety of ways to accomplish this, but I prefer using either the <em>Add Item by Identifier</em> tool or the web extension to automatically load documents into their respective libraries, collections, or sub-collections.</p>
-    <p>Once you have your literature in Zotero you can review each article as you normally would. While doing so, add in notes and annotations that summarize the main findings, key terms, important methods, and so forth. An important note about this workflow is that each comment or annotation made on an article must be stored as an individual note item. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
-    <div class="quarto-figure quarto-figure-center">
-    <figure class="figure">
-    <p><a href="img-zotero-item.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
-    <figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
-    </figure>
-    </div>
-    </section>
-    <section id="export-items-as-bibtex" class="level3">
-    <h3 class="anchored" data-anchor-id="export-items-as-bibtex">Export Item(s) as BibTeX</h3>
-    <p>Once you have all your literature added to Zotero and any annotations you need to make based on your review of each article, it is now time to export this information. Just like with the reports, exporting can occur at the level of each item, selection of items, or entire collections. I have found it easiest to make sub-collections for major themes or sections.</p>
-    <p>In this step, we are simply exporting the information from Zotero into a portable BibTeX file with the <code>.bib</code> extension. Other similar extension types may work, but I have only tested the standard format. To export, you need to (1) right-click the item of interest, (2) select <em>“Export…”</em>, (3) ensure that the <code>Format: BibTeX</code> and the <code>Export Notes</code> options are selected, and (4) specify an accessible location to store this file. This should save a .bib file to this location containing all pertinent information and notes on the citation(s) of interest.</p>
-    <p>If you open up the <code>.bib</code> file you just exported, <strong>each included article should look similar to the following example.</strong> The <code>annote</code> portions contain the notes we added in the previous step.</p>
-    <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
+  
+    
+  
+    
+  
+  <section id="introduction" class="level2">
+  <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+  <p>An annotated bibliography is a compilation of sources related to a particular research topic, each accompanied by a brief evaluative commentary. Unlike a traditional bibliography that solely lists references, an annotated bibliography provides a concise summary of each source’s content, methodology, and relevance to the research project. It serves as a critical tool for graduate students and other researchers to assess the scholarly landscape, demonstrating their understanding of key literature and showcasing the ability to critically analyze and synthesize information.</p>
+  <p>This annotated compilation not only aids in constructing a robust theoretical framework but also helps researchers <strong>(1) identify gaps in existing literature</strong> and <strong>(2) determine the potential contributions of their own work</strong> within the academic discourse. For the purposes of this post, we will be creating a bibliography that has the full citation text followed by summary bullet points underneath which can be organized into sections or themes.</p>
+  <section id="why-use-zotero-and-quarto" class="level3">
+  <h3 class="anchored" data-anchor-id="why-use-zotero-and-quarto">Why use Zotero and Quarto?</h3>
+  <p><a href="https://www.zotero.org/">Zotero</a> is a free, open-source reference management software designed to help researchers collect, organize, cite, and share bibliographic information. <a href="https://quarto.org/">Quarto</a> is a free, open-source scientific and technical publishing system produced by Posit. These two programs can be combined to create books, scientific articles, websites, presentations, and many other products.</p>
+  <p>I suggest using these options because they are <strong>free</strong>, <strong>natively integrated</strong>, and <strong>highly flexible</strong>. This process allows for great flexibility, like rendering into HTML, PDF, or Word formats independently or all at once. I prefer multi-format rendering so I can send them all out in a zipped folder and the recipient can choose whichever works best for them.</p>
+  <p>Perhaps the most important element of this workflow, at least in my opinion, is that all your summary notes are maintained in Zotero. This allows you to keep any citation notes organized in the reference management software and not spread out across versions of bibliographic documentation.</p>
+  </section>
+  <section id="what-are-potential-alternatives" class="level3">
+  <h3 class="anchored" data-anchor-id="what-are-potential-alternatives">What are potential alternatives?</h3>
+  <p>Zotero provides a reporting functionality in the desktop application by right-clicking an item, selection of items, or an entire collection, then selecting <em>“Generate Report From…”</em>. This option works well if you need to quickly output your citations and notes, but is limited to exporting in HTML or Rich Text formats.</p>
+  <p>Another alternative workflow might be to use <a href="https://obsidian.md/">Obsidian</a>, a freemium note-taking software that operates on Markdown files. This application integrates very well will Zotero as well, but my personal preference is Quarto in the RStudio environment. Consider following <a href="https://medium.com/@alexandraphelan/an-updated-academic-workflow-zotero-obsidian-cffef080addd">this tutorial</a> if you want to use Obsidian.</p>
+  </section>
+  </section>
+  <section id="workflow-in-zotero" class="level2">
+  <h2 class="anchored" data-anchor-id="workflow-in-zotero">Workflow in Zotero</h2>
+  <section id="add-citations-and-notes" class="level3">
+  <h3 class="anchored" data-anchor-id="add-citations-and-notes">Add Citations and Notes</h3>
+  <p>The first step, which you may be at already, is to get literature into your Zotero library. There are a variety of ways to accomplish this, but I prefer using either the <em>Add Item by Identifier</em> tool or the web extension to automatically load documents into their respective libraries, collections, or sub-collections.</p>
+  <p>Once you have your literature in Zotero you can review each article as you normally would. While doing so, add in notes and annotations that summarize the main findings, key terms, important methods, and so forth. An important note about this workflow is that each comment or annotation made on an article must be stored as an individual note item. Each of these will eventually become a bullet point in our final bibliography. Your Zotero should look similar to the below screenshot.</p>
+  <div class="quarto-figure quarto-figure-center">
+  <figure class="figure">
+  <p><a href="img-zotero-item.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-zotero-item.png" class="img-fluid figure-img" alt="Example of a Zotero library item to include in our bibliography with each comment as an individual note item."></a></p>
+  <figcaption>Example of a Zotero library item to include in our bibliography with each comment as an individual note item.</figcaption>
+  </figure>
+  </div>
+  </section>
+  <section id="export-items-as-bibtex" class="level3">
+  <h3 class="anchored" data-anchor-id="export-items-as-bibtex">Export Item(s) as BibTeX</h3>
+  <p>Once you have all your literature added to Zotero and any annotations you need to make based on your review of each article, it is now time to export this information. Just like with the reports, exporting can occur at the level of each item, selection of items, or entire collections. I have found it easiest to make sub-collections for major themes or sections.</p>
+  <p>In this step, we are simply exporting the information from Zotero into a portable BibTeX file with the <code>.bib</code> extension. Other similar extension types may work, but I have only tested the standard format. To export, you need to (1) right-click the item of interest, (2) select <em>“Export…”</em>, (3) ensure that the <code>Format: BibTeX</code> and the <code>Export Notes</code> options are selected, and (4) specify an accessible location to store this file. This should save a .bib file to this location containing all pertinent information and notes on the citation(s) of interest.</p>
+  <p>If you open up the <code>.bib</code> file you just exported, <strong>each included article should look similar to the following example.</strong> The <code>annote</code> portions contain the notes we added in the previous step.</p>
+  <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
 background-color: null;
@@ -1123,16 +1129,16 @@ font-style: inherit;">annote</span> = {“help us to adapt to climate change and
 background-color: null;
 font-style: inherit;">annote</span> = {Predicting and assessing phenological responses can be difficult due to issues associated with spatial scale and physiological response differences across taxa.</span>
 <span id="cb1-22">}</span></code></pre></div>
-    <p><strong>Important Note -</strong> If you update any metadata about the citation (e.g., authors, abstract, etc.) or add/edit item notes you will need to re-export a .bib file to see these updates carried throughout this workflow. That is unless you use the <a href="https://github.com/retorquere/zotero-better-bibtex">Better BibTeX for Zotero Extension</a>, which can automatically re-export the collection to a .bib file.</p>
-    </section>
-    </section>
-    <section id="workflow-in-quarto" class="level2">
-    <h2 class="anchored" data-anchor-id="workflow-in-quarto">Workflow in Quarto</h2>
-    <p>These next steps will all be carried out using Quarto within RStudio. At the time of this post, I am using this workflow with <code>R version 4.3.2</code>, <code>Quarto version 1.4.510</code>, and <code>RStudio version 2023.09.1</code> without issues. Some of these steps may need to be adapted based on your working versions and system configuration. This post assumes you have successfully installed Quarto on your machine and are comfortable with markdown document creation using this program.</p>
-    <section id="setup-yaml-header" class="level3">
-    <h3 class="anchored" data-anchor-id="setup-yaml-header">Setup YAML Header</h3>
-    <p>When starting a new Quarto document, often one of the first steps is setting up your YAML header. This initial bit of code is bordered by <code>---</code> on the top and bottom, and contains the necessary elements that tells Quarto how to generate the document.</p>
-    <div class="sourceCode" id="annotated-cell-2" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-2-1"><span class="sc" style="color: #5E5E5E;
+  <p><strong>Important Note -</strong> If you update any metadata about the citation (e.g., authors, abstract, etc.) or add/edit item notes you will need to re-export a .bib file to see these updates carried throughout this workflow. That is unless you use the <a href="https://github.com/retorquere/zotero-better-bibtex">Better BibTeX for Zotero Extension</a>, which can automatically re-export the collection to a .bib file.</p>
+  </section>
+  </section>
+  <section id="workflow-in-quarto" class="level2">
+  <h2 class="anchored" data-anchor-id="workflow-in-quarto">Workflow in Quarto</h2>
+  <p>These next steps will all be carried out using Quarto within RStudio. At the time of this post, I am using this workflow with <code>R version 4.3.2</code>, <code>Quarto version 1.4.510</code>, and <code>RStudio version 2023.09.1</code> without issues. Some of these steps may need to be adapted based on your working versions and system configuration. This post assumes you have successfully installed Quarto on your machine and are comfortable with markdown document creation using this program.</p>
+  <section id="setup-yaml-header" class="level3">
+  <h3 class="anchored" data-anchor-id="setup-yaml-header">Setup YAML Header</h3>
+  <p>When starting a new Quarto document, often one of the first steps is setting up your YAML header. This initial bit of code is bordered by <code>---</code> on the top and bottom, and contains the necessary elements that tells Quarto how to generate the document.</p>
+  <div class="sourceCode" id="annotated-cell-2" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-2-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">---</span></span>
 <a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-2-2" class="code-annotation-target">title<span class="sc" style="color: #5E5E5E;
@@ -1187,37 +1193,37 @@ font-style: inherit;">:</span> asis</span>
 <span id="annotated-cell-2-15"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">---</span></span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
-    <dl class="code-annotation-container-grid">
-    <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
-    <dd>
-    <span data-code-cell="annotated-cell-2" data-code-lines="2,3" data-code-annotation="1">Set the title and title banner formatting for the document.</span>
-    </dd>
-    <dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
-    <dd>
-    <span data-code-cell="annotated-cell-2" data-code-lines="4,5,6,7" data-code-annotation="2">Specify which output formats to render, including any options (defaults used in this example).</span>
-    </dd>
-    <dt data-target-cell="annotated-cell-2" data-target-annotation="3">3</dt>
-    <dd>
-    <span data-code-cell="annotated-cell-2" data-code-lines="8" data-code-annotation="3">Specify the BibTeX file to reference. This will be the one we just exported from Zotero with our notes.</span>
-    </dd>
-    <dt data-target-cell="annotated-cell-2" data-target-annotation="4">4</dt>
-    <dd>
-    <span data-code-cell="annotated-cell-2" data-code-lines="9" data-code-annotation="4">Tell Quarto whether to link each in-text citation to the full bibliography at the bottom.</span>
-    </dd>
-    <dt data-target-cell="annotated-cell-2" data-target-annotation="5">5</dt>
-    <dd>
-    <span data-code-cell="annotated-cell-2" data-code-lines="10" data-code-annotation="5">Important step! - Specify what CSL (Citation Style Language) to use for the bibliography. This example uses the APA-CV style because it formats the full citation text for both the in-text and references section. This style and many others can be downloaded from the <a href="https://www.zotero.org/styles">Zotero Style Repository</a>.</span>
-    </dd>
-    <dt data-target-cell="annotated-cell-2" data-target-annotation="6">6</dt>
-    <dd>
-    <span data-code-cell="annotated-cell-2" data-code-lines="11,12,13,14" data-code-annotation="6">Set the document-wide execution options for the code chunks. Here we suppress both the code and warning messages. Specifying <code>output: asis</code> allows for the bullet points to be rendered as raw markdown.</span>
-    </dd>
-    </dl>
-    </section>
-    <section id="load-packages" class="level3">
-    <h3 class="anchored" data-anchor-id="load-packages">Load Packages</h3>
-    <p>There are only two packages needed to perform the required steps. The first is the <code>bib2df</code> <a href="https://github.com/ropensci/bib2df">package</a>, which is a BibTeX parser that turns .bib files into easy-to-read tibbles. The second is the <code>dplyr</code> package within the tidyverse, which allows us to wrangle, filter, and select data from our parsed dataframe. <strong>Install these packages as necessary from CRAN, then load them into your environment.</strong></p>
-    <div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+  <dl class="code-annotation-container-grid">
+  <dt data-target-cell="annotated-cell-2" data-target-annotation="1">1</dt>
+  <dd>
+  <span data-code-cell="annotated-cell-2" data-code-lines="2,3" data-code-annotation="1">Set the title and title banner formatting for the document.</span>
+  </dd>
+  <dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
+  <dd>
+  <span data-code-cell="annotated-cell-2" data-code-lines="4,5,6,7" data-code-annotation="2">Specify which output formats to render, including any options (defaults used in this example).</span>
+  </dd>
+  <dt data-target-cell="annotated-cell-2" data-target-annotation="3">3</dt>
+  <dd>
+  <span data-code-cell="annotated-cell-2" data-code-lines="8" data-code-annotation="3">Specify the BibTeX file to reference. This will be the one we just exported from Zotero with our notes.</span>
+  </dd>
+  <dt data-target-cell="annotated-cell-2" data-target-annotation="4">4</dt>
+  <dd>
+  <span data-code-cell="annotated-cell-2" data-code-lines="9" data-code-annotation="4">Tell Quarto whether to link each in-text citation to the full bibliography at the bottom.</span>
+  </dd>
+  <dt data-target-cell="annotated-cell-2" data-target-annotation="5">5</dt>
+  <dd>
+  <span data-code-cell="annotated-cell-2" data-code-lines="10" data-code-annotation="5">Important step! - Specify what CSL (Citation Style Language) to use for the bibliography. This example uses the APA-CV style because it formats the full citation text for both the in-text and references section. This style and many others can be downloaded from the <a href="https://www.zotero.org/styles">Zotero Style Repository</a>.</span>
+  </dd>
+  <dt data-target-cell="annotated-cell-2" data-target-annotation="6">6</dt>
+  <dd>
+  <span data-code-cell="annotated-cell-2" data-code-lines="11,12,13,14" data-code-annotation="6">Set the document-wide execution options for the code chunks. Here we suppress both the code and warning messages. Specifying <code>output: asis</code> allows for the bullet points to be rendered as raw markdown.</span>
+  </dd>
+  </dl>
+  </section>
+  <section id="load-packages" class="level3">
+  <h3 class="anchored" data-anchor-id="load-packages">Load Packages</h3>
+  <p>There are only two packages needed to perform the required steps. The first is the <code>bib2df</code> <a href="https://github.com/ropensci/bib2df">package</a>, which is a BibTeX parser that turns .bib files into easy-to-read tibbles. The second is the <code>dplyr</code> package within the tidyverse, which allows us to wrangle, filter, and select data from our parsed dataframe. <strong>Install these packages as necessary from CRAN, then load them into your environment.</strong></p>
+  <div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Load these required packages</span></span>
 <span id="cb2-2"><span class="fu" style="color: #4758AB;
@@ -1230,21 +1236,21 @@ background-color: null;
 font-style: inherit;">library</span>(bib2df)    <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># --- for .bib parsing</span></span></code></pre></div>
-    </section>
-    <section id="specifying-literature-to-cite" class="level3">
-    <h3 class="anchored" data-anchor-id="specifying-literature-to-cite">Specifying Literature to Cite</h3>
-    <p>Quarto is very similar to many other markdown formats, including RMarkdown, such that you can add in-text citations based on their citation keys. Zotero will generate these automatically when exporting the .bib file, but can sometimes lead to issues if they change with successive exports. To resolve this, a good option is to use the <a href="https://github.com/retorquere/zotero-better-bibtex">Better BibTeX for Zotero Extension</a> which makes it easier to manage your citation keys.</p>
-    <p>The following code provides an example of how to insert a citation into your Quarto document. Traditionally, this is how an in-text citation would be placed at that location, but since we specified our CSL as the APA-CV style it will render the entire citation instead. The <code>morisette_tracking_2009</code> portion is the citation key and will be referenced in the next part as well.</p>
-    <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="sc" style="color: #5E5E5E;
+  </section>
+  <section id="specifying-literature-to-cite" class="level3">
+  <h3 class="anchored" data-anchor-id="specifying-literature-to-cite">Specifying Literature to Cite</h3>
+  <p>Quarto is very similar to many other markdown formats, including RMarkdown, such that you can add in-text citations based on their citation keys. Zotero will generate these automatically when exporting the .bib file, but can sometimes lead to issues if they change with successive exports. To resolve this, a good option is to use the <a href="https://github.com/retorquere/zotero-better-bibtex">Better BibTeX for Zotero Extension</a> which makes it easier to manage your citation keys.</p>
+  <p>The following code provides an example of how to insert a citation into your Quarto document. Traditionally, this is how an in-text citation would be placed at that location, but since we specified our CSL as the APA-CV style it will render the entire citation instead. The <code>morisette_tracking_2009</code> portion is the citation key and will be referenced in the next part as well.</p>
+  <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">@</span>morisette_tracking_2009</span></code></pre></div>
-    <p>After you insert the proper citation, the next part is a chunk of executable R code. This is the meat and potatoes of the whole operation.</p>
-    <div class="tabset-margin-container"></div><div class="panel-tabset">
-    <ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">Option 1</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">Option 2</a></li></ul>
-    <div class="tab-content">
-    <div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
-    <p>This chunk will need to be copy-pasted after each citation key you want to use. Then you will need to copy the citation key and paste it into whichever chunk follows it.</p>
-    <div class="sourceCode" id="annotated-cell-5" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-5-1" class="code-annotation-target">df <span class="ot" style="color: #003B4F;
+  <p>After you insert the proper citation, the next part is a chunk of executable R code. This is the meat and potatoes of the whole operation.</p>
+  <div class="tabset-margin-container"></div><div class="panel-tabset">
+  <ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">Option 1</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">Option 2</a></li></ul>
+  <div class="tab-content">
+  <div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+  <p>This chunk will need to be copy-pasted after each citation key you want to use. Then you will need to copy the citation key and paste it into whichever chunk follows it.</p>
+  <div class="sourceCode" id="annotated-cell-5" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-5" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-5-1" class="code-annotation-target">df <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> bib2df<span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -1312,28 +1318,28 @@ font-style: inherit;">"</span>)</span>
 <span id="annotated-cell-5-8"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">cat</span>(list)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code></pre></div>
-    <dl class="code-annotation-container-grid">
-    <dt data-target-cell="annotated-cell-5" data-target-annotation="1">1</dt>
-    <dd>
-    <span data-code-cell="annotated-cell-5" data-code-lines="1" data-code-annotation="1">Using the <code>bib2df</code> function, parse the .bib file specified in the YAML into a dataframe. The <code>rmarkdown::metadata$bibliography</code> does not need to be changed between citation code chunks.</span>
-    </dd>
-    <dt data-target-cell="annotated-cell-5" data-target-annotation="2">2</dt>
-    <dd>
-    <span data-code-cell="annotated-cell-5" data-code-lines="2" data-code-annotation="2">Filter this new dataframe for the citation of interest as specified by its citation key. This is the only portion of the code chunk that will need to be changed between citations to update the citation key text in the parentheses.</span>
-    </dd>
-    <dt data-target-cell="annotated-cell-5" data-target-annotation="3">3</dt>
-    <dd>
-    <span data-code-cell="annotated-cell-5" data-code-lines="3,4,5" data-code-annotation="3">Select only the fields for our annotations, which are parsed as “ANNOTE”. Then collect a vector of these character strings.</span>
-    </dd>
-    <dt data-target-cell="annotated-cell-5" data-target-annotation="4">4</dt>
-    <dd>
-    <span data-code-cell="annotated-cell-5" data-code-lines="7,8" data-code-annotation="4">To create the bullet list, this part adds a “-” before and a linebreak after each note. Then we concatenate and print our notes, which output as an un-ordered list as raw markdown to be rendered.</span>
-    </dd>
-    </dl>
-    </div>
-    <div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
-    <p>This chunk is strictly optional, but makes the process a little less cluttered. Here, we create a function to pull the notes associated with that specific key. Place this chunk at the beginning of the document, then you can just call the <code>pull_notes</code> function instead of repeating the whole chunk each time.</p>
-    <div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">pull_notes <span class="ot" style="color: #003B4F;
+  <dl class="code-annotation-container-grid">
+  <dt data-target-cell="annotated-cell-5" data-target-annotation="1">1</dt>
+  <dd>
+  <span data-code-cell="annotated-cell-5" data-code-lines="1" data-code-annotation="1">Using the <code>bib2df</code> function, parse the .bib file specified in the YAML into a dataframe. The <code>rmarkdown::metadata$bibliography</code> does not need to be changed between citation code chunks.</span>
+  </dd>
+  <dt data-target-cell="annotated-cell-5" data-target-annotation="2">2</dt>
+  <dd>
+  <span data-code-cell="annotated-cell-5" data-code-lines="2" data-code-annotation="2">Filter this new dataframe for the citation of interest as specified by its citation key. This is the only portion of the code chunk that will need to be changed between citations to update the citation key text in the parentheses.</span>
+  </dd>
+  <dt data-target-cell="annotated-cell-5" data-target-annotation="3">3</dt>
+  <dd>
+  <span data-code-cell="annotated-cell-5" data-code-lines="3,4,5" data-code-annotation="3">Select only the fields for our annotations, which are parsed as “ANNOTE”. Then collect a vector of these character strings.</span>
+  </dd>
+  <dt data-target-cell="annotated-cell-5" data-target-annotation="4">4</dt>
+  <dd>
+  <span data-code-cell="annotated-cell-5" data-code-lines="7,8" data-code-annotation="4">To create the bullet list, this part adds a “-” before and a linebreak after each note. Then we concatenate and print our notes, which output as an un-ordered list as raw markdown to be rendered.</span>
+  </dd>
+  </dl>
+  </div>
+  <div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+  <p>This chunk is strictly optional, but makes the process a little less cluttered. Here, we create a function to pull the notes associated with that specific key. Place this chunk at the beginning of the document, then you can just call the <code>pull_notes</code> function instead of repeating the whole chunk each time.</p>
+  <div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">pull_notes <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
@@ -1405,27 +1411,27 @@ font-style: inherit;">"</span>)                         </span>
 background-color: null;
 font-style: inherit;">cat</span>(list)                                                        </span>
 <span id="cb4-10">}</span></code></pre></div>
-    <p>So after each citation key, you can just paste the following to run the function:</p>
-    <div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+  <p>So after each citation key, you can just paste the following to run the function:</p>
+  <div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">pull_notes</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">key =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"morisette_tracking_2009"</span>)</span></code></pre></div>
-    </div>
-    </div>
-    </div>
-    </section>
-    <section id="sidenote-for-better-bibtex" class="level3">
-    <h3 class="anchored" data-anchor-id="sidenote-for-better-bibtex">Sidenote for <em>Better BibTeX</em></h3>
-    <p>For anyone using the Better BibTeX extension, the structure of the exported <code>.bib</code> file varies slightly from the one exemplified above. If you exported an item or collection from Zotero with the Format: <code>Better BibTeX</code> option set the annotations will not be individually separated. Instead, they will appear in the same field. But no worries, we have an alternative solutions for this.</p>
-    <div class="tabset-margin-container"></div><div class="panel-tabset">
-    <ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" aria-controls="tabset-2-1" aria-selected="true">BibTeX Example</a></li><li class="nav-item"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" aria-controls="tabset-2-2" aria-selected="false">Code Example</a></li></ul>
-    <div class="tab-content">
-    <div id="tabset-2-1" class="tab-pane active" aria-labelledby="tabset-2-1-tab">
-    <p>Here is an example .bib file when exporting using the BetterBibTeX format. See how all of our annotations are combined into a single “note” field and that they are separated by a <code>\par</code>? That is the main difference than the previous <code>.bib</code> file we looked at.</p>
-    <div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb6-1"><span class="va" style="color: #111111;
+  </div>
+  </div>
+  </div>
+  </section>
+  <section id="sidenote-for-better-bibtex" class="level3">
+  <h3 class="anchored" data-anchor-id="sidenote-for-better-bibtex">Sidenote for <em>Better BibTeX</em></h3>
+  <p>For anyone using the Better BibTeX extension, the structure of the exported <code>.bib</code> file varies slightly from the one exemplified above. If you exported an item or collection from Zotero with the Format: <code>Better BibTeX</code> option set the annotations will not be individually separated. Instead, they will appear in the same field. But no worries, we have an alternative solutions for this.</p>
+  <div class="tabset-margin-container"></div><div class="panel-tabset">
+  <ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" aria-controls="tabset-2-1" aria-selected="true">BibTeX Example</a></li><li class="nav-item"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" aria-controls="tabset-2-2" aria-selected="false">Code Example</a></li></ul>
+  <div class="tab-content">
+  <div id="tabset-2-1" class="tab-pane active" aria-labelledby="tabset-2-1-tab">
+  <p>Here is an example .bib file when exporting using the BetterBibTeX format. See how all of our annotations are combined into a single “note” field and that they are separated by a <code>\par</code>? That is the main difference than the previous <code>.bib</code> file we looked at.</p>
+  <div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb6-1"><span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">@article</span>{<span class="ot" style="color: #003B4F;
 background-color: null;
@@ -1493,10 +1499,10 @@ font-style: inherit;">\par</span></span>
 background-color: null;
 font-style: inherit;">file</span> = {Morisette et al. - 2009 - Tracking the rhythm of the seasons in the face of .pdf}</span>
 <span id="cb6-22">}</span></code></pre></div>
-    </div>
-    <div id="tabset-2-2" class="tab-pane" aria-labelledby="tabset-2-2-tab">
-    <p>To handle this difference, we can use the <code>ReadBib</code> function in the <code>RefManageR</code> package instead of <code>bib2df</code>.</p>
-    <div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="fu" style="color: #4758AB;
+  </div>
+  <div id="tabset-2-2" class="tab-pane" aria-labelledby="tabset-2-2-tab">
+  <p>To handle this difference, we can use the <code>ReadBib</code> function in the <code>RefManageR</code> package instead of <code>bib2df</code>.</p>
+  <div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(tidyverse) <span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -1595,28 +1601,28 @@ background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"</span>))</span></code></pre></div>
-    </div>
-    </div>
-    </div>
-    </section>
-    <section id="render-into-preferred-format" class="level3">
-    <h3 class="anchored" data-anchor-id="render-into-preferred-format">Render into Preferred Format</h3>
-    <p>The final, and often most nerve-racking, step is to <code>render</code> our .qmd document. As I mentioned earlier, there are several formats we can use (e.g., .pdf, .docx). I tend to render into HTML initially, then troubleshoot Pandoc conversion issues with other formats once I know it compiles.</p>
-    <p>If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs. For this example, I have placed a single citation and its summary notes under a heading titled “Ecological Phenology”, which could be a broad theme or a way to structure your thesis sections. A comprehensive bibliography will be printed at the end of the document showing all citations from the citation keys referenced throughout.</p>
-    <div class="tabset-margin-container"></div><div class="panel-tabset">
-    <ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" aria-controls="tabset-3-1" aria-selected="true">HTML</a></li><li class="nav-item"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" aria-controls="tabset-3-2" aria-selected="false">PDF</a></li><li class="nav-item"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" aria-controls="tabset-3-3" aria-selected="false">DOCX</a></li><li class="nav-item"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" aria-controls="tabset-3-4" aria-selected="false">Source</a></li></ul>
-    <div class="tab-content">
-    <div id="tabset-3-1" class="tab-pane active" aria-labelledby="tabset-3-1-tab">
-    <p><a href="img-example-html.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-html.png" class="img-fluid"></a></p>
-    </div>
-    <div id="tabset-3-2" class="tab-pane" aria-labelledby="tabset-3-2-tab">
-    <p><a href="img-example-pdf.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-pdf.png" class="img-fluid"></a></p>
-    </div>
-    <div id="tabset-3-3" class="tab-pane" aria-labelledby="tabset-3-3-tab">
-    <p><a href="img-example-word.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-word.png" class="img-fluid"></a></p>
-    </div>
-    <div id="tabset-3-4" class="tab-pane" aria-labelledby="tabset-3-4-tab">
-    <div class="sourceCode" id="annotated-cell-10" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy"><code class="sourceCode r"><span id="annotated-cell-10-1"><span class="sc" style="color: #5E5E5E;
+  </div>
+  </div>
+  </div>
+  </section>
+  <section id="render-into-preferred-format" class="level3">
+  <h3 class="anchored" data-anchor-id="render-into-preferred-format">Render into Preferred Format</h3>
+  <p>The final, and often most nerve-racking, step is to <code>render</code> our .qmd document. As I mentioned earlier, there are several formats we can use (e.g., .pdf, .docx). I tend to render into HTML initially, then troubleshoot Pandoc conversion issues with other formats once I know it compiles.</p>
+  <p>If everything goes as planned, you should end up with a document looking similar to the below examples. Styles will depend on your configuration and can be adjusted to fit your needs. For this example, I have placed a single citation and its summary notes under a heading titled “Ecological Phenology”, which could be a broad theme or a way to structure your thesis sections. A comprehensive bibliography will be printed at the end of the document showing all citations from the citation keys referenced throughout.</p>
+  <div class="tabset-margin-container"></div><div class="panel-tabset">
+  <ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" aria-controls="tabset-3-1" aria-selected="true">HTML</a></li><li class="nav-item"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" aria-controls="tabset-3-2" aria-selected="false">PDF</a></li><li class="nav-item"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" aria-controls="tabset-3-3" aria-selected="false">DOCX</a></li><li class="nav-item"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" aria-controls="tabset-3-4" aria-selected="false">Source</a></li></ul>
+  <div class="tab-content">
+  <div id="tabset-3-1" class="tab-pane active" aria-labelledby="tabset-3-1-tab">
+  <p><a href="img-example-html.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-html.png" class="img-fluid"></a></p>
+  </div>
+  <div id="tabset-3-2" class="tab-pane" aria-labelledby="tabset-3-2-tab">
+  <p><a href="img-example-pdf.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-pdf.png" class="img-fluid"></a></p>
+  </div>
+  <div id="tabset-3-3" class="tab-pane" aria-labelledby="tabset-3-3-tab">
+  <p><a href="img-example-word.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://btjepkes.github.io/posts/building-annotated-bibliographies-with-quarto/img-example-word.png" class="img-fluid"></a></p>
+  </div>
+  <div id="tabset-3-4" class="tab-pane" aria-labelledby="tabset-3-4-tab">
+  <div class="sourceCode" id="annotated-cell-10" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy"><code class="sourceCode r"><span id="annotated-cell-10-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">---</span></span>
 <span id="annotated-cell-10-2">title<span class="sc" style="color: #5E5E5E;
@@ -1727,20 +1733,20 @@ font-style: inherit;">#refs}</span></span>
 <span id="annotated-cell-10-35"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">:::</span></span></code></pre></div>
-    </div>
-    </div>
-    </div>
-    <p>You can see that each of the notes we exported from Zotero are now their own bullet point under their respective citation. One potential alteration to this would be to concatenate all the notes into a single paragraph or to make the un-ordered list into an ordered one. The annotations in the .bib file are parsed in the order they appear in Zotero which is alphabetical by default. Feel free to mess around will the different formats and styles to create a final product that meets your needs.</p>
-    </section>
-    </section>
-    <section id="final-thoughts" class="level2">
-    <h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
-    <p>This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined.</p>
-    <p>If you are interested in other cool ways to handle citations and bibliographies in Quarto, I highly suggest checking out the website of <a href="https://www.andrewheiss.com/blog/index.html#category=citations">Andrew Heiss</a>. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
-    
-    
-    
-    </section>
+  </div>
+  </div>
+  </div>
+  <p>You can see that each of the notes we exported from Zotero are now their own bullet point under their respective citation. One potential alteration to this would be to concatenate all the notes into a single paragraph or to make the un-ordered list into an ordered one. The annotations in the .bib file are parsed in the order they appear in Zotero which is alphabetical by default. Feel free to mess around will the different formats and styles to create a final product that meets your needs.</p>
+  </section>
+  </section>
+  <section id="final-thoughts" class="level2">
+  <h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
+  <p>This process has worked exceptionally well for me so far in my academic journey. I am a huge proponent of open-source programs, like Quarto, that help make research and technical publishing more streamlined.</p>
+  <p>If you are interested in other cool ways to handle citations and bibliographies in Quarto, I highly suggest checking out the website of <a href="https://www.andrewheiss.com/blog/index.html#category=citations">Andrew Heiss</a>. If others have suggestions on improving this workflow or techniques of handling this sort of literature review another way, I would love to hear more about it. <strong>Happy citing!</strong></p>
+  
+  
+  
+  </section>
 <!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-6">
         <div class="card card-alt-2">

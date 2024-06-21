@@ -104,7 +104,8 @@
 <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-  <nav class="navbar navbar-dark px-2" aria-label="Dark offcanvas navbar"><div class="container-fluid">
+
+  <nav class="navbar navbar-light bg-light" aria-label="Dark offcanvas navbar"><div class="container-fluid">
       <a class="navbar-brand" href="../../">
       <img src="../../assets/forest-svgrepo-com.svg" alt="" width="30" height="30" class="navbar-logo d-inline-block align-text-top">
       Benjamin W. Tjepkes
@@ -112,9 +113,10 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
-        <div class="offcanvas-header bg-warning">
-          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
+      
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+        <div class="offcanvas-header bg-success">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -131,26 +133,29 @@
             <li class="nav-item">
               <a class="nav-link" href="../../research">Research</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="../../resources">Resources</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
               <ul class="dropdown-menu">
-<li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
                   <hr class="dropdown-divider">
-</li>
+                </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-</li>
+            </li> -->
           </ul>
 </div>
       </div>
-    </div>
+    </div>  
   </nav><div id="quarto-search-results"></div>
     <!-- content -->
-    <header id="title-block-header" class="container-fluid bg-light page-columns page-full" style="--bs-gutter-x: 0;"><div id="title-block-header-outer" class="py-0 px-0 page-columns page-full">
+    <header id="title-block-header" class="container-fluid page-columns page-full" style="--bs-gutter-x: 0;"><div id="title-block-header-outer" class="py-0 px-0 page-columns page-full">
       <div id="title-block-header-inner" class="quarto-title column-body py-4">
         <h1 class="title mb-3">Weekly Work Commitments Calendar</h1>
               </div>
@@ -159,26 +164,26 @@
     <!-- sidebar -->
     <!-- margin-sidebar -->
         <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-            <nav id="TOC" role="doc-toc" class="mt-4 mx-3 px-0 py-0 border bg-white rounded toc-active"><div class="abstract mt-0" style="">
+            <nav id="TOC" role="doc-toc" class="mt-4 mx-3 px-3 py-3 border bg-white rounded toc-active"><div class="abstract mt-0 shadow-none p-0" style="">
     <div class="abstract-title bg-success text-white text-center py-1 mb-3">What’s This About?</div>
       <div class="px-3">
       Visualizing my work hours for an exhausting 2021.
       </div>
     </div>
-            <h2 id="toc-title" class="mt-3 mb-3 bg-success text-white text-center py-2">On This Page:</h2>
+            <h2 id="toc-title" class="abstract-title mt-3 mb-3 bg-success text-white text-center py-1">On This Page:</h2>
         <ul>
 <li><a href="#tools-workflow" id="toc-tools-workflow" class="nav-link active" data-scroll-target="#tools-workflow">Tools &amp; Workflow</a></li>
         </ul></nav>
         </div>
     <!-- main -->
     <main class="content quarto-banner-title-block" id="quarto-document-content"><div class="quarto-figure quarto-figure-center">
-    <figure class="figure"><p><a href="img-calendar.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-calendar.jpeg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
-    <figcaption>Credit: Benjamin Tjepkes</figcaption></figure>
+  <figure class="figure"><p><a href="img-calendar.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-calendar.jpeg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+  <figcaption>Credit: Benjamin Tjepkes</figcaption></figure>
 </div>
-    <section id="tools-workflow" class="level2"><h2 class="anchored" data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
-    <p>The data for this visual were originally stored in an Excel spreadsheet that was then brought into the R environment via RStudio. Below is the entire script used for this visualization. My base code (particularly the <code>get_calendar</code> function) was based on the work of <a href="https://tanyaviz.com/">Tanya Shapiro</a>. The entire script is available below.</p>
-    <div class="cell">
-    <details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># LOAD PACKAGES ====</span></span>
+  <section id="tools-workflow" class="level2"><h2 class="anchored" data-anchor-id="tools-workflow">Tools &amp; Workflow</h2>
+  <p>The data for this visual were originally stored in an Excel spreadsheet that was then brought into the R environment via RStudio. Below is the entire script used for this visualization. My base code (particularly the <code>get_calendar</code> function) was based on the work of <a href="https://tanyaviz.com/">Tanya Shapiro</a>. The entire script is available below.</p>
+  <div class="cell">
+  <details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># LOAD PACKAGES ====</span></span>
 <span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://readxl.tidyverse.org">readxl</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
@@ -329,14 +334,14 @@
 <span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggsave.html">ggsave</a></span><span class="op">(</span>filename <span class="op">=</span> <span class="st">"calendar2.jpeg"</span>,</span>
 <span>       plot <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/last_plot.html">last_plot</a></span><span class="op">(</span><span class="op">)</span>,</span>
 <span>       dpi <span class="op">=</span> <span class="st">"retina"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-    </details>
+  </details>
 </div>
-    
-    
-    <div class="hidden" aria-hidden="true">
-    <span class="glightbox-desc lightbox-desc-1">Credit: Benjamin Tjepkes</span>
-    </div>
-    </section><!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
+  
+  
+  <div class="hidden" aria-hidden="true">
+  <span class="glightbox-desc lightbox-desc-1">Credit: Benjamin Tjepkes</span>
+  </div>
+  </section><!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-6">
         <div class="card card-alt-2">
             <div class="card-header bg-white">
@@ -788,7 +793,7 @@
     </script><script src="https://giscus.app/client.js" data-repo="btjepkes/btjepkes.github.io" data-repo-id="R_kgDOJTu9rA" data-category="General" data-category-id="DIC_kwDOJTu9rM4CfHe9" data-mapping="title" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
     </script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","selector":".lightbox"});
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":false});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
@@ -813,7 +818,7 @@
 
     };
               </script><div class="container-flex">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 border-top bg-light"><div class="col-md-4 d-flex align-items-center">
+  <footer class="footer d-flex flex-wrap justify-content-between align-items-center p-3 border-top"><div class="col-md-4 d-flex align-items-center">
       <span class="mb-md-0 text-body-secondary">© Copyright 2021-2024 — Benjamin W. Tjepkes</span>
     </div>
 

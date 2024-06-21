@@ -117,7 +117,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark px-2" aria-label="Dark offcanvas navbar">
+
+  <nav class="navbar navbar-light bg-light" aria-label="Dark offcanvas navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="../">
       <img src="../assets/forest-svgrepo-com.svg" alt="" width="30" height="30" class="navbar-logo d-inline-block align-text-top">
@@ -126,9 +127,10 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
-        <div class="offcanvas-header bg-warning">
-          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
+      
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+        <div class="offcanvas-header bg-success">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -145,7 +147,10 @@
             <li class="nav-item">
               <a class="nav-link" href="../research">Research</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="../resources">Resources</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
@@ -157,15 +162,16 @@
                 </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
-    </div>
+    </div>  
   </nav>
+ 
     <div id="quarto-search-results"></div>
     <!-- content -->
-    <header id="title-block-header" class="container-fluid bg-light page-columns page-full" style="--bs-gutter-x: 0;">
+    <header id="title-block-header" class="container-fluid page-columns page-full" style="--bs-gutter-x: 0;">
     <div id="title-block-header-outer" class="py-0 px-0 page-columns page-full">
       <div id="title-block-header-inner" class="quarto-title column-body py-4">
         <h1 class="title mb-3">My Blog Posts</h1>
@@ -180,237 +186,240 @@
         <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Bibliography">Bibliography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Cartography">Cartography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Education">Education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="GIS">GIS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Nature">Nature <span class="quarto-category-count">(2)</span></div><div class="category" data-category="PowerPoint">PowerPoint <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RevealJS">RevealJS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Shorelines">Shorelines <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Text Mining">Text Mining <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Wildlife">Wildlife <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Word Cloud">Word Cloud <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mapping">mapping <span class="quarto-category-count">(1)</span></div></div></div>
     <!-- main -->
     <main class="content quarto-banner-title-block" id="quarto-document-content">
-      
-      <div id="listing-main-posts" class="quarto-listing quarto-listing-container-grid">
-      <div class="listing-actions-group">
-         <div class="input-group input-group-sm quarto-listing-sort">
-           <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-           <select id="listing-main-posts-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-main-posts'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-             <option value="" disabled="" selected="" hidden="">Order By</option>
-             <option value="index" data-direction="asc">Default</option>
-               <option value="listing-title" data-direction="asc">
-                Title
-              </option>
-               <option value="listing-date-sort" data-direction="asc">
-                Date - Oldest
-              </option>
-               <option value="listing-date-sort" data-direction="desc">
-                Date - Newest
-              </option>
-           </select>
-        </div>
-          <div class="input-group input-group-sm quarto-listing-filter">
-            <span class="input-group-text"><i class="bi bi-search"></i></span>
-            <input type="text" class="search form-control" placeholder="Filter">
-          </div>
-      </div>
-      <div class="list grid quarto-listing-cols-3">
-      <div class="g-col-1" data-index="0" data-categories="R,Text Mining,Word Cloud" data-listing-date-sort="1716267600000" data-listing-file-modified-sort="1717005331374" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="3" data-listing-word-count-sort="539">
-      <a href="../posts/text-mining-course-descriptions/index.html" class="quarto-grid-link">
-      <div class="quarto-grid-item card h-100 card-left">
-      <div class="card-body post-contents">
-      <h5 class="no-anchor card-title listing-title">
-      Mining Text From Course Descriptions
-      </h5>
-      <div class="card-text listing-description">
-      In this post, I describe a recent workflow that I ran on my college course descriptions to explore…
-      </div>
-      <div class="card-attribution card-text-small justify">
-      <div class="listing-author">
-      Benjamin Tjepkes
-      </div>
-      <div class="listing-date">
-      2024-05-21
-      </div>
-      </div>
-      </div>
-      </div>
-      </a>
-      </div>
-      <div class="g-col-1" data-index="1" data-categories="R,Quarto,PowerPoint,RevealJS" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1716502116484" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741">
-      <a href="../posts/converting-powerpoints-to-revealjs/index.html" class="quarto-grid-link">
-      <div class="quarto-grid-item card h-100 card-left">
-      <div class="card-body post-contents">
-      <h5 class="no-anchor card-title listing-title">
-      Converting PowerPoints to Reveal.js Format
-      </h5>
-      <div class="card-text listing-description">
-      In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs…
-      </div>
-      <div class="card-attribution card-text-small justify">
-      <div class="listing-author">
-      Benjamin Tjepkes
-      </div>
-      <div class="listing-date">
-      2024-04-29
-      </div>
-      </div>
-      </div>
-      </div>
-      </a>
-      </div>
-      <div class="g-col-1" data-index="2" data-listing-date-sort="1714194000000" data-listing-file-modified-sort="1716740448064" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="166">
-      <a href="../posts/crafting-a-technical-workshop-site-with-quarto/index.html" class="quarto-grid-link">
-      <div class="quarto-grid-item card h-100 card-left">
-      <div class="card-body post-contents">
-      <h5 class="no-anchor card-title listing-title">
-      Crafting a GIS Workshop Site With Quarto
-      </h5>
-      <div class="card-text listing-description">
-      This post provides an overview of a recent workshop site I made using Quarto and Github Pages…
-      </div>
-      <div class="card-attribution card-text-small justify">
-      <div class="listing-author">
-      Benjamin Tjepkes
-      </div>
-      <div class="listing-date">
-      2024-04-27
-      </div>
-      </div>
-      </div>
-      </div>
-      </a>
-      </div>
-      <div class="g-col-1" data-index="3" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1715394716224" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3944">
-      <a href="../posts/building-annotated-bibliographies-with-quarto/index.html" class="quarto-grid-link">
-      <div class="quarto-grid-item card h-100 card-left">
-      <div class="card-body post-contents">
-      <h5 class="no-anchor card-title listing-title">
-      Create Annotated Bibliographies with Quarto
-      </h5>
-      <div class="card-text listing-description">
-      In this post, I provide a semi-automated workflow for generating an annotated bibliography in…
-      </div>
-      <div class="card-attribution card-text-small justify">
-      <div class="listing-author">
-      Benjamin Tjepkes
-      </div>
-      <div class="listing-date">
-      2024-01-01
-      </div>
-      </div>
-      </div>
-      </div>
-      </a>
-      </div>
-      <div class="g-col-1" data-index="4" data-listing-date-sort="1704002400000" data-listing-file-modified-sort="1716341605508" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="5" data-listing-word-count-sort="955">
-      <a href="../posts/my-2023-highlights-reflections-and-recap/index.html" class="quarto-grid-link">
-      <div class="quarto-grid-item card h-100 card-left">
-      <div class="card-body post-contents">
-      <h5 class="no-anchor card-title listing-title">
-      My 2023 Highlights and Reflections
-      </h5>
-      <div class="card-text listing-description">
-      This post takes a quick run through the last year of my professional life, including some of my…
-      </div>
-      <div class="card-attribution card-text-small justify">
-      <div class="listing-author">
-      Benjamin Tjepkes
-      </div>
-      <div class="listing-date">
-      2023-12-31
-      </div>
-      </div>
-      </div>
-      </div>
-      </a>
-      </div>
-      <div class="g-col-1" data-index="5" data-categories="mapping,Cartography" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1717103720250" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
-      <a href="../posts/30-day-map-challenge-2023/index.html" class="quarto-grid-link">
-      <div class="quarto-grid-item card h-100 card-left">
-      <div class="card-body post-contents">
-      <h5 class="no-anchor card-title listing-title">
-      30DayMapChallenge - 2023 Contributions
-      </h5>
-      <div class="card-text listing-description">
-      This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily…
-      </div>
-      <div class="card-attribution card-text-small justify">
-      <div class="listing-author">
-      Benjamin Tjepkes
-      </div>
-      <div class="listing-date">
-      2023-11-01
-      </div>
-      </div>
-      </div>
-      </div>
-      </a>
-      </div>
-      <div class="g-col-1" data-index="6" data-categories="Wildlife,GIS" data-listing-date-sort="1679806800000" data-listing-file-modified-sort="1714320419055" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1075">
-      <a href="../posts/how-scientists-use-gis-to-study-wildlife/index.html" class="quarto-grid-link">
-      <div class="quarto-grid-item card h-100 card-left">
-      <div class="card-body post-contents">
-      <h5 class="no-anchor card-title listing-title">
-      How Scientists Use GIS to Study Wildlife
-      </h5>
-      <div class="card-text listing-description">
-      In this post, we explore the fascinating ways that geospatial technologies are being used in the…
-      </div>
-      <div class="card-attribution card-text-small justify">
-      <div class="listing-author">
-      Benjamin Tjepkes
-      </div>
-      <div class="listing-date">
-      2023-03-26
-      </div>
-      </div>
-      </div>
-      </div>
-      </a>
-      </div>
-      <div class="g-col-1" data-index="7" data-categories="Nature,Education" data-listing-date-sort="1666069200000" data-listing-file-modified-sort="1716556957198" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1632">
-      <a href="../posts/how-to-become-a-contemporary-naturalist/index.html" class="quarto-grid-link">
-      <div class="quarto-grid-item card h-100 card-left">
-      <div class="card-body post-contents">
-      <h5 class="no-anchor card-title listing-title">
-      How to Become a Contemporary Naturalist
-      </h5>
-      <div class="card-text listing-description">
-      This blog post outlines some simple and cost-effective ways to help you start your journey as a…
-      </div>
-      <div class="card-attribution card-text-small justify">
-      <div class="listing-author">
-      Benjamin Tjepkes
-      </div>
-      <div class="listing-date">
-      2022-10-18
-      </div>
-      </div>
-      </div>
-      </div>
-      </a>
-      </div>
-      <div class="g-col-1" data-index="8" data-categories="Nature,Education,Shorelines" data-listing-date-sort="1665896400000" data-listing-file-modified-sort="1717101533000" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1701">
-      <a href="../posts/can-you-naturally-protect-shores-from-erosion/index.html" class="quarto-grid-link">
-      <div class="quarto-grid-item card h-100 card-left">
-      <div class="card-body post-contents">
-      <h5 class="no-anchor card-title listing-title">
-      Naturally Protecting Shores From Erosion
-      </h5>
-      <div class="card-text listing-description">
-      In this blog post, we will explore the causes of shoreline erosion and discuss some effective ways…
-      </div>
-      <div class="card-attribution card-text-small justify">
-      <div class="listing-author">
-      Benjamin Tjepkes
-      </div>
-      <div class="listing-date">
-      2022-10-16
-      </div>
-      </div>
-      </div>
-      </div>
-      </a>
-      </div>
-      </div>
-      <div class="listing-no-matching d-none">
-      No matching items
-      </div>
-      </div>
-      
-      
-      
+  
+    
+  
+  
+  <div id="listing-main-posts" class="quarto-listing quarto-listing-container-grid">
+  <div class="listing-actions-group">
+     <div class="input-group input-group-sm quarto-listing-sort">
+       <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+       <select id="listing-main-posts-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-main-posts'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+         <option value="" disabled="" selected="" hidden="">Order By</option>
+         <option value="index" data-direction="asc">Default</option>
+           <option value="listing-title" data-direction="asc">
+            Title
+          </option>
+           <option value="listing-date-sort" data-direction="asc">
+            Date - Oldest
+          </option>
+           <option value="listing-date-sort" data-direction="desc">
+            Date - Newest
+          </option>
+       </select>
+    </div>
+      <div class="input-group input-group-sm quarto-listing-filter">
+        <span class="input-group-text"><i class="bi bi-search"></i></span>
+        <input type="text" class="search form-control" placeholder="Filter">
+      </div>
+  </div>
+  <div class="list grid quarto-listing-cols-3">
+  <div class="g-col-1" data-index="0" data-categories="R,Text Mining,Word Cloud" data-listing-date-sort="1716267600000" data-listing-file-modified-sort="1717005331374" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="3" data-listing-word-count-sort="539">
+  <a href="../posts/text-mining-course-descriptions/index.html" class="quarto-grid-link">
+  <div class="quarto-grid-item card h-100 card-left">
+  <div class="card-body post-contents">
+  <h5 class="no-anchor card-title listing-title">
+  Mining Text From Course Descriptions
+  </h5>
+  <div class="card-text listing-description">
+  In this post, I describe a recent workflow that I ran on my college course descriptions to explore…
+  </div>
+  <div class="card-attribution card-text-small justify">
+  <div class="listing-author">
+  Benjamin Tjepkes
+  </div>
+  <div class="listing-date">
+  2024-05-21
+  </div>
+  </div>
+  </div>
+  </div>
+  </a>
+  </div>
+  <div class="g-col-1" data-index="1" data-categories="R,Quarto,PowerPoint,RevealJS" data-listing-date-sort="1714366800000" data-listing-file-modified-sort="1716502116484" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741">
+  <a href="../posts/converting-powerpoints-to-revealjs/index.html" class="quarto-grid-link">
+  <div class="quarto-grid-item card h-100 card-left">
+  <div class="card-body post-contents">
+  <h5 class="no-anchor card-title listing-title">
+  Converting PowerPoints to Reveal.js Format
+  </h5>
+  <div class="card-text listing-description">
+  In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs…
+  </div>
+  <div class="card-attribution card-text-small justify">
+  <div class="listing-author">
+  Benjamin Tjepkes
+  </div>
+  <div class="listing-date">
+  2024-04-29
+  </div>
+  </div>
+  </div>
+  </div>
+  </a>
+  </div>
+  <div class="g-col-1" data-index="2" data-listing-date-sort="1714194000000" data-listing-file-modified-sort="1716740448064" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="166">
+  <a href="../posts/crafting-a-technical-workshop-site-with-quarto/index.html" class="quarto-grid-link">
+  <div class="quarto-grid-item card h-100 card-left">
+  <div class="card-body post-contents">
+  <h5 class="no-anchor card-title listing-title">
+  Crafting a GIS Workshop Site With Quarto
+  </h5>
+  <div class="card-text listing-description">
+  This post provides an overview of a recent workshop site I made using Quarto and Github Pages…
+  </div>
+  <div class="card-attribution card-text-small justify">
+  <div class="listing-author">
+  Benjamin Tjepkes
+  </div>
+  <div class="listing-date">
+  2024-04-27
+  </div>
+  </div>
+  </div>
+  </div>
+  </a>
+  </div>
+  <div class="g-col-1" data-index="3" data-categories="R,Bibliography" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1715394716224" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="20" data-listing-word-count-sort="3944">
+  <a href="../posts/building-annotated-bibliographies-with-quarto/index.html" class="quarto-grid-link">
+  <div class="quarto-grid-item card h-100 card-left">
+  <div class="card-body post-contents">
+  <h5 class="no-anchor card-title listing-title">
+  Create Annotated Bibliographies with Quarto
+  </h5>
+  <div class="card-text listing-description">
+  In this post, I provide a semi-automated workflow for generating an annotated bibliography in…
+  </div>
+  <div class="card-attribution card-text-small justify">
+  <div class="listing-author">
+  Benjamin Tjepkes
+  </div>
+  <div class="listing-date">
+  2024-01-01
+  </div>
+  </div>
+  </div>
+  </div>
+  </a>
+  </div>
+  <div class="g-col-1" data-index="4" data-listing-date-sort="1704002400000" data-listing-file-modified-sort="1716341605508" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="5" data-listing-word-count-sort="955">
+  <a href="../posts/my-2023-highlights-reflections-and-recap/index.html" class="quarto-grid-link">
+  <div class="quarto-grid-item card h-100 card-left">
+  <div class="card-body post-contents">
+  <h5 class="no-anchor card-title listing-title">
+  My 2023 Highlights and Reflections
+  </h5>
+  <div class="card-text listing-description">
+  This post takes a quick run through the last year of my professional life, including some of my…
+  </div>
+  <div class="card-attribution card-text-small justify">
+  <div class="listing-author">
+  Benjamin Tjepkes
+  </div>
+  <div class="listing-date">
+  2023-12-31
+  </div>
+  </div>
+  </div>
+  </div>
+  </a>
+  </div>
+  <div class="g-col-1" data-index="5" data-categories="mapping,Cartography" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1717103720250" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
+  <a href="../posts/30-day-map-challenge-2023/index.html" class="quarto-grid-link">
+  <div class="quarto-grid-item card h-100 card-left">
+  <div class="card-body post-contents">
+  <h5 class="no-anchor card-title listing-title">
+  30DayMapChallenge - 2023 Contributions
+  </h5>
+  <div class="card-text listing-description">
+  This post is a look back at all of my contributions to the 2023 #30 Day Map Challenge, a daily…
+  </div>
+  <div class="card-attribution card-text-small justify">
+  <div class="listing-author">
+  Benjamin Tjepkes
+  </div>
+  <div class="listing-date">
+  2023-11-01
+  </div>
+  </div>
+  </div>
+  </div>
+  </a>
+  </div>
+  <div class="g-col-1" data-index="6" data-categories="Wildlife,GIS" data-listing-date-sort="1679806800000" data-listing-file-modified-sort="1714320419055" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1075">
+  <a href="../posts/how-scientists-use-gis-to-study-wildlife/index.html" class="quarto-grid-link">
+  <div class="quarto-grid-item card h-100 card-left">
+  <div class="card-body post-contents">
+  <h5 class="no-anchor card-title listing-title">
+  How Scientists Use GIS to Study Wildlife
+  </h5>
+  <div class="card-text listing-description">
+  In this post, we explore the fascinating ways that geospatial technologies are being used in the…
+  </div>
+  <div class="card-attribution card-text-small justify">
+  <div class="listing-author">
+  Benjamin Tjepkes
+  </div>
+  <div class="listing-date">
+  2023-03-26
+  </div>
+  </div>
+  </div>
+  </div>
+  </a>
+  </div>
+  <div class="g-col-1" data-index="7" data-categories="Nature,Education" data-listing-date-sort="1666069200000" data-listing-file-modified-sort="1716556957198" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1632">
+  <a href="../posts/how-to-become-a-contemporary-naturalist/index.html" class="quarto-grid-link">
+  <div class="quarto-grid-item card h-100 card-left">
+  <div class="card-body post-contents">
+  <h5 class="no-anchor card-title listing-title">
+  How to Become a Contemporary Naturalist
+  </h5>
+  <div class="card-text listing-description">
+  This blog post outlines some simple and cost-effective ways to help you start your journey as a…
+  </div>
+  <div class="card-attribution card-text-small justify">
+  <div class="listing-author">
+  Benjamin Tjepkes
+  </div>
+  <div class="listing-date">
+  2022-10-18
+  </div>
+  </div>
+  </div>
+  </div>
+  </a>
+  </div>
+  <div class="g-col-1" data-index="8" data-categories="Nature,Education,Shorelines" data-listing-date-sort="1665896400000" data-listing-file-modified-sort="1717101533000" data-listing-date-modified-sort="1718946000000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1701">
+  <a href="../posts/can-you-naturally-protect-shores-from-erosion/index.html" class="quarto-grid-link">
+  <div class="quarto-grid-item card h-100 card-left">
+  <div class="card-body post-contents">
+  <h5 class="no-anchor card-title listing-title">
+  Naturally Protecting Shores From Erosion
+  </h5>
+  <div class="card-text listing-description">
+  In this blog post, we will explore the causes of shoreline erosion and discuss some effective ways…
+  </div>
+  <div class="card-attribution card-text-small justify">
+  <div class="listing-author">
+  Benjamin Tjepkes
+  </div>
+  <div class="listing-date">
+  2022-10-16
+  </div>
+  </div>
+  </div>
+  </div>
+  </a>
+  </div>
+  </div>
+  <div class="listing-no-matching d-none">
+  No matching items
+  </div>
+  </div>
+  
+  
+  
 <!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-6">
         <div class="card card-alt-2">
@@ -869,7 +878,7 @@
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
     <div class="container-flex">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 border-top bg-light">
+  <footer class="footer d-flex flex-wrap justify-content-between align-items-center p-3 border-top">
     
     <div class="col-md-4 d-flex align-items-center">
       <span class="mb-md-0 text-body-secondary">© Copyright 2021-2024 — Benjamin W. Tjepkes</span>

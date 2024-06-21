@@ -79,7 +79,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark px-2" aria-label="Dark offcanvas navbar">
+
+  <nav class="navbar navbar-light bg-light" aria-label="Dark offcanvas navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="../../">
       <img src="../../assets/forest-svgrepo-com.svg" alt="" width="30" height="30" class="navbar-logo d-inline-block align-text-top">
@@ -88,9 +89,10 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
-        <div class="offcanvas-header bg-warning">
-          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
+      
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+        <div class="offcanvas-header bg-success">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -107,7 +109,10 @@
             <li class="nav-item">
               <a class="nav-link" href="../../research">Research</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="../../resources">Resources</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
@@ -119,15 +124,16 @@
                 </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
-    </div>
+    </div>  
   </nav>
+ 
     <div id="quarto-search-results"></div>
     <!-- content -->
-    <header id="title-block-header" class="container-fluid bg-light page-columns page-full" style="--bs-gutter-x: 0;">
+    <header id="title-block-header" class="container-fluid page-columns page-full" style="--bs-gutter-x: 0;">
     <div id="title-block-header-outer" class="py-0 px-0 page-columns page-full">
       <div id="title-block-header-inner" class="quarto-title column-body py-4">
         <h1 class="title mb-3">National Champion Trees Map</h1>
@@ -141,19 +147,22 @@
         </div>
     <!-- main -->
     <main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
-      
-      <p>This map was created for <strong>Day 1</strong> of the 2023 #30DayMapChallenge. The prompt for the day was “Points”. I have been exploring these amazing specimens for awhile, so thought I would map them out for the challenge. The resulting map shows the general locations of all Champion trees across the United States. The county where each tree is found is filled in with a light green and the golden symbols are proportional to the registered circumference of each tree. Data were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro.</p>
-      <div class="quarto-figure quarto-figure-center page-columns page-full">
-      <figure class="figure page-columns page-full">
-      <p class="page-columns page-full"><a href="img-national-champion-trees.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Final map showing champion trees across the United States."><img src="img-national-champion-trees.png" class="column-body-outset img-fluid figure-img" alt="Final map showing champion trees across the United States."></a></p>
-      <figcaption>Final map showing champion trees across the United States.</figcaption>
-      </figure>
-      </div>
-      
-      
-      <div class="hidden" aria-hidden="true">
-      <span class="glightbox-desc lightbox-desc-1">Final map showing champion trees across the United States.</span>
-      </div>
+  
+    
+  
+  
+  <p>This map was created for <strong>Day 1</strong> of the 2023 #30DayMapChallenge. The prompt for the day was “Points”. I have been exploring these amazing specimens for awhile, so thought I would map them out for the challenge. The resulting map shows the general locations of all Champion trees across the United States. The county where each tree is found is filled in with a light green and the golden symbols are proportional to the registered circumference of each tree. Data were parsed from the American Forest website for champion title holders up to 2021. Tabular data were then brought into RStudio to be joined with a county-based spatial file. Final visualization was completed with ArcGIS Pro.</p>
+  <div class="quarto-figure quarto-figure-center page-columns page-full">
+  <figure class="figure page-columns page-full">
+  <p class="page-columns page-full"><a href="img-national-champion-trees.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Final map showing champion trees across the United States."><img src="img-national-champion-trees.png" class="column-body-outset img-fluid figure-img" alt="Final map showing champion trees across the United States."></a></p>
+  <figcaption>Final map showing champion trees across the United States.</figcaption>
+  </figure>
+  </div>
+  
+  
+  <div class="hidden" aria-hidden="true">
+  <span class="glightbox-desc lightbox-desc-1">Final map showing champion trees across the United States.</span>
+  </div>
 <!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-6">
         <div class="card card-alt-2">
@@ -611,7 +620,7 @@
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","loop":false});
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
@@ -637,7 +646,7 @@
     };
               </script>
     <div class="container-flex">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 border-top bg-light">
+  <footer class="footer d-flex flex-wrap justify-content-between align-items-center p-3 border-top">
     
     <div class="col-md-4 d-flex align-items-center">
       <span class="mb-md-0 text-body-secondary">© Copyright 2021-2024 — Benjamin W. Tjepkes</span>

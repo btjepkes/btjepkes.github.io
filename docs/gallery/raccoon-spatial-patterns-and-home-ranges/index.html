@@ -69,7 +69,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark px-2" aria-label="Dark offcanvas navbar">
+
+  <nav class="navbar navbar-light bg-light" aria-label="Dark offcanvas navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="../../">
       <img src="../../assets/forest-svgrepo-com.svg" alt="" width="30" height="30" class="navbar-logo d-inline-block align-text-top">
@@ -78,9 +79,10 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
-        <div class="offcanvas-header bg-warning">
-          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
+      
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+        <div class="offcanvas-header bg-success">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -97,7 +99,10 @@
             <li class="nav-item">
               <a class="nav-link" href="../../research">Research</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="../../resources">Resources</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
@@ -109,15 +114,16 @@
                 </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
-    </div>
+    </div>  
   </nav>
+ 
     <div id="quarto-search-results"></div>
     <!-- content -->
-    <header id="title-block-header" class="container-fluid bg-light page-columns page-full" style="--bs-gutter-x: 0;">
+    <header id="title-block-header" class="container-fluid page-columns page-full" style="--bs-gutter-x: 0;">
     <div id="title-block-header-outer" class="py-0 px-0 page-columns page-full">
       <div id="title-block-header-inner" class="quarto-title column-body py-4">
         <h1 class="title mb-3">Raccoon Spatial Patterns Presentation</h1>
@@ -131,11 +137,14 @@
         </div>
     <!-- main -->
     <main class="content quarto-banner-title-block" id="quarto-document-content">
-      
-      <iframe class="slide-deck" src="slides-raccoon-space-use-talk.html">
-      </iframe>
-      
-      
+  
+    
+  
+  
+  <iframe class="slide-deck" src="slides-raccoon-space-use-talk.html">
+  </iframe>
+  
+  
 <!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-6">
         <div class="card card-alt-2">
@@ -594,7 +603,7 @@
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
     <div class="container-flex">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 border-top bg-light">
+  <footer class="footer d-flex flex-wrap justify-content-between align-items-center p-3 border-top">
     
     <div class="col-md-4 d-flex align-items-center">
       <span class="mb-md-0 text-body-secondary">© Copyright 2021-2024 — Benjamin W. Tjepkes</span>

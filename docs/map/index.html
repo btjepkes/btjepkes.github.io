@@ -67,7 +67,8 @@
 <meta name="twitter:card" content="summary">
 </head>
 <body>
-  <nav class="navbar navbar-dark px-2" aria-label="Dark offcanvas navbar"><div class="container-fluid">
+
+  <nav class="navbar navbar-light bg-light" aria-label="Dark offcanvas navbar"><div class="container-fluid">
       <a class="navbar-brand" href="../">
       <img src="../assets/forest-svgrepo-com.svg" alt="" width="30" height="30" class="navbar-logo d-inline-block align-text-top">
       Benjamin W. Tjepkes
@@ -75,9 +76,10 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
-        <div class="offcanvas-header bg-warning">
-          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
+      
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+        <div class="offcanvas-header bg-success">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -94,26 +96,29 @@
             <li class="nav-item">
               <a class="nav-link" href="../research">Research</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="../resources">Resources</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
               <ul class="dropdown-menu">
-<li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
                   <hr class="dropdown-divider">
-</li>
+                </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-</li>
+            </li> -->
           </ul>
 </div>
       </div>
-    </div>
+    </div>  
   </nav><div id="quarto-search-results"></div>
     <!-- content -->
-    <header id="title-block-header" class="container-fluid bg-light page-columns page-full" style="--bs-gutter-x: 0;"><div id="title-block-header-outer" class="py-0 px-0 page-columns page-full">
+    <header id="title-block-header" class="container-fluid page-columns page-full" style="--bs-gutter-x: 0;"><div id="title-block-header-outer" class="py-0 px-0 page-columns page-full">
       <div id="title-block-header-inner" class="quarto-title column-body py-4">
         <h1 class="title mb-3">My Geographic Perspective</h1>
                 <p class="subtitle">Places, locations, coordinates.</p>
@@ -127,13 +132,13 @@
         </div>
     <!-- main -->
     <main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content"><div class="cell my-map page-columns page-full">
-      <div class="cell-output-display column-screen-inset">
-      <div class="leaflet html-widget html-fill-item" id="htmlwidget-80f1242798b9934ff938" style="width:100%;height:464px;"></div>
-      <script type="application/json" data-for="htmlwidget-80f1242798b9934ff938">{"x":{"options":{"minZoom":5,"maxZoom":8,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false,"fullscreenControl":{"position":"topleft","pseudoFullscreen":false}},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.HOT",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-105.6915945157442,-105.6904056084356,-105.5125353113342,-105.5137242186426,-105.6915945157442],"lat":[41.35363282453523,41.2735797324317,41.27622137050747,41.35627446261094,41.35363282453523]}]],[[{"lng":[-89.57576979606011,-89.57564046102686,-89.55052309264897,-89.55065242768217,-89.57576979606011],"lat":[44.54120518516129,44.5319218038851,44.53227173626186,44.54155511753805,44.54120518516129]}]],[[{"lng":[-89.56305724751047,-89.56320249569586,-89.52976952387587,-89.52962427569059,-89.56305724751047],"lat":[45.50496189382352,45.47954346138715,45.47935241583372,45.50477084827014,45.50496189382352]}]],[[{"lng":[-88.46331245690362,-88.66117503279656,-88.66090060906271,-88.46303803316988,-88.46331245690362],"lat":[44.70288067732508,44.70263179358199,44.48446492521583,44.48471380895916,44.70288067732508]}]],[[{"lng":[-91.66303376395145,-92.14179806988818,-90.42501415622883,-89.96359103907797,-91.66303376395145],"lat":[44.56818866770678,44.40895209026957,41.64841752646682,41.80103745028565,44.56818866770678]}]],[[{"lng":[-95.21094848684334,-83.43923625871678,-83.43923625871678,-95.21094848684334,-95.21094848684334],"lat":[34.3370168884088,34.3370168884088,39.49102296763046,39.49102296763046,34.3370168884088]}]]],null,"Research Sites",{"interactive":true,"className":"","stroke":true,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,["Laramie, WY","Schmeekle Reserve, Stevens Point, WI","Treehaven, Tomahawk, WI","Lower Wolf River Bottomlands Natural Resources Area, WI","Upper Mississippi River National Fish and Wildlife Refuge","Central Hardwood Bird Conservation Region"],{"interactive":false,"permanent":false,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[38.94554204723634,44.52748031498342,41.31314645671414],[-92.32397932848558,-89.57141732288046,-105.5810393701329],10,null,"Colleges/Universities",{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"blue","fillOpacity":0.2},null,null,null,null,["University of Missouri-Columbia","University of Wisconsin-Stevens Point","University of Wyoming"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[48.30067551983294,46.79754985829191,44.12965687712758,44.65349543307089,38.59256862573427,38.89024379499433],[-95.98071481304153,-95.92650582682124,-90.17475829354404,-88.55023067716539,-92.2290926539702,-92.28678199212624],4,null,"Work/Experience",{"interactive":true,"className":"","stroke":true,"color":"darkorange","weight":5,"opacity":0.5,"fill":true,"fillColor":"orange","fillOpacity":1},null,null,null,null,["Agassiz National Wildlife Refuge","RMB Environmental Laboratories, Inc.","Necedah National Wildlife Refuge","Navarino State Wildlife Area","Missouri Department of Conservation","Missouri Department of Conservation"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"setMaxBounds","args":[28.33702,-125.69159,50.50496,-63.43924]},{"method":"addLegend","args":[{"colors":["red","blue","orange"],"labels":["Research Sites","Colleges/Universities","Work/Experience"],"na_color":null,"na_label":"NA","opacity":0.5,"position":"bottomleft","type":"unknown","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]},{"method":"addLayersControl","args":[[],["Research Sites","Colleges/Universities","Work/Experience"],{"collapsed":true,"autoZIndex":true,"position":"topright"}]}],"limits":{"lat":[34.3370168884088,48.30067551983294],"lng":[-105.6915945157442,-83.43923625871678]}},"evals":[],"jsHooks":[]}</script>
+  <div class="cell-output-display column-screen-inset">
+  <div class="leaflet html-widget html-fill-item" id="htmlwidget-80f1242798b9934ff938" style="width:100%;height:464px;"></div>
+  <script type="application/json" data-for="htmlwidget-80f1242798b9934ff938">{"x":{"options":{"minZoom":5,"maxZoom":8,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false,"fullscreenControl":{"position":"topleft","pseudoFullscreen":false}},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.HOT",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addPolygons","args":[[[[{"lng":[-105.6915945157442,-105.6904056084356,-105.5125353113342,-105.5137242186426,-105.6915945157442],"lat":[41.35363282453523,41.2735797324317,41.27622137050747,41.35627446261094,41.35363282453523]}]],[[{"lng":[-89.57576979606011,-89.57564046102686,-89.55052309264897,-89.55065242768217,-89.57576979606011],"lat":[44.54120518516129,44.5319218038851,44.53227173626186,44.54155511753805,44.54120518516129]}]],[[{"lng":[-89.56305724751047,-89.56320249569586,-89.52976952387587,-89.52962427569059,-89.56305724751047],"lat":[45.50496189382352,45.47954346138715,45.47935241583372,45.50477084827014,45.50496189382352]}]],[[{"lng":[-88.46331245690362,-88.66117503279656,-88.66090060906271,-88.46303803316988,-88.46331245690362],"lat":[44.70288067732508,44.70263179358199,44.48446492521583,44.48471380895916,44.70288067732508]}]],[[{"lng":[-91.66303376395145,-92.14179806988818,-90.42501415622883,-89.96359103907797,-91.66303376395145],"lat":[44.56818866770678,44.40895209026957,41.64841752646682,41.80103745028565,44.56818866770678]}]],[[{"lng":[-95.21094848684334,-83.43923625871678,-83.43923625871678,-95.21094848684334,-95.21094848684334],"lat":[34.3370168884088,34.3370168884088,39.49102296763046,39.49102296763046,34.3370168884088]}]]],null,"Research Sites",{"interactive":true,"className":"","stroke":true,"color":"red","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.2,"smoothFactor":1,"noClip":false},null,null,["Laramie, WY","Schmeekle Reserve, Stevens Point, WI","Treehaven, Tomahawk, WI","Lower Wolf River Bottomlands Natural Resources Area, WI","Upper Mississippi River National Fish and Wildlife Refuge","Central Hardwood Bird Conservation Region"],{"interactive":false,"permanent":false,"direction":"bottom","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[38.94554204723634,44.52748031498342,41.31314645671414],[-92.32397932848558,-89.57141732288046,-105.5810393701329],10,null,"Colleges/Universities",{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"blue","fillOpacity":0.2},null,null,null,null,["University of Missouri-Columbia","University of Wisconsin-Stevens Point","University of Wyoming"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[48.30067551983294,46.79754985829191,44.12965687712758,44.65349543307089,38.59256862573427,38.89024379499433],[-95.98071481304153,-95.92650582682124,-90.17475829354404,-88.55023067716539,-92.2290926539702,-92.28678199212624],4,null,"Work/Experience",{"interactive":true,"className":"","stroke":true,"color":"darkorange","weight":5,"opacity":0.5,"fill":true,"fillColor":"orange","fillOpacity":1},null,null,null,null,["Agassiz National Wildlife Refuge","RMB Environmental Laboratories, Inc.","Necedah National Wildlife Refuge","Navarino State Wildlife Area","Missouri Department of Conservation","Missouri Department of Conservation"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"setMaxBounds","args":[28.33702,-125.69159,50.50496,-63.43924]},{"method":"addLegend","args":[{"colors":["red","blue","orange"],"labels":["Research Sites","Colleges/Universities","Work/Experience"],"na_color":null,"na_label":"NA","opacity":0.5,"position":"bottomleft","type":"unknown","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]},{"method":"addLayersControl","args":[[],["Research Sites","Colleges/Universities","Work/Experience"],{"collapsed":true,"autoZIndex":true,"position":"topright"}]}],"limits":{"lat":[34.3370168884088,48.30067551983294],"lng":[-105.6915945157442,-83.43923625871678]}},"evals":[],"jsHooks":[]}</script>
 </div>
-      </div>
-      
-      
+  </div>
+  
+  
 <!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-6">
         <div class="card card-alt-2">
@@ -588,7 +593,7 @@
     </script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
     <div class="container-flex">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 border-top bg-light"><div class="col-md-4 d-flex align-items-center">
+  <footer class="footer d-flex flex-wrap justify-content-between align-items-center p-3 border-top"><div class="col-md-4 d-flex align-items-center">
       <span class="mb-md-0 text-body-secondary">© Copyright 2021-2024 — Benjamin W. Tjepkes</span>
     </div>
 

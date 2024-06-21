@@ -70,7 +70,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark px-2" aria-label="Dark offcanvas navbar">
+
+  <nav class="navbar navbar-light bg-light" aria-label="Dark offcanvas navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="../../">
       <img src="../../assets/forest-svgrepo-com.svg" alt="" width="30" height="30" class="navbar-logo d-inline-block align-text-top">
@@ -79,9 +80,10 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
-        <div class="offcanvas-header bg-warning">
-          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
+      
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+        <div class="offcanvas-header bg-success">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -98,7 +100,10 @@
             <li class="nav-item">
               <a class="nav-link" href="../../research">Research</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="../../resources">Resources</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
@@ -110,15 +115,16 @@
                 </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
-    </div>
+    </div>  
   </nav>
+ 
     <div id="quarto-search-results"></div>
     <!-- content -->
-    <header id="title-block-header" class="container-fluid bg-light page-columns page-full" style="--bs-gutter-x: 0;">
+    <header id="title-block-header" class="container-fluid page-columns page-full" style="--bs-gutter-x: 0;">
     <div id="title-block-header-outer" class="py-0 px-0 page-columns page-full">
       <div id="title-block-header-inner" class="quarto-title column-body py-4">
         <h1 class="title mb-3">Ruffed Grouse Drumming Log Selection</h1>
@@ -129,14 +135,14 @@
     <!-- sidebar -->
     <!-- margin-sidebar -->
         <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-            <nav id="TOC" role="doc-toc" class="mt-4 mx-3 px-0 py-0 border bg-white rounded toc-active">
-        <div class="abstract mt-0" style="">
+            <nav id="TOC" role="doc-toc" class="mt-4 mx-3 px-3 py-3 border bg-white rounded toc-active">
+        <div class="abstract mt-0 shadow-none p-0" style="">
     <div class="abstract-title bg-success text-white text-center py-1 mb-3">What’s This About?</div>
       <div class="px-3">
       This undergraduate research project was operated through the UWSP Student Chapter of The Wildlife Society with the objective of better understanding how ruffed grouse (<em>Bonasa umbellus</em>) selected for their drumming log sites in the mixed-boreal forests of Wisconsin.
       </div>
     </div>
-            <h2 id="toc-title" class="mt-3 mb-3 bg-success text-white text-center py-2">On This Page:</h2>
+            <h2 id="toc-title" class="abstract-title mt-3 mb-3 bg-success text-white text-center py-1">On This Page:</h2>
         <ul>
         <li><a href="#objectives-methods" id="toc-objectives-methods" class="nav-link active" data-scroll-target="#objectives-methods">Objectives &amp; Methods</a></li>
         <li><a href="#project-presentations" id="toc-project-presentations" class="nav-link" data-scroll-target="#project-presentations">Project Presentations</a></li>
@@ -145,24 +151,27 @@
         </div>
     <!-- main -->
     <main class="content quarto-banner-title-block" id="quarto-document-content">
-      
-      
-    <section id="objectives-methods" class="level2">
-    <h2 class="anchored" data-anchor-id="objectives-methods">Objectives &amp; Methods</h2>
-    <p>This project was aimed at determining how ruffed grouse in northern Wisconsin select their drumming log sites, investigating everything from log diameter, orientation, and spatial position.</p>
-    </section>
-    <section id="project-presentations" class="level2">
-    <h2 class="anchored" data-anchor-id="project-presentations">Project Presentations</h2>
-    <p>Tjepkes, B.W., J.G. Williams, J.O. Quehl, R.A. Martin, L. Cutler, and J.D. Riddle. Determining topographical components to drumming log selection in ruffed grouse. Session poster at University of Wisconsin – Stevens Point College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.</p>
-    <p>Tjepkes, B.W., J.G. Williams, J.O. Quehl, B.M. Rochefort, R.A. Martin, and J.D. Riddle. Spatial position and orientation of ruffed grouse drumming logs. Session poster at The Wildlife Society Annual Conference, Cleveland, OH.</p>
-    <p>Tjepkes, B.W., J.G. Williams, J.O. Quehl, B.M. Rochefort, R.A. Martin, and J.D. Riddle. Measuring drumming log characteristics. Session poster at Midwest Fish and Wildlife Conference, Milwaukee, WI.</p>
-    <p>Williams, J.G., S.E. Lau, H.A. Putnam, J.O. Quehl, B.W. Tjepkes, and J.D. Riddle. Ruffed grouse drumming log characteristics. Session poster at The Wildlife Society Annual Conference, Albuquerque, NM.</p>
-    <p>Williams, J.G., S.E. Lau, H.A. Putnam, J.O. Quehl, B.W. Tjepkes, and J.D. Riddle. Ruffed grouse (Bonasa umbellus) drumming log characteristics near Tomahawk, Wisconsin. Session poster at Midwest Fish and Wildlife Conference, Lincoln, NE.</p>
-    <p>Williams, J.G., H.M. North, B.W. Tjepkes, S.E. Lau, and J.D. Riddle. Ruffed grouse (Bonasa umbellus) drumming log selection near Tomahawk, Wisconsin. Session poster at The Wildlife Society Annual Conference, Raleigh, NC.</p>
-    <p>Williams, J.G., H.M. North, B.W. Tjepkes, S.E. Lau, and J.D. Riddle. Relationships between home range size, age, and habitat for ruffed grouse. Session poster at University of Wisconsin – Stevens Point College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.</p>
+  
     
+  
     
-    </section>
+  
+  <section id="objectives-methods" class="level2">
+  <h2 class="anchored" data-anchor-id="objectives-methods">Objectives &amp; Methods</h2>
+  <p>This project was aimed at determining how ruffed grouse in northern Wisconsin select their drumming log sites, investigating everything from log diameter, orientation, and spatial position.</p>
+  </section>
+  <section id="project-presentations" class="level2">
+  <h2 class="anchored" data-anchor-id="project-presentations">Project Presentations</h2>
+  <p>Tjepkes, B.W., J.G. Williams, J.O. Quehl, R.A. Martin, L. Cutler, and J.D. Riddle. Determining topographical components to drumming log selection in ruffed grouse. Session poster at University of Wisconsin – Stevens Point College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.</p>
+  <p>Tjepkes, B.W., J.G. Williams, J.O. Quehl, B.M. Rochefort, R.A. Martin, and J.D. Riddle. Spatial position and orientation of ruffed grouse drumming logs. Session poster at The Wildlife Society Annual Conference, Cleveland, OH.</p>
+  <p>Tjepkes, B.W., J.G. Williams, J.O. Quehl, B.M. Rochefort, R.A. Martin, and J.D. Riddle. Measuring drumming log characteristics. Session poster at Midwest Fish and Wildlife Conference, Milwaukee, WI.</p>
+  <p>Williams, J.G., S.E. Lau, H.A. Putnam, J.O. Quehl, B.W. Tjepkes, and J.D. Riddle. Ruffed grouse drumming log characteristics. Session poster at The Wildlife Society Annual Conference, Albuquerque, NM.</p>
+  <p>Williams, J.G., S.E. Lau, H.A. Putnam, J.O. Quehl, B.W. Tjepkes, and J.D. Riddle. Ruffed grouse (Bonasa umbellus) drumming log characteristics near Tomahawk, Wisconsin. Session poster at Midwest Fish and Wildlife Conference, Lincoln, NE.</p>
+  <p>Williams, J.G., H.M. North, B.W. Tjepkes, S.E. Lau, and J.D. Riddle. Ruffed grouse (Bonasa umbellus) drumming log selection near Tomahawk, Wisconsin. Session poster at The Wildlife Society Annual Conference, Raleigh, NC.</p>
+  <p>Williams, J.G., H.M. North, B.W. Tjepkes, S.E. Lau, and J.D. Riddle. Relationships between home range size, age, and habitat for ruffed grouse. Session poster at University of Wisconsin – Stevens Point College of Natural Resources Undergraduate Research Symposium, Stevens Point, WI.</p>
+  
+  
+  </section>
 <!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-6">
         <div class="card card-alt-2">
@@ -621,7 +630,7 @@
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
     <div class="container-flex">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 border-top bg-light">
+  <footer class="footer d-flex flex-wrap justify-content-between align-items-center p-3 border-top">
     
     <div class="col-md-4 d-flex align-items-center">
       <span class="mb-md-0 text-body-secondary">© Copyright 2021-2024 — Benjamin W. Tjepkes</span>

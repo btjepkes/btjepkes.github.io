@@ -118,7 +118,8 @@
 <meta name="citation_language" content="en">
 </head>
 <body>
-  <nav class="navbar navbar-dark px-2" aria-label="Dark offcanvas navbar"><div class="container-fluid">
+
+  <nav class="navbar navbar-light bg-light" aria-label="Dark offcanvas navbar"><div class="container-fluid">
       <a class="navbar-brand" href="../../">
       <img src="../../assets/forest-svgrepo-com.svg" alt="" width="30" height="30" class="navbar-logo d-inline-block align-text-top">
       Benjamin W. Tjepkes
@@ -126,9 +127,10 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
-        <div class="offcanvas-header bg-warning">
-          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
+      
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+        <div class="offcanvas-header bg-success">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -145,26 +147,29 @@
             <li class="nav-item">
               <a class="nav-link" href="../../research">Research</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="../../resources">Resources</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
               <ul class="dropdown-menu">
-<li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
                   <hr class="dropdown-divider">
-</li>
+                </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-</li>
+            </li> -->
           </ul>
 </div>
       </div>
-    </div>
+    </div>  
   </nav><div id="quarto-search-results"></div>
     <!-- content -->
-    <header id="title-block-header" class="container-fluid bg-light page-columns page-full" style="--bs-gutter-x: 0;"><div id="title-block-header-outer" class="py-0 px-0 page-columns page-full">
+    <header id="title-block-header" class="container-fluid page-columns page-full" style="--bs-gutter-x: 0;"><div id="title-block-header-outer" class="py-0 px-0 page-columns page-full">
       <div id="title-block-header-inner" class="quarto-title column-body py-4">
         <h1 class="title mb-3">Mining Text From Course Descriptions</h1>
                 <p class="subtitle">Using R to examine words in my 70+ college course history.</p>
@@ -174,13 +179,13 @@
     <!-- sidebar -->
     <!-- margin-sidebar -->
         <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-            <nav id="TOC" role="doc-toc" class="mt-4 mx-3 px-0 py-0 border bg-white rounded toc-active"><div class="abstract mt-0" style="">
+            <nav id="TOC" role="doc-toc" class="mt-4 mx-3 px-3 py-3 border bg-white rounded toc-active"><div class="abstract mt-0 shadow-none p-0" style="">
     <div class="abstract-title bg-success text-white text-center py-1 mb-3">What’s This About?</div>
       <div class="px-3">
       In this post, I describe a recent workflow that I ran on my college course descriptions to explore the most common words and word associations from my archive of college course.
       </div>
     </div>
-            <h2 id="toc-title" class="mt-3 mb-3 bg-success text-white text-center py-2">On This Page:</h2>
+            <h2 id="toc-title" class="abstract-title mt-3 mb-3 bg-success text-white text-center py-1">On This Page:</h2>
         <ul>
 <li>
 <a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
@@ -202,20 +207,20 @@
         </div>
     <!-- main -->
     <main class="content quarto-banner-title-block" id="quarto-document-content"><section id="introduction" class="level2"><h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-    <p><a href="img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-word-cloud.png" class="quarto-cover-image img-fluid"></a></p>
-    <p>This month (May), I wrapped up my first year as a graduate student which also brought my list of college courses up past 70! As the bags under my eyes can tell you, it has been a long road to this point, with much still left to go. I wanted to take some time to look back and reflect on the courses I have experienced in my higher education journey thus far by visualizing some course description data.</p>
-    <section id="why-course-descriptions" class="level3"><h3 class="anchored" data-anchor-id="why-course-descriptions">Why course descriptions?</h3>
-    <p>College courses all come with a syllabus that lays out the course structure, objectives, and usually a brief official description. These descriptions detail the theory, methods, or general topics of each course and are officially registered with the Registrar. The main reason behind my decision to delve into these descriptions was finally completing my spreadsheet of courses over my academic career. Why did I bother with this? Well, I’m in the process of applying for various professional certifications, many of which require a record of all relevant courses taken. For example, I’ve been eyeing <a href="https://wildlife.org/certification-programs/">The Wildlife Society Certification Program</a> for some time now.</p>
-    </section></section><section id="workflow---word-cloud" class="level2"><h2 class="anchored" data-anchor-id="workflow---word-cloud">Workflow - Word Cloud</h2>
-    <p>The steps I took for this process came largely from <a href="http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know">this blog post</a>, which was extremely helpful in understanding these text mining packages in R.</p>
-    <section id="data-processing" class="level3"><h3 class="anchored" data-anchor-id="data-processing">1. Data Processing</h3>
-    <p>The first step we need to do is install and/or load all the required packages. This will include several new-to-me packages like <code>tm</code> and <code>wordcloud</code> along with some familiar ones like <code>RColorBrewer</code>.</p>
-    <div class="cell">
-    <div class="code-with-filename">
-    <div class="code-with-filename-file">
-    <pre><strong>matplotlib.py</strong></pre>
-    </div>
-    <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Optional install packages, if needed ----</span></span>
+  <p><a href="img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-word-cloud.png" class="quarto-cover-image img-fluid"></a></p>
+  <p>This month (May), I wrapped up my first year as a graduate student which also brought my list of college courses up past 70! As the bags under my eyes can tell you, it has been a long road to this point, with much still left to go. I wanted to take some time to look back and reflect on the courses I have experienced in my higher education journey thus far by visualizing some course description data.</p>
+  <section id="why-course-descriptions" class="level3"><h3 class="anchored" data-anchor-id="why-course-descriptions">Why course descriptions?</h3>
+  <p>College courses all come with a syllabus that lays out the course structure, objectives, and usually a brief official description. These descriptions detail the theory, methods, or general topics of each course and are officially registered with the Registrar. The main reason behind my decision to delve into these descriptions was finally completing my spreadsheet of courses over my academic career. Why did I bother with this? Well, I’m in the process of applying for various professional certifications, many of which require a record of all relevant courses taken. For example, I’ve been eyeing <a href="https://wildlife.org/certification-programs/">The Wildlife Society Certification Program</a> for some time now.</p>
+  </section></section><section id="workflow---word-cloud" class="level2"><h2 class="anchored" data-anchor-id="workflow---word-cloud">Workflow - Word Cloud</h2>
+  <p>The steps I took for this process came largely from <a href="http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know">this blog post</a>, which was extremely helpful in understanding these text mining packages in R.</p>
+  <section id="data-processing" class="level3"><h3 class="anchored" data-anchor-id="data-processing">1. Data Processing</h3>
+  <p>The first step we need to do is install and/or load all the required packages. This will include several new-to-me packages like <code>tm</code> and <code>wordcloud</code> along with some familiar ones like <code>RColorBrewer</code>.</p>
+  <div class="cell">
+  <div class="code-with-filename">
+  <div class="code-with-filename-file">
+  <pre><strong>matplotlib.py</strong></pre>
+  </div>
+  <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Optional install packages, if needed ----</span></span>
 <span><span class="co"># install.packages("tm")  # for text mining</span></span>
 <span><span class="co"># install.packages("SnowballC") # for text stemming</span></span>
 <span><span class="co"># install.packages("wordcloud") # word-cloud generator </span></span>
@@ -226,18 +231,18 @@
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="st"><a href="https://github.com/nalimilan/R.TeMiS">"SnowballC"</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="st"><a href="http://blog.fellstat.com/?cat=11">"wordcloud"</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="st">"RColorBrewer"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-    </div>
-    </div>
-    </section><section id="data-import" class="level3"><h3 class="anchored" data-anchor-id="data-import">2. Data Import</h3>
-    <p>Next, we need to get our data into R and format everything as a <code><a href="https://rdrr.io/pkg/tm/man/Corpus.html">tm::Corpus</a></code> dataset that can be transformed in later steps.</p>
-    <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Load the text</span></span>
+  </div>
+  </div>
+  </section><section id="data-import" class="level3"><h3 class="anchored" data-anchor-id="data-import">2. Data Import</h3>
+  <p>Next, we need to get our data into R and format everything as a <code><a href="https://rdrr.io/pkg/tm/man/Corpus.html">tm::Corpus</a></code> dataset that can be transformed in later steps.</p>
+  <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Load the text</span></span>
 <span><span class="va">text</span> <span class="op">&lt;-</span> <span class="fu">base</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/base/readLines.html">readLines</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.choose.html">file.choose</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span></span>
 <span></span>
 <span></span>
 <span><span class="co"># Load the data as a corpus</span></span>
 <span><span class="va">docs</span> <span class="op">&lt;-</span> <span class="fu">tm</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/tm/man/Corpus.html">Corpus</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/pkg/tm/man/VectorSource.html">VectorSource</a></span><span class="op">(</span><span class="va">text</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-    </section><section id="data-wrangling" class="level3"><h3 class="anchored" data-anchor-id="data-wrangling">3. Data Wrangling</h3>
-    <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Text transformation ----</span></span>
+  </section><section id="data-wrangling" class="level3"><h3 class="anchored" data-anchor-id="data-wrangling">3. Data Wrangling</h3>
+  <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Text transformation ----</span></span>
 <span><span class="va">toSpace</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/tm/man/content_transformer.html">content_transformer</a></span><span class="op">(</span><span class="kw">function</span> <span class="op">(</span><span class="va">x</span> , <span class="va">pattern</span> <span class="op">)</span> <span class="fu"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op">(</span><span class="va">pattern</span>, <span class="st">" "</span>, <span class="va">x</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="va">docs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op">(</span><span class="va">docs</span>, <span class="va">toSpace</span>, <span class="st">"/"</span><span class="op">)</span></span>
 <span><span class="va">docs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op">(</span><span class="va">docs</span>, <span class="va">toSpace</span>, <span class="st">"@"</span><span class="op">)</span></span>
@@ -258,15 +263,15 @@
 <span><span class="va">docs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op">(</span><span class="va">docs</span>, <span class="va">removePunctuation</span><span class="op">)</span></span>
 <span><span class="co"># Eliminate extra white spaces</span></span>
 <span><span class="va">docs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/tm/man/tm_map.html">tm_map</a></span><span class="op">(</span><span class="va">docs</span>, <span class="va">stripWhitespace</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-    </section><section id="creating-matrix" class="level3"><h3 class="anchored" data-anchor-id="creating-matrix">4. Creating Matrix</h3>
-    <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Build a Term-Document Matrix ----</span></span>
+  </section><section id="creating-matrix" class="level3"><h3 class="anchored" data-anchor-id="creating-matrix">4. Creating Matrix</h3>
+  <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Build a Term-Document Matrix ----</span></span>
 <span><span class="va">dtm</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/tm/man/matrix.html">TermDocumentMatrix</a></span><span class="op">(</span><span class="va">docs</span><span class="op">)</span></span>
 <span><span class="va">m</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/matrix.html">as.matrix</a></span><span class="op">(</span><span class="va">dtm</span><span class="op">)</span></span>
 <span><span class="va">v</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/sort.html">sort</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/colSums.html">rowSums</a></span><span class="op">(</span><span class="va">m</span><span class="op">)</span>,decreasing<span class="op">=</span><span class="cn">TRUE</span><span class="op">)</span></span>
 <span><span class="va">d</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>word <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="va">v</span><span class="op">)</span>,freq<span class="op">=</span><span class="va">v</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">d</span>, <span class="fl">10</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-    </section><section id="visualization" class="level3"><h3 class="anchored" data-anchor-id="visualization">5. Visualization</h3>
-    <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Create and save word cloud</span></span>
+  </section><section id="visualization" class="level3"><h3 class="anchored" data-anchor-id="visualization">5. Visualization</h3>
+  <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Create and save word cloud</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/Random.html">set.seed</a></span><span class="op">(</span><span class="fl">1234</span><span class="op">)</span></span>
 <span><span class="fu">grDevices</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/grDevices/png.html">png</a></span><span class="op">(</span>filename <span class="op">=</span> <span class="st">"./word_plot.png"</span>,</span>
 <span>               width <span class="op">=</span> <span class="fl">1000</span>,</span>
@@ -277,16 +282,16 @@
 <span>          max.words<span class="op">=</span><span class="fl">200</span>, random.order<span class="op">=</span><span class="cn">FALSE</span>, rot.per<span class="op">=</span><span class="fl">0.35</span>, </span>
 <span>          colors<span class="op">=</span><span class="fu"><a href="https://rdrr.io/pkg/RColorBrewer/man/ColorBrewer.html">brewer.pal</a></span><span class="op">(</span><span class="fl">8</span>, <span class="st">"Dark2"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">grDevices</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/grDevices/dev.html">dev.off</a></span><span class="op">(</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-    <div class="quarto-figure quarto-figure-center">
-    <figure class="figure"><p><a href="./img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="The resulting word cloud from my course descriptions."><img src="./img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
-    <figcaption>The resulting word cloud from my course descriptions.</figcaption></figure>
+  <div class="quarto-figure quarto-figure-center">
+  <figure class="figure"><p><a href="./img-word-cloud.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="The resulting word cloud from my course descriptions."><img src="./img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
+  <figcaption>The resulting word cloud from my course descriptions.</figcaption></figure>
 </div>
-    
-    
-    <div class="hidden" aria-hidden="true">
-    <span class="glightbox-desc lightbox-desc-2">The resulting word cloud from my course descriptions.</span>
-    </div>
-    </section></section><!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
+  
+  
+  <div class="hidden" aria-hidden="true">
+  <span class="glightbox-desc lightbox-desc-2">The resulting word cloud from my course descriptions.</span>
+  </div>
+  </section></section><!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-6">
         <div class="card card-alt-2">
             <div class="card-header bg-white">
@@ -751,7 +756,7 @@ Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/
     </script><script src="https://giscus.app/client.js" data-repo="btjepkes/btjepkes.github.io" data-repo-id="R_kgDOJTu9rA" data-category="General" data-category-id="DIC_kwDOJTu9rM4CfHe9" data-mapping="title" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
     </script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
+    <script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","selector":".lightbox"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
@@ -776,7 +781,7 @@ Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/
 
     };
               </script><div class="container-flex">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 border-top bg-light"><div class="col-md-4 d-flex align-items-center">
+  <footer class="footer d-flex flex-wrap justify-content-between align-items-center p-3 border-top"><div class="col-md-4 d-flex align-items-center">
       <span class="mb-md-0 text-body-secondary">© Copyright 2021-2024 — Benjamin W. Tjepkes</span>
     </div>
 

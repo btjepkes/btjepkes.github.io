@@ -125,7 +125,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark px-2" aria-label="Dark offcanvas navbar">
+
+  <nav class="navbar navbar-light bg-light" aria-label="Dark offcanvas navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="../../">
       <img src="../../assets/forest-svgrepo-com.svg" alt="" width="30" height="30" class="navbar-logo d-inline-block align-text-top">
@@ -134,9 +135,10 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
-        <div class="offcanvas-header bg-warning">
-          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
+      
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+        <div class="offcanvas-header bg-success">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -153,7 +155,10 @@
             <li class="nav-item">
               <a class="nav-link" href="../../research">Research</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="../../resources">Resources</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
@@ -165,15 +170,16 @@
                 </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
-    </div>
+    </div>  
   </nav>
+ 
     <div id="quarto-search-results"></div>
     <!-- content -->
-    <header id="title-block-header" class="container-fluid bg-light page-columns page-full" style="--bs-gutter-x: 0;">
+    <header id="title-block-header" class="container-fluid page-columns page-full" style="--bs-gutter-x: 0;">
     <div id="title-block-header-outer" class="py-0 px-0 page-columns page-full">
       <div id="title-block-header-inner" class="quarto-title column-body py-4">
         <h1 class="title mb-3">Converting PowerPoints to Reveal.js Format</h1>
@@ -184,14 +190,14 @@
     <!-- sidebar -->
     <!-- margin-sidebar -->
         <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-            <nav id="TOC" role="doc-toc" class="mt-4 mx-3 px-0 py-0 border bg-white rounded toc-active">
-        <div class="abstract mt-0" style="">
+            <nav id="TOC" role="doc-toc" class="mt-4 mx-3 px-3 py-3 border bg-white rounded toc-active">
+        <div class="abstract mt-0 shadow-none p-0" style="">
     <div class="abstract-title bg-success text-white text-center py-1 mb-3">What’s This About?</div>
       <div class="px-3">
       In this post, I run through how I convert my standard PowerPoints (in .pptx format) into Revealjs versions to create interactive slides. This workflow has worked for me to generate slides for my website.
       </div>
     </div>
-            <h2 id="toc-title" class="mt-3 mb-3 bg-success text-white text-center py-2">On This Page:</h2>
+            <h2 id="toc-title" class="abstract-title mt-3 mb-3 bg-success text-white text-center py-1">On This Page:</h2>
         <ul>
         <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
         <ul class="collapse">
@@ -204,48 +210,51 @@
         </div>
     <!-- main -->
     <main class="content quarto-banner-title-block" id="quarto-document-content">
-      
-      
-    <section id="introduction" class="level2">
-    <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-    <p>Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. So, how can I convert my .pptx files into reveal.js slides? Well, I have devised a workflow that does just this. I am not sure is the best way, but it works for me until someone tells me otherwise.</p>
-    <section id="how-it-works" class="level3">
-    <h3 class="anchored" data-anchor-id="how-it-works">How it works</h3>
-    <p>Let’s take a run through my workflow. We must first export the PowerPoint as a .pdf within the PowerPoint software. Then, we can split each slide into its own .png or .jpg image using the <code>pdftools::pdf_convert</code> function. From here it is a simple for loop and <code>asis</code> output specification in a Quarto document setup to create a revealjs presentation.</p>
-    <div class="cell" data-layout-align="default">
-    <div class="cell-output-display">
-    <div>
-    <p></p><figure class="figure"><p></p>
-    <div>
-    <pre class="mermaid mermaid-js">flowchart LR
-      A[PPTX] --&gt; |Convert| B(PDF)
-      B --&gt; |pdf_convert| C(JPGs)
-      C --&gt;  D{QMD revealjs}
-      D --&gt; |Render| F[HTML]
-      
-    </pre>
-    </div>
-    <p></p></figure><p></p>
-    </div>
-    </div>
-    </div>
-    <p>This will result in a HTML file with your slides where each image is displayed per slide while giving you most of the functionality of reveal.js. For example, the four slides below will become the slide deck. It is important to note that while this <em>converts</em> my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.</p>
-    <p><a href="img-example-powerpoint.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-example-powerpoint.png" class="img-fluid"></a></p>
-    <!-- ::: {layout-ncol=2} -->
-    <!-- ![Slide 1](./powerpoint_1.jpg) -->
-    <!-- ![Slide 2](./powerpoint_2.jpg) -->
-    <!-- ![Slide 3](./powerpoint_3.jpg) -->
-    <!-- ![Slide 4](./powerpoint_4.jpg) -->
-    <!-- ::: -->
-    <p>The resulting presentation will show up something like this given the four slides above.</p>
-    <iframe class="slide-deck" src="slides-example-powerpoint.html">
-    </iframe>
-    </section>
-    </section>
-    <section id="coded-example" class="level2">
-    <h2 class="anchored" data-anchor-id="coded-example">Coded Example</h2>
-    <p>Now we can run through an example with the code included. Here, we are assuming you have a saved PowerPoint, <code>powerpoint.pdf</code>, that was exported from your PowerPoint of interest.</p>
-    <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load in the `pdftools` package</span></span>
+  
+    
+  
+    
+  
+  <section id="introduction" class="level2">
+  <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+  <p>Since switching to Quarto, I have also started using Reveal.js for most of my presentations. However, there are certain situations where I need to use PowerPoint due to venue restrictions. I also have a bunch of past conference and project presentations that I would like to display interactively on my site. So, how can I convert my .pptx files into reveal.js slides? Well, I have devised a workflow that does just this. I am not sure is the best way, but it works for me until someone tells me otherwise.</p>
+  <section id="how-it-works" class="level3">
+  <h3 class="anchored" data-anchor-id="how-it-works">How it works</h3>
+  <p>Let’s take a run through my workflow. We must first export the PowerPoint as a .pdf within the PowerPoint software. Then, we can split each slide into its own .png or .jpg image using the <code>pdftools::pdf_convert</code> function. From here it is a simple for loop and <code>asis</code> output specification in a Quarto document setup to create a revealjs presentation.</p>
+  <div class="cell" data-layout-align="default">
+  <div class="cell-output-display">
+  <div>
+  <p></p><figure class="figure"><p></p>
+  <div>
+  <pre class="mermaid mermaid-js">flowchart LR
+    A[PPTX] --&gt; |Convert| B(PDF)
+    B --&gt; |pdf_convert| C(JPGs)
+    C --&gt;  D{QMD revealjs}
+    D --&gt; |Render| F[HTML]
+    
+  </pre>
+  </div>
+  <p></p></figure><p></p>
+  </div>
+  </div>
+  </div>
+  <p>This will result in a HTML file with your slides where each image is displayed per slide while giving you most of the functionality of reveal.js. For example, the four slides below will become the slide deck. It is important to note that while this <em>converts</em> my PPT files, any transitions or animations are lost because of my initial step of saving to a PDF.</p>
+  <p><a href="img-example-powerpoint.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img-example-powerpoint.png" class="img-fluid"></a></p>
+  <!-- ::: {layout-ncol=2} -->
+  <!-- ![Slide 1](./powerpoint_1.jpg) -->
+  <!-- ![Slide 2](./powerpoint_2.jpg) -->
+  <!-- ![Slide 3](./powerpoint_3.jpg) -->
+  <!-- ![Slide 4](./powerpoint_4.jpg) -->
+  <!-- ::: -->
+  <p>The resulting presentation will show up something like this given the four slides above.</p>
+  <iframe class="slide-deck" src="slides-example-powerpoint.html">
+  </iframe>
+  </section>
+  </section>
+  <section id="coded-example" class="level2">
+  <h2 class="anchored" data-anchor-id="coded-example">Coded Example</h2>
+  <p>Now we can run through an example with the code included. Here, we are assuming you have a saved PowerPoint, <code>powerpoint.pdf</code>, that was exported from your PowerPoint of interest.</p>
+  <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load in the `pdftools` package</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(pdftools)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Run the `pdftools::pdf_convert` function</span></span>
@@ -253,8 +262,8 @@
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>                      <span class="at">format =</span> <span class="st">"jpg"</span>,</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>                      <span class="at">pages =</span> <span class="cn">NULL</span>,</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>                      <span class="at">dpi =</span> <span class="dv">300</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-    <p>Create a Quarto (.qmd) document saved in the directory where you want to create your HTML output. Then, specify your YAML header as you see fit. I have removed the menu with <code>menu: false</code> but kept the arrow slide controls with <code>controls: true</code> in the below example. I also like specifying <code>history: false</code>, which prevents each slide from being included in your browser history.</p>
-    <div class="sourceCode" id="cb2"><pre class="sourceCode yml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+  <p>Create a Quarto (.qmd) document saved in the directory where you want to create your HTML output. Then, specify your YAML header as you see fit. I have removed the menu with <code>menu: false</code> but kept the arrow slide controls with <code>controls: true</code> in the below example. I also like specifying <code>history: false</code>, which prevents each slide from being included in your browser history.</p>
+  <div class="sourceCode" id="cb2"><pre class="sourceCode yml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> revealjs</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">menu</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">controls</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
@@ -262,8 +271,8 @@
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">embed-resources</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">output-file</span><span class="kw">:</span><span class="at"> </span><span class="st">"slide-conversion.html"</span></span>
 <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-    <p>Within your blank .qmd document, insert a code chunk and paste in the following code chunk. This code will create a list of images from your working directory, then iterate over them to set each one as the background image of its own slide in your revealjs presentation. It is important to set the execution options to <code>echo: false</code> and <code>output: asis</code> to prevent the code chunk from being included in the slides and instead print out the for-loop’s output.</p>
-    <div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
+  <p>Within your blank .qmd document, insert a code chunk and paste in the following code chunk. This code will create a list of images from your working directory, then iterate over them to set each one as the background image of its own slide in your revealjs presentation. It is important to set the execution options to <code>echo: false</code> and <code>output: asis</code> to prevent the code chunk from being included in the slides and instead print out the for-loop’s output.</p>
+  <div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: asis</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a list of photos in your directory</span></span>
@@ -273,22 +282,22 @@
 <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(photo_list)){</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"## {background-image=</span><span class="sc">\"</span><span class="st">./powerpoint_"</span>, i, <span class="st">".jpg</span><span class="sc">\"</span><span class="st"> background-size=</span><span class="sc">\"</span><span class="st">contain</span><span class="sc">\"</span><span class="st">}</span><span class="sc">\n</span><span class="st">"</span>, <span class="at">sep =</span> <span class="st">""</span>)</span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-    <p>You will then need to render your .qmd document with this code chunk to produce a self-contained HTML file with your slides. Once your HTML document is created, it is simple to embed it as an iframe into your site. There are other ways to configure this when <code>embed-resources: false</code> is set in your YAML, but my slides are not too large so this technique has worked for me.</p>
-    <div class="sourceCode" id="cb4"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">iframe</span><span class="ot"> class</span><span class="op">=</span><span class="st">"slide-deck"</span><span class="ot"> src</span><span class="op">=</span><span class="st">"powerpoint.html"</span><span class="dt">&gt;&lt;/</span><span class="kw">iframe</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-    <p>To ensure your slides are always displayed with the correct aspect ratio, I applied a <code>.slide-deck</code> class to my iframe, then specified this class in my site CSS like below.</p>
-    <div class="sourceCode" id="cb5"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">.slide-deck</span> {</span>
+  <p>You will then need to render your .qmd document with this code chunk to produce a self-contained HTML file with your slides. Once your HTML document is created, it is simple to embed it as an iframe into your site. There are other ways to configure this when <code>embed-resources: false</code> is set in your YAML, but my slides are not too large so this technique has worked for me.</p>
+  <div class="sourceCode" id="cb4"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">iframe</span><span class="ot"> class</span><span class="op">=</span><span class="st">"slide-deck"</span><span class="ot"> src</span><span class="op">=</span><span class="st">"powerpoint.html"</span><span class="dt">&gt;&lt;/</span><span class="kw">iframe</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+  <p>To ensure your slides are always displayed with the correct aspect ratio, I applied a <code>.slide-deck</code> class to my iframe, then specified this class in my site CSS like below.</p>
+  <div class="sourceCode" id="cb5"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">.slide-deck</span> {</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">border</span><span class="ch">:</span> <span class="dv">3</span><span class="dt">px</span> <span class="dv">solid</span> <span class="cn">#dee2e6</span><span class="op">;</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">width</span><span class="ch">:</span> <span class="dv">100</span><span class="dt">%</span><span class="op">;</span></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">aspect-ratio</span><span class="ch">:</span> <span class="dv">16</span> / <span class="dv">9</span><span class="op">;</span></span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="kw">margin-top</span><span class="ch">:</span> <span class="dv">2</span><span class="dt">em</span><span class="op">;</span></span>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-    </section>
-    <section id="final-thoughts" class="level2">
-    <h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
-    <p>So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it. Regardless, I hope this post is helpful for others interested in this process.</p>
-    
-    
-    </section>
+  </section>
+  <section id="final-thoughts" class="level2">
+  <h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
+  <p>So there you have it, how I convert my PowerPoint slides to reveal.js using Quarto in R. If anyone has a simpler method for doing so, I would love to hear about it. Regardless, I hope this post is helpful for others interested in this process.</p>
+  
+  
+  </section>
 <!--  <div  id="custom-author-box" class="row justify-content-center" style="margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-6">
         <div class="card card-alt-2">
@@ -760,7 +769,7 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"closeEffect":"zoom","openEffect":"zoom"});
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","loop":false});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
@@ -786,7 +795,7 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
     };
               </script>
     <div class="container-flex">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 border-top bg-light">
+  <footer class="footer d-flex flex-wrap justify-content-between align-items-center p-3 border-top">
     
     <div class="col-md-4 d-flex align-items-center">
       <span class="mb-md-0 text-body-secondary">© Copyright 2021-2024 — Benjamin W. Tjepkes</span>
