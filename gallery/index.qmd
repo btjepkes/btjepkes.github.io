@@ -7,10 +7,10 @@ image: ../assets/bg-pines-gallery-yellow-sm.png
 image-alt: Image-of-pine-trees-on-blue-background.
 abstract: "My workflows span several technologies including ArcGIS and Microsoft products but also include open-source products like RStudio, QGIS, and Quarto. Feel free to explore each visualization category below."
 listing:
-  - id: gallery-listings-all
+  - id: gallery-listings-maps
     contents: "*.qmd"
     include:
-      categories: [Map Gallery, Data Gallery, Poster Gallery, Report Gallery, Talk Gallery]
+      categories: [Map Gallery]
     type: grid
     grid-columns: 2
     #max-items: 16
@@ -18,47 +18,77 @@ listing:
     sort: "date desc"
     page-size: 60
     image-height: 240px
-    categories: cloud
-    #filter-ui: [title, subtitle, categories, abstract]
+    categories: false
+    # filter-ui: [title, subtitle, categories, abstract]
+    fields:
+        - image
+        - title
+  - id: gallery-listings-data
+    contents: "*.qmd"
+    include:
+      categories: [Data Gallery]
+    type: grid
+    grid-columns: 2
+    #max-items: 16
+    grid-item-border: true
+    sort: "date desc"
+    page-size: 60
+    image-height: 240px
+    categories: false
+    # filter-ui: [title, subtitle, categories, abstract]
+    fields:
+        - image
+        - title
+  - id: gallery-listings-talks
+    contents: "*.qmd"
+    include:
+      categories: [Poster Gallery, Talk Gallery]
+    type: grid
+    grid-columns: 2
+    #max-items: 16
+    grid-item-border: true
+    sort: "date desc"
+    page-size: 60
+    image-height: 240px
+    categories: false
+    # filter-ui: [title, subtitle, categories, abstract]
+    fields:
+        - image
+        - title
+  - id: gallery-listings-reports
+    contents: "*.qmd"
+    include:
+      categories: [Report Gallery]
+    type: grid
+    grid-columns: 2
+    #max-items: 16
+    grid-item-border: true
+    sort: "date desc"
+    page-size: 60
+    image-height: 240px
+    categories: false
+    # filter-ui: [title, subtitle, categories, abstract]
     fields:
         - image
         - title
 ---
 
-<!-- Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me. In addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects. My most technical, but equally as creative, projects surround the creation of posters, talks, and reports for scientific conferences or other professional venues. -->
+## Static & Dynamic Maps
 
-{{< include _listing-chooser.qmd >}}
-
-::: {#gallery-listings-all .listings-gallery}
+:::{#gallery-listings-maps .mb-5 .listings-gallery}
 :::
 
+## Data Visualization
 
+:::{#gallery-listings-data .mb-5 .listings-gallery}
+:::
 
-<!-- ## Map Gallery -->
+## Talks & Presentations
 
-<!-- Many of my professional duties and personal free time are spent exploring the realms of geospatial and cartography. I have always loved maps and creating them provides a creative release for me. -->
+:::{#gallery-listings-talks .mb-5 .listings-gallery}
+:::
 
-<!-- **Tools & Technologies:** ArcGIS Pro, ArcGIS Online, ArcMap, R/RStudio, QGIS -->
+## Technical Reports
 
-<!-- ::: {#gallery-listings-maps .listings-gallery} -->
-<!-- ::: -->
-
-<!-- ## Data Viz Gallery -->
-
-<!-- In addition to my cartographic pursuits, I like to design the occasional data visualization. These are often based on #TidyTuesday prompts, coursework, or other personal and work-related projects. -->
-
-<!-- **Tools & Technologies:** R/RStudio, Python/Jupyter Notebook, Microsoft Excel -->
-
-<!-- ::: {#gallery-listings-dataviz .listings-gallery} -->
-<!-- ::: -->
-
-<!-- ## Poster & Report Gallery -->
-
-<!-- My most technical, but equally as creative, projects surround the creation of posters and reports. These are often for scientific conferences or other professional venues. -->
-
-<!-- **Tools & Technologies:** R/RStudio, Microsoft PowerPoint, Microsoft Publisher, Quarto, RMarkdown -->
-
-<!-- ::: {#gallery-listings-posters .listings-gallery} -->
-<!-- ::: -->
-
-<!-- ::: -->
+:::{#gallery-listings-reports .listings-gallery}
+:::

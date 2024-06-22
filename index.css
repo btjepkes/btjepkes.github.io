@@ -39,7 +39,9 @@ main {margin-top: 0;}
 
 #intro-container {
   padding: 0 0;
-  background: #d3d3d34f;
+   background: #153557;
+  background-image: url("https://dnr.wisconsin.gov/sites/default/files/backgrounds/bg_halftone_lgt.png");
+  color: white;
   
     h1 {
     font-weight: 700;

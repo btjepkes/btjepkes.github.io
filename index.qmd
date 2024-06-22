@@ -65,7 +65,7 @@ format:
 ---
 
 
-::: {#intro-container .column-screen .bg-primary}
+::: {#intro-container .column-screen }
 
 :::{.grid .column-page .mt-4 .mb-4}
 

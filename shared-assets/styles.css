@@ -9,7 +9,7 @@ h2 {
   border-bottom-width: 2px;
 }
 
-body {
+/*body {
   background-image: linear-gradient(to bottom,
   #e9eef4 0%,
   rgba(255,255,255,0) 5%,
@@ -19,7 +19,7 @@ body {
   background-repeat: repeat;
   background-size: 800px;
   background-attachment: fixed;
-}
+}*/
 
 .subtitle {
   line-height: 1.0;
@@ -52,11 +52,14 @@ body {
   }
 }
 
+.navbar {
+  --bs-navbar-padding-y: 0.25rem;
+}
 
 .navbar-brand {
   font-size: 1.2em;
   font-family: "Roboto Slab", serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   font-optical-sizing: auto;
   overflow: visible;
@@ -104,6 +107,10 @@ body {
 
 .keywords {
   display: none;
+}
+
+.offcanvas-body .nav-item {
+  font-family: "Rubik", sans-serif;
 }
 
 
@@ -183,6 +190,7 @@ figure > figcaption {
   margin: 10px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,.38);
   width: 100%;
+  border-radius: 1em;
 }
 
 
@@ -196,9 +204,9 @@ figure > figcaption {
 #title-block-header {
   margin-block-end: 0;
   background: #153557;
-  background-image: url("../assets/repeatable-treeline.png");
-  background-position: center 50%;
-  background-size: cover;
+  background-image: url("https://dnr.wisconsin.gov/sites/default/files/backgrounds/bg_halftone_lgt.png");
+/*  background-position: center 50%;
+  background-size: 80px;*/
   color: white;
 }
 
@@ -281,11 +289,9 @@ figure > figcaption {
   grid-template-rows: [content-top] minmax(max-content, 1fr) [content-bottom] minmax(0px, max-content) [page-bottom];
   }
 
-.nav-footer {
-  padding-top: 0.8em;
-  padding-bottom: 0.8em;
-  background: #e9eef499;
-  border-top: solid 1px #d5d9de;
+
+.footer {
+  font-size: 15px;
 }
 
 .nav-footer a {
@@ -328,7 +334,7 @@ figure > figcaption {
   padding: 12px;
   border-radius: 6px;
   margin-top: 12px;
-  box-shadow: inset 5px 0px 30px 5px #d6d8db;
+  box-shadow: inset 5px 0px 30px 5px #ebebeb;
   
   code.sourceCode {
   white-space: break-spaces !important;}
@@ -340,7 +346,7 @@ figure > figcaption {
   margin-top: 12px;
   background: #fff;
   text-align: left;
-  box-shadow: inset 5px 0px 30px 5px #d6d8db ;
+  box-shadow: inset 5px 0px 30px 5px #ebebeb;
 }
 
 .quarto-appendix-contents {

@@ -119,24 +119,20 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-light bg-light" aria-label="Dark offcanvas navbar"><div class="container-fluid">
-      <a class="navbar-brand" href="../../">
-      <img src="../../assets/forest-svgrepo-com.svg" alt="" width="30" height="30" class="navbar-logo d-inline-block align-text-top">
-      Benjamin W. Tjepkes
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent" aria-label="Offcanvas navbar large"><div class="container-fluid">
+      <a class="navbar-brand" href="../../">Portfolio | B.W. Tjepkes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      
-      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
-        <div class="offcanvas-header bg-success">
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header bg-primary">
           <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <div class="offcanvas-body bg-white">
+          <ul class="navbar-nav justify-content-end flex-grow-1">
 <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../../about">About</a>
+              <a class="nav-link" href="../../about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../../posts">Posts</a>
@@ -150,23 +146,21 @@
             <li class="nav-item">
               <a class="nav-link" href="../../resources">Resources</a>
             </li>
-            <!-- <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                Sites
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+              <ul class="dropdown-menu dropdown-menu-end">
+<li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">GIS Workshop</a></li>
                 <li>
                   <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+</li>
               </ul>
-            </li> -->
+</li>
           </ul>
 </div>
       </div>
-    </div>  
+    </div>
   </nav><div id="quarto-search-results"></div>
     <!-- content -->
     <header id="title-block-header" class="container-fluid page-columns page-full" style="--bs-gutter-x: 0;"><div id="title-block-header-outer" class="py-0 px-0 page-columns page-full">
@@ -181,7 +175,7 @@
         <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
             <nav id="TOC" role="doc-toc" class="mt-4 mx-3 px-3 py-3 border bg-white rounded toc-active"><div class="abstract mt-0 shadow-none p-0" style="">
     <div class="abstract-title bg-success text-white text-center py-1 mb-3">What’s This About?</div>
-      <div class="px-3">
+      <div class="px-1">
       In this post, I describe a recent workflow that I ran on my college course descriptions to explore the most common words and word associations from my archive of college course.
       </div>
     </div>
@@ -283,7 +277,7 @@
 <span>          colors<span class="op">=</span><span class="fu"><a href="https://rdrr.io/pkg/RColorBrewer/man/ColorBrewer.html">brewer.pal</a></span><span class="op">(</span><span class="fl">8</span>, <span class="st">"Dark2"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu">grDevices</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/grDevices/dev.html">dev.off</a></span><span class="op">(</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
   <div class="quarto-figure quarto-figure-center">
-  <figure class="figure"><p><a href="./img-word-cloud.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="The resulting word cloud from my course descriptions."><img src="./img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
+  <figure class="figure"><p><a href="./img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="The resulting word cloud from my course descriptions."><img src="./img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
   <figcaption>The resulting word cloud from my course descriptions.</figcaption></figure>
 </div>
   
@@ -756,7 +750,7 @@ Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/
     </script><script src="https://giscus.app/client.js" data-repo="btjepkes/btjepkes.github.io" data-repo-id="R_kgDOJTu9rA" data-category="General" data-category-id="DIC_kwDOJTu9rM4CfHe9" data-mapping="title" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
     </script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","selector":".lightbox"});
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;

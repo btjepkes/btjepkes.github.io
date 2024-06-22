@@ -75,25 +75,21 @@
 
 <body>
 
-  <nav class="navbar navbar-light bg-light" aria-label="Dark offcanvas navbar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent" aria-label="Offcanvas navbar large">
     <div class="container-fluid">
-      <a class="navbar-brand" href="../../">
-      <img src="../../assets/forest-svgrepo-com.svg" alt="" width="30" height="30" class="navbar-logo d-inline-block align-text-top">
-      Benjamin W. Tjepkes
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="../../">Portfolio | B.W. Tjepkes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      
-      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
-        <div class="offcanvas-header bg-success">
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header bg-primary">
           <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <div class="offcanvas-body bg-white">
+          <ul class="navbar-nav justify-content-end flex-grow-1">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../../about">About</a>
+              <a class="nav-link" href="../../about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../../posts">Posts</a>
@@ -107,23 +103,21 @@
             <li class="nav-item">
               <a class="nav-link" href="../../resources">Resources</a>
             </li>
-            <!-- <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                Sites
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">GIS Workshop</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li> -->
+            </li>
           </ul>
         </div>
       </div>
-    </div>  
+    </div>
   </nav>
  
     <div id="quarto-search-results"></div>
@@ -161,7 +155,7 @@
   <h2 class="anchored" data-anchor-id="final-result">Final Result</h2>
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
-  <p><a href="img-map-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-map-1.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+  <p><a href="img-map-1.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-map-1.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
   <figcaption>Credit: Benjamin Tjepkes</figcaption>
   </figure>
   </div>
@@ -628,7 +622,7 @@
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","loop":false,"closeEffect":"zoom","openEffect":"zoom"});
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
