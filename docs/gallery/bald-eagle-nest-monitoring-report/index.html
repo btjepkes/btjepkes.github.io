@@ -85,7 +85,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label" style="width: 280px;">
         <div class="offcanvas-header bg-primary">
           <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -620,7 +620,7 @@
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
@@ -653,12 +653,17 @@
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-linkedin"></i></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter-x"></i></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-github"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/benjamintjepkes/"><i class="bi bi-linkedin"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/BTjepkes"><i class="bi bi-twitter-x"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://github.com/btjepkes"><i class="bi bi-github"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://orcid.org/0009-0002-5524-2675"><i class="fa-brands fa-orcid"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.researchgate.net/profile/Benjamin-Tjepkes"><i class="fa-brands fa-researchgate"></i></a></li>
     </ul>
   </footer>
 </div>
+
+
+
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

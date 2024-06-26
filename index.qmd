@@ -75,7 +75,7 @@ format:
 
 Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography.
 
-[**About Me**](about/index.qmd){.btn .btn-light .btn-sm } [**Curriculum vitae**](curriculum-vitae/index.qmd){.btn .btn-success .btn-sm}
+[About Me](about/index.qmd){.btn .btn-light .btn-sm } [Curriculum vitae](curriculum-vitae/index.qmd){.btn .btn-success .btn-sm}
 
 :::
 
@@ -83,7 +83,7 @@ Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my 
 :::
 
 
-:::{.column-page .mt-4 .fw-bold .fs-4 .text-uppercase}
+:::{.column-page .mt-4 .fs-4 .text-uppercase}
 Emphasis Areas:
 :::
 
@@ -113,7 +113,7 @@ Emphasis Areas:
 
 :::
 
-:::{.column-page .mt-4 .fw-bold .fs-4 .text-uppercase}
+:::{.column-page .mt-4 .fs-4 .text-uppercase}
 Primary Works:
 :::
 
@@ -149,7 +149,7 @@ Across the scopes of spatial ecology, biogeography, and geospatial science.
 
 :::
 
-:::{.column-page .mt-4 .fw-bold .fs-4 .text-uppercase}
+:::{.column-page .mt-4 .fs-4 .text-uppercase}
 More To Explore:
 :::
 

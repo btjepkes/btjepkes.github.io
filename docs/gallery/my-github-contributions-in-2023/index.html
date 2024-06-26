@@ -86,7 +86,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label" style="width: 280px;">
         <div class="offcanvas-header bg-primary">
           <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -148,7 +148,7 @@
   <p>This figure, inspired by the work of <a href="https://nrennie.rbind.io/"><span class="citation" data-cites="nrennie">@nrennie</span></a>, was created for Week 1 of the 2024 TidyTuesday. Data were downloaded from <a href="https://github.com/">GitHub</a> using the <code>gh</code> package in R. Figure production was completed in RStudio with several packages, including <code>ggplot</code>, <code>tidyverse</code>, and <code>showtext</code>. My entire workflow can be found on my project <a href="https://github.com/btjepkes/TidyTuesday_2024/tree/main/TT_2024_01">GH repo</a>. The resulting figure summarizes my <strong>660 commits</strong> in 2023 using a styled visualization replicated from the GitHub activity tracker.</p>
   <div class="quarto-figure quarto-figure-center page-columns page-full">
   <figure class="figure page-columns page-full">
-  <p class="page-columns page-full"><a href="img-gh-contributions-2023.png" class="lightbox page-columns page-full" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-gh-contributions-2023.png" class="column-body-outset img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+  <p class="page-columns page-full"><a href="img-gh-contributions-2023.png" class="lightbox page-columns page-full" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-gh-contributions-2023.png" class="column-body-outset img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
   <figcaption>Credit: Benjamin Tjepkes</figcaption>
   </figure>
   </div>
@@ -614,7 +614,7 @@
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
@@ -647,12 +647,17 @@
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-linkedin"></i></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter-x"></i></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-github"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/benjamintjepkes/"><i class="bi bi-linkedin"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/BTjepkes"><i class="bi bi-twitter-x"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://github.com/btjepkes"><i class="bi bi-github"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://orcid.org/0009-0002-5524-2675"><i class="fa-brands fa-orcid"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.researchgate.net/profile/Benjamin-Tjepkes"><i class="fa-brands fa-researchgate"></i></a></li>
     </ul>
   </footer>
 </div>
+
+
+
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -80,7 +80,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label" style="width: 280px;">
         <div class="offcanvas-header bg-primary">
           <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -155,7 +155,7 @@
   
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
-  <p><a href="img-map-6.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Map Credit: Benjamin Tjepkes"><img src="img-map-6.jpg" class="img-fluid figure-img" alt="Map Credit: Benjamin Tjepkes"></a></p>
+  <p><a href="img-map-6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Map Credit: Benjamin Tjepkes"><img src="img-map-6.jpg" class="img-fluid figure-img" alt="Map Credit: Benjamin Tjepkes"></a></p>
   <figcaption>Map Credit: Benjamin Tjepkes</figcaption>
   </figure>
   </div>
@@ -169,7 +169,7 @@
   <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
-  <p><a href="img-map-7.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Variation 1. Map Credit: Benjamin Tjepkes"><img src="img-map-7.jpg" class="img-fluid figure-img" alt="Variation 1. Map Credit: Benjamin Tjepkes"></a></p>
+  <p><a href="img-map-7.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Variation 1. Map Credit: Benjamin Tjepkes"><img src="img-map-7.jpg" class="img-fluid figure-img" alt="Variation 1. Map Credit: Benjamin Tjepkes"></a></p>
   <figcaption>Variation 1. Map Credit: Benjamin Tjepkes</figcaption>
   </figure>
   </div>
@@ -177,7 +177,7 @@
   <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
-  <p><a href="img-map-8.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="Variation 2. Map Credit: Benjamin Tjepkes"><img src="img-map-8.jpg" class="img-fluid figure-img" alt="Variation 2. Map Credit: Benjamin Tjepkes"></a></p>
+  <p><a href="img-map-8.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-glightbox="description: .lightbox-desc-3" title="Variation 2. Map Credit: Benjamin Tjepkes"><img src="img-map-8.jpg" class="img-fluid figure-img" alt="Variation 2. Map Credit: Benjamin Tjepkes"></a></p>
   <figcaption>Variation 2. Map Credit: Benjamin Tjepkes</figcaption>
   </figure>
   </div>
@@ -653,7 +653,7 @@
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":false});
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"bottom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
@@ -686,12 +686,17 @@
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-linkedin"></i></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter-x"></i></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-github"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/benjamintjepkes/"><i class="bi bi-linkedin"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/BTjepkes"><i class="bi bi-twitter-x"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://github.com/btjepkes"><i class="bi bi-github"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://orcid.org/0009-0002-5524-2675"><i class="fa-brands fa-orcid"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.researchgate.net/profile/Benjamin-Tjepkes"><i class="fa-brands fa-researchgate"></i></a></li>
     </ul>
   </footer>
 </div>
+
+
+
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

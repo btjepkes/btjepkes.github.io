@@ -86,7 +86,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label" style="width: 280px;">
         <div class="offcanvas-header bg-primary">
           <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -148,7 +148,7 @@
   <p>The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome). Another portion of this assignment dealt with creating a <a href="../../gallery/michigan-climate-trends/index.html">climate profile for the region</a>. Data were downloaded from <a href="https://dataverse.harvard.edu/dataverse/anthromes_12K_DGG">Anthromes 12K DGG Datasets</a>. Figure production was completed in RStudio with several packages including <code>ggplot</code>, <code>ggspatial</code>, and <code>tidyverse</code>. Here is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.</p>
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
-  <p><a href="img-michigan-anthrome-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-michigan-anthrome-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+  <p><a href="img-michigan-anthrome-map.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-michigan-anthrome-map.png" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
   <figcaption>Credit: Benjamin Tjepkes</figcaption>
   </figure>
   </div>
@@ -614,7 +614,7 @@
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom","selector":".lightbox"});
+    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
@@ -647,12 +647,17 @@
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-linkedin"></i></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter-x"></i></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-github"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/benjamintjepkes/"><i class="bi bi-linkedin"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/BTjepkes"><i class="bi bi-twitter-x"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://github.com/btjepkes"><i class="bi bi-github"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://orcid.org/0009-0002-5524-2675"><i class="fa-brands fa-orcid"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.researchgate.net/profile/Benjamin-Tjepkes"><i class="fa-brands fa-researchgate"></i></a></li>
     </ul>
   </footer>
 </div>
+
+
+
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

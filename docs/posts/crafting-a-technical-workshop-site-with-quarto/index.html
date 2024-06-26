@@ -95,7 +95,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label" style="width: 280px;">
         <div class="offcanvas-header bg-primary">
           <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -181,7 +181,7 @@
   <div id="fig-screenshot-site" class="quarto-figure quarto-figure-center quarto-float anchored">
   <figure class="quarto-float quarto-float-fig figure">
   <div aria-describedby="fig-screenshot-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-  <a href="img-gis-workshop-site-preview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2"><img src="img-gis-workshop-site-preview.png" class="img-fluid figure-img"></a>
+  <a href="img-gis-workshop-site-preview.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="img-gis-workshop-site-preview.png" class="img-fluid figure-img"></a>
   </div>
   <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-screenshot-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
   Figure&nbsp;1: Screenshot of the GIS workshop site.
@@ -669,7 +669,7 @@ Quarto.”</span> April 27, 2024. <a href="https://btjepkes.github.io/posts/craf
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
@@ -702,12 +702,17 @@ Quarto.”</span> April 27, 2024. <a href="https://btjepkes.github.io/posts/craf
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-linkedin"></i></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter-x"></i></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-github"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/benjamintjepkes/"><i class="bi bi-linkedin"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/BTjepkes"><i class="bi bi-twitter-x"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://github.com/btjepkes"><i class="bi bi-github"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://orcid.org/0009-0002-5524-2675"><i class="fa-brands fa-orcid"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.researchgate.net/profile/Benjamin-Tjepkes"><i class="fa-brands fa-researchgate"></i></a></li>
     </ul>
   </footer>
 </div>
+
+
+
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
