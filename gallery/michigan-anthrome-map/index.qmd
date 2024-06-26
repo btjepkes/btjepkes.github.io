@@ -1,18 +1,22 @@
 ---
 title: "Anthrome Map of the Upper Peninsula, MI"
-#subtitle: "Visualizing a series of land-use change in the Upper Peninsula."
+subtitle: "Visualizing a series of land-use change in the Upper Peninsula."
+abstract: "Visualizing a series of land-use change in the Upper Peninsula. This exploration was part of a recent assignment in my biogeography course where I was tasked to explore the biome and anthrome of a location I would like to live. Having selected the Upper Peninsula, here is a map of this region's historic and current land-use."
 date: 12/16/2023
 date-modified: today
 categories:
   - Map Gallery
 keywords:
   - Michigan
-description: "Visualizing a series of land-use change in the Upper Peninsula. This exploration was part of a recent assignment in my biogeography course where I was tasked to explore the biome and **anthrome** of a location I would like to live. Having selected the **Upper Peninsula**, here is a map of this region's **historic and current land-use**."
 image: img-michigan-anthrome-map.png
 image-alt: "A map of the UP's anthrome, with land use changes through time."
 # aliases:
 ---
 
+## Overview
+
 The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome). Another portion of this assignment dealt with creating a [climate profile for the region](../michigan-climate-trends/index.qmd). Data were downloaded from [Anthromes 12K DGG Datasets](https://dataverse.harvard.edu/dataverse/anthromes_12K_DGG). Figure production was completed in RStudio with several packages including `ggplot`, `ggspatial`, and `tidyverse`. Here is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.
+
+## Final Result
 
 ![Credit: Benjamin Tjepkes](img-michigan-anthrome-map.png)

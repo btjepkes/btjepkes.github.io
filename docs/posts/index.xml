@@ -579,7 +579,7 @@ font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span></code></pre></div>
   <div class="quarto-figure quarto-figure-center">
-  <figure class="figure"><p><a href="./img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="The resulting word cloud from my course descriptions."><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
+  <figure class="figure"><p><a href="./img-word-cloud.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="The resulting word cloud from my course descriptions."><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
   <figcaption>The resulting word cloud from my course descriptions.</figcaption></figure>
 </div>
   
@@ -1043,7 +1043,7 @@ Format.”</span> April 29, 2024. <a href="https://btjepkes.github.io/posts/conv
   <div id="fig-screenshot-site" class="quarto-figure quarto-figure-center quarto-float anchored">
   <figure class="quarto-float quarto-float-fig figure">
   <div aria-describedby="fig-screenshot-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-  <a href="img-gis-workshop-site-preview.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png" class="img-fluid figure-img"></a>
+  <a href="img-gis-workshop-site-preview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2"><img src="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png" class="img-fluid figure-img"></a>
   </div>
   <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-screenshot-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
   Figure&nbsp;1: Screenshot of the GIS workshop site.
@@ -2181,7 +2181,7 @@ Reflections.”</span> December 31, 2023. <a href="https://btjepkes.github.io/po
   </div>
   </a>
   </div>
-  <div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1716787992805" data-listing-date-modified-sort="1719378000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
+  <div class="g-col-1" data-index="8" data-categories="Map Gallery,Choropleth" data-listing-date-sort="1699855200000" data-listing-file-modified-sort="1719415083490" data-listing-date-modified-sort="1719378000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
   <a href="../../gallery/happy-forests-happy-people-map/index.html" class="quarto-grid-link">
   <div class="quarto-grid-item card h-100 card-left">
   <p class="card-img-top">
@@ -2194,7 +2194,7 @@ Reflections.”</span> December 31, 2023. <a href="https://btjepkes.github.io/po
   </div>
   </a>
   </div>
-  <div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1716299641604" data-listing-date-modified-sort="1719378000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+  <div class="g-col-1" data-index="9" data-categories="OpenStreetMap,Pennsylvania,Map Gallery" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1719415042053" data-listing-date-modified-sort="1719378000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
   <a href="../../gallery/pennsylvania-bridge-map/index.html" class="quarto-grid-link">
   <div class="quarto-grid-item card h-100 card-left">
   <p class="card-img-top">

@@ -313,6 +313,10 @@ figure > figcaption {
   background: #e9eef4;
 }
 
+.nav-tabs .nav-link.active {
+  background: #e9eef4;
+}
+
 
 /*// FOOTER*/
 

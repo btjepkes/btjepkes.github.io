@@ -60,7 +60,8 @@
       gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       </script>
       <style>html{ scroll-behavior: smooth; }</style>
-    <meta property="og:title" content="2018 Squirrel Census Sighting Map | B.W. Tjepkes">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta property="og:title" content="2018 Squirrel Census Sighting Map | B.W. Tjepkes">
 <meta property="og:description" content="This map was produced as part of the 2023 Tidy Tuesday social media data visualization challenge. Map creation was performed in R using the RStudio environment and data were pulled from public repositories.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/2018-squirrel-census-sighting-map/img-map-001v2.png">
 <meta property="og:site_name" content="Benjamin W. Tjepkes">
@@ -112,10 +113,7 @@
                 Sites
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">GIS Workshop</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
+                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank"><i class="fa-solid fa-layer-group"></i> GIS Workshop</a></li>
               </ul>
             </li>
           </ul>
@@ -633,7 +631,7 @@
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","loop":false});
+    <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;

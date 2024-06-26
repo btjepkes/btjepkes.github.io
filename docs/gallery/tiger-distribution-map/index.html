@@ -95,7 +95,8 @@
       gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       </script>
       <style>html{ scroll-behavior: smooth; }</style>
-    <meta property="og:title" content="Tiger Range and Conservation Landscapes | B.W. Tjepkes">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta property="og:title" content="Tiger Range and Conservation Landscapes | B.W. Tjepkes">
 <meta property="og:description" content="This map provides a continental look at the current and past spatial distribution of tigers. Related but of special focus, the Tiger Conservation Landscapes (TCLs) are also visualized. This map was produced using several R packages within the RStudio environment.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/tiger-distribution-map/img-tiger-range-map.png">
 <meta property="og:site_name" content="Benjamin W. Tjepkes">
@@ -147,10 +148,7 @@
                 Sites
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">GIS Workshop</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
+                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank"><i class="fa-solid fa-layer-group"></i> GIS Workshop</a></li>
               </ul>
             </li>
           </ul>
@@ -669,7 +667,7 @@
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","loop":false});
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;

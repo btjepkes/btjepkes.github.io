@@ -60,7 +60,8 @@
       gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       </script>
       <style>html{ scroll-behavior: smooth; }</style>
-    <meta property="og:title" content="Endangered Species Stamp Map | B.W. Tjepkes">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta property="og:title" content="Endangered Species Stamp Map | B.W. Tjepkes">
 <meta property="og:description" content="This map was produced as a creative project in celebration of the 50th anniversery of the U.S. Endangered Species Act. It shows several of the limited edition endangered species stamps from the U.S. Postal Service and where the USFWS-determined ranges of those species are located.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/endangered-species-stamp-collection-map/img-map-endangeredstamps.png">
 <meta property="og:site_name" content="Benjamin W. Tjepkes">
@@ -112,10 +113,7 @@
                 Sites
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">GIS Workshop</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
+                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank"><i class="fa-solid fa-layer-group"></i> GIS Workshop</a></li>
               </ul>
             </li>
           </ul>
@@ -605,7 +603,7 @@
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom"});
+    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox","closeEffect":"zoom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;

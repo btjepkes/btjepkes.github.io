@@ -60,7 +60,8 @@
       gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       </script>
       <style>html{ scroll-behavior: smooth; }</style>
-    <meta property="og:title" content="Forest Cover &amp; Happiness Bivariate Map | B.W. Tjepkes">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta property="og:title" content="Forest Cover &amp; Happiness Bivariate Map | B.W. Tjepkes">
 <meta property="og:description" content="This bivariate choropleth map shows happiness scores from WalletHub and forest cover values from the U.S. Forest Service for each U.S. state. This creative project was produced for the 2023 30-day map challenge.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/happy-forests-happy-people-map/img-happy-forests-happy-people-map-thumb.png">
 <meta property="og:site_name" content="Benjamin W. Tjepkes">
@@ -112,10 +113,7 @@
                 Sites
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">GIS Workshop</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
+                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank"><i class="fa-solid fa-layer-group"></i> GIS Workshop</a></li>
               </ul>
             </li>
           </ul>
@@ -147,6 +145,7 @@
             <h2 id="toc-title" class="abstract-title mt-3 mb-3 bg-success text-white text-center py-1">On This Page:</h2>
         <ul>
         <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+        <li><a href="#result" id="toc-result" class="nav-link" data-scroll-target="#result">Result</a></li>
         </ul>
   </nav>
         </div>
@@ -161,23 +160,24 @@
   <h2 class="anchored" data-anchor-id="overview">Overview</h2>
   <p>This map was created for <strong>Day 13</strong> of the 2023 <a href="https://30daymapchallenge.com/">30 Day Map Challenge</a>, which designated “Choropleth” for the main subject. The final product showing both happiness and forest cover as a bivariate choropleth map. Map creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub.</p>
   <div class="tabset-margin-container"></div><div class="panel-tabset">
-  <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Result</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Workflow</a></li></ul>
+  <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Workflow</a></li></ul>
   <div class="tab-content">
   <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+  <p>Data were sourced from the U.S. Forest Service and WalletHub.</p>
+  </div>
+  <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+  <p>Map creation was performed in ArcGIS Pro.</p>
+  </div>
+  </div>
+  </div>
+  </section>
+  <section id="result" class="level2">
+  <h2 class="anchored" data-anchor-id="result">Result</h2>
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
   <p><a href="img-happy-forests-happy-people-map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Resulting bivariate map of happy forests and happy people."><img src="img-happy-forests-happy-people-map.png" class="img-fluid figure-img" alt="Resulting bivariate map of happy forests and happy people."></a></p>
   <figcaption>Resulting bivariate map of happy forests and happy people.</figcaption>
   </figure>
-  </div>
-  </div>
-  <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-  <p>Data were sourced from the U.S. Forest Service and WalletHub.</p>
-  </div>
-  <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-  <p>Map creation was performed in ArcGIS Pro.</p>
-  </div>
-  </div>
   </div>
   
   
@@ -642,7 +642,7 @@
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
+    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;

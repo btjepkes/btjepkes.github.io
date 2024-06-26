@@ -60,7 +60,8 @@
       gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       </script>
       <style>html{ scroll-behavior: smooth; }</style>
-    <meta property="og:title" content="Vineyard and Winery Suitability Map | B.W. Tjepkes">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta property="og:title" content="Vineyard and Winery Suitability Map | B.W. Tjepkes">
 <meta property="og:description" content="Optimal vineyard locations for the Town of Roxbury in Dane County, Wisconsin. This was an assignment for one of my university GIS courses aimed at locating and displaying the prime locations for a new vineyard in Wisconsin.">
 <meta property="og:image" content="https://btjepkes.github.io/gallery/vineyard-and-winery-location-suitability-map/img-vineyard-suitability-map-thumb.jpg">
 <meta property="og:site_name" content="Benjamin W. Tjepkes">
@@ -108,10 +109,7 @@
                 Sites
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">GIS Workshop</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
+                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank"><i class="fa-solid fa-layer-group"></i> GIS Workshop</a></li>
               </ul>
             </li>
           </ul>
@@ -155,7 +153,7 @@
   <h2 class="anchored" data-anchor-id="final-result">Final Result</h2>
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
-  <p><a href="img-map-1.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-map-1.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+  <p><a href="img-map-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-map-1.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
   <figcaption>Credit: Benjamin Tjepkes</figcaption>
   </figure>
   </div>
@@ -622,7 +620,7 @@
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom"});
+    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;

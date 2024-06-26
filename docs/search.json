@@ -417,7 +417,21 @@
     "href": "gallery/michigan-anthrome-map/index.html",
     "title": "Anthrome Map of the Upper Peninsula, MI",
     "section": "",
-    "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome). Another portion of this assignment dealt with creating a climate profile for the region. Data were downloaded from Anthromes 12K DGG Datasets. Figure production was completed in RStudio with several packages including ggplot, ggspatial, and tidyverse. Here is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years.\n  \n  \n  \n  Credit: Benjamin Tjepkes\n  \n  \n  \n  \n  \n  Credit: Benjamin Tjepkes"
+    "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome). Another portion of this assignment dealt with creating a climate profile for the region. Data were downloaded from Anthromes 12K DGG Datasets. Figure production was completed in RStudio with several packages including ggplot, ggspatial, and tidyverse. Here is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years."
+  },
+  {
+    "objectID": "gallery/michigan-anthrome-map/index.html#overview",
+    "href": "gallery/michigan-anthrome-map/index.html#overview",
+    "title": "Anthrome Map of the Upper Peninsula, MI",
+    "section": "",
+    "text": "The assignment for this exploration was to investigate how human activities have turned the biome of this region into an anthrome (i.e., anthropogenic biome). Another portion of this assignment dealt with creating a climate profile for the region. Data were downloaded from Anthromes 12K DGG Datasets. Figure production was completed in RStudio with several packages including ggplot, ggspatial, and tidyverse. Here is the resulting map that I ended up with for my assignment. The upper portion shows the current (ca. 2017) land-use by humans and the lower part steps through a series over the last 270 years."
+  },
+  {
+    "objectID": "gallery/michigan-anthrome-map/index.html#final-result",
+    "href": "gallery/michigan-anthrome-map/index.html#final-result",
+    "title": "Anthrome Map of the Upper Peninsula, MI",
+    "section": "Final Result",
+    "text": "Final Result\n  \n  \n  \n  Credit: Benjamin Tjepkes\n  \n  \n  \n  \n  \n  Credit: Benjamin Tjepkes"
   },
   {
     "objectID": "gallery/index.html",
@@ -459,14 +473,21 @@
     "href": "gallery/happy-forests-happy-people-map/index.html",
     "title": "Forest Cover & Happiness Bivariate Map",
     "section": "",
-    "text": "This map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject. The final product showing both happiness and forest cover as a bivariate choropleth map. Map creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub.\n  \n  ResultDataWorkflow\n  \n  \n  \n  \n  \n  Resulting bivariate map of happy forests and happy people.\n  \n  \n  \n  \n  Data were sourced from the U.S. Forest Service and WalletHub.\n  \n  \n  Map creation was performed in ArcGIS Pro.\n  \n  \n  \n  \n  \n  \n  Resulting bivariate map of happy forests and happy people."
+    "text": "This map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject. The final product showing both happiness and forest cover as a bivariate choropleth map. Map creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub.\n  \n  DataWorkflow\n  \n  \n  Data were sourced from the U.S. Forest Service and WalletHub.\n  \n  \n  Map creation was performed in ArcGIS Pro."
   },
   {
     "objectID": "gallery/happy-forests-happy-people-map/index.html#overview",
     "href": "gallery/happy-forests-happy-people-map/index.html#overview",
     "title": "Forest Cover & Happiness Bivariate Map",
     "section": "",
-    "text": "This map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject. The final product showing both happiness and forest cover as a bivariate choropleth map. Map creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub.\n  \n  ResultDataWorkflow\n  \n  \n  \n  \n  \n  Resulting bivariate map of happy forests and happy people.\n  \n  \n  \n  \n  Data were sourced from the U.S. Forest Service and WalletHub.\n  \n  \n  Map creation was performed in ArcGIS Pro.\n  \n  \n  \n  \n  \n  \n  Resulting bivariate map of happy forests and happy people."
+    "text": "This map was created for Day 13 of the 2023 30 Day Map Challenge, which designated “Choropleth” for the main subject. The final product showing both happiness and forest cover as a bivariate choropleth map. Map creation was performed in ArcGIS Pro. Data were sourced from the U.S. Forest Service and WalletHub.\n  \n  DataWorkflow\n  \n  \n  Data were sourced from the U.S. Forest Service and WalletHub.\n  \n  \n  Map creation was performed in ArcGIS Pro."
+  },
+  {
+    "objectID": "gallery/happy-forests-happy-people-map/index.html#result",
+    "href": "gallery/happy-forests-happy-people-map/index.html#result",
+    "title": "Forest Cover & Happiness Bivariate Map",
+    "section": "Result",
+    "text": "Result\n  \n  \n  \n  Resulting bivariate map of happy forests and happy people.\n  \n  \n  \n  \n  \n  Resulting bivariate map of happy forests and happy people."
   },
   {
     "objectID": "gallery/global-ocean-currents-and-temps/index.html#tools-workflow",
@@ -788,7 +809,21 @@
     "href": "gallery/pennsylvania-bridge-map/index.html",
     "title": "Pennsylvania Bridges from OpenStreetMap",
     "section": "",
-    "text": "This map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject. Map creation was performed in R/Studio using theggplot package. OpenStreeMap data for both bridges and largest cities were accessed via the osmdata package. The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database.\n  \n  \n  \n  Final map of OSM bridges of PA.\n  \n  \n  \n  \n  \n  Final map of OSM bridges of PA."
+    "text": "This map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject. Map creation was performed in R/Studio using theggplot package. OpenStreeMap data for both bridges and largest cities were accessed via the osmdata package. The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database."
+  },
+  {
+    "objectID": "gallery/pennsylvania-bridge-map/index.html#overview",
+    "href": "gallery/pennsylvania-bridge-map/index.html#overview",
+    "title": "Pennsylvania Bridges from OpenStreetMap",
+    "section": "",
+    "text": "This map was created for Day 15 of the 2023 30 Day Map Challenge, which designated “Open Street Map” for the main subject. Map creation was performed in R/Studio using theggplot package. OpenStreeMap data for both bridges and largest cities were accessed via the osmdata package. The resulting map shows locations (points in green) of all bridges in PA based on the OpenStreetMap database."
+  },
+  {
+    "objectID": "gallery/pennsylvania-bridge-map/index.html#final-result",
+    "href": "gallery/pennsylvania-bridge-map/index.html#final-result",
+    "title": "Pennsylvania Bridges from OpenStreetMap",
+    "section": "Final Result",
+    "text": "Final Result\n  \n  \n  \n  Final map of OSM bridges of PA.\n  \n  \n  \n  \n  \n  Final map of OSM bridges of PA."
   },
   {
     "objectID": "gallery/shoreline-structure-setback-compliance-map/index.html",

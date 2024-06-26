@@ -60,7 +60,8 @@
       gtag('config', 'G-ESKNL9H1KZ', { 'anonymize_ip': true});
       </script>
       <style>html{ scroll-behavior: smooth; }</style>
-    <meta property="og:title" content="Crafting a GIS Workshop Site With Quarto | B.W. Tjepkes">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta property="og:title" content="Crafting a GIS Workshop Site With Quarto | B.W. Tjepkes">
 <meta property="og:description" content="This post provides an overview of a recent workshop site I made using Quarto and Github Pages, which covered basic and intermediate geographic information system skills for wildlife and fisheries sciences.">
 <meta property="og:image" content="https://btjepkes.github.io/posts/crafting-a-technical-workshop-site-with-quarto/img-gis-workshop-site-preview.png">
 <meta property="og:site_name" content="Benjamin W. Tjepkes">
@@ -122,10 +123,7 @@
                 Sites
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank">GIS Workshop</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
+                <li><a class="dropdown-item" href="https://btjepkes.github.io/WAFSGSO_2024_GIS/" target="_blank"><i class="fa-solid fa-layer-group"></i> GIS Workshop</a></li>
               </ul>
             </li>
           </ul>
@@ -181,7 +179,7 @@
   <div id="fig-screenshot-site" class="quarto-figure quarto-figure-center quarto-float anchored">
   <figure class="quarto-float quarto-float-fig figure">
   <div aria-describedby="fig-screenshot-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-  <a href="img-gis-workshop-site-preview.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="img-gis-workshop-site-preview.png" class="img-fluid figure-img"></a>
+  <a href="img-gis-workshop-site-preview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2"><img src="img-gis-workshop-site-preview.png" class="img-fluid figure-img"></a>
   </div>
   <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-screenshot-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
   Figure&nbsp;1: Screenshot of the GIS workshop site.
@@ -669,7 +667,7 @@ Quarto.”</span> April 27, 2024. <a href="https://btjepkes.github.io/posts/craf
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom"});
+    <script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
