@@ -579,7 +579,7 @@ font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span></code></pre></div>
   <div class="quarto-figure quarto-figure-center">
-  <figure class="figure"><p><a href="./img-word-cloud.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="The resulting word cloud from my course descriptions."><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
+  <figure class="figure"><p><a href="./img-word-cloud.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="The resulting word cloud from my course descriptions."><img src="https://btjepkes.github.io/posts/text-mining-course-descriptions/img-word-cloud.png" class="img-fluid figure-img" alt="The resulting word cloud from my course descriptions."></a></p>
   <figcaption>The resulting word cloud from my course descriptions.</figcaption></figure>
 </div>
   
