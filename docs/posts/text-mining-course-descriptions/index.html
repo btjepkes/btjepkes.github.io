@@ -130,7 +130,7 @@
           <h5 class="offcanvas-title text-white" id="offcanvasNavbarDarkLabel">Exploring This Site</h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body" style="background: #fffbfa;">
+        <div class="offcanvas-body" style="background: #f7f5f3;">
           <ul class="navbar-nav justify-content-end flex-grow-1">
 <li class="nav-item">
               <a class="nav-link" href="../../about">About</a>
@@ -210,7 +210,7 @@
   <div class="cell">
   <div class="code-with-filename">
   <div class="code-with-filename-file">
-  <pre><strong>matplotlib.py</strong></pre>
+  <pre><strong></strong></pre>
   </div>
   <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Optional install packages, if needed ----</span></span>
 <span><span class="co"># install.packages("tm")  # for text mining</span></span>
@@ -229,7 +229,6 @@
   <p>Next, we need to get our data into R and format everything as a <code><a href="https://rdrr.io/pkg/tm/man/Corpus.html">tm::Corpus</a></code> dataset that can be transformed in later steps.</p>
   <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Load the text</span></span>
 <span><span class="va">text</span> <span class="op">&lt;-</span> <span class="fu">base</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/base/readLines.html">readLines</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.choose.html">file.choose</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span></span>
-<span></span>
 <span></span>
 <span><span class="co"># Load the data as a corpus</span></span>
 <span><span class="va">docs</span> <span class="op">&lt;-</span> <span class="fu">tm</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/tm/man/Corpus.html">Corpus</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/pkg/tm/man/VectorSource.html">VectorSource</a></span><span class="op">(</span><span class="va">text</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -748,7 +747,7 @@ Descriptions.”</span> May 21, 2024. <a href="https://btjepkes.github.io/posts/
     </script><script src="https://giscus.app/client.js" data-repo="btjepkes/btjepkes.github.io" data-repo-id="R_kgDOJTu9rA" data-category="General" data-category-id="DIC_kwDOJTu9rM4CfHe9" data-mapping="title" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
     </script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false});
+    <script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;

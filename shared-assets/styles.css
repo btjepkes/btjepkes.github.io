@@ -374,11 +374,20 @@ figure > figcaption {
   padding: 12px;
   border-radius: 6px;
   margin-top: 12px;
-  box-shadow: inset 5px 0px 30px 5px #ebebeb;
   
   code.sourceCode {
   white-space: break-spaces !important;}
 }
+
+div.sourceCode{
+  background: #FFF;
+}
+
+
+.quarto-appendix-secondary-label {
+  margin-top: 30px;
+}
+
 
 .quarto-appendix-citeas {
   padding: 12px;
@@ -386,7 +395,6 @@ figure > figcaption {
   margin-top: 12px;
   background: #fff;
   text-align: left;
-  box-shadow: inset 5px 0px 30px 5px #ebebeb;
 }
 
 .quarto-appendix-contents {

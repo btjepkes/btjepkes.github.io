@@ -1,0 +1,18 @@
+---
+title: "STL Deer-Vehicle Accident Map"
+subtitle: "Distribution of DVA in St. Louis County."
+abstract: "Visualizing DVA across St. Louis County, Missouri."
+date: 11/13/2024
+date-modified: today
+categories:
+  - Map Gallery
+keywords:
+  - Missouri
+image: img-stl-dva-map.png
+image-alt: "A map of deer-vehicle accidents in St. Louis County, Missouri."
+# aliases:
+---
+
+## Final Result
+
+![Credit: Benjamin Tjepkes](img-stl-dva-map.png)

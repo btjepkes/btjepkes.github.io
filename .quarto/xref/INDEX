@@ -374,5 +374,11 @@
   },
   "research/index.knit.md": {
     "index.knit.html": "1d21645f"
+  },
+  "gallery/stl-deer-vehicle-accidents-map/index.qmd": {
+    "index.html": "b22ff0fe"
+  },
+  "gallery/superior-nf-land-cover-map/index.qmd": {
+    "index.html": "4591965e"
   }
 }

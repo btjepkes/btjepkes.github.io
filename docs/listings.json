@@ -31,6 +31,8 @@
   {
     "listing": "/gallery/index.html",
     "items": [
+      "/gallery/stl-deer-vehicle-accidents-map/index.html",
+      "/gallery/superior-nf-land-cover-map/index.html",
       "/gallery/bird-observation-map-series/index.html",
       "/gallery/michigan-anthrome-map/index.html",
       "/gallery/pennsylvania-bridge-map/index.html",
@@ -63,10 +65,6 @@
       "/gallery/mdc-furbearer-program-annual-report-2021/index.html",
       "/gallery/bald-eagle-nest-monitoring-report/index.html"
     ]
-  },
-  {
-    "listing": "/curriculum-vitae/index.html",
-    "items": []
   },
   {
     "listing": "/posts/index.html",

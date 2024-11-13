@@ -35,7 +35,7 @@ The first step we need to do is install and/or load all the required packages. T
 
 
 
-```{r filename="matplotlib.py"}
+```{r filename=""}
 #| eval: false
 #| fig-cap: "Caption text"
 # Optional install packages, if needed ----
@@ -59,7 +59,6 @@ Next, we need to get our data into R and format everything as a `tm::Corpus` dat
 ```r
 # Load the text
 text <- base::readLines(file.choose())
-
 
 # Load the data as a corpus
 docs <- tm::Corpus(VectorSource(text))

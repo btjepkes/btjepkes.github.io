@@ -55,14 +55,15 @@ $danger:        $red !default;
 $light:         rgb(233, 238, 244) !default;
 $dark:          $gray-700 !default;
 
+
 // Colours
 // https://quarto.org/docs/output-formats/html-themes.html#colors
-$body-bg: $light-shade !default; // The page background color.
-$body-color: $dark-shade !default; // The page text color.
-$headings-color: $main-colour !default; // The heading color.
-$link-color: #1f883d !default; // The link color.
-$input-bg: $white !default; // The background color for HTML inputs.
-$popover-bg: $white !default;	// The background color for popovers.
+$body-bg: #f7f5f3 !default;          // The page background color.
+$body-color: $dark-shade !default;        // The page text color.
+$headings-color: $main-colour !default;   // The heading color.
+$link-color: #1f883d !default;            // The link color.
+$input-bg: $white !default;               // The background color for HTML inputs.
+$popover-bg: $white !default;	            // The background color for popovers.
 
 // Fonts
 // https://quarto.org/docs/output-formats/html-themes.html#fonts
@@ -83,5 +84,5 @@ $footer-bg: $body-bg !default; // The background colour of the footer.
 $footer-fg: $main-colour !default; //	The colour of foreground elements in the footer.
 
 // Code
-$code-color: $dark-accent !default;
+$code-color: $main-colour !default;
 $btn-code-copy-color: $dark-accent !default;

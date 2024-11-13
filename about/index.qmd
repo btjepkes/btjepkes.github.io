@@ -14,7 +14,7 @@ comments: false
 
 ## Overview
 
-Hello! My name is Benjamin (Ben) Tjepkes and I am a wildlife ecologist and geographer with a passion for conservation data science. I am currently a **graduate student** at the **University of Missouri** studying geographic information systems (GIS) in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**. My professional interests revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives species interactions, wildlife movement, and resource availability across the landscape.
+Hello! My name is Benjamin (Ben) Tjepkes and I am a wildlife ecologist and quantitative geographer with a passion for conservation science. I am currently a **graduate student** at the **University of Missouri** studying geographic information systems (GIS) in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in **ecology and biogeography**. My professional interests revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives species interactions, wildlife movement, and resource availability across the landscape.
 
 ## My Pathway
 

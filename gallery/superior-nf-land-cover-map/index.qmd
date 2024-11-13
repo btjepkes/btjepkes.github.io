@@ -1,0 +1,18 @@
+---
+title: "Superior NF Land Cover Map"
+subtitle: "Land cover classification map for Superior National Forest, MN."
+abstract: "Visualizing land cover classifications for Superior National Forest and surrounding area in the arrowhead of Minnesota."
+date: 09/01/2024
+date-modified: today
+categories:
+  - Map Gallery
+keywords:
+  - Minnesota
+image: img-superior-nf-land-cover-map.png
+image-alt: "A map of the land cover in Superior NF."
+# aliases:
+---
+
+## Final Result
+
+![Credit: Benjamin Tjepkes](img-superior-nf-land-cover-map.png)

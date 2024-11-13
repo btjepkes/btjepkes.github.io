@@ -343,6 +343,20 @@
     "text": "This project is registered with the Open Science Framework under the DOI 10.17605/OSF.IO/D3WRG."
   },
   {
+    "objectID": "gallery/stl-deer-vehicle-accidents-map/index.html",
+    "href": "gallery/stl-deer-vehicle-accidents-map/index.html",
+    "title": "STL Deer-Vehicle Accident Map",
+    "section": "",
+    "text": "Credit: Benjamin Tjepkes\n  \n  \n  \n  \n  \n  Credit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "gallery/stl-deer-vehicle-accidents-map/index.html#final-result",
+    "href": "gallery/stl-deer-vehicle-accidents-map/index.html#final-result",
+    "title": "STL Deer-Vehicle Accident Map",
+    "section": "",
+    "text": "Credit: Benjamin Tjepkes\n  \n  \n  \n  \n  \n  Credit: Benjamin Tjepkes"
+  },
+  {
     "objectID": "gallery/postsecondary-institutions-map/index.html#task-objectives",
     "href": "gallery/postsecondary-institutions-map/index.html#task-objectives",
     "title": "Post-Secondary Institutions Hexmap",
@@ -571,14 +585,14 @@
     "href": "curriculum-vitae/index.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Academic Curriculum vitae\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  2-Page Standard Resume\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  1-Page Abbreviated Resume\n  \n  \n  \n  \n  \n  \n  \n  No matching items"
+    "text": "Unable to display PDF file. Download instead."
   },
   {
-    "objectID": "curriculum-vitae/index.html#pdf-versions",
-    "href": "curriculum-vitae/index.html#pdf-versions",
+    "objectID": "curriculum-vitae/index.html#curriculum-vitae",
+    "href": "curriculum-vitae/index.html#curriculum-vitae",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Academic Curriculum vitae\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  2-Page Standard Resume\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  1-Page Abbreviated Resume\n  \n  \n  \n  \n  \n  \n  \n  No matching items"
+    "text": "Unable to display PDF file. Download instead."
   },
   {
     "objectID": "curriculum-vitae/index.html#my-experience-geography",
@@ -599,14 +613,14 @@
     "href": "about/index.html",
     "title": "About Me",
     "section": "",
-    "text": "Hello! My name is Benjamin (Ben) Tjepkes and I am a wildlife ecologist and geographer with a passion for conservation data science. I am currently a graduate student at the University of Missouri studying geographic information systems (GIS) in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives species interactions, wildlife movement, and resource availability across the landscape."
+    "text": "Hello! My name is Benjamin (Ben) Tjepkes and I am a wildlife ecologist and quantitative geographer with a passion for conservation science. I am currently a graduate student at the University of Missouri studying geographic information systems (GIS) in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives species interactions, wildlife movement, and resource availability across the landscape."
   },
   {
     "objectID": "about/index.html#overview",
     "href": "about/index.html#overview",
     "title": "About Me",
     "section": "",
-    "text": "Hello! My name is Benjamin (Ben) Tjepkes and I am a wildlife ecologist and geographer with a passion for conservation data science. I am currently a graduate student at the University of Missouri studying geographic information systems (GIS) in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives species interactions, wildlife movement, and resource availability across the landscape."
+    "text": "Hello! My name is Benjamin (Ben) Tjepkes and I am a wildlife ecologist and quantitative geographer with a passion for conservation science. I am currently a graduate student at the University of Missouri studying geographic information systems (GIS) in the Department of Geography. My work focuses on using a variety of data science and geospatial tools to conduct research in ecology and biogeography. My professional interests revolve around the conservation of nature, especially under the pressures of climate change. I am especially interested in how climate drives species interactions, wildlife movement, and resource availability across the landscape."
   },
   {
     "objectID": "about/index.html#my-pathway",
@@ -847,6 +861,20 @@
     "text": "Final Result"
   },
   {
+    "objectID": "gallery/superior-nf-land-cover-map/index.html",
+    "href": "gallery/superior-nf-land-cover-map/index.html",
+    "title": "Superior NF Land Cover Map",
+    "section": "",
+    "text": "Credit: Benjamin Tjepkes\n  \n  \n  \n  \n  \n  Credit: Benjamin Tjepkes"
+  },
+  {
+    "objectID": "gallery/superior-nf-land-cover-map/index.html#final-result",
+    "href": "gallery/superior-nf-land-cover-map/index.html#final-result",
+    "title": "Superior NF Land Cover Map",
+    "section": "",
+    "text": "Credit: Benjamin Tjepkes\n  \n  \n  \n  \n  \n  Credit: Benjamin Tjepkes"
+  },
+  {
     "objectID": "gallery/tiger-distribution-map/index.html#objectives",
     "href": "gallery/tiger-distribution-map/index.html#objectives",
     "title": "Tiger Range and Conservation Landscapes",
@@ -1005,7 +1033,7 @@
     "href": "posts/text-mining-course-descriptions/index.html#workflow---word-cloud",
     "title": "Mining Text From Course Descriptions",
     "section": "Workflow - Word Cloud",
-    "text": "Workflow - Word Cloud\n  The steps I took for this process came largely from this blog post, which was extremely helpful in understanding these text mining packages in R.\n  1. Data Processing\n  The first step we need to do is install and/or load all the required packages. This will include several new-to-me packages like tm and wordcloud along with some familiar ones like RColorBrewer.\n  \n  \n  \n  matplotlib.py\n  \n  # Optional install packages, if needed ----\n# install.packages(\"tm\")  # for text mining\n# install.packages(\"SnowballC\") # for text stemming\n# install.packages(\"wordcloud\") # word-cloud generator \n# install.packages(\"RColorBrewer\") # color palettes\n\n# Load required packages, once installed ----\nlibrary(\"tm\")\nlibrary(\"SnowballC\")\nlibrary(\"wordcloud\")\nlibrary(\"RColorBrewer\")\n  \n  \n  2. Data Import\n  Next, we need to get our data into R and format everything as a tm::Corpus dataset that can be transformed in later steps.\n  # Load the text\ntext &lt;- base::readLines(file.choose())\n\n\n# Load the data as a corpus\ndocs &lt;- tm::Corpus(VectorSource(text))\n  3. Data Wrangling\n  # Text transformation ----\ntoSpace &lt;- content_transformer(function (x , pattern ) gsub(pattern, \" \", x))\ndocs &lt;- tm_map(docs, toSpace, \"/\")\ndocs &lt;- tm_map(docs, toSpace, \"@\")\ndocs &lt;- tm_map(docs, toSpace, \"\\\\|\")\n\n# Text cleaning ----\n\n# Convert the text to lower case\ndocs &lt;- tm_map(docs, content_transformer(tolower))\n# Remove numbers\ndocs &lt;- tm_map(docs, removeNumbers)\n# Remove english common stopwords\ndocs &lt;- tm_map(docs, removeWords, stopwords(\"english\"))\n# Remove your own stop word\n# specify your stopwords as a character vector\ndocs &lt;- tm_map(docs, removeWords, c(\"course\", \"will\")) \n# Remove punctuations\ndocs &lt;- tm_map(docs, removePunctuation)\n# Eliminate extra white spaces\ndocs &lt;- tm_map(docs, stripWhitespace)\n  4. Creating Matrix\n  # Build a Term-Document Matrix ----\ndtm &lt;- TermDocumentMatrix(docs)\nm &lt;- as.matrix(dtm)\nv &lt;- sort(rowSums(m),decreasing=TRUE)\nd &lt;- data.frame(word = names(v),freq=v)\nhead(d, 10)\n  5. Visualization\n  # Create and save word cloud\nset.seed(1234)\ngrDevices::png(filename = \"./word_plot.png\",\n               width = 1000,\n               height = 1000,\n               units = \"px\",\n               res = 150)\nwordcloud::wordcloud(words = d$word, freq = d$freq, min.freq = 1,\n          max.words=200, random.order=FALSE, rot.per=0.35, \n          colors=brewer.pal(8, \"Dark2\"))\ngrDevices::dev.off()\n  \n  \n  The resulting word cloud from my course descriptions.\n\n  \n  \n  \n  The resulting word cloud from my course descriptions."
+    "text": "Workflow - Word Cloud\n  The steps I took for this process came largely from this blog post, which was extremely helpful in understanding these text mining packages in R.\n  1. Data Processing\n  The first step we need to do is install and/or load all the required packages. This will include several new-to-me packages like tm and wordcloud along with some familiar ones like RColorBrewer.\n  \n  \n  \n  \n  \n  # Optional install packages, if needed ----\n# install.packages(\"tm\")  # for text mining\n# install.packages(\"SnowballC\") # for text stemming\n# install.packages(\"wordcloud\") # word-cloud generator \n# install.packages(\"RColorBrewer\") # color palettes\n\n# Load required packages, once installed ----\nlibrary(\"tm\")\nlibrary(\"SnowballC\")\nlibrary(\"wordcloud\")\nlibrary(\"RColorBrewer\")\n  \n  \n  2. Data Import\n  Next, we need to get our data into R and format everything as a tm::Corpus dataset that can be transformed in later steps.\n  # Load the text\ntext &lt;- base::readLines(file.choose())\n\n# Load the data as a corpus\ndocs &lt;- tm::Corpus(VectorSource(text))\n  3. Data Wrangling\n  # Text transformation ----\ntoSpace &lt;- content_transformer(function (x , pattern ) gsub(pattern, \" \", x))\ndocs &lt;- tm_map(docs, toSpace, \"/\")\ndocs &lt;- tm_map(docs, toSpace, \"@\")\ndocs &lt;- tm_map(docs, toSpace, \"\\\\|\")\n\n# Text cleaning ----\n\n# Convert the text to lower case\ndocs &lt;- tm_map(docs, content_transformer(tolower))\n# Remove numbers\ndocs &lt;- tm_map(docs, removeNumbers)\n# Remove english common stopwords\ndocs &lt;- tm_map(docs, removeWords, stopwords(\"english\"))\n# Remove your own stop word\n# specify your stopwords as a character vector\ndocs &lt;- tm_map(docs, removeWords, c(\"course\", \"will\")) \n# Remove punctuations\ndocs &lt;- tm_map(docs, removePunctuation)\n# Eliminate extra white spaces\ndocs &lt;- tm_map(docs, stripWhitespace)\n  4. Creating Matrix\n  # Build a Term-Document Matrix ----\ndtm &lt;- TermDocumentMatrix(docs)\nm &lt;- as.matrix(dtm)\nv &lt;- sort(rowSums(m),decreasing=TRUE)\nd &lt;- data.frame(word = names(v),freq=v)\nhead(d, 10)\n  5. Visualization\n  # Create and save word cloud\nset.seed(1234)\ngrDevices::png(filename = \"./word_plot.png\",\n               width = 1000,\n               height = 1000,\n               units = \"px\",\n               res = 150)\nwordcloud::wordcloud(words = d$word, freq = d$freq, min.freq = 1,\n          max.words=200, random.order=FALSE, rot.per=0.35, \n          colors=brewer.pal(8, \"Dark2\"))\ngrDevices::dev.off()\n  \n  \n  The resulting word cloud from my course descriptions.\n\n  \n  \n  \n  The resulting word cloud from my course descriptions."
   },
   {
     "objectID": "research/beaver-impacted-water-control-structures/index.html",
