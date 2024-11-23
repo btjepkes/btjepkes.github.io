@@ -18,7 +18,7 @@
 $dark-shade: #191F3D;
 $dark-shade-alpha: #191F3D85;
 $dark-accent: #BA70A0;
-$main-colour: #123C69;
+$main-colour: #46727a; //#123C69;
 $light-accent: #24639E;
 $light-accent-hl: rgb(81, 129, 177);
 $light-shade: #fffbfa;
@@ -48,7 +48,7 @@ $cyan:    #268bd2 !default;
 
 $primary:       $main-colour !default;
 $secondary:     $gray-500 !default;
-$success:       rgb(23, 100, 45) !default;
+$success:       #48712c; //rgb(23, 100, 45) !default;
 $info:          $light-accent !default;
 $warning:       rgb(147, 64, 30) !default;
 $danger:        $red !default;

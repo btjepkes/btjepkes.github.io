@@ -235,7 +235,7 @@ figure > figcaption {
 
 #title-block-header {
   margin-block-end: 0;
-  background: #153557;
+  background: #1b2c31 /*#153557*/;
   background-image: url("https://dnr.wisconsin.gov/sites/default/files/backgrounds/bg_halftone_lgt.png");
 /*  background-position: center 50%;
   background-size: 80px;*/
