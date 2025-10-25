@@ -74,7 +74,11 @@ format:
 
 Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects.
 
-[About Me](about/index.qmd){.btn .btn-light .btn-sm}
+<!-- [About Me](about/index.qmd){.btn .btn-primary .btn-sm} -->
+<!-- [About Me](about/index.qmd){.btn .btn-secondary .btn-lg} -->
+<!-- [About Me](about/index.qmd){.btn .btn-success .btn-lg} -->
+<!-- [About Me](about/index.qmd){.btn .btn-danger .btn-lg} -->
+<!-- [About Me](about/index.qmd){.btn .btn-warning .btn-lg} -->
 
 :::
 
@@ -100,7 +104,7 @@ Emphasis Areas:
 
 :::
 
-:::{.g-col-12 .g-col-md-6 .bg-info .p-3 .rounded .bg-noise .shadow }
+:::{.g-col-12 .g-col-md-6 .bg-dark .p-3 .rounded .bg-noise .shadow }
 ## Geospatial Technology {.text-white}
 
 - Geographic Information Systems
@@ -149,7 +153,7 @@ Across the scopes of spatial ecology, biogeography, and geospatial science.
 :::{.g-col-12 .g-col-md-4 .bg-warning .p-3 .rounded .bg-tree .shadow}
 ### Resources {.text-white}
 
-For coding, stats, and making maps.
+Digital and print resources for coding, statistics, ecology, and making maps.
 
 [Learn More <i class="bi bi-arrow-right-short"></i>](resources/index.qmd){.btn .btn-sm .btn-light .mt-3}
 
