@@ -37,9 +37,10 @@ h1 {
   color: white;
 }
 
+/*
 h2 {
   border-bottom-width: 2px;
-}
+}*/
 
 /*body {
   background-image: linear-gradient(to bottom,
@@ -95,6 +96,7 @@ h2 {
   font-style: normal;
   font-optical-sizing: auto;
   overflow: visible;
+  color: #1b2c31;
 }
 
 .navbar-logo {
@@ -126,6 +128,7 @@ h2 {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 0;
   margin-right: 14px;
+  color: #1b2c31;
 }
 
 .navbar-toggler {
@@ -151,6 +154,10 @@ h2 {
 .quarto-grid-item {
   box-shadow: rgba(14, 37, 52, 0.05) 0px 3px 5px 0px, rgba(14, 37, 52, 0.05) 0px 1px 1px 0px;
   background: #fff;
+}
+
+.quarto-grid-item .card-text-small {
+  font-size: 0.7em;
 }
 
 .listings-gallery .quarto-grid-item div.post-contents {
@@ -393,6 +400,7 @@ div.sourceCode{
   padding: 12px;
   border-radius: 6px;
   margin-top: 12px;
+  margin-bottom: 40px;
   background: #fff;
   text-align: left;
 }

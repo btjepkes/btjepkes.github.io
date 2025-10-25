@@ -70,11 +70,11 @@ format:
 
 :::{.g-col-12 .g-col-md-12 .text-center}
 
-# A dedicated wildlife ecologist and geospatial scientist...
+# Wildlife Ecologist / Geospatial Scientist / Data Specialist
 
-Hello, my name is **Ben Tjepkes** and this is my online portfolio showcasing my professional and creative projects. I am a graduate student at the University of Missouri in the Department of Geography where I use a variety of data science and geospatial tools to conduct research in wildlife ecology and biogeography.
+Hello, my name is Ben Tjepkes and this is my online portfolio showcasing my professional and creative projects.
 
-[About Me](about/index.qmd){.btn .btn-light .btn-sm} [Curriculum vitae](curriculum-vitae/index.qmd){.btn .btn-success .btn-sm}
+[About Me](about/index.qmd){.btn .btn-light .btn-sm}
 
 :::
 
@@ -89,7 +89,7 @@ Emphasis Areas:
 
 :::{.grid .column-page }
 
-:::{.g-col-12 .g-col-md-6 .bg-primary .p-3 .rounded .bg-noise .shadow }
+:::{.g-col-12 .g-col-md-6 .bg-info .p-3 .rounded .bg-noise .shadow }
 
 ## Ecology & Conservation {.text-white}
 
@@ -100,7 +100,7 @@ Emphasis Areas:
 
 :::
 
-:::{.g-col-12 .g-col-md-6 .bg-success .p-3 .rounded .bg-noise .shadow }
+:::{.g-col-12 .g-col-md-6 .bg-info .p-3 .rounded .bg-noise .shadow }
 ## Geospatial Technology {.text-white}
 
 - Geographic Information Systems
@@ -118,17 +118,17 @@ Primary Works:
 
 :::{.grid .column-page .mb-4}
 
-:::{.g-col-12 .g-col-md-4 .bg-warning .p-3 .rounded .bg-tree .shadow}
+<!-- :::{.g-col-12 .g-col-md-4 .bg-warning .p-3 .rounded .bg-tree .shadow} -->
 
-### Blog Posts {.text-white}
+<!-- ### Blog Posts {.text-white} -->
 
-Covering technical and creative topics, from ecology to cartography.
+<!-- Covering technical and creative topics, from ecology to cartography. -->
 
-[Learn More <i class="bi bi-arrow-right-short"></i>](posts/index.qmd){.btn .btn-sm .btn-light .mt-3}
+<!-- [Learn More <i class="bi bi-arrow-right-short"></i>](posts/index.qmd){.btn .btn-sm .btn-light .mt-3} -->
 
-:::
+<!-- ::: -->
 
-:::{.g-col-12 .g-col-md-4 .bg-dark .p-3 .rounded .bg-tree .shadow}
+:::{.g-col-12 .g-col-md-4 .bg-success .p-3 .rounded .bg-tree .shadow}
 ### Project Gallery {.text-white}
 
 Examples from professional and personal projects in data and geospatial.
@@ -143,6 +143,15 @@ Examples from professional and personal projects in data and geospatial.
 Across the scopes of spatial ecology, biogeography, and geospatial science.
 
 [Learn More <i class="bi bi-arrow-right-short"></i>](research/index.qmd){.btn .btn-sm .btn-light .mt-3}
+
+:::
+
+:::{.g-col-12 .g-col-md-4 .bg-warning .p-3 .rounded .bg-tree .shadow}
+### Resources {.text-white}
+
+For coding, stats, and making maps.
+
+[Learn More <i class="bi bi-arrow-right-short"></i>](resources/index.qmd){.btn .btn-sm .btn-light .mt-3}
 
 :::
 

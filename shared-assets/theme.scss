@@ -49,11 +49,11 @@ $cyan:    #268bd2 !default;
 $primary:       $main-colour !default;
 $secondary:     $gray-500 !default;
 $success:       #48712c; //rgb(23, 100, 45) !default;
-$info:          $light-accent !default;
+$info:          rgb(37, 83, 125) !default;
 $warning:       rgb(147, 64, 30) !default;
 $danger:        $red !default;
 $light:         rgb(233, 238, 244) !default;
-$dark:          $gray-700 !default;
+$dark:          #1b2c31 !default;
 
 
 // Colours
@@ -73,7 +73,7 @@ $font-family-monospace:  'Inconsolata', monospace !default;
 //$navbar-font-family:     'Assistant', sans-serif !default;
 $font-size-root:       17px !default;
 $font-size-base:       1rem !default;
-$headings-font-weight: 900 !default;
+$headings-font-weight: 700 !default;
 $toc-font-size:        16px !default;
 
 // Navigation

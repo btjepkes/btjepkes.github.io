@@ -44,7 +44,7 @@ main {margin-top: 0;}
   color: white;
   
     h1 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: clamp(1.3em, 5vw, 1.9em);
     line-height: 1.2;
     margin-top: 0.5em;

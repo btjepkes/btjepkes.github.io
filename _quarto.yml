@@ -143,11 +143,11 @@ format:
     link-external-newwindow: true
     code-link: true
     code-overflow: scroll
-    comments:
-      giscus:
-        loading: lazy
-        reactions-enabled: false
-        repo: btjepkes/btjepkes.github.io
+    # comments:
+    #   giscus:
+    #     loading: lazy
+    #     reactions-enabled: false
+    #     repo: btjepkes/btjepkes.github.io
     grid:
       body-width: 800px
       #gutter-width: 5%
