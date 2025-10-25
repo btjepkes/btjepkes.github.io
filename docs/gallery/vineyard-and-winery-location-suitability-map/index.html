@@ -153,7 +153,7 @@
   <h2 class="anchored" data-anchor-id="final-result">Final Result</h2>
   <div class="quarto-figure quarto-figure-center">
   <figure class="figure">
-  <p><a href="img-map-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Credit: Benjamin Tjepkes"><img src="img-map-1.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
+  <p><a href="img-map-1.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Credit: Benjamin Tjepkes"><img src="img-map-1.jpg" class="img-fluid figure-img" alt="Credit: Benjamin Tjepkes"></a></p>
   <figcaption>Credit: Benjamin Tjepkes</figcaption>
   </figure>
   </div>
@@ -616,7 +616,7 @@
     });
     </script>
     </div> <!-- /content -->
-    <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox"});
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;

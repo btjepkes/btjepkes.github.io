@@ -8,7 +8,7 @@ categories:
   - Map Gallery
 keywords:
   - Missouri
-image: img-stl-dva-map.png
+image: img-stl-dva-map-thumb.png
 image-alt: "A map of deer-vehicle accidents in St. Louis County, Missouri."
 # aliases:
 ---
